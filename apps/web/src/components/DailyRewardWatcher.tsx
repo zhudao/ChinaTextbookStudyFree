@@ -175,7 +175,7 @@ export function DailyRewardWatcher() {
   }
 
   return (
-    <Modal open={makeupStreak !== null} onClose={handleMakeupDecline}>
+    <Modal ariaLabel="连胜补签" open={makeupStreak !== null} onClose={handleMakeupDecline}>
       <div className="flex flex-col items-center text-center">
         <Mascot mood="sad" size={96} />
         <h2 className="text-2xl font-extrabold text-ink mt-3">连胜要断啦！</h2>

@@ -92,7 +92,7 @@ export function FillBlankQuestion({
   return (
     <div className="w-full">
       <div className="flex items-start gap-3 mb-6">
-        <div className="text-xl font-bold text-ink leading-relaxed whitespace-pre-wrap flex-1">
+        <div className="text-xl font-bold text-ink leading-relaxed whitespace-pre-wrap flex-1 min-w-0">
           <MathText text={question.question} />
         </div>
         <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
@@ -104,7 +104,7 @@ export function FillBlankQuestion({
         animate={{ scale: 1, opacity: 1 }}
         transition={{ type: "spring", damping: 18, stiffness: 260 }}
       >
-        {answer || <span className="text-ink-light/50 text-xl font-bold">点下方数字键</span>}
+        {answer || <span className="text-ink-light text-xl font-bold">点下方数字键</span>}
       </motion.div>
 
       {phase === "checked" && !isCorrect && (

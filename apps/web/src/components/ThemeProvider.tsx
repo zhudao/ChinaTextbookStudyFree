@@ -24,6 +24,7 @@
 import { useEffect } from "react";
 import { MotionConfig } from "framer-motion";
 import { useProgressStore } from "@/store/progress";
+import { themeAccentColors } from "@/lib/themeColors";
 import { getCosmeticById, type UiTheme } from "@/lib/cosmetics";
 import { useThemeMode, useSystemPrefersDark } from "@/lib/themeMode";
 
@@ -48,6 +49,9 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 
     const freeDark = mode === "dark" || (mode === "system" && systemDark);
     const isDark = !!d.isDark || freeDark;
+    for (const [name, value] of Object.entries(themeAccentColors(d.primary, d.primaryDark, d.accent, isDark))) {
+      root.style.setProperty(name, value);
+    }
 
     if (d.isDark) {
       // 购买的暗色主题：同一套 token，用主题自带色板覆盖 night 缺省值

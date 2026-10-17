@@ -6,10 +6,10 @@
  * 这是 Mascot.tsx 内部 <svg viewBox="0 0 120 120"> 的子元素，
  * 根据装备的 skin id 渲染对应的帽子 / 眼镜 / 配件 SVG。
  *
- * 配件坐标从 iOS MascotView.swift 的 drawAccessory 逐点移植，
+ * 配件沿用 iOS 的位置锚点，Web 材质通过实例独立的渐变增强体积感。
  * 锚点参考熊猫主体几何：
- *   - 头中心 ≈ (60, 50)，半径 ≈ 37（头顶边缘 y ≈ 13）
- *   - 耳朵 (34, 30) / (86, 30)
+ *   - 头中心 ≈ (60, 46)，半径 ≈ 36（头顶边缘 y ≈ 10）
+ *   - 耳朵 (32, 21) / (88, 21)
  *   - 双眼水平 y ≈ 48
  *   - 脖颈/胸口 ≈ y 88
  *
@@ -18,15 +18,38 @@
 
 import * as React from "react";
 
-const GOLD = "#FFC800";
-const GOLD_DARK = "#E0A800";
-const DARK = "#2E2E2E";
+const GOLD = "var(--mascot-gold, #FFC800)";
+const GOLD_DARK = "var(--mascot-gold-band, #E0A800)";
+const DARK = "var(--mascot-dark, #2E2E2E)";
 
 interface MascotSkinOverlayProps {
   skinId?: string | null;
 }
 
 export function MascotSkinOverlay({ skinId }: MascotSkinOverlayProps) {
+  const id = "panda-skin-" + React.useId().replace(/[^a-zA-Z0-9_-]/g, "");
+  if (!skinId || skinId === "skin_default") return null;
+  const materials = {
+    gold: ["#ffe19b", "#e8bc51", "#b98126"],
+    "gold-band": ["#d8af5e", "#bc8e35", "#93651e"],
+    dark: ["#555956", "#343936", "#212723"],
+    purple: ["#ae92df", "#8560c5", "#60409a"],
+    blue: ["#80c8e2", "#4da4cb", "#297da6"],
+    red: ["#e58d90", "#c95f66", "#a43e48"],
+  };
+  const variables = Object.fromEntries(Object.keys(materials).map(name =>
+    ["--mascot-" + name, "url(#" + id + "-" + name + ")"]));
+  return <g style={variables as React.CSSProperties}>
+    <defs>{Object.entries(materials).map(([name, colors]) => <linearGradient
+      key={name} id={id + "-" + name} x1="0" y1="0" x2=".4" y2="1">
+      <stop stopColor={colors[0]} /><stop offset=".55" stopColor={colors[1]} />
+      <stop offset="1" stopColor={colors[2]} />
+    </linearGradient>)}</defs>
+    <Accessory skinId={skinId} />
+  </g>;
+}
+
+function Accessory({ skinId }: MascotSkinOverlayProps) {
   switch (skinId) {
     case "skin_graduate":
       return <GraduateCap />;
@@ -65,7 +88,7 @@ function GraduateCap() {
   return (
     <g>
       <path d="M 42 16 L 78 16 L 76 26 L 44 26 Z" fill={DARK} />
-      <path d="M 60 2 L 100 17 L 60 32 L 20 17 Z" fill="#1F1F1F" />
+      <path d="M 60 2 L 100 17 L 60 32 L 20 17 Z" fill={DARK} />
       {/* 流苏 */}
       <path d="M 96 18 Q 103 25 100 34" fill="none" stroke={GOLD} strokeWidth="2.4" strokeLinecap="round" />
       <circle cx="100" cy="37" r="4" fill={GOLD} />
@@ -122,7 +145,7 @@ function GoldCrown() {
 function WizardHat() {
   return (
     <g>
-      <path d="M 62 -8 L 38 30 L 86 30 Z" fill="#7C3AED" />
+      <path d="M 62 -8 L 38 30 L 86 30 Z" fill="var(--mascot-purple, #7C3AED)" />
       <rect x="34" y="26" width="56" height="9" rx="4" fill="#5B21B6" />
       {/* 小金星 */}
       <path
@@ -159,9 +182,9 @@ function AstronautHelmet() {
 function Sunglasses() {
   return (
     <g>
-      <rect x="31" y="39" width="27" height="19" rx="7" fill="#22262B" />
-      <rect x="62" y="39" width="27" height="19" rx="7" fill="#22262B" />
-      <line x1="58" y1="45" x2="62" y2="45" stroke="#22262B" strokeWidth="4" />
+      <rect x="31" y="39" width="27" height="19" rx="7" fill={DARK} />
+      <rect x="62" y="39" width="27" height="19" rx="7" fill={DARK} />
+      <line x1="58" y1="45" x2="62" y2="45" stroke={DARK} strokeWidth="4" />
       <path d="M 36 54 L 46 42" stroke="#FFFFFF" strokeWidth="2.2" opacity="0.5" />
     </g>
   );
@@ -173,12 +196,12 @@ function Sunglasses() {
 function PirateHat() {
   return (
     <g>
-      <path d="M 18 26 L 60 4 L 102 26 L 96 32 L 24 32 Z" fill="#1F2328" />
+      <path d="M 18 26 L 60 4 L 102 26 L 96 32 L 24 32 Z" fill={DARK} />
       <rect x="22" y="24" width="76" height="9" rx="4" fill="#8B0000" />
       <circle cx="60" cy="17" r="5" fill="#FFFFFF" />
       {/* 左眼罩 + 绑带 */}
-      <circle cx="45" cy="48" r="11" fill="#1F2328" />
-      <line x1="24" y1="40" x2="92" y2="44" stroke="#1F2328" strokeWidth="2.6" />
+      <circle cx="45" cy="48" r="11" fill={DARK} />
+      <line x1="24" y1="40" x2="92" y2="44" stroke={DARK} strokeWidth="2.6" />
     </g>
   );
 }
@@ -192,12 +215,12 @@ function Headphones() {
       <path
         d="M 18.7 31 A 44 44 0 0 1 101.3 31"
         fill="none"
-        stroke="#1CB0F6"
+        stroke="var(--mascot-blue, #1CB0F6)"
         strokeWidth="6"
         strokeLinecap="round"
       />
-      <rect x="10" y="40" width="16" height="26" rx="7" fill="#1899D6" />
-      <rect x="94" y="40" width="16" height="26" rx="7" fill="#1899D6" />
+      <rect x="10" y="40" width="16" height="26" rx="7" fill="var(--mascot-blue, #1899D6)" />
+      <rect x="94" y="40" width="16" height="26" rx="7" fill="var(--mascot-blue, #1899D6)" />
     </g>
   );
 }
@@ -211,8 +234,9 @@ function LaurelWreath() {
     for (let k = 0; k < 4; k++) {
       const ang = (dir > 0 ? 310 : 230) + k * (dir > 0 ? 18 : -18);
       const rad = (ang * Math.PI) / 180;
-      const cx = 60 + Math.cos(rad) * 42;
-      const cy = 52 + Math.sin(rad) * 42;
+      // Node and browser trig can differ in the last decimal; keep SSR stable.
+      const cx = Number((60 + Math.cos(rad) * 42).toFixed(3));
+      const cy = Number((52 + Math.sin(rad) * 42).toFixed(3));
       leaves.push(
         <ellipse
           key={`${dir}-${k}`}
@@ -256,8 +280,8 @@ function LaurelWreath() {
 function BowTie() {
   return (
     <g>
-      <path d="M 44 88 L 56 82 L 56 96 L 44 94 Z" fill="#E5484D" />
-      <path d="M 76 88 L 64 82 L 64 96 L 76 94 Z" fill="#E5484D" />
+      <path d="M 44 88 L 56 82 L 56 96 L 44 94 Z" fill="var(--mascot-red, #E5484D)" />
+      <path d="M 76 88 L 64 82 L 64 96 L 76 94 Z" fill="var(--mascot-red, #E5484D)" />
       <circle cx="60" cy="89" r="4.6" fill="#B8353A" />
     </g>
   );

@@ -190,20 +190,11 @@ export function Heart({ size = 24, ...props }: IconProps) {
   );
 }
 
-/** 火焰：单一水滴状轮廓，低调 */
+/** 连胜火焰：分明的焰尖与内焰，避免缩小时读成水滴。 */
 export function Flame({ size = 24, ...props }: IconProps) {
-  return (
-    <svg
-      {...COMMON}
-      width={size}
-      height={size}
-      fill="currentColor"
-      stroke="none"
-      {...props}
-    >
-      <path d="M12 2.5c.3 2.2-.85 3.45-2.2 4.9C8.2 9 6.75 10.75 6.75 13.5 6.75 17.4 9.6 20.5 13 20.5c3.4 0 6.25-3.1 6.25-7 0-2.85-1.7-4.55-3.5-6.35-1.35-1.35-2.2-2.9-2-4.65H12z" />
-    </svg>
-  );
+  return <svg {...COMMON} width={size} height={size} fill="currentColor" {...props}>
+    <path fillRule="evenodd" d="M13 2c1.1 3.6-.4 5.7-2.2 7.8-1.3-1.1-2-2.3-1.7-4.1C6 8.1 4 10.7 4 14a8 8 0 0 0 16 0c0-3.1-1.6-6-4.3-8.2.1 2.1-.5 3.6-1.6 4.4C15.1 6.8 14.9 4.3 13 2Zm-.8 10.4c-.5 2-2.7 2.8-2.7 4.8a2.5 2.5 0 0 0 5 0c0-1.7-1-3.3-2.3-4.8Z" clipRule="evenodd" />
+  </svg>;
 }
 
 /** 星：标准 5 角星，端正，几何精确 */
@@ -544,18 +535,21 @@ export function VolumeMute({ size = 24, ...props }: IconProps) {
   );
 }
 
-/** Gem —— 多面切割的宝石/钻石，实体填充 */
+/** 宝石：清楚的切面，减少小尺寸下交错的细线。 */
 export function Gem({ size = 24, ...props }: IconProps) {
-  return (
-    <svg {...COMMON} width={size} height={size} fill="currentColor" {...props}>
-      <path d="M6 3h12l4 6-10 12L2 9l4-6z" fill="currentColor" />
-      <path d="M2 9h20" stroke="white" strokeWidth={1.2} fill="none" opacity={0.55} />
-      <path d="M12 21l-3-12" stroke="white" strokeWidth={1.2} fill="none" opacity={0.55} />
-      <path d="M12 21l3-12" stroke="white" strokeWidth={1.2} fill="none" opacity={0.55} />
-      <path d="M9 9L6 3" stroke="white" strokeWidth={1.2} fill="none" opacity={0.55} />
-      <path d="M15 9l3-6" stroke="white" strokeWidth={1.2} fill="none" opacity={0.55} />
-    </svg>
-  );
+  return <svg {...COMMON} width={size} height={size} fill="currentColor" {...props}>
+    <path d="M6.5 3.5h11L22 9 12 21 2 9l4.5-5.5Z" />
+    <path d="m6.5 3.5 3 5.5h5l3-5.5H6.5Z" fill="white" opacity=".32" />
+    <path d="M2 9h20L12 21 9.5 9" fill="none" stroke="white" strokeWidth="1.1" opacity=".5" />
+  </svg>;
+}
+
+/** 导航中的商店使用购物袋，与宝石余额区分。 */
+export function ShoppingBag({ size = 24, ...props }: IconProps) {
+  return <svg {...COMMON} width={size} height={size} fill="none" stroke="currentColor" strokeWidth="1.8" {...props}>
+    <path d="M5 7.5h14l1 12a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 19.5l1-12Z" />
+    <path d="M8.5 8V6a3.5 3.5 0 0 1 7 0v2" />
+  </svg>;
 }
 
 /** Chest —— 封闭宝箱（未开） */
@@ -643,34 +637,15 @@ export function Picture({ size = 24, ...props }: IconProps) {
   );
 }
 
-/** Panda —— 熊猫聪聪脸（用于"聪聪皮肤"商店分类 / 路径装饰） */
+/** 小尺寸分类图标，使用统一线条；大幅角色由 Mascot 渲染。 */
 export function Panda({ size = 24, ...props }: IconProps) {
-  return (
-    <svg
-      {...COMMON}
-      width={size}
-      height={size}
-      fill="currentColor"
-      stroke="none"
-      {...props}
-    >
-      {/* 耳朵 */}
-      <circle cx="6.2" cy="6" r="2.6" />
-      <circle cx="17.8" cy="6" r="2.6" />
-      {/* 头（白脸走镂空：先画实心头，再用白色画脸） */}
-      <circle cx="12" cy="12.5" r="8.5" />
-      <circle cx="12" cy="12.5" r="6.9" fill="white" />
-      {/* 眼圈 */}
-      <ellipse cx="9" cy="11.6" rx="2.2" ry="2.8" fill="currentColor" transform="rotate(-12 9 11.6)" />
-      <ellipse cx="15" cy="11.6" rx="2.2" ry="2.8" fill="currentColor" transform="rotate(12 15 11.6)" />
-      {/* 眼珠高光 */}
-      <circle cx="9.3" cy="11.2" r="0.8" fill="white" />
-      <circle cx="14.7" cy="11.2" r="0.8" fill="white" />
-      {/* 鼻子 + 嘴 */}
-      <ellipse cx="12" cy="15" rx="1.3" ry="1" fill="currentColor" />
-      <path d="M12 16v1.1M12 17.1q1 1 2 .5M12 17.1q-1 1-2 .5" stroke="currentColor" strokeWidth="0.9" fill="none" />
-    </svg>
-  );
+  return <svg {...COMMON} width={size} height={size} fill="none" stroke="currentColor" strokeWidth="1.7" {...props}>
+    <path d="M5.1 7.1a3 3 0 1 1 4-3.4M14.9 3.7a3 3 0 1 1 4 3.4" />
+    <path d="M21 12.5c0 5-4 8.5-9 8.5s-9-3.5-9-8.5S7 4 12 4s9 3.5 9 8.5Z" />
+    <ellipse cx="8.5" cy="11.5" rx="1.5" ry="2" transform="rotate(15 8.5 11.5)" fill="currentColor" stroke="none" />
+    <ellipse cx="15.5" cy="11.5" rx="1.5" ry="2" transform="rotate(-15 15.5 11.5)" fill="currentColor" stroke="none" />
+    <path d="m10.5 15 1.5 1 1.5-1M12 16v1.5" />
+  </svg>;
 }
 
 /** Confetti —— 庆祝彩带（替代 🎉 emoji） */

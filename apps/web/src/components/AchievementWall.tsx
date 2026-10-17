@@ -7,7 +7,7 @@
  * 进入即调用 markAllSeen，清掉底部导航的红点。
  */
 
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import {
   ALL_ACHIEVEMENTS,
@@ -46,6 +46,7 @@ const ICON_MAP = {
 
 export function AchievementWall() {
   const state = useProgressStore();
+  const [expanded, setExpanded] = useState(false);
   // 账本 ∪ 实时集：已解锁（进账本）的成就永不"回灰"，
   // 实时集兜底账本尚未写入的瞬间（Watcher 稍后补账）
   const unlockedIds = useMemo(
@@ -80,8 +81,8 @@ export function AchievementWall() {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
-        {ALL_ACHIEVEMENTS.map((a, idx) => (
+      <div id="achievement-grid" className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        {(expanded ? ALL_ACHIEVEMENTS : ALL_ACHIEVEMENTS.slice(0, 4)).map((a, idx) => (
           <AchievementBadge
             key={a.id}
             ach={a}
@@ -91,6 +92,11 @@ export function AchievementWall() {
           />
         ))}
       </div>
+      <button type="button" aria-expanded={expanded} aria-controls="achievement-grid"
+        onClick={() => setExpanded(value => !value)}
+        className="mt-4 min-h-11 w-full rounded-xl border border-bg-softer text-sm font-bold text-ink-light hover:bg-bg-soft">
+        {expanded ? "收起成就" : `查看全部 ${totalCount} 项成就`}
+      </button>
     </section>
   );
 }
@@ -118,28 +124,28 @@ function AchievementBadge({
         unlocked ? "bg-white" : "bg-bg-soft"
       }`}
       style={{
-        borderColor: unlocked ? ach.color : "#E5E5E5",
+        borderColor: unlocked ? ach.color : "var(--app-border, #E5E5E5)",
         boxShadow: unlocked ? `0 3px 0 0 ${ach.color}` : "0 2px 0 0 var(--shadow-card-color)",
       }}
     >
       <div
         className="w-12 h-12 rounded-full flex items-center justify-center"
         style={{
-          background: unlocked ? `${ach.color}22` : "#E5E5E5",
+          background: unlocked ? `${ach.color}22` : "var(--app-border, #E5E5E5)",
           color: unlocked ? ach.color : "#9CA3AF",
         }}
       >
         <Icon className="w-6 h-6" />
       </div>
       <div
-        className={`text-[11px] font-extrabold mt-1.5 leading-tight line-clamp-1 ${
+        className={`text-sm font-extrabold mt-2 leading-snug ${
           unlocked ? "text-ink" : "text-ink-softer"
         }`}
         title={ach.name}
       >
         {ach.name}
       </div>
-      <div className="text-[9px] text-ink-softer leading-tight mt-0.5 line-clamp-2 min-h-[1.6em]">
+      <div className="text-xs text-ink-light leading-relaxed mt-1 min-h-[3em]">
         {ach.description}
       </div>
       {!unlocked ? (
@@ -161,9 +167,9 @@ function AchievementBadge({
           }
           filename={`chengjiu-${ach.id}.png`}
           shareText={`我在聪聪学堂解锁了成就「${ach.name}」！`}
-          className="mt-1.5 inline-flex items-center gap-0.5 text-[9px] font-extrabold rounded-full px-2 py-0.5 border transition-colors hover:bg-bg-soft"
+          className="mt-2 min-h-11 w-full inline-flex items-center justify-center text-xs font-bold text-ink-light rounded-xl border border-bg-softer transition-colors hover:bg-bg-soft"
         >
-          <span style={{ color: ach.color }}>分享 📤</span>
+          <span>分享成就</span>
         </ShareCardButton>
       )}
     </motion.div>

@@ -42,7 +42,7 @@ const BOX_LABELS: Record<number, { label: string; color: string }> = {
 };
 
 const GRADUATED_LABEL = {
-  label: "已掌握 🎓",
+  label: "已掌握",
   color: "text-secondary-dark bg-secondary/10 border-secondary/30",
 };
 
@@ -70,7 +70,7 @@ export function ReviewClient() {
   // 按 lessonId 分组
   const grouped = sortedMistakes.reduce<Record<string, { title: string; items: typeof mistakes }>>((acc, m) => {
     const key = m.lessonId;
-    if (!acc[key]) acc[key] = { title: m.lessonTitle || m.lessonId, items: [] };
+    if (!acc[key]) acc[key] = { title: m.lessonTitle || "学习练习", items: [] };
     acc[key].items.push(m);
     return acc;
   }, {});
@@ -85,26 +85,27 @@ export function ReviewClient() {
     <AppShell centerMaxWidth={840}>
     <main className="min-h-screen bg-bg-soft lg:bg-transparent relative">
       {/* Header —— 仅移动端：白底 sticky（lg+ HUD 由右栏 RightRail 常驻，不再重复） */}
-      <div className="bg-white border-b border-bg-softer sticky top-0 z-10 lg:hidden">
-        <div className="max-w-2xl lg:max-w-4xl mx-auto flex items-center justify-between gap-3 px-4 py-3 lg:px-0 lg:py-2">
+      <div className="shell-page-toolbar bg-white border-b border-bg-softer">
+        <div className="max-w-2xl lg:max-w-4xl mx-auto flex flex-wrap items-center justify-between gap-3 px-4 py-3 lg:px-0 lg:py-2">
           <SoundLink
             href="/"
             aria-label="返回"
-            className="inline-flex items-center justify-center w-10 h-10 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0 lg:hidden"
+            className="inline-flex items-center justify-center w-11 h-11 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0 lg:hidden"
           >
             <ArrowLeft className="w-5 h-5" />
           </SoundLink>
           <div className="flex-1 min-w-0 text-center lg:hidden">
-            <div className="text-base font-extrabold text-ink truncate">错题本</div>
+            <h1 className="text-base font-extrabold text-ink">错题本</h1>
           </div>
           <div className="hidden lg:block flex-1" />
-          <div className="shrink-0">
+          <div className="w-full min-[480px]:w-auto shrink-0 flex justify-end">
             <StatsBar compact />
           </div>
         </div>
       </div>
 
-      <div className="max-w-2xl lg:max-w-4xl mx-auto px-4 py-6">
+      <div className="max-w-2xl lg:max-w-4xl mx-auto px-4 pt-6 pb-28">
+        <h1 className="hidden lg:block text-3xl font-extrabold text-ink mb-6">错题本</h1>
         {hydrated && totalMistakes > 0 && (
           <SrsSummary
             todayCount={dueCount}
@@ -116,8 +117,8 @@ export function ReviewClient() {
         {hydrated && totalMistakes === 0 ? (
           <EmptyState
             mood="cheer"
-            title="还没有错题！"
-            desc="继续加油，保持零错误～"
+            title="这里记录你的进步"
+            desc="做错的题会收在这里，慢慢练，就会越来越熟悉。"
             action={
               <SoundLink href="/" hapticIntensity="medium" className="btn-chunky-primary px-8">
                 去学习
@@ -164,7 +165,7 @@ export function ReviewClient() {
           initial={{ y: 80, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ type: "spring", damping: 20, stiffness: 240, delay: 0.2 }}
-          className="fixed bottom-20 lg:bottom-6 left-0 right-0 z-20 px-5 pointer-events-none"
+          className="fixed bottom-[calc(5rem+env(safe-area-inset-bottom))] md:bottom-6 left-0 right-0 z-20 px-5 pointer-events-none"
         >
           <div className="max-w-2xl lg:max-w-4xl mx-auto flex justify-center">
             <SoundLink
@@ -222,7 +223,7 @@ function SrsSummary({
         <SrsBucket label="今天" count={todayCount} color="text-danger" bg="bg-danger/10" />
         <SrsBucket label="明天" count={tomorrowCount} color="text-warning" bg="bg-warning/15" />
         <SrsBucket label="之后" count={laterCount} color="text-secondary" bg="bg-secondary/10" />
-        <SrsBucket label="已掌握 🎓" count={graduatedCount} color="text-primary" bg="bg-primary/10" />
+        <SrsBucket label="已掌握" count={graduatedCount} color="text-primary" bg="bg-primary/10" />
       </div>
     </motion.section>
   );
@@ -242,7 +243,7 @@ function SrsBucket({
   return (
     <div className={`rounded-xl ${bg} p-2 text-center`}>
       <div className={`text-xl font-extrabold tabular-nums leading-none ${color}`}>{count}</div>
-      <div className="text-[10px] uppercase tracking-wider text-ink-softer font-extrabold mt-1">
+      <div className="text-xs text-ink-light font-extrabold mt-1">
         {label}
       </div>
     </div>
@@ -298,19 +299,19 @@ function MistakeItem({
           </div>
 
           {/* 正确答案默认折叠：先想一想，再看答案 */}
-          <button
+          {!correctAnswer.trim() ? <p className="mt-2 text-sm text-ink-light">进入复习后同步题目</p> : <button
             type="button"
             onClick={() => {
               playSfx("tap");
               haptic("light");
               setExpanded(x => !x);
             }}
-            className="mt-2 text-xs font-semibold text-secondary hover:text-secondary-dark"
+            className="mt-2 min-h-11 px-2 text-sm font-semibold text-secondary hover:underline"
           >
             {expanded ? "收起答案" : "查看答案"}
-          </button>
+          </button>}
           <AnimatePresence>
-            {expanded && (
+            {expanded && !!correctAnswer.trim() && (
               <motion.div
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: "auto" }}

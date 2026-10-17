@@ -48,8 +48,8 @@ export function GradePicker() {
   }
 
   return (
-    <div className="fixed inset-0 z-40 bg-bg flex flex-col">
-      <div className="flex-1 flex flex-col items-center justify-start pt-12 px-5 overflow-y-auto pb-32">
+    <main aria-label="选择年级" className="fixed inset-0 z-50 bg-bg flex flex-col">
+      <div className="flex-1 flex flex-col items-center justify-start pt-6 sm:pt-12 px-5 overflow-y-auto pb-6">
         {/* 顶部 mascot + 气泡 */}
         <motion.div
           initial={{ opacity: 0, y: 12 }}
@@ -72,6 +72,7 @@ export function GradePicker() {
               <motion.button
                 key={opt.grade}
                 type="button"
+                aria-pressed={selected}
                 initial={{ opacity: 0, x: 12 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.1 + i * 0.05 }}
@@ -124,7 +125,7 @@ export function GradePicker() {
       </div>
 
       {/* 底部 sticky 继续按钮 */}
-      <div className="border-t-2 border-bg-softer bg-white">
+      <div className="shrink-0 border-t-2 border-bg-softer bg-white" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
         <div className="max-w-md mx-auto px-5 py-4 flex justify-end">
           <AnimatePresence>
             {picked != null && (
@@ -134,7 +135,7 @@ export function GradePicker() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 8 }}
                 onClick={handleContinue}
-                className="btn-chunky-primary px-10"
+                className="btn-chunky-primary w-full px-10"
               >
                 继续
               </motion.button>
@@ -144,13 +145,13 @@ export function GradePicker() {
             <button
               type="button"
               disabled
-              className="btn-chunky-disabled px-10"
+              className="btn-chunky-disabled w-full px-10"
             >
               继续
             </button>
           )}
         </div>
       </div>
-    </div>
+    </main>
   );
 }

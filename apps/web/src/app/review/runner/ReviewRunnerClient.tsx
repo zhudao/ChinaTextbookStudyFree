@@ -4,12 +4,12 @@
  * ReviewRunnerClient —— 错题复习 runner（/review/runner/）
  *
  * 多邻国式「真实作答」复习流程：
- *   - 队列 = 今日到期错题（core getDueSrsEntries，毕业条目除外）
+ *   - 普通队列为今日到期错题；回心入口可补充额外巩固，额外题不推进SRS
  *   - 复用 QuestionRenderer + core gradeAnswer 真实判分，答完才亮对错与解析
  *   - 首次作答的结果驱动 SRS（store reviewMistake）；答错的题重排队尾再练
  *   - 完成页：正确数 + XP（store awardReviewXP，每答对 +5）+ 毕业庆祝
- *   - 走完一整轮到期错题且首答答对 ≥ REVIEW_HEART_MIN_CORRECT 题 → 补 1 颗红心
- *     （store awardReviewHeart，每天一次的账本在 store 里，对齐 iOS content-7）
+ *   - 完成整轮：首答正确达五题；可用题不足五题则整轮正确 → 补 1 颗红心
+ *     （store awardReviewHeart，每天一次的账本在 store 里）
  *
  * 无红心消耗：复习是「安全区」，答错只会把题排回队尾，不扣心。
  */
@@ -17,47 +17,61 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import dynamic from "next/dynamic";
-import { motion, AnimatePresence, useAnimation, useReducedMotion } from "framer-motion";
+import {
+  motion,
+  AnimatePresence,
+  useAnimation,
+  useReducedMotion,
+} from "framer-motion";
 import type { Question } from "@/types";
 import { gradeAnswer } from "@/lib/grade";
-import { getDueSrsEntries } from "@/lib/srs";
+import { prepareReview, type ReviewItem } from "@/lib/prepareReview";
+import {
+  newReviewSession,
+  readReviewSession,
+  restoreReviewSession,
+  saveReviewSession,
+  reviewContext,
+  recoveryAction,
+  type ReviewSession,
+  type ReviewStats,
+} from "@/lib/reviewSession";
+import { dateKey } from "@cstf/core/week";
+import { useProgressTicker, formatMsCountdown } from "@/lib/useProgressTicker";
+import { loadReviewLessons, reconcileMistakes } from "@/lib/reviewContent";
+import { answerReady } from "@/lib/questionDraft";
 import {
   useProgressStore,
   REVIEW_XP_PER_CORRECT,
   REVIEW_HEART_MIN_CORRECT,
 } from "@/store/progress";
-import { QuestionRenderer, type QuestionPhase } from "@/components/question/QuestionRenderer";
+import {
+  QuestionRenderer,
+  type QuestionPhase,
+} from "@/components/question/QuestionRenderer";
 import { MathText } from "@/components/MathText";
 import { Mascot } from "@/components/Mascot";
 import { EmptyState } from "@/components/StateMessages";
 import { SoundLink } from "@/components/SoundLink";
 import { MuteToggle, useSyncMute } from "@/components/MuteToggle";
-import { Close, CheckCircle, XCircle, Lightning, Heart, Bookmark } from "@/components/icons";
+import {
+  Close,
+  CheckCircle,
+  XCircle,
+  Lightning,
+  Heart,
+  Bookmark,
+} from "@/components/icons";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 
 const ConfettiCanvas = dynamic(
-  () => import("@/components/ConfettiCanvas").then(m => ({ default: m.ConfettiCanvas })),
+  () =>
+    import("@/components/ConfettiCanvas").then((m) => ({
+      default: m.ConfettiCanvas,
+    })),
   { ssr: false },
 );
-
-/** 队列条目：一道待复习的错题 */
-interface ReviewItem {
-  key: string; // `${lessonId}:${questionId}` 唯一键
-  lessonId: string;
-  lessonTitle: string;
-  question: Question;
-}
-
-/** 会话结算快照 */
-interface ReviewStats {
-  total: number;
-  correct: number;
-  xpGained: number;
-  graduated: number;
-  /** 本轮补回的红心数（0 = 没到门槛 / 今天领过 / 已满心） */
-  heartsGained: number;
-}
 
 export function ReviewRunnerClient() {
   useSyncMute();
@@ -65,30 +79,102 @@ export function ReviewRunnerClient() {
   const searchParams = useSearchParams();
   // 断心跳转标记（?from=hearts）：完成页多给一句「红心会慢慢恢复」的安抚。
   const fromHearts = searchParams.get("from") === "hearts";
+  const fallbackLessonId =
+    searchParams.get("lesson") ??
+    useProgressStore.getState().activeLesson?.lessonId;
+  const context = reviewContext(fromHearts, fallbackLessonId);
+  const snapshotRef = useRef<ReviewSession | null>(null);
+  const [contentUpdated, setContentUpdated] = useState(false);
+  function persist(patch: Partial<ReviewSession>) {
+    if (!snapshotRef.current) return;
+    snapshotRef.current = { ...snapshotRef.current, ...patch };
+    saveReviewSession(snapshotRef.current);
+  }
+  function restart() {
+    saveReviewSession(null);
+    snapshotRef.current = null;
+    setRetry((n) => n + 1);
+  }
 
-  const reviewMistake = useProgressStore(s => s.reviewMistake);
-  const awardReviewXP = useProgressStore(s => s.awardReviewXP);
-  const awardReviewHeart = useProgressStore(s => s.awardReviewHeart);
+  const reviewMistake = useProgressStore((s) => s.reviewMistake);
+  const awardReviewXP = useProgressStore((s) => s.awardReviewXP);
+  const awardReviewHeart = useProgressStore((s) => s.awardReviewHeart);
   const prefersReduced = useReducedMotion();
 
   // ============ 队列：hydrate 后一次性快照（复习中 store 变化不打乱当前会话）============
   const [ready, setReady] = useState(false);
+  const [loadFailed, setLoadFailed] = useState(false);
+  const [retry, setRetry] = useState(0);
+  const [retiredCount, setRetiredCount] = useState(0);
   const [queue, setQueue] = useState<ReviewItem[]>([]);
   const totalRef = useRef(0);
 
   useEffect(() => {
-    const bank = useProgressStore.getState().mistakesBank;
-    const due = getDueSrsEntries(bank);
-    const items: ReviewItem[] = due.map(e => ({
-      key: `${e.lessonId}:${e.question.id}`,
-      lessonId: e.lessonId,
-      lessonTitle: e.lessonTitle ?? e.lessonId,
-      question: e.question,
-    }));
-    totalRef.current = items.length;
-    setQueue(items);
-    setReady(true);
-  }, []);
+    let cancelled = false;
+    setReady(false);
+    setLoadFailed(false);
+    void (async () => {
+      const bank = useProgressStore.getState().mistakesBank;
+      const saved = readReviewSession(context);
+      let lessons = new Map<string, import("@/types").Lesson | null>();
+      let restored: ReviewSession | null = null;
+      if (saved) {
+        lessons = await loadReviewLessons(saved.items);
+        const fresh = saved.items.flatMap((item) => {
+          const lesson = lessons.get(item.lessonId);
+          const question = lesson?.questions.find(
+            (q) => q.id === item.question.id,
+          );
+          return question
+            ? [{ ...item, question, lessonTitle: lesson!.title }]
+            : [];
+        });
+        restored = restoreReviewSession(saved, fresh);
+      }
+      let items = restored?.items;
+      if (!items) {
+        const prepared = await prepareReview(
+          reconcileMistakes(bank, lessons),
+          fromHearts,
+          fallbackLessonId,
+        );
+        for (const [id, lesson] of prepared.lessons) lessons.set(id, lesson);
+        items = prepared.items;
+      }
+      if (cancelled) return;
+      const snapshot = restored ?? newReviewSession(items, context);
+      snapshotRef.current = items.length ? snapshot : null;
+      saveReviewSession(snapshotRef.current);
+      setContentUpdated(!!saved && !restored);
+      useProgressStore.getState().refreshMistakeContent(lessons);
+      if (
+        fallbackLessonId &&
+        lessons.get(fallbackLessonId) === null &&
+        useProgressStore.getState().activeLesson?.lessonId === fallbackLessonId
+      )
+        useProgressStore.getState().clearLessonSession();
+      setRetiredCount(bank.length - reconcileMistakes(bank, lessons).length);
+      totalRef.current = items.length;
+      const byKey = new Map(items.map((item) => [item.key, item]));
+      setQueue(snapshot.pending.map((key) => byKey.get(key)!));
+      setAnswer(snapshot.answer);
+      setPhase(snapshot.phase);
+      setIsCorrect(snapshot.isCorrect);
+      setSolvedCount(snapshot.solved);
+      setStats(snapshot.stats);
+      firstAttemptRef.current = new Map(snapshot.attempts);
+      graduatedRef.current = snapshot.graduated;
+      settledRef.current = !!snapshot.stats;
+      setReady(true);
+    })().catch(() => {
+      if (cancelled) return;
+      setLoadFailed(true);
+      setReady(true);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [context, fromHearts, fallbackLessonId, retry]);
 
   // ============ 答题状态 ============
   const [answer, setAnswer] = useState("");
@@ -108,22 +194,43 @@ export function ReviewRunnerClient() {
 
   const currentGraduatedNow = useRef(false);
 
+  function handleAnswerChange(value: string) {
+    if (phase !== "answering") return;
+    setAnswer(value);
+    persist({ answer: value });
+  }
   function handleCheck() {
-    if (!current || !answer.trim()) return;
+    if (
+      !current ||
+      snapshotRef.current?.phase !== "answering" ||
+      phase !== "answering" ||
+      !answerReady(current.question, answer)
+    )
+      return;
     const ok = gradeAnswer(current.question, answer);
     setIsCorrect(ok);
     setPhase("checked");
     currentGraduatedNow.current = false;
 
-    // 首答才驱动 SRS（重练答对不提前升 box）
+    // 仅到期题的首答驱动SRS；额外巩固不提前升级或毕业
     if (!firstAttemptRef.current.has(current.key)) {
       firstAttemptRef.current.set(current.key, ok);
-      const newlyGraduated = reviewMistake(current.lessonId, current.question.id, ok);
+      const newlyGraduated =
+        current.scheduled &&
+        reviewMistake(current.lessonId, current.question.id, ok);
       if (newlyGraduated) {
         graduatedRef.current += 1;
         currentGraduatedNow.current = true;
       }
     }
+
+    persist({
+      phase: "checked",
+      isCorrect: ok,
+      answer,
+      attempts: [...firstAttemptRef.current],
+      graduated: graduatedRef.current,
+    });
 
     if (ok) {
       haptic("light");
@@ -132,13 +239,16 @@ export function ReviewRunnerClient() {
       haptic("heavy");
       playSfx("wrong");
       if (!prefersReduced) {
-        shakeControls.start({ x: [0, -8, 8, -5, 5, 0], transition: { duration: 0.45 } });
+        shakeControls.start({
+          x: [0, -8, 8, -5, 5, 0],
+          transition: { duration: 0.45 },
+        });
       }
     }
   }
 
   function handleContinue() {
-    if (!current) return;
+    if (!current || snapshotRef.current?.phase !== "checked") return;
     playSfx("tap");
     haptic("light");
 
@@ -160,6 +270,14 @@ export function ReviewRunnerClient() {
 
     if (nextQueue.length === 0) {
       finishSession(nextSolved);
+    } else {
+      persist({
+        pending: nextQueue.map((item) => item.key),
+        solved: nextSolved,
+        answer: "",
+        phase: "answering",
+        isCorrect: null,
+      });
     }
   }
 
@@ -170,16 +288,25 @@ export function ReviewRunnerClient() {
     const correct = [...attempts.values()].filter(Boolean).length;
     // 统一记账：每首答答对 +5 XP、dailyReviews += 复习量、推进连胜
     const xpGained = awardReviewXP(correct, attempts.size);
-    // parity-5 断心联动：走完一整轮到期错题才结算补心；门槛（答对 ≥ 5 题）、
+    // 走完一整轮才结算补心；首答至少五题正确，不足五题则整轮正确。
     // 上限（不超过 MAX_HEARTS）、当天只领一次都由 store awardReviewHeart 裁决。
-    const heartsGained = awardReviewHeart(correct);
-    setStats({
+    const heartsGained = awardReviewHeart(correct, attempts.size);
+    const result: ReviewStats = {
       total: solved,
       correct,
       xpGained,
       graduated: graduatedRef.current,
       heartsGained,
+    };
+    persist({
+      pending: [],
+      solved,
+      answer: "",
+      phase: "answering",
+      isCorrect: null,
+      stats: result,
     });
+    setStats(result);
     playSfx("complete");
     haptic("success");
   }
@@ -194,21 +321,57 @@ export function ReviewRunnerClient() {
       const correct = [...attempts.values()].filter(Boolean).length;
       awardReviewXP(correct, attempts.size);
     }
+    saveReviewSession(null);
     router.push("/review/");
   }
 
   // ============ 加载占位 ============
   if (!ready) {
     return (
-      <main className="min-h-screen bg-bg-soft flex items-center justify-center">
+      <main className="min-h-screen bg-bg-soft flex flex-col items-center justify-center gap-5">
         <Mascot mood="think" size={100} />
+        <p className="text-ink-light">正在准备题目…</p>
+        <SoundLink href="/review/" className="btn-chunky-ghost px-8">
+          回错题本
+        </SoundLink>
       </main>
     );
   }
 
   // ============ 完成页 ============
+  if (loadFailed) {
+    return (
+      <main className="min-h-screen bg-bg-soft flex items-center justify-center px-5">
+        <EmptyState
+          mood="think"
+          title="题目暂时没有加载好"
+          desc="先重新试试，你的错题进度还在。"
+          action={
+            <div className="flex flex-col gap-3">
+              <button
+                className="btn-chunky-primary px-8"
+                onClick={() => setRetry((n) => n + 1)}
+              >
+                重新加载
+              </button>
+              <SoundLink href="/review/" className="btn-chunky-ghost px-8">
+                回错题本
+              </SoundLink>
+            </div>
+          }
+        />
+      </main>
+    );
+  }
   if (stats) {
-    return <ReviewCompletionScreen stats={stats} fromHearts={fromHearts} />;
+    return (
+      <ReviewCompletionScreen
+        stats={stats}
+        fromHearts={fromHearts}
+        onRestart={restart}
+        returnLessonId={fromHearts ? fallbackLessonId : undefined}
+      />
+    );
   }
 
   // ============ 空队列（直接进入 / 今天没有到期错题）============
@@ -217,11 +380,27 @@ export function ReviewRunnerClient() {
       <main className="min-h-screen bg-bg-soft flex items-center justify-center px-5">
         <EmptyState
           mood="cheer"
-          title="今天没有要复习的错题！"
-          desc="错题都安排好了，明天再来看看吧～"
+          title={
+            retiredCount
+              ? "这些旧题已经更新啦"
+              : fromHearts
+                ? "先选一节小课来巩固"
+                : "今天没有要复习的错题！"
+          }
+          desc={
+            fromHearts
+              ? "这里暂时没有可用题目。可以先听读课文，红心会慢慢恢复。"
+              : retiredCount
+                ? "已移除题目已从错题本更新，可以回课程练习新题。"
+                : "错题都安排好了，明天再来看看吧～"
+          }
           action={
-            <SoundLink href="/review/" hapticIntensity="medium" className="btn-chunky-primary px-8">
-              回错题本
+            <SoundLink
+              href={fromHearts ? "/" : "/review/"}
+              hapticIntensity="medium"
+              className="btn-chunky-primary px-8"
+            >
+              {fromHearts ? "返回学习选课" : "回错题本"}
             </SoundLink>
           }
         />
@@ -231,14 +410,17 @@ export function ReviewRunnerClient() {
 
   // ============ 答题中 ============
   return (
-    <motion.main animate={shakeControls} className="min-h-screen bg-bg-soft flex flex-col">
+    <motion.main
+      animate={shakeControls}
+      className="min-h-screen bg-bg-soft flex flex-col"
+    >
       {/* 顶栏：退出 + 进度条 + 静音 */}
       <div className="bg-white border-b border-bg-softer">
         <div className="max-w-md lg:max-w-2xl mx-auto px-3 py-2.5 flex items-center gap-2">
           <button
             type="button"
             onClick={handleExit}
-            className="h-9 w-9 -ml-1 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
+            className="h-11 w-11 -ml-1 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
             aria-label="退出复习"
           >
             <Close className="w-5 h-5" />
@@ -258,11 +440,19 @@ export function ReviewRunnerClient() {
         </div>
       </div>
 
+      {contentUpdated && (
+        <p
+          role="status"
+          className="max-w-md mx-auto px-5 pt-3 text-sm text-ink-light"
+        >
+          题目内容已更新，本轮已重新准备，不会沿用旧答案和判分。
+        </p>
+      )}
       {/* 来源课程胶囊 */}
       <div className="max-w-md lg:max-w-2xl mx-auto w-full px-5 pt-4">
         <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-danger/10 text-danger text-[11px] font-extrabold">
           <Bookmark className="w-3 h-3" />
-          错题复习 · {current.lessonTitle}
+          {fromHearts ? "巩固练习" : "错题复习"} · {current.lessonTitle}
         </span>
       </div>
 
@@ -282,7 +472,7 @@ export function ReviewRunnerClient() {
                 answer={answer}
                 phase={phase}
                 isCorrect={isCorrect}
-                onChange={setAnswer}
+                onChange={handleAnswerChange}
               />
             </motion.div>
           </AnimatePresence>
@@ -291,8 +481,11 @@ export function ReviewRunnerClient() {
 
       {/* a11y：实时播报判分结果 */}
       <div className="sr-only" aria-live="polite" aria-atomic="true">
-        {phase === "checked" && isCorrect === true && `回答正确。${current.question.explanation ?? ""}`}
-        {phase === "checked" && isCorrect === false &&
+        {phase === "checked" &&
+          isCorrect === true &&
+          `回答正确。${current.question.explanation ?? ""}`}
+        {phase === "checked" &&
+          isCorrect === false &&
           `回答错误。正确答案是：${current.question.answer}。${current.question.explanation ?? ""}`}
       </div>
 
@@ -302,8 +495,12 @@ export function ReviewRunnerClient() {
           <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-4">
             <button
               onClick={handleCheck}
-              disabled={!answer.trim()}
-              className={answer.trim() ? "w-full btn-chunky-primary" : "w-full btn-chunky-disabled"}
+              disabled={!answerReady(current.question, answer)}
+              className={
+                answerReady(current.question, answer)
+                  ? "w-full btn-chunky-primary"
+                  : "w-full btn-chunky-disabled"
+              }
             >
               检查
             </button>
@@ -338,7 +535,9 @@ function ReviewFeedbackPanel({
   graduatedNow: boolean;
   onContinue: () => void;
 }) {
-  const bg = isCorrect ? "bg-primary/10 border-primary" : "bg-danger/10 border-danger";
+  const bg = isCorrect
+    ? "bg-primary/10 border-primary"
+    : "bg-danger/10 border-danger";
   const titleColor = isCorrect ? "text-primary-dark" : "text-danger-dark";
   const btnCls = isCorrect ? "btn-chunky-primary" : "btn-chunky-danger";
 
@@ -352,14 +551,25 @@ function ReviewFeedbackPanel({
       style={{ boxShadow: "0 -8px 24px rgba(0,0,0,0.06)" }}
     >
       <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-5">
-        <div className={`flex items-center gap-3 mb-2 font-extrabold text-2xl ${titleColor}`}>
+        <div
+          className={`flex items-center gap-3 mb-2 font-extrabold text-2xl ${titleColor}`}
+        >
           <motion.span
             initial={{ scale: 0, rotate: -180 }}
             animate={{ scale: 1, rotate: 0 }}
-            transition={{ type: "spring", damping: 12, stiffness: 260, delay: 0.05 }}
+            transition={{
+              type: "spring",
+              damping: 12,
+              stiffness: 260,
+              delay: 0.05,
+            }}
             className="inline-flex"
           >
-            {isCorrect ? <CheckCircle className="w-8 h-8" /> : <XCircle className="w-8 h-8" />}
+            {isCorrect ? (
+              <CheckCircle className="w-8 h-8" />
+            ) : (
+              <XCircle className="w-8 h-8" />
+            )}
           </motion.span>
           <span>{isCorrect ? "答对啦！" : "先看看正确答案"}</span>
           {graduatedNow && (
@@ -399,10 +609,28 @@ function ReviewFeedbackPanel({
 function ReviewCompletionScreen({
   stats,
   fromHearts,
+  onRestart,
+  returnLessonId,
 }: {
   stats: ReviewStats;
   fromHearts: boolean;
+  onRestart: () => void;
+  returnLessonId?: string;
 }) {
+  const activeLesson = useProgressStore((s) => s.activeLesson);
+  const hearts = useProgressStore((s) => s.hearts);
+  const claimed = useProgressStore((s) => s.lastReviewHeartDate);
+  const nextHeartAt = useProgressStore((s) => s.nextHeartAt);
+  const now = useProgressTicker();
+  const action = recoveryAction(
+    hearts,
+    claimed === dateKey(new Date(now)),
+    stats.total,
+  );
+  const resumeId = activeLesson?.lessonId ?? returnLessonId;
+  const resumeHref = resumeId
+    ? `/lesson/${resumeId.split("-u")[0]}/${resumeId}/`
+    : "/";
   useEffect(() => {
     playSfx("complete");
   }, []);
@@ -418,7 +646,7 @@ function ReviewCompletionScreen({
       >
         <Mascot mood="cheer" size={140} reactTo="levelup" reactKey={1} />
         <h1 className="text-4xl font-extrabold text-primary mt-4">复习完成!</h1>
-        <p className="text-ink-light mt-2">错题越练越少，你越来越棒～</p>
+        <p className="text-ink-light mt-2">今天又巩固了一步，继续加油～</p>
 
         {/* 🎓 毕业庆祝 */}
         <AnimatePresence>
@@ -427,11 +655,7 @@ function ReviewCompletionScreen({
               initial={{ scale: 0, y: 8, opacity: 0 }}
               animate={{ scale: 1, y: 0, opacity: 1 }}
               transition={{ delay: 0.5, type: "spring", damping: 12 }}
-              className="inline-flex items-center gap-1.5 h-8 px-4 mt-4 rounded-full font-extrabold text-sm text-white"
-              style={{
-                background: "linear-gradient(135deg, #58CC02, #1CB0F6)",
-                boxShadow: "0 4px 0 0 #58A700",
-              }}
+              className="inline-flex items-center gap-1.5 min-h-8 px-4 mt-4 rounded-full font-extrabold text-sm bg-primary/10 text-primary-dark border border-primary/30"
             >
               <span>{stats.graduated} 道题毕业了！🎓</span>
             </motion.div>
@@ -475,11 +699,7 @@ function ReviewCompletionScreen({
               initial={{ scale: 0, y: 8, opacity: 0 }}
               animate={{ scale: 1, y: 0, opacity: 1 }}
               transition={{ delay: 0.35, type: "spring", damping: 12 }}
-              className="mt-4 inline-flex items-center gap-1.5 h-9 px-4 rounded-full font-extrabold text-base text-white"
-              style={{
-                background: "linear-gradient(135deg, #FF6B6B, #FF4B4B)",
-                boxShadow: "0 4px 0 0 #d33",
-              }}
+              className="mt-4 inline-flex items-center gap-1.5 min-h-9 px-4 py-2 rounded-full font-extrabold text-base bg-danger/10 text-danger border border-danger/30"
             >
               <Heart className="w-4 h-4" />
               <span className="tabular-nums">+{stats.heartsGained}</span>
@@ -489,21 +709,56 @@ function ReviewCompletionScreen({
         </AnimatePresence>
 
         {/* 断心跳转而来：没拿到补心时给一句安抚 + 告诉孩子怎么才能拿到 */}
-        {fromHearts && stats.heartsGained === 0 && (
+        {fromHearts && hearts === 0 && (
           <div className="mt-5 flex items-center justify-center gap-2 px-4 py-3 rounded-2xl bg-danger/10 border-2 border-danger/30 text-danger text-sm font-extrabold">
             <Heart className="w-4 h-4" />
             <span>
-              复习辛苦啦！一轮里答对 {REVIEW_HEART_MIN_CORRECT} 题就能补回 1 颗心，
-              红心也会每 5 分钟自己恢复 1 颗～
+              {action === "retry"
+                ? `已经把题改对啦。再练一轮，首答正确 ${Math.min(REVIEW_HEART_MIN_CORRECT, stats.total)} 题可回心。`
+                : "今天的复习回心已经领取，先让眼睛休息一下。"}
+              {nextHeartAt
+                ? `下一颗红心还需 ${formatMsCountdown(Math.max(0, nextHeartAt - now))}。`
+                : "红心会慢慢恢复。"}
             </span>
           </div>
         )}
 
         <div className="flex flex-col gap-3 mt-8">
-          <SoundLink href="/" hapticIntensity="medium" className="btn-chunky-primary w-full">
-            继续学习
-          </SoundLink>
-          <SoundLink href="/review/" hapticIntensity="light" className="btn-chunky-ghost w-full">
+          {fromHearts && action === "retry" ? (
+            <button onClick={onRestart} className="btn-chunky-primary w-full">
+              再练一轮回红心
+            </button>
+          ) : (
+            <SoundLink
+              href={resumeHref}
+              onClick={() => saveReviewSession(null)}
+              hapticIntensity="medium"
+              className="btn-chunky-primary w-full"
+            >
+              {fromHearts && action === "wait"
+                ? "返回课程查看红心恢复"
+                : activeLesson
+                  ? "继续上次课程"
+                  : returnLessonId
+                    ? "返回这节课程"
+                    : "继续学习"}
+            </SoundLink>
+          )}
+          {fromHearts && action === "wait" && (
+            <SoundLink
+              href="/"
+              onClick={() => saveReviewSession(null)}
+              className="btn-chunky-secondary w-full"
+            >
+              先去选课或听读
+            </SoundLink>
+          )}
+          <SoundLink
+            href="/review/"
+            onClick={() => saveReviewSession(null)}
+            hapticIntensity="light"
+            className="btn-chunky-ghost w-full"
+          >
             回错题本
           </SoundLink>
         </div>

@@ -67,8 +67,8 @@ export function DailyGoalRing({ size = 120 }: DailyGoalRingProps) {
             width: size - stroke * 2 + 4,
             height: size - stroke * 2 + 4,
             background: achieved
-              ? "linear-gradient(180deg, #FFFBEB 0%, #FFF6D6 100%)"
-              : "linear-gradient(180deg, #FFFFFF 0%, #F4F4F5 100%)",
+              ? "linear-gradient(180deg, var(--app-card, #FFFBEB) 0%, var(--app-bg-soft, #FFF6D6) 100%)"
+              : "linear-gradient(180deg, var(--app-card, #FFFFFF) 0%, var(--app-bg-soft, #F4F4F5) 100%)",
             boxShadow: "inset 0 2px 4px rgba(0,0,0,0.04)",
           }}
         />
@@ -93,7 +93,7 @@ export function DailyGoalRing({ size = 120 }: DailyGoalRingProps) {
             cx={size / 2}
             cy={size / 2}
             r={radius}
-            stroke="#EDEDED"
+            stroke="var(--app-border, #EDEDED)"
             strokeWidth={stroke}
             fill="none"
           />
@@ -155,7 +155,7 @@ export function DailyGoalRing({ size = 120 }: DailyGoalRingProps) {
       </motion.button>
 
       {/* 目标调整弹窗 */}
-      <Modal open={showModal} onClose={() => setShowModal(false)}>
+      <Modal ariaLabel="每日目标" open={showModal} onClose={() => setShowModal(false)}>
         <div className="text-center">
           <Target className="w-12 h-12 text-primary mx-auto" />
           <h2 className="text-2xl font-extrabold text-ink mt-2">每日目标</h2>
@@ -165,6 +165,7 @@ export function DailyGoalRing({ size = 120 }: DailyGoalRingProps) {
               <button
                 key={opt}
                 type="button"
+                aria-pressed={goal === opt}
                 onClick={() => {
                   playSfx("tap");
                   haptic("light");

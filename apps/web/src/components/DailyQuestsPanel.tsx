@@ -4,7 +4,7 @@
  * DailyQuestsPanel —— 每日任务卡（仿多邻国 Daily Quests）
  *
  * 三条任务来自 @cstf/core dailyQuests（同一天双端结果一致）：
- *   - 每条任务：图标 + 中文标题 + 进度条 + 宝箱奖励意象
+ *   - 每条任务：图标 + 中文标题 + 进度条与宝石奖励
  *   - 完成未领取 → 高亮「领取」按钮（动效 + 音效 + toast）
  *   - 头部显示「距刷新还有 N 小时」倒计时（本地午夜刷新）
  *
@@ -15,7 +15,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { Quest, QuestKind } from "@cstf/core/quests";
 import { useProgressStore } from "@/store/progress";
-import { Lightning, BookOpen, Bookmark, Book, Chest, ChestOpen, Gem, Check } from "@/components/icons";
+import { Lightning, BookOpen, Bookmark, Book, Gem, Check } from "@/components/icons";
 import { useToast } from "@/components/Toast";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
@@ -93,14 +93,14 @@ export function DailyQuestsPanel() {
 
   return (
     <div
-      className="rounded-2xl border-2 border-bg-softer bg-white p-4"
+      className="min-w-0 rounded-2xl border border-bg-softer bg-white p-4"
       style={{ boxShadow: "0 2px 0 0 var(--shadow-card-color)" }}
     >
-      <div className="flex items-baseline justify-between mb-3">
+      <div className="flex flex-wrap items-baseline justify-between gap-2 mb-4">
         <div className="text-sm font-extrabold text-ink">每日任务</div>
         {hydrated && (
-          <div className="text-[10px] font-extrabold text-ink-softer">
-            距刷新还有 {formatUntilMidnight(now)}
+          <div className="text-[11px] font-medium text-ink-light">
+            {formatUntilMidnight(now)}后刷新
           </div>
         )}
       </div>
@@ -156,20 +156,20 @@ function QuestRow({
   const pct = Math.min(100, Math.round((Math.min(progress, quest.target) / quest.target) * 100));
 
   return (
-    <div className="relative flex items-center gap-3">
+    <div className="relative grid grid-cols-[32px_minmax(0,1fr)_44px] items-center gap-3">
       {/* 任务图标 */}
       <div
-        className={`w-10 h-10 rounded-xl ${claimed ? "bg-bg-soft" : style.iconBg} flex items-center justify-center shrink-0`}
+        className={`w-8 h-8 rounded-lg ${claimed ? "bg-bg-soft" : style.iconBg} flex items-center justify-center shrink-0`}
       >
         <Icon className={`w-5 h-5 ${claimed ? "text-ink-softer" : style.iconColor}`} />
       </div>
 
       <div className="flex-1 min-w-0">
-        <div className={`text-xs font-extrabold truncate ${claimed ? "text-ink-softer" : "text-ink"}`}>
+        <div className={`text-[13px] font-semibold leading-relaxed break-words ${claimed ? "text-ink-softer" : "text-ink"}`}>
           {quest.title}
         </div>
         <div className="mt-1.5 flex items-center gap-2">
-          <div className="flex-1 h-3 rounded-full bg-bg-softer overflow-hidden">
+          <div className="min-w-0 flex-1 h-1.5 rounded-full bg-bg-softer overflow-hidden">
             <motion.div
               initial={false}
               animate={{ width: `${pct}%` }}
@@ -177,46 +177,25 @@ function QuestRow({
               className={`h-full rounded-full ${claimed ? "bg-bg-softer" : style.bar}`}
             />
           </div>
-          <div className="text-[10px] font-extrabold text-ink-softer tabular-nums shrink-0">
+          <div className="text-[11px] font-medium text-ink-light tabular-nums shrink-0">
             {Math.min(progress, quest.target)}/{quest.target}
           </div>
         </div>
       </div>
 
-      {/* 奖励区：宝箱意象 → 可领取时变成高亮「领取」按钮 */}
-      <div className="shrink-0 w-[52px] flex flex-col items-center">
+      <div className="min-w-0 flex justify-end">
         {claimed ? (
-          <div className="flex flex-col items-center text-primary" aria-label="已领取">
-            <ChestOpen className="w-6 h-6" />
-            <span className="mt-0.5 inline-flex items-center gap-0.5 text-[10px] font-extrabold">
-              <Check className="w-3 h-3" /> 已领
-            </span>
-          </div>
+          <span className="inline-flex items-center gap-1 text-xs text-primary-dark" aria-label="已领取">
+            <Check className="w-3.5 h-3.5" />已领
+          </span>
         ) : claimable ? (
-          <motion.button
-            type="button"
-            onClick={onClaim}
-            whileTap={{ scale: 0.92 }}
-            animate={{ scale: [1, 1.08, 1] }}
-            transition={{ duration: 1.2, repeat: Infinity, ease: "easeInOut" }}
-            className="flex flex-col items-center text-white rounded-xl px-2 py-1"
-            style={{
-              background: "linear-gradient(135deg, #FFC800, #FF9600)",
-              boxShadow: "0 3px 0 0 #C89600",
-            }}
-            aria-label={`领取奖励 ${quest.reward} 宝石`}
-          >
-            <Chest className="w-5 h-5" />
-            <span className="text-[10px] font-extrabold leading-tight">领取</span>
-          </motion.button>
+          <motion.button type="button" onClick={onClaim} whileTap={{ scale: 0.96 }}
+            className="min-h-11 rounded-xl bg-primary/10 px-2 text-xs font-bold text-primary-dark"
+            aria-label={`领取奖励 ${quest.reward} 宝石`}>领取</motion.button>
         ) : (
-          <div className="flex flex-col items-center text-ink-softer">
-            <Chest className="w-6 h-6" />
-            <span className="mt-0.5 inline-flex items-center gap-0.5 text-[10px] font-extrabold text-secondary tabular-nums">
-              <Gem className="w-3 h-3" />
-              {quest.reward}
-            </span>
-          </div>
+          <span className="inline-flex items-center gap-1 text-xs font-bold text-gem tabular-nums whitespace-nowrap" aria-label={`奖励 ${quest.reward} 宝石`}>
+            <Gem className="w-3.5 h-3.5" />{quest.reward}
+          </span>
         )}
       </div>
 

@@ -1,0 +1,429 @@
+[
+  {
+    "key": "desktop-dark-shop-1024",
+    "checked": 61,
+    "dark": true,
+    "failures": [],
+    "route": "/shop/",
+    "skipped": [
+      "350",
+      "购买"
+    ],
+    "width": 1024,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 1009,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 768,
+        "immersiveNav": false,
+        "route": "/shop/",
+        "scrollWidth": 1009,
+        "undersizedButtons": [],
+        "width": 1024
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "desktop-dark-theme-equipped",
+    "checked": 58,
+    "dark": true,
+    "failures": [],
+    "route": "/shop/",
+    "skipped": [
+      "350",
+      "购买"
+    ],
+    "width": 1440,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 1425,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 900,
+        "immersiveNav": false,
+        "route": "/shop/",
+        "scrollWidth": 1425,
+        "undersizedButtons": [],
+        "width": 1440
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "desktop-dark-theme-preview",
+    "checked": 57,
+    "dark": true,
+    "failures": [],
+    "route": "/shop/",
+    "skipped": [
+      "400",
+      "解锁",
+      "350",
+      "购买"
+    ],
+    "width": 1440,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 1425,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 900,
+        "immersiveNav": false,
+        "route": "/shop/",
+        "scrollWidth": 1425,
+        "undersizedButtons": [],
+        "width": 1440
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "desktop-light-achievements-expanded",
+    "checked": 121,
+    "dark": false,
+    "failures": [],
+    "route": "/profile/",
+    "skipped": [],
+    "width": 1440,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 1425,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 900,
+        "immersiveNav": false,
+        "route": "/profile/",
+        "scrollWidth": 1425,
+        "undersizedButtons": [],
+        "width": 1440
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "desktop-light-shop-1024",
+    "checked": 61,
+    "dark": false,
+    "failures": [],
+    "route": "/shop/",
+    "skipped": [
+      "350",
+      "购买"
+    ],
+    "width": 1024,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 1009,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 768,
+        "immersiveNav": false,
+        "route": "/shop/",
+        "scrollWidth": 1009,
+        "undersizedButtons": [],
+        "width": 1024
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "desktop-light-theme-equipped",
+    "checked": 59,
+    "dark": false,
+    "failures": [],
+    "route": "/shop/",
+    "skipped": [
+      "350",
+      "购买"
+    ],
+    "width": 1440,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 1425,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 900,
+        "immersiveNav": false,
+        "route": "/shop/",
+        "scrollWidth": 1425,
+        "undersizedButtons": [],
+        "width": 1440
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "mobile-dark-goal-dialog-320",
+    "checked": 102,
+    "dark": true,
+    "failures": [],
+    "route": "/profile/",
+    "skipped": [],
+    "width": 320,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 320,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 568,
+        "immersiveNav": false,
+        "route": "/profile/",
+        "scrollWidth": 320,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "mobile-dark-grading-selected-320",
+    "checked": 11,
+    "dark": true,
+    "failures": [],
+    "route": "/lesson/english-g3up/english-g3up-u4-kp2/",
+    "skipped": [],
+    "width": 320,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 305,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 568,
+        "immersiveNav": false,
+        "route": "/lesson/english-g3up/english-g3up-u4-kp2/",
+        "scrollWidth": 305,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "mobile-dark-grading-wrong-320",
+    "checked": 8,
+    "dark": true,
+    "failures": [],
+    "route": "/lesson/english-g3up/english-g3up-u4-kp2/",
+    "skipped": [
+      "继续"
+    ],
+    "width": 320,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 320,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 568,
+        "immersiveNav": false,
+        "route": "/lesson/english-g3up/english-g3up-u4-kp2/",
+        "scrollWidth": 320,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "mobile-dark-league-unlocked-320",
+    "checked": 69,
+    "dark": true,
+    "failures": [],
+    "route": "/league/",
+    "skipped": [],
+    "width": 320,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 305,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 568,
+        "immersiveNav": false,
+        "route": "/league/",
+        "scrollWidth": 305,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "mobile-dark-reading-long-title-320",
+    "checked": 17,
+    "dark": true,
+    "failures": [],
+    "route": "/reading/english-g6down/english-g6down-p17/",
+    "skipped": [],
+    "width": 320,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 305,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 568,
+        "immersiveNav": false,
+        "route": "/reading/english-g6down/english-g6down-p17/",
+        "scrollWidth": 305,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "mobile-dark-review-due-320",
+    "checked": 32,
+    "dark": true,
+    "failures": [],
+    "route": "/review/",
+    "skipped": [],
+    "width": 320,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 305,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 568,
+        "immersiveNav": false,
+        "route": "/review/",
+        "scrollWidth": 305,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "mobile-dark-shop-insufficient-320",
+    "checked": 63,
+    "dark": true,
+    "failures": [],
+    "route": "/shop/",
+    "skipped": [],
+    "width": 320,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 305,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 568,
+        "immersiveNav": false,
+        "route": "/shop/",
+        "scrollWidth": 305,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "mobile-dark-story-muted-error",
+    "checked": 13,
+    "dark": true,
+    "failures": [],
+    "route": "/stories/english-g3up/english-g3up-s1/",
+    "skipped": [],
+    "width": 320,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 305,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 568,
+        "immersiveNav": false,
+        "route": "/stories/english-g3up/english-g3up-s1/",
+        "scrollWidth": 305,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "mobile-dark-streak-dialog-320",
+    "checked": 111,
+    "dark": true,
+    "failures": [],
+    "route": "/profile/",
+    "skipped": [],
+    "width": 320,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 320,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 568,
+        "immersiveNav": false,
+        "route": "/profile/",
+        "scrollWidth": 320,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "mobile-light-league-unlocked-320",
+    "checked": 69,
+    "dark": false,
+    "failures": [],
+    "route": "/league/",
+    "skipped": [],
+    "width": 320,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 305,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 568,
+        "immersiveNav": false,
+        "route": "/league/",
+        "scrollWidth": 305,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  },
+  {
+    "key": "mobile-light-review-due-320",
+    "checked": 32,
+    "dark": false,
+    "failures": [],
+    "route": "/review/",
+    "skipped": [],
+    "width": 320,
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 305,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 568,
+        "immersiveNav": false,
+        "route": "/review/",
+        "scrollWidth": 305,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  }
+]

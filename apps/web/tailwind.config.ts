@@ -87,12 +87,12 @@ const config: Config = {
 
         // 语义别名（维持原有命名以便现有组件零改动）
         primary: {
-          DEFAULT: DUO.feather,   // #58CC02
-          dark: DUO.treeFrog,     // #58A700 ← 修正
+          DEFAULT: "rgb(var(--theme-primary-rgb, 88 204 2) / <alpha-value>)",   // #58CC02
+          dark: "rgb(var(--theme-primary-dark-rgb, 88 167 0) / <alpha-value>)",     // #58A700 ← 修正
           light: DUO.maskGreen,   // #89E219
         },
         secondary: {
-          DEFAULT: DUO.macaw,     // #1CB0F6
+          DEFAULT: "rgb(var(--theme-accent-rgb, 28 176 246) / <alpha-value>)",     // #1CB0F6
           dark: DUO.whale,        // #1899D6 ← 修正
           light: DUO.iguana,      // #BBE7FC
         },
@@ -104,8 +104,8 @@ const config: Config = {
         gold: DUO.bee,            // #FFC800 ← 统一到 Bee，消除重复
         ink: {
           DEFAULT: DUO.eel,       // #4B4B4B ← 修正（原 #3C3C3C）
-          light: DUO.wolf,        // #777777
-          softer: DUO.hare,       // #AFAFAF
+          light: "#58616B",        // #777777
+          softer: "#5D6670",       // #AFAFAF
         },
         bg: {
           DEFAULT: DUO.snow,      // #FFFFFF

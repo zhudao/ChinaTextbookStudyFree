@@ -71,11 +71,11 @@ export function MathText({ text, block = false }: MathTextProps) {
         if (p.type === "text") return <Fragment key={idx}>{p.value}</Fragment>;
         if (p.type === "block")
           return (
-            <span key={idx} className="block my-2">
+            <span key={idx} className="block my-2 max-w-full overflow-x-auto">
               <BlockMath math={p.value} />
             </span>
           );
-        return <InlineMath key={idx} math={p.value} />;
+        return <span key={idx} className="inline-block max-w-full overflow-x-auto overflow-y-hidden align-middle py-1"><InlineMath math={p.value} /></span>;
       })}
     </span>
   );

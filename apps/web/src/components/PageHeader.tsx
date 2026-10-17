@@ -46,12 +46,12 @@ export function PageHeader({
   return (
     <div className={`w-full ${maxWidthClass}`}>
       {/* 顶部 app bar —— 单行：返回 + stats */}
-      <div className="flex items-center justify-between gap-3 mb-4 lg:mb-6">
+      <div className="shell-page-toolbar flex items-center justify-between gap-3 mb-4 lg:mb-6">
         {backHref ? (
           <SoundLink
             href={backHref}
             aria-label="返回"
-            className="inline-flex items-center justify-center w-10 h-10 lg:w-11 lg:h-11 rounded-full bg-white border-2 border-bg-softer text-ink-light hover:text-primary hover:border-primary transition-colors shrink-0 lg:hidden"
+            className="inline-flex items-center justify-center w-11 h-11 rounded-full bg-white border-2 border-bg-softer text-ink-light hover:text-primary hover:border-primary transition-colors shrink-0 lg:hidden"
             style={{ boxShadow: "0 3px 0 0 var(--shadow-card-color)" }}
           >
             <ArrowLeft className="w-5 h-5" />
@@ -73,11 +73,11 @@ export function PageHeader({
         className="flex items-end justify-between gap-3 mb-5 lg:mb-8"
       >
         <div className="flex-1 min-w-0">
-          <h1 className="text-2xl lg:text-4xl font-extrabold text-ink leading-tight truncate">
+          <h1 className="text-2xl lg:text-4xl font-extrabold text-ink leading-tight break-words">
             {title}
           </h1>
           {subtitle && (
-            <p className="text-sm lg:text-base text-ink-light mt-1 truncate">{subtitle}</p>
+            <p className="text-sm lg:text-base text-ink-light mt-2 leading-relaxed">{subtitle}</p>
           )}
         </div>
         {rightExtra && <div className="shrink-0">{rightExtra}</div>}

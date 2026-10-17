@@ -1,0 +1,113 @@
+{
+  "prodCrownBefore": {
+    "balance": "可用宝石 5",
+    "name": "金色皇冠"
+  },
+  "prodCrownAfter": {
+    "balance": "可用宝石 5",
+    "name": "金色皇冠",
+    "previewTop": 91.75
+  },
+  "prodStickyWide": {
+    "failures": [],
+    "metrics": {
+      "cards": 12,
+      "clippedNames": 0,
+      "contentWidth": 1425,
+      "minimumCardWidth": 185,
+      "route": "/shop/",
+      "scrollWidth": 1425,
+      "sideBySide": true,
+      "stickyPreview": true,
+      "viewport": 1440,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  "prodStickyTablet": {
+    "failures": [],
+    "metrics": {
+      "cards": 12,
+      "clippedNames": 0,
+      "contentWidth": 1009,
+      "minimumCardWidth": 170.25,
+      "route": "/shop/",
+      "scrollWidth": 1009,
+      "sideBySide": false,
+      "stickyPreview": false,
+      "viewport": 1024,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  "prodScrolledTablet": {
+    "failures": [],
+    "metrics": {
+      "cards": 12,
+      "clippedNames": 0,
+      "contentWidth": 1009,
+      "minimumCardWidth": 170.25,
+      "route": "/shop/",
+      "scrollWidth": 1009,
+      "sideBySide": false,
+      "stickyPreview": false,
+      "viewport": 1024,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  "prodThemeDesktop": {
+    "failures": [],
+    "metrics": {
+      "cards": 10,
+      "clippedNames": 0,
+      "contentWidth": 1425,
+      "minimumCardWidth": 185,
+      "route": "/shop/",
+      "scrollWidth": 1425,
+      "sideBySide": true,
+      "stickyPreview": true,
+      "viewport": 1440,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  "prodThemeMobile": {
+    "failures": [],
+    "metrics": {
+      "cards": 10,
+      "clippedNames": 0,
+      "contentWidth": 305,
+      "minimumCardWidth": 128.5,
+      "route": "/shop/",
+      "scrollWidth": 305,
+      "sideBySide": false,
+      "stickyPreview": false,
+      "viewport": 320,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  "prodBackdropMobile": {
+    "failures": [],
+    "metrics": {
+      "cards": 8,
+      "clippedNames": 0,
+      "contentWidth": 305,
+      "minimumCardWidth": 128.5,
+      "route": "/shop/",
+      "scrollWidth": 305,
+      "sideBySide": false,
+      "stickyPreview": false,
+      "viewport": 320,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  }
+}

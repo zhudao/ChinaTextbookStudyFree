@@ -20,12 +20,13 @@ import {
   type ReactNode,
 } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Lock, Star, Crown, Chest, Book, Panda, Sparkle, Trophy } from "@/components/icons";
+import { Check, ArrowLeft, Lightning, Lock, Star, Crown, Chest, Book, Trophy } from "@/components/icons";
 import { cn } from "@/lib/cn";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import { LessonStartModal } from "./LessonStartModal";
 import { ChestModal } from "./ChestModal";
+import { Mascot } from "./Mascot";
 import { SoundLink } from "./SoundLink";
 import { useToast } from "./Toast";
 import {
@@ -67,7 +68,7 @@ interface PathMapProps {
   hasGuide?: boolean;
   /** ← 返回按钮目标路径；不传则不渲染返回按钮 */
   backHref?: string;
-  /** 在 sticky banner 上方渲染的插槽内容（随 banner 一起 sticky），桌面端专用 */
+  /** 在 sticky banner 上方渲染的插槽内容（随 banner 一起 sticky） */
   topSlot?: ReactNode;
   /** 单元挑战节点：unitNumber → meta（缺省 = 该单元没有挑战课） */
   exams?: Record<number, ExamNodeMeta>;
@@ -166,33 +167,6 @@ export function PathMap({
   const sectionRefs = useRef(new Map<number, HTMLDivElement | null>());
   const [activeUnitNum, setActiveUnitNum] = useState<number>(unitEntries[0]?.[0] ?? 1);
 
-  // sticky top 值 = 元素在文档流里的原始 offsetTop —— 这样吸附时 y 位置不变
-  const stickyRef = useRef<HTMLDivElement>(null);
-  const [stickyTop, setStickyTop] = useState<number | null>(null);
-
-  useLayoutEffect(() => {
-    function measure() {
-      if (typeof window === "undefined") return;
-      const isLg = window.matchMedia("(min-width: 1024px)").matches;
-      if (!isLg) {
-        setStickyTop(null);
-        return;
-      }
-      const el = stickyRef.current;
-      if (!el) return;
-      let y = 0;
-      let cur: HTMLElement | null = el;
-      while (cur) {
-        y += cur.offsetTop;
-        cur = cur.offsetParent as HTMLElement | null;
-      }
-      setStickyTop(y);
-    }
-    measure();
-    window.addEventListener("resize", measure);
-    return () => window.removeEventListener("resize", measure);
-  }, []);
-
   useEffect(() => {
     if (typeof window === "undefined") return;
     const observer = new IntersectionObserver(
@@ -276,11 +250,9 @@ export function PathMap({
     <div className="w-full max-w-md mx-auto lg:max-w-none lg:mx-0 px-4 lg:px-0 pb-6">
       {/* === sticky 单元 banner === */}
       <div
-        ref={stickyRef}
-        className="sticky top-0 z-20 -mx-4 px-4 lg:mx-0 lg:px-0 pt-2 pb-3 bg-bg-soft/0 lg:bg-transparent"
-        style={stickyTop !== null ? { top: stickyTop } : undefined}
+        className="sticky top-0 lg:top-4 z-20 -mx-4 px-4 lg:mx-0 lg:px-0 pt-2 pb-4 bg-bg-soft"
       >
-        {topSlot && <div className="hidden lg:block mb-3">{topSlot}</div>}
+        {topSlot && <div className="mb-3">{topSlot}</div>}
         <AnimatePresence mode="wait">
           <motion.div
             key={activeUnitNum}
@@ -288,7 +260,7 @@ export function PathMap({
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -8, opacity: 0 }}
             transition={{ duration: 0.18 }}
-            className="rounded-2xl px-3 py-2.5 text-white flex items-center gap-3"
+            className="rounded-2xl px-3 py-3 text-[#132C36] flex items-center gap-3"
             style={{
               backgroundColor: color.bg,
               boxShadow: `0 4px 0 0 ${color.shadow}`,
@@ -298,16 +270,16 @@ export function PathMap({
               <SoundLink
                 href={backHref}
                 aria-label="返回"
-                className="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-xl text-white border-2 border-white/60 hover:bg-white/15 transition-colors"
+                className="shrink-0 inline-flex items-center justify-center w-11 h-11 rounded-xl border border-black/20 hover:bg-white/15 transition-colors"
               >
-                <span aria-hidden className="text-lg font-extrabold leading-none">←</span>
+                <ArrowLeft className="w-5 h-5" aria-hidden />
               </SoundLink>
             )}
             <div className="min-w-0 flex-1">
               {/* 小标签行：subject + textbookName · 第 N 单元 */}
-              <div className="flex items-center gap-1.5 text-[11px] font-extrabold leading-none opacity-95 min-w-0 truncate">
+              <div className="flex items-center gap-1.5 text-xs font-bold leading-snug min-w-0 flex-wrap">
                 {headerLabel && (
-                  <span className="inline-flex items-center gap-1.5 min-w-0 truncate">
+                  <span className="inline-flex items-center gap-1.5 min-w-0">
                     {headerLabel}
                   </span>
                 )}
@@ -315,27 +287,21 @@ export function PathMap({
                 <span className="whitespace-nowrap">第 {activeUnitNum} 单元</span>
               </div>
               {/* 大字单元标题 */}
-              <div className="text-lg font-extrabold leading-tight truncate tracking-tight mt-1.5">
+              <div className="text-lg font-extrabold leading-snug break-words tracking-tight mt-1.5">
                 {activeUnitTitle}
               </div>
-              {/* ⚡ 跳级入口：整个单元还锁着才出现 */}
-              {activeUnitFullyLocked && (
-                <SoundLink
-                  href={`/jump/?book=${bookId}&unit=${activeUnitNum}`}
-                  hapticIntensity="medium"
-                  className="mt-2 inline-flex items-center gap-1.5 px-3 h-8 rounded-xl bg-white/95 text-xs font-extrabold tracking-tight transition-colors hover:bg-white"
-                  style={{ color: color.bg, boxShadow: `0 2px 0 0 ${color.shadow}` }}
-                  aria-label={`跳级测试：直接跳到第 ${activeUnitNum} 单元`}
-                >
-                  <span aria-hidden>⚡</span>
-                  <span>跳到这里</span>
-                </SoundLink>
-              )}
             </div>
+            {activeUnitFullyLocked && (
+              <SoundLink href={`/jump/?book=${bookId}&unit=${activeUnitNum}`} hapticIntensity="medium"
+                className="shrink-0 inline-flex items-center gap-1.5 px-2 min-h-11 rounded-xl border border-black/20 hover:bg-white/15 transition-colors text-xs font-bold"
+                aria-label={`跳级测试：直接跳到第 ${activeUnitNum} 单元`}>
+                <Lightning className="w-4 h-4" aria-hidden /><span>跳级</span>
+              </SoundLink>
+            )}
             {hasGuide && (
               <SoundLink
                 href={`/book/${bookId}/guide/${activeUnitNum}/`}
-                className="shrink-0 inline-flex items-center gap-1.5 px-3 h-10 rounded-xl text-white font-extrabold text-xs tracking-tight border-2 border-white/60 hover:bg-white/15 transition-colors"
+                className="shrink-0 inline-flex items-center gap-1.5 px-3 h-11 rounded-xl font-bold text-xs tracking-tight border border-black/20 hover:bg-white/15 transition-colors"
                 aria-label="打开知识手册"
               >
                 <Book className="w-4 h-4" aria-hidden />
@@ -404,72 +370,12 @@ export function PathMap({
 
 /**
  * 单元内部的蛇形路径渲染：
- * - 设计稿舞台宽 440px；窄容器（手机）按 容器宽/440 等比缩放横向坐标，杜绝横向溢出
+ * - 舞台最大宽 440px；窄容器保留文字宽度并收拢横向偏移，避免溢出
  * - SVG cubic bezier 连接相邻节点（控制点放在中点 y 上，自然形成 S 曲线）
- * - 节点以绝对定位放置到同一坐标系
+ * - 节点与文字采用正常文档流；连接线根据实际行高测量绘制
  */
 const STAGE_WIDTH = 440;
-const NODE_SIZE = 80;
-const STEP_Y = 120;
-const PAD_TOP = 16;
-const PAD_BOTTOM = 28;
-
-/**
- * 吉祥物装饰：每隔几课在路径外侧放一只小动物/星星，纯视觉陪跑。
- * atIndex：吸附到 flat 列表里哪个节点的 y 坐标附近；
- * side：1=右，-1=左（贴近 stage 边缘）；
- * yOffset：相对该节点 y 的上下偏移（px）；
- */
-type DecoKind = "panda" | "sparkle" | "crown" | "star";
-interface DecoSpec {
-  atIndex: number;
-  side: 1 | -1;
-  yOffset: number;
-  size: number;
-  rotate: number;
-  kind: DecoKind;
-  color: string;
-  delay: number;
-}
-
-const DECO_KINDS: DecoKind[] = ["panda", "sparkle", "star", "panda", "crown", "sparkle"];
-const DECO_COLORS = ["#58CC02", "#FFC800", "#CE82FF", "#1CB0F6", "#FF9600", "#FF4B4B"];
-const DECO_Y_OFFSETS = [30, -12, 18, 6, -6, 24];
-const DECO_SIZES = [64, 36, 44, 60, 40, 56];
-
-/** 每 3 步放一个装饰，左右交替，循环 DECO_KINDS 调色板 */
-function generateDecorations(len: number): DecoSpec[] {
-  const out: DecoSpec[] = [];
-  for (let atIndex = 2; atIndex < len; atIndex += 3) {
-    const step = Math.floor((atIndex - 2) / 3);
-    const side: 1 | -1 = step % 2 === 0 ? 1 : -1;
-    out.push({
-      atIndex,
-      side,
-      yOffset: DECO_Y_OFFSETS[step % DECO_Y_OFFSETS.length],
-      size: DECO_SIZES[step % DECO_SIZES.length],
-      rotate: side === 1 ? -8 + (step % 3) * 4 : 8 - (step % 3) * 4,
-      kind: DECO_KINDS[step % DECO_KINDS.length],
-      color: DECO_COLORS[step % DECO_COLORS.length],
-      delay: (step % 5) * 0.08,
-    });
-  }
-  return out;
-}
-
-function renderDecoIcon(kind: DecoKind, size: number) {
-  const common = { className: "w-full h-full" };
-  switch (kind) {
-    case "panda":
-      return <Panda {...common} size={size} />;
-    case "sparkle":
-      return <Sparkle {...common} size={size} />;
-    case "crown":
-      return <Crown {...common} size={size} />;
-    case "star":
-      return <Star {...common} size={size} />;
-  }
-}
+const NODE_SIZE = 72;
 
 function buildSnakePath(points: Array<{ x: number; y: number }>, stageHalf: number): string {
   if (points.length < 2) return "";
@@ -482,14 +388,6 @@ function buildSnakePath(points: Array<{ x: number; y: number }>, stageHalf: numb
     d += ` C ${toX(a.x)} ${midY}, ${toX(b.x)} ${midY}, ${toX(b.x)} ${b.y}`;
   }
   return d;
-}
-
-interface FlatEntry {
-  item: UnitItem;
-  unitNum: number;
-  unitTitle: string;
-  firstInUnit: boolean;
-  unitOrderIndex: number;
 }
 
 interface UnitPathProps {
@@ -513,191 +411,73 @@ function UnitPath({
   onExam,
   sectionRefs,
 }: UnitPathProps) {
-  // 响应式舞台宽：容器窄于设计稿 440px 时（iPhone 375-430 等）按比例收窄，
-  // 桌面（容器 ≥ 440）scale = 1，渲染与设计稿逐像素一致。
-  // SSR / 首帧安全初值取 STAGE_WIDTH，配合外层 overflow-x-clip 不会撑出横向滚动，
-  // useLayoutEffect 在首次绘制前同步测宽，避免可见跳动。
   const containerRef = useRef<HTMLDivElement>(null);
-  const [containerWidth, setContainerWidth] = useState<number | null>(null);
+  const [geometry, setGeometry] = useState<{ width: number; height: number; points: Array<{ x: number; y: number }> }>({ width: STAGE_WIDTH, height: 0, points: [] });
+  const flat = useMemo(() => entries.flatMap(([unitNum, group], unitOrderIndex) =>
+    group.items.map((item, index) => ({ item, unitNum, unitTitle: group.title, firstInUnit: index === 0, unitOrderIndex }))), [entries]);
 
   useLayoutEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-    setContainerWidth(el.clientWidth);
-    const observer = new ResizeObserver(() => {
-      setContainerWidth(el.clientWidth);
-    });
-    observer.observe(el);
+    const stage = containerRef.current;
+    if (!stage) return;
+    const measure = () => {
+      const width = stage.clientWidth;
+      const offsetLimit = Math.min(110, Math.max(0, (width - 176) / 2 - 12));
+      // Measure flow rows, not animated transforms. Labels and separators own real height.
+      const points = Array.from(stage.querySelectorAll<HTMLElement>("[data-path-node]")).map((row, index) => ({
+        x: snakeOffset(index) / 110 * offsetLimit,
+        y: row.offsetTop + NODE_SIZE / 2,
+      }));
+      const next = { width, height: stage.clientHeight, points };
+      setGeometry(previous => JSON.stringify(previous) === JSON.stringify(next) ? previous : next);
+    };
+    measure();
+    const observer = new ResizeObserver(measure);
+    observer.observe(stage);
+    stage.querySelectorAll("[data-path-entry]").forEach(row => observer.observe(row));
     return () => observer.disconnect();
-  }, []);
-
-  const stageWidth = Math.min(STAGE_WIDTH, containerWidth ?? STAGE_WIDTH);
-  const stageHalf = stageWidth / 2;
-  const scale = stageWidth / STAGE_WIDTH;
-
-  const flat: FlatEntry[] = [];
-  entries.forEach(([unitNum, group], gi) => {
-    group.items.forEach((item, idx) => {
-      flat.push({
-        item,
-        unitNum,
-        unitTitle: group.title,
-        firstInUnit: idx === 0,
-        unitOrderIndex: gi,
-      });
-    });
-  });
-
-  const positions = flat.map((_, i) => ({
-    x: snakeOffset(i) * scale,
-    y: PAD_TOP + NODE_SIZE / 2 + i * STEP_Y,
-  }));
-  const height = PAD_TOP + NODE_SIZE + Math.max(0, flat.length - 1) * STEP_Y + PAD_BOTTOM;
-  const pathD = buildSnakePath(positions, stageHalf);
+  }, [flat, statuses]);
 
   return (
-    <div ref={containerRef} className="w-full overflow-x-clip">
-    <div className="relative mx-auto" style={{ width: stageWidth, height }}>
-      <svg
-        className="absolute inset-0 pointer-events-none"
-        width={stageWidth}
-        height={height}
-        viewBox={`0 0 ${stageWidth} ${height}`}
-        aria-hidden
-      >
-        <path
-          d={pathD}
-          fill="none"
-          stroke="#E5E5E5"
-          strokeWidth={8}
-          strokeLinecap="round"
-          strokeDasharray="2 14"
-        />
+    <div ref={containerRef} data-path-stage className="relative w-full max-w-[440px] mx-auto pt-6 pb-4">
+      <svg className="absolute inset-0 w-full pointer-events-none text-bg-softer" width={geometry.width} height={geometry.height}
+        viewBox={`0 0 ${geometry.width} ${Math.max(1, geometry.height)}`} aria-hidden>
+        <path d={buildSnakePath(geometry.points, geometry.width / 2)} fill="none" stroke="currentColor" strokeWidth={4} strokeLinecap="round" strokeDasharray="2 10" />
       </svg>
 
-      {/* 吉祥物装饰：按 flat 长度动态生成，在路径外侧点缀，不可点击 */}
-      {generateDecorations(flat.length).map((d, i) => {
-        if (d.atIndex >= flat.length) return null;
-        const p = positions[d.atIndex];
-        const cx = d.side === 1 ? stageWidth - d.size / 2 - 8 : d.size / 2 + 8;
-        const cy = p.y + d.yOffset;
-        return (
-          <motion.div
-            key={`deco-${i}`}
-            aria-hidden
-            className="absolute pointer-events-none"
-            style={{
-              left: cx - d.size / 2,
-              top: cy - d.size / 2,
-              width: d.size,
-              height: d.size,
-              color: d.color,
-              opacity: 0.55,
-            }}
-            initial={{ opacity: 0, scale: 0.7, rotate: d.rotate - 6 }}
-            animate={{
-              opacity: 0.55,
-              scale: 1,
-              rotate: [d.rotate - 2, d.rotate + 2, d.rotate - 2],
-              y: [0, -3, 0],
-            }}
-            transition={{
-              opacity: { duration: 0.5, delay: d.delay },
-              scale: { duration: 0.5, delay: d.delay },
-              rotate: { duration: 4, repeat: Infinity, ease: "easeInOut", delay: d.delay },
-              y: { duration: 3, repeat: Infinity, ease: "easeInOut", delay: d.delay },
-            }}
-          >
-            {renderDecoIcon(d.kind, d.size)}
-          </motion.div>
-        );
-      })}
-
-      {/* IntersectionObserver markers：每个单元首个节点位置放一个 0 高度探针 */}
-      {flat.map((entry, idx) =>
-        entry.firstInUnit ? (
-          <div
-            key={`marker-${entry.unitNum}`}
-            ref={el => {
-              sectionRefs.current.set(entry.unitNum, el);
-            }}
-            data-unit={entry.unitNum}
-            className="absolute left-0 right-0 pointer-events-none"
-            style={{ top: positions[idx].y - NODE_SIZE, height: 1 }}
-            aria-hidden
-          />
-        ) : null,
-      )}
-
-      {/* 单元分隔 label：第一个单元省略（有 sticky banner 兜底） */}
-      {flat.map((entry, idx) => {
-        if (!entry.firstInUnit || entry.unitOrderIndex === 0) return null;
-        const y = positions[idx].y - NODE_SIZE / 2 - 34;
-        return (
-          <div
-            key={`label-${entry.unitNum}`}
-            className="absolute left-0 right-0 flex items-center justify-center pointer-events-none"
-            style={{ top: y }}
-          >
-            <div className="inline-flex items-center rounded-full bg-white/90 backdrop-blur px-3 py-1 text-[10px] font-extrabold text-ink-softer uppercase tracking-wider border border-bg-softer shadow-sm whitespace-nowrap">
-              第 {entry.unitNum} 单元 · {entry.unitTitle}
+      {flat.map((entry, index) => {
+        const item = entry.item;
+        return <div key={item.kind === "lesson" ? item.lesson.id : item.kind === "exam" ? item.meta.lessonId : item.slot.id}
+          data-path-entry data-unit={entry.firstInUnit ? entry.unitNum : undefined}
+          ref={entry.firstInUnit ? el => { sectionRefs.current.set(entry.unitNum, el); } : undefined}>
+          {entry.firstInUnit && entry.unitOrderIndex > 0 && (
+            <div data-unit-divider className="relative flex items-center justify-center gap-3 pt-2 pb-8">
+              <span className="h-px flex-1 bg-bg-softer" />
+              <div className="max-w-[75%] text-center text-sm font-bold leading-relaxed text-ink-light bg-bg-soft px-2">
+                第 {entry.unitNum} 单元 · {entry.unitTitle}
+              </div>
+              <span className="h-px flex-1 bg-bg-softer" />
+            </div>
+          )}
+          <div data-path-node className="relative flex justify-center pb-11">
+            <div className="relative w-44 max-w-full" style={{ left: `calc(${snakeOffset(index) / 110} * min(110px, max(0px, (100% - 200px) / 2)))` }}>
+              {item.kind === "lesson" ? <PathNode lesson={item.lesson} status={statuses[item.lesson.id] || "locked"}
+                stars={stars[item.lesson.id] ?? 0} breatheDelay={0} color={unitColor(entry.unitOrderIndex)} onSelect={() => onLesson(item.lesson)} />
+              : item.kind === "exam" ? <ExamNode meta={item.meta} stars={stars[item.meta.lessonId] ?? 0}
+                breatheDelay={0} onSelect={() => onExam(item.unitNumber, item.meta)} />
+              : <ChestNode unlocked={statuses[item.slot.afterLessonId] === "completed"} claimed={!!claimedChests[item.slot.id]}
+                breatheDelay={0} onSelect={() => onChest(item.slot)} />}
             </div>
           </div>
-        );
+        </div>;
       })}
 
-      {flat.map((entry, idx) => {
-        const p = positions[idx];
-        const style: CSSProperties = {
-          left: stageHalf + p.x - NODE_SIZE / 2,
-          top: p.y - NODE_SIZE / 2,
-          width: NODE_SIZE,
-        };
-        if (entry.item.kind === "lesson") {
-          const lesson = entry.item.lesson;
-          const status = statuses[lesson.id] || "locked";
-          return (
-            <div key={lesson.id} className="absolute" style={style}>
-              <PathNode
-                lesson={lesson}
-                status={status}
-                stars={stars[lesson.id] ?? 0}
-                breatheDelay={idx * 0.12}
-                color={unitColor(entry.unitOrderIndex)}
-                onSelect={() => onLesson(lesson)}
-              />
-            </div>
-          );
-        }
-        if (entry.item.kind === "exam") {
-          const { unitNumber, meta } = entry.item;
-          return (
-            <div key={meta.lessonId} className="absolute" style={style}>
-              <ExamNode
-                meta={meta}
-                stars={stars[meta.lessonId] ?? 0}
-                breatheDelay={idx * 0.12}
-                onSelect={() => onExam(unitNumber, meta)}
-              />
-            </div>
-          );
-        }
-        const slot = entry.item.slot;
-        const after = statuses[slot.afterLessonId];
-        const unlocked = after === "completed";
-        const claimed = !!claimedChests[slot.id];
-        return (
-          <div key={slot.id} className="absolute" style={style}>
-            <ChestNode
-              unlocked={unlocked}
-              claimed={claimed}
-              breatheDelay={idx * 0.12}
-              onSelect={() => onChest(slot)}
-            />
-          </div>
-        );
+      {geometry.points.map((point, index) => {
+        if (index < 2 || (index - 2) % 8 !== 0) return null;
+        const edge = point.x >= 0 ? { left: 4 } : { right: 4 };
+        return <div key={`companion-${index}`} aria-hidden className="absolute pointer-events-none" style={{ ...edge, top: point.y - 24 }}>
+          <Mascot size={64} mood="happy" animate={false} />
+        </div>;
       })}
-    </div>
     </div>
   );
 }
@@ -731,8 +511,8 @@ function PathNode({ lesson, status, stars, breatheDelay, color, onSelect }: Path
 
   const node = (
     <motion.div
-      initial={{ opacity: 0, y: 14 }}
-      animate={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       transition={{ duration: 0.35, delay: breatheDelay * 0.4 }}
       className="flex flex-col items-center relative"
     >
@@ -746,7 +526,7 @@ function PathNode({ lesson, status, stars, breatheDelay, color, onSelect }: Path
         whileHover={!isLocked ? { scale: 1.08, y: -4 } : undefined}
         whileTap={!isLocked ? { scale: 0.95 } : undefined}
         className={cn(
-          "relative w-20 h-20 rounded-full flex items-center justify-center",
+          "path-disc relative rounded-full flex items-center justify-center",
           "transition-colors duration-200",
           isCurrent && "path-node-current text-white",
           isLocked && "bg-bg-softer text-ink-softer",
@@ -756,7 +536,7 @@ function PathNode({ lesson, status, stars, breatheDelay, color, onSelect }: Path
           // current 节点底色/阴影/光晕跟随单元循环色（UNIT_COLORS）
           backgroundColor: isCurrent ? color.bg : undefined,
           boxShadow: isLocked
-            ? "0 4px 0 0 #d5d5d5"
+            ? "0 3px 0 0 var(--shadow-card-color)"
             : isCompleted
               ? "0 5px 0 0 #c89600"
               : `0 5px 0 0 ${color.shadow}`,
@@ -766,11 +546,11 @@ function PathNode({ lesson, status, stars, breatheDelay, color, onSelect }: Path
         }}
       >
         {isLocked && <Lock className="w-7 h-7" />}
-        {isCurrent && <Star className="w-9 h-9 fill-white" />}
-        {isCompleted && <Crown className="w-9 h-9 fill-white" />}
+        {isCurrent && <Star className="w-8 h-8 fill-white" />}
+        {isCompleted && (lesson.questionCount < 3 ? <Check className="w-8 h-8" /> : <Crown className="w-8 h-8 fill-white" />)}
 
         {/* 星数小角标 */}
-        {isCompleted && stars > 0 && (
+        {isCompleted && stars > 0 && lesson.questionCount >= 3 && (
           <div className="absolute -bottom-1 -right-1 bg-white rounded-full px-1.5 py-0.5 shadow inline-flex items-center gap-0.5 text-gold">
             {Array.from({ length: stars }).map((_, i) => (
               <Star key={i} className="w-2.5 h-2.5 fill-current" />
@@ -781,7 +561,7 @@ function PathNode({ lesson, status, stars, breatheDelay, color, onSelect }: Path
 
       {/* 课程标题：只在 current 节点上显示（避免视觉拥挤） */}
       {isCurrent && (
-        <div className="mt-1.5 text-center text-[12px] font-extrabold leading-tight max-w-[160px] tracking-tight text-ink">
+        <div data-path-label className="path-label mt-3 px-2 bg-bg-soft rounded-lg text-center text-sm font-bold leading-relaxed text-ink">
           {lesson.title}
         </div>
       )}
@@ -817,8 +597,8 @@ interface ChestNodeProps {
 function ChestNode({ unlocked, claimed, breatheDelay, onSelect }: ChestNodeProps) {
   const node = (
     <motion.div
-      initial={{ opacity: 0, y: 14 }}
-      animate={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       transition={{ duration: 0.35, delay: breatheDelay * 0.4 }}
       className="flex flex-col items-center"
     >
@@ -832,23 +612,23 @@ function ChestNode({ unlocked, claimed, breatheDelay, onSelect }: ChestNodeProps
         whileHover={unlocked ? { scale: 1.08, y: -4 } : undefined}
         whileTap={unlocked ? { scale: 0.95 } : undefined}
         className={cn(
-          "relative w-20 h-20 rounded-full flex items-center justify-center",
+          "path-disc relative rounded-full flex items-center justify-center",
           !unlocked && "bg-bg-softer text-ink-softer",
           unlocked && !claimed && "bg-warning text-white",
           claimed && "bg-bg-soft text-warning/60",
         )}
         style={{
           boxShadow: !unlocked
-            ? "0 4px 0 0 #d5d5d5"
+            ? "0 3px 0 0 var(--shadow-card-color)"
             : claimed
-              ? "0 4px 0 0 #d5d5d5"
+              ? "0 3px 0 0 var(--shadow-card-color)"
               : "0 5px 0 0 #c89600",
         }}
       >
         {!unlocked ? (
           <Lock className="w-7 h-7" />
         ) : (
-          <Chest className="w-9 h-9" />
+          <Chest className="w-8 h-8" />
         )}
 
         {/* 未领取时的脉冲光圈 */}
@@ -896,20 +676,20 @@ function ExamNode({ meta, stars, breatheDelay, onSelect }: ExamNodeProps) {
   const { unlocked, completed, conquered } = meta;
 
   const background = !unlocked
-    ? "#E5E5E5"
+    ? "var(--app-bg-softer, #E5E5E5)"
     : conquered
       ? "linear-gradient(160deg, #FFC800, #FF9600)"
       : "linear-gradient(160deg, #CE82FF, #7C3AED)";
   const shadow = !unlocked
-    ? "0 4px 0 0 #d5d5d5"
+    ? "0 3px 0 0 var(--shadow-card-color)"
     : conquered
       ? "0 5px 0 0 #C89600, 0 0 18px rgba(255,200,0,0.45)"
       : "0 5px 0 0 #6B21A8";
 
   const node = (
     <motion.div
-      initial={{ opacity: 0, y: 14 }}
-      animate={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       transition={{ duration: 0.35, delay: breatheDelay * 0.4 }}
       className="flex flex-col items-center"
     >
@@ -923,7 +703,7 @@ function ExamNode({ meta, stars, breatheDelay, onSelect }: ExamNodeProps) {
         whileHover={unlocked ? { scale: 1.08, y: -4 } : undefined}
         whileTap={unlocked ? { scale: 0.95 } : undefined}
         className={cn(
-          "relative w-20 h-20 rounded-full flex items-center justify-center",
+          "path-disc relative rounded-full flex items-center justify-center",
           !unlocked && "text-ink-softer",
           unlocked && "text-white",
         )}
@@ -934,7 +714,7 @@ function ExamNode({ meta, stars, breatheDelay, onSelect }: ExamNodeProps) {
           border: unlocked && !conquered ? "3px solid #FFC800" : "none",
         }}
       >
-        {!unlocked ? <Lock className="w-7 h-7" /> : <Trophy className="w-9 h-9" />}
+        {!unlocked ? <Lock className="w-7 h-7" /> : <Trophy className="w-8 h-8" />}
 
         {/* 可挑战：金色脉冲光圈 */}
         {unlocked && !completed && (
@@ -958,9 +738,9 @@ function ExamNode({ meta, stars, breatheDelay, onSelect }: ExamNodeProps) {
       </motion.div>
 
       {/* 节点小标签 */}
-      <div
+      <div data-path-label
         className={cn(
-          "mt-1.5 text-center text-[11px] font-extrabold leading-tight tracking-tight",
+          "path-label mt-3 px-2 bg-bg-soft rounded-lg text-center text-sm font-bold leading-relaxed",
           !unlocked ? "text-ink-softer" : conquered ? "text-gold" : "text-purple-600",
         )}
       >

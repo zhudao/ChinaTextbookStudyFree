@@ -23,8 +23,7 @@ import {
   type JumpQuestionSource,
   type JumpSampledQuestion,
 } from "@cstf/core/jump";
-import type { Lesson } from "@/types";
-import type { PathLessonMeta } from "@cstf/core";
+import { loadJumpData } from "@/lib/loadJumpData";
 import { gradeAnswer } from "@/lib/grade";
 import { useProgressStore, MAX_HEARTS, HEART_REFILL_COST } from "@/store/progress";
 import { QuestionRenderer, type QuestionPhase } from "@/components/question/QuestionRenderer";
@@ -41,11 +40,6 @@ const ConfettiCanvas = dynamic(
   () => import("@/components/ConfettiCanvas").then(m => ({ default: m.ConfettiCanvas })),
   { ssr: false },
 );
-
-interface OutlineFile {
-  lessons: PathLessonMeta[];
-  units?: Array<{ unit_number: number; title: string }>;
-}
 
 type LoadState =
   | { kind: "loading" }
@@ -80,53 +74,11 @@ export function JumpClient() {
   useEffect(() => {
     let cancelled = false;
     async function fetchAll() {
-      if (!bookId || !Number.isInteger(unitNumber) || unitNumber < 2) {
-        setLoad({ kind: "error", message: "跳级链接不完整，回到路径再试一次吧" });
-        return;
-      }
       try {
-        const outlineRes = await fetch(`/data/books/${bookId}/outline.json`);
-        if (!outlineRes.ok) throw new Error("outline");
-        const outline: OutlineFile = await outlineRes.json();
-        const prior = outline.lessons.filter(l => l.unitNumber < unitNumber);
-        if (prior.length === 0) {
-          if (!cancelled) {
-            setLoad({ kind: "error", message: "前面还没有课程，不需要跳级哦" });
-          }
-          return;
-        }
-        const lessons = await Promise.all(
-          prior.map(async (meta): Promise<JumpQuestionSource | null> => {
-            try {
-              const res = await fetch(`/data/books/${bookId}/lessons/${meta.id}.json`);
-              if (!res.ok) return null;
-              const lesson: Lesson = await res.json();
-              return { lessonId: meta.id, questions: lesson.questions };
-            } catch {
-              return null;
-            }
-          }),
-        );
-        const sources = lessons.filter((s): s is JumpQuestionSource => s !== null);
-        if (cancelled) return;
-        if (sources.length === 0) {
-          setLoad({ kind: "error", message: "题目没有加载出来，检查一下网络再试吧" });
-          return;
-        }
-        const unitTitle =
-          outline.units?.find(u => u.unit_number === unitNumber)?.title ??
-          outline.lessons.find(l => l.unitNumber === unitNumber)?.unitTitle ??
-          "";
-        setLoad({
-          kind: "ready",
-          sources,
-          priorLessonIds: prior.map(l => l.id),
-          unitTitle,
-        });
-      } catch {
-        if (!cancelled) {
-          setLoad({ kind: "error", message: "题目没有加载出来，检查一下网络再试吧" });
-        }
+        const data = await loadJumpData(bookId, unitNumber);
+        if (!cancelled) setLoad({ kind: "ready", ...data });
+      } catch (error) {
+        if (!cancelled) setLoad({ kind: "error", message: error instanceof Error ? error.message : "题目没有加载出来，请返回后重试" });
       }
     }
     void fetchAll();
@@ -274,11 +226,11 @@ export function JumpClient() {
         <Mascot mood="sad" size={110} />
         <div className="text-lg font-extrabold text-ink mt-4">{load.message}</div>
         <SoundLink
-          href={bookId ? `/book/${bookId}/` : "/"}
+          href="/"
           hapticIntensity="medium"
           className="btn-chunky-primary px-8 mt-6"
         >
-          返回路径
+          返回学习页面
         </SoundLink>
       </main>
     );
@@ -305,7 +257,7 @@ export function JumpClient() {
             initial={{ scale: 0, y: 10, opacity: 0 }}
             animate={{ scale: 1, y: 0, opacity: 1 }}
             transition={{ delay: 0.45, type: "spring", damping: 11 }}
-            className="mt-5 inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-extrabold text-base text-white"
+            className="mt-5 inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-extrabold text-base text-[#132C36]"
             style={{
               background: "linear-gradient(135deg, #FFC800, #FF9600)",
               boxShadow: "0 5px 0 0 #C89600",
@@ -382,7 +334,7 @@ export function JumpClient() {
           <button
             type="button"
             onClick={exitToPath}
-            className="h-9 w-9 -ml-1 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
+            className="h-11 w-11 -ml-1 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
             aria-label="退出跳级测试"
           >
             <Close className="w-5 h-5" />
@@ -405,7 +357,7 @@ export function JumpClient() {
       {/* 跳级上下文胶囊 */}
       <div className="max-w-md lg:max-w-2xl mx-auto w-full px-5 pt-4 flex items-center gap-2 flex-wrap">
         <span
-          className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-white text-[11px] font-extrabold"
+          className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[#132C36] text-xs font-extrabold"
           style={{
             background: "linear-gradient(135deg, #FFC800, #FF9600)",
             boxShadow: "0 2px 0 0 #C89600",

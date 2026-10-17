@@ -5,10 +5,10 @@
  *
  * 断点（web-shell-14）：
  *   - < md：单列，底部 BottomNav（BottomNav 自身 md:hidden）
- *   - md (768-1023)：icon-only 88px SideNav + 中央列（max ~640），无右栏
- *   - lg+：260px SideNav + 中央列 + 360px RightRail
+ *   - md (768-1023)：icon-only 72px SideNav + 中央列（max ~640），无右栏
+ *   - lg：200px SideNav + 中央列；xl+ 才展示 288px RightRail
  *
- * 单树渲染：children 只挂载一次，靠 hidden md:block 控制两侧栏的显隐，
+ * 单树渲染：children 只挂载一次，通过同一组 CSS 断点控制两侧栏的显隐，
  * 避免旧版「移动端 + 桌面端各渲染一份 children」带来的音效 / observer /
  * ticker 双跑与重复 <main> 问题。
  *
@@ -31,22 +31,14 @@ interface AppShellProps {
 export function AppShell({ children, right, centerMaxWidth = 640 }: AppShellProps) {
   const showRight = right !== null;
   return (
-    <div
-      className={
-        "min-h-screen w-full md:mx-auto md:grid md:max-w-[1240px] md:gap-4 md:px-4 md:py-6 lg:gap-6 lg:px-6 " +
-        "md:[grid-template-columns:88px_minmax(0,1fr)] " +
-        (showRight
-          ? "lg:[grid-template-columns:260px_minmax(0,1fr)_360px]"
-          : "lg:[grid-template-columns:260px_minmax(0,1fr)]")
-      }
-    >
-      <aside className="hidden md:block md:sticky md:top-6 md:self-start md:h-[calc(100vh-3rem)]">
+    <div className="app-shell" data-has-rail={showRight ? "true" : "false"}>
+      <aside className="shell-sidebar">
         <SideNav />
       </aside>
 
       <div className="min-w-0">
         <div
-          className="mx-auto w-full md:max-w-[640px] lg:max-w-[var(--center-max)]"
+          className="shell-content mx-auto w-full"
           style={{ "--center-max": `${centerMaxWidth}px` } as CSSProperties}
         >
           {children}
@@ -54,7 +46,7 @@ export function AppShell({ children, right, centerMaxWidth = 640 }: AppShellProp
       </div>
 
       {showRight && (
-        <aside className="hidden lg:block lg:sticky lg:top-6 lg:self-start lg:h-[calc(100vh-3rem)] overflow-y-auto pb-6">
+        <aside className="shell-rail">
           {right ?? <RightRail />}
         </aside>
       )}

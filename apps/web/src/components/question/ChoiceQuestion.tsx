@@ -81,7 +81,7 @@ export function ChoiceQuestion({
   return (
     <div className="w-full">
       <div className="flex items-start gap-3 mb-6">
-        <div className="text-2xl font-bold text-ink leading-relaxed flex-1">
+        <div className="text-2xl font-bold text-ink leading-relaxed flex-1 min-w-0">
           <MathText text={question.question} />
         </div>
         <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
@@ -110,6 +110,7 @@ export function ChoiceQuestion({
             <div key={idx} className="flex items-stretch gap-2">
               <motion.button
                 type="button"
+                aria-pressed={selected}
                 disabled={phase === "checked"}
                 onClick={e => handleTap(letter, e)}
                 className={cn("flex-1 text-left flex items-center gap-3 relative", cls)}

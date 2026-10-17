@@ -83,9 +83,9 @@ export default function LeaguePage() {
 
   return (
     <AppShell>
-      <main className="min-h-screen bg-bg-soft lg:bg-transparent pb-8">
+      <main className="min-h-screen bg-bg-soft lg:bg-transparent px-4 pt-6 lg:px-0 lg:pt-0 pb-8">
         <PageHeader backHref={null} title="排行榜" subtitle="和影子同学比一比" />
-        <div className="max-w-md lg:max-w-none mx-auto px-4 lg:px-0 pt-4">
+        <div className="max-w-md lg:max-w-none mx-auto pt-4">
           {!hydrated ? (
             <div className="animate-pulse space-y-3">
               <div className="h-28 rounded-3xl bg-bg-softer/60" />
@@ -190,7 +190,7 @@ function LeagueBoard({
         className="rounded-3xl border-2 border-bg-softer bg-white p-5"
         style={{ boxShadow: "0 4px 0 0 var(--shadow-card-color)" }}
       >
-        <div className="flex items-end justify-center gap-2 sm:gap-3">
+        <div className="flex items-end justify-center gap-1 sm:gap-3">
           {LEAGUE_TIERS.map(t => {
             const isCurrent = t.id === tier.id;
             const passed = t.order < tier.order;
@@ -205,7 +205,7 @@ function LeagueBoard({
                   }
                   className={cn(
                     "rounded-full flex items-center justify-center",
-                    isCurrent ? "w-14 h-14" : "w-9 h-9",
+                    isCurrent ? "w-11 h-11 sm:w-14 sm:h-14" : "w-7 h-7 sm:w-9 sm:h-9",
                   )}
                   style={{
                     backgroundColor: isCurrent || passed ? t.color : "#E5E5E5",
@@ -234,7 +234,7 @@ function LeagueBoard({
           <div className="text-xs font-bold text-ink-light mt-1">
             前 {PROMOTE_ZONE} 名晋级 · 每周一结算
           </div>
-          <div className="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-warning/15 border-2 border-warning/40 text-warning text-xs font-extrabold tabular-nums">
+          <div className="mt-2 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-warning/15 border border-warning/40 text-warning text-xs font-extrabold tabular-nums">
             ⏳ 距离结算还有 {countdown}
           </div>
         </div>
@@ -262,7 +262,7 @@ function LeagueBoard({
                 <RankBadge rank={row.rank} />
                 {/* 头像：用户 = 聪聪绿片；bot = 昵称首字圆片 */}
                 <div
-                  className="w-9 h-9 rounded-full flex items-center justify-center text-white font-extrabold text-sm shrink-0"
+                  className="w-9 h-9 rounded-full flex items-center justify-center text-[#071317] font-extrabold text-sm shrink-0"
                   style={{
                     backgroundColor: row.isUser
                       ? "#58CC02"
@@ -332,12 +332,12 @@ function LeagueBoard({
               className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-bg-soft border border-bg-softer text-xs font-extrabold text-ink-light tabular-nums"
             >
               {r <= 3 ? `第 ${r} 名` : "第 4-5 名"}
-              <Gem className="w-3 h-3 text-secondary" />+{RANK_GEM_REWARDS[r]}
+              <Gem className="w-3 h-3 text-gem" />+{RANK_GEM_REWARDS[r]}
             </span>
           ))}
           <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-primary/10 border border-primary/30 text-xs font-extrabold text-primary-dark tabular-nums">
             晋级再加
-            <Gem className="w-3 h-3 text-secondary" />+{PROMOTION_BONUS_GEMS}
+            <Gem className="w-3 h-3 text-gem" />+{PROMOTION_BONUS_GEMS}
           </span>
         </div>
         <p className="text-[11px] text-ink-softer mt-2">
@@ -355,7 +355,7 @@ function RankBadge({ rank }: { rank: number }) {
   if (medal) {
     return (
       <span
-        className="w-7 h-7 rounded-full flex items-center justify-center text-white text-xs font-extrabold shrink-0 tabular-nums"
+        className="w-7 h-7 rounded-full flex items-center justify-center text-[#071317] text-xs font-extrabold shrink-0 tabular-nums"
         style={{ backgroundColor: medal, boxShadow: "0 2px 0 0 rgba(0,0,0,0.15)" }}
       >
         {rank}

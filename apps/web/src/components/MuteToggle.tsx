@@ -27,6 +27,7 @@ export function MuteToggle({ className }: MuteToggleProps) {
   return (
     <button
       type="button"
+      aria-pressed={!muted}
       aria-label={muted ? "开启音效" : "关闭音效"}
       onClick={() => {
         toggleMute();
@@ -36,7 +37,7 @@ export function MuteToggle({ className }: MuteToggleProps) {
           playSfx("tap");
         }
       }}
-      className={`h-8 w-8 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors ${className ?? ""}`}
+      className={`h-11 w-11 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors ${className ?? ""}`}
     >
       {muted ? <VolumeMute className="w-5 h-5" /> : <Volume className="w-5 h-5" />}
     </button>
@@ -54,13 +55,14 @@ export function AutoNarrateToggle({ className }: MuteToggleProps) {
   return (
     <button
       type="button"
+      aria-pressed={autoNarrate}
       aria-label={autoNarrate ? "关闭自动朗读" : "开启自动朗读"}
       title={autoNarrate ? "自动朗读：开" : "自动朗读：关"}
       onClick={() => {
         toggleAutoNarrate();
         playSfx("tap");
       }}
-      className={`h-8 px-2.5 inline-flex items-center gap-1 rounded-full text-xs font-extrabold transition-colors ${
+      className={`min-h-11 px-3 inline-flex items-center gap-1 rounded-full text-xs font-extrabold transition-colors ${
         autoNarrate
           ? "bg-primary/15 text-primary-dark hover:bg-primary/25"
           : "bg-bg-soft text-ink-softer hover:bg-bg-softer"

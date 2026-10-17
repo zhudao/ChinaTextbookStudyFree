@@ -11,7 +11,7 @@
  *   - 点右列某项 → 立即判定该对：
  *       对 → 绿闪 + 双双消失（correct 触感）
  *       错 → 红抖 + 复位（不扣心）
- *   - 全部配完 → 自动写入 canonical answer，父级自动提交
+ *   - 每对成功立即保存草稿；完整配对后父级才可判分
  *   - 键盘：1-4 选左列，5-8 选右列（桌面端角标提示）
  */
 
@@ -25,6 +25,7 @@ import { haptic } from "@/lib/haptic";
 import { playTTS } from "@/lib/tts";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import { shouldIgnoreKey } from "./keyboard";
+import { matchingPairs } from "@/lib/questionDraft";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 const LEFT_KEYS = ["A", "B", "C", "D"] as const;
@@ -60,7 +61,7 @@ export function MatchingQuestion({
   }, [question.answer]);
 
   /** 已配对成功（消失）的左键集合 */
-  const [matched, setMatched] = useState<Partial<Record<LeftKey, RightKey>>>({});
+  const matched = useMemo(() => matchingPairs(question, answer), [question, answer]);
   /** 正在播「绿闪」即将消失的一对 */
   const [vanishing, setVanishing] = useState<{ l: LeftKey; r: RightKey } | null>(null);
   /** 刚配错正在「红抖」的一对（key 用于重播动画） */
@@ -69,23 +70,17 @@ export function MatchingQuestion({
 
   // 题目切换重置
   useEffect(() => {
-    setMatched({});
     setVanishing(null);
     setWrongPair(null);
     setActiveLeft(null);
   }, [question.id]);
 
-  // 全部配完 → 自动提交 canonical answer（父级检测后自动判定）。
-  // ⚠️ 遮罩打开时必须停摆（webrunner-5）：否则在断心遮罩前用 1-8 键配完，
-  // 全程不用点一下就把本题判掉、还加了 XP。遮罩关掉后本 effect 会重跑补交。
+  // Only animation state is local. Successful pairs immediately become a saved draft.
   useEffect(() => {
-    if (disabled || locked) return;
-    if (pairTotal > 0 && Object.keys(matched).length >= pairTotal && answer !== question.answer) {
-      const t = setTimeout(() => onChange(question.answer), 300);
-      return () => clearTimeout(t);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [matched, disabled, locked, pairTotal]);
+    if (!vanishing) return;
+    const timer = setTimeout(() => setVanishing(null), 420);
+    return () => clearTimeout(timer);
+  }, [vanishing]);
 
   function optionAudioAt(idx: number) {
     const src = question.audio?.options?.[idx];
@@ -115,10 +110,7 @@ export function MatchingQuestion({
       playSfx("correct", { volume: 0.55 });
       haptic("light");
       setVanishing({ l, r: rk });
-      setTimeout(() => {
-        setVanishing(null);
-        setMatched(m => ({ ...m, [l]: rk }));
-      }, 420);
+      onChange(Object.entries({ ...matched, [l]: rk }).map(([left, right]) => `${left}-${right}`).join(","));
     } else {
       // ❌ 配对错误：红抖 + 复位（不扣心，与 iOS 一致）
       playSfx("wrong", { volume: 0.35 });
@@ -160,19 +152,20 @@ export function MatchingQuestion({
   return (
     <div className="w-full">
       <div className="flex items-start gap-3 mb-6">
-        <div className="text-xl font-bold text-ink leading-relaxed whitespace-pre-wrap flex-1">
+        <div className="text-xl font-bold text-ink leading-relaxed whitespace-pre-wrap flex-1 min-w-0">
           <MathText text={question.question} />
         </div>
         <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
       </div>
 
+      <p className="text-sm text-ink-light mb-4">先选左侧，再选右侧，找到对应的一对。</p>
       <div className="grid grid-cols-2 gap-3">
         {/* 左列 */}
         <div className="flex flex-col gap-2">
           {LEFT_KEYS.slice(0, pairTotal).map((k, i) => {
             const txt = left[i] ?? "";
-            const gone = !!matched[k];
             const isVanishing = vanishing?.l === k;
+            const gone = !!matched[k] && !isVanishing;
             const isWrong = wrongPair?.l === k;
             const active = activeLeft === k;
             return (
@@ -180,13 +173,14 @@ export function MatchingQuestion({
                 {!gone && (
                   <motion.button
                     type="button"
+                    aria-pressed={active}
                     disabled={disabled || isVanishing}
                     onClick={() => pickLeft(k)}
                     exit={{ scale: 0.6, opacity: 0, transition: { duration: 0.25 } }}
                     animate={isWrong ? shakeAnim : { x: 0 }}
                     whileTap={!disabled ? { scale: 0.98 } : undefined}
                     className={cn(
-                      "option-card text-left flex items-center gap-2 relative",
+                      "option-card matching-option min-w-0 text-left flex items-center gap-2 relative",
                       isVanishing
                         ? "option-card-correct"
                         : isWrong
@@ -199,9 +193,9 @@ export function MatchingQuestion({
                     <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white border-2 border-current text-xs shrink-0">
                       {k}
                     </span>
-                    <span className="flex-1">{txt}</span>
+                    <span className="flex-1 min-w-0 break-words">{txt}</span>
                     {/* 桌面端键盘角标 1-4 */}
-                    <span className="w-5 h-5 rounded border-2 border-bg-softer hidden [@media(pointer:fine)]:flex items-center justify-center font-extrabold text-ink-softer text-[10px] tabular-nums shrink-0">
+                    <span className="w-5 h-5 rounded border-2 border-bg-softer hidden lg:flex items-center justify-center font-extrabold text-ink-softer text-[10px] tabular-nums shrink-0">
                       {i + 1}
                     </span>
                   </motion.button>
@@ -215,8 +209,8 @@ export function MatchingQuestion({
         <div className="flex flex-col gap-2">
           {RIGHT_KEYS.slice(0, pairTotal).map((k, i) => {
             const txt = right[i] ?? "";
-            const gone = Object.values(matched).includes(k);
             const isVanishing = vanishing?.r === k;
+            const gone = Object.values(matched).includes(k) && !isVanishing;
             const isWrong = wrongPair?.r === k;
             const clickable = activeLeft !== null && !disabled && !isVanishing;
             return (
@@ -230,7 +224,7 @@ export function MatchingQuestion({
                     animate={isWrong ? shakeAnim : { x: 0 }}
                     whileTap={clickable ? { scale: 0.98 } : undefined}
                     className={cn(
-                      "option-card text-left flex items-center gap-2 relative",
+                      "option-card matching-option min-w-0 text-left flex items-center gap-2 relative",
                       isVanishing
                         ? "option-card-correct"
                         : isWrong
@@ -243,9 +237,9 @@ export function MatchingQuestion({
                     <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white border-2 border-current text-xs shrink-0">
                       {k}
                     </span>
-                    <span className="flex-1">{txt}</span>
+                    <span className="flex-1 min-w-0 break-words">{txt}</span>
                     {/* 桌面端键盘角标 5-8 */}
-                    <span className="w-5 h-5 rounded border-2 border-bg-softer hidden [@media(pointer:fine)]:flex items-center justify-center font-extrabold text-ink-softer text-[10px] tabular-nums shrink-0">
+                    <span className="w-5 h-5 rounded border-2 border-bg-softer hidden lg:flex items-center justify-center font-extrabold text-ink-softer text-[10px] tabular-nums shrink-0">
                       {i + 5}
                     </span>
                   </motion.button>

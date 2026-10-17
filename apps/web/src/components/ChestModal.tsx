@@ -112,7 +112,7 @@ export function ChestModal({ open, gems, tier = "common", onClose }: ChestModalP
   }
 
   return (
-    <Modal open={open} onClose={onClose}>
+    <Modal ariaLabel="学习宝箱" open={open} onClose={onClose}>
       <div className="flex flex-col items-center text-center">
         <h2 className="text-2xl font-extrabold text-ink mb-1">宝箱来啦！</h2>
         <p className="text-ink-light text-sm mb-4">点击打开，领取奖励</p>

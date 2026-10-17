@@ -13,7 +13,8 @@
  *   - 打开时锁 body 滚动
  */
 
-import { useEffect, useRef, useId } from "react";
+import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface ModalProps {
@@ -36,26 +37,32 @@ const FOCUSABLE = [
 ].join(",");
 
 export function Modal({ open, onClose, children, dismissible = true, ariaLabel }: ModalProps) {
+  const [portalReady, setPortalReady] = useState(false);
+  useEffect(() => setPortalReady(true), []);
   const dialogRef = useRef<HTMLDivElement>(null);
   const restoreFocusRef = useRef<HTMLElement | null>(null);
-  const labelId = useId();
 
   // Esc 关闭
   useEffect(() => {
-    if (!open) return;
+    if (!open || !portalReady) return;
     const onEsc = (e: KeyboardEvent) => {
       if (e.key === "Escape" && dismissible && onClose) onClose();
     };
     window.addEventListener("keydown", onEsc);
     return () => window.removeEventListener("keydown", onEsc);
-  }, [open, onClose, dismissible]);
+  }, [open, portalReady, onClose, dismissible]);
 
   // 焦点陷阱 + 还焦 + 滚动锁
   useEffect(() => {
-    if (!open) return;
+    if (!open || !portalReady) return;
     restoreFocusRef.current = document.activeElement as HTMLElement | null;
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
+    // Keep background links and controls out of keyboard and accessibility navigation.
+    const background = Array.from(document.body.children)
+      .filter((element): element is HTMLElement => element instanceof HTMLElement && !element.contains(dialogRef.current))
+      .map(element => ({ element, inert: element.inert }));
+    background.forEach(({ element }) => { element.inert = true; });
 
     // 下一帧聚焦第一个可聚焦元素
     const raf = requestAnimationFrame(() => {
@@ -86,7 +93,7 @@ export function Modal({ open, onClose, children, dismissible = true, ariaLabel }
           last.focus();
         }
       } else {
-        if (active === last) {
+        if (active === last || active === root || !root.contains(active)) {
           e.preventDefault();
           first.focus();
         }
@@ -98,11 +105,14 @@ export function Modal({ open, onClose, children, dismissible = true, ariaLabel }
       cancelAnimationFrame(raf);
       window.removeEventListener("keydown", onKeyDown);
       document.body.style.overflow = prevOverflow;
+      background.forEach(({ element, inert }) => { element.inert = inert; });
       restoreFocusRef.current?.focus?.();
     };
-  }, [open]);
+  }, [open, portalReady]);
 
-  return (
+  if (!portalReady) return null;
+  // Responsive headers and transformed panels must not hide or contain the overlay.
+  return createPortal(
     <AnimatePresence>
       {open && (
         <motion.div
@@ -110,7 +120,7 @@ export function Modal({ open, onClose, children, dismissible = true, ariaLabel }
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.18 }}
-          className="fixed inset-0 z-[100] flex items-center justify-center px-5"
+          className="fixed inset-0 z-[100] flex items-center justify-center p-5"
           onClick={() => dismissible && onClose?.()}
           style={{ backgroundColor: "rgba(17,17,17,0.45)", backdropFilter: "blur(6px)" }}
         >
@@ -118,21 +128,21 @@ export function Modal({ open, onClose, children, dismissible = true, ariaLabel }
             ref={dialogRef}
             role="dialog"
             aria-modal="true"
-            aria-label={ariaLabel}
-            aria-labelledby={ariaLabel ? undefined : labelId}
+            aria-label={ariaLabel ?? "对话框"}
             tabIndex={-1}
             initial={{ y: 30, scale: 0.92, opacity: 0 }}
             animate={{ y: 0, scale: 1, opacity: 1 }}
             exit={{ y: 20, scale: 0.95, opacity: 0 }}
             transition={{ type: "spring", damping: 20, stiffness: 260 }}
             onClick={e => e.stopPropagation()}
-            className="w-full max-w-sm bg-white rounded-3xl border-2 border-bg-softer p-6 focus:outline-none"
+            className="w-full max-w-sm max-h-[calc(100dvh-2.5rem)] overflow-y-auto overscroll-contain bg-white rounded-3xl border-2 border-bg-softer p-6 focus:outline-none"
             style={{ boxShadow: "0 10px 0 0 var(--shadow-card-color), 0 16px 40px rgba(0,0,0,0.15)" }}
           >
             {children}
           </motion.div>
         </motion.div>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body,
   );
 }

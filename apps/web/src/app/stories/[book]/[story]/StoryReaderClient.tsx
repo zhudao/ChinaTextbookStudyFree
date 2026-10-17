@@ -6,9 +6,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Play, Pause } from "lucide-react";
 import { readingId } from "@cstf/core/reading";
 import { Volume, Check, XMark, Star, Lightning } from "@/components/icons";
+import { MuteToggle, useSyncMute } from "@/components/MuteToggle";
 import { InnerHeader } from "@/components/InnerHeader";
 import { QuestionRenderer, type QuestionPhase } from "@/components/question/QuestionRenderer";
-import { playTTS, stopTTS } from "@/lib/tts";
+import { playTTSResult, stopTTS } from "@/lib/tts";
+import { listenToPassage } from "@/lib/readingSession";
 import { playSfx } from "@/lib/sfx";
 import { gradeAnswer } from "@/lib/grade";
 import { haptic } from "@/lib/haptic";
@@ -44,11 +46,14 @@ interface Props {
 }
 
 export default function StoryReaderClient({ story, backHref }: Props) {
+  useSyncMute();
   const router = useRouter();
   const [phase, setPhase] = useState<Phase>("reading");
   const [mode, setMode] = useState<PlayMode>("idle");
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
   const abortRef = useRef(false);
+  const playbackGenerationRef = useRef(0);
+  const [playbackError, setPlaybackError] = useState<string | null>(null);
 
   // Quiz state
   const [qIdx, setQIdx] = useState(0);
@@ -61,7 +66,7 @@ export default function StoryReaderClient({ story, backHref }: Props) {
 
   // 离开页面时停止
   useEffect(() => {
-    return () => { abortRef.current = true; stopTTS(); };
+    return () => { abortRef.current = true; playbackGenerationRef.current++; stopTTS(); };
   }, []);
 
   const hasAudio = story.sentences.some(s => s.audio);
@@ -69,10 +74,14 @@ export default function StoryReaderClient({ story, backHref }: Props) {
   const playSingle = useCallback(async (idx: number) => {
     const s = story.sentences[idx];
     if (!s?.audio) return;
+    const generation = ++playbackGenerationRef.current;
     stopTTS();
+    setPlaybackError(null);
     setMode("playing");
     setCurrentIndex(idx);
-    await playTTS(s.audio);
+    const result = await playTTSResult(s.audio);
+    if (generation !== playbackGenerationRef.current) return;
+    if (result !== "ended") setPlaybackError("声音未能完整播放，请确认声音已开启并重试。");
     setCurrentIndex(null);
     setMode("idle");
   }, [story]);
@@ -80,27 +89,29 @@ export default function StoryReaderClient({ story, backHref }: Props) {
   const playAll = useCallback(async () => {
     if (mode === "playing") {
       abortRef.current = true;
+      playbackGenerationRef.current++;
       stopTTS();
       setMode("idle");
       setCurrentIndex(null);
       return;
     }
+    const generation = ++playbackGenerationRef.current;
     abortRef.current = false;
+    setPlaybackError(null);
     setMode("playing");
-    for (let i = 0; i < story.sentences.length; i++) {
-      if (abortRef.current) break;
-      const s = story.sentences[i];
-      if (!s.audio) continue;
-      setCurrentIndex(i);
-      await playTTS(s.audio);
-      if (abortRef.current) break;
-    }
+    const result = await listenToPassage(story.sentences, {
+      play: playTTSResult, cancelled: () => abortRef.current || generation !== playbackGenerationRef.current,
+      onSentence: setCurrentIndex, wait: () => Promise.resolve(),
+    });
+    if (generation !== playbackGenerationRef.current) return;
+    if (result === "audio-unavailable") setPlaybackError("声音未能完整播放，请确认声音已开启并重试。");
     setCurrentIndex(null);
     setMode("idle");
   }, [mode, story]);
 
   const startQuiz = () => {
     abortRef.current = true;
+    playbackGenerationRef.current++;
     stopTTS();
     setCurrentIndex(null);
     setMode("idle");
@@ -149,16 +160,16 @@ export default function StoryReaderClient({ story, backHref }: Props) {
   const stars = accuracy >= 0.95 ? 3 : accuracy >= 0.75 ? 2 : 1;
 
   return (
-    <main className="min-h-screen bg-bg-soft pb-24">
+    <main className="min-h-screen bg-bg-soft" style={{ paddingBottom: "calc(6rem + env(safe-area-inset-bottom))" }}>
       <InnerHeader
         backHref={backHref}
         title={story.title}
         subtitle={`第${story.unitNumber}单元 · ${story.unitTitle}`}
-        right={phase === "quiz" ? (
+        right={<div className="flex items-center gap-2"><MuteToggle />{phase === "quiz" ? (
           <span className="text-xs font-bold text-primary tabular-nums">
             {qIdx + 1}/{story.questions.length}
           </span>
-        ) : undefined}
+        ) : null}</div>}
         bottom={phase === "quiz" ? (
           <div className="h-1 bg-bg-softer">
             <motion.div
@@ -214,11 +225,11 @@ export default function StoryReaderClient({ story, backHref }: Props) {
                       >
                         <button
                           type="button"
-                          aria-label="朗读这一句"
+                          aria-label={`朗读第 ${i + 1} 句`}
                           onClick={() => playSingle(i)}
                           disabled={!s.audio || mode !== "idle"}
                           className={cn(
-                            "shrink-0 w-7 h-7 inline-flex items-center justify-center rounded-full",
+                            "shrink-0 w-11 h-11 inline-flex items-center justify-center rounded-full",
                             "bg-bg-soft text-primary hover:bg-primary/10 transition-colors",
                             (!s.audio || mode !== "idle") && "opacity-40 cursor-not-allowed",
                           )}
@@ -268,14 +279,14 @@ export default function StoryReaderClient({ story, backHref }: Props) {
                 animate={{ opacity: 1, y: 0 }}
                 className={cn(
                   "rounded-2xl p-4 mb-4",
-                  isCorrect ? "bg-success/10 border border-success/30" : "bg-danger/10 border border-danger/30",
+                  isCorrect ? "bg-primary/10 border border-primary/30" : "bg-danger/10 border border-danger/30",
                 )}
               >
                 <div className="flex items-center gap-2 mb-1">
                   {isCorrect ? (
                     <>
-                      <Check className="w-5 h-5 text-success" />
-                      <span className="font-extrabold text-success">答对了!</span>
+                      <Check className="w-5 h-5 text-primary-dark" />
+                      <span className="font-extrabold text-primary-dark">答对了!</span>
                     </>
                   ) : (
                     <>
@@ -384,7 +395,7 @@ export default function StoryReaderClient({ story, backHref }: Props) {
 
       {/* 底部操作栏 — 仅阅读阶段 */}
       {phase === "reading" && (
-        <div className="fixed bottom-0 inset-x-0 z-40 bg-white border-t border-bg-softer shadow-[0_-4px_12px_rgba(0,0,0,0.04)]">
+        <div className="fixed bottom-0 inset-x-0 z-40 bg-white border-t border-bg-softer shadow-[0_-4px_12px_rgba(0,0,0,0.04)]" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
           <div className="max-w-md lg:max-w-6xl mx-auto px-4 py-3 flex gap-3">
             <motion.button
               type="button"
@@ -420,6 +431,7 @@ export default function StoryReaderClient({ story, backHref }: Props) {
               开始答题
             </motion.button>
           </div>
+          {playbackError && <p role="alert" className="max-w-md lg:max-w-6xl mx-auto px-4 pb-3 text-sm text-danger">{playbackError}</p>}
         </div>
       )}
     </main>

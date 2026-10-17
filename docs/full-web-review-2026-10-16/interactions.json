@@ -1,0 +1,128 @@
+{
+  "judgment": {
+    "feedback": true,
+    "highlighted": [
+      "对1"
+    ]
+  },
+  "longAnswer": {
+    "completeAnswer": true,
+    "correct": true,
+    "xp": "10"
+  },
+  "reportDialog": {
+    "bottom": 379.4913940429687,
+    "clientHeight": 356,
+    "focusInside": true,
+    "height": 400,
+    "label": "报告题目问题",
+    "scrollHeight": 394,
+    "top": 18.552398681640625,
+    "returnedFocus": "报告本题问题"
+  },
+  "guide": [
+    {
+      "page": "1",
+      "scroll": 305,
+      "title": "分数的产生、意义与单位“1”",
+      "top": 115,
+      "width": 305
+    },
+    {
+      "page": "2",
+      "scroll": 305,
+      "title": "分数与除法的关系",
+      "top": 115,
+      "width": 305
+    },
+    {
+      "page": "3",
+      "scroll": 305,
+      "title": "真分数、假分数与带分数",
+      "top": 115,
+      "width": 305
+    },
+    {
+      "page": "4",
+      "scroll": 305,
+      "title": "分数的基本性质",
+      "top": 115,
+      "width": 305
+    },
+    {
+      "page": "5",
+      "scroll": 305,
+      "title": "约分与最大公因数",
+      "top": 115,
+      "width": 305
+    },
+    {
+      "page": "6",
+      "scroll": 305,
+      "title": "通分与最小公倍数",
+      "top": 115,
+      "width": 305
+    },
+    {
+      "page": "7",
+      "scroll": 305,
+      "title": "分数和小数的互化",
+      "top": 115,
+      "width": 305
+    }
+  ],
+  "mutedReading": {
+    "notice": "声音未能完整播放，请确认声音已开启并重试。本次未记录完成。",
+    "xpBefore": "0总经验",
+    "xpAfter": "0总经验"
+  },
+  "listenCompleted": {
+    "xp": "5总经验"
+  },
+  "leagueUnlocked": {
+    "visiblePlayers": true,
+    "xp": "25 XP"
+  },
+  "shop": {
+    "before": "可用宝石 1120",
+    "after": "可用宝石 890",
+    "equipped": true,
+    "achievementBonus": 20
+  },
+  "noHearts": {
+    "buttons": [
+      {
+        "disabled": true,
+        "text": "重新开始"
+      },
+      {
+        "disabled": false,
+        "text": "返回路径"
+      }
+    ],
+    "hasReviewLink": false,
+    "title": "红心用完啦"
+  },
+  "timeLimit": {
+    "restored": "true"
+  },
+  "bookChooser": {
+    "failures": [],
+    "metrics": {
+      "clientWidth": 320,
+      "clippedHeadings": [],
+      "failedImages": [],
+      "height": 400,
+      "immersiveNav": false,
+      "route": "/book/g5down/",
+      "scrollWidth": 320,
+      "undersizedButtons": [],
+      "width": 320
+    },
+    "passed": true,
+    "scrollAfterClose": "visible"
+  },
+  "homeResume": {
+    "url": "http://127.0.0.1:3059/book/g5down/"
+  }
+}

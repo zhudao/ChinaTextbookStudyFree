@@ -1,0 +1,39 @@
+{
+  "shop": {
+    "cardWidths": [
+      61,
+      61,
+      61,
+      61,
+      61,
+      61,
+      61,
+      61,
+      61,
+      61,
+      61,
+      61
+    ],
+    "mainWidth": 524,
+    "overflows": [
+      {
+        "scroll": 260,
+        "width": 260
+      },
+      {
+        "scroll": 375,
+        "width": 360
+      }
+    ],
+    "titleTruncations": 12,
+    "viewport": 1440
+  },
+  "league": {
+    "lockedPrompts": [
+      "解锁排行榜",
+      "解锁排行榜还差 10 节课→"
+    ],
+    "visibleHeartButtons": 2,
+    "visibleStreakButtons": 2
+  }
+}

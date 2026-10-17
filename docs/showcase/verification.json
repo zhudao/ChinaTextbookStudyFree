@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-15",
+  "application": {
+    "production_build": "passed",
+    "web_core_types": "passed",
+    "lesson_resume_regression": "passed",
+    "question_drafts_regression": "passed",
+    "real_browser": {
+      "intro_save_exit": "1/3 apples restored",
+      "draft_save_exit": "wrong/false option selected, unsubmitted answer retained",
+      "checked_save_exit": "same checked correct question, 10 XP retained; no new grading",
+      "theme_mode_names": [
+        "跟随系统",
+        "浅色模式",
+        "深色模式"
+      ],
+      "console_errors": []
+    },
+    "evidence": [
+      "../ux-repair-evidence/save-exit-confirm.jpg",
+      "../ux-repair-evidence/save-exit-restored.jpg"
+    ]
+  },
+  "format": "static posters and screenshots",
+  "status": "static poster and gallery validation passed",
+  "limitations": [
+    "local production preview only",
+    "browser viewport simulations, not real-device or child acceptance",
+    "not merged or deployed; scheduled task remains paused"
+  ],
+  "static_posters": {
+    "count": 4,
+    "format": "PNG",
+    "sizes": [
+      [
+        2400,
+        1500
+      ],
+      [
+        2400,
+        1600
+      ],
+      [
+        2400,
+        1500
+      ],
+      [
+        2400,
+        1500
+      ]
+    ],
+    "visual_inspection": "all four inspected",
+    "asset_hashes": "all verified",
+    "raw_screenshots": "byte-identical to prior commit",
+    "local_references": "all README and gallery references exist",
+    "removed_motion_assets": "no active MP4, GIF, VTT or playback component"
+  },
+  "gallery": {
+    "media_elements": 0,
+    "posters": 4,
+    "desktop": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "client_width": 1265,
+      "scroll_width": 1265
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "client_width": 375,
+      "scroll_width": 375,
+      "broken_loaded_images": 0
+    },
+    "lightbox": "opens correct poster; Escape closes; focus returns to original button"
+  }
+}

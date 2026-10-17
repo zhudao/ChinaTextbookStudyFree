@@ -1,0 +1,282 @@
+[
+  {
+    "path": "/profile/",
+    "width": 320,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 305,
+      "route": "/profile/",
+      "scrollWidth": 305,
+      "viewport": 320,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/profile/",
+    "width": 768,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 753,
+      "route": "/profile/",
+      "scrollWidth": 753,
+      "viewport": 768,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/profile/",
+    "width": 1024,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1009,
+      "route": "/profile/",
+      "scrollWidth": 1009,
+      "viewport": 1024,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/profile/",
+    "width": 1440,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1425,
+      "route": "/profile/",
+      "scrollWidth": 1425,
+      "viewport": 1440,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/review/",
+    "width": 320,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 305,
+      "route": "/review/",
+      "scrollWidth": 305,
+      "viewport": 320,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/review/",
+    "width": 768,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 768,
+      "route": "/review/",
+      "scrollWidth": 768,
+      "viewport": 768,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/review/",
+    "width": 1024,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1024,
+      "route": "/review/",
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/review/",
+    "width": 1440,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1440,
+      "route": "/review/",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/grade/2/",
+    "width": 320,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 305,
+      "route": "/grade/2/",
+      "scrollWidth": 305,
+      "viewport": 320,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/grade/2/",
+    "width": 768,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 768,
+      "route": "/grade/2/",
+      "scrollWidth": 768,
+      "viewport": 768,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/grade/2/",
+    "width": 1024,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1024,
+      "route": "/grade/2/",
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/grade/2/",
+    "width": 1440,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1440,
+      "route": "/grade/2/",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/reading/chinese-g2up/",
+    "width": 320,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 305,
+      "route": "/reading/chinese-g2up/",
+      "scrollWidth": 305,
+      "viewport": 320,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/reading/chinese-g2up/",
+    "width": 768,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 753,
+      "route": "/reading/chinese-g2up/",
+      "scrollWidth": 753,
+      "viewport": 768,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/reading/chinese-g2up/",
+    "width": 1024,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1009,
+      "route": "/reading/chinese-g2up/",
+      "scrollWidth": 1009,
+      "viewport": 1024,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/reading/chinese-g2up/",
+    "width": 1440,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1425,
+      "route": "/reading/chinese-g2up/",
+      "scrollWidth": 1425,
+      "viewport": 1440,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/stories/chinese-g2up/",
+    "width": 320,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 305,
+      "route": "/stories/chinese-g2up/",
+      "scrollWidth": 305,
+      "viewport": 320,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/stories/chinese-g2up/",
+    "width": 768,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 753,
+      "route": "/stories/chinese-g2up/",
+      "scrollWidth": 753,
+      "viewport": 768,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/stories/chinese-g2up/",
+    "width": 1024,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1009,
+      "route": "/stories/chinese-g2up/",
+      "scrollWidth": 1009,
+      "viewport": 1024,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/stories/chinese-g2up/",
+    "width": 1440,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1425,
+      "route": "/stories/chinese-g2up/",
+      "scrollWidth": 1425,
+      "viewport": 1440,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  }
+]

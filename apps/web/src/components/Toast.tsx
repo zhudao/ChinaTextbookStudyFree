@@ -120,14 +120,14 @@ export function ToastProvider({ children }: { children: ReactNode }) {
                 exit={{ opacity: 0, y: 12, scale: 0.95 }}
                 transition={{ type: "spring", damping: 22, stiffness: 320 }}
                 onClick={() => remove(item.id)}
-                className="pointer-events-auto inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-extrabold text-white max-w-[88vw]"
+                className="pointer-events-auto inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-bold text-[#132C36] min-h-11 max-w-[88vw] text-left"
                 style={{
                   backgroundColor: style.bg,
                   boxShadow: `0 5px 0 0 ${style.shadow}, 0 8px 24px rgba(0,0,0,0.18)`,
                 }}
               >
                 <Icon className="w-4 h-4 shrink-0" />
-                <span className="truncate text-sm">{item.msg}</span>
+                <span className="min-w-0 break-words text-sm leading-relaxed">{item.msg}</span>
               </motion.button>
             );
           })}

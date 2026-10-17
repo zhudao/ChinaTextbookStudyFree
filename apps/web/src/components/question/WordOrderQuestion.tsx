@@ -10,10 +10,10 @@
  *   - 上方"已选区"按点击顺序展示
  *   - 下方"待选区"展示尚未点选的词语
  *   - 点击已选区的词可以撤回
- *   - 全部点完后自动 join 成 string 写入 answer，触发 onChange
+ *   - 每次选择/撤回都写入受控 answer，刷新后按 answer 恢复
  */
 
-import { useEffect, useMemo, useState } from "react";
+import { wordOrderIndices } from "@/lib/questionDraft";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/cn";
 import { MathText } from "@/components/MathText";
@@ -37,19 +37,7 @@ export function WordOrderQuestion({
   const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
 
   // 已选索引列表（指向 options 中的 index）
-  const [picked, setPicked] = useState<number[]>([]);
-
-  // 题目切换时重置
-  useEffect(() => {
-    setPicked([]);
-  }, [question.id]);
-
-  // picked 变化时同步到外部 answer
-  useEffect(() => {
-    const text = picked.map(i => options[i]).join(",");
-    if (text !== answer) onChange(text);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [picked]);
+  const picked = wordOrderIndices(options, answer);
 
   /** 播放第 i 个选项的 TTS */
   function playOptionAudio(i: number) {
@@ -64,7 +52,7 @@ export function WordOrderQuestion({
     playSfx("tap");
     haptic("light");
     playOptionAudio(i);
-    setPicked(p => [...p, i]);
+    onChange([...picked, i].map(index => options[index]).join(","));
   }
 
   function unpick(i: number) {
@@ -72,13 +60,10 @@ export function WordOrderQuestion({
     playSfx("tap");
     haptic("light");
     playOptionAudio(i);
-    setPicked(p => p.filter(x => x !== i));
+    onChange(picked.filter(index => index !== i).map(index => options[index]).join(","));
   }
 
-  const remaining = useMemo(
-    () => options.map((_, i) => i).filter(i => !picked.includes(i)),
-    [options, picked],
-  );
+  const remaining = options.map((_, i) => i).filter(i => !picked.includes(i));
 
   // checked 阶段下，把正确序列拆出来供对照展示
   const correctSeq = phase === "checked" ? question.answer.split(",").map(s => s.trim()) : [];
@@ -86,7 +71,7 @@ export function WordOrderQuestion({
   return (
     <div className="w-full">
       <div className="flex items-start gap-3 mb-6">
-        <div className="text-xl font-bold text-ink leading-relaxed whitespace-pre-wrap flex-1">
+        <div className="text-xl font-bold text-ink leading-relaxed whitespace-pre-wrap flex-1 min-w-0">
           <MathText text={question.question} />
         </div>
         <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
@@ -126,7 +111,7 @@ export function WordOrderQuestion({
               whileTap={!disabled ? { scale: 0.98 } : undefined}
               onClick={() => unpick(i)}
               disabled={disabled}
-              className="h-10 px-4 inline-flex items-center rounded-xl bg-secondary text-white font-extrabold text-base"
+              className="min-h-11 min-w-11 px-4 inline-flex items-center rounded-xl bg-secondary text-white font-extrabold text-base"
               style={{ boxShadow: "0 3px 0 0 #1899d6" }}
             >
               {options[i]}
@@ -145,7 +130,7 @@ export function WordOrderQuestion({
             whileTap={!disabled ? { scale: 0.98 } : undefined}
             onClick={() => pick(i)}
             disabled={disabled}
-            className="h-10 px-4 inline-flex items-center rounded-xl bg-white border-2 border-bg-softer text-ink font-extrabold text-base hover:border-secondary transition-colors"
+            className="min-h-11 min-w-11 px-4 inline-flex items-center rounded-xl bg-white border-2 border-bg-softer text-ink font-extrabold text-base hover:border-secondary transition-colors"
             style={{ boxShadow: "0 3px 0 0 var(--shadow-card-color)" }}
           >
             {options[i]}

@@ -1,0 +1,15 @@
+[
+  {
+    "case": "modal-keyboard-320-dark",
+    "forward": {
+      "label": null,
+      "text": "20 XP"
+    },
+    "back": "确定",
+    "closed": {
+      "focus": "每日目标",
+      "inert": 0,
+      "overflow": "visible"
+    }
+  }
+]

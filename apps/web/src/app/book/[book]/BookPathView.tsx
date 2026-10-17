@@ -92,8 +92,8 @@ export function BookPathView({
 
   const headerLabel = (
     <>
-      <SubjectBadge book={book} className="!border-white/60 !bg-white/15 !text-white" />
-      <span className="truncate">{book.textbookName}</span>
+      <SubjectBadge book={book} className="!border-black/20 !bg-white/20 !text-[#132C36]" />
+      <span className="break-words">{book.textbookName}</span>
     </>
   );
 
@@ -103,7 +103,7 @@ export function BookPathView({
         {book.hasPassages && (
           <SoundLink
             href={`/reading/${bookId}/`}
-            className="inline-flex items-center gap-1.5 px-3 h-9 rounded-xl bg-white border-2 border-bg-softer text-xs font-extrabold text-primary hover:border-primary/40 transition-colors"
+            className="inline-flex items-center gap-1.5 px-3 min-h-11 rounded-xl bg-white border-2 border-bg-softer text-xs font-extrabold text-primary hover:border-primary/40 transition-colors"
             style={{ boxShadow: "0 2px 0 0 var(--shadow-card-color)" }}
           >
             <BookOpen className="w-4 h-4" />
@@ -113,7 +113,7 @@ export function BookPathView({
         {book.hasStories && (
           <SoundLink
             href={`/stories/${bookId}/`}
-            className="inline-flex items-center gap-1.5 px-3 h-9 rounded-xl bg-white border-2 border-bg-softer text-xs font-extrabold text-warning hover:border-warning/40 transition-colors"
+            className="inline-flex items-center gap-1.5 px-3 min-h-11 rounded-xl bg-white border-2 border-bg-softer text-xs font-extrabold text-ink-light hover:border-warning/40 transition-colors"
             style={{ boxShadow: "0 2px 0 0 var(--shadow-card-color)" }}
           >
             <BookOpen className="w-4 h-4" />

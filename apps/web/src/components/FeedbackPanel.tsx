@@ -2,8 +2,9 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { createPortal } from "react-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { CheckCircle, XCircle } from "@/components/icons";
+import { Modal } from "@/components/Modal";
 import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
@@ -34,7 +35,7 @@ interface FeedbackPanelProps {
   reportContext?: ReportContext | null;
 }
 
-const PRAISE_POOL = ["太棒了！", "完美！", "做得好！", "天才！", "继续保持！", "漂亮！"];
+const PRAISE_POOL = ["答对了！", "做得好！", "继续保持！", "太棒了！"];
 const COMFORT_POOL = ["再想想", "差一点", "加油", "没关系", "下次就对！"];
 
 /** 小旗子图标（仅报错入口用，不动 icons.tsx） */
@@ -109,7 +110,7 @@ export function FeedbackPanel({
       animate={{ y: 0, opacity: 1 }}
       transition={{ type: "spring", damping: 22, stiffness: 260 }}
       className={`fixed bottom-0 left-0 right-0 z-50 border-t-4 ${bg} backdrop-blur-sm`}
-      style={{ boxShadow: "0 -8px 24px rgba(0,0,0,0.06)" }}
+      style={{ boxShadow: "0 -8px 24px rgba(0,0,0,0.06)", paddingBottom: "env(safe-area-inset-bottom)", maxHeight: "85dvh", overflowY: "auto" }}
     >
       <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-5">
         <div className={`flex items-center gap-3 mb-3 font-extrabold text-2xl ${titleColor}`}>
@@ -139,7 +140,7 @@ export function FeedbackPanel({
                 haptic("light");
                 setSheetOpen(true);
               }}
-              className={`shrink-0 h-9 w-9 inline-flex items-center justify-center rounded-full border-2 transition-colors ${
+              className={`shrink-0 h-11 w-11 inline-flex items-center justify-center rounded-full border-2 transition-colors ${
                 reported
                   ? "border-primary/40 bg-primary/10 text-primary cursor-default"
                   : "border-bg-softer bg-white text-ink-softer hover:text-ink hover:border-ink-softer"
@@ -178,33 +179,11 @@ export function FeedbackPanel({
         </button>
       </div>
 
-      {/* 🚩 报错底部弹层：三选一（portal 到 body，避开面板自身的 transform） */}
+      {/* 🚩 报错对话框：三选一（portal 到 body，避开面板自身的 transform） */}
       {portalReady &&
         createPortal(
-      <AnimatePresence>
-        {sheetOpen && (
-          <>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-black/45 backdrop-blur-[2px] z-40"
-              onClick={() => setSheetOpen(false)}
-              aria-hidden
-            />
-            <motion.div
-              initial={{ y: 280 }}
-              animate={{ y: 0 }}
-              exit={{ y: 320 }}
-              transition={{ type: "spring", damping: 26, stiffness: 300 }}
-              className="fixed bottom-0 left-0 right-0 z-50 bg-white rounded-t-3xl border-t-2 border-bg-softer"
-              style={{ boxShadow: "0 -10px 32px rgba(0,0,0,0.14)" }}
-              role="dialog"
-              aria-modal="true"
-              aria-label="报告题目问题"
-            >
-              <div className="max-w-md lg:max-w-2xl mx-auto px-5 pt-4 pb-6">
-                <div className="mx-auto w-12 h-1.5 rounded-full bg-bg-softer mb-4" />
+      <Modal open={sheetOpen} onClose={() => setSheetOpen(false)} ariaLabel="报告题目问题">
+              <div>
                 <div className="flex items-center gap-2 mb-1">
                   <FlagIcon className="w-5 h-5 text-danger" />
                   <h3 className="text-lg font-extrabold text-ink">这道题怎么了？</h3>
@@ -239,10 +218,7 @@ export function FeedbackPanel({
                   取消
                 </button>
               </div>
-            </motion.div>
-          </>
-        )}
-      </AnimatePresence>,
+      </Modal>,
           document.body,
         )}
     </motion.div>

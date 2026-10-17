@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-15",
+  "artwork_updated": "2026-10-16",
+  "format": "Brand hero, generated feature device mockups, SVG banner and original UI captures",
+  "branch": "codex/ux-quality-repairs",
+  "screenshot_base_commit": "acde104e22321d4e0f84764fc62fd158a324a05f",
+  "release_state": "unmerged; not deployed",
+  "css_viewports": {
+    "desktop": [
+      1280,
+      720
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "notes": [
+    "The hero is a generated brand concept. Feature posters are generated device mockups based on actual app screenshots.",
+    "Device screens may contain generated redraws; original captures and the running app are the UI source of truth.",
+    "All original capture files are unchanged. Device mockups are not real-device acceptance evidence.",
+    "Mobile captures use browser viewport simulations; iOS captures remain historical."
+  ],
+  "files": [
+    {
+      "path": "docs/banner.svg",
+      "bytes": 2929,
+      "pixels": [
+        1600,
+        500
+      ],
+      "sha256": "96ac467d224eccfdcd441102b3b258df43514cb6a178393f11ccb6f91bacf456"
+    },
+    {
+      "path": "docs/visuals/feature-explore.png",
+      "bytes": 1727860,
+      "pixels": [
+        1586,
+        992
+      ],
+      "sha256": "3c2a927ea88c780783c04cd62ed4e8b998663d76910c86d48ff428fb29e0eeb2",
+      "kind": "generated-feature-device-mockup"
+    },
+    {
+      "path": "docs/visuals/hero.png",
+      "bytes": 1655562,
+      "pixels": [
+        1586,
+        992
+      ],
+      "sha256": "8eb4d909b42a1f9041602d9e27aaa2b30037a6dd76737d6305f17b8553336405",
+      "kind": "generated-brand-concept"
+    },
+    {
+      "path": "docs/visuals/feature-learning.png",
+      "bytes": 1626540,
+      "pixels": [
+        1586,
+        992
+      ],
+      "sha256": "069b006c6761426f4b9af8d5a4b1766c6bce1be19be4cd7ea34977fc24fe5941",
+      "kind": "generated-feature-device-mockup"
+    },
+    {
+      "path": "docs/visuals/feature-reading.png",
+      "bytes": 1548340,
+      "pixels": [
+        1586,
+        992
+      ],
+      "sha256": "5fdc72ada4aabd0cd8691f20928d70a5ff703fe3d9b96ca261560511c8b07fa2",
+      "kind": "generated-feature-device-mockup"
+    },
+    {
+      "path": "docs/screenshots/web/01-onboarding.jpg",
+      "bytes": 24038,
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "68e4ab39cb31d33cf355adf47a308ac5a284e449b066b5ace90fbf5b3c69886b"
+    },
+    {
+      "path": "docs/screenshots/web/02-subjects-mobile.jpg",
+      "bytes": 32774,
+      "pixels": [
+        375,
+        812
+      ],
+      "sha256": "84ce0d05d6587c0e34c5248c36e22a33e8d486ba2cd045cf33ed2a6aac919cfb"
+    },
+    {
+      "path": "docs/screenshots/web/02-subjects.jpg",
+      "bytes": 64079,
+      "pixels": [
+        1265,
+        712
+      ],
+      "sha256": "16d3a1654987ff092d2596d5339db265b49cb4f69a313be89a45dd5d4c6d224c"
+    },
+    {
+      "path": "docs/screenshots/web/03-learning-path.jpg",
+      "bytes": 37323,
+      "pixels": [
+        1265,
+        712
+      ],
+      "sha256": "fdb878130e70b3bcfb2c2431ba7b4408cbfa5f4fc360b0266c1d2aba68984fb7"
+    },
+    {
+      "path": "docs/screenshots/web/04-counting-start.jpg",
+      "bytes": 16524,
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "bb12522a4ef7d693483375d74a470345a4e90c4f194cc3bdeeb4a2aa04a2d50f"
+    },
+    {
+      "path": "docs/screenshots/web/04-counting.jpg",
+      "bytes": 19023,
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "5bcf60261e25d9cffd40842e28ef401faa7cb557a05e0abecc326bc79fb8a353"
+    },
+    {
+      "path": "docs/screenshots/web/05-feedback.jpg",
+      "bytes": 32743,
+      "pixels": [
+        390,
+        844
+      ],
+      "sha256": "07ed559f9023462b9eaca812b57760cd30fb68e827ca284eed9822dad59ce7a9"
+    },
+    {
+      "path": "docs/screenshots/web/06-reading-mobile.jpg",
+      "bytes": 29132,
+      "pixels": [
+        375,
+        812
+      ],
+      "sha256": "bba3ab927fe058fe42335db92660a241b424137a089ed9e3efb90076a6259947"
+    },
+    {
+      "path": "docs/screenshots/web/06-reading.jpg",
+      "bytes": 41906,
+      "pixels": [
+        1265,
+        712
+      ],
+      "sha256": "ef75f5e4aba7e975ca3a0928cb70ea372edcbd2813f4ab8cac273fafb21cb684"
+    },
+    {
+      "path": "docs/screenshots/web/07-stories.jpg",
+      "bytes": 102089,
+      "pixels": [
+        1265,
+        712
+      ],
+      "sha256": "82342821f5033427cf0f97ded9ab36b98aee35cb636bb3c6f45fe44f2aa29132"
+    },
+    {
+      "path": "docs/screenshots/web/08-story-reader.jpg",
+      "bytes": 105756,
+      "pixels": [
+        1265,
+        712
+      ],
+      "sha256": "bf643f4c446962d57042845a4c6f89eac57735edd0ee1aee27662e723f3d46f2"
+    },
+    {
+      "path": "docs/screenshots/web/09-wardrobe.jpg",
+      "bytes": 59271,
+      "pixels": [
+        1265,
+        712
+      ],
+      "sha256": "2d9487e0ab05b8ea7da894bdd2eeab507f9fb19c9e6f40b729ddcad4e932cb50"
+    },
+    {
+      "path": "docs/screenshots/web/10-review.jpg",
+      "bytes": 35480,
+      "pixels": [
+        1265,
+        712
+      ],
+      "sha256": "e98088a67fafd4a24e30cc54b3da2c51d22c0c5771c763de427a85828b6fece9"
+    },
+    {
+      "path": "docs/screenshots/web/11-profile.jpg",
+      "bytes": 33654,
+      "pixels": [
+        1265,
+        712
+      ],
+      "sha256": "46101f8e9d8718e77afaa2cb067d847d89313898a8df33e0222363104b9ae3e6"
+    }
+  ],
+  "generation": {
+    "tool": "Codex built-in imagegen",
+    "date": "2026-10-16",
+    "prompts": "docs/showcase/imagegen-prompts.md",
+    "visuals_are_ui_screenshots": false,
+    "feature_prompts": "docs/showcase/feature-prompts.md",
+    "device_screens_are_original_captures": false
+  }
+}

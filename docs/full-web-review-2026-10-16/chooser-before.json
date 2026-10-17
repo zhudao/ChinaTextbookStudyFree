@@ -1,0 +1,17 @@
+{
+  "failures": [
+    "Page scroll locked without a visible dialog"
+  ],
+  "metrics": {
+    "clientWidth": 320,
+    "clippedHeadings": [],
+    "failedImages": [],
+    "height": 400,
+    "immersiveNav": false,
+    "route": "/book/g5down/",
+    "scrollWidth": 320,
+    "undersizedButtons": [],
+    "width": 320
+  },
+  "passed": false
+}

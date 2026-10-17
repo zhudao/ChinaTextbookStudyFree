@@ -9,6 +9,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import {
   UNLOCK_LESSONS,
   botsForWeek,
@@ -25,12 +26,13 @@ import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 
 export function RightRail() {
+  const pathname = usePathname();
   return (
-    <div className="flex flex-col gap-4 w-full">
+    <div className="flex min-w-0 flex-col gap-5 w-full">
       <div className="flex justify-end">
-        <StatsBar compact />
+        <StatsBar compact placement="rail" />
       </div>
-      <LeaderboardTeaserCard />
+      {!pathname?.startsWith("/league") && <LearningNextStep />}
       <DailyQuestsPanel />
     </div>
   );
@@ -39,7 +41,7 @@ export function RightRail() {
 function CardShell({ children }: { children: React.ReactNode }) {
   return (
     <div
-      className="rounded-2xl border-2 border-bg-softer bg-white p-4"
+      className="rounded-2xl border border-bg-softer bg-white p-4"
       style={{ boxShadow: "0 2px 0 0 var(--shadow-card-color)" }}
     >
       {children}
@@ -131,3 +133,10 @@ function LeaderboardTeaserCard() {
   );
 }
 
+
+function LearningNextStep() {
+  const grade = useProgressStore(s => s.selectedGrade) ?? 1;
+  const completed = useProgressStore(s => Object.keys(s.completedLessons).length);
+  if (completed >= UNLOCK_LESSONS) return <LeaderboardTeaserCard />;
+  return <CardShell><p className="font-extrabold text-ink">和聪聪读一读</p><p className="text-sm text-ink-light mt-2">听一个故事，发现课本之外的新世界。</p><Link href={`/stories/chinese-g${grade}up/`} className="inline-flex min-h-11 items-center text-secondary-dark font-bold mt-2">去听故事 →</Link></CardShell>;
+}

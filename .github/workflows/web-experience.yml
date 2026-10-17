@@ -1,0 +1,31 @@
+name: Web experience checks
+on:
+  pull_request:
+    paths:
+      - 'apps/web/**'
+      - 'packages/core/**'
+      - 'scripts/checks/**'
+      - 'package*.json'
+      - '.github/workflows/web-experience.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  experience:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run type-check
+      - run: npm run check:web-experience
+      - name: Narration and offline transport
+        run: |
+          npx tsx scripts/checks/intro-narration.ts
+          npx tsx scripts/checks/tts-legacy-audio.ts
+          node scripts/checks/service-worker.mjs

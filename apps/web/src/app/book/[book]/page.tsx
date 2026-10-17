@@ -1,8 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
-import { BookOpen } from "@/components/icons";
 import { StatsBar } from "@/components/StatsBar";
-import { SoundLink } from "@/components/SoundLink";
 import { AppShell } from "@/components/layout/AppShell";
 import {
   ActiveBookSync,
@@ -44,15 +42,15 @@ export default async function BookPage({ params }: { params: Promise<{ book: str
       <ActiveBookSync bookId={bookId} grade={book.grade} />
 
       {/* 移动端顶栏：当前教材徽章（可换书） + stats */}
-      <div className="lg:hidden bg-white border-b border-bg-softer sticky top-0 z-30">
-        <div className="max-w-md mx-auto px-4 py-2 flex items-center justify-between gap-2">
+      <div className="shell-page-toolbar bg-white border-b border-bg-softer relative z-10">
+        <div className="book-toolbar max-w-md mx-auto px-4 py-3 flex items-center justify-between gap-2">
           <CurrentBookBadge book={book} gradeBooks={gradeBooks} />
           <StatsBar compact />
         </div>
       </div>
 
       {/* 桌面端：当前教材徽章行 */}
-      <div className="hidden lg:flex items-center mb-3">
+      <div className="hidden xl:flex items-center mb-3">
         <CurrentBookBadge book={book} gradeBooks={gradeBooks} />
       </div>
 
@@ -61,47 +59,7 @@ export default async function BookPage({ params }: { params: Promise<{ book: str
         <ContinueLearningCard />
       </div>
 
-      {/* 移动端：课文听读 + 故事阅读小条 */}
-      {(book.hasPassages || book.hasStories) && (
-        <div className="lg:hidden max-w-md mx-auto px-4 pt-4 space-y-3">
-          {book.hasPassages && (
-            <SoundLink
-              href={`/reading/${bookId}/`}
-              className="flex items-center gap-3 rounded-2xl bg-white border border-bg-softer p-3 hover:border-primary/40 transition-colors"
-            >
-              <div className="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary inline-flex items-center justify-center">
-                <BookOpen className="w-5 h-5" />
-              </div>
-              <div className="flex-1 min-w-0">
-                <div className="text-sm font-bold text-ink">课文听读</div>
-                <div className="text-xs text-ink-light mt-0.5">
-                  听老师范读 · 自己跟读练习
-                </div>
-              </div>
-              <div className="shrink-0 text-xs text-primary font-bold">去听 →</div>
-            </SoundLink>
-          )}
-          {book.hasStories && (
-            <SoundLink
-              href={`/stories/${bookId}/`}
-              className="flex items-center gap-3 rounded-2xl bg-white border border-bg-softer p-3 hover:border-gold/40 transition-colors"
-            >
-              <div className="shrink-0 w-10 h-10 rounded-full bg-gold/10 text-gold inline-flex items-center justify-center">
-                <BookOpen className="w-5 h-5" />
-              </div>
-              <div className="flex-1 min-w-0">
-                <div className="text-sm font-bold text-ink">故事阅读</div>
-                <div className="text-xs text-ink-light mt-0.5">
-                  趣味故事 · 阅读理解
-                </div>
-              </div>
-              <div className="shrink-0 text-xs text-gold font-bold">去读 →</div>
-            </SoundLink>
-          )}
-        </div>
-      )}
-
-      {/* 单元路径 —— 桌面端的课文/故事入口由 PathMap 的 topSlot 承载，随 sticky banner 一起吸附 */}
+      {/* 听读与故事入口统一由路径顶栏承载。 */}
       <BookPathSection bookId={bookId} outline={outline} book={book} />
     </main>
     </AppShell>

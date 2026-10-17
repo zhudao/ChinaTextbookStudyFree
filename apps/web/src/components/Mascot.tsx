@@ -1,324 +1,247 @@
 "use client";
 
-/**
- * 聪聪 — 我们的吉祥物：一只熊猫幼崽。
- * 几何与 iOS 版 MascotView.swift（Canvas 绘制）逐点对齐：
- *   viewBox 0 0 120 120；耳朵 (34,30)/(86,30) r13；头 (60,50) rx40 ry37；
- *   身体 (60,82) rx34 ry30；眼圈 (44,50)/(76,50)；眼睛水平线 y≈48；
- *   鼻子 (60,60-68)；脚 (46,104)/(74,104)；手臂 (22,78)/(98,78)。
- *
- * 用纯 SVG 实现（不依赖任何素材），可通过 props 控制表情。
- * mood:
- *   - happy:       默认开心（眨眼睛）
- *   - cheer:       欢呼（眼睛弯成 ^ ^）
- *   - sad:         答错时（眉毛低下）
- *   - think:       思考中（一只眼半闭）
- *   - wave:        挥手打招呼
- *   - surprise:    惊讶（眼睛很大）
- *   - proud:       骄傲（眼睛闪光 + 抬头）
- *   - embarrassed: 尴尬（脸颊红晕 + 眼睛斜视）
- *
- * reactTo: 一次性动画触发器（由父组件通过 key 或 prop 切换）
- *   - 'correct':  scale 弹跳 + 挥手
- *   - 'wrong':    头摇摆 + 汗滴
- *   - 'levelup':  跳跃 + 金色光晕
- *
- * skin: 美妆系统加的"皮肤叠加层"。从 progress store 的 equippedMascotSkin
- *       读取，决定要不要叠加帽子/眼镜/配饰 SVG。
- */
-
 import { motion, useAnimation, useReducedMotion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useId, useState } from "react";
 import { MascotSkinOverlay } from "./MascotSkinOverlay";
 import { useProgressStore } from "@/store/progress";
 import type { MascotMood, MascotReaction } from "@cstf/core";
 
 export type { MascotMood, MascotReaction };
-
 export interface MascotProps {
   mood?: MascotMood;
   size?: number;
   animate?: boolean;
   reactTo?: MascotReaction;
-  /** 每次 reactKey 变化时触发一次 reactTo 动画 */
   reactKey?: number;
-  /**
-   * 皮肤覆盖：如果传入则用这个 skin id；否则读 progress store 里
-   * 当前装备的皮肤。让 shop 页面试穿场景可以传 prop 直接预览。
-   */
+  /** Preview a wardrobe item without changing the equipped skin. */
   skinOverride?: string | null;
 }
 
-// 与 iOS MascotView.swift 相同的熊猫调色
-const EEL = "#3A3A3A";
-const PANDA_BLACK = "#2E2E2E";
-const BODY_WHITE = "#FBFBFB";
-const BODY_SHADE = "#E9EDEF";
-const BLUSH = "#FF9AA8";
+const CHARCOAL = "#292e2c";
+const MOOD_LABELS: Record<MascotMood, string> = {
+  happy: "开心", cheer: "欢呼", sad: "难过", think: "思考",
+  wave: "招手", surprise: "惊喜", proud: "自豪", embarrassed: "害羞",
+};
+const IDLE = {
+  breathe: {
+    y: [0, -1.6, 0], scale: [1, 1.012, 1],
+    transition: { duration: 3.2, repeat: Infinity, ease: "easeInOut" as const },
+  },
+  rest: { y: 0, scale: 1, transition: { duration: 0 } },
+};
 
+/**
+ * Softly modelled SVG panda. Keep the existing accessory anchors:
+ * eyes (45,48)/(75,48) and chest y=88; round the head above them.
+ * Each instance owns its paint IDs, including the wardrobe's small previews.
+ */
 export function Mascot({
-  mood = "happy",
-  size = 120,
-  animate = true,
-  reactTo = null,
-  reactKey = 0,
-  skinOverride,
+  mood = "happy", size = 120, animate = true, reactTo = null, reactKey = 0, skinOverride,
 }: MascotProps) {
-  const prefersReduced = useReducedMotion();
-  const controls = useAnimation();
-  const armControls = useAnimation();
-  const [blinkClose, setBlinkClose] = useState(false);
-  const [showSweat, setShowSweat] = useState(false);
-  const [showGlow, setShowGlow] = useState(false);
-
+  const id = "panda-" + useId().replace(/[^a-zA-Z0-9_-]/g, "");
+  const paint = (name: string) => "url(#" + id + "-" + name + ")";
+  const reducedMotion = useReducedMotion();
+  const canAnimate = animate && !reducedMotion;
+  const reaction = useAnimation();
+  const arm = useAnimation();
+  const [blink, setBlink] = useState(false);
+  const [sweat, setSweat] = useState(false);
+  const [glow, setGlow] = useState(false);
   const equippedSkin = useProgressStore(s => s.equippedMascotSkin);
   const skinId = skinOverride !== undefined ? skinOverride : equippedSkin;
 
-  // 持续呼吸
   useEffect(() => {
-    if (!animate || prefersReduced) return;
-    controls.start({
-      y: [0, -3, 0],
-      scale: [1, 1.02, 1],
-      transition: { duration: 2.6, repeat: Infinity, ease: "easeInOut" },
-    });
-  }, [animate, prefersReduced, controls]);
-
-  // 随机眨眼（仅在 happy/think/wave 时视觉合理；cheer/sad 时 Eyes 会自己替换）
-  useEffect(() => {
-    if (!animate || prefersReduced) return;
-    let timer: ReturnType<typeof setTimeout>;
+    setBlink(false);
+    if (!canAnimate || !["happy", "think", "wave"].includes(mood)) return;
+    let next: ReturnType<typeof setTimeout>;
+    let reopen: ReturnType<typeof setTimeout>;
     const schedule = () => {
-      const next = 2500 + Math.random() * 3500;
-      timer = setTimeout(() => {
-        setBlinkClose(true);
-        setTimeout(() => setBlinkClose(false), 120);
+      next = setTimeout(() => {
+        setBlink(true);
+        reopen = setTimeout(() => setBlink(false), 135);
         schedule();
-      }, next);
+      }, 3200 + Math.random() * 2200);
     };
     schedule();
-    return () => clearTimeout(timer);
-  }, [animate, prefersReduced]);
+    return () => { clearTimeout(next); clearTimeout(reopen); };
+  }, [canAnimate, mood]);
 
-  // 一次性反应动画
   useEffect(() => {
-    if (!reactTo || prefersReduced) return;
-    setShowSweat(false);
-    setShowGlow(false);
+    reaction.set({ x: 0, y: 0, rotate: 0, scale: 1 });
+    arm.set({ rotate: 0 });
+    setSweat(false);
+    setGlow(false);
+    if (!canAnimate || !reactTo) return;
+    let timer: ReturnType<typeof setTimeout> | undefined;
     if (reactTo === "correct") {
-      controls.start({
-        scale: [1, 1.18, 0.95, 1.05, 1],
-        y: [0, -6, 0],
-        transition: { duration: 0.55, ease: "easeOut" },
+      void reaction.start({
+        scale: [1, 1.08, 0.99, 1], y: [0, -4, 0],
+        transition: { duration: 0.52, ease: "easeOut" },
       });
-      armControls.start({
-        rotate: [0, -25, 0, -18, 0],
-        transition: { duration: 0.55 },
-      });
+      void arm.start({ rotate: [0, -24, 0, -14, 0], transition: { duration: 0.6 } });
     } else if (reactTo === "wrong") {
-      controls.start({
-        rotate: [0, -8, 8, -6, 6, 0],
-        x: [0, -2, 2, 0],
-        transition: { duration: 0.55 },
-      });
-      setShowSweat(true);
-      setTimeout(() => setShowSweat(false), 1200);
+      void reaction.start({ rotate: [0, -5, 5, -3, 3, 0], transition: { duration: 0.5 } });
+      setSweat(true);
+      timer = setTimeout(() => setSweat(false), 1150);
     } else if (reactTo === "levelup") {
-      setShowGlow(true);
-      controls.start({
-        y: [0, -18, 0, -8, 0],
-        scale: [1, 1.1, 1, 1.05, 1],
-        transition: { duration: 0.9, ease: "easeOut" },
+      void reaction.start({
+        y: [0, -12, 0, -4, 0], scale: [1, 1.05, 1],
+        transition: { duration: 0.85, ease: "easeOut" },
       });
-      armControls.start({
-        rotate: [0, -30, 0, -30, 0],
-        transition: { duration: 0.9 },
-      });
-      setTimeout(() => setShowGlow(false), 1400);
+      void arm.start({ rotate: [0, -28, 0, -22, 0], transition: { duration: 0.85 } });
+      setGlow(true);
+      timer = setTimeout(() => setGlow(false), 1400);
     }
-  }, [reactTo, reactKey, controls, armControls, prefersReduced]);
+    return () => {
+      clearTimeout(timer);
+      reaction.stop();
+      arm.stop();
+    };
+  }, [canAnimate, reactTo, reactKey, reaction, arm]);
 
   return (
-    <div style={{ width: size, height: size, position: "relative", display: "inline-block" }}>
-      {showGlow && (
-        <motion.div
-          initial={{ opacity: 0, scale: 0.6 }}
-          animate={{ opacity: [0, 0.8, 0], scale: [0.6, 1.4, 1.6] }}
-          transition={{ duration: 1.2 }}
-          style={{
-            position: "absolute",
-            inset: "-20%",
-            borderRadius: "9999px",
-            background: "radial-gradient(circle, rgba(255,200,0,0.55), rgba(255,200,0,0) 70%)",
-            pointerEvents: "none",
-          }}
-        />
-      )}
-      <motion.svg
-        animate={controls}
-        width={size}
-        height={size}
-        viewBox="0 0 120 120"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-label="聪聪"
-        style={{ display: "block" }}
-      >
-        {/* 耳朵（黑色圆） */}
-        <circle cx="34" cy="30" r="13" fill={PANDA_BLACK} />
-        <circle cx="86" cy="30" r="13" fill={PANDA_BLACK} />
-
-        {/* 左手臂（黑色，reactTo 时会挥动；wave 表情抬高） */}
-        <motion.ellipse
-          cx="22"
-          cy="78"
-          rx="9"
-          ry="15"
-          fill={PANDA_BLACK}
-          style={{ originX: "60px", originY: "78px" } as React.CSSProperties}
-          animate={armControls}
-          transform={mood === "wave" ? "rotate(-40 22 78)" : undefined}
-        />
-        {/* 右手臂 */}
-        <ellipse cx="98" cy="78" rx="9" ry="15" fill={PANDA_BLACK} />
-
-        {/* 脚（黑色，底部） */}
-        <ellipse cx="46" cy="104" rx="11" ry="8" fill={PANDA_BLACK} />
-        <ellipse cx="74" cy="104" rx="11" ry="8" fill={PANDA_BLACK} />
-
-        {/* 身体 + 头（白色圆润团子） */}
-        <ellipse cx="60" cy="82" rx="34" ry="30" fill={BODY_WHITE} />
-        <ellipse cx="60" cy="50" rx="40" ry="37" fill={BODY_WHITE} />
-        {/* 肚皮淡影 */}
-        <ellipse cx="60" cy="84" rx="20" ry="18" fill={BODY_SHADE} opacity={0.6} />
-
-        {/* 黑眼圈（斜椭圆） */}
-        <ellipse cx="44" cy="50" rx="12" ry="15" fill={PANDA_BLACK} />
-        <ellipse cx="76" cy="50" rx="12" ry="15" fill={PANDA_BLACK} />
-
-        {/* 眼圈上的白色眼窝 */}
-        <circle cx="45" cy="48" r="8.5" fill={BODY_WHITE} />
-        <circle cx="75" cy="48" r="8.5" fill={BODY_WHITE} />
-
-        {/* 眼珠（按 mood 切换；blinkClose 时盖上眼皮） */}
-        {blinkClose && (mood === "happy" || mood === "think" || mood === "wave") ? (
-          <>
-            <path d="M 32 48 Q 44 52 56 48" fill="none" stroke={EEL} strokeWidth="3" strokeLinecap="round" />
-            <path d="M 64 48 Q 76 52 88 48" fill="none" stroke={EEL} strokeWidth="3" strokeLinecap="round" />
-          </>
-        ) : (
-          <Eyes mood={mood} />
-        )}
-
-        {/* 鼻子（黑色圆角三角） */}
-        <path
-          d="M 54 60 Q 60 58 66 60 Q 66 66 60 68 Q 54 66 54 60 Z"
-          fill={PANDA_BLACK}
-        />
-        {/* 嘴（鼻下小微笑） */}
-        <path
-          d="M 60 68 L 60 72 Q 64 76 68 74 M 60 72 Q 56 76 52 74"
-          fill="none"
-          stroke={PANDA_BLACK}
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
-
-        {/* 尴尬红晕 */}
-        {mood === "embarrassed" && (
-          <>
-            <ellipse cx="32" cy="62" rx="6" ry="3.5" fill={BLUSH} opacity={0.7} />
-            <ellipse cx="88" cy="62" rx="6" ry="3.5" fill={BLUSH} opacity={0.7} />
-          </>
-        )}
-
-        {/* 汗滴（答错时） */}
-        {showSweat && (
-          <motion.path
-            initial={{ opacity: 0, y: -4 }}
-            animate={{ opacity: [0, 1, 1, 0], y: [-4, 2, 8, 14] }}
-            transition={{ duration: 1.1 }}
-            d="M 96 24 Q 100 32 96 36 Q 92 32 96 24 Z"
-            fill="#7EC4F0"
-            stroke="#1CB0F6"
-            strokeWidth="1.2"
-          />
-        )}
-
-        {/* 皮肤叠加层（帽子 / 眼镜 / 配饰） */}
-        <MascotSkinOverlay skinId={skinId} />
-      </motion.svg>
+    <div style={{ width: size, height: size, position: "relative", display: "inline-block", flexShrink: 0 }}>
+      {glow && <motion.div
+        initial={{ opacity: 0, scale: 0.75 }}
+        animate={{ opacity: [0, 0.65, 0], scale: [0.75, 1.3, 1.5] }}
+        transition={{ duration: 1.35 }}
+        style={{
+          position: "absolute", inset: "-16%", borderRadius: "50%", pointerEvents: "none",
+          background: "radial-gradient(circle, #ffdc7b66, #ffdc7b00 70%)",
+        }}
+      />}
+      <svg width={size} height={size} viewBox="0 0 120 120"
+        xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby={id + "-title"}
+        style={{ display: "block", overflow: "visible" }}>
+        <title id={id + "-title"}>{"聪聪，" + MOOD_LABELS[mood]}</title>
+        <PandaPaint id={id} />
+        <ellipse cx="60" cy="118.5" rx="28" ry="2.2" fill={paint("ground")} />
+        {/* Initial transforms let SVG groups measure before Framer animates them.
+            Breathing stays independent of answer reactions. */}
+        <motion.g initial={{ x: 0, y: 0, scale: 1 }} variants={IDLE} animate={canAnimate ? "breathe" : "rest"}
+          style={{ originX: "60px", originY: "105px" }}>
+          <motion.g initial={{ x: 0, y: 0, rotate: 0, scale: 1 }} animate={reaction} style={{ originX: "60px", originY: "85px" }}>
+            <ellipse cx="60" cy="85" rx="30.5" ry="28" fill={paint("body")} />
+            <ellipse cx="61" cy="89" rx="21" ry="20" fill={paint("belly")} />
+            <path d="M43 103 Q60 112 77 103" fill="none" stroke="#ffffff" strokeOpacity=".35" strokeWidth="1" />
+            <g transform={mood === "wave" ? "translate(-11 -23) rotate(-28 23 80)" : undefined}>
+              <motion.g initial={{ rotate: 0 }} animate={arm} style={{ originX: "25px", originY: "77px" }}>
+                <ellipse cx="23" cy="80" rx="9.3" ry="15" transform="rotate(12 23 80)" fill={paint("dark")} />
+                <path d="M20 69 Q16 72 16.5 78" fill="none" stroke="#929b94" strokeOpacity=".2" strokeWidth="1.6" strokeLinecap="round" />
+              </motion.g>
+            </g>
+            <ellipse cx="97" cy="80" rx="9.3" ry="15" transform="rotate(-12 97 80)" fill={paint("dark")} />
+            <path d="M97 69 Q103 73 103 79" fill="none" stroke="#929b94" strokeOpacity=".16" strokeWidth="1.6" strokeLinecap="round" />
+            <ellipse cx="60" cy="82.5" rx="23" ry="4.5" fill={paint("ground")} />
+            <Paw x={43.5} angle={-12} fill={paint("dark")} />
+            <Paw x={76.5} angle={12} fill={paint("dark")} />
+            <circle cx="32" cy="21" r="12.8" fill={paint("dark")} />
+            <circle cx="88" cy="21" r="12.8" fill={paint("dark")} />
+            <ellipse cx="32.5" cy="21.5" rx="7.7" ry="8" fill="#161c18" opacity=".25" />
+            <ellipse cx="87.5" cy="21.5" rx="7.7" ry="8" fill="#161c18" opacity=".25" />
+            <path d="M23 16 Q27 9 34 10 M80 12 Q86 8 92 12" fill="none"
+              stroke="#a5aca7" strokeOpacity=".19" strokeWidth="1.5" strokeLinecap="round" />
+            <ellipse cx="60" cy="46" rx="42" ry="36" fill={paint("head")} stroke="#dce2dc" strokeWidth=".45" />
+            <ellipse cx="53" cy="25" rx="24" ry="13" fill={paint("forehead")} />
+            <ellipse cx="60" cy="65" rx="23" ry="15" fill={paint("muzzle")} />
+            <ellipse cx="43.5" cy="49.8" rx="12.4" ry="15.6" transform="rotate(13 43.5 49.8)" fill={paint("patch")} />
+            <ellipse cx="76.5" cy="49.8" rx="12.4" ry="15.6" transform="rotate(-13 76.5 49.8)" fill={paint("patch")} />
+            <ellipse cx="44.8" cy="47.8" rx="8.4" ry="8.8" fill={paint("eye")} />
+            <ellipse cx="75.2" cy="47.8" rx="8.4" ry="8.8" fill={paint("eye")} />
+            <Eyes mood={mood} blink={blink} fill={paint("pupil")} />
+            <path d="M53.5 60.3 Q60 57.7 66.5 60.3 Q66 66.2 60 68 Q54 66.2 53.5 60.3Z" fill={paint("nose")} />
+            <ellipse cx="58.5" cy="60.6" rx="2.6" ry=".8" fill="#ffffff" opacity=".2" />
+            <Mouth mood={mood} />
+            {mood === "embarrassed" && <>
+              <ellipse cx="31" cy="63" rx="6.2" ry="3.7" fill={paint("blush")} />
+              <ellipse cx="89" cy="63" rx="6.2" ry="3.7" fill={paint("blush")} />
+            </>}
+            {sweat && <motion.path d="M98 28 Q102 35 98 39 Q94 35 98 28Z"
+              initial={{ opacity: 0, y: -3 }} animate={{ opacity: [0, 1, 1, 0], y: [-3, 1, 7, 12] }}
+              transition={{ duration: 1.1 }} fill="#9ed8ec" stroke="#72b4d1" strokeWidth=".7" />}
+            <MascotSkinOverlay skinId={skinId} />
+          </motion.g>
+        </motion.g>
+      </svg>
     </div>
   );
 }
 
-function Eyes({ mood }: { mood: MascotMood }) {
-  switch (mood) {
-    case "cheer":
-      return (
-        <>
-          <path d="M 36 48 Q 44 40 52 48" fill="none" stroke={EEL} strokeWidth="3" strokeLinecap="round" />
-          <path d="M 68 48 Q 76 40 84 48" fill="none" stroke={EEL} strokeWidth="3" strokeLinecap="round" />
-        </>
-      );
-    case "sad":
-      return (
-        <>
-          <circle cx="44" cy="50" r="4" fill={EEL} />
-          <circle cx="76" cy="50" r="4" fill={EEL} />
-          <path d="M 32 38 L 50 42" stroke={EEL} strokeWidth="2.5" strokeLinecap="round" />
-          <path d="M 88 38 L 70 42" stroke={EEL} strokeWidth="2.5" strokeLinecap="round" />
-        </>
-      );
-    case "think":
-      return (
-        <>
-          <circle cx="44" cy="48" r="5" fill={EEL} />
-          <circle cx="45.5" cy="46.5" r="1.5" fill="#FFFFFF" />
-          <path d="M 68 48 Q 76 46 84 48" fill="none" stroke={EEL} strokeWidth="2.5" strokeLinecap="round" />
-        </>
-      );
-    case "surprise":
-      return (
-        <>
-          <circle cx="44" cy="48" r="7" fill={EEL} />
-          <circle cx="46" cy="46" r="2" fill="#FFFFFF" />
-          <circle cx="76" cy="48" r="7" fill={EEL} />
-          <circle cx="78" cy="46" r="2" fill="#FFFFFF" />
-        </>
-      );
-    case "proud":
-      // 闪闪发光的眼睛 + 上扬眉毛 → 自信
-      return (
-        <>
-          <circle cx="44" cy="48" r="5" fill={EEL} />
-          <circle cx="45.5" cy="46.5" r="1.8" fill="#FFFFFF" />
-          <circle cx="42" cy="50" r="0.9" fill="#FFFFFF" />
-          <circle cx="76" cy="48" r="5" fill={EEL} />
-          <circle cx="77.5" cy="46.5" r="1.8" fill="#FFFFFF" />
-          <circle cx="74" cy="50" r="0.9" fill="#FFFFFF" />
-          {/* 上扬眉毛 */}
-          <path d="M 32 38 Q 40 34 50 40" stroke={EEL} strokeWidth="2.5" strokeLinecap="round" fill="none" />
-          <path d="M 88 38 Q 80 34 70 40" stroke={EEL} strokeWidth="2.5" strokeLinecap="round" fill="none" />
-        </>
-      );
-    case "embarrassed":
-      // 斜视小眼（红晕在主体层画）
-      return (
-        <>
-          <circle cx="44" cy="50" r="3.5" fill={EEL} />
-          <circle cx="76" cy="50" r="3.5" fill={EEL} />
-        </>
-      );
-    case "wave":
-    case "happy":
-    default:
-      return (
-        <>
-          <circle cx="44" cy="48" r="5" fill={EEL} />
-          <circle cx="45.5" cy="46.5" r="1.5" fill="#FFFFFF" />
-          <circle cx="76" cy="48" r="5" fill={EEL} />
-          <circle cx="77.5" cy="46.5" r="1.5" fill="#FFFFFF" />
-        </>
-      );
-  }
+function PandaPaint({ id }: { id: string }) {
+  const tones = {
+    head: ["#fffefb", "#fafaf7", "#d4d7d2"],
+    body: ["#fffefa", "#eef1ec", "#cbd5cd"],
+    belly: ["#fffefa", "#f8faf5", "#e6ece4"],
+    dark: ["#545553", "#343734", "#202522"],
+    patch: ["#454d46", "#2c342e", "#222923"],
+    eye: ["#ffffff", "#f9faf6", "#dce3db"],
+    pupil: ["#515a51", "#2d362f", "#1d271f"],
+  };
+  return <defs>
+    {Object.entries(tones).map(([name, colors]) => <radialGradient key={name}
+      id={id + "-" + name} cx="35%" cy="25%" r="80%">
+      <stop stopColor={colors[0]} /><stop offset=".6" stopColor={colors[1]} /><stop offset="1" stopColor={colors[2]} />
+    </radialGradient>)}
+    <linearGradient id={id + "-nose"} x1="0" y1="0" x2=".6" y2="1">
+      <stop stopColor="#4c544e" /><stop offset="1" stopColor="#252c27" />
+    </linearGradient>
+    <radialGradient id={id + "-forehead"}>
+      <stop stopColor="#ffffff" stopOpacity=".45" /><stop offset="1" stopColor="#ffffff" stopOpacity="0" />
+    </radialGradient>
+    <radialGradient id={id + "-muzzle"}>
+      <stop stopColor="#ffffff" stopOpacity=".6" /><stop offset="1" stopColor="#ffffff" stopOpacity="0" />
+    </radialGradient>
+    <radialGradient id={id + "-ground"}>
+      <stop stopColor="#203629" stopOpacity=".18" /><stop offset="1" stopColor="#203629" stopOpacity="0" />
+    </radialGradient>
+    <radialGradient id={id + "-blush"}>
+      <stop stopColor="#efafad" stopOpacity=".65" /><stop offset="1" stopColor="#efafad" stopOpacity="0" />
+    </radialGradient>
+  </defs>;
+}
+
+function Paw({ x, angle, fill }: { x: number; angle: number; fill: string }) {
+  return <g transform={"rotate(" + angle + " " + x + " 109)"}>
+    <ellipse cx={x} cy="109" rx="12" ry="9.5" fill={fill} />
+    <ellipse cx={x} cy="111" rx="4.8" ry="3.4" fill="#626d63" opacity=".72" />
+    {[-5, 0, 5].map((dx, i) => <ellipse key={dx} cx={x + dx} cy={i === 1 ? 104 : 105.3}
+      rx="1.8" ry="1.7" fill="#7b867c" opacity=".65" />)}
+  </g>;
+}
+
+function Eyes({ mood, blink, fill }: { mood: MascotMood; blink: boolean; fill: string }) {
+  const closed = blink && ["happy", "think", "wave"].includes(mood);
+  const eye = (x: number, y: number, r = 5.1, proud = false) => <g key={x}>
+    <ellipse cx={x} cy={y} rx={r} ry={r + .35} fill={fill} />
+    <circle cx={x + 1.3} cy={y - 1.7} r={proud ? 1.8 : 1.55} fill="#ffffff" />
+    <circle cx={x - 1.7} cy={y + 2.1} r=".65" fill="#ffffff" opacity=".55" />
+  </g>;
+  const lid = (x: number, cheerful = false) => <path key={x}
+    d={cheerful ? "M" + (x - 5.8) + " 49 Q" + x + " 41.5 " + (x + 5.8) + " 49"
+      : "M" + (x - 6.1) + " 48 Q" + x + " 51 " + (x + 6.1) + " 48"}
+    stroke={CHARCOAL} strokeWidth="2.1" fill="none" strokeLinecap="round" />;
+  if (closed) return <>{lid(44.8)}{lid(75.2)}</>;
+  if (mood === "cheer") return <>{lid(44.8, true)}{lid(75.2, true)}</>;
+  if (mood === "think") return <>{eye(44.8, 47.8)}{lid(75.2)}</>;
+  if (mood === "sad") return <>{eye(44.8, 50, 4.3)}{eye(75.2, 50, 4.3)}
+    <path d="M33 35 Q41 36 49 39 M87 35 Q79 36 71 39" fill="none"
+      stroke={CHARCOAL} strokeWidth="1.9" strokeLinecap="round" /></>;
+  if (mood === "surprise") return <>{eye(44.8, 47.8, 6.5)}{eye(75.2, 47.8, 6.5)}</>;
+  if (mood === "proud") return <>{eye(44.8, 47.8, 5.1, true)}{eye(75.2, 47.8, 5.1, true)}
+    <path d="M33 37 Q41 32 49 37 M87 37 Q79 32 71 37" fill="none"
+      stroke={CHARCOAL} strokeWidth="1.8" strokeLinecap="round" /></>;
+  if (mood === "embarrassed") return <>{eye(46, 49.5, 4.2)}{eye(76.5, 49.5, 4.2)}</>;
+  return <>{eye(44.8, 47.8)}{eye(75.2, 47.8)}</>;
+}
+
+function Mouth({ mood }: { mood: MascotMood }) {
+  if (mood === "surprise") return <ellipse cx="60" cy="73" rx="3" ry="4" fill={CHARCOAL} />;
+  if (mood === "sad") return <path d="M54 74 Q60 68 66 74" stroke={CHARCOAL}
+    strokeWidth="1.8" fill="none" strokeLinecap="round" />;
+  if (mood === "cheer") return <g>
+    <path d="M52.5 69.5 Q60 73 67.5 69.5 Q66 78.5 60 78.5 Q54 78.5 52.5 69.5Z" fill={CHARCOAL} />
+    <path d="M56 76.5 Q60 73.5 64 76.5 Q60 79 56 76.5" fill="#dc9d9b" />
+  </g>;
+  return <path d="M60 67.5 V71 Q64 75 68 72.5 M60 71 Q56 75 52 72.5"
+    fill="none" stroke={CHARCOAL} strokeWidth="1.8" strokeLinecap="round" />;
 }

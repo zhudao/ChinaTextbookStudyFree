@@ -124,14 +124,15 @@ export function LessonStartModal({
   }
 
   return (
-    <Modal open={open} onClose={onClose}>
+    <Modal ariaLabel={title} open={open} onClose={onClose}>
       <div className="flex flex-col items-center text-center">
         <Mascot mood={canStart ? "happy" : "sad"} size={88} />
         <div className="text-[11px] uppercase tracking-wider text-ink-softer mt-4 font-extrabold">
-          {isExam ? `第 ${unitNumber} 单元 · 单元挑战` : `第 ${unitNumber} 单元 · ${kpIndex}/${kpTotal}`}
+          {isExam ? `第 ${unitNumber} 单元 · 单元挑战` : `第 ${unitNumber} 单元 · ${kpIndex + 1}/${kpTotal}`}
         </div>
         <h2 className="text-2xl font-extrabold text-ink mt-2 leading-tight">{title}</h2>
 
+        {questionCount < 3 && !isExam && <p className="mt-3 text-sm text-ink-light">微练习 · 先试一试，之后再用更多情境巩固。这次不评掌握星级。</p>}
         {isExam && (
           <div
             className="mt-3 inline-flex items-center gap-1.5 h-8 px-3 rounded-full text-white text-xs font-extrabold"

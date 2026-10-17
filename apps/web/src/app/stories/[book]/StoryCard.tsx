@@ -35,7 +35,7 @@ export function StoryCard({ story, bookId }: Props) {
         <div className="w-full aspect-[2/1] overflow-hidden bg-bg-softer">
           <img
             src={story.image}
-            alt={story.title}
+            alt=""
             className="w-full h-full object-cover"
             loading="lazy"
           />
@@ -51,7 +51,7 @@ export function StoryCard({ story, bookId }: Props) {
           <Book className="w-5 h-5" />
         </div>
         <div className="flex-1 min-w-0">
-          <div className="text-base font-bold text-ink truncate">
+          <div className="text-base font-bold text-ink break-words leading-relaxed">
             {story.title}
           </div>
           <div className="text-xs text-ink-light mt-0.5 flex items-center gap-1">

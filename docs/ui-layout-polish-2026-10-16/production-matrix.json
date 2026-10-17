@@ -1,0 +1,352 @@
+[
+  {
+    "path": "/shop/",
+    "width": 320,
+    "failures": [],
+    "metrics": {
+      "cards": 12,
+      "clippedNames": 0,
+      "contentWidth": 305,
+      "minimumCardWidth": 128.5,
+      "route": "/shop/",
+      "scrollWidth": 305,
+      "sideBySide": false,
+      "stickyPreview": false,
+      "viewport": 320,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/shop/",
+    "width": 375,
+    "failures": [],
+    "metrics": {
+      "cards": 12,
+      "clippedNames": 0,
+      "contentWidth": 360,
+      "minimumCardWidth": 156,
+      "route": "/shop/",
+      "scrollWidth": 360,
+      "sideBySide": false,
+      "stickyPreview": false,
+      "viewport": 375,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/shop/",
+    "width": 390,
+    "failures": [],
+    "metrics": {
+      "cards": 12,
+      "clippedNames": 0,
+      "contentWidth": 375,
+      "minimumCardWidth": 163.5,
+      "route": "/shop/",
+      "scrollWidth": 375,
+      "sideBySide": false,
+      "stickyPreview": false,
+      "viewport": 390,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/shop/",
+    "width": 768,
+    "failures": [],
+    "metrics": {
+      "cards": 12,
+      "clippedNames": 0,
+      "contentWidth": 753,
+      "minimumCardWidth": 192.328125,
+      "route": "/shop/",
+      "scrollWidth": 753,
+      "sideBySide": false,
+      "stickyPreview": false,
+      "viewport": 768,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/shop/",
+    "width": 1024,
+    "failures": [],
+    "metrics": {
+      "cards": 12,
+      "clippedNames": 0,
+      "contentWidth": 1009,
+      "minimumCardWidth": 170.25,
+      "route": "/shop/",
+      "scrollWidth": 1009,
+      "sideBySide": false,
+      "stickyPreview": false,
+      "viewport": 1024,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/shop/",
+    "width": 1280,
+    "failures": [],
+    "metrics": {
+      "cards": 12,
+      "clippedNames": 0,
+      "contentWidth": 1265,
+      "minimumCardWidth": 220.328125,
+      "route": "/shop/",
+      "scrollWidth": 1265,
+      "sideBySide": true,
+      "stickyPreview": true,
+      "viewport": 1280,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/shop/",
+    "width": 1440,
+    "failures": [],
+    "metrics": {
+      "cards": 12,
+      "clippedNames": 0,
+      "contentWidth": 1425,
+      "minimumCardWidth": 185,
+      "route": "/shop/",
+      "scrollWidth": 1425,
+      "sideBySide": true,
+      "stickyPreview": true,
+      "viewport": 1440,
+      "红心": 0,
+      "连胜详情": 0
+    },
+    "passed": true
+  },
+  {
+    "path": "/league/",
+    "width": 320,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 305,
+      "lockedPrompts": 1,
+      "route": "/league/",
+      "scrollWidth": 305,
+      "viewport": 320,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/league/",
+    "width": 375,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 360,
+      "lockedPrompts": 1,
+      "route": "/league/",
+      "scrollWidth": 360,
+      "viewport": 375,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/league/",
+    "width": 390,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 375,
+      "lockedPrompts": 1,
+      "route": "/league/",
+      "scrollWidth": 375,
+      "viewport": 390,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/league/",
+    "width": 768,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 768,
+      "lockedPrompts": 1,
+      "route": "/league/",
+      "scrollWidth": 768,
+      "viewport": 768,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/league/",
+    "width": 1024,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1024,
+      "lockedPrompts": 1,
+      "route": "/league/",
+      "scrollWidth": 1024,
+      "viewport": 1024,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/league/",
+    "width": 1280,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1280,
+      "lockedPrompts": 1,
+      "route": "/league/",
+      "scrollWidth": 1280,
+      "viewport": 1280,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/league/",
+    "width": 1440,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1440,
+      "lockedPrompts": 1,
+      "route": "/league/",
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/book/chinese-g2up/",
+    "width": 320,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 305,
+      "minimumLabelGap": 44,
+      "pathEntries": 68,
+      "route": "/book/chinese-g2up/",
+      "scrollWidth": 305,
+      "viewport": 320,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/book/chinese-g2up/",
+    "width": 375,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 360,
+      "minimumLabelGap": 44,
+      "pathEntries": 68,
+      "route": "/book/chinese-g2up/",
+      "scrollWidth": 360,
+      "viewport": 375,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/book/chinese-g2up/",
+    "width": 390,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 375,
+      "minimumLabelGap": 44,
+      "pathEntries": 68,
+      "route": "/book/chinese-g2up/",
+      "scrollWidth": 375,
+      "viewport": 390,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/book/chinese-g2up/",
+    "width": 768,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 753,
+      "minimumLabelGap": 44,
+      "pathEntries": 68,
+      "route": "/book/chinese-g2up/",
+      "scrollWidth": 753,
+      "viewport": 768,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/book/chinese-g2up/",
+    "width": 1024,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1009,
+      "minimumLabelGap": 44,
+      "pathEntries": 68,
+      "route": "/book/chinese-g2up/",
+      "scrollWidth": 1009,
+      "viewport": 1024,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/book/chinese-g2up/",
+    "width": 1280,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1265,
+      "minimumLabelGap": 44,
+      "pathEntries": 68,
+      "route": "/book/chinese-g2up/",
+      "scrollWidth": 1265,
+      "viewport": 1280,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  },
+  {
+    "path": "/book/chinese-g2up/",
+    "width": 1440,
+    "failures": [],
+    "metrics": {
+      "contentWidth": 1425,
+      "minimumLabelGap": 44,
+      "pathEntries": 68,
+      "route": "/book/chinese-g2up/",
+      "scrollWidth": 1425,
+      "viewport": 1440,
+      "红心": 1,
+      "连胜详情": 1
+    },
+    "passed": true
+  }
+]

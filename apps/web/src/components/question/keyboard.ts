@@ -12,6 +12,7 @@ export function shouldIgnoreKey(e: KeyboardEvent): boolean {
   if (e.isComposing || e.metaKey || e.ctrlKey || e.altKey) return true;
   const t = e.target as HTMLElement | null;
   if (!t) return false;
+  if (t.closest?.('[role="dialog"][aria-modal="true"]')) return true;
   const tag = t.tagName;
   return tag === "INPUT" || tag === "TEXTAREA" || t.isContentEditable;
 }

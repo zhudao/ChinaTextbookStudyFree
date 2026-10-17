@@ -4,6 +4,7 @@ import { StatsBar } from "@/components/StatsBar";
 import { SoundLink } from "@/components/SoundLink";
 import { AppShell } from "@/components/layout/AppShell";
 import { ChangeGradeButton } from "@/components/ChangeGradeButton";
+import { ContinueLearningCard } from "@/components/ContinueLearningCard";
 import type { SiteIndex, SubjectId, Book } from "@/types";
 import { SUBJECTS } from "@/lib/subjects";
 
@@ -87,7 +88,7 @@ export default async function GradePage({ params }: { params: Promise<{ grade: s
     <main className="min-h-screen flex flex-col items-center px-4 pt-4 pb-8 lg:pt-2 lg:px-0">
       {/* 页头：移动端带 compact StatsBar；lg+ 由右栏 RightRail 常驻 HUD，不再重复 */}
       <div className="w-full max-w-3xl lg:max-w-none">
-        <div className="lg:hidden flex justify-end mb-4">
+        <div className="shell-page-toolbar flex justify-end mb-4">
           <StatsBar compact />
         </div>
         <div className="flex items-end justify-between gap-3 mb-5 lg:mb-8">
@@ -99,6 +100,7 @@ export default async function GradePage({ params }: { params: Promise<{ grade: s
           </div>
         </div>
       </div>
+      <ContinueLearningCard />
       <div className="w-full">
 
         <div className="space-y-6">
@@ -140,35 +142,36 @@ export default async function GradePage({ params }: { params: Promise<{ grade: s
                       <div className="relative flex items-center gap-3 lg:gap-4 px-4 py-3.5 lg:px-5 lg:py-5">
                         {/* 白色圆形徽章内的代表字 —— Duolingo 技能气泡风 */}
                         <div
-                          className="w-12 h-12 lg:w-16 lg:h-16 rounded-full bg-white flex items-center justify-center shrink-0"
+                          className="w-12 h-12 lg:w-16 lg:h-16 rounded-full flex items-center justify-center shrink-0"
                           style={{
+                            backgroundColor: "rgba(255,255,255,0.92)",
                             boxShadow: `inset 0 -3px 0 0 rgba(0,0,0,0.08)`,
                           }}
                         >
                           <span
                             className="text-2xl lg:text-3xl font-extrabold"
-                            style={{ color: theme.bg }}
+                            style={{ color: "#16210e" }}
                           >
                             {theme.glyph}
                           </span>
                         </div>
 
                         {/* 白色文字右侧 */}
-                        <div className="flex-1 min-w-0 text-white">
-                          <div className="text-[10px] lg:text-xs font-extrabold uppercase tracking-widest opacity-80">
+                        <div className="flex-1 min-w-0 text-[#16210e]">
+                          <div className="text-[10px] lg:text-xs font-extrabold uppercase tracking-widest">
                             {subject.label}
                           </div>
                           <div className="text-base lg:text-xl font-extrabold leading-tight truncate mt-0.5">
                             {book.gradeName}
                             {book.semesterName}
                           </div>
-                          <div className="text-[11px] lg:text-xs font-semibold opacity-85 mt-0.5 lg:mt-1">
+                          <div className="text-[11px] lg:text-xs font-semibold mt-0.5 lg:mt-1">
                             {book.unitsCount} 单元 · {book.lessonsCount} 节小课
                           </div>
                         </div>
 
                         {/* 右侧箭头 */}
-                        <div className="text-white/90 text-xl lg:text-2xl font-extrabold shrink-0 group-hover:translate-x-1 transition-transform">
+                        <div className="text-[#16210e] text-xl lg:text-2xl font-extrabold shrink-0 group-hover:translate-x-1 transition-transform">
                           ›
                         </div>
                       </div>

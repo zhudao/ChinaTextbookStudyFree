@@ -9,7 +9,7 @@
  *   - 底部"下一步 →" 推进；最后一张显示"完成"
  */
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { BookOpen, Close, Target } from "@/components/icons";
@@ -29,6 +29,7 @@ interface GuideClientProps {
 
 export function GuideClient({ book, unit, summaries }: GuideClientProps) {
   const router = useRouter();
+  const slideTitleRef = useRef<HTMLHeadingElement>(null);
   const [idx, setIdx] = useState(0);
   const total = summaries.length;
   const current = summaries[idx];
@@ -54,7 +55,7 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
   if (!current) {
     return (
       <main className="min-h-screen flex flex-col items-center justify-center bg-white px-6 text-center">
-        <div className="text-base font-extrabold text-ink mb-2">本单元暂无知识手册</div>
+        <h1 className="text-base font-extrabold text-ink mb-2">本单元暂无知识手册</h1>
         <div className="text-sm text-ink-light mb-6">
           {book.textbookName} · 第 {unit.unit_number} 单元 · {unit.title}
         </div>
@@ -73,21 +74,21 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
   return (
     <main className="min-h-screen flex flex-col bg-white">
       {/* 顶部：X + 进度圆点 + 计数 */}
-      <header className="flex items-center gap-3 px-4 py-3 border-b border-bg-softer">
+      <header className="sticky top-0 z-20 bg-white flex items-center gap-3 px-4 py-3 border-b border-bg-softer">
         <button
           type="button"
           aria-label="关闭"
           onClick={close}
-          className="shrink-0 w-9 h-9 rounded-full inline-flex items-center justify-center text-ink-light hover:bg-bg-soft transition-colors"
+          className="shrink-0 w-11 h-11 rounded-full inline-flex items-center justify-center text-ink-light hover:bg-bg-soft transition-colors"
         >
           <Close className="w-5 h-5" />
         </button>
-        <div className="flex-1 flex items-center justify-center gap-1.5">
+        <div className="min-w-0 flex-1 flex items-center justify-center gap-1.5" role="progressbar" aria-label="知识手册进度" aria-valuemin={0} aria-valuemax={total} aria-valuenow={idx + 1}>
           {Array.from({ length: total }).map((_, i) => (
             <span
               key={i}
               className={cn(
-                "h-1.5 rounded-full transition-all",
+                "min-w-0 flex-1 max-w-8 h-1.5 rounded-full transition-all",
                 i === idx ? "w-8 bg-secondary" : i < idx ? "w-6 bg-secondary/60" : "w-6 bg-bg-softer",
               )}
             />
@@ -103,6 +104,10 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
         <AnimatePresence mode="wait">
           <motion.div
             key={idx}
+            onAnimationComplete={() => {
+              slideTitleRef.current?.focus({ preventScroll: true });
+              window.scrollTo({ top: 0, behavior: "instant" });
+            }}
             initial={{ opacity: 0, x: 24 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -24 }}
@@ -113,25 +118,25 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
             <div className="text-[12px] font-extrabold text-ink-light text-center">
               第 {unit.unit_number} 单元 · {unit.title}
             </div>
-            <div className="text-lg font-extrabold text-ink mt-1 text-center leading-snug max-w-lg">
+            <h1 ref={slideTitleRef} tabIndex={-1} className="focus:outline-none text-lg font-extrabold text-ink mt-1 text-center leading-snug max-w-lg">
               <MathText text={current.point} />
-            </div>
+            </h1>
 
             {/* 书本图标 —— 柔和的"这是什么"视觉 */}
-            <div className="mt-10">
+            <div className="mt-6">
               <motion.div
                 initial={{ scale: 0.85, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ type: "spring", damping: 16, stiffness: 220 }}
-                className="w-32 h-32 rounded-full bg-secondary/10 text-secondary inline-flex items-center justify-center"
+                className="w-20 h-20 rounded-full bg-secondary/10 text-secondary inline-flex items-center justify-center"
                 style={{ boxShadow: "0 6px 0 0 rgba(28,176,246,0.18)" }}
               >
-                <BookOpen className="w-16 h-16" />
+                <BookOpen className="w-10 h-10" />
               </motion.div>
             </div>
 
             {/* 标题 + TTS */}
-            <div className="mt-8 flex items-center gap-3 justify-center">
+            <div className="mt-5 flex items-center gap-3 justify-center">
               <div className="text-2xl font-extrabold text-ink tracking-tight">这是什么？</div>
               {current.audio?.core_concept && (
                 <TTSButton src={current.audio.core_concept} autoPlay preload size="md" />
@@ -148,7 +153,7 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
               <div className="mt-6 rounded-2xl bg-primary/5 border-2 border-primary/25 p-4 max-w-lg w-full">
                 <div className="flex items-center gap-1.5 mb-2">
                   <Target className="w-3.5 h-3.5 text-primary" />
-                  <span className="text-[10px] font-extrabold uppercase tracking-wider text-primary">
+                  <span className="text-xs font-bold text-primary">
                     记住这个
                   </span>
                   {current.audio?.key_formula && (
@@ -174,7 +179,7 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
                     <TTSButton src={current.audio.tips} size="sm" className="mt-0.5" />
                   )}
                   <div className="min-w-0 flex-1">
-                    <div className="text-[10px] font-extrabold uppercase tracking-wider text-gold mb-1">
+                    <div className="text-xs font-bold text-gold mb-1">
                       小贴士
                     </div>
                     <div className="text-sm text-ink leading-snug">
@@ -188,7 +193,7 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
             {/* 易错点 */}
             {current.common_mistakes && current.common_mistakes.length > 0 && (
               <div className="mt-4 rounded-2xl bg-danger/5 border-2 border-danger/20 p-4 max-w-lg w-full">
-                <div className="text-[10px] font-extrabold uppercase tracking-wider text-danger mb-2">
+                <div className="text-xs font-bold text-danger mb-2">
                   容易搞错
                 </div>
                 <ul className="space-y-1.5">
@@ -214,7 +219,7 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
       </div>
 
       {/* 底部 CTA */}
-      <div className="p-4 border-t border-bg-softer bg-white">
+      <div className="sticky bottom-0 z-20 p-4 border-t border-bg-softer bg-white" style={{ paddingBottom: "max(1rem, env(safe-area-inset-bottom))" }}>
         <div className="max-w-lg mx-auto flex gap-3">
           {idx > 0 && (
             <button

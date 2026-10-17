@@ -17,8 +17,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Play, Pause, Mic, Square, RotateCcw } from "lucide-react";
 import { readingId, type ReadingKind } from "@cstf/core/reading";
 import { Volume, Lightning } from "@/components/icons";
+import { MuteToggle, useSyncMute } from "@/components/MuteToggle";
 import { InnerHeader } from "@/components/InnerHeader";
-import { playTTS, preloadTTS, stopTTS } from "@/lib/tts";
+import { playTTSResult, preloadTTS, stopTTS } from "@/lib/tts";
+import { listenToPassage, followPassage, recordingForSession, type ReadingResult } from "@/lib/readingSession";
 import { useRecorder } from "@/lib/useRecorder";
 import { useProgressStore } from "@/store/progress";
 import { playSfx } from "@/lib/sfx";
@@ -43,6 +45,8 @@ interface Props {
 type Mode = "idle" | "playing" | "followup";
 
 export function PassageReader({ passage, backHref }: Props) {
+  useSyncMute();
+  const [playbackError, setPlaybackError] = useState<string | null>(null);
   const [mode, setMode] = useState<Mode>("idle");
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
   /** 跟读模式下每句的学生录音 blob URL */
@@ -50,6 +54,7 @@ export function PassageReader({ passage, backHref }: Props) {
     () => passage.sentences.map(() => null),
   );
   const abortRef = useRef(false);
+  const playbackGenerationRef = useRef(0);
   const rec = useRecorder();
 
   // XP 奖励集成：走 store 的 completeReading（纯 XP、不发宝石、不算课时）
@@ -96,6 +101,7 @@ export function PassageReader({ passage, backHref }: Props) {
   useEffect(() => {
     return () => {
       abortRef.current = true;
+      playbackGenerationRef.current++;
       stopTTS();
     };
   }, []);
@@ -106,10 +112,14 @@ export function PassageReader({ passage, backHref }: Props) {
   const playSingle = useCallback(async (idx: number) => {
     const s = passage.sentences[idx];
     if (!s?.audio) return;
+    const generation = ++playbackGenerationRef.current;
     stopTTS();
+    setPlaybackError(null);
     setMode("playing");
     setCurrentIndex(idx);
-    await playTTS(s.audio);
+    const result = await playTTSResult(s.audio);
+    if (generation !== playbackGenerationRef.current) return;
+    if (result !== "ended") showPlaybackError("audio-unavailable");
     setCurrentIndex(null);
     setMode("idle");
   }, [passage]);
@@ -117,35 +127,24 @@ export function PassageReader({ passage, backHref }: Props) {
   const playAll = useCallback(async () => {
     if (mode === "playing") {
       abortRef.current = true;
+      playbackGenerationRef.current++;
       stopTTS();
       setMode("idle");
       setCurrentIndex(null);
       return;
     }
+    const generation = ++playbackGenerationRef.current;
     abortRef.current = false;
     setMode("playing");
-    let completed = true;
-    for (let i = 0; i < passage.sentences.length; i++) {
-      if (abortRef.current) {
-        completed = false;
-        break;
-      }
-      const s = passage.sentences[i];
-      if (!s.audio) continue;
-      setCurrentIndex(i);
-      await playTTS(s.audio);
-      if (abortRef.current) {
-        completed = false;
-        break;
-      }
-      await sleep(200);
-    }
+    setPlaybackError(null);
+    const result = await listenToPassage(passage.sentences, {
+      play: playTTSResult, cancelled: () => abortRef.current || generation !== playbackGenerationRef.current, onSentence: setCurrentIndex, wait: sleep,
+    });
+    if (generation !== playbackGenerationRef.current) return;
     setCurrentIndex(null);
     setMode("idle");
-    // 完整听完整篇 → 首次给 XP
-    if (completed) {
-      grantPassageReward("listen", XP_LISTEN);
-    }
+    if (result === "completed") grantPassageReward("listen", XP_LISTEN);
+    else showPlaybackError(result);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode, passage]);
 
@@ -154,70 +153,60 @@ export function PassageReader({ passage, backHref }: Props) {
     if (mode === "followup") {
       // 中断
       abortRef.current = true;
-      if (rec.state === "recording") await rec.stop();
+      playbackGenerationRef.current++;
+      await rec.stop();
       stopTTS();
       setMode("idle");
       setCurrentIndex(null);
       return;
     }
+    const generation = ++playbackGenerationRef.current;
     abortRef.current = false;
     setMode("followup");
+    recordings.forEach(url => { if (url) URL.revokeObjectURL(url); });
     setRecordings(passage.sentences.map(() => null));
-
-    for (let i = 0; i < passage.sentences.length; i++) {
-      if (abortRef.current) break;
-      const s = passage.sentences[i];
-      setCurrentIndex(i);
-
-      // 1) 播原音
-      if (s.audio) {
-        await playTTS(s.audio);
-      }
-      if (abortRef.current) break;
-      await sleep(250);
-      if (abortRef.current) break;
-
-      // 2) 录音（最长 8 秒，或用户手动停止）
-      await rec.start();
-      if (rec.state === "error") {
-        break;
-      }
-      const durationMs = Math.max(3000, s.text.length * 280);
-      const maxMs = Math.min(durationMs, 8000);
-      const t0 = Date.now();
-      while (Date.now() - t0 < maxMs) {
-        if (abortRef.current) break;
-        await sleep(100);
-      }
-      const url = await rec.stop();
-      if (abortRef.current) break;
-      if (url) {
-        setRecordings(prev => {
-          const next = [...prev];
-          next[i] = url;
-          return next;
-        });
-      }
-      await sleep(150);
-    }
-
+    setPlaybackError(null);
+    const recording = recordingForSession(rec, () => generation === playbackGenerationRef.current);
+    const result = await followPassage(passage.sentences, {
+      play: playTTSResult, cancelled: () => abortRef.current || generation !== playbackGenerationRef.current, onSentence: setCurrentIndex, wait: sleep,
+      startRecording: recording.start, stopRecording: recording.stop,
+      onRecording: (index, url) => setRecordings(previous => {
+        const next = [...previous]; next[index] = url; return next;
+      }),
+    });
+    if (generation !== playbackGenerationRef.current) return;
     setCurrentIndex(null);
     setMode("idle");
-    // 完整完成跟读 → 首次给 XP（更高奖励）
-    if (!abortRef.current) {
-      grantPassageReward("followup", XP_FOLLOWUP);
-    }
+    if (result === "completed") grantPassageReward("followup", XP_FOLLOWUP);
+    else showPlaybackError(result);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode, passage, rec]);
 
-  const playMyRecording = useCallback((idx: number) => {
+  function showPlaybackError(result: ReadingResult) {
+    if (result === "audio-unavailable") setPlaybackError("声音未能完整播放，请确认声音已开启并重试。本次未记录完成。");
+    if (result === "recording-unavailable") setPlaybackError("录音未完成，请检查麦克风权限后重试。本次未记录完成。");
+  }
+
+  const playMyRecording = useCallback(async (idx: number) => {
     const url = recordings[idx];
     if (!url) return;
-    const a = new Audio(url);
-    void a.play();
+    const generation = ++playbackGenerationRef.current;
+    stopTTS();
+    setPlaybackError(null);
+    setMode("playing");
+    setCurrentIndex(idx);
+    const result = await playTTSResult(url);
+    if (generation !== playbackGenerationRef.current) return;
+    if (result !== "ended") showPlaybackError("audio-unavailable");
+    setMode("idle");
+    setCurrentIndex(null);
   }, [recordings]);
 
   const resetRecordings = useCallback(() => {
+    playbackGenerationRef.current++;
+    stopTTS();
+    setMode("idle");
+    setCurrentIndex(null);
     recordings.forEach(u => {
       if (u) URL.revokeObjectURL(u);
     });
@@ -231,10 +220,11 @@ export function PassageReader({ passage, backHref }: Props) {
     passage.kind === "song";
 
   return (
-    <main className="min-h-screen bg-bg-soft pb-24">
+    <main className="min-h-screen bg-bg-soft" style={{ paddingBottom: "calc(10rem + env(safe-area-inset-bottom))" }}>
       <InnerHeader
         backHref={backHref}
         title={passage.title}
+        right={<MuteToggle />}
         subtitle={passage.author ?? undefined}
       />
 
@@ -263,7 +253,7 @@ export function PassageReader({ passage, backHref }: Props) {
                   onClick={() => setPageIdx(i => Math.max(0, i - 1))}
                   className={cn(
                     "absolute left-2 top-1/2 -translate-y-1/2",
-                    "w-9 h-9 rounded-full bg-white/90 text-ink shadow-md backdrop-blur",
+                    "w-11 h-11 rounded-full bg-white/90 text-ink shadow-md backdrop-blur",
                     "inline-flex items-center justify-center",
                     pageIdx === 0 && "opacity-30 cursor-not-allowed",
                   )}
@@ -279,14 +269,14 @@ export function PassageReader({ passage, backHref }: Props) {
                   }
                   className={cn(
                     "absolute right-2 top-1/2 -translate-y-1/2",
-                    "w-9 h-9 rounded-full bg-white/90 text-ink shadow-md backdrop-blur",
+                    "w-11 h-11 rounded-full bg-white/90 text-ink shadow-md backdrop-blur",
                     "inline-flex items-center justify-center",
                     pageIdx === pageImages.length - 1 && "opacity-30 cursor-not-allowed",
                   )}
                 >
                   <ChevronRight className="w-5 h-5" />
                 </button>
-                <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-black/50 text-white text-[10px] px-2 py-0.5 rounded-full">
+                <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-black/75 text-white text-xs px-2 py-0.5 rounded-full">
                   {pageIdx + 1} / {pageImages.length}
                 </div>
               </>
@@ -323,11 +313,11 @@ export function PassageReader({ passage, backHref }: Props) {
                 {!isPoem && (
                   <button
                     type="button"
-                    aria-label="朗读这一句"
+                    aria-label={`朗读第 ${i + 1} 句`}
                     onClick={() => playSingle(i)}
                     disabled={!s.audio || mode !== "idle"}
                     className={cn(
-                      "shrink-0 w-7 h-7 inline-flex items-center justify-center rounded-full",
+                      "shrink-0 w-11 h-11 inline-flex items-center justify-center rounded-full",
                       "bg-bg-soft text-primary hover:bg-primary/10 transition-colors",
                       (!s.audio || mode !== "idle") && "opacity-40 cursor-not-allowed",
                     )}
@@ -337,7 +327,7 @@ export function PassageReader({ passage, backHref }: Props) {
                 )}
                 <span
                   className={cn(
-                    "text-lg leading-[2] text-ink",
+                    "min-w-0 break-words text-lg leading-[2] text-ink",
                     isPoem && "text-center",
                     active && "font-bold text-primary",
                   )}
@@ -363,7 +353,7 @@ export function PassageReader({ passage, backHref }: Props) {
                 <button
                   type="button"
                   onClick={resetRecordings}
-                  className="inline-flex items-center gap-1 text-xs text-ink-light hover:text-danger"
+                  className="min-h-11 min-w-11 inline-flex items-center justify-center gap-1 text-sm text-ink-light hover:text-danger"
                 >
                   <RotateCcw className="w-3 h-3" />
                   清空
@@ -380,12 +370,12 @@ export function PassageReader({ passage, backHref }: Props) {
                       <span className="shrink-0 w-5 text-ink-light tabular-nums">
                         {i + 1}.
                       </span>
-                      <span className="flex-1 truncate">{s.text}</span>
+                      <span className="flex-1 min-w-0 break-words leading-relaxed">{s.text}</span>
                       <button
                         type="button"
                         onClick={() => playSingle(i)}
                         disabled={!s.audio}
-                        className="shrink-0 text-xs px-2 py-1 rounded-full bg-bg-soft text-primary disabled:opacity-40"
+                        className="shrink-0 min-h-11 min-w-11 inline-flex items-center justify-center text-xs px-2 py-1 rounded-xl bg-bg-soft text-primary disabled:opacity-40"
                       >
                         原音
                       </button>
@@ -393,7 +383,7 @@ export function PassageReader({ passage, backHref }: Props) {
                         type="button"
                         onClick={() => playMyRecording(i)}
                         disabled={!myUrl}
-                        className="shrink-0 text-xs px-2 py-1 rounded-full bg-secondary/15 text-secondary disabled:opacity-40"
+                        className="shrink-0 min-h-11 min-w-11 inline-flex items-center justify-center text-xs px-2 py-1 rounded-xl bg-secondary/15 text-secondary disabled:opacity-40"
                       >
                         我的
                       </button>
@@ -410,7 +400,7 @@ export function PassageReader({ passage, backHref }: Props) {
       {/* 底部操作栏 */}
       {/* z-40：与 BottomNav 同层，任何时候都不会被固定底栏压住（阅读器本就隐藏底栏，
           这里显式给层级，防止将来改路由匹配时重演「按钮被盖住」） */}
-      <div className="fixed bottom-0 inset-x-0 z-40 bg-white border-t border-bg-softer shadow-[0_-4px_12px_rgba(0,0,0,0.04)]">
+      <div className="fixed bottom-0 inset-x-0 z-40 bg-white border-t border-bg-softer shadow-[0_-4px_12px_rgba(0,0,0,0.04)]" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
         <div className="max-w-md lg:max-w-6xl mx-auto px-4 py-3 flex gap-3">
           <motion.button
             type="button"
@@ -460,11 +450,8 @@ export function PassageReader({ passage, backHref }: Props) {
             )}
           </motion.button>
         </div>
-        {rec.error && (
-          <div className="max-w-md lg:max-w-6xl mx-auto px-4 pb-2 text-xs text-danger">
-            麦克风错误：{rec.error}
-          </div>
-        )}
+        {playbackError && <div role="alert" className="max-w-md lg:max-w-6xl mx-auto px-4 pb-2 text-sm text-danger">{playbackError}</div>}
+
       </div>
 
       {/* +XP 奖励 toast（首次听完整篇 / 首次跟读全篇） */}

@@ -5,6 +5,59 @@
 /* KaTeX */
 @import "katex/dist/katex.min.css";
 
+/* The shell reserves readable space for content before showing a third column. */
+.app-shell { min-height: 100vh; width: 100%; }
+.app-shell main { min-height: 0; }
+.shell-sidebar, .shell-rail { display: none; min-width: 0; }
+.shell-content { max-width: var(--center-max, 640px); }
+@media (min-width: 768px) {
+  .app-shell { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 24px; max-width: 1440px; margin-inline: auto; padding: 24px; }
+  .shell-sidebar { display: block; position: sticky; top: 24px; align-self: start; height: calc(100dvh - 48px); }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .shell-sidebar [data-theme-compact="true"] { grid-template-columns: 1fr; }
+}
+@media (min-width: 1024px) {
+  .app-shell { grid-template-columns: 200px minmax(0, 1fr); gap: 32px; }
+}
+@media (min-width: 1280px) {
+  .app-shell[data-has-rail="true"] { grid-template-columns: 200px minmax(0, 1fr) 288px; }
+  .shell-rail { display: block; position: sticky; top: 24px; align-self: start; }
+  .app-shell[data-has-rail="true"] .stats-bar[data-placement="page"],
+  .app-shell[data-has-rail="true"] .shell-page-toolbar { display: none; }
+}
+
+/* The wardrobe reacts to its content width, including tablet and sidebar layouts. */
+.shop-container { container: wardrobe / inline-size; }
+.shop-workspace { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; align-items: start; }
+.shop-preview { position: relative; min-width: 0; scroll-margin-top: 24px; }
+.shop-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 128px), 1fr)); gap: 16px; }
+.shop-preview-stage { height: 224px; }
+.shop-tab { display: flex; min-width: 0; min-height: 48px; align-items: center; justify-content: center; gap: 6px; padding: 8px; }
+.shop-tab span { white-space: nowrap; }
+@container wardrobe (min-width: 600px) {
+  .shop-grid { grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); }
+}
+@container wardrobe (min-width: 520px) and (max-width: 759px) {
+  .shop-preview-card { display: grid; grid-template-columns: 240px minmax(0, 1fr); align-items: center; }
+}
+@container wardrobe (min-width: 760px) {
+  .shop-workspace { grid-template-columns: 264px minmax(0, 1fr); gap: 28px; }
+  .shop-preview { position: sticky; top: 24px; }
+  .shop-preview-stage { height: 264px; }
+}
+
+@media (max-width: 479px) {
+  .book-toolbar { flex-wrap: wrap; }
+  .book-toolbar > button { flex-basis: 100%; justify-content: flex-start; }
+  .book-toolbar > .stats-bar { margin-left: auto; }
+}
+
+.path-disc { width: 72px; height: 72px; }
+.path-label { overflow-wrap: anywhere; }
+.option-card.matching-option { padding: 12px; }
+
+
 :root {
   --font-sans: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", ui-sans-serif, system-ui, sans-serif;
 
@@ -35,12 +88,15 @@
   --app-border: #37464F;
   --app-ink: #F1F5F9;
   --app-ink-light: #CBD5E1;
-  --app-ink-softer: #94A3B8;
+  --app-ink-softer: #B3C0CC;
   --shadow-card-color: rgba(0, 0, 0, 0.4);
 }
 
 html {
   scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
 }
 
 html,
@@ -268,7 +324,7 @@ button:focus-visible,
  * 暗色主题：.theme-dark 挂在 <html> 上（首屏内联脚本预挂，防白闪），
  * 通过选择器重映射常用 Tailwind 工具类。
  * 仅覆盖最常用的背景 / 边框 / 文本 token，保持设计语言一致；
- * 主色（primary / secondary / danger）依然使用 Duolingo 原色，避免品牌漂移。
+ * 强调色跟随装备主题，阅读文字与状态反馈使用独立前景色。
  * ============================================================ */
 .theme-dark body {
   background-color: var(--app-bg) !important;
@@ -316,4 +372,61 @@ button:focus-visible,
 .theme-dark .btn-chunky-disabled {
   background-color: var(--app-bg-softer);
   color: var(--app-ink-softer);
+}
+
+/* Accent fills stay vivid; readable foregrounds are separate from fill colors. */
+.text-primary, .text-primary-dark { color: var(--theme-primary-ink, #2D6908); }
+.text-secondary, .text-secondary-dark { color: var(--theme-accent-ink, #076B98); }
+.text-warning, .text-gold { color: #875600; }
+.text-danger, .text-danger-dark { color: #C52B32; }
+.theme-dark .text-primary, .theme-dark .text-primary-dark { color: var(--theme-primary-ink, #9BE45C); }
+.theme-dark .text-secondary, .theme-dark .text-secondary-dark { color: var(--theme-accent-ink, #62D0FF); }
+.theme-dark .text-warning, .theme-dark .text-gold { color: #FFDA66; }
+.theme-dark .text-danger, .theme-dark .text-danger-dark { color: #FF9298; }
+
+/* Filled actions choose their foreground from the equipped accent's luminance. */
+.btn-chunky-primary, .btn-chunky-primary .text-primary,
+.theme-dark .btn-chunky-primary, .bg-primary.text-white { color: var(--theme-on-primary, #132C36); }
+.btn-chunky-primary { box-shadow: 0 4px 0 0 var(--theme-primary-dark, #58A700); }
+.btn-chunky-secondary, .btn-chunky-secondary .text-secondary,
+.theme-dark .btn-chunky-secondary, .bg-secondary.text-white { color: var(--theme-on-accent, #132C36); }
+.btn-chunky-danger { color: #FFFFFF; background-color: #C52B32; }
+
+/* Low-height landscape and zoom must keep desktop navigation reachable. */
+.shell-sidebar > nav { overflow-y: auto; scrollbar-width: thin; }
+.shell-sidebar > nav > a { flex-shrink: 0; }
+
+.bg-warning.text-white {
+  color: #132C36;
+}
+
+.bg-danger.text-white { background-color: #C52B32; }
+
+.hover\:bg-primary-dark:hover { color: var(--theme-on-primary-dark, #132C36); }
+
+/* Grading states remain distinct after the dark base surface is applied. */
+.option-card-selected { color: var(--theme-accent-ink, #076B98); }
+.option-card-correct { border-color: #58CC02; background-color: #58CC0233; color: #2D6908; }
+.option-card-wrong { color: #C52B32; }
+.theme-dark .option-card-selected {
+  border-color: rgb(var(--theme-accent-rgb, 28 176 246));
+  background-color: color-mix(in srgb, rgb(var(--theme-accent-rgb, 28 176 246)) 14%, var(--app-card));
+  color: var(--theme-accent-ink, #62D0FF);
+}
+.theme-dark .option-card-correct {
+  border-color: #58CC02;
+  background-color: color-mix(in srgb, #58CC02 16%, var(--app-card));
+  color: #9BE45C;
+}
+.theme-dark .option-card-wrong {
+  border-color: #FF4B4B;
+  background-color: color-mix(in srgb, #FF4B4B 16%, var(--app-card));
+  color: #FF9298;
+}
+
+/* Currency keeps its identity when a cosmetic accent changes. */
+.text-gem, .text-gem-dark { color: #076B98; }
+.theme-dark .text-gem, .theme-dark .text-gem-dark { color: #62D0FF; }
+@media (min-width: 1024px) {
+  .theme-dark .lg\:bg-transparent { background-color: transparent !important; }
 }
