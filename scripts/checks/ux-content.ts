@@ -5,6 +5,8 @@ import { createHash } from "node:crypto";
 import { gradeAnswer } from "../../packages/core/src/grade";
 import type { Lesson, Question } from "../../packages/core/src/types";
 
+const allowMissingAudio = process.argv.includes("--allow-missing-audio");
+let missingAudio = 0;
 const corrections = JSON.parse(fs.readFileSync("docs/ux-content-corrections.json", "utf8")) as {
   lesson_id: string; question_id: number; after: Question;
 }[];
@@ -32,6 +34,7 @@ for (const correction of corrections) {
   ];
   for (const [text, url] of fields) {
     const hash = createHash("sha1").update(text.trim().replace(/\s+/g, " ")).digest("hex");
+    if (!url && allowMissingAudio) { missingAudio++; continue; }
     assert.equal(url, `/audio/${hash.slice(0, 2)}/${hash}.mp3`, "repaired text must use matching audio");
     assert(fs.statSync(`apps/web/public${url}`).size > 0);
   }
@@ -44,4 +47,4 @@ assert.deepEqual(boats.options.map(option => {
   const [large, small] = option.match(/\d+/g)!.map(Number);
   return large * 6 + small * 4;
 }), [34, 32, 34, 36]);
-console.log(`PASS: ${corrections.length} source repairs; unique options, correct/wrong/empty grading, arithmetic constraints and matching MP3 assets.`);
+console.log(`PASS: ${corrections.length} source repairs; unique options, correct/wrong/empty grading, arithmetic constraints and matching MP3 assets when present (${missingAudio} omitted references in no-extra-audio mode).`);

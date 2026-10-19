@@ -60,12 +60,28 @@
 
 :root {
   --font-sans: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", ui-sans-serif, system-ui, sans-serif;
+  --font-ui: var(--font-display), var(--font-sans);
+  --control-height: 50px;
+  --control-depth: 4px;
+  --radius-control: 16px;
+  --radius-card: 16px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --motion-press: 100ms;
+  --motion-fast: 160ms;
+  --motion-enter: 200ms;
+  --ease-ui: cubic-bezier(.2, 0, 0, 1);
+  --surface-hover: #f1f5f7;
 
   /* 美妆主题色（ThemeProvider 会在 hydrate 后覆盖；这是 SSR 默认值） */
   --theme-primary: #58CC02;
   --theme-primary-dark: #58A700;
   --theme-accent: #1CB0F6;
-  --theme-bg: #F7F7F7;
+  --theme-bg: #FFFFFF;
 
   /* 卡片厚阴影颜色 —— 深色模式下由 .theme-dark 覆盖（替代旧的 [style*=...] 字符串匹配） */
   --shadow-card-color: #e5e5e5;
@@ -81,6 +97,7 @@
  * ============================================================ */
 .theme-dark {
   --lesson-backdrop-overlay: rgba(19, 31, 36, 0.85);
+  --surface-hover: #2b3c46;
   --app-bg: #131F24;
   --app-bg-soft: #131F24;
   --app-bg-softer: #37464F;
@@ -109,7 +126,10 @@ body {
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-ui);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.55;
 }
 
 /* 英文数字用 Nunito，中文 fallback 到 PingFang；display 类用于标题和按钮 */
@@ -120,78 +140,44 @@ h3,
 .btn-chunky,
 .display-text {
   font-family: var(--font-display), "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
 }
 
-/* 多邻国式按钮：底部硬阴影，按下时阴影消失模拟"按下去" */
-.btn-chunky {
-  @apply relative inline-flex items-center justify-center font-extrabold text-white;
-  @apply px-6 rounded-2xl select-none cursor-pointer;
-  @apply active:translate-y-[3px] active:shadow-none active:scale-[0.99];
-  /* 固定按钮高度，避免不同语种 / 不同字号下高度漂移；与 btn-chunky-ghost 对齐 */
-  min-height: 50px;
-  padding-top: 0;
-  padding-bottom: 0;
-  letter-spacing: 0.01em;
-  transition: transform 120ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
-    box-shadow 120ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
-    filter 150ms ease;
+/* Shared action geometry, used by every filled and outlined action. */
+.btn-chunky, .btn-chunky-ghost, .btn-chunky-sm {
+  @apply relative inline-flex items-center justify-center select-none;
+  min-height: var(--control-height);
+  padding: 10px 24px;
+  border: 2px solid transparent;
+  border-radius: var(--radius-control);
+  font-family: var(--font-ui);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: .025em;
+  text-align: center;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform var(--motion-press) var(--ease-ui), box-shadow var(--motion-press) var(--ease-ui), background-color var(--motion-fast) var(--ease-ui), filter var(--motion-fast) var(--ease-ui);
 }
-
-/* 副按钮：白底厚边 + 灰色厚阴影。和 btn-chunky 同高度同圆角，用于"上一步 / 取消"等次要动作 */
 .btn-chunky-ghost {
-  @apply relative inline-flex items-center justify-center font-extrabold text-ink-light bg-white;
-  @apply px-6 rounded-2xl select-none cursor-pointer border-2 border-bg-softer;
-  @apply active:translate-y-[3px] active:shadow-none active:scale-[0.99];
-  min-height: 50px;
-  padding-top: 0;
-  padding-bottom: 0;
-  letter-spacing: 0.01em;
-  box-shadow: 0 4px 0 0 var(--shadow-card-color);
-  transition: transform 120ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
-    box-shadow 120ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
-    color 150ms ease;
+  @apply text-secondary-dark bg-white border-bg-softer;
+  box-shadow: 0 var(--control-depth) 0 var(--shadow-card-color);
 }
-.btn-chunky-ghost:hover {
-  color: #4b4b4b;
+.btn-chunky-primary { @apply btn-chunky bg-primary shadow-chunky-primary; }
+.btn-chunky-secondary { @apply btn-chunky bg-secondary shadow-chunky-secondary; }
+.btn-chunky-danger { @apply btn-chunky bg-danger shadow-chunky-danger; }
+.btn-chunky-disabled { @apply btn-chunky bg-bg-softer text-ink-softer shadow-chunky; }
+.btn-chunky-sm { min-height: 44px; padding: 8px 14px; font-size: 14px; border-radius: 12px; }
+:is(.btn-chunky, .btn-chunky-ghost, .btn-chunky-sm):not(:disabled):not([aria-disabled="true"]):not(.btn-chunky-disabled):active {
+  transform: translateY(var(--control-depth));
+  box-shadow: none;
 }
-.btn-chunky:hover {
-  filter: brightness(1.06);
-}
-
-.btn-chunky-primary {
-  @apply btn-chunky bg-primary shadow-chunky-primary;
-}
-
-.btn-chunky-secondary {
-  @apply btn-chunky bg-secondary shadow-chunky-secondary;
-}
-
-.btn-chunky-danger {
-  @apply btn-chunky bg-danger shadow-chunky-danger;
-}
-
-.btn-chunky-disabled {
-  @apply btn-chunky bg-bg-softer text-ink-softer shadow-chunky cursor-not-allowed;
-  @apply active:translate-y-0 active:scale-100;
-}
-.btn-chunky-disabled:hover {
-  filter: none;
-}
-
-/* 小尺寸 chunky 按钮 —— 用于行内次要操作（错题"我会了/还要练"等） */
-.btn-chunky-sm {
-  @apply relative inline-flex items-center justify-center gap-1 font-extrabold text-white;
-  @apply px-3 rounded-xl select-none cursor-pointer text-xs;
-  @apply active:translate-y-[2px] active:shadow-none;
-  min-height: 36px;
-  letter-spacing: 0.01em;
-  transition: transform 100ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
-    box-shadow 100ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
-    filter 150ms ease;
-}
-.btn-chunky-sm:hover {
-  filter: brightness(1.06);
+:is(.btn-chunky, .btn-chunky-ghost, .btn-chunky-sm):disabled,
+.btn-chunky-disabled { cursor: default; transform: none; filter: none; }
+@media (hover: hover) and (pointer: fine) {
+  :is(.btn-chunky, .btn-chunky-sm):not(:disabled):not(.btn-chunky-disabled):hover { filter: brightness(1.04); }
+  .btn-chunky-ghost:not(:disabled):hover { background-color: var(--surface-hover); }
 }
 
 /* Duolingo 风格的厚底纯色卡片 —— 用于学科/课程/技能气泡
@@ -199,9 +185,7 @@ h3,
  * 这个类只负责过渡曲线和 hover/active 行为。
  */
 .duo-chunky-card {
-  transition: transform 140ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
-    box-shadow 140ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
-    filter 150ms ease;
+  transition: transform var(--motion-press) var(--ease-ui), box-shadow var(--motion-press) var(--ease-ui), filter var(--motion-fast) var(--ease-ui);
 }
 .duo-chunky-card:hover {
   filter: brightness(1.06);
@@ -217,15 +201,15 @@ h3,
  */
 .option-card {
   @apply relative border-2 border-bg-softer rounded-2xl cursor-pointer overflow-hidden;
-  @apply text-base text-ink font-extrabold select-none;
-  @apply hover:border-secondary hover:bg-secondary/5;
+  @apply text-base text-ink font-bold select-none;
+  touch-action: manipulation;
   min-height: 56px;
   padding: 12px 16px;
   box-shadow: 0 3px 0 0 var(--shadow-card-color);
-  transition: transform 140ms cubic-bezier(0.2, 0.9, 0.3, 1.2), border-color 140ms ease,
-    box-shadow 140ms ease, background-color 140ms ease;
+  line-height: 1.5;
+  transition: transform var(--motion-press) var(--ease-ui), border-color var(--motion-fast) var(--ease-ui), box-shadow var(--motion-press) var(--ease-ui), background-color var(--motion-fast) var(--ease-ui);
 }
-.option-card:active {
+.option-card:not(:disabled):not([aria-disabled="true"]):active {
   transform: translateY(2px);
   box-shadow: 0 1px 0 0 var(--shadow-card-color);
 }
@@ -237,12 +221,12 @@ h3,
 
 .option-card-correct {
   @apply border-primary bg-primary/20 text-primary-dark;
-  box-shadow: 0 3px 0 0 #58a700, 0 0 0 6px rgba(88, 204, 2, 0.2);
+  box-shadow: 0 3px 0 0 #58a700;
 }
 
 .option-card-wrong {
   @apply border-danger bg-danger/15 text-danger-dark;
-  box-shadow: 0 3px 0 0 #ea2b2b, 0 0 0 6px rgba(255, 75, 75, 0.18);
+  box-shadow: 0 3px 0 0 #ea2b2b;
 }
 
 /* ripple 元素 */
@@ -258,13 +242,7 @@ h3,
 
 /* 当前路径节点的光晕 —— 颜色随单元色（--node-glow-color 由节点内联覆盖） */
 .path-node-current::before {
-  content: "";
-  position: absolute;
-  inset: -8px;
-  border-radius: 9999px;
-  background: radial-gradient(circle, var(--node-glow-color), transparent 70%);
-  animation: glowPulse 2s ease-in-out infinite;
-  z-index: -1;
+  content: ""; position: absolute; inset: -9px; border: 4px solid var(--app-border, #e5e5e5); border-radius: 50%; pointer-events: none;
 }
 
 /* 可访问性：尊重系统"减少动画" */
@@ -290,7 +268,6 @@ h3,
 *:focus-visible {
   outline: 3px solid #1CB0F6;
   outline-offset: 3px;
-  border-radius: 6px;
   transition: outline-offset 80ms ease;
 }
 .btn-chunky:focus-visible,
@@ -375,8 +352,10 @@ button:focus-visible,
 }
 
 /* Accent fills stay vivid; readable foregrounds are separate from fill colors. */
-.text-primary, .text-primary-dark { color: var(--theme-primary-ink, #2D6908); }
-.text-secondary, .text-secondary-dark { color: var(--theme-accent-ink, #076B98); }
+.text-primary { color: rgb(var(--theme-primary-rgb, 88 204 2)); }
+.text-primary-dark { color: var(--theme-primary-ink, #2D6908); }
+.text-secondary { color: rgb(var(--theme-accent-rgb, 28 176 246)); }
+.text-secondary-dark { color: var(--theme-accent-ink, #076B98); }
 .text-warning, .text-gold { color: #875600; }
 .text-danger, .text-danger-dark { color: #C52B32; }
 .theme-dark .text-primary, .theme-dark .text-primary-dark { color: var(--theme-primary-ink, #9BE45C); }
@@ -390,7 +369,7 @@ button:focus-visible,
 .btn-chunky-primary { box-shadow: 0 4px 0 0 var(--theme-primary-dark, #58A700); }
 .btn-chunky-secondary, .btn-chunky-secondary .text-secondary,
 .theme-dark .btn-chunky-secondary, .bg-secondary.text-white { color: var(--theme-on-accent, #132C36); }
-.btn-chunky-danger { color: #FFFFFF; background-color: #C52B32; }
+.btn-chunky-danger { color: #FFFFFF; background-color: #FF4B4B; box-shadow: 0 4px 0 #EA2B2B; }
 
 /* Low-height landscape and zoom must keep desktop navigation reachable. */
 .shell-sidebar > nav { overflow-y: auto; scrollbar-width: thin; }
@@ -400,14 +379,14 @@ button:focus-visible,
   color: #132C36;
 }
 
-.bg-danger.text-white { background-color: #C52B32; }
+.bg-danger.text-white { background-color: #FF4B4B; }
 
 .hover\:bg-primary-dark:hover { color: var(--theme-on-primary-dark, #132C36); }
 
 /* Grading states remain distinct after the dark base surface is applied. */
 .option-card-selected { color: var(--theme-accent-ink, #076B98); }
-.option-card-correct { border-color: #58CC02; background-color: #58CC0233; color: #2D6908; }
-.option-card-wrong { color: #C52B32; }
+.option-card-correct { border-color: #58CC02; background-color: #D7FFB8; color: #58A700; }
+.option-card-wrong { border-color: #FF4B4B; background-color: #FFDFE0; color: #EA2B2B; }
 .theme-dark .option-card-selected {
   border-color: rgb(var(--theme-accent-rgb, 28 176 246));
   background-color: color-mix(in srgb, rgb(var(--theme-accent-rgb, 28 176 246)) 14%, var(--app-card));
@@ -430,3 +409,188 @@ button:focus-visible,
 @media (min-width: 1024px) {
   .theme-dark .lg\:bg-transparent { background-color: transparent !important; }
 }
+
+/* Type and spacing shared by the page families; classroom content keeps its own scale. */
+.app-shell h1 { font-size: 28px; line-height: 1.25; letter-spacing: 0; }
+.app-shell .shell-page-toolbar h1 { font-size: 20px; }
+@media (min-width: 1024px) { .app-shell h1 { font-size: 32px; } }
+.ui-card { border-radius: 16px; box-shadow: none !important; }
+.ui-icon-button {
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-shrink: 0; width: 44px; height: 44px; border-radius: 12px;
+  touch-action: manipulation; transition: background-color var(--motion-fast) var(--ease-ui), transform var(--motion-press) var(--ease-ui);
+}
+.ui-icon-button:not(:disabled):not([aria-disabled="true"]):active { transform: translateY(2px); }
+.ui-text-button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding-inline: 12px; border-radius: 12px; font-size: 14px; font-weight: 700; }
+.question-prompt { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 20px; }
+.question-prompt h2 { flex: 1; min-width: 0; color: #4b4b4b; font-size: 24px; line-height: 1.45; font-weight: 800; overflow-wrap: anywhere; white-space: pre-wrap; }
+.theme-dark .question-prompt h2 { color: var(--app-ink); }
+.question-context { font-size: 14px; line-height: 1.5; font-weight: 700; margin-bottom: 8px; }
+.option-card:disabled { cursor: default; }
+@media (hover: hover) and (pointer: fine) { .option-card:not(:disabled):not(.option-card-selected):not(.option-card-correct):not(.option-card-wrong):hover { background-color: var(--surface-hover); } }
+.lesson-screen { height: 100dvh; min-height: 0; overflow: hidden; }
+.lesson-toolbar { flex-shrink: 0; }
+.lesson-content { flex: 1; min-height: 0; overflow-y: auto; overflow-x: hidden; overscroll-behavior-y: contain; padding-bottom: 20px; scroll-padding-block: 16px; }
+.lesson-actions { flex-shrink: 0; padding-bottom: env(safe-area-inset-bottom); z-index: 20; }
+.lesson-body { padding: 20px 16px 0; }
+.lesson-mascot { min-height: 80px; }
+.lesson-handbook { margin: 12px auto 0; padding-inline: 16px; }
+.lesson-handbook summary { font-size: 14px; }
+.number-visual { border: 2px solid var(--shadow-card-color); }
+.number-visual > p:first-child { margin-bottom: 12px; }
+.number-visual .compare-row { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.number-visual .compare-row > p { width: 32px; margin: 0; font-size: 14px; flex-shrink: 0; }
+.number-visual .compare-row > [role="group"] { flex: 1; min-width: 0; }
+.number-visual .compare-row > [role="group"] > span { min-width: 0; }
+.number-visual .compare-row > [role="group"] > span { min-height: 44px; padding: 4px; font-size: 28px; }
+.number-visual .compare-row > [role="group"] > span span + span { font-size: 12px; }
+.number-unit-entry { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
+.number-unit-entry h2 { font-size: 18px; }
+.number-unit-entry p { font-size: 14px; margin-top: 4px; }
+.ui-book-card { background-color: #fff; }
+.theme-dark .ui-book-card { background-color: var(--app-card); }
+.ui-book-card .subject-glyph { background-color: var(--subject-color); color: #132c36; border-radius: 16px; }
+@media (max-width: 767px) {
+  .lesson-mascot { display: none; }
+  .lesson-mascot { min-height: 64px; padding-top: 8px; }
+  .lesson-mascot > :first-child { width: 52px; height: 52px; }
+  .lesson-screen .lesson-body { padding-top: 16px; }
+  .question-prompt { margin-bottom: 16px; }
+  .question-prompt h2 { font-size: 22px; }
+  .keyboard-hint { display: none !important; }
+  .shop-preview-stage { height: 152px; }
+  .shop-preview-stage img { max-height: 140px; width: auto; }
+  .shop-tab { gap: 4px; font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :is(.btn-chunky, .btn-chunky-sm, .btn-chunky-ghost, .option-card, .ui-icon-button):active { transform: none !important; }
+}
+
+.ui-key { touch-action: manipulation; transition: transform var(--motion-press) var(--ease-ui), box-shadow var(--motion-press) var(--ease-ui), border-color var(--motion-fast) var(--ease-ui); }
+
+.shop-mascot { width: 180px; height: 180px; }
+.shop-mascot > div { width: 100% !important; height: 100% !important; }
+.shop-mascot > div > svg { width: 100%; height: 100%; }
+@media (max-width: 767px) { .shop-mascot { width: 132px; height: 132px; } }
+
+/* White space frames the learning content; color belongs to actions and illustrations. */
+.status-counter { background: transparent; border: 0; }
+.status-counter:hover { background: var(--surface-hover); }
+.status-inactive { filter: grayscale(1); opacity: .55; }
+.ui-book-card { box-shadow: 0 2px 0 var(--shadow-card-color); }
+
+/* Short phones keep the comparison and all three answers above the action bar. */
+@media (max-width: 767px) and (max-height: 740px) {
+  .lesson-screen .lesson-body { padding-top: 12px; }
+  .lesson-screen .question-context { margin-bottom: 4px; }
+  .lesson-screen .question-prompt { margin-bottom: 12px; }
+  .lesson-screen .number-visual { margin-bottom: 12px; }
+  .lesson-screen .number-visual > p:first-child { margin-bottom: 8px; }
+  .lesson-screen .number-visual .compare-row { margin-bottom: 8px; }
+}
+
+
+/* Web parity: persistent navigation, quiet surfaces and clear action hierarchy. */
+.app-shell { min-height: calc(100dvh - 70px); }
+.app-shell main.min-h-screen { min-height: calc(100dvh - 70px); }
+.app-shell h1 { color: var(--app-ink, #3c3c3c); }
+.btn-chunky-primary, .theme-dark .btn-chunky-primary {
+  background-color: var(--action-primary-bg, #58cc02);
+  color: var(--action-primary-ink, #fff);
+  box-shadow: 0 4px 0 var(--action-primary-edge, #58a700);
+}
+.btn-chunky-secondary, .theme-dark .btn-chunky-secondary {
+  background-color: var(--action-accent-bg, #1cb0f6);
+  color: var(--action-accent-ink, #fff);
+  box-shadow: 0 4px 0 var(--action-accent-edge, #1899d6);
+}
+:is(.btn-chunky-primary,.btn-chunky-secondary) :is(.text-primary,.text-secondary) { color: inherit; }
+.btn-chunky-ghost { font-size: 17px; color: rgb(var(--theme-accent-rgb, 28 176 246)); box-shadow: 0 2px 0 var(--shadow-card-color); }
+.btn-chunky-disabled { color: #8d8d8d; background-color: #e5e5e5; box-shadow: none; }
+.theme-dark .btn-chunky-disabled { color: #91a2ab; background-color: var(--app-border); }
+.btn-chunky-sm { font-size: 17px; }
+:is(.btn-chunky-primary,.btn-chunky-secondary).btn-chunky-sm { font-size: 17px; }
+.continue-play { color: var(--action-primary-ink, #fff); background-color: var(--action-primary-bg, #58cc02); box-shadow: 0 4px 0 var(--action-primary-edge, #58a700); }
+.brand-wordmark { color: #58cc02; font-weight: 800; }
+.theme-dark .brand-wordmark { color: #89e219; }
+.nav-label { font-size: 15px; font-weight: 700; letter-spacing: .04em; }
+.league-locked { max-width: 460px; margin-inline: auto; }
+.league-locked h2 { font-size: 25px; line-height: 1.35; font-weight: 700; }
+.league-locked p { font-size: 17px; line-height: 1.65; }
+.league-locked .league-explainer { font-size: 14px; }
+.path-banner { background-color: var(--action-primary-bg, #58cc02) !important; color: var(--action-primary-ink, #fff); box-shadow: none !important; }
+.path-banner .path-banner-action { border: 2px solid rgba(255,255,255,.25); box-shadow: 0 2px 0 rgba(0,0,0,.12); }
+.path-banner .subject-badge { display: none; }
+@media (min-width: 768px) {
+  .app-shell { min-height: 100dvh; }
+  .app-shell main.min-h-screen { min-height: calc(100dvh - 48px); }
+  .shell-sidebar { border-right: 2px solid var(--app-border, #e5e5e5); padding: 24px 16px 24px 0; top: 0; height: 100dvh; margin-top: -24px; }
+  .lesson-screen .lesson-body { padding-top: 40px; }
+  .lesson-screen .question-prompt h2 { font-size: 28px; line-height: 1.35; }
+  .lesson-screen .lesson-mascot { display: none; }
+}
+@media (min-width: 1024px) {
+  .app-shell { grid-template-columns: 232px minmax(0,1fr); }
+  .lesson-screen .lesson-body > div, .lesson-handbook { max-width: 600px; }
+}
+@media (min-width: 1280px) {
+  .app-shell[data-has-rail="true"] { grid-template-columns: 232px minmax(0,1fr) 320px; }
+}
+
+.path-disc { height: 64px; border-radius: 50%; }
+:is(.btn-chunky-primary,.btn-chunky-secondary):disabled { background-color: var(--app-bg-softer, #e5e5e5); color: var(--app-ink-softer, #8d8d8d); box-shadow: none; }
+@media (min-width: 768px) {
+  .lesson-actions > div { max-width: 1000px; justify-content: space-between; min-height: 132px; }
+  .lesson-actions > div > button { flex: 0 0 auto; width: 150px; }
+  .lesson-feedback .feedback-content { max-width: 1000px; display: grid; grid-template-columns: minmax(0,1fr) 150px; column-gap: 48px; align-items: center; min-height: 132px; }
+  .lesson-feedback .feedback-content > div:first-child { grid-column: 1; }
+  .lesson-feedback .feedback-content > div:nth-child(2) { grid-column: 1; margin-bottom: 0; }
+  .lesson-feedback .feedback-content > button { grid-column: 2; grid-row: 1 / span 2; width: 150px; }
+}
+@media (min-width: 1280px) {
+  .continue-strip[data-placement="page"] { display: none; }
+  .continue-strip[data-placement="rail"] { margin-bottom: 0; }
+}
+@media (min-width: 768px) {
+  .lesson-toolbar { border-bottom: 0; }
+  .lesson-toolbar > div { max-width: 1040px; padding-top: 32px; padding-bottom: 16px; }
+}
+
+@media (min-width: 768px) {
+  .guide-screen > header { max-width: 1040px; width: 100%; margin-inline: auto; border-bottom: 0; padding-top: 24px; }
+  .guide-actions > div { max-width: 1000px; }
+  .guide-actions button { width: 150px; flex: 0 0 auto; }
+  .guide-actions button:last-child { margin-left: auto; }
+}
+
+/* Palette fidelity: artwork and controls must not inherit darkened text inks. */
+:root { --surface-hover: #f7f7f7; }
+.app-shell, main.bg-bg-soft, main.lesson-screen, main.guide-screen, main.reading-screen { background-color: var(--theme-bg, #fff); }
+.theme-dark :is(.app-shell, main.bg-bg-soft, main.lesson-screen, main.guide-screen, main.reading-screen) { background-color: var(--app-bg); }
+.option-card { background-color: #fff; box-shadow: 0 2px 0 var(--shadow-card-color); font-weight: 500; }
+.option-card-selected { border-color: #84D8FF; background-color: #DDF4FF; color: #1899D6; box-shadow: 0 2px 0 #84D8FF; }
+.option-card-correct { background-color: #D7FFB8; box-shadow: 0 2px 0 #58CC02; }
+.option-card-wrong { background-color: #FFDFE0; box-shadow: 0 2px 0 #FF4B4B; }
+svg.text-primary, .text-primary > svg { color: rgb(var(--theme-primary-rgb, 88 204 2)); }
+svg.text-secondary, svg.text-secondary-dark, .text-secondary > svg { color: rgb(var(--theme-accent-rgb, 28 176 246)); }
+svg.text-gold, svg.text-warning { color: #FFC800; }
+svg.text-danger, svg.text-danger-dark { color: #FF4B4B; }
+svg.text-gem, svg.text-gem-dark { color: #1CB0F6; }
+.path-banner { color: #fff; }
+.path-banner .path-banner-action { color: #fff; border-color: #58A700; box-shadow: none; }
+.theme-dark .path-banner .path-banner-action { color: var(--action-primary-ink); }
+.status-counter.text-danger { color: #FF4B4B; }
+.shell-sidebar a[aria-current="page"] { background-color: #DDF4FF; border-color: #84D8FF; }
+.shell-sidebar a[aria-current="page"] .nav-label { color: #1CB0F6; }
+.theme-dark .shell-sidebar a[aria-current="page"] { background-color: #202F36; border-color: #49C0F8; }
+
+/* The reference uses 19px/500 answer labels and bright semantic feedback. */
+.option-card { font-size: 19px; line-height: 24px; }
+.lesson-feedback[data-result="correct"] { background-color: #D7FFB8; border-color: #D7FFB8; box-shadow: none !important; }
+.lesson-feedback[data-result="wrong"] { background-color: #FFDFE0; border-color: #FFDFE0; box-shadow: none !important; }
+.lesson-feedback[data-result="correct"] .text-primary-dark { color: #58A700; }
+.lesson-feedback[data-result="wrong"] .text-danger-dark { color: #EA2B2B; }
+.theme-dark .lesson-feedback[data-result="correct"] { background-color: #202F36; border-color: #37464F; }
+.theme-dark .lesson-feedback[data-result="correct"] .text-primary-dark { color: #93D333; }
+.theme-dark .lesson-feedback[data-result="wrong"] { background-color: #202F36; border-color: #37464F; }
+.theme-dark .lesson-feedback[data-result="wrong"] .text-danger-dark { color: #FF9298; }

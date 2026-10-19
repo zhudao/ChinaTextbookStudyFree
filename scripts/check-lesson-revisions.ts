@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { createHash } from "node:crypto";
 import { gradeAnswer } from "../packages/core/src/grade";
+import { numberSkillForLesson, curateNumberSenseLesson } from "../packages/core/src/numberSense";
 import type { Lesson } from "../packages/core/src/types";
 
 function canonical(value: unknown): unknown {
@@ -29,12 +30,19 @@ function requireAudio(text: string, url: string | null | undefined): void {
 
 const folder = path.resolve("docs/lesson-reviews");
 assert(fs.existsSync(folder), "No applied lesson reviews");
-let lessons = 0, questions = 0;
+let lessons = 0, questions = 0, curatedLessons = 0;
 for (const file of fs.readdirSync(folder).filter(f => f.endsWith(".json"))) {
   const ledger = JSON.parse(fs.readFileSync(path.join(folder, file), "utf8"));
   if (!ledger.model_review) continue; // Standalone teacher submissions have no model draft.
   const book = ledger.lesson_id.split("-u")[0];
   const lesson: Lesson = JSON.parse(fs.readFileSync(path.resolve("apps/web/public/data/books", book, "lessons", `${ledger.lesson_id}.json`), "utf8"));
+  if (numberSkillForLesson(lesson.id)) {
+    const reference = curateNumberSenseLesson(lesson);
+    assert.deepEqual(lesson.questions.map(q => clean(q as unknown as Record<string, unknown>)), reference.questions);
+    assert.deepEqual(clean(lesson.knowledge as unknown as Record<string, unknown>), reference.knowledge);
+    curatedLessons++;
+    continue; // Intentional new authored curriculum, not the historical model-reviewed text.
+  }
   assert(lesson.knowledge, `${lesson.id}: no knowledge`);
   assert(lesson.questions.length >= 6, `${lesson.id}: insufficient practice`);
   assert.equal(lesson.questions.length, ledger.after_question_count);
@@ -66,4 +74,4 @@ for (const file of fs.readdirSync(folder).filter(f => f.endsWith(".json"))) {
   lessons++;
 }
 assert(lessons > 0, "No model-reviewed lesson revisions");
-console.log(`PASS: ${lessons} revised lessons, ${questions} questions; exact reviewed content, correct/wrong/empty grading and content-addressed MP3 references.`);
+console.log(`PASS: ${lessons} revised lessons, ${questions} questions; exact reviewed content, correct/wrong/empty grading and content-addressed MP3 references; ${curatedLessons} historical lessons replaced by the independently tested visual pilot.`);

@@ -87,19 +87,9 @@ interface ActiveChestState {
   tier: ChestRewardTier;
 }
 
-/** Duolingo 各单元的颜色循环 —— 按 unit index 取模 */
-const UNIT_COLORS: Array<{ bg: string; shadow: string }> = [
-  { bg: "#58CC02", shadow: "#58A700" }, // feather green
-  { bg: "#CE82FF", shadow: "#A560E8" }, // beetle purple
-  { bg: "#1CB0F6", shadow: "#1899D6" }, // macaw blue
-  { bg: "#FF9600", shadow: "#E08600" }, // fox orange
-  { bg: "#FF4B4B", shadow: "#EA2B2B" }, // cardinal red
-  { bg: "#FFC800", shadow: "#E0A800" }, // bee yellow
-];
-
-function unitColor(index: number) {
-  return UNIT_COLORS[index % UNIT_COLORS.length];
-}
+/** A course keeps one accent; section labels distinguish units. */
+const COURSE_COLOR = { bg: "#58CC02", shadow: "#58A700" };
+function unitColor(_index: number) { return COURSE_COLOR; }
 
 export function PathMap({
   bookId,
@@ -250,9 +240,8 @@ export function PathMap({
     <div className="w-full max-w-md mx-auto lg:max-w-none lg:mx-0 px-4 lg:px-0 pb-6">
       {/* === sticky 单元 banner === */}
       <div
-        className="sticky top-0 lg:top-4 z-20 -mx-4 px-4 lg:mx-0 lg:px-0 pt-2 pb-4 bg-bg-soft"
+        className="sticky top-0 lg:top-4 z-20 -mx-4 px-4 lg:mx-0 lg:px-0 pt-2 pb-4 bg-bg"
       >
-        {topSlot && <div className="mb-3">{topSlot}</div>}
         <AnimatePresence mode="wait">
           <motion.div
             key={activeUnitNum}
@@ -260,7 +249,7 @@ export function PathMap({
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -8, opacity: 0 }}
             transition={{ duration: 0.18 }}
-            className="rounded-2xl px-3 py-3 text-[#132C36] flex items-center gap-3"
+            className="path-banner rounded-2xl px-4 py-4 flex items-center gap-3"
             style={{
               backgroundColor: color.bg,
               boxShadow: `0 4px 0 0 ${color.shadow}`,
@@ -270,14 +259,14 @@ export function PathMap({
               <SoundLink
                 href={backHref}
                 aria-label="返回"
-                className="shrink-0 inline-flex items-center justify-center w-11 h-11 rounded-xl border border-black/20 hover:bg-white/15 transition-colors"
+                className="shrink-0 inline-flex items-center justify-center w-11 h-11 rounded-xl path-banner-action hover:bg-white/15 transition-colors"
               >
                 <ArrowLeft className="w-5 h-5" aria-hidden />
               </SoundLink>
             )}
             <div className="min-w-0 flex-1">
               {/* 小标签行：subject + textbookName · 第 N 单元 */}
-              <div className="flex items-center gap-1.5 text-xs font-bold leading-snug min-w-0 flex-wrap">
+              <div className="flex items-center gap-1.5 text-sm font-bold leading-snug min-w-0 flex-wrap">
                 {headerLabel && (
                   <span className="inline-flex items-center gap-1.5 min-w-0">
                     {headerLabel}
@@ -287,13 +276,13 @@ export function PathMap({
                 <span className="whitespace-nowrap">第 {activeUnitNum} 单元</span>
               </div>
               {/* 大字单元标题 */}
-              <div className="text-lg font-extrabold leading-snug break-words tracking-tight mt-1.5">
+              <div className="text-xl font-bold leading-snug break-words tracking-tight mt-1.5">
                 {activeUnitTitle}
               </div>
             </div>
             {activeUnitFullyLocked && (
               <SoundLink href={`/jump/?book=${bookId}&unit=${activeUnitNum}`} hapticIntensity="medium"
-                className="shrink-0 inline-flex items-center gap-1.5 px-2 min-h-11 rounded-xl border border-black/20 hover:bg-white/15 transition-colors text-xs font-bold"
+                className="shrink-0 inline-flex items-center gap-1.5 px-2 min-h-11 rounded-xl path-banner-action hover:bg-white/15 transition-colors text-xs font-bold"
                 aria-label={`跳级测试：直接跳到第 ${activeUnitNum} 单元`}>
                 <Lightning className="w-4 h-4" aria-hidden /><span>跳级</span>
               </SoundLink>
@@ -301,7 +290,7 @@ export function PathMap({
             {hasGuide && (
               <SoundLink
                 href={`/book/${bookId}/guide/${activeUnitNum}/`}
-                className="shrink-0 inline-flex items-center gap-1.5 px-3 h-11 rounded-xl font-bold text-xs tracking-tight border border-black/20 hover:bg-white/15 transition-colors"
+                className="shrink-0 inline-flex items-center gap-1.5 px-3 h-11 rounded-xl font-bold text-sm tracking-tight path-banner-action hover:bg-white/15 transition-colors"
                 aria-label="打开知识手册"
               >
                 <Book className="w-4 h-4" aria-hidden />
@@ -311,6 +300,8 @@ export function PathMap({
           </motion.div>
         </AnimatePresence>
       </div>
+
+      {topSlot && <div className="mb-3">{topSlot}</div>}
 
       {/* === 连续蛇形路径（单元边界只作为视觉分隔 label，不中断路径） === */}
       <div className="pt-2">
@@ -377,18 +368,6 @@ export function PathMap({
 const STAGE_WIDTH = 440;
 const NODE_SIZE = 72;
 
-function buildSnakePath(points: Array<{ x: number; y: number }>, stageHalf: number): string {
-  if (points.length < 2) return "";
-  const toX = (x: number) => x + stageHalf;
-  let d = `M ${toX(points[0].x)} ${points[0].y}`;
-  for (let i = 1; i < points.length; i++) {
-    const a = points[i - 1];
-    const b = points[i];
-    const midY = (a.y + b.y) / 2;
-    d += ` C ${toX(a.x)} ${midY}, ${toX(b.x)} ${midY}, ${toX(b.x)} ${b.y}`;
-  }
-  return d;
-}
 
 interface UnitPathProps {
   entries: Array<[number, { title: string; items: UnitItem[] }]>;
@@ -439,10 +418,7 @@ function UnitPath({
 
   return (
     <div ref={containerRef} data-path-stage className="relative w-full max-w-[440px] mx-auto pt-6 pb-4">
-      <svg className="absolute inset-0 w-full pointer-events-none text-bg-softer" width={geometry.width} height={geometry.height}
-        viewBox={`0 0 ${geometry.width} ${Math.max(1, geometry.height)}`} aria-hidden>
-        <path d={buildSnakePath(geometry.points, geometry.width / 2)} fill="none" stroke="currentColor" strokeWidth={4} strokeLinecap="round" strokeDasharray="2 10" />
-      </svg>
+
 
       {flat.map((entry, index) => {
         const item = entry.item;
@@ -517,14 +493,14 @@ function PathNode({ lesson, status, stars, breatheDelay, color, onSelect }: Path
       className="flex flex-col items-center relative"
     >
       <motion.div
-        animate={!isLocked ? { y: [0, -3, 0] } : { y: 0 }}
+        animate={{ y: 0 }}
         transition={
           !isLocked
             ? { duration: 2.6, repeat: Infinity, ease: "easeInOut", delay: breatheDelay }
             : { duration: 0 }
         }
-        whileHover={!isLocked ? { scale: 1.08, y: -4 } : undefined}
-        whileTap={!isLocked ? { scale: 0.95 } : undefined}
+        whileHover={!isLocked ? { y: -2 } : undefined}
+        whileTap={!isLocked ? { y: 4 } : undefined}
         className={cn(
           "path-disc relative rounded-full flex items-center justify-center",
           "transition-colors duration-200",
@@ -545,7 +521,7 @@ function PathNode({ lesson, status, stars, breatheDelay, color, onSelect }: Path
             : null),
         }}
       >
-        {isLocked && <Lock className="w-7 h-7" />}
+        {isLocked && <Star className="w-9 h-9 fill-current text-[#c4c4c4]" strokeWidth={0} />}
         {isCurrent && <Star className="w-8 h-8 fill-white" />}
         {isCompleted && (lesson.questionCount < 3 ? <Check className="w-8 h-8" /> : <Crown className="w-8 h-8 fill-white" />)}
 
@@ -561,7 +537,7 @@ function PathNode({ lesson, status, stars, breatheDelay, color, onSelect }: Path
 
       {/* 课程标题：只在 current 节点上显示（避免视觉拥挤） */}
       {isCurrent && (
-        <div data-path-label className="path-label mt-3 px-2 bg-bg-soft rounded-lg text-center text-sm font-bold leading-relaxed text-ink">
+        <div data-path-label className="path-label mt-3 px-2 bg-bg rounded-lg text-center text-sm font-bold leading-relaxed text-ink">
           {lesson.title}
         </div>
       )}
@@ -609,8 +585,8 @@ function ChestNode({ unlocked, claimed, breatheDelay, onSelect }: ChestNodeProps
             ? { duration: 2.4, repeat: Infinity, ease: "easeInOut", delay: breatheDelay }
             : { duration: 0 }
         }
-        whileHover={unlocked ? { scale: 1.08, y: -4 } : undefined}
-        whileTap={unlocked ? { scale: 0.95 } : undefined}
+        whileHover={unlocked ? { y: -2 } : undefined}
+        whileTap={unlocked ? { y: 4 } : undefined}
         className={cn(
           "path-disc relative rounded-full flex items-center justify-center",
           !unlocked && "bg-bg-softer text-ink-softer",
@@ -700,8 +676,8 @@ function ExamNode({ meta, stars, breatheDelay, onSelect }: ExamNodeProps) {
             ? { duration: 2.4, repeat: Infinity, ease: "easeInOut", delay: breatheDelay }
             : { duration: 0 }
         }
-        whileHover={unlocked ? { scale: 1.08, y: -4 } : undefined}
-        whileTap={unlocked ? { scale: 0.95 } : undefined}
+        whileHover={unlocked ? { y: -2 } : undefined}
+        whileTap={unlocked ? { y: 4 } : undefined}
         className={cn(
           "path-disc relative rounded-full flex items-center justify-center",
           !unlocked && "text-ink-softer",

@@ -10,6 +10,7 @@
 import { useMemo } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/cn";
+import { QuestionPrompt } from "./QuestionPrompt";
 import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
@@ -125,12 +126,7 @@ export function FillBlankTextQuestion({
 
   return (
     <div className="w-full">
-      <div className="flex items-start gap-3 mb-6">
-        <div className="text-xl font-bold text-ink leading-relaxed whitespace-pre-wrap flex-1 min-w-0">
-          <MathText text={question.question} />
-        </div>
-        <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
-      </div>
+      <QuestionPrompt text={question.question} audio={question.audio?.question} locked={locked} />
 
       {/* 答案显示区 */}
       <motion.div
@@ -164,9 +160,8 @@ export function FillBlankTextQuestion({
             type="button"
             disabled={disabled}
             onClick={() => handleKey(ch)}
-            whileTap={!disabled ? { scale: 0.96 } : undefined}
             className={cn(
-              "h-14 rounded-2xl text-2xl font-extrabold bg-white border-2 border-bg-softer text-ink",
+              "ui-key h-14 rounded-2xl text-2xl font-extrabold bg-white border-2 border-bg-softer text-ink",
               "hover:border-secondary/60 active:translate-y-[2px] active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed transition-colors",
             )}
             style={{ boxShadow: "0 3px 0 0 var(--shadow-card-color)" }}
@@ -180,9 +175,8 @@ export function FillBlankTextQuestion({
           disabled={disabled}
           onClick={() => handleKey("⌫")}
           aria-label="删除最后一个字"
-          whileTap={!disabled ? { scale: 0.96 } : undefined}
           className={cn(
-            "h-14 rounded-2xl text-2xl font-extrabold bg-white border-2 border-bg-softer text-danger",
+            "ui-key h-14 rounded-2xl text-2xl font-extrabold bg-white border-2 border-bg-softer text-danger",
             "hover:border-danger/40 active:translate-y-[2px] active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed transition-colors",
           )}
           style={{ boxShadow: "0 3px 0 0 var(--shadow-card-color)" }}

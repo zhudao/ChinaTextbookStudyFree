@@ -1,6 +1,7 @@
 "use client";
 
 import { saveReviewSession } from "@/lib/reviewSession";
+import { numberSkillForLesson, recordNumberPractice, recordNumberReview, dueNumberSkills, normalizeNumberProgress, type NumberProgress, type NumberPracticeEvidence, type NumberSkill } from '@cstf/core/numberSense';
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import type { Question, LessonResult, Lesson } from "@/types";
@@ -112,6 +113,9 @@ export interface ActiveLessonSession {
   checkedCorrect?: boolean | null;
   attemptedIds?: number[];
   totalQuestions?: number;
+  hintLevels?: Record<number, number>;
+  independentIds?: number[];
+  visualDraft?: number[];
   /** Identity of knowledge and questions, excluding audio; prevents stale feedback. */
   contentKey?: string;
 }
@@ -253,6 +257,9 @@ interface ProgressState {
   xpHistory: Record<string, number>;
   /** 每日完成课程数历史 { "YYYY-MM-DD": count } */
   lessonHistory: Record<string, number>;
+  /** Effective learning days, independent of XP and reward eligibility. */
+  studyDays: Record<string, true>;
+  numberSenseProgress: NumberProgress;
   /** 上次领取每日登陆奖励的日期 */
   lastDailyRewardDate: string;
 
@@ -309,12 +316,13 @@ interface ProgressState {
    * 通关记账（原子）：XP/宝石/星级/连胜推进/里程碑/每日任务计数一次完成，
    * 返回结算单 LessonOutcome 供结算页展示。
    */
-  recordLessonComplete: (lessonId: string, lessonTitle: string, accuracy: number, xpGained: number, evidence?: { questionCount: number }) => LessonOutcome;
+  recordLessonComplete: (lessonId: string, lessonTitle: string, accuracy: number, xpGained: number, evidence?: { questionCount: number; numberSense?: NumberPracticeEvidence }) => LessonOutcome;
   /**
    * 完成一篇阅读（课文听读/跟读/故事）：幂等，首次才发 XP，不发通关宝石、不写课程记录。
    * id 请传 `readingId(kind, rawId)`；传历史格式也不会记错账（内部会归一化）。
    */
   completeReading: (id: string, xp: number) => void;
+  recordNumberSenseReview: (results: { skill: NumberSkill; correct: number; total: number }[]) => boolean;
   /** 某篇阅读是否已完成（内部按规范 id 查表，调用方不用关心 key 格式） */
   isReadingDone: (kind: ReadingKind, rawId: string) => boolean;
   addMistake: (lessonId: string, lessonTitle: string, question: Question) => void;
@@ -676,6 +684,8 @@ export const useProgressStore = create<ProgressState>()(
       // v5
       xpHistory: {},
       lessonHistory: {},
+      studyDays: {},
+      numberSenseProgress: {},
       lastDailyRewardDate: "",
 
       // v6
@@ -877,6 +887,9 @@ export const useProgressStore = create<ProgressState>()(
               lessonBackdrop: s.equippedBackdrop,
             },
             xpHistory: s.xpHistory,
+            studyDays: s.studyDays,
+            lessonHistory: s.lessonHistory,
+            numberSenseProgress: s.numberSenseProgress,
             leagueTier: s.leagueTier,
             leagueWeekKey: s.leagueWeekKey || undefined,
           },
@@ -885,6 +898,7 @@ export const useProgressStore = create<ProgressState>()(
 
       importBackup: envelope => {
         saveReviewSession(null);
+        try { sessionStorage.removeItem("csf-number-check-v1"); } catch { /* storage may be unavailable */ }
         const d = envelope.data;
         const today = todayStr();
 
@@ -983,6 +997,8 @@ export const useProgressStore = create<ProgressState>()(
           equippedTheme: safeEquip(d.equipped.uiTheme, DEFAULT_EQUIPPED.uiTheme),
           equippedBackdrop: safeEquip(d.equipped.lessonBackdrop, DEFAULT_EQUIPPED.lessonBackdrop),
           xpHistory: d.xpHistory,
+          studyDays: d.studyDays ?? {},
+          numberSenseProgress: normalizeNumberProgress(d.numberSenseProgress),
           // 今日 XP 从 xpHistory 复原（跨端同日互导也不丢当日目标进度）
           todayXp: d.xpHistory[today] ?? 0,
           lastXpDate: d.xpHistory[today] !== undefined ? today : "",
@@ -992,7 +1008,7 @@ export const useProgressStore = create<ProgressState>()(
           activeLesson: null,
           pendingStreakMilestone: null,
           pendingLeagueResult: null,
-          lessonHistory: {},
+          lessonHistory: d.lessonHistory ?? {},
           dailyQuestDate: "",
           dailyLessons: 0,
           dailyReviews: 0,
@@ -1134,6 +1150,10 @@ export const useProgressStore = create<ProgressState>()(
             lifetimeGems: state.lifetimeGems + totalGems,
             xpHistory: xpAccount.xpHistory,
             lessonHistory: newLessonHistory,
+            numberSenseProgress: evidence?.numberSense && numberSkillForLesson(lessonId)
+              ? recordNumberPractice(state.numberSenseProgress, numberSkillForLesson(lessonId)!, evidence.numberSense, today)
+              : state.numberSenseProgress,
+            studyDays: pruneHistory({ ...state.studyDays, [today]: true as const }),
             streak: streakAfter,
             lastActiveDate: today,
             streakFreezes,
@@ -1175,6 +1195,7 @@ export const useProgressStore = create<ProgressState>()(
           return {
             ...roll,
             dailyReadings,
+            studyDays: pruneHistory({ ...state.studyDays, [today]: true as const }),
             xp: xpAccount.xp,
             todayXp: xpAccount.todayXp,
             lastXpDate: today,
@@ -1188,6 +1209,22 @@ export const useProgressStore = create<ProgressState>()(
           };
         });
         get().bumpStreakIfNeeded();
+      },
+
+      recordNumberSenseReview: results => {
+        const today = todayStr();
+        const due = dueNumberSkills(get().numberSenseProgress, today);
+        const eligible = results.filter((r, index) => due.includes(r.skill) && results.findIndex(other => other.skill === r.skill) === index && r.total === 2 && Number.isInteger(r.correct) && r.correct >= 0 && r.correct <= r.total);
+        if (!eligible.length) return false;
+        set(state => {
+          const xp = applyXpGain(state, eligible.reduce((n, r) => n + r.correct * REVIEW_XP_PER_CORRECT, 0), today);
+          return { numberSenseProgress: recordNumberReview(state.numberSenseProgress, eligible, today),
+            studyDays: pruneHistory({ ...state.studyDays, [today]: true as const }),
+            xp: xp.xp, todayXp: xp.todayXp, lastXpDate: today, xpHistory: xp.xpHistory,
+            gems: state.gems + xp.goalBonusGems, lifetimeGems: state.lifetimeGems + xp.goalBonusGems };
+        });
+        get().bumpStreakIfNeeded();
+        return true;
       },
 
       isReadingDone: (kind, rawId) =>
@@ -1548,6 +1585,7 @@ export const useProgressStore = create<ProgressState>()(
           return {
             ...roll,
             dailyReviews,
+            studyDays: pruneHistory({ ...state.studyDays, [today]: true as const }),
             xp: xpAccount.xp,
             todayXp: xpAccount.todayXp,
             lastXpDate: today,
@@ -1692,7 +1730,8 @@ export const useProgressStore = create<ProgressState>()(
       //            （reading:{kind}:{rawId}，双端同一 key 空间）
       //            + freezesMigrated（护盾补发一次性开关）
       //            + lastReviewHeartDate（复习补心按天账本）
-      version: 12,
+      // v13: reward-independent study days.
+      version: 13,
       migrate: (persistedState: unknown, fromVersion: number) => {
         const state = (persistedState as Partial<ProgressState>) ?? {};
         const starterOwned = Object.fromEntries(
@@ -1795,6 +1834,8 @@ export const useProgressStore = create<ProgressState>()(
           sessionTimeLimitMs: state.sessionTimeLimitMs ?? 0,
           xpHistory: state.xpHistory ?? {},
           lessonHistory,
+          studyDays: state.studyDays ?? {},
+          numberSenseProgress: normalizeNumberProgress(state.numberSenseProgress),
           lastDailyRewardDate: state.lastDailyRewardDate ?? "",
           // v6
           selectedGrade: state.selectedGrade ?? null,

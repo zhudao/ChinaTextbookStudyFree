@@ -19,6 +19,8 @@ import type { Question } from "./types";
 import { DEFAULT_EQUIPPED } from "./cosmetics";
 import { MAX_HEARTS, DEFAULT_DAILY_GOAL, INITIAL_FREEZES } from "./economy";
 import { normalizeReadingMap } from "./reading";
+import { normalizeNumberProgress, type NumberProgress } from "./numberSense";
+import { isDateKey } from "./week";
 
 // ============================================================
 // 类型
@@ -120,6 +122,11 @@ export interface BackupData {
   equipped: BackupEquipped;
   /** 日期 → 当日 XP */
   xpHistory: Record<string, number>;
+  /** Optional Web activity ledger. Zero-XP learning must survive a backup. */
+  studyDays?: Record<string, true>;
+  /** Optional dated Web lesson totals, including repeated practice. */
+  lessonHistory?: Record<string, number>;
+  numberSenseProgress?: NumberProgress;
   /** 联赛段位 id（"bronze" 等）。宽松保留为 string，未知段位由导入端降级 */
   leagueTier?: string;
   leagueWeekKey?: string;
@@ -482,7 +489,15 @@ export function validateBackup(input: unknown): BackupValidationResult {
     xpHistory: readNumberRecord(d, "xpHistory", log),
   };
 
+  // Optional new Web evidence; old clients ignore unknown fields.
+  if (d["numberSenseProgress"] !== undefined) data.numberSenseProgress = normalizeNumberProgress(d["numberSenseProgress"]);
   // 可选字段：给了才带上
+  if (d["lessonHistory"] !== undefined) {
+    data.lessonHistory = Object.fromEntries(Object.entries(readNumberRecord(d, "lessonHistory", log)).filter(([key, count]) => isDateKey(key) && Number.isInteger(count) && count >= 0));
+  }
+  if (d["studyDays"] !== undefined) {
+    data.studyDays = Object.fromEntries(Object.entries(readFlagRecord(d, "studyDays", log)).filter(([key]) => isDateKey(key)));
+  }
   const joinedDate = readOptionalString(d, "joinedDate", log);
   if (joinedDate !== undefined) data.joinedDate = joinedDate;
   if (d["perfectedLessons"] !== undefined) {

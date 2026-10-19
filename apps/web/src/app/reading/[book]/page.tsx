@@ -70,7 +70,7 @@ export default async function ReadingListPage({
 
   return (
     <AppShell centerMaxWidth={720}>
-    <main className="min-h-screen bg-bg-soft lg:bg-transparent">
+    <main className="min-h-screen bg-bg lg:bg-transparent">
       <InnerHeader
         backHref={`/book/${bookId}/`}
         title={`${book.textbookName}·课文`}

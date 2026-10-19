@@ -83,7 +83,7 @@ export function ReviewClient() {
 
   return (
     <AppShell centerMaxWidth={840}>
-    <main className="min-h-screen bg-bg-soft lg:bg-transparent relative">
+    <main className="min-h-screen bg-bg lg:bg-transparent relative">
       {/* Header —— 仅移动端：白底 sticky（lg+ HUD 由右栏 RightRail 常驻，不再重复） */}
       <div className="shell-page-toolbar bg-white border-b border-bg-softer">
         <div className="max-w-2xl lg:max-w-4xl mx-auto flex flex-wrap items-center justify-between gap-3 px-4 py-3 lg:px-0 lg:py-2">
@@ -98,7 +98,7 @@ export function ReviewClient() {
             <h1 className="text-base font-extrabold text-ink">错题本</h1>
           </div>
           <div className="hidden lg:block flex-1" />
-          <div className="w-full min-[480px]:w-auto shrink-0 flex justify-end">
+          <div className="w-auto shrink-0 flex justify-end">
             <StatsBar compact />
           </div>
         </div>
@@ -133,7 +133,7 @@ export function ReviewClient() {
                 initial={{ opacity: 0, y: 12 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: gi * 0.04 }}
-                className="bg-white rounded-3xl border-2 border-bg-softer overflow-hidden"
+                className="bg-white ui-card rounded-3xl border-2 border-bg-softer overflow-hidden"
                 style={{ boxShadow: "0 4px 0 0 var(--shadow-card-color)" }}
               >
                 <div className="px-5 py-3 border-b-2 border-bg-softer bg-bg-soft">
@@ -201,7 +201,7 @@ function SrsSummary({
     <motion.section
       initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
-      className="mb-5 bg-white rounded-3xl border-2 border-bg-softer p-5"
+      className="mb-5 bg-white ui-card rounded-3xl border-2 border-bg-softer p-5"
       style={{ boxShadow: "0 4px 0 0 var(--shadow-card-color)" }}
     >
       <div className="flex items-center justify-between mb-3">

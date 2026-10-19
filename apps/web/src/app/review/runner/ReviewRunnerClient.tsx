@@ -14,6 +14,7 @@
  * 无红心消耗：复习是「安全区」，答错只会把题排回队尾，不扣心。
  */
 
+import { uiMotion } from "@/lib/motion";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import dynamic from "next/dynamic";
@@ -189,6 +190,10 @@ export function ReviewRunnerClient() {
   const shakeControls = useAnimation();
 
   const current = queue[0] ?? null;
+  const questionScrollRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (phase === "answering" && questionScrollRef.current) questionScrollRef.current.scrollTop = 0;
+  }, [current?.key, phase, ready]);
   const total = totalRef.current;
   const progress = total > 0 ? (solvedCount / total) * 100 : 0;
 
@@ -412,15 +417,15 @@ export function ReviewRunnerClient() {
   return (
     <motion.main
       animate={shakeControls}
-      className="min-h-screen bg-bg-soft flex flex-col"
+      className="lesson-screen bg-bg-soft flex flex-col"
     >
       {/* 顶栏：退出 + 进度条 + 静音 */}
-      <div className="bg-white border-b border-bg-softer">
+      <div className="lesson-toolbar bg-white border-b border-bg-softer">
         <div className="max-w-md lg:max-w-2xl mx-auto px-3 py-2.5 flex items-center gap-2">
           <button
             type="button"
             onClick={handleExit}
-            className="h-11 w-11 -ml-1 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
+            className="ui-icon-button -ml-1 text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
             aria-label="退出复习"
           >
             <Close className="w-5 h-5" />
@@ -440,6 +445,7 @@ export function ReviewRunnerClient() {
         </div>
       </div>
 
+      <div ref={questionScrollRef} className="lesson-content">
       {contentUpdated && (
         <p
           role="status"
@@ -457,15 +463,15 @@ export function ReviewRunnerClient() {
       </div>
 
       {/* 题目区 */}
-      <div className="flex-1 flex flex-col items-center justify-start px-5 py-4 pb-40">
+      <div className="lesson-body flex flex-col items-center justify-start">
         <div className="w-full max-w-md lg:max-w-2xl">
           <AnimatePresence mode="wait">
             <motion.div
               key={`${current.key}-${solvedCount}-${queue.length}`}
-              initial={{ x: 30, y: 8, opacity: 0 }}
+              initial={{ x: 12, y: 4, opacity: 0 }}
               animate={{ x: 0, y: 0, opacity: 1 }}
-              exit={{ x: -30, y: 0, opacity: 0 }}
-              transition={{ type: "spring", damping: 22, stiffness: 240 }}
+              exit={{ x: -12, y: 0, opacity: 0 }}
+              transition={uiMotion.enter}
             >
               <QuestionRenderer
                 question={current.question}
@@ -479,6 +485,7 @@ export function ReviewRunnerClient() {
         </div>
       </div>
 
+      </div>
       {/* a11y：实时播报判分结果 */}
       <div className="sr-only" aria-live="polite" aria-atomic="true">
         {phase === "checked" &&
@@ -491,8 +498,8 @@ export function ReviewRunnerClient() {
 
       {/* 底部：检查按钮（答题中） */}
       {phase === "answering" && (
-        <div className="bg-white border-t-2 border-bg-softer">
-          <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-4">
+        <div className="lesson-actions bg-white border-t-2 border-bg-softer">
+          <div className="max-w-md lg:max-w-2xl mx-auto px-4 py-4">
             <button
               onClick={handleCheck}
               disabled={!answerReady(current.question, answer)}
@@ -547,7 +554,8 @@ function ReviewFeedbackPanel({
       initial={{ y: 110, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ type: "spring", damping: 22, stiffness: 260 }}
-      className={`fixed bottom-0 left-0 right-0 z-50 border-t-4 ${bg} backdrop-blur-sm bg-white/90`}
+      data-result={isCorrect ? "correct" : "wrong"}
+      className={`lesson-feedback fixed bottom-0 left-0 right-0 z-50 border-t-2 ${bg}`}
       style={{ boxShadow: "0 -8px 24px rgba(0,0,0,0.06)" }}
     >
       <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-5">

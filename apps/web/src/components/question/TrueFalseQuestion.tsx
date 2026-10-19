@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Check, XMark } from "@/components/icons";
 import { cn } from "@/lib/cn";
+import { QuestionPrompt } from "./QuestionPrompt";
 import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
@@ -67,7 +68,6 @@ export function TrueFalseQuestion({
         aria-pressed={selected}
         disabled={phase === "checked"}
         onClick={() => select(label)}
-        whileTap={phase === "answering" ? { scale: 0.98 } : undefined}
         className={cn("flex-1 flex flex-col items-center gap-2 relative", cls)}
         style={{ minHeight: 108 }}
       >
@@ -76,7 +76,7 @@ export function TrueFalseQuestion({
         </motion.div>
         <span className="text-lg font-extrabold">{label}</span>
         {/* 数字角标：仅桌面端（pointer:fine）显示，对应快捷键 1/2 */}
-        <span className="absolute bottom-2 right-2 w-6 h-6 rounded-md border-2 border-bg-softer hidden [@media(pointer:fine)]:flex items-center justify-center font-extrabold text-ink-softer text-xs tabular-nums">
+        <span className="keyboard-hint absolute bottom-2 right-2 w-6 h-6 rounded-md border-2 border-bg-softer hidden [@media(pointer:fine)]:flex items-center justify-center font-extrabold text-ink-softer text-xs tabular-nums">
           {hotkey}
         </span>
       </motion.button>
@@ -85,12 +85,7 @@ export function TrueFalseQuestion({
 
   return (
     <div className="w-full">
-      <div className="flex items-start gap-3 mb-6">
-        <div className="text-xl font-bold text-ink leading-relaxed flex-1 min-w-0">
-          <MathText text={question.question} />
-        </div>
-        <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
-      </div>
+      <QuestionPrompt text={question.question} audio={question.audio?.question} locked={locked} />
       <div className="flex gap-3">
         {renderBtn("对", <Check className="w-10 h-10 text-primary" />, "1")}
         {renderBtn("错", <XMark className="w-10 h-10 text-danger" />, "2")}

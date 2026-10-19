@@ -1,4 +1,5 @@
 "use client";
+import { numberSkillForLesson } from "@cstf/core/numberSense";
 
 /**
  * LessonStartModal — 点击路径节点后弹出的课程摘要卡
@@ -81,7 +82,8 @@ export function LessonStartModal({
 
   // ⏱️ 家长时间关怀：达到每日上限后不再开新课；继续已开始的课不受影响
   const timeUp = hydrated && !resume0 && dailyTimeLimitReached();
-  const canStart = hearts > 0 && !timeUp;
+  const isNumberSense = !!numberSkillForLesson(lessonId);
+  const canStart = (hearts > 0 || isNumberSense) && !timeUp;
   const msToNext = nextHeartAt ? Math.max(0, nextHeartAt - now) : 0;
   const estimatedXp =
     questionCount *
@@ -199,7 +201,8 @@ export function LessonStartModal({
           </div>
         )}
 
-        {hearts <= 0 && !timeUp && (
+        {isNumberSense && <p className="mt-3 text-sm text-ink-light">这节课可以放心试，做错不扣红心。</p>}
+        {hearts <= 0 && !isNumberSense && !timeUp && (
           <div className="mt-4 w-full rounded-2xl border-2 border-danger/30 bg-danger/10 px-4 py-3">
             <div className="flex items-center justify-center gap-2 text-danger font-extrabold">
               <Heart className="w-5 h-5" />

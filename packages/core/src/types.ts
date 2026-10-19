@@ -13,6 +13,8 @@ export type QuestionType =
   | "word_problem";     // 历史保留
 
 export interface Question {
+  /** Optional curated visual task; legacy questions remain unchanged. */
+  numberTask?: import("./numberSense").NumberTask;
   id: number;
   type: QuestionType;
   score: number;
@@ -186,6 +188,9 @@ export interface StoryQuestion {
   options: string[];
   answer: string;
   explanation: string;
+  skill?: "retrieval" | "vocabulary" | "inference" | "structure" | "expression" | "evaluation";
+  /** One-based sentence numbers; revealed only after answering. */
+  evidence_sentence_indices?: number[];
   audio?: {
     question?: string;
     options?: (string | null)[];

@@ -17,6 +17,7 @@
 import { useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useToast } from "@/components/Toast";
+import { themeAccentColors } from "@/lib/themeColors";
 import { Sparkle } from "@/components/icons";
 import {
   MASCOT_SKINS,
@@ -203,7 +204,7 @@ export default function ShopPage() {
         </div>
 
         <details className="mt-10 rounded-2xl border border-bg-softer bg-white p-5">
-          <summary className="cursor-pointer text-base font-bold text-ink">学习补给 <span className="ml-2 text-sm font-normal text-ink-light">连胜护盾与红心</span></summary>
+          <summary className="cursor-pointer min-h-11 text-base font-bold text-ink">学习补给 <span className="ml-2 text-sm font-normal text-ink-light">连胜护盾与红心</span></summary>
           <div className="mt-5"><PowerUpsSection /></div>
         </details>
       </main>
@@ -334,17 +335,7 @@ function PowerUpCard({
           type="button"
           onClick={onBuy}
           disabled={!canAfford}
-          className={`mt-3 w-full inline-flex items-center justify-center gap-1.5 rounded-2xl min-h-11 py-2 font-extrabold text-sm transition-colors ${
-            canAfford ? "text-[#132C36]" : "bg-bg-softer text-ink-softer cursor-not-allowed"
-          }`}
-          style={
-            canAfford
-              ? {
-                  background: "linear-gradient(135deg, #1CB0F6, #1899D6)",
-                  boxShadow: "0 4px 0 0 #0d7aa8",
-                }
-              : undefined
-          }
+          className={canAfford ? "btn-chunky-secondary mt-3 w-full gap-2" : "btn-chunky-disabled mt-3 w-full gap-2"}
         >
           <Gem className="w-4 h-4" />
           <span className="tabular-nums">{cost}</span>
@@ -421,10 +412,6 @@ function PreviewPane({
               type="button"
               onClick={onTryEquip}
               className="btn-chunky-secondary w-full"
-              style={{
-                background: "linear-gradient(135deg, #1CB0F6, #1899D6)",
-                boxShadow: "0 5px 0 0 #0d7aa8",
-              }}
             >
               <Gem className="w-4 h-4 mr-1.5" />
               <span className="tabular-nums">{item.cost}</span>
@@ -459,6 +446,7 @@ function PreviewStage({ item }: { item: CosmeticItem }) {
       >
         <motion.div
           key={item.id}
+          className="shop-mascot"
           initial={{ scale: 0.8, opacity: 0, y: 8 }}
           animate={{ scale: 1, opacity: 1, y: 0 }}
           transition={{ type: "spring", damping: 16, stiffness: 220 }}
@@ -472,6 +460,7 @@ function PreviewStage({ item }: { item: CosmeticItem }) {
     const theme = item as UiTheme;
     const t = theme.data;
     const dark = !!t.isDark || mode === "dark" || (mode === "system" && systemDark);
+    const previewColors = themeAccentColors(t.primary, t.primaryDark, t.accent, dark);
     const surface = dark ? (t.isDark ? t.cardBg : "#202F36") : "#FFFFFF";
     const border = dark ? (t.isDark ? t.borderSoft : "#37464F") : "#E5E5E5";
     return (
@@ -492,11 +481,11 @@ function PreviewStage({ item }: { item: CosmeticItem }) {
         </div>
         {/* 模拟一个 chunky 主按钮 */}
         <div
-          className="rounded-2xl py-3 text-center text-white font-extrabold text-sm"
+          className="rounded-2xl py-3 text-center font-bold text-[19px]"
           style={{
-            background: t.primary,
-            color: "#071317",
-            boxShadow: `0 4px 0 0 ${t.primaryDark}`,
+            background: previewColors['--action-primary-bg'],
+            color: previewColors['--action-primary-ink'],
+            boxShadow: `0 4px 0 0 ${previewColors['--action-primary-edge']}`,
           }}
         >
           检查
@@ -640,7 +629,7 @@ function ItemCard({
 
       {/* 信息 */}
       <div className="px-3 py-3 flex flex-col gap-2">
-        <div data-shop-name className="text-sm font-bold text-ink leading-relaxed break-words">
+        <div data-shop-name className="text-base font-bold text-ink leading-relaxed break-words">
           {item.name}
         </div>
         <div className="flex flex-wrap items-center justify-between gap-x-2 gap-y-1">

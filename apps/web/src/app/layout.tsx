@@ -11,7 +11,7 @@ import { LeagueWatcher } from "@/components/LeagueWatcher";
 
 const nunito = Nunito({
   subsets: ["latin"],
-  weight: ["600", "700", "800", "900"],
+  weight: ["400", "500", "600", "700", "800", "900"],
   variable: "--font-display",
   display: "swap",
 });
@@ -80,7 +80,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       {/* 底部导航的高度补偿由 BottomNav 自带的占位条负责（web-lesson-15）：
           课程 / 阅读器等沉浸页导航隐藏时不再留 64px 死空隙 */}
-      <body className="min-h-screen bg-bg-soft">
+      <body className="min-h-screen bg-bg">
         <ThemeProvider>
           <ToastProvider>
             <DailyRewardWatcher />

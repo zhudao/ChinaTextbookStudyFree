@@ -79,3 +79,41 @@ export function dayIndexInWeek(weekKey: string, date: Date): number {
   const midnight = new Date(date.getFullYear(), date.getMonth(), date.getDate());
   return Math.round((midnight.getTime() - monday.getTime()) / 86_400_000);
 }
+
+/** Weekly activity and XP are separate facts. The UI uses this same projection. */
+export function weeklyStudyReport(input: {
+  xpHistory: Record<string, number>;
+  lessonHistory: Record<string, number>;
+  studyDays?: Record<string, true>;
+  completedReadings?: Record<string, string>;
+}, now = new Date()) {
+  const keys = weekDateKeys(weekStartKey(now));
+  const previous = weekDateKeys(dateKey(new Date(now.getFullYear(), now.getMonth(), now.getDate() - 7)));
+  const thisWeek = keys.map((date, i) => ({
+    date, label: ["一", "二", "三", "四", "五", "六", "日"][i],
+    xp: input.xpHistory[date] ?? 0,
+    isToday: date === dateKey(now),
+    studied: date <= dateKey(now) && (
+      input.studyDays?.[date] === true || (input.xpHistory[date] ?? 0) > 0 ||
+      (input.lessonHistory[date] ?? 0) > 0 ||
+      Object.values(input.completedReadings ?? {}).some(value => completionDay(value) === date)
+    ),
+  }));
+  const totalXp = thisWeek.reduce((n, d) => n + d.xp, 0);
+  const totalLessons = keys.reduce((n, k) => n + (input.lessonHistory[k] ?? 0), 0);
+  return {
+    thisWeek, totalXp, totalLessons,
+    activeDays: thisWeek.filter(d => d.studied).length,
+    maxXp: Math.max(10, ...thisWeek.map(d => d.xp)),
+    xpDelta: totalXp - previous.reduce((n, k) => n + (input.xpHistory[k] ?? 0), 0),
+    lessonDelta: totalLessons - previous.reduce((n, k) => n + (input.lessonHistory[k] ?? 0), 0),
+  };
+}
+
+/** ISO timestamps use the learner's local day; backup date-only strings stay local. */
+export function completionDay(value: string): string | null {
+  if (isDateKey(value)) return value;
+  if (!/^\d{4}-\d{2}-\d{2}T/.test(value)) return null;
+  const parsed = new Date(value);
+  return Number.isNaN(parsed.getTime()) ? null : dateKey(parsed);
+}

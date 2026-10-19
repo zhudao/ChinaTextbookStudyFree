@@ -16,6 +16,7 @@
 import { wordOrderIndices } from "@/lib/questionDraft";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/cn";
+import { QuestionPrompt } from "./QuestionPrompt";
 import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
@@ -70,12 +71,7 @@ export function WordOrderQuestion({
 
   return (
     <div className="w-full">
-      <div className="flex items-start gap-3 mb-6">
-        <div className="text-xl font-bold text-ink leading-relaxed whitespace-pre-wrap flex-1 min-w-0">
-          <MathText text={question.question} />
-        </div>
-        <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
-      </div>
+      <QuestionPrompt text={question.question} audio={question.audio?.question} locked={locked} />
 
       {/* 已选区 */}
       <div
@@ -108,7 +104,6 @@ export function WordOrderQuestion({
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0, opacity: 0 }}
               transition={{ type: "spring", damping: 18, stiffness: 260 }}
-              whileTap={!disabled ? { scale: 0.98 } : undefined}
               onClick={() => unpick(i)}
               disabled={disabled}
               className="min-h-11 min-w-11 px-4 inline-flex items-center rounded-xl bg-secondary text-white font-extrabold text-base"
@@ -127,7 +122,6 @@ export function WordOrderQuestion({
             key={`opt-${i}`}
             type="button"
             layout
-            whileTap={!disabled ? { scale: 0.98 } : undefined}
             onClick={() => pick(i)}
             disabled={disabled}
             className="min-h-11 min-w-11 px-4 inline-flex items-center rounded-xl bg-white border-2 border-bg-softer text-ink font-extrabold text-base hover:border-secondary transition-colors"

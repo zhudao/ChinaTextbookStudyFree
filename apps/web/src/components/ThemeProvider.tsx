@@ -17,11 +17,12 @@
  * .theme-dark 类挂在 <html> 上 —— layout.tsx 的首屏内联脚本会在水合前
  * 先挂好，防止白闪；这里负责水合后的响应式维护。
  *
- * 同时挂载全局 <MotionConfig reducedMotion="user">，让所有 framer-motion
+ * 同时挂载全局 <MotionConfig reducedMotion="user" transition={uiMotion.fade}>，让所有 framer-motion
  * 动画尊重系统「减少动态效果」设置。
  */
 
 import { useEffect } from "react";
+import { uiMotion } from "@/lib/motion";
 import { MotionConfig } from "framer-motion";
 import { useProgressStore } from "@/store/progress";
 import { themeAccentColors } from "@/lib/themeColors";
@@ -39,13 +40,14 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     const item = getCosmeticById(themeId) as UiTheme | undefined;
     if (!item || item.type !== "ui_theme") return;
     const d = item.data;
+    const surfaceBg = themeId === "theme_default" ? "#FFFFFF" : d.bg;
     const root = document.documentElement;
 
     // 强调色永远跟随装备的美妆主题
     root.style.setProperty("--theme-primary", d.primary);
     root.style.setProperty("--theme-primary-dark", d.primaryDark);
     root.style.setProperty("--theme-accent", d.accent);
-    root.style.setProperty("--theme-bg", d.bg);
+    root.style.setProperty("--theme-bg", surfaceBg);
 
     const freeDark = mode === "dark" || (mode === "system" && systemDark);
     const isDark = !!d.isDark || freeDark;
@@ -93,8 +95,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       ? d.bg
       : freeDark
         ? NIGHT_BG
-        : d.bg;
+        : surfaceBg;
   }, [themeId, mode, systemDark]);
 
-  return <MotionConfig reducedMotion="user">{children}</MotionConfig>;
+  return <MotionConfig reducedMotion="user" transition={uiMotion.fade}>{children}</MotionConfig>;
 }

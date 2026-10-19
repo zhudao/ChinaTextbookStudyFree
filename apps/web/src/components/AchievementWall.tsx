@@ -117,9 +117,9 @@ function AchievementBadge({
 
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0.9 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ delay, type: "spring", damping: 20 }}
+      initial={{ opacity: 0, y: 8 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: Math.min(delay, 0.16), duration: 0.2 }}
       className={`relative flex flex-col items-center text-center p-2 rounded-2xl border-2 ${
         unlocked ? "bg-white" : "bg-bg-soft"
       }`}

@@ -37,7 +37,7 @@ export default async function BookPage({ params }: { params: Promise<{ book: str
 
   return (
     <AppShell centerMaxWidth={720}>
-    <main className="min-h-screen bg-bg-soft lg:bg-transparent">
+    <main className="min-h-screen bg-bg lg:bg-transparent">
       {/* 访问即成为「当前教材」（首页据此直达本页） */}
       <ActiveBookSync bookId={bookId} grade={book.grade} />
 
@@ -56,7 +56,7 @@ export default async function BookPage({ params }: { params: Promise<{ book: str
 
       {/* 续学 CTA —— 有未完成课程会话时出现 */}
       <div className="max-w-md lg:max-w-none mx-auto px-4 lg:px-0 pt-3 lg:pt-0 empty:hidden">
-        <ContinueLearningCard />
+        <ContinueLearningCard compact />
       </div>
 
       {/* 听读与故事入口统一由路径顶栏承载。 */}

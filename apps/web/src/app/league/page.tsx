@@ -32,7 +32,8 @@ import {
 import { AppShell } from "@/components/layout/AppShell";
 import { PageHeader } from "@/components/PageHeader";
 import { SoundLink } from "@/components/SoundLink";
-import { Trophy, Lightning, Gem, Lock } from "@/components/icons";
+import { Trophy, Lightning, Gem } from "@/components/icons";
+import { LeagueBadge, LeagueBadgeGroup } from "@/components/LeagueBadge";
 import { useProgressStore, weekXpFromHistory } from "@/store/progress";
 import { cn } from "@/lib/cn";
 
@@ -83,8 +84,8 @@ export default function LeaguePage() {
 
   return (
     <AppShell>
-      <main className="min-h-screen bg-bg-soft lg:bg-transparent px-4 pt-6 lg:px-0 lg:pt-0 pb-8">
-        <PageHeader backHref={null} title="排行榜" subtitle="和影子同学比一比" />
+      <main className="min-h-screen bg-bg lg:bg-transparent px-4 pt-6 lg:px-0 lg:pt-0 pb-8">
+        {unlocked ? <PageHeader backHref={null} title="排行榜" subtitle="和影子同学比一比" /> : <h1 className="sr-only">排行榜</h1>}
         <div className="max-w-md lg:max-w-none mx-auto pt-4">
           {!hydrated ? (
             <div className="animate-pulse space-y-3">
@@ -115,38 +116,26 @@ function LockedCard({ completedCount }: { completedCount: number }) {
   const remaining = Math.max(0, UNLOCK_LESSONS - completedCount);
   const pct = Math.min(100, (completedCount / UNLOCK_LESSONS) * 100);
   return (
-    <div
-      className="bg-white rounded-3xl border-2 border-bg-softer p-6 text-center"
-      style={{ boxShadow: "0 4px 0 0 var(--shadow-card-color)" }}
-    >
-      <div className="w-20 h-20 mx-auto rounded-full bg-bg-soft border-2 border-bg-softer flex items-center justify-center relative">
-        <Trophy className="w-10 h-10 text-ink-softer" />
-        <span className="absolute -bottom-1 -right-1 w-8 h-8 rounded-full bg-white border-2 border-bg-softer flex items-center justify-center">
-          <Lock className="w-4 h-4 text-ink-softer" />
-        </span>
-      </div>
-      <h2 className="text-xl font-extrabold text-ink mt-4">解锁排行榜</h2>
-      <p className="text-sm text-ink-light mt-1.5">
-        再完成 <span className="font-extrabold text-primary">{remaining}</span>{" "}
-        节课，就能和 15 位影子同学一起比赛啦！
+    <section className="league-locked flex flex-col items-center px-0 py-4 sm:py-10 text-center" aria-label="排行榜解锁进度">
+      <LeagueBadgeGroup />
+      <h2 className="text-ink mt-5">解锁每周排行榜</h2>
+      <p className="text-ink-light mt-3 max-w-xs">
+        再完成 {remaining} 节课，就能和影子同学一起挑战。
       </p>
-      <div className="mt-5">
-        <div className="h-4 bg-bg-softer rounded-full overflow-hidden">
-          <motion.div
-            className="h-full bg-primary rounded-full"
-            initial={{ width: 0 }}
-            animate={{ width: `${pct}%` }}
-            transition={{ duration: 0.7, ease: "easeOut" }}
-          />
+      {completedCount > 0 && <div className="mt-4 w-full max-w-[240px]">
+        <div className="h-3 bg-bg-softer rounded-full overflow-hidden" role="progressbar" aria-label="课程解锁进度" aria-valuemin={0} aria-valuemax={UNLOCK_LESSONS} aria-valuenow={Math.min(completedCount, UNLOCK_LESSONS)}>
+          <motion.div className="h-full bg-primary rounded-full" initial={{ width: 0 }} animate={{ width: `${pct}%` }} transition={{ duration: .4, ease: "easeOut" }} />
         </div>
-        <div className="mt-1.5 text-xs font-extrabold text-ink-softer tabular-nums">
-          {Math.min(completedCount, UNLOCK_LESSONS)}/{UNLOCK_LESSONS} 节课
-        </div>
+        <p className="!text-sm font-bold text-ink-light mt-2 tabular-nums">{Math.min(completedCount, UNLOCK_LESSONS)} / {UNLOCK_LESSONS} 节课</p>
+      </div>}
+      <SoundLink href="/" className="btn-chunky-ghost w-full max-w-[256px] mt-6">开始一节课</SoundLink>
+      <div className="w-full max-w-sm mt-8 space-y-5" aria-hidden="true">
+        {[1,2,3].map(i => <div key={i} className="flex items-center gap-4 px-3" style={{opacity: .6 - i * .12}}>
+          <span className="w-2.5 h-2.5 rounded-full bg-bg-softer" /><span className="w-10 h-10 rounded-full bg-bg-softer" /><span className="h-2.5 w-20 rounded-full bg-bg-softer" /><span className="h-2.5 w-12 rounded-full bg-bg-softer ml-auto" />
+        </div>)}
       </div>
-      <SoundLink href="/" className="btn-chunky-primary w-full mt-5 block">
-        去学习
-      </SoundLink>
-    </div>
+      <p className="league-explainer text-ink-light mt-6 max-w-xs">15 位影子同学 · 本机模拟联赛</p>
+    </section>
   );
 }
 
@@ -187,7 +176,7 @@ function LeagueBoard({
     <div className="space-y-4">
       {/* === 段位横幅：6 段位进度 + 倒计时 === */}
       <div
-        className="rounded-3xl border-2 border-bg-softer bg-white p-5"
+        className="ui-card rounded-2xl border-2 border-bg-softer bg-white p-5"
         style={{ boxShadow: "0 4px 0 0 var(--shadow-card-color)" }}
       >
         <div className="flex items-end justify-center gap-1 sm:gap-3">
@@ -196,39 +185,15 @@ function LeagueBoard({
             const passed = t.order < tier.order;
             return (
               <div key={t.id} className="flex flex-col items-center gap-1">
-                <motion.div
-                  animate={isCurrent ? { y: [0, -4, 0] } : { y: 0 }}
-                  transition={
-                    isCurrent
-                      ? { duration: 2.2, repeat: Infinity, ease: "easeInOut" }
-                      : { duration: 0 }
-                  }
-                  className={cn(
-                    "rounded-full flex items-center justify-center",
-                    isCurrent ? "w-11 h-11 sm:w-14 sm:h-14" : "w-7 h-7 sm:w-9 sm:h-9",
-                  )}
-                  style={{
-                    backgroundColor: isCurrent || passed ? t.color : "#E5E5E5",
-                    boxShadow: isCurrent
-                      ? `0 4px 0 0 rgba(0,0,0,0.18), 0 0 0 6px ${t.color}33`
-                      : "none",
-                    opacity: passed ? 0.55 : 1,
-                  }}
-                  title={t.name}
-                >
-                  <Trophy
-                    className={cn(
-                      isCurrent ? "w-7 h-7" : "w-4 h-4",
-                      isCurrent || passed ? "text-white" : "text-ink-softer",
-                    )}
-                  />
-                </motion.div>
+                <div className={cn("flex items-center justify-center", isCurrent ? "w-12 h-16 sm:w-16 sm:h-20" : "w-8 h-12 sm:w-10 sm:h-16")} title={t.name} style={{ opacity: passed ? .65 : 1 }}>
+                  <LeagueBadge locked={!(isCurrent || passed)} tone={t.color} className="w-full h-full" />
+                </div>
               </div>
             );
           })}
         </div>
         <div className="text-center mt-3">
-          <div className="text-xl font-extrabold" style={{ color: tier.color }}>
+          <div className="text-xl font-bold text-ink">
             {tier.name}
           </div>
           <div className="text-xs font-bold text-ink-light mt-1">
@@ -242,7 +207,7 @@ function LeagueBoard({
 
       {/* === 16 人实时榜 === */}
       <div
-        className="rounded-3xl border-2 border-bg-softer bg-white overflow-hidden"
+        className="ui-card rounded-2xl border-2 border-bg-softer bg-white overflow-hidden"
         style={{ boxShadow: "0 4px 0 0 var(--shadow-card-color)" }}
       >
         {rows.map((row, idx) => {

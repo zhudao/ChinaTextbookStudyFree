@@ -1,4 +1,7 @@
 "use client";
+import { uiMotion } from "@/lib/motion";
+import Link from 'next/link';
+import { numberSkillForLesson, NUMBER_LESSONS, type NumberPracticeEvidence } from '@cstf/core/numberSense';
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -224,6 +227,7 @@ interface SessionStats {
   firstCorrect: number;
   totalQuestions: number;
   correctedCount: number;
+  numberSenseEvidence?: NumberPracticeEvidence;
   practiceOnly: boolean;
   perfect: boolean;
   /** 本节是否享受周末双倍 XP */
@@ -263,7 +267,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   const backdropStyle = useMemo<React.CSSProperties>(() => {
     const item = getCosmeticById(backdropId) as LessonBackdrop | undefined;
     if (!item || item.type !== "lesson_backdrop" || item.id === "backdrop_default") {
-      return { background: "var(--app-bg, #F7F7F7)" };
+      return { background: "var(--app-bg, #FFFFFF)" };
     }
     // Keep equipped backgrounds visible while preserving dark-mode text contrast.
     return {
@@ -276,6 +280,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   const [weekend] = useState(() => isWeekendXpActive());
   // ⚔️ 单元挑战课：XP 总额 ×2（与周末可叠加 = ×4），宝石 drip 不翻倍
   const isExam = isExamLessonId(lesson.id);
+  const numberSkill = numberSkillForLesson(lesson.id);
   const xpMultiplier =
     (isExam ? EXAM_XP_MULTIPLIER : 1) * (weekend ? WEEKEND_XP_MULTIPLIER : 1);
   const xpPerCorrectShown = XP_PER_CORRECT * xpMultiplier;
@@ -303,8 +308,15 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   const attemptedRef = useRef<Set<number>>(new Set());
   /** 每次换题 +1，驱动题卡进出场动画（同一题重排回来也要重新入场） */
   const [serveKey, setServeKey] = useState(0);
+  const checkedServe = useRef(-1);
+  const continuedServe = useRef(-1);
+  const settled = useRef(false);
 
   const [answer, setAnswer] = useState("");
+  const [hintLevels, setHintLevels] = useState<Record<number, number>>({});
+  const [visualDraft, setVisualDraft] = useState<number[]>([]);
+  const independentIds = useRef<Set<number>>(new Set());
+  const [timeLimited, setTimeLimited] = useState(false);
   const [phase, setPhase] = useState<QuestionPhase>("answering");
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   /** 首答答对数（星级/XP 口径） */
@@ -343,7 +355,11 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   // 移动端设置小弹层（web-lesson-9）
   const [settingsMounted, setSettingsMounted] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
-  const [showIntro, setShowIntro] = useState(lesson.knowledge !== null || lesson.id === "g1up-u1-kp1");
+  const [showIntro, setShowIntro] = useState((lesson.knowledge !== null && !numberSkill) || lesson.id === "g1up-u1-kp1");
+  const questionScrollRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (questionScrollRef.current) questionScrollRef.current.scrollTop = 0;
+  }, [serveKey, ready, showIntro]);
   const [introPage, setIntroPage] = useState(0);
   const [introCompletedPages, setIntroCompletedPages] = useState<number[]>([]);
   const [warmupCounted, setWarmupCounted] = useState<number[]>([]);
@@ -352,7 +368,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
    * 🔒 交互闸门（webrunner-5）：任何遮罩打开时，题目区的键盘快捷键 / 点击 /
    * 配对题自动提交都必须停摆 —— 否则用户在断心遮罩前敲数字键就能把题判掉。
    */
-  const locked = showExitConfirm || gateOpen || showSettings || showIntro || contentUpdated;
+  const locked = showExitConfirm || gateOpen || showSettings || showIntro || contentUpdated || timeLimited;
 
   const shakeControls = useAnimation();
   const progressControls = useAnimation();
@@ -383,6 +399,9 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       setMaxCombo(stored.maxCombo ?? stored.combo);
       setSessionXp(stored.sessionXp ?? stored.correctCount * XP_PER_CORRECT);
       attemptedRef.current = new Set(restored.attempted);
+      setHintLevels(stored.hintLevels ?? {});
+      setVisualDraft(Array.isArray(stored.visualDraft) ? stored.visualDraft.filter(n => Number.isInteger(n) && n >= 0 && n < 10) : []);
+      independentIds.current = new Set(Array.isArray(stored.independentIds) ? stored.independentIds.filter(id => questionById.has(id)) : []);
       startTimeRef.current = stored.startedAt || Date.now();
       setIntroPage(stored.introPage ?? 0);
       setShowHandbook(stored.introMode === "handbook");
@@ -397,7 +416,8 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
     }
     // 0 心进入：有可续会话 → 弹断心遮罩（可补心续课 / 去复习回心）；
     // 全新开课 → 失败页（附回心倒计时）
-    if (useProgressStore.getState().hearts <= 0) {
+    if (!sessionRestored && useProgressStore.getState().dailyTimeLimitReached()) setTimeLimited(true);
+    if (!numberSkill && useProgressStore.getState().hearts <= 0) {
       if (sessionRestored) {
         setGateMounted(true);
         setGateOpen(true);
@@ -411,7 +431,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
 
   // 持久化会话：只要还在答题，就把核心进度写回 store
   useEffect(() => {
-    if (!ready || done || failed) return;
+    if (!ready || done || failed || timeLimited) return;
     const persistedQueue = phase === "answering" && currentId != null ? [currentId, ...queue] : queue;
     upsertLessonSession({
       lessonId: lesson.id,
@@ -428,7 +448,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       introPage, introMode: showHandbook ? "handbook" : "warmup", introCompletedPages, warmupCounted,
       currentId, draftAnswer: answer, phase, checkedCorrect: isCorrect,
       attemptedIds: [...attemptedRef.current], totalQuestions: total,
-      contentKey,
+      contentKey, hintLevels, visualDraft, independentIds: [...independentIds.current],
     });
   }, [
     ready,
@@ -445,7 +465,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
     combo,
     maxCombo,
     sessionXp,
-    upsertLessonSession, answer, isCorrect, introPage, introCompletedPages, warmupCounted, total, showHandbook, contentKey,
+    upsertLessonSession, answer, isCorrect, introPage, introCompletedPages, warmupCounted, total, showHandbook, contentKey, hintLevels, visualDraft, timeLimited,
   ]);
 
   // 通关时清除持久化会话。
@@ -471,7 +491,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   // 只计「页面可见」的时间（webrunner-6）：切后台先把可见的那段冲掉再停表，
   // 回到前台重新起表。挂机放着不管不会计入当日时长，也就不会误触发家长上限。
   useEffect(() => {
-    if (!ready || done || failed) return;
+    if (!ready || done || failed || timeLimited) return;
     let lastFlush = Date.now();
     let interval: ReturnType<typeof setInterval> | null = null;
 
@@ -512,7 +532,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       document.removeEventListener("visibilitychange", onVisibility);
       flush(document.visibilityState === "visible");
     };
-  }, [ready, done, failed, addLearningTimeMs]);
+  }, [ready, done, failed, timeLimited, addLearningTimeMs]);
 
   const current = currentId != null ? questionById.get(currentId) : undefined;
   const answeredFirst = correctCount + mistakeCount;
@@ -576,7 +596,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       isCorrect: false,
       isPerfectSession: false,
       attemptCount: firstAttempt ? 1 : 2,
-      remainingHearts: Math.max(0, hearts - 1),
+      remainingHearts: numberSkill ? MAX_HEARTS : Math.max(0, hearts - 1),
       combo: 0,
       maxCombo,
       index: answeredFirst,
@@ -617,15 +637,16 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
     );
 
     // ★ T+120ms ★ 心碎音效（错峰避免和 wrong 重叠）
-    setTimeout(() => playSfx("heartLoss"), 120);
+    if (!numberSkill) setTimeout(() => playSfx("heartLoss"), 120);
 
-    loseHeart();
+    if (!numberSkill) loseHeart();
   }
 
   /** 跳过本题：不判分，直接按答错处理（与多邻国 SKIP 语义一致） */
   function skipQuestion() {
-    if (locked) return;
+    if (locked || checkedServe.current === serveKey) return;
     if (!current || phase !== "answering") return;
+    checkedServe.current = serveKey;
     const firstAttempt = !attemptedRef.current.has(current.id);
     attemptedRef.current.add(current.id);
     // 清掉已选答案，反馈阶段只高亮正确答案
@@ -634,12 +655,14 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   }
 
   function handleCheck() {
-    if (locked) return;
+    if (locked || checkedServe.current === serveKey) return;
     if (!current || phase !== "answering") return;
     if (!answerReady(current, answer)) return;
+    checkedServe.current = serveKey;
     const firstAttempt = !attemptedRef.current.has(current.id);
     attemptedRef.current.add(current.id);
     const ok = gradeAnswer(current, answer);
+    if (firstAttempt && ok && !hintLevels[current.id] && current.numberTask?.stage !== 'guided') independentIds.current.add(current.id);
     if (!ok) {
       applyWrongAnswer(firstAttempt);
       return;
@@ -727,6 +750,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
     setQueue(rest);
     setServeKey(k => k + 1);
     setAnswer("");
+    setVisualDraft([]);
     setIsCorrect(null);
     setPhase("answering");
     setMascotMood("happy");
@@ -734,6 +758,8 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
 
   /** 通关结算：原子记账 + 任务进度快照 + 冻结展示数据 */
   function finishLesson() {
+    if (settled.current) return;
+    settled.current = true;
     const accuracy = total > 0 ? correctCount / total : 0;
     const perfect = mistakeCount === 0 && total >= 3;
     const store = useProgressStore.getState();
@@ -766,7 +792,15 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       claimChest(chestReward.slot.id);
       addGems(chestReward.gems);
     }
-    const outcome = recordComplete(lesson.id, lesson.title, accuracy, xp, { questionCount: total });
+    const stageQuestions = (stage: 'independent' | 'transfer') => questions.filter(q => q.numberTask?.stage === stage);
+    const numberSenseEvidence: NumberPracticeEvidence | undefined = numberSkill ? {
+      independentCorrect: stageQuestions('independent').filter(q => independentIds.current.has(q.id)).length,
+      independentTotal: stageQuestions('independent').length,
+      transferCorrect: stageQuestions('transfer').filter(q => independentIds.current.has(q.id)).length,
+      transferTotal: stageQuestions('transfer').length,
+      hintsUsed: Object.values(hintLevels).filter(n => n > 0).length,
+    } : undefined;
+    const outcome = recordComplete(lesson.id, lesson.title, accuracy, xp, { questionCount: total, numberSense: numberSenseEvidence });
     const after = useProgressStore.getState();
     const quests: QuestSnapshot[] = questsToday.map((q, i) => ({
       quest: q,
@@ -777,6 +811,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
     // 冻结一份展示快照供 CompletionScreen 用
     setSessionStats({
       outcome,
+      numberSenseEvidence,
       accuracy,
       firstCorrect: correctCount, totalQuestions: total, correctedCount: mistakeCount, practiceOnly: total < 3,
       perfect,
@@ -793,7 +828,8 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
 
   function handleContinue() {
     if (locked) return;
-    if (failed || done || phase !== "checked") return;
+    if (failed || done || phase !== "checked" || continuedServe.current === serveKey) return;
+    continuedServe.current = serveKey;
     if (isCorrect) {
       if (queue.length === 0) {
         finishLesson();
@@ -803,7 +839,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       return;
     }
     // 答错致 0 心：反馈面板看完、点继续时才弹断心遮罩（web-lesson-5）
-    if (hearts <= 0) {
+    if (!numberSkill && hearts <= 0) {
       setGateMounted(true);
       setGateOpen(true);
       return;
@@ -854,6 +890,9 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
    */
   function resetSession() {
     clearLessonSession();
+    settled.current = false;
+    checkedServe.current = -1; continuedServe.current = -1;
+    setHintLevels({}); setVisualDraft([]); independentIds.current.clear();
     setCurrentId(questions[0]?.id ?? null);
     setQueue(questions.slice(1).map(q => q.id));
     setSolved([]);
@@ -938,13 +977,18 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
     );
   }
 
+  if (timeLimited) return <main className="min-h-screen flex flex-col items-center justify-center text-center px-5 gap-4">
+    <Mascot mood="happy" size={100}/><h1 className="text-2xl font-extrabold text-ink">今天先休息一下</h1>
+    <p className="text-ink-light">今天的学习时间到了，已经开始的课程可以接着完成。</p>
+    <Link className="btn-chunky-primary px-6" href={`/book/${lesson.bookId}/`}>回到学习路径</Link>
+  </main>;
   // ============ 完成页 ============
   if (done && sessionStats) {
     return (
       <CompletionScreen
         lesson={lesson}
         stats={sessionStats}
-        onNext={nextLessonId && !useProgressStore.getState().dailyTimeLimitReached() ? () => router.push(`/lesson/${lesson.bookId}/${nextLessonId}/`) : undefined}
+        onNext={numberSkill === "apply" ? () => router.push("/number-sense/") : nextLessonId && !useProgressStore.getState().dailyTimeLimitReached() ? () => router.push(`/lesson/${lesson.bookId}/${nextLessonId}/`) : undefined}
         onBack={() => router.push(`/book/${lesson.bookId}/`)}
       />
     );
@@ -1000,7 +1044,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   return (
     <motion.main
       animate={shakeControls}
-      className="min-h-screen flex flex-col relative"
+      className="lesson-screen flex flex-col relative"
       style={backdropStyle}
     >
       {/* +XP 飘字层 —— fixed 定位独立于 layout，不影响滚动 */}
@@ -1158,12 +1202,12 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       )}
 
       {/* Top bar: close, progress, combo, XP, hearts */}
-      <div className="bg-white border-b border-bg-softer">
+      <div className="lesson-toolbar bg-white border-b border-bg-softer">
         <div className="max-w-md lg:max-w-2xl mx-auto px-3 py-2.5 flex items-center gap-2">
           <button
             type="button"
             onClick={handleRequestExit}
-            className="h-11 w-11 -ml-1 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
+            className="ui-icon-button -ml-1 text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
             aria-label="退出课程"
           >
             <Close className="w-5 h-5" />
@@ -1232,15 +1276,15 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
 
           {/* 桌面端（lg+）：完整红心条 + 回心倒计时 + 朗读/音效开关 */}
           <div className="hidden lg:flex items-center gap-2">
-            <HeartsBar total={MAX_HEARTS} remaining={hearts} />
-            <HeartTimer />
+            {numberSkill ? <span className="text-sm font-bold text-secondary-dark">放心试</span> : <HeartsBar total={MAX_HEARTS} remaining={hearts} />}
+            {!numberSkill && <HeartTimer />}
             <AutoNarrateToggle />
             <MuteToggle />
           </div>
 
           {/* 移动端（<lg）：❤️×N 单徽章 + 齿轮设置，进度条重回视觉主角 */}
           <div className="flex lg:hidden items-center gap-1.5">
-            <div
+            {numberSkill ? <span className="text-xs font-extrabold text-secondary-dark whitespace-nowrap">放心试</span> : <div
               className={cn(
                 "h-8 px-2 inline-flex items-center gap-0.5 rounded-full border-2 font-extrabold text-sm tabular-nums select-none",
                 hearts > 0
@@ -1251,8 +1295,8 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
             >
               <Heart className={cn("w-4 h-4", hearts > 0 && "fill-current")} />
               <span>×{hearts}</span>
-            </div>
-            {hearts === 0 && <HeartTimer />}
+            </div>}
+            {!numberSkill && hearts === 0 && <HeartTimer />}
             <button
               type="button"
               onClick={() => {
@@ -1261,7 +1305,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
                 setSettingsMounted(true);
                 setShowSettings(true);
               }}
-              className="h-11 w-11 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors"
+              className="ui-icon-button text-ink-light hover:text-ink hover:bg-bg-softer transition-colors"
               aria-label="课程设置"
             >
               <GearIcon className="w-5 h-5" />
@@ -1270,15 +1314,16 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
         </div>
       </div>
 
+      <div ref={questionScrollRef} className="lesson-content">
       {/* 三星距离提示（动态：剩 N 题就三星 / 二星，临近时会更激励） */}
-      {total >= 3 && <StarDistanceHint
+      {total >= 3 && !numberSkill && <StarDistanceHint
         correctCount={correctCount}
         answered={answeredFirst}
         total={total}
       />}
 
       {/* 吉祥物 + 气泡 */}
-      <div className="max-w-md lg:max-w-2xl mx-auto w-full px-5 pt-2 flex items-end gap-3 min-h-[96px]">
+      <div className="lesson-mascot max-w-md lg:max-w-2xl mx-auto w-full px-4 flex items-end gap-3" data-has-message={!!bubbleText}>
         <Mascot
           mood={phase === "checked" ? mascotMood : "happy"}
           size={72}
@@ -1295,20 +1340,12 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       </div>
 
       {total < 3 && <p className="max-w-md mx-auto px-5 pt-3 text-sm text-ink-light">微练习 · 先试一试，再通过更多情境巩固</p>}
-      {lesson.knowledge && <details className="max-w-md lg:max-w-2xl mx-auto w-full px-5 pt-3">
-        <summary className="cursor-pointer min-h-11 flex items-center text-secondary-dark font-bold">聪聪的讲解手册</summary>
-        <div className="rounded-2xl bg-white border-2 border-bg-softer p-4 text-ink leading-relaxed space-y-3">
-          <MathText text={lesson.knowledge.core_concept} />
-          <TTSButton src={lesson.knowledge.audio?.core_concept} label="朗读知识讲解" />
-          <MathText text={lesson.knowledge.key_formula} />
-          <MathText text={lesson.knowledge.tips} />
-        </div>
-      </details>}
+
       {/* Question area */}
-      <div className="flex-1 flex flex-col items-center justify-start px-5 py-4">
+      <div className="lesson-body flex flex-col items-center justify-start">
         <div className="w-full max-w-md lg:max-w-2xl">
           {/* "NEW WORD" 紫色胶囊 tag —— 仿 Duolingo 题型标签 */}
-          <div className="mb-3 inline-flex items-center gap-1.5 flex-wrap">
+          <div className={cn("mb-3 inline-flex items-center gap-1.5 flex-wrap", numberSkill && "hidden")}>
             {/* ⚔️ 单元挑战徽章（紫金） */}
             {isExam && (
               <span
@@ -1336,10 +1373,10 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
           <AnimatePresence mode="wait">
             <motion.div
               key={serveKey}
-              initial={{ x: 30, y: 8, opacity: 0 }}
+              initial={{ x: 12, y: 4, opacity: 0 }}
               animate={{ x: 0, y: 0, opacity: 1 }}
-              exit={{ x: -30, y: 0, opacity: 0 }}
-              transition={{ type: "spring", damping: 22, stiffness: 240 }}
+              exit={{ x: -12, y: 0, opacity: 0 }}
+              transition={uiMotion.enter}
             >
               <QuestionRenderer
                 question={current}
@@ -1348,10 +1385,24 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
                 isCorrect={isCorrect}
                 onChange={setAnswer}
                 locked={locked}
+                visualDraft={visualDraft} onVisualDraft={setVisualDraft}
+                hintLevel={hintLevels[current.id] ?? 0}
+                onHint={() => { if (!locked && phase === 'answering') setHintLevels(levels => ({ ...levels, [current.id]: Math.min(2, (levels[current.id] ?? 0) + 1) })); }}
               />
             </motion.div>
           </AnimatePresence>
         </div>
+      </div>
+
+      {lesson.knowledge && <details className="lesson-handbook max-w-md lg:max-w-2xl w-full">
+        <summary className="cursor-pointer min-h-11 flex items-center text-secondary-dark font-bold">聪聪的讲解手册</summary>
+        <div className="rounded-2xl bg-white border-2 border-bg-softer p-4 text-ink leading-relaxed space-y-3">
+          <MathText text={lesson.knowledge.core_concept} />
+          <TTSButton src={lesson.knowledge.audio?.core_concept} label="朗读知识讲解" />
+          <MathText text={lesson.knowledge.key_formula} />
+          <MathText text={lesson.knowledge.tips} />
+        </div>
+      </details>}
       </div>
 
       {/* a11y: 屏幕阅读器实时播报答题结果（仅 sr-only） */}
@@ -1363,8 +1414,8 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
 
       {/* Bottom: SKIP / CHECK 双按钮（仿 Duolingo 真机底栏） */}
       {phase === "answering" && (
-        <div className="bg-white border-t-2 border-bg-softer">
-          <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-4 flex items-center gap-3">
+        <div className="lesson-actions bg-white border-t-2 border-bg-softer">
+          <div className="max-w-md lg:max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
             <button
               type="button"
               onClick={skipQuestion}
@@ -1413,6 +1464,7 @@ function formatTime(sec: number): string {
 
 function CompletionScreen({ lesson, stats, onBack, onNext }: { lesson: Lesson; stats: SessionStats; onBack: () => void; onNext?: () => void }) {
   const { outcome } = stats;
+  const skill = numberSkillForLesson(lesson.id);
   const [chestOpen, setChestOpen] = useState(false);
   useEffect(() => { playSfx("complete"); haptic("success"); }, []);
   const heading = stats.practiceOnly ? "完成一次微练习" : stats.correctedCount > 0 ? "你把错题改对了！" : "本节练习完成！";
@@ -1421,7 +1473,14 @@ function CompletionScreen({ lesson, stats, onBack, onNext }: { lesson: Lesson; s
       <Mascot mood="cheer" size={100} />
       <h1 className="text-2xl font-extrabold text-ink mt-3">{heading}</h1>
       <p className="text-ink-light mt-2">{lesson.title}</p>
-      {stats.practiceOnly ? <p className="mt-3 text-sm text-ink-light">一次作答是一个开始。再练不同情境，才能更了解这个知识点。</p> :
+      {skill && stats.numberSenseEvidence && <div className="mt-4 p-4 rounded-2xl bg-secondary/10 text-left text-ink space-y-2">
+        <p className="font-extrabold">今天练习了：{NUMBER_LESSONS[skill].goal}</p>
+        <p>无提示首答：{stats.numberSenseEvidence.independentCorrect}/{stats.numberSenseEvidence.independentTotal} · 换情境：{stats.numberSenseEvidence.transferCorrect}/{stats.numberSenseEvidence.transferTotal}</p>
+        <p>{stats.numberSenseEvidence.hintsUsed > 0 ? `有 ${stats.numberSenseEvidence.hintsUsed} 题看过提示。会求助、会改错也在进步。` : "这次没有查看提示。"}</p>
+        <p>明天用新题看看还会不会，今天先不标成“隔天仍会”。</p>
+        <Link href="/number-sense/" className="min-h-11 inline-flex items-center text-secondary-dark font-bold underline">查看单元学习记录</Link>
+      </div>}
+      {skill ? null : stats.practiceOnly ? <p className="mt-3 text-sm text-ink-light">一次作答是一个开始。再练不同情境，才能更了解这个知识点。</p> :
         <div className="flex justify-center gap-2 mt-4" aria-label={`本次练习 ${outcome.stars} 星`}>
           {[1, 2, 3].map(n => <Star key={n} className={cn("w-9 h-9", n <= outcome.stars ? "text-gold fill-current" : "text-ink-softer")} />)}
         </div>}
@@ -1440,7 +1499,7 @@ function CompletionScreen({ lesson, stats, onBack, onNext }: { lesson: Lesson; s
         {stats.quests.map(({ quest, after }) => <p key={quest.id}>{after >= quest.target ? "✓" : "○"} {quest.title} · {Math.min(after, quest.target)}/{quest.target}</p>)}
       </div>
       {stats.chestReward && <button type="button" className="min-h-11 mt-3 text-secondary-dark font-bold" onClick={() => setChestOpen(true)}>看看宝箱奖励（已到账）</button>}
-      <button autoFocus type="button" className="btn-chunky-primary w-full mt-5" onClick={onNext ?? onBack}>{onNext ? "下一课" : "回到学习路径"}</button>
+      <button autoFocus type="button" className="btn-chunky-primary w-full mt-5" onClick={onNext ?? onBack}>{skill === "apply" ? "回到单元，看看进步" : onNext ? "下一课" : "回到学习路径"}</button>
       {onNext && <button type="button" className="min-h-11 mt-2 text-ink-light font-bold" onClick={onBack}>先休息一下</button>}
       <p className="text-xs text-ink-light mt-3">学习成果已保存 · 每日任务奖励可在“我的”领取</p>
       {stats.chestReward && <ChestModal open={chestOpen} gems={stats.chestReward.gems} tier={stats.chestReward.tier} onClose={() => setChestOpen(false)} />}
@@ -1698,7 +1757,7 @@ function IntroCard({
   const Icon = current.icon;
 
   return (
-    <main className="min-h-screen bg-bg-soft flex flex-col overflow-x-clip">
+    <main className="min-h-screen bg-bg flex flex-col overflow-x-hidden">
       {/* 顶栏：关闭 + 进度点 */}
       <div className="bg-white border-b border-bg-softer">
         <div className="max-w-md lg:max-w-2xl mx-auto px-4 py-3 flex items-center gap-3">
@@ -1754,9 +1813,9 @@ function IntroCard({
             <motion.div
               key={pageIdx}
               custom={direction}
-              initial={{ x: direction * 50, opacity: 0, scale: 0.96 }}
-              animate={{ x: 0, opacity: 1, scale: 1 }}
-              exit={{ x: direction * -50, opacity: 0, scale: 0.96 }}
+              initial={{ x: direction * 12, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              exit={{ x: direction * -12, opacity: 0 }}
               transition={{ type: "spring", damping: 20, stiffness: 240 }}
               className="flex flex-col items-center text-center"
             >

@@ -11,6 +11,12 @@ function ratio(a: string,b: string): number {const x=luminance(a),y=luminance(b)
 for (const theme of UI_THEMES) for (const dark of [false,true]) {
   const {primary,primaryDark,accent}=theme.data;
   const colors=themeAccentColors(primary,primaryDark,accent,dark);
+  for (const action of ['primary','accent']) {
+    assert.deepEqual(rgb(colors[`--action-${action}-bg`]), rgb(action === 'primary' ? primary : accent), `${theme.id}: artwork fills must retain the exact palette`);
+    if (dark) assert.ok(ratio(colors[`--action-${action}-bg`], colors[`--action-${action}-ink`]) >= 4.5, `${theme.id}: dark action foreground`);
+    else assert.equal(colors[`--action-${action}-ink`], '#FFFFFF', `${theme.id}: light Web action foreground`);
+    assert.ok(luminance(colors[`--action-${action}-edge`]) < luminance(colors[`--action-${action}-bg`]), `${theme.id}: action depth must be darker`);
+  }
   for(const [fill,label,onFill] of [[primary,'--theme-primary-ink','--theme-on-primary'],[accent,'--theme-accent-ink','--theme-on-accent'],[primaryDark,'--theme-primary-ink','--theme-on-primary-dark']]) {
     assert.ok(ratio(fill,colors[onFill])>=4.5,`${theme.id}: filled button ${ratio(fill,colors[onFill])}`);
     for(const surface of dark ? ['#131F24','#202F36','#37464F'] : ['#FFFFFF','#F7F7F7','#E5E5E5']) {
@@ -18,4 +24,9 @@ for (const theme of UI_THEMES) for (const dark of [false,true]) {
     }
   }
 }
-console.log('All 10 equipped themes have readable labels and filled-button foregrounds in both modes.');
+const brand = themeAccentColors('#58CC02', '#58A700', '#1CB0F6', false);
+assert.equal(brand['--action-primary-bg'], '#58CC02');
+assert.equal(brand['--action-primary-edge'], '#58A700');
+assert.equal(brand['--action-accent-bg'], '#1CB0F6');
+assert.equal(brand['--action-accent-edge'], '#1899D6');
+console.log('PASS: exact brand fills and edges; separate readable small labels across all 10 themes and both modes. Light action colors follow the measured Web reference; no WCAG contrast claim is made for white-on-brand labels.');

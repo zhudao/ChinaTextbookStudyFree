@@ -1,0 +1,21 @@
+{
+  "action": {
+    "background": "rgb(88, 204, 2)",
+    "color": "rgb(255, 255, 255)",
+    "font": "700 17px / 20px Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+    "height": "50px",
+    "radius": "16px",
+    "shadow": "rgb(88, 167, 0) 0px 4px 0px 0px",
+    "transform": "none"
+  },
+  "dark": false,
+  "selected": {
+    "background": "rgb(221, 244, 255)",
+    "color": "rgb(24, 153, 214)",
+    "font": "500 19px / 24px Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+    "height": "56px",
+    "radius": "16px",
+    "shadow": "rgb(132, 216, 255) 0px 2px 0px 0px",
+    "transform": "none"
+  }
+}

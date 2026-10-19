@@ -7,6 +7,7 @@
  * 子组件负责呈现选项 / 输入框，并在用户操作时调用 onChange。
  */
 
+import { NumberSenseQuestion } from "./NumberSenseQuestion";
 import type { Question } from "@/types";
 import { ChoiceQuestion } from "./ChoiceQuestion";
 import { TrueFalseQuestion } from "./TrueFalseQuestion";
@@ -28,10 +29,16 @@ export interface QuestionRendererProps {
    * 各题型必须据此停掉键盘快捷键、点击与自动提交，避免用户在弹层前面把题判掉。
    */
   locked?: boolean;
+  visualDraft?: number[];
+  onVisualDraft?: (ids: number[]) => void;
+  hintLevel?: number;
+  onHint?: () => void;
 }
 
 export function QuestionRenderer(props: QuestionRendererProps) {
   const { question } = props;
+
+  if (question.numberTask) return <NumberSenseQuestion {...props} />;
 
   switch (question.type) {
     case "choice":

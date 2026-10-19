@@ -8,23 +8,21 @@
  * 响应式（web-shell-14）：
  *   - md (768-1023)：icon-only 窄栏（AppShell 给 72px），文字隐藏
  *   - lg+：完整 200px，图标 + 文字
- * 统一线性图标，激活态通过颜色与背景表达。
+ * Filled learning illustrations; blue border and surface mark the current page.
  * 底部：免费深色模式三态开关。
  */
 
-import { useProgressStore } from "@/store/progress";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ComponentType } from "react";
 import {
-  BookOpen,
   Home as HomeIcon,
-  Trophy,
+  Shield as Trophy,
   Bookmark,
   ShoppingBag,
   User,
   type IconProps,
-} from "@/components/icons";
+} from "@/components/LearningIcon";
 import { ThemeModeToggle } from "@/components/ThemeModeToggle";
 import { cn } from "@/lib/cn";
 import { playSfx } from "@/lib/sfx";
@@ -64,9 +62,7 @@ function isActive(pathname: string, item: NavItem): boolean {
 export function SideNav() {
   const pathname = usePathname() ?? "/";
 
-  const grade = useProgressStore(s => s.selectedGrade) ?? 1;
-  const completed = useProgressStore(s => Object.keys(s.completedLessons).length);
-  const items = ITEMS.map(item => item.matchPrefix === "/league" && completed < 10 ? { ...item, href: `/reading/chinese-g${grade}up/`, label: "听读", Icon: BookOpen, IconActive: BookOpen, matchPrefix: "/reading" } : item);
+  const items = ITEMS;
 
   return (
     <nav className="flex flex-col gap-2 w-full h-full" aria-label="主导航">
@@ -80,7 +76,7 @@ export function SideNav() {
         className="block px-3 py-3 mb-2"
         aria-label="聪聪学堂 · 回到首页"
       >
-        <span className="hidden lg:inline text-2xl font-extrabold text-primary tracking-tightest">
+        <span className="hidden lg:inline brand-wordmark text-2xl tracking-tightest">
           聪聪学堂
         </span>
         <span className="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-2xl bg-primary/10 text-primary font-extrabold text-lg">
@@ -89,7 +85,7 @@ export function SideNav() {
       </Link>
 
       {items.map(item => {
-        const active = isActive(pathname, item) && !(item.label === "学习" && completed < 10 && pathname.startsWith("/reading"));
+        const active = isActive(pathname, item);
         const Icon = item.Icon;
         return (
           <Link
@@ -100,9 +96,9 @@ export function SideNav() {
               haptic("light");
             }}
             className={cn(
-              "group flex items-center justify-center lg:justify-start gap-3 px-3 h-12 rounded-xl border transition-colors select-none",
+              "group flex items-center justify-center lg:justify-start gap-3 px-3 h-[52px] rounded-xl border-2 transition-colors select-none",
               active
-                ? "border-primary/30 bg-primary/10 text-primary-dark"
+                ? "border-secondary/50 bg-secondary/10 text-secondary-dark"
                 : "border-transparent text-ink-light hover:bg-bg-soft"
             )}
             aria-current={active ? "page" : undefined}
@@ -111,14 +107,14 @@ export function SideNav() {
           >
             <Icon
               className={cn(
-                "w-6 h-6 shrink-0",
+                "w-8 h-8 shrink-0",
                 active ? "text-primary-dark" : "text-ink-softer group-hover:text-ink-light"
               )}
             />
             <span
               className={cn(
-                "hidden lg:inline text-base font-extrabold",
-                active ? "text-primary-dark" : "text-ink-light group-hover:text-ink"
+                "nav-label hidden lg:inline",
+                active ? "text-secondary-dark" : "text-ink-light group-hover:text-ink"
               )}
             >
               {item.label}

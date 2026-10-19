@@ -13,6 +13,8 @@
 
 /** 沉浸式路径的匹配规则（对 usePathname() 的返回值求值）。 */
 export const IMMERSIVE_PATTERNS: readonly RegExp[] = [
+  /** Delayed number-sense verification has its own answer controls. */
+  /^\/number-sense\/review(\/|$)/,
   /** 单元知识手册是独立阅读流，不让固定主导航遮挡分页操作。 */
   /^\/book\/[^/]+\/guide(\/|$)/,
   /** 课程答题 /lesson/{book}/{lesson}/ */

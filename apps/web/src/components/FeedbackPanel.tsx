@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { createPortal } from "react-dom";
+import { uiMotion } from "@/lib/motion";
 import { motion } from "framer-motion";
 import { CheckCircle, XCircle } from "@/components/icons";
 import { Modal } from "@/components/Modal";
@@ -106,14 +107,15 @@ export function FeedbackPanel({
 
   return (
     <motion.div
-      initial={{ y: 110, opacity: 0 }}
+      initial={{ y: 24, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ type: "spring", damping: 22, stiffness: 260 }}
-      className={`fixed bottom-0 left-0 right-0 z-50 border-t-4 ${bg} backdrop-blur-sm`}
+      transition={uiMotion.enter}
+      data-result={isCorrect ? "correct" : "wrong"}
+      className={`lesson-feedback fixed bottom-0 left-0 right-0 z-50 border-t-2 ${bg} backdrop-blur-sm`}
       style={{ boxShadow: "0 -8px 24px rgba(0,0,0,0.06)", paddingBottom: "env(safe-area-inset-bottom)", maxHeight: "85dvh", overflowY: "auto" }}
     >
-      <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-5">
-        <div className={`flex items-center gap-3 mb-3 font-extrabold text-2xl ${titleColor}`}>
+      <div className="feedback-content max-w-md lg:max-w-2xl mx-auto px-4 py-4 sm:py-5">
+        <div className={`flex items-center gap-3 mb-3 font-extrabold text-xl sm:text-2xl ${titleColor}`}>
           <motion.span
             initial={{ scale: 0, rotate: -180 }}
             animate={{ scale: 1, rotate: 0 }}

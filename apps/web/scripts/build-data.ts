@@ -12,6 +12,7 @@
  */
 
 import { createHash } from "crypto";
+import { curateNumberSenseLesson } from "../../../packages/core/src/numberSense";
 import { existsSync, promises as fs } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -609,6 +610,15 @@ async function processTextbook(
       l.kpTotal = realTotal;
     });
 
+    // Curated pilot keeps canonical lesson IDs and participates in the normal path.
+    for (let i = 0; i < unitLessons.length; i++) {
+      const curated = curateNumberSenseLesson(unitLessons[i]);
+      if (curated !== unitLessons[i]) {
+        curated.questions.forEach(decorateQuestion);
+        if (curated.knowledge) decorateKnowledge(curated.knowledge);
+        unitLessons[i] = curated;
+      }
+    }
     allLessons.push(...unitLessons);
 
     // === ⚔️ 单元挑战课（exam 题库复活，Wave E1）===

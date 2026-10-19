@@ -12,7 +12,7 @@ from media_types import MEDIA_FOLDERS, expected_extension_type, media_content_ty
 
 ROOT = Path(__file__).resolve().parents[2]
 DIRECTORIES = {'_next','audio','data','story-images','textbook-pages','book','grade',
-               'lesson','reading','stories','profile','review','shop','404','jump','league','icons'}
+               'lesson','reading','stories','profile','review','shop','404','jump','league','number-sense','icons'}
 ROOT_FILES = {'index.html','index.txt','404.html','icon.svg','robots.txt','sitemap.xml',
               'content-revision.html','content-revision-status.json','manifest.webmanifest','sw.js'}
 
@@ -75,6 +75,11 @@ def main():
         counts[rel.parts[0]] += 1
         size += path.stat().st_size
     assert (args.destination/'index.html').is_file()
+    # New route families must never silently disappear from the release package.
+    omitted_routes = [str(path.relative_to(args.source)) for path in args.source.rglob('index.html')
+                      if not (args.destination/path.relative_to(args.source)).is_file()]
+    if omitted_routes:
+        raise ValueError(f'Exported routes omitted from deployment: {omitted_routes}')
     index = json.loads((args.destination/'data/index.json').read_text())
     assert len(index['books']) == 44
     missing = set()

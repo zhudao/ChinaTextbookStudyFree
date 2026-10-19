@@ -138,3 +138,19 @@ describe("dayIndexInWeek 边界", () => {
     expect(dayIndexInWeek("2026-08-24", new Date(2026, 7, 26, 23, 59))).toBe(2);
   });
 });
+
+import { weeklyStudyReport } from '../week';
+describe('weekly learning, independent from XP',()=>{
+  it('counts zero-XP completed lessons and an explicit activity without inventing XP',()=>{
+    const report=weeklyStudyReport({xpHistory:{'2026-10-16':0},lessonHistory:{'2026-10-16':1},studyDays:{'2026-10-17':true}},new Date(2026,9,17));
+    expect(report.activeDays).toBe(2);expect(report.totalXp).toBe(0);expect(report.totalLessons).toBe(1);
+  });
+  it('uses actual reading timestamps and ignores invalid dates and future activities',()=>{
+    const report=weeklyStudyReport({xpHistory:{},lessonHistory:{},studyDays:{'2026-10-18':true},completedReadings:{a:'2026-10-15',b:'unknown',c:'2026-02-30'}},new Date(2026,9,17));
+    expect(report.activeDays).toBe(1);
+  });
+  it('keeps the Monday–Sunday window at a year boundary',()=>{
+    const report=weeklyStudyReport({xpHistory:{'2026-12-31':5,'2027-01-04':50},lessonHistory:{'2027-01-01':1}},new Date(2027,0,3));
+    expect(report.thisWeek[0].date).toBe('2026-12-28');expect(report.totalXp).toBe(5);expect(report.activeDays).toBe(2);
+  });
+});

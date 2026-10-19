@@ -80,24 +80,23 @@ export function TTSButton({
   const icon = size === "sm" ? "w-4 h-4" : "w-5 h-5";
 
   return (
-    <motion.span
-      role="button"
-      tabIndex={disabled ? -1 : 0}
+    <motion.button
+      type="button"
+      disabled={disabled}
+      aria-pressed={playing}
       aria-label={label}
       aria-disabled={disabled}
       onClick={play}
-      onKeyDown={(e: React.KeyboardEvent) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); play(); } }}
-      whileTap={{ scale: 0.9 }}
       className={cn(
-        "inline-flex items-center justify-center rounded-full cursor-pointer",
-        "bg-bg-soft text-primary hover:bg-primary/10 transition-colors shrink-0",
+        "ui-icon-button cursor-pointer",
+        "bg-bg-soft text-secondary hover:bg-secondary/10 transition-colors shrink-0",
         dim,
-        playing && "animate-pulse text-primary",
+        playing && "animate-pulse text-secondary",
         disabled && "opacity-40 !cursor-default",
         className,
       )}
     >
       <Volume className={icon} />
-    </motion.span>
+    </motion.button>
   );
 }

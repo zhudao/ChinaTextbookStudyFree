@@ -15,7 +15,8 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { Quest, QuestKind } from "@cstf/core/quests";
 import { useProgressStore } from "@/store/progress";
-import { Lightning, BookOpen, Bookmark, Book, Gem, Check } from "@/components/icons";
+import { Check } from "@/components/icons";
+import { Lightning, BookOpen, Bookmark, BookOpen as Book, Gem } from "@/components/LearningIcon";
 import { useToast } from "@/components/Toast";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
@@ -93,13 +94,12 @@ export function DailyQuestsPanel() {
 
   return (
     <div
-      className="min-w-0 rounded-2xl border border-bg-softer bg-white p-4"
-      style={{ boxShadow: "0 2px 0 0 var(--shadow-card-color)" }}
+      className="min-w-0 rounded-2xl border-2 border-bg-softer bg-white p-5"
     >
       <div className="flex flex-wrap items-baseline justify-between gap-2 mb-4">
-        <div className="text-sm font-extrabold text-ink">每日任务</div>
+        <div className="text-lg font-bold text-ink">每日任务</div>
         {hydrated && (
-          <div className="text-[11px] font-medium text-ink-light">
+          <div className="text-xs font-medium text-ink-light">
             {formatUntilMidnight(now)}后刷新
           </div>
         )}
@@ -156,20 +156,20 @@ function QuestRow({
   const pct = Math.min(100, Math.round((Math.min(progress, quest.target) / quest.target) * 100));
 
   return (
-    <div className="relative grid grid-cols-[32px_minmax(0,1fr)_44px] items-center gap-3">
+    <div className="relative grid grid-cols-[40px_minmax(0,1fr)_44px] items-center gap-3">
       {/* 任务图标 */}
       <div
-        className={`w-8 h-8 rounded-lg ${claimed ? "bg-bg-soft" : style.iconBg} flex items-center justify-center shrink-0`}
+        className={`w-10 h-12 flex items-center justify-center shrink-0 ${claimed ? "opacity-50 grayscale" : ""}`}
       >
-        <Icon className={`w-5 h-5 ${claimed ? "text-ink-softer" : style.iconColor}`} />
+        <Icon className={`w-8 h-8 ${claimed ? "text-ink-softer" : style.iconColor}`} />
       </div>
 
       <div className="flex-1 min-w-0">
-        <div className={`text-[13px] font-semibold leading-relaxed break-words ${claimed ? "text-ink-softer" : "text-ink"}`}>
+        <div className={`text-sm font-bold leading-relaxed break-words ${claimed ? "text-ink-softer" : "text-ink"}`}>
           {quest.title}
         </div>
         <div className="mt-1.5 flex items-center gap-2">
-          <div className="min-w-0 flex-1 h-1.5 rounded-full bg-bg-softer overflow-hidden">
+          <div className="min-w-0 flex-1 h-3 rounded-full bg-bg-softer overflow-hidden">
             <motion.div
               initial={false}
               animate={{ width: `${pct}%` }}
@@ -177,7 +177,7 @@ function QuestRow({
               className={`h-full rounded-full ${claimed ? "bg-bg-softer" : style.bar}`}
             />
           </div>
-          <div className="text-[11px] font-medium text-ink-light tabular-nums shrink-0">
+          <div className="text-xs font-medium text-ink-light tabular-nums shrink-0">
             {Math.min(progress, quest.target)}/{quest.target}
           </div>
         </div>
@@ -189,7 +189,7 @@ function QuestRow({
             <Check className="w-3.5 h-3.5" />已领
           </span>
         ) : claimable ? (
-          <motion.button type="button" onClick={onClaim} whileTap={{ scale: 0.96 }}
+          <motion.button type="button" onClick={onClaim} whileTap={{ y: 1 }}
             className="min-h-11 rounded-xl bg-primary/10 px-2 text-xs font-bold text-primary-dark"
             aria-label={`领取奖励 ${quest.reward} 宝石`}>领取</motion.button>
         ) : (

@@ -368,5 +368,81 @@
       "id": 26
     },
     "review": "Codex PR follow-up: integer total and 3:1 ratio independently checked; teacher review pending"
+  },
+  {
+    "lesson_id": "g2up-u8-kp2",
+    "question_id": 11,
+    "source": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit8.json",
+    "before": {
+      "id": 11,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "简单的组合问题",
+      "question": "5 角钱硬币 1 枚，2 角钱硬币 2 枚，要买一个 5 角钱的练习本，有几种付钱的方法？",
+      "options": [
+        "1 种",
+        "2 种",
+        "3 种",
+        "4 种"
+      ],
+      "answer": "2 种",
+      "explanation": "方法一：付1张5角；方法二：5角无法用2角硬币直接拼出，但本题只有2枚2角凑不出5角。重新审视：方法1是一枚5角，方法2是无。答案更正：只有一种付清方式。选项及逻辑重校：如果有1角则多。此题只有1枚5角和2枚2角，只能付5角。改为: 1角硬币5枚，5角硬币1枚。付5角有2种方式。修正后题干：5角硬币1枚，1角硬币5枚。付5角有：1枚5角，或5枚1角。共2种 ✓。"
+    },
+    "after": {
+      "id": 11,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "简单的组合问题",
+      "question": "5 角钱硬币 1 枚，2 角钱硬币 2 枚。买一个 5 角钱的练习本，要恰好付清、不找零，有几种付钱的方法？",
+      "options": [
+        "1 种",
+        "2 种",
+        "3 种",
+        "4 种"
+      ],
+      "answer": "1 种",
+      "explanation": "只用一枚5角硬币就能恰好付清。两枚2角硬币合起来只有4角；5角硬币再加2角硬币又会超过5角。因此只有1种恰好付清的方法。"
+    },
+    "review": "2026-10-17 independent arithmetic verification; teacher listening review pending; missing revised audio omitted"
+  },
+  {
+    "lesson_id": "g4down-u4-kp4",
+    "question_id": 14,
+    "source": "output/math/quizzes/义务教育教科书·数学四年级下册_unit4.json",
+    "before": {
+      "id": 14,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 3,
+      "knowledge_point": "小数点移动引起小数大小的变化",
+      "question": "把一个数的小数点先向右移动两位，再向左移动三位后是 0.48，原数是多少？",
+      "options": [
+        "4.8",
+        "48",
+        "0.48",
+        "0.048"
+      ],
+      "answer": "4.8",
+      "explanation": "逆向思维：0.48 先向右移三位变成 480，再向左移两位（相当于原路返回）变成 4.8。验算：$4.8 \\times 100 \\div 1000 = 480 \\div 100 = 0.48$。"
+    },
+    "after": {
+      "id": 14,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 3,
+      "knowledge_point": "小数点移动引起小数大小的变化",
+      "question": "把一个数的小数点先向右移动两位，再向左移动三位后是 0.48，原数是多少？",
+      "options": [
+        "4.8",
+        "48",
+        "0.48",
+        "0.048"
+      ],
+      "answer": "4.8",
+      "explanation": "小数点先向右移动两位，再向左移动三位，合起来相当于向左移动一位，原数缩小到十分之一。因此原数是 $0.48 \\times 10 = 4.8$。验算：$4.8 \\times 100 \\div 1000 = 480 \\div 1000 = 0.48$。"
+    },
+    "review": "2026-10-17 independent arithmetic verification; teacher listening review pending; missing revised audio omitted"
   }
 ]

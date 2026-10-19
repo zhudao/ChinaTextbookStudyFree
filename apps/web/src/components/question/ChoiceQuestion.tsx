@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/cn";
+import { QuestionPrompt } from "./QuestionPrompt";
 import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
@@ -26,7 +27,8 @@ export function ChoiceQuestion({
   isCorrect,
   onChange,
   locked = false,
-}: QuestionRendererProps) {
+  hidePrompt = false,
+}: QuestionRendererProps & { hidePrompt?: boolean }) {
   const correctLetter = correctChoiceLetter(question);
   const [ripples, setRipples] = useState<Record<string, Ripple[]>>({});
   const idRef = useRef(0);
@@ -78,14 +80,10 @@ export function ChoiceQuestion({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, question.id, locked]);
 
+  const hasOptionAudio = question.audio?.options?.some(Boolean);
   return (
     <div className="w-full">
-      <div className="flex items-start gap-3 mb-6">
-        <div className="text-2xl font-bold text-ink leading-relaxed flex-1 min-w-0">
-          <MathText text={question.question} />
-        </div>
-        <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
-      </div>
+      {!hidePrompt && <QuestionPrompt text={question.question} audio={question.audio?.question} locked={locked} />}
 
       <div className="space-y-3">
         {question.options.map((opt, idx) => {
@@ -111,10 +109,9 @@ export function ChoiceQuestion({
               <motion.button
                 type="button"
                 aria-pressed={selected}
-                disabled={phase === "checked"}
+                disabled={locked || phase === "checked"}
                 onClick={e => handleTap(letter, e)}
                 className={cn("flex-1 text-left flex items-center gap-3 relative", cls)}
-                whileTap={phase === "answering" ? { scale: 0.98 } : undefined}
                 animate={
                   shouldPulse
                     ? {
@@ -126,7 +123,7 @@ export function ChoiceQuestion({
                       }
                     : undefined
                 }
-                transition={shouldPulse ? { duration: 1.3, repeat: Infinity } : undefined}
+                transition={shouldPulse ? { duration: 0.45, repeat: 1 } : undefined}
               >
                 <span className="flex-1">
                   <MathText text={display} />
@@ -140,7 +137,7 @@ export function ChoiceQuestion({
                       : { scale: 1 }
                   }
                   transition={{ duration: 0.25 }}
-                  className="ml-3 w-7 h-7 rounded-md border-2 border-bg-softer hidden [@media(pointer:fine)]:flex items-center justify-center font-extrabold text-ink-softer text-xs tabular-nums shrink-0"
+                  className="keyboard-hint ml-3 w-7 h-7 rounded-md border-2 border-bg-softer hidden [@media(pointer:fine)]:flex items-center justify-center font-extrabold text-ink-softer text-xs tabular-nums shrink-0"
                 >
                   {idx + 1}
                 </motion.span>
@@ -154,11 +151,12 @@ export function ChoiceQuestion({
                   />
                 ))}
               </motion.button>
-              {optionAudio && (
-                <div className="flex items-center">
+              {hasOptionAudio && (
+                <div className="w-11 shrink-0 flex items-center justify-center">
                   <TTSButton
                     src={optionAudio}
                     size="sm"
+                    disabled={locked}
                     label={`朗读选项 ${letter}`}
                   />
                 </div>

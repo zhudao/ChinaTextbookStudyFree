@@ -1,5 +1,6 @@
 "use client";
 
+import { NumberSenseProgress } from "@/components/NumberSenseProgress";
 import { useEffect, useState } from "react";
 import {
   PathMap,
@@ -92,13 +93,13 @@ export function BookPathView({
 
   const headerLabel = (
     <>
-      <SubjectBadge book={book} className="!border-black/20 !bg-white/20 !text-[#132C36]" />
+      <SubjectBadge book={book} className="subject-badge" />
       <span className="break-words">{book.textbookName}</span>
     </>
   );
 
   const topSlot =
-    book.hasPassages || book.hasStories ? (
+    bookId === "g1up" ? <NumberSenseProgress /> : book.hasPassages || book.hasStories ? (
       <div className="flex items-center gap-2">
         {book.hasPassages && (
           <SoundLink

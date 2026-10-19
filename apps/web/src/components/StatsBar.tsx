@@ -19,7 +19,8 @@ import {
   STREAK_MILESTONE_REWARDS,
   useProgressStore,
 } from "@/store/progress";
-import { Heart, Flame, Lightning, Snowflake, Gem } from "@/components/icons";
+import { Heart, Flame, Gem, Lightning } from "@/components/LearningIcon";
+import { Snowflake } from "@/components/icons";
 import { useToast } from "./Toast";
 import { MuteToggle, AutoNarrateToggle, useSyncMute } from "./MuteToggle";
 import { Modal } from "./Modal";
@@ -82,17 +83,16 @@ export function StatsBar({ compact = false, placement = "page" }: StatsBarProps 
           }}
           initial={{ opacity: 0, y: -6 }}
           animate={{ opacity: 1, y: 0 }}
-          whileTap={{ scale: 0.95 }}
-          className={`min-h-11 px-3 inline-flex items-center gap-1.5 rounded-xl border font-bold text-sm select-none tabular-nums transition-colors ${
+          className={`status-counter min-h-11 px-2 inline-flex items-center gap-2 rounded-xl font-extrabold text-base select-none tabular-nums transition-colors ${
             dHearts > 0
-              ? "border-danger/40 text-danger bg-danger/10"
-              : "border-bg-softer text-ink-softer bg-bg-soft"
+              ? "text-danger"
+              : "text-ink-softer"
           }`}
           aria-label="红心"
           title={`红心：${dHearts} / ${MAX_HEARTS}`}
         >
-          <Heart className="w-[18px] h-[18px]" />
-          <span className="text-ink">{dHearts}</span>
+          <Heart className="w-6 h-6" />
+          <span>{dHearts}</span>
         </motion.button>
 
         {/* 连续天数 —— 可点开连胜详情弹层 */}
@@ -106,17 +106,16 @@ export function StatsBar({ compact = false, placement = "page" }: StatsBarProps 
           initial={{ opacity: 0, y: -6 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.05 }}
-          whileTap={{ scale: 0.95 }}
-          className={`min-h-11 px-3 inline-flex items-center gap-1.5 rounded-xl border font-bold text-sm select-none tabular-nums transition-colors ${
+          className={`status-counter min-h-11 px-2 inline-flex items-center gap-2 rounded-xl font-extrabold text-base select-none tabular-nums transition-colors ${
             streakActive
-              ? "border-fox text-fox bg-fox/10"
-              : "border-bg-softer text-ink-softer bg-bg-soft"
+              ? "text-fox"
+              : "text-ink-softer"
           }`}
           aria-label="连胜详情"
           title={`连续学习 ${dStreak} 天`}
         >
-          <Flame className="w-[18px] h-[18px]" />
-          <span className="text-ink">{dStreak}</span>
+          <Flame className={`w-6 h-6 ${streakActive ? "" : "status-inactive"}`} />
+          <span>{dStreak}</span>
         </motion.button>
 
         {/* XP —— compact 模式隐藏 */}
@@ -188,19 +187,7 @@ export function StatsBar({ compact = false, placement = "page" }: StatsBarProps 
                   }
                 }}
                 disabled={gems < HEART_REFILL_COST}
-                className={`w-full mt-4 inline-flex items-center justify-center gap-1.5 rounded-2xl py-2.5 font-extrabold text-sm transition-colors ${
-                  gems >= HEART_REFILL_COST
-                    ? "text-[#132C36]"
-                    : "bg-bg-softer text-ink-softer cursor-not-allowed"
-                }`}
-                style={
-                  gems >= HEART_REFILL_COST
-                    ? {
-                        background: "linear-gradient(135deg, #1CB0F6, #1899D6)",
-                        boxShadow: "0 4px 0 0 #0d7aa8",
-                      }
-                    : undefined
-                }
+                className={gems >= HEART_REFILL_COST ? "btn-chunky-secondary w-full mt-4 gap-2" : "btn-chunky-disabled w-full mt-4 gap-2"}
               >
                 <Gem className="w-4 h-4" />
                 <span className="tabular-nums">{HEART_REFILL_COST}</span>
@@ -421,12 +408,7 @@ function StreakModal({
               type="button"
               onClick={handleBuyFreeze}
               disabled={gems < FREEZE_COST}
-              className={`w-full mt-2.5 inline-flex items-center justify-center gap-1.5 rounded-2xl min-h-11 py-2 font-extrabold text-sm transition-colors ${
-                gems >= FREEZE_COST
-                  ? "text-white bg-secondary"
-                  : "bg-bg-softer text-ink-softer cursor-not-allowed"
-              }`}
-              style={gems >= FREEZE_COST ? { boxShadow: "0 3px 0 0 #0d7aa8" } : undefined}
+              className={gems >= FREEZE_COST ? "btn-chunky-secondary w-full mt-3 gap-2" : "btn-chunky-disabled w-full mt-3 gap-2"}
             >
               <Gem className="w-4 h-4" />
               <span className="tabular-nums">{FREEZE_COST}</span>
@@ -448,12 +430,7 @@ function StreakModal({
               type="button"
               onClick={handleMakeup}
               disabled={gems < STREAK_MAKEUP_COST}
-              className={`w-full mt-2.5 inline-flex items-center justify-center gap-1.5 rounded-2xl min-h-11 py-2 font-extrabold text-sm transition-colors ${
-                gems >= STREAK_MAKEUP_COST
-                  ? "text-[#132C36] bg-fox"
-                  : "bg-bg-softer text-ink-softer cursor-not-allowed"
-              }`}
-              style={gems >= STREAK_MAKEUP_COST ? { boxShadow: "0 3px 0 0 #C87500" } : undefined}
+              className={gems >= STREAK_MAKEUP_COST ? "btn-chunky-secondary w-full mt-3 gap-2" : "btn-chunky-disabled w-full mt-3 gap-2"}
             >
               <Gem className="w-4 h-4" />
               <span className="tabular-nums">{STREAK_MAKEUP_COST}</span>

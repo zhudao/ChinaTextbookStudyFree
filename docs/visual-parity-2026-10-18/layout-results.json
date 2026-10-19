@@ -1,0 +1,926 @@
+[
+  {
+    "name": "path",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 15,
+      "dark": false,
+      "documentWidth": 305,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 740,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/book/g1up/",
+      "shortControls": [],
+      "viewport": 320
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "contentWidth": 305,
+        "minimumLabelGap": 44,
+        "pathEntries": 43,
+        "route": "/book/g1up/",
+        "scrollWidth": 305,
+        "viewport": 320,
+        "红心": 1,
+        "连胜详情": 1
+      },
+      "passed": true
+    }
+  },
+  {
+    "name": "grade",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 3,
+      "dark": false,
+      "documentWidth": 305,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 740,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/grade/1/",
+      "shortControls": [],
+      "viewport": 320
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "unit",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 0,
+      "dark": false,
+      "documentWidth": 305,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 740,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/number-sense/",
+      "shortControls": [],
+      "viewport": 320
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "review",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 2,
+      "dark": false,
+      "documentWidth": 305,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 740,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/review/",
+      "shortControls": [],
+      "viewport": 320
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "shop",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 16,
+      "dark": false,
+      "documentWidth": 305,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 740,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/shop/",
+      "shortControls": [],
+      "viewport": 320
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 305,
+        "minimumCardWidth": 128.5,
+        "route": "/shop/",
+        "scrollWidth": 305,
+        "sideBySide": false,
+        "stickyPreview": false,
+        "viewport": 320,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    }
+  },
+  {
+    "name": "profile",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 14,
+      "dark": false,
+      "documentWidth": 305,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 740,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/profile/",
+      "shortControls": [],
+      "viewport": 320
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "reading",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 0,
+      "dark": false,
+      "documentWidth": 305,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 740,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/reading/chinese-g1up/",
+      "shortControls": [],
+      "viewport": 320
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "stories",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 0,
+      "dark": false,
+      "documentWidth": 305,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 740,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/stories/chinese-g1up/",
+      "shortControls": [],
+      "viewport": 320
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "guide",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 2,
+      "dark": false,
+      "documentWidth": 305,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 740,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/book/g1up/guide/1/",
+      "shortControls": [],
+      "viewport": 320
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "league",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 0,
+      "dark": false,
+      "documentWidth": 305,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 740,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/league/",
+      "shortControls": [],
+      "viewport": 320
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "contentWidth": 305,
+        "lockedPrompts": 0,
+        "route": "/league/",
+        "scrollWidth": 305,
+        "viewport": 320,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    }
+  },
+  {
+    "name": "path",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 15,
+      "dark": false,
+      "documentWidth": 375,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 844,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/book/g1up/",
+      "shortControls": [],
+      "viewport": 390
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "contentWidth": 375,
+        "minimumLabelGap": 44,
+        "pathEntries": 43,
+        "route": "/book/g1up/",
+        "scrollWidth": 375,
+        "viewport": 390,
+        "红心": 1,
+        "连胜详情": 1
+      },
+      "passed": true
+    }
+  },
+  {
+    "name": "grade",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 3,
+      "dark": false,
+      "documentWidth": 375,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 844,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/grade/1/",
+      "shortControls": [],
+      "viewport": 390
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "unit",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 0,
+      "dark": false,
+      "documentWidth": 375,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 844,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/number-sense/",
+      "shortControls": [],
+      "viewport": 390
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "review",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 2,
+      "dark": false,
+      "documentWidth": 390,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 844,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/review/",
+      "shortControls": [],
+      "viewport": 390
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "shop",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 16,
+      "dark": false,
+      "documentWidth": 375,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 844,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/shop/",
+      "shortControls": [],
+      "viewport": 390
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 375,
+        "minimumCardWidth": 163.5,
+        "route": "/shop/",
+        "scrollWidth": 375,
+        "sideBySide": false,
+        "stickyPreview": false,
+        "viewport": 390,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    }
+  },
+  {
+    "name": "profile",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 14,
+      "dark": false,
+      "documentWidth": 375,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 844,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/profile/",
+      "shortControls": [],
+      "viewport": 390
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "reading",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 0,
+      "dark": false,
+      "documentWidth": 375,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 844,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/reading/chinese-g1up/",
+      "shortControls": [],
+      "viewport": 390
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "stories",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 0,
+      "dark": false,
+      "documentWidth": 375,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 844,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/stories/chinese-g1up/",
+      "shortControls": [],
+      "viewport": 390
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "guide",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 2,
+      "dark": false,
+      "documentWidth": 390,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 844,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/book/g1up/guide/1/",
+      "shortControls": [],
+      "viewport": 390
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "league",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 0,
+      "dark": false,
+      "documentWidth": 390,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 844,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/league/",
+      "shortControls": [],
+      "viewport": 390
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "contentWidth": 390,
+        "lockedPrompts": 0,
+        "route": "/league/",
+        "scrollWidth": 390,
+        "viewport": 390,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    }
+  },
+  {
+    "name": "path",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 18,
+      "dark": false,
+      "documentWidth": 753,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 1024,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/book/g1up/",
+      "shortControls": [],
+      "viewport": 768
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "contentWidth": 753,
+        "minimumLabelGap": 44,
+        "pathEntries": 43,
+        "route": "/book/g1up/",
+        "scrollWidth": 753,
+        "viewport": 768,
+        "红心": 1,
+        "连胜详情": 1
+      },
+      "passed": true
+    }
+  },
+  {
+    "name": "grade",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 6,
+      "dark": false,
+      "documentWidth": 753,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 1024,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/grade/1/",
+      "shortControls": [],
+      "viewport": 768
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "unit",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 3,
+      "dark": false,
+      "documentWidth": 753,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 1024,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/number-sense/",
+      "shortControls": [],
+      "viewport": 768
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "review",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 5,
+      "dark": false,
+      "documentWidth": 753,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 1024,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/review/",
+      "shortControls": [],
+      "viewport": 768
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "shop",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 19,
+      "dark": false,
+      "documentWidth": 753,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 1024,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/shop/",
+      "shortControls": [],
+      "viewport": 768
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 753,
+        "minimumCardWidth": 192.328125,
+        "route": "/shop/",
+        "scrollWidth": 753,
+        "sideBySide": false,
+        "stickyPreview": false,
+        "viewport": 768,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    }
+  },
+  {
+    "name": "profile",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 17,
+      "dark": false,
+      "documentWidth": 753,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 1024,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/profile/",
+      "shortControls": [],
+      "viewport": 768
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "reading",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 3,
+      "dark": false,
+      "documentWidth": 753,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 1024,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/reading/chinese-g1up/",
+      "shortControls": [],
+      "viewport": 768
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "stories",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 3,
+      "dark": false,
+      "documentWidth": 753,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 1024,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/stories/chinese-g1up/",
+      "shortControls": [],
+      "viewport": 768
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "guide",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 2,
+      "dark": false,
+      "documentWidth": 768,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 1024,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/book/g1up/guide/1/",
+      "shortControls": [],
+      "viewport": 768
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "league",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 3,
+      "dark": false,
+      "documentWidth": 753,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 1024,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/league/",
+      "shortControls": [],
+      "viewport": 768
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "contentWidth": 753,
+        "lockedPrompts": 0,
+        "route": "/league/",
+        "scrollWidth": 753,
+        "viewport": 768,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    }
+  },
+  {
+    "name": "path",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 18,
+      "dark": false,
+      "documentWidth": 1265,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 900,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/book/g1up/",
+      "shortControls": [],
+      "viewport": 1280
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "contentWidth": 1265,
+        "minimumLabelGap": 44,
+        "pathEntries": 43,
+        "route": "/book/g1up/",
+        "scrollWidth": 1265,
+        "viewport": 1280,
+        "红心": 1,
+        "连胜详情": 1
+      },
+      "passed": true
+    }
+  },
+  {
+    "name": "grade",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 6,
+      "dark": false,
+      "documentWidth": 1265,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 900,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/grade/1/",
+      "shortControls": [],
+      "viewport": 1280
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "unit",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 3,
+      "dark": false,
+      "documentWidth": 1265,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 900,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/number-sense/",
+      "shortControls": [],
+      "viewport": 1280
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "review",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 5,
+      "dark": false,
+      "documentWidth": 1265,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 900,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/review/",
+      "shortControls": [],
+      "viewport": 1280
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "shop",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 19,
+      "dark": false,
+      "documentWidth": 1265,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 900,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/shop/",
+      "shortControls": [],
+      "viewport": 1280
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 1265,
+        "minimumCardWidth": 209.6640625,
+        "route": "/shop/",
+        "scrollWidth": 1265,
+        "sideBySide": true,
+        "stickyPreview": true,
+        "viewport": 1280,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    }
+  },
+  {
+    "name": "profile",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 17,
+      "dark": false,
+      "documentWidth": 1265,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 900,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/profile/",
+      "shortControls": [],
+      "viewport": 1280
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "reading",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 5,
+      "dark": false,
+      "documentWidth": 1265,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 900,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/reading/chinese-g1up/",
+      "shortControls": [],
+      "viewport": 1280
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "stories",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 5,
+      "dark": false,
+      "documentWidth": 1265,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 900,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/stories/chinese-g1up/",
+      "shortControls": [],
+      "viewport": 1280
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "guide",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 2,
+      "dark": false,
+      "documentWidth": 1280,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 900,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/book/g1up/guide/1/",
+      "shortControls": [],
+      "viewport": 1280
+    },
+    "passed": true,
+    "geometry": null
+  },
+  {
+    "name": "league",
+    "failures": [],
+    "metrics": {
+      "actionTop": null,
+      "controls": 5,
+      "dark": false,
+      "documentWidth": 1265,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 900,
+      "optionWidths": [],
+      "promptTop": null,
+      "route": "/league/",
+      "shortControls": [],
+      "viewport": 1280
+    },
+    "passed": true,
+    "geometry": {
+      "failures": [],
+      "metrics": {
+        "contentWidth": 1265,
+        "lockedPrompts": 0,
+        "route": "/league/",
+        "scrollWidth": 1265,
+        "viewport": 1280,
+        "红心": 1,
+        "连胜详情": 1
+      },
+      "passed": true
+    }
+  }
+]

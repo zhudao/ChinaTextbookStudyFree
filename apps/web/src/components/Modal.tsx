@@ -14,6 +14,7 @@
  */
 
 import { useEffect, useRef, useState } from "react";
+import { uiMotion } from "@/lib/motion";
 import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -25,6 +26,8 @@ interface ModalProps {
   dismissible?: boolean;
   /** 无障碍标题（aria-label），如未提供尽量给一个 */
   ariaLabel?: string;
+  /** Reading needs a wider text column than short confirmation dialogs. */
+  size?: "compact" | "reading";
 }
 
 const FOCUSABLE = [
@@ -36,7 +39,7 @@ const FOCUSABLE = [
   "[tabindex]:not([tabindex='-1'])",
 ].join(",");
 
-export function Modal({ open, onClose, children, dismissible = true, ariaLabel }: ModalProps) {
+export function Modal({ open, onClose, children, dismissible = true, ariaLabel, size = "compact" }: ModalProps) {
   const [portalReady, setPortalReady] = useState(false);
   useEffect(() => setPortalReady(true), []);
   const dialogRef = useRef<HTMLDivElement>(null);
@@ -130,12 +133,12 @@ export function Modal({ open, onClose, children, dismissible = true, ariaLabel }
             aria-modal="true"
             aria-label={ariaLabel ?? "对话框"}
             tabIndex={-1}
-            initial={{ y: 30, scale: 0.92, opacity: 0 }}
+            initial={{ y: 16, scale: 0.98, opacity: 0 }}
             animate={{ y: 0, scale: 1, opacity: 1 }}
-            exit={{ y: 20, scale: 0.95, opacity: 0 }}
-            transition={{ type: "spring", damping: 20, stiffness: 260 }}
+            exit={{ y: 12, scale: 0.98, opacity: 0 }}
+            transition={uiMotion.enter}
             onClick={e => e.stopPropagation()}
-            className="w-full max-w-sm max-h-[calc(100dvh-2.5rem)] overflow-y-auto overscroll-contain bg-white rounded-3xl border-2 border-bg-softer p-6 focus:outline-none"
+            className={`w-full ${size === "reading" ? "max-w-2xl" : "max-w-sm"} max-h-[calc(100dvh-2.5rem)] overflow-y-auto overscroll-contain bg-white ui-card rounded-3xl border-2 border-bg-softer p-5 sm:p-6 focus:outline-none`}
             style={{ boxShadow: "0 10px 0 0 var(--shadow-card-color), 0 16px 40px rgba(0,0,0,0.15)" }}
           >
             {children}

@@ -1,0 +1,219 @@
+{
+  "version": "12006e3",
+  "date": "2026-10-18",
+  "pageTemplates": 17,
+  "items": [
+    {
+      "key": "path",
+      "title": "学习路径",
+      "route": "/book/g1up/",
+      "note": "默认学习首页；下方可打开完整路径长截图。",
+      "desktop": "path-1280-after.jpg",
+      "mobile": "path-390-after.jpg",
+      "full": "path-full-1280-after.jpg"
+    },
+    {
+      "key": "grade",
+      "title": "年级与教材选择",
+      "route": "/grade/1/",
+      "note": "",
+      "desktop": "grade-1280-after.jpg",
+      "mobile": "grade-390-after.jpg",
+      "full": "grade-full-1280-after.jpg"
+    },
+    {
+      "key": "onboarding",
+      "title": "首次进入 · 选择年级",
+      "route": "/",
+      "note": "",
+      "desktop": "onboarding-1280-after.jpg",
+      "mobile": "onboarding-390-after.jpg"
+    },
+    {
+      "key": "unit",
+      "title": "数数与比多少 · 示范单元",
+      "route": "/number-sense/",
+      "note": "",
+      "desktop": "unit-1280-after.jpg",
+      "mobile": "unit-390-after.jpg",
+      "full": "unit-full-1280-after.jpg"
+    },
+    {
+      "key": "guide",
+      "title": "单元知识手册",
+      "route": "/book/g1up/guide/1/",
+      "note": "第一步讲解。",
+      "desktop": "guide-1280-after.jpg",
+      "mobile": "guide-390-after.jpg"
+    },
+    {
+      "key": "lesson",
+      "title": "课程答题",
+      "route": "/lesson/g1up/g1up-u1-kp2/",
+      "note": "",
+      "desktop": "lesson-1280-after.jpg",
+      "mobile": "lesson-390-after.jpg"
+    },
+    {
+      "key": "feedback",
+      "title": "课程答对反馈",
+      "route": "/lesson/g1up/g1up-u1-kp2/",
+      "note": "提交答案后的反馈状态。",
+      "desktop": "feedback-1280-after.jpg"
+    },
+    {
+      "key": "jump",
+      "title": "跳级测试",
+      "route": "/jump/?book=g1up&unit=2",
+      "note": "题目随机抽取；桌面与手机展示不同抽题结果。",
+      "desktop": "jump-1280-after.jpg",
+      "mobile": "jump-390-after.jpg"
+    },
+    {
+      "key": "reading",
+      "title": "课文听读目录",
+      "route": "/reading/chinese-g1up/",
+      "note": "",
+      "desktop": "reading-1280-after.jpg",
+      "mobile": "reading-390-after.jpg",
+      "full": "reading-full-1280-after.jpg"
+    },
+    {
+      "key": "passage",
+      "title": "课文听读 · 上学歌",
+      "route": "/reading/chinese-g1up/chinese-g1up-p1/",
+      "note": "桌面原图为整页截图，含课本原页与听读控件。",
+      "desktop": "passage-1280-after.jpg",
+      "mobile": "passage-390-after.jpg"
+    },
+    {
+      "key": "stories",
+      "title": "故事目录",
+      "route": "/stories/chinese-g1up/",
+      "note": "",
+      "desktop": "stories-1280-after.jpg",
+      "mobile": "stories-390-after.jpg",
+      "full": "stories-full-1280-after.jpg"
+    },
+    {
+      "key": "story-reader",
+      "title": "故事阅读",
+      "route": "/stories/chinese-g1up/chinese-g1up-s1-v2/",
+      "note": "",
+      "desktop": "story-reader-1280-after.jpg",
+      "mobile": "story-reader-390-after.jpg"
+    },
+    {
+      "key": "story-quiz",
+      "title": "故事阅读理解答题",
+      "route": "/stories/chinese-g1up/chinese-g1up-s1-v2/",
+      "note": "桌面同时展示原文与题目。",
+      "desktop": "story-quiz-1280-after.jpg",
+      "mobile": "story-quiz-390-after.jpg"
+    },
+    {
+      "key": "story-evidence",
+      "title": "原文与证据弹窗",
+      "route": "/stories/chinese-g1up/chinese-g1up-s1-v2/",
+      "note": "答题后查看参考证据；弹窗原始截图。",
+      "desktop": "story-evidence-1280-after.jpg",
+      "mobile": "story-evidence-390-after.jpg"
+    },
+    {
+      "key": "story-feedback",
+      "title": "故事答题反馈",
+      "route": "/stories/chinese-g1up/chinese-g1up-s1-v2/",
+      "note": "",
+      "desktop": "story-feedback-1280-after.jpg",
+      "mobile": "story-feedback-390-after.jpg"
+    },
+    {
+      "key": "review",
+      "title": "错题本 · 空状态",
+      "route": "/review/",
+      "note": "",
+      "desktop": "review-1280-after.jpg",
+      "mobile": "review-390-after.jpg"
+    },
+    {
+      "key": "review-populated",
+      "title": "错题本 · 今日复习",
+      "route": "/review/",
+      "note": "演示存档：一条真实题库错题。",
+      "desktop": "review-populated-1280-after.jpg"
+    },
+    {
+      "key": "review-runner",
+      "title": "错题复习答题",
+      "route": "/review/runner/",
+      "note": "演示存档。",
+      "desktop": "review-runner-1280-after.jpg",
+      "mobile": "review-runner-390-after.jpg"
+    },
+    {
+      "key": "review-complete",
+      "title": "错题复习完成",
+      "route": "/review/runner/",
+      "note": "完成一题复习后的实际结算。",
+      "desktop": "review-complete-1280-after.jpg"
+    },
+    {
+      "key": "number-review",
+      "title": "数感隔日复习",
+      "route": "/number-sense/review/",
+      "note": "演示存档：三项技能已练习，复习日期已到期。",
+      "desktop": "number-review-1280-after.jpg",
+      "mobile": "number-review-390-after.jpg"
+    },
+    {
+      "key": "league",
+      "title": "排行榜 · 待解锁",
+      "route": "/league/",
+      "note": "",
+      "desktop": "league-1280-after.jpg",
+      "mobile": "league-390-after.jpg"
+    },
+    {
+      "key": "league-unlocked",
+      "title": "排行榜 · 已解锁",
+      "route": "/league/",
+      "note": "演示存档：完成 10 节课；影子同学为本机模拟联赛。",
+      "desktop": "league-unlocked-1280-after.jpg",
+      "mobile": "league-unlocked-light-390-after.jpg",
+      "full": "league-unlocked-full-1280-after.jpg"
+    },
+    {
+      "key": "shop",
+      "title": "商店与装扮",
+      "route": "/shop/",
+      "note": "",
+      "desktop": "shop-1280-after.jpg",
+      "mobile": "shop-390-after.jpg",
+      "full": "shop-full-1280-after.jpg"
+    },
+    {
+      "key": "profile",
+      "title": "我的 · 初始状态",
+      "route": "/profile/",
+      "note": "",
+      "desktop": "profile-1280-after.jpg",
+      "mobile": "profile-390-after.jpg",
+      "full": "profile-full-1280-after.jpg"
+    },
+    {
+      "key": "profile-populated",
+      "title": "我的 · 周报与成就",
+      "route": "/profile/",
+      "note": "演示存档；完整长截图包括周报、成就、家长设置与备份。",
+      "desktop": "profile-populated-1280-after.jpg",
+      "full": "profile-full-1280-after.jpg"
+    },
+    {
+      "key": "hearts-dialog",
+      "title": "红心详情弹窗",
+      "route": "/league/",
+      "note": "点击右上方红心后的状态。",
+      "desktop": "hearts-dialog-1280-after.jpg"
+    }
+  ]
+}

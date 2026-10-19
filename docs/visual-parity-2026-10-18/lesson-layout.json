@@ -1,0 +1,86 @@
+[
+  {
+    "failures": [],
+    "metrics": {
+      "actionTop": 656,
+      "controls": 12,
+      "dark": false,
+      "documentWidth": 320,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 740,
+      "optionWidths": [
+        221,
+        221,
+        221
+      ],
+      "promptTop": 102,
+      "route": "/lesson/g1up/g1up-u1-kp2/",
+      "shortControls": [],
+      "viewport": 320
+    },
+    "passed": true
+  },
+  {
+    "failures": [],
+    "metrics": {
+      "actionTop": 583,
+      "controls": 12,
+      "dark": false,
+      "documentWidth": 375,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 667,
+      "optionWidths": [
+        276,
+        276,
+        276
+      ],
+      "promptTop": 102,
+      "route": "/lesson/g1up/g1up-u1-kp2/",
+      "shortControls": [],
+      "viewport": 375
+    },
+    "passed": true
+  },
+  {
+    "failures": [],
+    "metrics": {
+      "actionTop": 760,
+      "controls": 12,
+      "dark": false,
+      "documentWidth": 390,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 844,
+      "optionWidths": [
+        306,
+        306,
+        306
+      ],
+      "promptTop": 110,
+      "route": "/lesson/g1up/g1up-u1-kp2/",
+      "shortControls": [],
+      "viewport": 390
+    },
+    "passed": true
+  },
+  {
+    "failures": [],
+    "metrics": {
+      "actionTop": 766,
+      "controls": 13,
+      "dark": false,
+      "documentWidth": 1280,
+      "font": "Nunito, \"Nunito Fallback\", \"PingFang SC\", \"Microsoft YaHei\", \"Hiragino Sans GB\", ui-sans-serif, system-ui, sans-serif",
+      "height": 900,
+      "optionWidths": [
+        548,
+        548,
+        548
+      ],
+      "promptTop": 161,
+      "route": "/lesson/g1up/g1up-u1-kp2/",
+      "shortControls": [],
+      "viewport": 1280
+    },
+    "passed": true
+  }
+]

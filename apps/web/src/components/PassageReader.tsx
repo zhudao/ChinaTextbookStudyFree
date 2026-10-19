@@ -220,7 +220,7 @@ export function PassageReader({ passage, backHref }: Props) {
     passage.kind === "song";
 
   return (
-    <main className="min-h-screen bg-bg-soft" style={{ paddingBottom: "calc(10rem + env(safe-area-inset-bottom))" }}>
+    <main className="reading-screen min-h-screen bg-bg" style={{ paddingBottom: "calc(10rem + env(safe-area-inset-bottom))" }}>
       <InnerHeader
         backHref={backHref}
         title={passage.title}
@@ -318,7 +318,7 @@ export function PassageReader({ passage, backHref }: Props) {
                     disabled={!s.audio || mode !== "idle"}
                     className={cn(
                       "shrink-0 w-11 h-11 inline-flex items-center justify-center rounded-full",
-                      "bg-bg-soft text-primary hover:bg-primary/10 transition-colors",
+                      "bg-bg-soft text-secondary hover:bg-secondary/10 transition-colors",
                       (!s.audio || mode !== "idle") && "opacity-40 cursor-not-allowed",
                     )}
                   >
@@ -404,7 +404,6 @@ export function PassageReader({ passage, backHref }: Props) {
         <div className="max-w-md lg:max-w-6xl mx-auto px-4 py-3 flex gap-3">
           <motion.button
             type="button"
-            whileTap={{ scale: 0.96 }}
             onClick={playAll}
             disabled={!hasAnyAudio || mode === "followup"}
             className={cn(
@@ -428,7 +427,6 @@ export function PassageReader({ passage, backHref }: Props) {
 
           <motion.button
             type="button"
-            whileTap={{ scale: 0.96 }}
             onClick={runFollowup}
             disabled={!hasAnyAudio || mode === "playing"}
             className={cn(

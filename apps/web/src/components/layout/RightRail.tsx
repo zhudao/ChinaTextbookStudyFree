@@ -18,10 +18,11 @@ import {
   userRank,
   weekKeyFor,
 } from "@cstf/core/league";
+import { ContinueLearningCard } from "@/components/ContinueLearningCard";
 import { StatsBar } from "@/components/StatsBar";
 import { DailyQuestsPanel } from "@/components/DailyQuestsPanel";
 import { useProgressStore, weekXpFromHistory } from "@/store/progress";
-import { Trophy } from "@/components/icons";
+import { Trophy } from "@/components/LearningIcon";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 
@@ -32,6 +33,7 @@ export function RightRail() {
       <div className="flex justify-end">
         <StatsBar compact placement="rail" />
       </div>
+      {pathname?.startsWith("/book/") && <ContinueLearningCard compact placement="rail" />}
       {!pathname?.startsWith("/league") && <LearningNextStep />}
       <DailyQuestsPanel />
     </div>
@@ -41,8 +43,7 @@ export function RightRail() {
 function CardShell({ children }: { children: React.ReactNode }) {
   return (
     <div
-      className="rounded-2xl border border-bg-softer bg-white p-4"
-      style={{ boxShadow: "0 2px 0 0 var(--shadow-card-color)" }}
+      className="rounded-2xl border-2 border-bg-softer bg-white p-5"
     >
       {children}
     </div>

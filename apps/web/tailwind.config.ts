@@ -26,13 +26,13 @@ const DUO = {
   // 蓝
   macaw: "#1CB0F6",    // 主蓝
   whale: "#1899D6",    // 蓝按钮阴影
-  iguana: "#BBE7FC",   // 浅蓝高亮
+  iguana: "#DDF4FF",   // 浅蓝高亮
   humpback: "#235390", // 深海蓝，用于深色文本/标题
   sea: "#14D4F4",      // 青绿
   // 红
   cardinal: "#FF4B4B", // 主红
   fire: "#EA2B2B",     // 红按钮阴影
-  walkingFish: "#FFC1C1", // 浅粉红
+  walkingFish: "#FFDFE0", // 浅粉红
   // 黄橙
   bee: "#FFC800",      // 主黄
   canary: "#FFDE00",   // 更亮的柠檬黄
@@ -104,8 +104,8 @@ const config: Config = {
         gold: DUO.bee,            // #FFC800 ← 统一到 Bee，消除重复
         ink: {
           DEFAULT: DUO.eel,       // #4B4B4B ← 修正（原 #3C3C3C）
-          light: "#58616B",        // #777777
-          softer: "#5D6670",       // #AFAFAF
+          light: "#737373",        // #777777
+          softer: "#767676",       // #AFAFAF
         },
         bg: {
           DEFAULT: DUO.snow,      // #FFFFFF

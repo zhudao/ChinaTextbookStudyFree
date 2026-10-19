@@ -15,6 +15,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { Mascot } from "./Mascot";
+import { SubjectBookIcon } from "./LearningIcon";
 import { Check, Sparkle } from "@/components/icons";
 import { Modal } from "@/components/Modal";
 import { SoundLink } from "@/components/SoundLink";
@@ -30,7 +31,7 @@ function parseBookId(lessonId: string): string | null {
   return m ? m[1] : null;
 }
 
-export function ContinueLearningCard() {
+export function ContinueLearningCard({ compact = false, placement = "page" }: { compact?: boolean; placement?: "page" | "rail" } = {}) {
   const activeLesson = useProgressStore(s => s.activeLesson);
   const [hydrated, setHydrated] = useState(false);
 
@@ -42,6 +43,14 @@ export function ContinueLearningCard() {
   if (!bookId) return null;
 
   const href = `/lesson/${bookId}/${activeLesson.lessonId}/`;
+
+  if (compact) return (
+    <Link href={href} data-placement={placement} className="continue-strip flex items-center gap-3 w-full rounded-2xl border-2 border-bg-softer bg-white p-3 mb-4" onClick={() => { playSfx("tap"); haptic("light"); }}>
+      <span className="continue-play w-10 h-10 rounded-xl flex items-center justify-center shrink-0" aria-hidden>▶</span>
+      <span className="flex-1 min-w-0"><span className="block text-base font-bold text-ink">继续上次的练习</span><span className="block text-sm text-ink-light mt-0.5">已答 {activeLesson.correctCount + activeLesson.mistakeCount} 题</span></span>
+      <span className="text-secondary-dark" aria-hidden>→</span>
+    </Link>
+  );
 
   return (
     <motion.div
@@ -56,8 +65,8 @@ export function ContinueLearningCard() {
           playSfx("tap");
           haptic("medium");
         }}
-        className="group block bg-white rounded-3xl border-2 border-primary/40 p-5 lg:p-7 hover:border-primary transition-colors relative overflow-hidden"
-        style={{ boxShadow: "0 5px 0 0 #58a700" }}
+        className="group block bg-white rounded-2xl border-2 border-bg-softer p-5 lg:p-7 hover:border-primary transition-colors relative overflow-hidden"
+        style={{ boxShadow: "0 2px 0 0 var(--shadow-card-color)" }}
       >
         <div className="flex items-center gap-3 lg:gap-6">
           <motion.div
@@ -68,7 +77,7 @@ export function ContinueLearningCard() {
             <Mascot mood="wave" size={64} />
           </motion.div>
           <div className="flex-1 min-w-0">
-            <div className="text-[11px] lg:text-xs font-extrabold text-primary uppercase tracking-wide">
+            <div className="text-sm font-extrabold text-primary uppercase tracking-wide">
               继续学习
             </div>
             <div className="mt-0.5 flex items-center gap-1.5 min-w-0">
@@ -82,12 +91,11 @@ export function ContinueLearningCard() {
             </div>
           </div>
           <motion.div
-            whileHover={{ scale: 1.08 }}
-            whileTap={{ scale: 0.94 }}
-            className="shrink-0 w-12 h-12 lg:w-16 lg:h-16 rounded-2xl bg-primary text-white flex items-center justify-center"
-            style={{ boxShadow: "0 4px 0 0 #58a700" }}
+            whileHover={{ y: -1 }}
+            whileTap={{ y: 3 }}
+            className="continue-play shrink-0 w-12 h-12 lg:w-14 lg:h-14 rounded-2xl flex items-center justify-center"
           >
-            <span className="text-2xl font-extrabold">▶</span>
+            <span className="text-xl font-bold">▶</span>
           </motion.div>
         </div>
 
@@ -120,13 +128,6 @@ export function ActiveBookSync({ bookId, grade }: { bookId: string; grade: numbe
 
 const SUBJECT_ORDER: SubjectId[] = ["math", "chinese", "english", "science"];
 
-const SUBJECT_STYLE: Record<SubjectId, { color: string; glyph: string }> = {
-  math: { color: "#58CC02", glyph: "数" },
-  chinese: { color: "#FF4B4B", glyph: "语" },
-  english: { color: "#1CB0F6", glyph: "A" },
-  science: { color: "#FFC800", glyph: "科" },
-};
-
 function subjectOf(b: Book): SubjectId {
   return (b.subject ?? "math") as SubjectId;
 }
@@ -144,8 +145,6 @@ export function CurrentBookBadge({
   const router = useRouter();
   const setActiveBookId = useProgressStore(s => s.setActiveBookId);
   const setSelectedGrade = useProgressStore(s => s.setSelectedGrade);
-
-  const cur = SUBJECT_STYLE[subjectOf(book)];
 
   // 学科序 + 学期序（上册在前）
   const sorted = [...gradeBooks].sort((a, b) => {
@@ -187,13 +186,7 @@ export function CurrentBookBadge({
         className="inline-flex items-center gap-1.5 min-h-11 px-3 rounded-xl bg-white border-2 border-bg-softer hover:border-primary/50 transition-colors select-none min-w-0"
         style={{ boxShadow: "0 2px 0 0 var(--shadow-card-color)" }}
       >
-        <span
-          aria-hidden
-          className="w-5 h-5 rounded-full text-white text-[10px] font-extrabold inline-flex items-center justify-center shrink-0"
-          style={{ backgroundColor: cur.color }}
-        >
-          {cur.glyph}
-        </span>
+        <SubjectBookIcon subject={subjectOf(book)} className="w-6 h-7 shrink-0" />
         <span className="text-xs font-extrabold text-ink break-words max-w-[150px]">
           {book.subjectName ?? ""}
           {book.textbookName}
@@ -211,7 +204,6 @@ export function CurrentBookBadge({
 
         <div className="flex flex-col gap-2 max-h-[52vh] overflow-y-auto pr-0.5">
           {sorted.map(b => {
-            const s = SUBJECT_STYLE[subjectOf(b)];
             const isCurrent = b.id === book.id;
             return (
               <button
@@ -221,18 +213,12 @@ export function CurrentBookBadge({
                 className={cn(
                   "flex items-center gap-3 px-3 py-3 rounded-2xl border-2 text-left transition-colors select-none",
                   isCurrent
-                    ? "border-primary bg-primary/5"
+                    ? "border-secondary bg-secondary/10"
                     : "border-bg-softer bg-white hover:border-primary/40",
                 )}
                 aria-current={isCurrent ? "true" : undefined}
               >
-                <span
-                  aria-hidden
-                  className="w-9 h-9 rounded-xl text-white text-base font-extrabold inline-flex items-center justify-center shrink-0"
-                  style={{ backgroundColor: s.color, boxShadow: "inset 0 -2px 0 0 rgba(0,0,0,0.12)" }}
-                >
-                  {s.glyph}
-                </span>
+                <SubjectBookIcon subject={subjectOf(b)} className="w-9 h-10 shrink-0" />
                 <span className="flex-1 min-w-0">
                   <span className="block text-sm font-extrabold text-ink break-words">
                     {b.subjectName ?? ""}

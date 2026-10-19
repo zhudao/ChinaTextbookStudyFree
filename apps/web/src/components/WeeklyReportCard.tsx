@@ -12,60 +12,24 @@
 
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { dateKey, weekDateKeys, weekStartKey } from "@cstf/core/week";
+import { dateKey, weeklyStudyReport } from "@cstf/core/week";
+import { useProgressTicker } from "@/lib/useProgressTicker";
 import { useProgressStore } from "@/store/progress";
 import { Calendar, TrendingUp, Lightning } from "@/components/icons";
-
-const WEEKDAY_LABELS = ["一", "二", "三", "四", "五", "六", "日"];
 
 export function WeeklyReportCard() {
   const xpHistory = useProgressStore(s => s.xpHistory);
   const lessonHistory = useProgressStore(s => s.lessonHistory);
 
-  const data = useMemo(() => {
-    // 周窗口一律走 core week.ts（周一→周日），不再本地手写 startOfWeek / 滚动 7 天
-    const now = new Date();
-    const todayKey = dateKey(now);
-    const thisWeekKeys = weekDateKeys(weekStartKey(now));
-    // 上周：weekDateKeys 会把"周内任意一天"归一到周一，所以喂"7 天前的今天"即可
-    const lastWeekKeys = weekDateKeys(
-      dateKey(new Date(now.getFullYear(), now.getMonth(), now.getDate() - 7)),
-    );
+  const studyDays = useProgressStore(s => s.studyDays);
+  const completedReadings = useProgressStore(s => s.completedReadings);
+  const today = dateKey(new Date(useProgressTicker()));
+  const data = useMemo(() => weeklyStudyReport({ xpHistory, lessonHistory, studyDays, completedReadings }),
+    [xpHistory, lessonHistory, studyDays, completedReadings, today]);
+  return <WeeklyReportView data={data} />;
+}
 
-    const thisWeek = thisWeekKeys.map((key, i) => ({
-      date: key,
-      label: WEEKDAY_LABELS[i],
-      xp: xpHistory[key] ?? 0,
-      isToday: key === todayKey,
-    }));
-    let lastWeekXp = 0;
-    let lastWeekLessons = 0;
-    for (const key of lastWeekKeys) {
-      lastWeekXp += xpHistory[key] ?? 0;
-      lastWeekLessons += lessonHistory[key] ?? 0;
-    }
-
-    const totalXp = thisWeek.reduce((sum, x) => sum + x.xp, 0);
-    const totalLessons = thisWeek.reduce(
-      (sum, x) => sum + (lessonHistory[x.date] ?? 0),
-      0,
-    );
-    const activeDays = thisWeek.filter(x => x.xp > 0).length;
-    const maxXp = Math.max(10, ...thisWeek.map(x => x.xp));
-    const xpDelta = totalXp - lastWeekXp;
-    const lessonDelta = totalLessons - lastWeekLessons;
-
-    return {
-      thisWeek,
-      totalXp,
-      totalLessons,
-      activeDays,
-      maxXp,
-      xpDelta,
-      lessonDelta,
-    };
-  }, [xpHistory, lessonHistory]);
-
+export function WeeklyReportView({ data }: { data: ReturnType<typeof weeklyStudyReport> }) {
   return (
     <section
       className="bg-white rounded-3xl border-2 border-bg-softer p-5"
@@ -111,13 +75,15 @@ export function WeeklyReportCard() {
             >
               <div
                 className={`w-full rounded-t-md transition-all ${
-                  d.isToday ? "bg-primary" : d.xp > 0 ? "bg-secondary" : "bg-bg-softer"
+                  d.isToday && d.studied ? "bg-primary" : d.studied ? "bg-secondary" : "bg-bg-softer"
                 }`}
                 style={{
-                  height: `${Math.max(6, pct)}%`,
-                  minHeight: d.xp > 0 ? "8px" : "4px",
+                  height: `${Math.max(d.studied ? 12 : 6, pct)}%`,
+                  minHeight: d.studied ? "12px" : "4px",
                 }}
-                title={`${d.label}：${d.xp} XP`}
+                role="img"
+                aria-label={`${d.label}：${d.xp} XP · ${d.studied ? "已学习" : "没有学习记录"}`}
+                title={`${d.label}：${d.xp} XP · ${d.studied ? "已学习" : "没有学习记录"}`}
               />
             </motion.div>
           );
@@ -136,7 +102,8 @@ export function WeeklyReportCard() {
         ))}
       </div>
 
-      {data.totalXp === 0 && (
+      {data.activeDays > 0 && data.totalXp === 0 && <p className="mt-4 text-center text-xs text-ink-light">认真练习、改错都算学习，经验值不代表全部进步。</p>}
+      {data.activeDays === 0 && (
         <p className="mt-4 text-center text-xs text-ink-softer inline-flex items-center justify-center gap-1 w-full">
           <Lightning className="w-3 h-3" />
           本周还没有学习记录，去开始一节课吧

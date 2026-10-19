@@ -56,7 +56,7 @@ export function InnerHeader({
           href={backHref}
           aria-label="返回"
           className={cn(
-            "inline-flex items-center justify-center w-11 h-11 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0",
+            "ui-icon-button text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0",
             flatOnDesktop && "lg:hidden",
           )}
         >
@@ -77,7 +77,7 @@ export function InnerHeader({
           {subtitle && (
             <div
               className={cn(
-                "text-xs lg:text-sm text-ink-light mt-1 leading-relaxed",
+                "text-sm text-ink-light mt-1 leading-relaxed",
                 flatOnDesktop && "lg:text-sm lg:mt-1.5",
               )}
             >
