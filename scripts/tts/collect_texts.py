@@ -28,6 +28,7 @@ import re
 import sys
 from datetime import datetime
 from pathlib import Path
+from math_speech import math_speech
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "output"
@@ -167,7 +168,7 @@ def pick_profile(subject: str, grade: int, language: str) -> tuple[str, str]:
 # 文本规范化 + hash
 # ---------------------------------------------------------------------------
 def normalize(text: str) -> str:
-    return re.sub(r"\s+", " ", text.strip())
+    return math_speech(text)
 
 
 def text_hash(text: str) -> str:

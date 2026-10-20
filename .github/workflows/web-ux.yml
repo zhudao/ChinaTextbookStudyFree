@@ -7,6 +7,8 @@ on:
       - 'packages/core/**'
       - 'output/**'
       - 'scripts/checks/**'
+      - 'scripts/quiz/**'
+      - 'scripts/tts/**'
       - 'docs/ux-content-corrections.json'
       - 'package*.json'
       - '.github/workflows/web-ux.yml'
@@ -37,6 +39,8 @@ jobs:
           npx tsx --tsconfig scripts/checks/tsconfig.json scripts/checks/lesson-boundary.tsx
           npx tsx scripts/checks/question-drafts.ts
           npx tsx scripts/checks/content-math.ts
+          npx tsx scripts/checks/math-speech.ts
+          python scripts/checks/textbook-editions.py
           npx tsx --tsconfig apps/web/tsconfig.json scripts/checks/ux-rewards.ts
           npx tsx scripts/checks/intro-narration.ts
           npx tsx scripts/checks/tts-legacy-audio.ts

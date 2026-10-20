@@ -77,8 +77,11 @@ def main():
         if manifest.get("schema_version") != 1 or manifest.get("tag") != args.tag:
             raise ValueError("Manifest version/tag mismatch")
         assets = {a["name"]: a for a in manifest["assets"]}
+        destinations = dict(DESTINATIONS)
+        if "audio-web-mp3.tar.gz" in assets:
+            destinations["audio-web-mp3.tar.gz"] = "apps/web/public"
         # Verify ALL packages before changing the installation.
-        for name in DESTINATIONS:
+        for name in destinations:
             if not args.archives_dir:
                 print(f"Downloading {name}…", flush=True)
                 urllib.request.urlretrieve(base + "/" + name, cache / name)
@@ -86,7 +89,7 @@ def main():
             if path.stat().st_size != item["bytes"] or sha256(path) != item["sha256"]:
                 raise ValueError(f"Size/SHA-256 mismatch: {name}")
             print(f"Verified {name}", flush=True)
-        for name, destination in DESTINATIONS.items():
+        for name, destination in destinations.items():
             print(f"Installing {name}…", flush=True)
             extract(cache / name, args.root / destination)
         (args.root / "ASSETS-VERSION.json").write_text(json.dumps(manifest, indent=2) + "\n")

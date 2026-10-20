@@ -12,6 +12,7 @@
  */
 
 import { createHash } from "crypto";
+import { mathSpeech } from "../../../packages/core/src/mathSpeech";
 import { curateNumberSenseLesson } from "../../../packages/core/src/numberSense";
 import { existsSync, promises as fs } from "fs";
 import path from "path";
@@ -45,14 +46,14 @@ const STORY_IMAGES_ROOT = path.resolve(ROOT, "public", "story-images");
 
 // ============================================================
 // TTS 音频映射：与 scripts/tts/collect_texts.py 的 hash 规则保持一致
-//   - normalize: trim + 折叠空白
+//   - normalize: 数学公式转朗读文本 + trim + 折叠空白
 //   - hash:      sha1(text)
 //   - rel path:  /audio/<hash[0:2]>/<hash>.opus
 // 仅当对应 opus 已生成时才注入路径，避免前端 404。
 // ============================================================
 
 function normalizeText(text: string): string {
-  return text.trim().replace(/\s+/g, " ");
+  return mathSpeech(text);
 }
 
 function textHash(text: string): string {

@@ -212,7 +212,8 @@ def build_one(item: dict[str, Any], binary: str) -> dict[str, Any]:
         if digest(source) != item["source_sha256"]:
             raise AudioBuildError(f"Source changed during conversion: {item['source_url']}")
         output_hash, output_bytes = digest(temporary), temporary.stat().st_size
-        with temporary.open("rb") as stream:
+        # Windows _commit (used by os.fsync) requires a writable descriptor.
+        with temporary.open("r+b") as stream:
             os.fsync(stream.fileno())
         temporary.chmod(0o644)
         os.replace(temporary, target)

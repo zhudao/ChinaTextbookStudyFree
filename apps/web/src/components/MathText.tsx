@@ -3,12 +3,13 @@
 /**
  * MathText — 把含 $...$ 的字符串拆开，行内 LaTeX 用 KaTeX 渲染。
  *
- * 题目里数学公式都是 $...$ 形式（如 "1分=60秒" 或 "$2+3=5$"），
- * 这个组件负责把普通文本和公式分段渲染。
+ * 支持美元符号及 TeX 圆括号/方括号分隔的行内和块级公式。
+ * 未配对的分隔符保留为普通文本。
  */
 
 import dynamic from "next/dynamic";
 import { Fragment } from "react";
+import { splitMath } from "@/lib/math-segments";
 
 // react-katex + katex 的体积较大 (~100KB+)，改为按需加载，
 // 让 LessonRunner 初次渲染时不阻塞在 KaTeX chunk 上。
@@ -34,36 +35,7 @@ interface MathTextProps {
 }
 
 export function MathText({ text, block = false }: MathTextProps) {
-  // 用 $...$ 分段（也支持 $$...$$ 块级）
-  const parts: { type: "text" | "inline" | "block"; value: string }[] = [];
-  let i = 0;
-  while (i < text.length) {
-    if (text[i] === "$") {
-      // 查找配对的 $
-      const isBlock = text[i + 1] === "$";
-      const open = isBlock ? 2 : 1;
-      const end = text.indexOf(isBlock ? "$$" : "$", i + open);
-      if (end === -1) {
-        // 没配对，当普通字符
-        parts.push({ type: "text", value: text.slice(i) });
-        break;
-      }
-      parts.push({
-        type: isBlock ? "block" : "inline",
-        value: text.slice(i + open, end),
-      });
-      i = end + open;
-    } else {
-      // 找到下一个 $
-      const next = text.indexOf("$", i);
-      if (next === -1) {
-        parts.push({ type: "text", value: text.slice(i) });
-        break;
-      }
-      parts.push({ type: "text", value: text.slice(i, next) });
-      i = next;
-    }
-  }
+  const parts = splitMath(text);
 
   return (
     <span>

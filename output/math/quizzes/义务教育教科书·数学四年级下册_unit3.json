@@ -57,10 +57,10 @@
         "score": 2,
         "difficulty": 2,
         "knowledge_point": "连除的简便性质",
-        "question": "$480 16 5 = 480 16 5$ 无法简算，必须按顺序算。",
+        "question": "$480 \\div 16 \\div 5$ 无法简算，必须按顺序算。",
         "options": [],
         "answer": "错",
-        "explanation": "$480 16 5 = 480 5 16$ 或 $480 80$)。故错误。"
+        "explanation": "连续除以两个数，可以除以这两个数的积。$480 \\div 16 \\div 5 = 480 \\div (16 \\times 5) = 480 \\div 80 = 6$，因此原说法错误。"
       },
       {
         "id": 6,

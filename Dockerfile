@@ -19,6 +19,7 @@ COPY packages/core packages/core
 COPY apps/web apps/web
 COPY output output
 COPY scripts/tts/web_audio.py scripts/tts/web_audio.py
+COPY scripts/run-python.mjs scripts/run-python.mjs
 RUN npm run build
 
 FROM nginx:stable-alpine AS runtime

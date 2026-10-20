@@ -634,10 +634,10 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "口算除法与估算",
-        "question": "直接写出结果：$360 \times 40 = ?$",
+        "question": "直接写出结果：$360 \\div 40 = ?$",
         "options": [],
         "answer": "9",
-        "explanation": "$360 \times 40 = 9$。验算：$40 \times 9 = 360$ ✓。"
+        "explanation": "$360 \\div 40 = 9$。验算：$40 \\times 9 = 360$。"
       },
       {
         "id": 23,

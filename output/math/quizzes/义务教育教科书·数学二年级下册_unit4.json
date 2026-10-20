@@ -102,12 +102,12 @@
         "knowledge_point": "用7、8、9的乘法口诀求商",
         "question": "下列算式中，商最大的是哪个？",
         "options": [
-          "32 \bdiv 4",
-          "35 \bdiv 5",
-          "42 \bdiv 6",
-          "49 \bdiv 7"
+          "$32 \\div 4$",
+          "$35 \\div 5$",
+          "$42 \\div 6$",
+          "$49 \\div 7$"
         ],
-        "answer": "32 \bdiv 4",
+        "answer": "$32 \\div 4$",
         "explanation": "A: $32 \bdiv 4 = 8$；B: $35 \bdiv 5 = 7$；C: $42 \bdiv 6 = 7$；D: $49 \bdiv 7 = 7$。8 最大。"
       },
       {
@@ -566,12 +566,12 @@
         "knowledge_point": "除法算式的规律整理",
         "question": "下列算式中商不是 9 的是哪个？",
         "options": [
-          "27 \bdiv 3",
-          "72 \bdiv 8",
-          "54 \bdiv 6",
-          "45 \bdiv 9"
+          "$27 \\div 3$",
+          "$72 \\div 8$",
+          "$54 \\div 6$",
+          "$45 \\div 9$"
         ],
-        "answer": "45 \bdiv 9",
+        "answer": "$45 \\div 9$",
         "explanation": "A=9, B=9, C=9, D=5。"
       },
       {

@@ -27,7 +27,7 @@ from web_audio import (  # noqa: E402
 
 def actual_ui_references(ui_path: Path) -> list[Reference]:
     pairs = collect_ui(ui_path)
-    tsx = ROOT / "node_modules/.bin/tsx"
+    tsx = ROOT / "node_modules/tsx/dist/cli.mjs"
     if not tsx.is_file():
         raise AudioBuildError("Local tsx is missing; install workspace dependencies to check actual uiAudio().")
     keys = [key for key, _ in pairs]
@@ -39,7 +39,7 @@ def actual_ui_references(ui_path: Path) -> list[Reference]:
     with tempfile.TemporaryDirectory(prefix="web-audio-ui-") as directory:
         entry = Path(directory) / "check-ui.ts"
         entry.write_text(program, "utf-8")
-        result = subprocess.run([str(tsx), "--tsconfig", str(ROOT / "apps/web/tsconfig.json"), str(entry)],
+        result = subprocess.run(["node", str(tsx), "--tsconfig", str(ROOT / "apps/web/tsconfig.json"), str(entry)],
                                 capture_output=True, text=True, timeout=60)
     if result.returncode:
         raise AudioBuildError(f"Cannot execute actual uiAudio(): {result.stderr[-2000:].strip()}")
@@ -170,7 +170,8 @@ def self_test() -> int:
                                      "--ui-audio", str(ui), "--report", str(report), "--manifest", str(manifest),
                                      "--ffmpeg", ffmpeg], capture_output=True, text=True, timeout=120)
             if result.returncode != expect:
-                raise AssertionError(f"Converter exit {result.returncode}, expected {expect}: {result.stdout} {result.stderr}")
+                detail = report.read_text("utf-8") if report.exists() else "No report"
+                raise AssertionError(f"Converter exit {result.returncode}, expected {expect}: {result.stdout} {result.stderr}\n{detail}")
             return json.loads(report.read_text("utf-8"))
         reset_document()
         original_hashes = [digest(opus_mp3), digest(opus_ogg)]

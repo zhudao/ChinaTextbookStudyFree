@@ -29,6 +29,7 @@ import requests
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from openai import OpenAI
+from editions import load_edition, record_edition, pdf_digest
 
 # 项目根目录
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -63,14 +64,9 @@ from subjects import (
 # 配置
 # ============================================================
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
-if not OPENROUTER_API_KEY:
-    print("错误: 请设置环境变量 OPENROUTER_API_KEY")
-    print("  export OPENROUTER_API_KEY='sk-or-...'")
-    sys.exit(1)
-
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=OPENROUTER_API_KEY,
+    api_key=OPENROUTER_API_KEY or "dry-run",
 )
 
 EXTRACT_MODEL = "google/gemini-3.1-flash-lite-preview"
@@ -183,6 +179,18 @@ def migrate_legacy_math_data_if_needed() -> None:
 # ============================================================
 def download_pdf(filename: str, subject_cfg: SubjectConfig, dirs: dict[str, Path]) -> Path:
     out_path = dirs["pdf"] / filename
+    if subject_cfg.get("local_pdf_dir"):
+        source = Path(subject_cfg["local_pdf_dir"]) / filename
+        expected = subject_cfg["edition"]["pdf_sha256"][filename]
+        if pdf_digest(source) != expected:
+            raise ValueError("Source PDF changed after edition validation")
+        if out_path.exists() and out_path.read_bytes() != source.read_bytes():
+            raise ValueError("PDF changed: use a new edition id to avoid stale generated content")
+        if not out_path.exists():
+            shutil.copyfile(source, out_path)
+        if pdf_digest(out_path) != expected:
+            raise ValueError("Cached PDF does not match edition fingerprint")
+        return out_path
     if out_path.exists():
         print(f"  [跳过] {filename} 已存在")
         return out_path
@@ -554,8 +562,7 @@ def process_textbook(filename: str, subject_id: str, batch_size: int = 10):
     units = outline.get("units", [])
 
     if not units:
-        print(f"  [跳过] 没有解析到单元信息")
-        return
+        raise ValueError("No units found in textbook outline")
 
     todo_units = []
     for unit in units:
@@ -583,6 +590,7 @@ def process_textbook(filename: str, subject_id: str, batch_size: int = 10):
         knowledge_file.write_text(generate_knowledge_markdown(quiz_data), encoding="utf-8")
         return unit, issues
 
+    failures = []
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
         futures = {ex.submit(_do_unit, u): u for u in todo_units}
         for fut in as_completed(futures):
@@ -593,6 +601,9 @@ def process_textbook(filename: str, subject_id: str, batch_size: int = 10):
                 print(f"    [完成] 第{u['unit_number']}单元 {u['title']}{tag}")
             except Exception as e:
                 print(f"    [错误] 第{unit['unit_number']}单元: {e}")
+                failures.append(unit['unit_number'])
+    if failures:
+        raise RuntimeError(f"Failed units: {failures}")
 
 
 # ============================================================
@@ -605,14 +616,14 @@ def run_subject(subject_id: str, only: str | None, batch_size: int):
     if only:
         textbooks = [t for t in textbooks if only in t]
         if not textbooks:
-            print(f"[{subject_id}] 未找到包含 '{only}' 的教材")
-            return
+            raise ValueError(f"[{subject_id}] 未找到包含 '{only}' 的教材")
 
     print(f"\n{'#' * 60}")
     print(f"# 学科: {subject_cfg['display_name']} ({subject_id})")
     print(f"# 教材数量: {len(textbooks)}")
     print(f"{'#' * 60}")
 
+    failures = []
     for filename in textbooks:
         try:
             process_textbook(filename, subject_id, batch_size)
@@ -620,14 +631,18 @@ def run_subject(subject_id: str, only: str | None, batch_size: int):
             print(f"  [错误] {filename}: {e}")
             import traceback
             traceback.print_exc()
-            continue
+            failures.append(filename)
+    if failures:
+        raise RuntimeError(f"Failed textbooks: {failures}")
 
 
 # ============================================================
 # CLI 入口
 # ============================================================
 def main():
+    global OUTPUT_DIR
     parser = argparse.ArgumentParser(description="小学多学科教材 AI 题库生成 Pipeline v3")
+    parser.add_argument("--edition-config", type=Path, help="Explicit local-PDF edition manifest")
     parser.add_argument(
         "--subject", type=str, default="math",
         choices=["math", "chinese", "english", "science", "all"],
@@ -651,6 +666,23 @@ def main():
     )
     args = parser.parse_args()
 
+    if args.edition_config:
+        if args.subject == "all":
+            parser.error("--edition-config requires one --subject")
+        try:
+            cfg = load_edition(args.edition_config.resolve(), args.subject, SUBJECTS[args.subject])
+        except (ValueError, OSError, TypeError) as error:
+            parser.error(str(error))
+        SUBJECTS[args.subject] = cfg
+        OUTPUT_DIR = OUTPUT_DIR / "editions" / cfg["edition"]["id"]
+        if not args.dry_run and not args.list_subjects:
+            if not OPENROUTER_API_KEY:
+                parser.error("Set OPENROUTER_API_KEY before generating content")
+            try:
+                record_edition(OUTPUT_DIR, cfg["edition"])
+            except (ValueError, OSError) as error:
+                parser.error(str(error))
+
     if args.list_subjects:
         for sid in ALL_SUBJECT_IDS:
             cfg = SUBJECTS[sid]
@@ -665,7 +697,9 @@ def main():
         return
 
     # 数学旧数据兜底迁移
-    if args.subject in ("math", "all"):
+    if not args.dry_run and not args.list_subjects and not OPENROUTER_API_KEY:
+        parser.error("Set OPENROUTER_API_KEY before generating content")
+    if not args.edition_config and not args.dry_run and args.subject in ("math", "all"):
         migrate_legacy_math_data_if_needed()
 
     print("=" * 60)
