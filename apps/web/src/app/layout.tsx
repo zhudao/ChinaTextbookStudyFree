@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { LEARNER_BOOT_SCRIPT } from "@/lib/learnerProfiles";
 import { Nunito } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
@@ -46,14 +47,15 @@ export const viewport: Viewport = {
  */
 const bootScript = `
 (function () {
+  ${LEARNER_BOOT_SCRIPT}
   try {
     var DARK_THEMES = { theme_midnight: "#0F1419", theme_obsidian: "#08090C" };
     var equipped = "";
     try {
-      var raw = localStorage.getItem("csf-progress-v1");
+      var raw = localStorage.getItem(learnerKey("csf-progress-v1"));
       if (raw) equipped = (JSON.parse(raw).state || {}).equippedTheme || "";
     } catch (e) {}
-    var mode = localStorage.getItem("csf-theme-mode");
+    var mode = localStorage.getItem(learnerKey("csf-theme-mode"));
     var sysDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
     var cosmeticDark = Object.prototype.hasOwnProperty.call(DARK_THEMES, equipped);
     var dark = cosmeticDark || mode === "dark" || (mode !== "light" && sysDark);

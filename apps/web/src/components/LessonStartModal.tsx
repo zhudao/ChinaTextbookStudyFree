@@ -39,6 +39,7 @@ interface LessonStartModalProps {
   title: string;
   questionCount: number;
   unitNumber: number;
+  unitLabel?: string;
   kpIndex: number;
   kpTotal: number;
   /** ⚔️ 单元挑战课：XP ×2 预估 + 挑战徽章（kpIndex/kpTotal 不展示） */
@@ -53,6 +54,7 @@ export function LessonStartModal({
   title,
   questionCount,
   unitNumber,
+  unitLabel,
   kpIndex,
   kpTotal,
   isExam = false,
@@ -130,7 +132,7 @@ export function LessonStartModal({
       <div className="flex flex-col items-center text-center">
         <Mascot mood={canStart ? "happy" : "sad"} size={88} />
         <div className="text-[11px] uppercase tracking-wider text-ink-softer mt-4 font-extrabold">
-          {isExam ? `第 ${unitNumber} 单元 · 单元挑战` : `第 ${unitNumber} 单元 · ${kpIndex + 1}/${kpTotal}`}
+          {isExam ? `${unitLabel ?? `第 ${unitNumber} 单元`} · 单元挑战` : `${unitLabel ?? `第 ${unitNumber} 单元`} · ${kpIndex + 1}/${kpTotal}`}
         </div>
         <h2 className="text-2xl font-extrabold text-ink mt-2 leading-tight">{title}</h2>
 

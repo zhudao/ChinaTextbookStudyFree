@@ -1,5 +1,6 @@
 "use client";
 
+import { LearnerProfiles } from "@/components/LearnerProfiles";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { SoundLink } from "@/components/SoundLink";
 import { motion } from "framer-motion";
@@ -101,6 +102,8 @@ export function ProfileClient() {
         <div className="mb-6">
           <DailyQuestsPanel />
         </div>
+
+        <LearnerProfiles />
 
         {/* 统计卡片网格 */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">

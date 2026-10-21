@@ -1,0 +1,345 @@
+{
+  "textbook": "人教版小学数学二年级上册（2026秋版）",
+  "unit": "1～6的表内除法",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "1～6的表内除法配套练习",
+    "total_score": 120,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求每份多少",
+        "question": "把6颗糖分成两份，哪种分法是平均分？",
+        "options": [
+          "每份3颗",
+          "一份2颗一份4颗",
+          "一份1颗一份5颗",
+          "一份6颗一份0颗"
+        ],
+        "answer": "每份3颗",
+        "explanation": "3颗和3颗一样多。"
+      },
+      {
+        "id": 2,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求每份多少",
+        "question": "12支笔平均分给3人，每人几支？",
+        "options": [],
+        "answer": "4",
+        "explanation": "12÷3=4。"
+      },
+      {
+        "id": 3,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求每份多少",
+        "question": "10个桃子平均放在2个盘里，每盘几个？",
+        "options": [],
+        "answer": "5",
+        "explanation": "10÷2=5。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求每份多少",
+        "question": "把8块饼干分成3块和5块，是平均分。",
+        "options": [],
+        "answer": "错",
+        "explanation": "两份数量不同，不是平均分。"
+      },
+      {
+        "id": 5,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求每份多少",
+        "question": "18张卡片平均分给6人，每人几张？",
+        "options": [],
+        "answer": "3",
+        "explanation": "18÷6=3。"
+      },
+      {
+        "id": 6,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求每份多少",
+        "question": "6个苹果平均分给1人，这个人得到几个？",
+        "options": [],
+        "answer": "6",
+        "explanation": "6÷1=6。"
+      },
+      {
+        "id": 7,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求有几份",
+        "question": "12颗糖每3颗装一袋，可以装几袋？",
+        "options": [],
+        "answer": "4",
+        "explanation": "12÷3=4，商表示袋数。"
+      },
+      {
+        "id": 8,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求有几份",
+        "question": "18朵花每6朵插一瓶，可插几瓶？",
+        "options": [],
+        "answer": "3",
+        "explanation": "18÷6=3。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求有几份",
+        "question": "20个苹果，每5个装一袋。20÷5=4中的4表示什么？",
+        "options": [
+          "4袋",
+          "每袋4个",
+          "一共有4个苹果",
+          "还剩4个苹果"
+        ],
+        "answer": "4袋",
+        "explanation": "每袋5个，4表示可以装成的袋数。"
+      },
+      {
+        "id": 10,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求有几份",
+        "question": "15支笔每3支装一盒，可以装5盒。",
+        "options": [],
+        "answer": "对",
+        "explanation": "15÷3=5。"
+      },
+      {
+        "id": 11,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求有几份",
+        "question": "24人每6人一组，可以分成几组？",
+        "options": [],
+        "answer": "4",
+        "explanation": "24÷6=4。"
+      },
+      {
+        "id": 12,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均分：求有几份",
+        "question": "8块饼干每2块装一包，可以装几包？",
+        "options": [],
+        "answer": "4",
+        "explanation": "8÷2=4。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法的认识与口诀求商",
+        "question": "在18÷3=6中，3叫什么？",
+        "options": [
+          "除数",
+          "被除数",
+          "商",
+          "积"
+        ],
+        "answer": "除数",
+        "explanation": "18是被除数，3是除数，6是商。"
+      },
+      {
+        "id": 14,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法的认识与口诀求商",
+        "question": "24÷4等于多少？",
+        "options": [],
+        "answer": "6",
+        "explanation": "想四六二十四，商是6。"
+      },
+      {
+        "id": 15,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法的认识与口诀求商",
+        "question": "30÷6等于多少？",
+        "options": [],
+        "answer": "5",
+        "explanation": "想五六三十，商是5。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法的认识与口诀求商",
+        "question": "计算12÷3可用哪句口诀？",
+        "options": [
+          "三四十二",
+          "二三得六",
+          "二五一十",
+          "三六十八"
+        ],
+        "answer": "三四十二",
+        "explanation": "3乘4等于12，所以商是4。"
+      },
+      {
+        "id": 17,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法的认识与口诀求商",
+        "question": "求20÷5的商，可以想5乘几等于20。",
+        "options": [],
+        "answer": "对",
+        "explanation": "四五二十，所以20÷5=4。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法的认识与口诀求商",
+        "question": "36÷6等于多少？",
+        "options": [],
+        "answer": "6",
+        "explanation": "六六三十六。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6除法整理和应用",
+        "question": "每本练习本3元，18元可以买几本？",
+        "options": [],
+        "answer": "6",
+        "explanation": "18÷3=6。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6除法整理和应用",
+        "question": "24颗珠子平均串成4条手链，每条几颗？",
+        "options": [],
+        "answer": "6",
+        "explanation": "24÷4=6。"
+      },
+      {
+        "id": 21,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6除法整理和应用",
+        "question": "每盒6块积木，有4盒。求总块数应怎么算？",
+        "options": [
+          "6×4",
+          "6÷4",
+          "6-4",
+          "6+4"
+        ],
+        "answer": "6×4",
+        "explanation": "已知每份数和份数，求总数用乘法。"
+      },
+      {
+        "id": 22,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6除法整理和应用",
+        "question": "把16个橘子平均分给4人，每人4个。",
+        "options": [],
+        "answer": "对",
+        "explanation": "16÷4=4，用4×4=16检查。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6除法整理和应用",
+        "question": "15朵花每3朵一束，可以扎几束？",
+        "options": [],
+        "answer": "5",
+        "explanation": "15÷3=5。"
+      },
+      {
+        "id": 24,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6除法整理和应用",
+        "question": "买5支同样的笔共花20元，每支几元？",
+        "options": [],
+        "answer": "4",
+        "explanation": "20÷5=4。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "1～6的表内除法复习练习",
+    "total_score": 0,
+    "time_minutes": 20,
+    "questions": []
+  },
+  "knowledge_summary": [
+    {
+      "point": "平均分：求每份多少",
+      "core_concept": "每份分得同样多叫平均分。已知总数和份数，可以求每份的数量。",
+      "key_formula": "总数÷份数=每份数。",
+      "common_mistakes": [
+        "平均分要求每份同样多，不能只看是否分完。"
+      ],
+      "tips": "分完后比较每一份，再把各份合起来检查总数。"
+    },
+    {
+      "point": "平均分：求有几份",
+      "core_concept": "每几个分成一份，求能分成几份，也可以用除法。",
+      "key_formula": "总数÷每份数=份数。",
+      "common_mistakes": [
+        "区分题目是在问每份几个，还是一共有几份。"
+      ],
+      "tips": "用圈一圈、分一分的方法理解每份数与份数。"
+    },
+    {
+      "point": "除法的认识与口诀求商",
+      "core_concept": "除法表示平均分。用乘法口诀想几乘除数等于被除数，就能求出商。",
+      "key_formula": "被除数÷除数=商；商×除数=被除数。",
+      "common_mistakes": [
+        "除数不能是0；除法算式中各数有自己的名称。"
+      ],
+      "tips": "把除法变成想乘法，用乘法验算。"
+    },
+    {
+      "point": "1～6除法整理和应用",
+      "core_concept": "根据平均分的两种情况列除法算式，并联系乘法检查结果。",
+      "key_formula": "求每份数或份数都可以用除法。",
+      "common_mistakes": [
+        "不要把求总数的乘法问题与平均分的除法问题混淆。"
+      ],
+      "tips": "画出每份的分组，再说明商的意思。"
+    }
+  ]
+}

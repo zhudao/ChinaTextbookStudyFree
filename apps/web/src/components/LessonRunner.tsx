@@ -1799,7 +1799,7 @@ function IntroCard({
       {/* 单元 & 课程标题（小） */}
       <div className="max-w-md lg:max-w-2xl mx-auto w-full px-5 pt-3 text-center">
         <div className="text-xs font-bold text-ink-softer uppercase tracking-wide">
-          第 {lesson.unitNumber} 单元 · {lesson.unitTitle}
+          {lesson.unitLabel ?? `第 ${lesson.unitNumber} 单元`} · {lesson.unitTitle}
         </div>
         <div className="text-base font-extrabold text-ink-light mt-0.5 truncate">
           {lesson.title}

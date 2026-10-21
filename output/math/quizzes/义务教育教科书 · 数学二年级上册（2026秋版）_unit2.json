@@ -1,0 +1,510 @@
+{
+  "textbook": "人教版小学数学二年级上册（2026秋版）",
+  "unit": "1～6的表内乘法",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "1～6的表内乘法配套练习",
+    "total_score": 180,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法的初步认识",
+        "question": "4+4+4的和是多少？",
+        "options": [],
+        "answer": "12",
+        "explanation": "3个4相加，4×3=12。"
+      },
+      {
+        "id": 2,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法的初步认识",
+        "question": "3+3+3+3表示什么？",
+        "options": [
+          "4个3相加",
+          "3个4相加",
+          "4个4相加",
+          "3个3相加"
+        ],
+        "answer": "4个3相加",
+        "explanation": "加数3出现了4次。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法的初步认识",
+        "question": "2+3+4可以直接改写成3×3，表示3个相同加数相加。",
+        "options": [],
+        "answer": "错",
+        "explanation": "2、3、4不是相同加数，虽然和也是9，但原来的分组意义不同。"
+      },
+      {
+        "id": 4,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法的初步认识",
+        "question": "在2×5=10中，10叫什么？",
+        "options": [
+          "积",
+          "和",
+          "差",
+          "乘数"
+        ],
+        "answer": "积",
+        "explanation": "乘法计算的结果叫积。"
+      },
+      {
+        "id": 5,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法的初步认识",
+        "question": "每盘有2个桃子，5盘一共有多少个？",
+        "options": [],
+        "answer": "10",
+        "explanation": "2×5=10。"
+      },
+      {
+        "id": 6,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法的初步认识",
+        "question": "6个1相加是多少？",
+        "options": [],
+        "answer": "6",
+        "explanation": "1×6=6。"
+      },
+      {
+        "id": 7,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "5的乘法口诀",
+        "question": "5×3等于多少？",
+        "options": [],
+        "answer": "15",
+        "explanation": "三五十五，所以5×3=15。"
+      },
+      {
+        "id": 8,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "5的乘法口诀",
+        "question": "4×5等于多少？",
+        "options": [],
+        "answer": "20",
+        "explanation": "四五二十。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "5的乘法口诀",
+        "question": "计算2×5可以用哪句口诀？",
+        "options": [
+          "二五一十",
+          "二三得六",
+          "四五二十",
+          "五五二十五"
+        ],
+        "answer": "二五一十",
+        "explanation": "2个5的和是10。"
+      },
+      {
+        "id": 10,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "5的乘法口诀",
+        "question": "5×5=10。",
+        "options": [],
+        "answer": "错",
+        "explanation": "5个5相加是25，不是两个5相加。"
+      },
+      {
+        "id": 11,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "5的乘法口诀",
+        "question": "每盒5支彩笔，3盒共有几支？",
+        "options": [],
+        "answer": "15",
+        "explanation": "5×3=15。"
+      },
+      {
+        "id": 12,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "5的乘法口诀",
+        "question": "已知4个5是20，5个5比它多多少？",
+        "options": [],
+        "answer": "5",
+        "explanation": "增加一个5，就多5。"
+      },
+      {
+        "id": 13,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、3、4的乘法口诀",
+        "question": "2×4等于多少？",
+        "options": [],
+        "answer": "8",
+        "explanation": "二四得八。"
+      },
+      {
+        "id": 14,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、3、4的乘法口诀",
+        "question": "3×4等于多少？",
+        "options": [],
+        "answer": "12",
+        "explanation": "三四十二。"
+      },
+      {
+        "id": 15,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、3、4的乘法口诀",
+        "question": "4×4等于多少？",
+        "options": [],
+        "answer": "16",
+        "explanation": "四四十六。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、3、4的乘法口诀",
+        "question": "哪一个算式的积是6？",
+        "options": [
+          "2×3",
+          "2×2",
+          "3×3",
+          "4×2"
+        ],
+        "answer": "2×3",
+        "explanation": "二三得六。"
+      },
+      {
+        "id": 17,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、3、4的乘法口诀",
+        "question": "3×2和2×3的积相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两个算式的积都是6。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、3、4的乘法口诀",
+        "question": "每人拿3张纸，4人共拿几张？",
+        "options": [],
+        "answer": "12",
+        "explanation": "3×4=12。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减",
+        "question": "3×4+2等于多少？",
+        "options": [],
+        "answer": "14",
+        "explanation": "先算3×4=12，再算12+2=14。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减",
+        "question": "5×3-4等于多少？",
+        "options": [],
+        "answer": "11",
+        "explanation": "先算5×3=15，再算15-4=11。"
+      },
+      {
+        "id": 21,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减",
+        "question": "2+4×3应先算哪一步？",
+        "options": [
+          "4×3",
+          "2+4",
+          "2+3",
+          "4+3"
+        ],
+        "answer": "4×3",
+        "explanation": "乘法先于加法。"
+      },
+      {
+        "id": 22,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减",
+        "question": "4×3-2=4×1。",
+        "options": [],
+        "answer": "错",
+        "explanation": "左边先算4×3=12，再减2得10；右边是4。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减",
+        "question": "3盒每盒4支笔，另外还有1支，一共有几支？",
+        "options": [],
+        "answer": "13",
+        "explanation": "4×3+1=13。"
+      },
+      {
+        "id": 24,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减",
+        "question": "4排椅子每排5把，搬走3把，还剩几把？",
+        "options": [],
+        "answer": "17",
+        "explanation": "5×4-3=17。"
+      },
+      {
+        "id": 25,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6的乘法口诀",
+        "question": "6×2等于多少？",
+        "options": [],
+        "answer": "12",
+        "explanation": "二六十二。"
+      },
+      {
+        "id": 26,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6的乘法口诀",
+        "question": "6×4等于多少？",
+        "options": [],
+        "answer": "24",
+        "explanation": "四六二十四。"
+      },
+      {
+        "id": 27,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6的乘法口诀",
+        "question": "5×6等于多少？",
+        "options": [],
+        "answer": "30",
+        "explanation": "五六三十。"
+      },
+      {
+        "id": 28,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6的乘法口诀",
+        "question": "六六这句口诀的结果是多少？",
+        "options": [
+          "三十六",
+          "三十",
+          "二十四",
+          "四十二"
+        ],
+        "answer": "三十六",
+        "explanation": "6个6相加是36。"
+      },
+      {
+        "id": 29,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6的乘法口诀",
+        "question": "3×6比2×6多6。",
+        "options": [],
+        "answer": "对",
+        "explanation": "3个6比2个6多一个6。"
+      },
+      {
+        "id": 30,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6的乘法口诀",
+        "question": "每组6人，4组共有几人？",
+        "options": [],
+        "answer": "24",
+        "explanation": "6×4=24。"
+      },
+      {
+        "id": 31,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6乘法整理和复习",
+        "question": "每袋4颗糖，买3袋，求共有几颗，应选哪个算式？",
+        "options": [
+          "4×3",
+          "4+3",
+          "4-3",
+          "4×4"
+        ],
+        "answer": "4×3",
+        "explanation": "每份4颗，共3份，用乘法。"
+      },
+      {
+        "id": 32,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6乘法整理和复习",
+        "question": "2×6+3等于多少？",
+        "options": [],
+        "answer": "15",
+        "explanation": "先乘后加：12+3=15。"
+      },
+      {
+        "id": 33,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6乘法整理和复习",
+        "question": "6×6-6等于多少？",
+        "options": [],
+        "answer": "30",
+        "explanation": "36-6=30，也就是5个6。"
+      },
+      {
+        "id": 34,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6乘法整理和复习",
+        "question": "有5朵红花和3朵黄花，求总朵数应算5×3。",
+        "options": [],
+        "answer": "错",
+        "explanation": "两种花的数量相加，5+3=8。"
+      },
+      {
+        "id": 35,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6乘法整理和复习",
+        "question": "每条船坐4人，5条船全部坐满，共有几人？",
+        "options": [],
+        "answer": "20",
+        "explanation": "4×5=20。"
+      },
+      {
+        "id": 36,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1～6乘法整理和复习",
+        "question": "哪两个算式的结果相同？",
+        "options": [
+          "3×4和4×3",
+          "2×3和2+3",
+          "5×2和5+2",
+          "6×2和6-2"
+        ],
+        "answer": "3×4和4×3",
+        "explanation": "交换乘数位置，积不变。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "1～6的表内乘法复习练习",
+    "total_score": 0,
+    "time_minutes": 20,
+    "questions": []
+  },
+  "knowledge_summary": [
+    {
+      "point": "乘法的初步认识",
+      "core_concept": "求几个相同加数的和，可以用乘法表示。乘号两边是乘数，结果是积。",
+      "key_formula": "相同加数×相同加数的个数=总数。",
+      "common_mistakes": [
+        "不同加数直接相加，不能随便改写为一个乘法算式。"
+      ],
+      "tips": "先找每份几个，再找有几份。"
+    },
+    {
+      "point": "5的乘法口诀",
+      "core_concept": "5的乘法口诀表示几个5相加，积依次增加5。",
+      "key_formula": "一五得五，二五一十，三五十五，四五二十，五五二十五。",
+      "common_mistakes": [
+        "几个5相加不能误算成5加上几。"
+      ],
+      "tips": "忘记一句时，可以从前一句的结果再加5。"
+    },
+    {
+      "point": "2、3、4的乘法口诀",
+      "core_concept": "用2、3、4的乘法口诀求相应的积。交换两个乘数的位置，积不变。",
+      "key_formula": "二三得六，三四十二，四四十六。",
+      "common_mistakes": [
+        "区别乘数和积，不要把2×4算成2+4。"
+      ],
+      "tips": "可以用连续加相同的数检查口诀。"
+    },
+    {
+      "point": "乘加、乘减",
+      "core_concept": "规则排列中多出或少了几个，可以先算整齐部分，再加上或减去。",
+      "key_formula": "在不含括号的乘加、乘减算式中，先乘后加减。",
+      "common_mistakes": [
+        "不要把先算乘法误记成一律从左向右。"
+      ],
+      "tips": "把完整的几组圈出来，再处理多余或缺少的部分。"
+    },
+    {
+      "point": "6的乘法口诀",
+      "core_concept": "用6的乘法口诀计算几个6相加的结果。",
+      "key_formula": "一六得六，二六十二，三六十八，四六二十四，五六三十，六六三十六。",
+      "common_mistakes": [
+        "别把四六二十四和四五二十混淆。"
+      ],
+      "tips": "相邻两个结果相差6，可以用加减6检查。"
+    },
+    {
+      "point": "1～6乘法整理和复习",
+      "core_concept": "根据每份数和份数选择乘法，把算式、口诀与实际问题联系起来。",
+      "key_formula": "每份数×份数=总数。",
+      "common_mistakes": [
+        "求两个不同数量的和用加法，不要看到两个数就用乘法。"
+      ],
+      "tips": "先说清每个数表示什么，再列式。"
+    }
+  ]
+}

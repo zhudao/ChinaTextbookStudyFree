@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
+import { SoundLink } from "@/components/SoundLink";
 import { StatsBar } from "@/components/StatsBar";
 import { AppShell } from "@/components/layout/AppShell";
 import {
@@ -60,6 +61,10 @@ export default async function BookPage({ params }: { params: Promise<{ book: str
       </div>
 
       {/* 听读与故事入口统一由路径顶栏承载。 */}
+      {book.supersededBy && <p className="p-4 text-sm text-ink-light">
+        当前为旧版教材，原学习记录保留。
+        <SoundLink href={`/book/${book.supersededBy}/`} className="ml-2 font-bold text-primary">进入新版教材 →</SoundLink>
+      </p>}
       <BookPathSection bookId={bookId} outline={outline} book={book} />
     </main>
     </AppShell>

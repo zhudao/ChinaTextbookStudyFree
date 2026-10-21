@@ -6,6 +6,7 @@ import { useProgressStore } from "@/store/progress";
 import { GradePicker } from "@/components/GradePicker";
 
 interface HomeClientProps {
+  bookReplacements?: Record<string, string>;
   grades: number[];
   byGrade: Record<number, number>;
   totalBooks: number;
@@ -22,7 +23,7 @@ interface HomeClientProps {
  * 换年级会把 selectedGrade 清空；此时残留的 activeBookId 已属于旧年级，
  * 在这里顺手清掉（自愈），避免下次打开又跳回旧教材。
  */
-export function HomeClient(_props: HomeClientProps) {
+export function HomeClient({ bookReplacements = {} }: HomeClientProps) {
   const selectedGrade = useProgressStore(s => s.selectedGrade);
   const activeBookId = useProgressStore(s => s.activeBookId);
   const setActiveBookId = useProgressStore(s => s.setActiveBookId);
@@ -39,15 +40,15 @@ export function HomeClient(_props: HomeClientProps) {
       return;
     }
     if (activeBookId) {
-      router.replace(`/book/${activeBookId}/`);
+      router.replace(`/book/${bookReplacements[activeBookId] ?? activeBookId}/`);
     } else {
       router.replace(`/grade/${selectedGrade}/`);
     }
-  }, [hydrated, selectedGrade, activeBookId, setActiveBookId, router]);
+  }, [hydrated, selectedGrade, activeBookId, setActiveBookId, router, bookReplacements]);
 
   // 跳转前渲染空底色占位，避免闪 GradePicker
   if (!hydrated || selectedGrade != null) {
-    return <div className="min-h-screen bg-bg" />;
+    return <main className="min-h-screen bg-bg" aria-busy="true" />;
   }
 
   return <GradePicker />;

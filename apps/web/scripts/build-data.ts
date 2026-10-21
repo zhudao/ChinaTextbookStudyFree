@@ -544,10 +544,16 @@ async function processTextbook(
     return null;
   }
 
-  const { grade, semester, bookId } = parsed;
+  const { grade, semester } = parsed;
   const outline: Outline = JSON.parse(
     await fs.readFile(path.join(outlineDir, outlineFile), "utf-8"),
   );
+
+  if (outline.edition && !/^[a-z0-9-]+$/.test(outline.edition)) {
+    throw new Error(`Invalid edition ID in ${outlineFile}`);
+  }
+  const bookId = outline.edition ? `${parsed.bookId}-${outline.edition}` : parsed.bookId;
+  const editionSuffix = outline.editionLabel ? `（${outline.editionLabel}）` : "";
 
   const bookDir = path.join(DATA_DST, "books", bookId);
   await fs.mkdir(bookDir, { recursive: true });
@@ -563,6 +569,7 @@ async function processTextbook(
     try {
       quiz = JSON.parse(await fs.readFile(quizPath, "utf-8"));
     } catch {
+      if (outline.edition) throw new Error(`Missing edition quiz: ${quizPath}`);
       console.warn(`    ⚠️  缺失题库: ${stem}_unit${unit.unit_number}.json`);
       continue;
     }
@@ -584,6 +591,16 @@ async function processTextbook(
 
     // 按大纲中的 KP 顺序生成 lessons
     const kpNames = unit.knowledge_points.map(kp => kp.name);
+    if (outline.edition) {
+      if (quiz.unit_number !== unit.unit_number || quiz.unit !== unit.title) {
+        throw new Error(`Edition quiz does not match its outline: ${quizPath}`);
+      }
+      for (const point of kpNames) {
+        if (!byKp.get(point)?.length || !ksByPoint.has(point)) {
+          throw new Error(`Missing edition questions or knowledge for ${point}: ${quizPath}`);
+        }
+      }
+    }
     for (const kp of byKp.keys()) {
       if (!kpNames.includes(kp)) kpNames.push(kp);
     }
@@ -598,6 +615,7 @@ async function processTextbook(
         bookId,
         unitNumber: unit.unit_number,
         unitTitle: unit.title,
+        unitLabel: unit.label,
         kpIndex: idx,
         kpTotal: kpNames.length,
         questions,
@@ -669,6 +687,7 @@ async function processTextbook(
       title: l.title,
       unitNumber: l.unitNumber,
       unitTitle: l.unitTitle,
+      unitLabel: l.unitLabel,
       kpIndex: l.kpIndex,
       kpTotal: l.kpTotal,
       questionCount: l.questions.length,
@@ -690,9 +709,12 @@ async function processTextbook(
     gradeName,
     semesterName,
     subjectName: subject.name,
-    textbookName: `${gradeName}${semesterName}`,
-    fullName: `${subject.publisherLabel}小学${subject.name}${gradeName}${semesterName}`,
-    unitsCount: outline.units.length,
+    textbookName: `${gradeName}${semesterName}${editionSuffix}`,
+    fullName: `${subject.publisherLabel}小学${subject.name}${gradeName}${semesterName}${editionSuffix}`,
+    editionLabel: outline.editionLabel,
+    supersedes: outline.supersedes,
+    unitsCount: outline.units.filter(u => !u.label).length,
+    activitiesCount: outline.units.filter(u => !!u.label).length || undefined,
     lessonsCount: allLessons.length,
   };
 
@@ -765,6 +787,16 @@ async function main() {
         `  ✓ ${result.book.textbookName.padEnd(8)} ${result.book.unitsCount} 单元 → ${result.lessonCount.toString().padStart(2)} 节课`,
       );
     }
+  }
+
+  // Keep legacy routes available, while grade/home lists prefer the replacement.
+  for (const book of books) {
+    if (!book.supersedes) continue;
+    const previous = books.find(b => b.id === book.supersedes);
+    if (!previous || previous.supersededBy) throw new Error(`Invalid supersedes reference: ${book.id}`);
+    previous.supersededBy = book.id;
+    previous.textbookName += "（旧版）";
+    previous.fullName += "（旧版）";
   }
 
   // 排序：先按学科 (math 最前)，再按学期 (上 → 下)，再按年级

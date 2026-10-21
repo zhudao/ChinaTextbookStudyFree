@@ -1,5 +1,6 @@
 "use client";
 
+import { learnerLocalStorage, learnerSessionStorage } from "@/lib/learnerProfiles";
 import { saveReviewSession } from "@/lib/reviewSession";
 import { numberSkillForLesson, recordNumberPractice, recordNumberReview, dueNumberSkills, normalizeNumberProgress, type NumberProgress, type NumberPracticeEvidence, type NumberSkill } from '@cstf/core/numberSense';
 import { create } from "zustand";
@@ -898,7 +899,7 @@ export const useProgressStore = create<ProgressState>()(
 
       importBackup: envelope => {
         saveReviewSession(null);
-        try { sessionStorage.removeItem("csf-number-check-v1"); } catch { /* storage may be unavailable */ }
+        try { learnerSessionStorage.removeItem("csf-number-check-v1"); } catch { /* storage may be unavailable */ }
         const d = envelope.data;
         const today = todayStr();
 
@@ -1709,7 +1710,7 @@ export const useProgressStore = create<ProgressState>()(
     }),
     {
       name: "csf-progress-v1",
-      storage: createJSONStorage(() => localStorage),
+      storage: createJSONStorage(() => learnerLocalStorage),
       // 版本迁移：
       //   v1 → v2：新增 hearts / dailyGoal / freezes / activeLesson
       //   v2 → v3：新增 gems / lifetimeGems / claimedChests / perfectedLessons + autoNarrate

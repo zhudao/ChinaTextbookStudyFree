@@ -29,10 +29,9 @@ async function main() {
   assert.equal(refreshed[0].box, entry.box);
   assert.equal(refreshed[0].correctCount, entry.correctCount);
   assert.equal(entry.question.answer, correction.before.answer, "do not mutate historic inputs");
-  for (const prefix of ["", "chinese-", "english-", "science-"]) {
-    const id = `${prefix}g3up-u1-kp1`;
+  for (const id of ["g3up-u1-kp1", "chinese-g3up-u1-kp1", "english-g3up-u1-kp1", "science-g3up-u1-kp1", "g2up-2026-u101-kp1"]) {
     const current = await loadReviewLessons([{ ...entry, lessonId: id }], async () => new Response(JSON.stringify({ ...lesson, id })));
-    assert.equal(current.get(id)?.id, id, "all four subjects must load");
+    assert.equal(current.get(id)?.id, id, "all subjects and current textbook editions must load");
   }
   assert.deepEqual(reconcileMistakes([entry], new Map([[entry.lessonId, { ...lesson, questions: [] }]])), [], "retire removed questions without grading or rewards");
   await assert.rejects(loadReviewLessons([entry], async url => url.includes("outline.json")

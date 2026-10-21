@@ -14,6 +14,7 @@
  *   - 在 lesson runner 等沉浸页面不打扰（里程碑庆祝除外，它就发生在结算时）
  */
 
+import { learnerLocalStorage } from "@/lib/learnerProfiles";
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import {
@@ -67,12 +68,12 @@ export function DailyRewardWatcher() {
     // 周末 XP 双倍提示（每天只提一次）
     if (isWeekendBonusActive()) {
       const seenKey = `csf-weekend-bonus-seen-${todayStr()}`;
-      if (typeof window !== "undefined" && !localStorage.getItem(seenKey)) {
+      if (typeof window !== "undefined" && !learnerLocalStorage.getItem(seenKey)) {
         window.setTimeout(() => {
           toast.info("🎉 周末双倍 XP 已开启！", 3200);
         }, 800);
         try {
-          localStorage.setItem(seenKey, "1");
+          learnerLocalStorage.setItem(seenKey, "1");
         } catch {
           /* noop */
         }
@@ -97,7 +98,7 @@ export function DailyRewardWatcher() {
       const shieldsCanSave = gap - 1 <= s.streakFreezes;
       const declinedKey = `csf-makeup-declined-${s.lastActiveDate}`;
       const alreadyDeclined =
-        typeof window !== "undefined" && !!localStorage.getItem(declinedKey);
+        typeof window !== "undefined" && !!learnerLocalStorage.getItem(declinedKey);
       if (
         s.lastActiveDate !== today &&
         s.streak > 0 &&
@@ -165,7 +166,7 @@ export function DailyRewardWatcher() {
     // 本次断签不再弹（按断签前最后学习日记账）
     if (makeupKeyRef.current) {
       try {
-        localStorage.setItem(makeupKeyRef.current, "1");
+        learnerLocalStorage.setItem(makeupKeyRef.current, "1");
       } catch {
         /* noop */
       }

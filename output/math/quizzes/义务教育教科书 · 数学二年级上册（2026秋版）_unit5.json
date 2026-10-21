@@ -1,0 +1,260 @@
+{
+  "textbook": "人教版小学数学二年级上册（2026秋版）",
+  "unit": "7～9的表内乘、除法",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "7～9的表内乘、除法配套练习",
+    "total_score": 90,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9的乘法口诀",
+        "question": "7×6等于多少？",
+        "options": [],
+        "answer": "42",
+        "explanation": "六七四十二。"
+      },
+      {
+        "id": 2,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9的乘法口诀",
+        "question": "8×7等于多少？",
+        "options": [],
+        "answer": "56",
+        "explanation": "七八五十六。"
+      },
+      {
+        "id": 3,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9的乘法口诀",
+        "question": "9×8等于多少？",
+        "options": [],
+        "answer": "72",
+        "explanation": "八九七十二。"
+      },
+      {
+        "id": 4,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9的乘法口诀",
+        "question": "9×9等于多少？",
+        "options": [],
+        "answer": "81",
+        "explanation": "九九八十一。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9的乘法口诀",
+        "question": "8×9和9×8的积相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "交换乘数的位置，积不变。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9的乘法口诀",
+        "question": "计算7×9，用哪句口诀？",
+        "options": [
+          "七九六十三",
+          "七八五十六",
+          "八九七十二",
+          "六九五十四"
+        ],
+        "answer": "七九六十三",
+        "explanation": "7×9=63。"
+      },
+      {
+        "id": 7,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用7～9的乘法口诀求商",
+        "question": "56÷7等于多少？",
+        "options": [],
+        "answer": "8",
+        "explanation": "七八五十六，商是8。"
+      },
+      {
+        "id": 8,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用7～9的乘法口诀求商",
+        "question": "72÷9等于多少？",
+        "options": [],
+        "answer": "8",
+        "explanation": "八九七十二，商是8。"
+      },
+      {
+        "id": 9,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用7～9的乘法口诀求商",
+        "question": "63÷7等于多少？",
+        "options": [],
+        "answer": "9",
+        "explanation": "七九六十三，商是9。"
+      },
+      {
+        "id": 10,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用7～9的乘法口诀求商",
+        "question": "81÷9等于多少？",
+        "options": [],
+        "answer": "9",
+        "explanation": "九九八十一。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用7～9的乘法口诀求商",
+        "question": "计算64÷8可用哪句口诀？",
+        "options": [
+          "八八六十四",
+          "七八五十六",
+          "六八四十八",
+          "八九七十二"
+        ],
+        "answer": "八八六十四",
+        "explanation": "8乘8等于64。"
+      },
+      {
+        "id": 12,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用7～9的乘法口诀求商",
+        "question": "用8×7=56能检查56÷8=7。",
+        "options": [],
+        "answer": "对",
+        "explanation": "商乘除数等于被除数，计算正确。"
+      },
+      {
+        "id": 13,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9乘除法整理和应用",
+        "question": "每盒8支笔，7盒共有几支？",
+        "options": [],
+        "answer": "56",
+        "explanation": "8×7=56。"
+      },
+      {
+        "id": 14,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9乘除法整理和应用",
+        "question": "72个橘子每9个装一袋，可以装几袋？",
+        "options": [],
+        "answer": "8",
+        "explanation": "72÷9=8。"
+      },
+      {
+        "id": 15,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9乘除法整理和应用",
+        "question": "49元买7本同样的本子，每本几元？",
+        "options": [],
+        "answer": "7",
+        "explanation": "49÷7=7。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9乘除法整理和应用",
+        "question": "9名同学每人做8朵花，求总数应该选哪个算式？",
+        "options": [
+          "8×9",
+          "9÷8",
+          "9-8",
+          "9+8"
+        ],
+        "answer": "8×9",
+        "explanation": "每人8朵，共9人，求总数用乘法。"
+      },
+      {
+        "id": 17,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9乘除法整理和应用",
+        "question": "把56本书平均分给8组，每组7本。",
+        "options": [],
+        "answer": "对",
+        "explanation": "56÷8=7。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7～9乘除法整理和应用",
+        "question": "每张门票9元，8张门票一共多少元？",
+        "options": [],
+        "answer": "72",
+        "explanation": "9×8=72。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "7～9的表内乘、除法复习练习",
+    "total_score": 0,
+    "time_minutes": 20,
+    "questions": []
+  },
+  "knowledge_summary": [
+    {
+      "point": "7～9的乘法口诀",
+      "core_concept": "用7、8、9的乘法口诀计算表内乘法，结合已有口诀理解规律。",
+      "key_formula": "七八五十六，八九七十二，九九八十一。",
+      "common_mistakes": [
+        "背口诀时要核对积，不要只记顺口的声音。"
+      ],
+      "tips": "用前一句的积加7、8或9，帮助检查下一句。"
+    },
+    {
+      "point": "用7～9的乘法口诀求商",
+      "core_concept": "用乘法口诀求除法的商，并通过乘法验算。",
+      "key_formula": "想除数乘几等于被除数。",
+      "common_mistakes": [
+        "读清除数，不能看到同样的被除数就用同一个商。"
+      ],
+      "tips": "先说口诀，再列除法算式。"
+    },
+    {
+      "point": "7～9乘除法整理和应用",
+      "core_concept": "已知每份数和份数求总数用乘法；已知总数求每份数或份数用除法。",
+      "key_formula": "每份数×份数=总数；总数÷每份数=份数。",
+      "common_mistakes": [
+        "读题时先确定未知的是总数、份数还是每份数。"
+      ],
+      "tips": "用一句话说明为什么选乘法或除法。"
+    }
+  ]
+}

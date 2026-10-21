@@ -71,6 +71,7 @@ export interface Lesson {
   bookId: string; // "g1up"
   unitNumber: number;
   unitTitle: string;
+  unitLabel?: string;
   kpIndex: number; // 在单元内的序号 (从 0 开始)
   kpTotal: number; // 本单元知识点总数
   questions: Question[];
@@ -90,6 +91,7 @@ export interface KnowledgePoint {
 
 export interface Unit {
   unit_number: number;
+  label?: string;
   title: string;
   knowledge_points: KnowledgePoint[];
   /**
@@ -104,6 +106,9 @@ export interface Unit {
 
 export interface Outline {
   textbook: string;
+  edition?: string;
+  editionLabel?: string;
+  supersedes?: string;
   units: Unit[];
 }
 
@@ -123,6 +128,10 @@ export interface Book {
   subjectName?: string; // '数学'（显示用）
   textbookName: string; // '三年级上册'
   fullName: string; // '人教版小学数学三年级上册'
+  editionLabel?: string;
+  supersedes?: string;
+  supersededBy?: string;
+  activitiesCount?: number;
   unitsCount: number;
   lessonsCount: number;
   /** 该书是否有课文听读数据（由 build-data 注入） */
@@ -270,6 +279,7 @@ export interface PathLessonMeta {
   title: string;
   unitNumber: number;
   unitTitle: string;
+  unitLabel?: string;
   kpIndex: number;
   kpTotal: number;
   questionCount: number;

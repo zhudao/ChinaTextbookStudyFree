@@ -1,4 +1,5 @@
 "use client";
+import { learnerSessionStorage } from "@/lib/learnerProfiles";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { dateKey } from "@cstf/core/week";
@@ -35,7 +36,7 @@ export default function NumberSenseReview() {
     let restored: NumberCheckState | null = null;
     try {
       const raw = JSON.parse(
-        sessionStorage.getItem(KEY) ?? "null",
+        learnerSessionStorage.getItem(KEY) ?? "null",
       ) as NumberCheckState | null;
       // A receipt may be restored after completion removed the skills from due.
       if (raw && raw.day === today) {
@@ -58,7 +59,7 @@ export default function NumberSenseReview() {
   useEffect(() => {
     if (!ready || !session) return;
     try {
-      sessionStorage.setItem(KEY, JSON.stringify(session));
+      learnerSessionStorage.setItem(KEY, JSON.stringify(session));
     } catch {
       /* memory-only fallback */
     }

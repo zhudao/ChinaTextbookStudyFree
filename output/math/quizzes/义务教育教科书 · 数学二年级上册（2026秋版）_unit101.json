@@ -1,0 +1,215 @@
+{
+  "textbook": "人教版小学数学二年级上册（2026秋版）",
+  "unit": "校园小导游",
+  "unit_number": 101,
+  "unit_test": {
+    "title": "校园小导游配套练习",
+    "total_score": 60,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东、南、西、北",
+        "question": "东的相对方向是什么？",
+        "options": [
+          "西",
+          "北",
+          "南",
+          "东"
+        ],
+        "answer": "西",
+        "explanation": "东与西相对。"
+      },
+      {
+        "id": 2,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东、南、西、北",
+        "question": "面向北时，右手边是什么方向？",
+        "options": [
+          "东",
+          "西",
+          "南",
+          "北"
+        ],
+        "answer": "东",
+        "explanation": "面向北，左西右东。"
+      },
+      {
+        "id": 3,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东、南、西、北",
+        "question": "面向东时，身后是什么方向？",
+        "options": [
+          "西",
+          "东",
+          "南",
+          "北"
+        ],
+        "answer": "西",
+        "explanation": "东和西是相对的方向。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东、南、西、北",
+        "question": "南与北是相对的两个方向。",
+        "options": [],
+        "answer": "对",
+        "explanation": "四个基本方向中，南北相对、东西相对。"
+      },
+      {
+        "id": 5,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东、南、西、北",
+        "question": "太阳从东方升起。早晨面向升起的太阳，面向什么方向？",
+        "options": [
+          "东",
+          "南",
+          "西",
+          "北"
+        ],
+        "answer": "东",
+        "explanation": "题目说明太阳在东方。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东、南、西、北",
+        "question": "面向南时，左手边是什么方向？",
+        "options": [
+          "东",
+          "西",
+          "南",
+          "北"
+        ],
+        "answer": "东",
+        "explanation": "面向南，左边是东，右边是西。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园导游与小讲堂",
+        "question": "一张校园图标明上方是北，图的右方是什么方向？",
+        "options": [
+          "东",
+          "西",
+          "南",
+          "北"
+        ],
+        "answer": "东",
+        "explanation": "上北下南时，左西右东。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园导游与小讲堂",
+        "question": "图书馆在操场北面，站在操场去图书馆应向哪里走？",
+        "options": [
+          "北",
+          "南",
+          "东",
+          "西"
+        ],
+        "answer": "北",
+        "explanation": "目标在北面，就向北走。"
+      },
+      {
+        "id": 9,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园导游与小讲堂",
+        "question": "介绍路线时，应该先说清从哪里出发。",
+        "options": [],
+        "answer": "对",
+        "explanation": "没有起点，听的人就无法确定路线。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园导游与小讲堂",
+        "question": "教学楼在食堂西面，食堂在教学楼的什么方向？",
+        "options": [
+          "东",
+          "西",
+          "南",
+          "北"
+        ],
+        "answer": "东",
+        "explanation": "互相观察时，相对位置的方向相反。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园导游与小讲堂",
+        "question": "校园图上有方向标志，确定方向时应依据什么？",
+        "options": [
+          "图中的方向标志",
+          "纸张的颜色",
+          "字的大小",
+          "画得最高的建筑"
+        ],
+        "answer": "图中的方向标志",
+        "explanation": "有方向标志时，以标志为准。"
+      },
+      {
+        "id": 12,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园导游与小讲堂",
+        "question": "小讲堂分享路线时，只说向左走就一定清楚，不必说明面向哪里。",
+        "options": [],
+        "answer": "错",
+        "explanation": "左右随面向改变，说明起点和方向才清楚。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "校园小导游复习练习",
+    "total_score": 0,
+    "time_minutes": 20,
+    "questions": []
+  },
+  "knowledge_summary": [
+    {
+      "point": "认识东、南、西、北",
+      "core_concept": "东与西相对，南与北相对。确定一个方向后，可以推断其他方向。",
+      "key_formula": "面向北：前北、后南、左西、右东。",
+      "common_mistakes": [
+        "说左右要先确定面向的方向。"
+      ],
+      "tips": "先找到一个已知方向，再依次确定其余三个方向。"
+    },
+    {
+      "point": "校园导游与小讲堂",
+      "core_concept": "校园平面图上要说明方向。用位置、方向和有序路线向别人介绍校园。",
+      "key_formula": "读图先看方向标志，再确定从哪里出发。",
+      "common_mistakes": [
+        "图的上方不一定是北方，要以方向标志为准。"
+      ],
+      "tips": "介绍路线时先说起点，再按行进顺序讲清方向和地点。"
+    }
+  ]
+}

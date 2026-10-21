@@ -11,6 +11,7 @@
  * 提前读取并挂类，防止白闪。
  */
 
+import { learnerLocalStorage, learnerStorageKey } from "@/lib/learnerProfiles";
 import { useSyncExternalStore } from "react";
 
 export type ThemeMode = "system" | "light" | "dark";
@@ -25,14 +26,14 @@ function emit() {
 
 export function getThemeMode(): ThemeMode {
   if (typeof window === "undefined") return "system";
-  const raw = window.localStorage.getItem(THEME_MODE_KEY);
+  const raw = learnerLocalStorage.getItem(THEME_MODE_KEY);
   return raw === "light" || raw === "dark" ? raw : "system";
 }
 
 export function setThemeMode(mode: ThemeMode) {
   if (typeof window === "undefined") return;
-  if (mode === "system") window.localStorage.removeItem(THEME_MODE_KEY);
-  else window.localStorage.setItem(THEME_MODE_KEY, mode);
+  if (mode === "system") learnerLocalStorage.removeItem(THEME_MODE_KEY);
+  else learnerLocalStorage.setItem(THEME_MODE_KEY, mode);
   emit();
 }
 
@@ -40,7 +41,7 @@ function subscribe(cb: () => void): () => void {
   listeners.add(cb);
   // 其他标签页改了偏好也同步
   const onStorage = (e: StorageEvent) => {
-    if (e.key === THEME_MODE_KEY) cb();
+    if (e.key === learnerStorageKey(THEME_MODE_KEY)) cb();
   };
   window.addEventListener("storage", onStorage);
   return () => {

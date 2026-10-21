@@ -165,8 +165,9 @@ def main():
     if not index:
         raise SystemExit('Index could not be read')
     books = index.get('books', [])
-    if len(books) != 44:
-        error('index', f'expected 44 books, found {len(books)}')
+    current_books = [book for book in books if not book.get('supersededBy')]
+    if len(current_books) != 44:
+        error('index', f'expected 44 current books, found {len(current_books)}')
     if len({b['id'] for b in books}) != len(books):
         error('index', 'duplicate books')
     for book in books:

@@ -58,7 +58,7 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
       <main className="min-h-screen flex flex-col items-center justify-center bg-white px-6 text-center">
         <h1 className="text-base font-extrabold text-ink mb-2">本单元暂无知识手册</h1>
         <div className="text-sm text-ink-light mb-6">
-          {book.textbookName} · 第 {unit.unit_number} 单元 · {unit.title}
+          {book.textbookName} · {unit.label ?? `第 ${unit.unit_number} 单元`} · {unit.title}
         </div>
         <button
           type="button"
@@ -116,7 +116,7 @@ export function GuideClient({ book, unit, summaries }: GuideClientProps) {
           >
             {/* 单元上下文 */}
             <div className="text-sm font-bold text-ink-light">
-              第 {unit.unit_number} 单元 · {unit.title}
+              {unit.label ?? `第 ${unit.unit_number} 单元`} · {unit.title}
             </div>
             <h1 ref={slideTitleRef} tabIndex={-1} className="focus:outline-none text-[28px] font-bold text-ink mt-2 leading-snug max-w-lg">
               <MathText text={current.point} />

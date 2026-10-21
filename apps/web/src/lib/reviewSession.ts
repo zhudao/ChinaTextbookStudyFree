@@ -1,3 +1,4 @@
+import { learnerSessionStorage } from "./learnerProfiles";
 import { lessonContentKey } from "@cstf/core/content";
 import type { ReviewItem } from "./prepareReview";
 export interface ReviewStats {
@@ -68,7 +69,7 @@ export function parseReviewSession(
           typeof item.lessonTitle !== "string" ||
           typeof item.scheduled !== "boolean" ||
           !Number.isInteger(item.question?.id) ||
-          !/^(?:(?:chinese|english|science)-)?g[1-6](?:up|down)-u\d+-(?:kp\d+|exam)$/.test(
+          !/^(?:(?:chinese|english|science)-)?g[1-6](?:up|down)(?:-\d{4})?-u\d+-(?:kp\d+|exam)$/.test(
             item.lessonId,
           ) ||
           item.key !== `${item.lessonId}:${item.question.id}`,
@@ -150,15 +151,15 @@ export function restoreReviewSession(
 }
 export function readReviewSession(context: string): ReviewSession | null {
   try {
-    return parseReviewSession(sessionStorage.getItem(STORAGE_KEY), context);
+    return parseReviewSession(learnerSessionStorage.getItem(STORAGE_KEY), context);
   } catch {
     return null;
   }
 }
 export function saveReviewSession(session: ReviewSession | null) {
   try {
-    if (session) sessionStorage.setItem(STORAGE_KEY, JSON.stringify(session));
-    else sessionStorage.removeItem(STORAGE_KEY);
+    if (session) learnerSessionStorage.setItem(STORAGE_KEY, JSON.stringify(session));
+    else learnerSessionStorage.removeItem(STORAGE_KEY);
   } catch {
     /* Private/storage-disabled browsers still allow the current round. */
   }

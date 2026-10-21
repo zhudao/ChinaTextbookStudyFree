@@ -14,6 +14,7 @@ export default async function HomePage() {
   // 按年级聚合（一年级有上下册两本）
   const byGrade: Record<number, typeof index.books> = {};
   for (const book of index.books) {
+    if (book.supersededBy) continue;
     if (!byGrade[book.grade]) byGrade[book.grade] = [];
     byGrade[book.grade].push(book);
   }
@@ -23,9 +24,10 @@ export default async function HomePage() {
 
   return (
     <HomeClient
+      bookReplacements={Object.fromEntries(index.books.filter(b => b.supersededBy).map(b => [b.id, b.supersededBy!]))}
       grades={grades}
       byGrade={Object.fromEntries(grades.map(g => [g, byGrade[g].length]))}
-      totalBooks={index.books.length}
+      totalBooks={index.books.filter(b => !b.supersededBy).length}
       totalLessons={index.totalLessons}
       totalQuestions={index.totalQuestions}
     />

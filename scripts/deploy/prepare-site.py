@@ -81,7 +81,7 @@ def main():
     if omitted_routes:
         raise ValueError(f'Exported routes omitted from deployment: {omitted_routes}')
     index = json.loads((args.destination/'data/index.json').read_text())
-    assert len(index['books']) == 44
+    assert len([book for book in index['books'] if not book.get('supersededBy')]) == 44
     missing = set()
     refs = Counter()
     def visit(value):

@@ -17,6 +17,7 @@ export type {
   AchievementProgressSnapshot,
 } from "@cstf/core/achievements";
 
+import { learnerLocalStorage } from "@/lib/learnerProfiles";
 import { computeUnlockedAchievementIds } from "@cstf/core/achievements";
 import { useProgressStore } from "@/store/progress";
 
@@ -25,7 +26,7 @@ const SEEN_KEY = "csf-achievements-seen-v1";
 function readSeen(): Set<string> {
   if (typeof window === "undefined") return new Set();
   try {
-    const raw = localStorage.getItem(SEEN_KEY);
+    const raw = learnerLocalStorage.getItem(SEEN_KEY);
     if (!raw) return new Set();
     return new Set(JSON.parse(raw) as string[]);
   } catch {
@@ -36,7 +37,7 @@ function readSeen(): Set<string> {
 function writeSeen(set: Set<string>) {
   if (typeof window === "undefined") return;
   try {
-    localStorage.setItem(SEEN_KEY, JSON.stringify(Array.from(set)));
+    learnerLocalStorage.setItem(SEEN_KEY, JSON.stringify(Array.from(set)));
   } catch {
     /* noop */
   }

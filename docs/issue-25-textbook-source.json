@@ -1,0 +1,36 @@
+{
+  "checked_on": "2026-10-20",
+  "official_page": "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=8cfc5a2a-425c-4b9a-a97c-e78d4a4c1e3a&catalogType=tchMaterial&subCatalog=tchMaterial",
+  "official_catalog": "https://s-file-1.ykt.cbern.com.cn/zxx/ndrs/resources/tch_material/version/data_version.json",
+  "resource_id": "8cfc5a2a-425c-4b9a-a97c-e78d4a4c1e3a",
+  "official_update_time": "2026-08-18T11:47:30.923+0800",
+  "title": "（根据2022年版课程标准修订）义务教育教科书 · 数学二年级上册",
+  "reviewed_previews": [
+    {
+      "page": 2,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8cfc5a2a-425c-4b9a-a97c-e78d4a4c1e3a.t/zh-CN/1787023026468/transcode/image/2.jpg",
+      "sha256": "6627a5487c18aa83818ccb80f2c760b5cf151eaa688d84b2e4ce920c315eee16"
+    },
+    {
+      "page": 3,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8cfc5a2a-425c-4b9a-a97c-e78d4a4c1e3a.t/zh-CN/1787023026468/transcode/image/3.jpg",
+      "sha256": "7c52dc74efebf6ec7f38114cb2eb880d402f2262deda7afba0875fe61034d3a0"
+    },
+    {
+      "page": 4,
+      "url": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8cfc5a2a-425c-4b9a-a97c-e78d4a4c1e3a.t/zh-CN/1787023026468/transcode/image/4.jpg",
+      "sha256": "f324674918bde430180a02a46987fa9f2de05876973effd9c1114fd6292ec576"
+    },
+    {
+      "page": 5,
+      "url": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8cfc5a2a-425c-4b9a-a97c-e78d4a4c1e3a.t/zh-CN/1787023026468/transcode/image/5.jpg",
+      "sha256": "a99eddd2576a94f9cb447e51d5a97ed48d37dcaa6462738adf1d2d08c4b749e0"
+    },
+    {
+      "page": 6,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8cfc5a2a-425c-4b9a-a97c-e78d4a4c1e3a.t/zh-CN/1787023026468/transcode/image/6.jpg",
+      "sha256": "285bff8e5b74b5c940d96f5bc653b08ad3d25c6b4a01f4f83b7fdfa5bb89f6be"
+    }
+  ],
+  "content_note": "Only the curriculum structure is referenced. Exercises and explanations are original companion material, not transcriptions of textbook questions."
+}

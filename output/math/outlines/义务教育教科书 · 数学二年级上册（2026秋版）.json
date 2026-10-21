@@ -1,0 +1,338 @@
+{
+  "textbook": "人教版小学数学二年级上册（2026秋版）",
+  "edition": "2026",
+  "editionLabel": "2026秋版",
+  "supersedes": "g2up",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "分类与整理",
+      "knowledge_points": [
+        {
+          "name": "按一个标准分类",
+          "description": "分类前先确定标准，把具有相同特征的物品放在一类。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "不同标准与逐层分类",
+          "description": "同一组物品可以按不同标准分类，也可以先按一个标准分，再在每类中继续分类。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "记录和比较分类结果",
+          "description": "分类后用数、符号或简单表格记录每类数量，再比较多少。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "1～6的表内乘法",
+      "knowledge_points": [
+        {
+          "name": "乘法的初步认识",
+          "description": "求几个相同加数的和，可以用乘法表示。乘号两边是乘数，结果是积。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "5的乘法口诀",
+          "description": "5的乘法口诀表示几个5相加，积依次增加5。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "2、3、4的乘法口诀",
+          "description": "用2、3、4的乘法口诀求相应的积。交换两个乘数的位置，积不变。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "乘加、乘减",
+          "description": "规则排列中多出或少了几个，可以先算整齐部分，再加上或减去。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "6的乘法口诀",
+          "description": "用6的乘法口诀计算几个6相加的结果。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "1～6乘法整理和复习",
+          "description": "根据每份数和份数选择乘法，把算式、口诀与实际问题联系起来。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "1～6的表内除法",
+      "knowledge_points": [
+        {
+          "name": "平均分：求每份多少",
+          "description": "每份分得同样多叫平均分。已知总数和份数，可以求每份的数量。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "平均分：求有几份",
+          "description": "每几个分成一份，求能分成几份，也可以用除法。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "除法的认识与口诀求商",
+          "description": "除法表示平均分。用乘法口诀想几乘除数等于被除数，就能求出商。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "1～6除法整理和应用",
+          "description": "根据平均分的两种情况列除法算式，并联系乘法检查结果。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 101,
+      "title": "校园小导游",
+      "knowledge_points": [
+        {
+          "name": "认识东、南、西、北",
+          "description": "东与西相对，南与北相对。确定一个方向后，可以推断其他方向。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "校园导游与小讲堂",
+          "description": "校园平面图上要说明方向。用位置、方向和有序路线向别人介绍校园。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        }
+      ],
+      "label": "综合与实践"
+    },
+    {
+      "unit_number": 4,
+      "title": "厘米和米",
+      "knowledge_points": [
+        {
+          "name": "厘米与直尺测量",
+          "description": "厘米适合测量较短物体。尺子上相邻两个厘米刻度之间的长度是1厘米。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "米的认识",
+          "description": "米适合测量较长物体。1米和100厘米表示相同的长度。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "长度估测与整理复习",
+          "description": "选择合适的长度单位，用测量或估测解决问题。比较和计算时先统一单位。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 102,
+      "title": "身体上的尺子",
+      "knowledge_points": [
+        {
+          "name": "身体上的长度",
+          "description": "一拃、一步等身体长度可以作为估测参照。不同人的身体长度可能不同。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "身体尺的应用与小讲堂",
+          "description": "用已测得的身体长度估测物体，记录方法与结果，并交流估测误差。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        }
+      ],
+      "label": "综合与实践"
+    },
+    {
+      "unit_number": 5,
+      "title": "7～9的表内乘、除法",
+      "knowledge_points": [
+        {
+          "name": "7～9的乘法口诀",
+          "description": "用7、8、9的乘法口诀计算表内乘法，结合已有口诀理解规律。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "用7～9的乘法口诀求商",
+          "description": "用乘法口诀求除法的商，并通过乘法验算。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "7～9乘除法整理和应用",
+          "description": "已知每份数和份数求总数用乘法；已知总数求每份数或份数用除法。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "复习与关联",
+      "knowledge_points": [
+        {
+          "name": "数与运算的联系",
+          "description": "用相同加数相加理解乘法，用平均分理解除法，联系口诀检查运算。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "数量关系",
+          "description": "分析问题中的总数、每份数和份数，选择合适的运算。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "图形的位置与测量",
+          "description": "用方向描述位置，用厘米和米表示长度，比较时先统一单位。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "数据分类的联系",
+          "description": "围绕一个问题选择分类标准，用数据记录和比较结果，也可以逐层细分。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "应用提升",
+          "description": "综合使用分类、乘除法、方向与测量解决生活中的简单问题。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        }
+      ]
+    }
+  ]
+}

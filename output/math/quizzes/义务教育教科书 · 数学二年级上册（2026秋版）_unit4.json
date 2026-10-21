@@ -1,0 +1,275 @@
+{
+  "textbook": "人教版小学数学二年级上册（2026秋版）",
+  "unit": "厘米和米",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "厘米和米配套练习",
+    "total_score": 90,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "厘米与直尺测量",
+        "question": "测量橡皮的长度，通常用什么单位？",
+        "options": [
+          "厘米",
+          "米",
+          "千克",
+          "分"
+        ],
+        "answer": "厘米",
+        "explanation": "橡皮比较短，用厘米合适。"
+      },
+      {
+        "id": 2,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "厘米与直尺测量",
+        "question": "一支笔从尺子0厘米处量到8厘米处，长几厘米？",
+        "options": [],
+        "answer": "8",
+        "explanation": "8-0=8。"
+      },
+      {
+        "id": 3,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "厘米与直尺测量",
+        "question": "一段彩带从2厘米处量到9厘米处，长几厘米？",
+        "options": [],
+        "answer": "7",
+        "explanation": "9-2=7。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "厘米与直尺测量",
+        "question": "测量物体长度时，只要看终点刻度，不用看起点。",
+        "options": [],
+        "answer": "错",
+        "explanation": "起点不在0时，要用终点减起点。"
+      },
+      {
+        "id": 5,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "厘米与直尺测量",
+        "question": "尺子上3厘米刻度到6厘米刻度相距几厘米？",
+        "options": [],
+        "answer": "3",
+        "explanation": "6-3=3。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "厘米与直尺测量",
+        "question": "正确的测量方法是哪一种？",
+        "options": [
+          "物体放直，起点对准0刻度",
+          "物体斜着放",
+          "不看起点只看终点",
+          "每次都从尺子边缘开始"
+        ],
+        "answer": "物体放直，起点对准0刻度",
+        "explanation": "这样能直接读出长度。"
+      },
+      {
+        "id": 7,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识",
+        "question": "1米等于多少厘米？",
+        "options": [],
+        "answer": "100",
+        "explanation": "米和厘米的进率是100。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识",
+        "question": "教室长约8什么？",
+        "options": [
+          "米",
+          "厘米",
+          "元",
+          "分"
+        ],
+        "answer": "米",
+        "explanation": "教室较长，用米表示合适。"
+      },
+      {
+        "id": 9,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识",
+        "question": "2米等于多少厘米？",
+        "options": [],
+        "answer": "200",
+        "explanation": "100+100=200。"
+      },
+      {
+        "id": 10,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识",
+        "question": "1米比90厘米长。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1米是100厘米，100厘米比90厘米长。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识",
+        "question": "哪一个长度最长？",
+        "options": [
+          "2米",
+          "100厘米",
+          "90厘米",
+          "1米"
+        ],
+        "answer": "2米",
+        "explanation": "2米是200厘米，大于其余三个长度。"
+      },
+      {
+        "id": 12,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识",
+        "question": "100厘米比60厘米多几厘米？",
+        "options": [],
+        "answer": "40",
+        "explanation": "100-60=40。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长度估测与整理复习",
+        "question": "一根跳绳长约2什么？",
+        "options": [
+          "米",
+          "厘米",
+          "克",
+          "秒"
+        ],
+        "answer": "米",
+        "explanation": "跳绳通常较长，用米合适。"
+      },
+      {
+        "id": 14,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长度估测与整理复习",
+        "question": "1米长的绳子剪去30厘米，还剩几厘米？",
+        "options": [],
+        "answer": "70",
+        "explanation": "先把1米换成100厘米，再算100-30=70。"
+      },
+      {
+        "id": 15,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长度估测与整理复习",
+        "question": "一条彩带长40厘米，另一条长25厘米，一共几厘米？",
+        "options": [],
+        "answer": "65",
+        "explanation": "40+25=65。"
+      },
+      {
+        "id": 16,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长度估测与整理复习",
+        "question": "80厘米比1米长。",
+        "options": [],
+        "answer": "错",
+        "explanation": "1米是100厘米，80厘米更短。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长度估测与整理复习",
+        "question": "估测一本练习本的长度，哪一个结果较合理？",
+        "options": [
+          "约20厘米",
+          "约20米",
+          "约2米",
+          "约200米"
+        ],
+        "answer": "约20厘米",
+        "explanation": "练习本的长度通常是几十厘米中的较小数值。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长度估测与整理复习",
+        "question": "两段木条分别长18厘米和12厘米，长的比短的长几厘米？",
+        "options": [],
+        "answer": "6",
+        "explanation": "18-12=6。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "厘米和米复习练习",
+    "total_score": 0,
+    "time_minutes": 20,
+    "questions": []
+  },
+  "knowledge_summary": [
+    {
+      "point": "厘米与直尺测量",
+      "core_concept": "厘米适合测量较短物体。尺子上相邻两个厘米刻度之间的长度是1厘米。",
+      "key_formula": "物体长度=终点刻度-起点刻度。",
+      "common_mistakes": [
+        "尺子的边缘不一定是0刻度，要找准0刻度线。"
+      ],
+      "tips": "把物体放直，起点对准0刻度，再读另一端。"
+    },
+    {
+      "point": "米的认识",
+      "core_concept": "米适合测量较长物体。1米和100厘米表示相同的长度。",
+      "key_formula": "1米=100厘米。",
+      "common_mistakes": [
+        "比较长度前先统一单位。"
+      ],
+      "tips": "用米尺感受1米的长度，再选择合适单位。"
+    },
+    {
+      "point": "长度估测与整理复习",
+      "core_concept": "选择合适的长度单位，用测量或估测解决问题。比较和计算时先统一单位。",
+      "key_formula": "1米=100厘米；同单位才能直接加减。",
+      "common_mistakes": [
+        "估测要有参照，不能随便猜一个数。"
+      ],
+      "tips": "先想熟悉物品的长度，再判断估测结果是否合理。"
+    }
+  ]
+}

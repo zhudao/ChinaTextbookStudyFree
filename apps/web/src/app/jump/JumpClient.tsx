@@ -49,6 +49,7 @@ type LoadState =
       sources: JumpQuestionSource[];
       priorLessonIds: string[];
       unitTitle: string;
+      unitLabel: string;
     };
 
 function newSeed(): string {
@@ -250,7 +251,7 @@ export function JumpClient() {
           <Mascot mood="cheer" size={150} reactTo="levelup" reactKey={1} />
           <h1 className="text-4xl font-extrabold text-primary mt-4">跳级成功！</h1>
           <p className="text-ink-light mt-2">
-            你已经掌握了前面的知识，直接从第 {unitNumber} 单元
+            你已经掌握了前面的知识，直接从{load.unitLabel}
             {load.unitTitle ? `「${load.unitTitle}」` : ""}继续吧！
           </p>
           <motion.div
@@ -364,7 +365,7 @@ export function JumpClient() {
           }}
         >
           <Lightning className="w-3 h-3" />
-          跳级测试 · 冲向第 {unitNumber} 单元
+          跳级测试 · 冲向{load.kind === "ready" ? load.unitLabel : `第 ${unitNumber} 单元`}
         </span>
         <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-bg-softer text-ink-light text-[11px] font-extrabold">
           答对 {Math.ceil(total * JUMP_PASS_ACCURACY)} 题过关

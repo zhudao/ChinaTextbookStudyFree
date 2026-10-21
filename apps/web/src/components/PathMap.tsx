@@ -126,9 +126,9 @@ export function PathMap({
   // 按单元分组，合并 lesson + chest 为一个 unitItems 列表；
   // 单元末尾追加 ⚔️ 挑战节点（该单元有 exam 课时）
   const byUnit = useMemo(() => {
-    const map = new Map<number, { title: string; items: UnitItem[] }>();
+    const map = new Map<number, { title: string; label?: string; items: UnitItem[] }>();
     for (const l of lessons) {
-      if (!map.has(l.unitNumber)) map.set(l.unitNumber, { title: l.unitTitle, items: [] });
+      if (!map.has(l.unitNumber)) map.set(l.unitNumber, { title: l.unitTitle, label: l.unitLabel, items: [] });
       map.get(l.unitNumber)!.items.push({ kind: "lesson", lesson: l });
       const chest = chestByAfterLesson.get(l.id);
       if (chest) {
@@ -273,7 +273,7 @@ export function PathMap({
                   </span>
                 )}
                 <span className="opacity-60">·</span>
-                <span className="whitespace-nowrap">第 {activeUnitNum} 单元</span>
+                <span className="whitespace-nowrap">{activeUnit?.[1]?.label ?? `第 ${activeUnitNum} 单元`}</span>
               </div>
               {/* 大字单元标题 */}
               <div className="text-xl font-bold leading-snug break-words tracking-tight mt-1.5">
@@ -283,7 +283,7 @@ export function PathMap({
             {activeUnitFullyLocked && (
               <SoundLink href={`/jump/?book=${bookId}&unit=${activeUnitNum}`} hapticIntensity="medium"
                 className="shrink-0 inline-flex items-center gap-1.5 px-2 min-h-11 rounded-xl path-banner-action hover:bg-white/15 transition-colors text-xs font-bold"
-                aria-label={`跳级测试：直接跳到第 ${activeUnitNum} 单元`}>
+                aria-label={`跳级测试：直接跳到${activeUnit?.[1]?.label ?? `第 ${activeUnitNum} 单元`}`}>
                 <Lightning className="w-4 h-4" aria-hidden /><span>跳级</span>
               </SoundLink>
             )}
@@ -326,6 +326,7 @@ export function PathMap({
           title={activeLesson.title}
           questionCount={activeLesson.questionCount}
           unitNumber={activeLesson.unitNumber}
+          unitLabel={activeLesson.unitLabel}
           kpIndex={activeLesson.kpIndex}
           kpTotal={activeLesson.kpTotal}
         />
@@ -370,7 +371,7 @@ const NODE_SIZE = 72;
 
 
 interface UnitPathProps {
-  entries: Array<[number, { title: string; items: UnitItem[] }]>;
+  entries: Array<[number, { title: string; label?: string; items: UnitItem[] }]>;
   statuses: Record<string, LessonStatus>;
   stars: Record<string, number>;
   claimedChests: Record<string, boolean>;
@@ -393,7 +394,7 @@ function UnitPath({
   const containerRef = useRef<HTMLDivElement>(null);
   const [geometry, setGeometry] = useState<{ width: number; height: number; points: Array<{ x: number; y: number }> }>({ width: STAGE_WIDTH, height: 0, points: [] });
   const flat = useMemo(() => entries.flatMap(([unitNum, group], unitOrderIndex) =>
-    group.items.map((item, index) => ({ item, unitNum, unitTitle: group.title, firstInUnit: index === 0, unitOrderIndex }))), [entries]);
+    group.items.map((item, index) => ({ item, unitNum, unitTitle: group.title, unitLabel: group.label, firstInUnit: index === 0, unitOrderIndex }))), [entries]);
 
   useLayoutEffect(() => {
     const stage = containerRef.current;
@@ -429,7 +430,7 @@ function UnitPath({
             <div data-unit-divider className="relative flex items-center justify-center gap-3 pt-2 pb-8">
               <span className="h-px flex-1 bg-bg-softer" />
               <div className="max-w-[75%] text-center text-sm font-bold leading-relaxed text-ink-light bg-bg-soft px-2">
-                第 {entry.unitNum} 单元 · {entry.unitTitle}
+                {entry.unitLabel ?? `第 ${entry.unitNum} 单元`} · {entry.unitTitle}
               </div>
               <span className="h-px flex-1 bg-bg-softer" />
             </div>

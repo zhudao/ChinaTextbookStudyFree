@@ -1,0 +1,280 @@
+{
+  "textbook": "人教版小学数学二年级上册（2026秋版）",
+  "unit": "分类与整理",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "分类与整理配套练习",
+    "total_score": 90,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按一个标准分类",
+        "question": "要把红色积木放在一起，应按什么标准分类？",
+        "options": [
+          "颜色",
+          "大小",
+          "长短",
+          "数量"
+        ],
+        "answer": "颜色",
+        "explanation": "红色描述的是颜色。"
+      },
+      {
+        "id": 2,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按一个标准分类",
+        "question": "铅笔、橡皮、尺子和苹果中，哪一个不属于学习用品？",
+        "options": [
+          "铅笔",
+          "橡皮",
+          "尺子",
+          "苹果"
+        ],
+        "answer": "苹果",
+        "explanation": "苹果是水果，其他三种是学习用品。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按一个标准分类",
+        "question": "把同一组物品分类时，可以先选定一个分类标准。",
+        "options": [],
+        "answer": "对",
+        "explanation": "先确定分类标准，才能知道每件物品应放在哪一类。"
+      },
+      {
+        "id": 4,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按一个标准分类",
+        "question": "按颜色分类，红球有4个，蓝球有3个，黄球有2个。共有多少个球？",
+        "options": [],
+        "answer": "9",
+        "explanation": "4+3+2=9，共有9个。"
+      },
+      {
+        "id": 5,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按一个标准分类",
+        "question": "按形状分类时，圆形应和哪种图形放在同一类？",
+        "options": [
+          "另一个圆形",
+          "相同颜色的三角形",
+          "更大的正方形",
+          "同样厚的长方形"
+        ],
+        "answer": "另一个圆形",
+        "explanation": "按形状分类，只看形状是否相同。"
+      },
+      {
+        "id": 6,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按一个标准分类",
+        "question": "按颜色分出的同一类物品，形状一定相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "颜色相同的物品，形状可能不同。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同标准与逐层分类",
+        "question": "把积木先分成红色和蓝色，再把各色积木分成圆形和方形，这是怎样分类？",
+        "options": [
+          "先按颜色再按形状",
+          "只按大小",
+          "只按颜色",
+          "按数量从多到少"
+        ],
+        "answer": "先按颜色再按形状",
+        "explanation": "先看颜色，再在各颜色中看形状。"
+      },
+      {
+        "id": 8,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同标准与逐层分类",
+        "question": "12件物品按颜色分，再改按形状分，物品总数还是12件。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分类只改变分组，不改变总数。"
+      },
+      {
+        "id": 9,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同标准与逐层分类",
+        "question": "红色纽扣中有3个圆形、2个方形。红色纽扣共有几个？",
+        "options": [],
+        "answer": "5",
+        "explanation": "3+2=5。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同标准与逐层分类",
+        "question": "想比较不同形状积木的数量，应先按什么标准分类？",
+        "options": [
+          "形状",
+          "摆放位置",
+          "颜色深浅",
+          "到手的先后"
+        ],
+        "answer": "形状",
+        "explanation": "要比较形状类别，就应按形状分类。"
+      },
+      {
+        "id": 11,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同标准与逐层分类",
+        "question": "先按颜色分类后，每个颜色类中还可以按形状继续分。",
+        "options": [],
+        "answer": "对",
+        "explanation": "同一物品具有多种特征，可以逐层分类。"
+      },
+      {
+        "id": 12,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同标准与逐层分类",
+        "question": "圆形纽扣里有4个红色和5个蓝色，圆形纽扣共有几个？",
+        "options": [],
+        "answer": "9",
+        "explanation": "4+5=9。"
+      },
+      {
+        "id": 13,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "记录和比较分类结果",
+        "question": "图书角有故事书6本、科普书4本、诗歌书3本。故事书比科普书多几本？",
+        "options": [],
+        "answer": "2",
+        "explanation": "6-4=2。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "记录和比较分类结果",
+        "question": "故事书6本、科普书4本、诗歌书3本，哪类最多？",
+        "options": [
+          "故事书",
+          "科普书",
+          "诗歌书",
+          "三类一样多"
+        ],
+        "answer": "故事书",
+        "explanation": "6大于4和3。"
+      },
+      {
+        "id": 15,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "记录和比较分类结果",
+        "question": "故事书6本、科普书4本、诗歌书3本，一共多少本？",
+        "options": [],
+        "answer": "13",
+        "explanation": "6+4+3=13。"
+      },
+      {
+        "id": 16,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "记录和比较分类结果",
+        "question": "统计时同一本书在同一张分类表中应该数两次。",
+        "options": [],
+        "answer": "错",
+        "explanation": "重复记录会使统计数量偏大。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "记录和比较分类结果",
+        "question": "红花5朵、黄花2朵、白花4朵，哪类最少？",
+        "options": [
+          "红花",
+          "黄花",
+          "白花",
+          "一样多"
+        ],
+        "answer": "黄花",
+        "explanation": "2是三个数量中最小的。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "记录和比较分类结果",
+        "question": "每个圆点表示1人，某类下面画了7个圆点，这一类有几人？",
+        "options": [],
+        "answer": "7",
+        "explanation": "一个圆点对应一个人，7个圆点就是7人。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "分类与整理复习练习",
+    "total_score": 0,
+    "time_minutes": 20,
+    "questions": []
+  },
+  "knowledge_summary": [
+    {
+      "point": "按一个标准分类",
+      "core_concept": "分类前先确定标准，把具有相同特征的物品放在一类。",
+      "key_formula": "分类标准一致，结果才便于比较。",
+      "common_mistakes": [
+        "同一次分类不要一会儿按颜色、一会儿按形状。"
+      ],
+      "tips": "说清楚你按什么标准分，再逐个检查。"
+    },
+    {
+      "point": "不同标准与逐层分类",
+      "core_concept": "同一组物品可以按不同标准分类，也可以先按一个标准分，再在每类中继续分类。",
+      "key_formula": "先分类，再在每一类中按第二个标准细分。",
+      "common_mistakes": [
+        "换分类标准会改变分组，但不会改变物品总数。"
+      ],
+      "tips": "逐层分类时，要在每个大类中使用相同的第二个标准。"
+    },
+    {
+      "point": "记录和比较分类结果",
+      "core_concept": "分类后用数、符号或简单表格记录每类数量，再比较多少。",
+      "key_formula": "总数=各类数量相加。",
+      "common_mistakes": [
+        "每件物品只记录一次，不重复也不遗漏。"
+      ],
+      "tips": "边数边做记号，最后用总数检查。"
+    }
+  ]
+}

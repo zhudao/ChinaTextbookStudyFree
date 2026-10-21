@@ -121,7 +121,7 @@ body {
   height: 100%;
   -webkit-font-smoothing: antialiased;
   color: #4b4b4b;
-  /* 背景由 layout.tsx 的 body className="bg-bg-soft" 统一提供，
+  /* 背景由 layout.tsx 的 body className="bg-bg" 统一提供，
      这里不再硬编码以免覆盖 Tailwind utility。 */
 }
 
@@ -307,8 +307,10 @@ button:focus-visible,
   background-color: var(--app-bg) !important;
   color: var(--app-ink);
 }
-.theme-dark .bg-white,
-.theme-dark .bg-bg {
+/* Keep the page canvas out of card recoloring. :where preserves specificity
+   so responsive transparent backgrounds still override these surface rules. */
+.theme-dark .bg-white:where(:not(body)),
+.theme-dark .bg-bg:where(:not(body)) {
   background-color: var(--app-card) !important;
 }
 .theme-dark .bg-white\/90 {
@@ -317,8 +319,17 @@ button:focus-visible,
 .theme-dark .bg-bg-soft {
   background-color: var(--app-bg-soft) !important;
 }
+.theme-dark .bg-bg-soft\/60 {
+  background-color: color-mix(in srgb, var(--app-bg-soft) 60%, transparent) !important;
+}
 .theme-dark .bg-bg-softer {
   background-color: var(--app-bg-softer) !important;
+}
+.theme-dark .bg-bg-softer\/40 {
+  background-color: color-mix(in srgb, var(--app-bg-softer) 40%, transparent) !important;
+}
+.theme-dark .bg-bg-softer\/60 {
+  background-color: color-mix(in srgb, var(--app-bg-softer) 60%, transparent) !important;
 }
 .theme-dark .border-bg-softer {
   border-color: var(--app-border) !important;
@@ -565,8 +576,10 @@ button:focus-visible,
 
 /* Palette fidelity: artwork and controls must not inherit darkened text inks. */
 :root { --surface-hover: #f7f7f7; }
-.app-shell, main.bg-bg-soft, main.lesson-screen, main.guide-screen, main.reading-screen { background-color: var(--theme-bg, #fff); }
-.theme-dark :is(.app-shell, main.bg-bg-soft, main.lesson-screen, main.guide-screen, main.reading-screen) { background-color: var(--app-bg); }
+/* Page canvases share the root background at every breakpoint. Surface utilities
+   use !important in dark mode, so canvases must take precedence over cards. */
+.app-shell, main.bg-bg, main.bg-white, main.bg-bg-soft, main.lesson-screen, main.guide-screen, main.reading-screen { background-color: var(--theme-bg, #fff); }
+.theme-dark :is(.app-shell, main.bg-bg, main.bg-white, main.bg-bg-soft, main.lesson-screen, main.guide-screen, main.reading-screen) { background-color: var(--app-bg) !important; }
 .option-card { background-color: #fff; box-shadow: 0 2px 0 var(--shadow-card-color); font-weight: 500; }
 .option-card-selected { border-color: #84D8FF; background-color: #DDF4FF; color: #1899D6; box-shadow: 0 2px 0 #84D8FF; }
 .option-card-correct { background-color: #D7FFB8; box-shadow: 0 2px 0 #58CC02; }

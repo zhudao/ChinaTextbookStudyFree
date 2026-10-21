@@ -16,7 +16,7 @@ export async function loadReviewLessons(
   const lessons = await Promise.all(
     [...new Set(entries.map((entry) => entry.lessonId))].map(async (id) => {
       if (
-        !/^(?:(?:chinese|english|science)-)?g[1-6](?:up|down)-u\d+-(?:kp\d+|exam)$/.test(
+        !/^(?:(?:chinese|english|science)-)?g[1-6](?:up|down)(?:-\d{4})?-u\d+-(?:kp\d+|exam)$/.test(
           id,
         )
       )

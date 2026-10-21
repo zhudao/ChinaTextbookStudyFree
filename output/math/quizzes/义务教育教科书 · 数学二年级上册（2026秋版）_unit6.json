@@ -1,0 +1,430 @@
+{
+  "textbook": "人教版小学数学二年级上册（2026秋版）",
+  "unit": "复习与关联",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "复习与关联配套练习",
+    "total_score": 150,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与运算的联系",
+        "question": "4+4+4+4+4等于多少？",
+        "options": [],
+        "answer": "20",
+        "explanation": "5个4相加，4×5=20。"
+      },
+      {
+        "id": 2,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与运算的联系",
+        "question": "20÷4等于多少？",
+        "options": [],
+        "answer": "5",
+        "explanation": "四五二十，所以商是5。"
+      },
+      {
+        "id": 3,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与运算的联系",
+        "question": "7×8等于多少？",
+        "options": [],
+        "answer": "56",
+        "explanation": "七八五十六。"
+      },
+      {
+        "id": 4,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与运算的联系",
+        "question": "56÷8等于多少？",
+        "options": [],
+        "answer": "7",
+        "explanation": "七八五十六，所以商是7。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与运算的联系",
+        "question": "用乘法口诀可以帮助计算表内除法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "求商就是想相应的乘法。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与运算的联系",
+        "question": "哪一个算式表示把24平均分成6份？",
+        "options": [
+          "24÷6",
+          "24+6",
+          "24-6",
+          "24×6"
+        ],
+        "answer": "24÷6",
+        "explanation": "总数除以份数，得到每份数。"
+      },
+      {
+        "id": 7,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数量关系",
+        "question": "每盒6支笔，买4盒，另有3支散笔，共有几支？",
+        "options": [],
+        "answer": "27",
+        "explanation": "6×4+3=27。"
+      },
+      {
+        "id": 8,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数量关系",
+        "question": "35个苹果每5个装一袋，共几袋？",
+        "options": [],
+        "answer": "7",
+        "explanation": "35÷5=7。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数量关系",
+        "question": "6个袋子共装了42颗糖，每袋一样多，求每袋数应选哪个算式？",
+        "options": [
+          "42÷6",
+          "42+6",
+          "42-6",
+          "42×6"
+        ],
+        "answer": "42÷6",
+        "explanation": "总数除以份数。"
+      },
+      {
+        "id": 10,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数量关系",
+        "question": "一套卡片8张，3套一共几张？",
+        "options": [],
+        "answer": "24",
+        "explanation": "8×3=24。"
+      },
+      {
+        "id": 11,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数量关系",
+        "question": "每支笔4元，买5支，求总价用4+5。",
+        "options": [],
+        "answer": "错",
+        "explanation": "5个4相加，用4×5=20。"
+      },
+      {
+        "id": 12,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数量关系",
+        "question": "一本书9元，付了27元买同样的书，买了几本？",
+        "options": [],
+        "answer": "3",
+        "explanation": "27÷9=3。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的位置与测量",
+        "question": "面向北时，左边是什么方向？",
+        "options": [
+          "西",
+          "东",
+          "南",
+          "北"
+        ],
+        "answer": "西",
+        "explanation": "面向北时左西右东。"
+      },
+      {
+        "id": 14,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的位置与测量",
+        "question": "1米长的彩带剪去45厘米，还剩几厘米？",
+        "options": [],
+        "answer": "55",
+        "explanation": "100-45=55。"
+      },
+      {
+        "id": 15,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的位置与测量",
+        "question": "尺子上4厘米到10厘米之间长几厘米？",
+        "options": [],
+        "answer": "6",
+        "explanation": "10-4=6。"
+      },
+      {
+        "id": 16,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的位置与测量",
+        "question": "教学楼在操场东面，操场就在教学楼西面。",
+        "options": [],
+        "answer": "对",
+        "explanation": "交换参照点，相对方向相反。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的位置与测量",
+        "question": "门的高度约2什么？",
+        "options": [
+          "米",
+          "厘米",
+          "克",
+          "元"
+        ],
+        "answer": "米",
+        "explanation": "门通常较高，用米合适。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的位置与测量",
+        "question": "两段绳子分别长30厘米、50厘米，合起来几厘米？",
+        "options": [],
+        "answer": "80",
+        "explanation": "30+50=80。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据分类的联系",
+        "question": "红色卡片8张，蓝色卡片6张，一共几张？",
+        "options": [],
+        "answer": "14",
+        "explanation": "8+6=14。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据分类的联系",
+        "question": "红色卡片8张，蓝色卡片6张，红色比蓝色多几张？",
+        "options": [],
+        "answer": "2",
+        "explanation": "8-6=2。"
+      },
+      {
+        "id": 21,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据分类的联系",
+        "question": "想知道班里喜欢不同水果的各有几人，应该按什么分类？",
+        "options": [
+          "最喜欢的水果",
+          "鞋子的颜色",
+          "名字长短",
+          "身高"
+        ],
+        "answer": "最喜欢的水果",
+        "explanation": "要研究喜欢的水果，就以最喜欢的水果为分类标准。"
+      },
+      {
+        "id": 22,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据分类的联系",
+        "question": "同一组物品按不同标准分类，总数不应改变。",
+        "options": [],
+        "answer": "对",
+        "explanation": "只改变分组，不增减物品。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据分类的联系",
+        "question": "红色圆片4个，红色方片3个，红色片共有几个？",
+        "options": [],
+        "answer": "7",
+        "explanation": "4+3=7。"
+      },
+      {
+        "id": 24,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据分类的联系",
+        "question": "先按颜色再按形状继续分，属于哪种方法？",
+        "options": [
+          "逐层分类",
+          "随意分堆",
+          "重复计数",
+          "不确定标准"
+        ],
+        "answer": "逐层分类",
+        "explanation": "先分大类，再在每类里继续细分。"
+      },
+      {
+        "id": 25,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "应用提升",
+        "question": "24本书平均放在4层书架上，每层放几本？",
+        "options": [],
+        "answer": "6",
+        "explanation": "24÷4=6。"
+      },
+      {
+        "id": 26,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "应用提升",
+        "question": "每排8个座位，5排一共有几个座位？",
+        "options": [],
+        "answer": "40",
+        "explanation": "8×5=40。"
+      },
+      {
+        "id": 27,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "应用提升",
+        "question": "一根绳子长1米，剪下20厘米后又剪下30厘米，还剩几厘米？",
+        "options": [],
+        "answer": "50",
+        "explanation": "100-20-30=50。"
+      },
+      {
+        "id": 28,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "应用提升",
+        "question": "校园图标明上方是北，食堂在操场右方。食堂在操场什么方向？",
+        "options": [
+          "东",
+          "西",
+          "南",
+          "北"
+        ],
+        "answer": "东",
+        "explanation": "图上右方对应东。"
+      },
+      {
+        "id": 29,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "应用提升",
+        "question": "同学们分成6组，每组3人，一共有几人？",
+        "options": [],
+        "answer": "18",
+        "explanation": "3×6=18。"
+      },
+      {
+        "id": 30,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "应用提升",
+        "question": "估测后发现结果不合理，可以重新检查参照长度和计算。",
+        "options": [],
+        "answer": "对",
+        "explanation": "检查和调整是解决问题的一部分。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "复习与关联复习练习",
+    "total_score": 0,
+    "time_minutes": 20,
+    "questions": []
+  },
+  "knowledge_summary": [
+    {
+      "point": "数与运算的联系",
+      "core_concept": "用相同加数相加理解乘法，用平均分理解除法，联系口诀检查运算。",
+      "key_formula": "乘法求总数，除法研究平均分。",
+      "common_mistakes": [
+        "相同数字出现在不同算式中，表示的数量关系可能不同。"
+      ],
+      "tips": "同一句口诀可以联系乘法和除法。"
+    },
+    {
+      "point": "数量关系",
+      "core_concept": "分析问题中的总数、每份数和份数，选择合适的运算。",
+      "key_formula": "总数=每份数×份数。",
+      "common_mistakes": [
+        "不能仅根据题目里有没有一共两个字决定用什么运算。"
+      ],
+      "tips": "找出已知量和问题，把关系说清再计算。"
+    },
+    {
+      "point": "图形的位置与测量",
+      "core_concept": "用方向描述位置，用厘米和米表示长度，比较时先统一单位。",
+      "key_formula": "东与西相对，南与北相对；1米=100厘米。",
+      "common_mistakes": [
+        "位置有参照点，长度有单位，不能漏说。"
+      ],
+      "tips": "描述位置先说以哪里为参照，读长度先看单位。"
+    },
+    {
+      "point": "数据分类的联系",
+      "core_concept": "围绕一个问题选择分类标准，用数据记录和比较结果，也可以逐层细分。",
+      "key_formula": "分类标准决定类别，类别数量之和等于总数。",
+      "common_mistakes": [
+        "如果有重复或漏记，分类后的总数就可能不对。"
+      ],
+      "tips": "用合计数核对记录，再根据数据回答问题。"
+    },
+    {
+      "point": "应用提升",
+      "core_concept": "综合使用分类、乘除法、方向与测量解决生活中的简单问题。",
+      "key_formula": "先弄清问题，再选择表示方法和运算。",
+      "common_mistakes": [
+        "答案需要符合情境；算完还要检查单位和意思。"
+      ],
+      "tips": "画一画、分一分、量一量，都可以帮助理解。"
+    }
+  ]
+}

@@ -99,3 +99,11 @@ assert.equal(
   null,
   "inconsistent reward receipts cannot be restored",
 );
+
+const editionId = "g2up-2026-u101-kp1";
+const editionItem = { ...item, key: `${editionId}:1`, lessonId: editionId };
+const editionRound = newReviewSession([editionItem], "due");
+assert.deepEqual(
+  parseReviewSession(JSON.stringify(editionRound), "due"), editionRound,
+  "current textbook editions retain review sessions across refresh",
+);

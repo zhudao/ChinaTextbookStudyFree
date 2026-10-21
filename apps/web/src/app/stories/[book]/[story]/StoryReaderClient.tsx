@@ -1,5 +1,6 @@
 "use client";
 
+import { learnerSessionStorage } from "@/lib/learnerProfiles";
 import { useCallback, useEffect, useRef, useState, useReducer } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
@@ -43,14 +44,14 @@ export default function StoryReaderClient({ story, backHref }: Props) {
   const [passageOpen, setPassageOpen] = useState(false);
   useEffect(() => {
     try {
-      const raw = sessionStorage.getItem(`csf-story:${story.id}`);
+      const raw = learnerSessionStorage.getItem(`csf-story:${story.id}`);
       if (raw) dispatch({ type: 'restore', state: restoreStoryQuiz(JSON.parse(raw), story) });
     } catch { /* Reading is usable with storage disabled. */ }
     setSessionReady(true);
   }, [story]);
   useEffect(() => {
     if (!sessionReady) return;
-    try { sessionStorage.setItem(`csf-story:${story.id}`, JSON.stringify({ contentKey: storySessionKey(story), state: quiz })); } catch { /* Keep the current session in memory. */ }
+    try { learnerSessionStorage.setItem(`csf-story:${story.id}`, JSON.stringify({ contentKey: storySessionKey(story), state: quiz })); } catch { /* Keep the current session in memory. */ }
   }, [quiz, sessionReady, story]);
   const [mode, setMode] = useState<PlayMode>("idle");
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);

@@ -31,7 +31,7 @@ export default async function GradePage({ params }: { params: Promise<{ grade: s
   const { grade } = await params;
   const gradeNum = Number(grade);
   const index = await getIndex();
-  const allBooks = index.books.filter(b => b.grade === gradeNum);
+  const allBooks = index.books.filter(b => b.grade === gradeNum && !b.supersededBy);
 
   const gradeName = ["", "一", "二", "三", "四", "五", "六"][gradeNum];
 
@@ -91,7 +91,7 @@ export default async function GradePage({ params }: { params: Promise<{ grade: s
                     <SoundLink
                       key={book.id}
                       href={`/book/${book.id}/`}
-                      aria-label={`${subject.label} ${book.gradeName}${book.semesterName}，${book.unitsCount} 单元，${book.lessonsCount} 节小课`}
+                      aria-label={`${subject.label} ${book.textbookName}，${book.unitsCount} 单元${book.activitiesCount ? `，${book.activitiesCount} 个实践活动` : ""}，${book.lessonsCount} 节小课`}
                       hapticIntensity="medium"
                       className="duo-chunky-card ui-book-card group relative block rounded-2xl border-2 border-bg-softer select-none overflow-hidden"
                     >
@@ -103,9 +103,10 @@ export default async function GradePage({ params }: { params: Promise<{ grade: s
                           <div className="text-base lg:text-xl font-extrabold leading-tight truncate mt-0.5">
                             {book.gradeName}
                             {book.semesterName}
+                            {book.editionLabel && <span className="ml-1 text-xs">（{book.editionLabel}）</span>}
                           </div>
                           <div className="text-sm text-ink-light mt-1">
-                            {book.unitsCount} 单元 · {book.lessonsCount} 节小课
+                            {book.unitsCount} 单元{book.activitiesCount ? ` · ${book.activitiesCount} 个实践活动` : ""} · {book.lessonsCount} 节小课
                           </div>
                         </div>
 

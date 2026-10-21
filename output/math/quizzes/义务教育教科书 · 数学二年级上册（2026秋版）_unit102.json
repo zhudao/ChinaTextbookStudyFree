@@ -1,0 +1,190 @@
+{
+  "textbook": "人教版小学数学二年级上册（2026秋版）",
+  "unit": "身体上的尺子",
+  "unit_number": 102,
+  "unit_test": {
+    "title": "身体上的尺子配套练习",
+    "total_score": 60,
+    "time_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体上的长度",
+        "question": "想知道自己一拃有多长，最合适的方法是什么？",
+        "options": [
+          "用直尺量",
+          "直接照抄同桌的数据",
+          "认定每个人都一样",
+          "只看手的颜色"
+        ],
+        "answer": "用直尺量",
+        "explanation": "测量自己的数据才能作为参照。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体上的长度",
+        "question": "两个同学的一拃可能不一样长。",
+        "options": [],
+        "answer": "对",
+        "explanation": "人的手大小不同，一拃长度也可能不同。"
+      },
+      {
+        "id": 3,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体上的长度",
+        "question": "小文一拃约12厘米，桌面约4拃长，估计桌面长几厘米？",
+        "options": [],
+        "answer": "48",
+        "explanation": "12×4=48，约48厘米。"
+      },
+      {
+        "id": 4,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体上的长度",
+        "question": "用脚步估测走廊长度时，应怎样走？",
+        "options": [
+          "尽量保持每一步相近",
+          "一会儿跑一会儿跳",
+          "有时跨大步有时挪小步",
+          "不数步数"
+        ],
+        "answer": "尽量保持每一步相近",
+        "explanation": "步长相近，估测才较可靠。"
+      },
+      {
+        "id": 5,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体上的长度",
+        "question": "小林一步约50厘米，走2步约多少厘米？",
+        "options": [],
+        "answer": "100",
+        "explanation": "50+50=100。"
+      },
+      {
+        "id": 6,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体上的长度",
+        "question": "用自己的身体尺估测后，还可以用米尺检查。",
+        "options": [],
+        "answer": "对",
+        "explanation": "米尺能帮助比较估测值与实际值。"
+      },
+      {
+        "id": 7,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体尺的应用与小讲堂",
+        "question": "每拃约10厘米，书桌约6拃长，估计长几厘米？",
+        "options": [],
+        "answer": "60",
+        "explanation": "10×6=60。"
+      },
+      {
+        "id": 8,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体尺的应用与小讲堂",
+        "question": "每拃约15厘米，窗台约4拃长，估计长几厘米？",
+        "options": [],
+        "answer": "60",
+        "explanation": "15×4=60。"
+      },
+      {
+        "id": 9,
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体尺的应用与小讲堂",
+        "question": "估测时不需要说明所用一拃的长度。",
+        "options": [],
+        "answer": "错",
+        "explanation": "参照长度不同，估测结果会不同，交流时要说明。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体尺的应用与小讲堂",
+        "question": "估测结果和尺量结果有些差别，应怎样做？",
+        "options": [
+          "检查步长和测量过程",
+          "把尺量结果随意改掉",
+          "认定自己永远正确",
+          "以后都不用参照物"
+        ],
+        "answer": "检查步长和测量过程",
+        "explanation": "估测存在误差，可以通过检查改进。"
+      },
+      {
+        "id": 11,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体尺的应用与小讲堂",
+        "question": "估测桌长60厘米，实测58厘米，两者相差几厘米？",
+        "options": [],
+        "answer": "2",
+        "explanation": "60-58=2。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体尺的应用与小讲堂",
+        "question": "哪种分享最清楚？",
+        "options": [
+          "我一拃约10厘米，量了5拃，约50厘米",
+          "我觉得很长",
+          "和别人差不多",
+          "量过了但没记录"
+        ],
+        "answer": "我一拃约10厘米，量了5拃，约50厘米",
+        "explanation": "说明参照、次数和结果便于别人理解。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "身体上的尺子复习练习",
+    "total_score": 0,
+    "time_minutes": 20,
+    "questions": []
+  },
+  "knowledge_summary": [
+    {
+      "point": "身体上的长度",
+      "core_concept": "一拃、一步等身体长度可以作为估测参照。不同人的身体长度可能不同。",
+      "key_formula": "先量出自己的身体长度，再用它估测。",
+      "common_mistakes": [
+        "一拃或一步不是每个人都相同的固定长度。"
+      ],
+      "tips": "把手自然张开测一拃，记录自己的数据。"
+    },
+    {
+      "point": "身体尺的应用与小讲堂",
+      "core_concept": "用已测得的身体长度估测物体，记录方法与结果，并交流估测误差。",
+      "key_formula": "估测长度约等于每个参照长度×参照的个数。",
+      "common_mistakes": [
+        "估测值不是精确测量值，表达时要说约。"
+      ],
+      "tips": "小讲堂分享时，说清用什么量、量了几次、估计多长。"
+    }
+  ]
+}
