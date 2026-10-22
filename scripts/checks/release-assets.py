@@ -29,12 +29,13 @@ def main():
     parser.add_argument("--archives-dir", required=True, type=Path)
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--report", type=Path, default=ROOT / "deploy-output/release-integrity.json")
+    parser.add_argument("--mode", choices=["source", "static"], default="source")
+    parser.add_argument("--with-source", action="store_true")
     args = parser.parse_args()
     manifest = json.loads((args.archives_dir / "manifest.json").read_text(encoding="utf-8"))
     assets = {item["name"]: item for item in manifest["assets"]}
-    destinations = dict(installer.DESTINATIONS)
-    if "audio-web-mp3.tar.gz" in assets:
-        destinations["audio-web-mp3.tar.gz"] = "apps/web/public"
+    destinations = {asset['name']: destination for asset, destination in
+                    installer.install_plan(manifest, args.mode, args.with_source)}
     report = {"tag": manifest["tag"], "status": "passed", "packages": [], "errors": []}
     for name, relative in destinations.items():
         source = args.archives_dir / name

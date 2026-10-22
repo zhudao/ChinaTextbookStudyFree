@@ -2,15 +2,44 @@
 
 安装 Docker Desktop（Windows/macOS）或 Docker Engine + Compose（Linux）。无需安装 Node.js、Python、FFmpeg，无需 AI API Key。
 
-在仓库根目录运行：
+**已确认题库版本衔接问题**：此前已发布的 `v1.4.0-content` 有 15,117 道常规题，本次主线构建仅有 7,004 道，未带入已补齐内容。下面的命令通过了容器和音频验证，但没有保留旧版完整题库；已有完整题库的部署在修复前应保留原材料和备份。详见 [版本对照与恢复依据](content-release-reconciliation-2026-10-21.md)。
+
+## 全新部署
+
+需要 Git。在终端（Windows 可使用 PowerShell）执行：
 
 ```sh
-docker compose up -d --build
+git clone --branch main https://github.com/wuwangzhang1216/ChinaTextbookStudyFree.git
+cd ChinaTextbookStudyFree
+docker compose build --build-arg ASSETS_RELEASE=v1.4.2-edge-audio
+docker compose up -d --no-build --wait --wait-timeout 120
 ```
 
-打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载并校验 `v1.2.0-assets` 的全部资源（约 2.06 GB），生成兼容 MP3，再导出静态站点。下载、解压和转码需要时间；建议至少预留 20 GB 磁盘空间。后续修改页面复用依赖及资源层缓存。
+打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载并校验 `v1.4.2-edge-audio` 的全部资源（音频按体积分包），复用已验证的 MP3 与转换缓存，再导出静态站点。下载、校验和构建需要时间；建议至少预留 40 GB 磁盘空间。后续修改页面复用依赖及资源层缓存。
 
 镜像包含四科题库、课文、故事、配图、原音频及 Web MP3；运行阶段只有 Nginx，无需业务后端或数据库。代码、构建工具和环境密钥不进入运行镜像。
+
+## 从旧版升级
+
+升级前备份自定义代码，在原项目根目录执行以下命令，并保留原来的 `.env`、Compose 项目名和访问协议、域名/IP、端口；如原先使用 `-p`、`-f` 等参数，以下每条 `docker compose` 命令都沿用这些参数。构建完成后再替换容器，浏览器学习记录继续保存在同一地址下。无需先停止旧容器；构建成功后由 Compose 替换为新镜像。`--build-arg` 明确选择新版材料，即使旧 `.env` 中还配置了其他 `ASSETS_RELEASE` 也会使用本版。
+
+```sh
+git switch main
+git pull --ff-only origin main
+docker compose build --build-arg ASSETS_RELEASE=v1.4.2-edge-audio
+docker compose up -d --no-build --force-recreate --wait --wait-timeout 120
+```
+
+## 确认服务与中文播放
+
+```sh
+docker compose ps
+docker compose exec -T web wget -q -O - http://127.0.0.1:8080/healthz
+```
+
+应看到容器状态 `healthy`，健康接口输出 `ok`。`wget` 已包含在镜像内，不需要在本机安装 Python 或其他检查工具。
+
+重新加载原来的网页，打开[数学《比的意义与比值》](http://localhost:8080/lesson/g6up/g6up-u4-kp1/)点击“朗读讲解”，听完后“下一步”应解锁；打开[语文《汉字字体的演变》](http://localhost:8080/reading/chinese-g5down/chinese-g5down-p20/)点击“朗读第 5 句”，应正常播放并自然结束。自定义端口、域名或 IP 时，将链接改成原部署地址。
 
 ## 常用操作
 
@@ -21,9 +50,6 @@ docker compose logs --tail=100 web
 
 # 停止（不会清除浏览器里的学习记录）
 docker compose down
-
-# 拉取代码更新后重新构建
-docker compose up -d --build
 ```
 
 默认仅本机可访问。需要同一局域网的电脑/iPad/手机访问时，在仓库 `.env` 加入：
@@ -57,6 +83,16 @@ docker build --target prebuilt --build-context site=apps/web/out -t china-textbo
 ```
 
 此命令需要支持命名构建上下文的 Docker BuildKit；`apps/web/out/` 必须来自完整成功的生产构建。默认 Compose 仍使用前面的完整自动构建流程。
+
+## 新版 Release 验收记录（2026-10-21）
+
+**Docker 验证（2026-10-21）已通过**：在 Apple Silicon/ARM64 上完成新版 Release 无缓存全新构建，以及从 `v1.4.0-content` 旧容器升级。两个容器分别通过 20 项 HTTP 检查；244,930 个音频文件的 SHA-256 全部匹配，67,595 个唯一音频引用无缺失；各抽取 12 段 MP3 完整解码和 Range 206 检查通过。浏览器实际播放中文数学讲解及课文，共 4 个新版页面均自然播完，讲解后“下一步”正常解锁，控制台无错误或警告；升级保留每日目标设置。未在本轮验证 x86 主机或实体手机/iPad。
+
+全新部署使用默认 Dockerfile/Compose，`build --no-cache` 在容器内从公开 Release 下载、核验和安装完整资源，再执行生产构建；67,631 条转换缓存通过核验，0 条待转码。旧版基线为已校验的 `v1.4.0-content` 静态包（155,148 个文件），通过 `prebuilt` 目标构建旧镜像并启动，再在同一 Compose 项目和端口替换为新版镜像；实际确认容器及镜像 ID 已变化，浏览器缓存和学习存储未清除。
+
+两个运行容器均为 `nginx` 用户，Nginx 配置检查通过；2,565 个数据 JSON 的所有音频引用均有效。升级前先播放旧数学讲解与课文以建立缓存，升级后已加载新页面和版本化 Edge MP3；旧版原本无法播放的课文第 5 句已正常播放，每日目标 100 XP 保留。运行镜像约 8.64 GB（十进制）。
+
+本轮环境为 Docker Desktop Linux/ARM64，Docker 29.3.1、Compose 5.1.0。验收没有发现需要修改代码的问题；临时测试容器和专用网络已清理。
 
 ## 验收记录（2026-10-05）
 

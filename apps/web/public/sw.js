@@ -11,8 +11,8 @@
  */
 
 const VERSION = "v3";
-const SHELL_CACHE = `ctsf-shell-${VERSION}`;
-const DATA_CACHE = `ctsf-data-${VERSION}`;
+const SHELL_CACHE = `ctsf-shell-${VERSION}-edge-audio-20261021`;
+const DATA_CACHE = `ctsf-data-${VERSION}-edge-audio-20261021`;
 const STATIC_CACHE = `ctsf-static-${VERSION}`;
 
 const SHELL_PRECACHE = [

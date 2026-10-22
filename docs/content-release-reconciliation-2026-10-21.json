@@ -1,0 +1,8512 @@
+{
+  "versions": {
+    "v1.4.0-content": {
+      "index_total_lessons": 2356,
+      "index_total_questions": 15117,
+      "actual_regular": {
+        "lessons": 2356,
+        "questions": 15117,
+        "missing_knowledge": 0,
+        "single_question": 0,
+        "below_six_questions": 0
+      },
+      "subjects": {
+        "math": {
+          "lessons": 377,
+          "questions": 2802,
+          "missing_knowledge": 0,
+          "single_question": 0,
+          "below_six_questions": 0
+        },
+        "chinese": {
+          "lessons": 845,
+          "questions": 5341,
+          "missing_knowledge": 0,
+          "single_question": 0,
+          "below_six_questions": 0
+        },
+        "english": {
+          "lessons": 630,
+          "questions": 3930,
+          "missing_knowledge": 0,
+          "single_question": 0,
+          "below_six_questions": 0
+        },
+        "science": {
+          "lessons": 504,
+          "questions": 3044,
+          "missing_knowledge": 0,
+          "single_question": 0,
+          "below_six_questions": 0
+        }
+      }
+    },
+    "v1.4.2-edge-audio": {
+      "index_total_lessons": 2194,
+      "index_total_questions": 7004,
+      "actual_regular": {
+        "lessons": 2194,
+        "questions": 7004,
+        "missing_knowledge": 1474,
+        "single_question": 1174,
+        "below_six_questions": 1633
+      },
+      "subjects": {
+        "math": {
+          "lessons": 404,
+          "questions": 2835,
+          "missing_knowledge": 3,
+          "single_question": 3,
+          "below_six_questions": 52
+        },
+        "chinese": {
+          "lessons": 816,
+          "questions": 2159,
+          "missing_knowledge": 548,
+          "single_question": 501,
+          "below_six_questions": 691
+        },
+        "english": {
+          "lessons": 555,
+          "questions": 1151,
+          "missing_knowledge": 531,
+          "single_question": 415,
+          "below_six_questions": 492
+        },
+        "science": {
+          "lessons": 419,
+          "questions": 859,
+          "missing_knowledge": 392,
+          "single_question": 255,
+          "below_six_questions": 398
+        }
+      }
+    }
+  },
+  "old_only_lessons": [
+    "chinese-g2down-u5-kp1",
+    "chinese-g2down-u5-kp2",
+    "chinese-g2down-u5-kp3",
+    "chinese-g2up-u8-kp1",
+    "chinese-g2up-u8-kp2",
+    "chinese-g2up-u8-kp3",
+    "chinese-g3down-u2-kp1",
+    "chinese-g3down-u2-kp2",
+    "chinese-g3down-u2-kp3",
+    "chinese-g3down-u8-kp2",
+    "chinese-g3up-u8-kp1",
+    "chinese-g3up-u8-kp2",
+    "chinese-g3up-u8-kp3",
+    "chinese-g4down-u3-kp3",
+    "chinese-g4down-u5-kp1",
+    "chinese-g4down-u5-kp2",
+    "chinese-g4down-u5-kp3",
+    "chinese-g4down-u7-kp1",
+    "chinese-g4down-u7-kp2",
+    "chinese-g4down-u7-kp3",
+    "chinese-g4down-u8-kp3",
+    "chinese-g4up-u7-kp1",
+    "chinese-g5down-u4-kp1",
+    "chinese-g5down-u4-kp2",
+    "chinese-g5down-u4-kp3",
+    "chinese-g5down-u7-kp3",
+    "chinese-g5down-u8-kp3",
+    "chinese-g6down-u3-kp1",
+    "chinese-g6up-u2-kp2",
+    "english-g3down-u4-kp1",
+    "english-g3down-u4-kp2",
+    "english-g3down-u4-kp3",
+    "english-g3up-u1-kp1",
+    "english-g3up-u1-kp2",
+    "english-g3up-u1-kp3",
+    "english-g3up-u6-kp1",
+    "english-g3up-u6-kp2",
+    "english-g3up-u6-kp3",
+    "english-g4down-u3-kp1",
+    "english-g4down-u3-kp2",
+    "english-g4down-u3-kp3",
+    "english-g4down-u4-kp3",
+    "english-g4down-u5-kp1",
+    "english-g4down-u5-kp2",
+    "english-g4down-u5-kp3",
+    "english-g4up-u2-kp1",
+    "english-g4up-u2-kp3",
+    "english-g4up-u3-kp1",
+    "english-g4up-u3-kp2",
+    "english-g4up-u3-kp3",
+    "english-g4up-u4-kp1",
+    "english-g4up-u5-kp1",
+    "english-g4up-u5-kp2",
+    "english-g4up-u5-kp3",
+    "english-g4up-u6-kp1",
+    "english-g4up-u6-kp2",
+    "english-g4up-u6-kp3",
+    "english-g5down-u1-kp1",
+    "english-g5down-u1-kp3",
+    "english-g5down-u1-kp4",
+    "english-g5down-u3-kp3",
+    "english-g5down-u4-kp1",
+    "english-g5down-u4-kp3",
+    "english-g5down-u4-kp4",
+    "english-g5down-u6-kp1",
+    "english-g5down-u6-kp2",
+    "english-g5down-u6-kp3",
+    "english-g5up-u3-kp1",
+    "english-g5up-u3-kp2",
+    "english-g5up-u3-kp3",
+    "english-g5up-u3-kp4",
+    "english-g6down-u1-kp1",
+    "english-g6down-u1-kp2",
+    "english-g6down-u1-kp3",
+    "english-g6down-u2-kp1",
+    "english-g6down-u2-kp2",
+    "english-g6down-u2-kp3",
+    "english-g6down-u3-kp1",
+    "english-g6down-u3-kp2",
+    "english-g6down-u3-kp3",
+    "english-g6down-u4-kp1",
+    "english-g6down-u4-kp2",
+    "english-g6down-u4-kp3",
+    "english-g6down-u5-kp1",
+    "english-g6down-u5-kp2",
+    "english-g6down-u5-kp3",
+    "english-g6up-u2-kp1",
+    "english-g6up-u2-kp2",
+    "english-g6up-u2-kp3",
+    "english-g6up-u3-kp1",
+    "english-g6up-u3-kp2",
+    "english-g6up-u3-kp3",
+    "english-g6up-u4-kp1",
+    "english-g6up-u4-kp2",
+    "english-g6up-u4-kp3",
+    "english-g6up-u5-kp1",
+    "english-g6up-u5-kp2",
+    "english-g6up-u5-kp3",
+    "english-g6up-u6-kp1",
+    "english-g6up-u6-kp2",
+    "english-g6up-u6-kp3",
+    "english-g6up-u7-kp1",
+    "english-g6up-u7-kp2",
+    "english-g6up-u7-kp3",
+    "g4up-u5-kp2",
+    "science-g1down-u1-kp1",
+    "science-g1down-u1-kp5",
+    "science-g1down-u1-kp7",
+    "science-g1down-u2-kp1",
+    "science-g1down-u2-kp2",
+    "science-g1down-u2-kp3",
+    "science-g1down-u2-kp4",
+    "science-g1down-u2-kp5",
+    "science-g1down-u2-kp6",
+    "science-g1up-u2-kp1",
+    "science-g1up-u2-kp2",
+    "science-g1up-u2-kp3",
+    "science-g3down-u1-kp2",
+    "science-g3down-u1-kp3",
+    "science-g3down-u2-kp2",
+    "science-g3down-u2-kp4",
+    "science-g3down-u3-kp1",
+    "science-g3down-u3-kp2",
+    "science-g3down-u3-kp3",
+    "science-g3down-u3-kp4",
+    "science-g3down-u3-kp5",
+    "science-g3up-u3-kp1",
+    "science-g3up-u3-kp2",
+    "science-g3up-u3-kp3",
+    "science-g3up-u3-kp4",
+    "science-g3up-u3-kp5",
+    "science-g3up-u3-kp6",
+    "science-g4down-u1-kp1",
+    "science-g4down-u1-kp2",
+    "science-g4down-u1-kp3",
+    "science-g4down-u1-kp4",
+    "science-g4down-u1-kp5",
+    "science-g4down-u2-kp1",
+    "science-g4down-u2-kp2",
+    "science-g4down-u2-kp3",
+    "science-g4down-u2-kp4",
+    "science-g4up-u1-kp1",
+    "science-g4up-u1-kp2",
+    "science-g4up-u1-kp3",
+    "science-g4up-u1-kp4",
+    "science-g4up-u1-kp5",
+    "science-g4up-u3-kp1",
+    "science-g4up-u3-kp2",
+    "science-g4up-u3-kp3",
+    "science-g4up-u3-kp4",
+    "science-g4up-u3-kp5",
+    "science-g4up-u3-kp6",
+    "science-g5down-u1-kp1",
+    "science-g5down-u1-kp2",
+    "science-g5down-u1-kp3",
+    "science-g5down-u1-kp4",
+    "science-g5down-u1-kp5",
+    "science-g5down-u1-kp6",
+    "science-g5down-u1-kp7",
+    "science-g5down-u2-kp1",
+    "science-g5down-u2-kp2",
+    "science-g5down-u2-kp3",
+    "science-g5down-u2-kp4",
+    "science-g5down-u2-kp5",
+    "science-g5down-u4-kp1",
+    "science-g5down-u4-kp2",
+    "science-g5down-u4-kp3",
+    "science-g5down-u4-kp4",
+    "science-g5down-u4-kp5",
+    "science-g5up-u1-kp2",
+    "science-g5up-u1-kp3",
+    "science-g5up-u1-kp4",
+    "science-g5up-u1-kp5",
+    "science-g5up-u2-kp1",
+    "science-g5up-u2-kp2",
+    "science-g5up-u2-kp3",
+    "science-g5up-u2-kp4",
+    "science-g5up-u3-kp4",
+    "science-g6down-u2-kp1",
+    "science-g6down-u2-kp2",
+    "science-g6down-u2-kp3",
+    "science-g6down-u2-kp4",
+    "science-g6down-u2-kp5",
+    "science-g6down-u3-kp4",
+    "science-g6up-u1-kp1",
+    "science-g6up-u1-kp2",
+    "science-g6up-u1-kp3",
+    "science-g6up-u1-kp4",
+    "science-g6up-u1-kp5",
+    "science-g6up-u1-kp6"
+  ],
+  "new_only_lessons": [
+    "g2up-2026-u1-kp1",
+    "g2up-2026-u1-kp2",
+    "g2up-2026-u1-kp3",
+    "g2up-2026-u101-kp1",
+    "g2up-2026-u101-kp2",
+    "g2up-2026-u102-kp1",
+    "g2up-2026-u102-kp2",
+    "g2up-2026-u2-kp1",
+    "g2up-2026-u2-kp2",
+    "g2up-2026-u2-kp3",
+    "g2up-2026-u2-kp4",
+    "g2up-2026-u2-kp5",
+    "g2up-2026-u2-kp6",
+    "g2up-2026-u3-kp1",
+    "g2up-2026-u3-kp2",
+    "g2up-2026-u3-kp3",
+    "g2up-2026-u3-kp4",
+    "g2up-2026-u4-kp1",
+    "g2up-2026-u4-kp2",
+    "g2up-2026-u4-kp3",
+    "g2up-2026-u5-kp1",
+    "g2up-2026-u5-kp2",
+    "g2up-2026-u5-kp3",
+    "g2up-2026-u6-kp1",
+    "g2up-2026-u6-kp2",
+    "g2up-2026-u6-kp3",
+    "g2up-2026-u6-kp4",
+    "g2up-2026-u6-kp5"
+  ],
+  "common_lessons": 2166,
+  "lessons_with_fewer_questions": 1639,
+  "fewer_question_details": [
+    {
+      "lesson_id": "chinese-g1down-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g1down-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1down-u1-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g1down-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u2-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1down-u5-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g1down-u7-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1down-u7-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g1down-u7-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp13",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1down-u8-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g1up-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g1up-u5-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g1up-u6-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g1up-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g1up-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1up-u7-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1up-u8-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g1up-u8-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1up-u8-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1up-u8-kp12",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g1up-u8-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g1up-u8-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g1up-u8-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1up-u8-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1up-u8-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1up-u8-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g1up-u8-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u1-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g2down-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g2down-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g2down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g2down-u1-kp5",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g2down-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u1-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u1-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g2down-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g2down-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g2down-u4-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g2down-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g2down-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g2down-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u5-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u6-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u7-kp1",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g2down-u7-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u7-kp11",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g2down-u7-kp2",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u7-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g2down-u7-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u7-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u7-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g2down-u7-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g2down-u7-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u8-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g2down-u8-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2down-u8-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g2up-u2-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g2up-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g2up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g2up-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g2up-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g2up-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g2up-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g2up-u5-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g2up-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g2up-u7-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g2up-u7-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u7-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g2up-u7-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u7-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g2up-u7-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u7-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u7-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u7-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g2up-u8-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g3down-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g3down-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u5-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp1",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp3",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u7-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp1",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp3",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g3down-u8-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g3up-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp1",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp13",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp2",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp21",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u5-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u6-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g3up-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g3up-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u6-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u6-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u7-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g3up-u8-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u5-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u6-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4down-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4down-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u7-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp1",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp2",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp22",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4down-u8-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u1-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4up-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4up-u2-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g4up-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g4up-u4-kp1",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4up-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4up-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4up-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u5-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp13",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u6-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp4",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u7-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g4up-u8-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g4up-u8-kp4",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g5down-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g5down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g5down-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g5down-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u5-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g5down-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp3",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u6-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp2",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u7-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u8-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u8-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g5down-u8-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u8-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g5down-u8-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u8-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u8-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5down-u8-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g5up-u2-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g5up-u2-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g5up-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g5up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g5up-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g5up-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g5up-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g5up-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g5up-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g5up-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g5up-u6-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g5up-u6-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g5up-u6-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g5up-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g5up-u6-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u6-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u7-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u7-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u7-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g5up-u7-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g5up-u7-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u7-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u7-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u7-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g5up-u7-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u7-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u8-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g5up-u8-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g5up-u8-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u8-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u8-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u8-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g5up-u8-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g6down-u1-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g6down-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g6down-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g6down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g6down-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u1-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g6down-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g6down-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g6down-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g6down-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6down-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g6down-u6-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp1",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g6up-u4-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g6up-u4-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "chinese-g6up-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g6up-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g6up-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "chinese-g6up-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "chinese-g6up-u6-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "chinese-g6up-u8-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "english-g3down-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g3down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g3down-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g3down-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3down-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g3down-u6-kp2",
+      "old_questions": 9,
+      "new_questions": 8
+    },
+    {
+      "lesson_id": "english-g3down-u6-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "english-g3up-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "english-g3up-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "english-g3up-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g3up-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g3up-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "english-g4down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp13",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp2",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4down-u5-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4down-u6-kp2",
+      "old_questions": 11,
+      "new_questions": 10
+    },
+    {
+      "lesson_id": "english-g4down-u6-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4up-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "english-g4up-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp2",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u5-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp10",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp13",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp22",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g4up-u6-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "english-g5down-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "english-g5down-u1-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u2-kp1",
+      "old_questions": 10,
+      "new_questions": 9
+    },
+    {
+      "lesson_id": "english-g5down-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5down-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "english-g5down-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp2",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u5-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "english-g5down-u5-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp20",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5down-u6-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "english-g5up-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "english-g5up-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5up-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g5up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp19",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp20",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g5up-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g5up-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "english-g5up-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5up-u5-kp1",
+      "old_questions": 12,
+      "new_questions": 11
+    },
+    {
+      "lesson_id": "english-g5up-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g5up-u5-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g5up-u6-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g5up-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp20",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp8",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g6down-u1-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u5-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u5-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u5-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u5-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u5-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u5-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u5-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6down-u5-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g6down-u5-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6down-u5-kp8",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "english-g6down-u5-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "english-g6up-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u5-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp16",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "english-g6up-u6-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "english-g6up-u7-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "g1down-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g1up-u1-kp1",
+      "old_questions": 12,
+      "new_questions": 6
+    },
+    {
+      "lesson_id": "g2down-u6-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g2down-u6-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "g2down-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g2down-u6-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "g2up-u1-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "g2up-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g2up-u1-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "g3down-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g3down-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g3down-u9-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "g4down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "g4down-u1-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "g4down-u2-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g4down-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g4down-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "g4down-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g4down-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g4down-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "g4down-u4-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g4down-u4-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "g4down-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "g4down-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g4down-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g4down-u5-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g4down-u5-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "g4down-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g4down-u5-kp5",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g4down-u6-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g4down-u6-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "g4down-u7-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g4down-u8-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g4down-u9-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "g4up-u7-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g4up-u8-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g5down-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g5down-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "g5down-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g5down-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "g5down-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "g5down-u5-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g5down-u5-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g5down-u6-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g5down-u6-kp4",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "g5down-u9-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "g6down-u2-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g6down-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g6down-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "g6down-u4-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g6down-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "g6down-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "g6down-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g1down-u1-kp10",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g1down-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g1down-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g1down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g1down-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g1down-u1-kp8",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g1down-u1-kp9",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g1down-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp20",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g1up-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g1up-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g1up-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g1up-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g2down-u1-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g2down-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g2down-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g2down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g2down-u1-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g2down-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g2down-u2-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g2down-u2-kp2",
+      "old_questions": 10,
+      "new_questions": 9
+    },
+    {
+      "lesson_id": "science-g2down-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g2down-u2-kp4",
+      "old_questions": 8,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g2down-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g2down-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g2up-u1-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g2up-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g2up-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g2up-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g2up-u1-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g2up-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g2up-u1-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g2up-u2-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g2up-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g2up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g2up-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g2up-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g2up-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u1-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g3down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g3down-u1-kp5",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g3down-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g3down-u1-kp7",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g3down-u1-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u2-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g3down-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g3down-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g3down-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp20",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3down-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g3up-u1-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g3up-u1-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g3up-u1-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g3up-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g3up-u1-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g3up-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g3up-u2-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g3up-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g3up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g3up-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp22",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp27",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g3up-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp11",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4down-u1-kp9",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp16",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4down-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4down-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g4down-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g4down-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g4down-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4up-u1-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u2-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g4up-u2-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4up-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4up-u2-kp4",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4up-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g4up-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g4up-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g4up-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp27",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp28",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp29",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g4up-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp11",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp16",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp27",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp28",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u1-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp27",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g5down-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g5down-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g5down-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g5down-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g5down-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp11",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp12",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp8",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g5down-u4-kp9",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g5up-u1-kp1",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g5up-u1-kp10",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g5up-u1-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u1-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u1-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u1-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u1-kp6",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g5up-u1-kp7",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g5up-u1-kp8",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g5up-u1-kp9",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp27",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g5up-u3-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u3-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g5up-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g5up-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g5up-u4-kp1",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g5up-u4-kp2",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g5up-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u1-kp1",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g6down-u1-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6down-u1-kp5",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp10",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp12",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp17",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp8",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g6down-u2-kp9",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g6down-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6down-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g6down-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g6down-u3-kp7",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g6down-u3-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6down-u3-kp9",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g6down-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 5
+    },
+    {
+      "lesson_id": "science-g6down-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp10",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp11",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp12",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp13",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp14",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp15",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp16",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp17",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp18",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp19",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp20",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp21",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp22",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp23",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp24",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp25",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp26",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp27",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp7",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp8",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u1-kp9",
+      "old_questions": 6,
+      "new_questions": 1
+    },
+    {
+      "lesson_id": "science-g6up-u2-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6up-u2-kp2",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g6up-u2-kp3",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g6up-u2-kp5",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6up-u2-kp6",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6up-u3-kp1",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6up-u3-kp2",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g6up-u3-kp3",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6up-u3-kp4",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6up-u3-kp5",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6up-u3-kp6",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6up-u4-kp2",
+      "old_questions": 6,
+      "new_questions": 4
+    },
+    {
+      "lesson_id": "science-g6up-u4-kp3",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g6up-u4-kp4",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g6up-u4-kp5",
+      "old_questions": 6,
+      "new_questions": 3
+    },
+    {
+      "lesson_id": "science-g6up-u4-kp6",
+      "old_questions": 6,
+      "new_questions": 2
+    },
+    {
+      "lesson_id": "science-g6up-u4-kp7",
+      "old_questions": 6,
+      "new_questions": 2
+    }
+  ],
+  "old_only_lesson_questions": 1140,
+  "live_index": {
+    "totalLessons": 2194,
+    "totalQuestions": 7004
+  }
+}

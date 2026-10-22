@@ -1,0 +1,79 @@
+{
+  "status": "passed_and_imported",
+  "checked_at": "2026-10-18T16:17:22.100559+00:00",
+  "planned_lessons": 1891,
+  "checked_questions": 11497,
+  "scope": [
+    "All staged JSON fields and source fingerprints",
+    "Existing question ID preservation",
+    "Every choice through actual available option buttons and core gradeAnswer",
+    "Every true/false through actual 对/错 buttons and core gradeAnswer",
+    "All other answer types checked against core gradeAnswer",
+    "Targeted inspection of answer/explanation inconsistencies"
+  ],
+  "grading_failures": {
+    "true_false_ungradeable": 29,
+    "choice_ungradeable": 154
+  },
+  "ungradeable_questions": 183,
+  "missing_source_ids_lessons": 4,
+  "missing_source_ids": 5,
+  "empty_choice_options": 13,
+  "duplicate_choice_options": 1,
+  "source_changes": 0,
+  "production_unchanged": false,
+  "formal_content_applied": true,
+  "audio_generated": false,
+  "github_release_published": false,
+  "github_connectivity": "restored",
+  "checks": {
+    "type_check": "passed",
+    "existing_choice_grading": "3436 passed",
+    "existing_story_grading": "1226 passed",
+    "generation_and_api_tests": "11 passed"
+  },
+  "semantic_examples": [
+    {
+      "lesson_id": "english-g6up-u5-kp20",
+      "index": 5,
+      "issue": "Answer is is, explanation explicitly says plural subject requires are."
+    },
+    {
+      "lesson_id": "english-g3up-u6-kp18",
+      "index": 4,
+      "issue": "Answer first is absent from the options; explanation identifies brush my teeth as the intended answer."
+    }
+  ],
+  "packaging_findings": [
+    "scripts/package-release.py hardcodes old lesson/question counts in manifest; must derive current counts before a new release."
+  ],
+  "limitations": [
+    "No teacher review or claim that every semantic answer has been independently verified.",
+    "No new voice recordings; new text can be read and answered without narration."
+  ],
+  "details": {
+    "grading": "data/lesson-review/release-20261018/questions-grading.json",
+    "structural": "data/lesson-review/release-20261018/structural-audit.json"
+  },
+  "resolved_at": "2026-10-18T16:40:41.089862+00:00",
+  "ungradeable_questions_after": 0,
+  "checked_app_questions": 15117,
+  "repaired_questions": 184,
+  "restored_source_ids": 5,
+  "units_applied": 194,
+  "books": 44,
+  "lessons": 2356,
+  "previous_lesson_ids_preserved": 2166,
+  "new_lessons": 190,
+  "old_unit_question_ids_preserved": 4510,
+  "images_verified": 2034,
+  "build": "passed",
+  "type_check": "passed",
+  "new_audio_generated": false,
+  "packaging_findings_resolved": [
+    "Manifest statistics derived from built data",
+    "Installer includes MP3 archive when present",
+    "Added exported static app archive"
+  ],
+  "source_changes_authorized": true
+}
