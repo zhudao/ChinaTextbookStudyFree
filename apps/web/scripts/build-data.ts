@@ -629,15 +629,32 @@ async function processTextbook(
       l.kpTotal = realTotal;
     });
 
-    // Curated pilot keeps canonical lesson IDs and participates in the normal path.
+    // Keep the visual pilot and publish its source question bank as extra practice.
+    // Replacing the bank outright would silently drop previously released questions.
+    const practiceLessons: Lesson[] = [];
+    let nextPracticeKp = kpNames.length + 1;
     for (let i = 0; i < unitLessons.length; i++) {
-      const curated = curateNumberSenseLesson(unitLessons[i]);
-      if (curated !== unitLessons[i]) {
+      const original = unitLessons[i];
+      const curated = curateNumberSenseLesson(original);
+      if (curated !== original) {
+        const practice: Lesson = {
+          ...original,
+          id: `${bookId}-u${unit.unit_number}-kp${nextPracticeKp++}`,
+          title: `${original.title}（巩固练习）`,
+          restoresLessonId: original.id,
+        };
+        practiceLessons.push(practice);
+        curated.legacyPracticeLessonId = practice.id;
         curated.questions.forEach(decorateQuestion);
         if (curated.knowledge) decorateKnowledge(curated.knowledge);
         unitLessons[i] = curated;
       }
     }
+    unitLessons.push(...practiceLessons);
+    unitLessons.forEach((lesson, i) => {
+      lesson.kpIndex = i;
+      lesson.kpTotal = unitLessons.length;
+    });
     allLessons.push(...unitLessons);
 
     // === ⚔️ 单元挑战课（exam 题库复活，Wave E1）===
@@ -652,8 +669,8 @@ async function processTextbook(
         bookId,
         unitNumber: unit.unit_number,
         unitTitle: unit.title,
-        kpIndex: realTotal,
-        kpTotal: realTotal,
+        kpIndex: unitLessons.length,
+        kpTotal: unitLessons.length,
         questions: picked,
         knowledge: null,
       });

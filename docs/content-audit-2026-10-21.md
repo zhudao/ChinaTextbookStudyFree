@@ -1,4 +1,6 @@
-# 当前内容覆盖与资源审计（2026-10-21）
+# 历史 v1.4.2 内容覆盖与资源审计（2026-10-21）
+
+**已修复（v1.4.3）**：原补齐题库已完整恢复并合入当前主线，现有 2,387 课、15,303 道常规题，缺讲解与少于六题课均为 0。当前状态及修正版验证见 [v1.4.3 审计](content-audit-v1.4.3.md)。下文保留 v1.4.2 问题发生时的历史证据。
 
 **补充更正：RealRouter / GPT Luna 的题目和讲解已在 v1.4.0-content 补齐并发布（2,356 课、15,117 题，缺讲解和单题课均为 0）。本次 v1.4.2 未带入这批完整题库，出现版本回退。详见 [已有成果与版本衔接对照](content-release-reconciliation-2026-10-21.md)。**
 
@@ -57,4 +59,4 @@ python3 scripts/checks/site-integrity.py --public apps/web/out --site apps/web/o
 
 在输出 JSON 的 `warnings.lessons_without_knowledge`、`warnings.one_question_lessons` 和 `lesson_question_counts` 查看覆盖统计，在 `integrity_errors` 查看结构和资源错误。脚本的成功退出只代表没有完整性错误，覆盖告警仍需处理。
 
-当前页与两份 JSON 是本版快照，后续应针对实际发布数据重跑并同步更新 README。此前的 [语文阅读升级审计](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/content-quality-review.md) 和 [内容补齐历史记录](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/content-review-followups.md) 保留各自日期和范围；当前覆盖状态以本页及本版数据为准。
+当前页与两份 JSON 是本版快照，后续应针对实际发布数据重跑并同步更新 README。此前的 [语文阅读升级审计](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/content-quality-review.md) 和 [内容补齐历史记录](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/content-review-followups.md) 保留各自日期和范围；当前覆盖状态以 [v1.4.3 审计](content-audit-v1.4.3.md) 及实际发布数据为准。

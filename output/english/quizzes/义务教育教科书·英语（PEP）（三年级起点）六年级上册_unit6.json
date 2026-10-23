@@ -4,275 +4,273 @@
   "unit_number": 6,
   "unit_test": {
     "title": "Unit 6 Standard Assessment",
-    "total_score": 95,
+    "total_score": 486,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "angry的意思是“生气的”，表示生气的情绪；“悲伤的”是sad。",
         "knowledge_point": "情绪形容词词义",
+        "options": [],
         "question": "'angry' 这个单词的意思是'悲伤的'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "angry的意思是'生气的'，'悲伤的'是sad。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "afraid的意思是“害怕的”，表示感到恐惧。",
         "knowledge_point": "情绪形容词词义",
+        "options": [],
         "question": "'afraid' 这个单词的意思是'害怕的'。",
-        "options": [],
-        "answer": "对",
-        "explanation": "afraid的意思是害怕的，担心某事发生。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "建议类动词短语",
-        "question": "'take a deep breath' 的意思是'深呼吸'。",
-        "options": [],
         "answer": "对",
-        "explanation": "take a deep breath是深呼吸，常用于缓解情绪。"
+        "difficulty": 1,
+        "explanation": "take a deep breath意为“深呼吸”，常用于建议别人放松或缓解紧张。",
+        "knowledge_point": "建议类动词短语",
+        "options": [],
+        "question": "'take a deep breath' 的意思是“深呼吸”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "see a doctor意为“看医生”。生病时建议对方看医生是恰当的表达。",
         "knowledge_point": "建议类动词短语",
+        "options": [],
         "question": "当别人生病时，我们可以建议说：'You should see a doctor.'",
-        "options": [],
-        "answer": "对",
-        "explanation": "see a doctor意为看医生，是合理的健康建议。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "语法搭配",
-        "question": "在句子 'He should count with ten.' 中，介词 with 使用正确。",
-        "options": [],
-        "answer": "错",
-        "explanation": "应该是count to ten，表示数到十。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "正确说法是 count to ten，表示“数到十”。count with ten 不是表达这个意思的正确搭配。",
+        "knowledge_point": "语法搭配",
+        "options": [],
+        "question": "在句子 'He should count with ten.' 中，介词 with 使用正确。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "afraid",
         "difficulty": 1,
+        "explanation": "句意是“老鼠害怕猫”。be afraid of 表示“害怕……”，所以填 afraid。",
         "knowledge_point": "情绪形容词辨析",
-        "question": "The mouse is ______ of the cat.",
         "options": [
           "angry",
           "afraid",
           "happy",
           "sad"
         ],
-        "answer": "afraid",
-        "explanation": "根据常识，老鼠是害怕（afraid）猫的。"
+        "question": "The mouse is ______ of the cat.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "does",
         "difficulty": 1,
+        "explanation": "Sarah 是第三人称单数，询问她的感受时用 does；does 后面的 feel 保持原形。",
         "knowledge_point": "情境交际",
-        "question": "—How ______ Sarah feel? —She is sad.",
         "options": [
           "do",
           "does",
           "is",
           "are"
         ],
-        "answer": "does",
-        "explanation": "Sarah是第三人称单数，助动词用does。"
+        "question": "—How ______ Sarah feel? —She is sad.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "should",
         "difficulty": 1,
+        "explanation": "生病时应该去看医生，表达建议常用 should，后接动词原形 see。",
         "knowledge_point": "情境交际",
-        "question": "If you are ill, you ______ see a doctor.",
         "options": [
           "will",
           "can",
           "should",
           "shall"
         ],
-        "answer": "should",
-        "explanation": "提出建议常用情态动词should（应该）。"
+        "question": "If you are ill, you ______ see a doctor.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "sad",
         "difficulty": 1,
+        "explanation": "考试不及格通常会让人感到伤心，因此选 sad（伤心的）。",
         "knowledge_point": "词义理解",
-        "question": "I failed the math test. I am very ______.",
         "options": [
           "happy",
           "proud",
           "sad",
           "excited"
         ],
-        "answer": "sad",
-        "explanation": "考试不及格通常感到伤心（sad）。"
+        "question": "I failed the math test. I am very ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "take a deep breath",
         "difficulty": 2,
+        "explanation": "生气时深呼吸并数到十有助于平静下来，因此应选“take a deep breath”。",
         "knowledge_point": "建议短语",
-        "question": "Don't be angry. You should ______ and count to ten.",
         "options": [
           "take a deep breath",
           "eat more fruit",
           "play sports",
           "go to sleep"
         ],
-        "answer": "take a deep breath",
-        "explanation": "调整愤怒情绪的经典方法是深呼吸和数数十。"
+        "question": "Don't be angry. You should ______ and count to ten.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "looking for",
         "difficulty": 2,
+        "explanation": "look for 意为“寻找”。句中有 is，表示现在正在做的动作，因此用现在进行时 is looking for。",
         "knowledge_point": "动词短语",
-        "question": "Sam is ______ his football.",
         "options": [
           "sit on",
           "looking for",
           "talk about",
           "goes to"
         ],
-        "answer": "looking for",
-        "explanation": "寻找足球用look for，此处用现在进行时。"
+        "question": "Sam is ______ his football.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "worried",
         "difficulty": 2,
+        "explanation": "爸爸生病是让人担心的原因，因此男孩感到担心（worried）。",
         "knowledge_point": "逻辑理解",
-        "question": "The boy is ______ because his father is ill.",
         "options": [
           "happy",
           "worried",
           "excited",
           "angry"
         ],
-        "answer": "worried",
-        "explanation": "爸爸生病了，孩子应该感到担心（worried）。"
+        "question": "The boy is ______ because his father is ill.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "happy",
         "difficulty": 2,
+        "explanation": "遵守规则，老师会高兴。will 后接 be，be 后可以接形容词 happy。",
         "knowledge_point": "语法结构",
-        "question": "If you follow the rules, the teachers will be ______.",
         "options": [
           "angry",
           "happy",
           "bad",
           "sad"
         ],
-        "answer": "happy",
-        "explanation": "遵守规则老师会高兴（happy）。"
+        "question": "If you follow the rules, the teachers will be ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "happy",
         "difficulty": 1,
+        "explanation": "sad 意为“伤心的”，happy 意为“开心的”，两者意思相反。",
         "knowledge_point": "反义词/对应词",
-        "question": "The opposite word of 'sad' is ______.",
         "options": [
           "happy",
           "angry",
           "worried",
           "afraid"
         ],
-        "answer": "happy",
-        "explanation": "sad（伤心）的反义词是happy（开心）。"
+        "question": "The opposite word of 'sad' is ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "Don't worry.",
         "difficulty": 3,
+        "explanation": "朋友因比赛紧张，需要安慰。用“Don't worry.”表示“不要担心”，符合情境。",
         "knowledge_point": "综合情境",
-        "question": "Your friend is going to have a big match. He is nervous. You can say: ______",
         "options": [
           "Don't worry.",
           "You are right.",
           "I am sorry.",
           "Good idea."
         ],
-        "answer": "Don't worry.",
-        "explanation": "安慰紧张的人可以使用'Don't worry'（不要担心）。"
+        "question": "Your friend is going to have a big match. He is nervous. You can say: ______",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "情绪单词拼写",
-        "question": "I am so ______ because I got a new bike today. (开心)",
-        "options": [],
         "answer": "happy",
-        "explanation": "开心的核心词汇是happy。"
-      },
-      {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "建议短语表达",
-        "question": "When you are angry, you should ______ to ten.",
-        "options": [],
-        "answer": "count",
-        "explanation": "数到十的动词是count。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "身体健康与建议",
-        "question": "If you are ill, you should see a ______.",
-        "options": [],
-        "answer": "doctor",
-        "explanation": "生病看医生，固定短语see a doctor。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "“开心的”是 happy；句意是我今天得到了一辆新自行车，所以很开心。",
         "knowledge_point": "情绪单词拼写",
-        "question": "Mum is ______ with me because I broke the cup. (生气)",
         "options": [],
-        "answer": "angry",
-        "explanation": "生气的单词是angry。"
+        "question": "I am so ______ because I got a new bike today. (开心)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 20,
-        "type": "matching",
+        "answer": "count",
+        "difficulty": 2,
+        "explanation": "“数到十”用 count to ten。should 后接动词原形，因此填 count。",
+        "knowledge_point": "建议短语表达",
+        "options": [],
+        "question": "When you are angry, you should ______ to ten.",
         "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "doctor",
+        "difficulty": 2,
+        "explanation": "生病时应该看医生，固定表达是see a doctor。",
+        "knowledge_point": "身体健康与建议",
+        "options": [],
+        "question": "If you are ill, you should see a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "angry",
         "difficulty": 1,
+        "explanation": "“生气的”是 angry；句意是妈妈因为我打碎了杯子而生我的气。",
+        "knowledge_point": "情绪单词拼写",
+        "options": [],
+        "question": "Mum is ______ with me because I broke the cup. (生气)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-4,B-1,C-3,D-2",
+        "difficulty": 1,
+        "explanation": "be angry 意为“生气”；be afraid 意为“害怕”；see a doctor 意为“看医生”；wear warm clothes 意为“穿暖和的衣服”。",
         "knowledge_point": "核心词汇英汉匹配",
-        "question": "将下列短语与中文意思匹配：",
         "options": [
           "be angry",
           "be afraid",
@@ -283,36 +281,32 @@
           "看医生",
           "生气"
         ],
-        "answer": "A-4,B-1,C-3,D-2",
-        "explanation": "be angry-生气; be afraid-害怕; see a doctor-看医生; wear warm clothes-穿暖和的衣服。"
+        "question": "将下列短语与中文意思匹配：A. be angry；B. be afraid；C. see a doctor；D. wear warm clothes。1. 害怕；2. 穿暖和的衣服；3. 看医生；4. 生气。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "You should take a deep breath.",
         "difficulty": 2,
+        "explanation": "“Feel angry”表示生气，深呼吸可以帮助人平静下来，因此应选“You should take a deep breath.”",
         "knowledge_point": "情境建议匹配",
-        "question": "根据情况选择正确的建议：",
         "options": [
-          "feel cold",
-          "feel sad",
-          "stay healthy",
-          "feel angry",
-          "do more exercise",
-          "wear a coat",
-          "take a deep breath",
-          "watch a movie"
+          "You should take a deep breath.",
+          "You should wear a coat.",
+          "You should watch a movie.",
+          "You should eat some ice cream."
         ],
-        "answer": "A-2,B-4,C-1,D-3",
-        "explanation": "寒冷穿大衣，伤心看电影，健康多运动，生气深呼吸。"
+        "question": "Amy feels angry. What should she do?",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "How do you feel?",
         "difficulty": 1,
+        "explanation": "特殊疑问句结构为“疑问词 + 助动词 + 主语 + 动词原形”。因此排列为 How do you feel?",
         "knowledge_point": "询问情绪句型",
-        "question": "连词成句：you, How, feel, do, ?",
         "options": [
           "you",
           "How",
@@ -320,8 +314,1353 @@
           "do",
           "?"
         ],
-        "answer": "How,do,you,feel,?",
-        "explanation": "特殊疑问句结构：疑问词+助动词+主语+动词原形。"
+        "question": "连词成句：you, How, feel, do, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "happy 表示“开心的”，用来描述人的情绪。",
+        "knowledge_point": "情绪与心理状态形容词",
+        "options": [
+          "hungry",
+          "happy",
+          "heavy",
+          "high"
+        ],
+        "question": "Which word means “开心的”?",
+        "score": 1,
+        "type": "choice",
+        "id": 23
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "主语 I 与 am 搭配，I am tired 表示“我很累”。",
+        "knowledge_point": "情绪与心理状态形容词",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "question": "I ___ tired after the long walk.",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "afraid 的意思是“害怕的”，可以描述一个人的感受。",
+        "knowledge_point": "情绪与心理状态形容词",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“Afraid” means feeling scared. Is this statement true or false?",
+        "score": 1,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "worried",
+        "difficulty": 2,
+        "explanation": "worried 表示“担心的”，可描述 Mei 对考试的心理状态。",
+        "knowledge_point": "情绪与心理状态形容词",
+        "options": [],
+        "question": "Mei is ______ about the test tomorrow. She hopes she will do well.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "The children are excited.",
+        "difficulty": 2,
+        "explanation": "children 是复数主语，所以用 are；描述孩子们感到兴奋，应使用 excited。",
+        "knowledge_point": "情绪与心理状态形容词",
+        "options": [],
+        "question": "用 excited 和 are 将词语组成正确的句子：The children / ______ / ______.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "boring",
+        "difficulty": 2,
+        "explanation": "bored 描述人的感受，boring 描述令人无聊的事物。句中主语是 book，因此填 boring。",
+        "knowledge_point": "情绪与心理状态形容词",
+        "options": [
+          "bored",
+          "boring"
+        ],
+        "question": "This book is ______. I want to read a more interesting one.",
+        "score": 1,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "对方考试前很紧张，深呼吸是具体且合适的缓解建议。should 后接动词原形 breathe。",
+        "knowledge_point": "针对负面情绪提出缓解建议",
+        "options": [
+          "You should worry more.",
+          "You should take a deep breath.",
+          "You should be angry."
+        ],
+        "question": "Lily feels nervous before the test. What can you say to her?",
+        "score": 1,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“Why not”后接动词原形。“talk”用法正确，这句话是在建议对方和朋友谈谈。",
+        "knowledge_point": "针对负面情绪提出缓解建议",
+        "options": [],
+        "question": "判断正误：You look sad. Why not talk to your friend?",
+        "score": 1,
+        "type": "true_false",
+        "id": 30
+      },
+      {
+        "answer": "listen",
+        "difficulty": 1,
+        "explanation": "“You can”后接动词原形，因此填 listen。听音乐可以帮助人放松心情。",
+        "knowledge_point": "针对负面情绪提出缓解建议",
+        "options": [],
+        "question": "You feel angry. You can ______ to some quiet music and calm down.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 31
+      },
+      {
+        "answer": "You should talk to your teacher.",
+        "difficulty": 2,
+        "explanation": "对方因为作业太难而烦恼，可以建议他向老师求助。should 后接动词原形 talk。",
+        "knowledge_point": "针对负面情绪提出缓解建议",
+        "options": [],
+        "question": "Sam feels upset because his homework is too difficult. 用“You should…”给他提出一条建议。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“How about”后接动词-ing形式，因此应说“How about going for a walk?”，意思是“出去散散步怎么样？”",
+        "knowledge_point": "针对负面情绪提出缓解建议",
+        "options": [
+          "How about go for a walk?",
+          "How about going for a walk?",
+          "How about to go for a walk?"
+        ],
+        "question": "选择正确的句子，向感到难过的朋友提出建议。",
+        "score": 1,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "Why not do something fun with your friends?",
+        "difficulty": 2,
+        "explanation": "答案使用了“Why not + 动词原形”的结构，并提出了积极、具体的活动建议。其他合理且语法正确的建议也可接受。",
+        "knowledge_point": "针对负面情绪提出缓解建议",
+        "options": [],
+        "question": "你的朋友觉得无聊又有点沮丧。用“Why not…?”给他提出一条建议。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "if 从句中用一般现在时，feel 不需要加 will；主句用 will 表示将采取的行动。",
+        "knowledge_point": "条件句中表达情绪调节",
+        "options": [
+          "If I will feel angry, I take a deep breath.",
+          "If I feel angry, I will take a deep breath.",
+          "If I felt angry, I will take a deep breath."
+        ],
+        "question": "选择正确的句子：",
+        "score": 1,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "If I feel nervous 是条件从句，主句 I can talk to my teacher 说明可以采取的调节方法。",
+        "knowledge_point": "条件句中表达情绪调节",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "句子“If I feel nervous, I can talk to my teacher.”表达了遇到紧张情绪时可以采取的做法。判断正误。",
+        "score": 1,
+        "type": "true_false",
+        "id": 36
+      },
+      {
+        "answer": "feel",
+        "difficulty": 1,
+        "explanation": "if 引导的条件从句中用一般现在时，因此填 feel，不填 will feel。",
+        "knowledge_point": "条件句中表达情绪调节",
+        "options": [],
+        "question": "填空：If I ___ sad, I can talk to my friend.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 37
+      },
+      {
+        "answer": "If I feel angry, I will take a deep breath.",
+        "difficulty": 2,
+        "explanation": "条件部分“If I feel angry”使用一般现在时；结果部分用“I will take...”说明将采取的做法。句首的 if 从句后要加逗号。",
+        "knowledge_point": "条件句中表达情绪调节",
+        "options": [],
+        "question": "用给出的词语组成句子：I / feel angry / if / take a deep breath",
+        "score": 2,
+        "type": "calculation",
+        "id": 38
+      },
+      {
+        "answer": "If I feel upset, I can talk to someone I trust.",
+        "difficulty": 2,
+        "explanation": "答案用 if 从句说明情绪条件，用 can talk to someone I trust 表达一种积极的调节办法。意思合理、结构正确即可。",
+        "knowledge_point": "条件句中表达情绪调节",
+        "options": [],
+        "question": "用英语完成句子：如果我感到难过，我可以找信任的人谈谈。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "If I feel frustrated, I will ask my teacher for help.",
+        "difficulty": 3,
+        "explanation": "句子用 If I feel frustrated 表示条件，用 will ask my teacher for help 表达遇到挫折时的积极应对方式。其他语法正确、意思恰当的答案也可接受。",
+        "knowledge_point": "条件句中表达情绪调节",
+        "options": [],
+        "question": "请用英语写一句条件句，表达“如果我感到沮丧，我会采取一种积极的办法帮助自己”。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "开心的",
+        "difficulty": 1,
+        "explanation": "happy表示“开心的、高兴的”，是一种愉快的情绪。",
+        "knowledge_point": "情绪形容词词义",
+        "options": [],
+        "question": "'happy' 的意思是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 41
+      },
+      {
+        "answer": "悲伤的",
+        "difficulty": 1,
+        "explanation": "sad表示“悲伤的、难过的”，和happy的意思相反。",
+        "knowledge_point": "情绪形容词词义",
+        "options": [],
+        "question": "Which word means “悲伤的”？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 42
+      },
+      {
+        "answer": "excited",
+        "difficulty": 2,
+        "explanation": "“兴奋的”可以用excited表示，例如：I am excited about the trip.（我对这次旅行感到兴奋。）",
+        "knowledge_point": "情绪形容词词义",
+        "options": [],
+        "question": "“兴奋的”用英语怎么说？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 43
+      },
+      {
+        "answer": "B. worried",
+        "difficulty": 2,
+        "explanation": "worried 的意思是“担心的”，例如：She is worried about the test.（她在担心考试。）",
+        "knowledge_point": "情绪形容词词义",
+        "options": [
+          "A. happy",
+          "B. worried",
+          "C. angry",
+          "D. afraid"
+        ],
+        "question": "Which word means “担心的”？",
+        "score": 2,
+        "type": "choice",
+        "id": 44
+      },
+      {
+        "answer": "get some rest",
+        "difficulty": 1,
+        "explanation": "get some rest意为“休息一下”，适合用来建议疲惫的人休息。",
+        "knowledge_point": "建议类动词短语",
+        "options": [],
+        "question": "你看起来很累。建议你休息一下：You should ________.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 45
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "drink some water意为“喝些水”，适合在口渴时作为建议。",
+        "knowledge_point": "建议类动词短语",
+        "options": [
+          "A. Drink some water.",
+          "B. See a doctor.",
+          "C. Take a deep breath."
+        ],
+        "question": "朋友口渴了，你可以给他什么建议？",
+        "score": 2,
+        "type": "choice",
+        "id": 46
+      },
+      {
+        "answer": "动词原形",
+        "difficulty": 2,
+        "explanation": "should是情态动词，后面接动词原形，因此应说“You should ask for help.”",
+        "knowledge_point": "建议类动词短语",
+        "options": [],
+        "question": "在“You should ________.”中，should后面应接动词的________形式。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "You should take a deep breath.",
+        "difficulty": 2,
+        "explanation": "take a deep breath意为“深呼吸”。用“You should + 动词原形”提出建议，句意为“你应该深呼吸”。",
+        "knowledge_point": "建议类动词短语",
+        "options": [],
+        "question": "你的同学很紧张。请用“You should”写一句建议，建议他深呼吸。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 48
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "listen to 是固定搭配，表示“听……”。因此应说 listen to music。",
+        "knowledge_point": "语法搭配",
+        "options": [
+          "A. listen music",
+          "B. listen to music",
+          "C. listen at music",
+          "D. listen with music"
+        ],
+        "question": "选择正确的短语：I like to ____ music after school.",
+        "score": 2,
+        "type": "choice",
+        "id": 49
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "look at 表示“看……”，是常见的动词与介词搭配。",
+        "knowledge_point": "语法搭配",
+        "options": [],
+        "question": "Please look ____ the picture.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "be good at 表示“擅长……”。后面接名词或动词-ing形式，所以 playing 符合搭配。",
+        "knowledge_point": "语法搭配",
+        "options": [],
+        "question": "句子 'Amy is good at playing basketball.' 中，good 后面的 at 使用正确。",
+        "score": 2,
+        "type": "true_false",
+        "id": 51
+      },
+      {
+        "answer": "to",
+        "difficulty": 2,
+        "explanation": "talk to someone 表示“和某人交谈”。因此句子应为 I talked to my friend yesterday.",
+        "knowledge_point": "语法搭配",
+        "options": [],
+        "question": "用一个介词补全句子：I talked ____ my friend yesterday.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "wait for somebody 表示“等待某人”。句中需要用 for，故选 C。",
+        "knowledge_point": "语法搭配",
+        "options": [
+          "A. wait at",
+          "B. wait to",
+          "C. wait for",
+          "D. wait with"
+        ],
+        "question": "选择正确的搭配：We are waiting ____ the bus.",
+        "score": 2,
+        "type": "choice",
+        "id": 53
+      },
+      {
+        "answer": "happy",
+        "difficulty": 1,
+        "explanation": "收到好消息通常会感到高兴。happy 表示“高兴的”。",
+        "knowledge_point": "情绪形容词辨析",
+        "options": [
+          "happy",
+          "sad",
+          "afraid",
+          "angry"
+        ],
+        "question": "Lily gets a good present. She feels ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "sad",
+        "difficulty": 1,
+        "explanation": "小狗丢了心爱的玩具，可能会感到伤心。sad 表示“伤心的”。",
+        "knowledge_point": "情绪形容词辨析",
+        "options": [
+          "excited",
+          "sad",
+          "happy",
+          "angry"
+        ],
+        "question": "The dog cannot find its favorite toy. It looks ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "angry",
+        "difficulty": 2,
+        "explanation": "有人弄坏了 Tom 的自行车，他可能会生气。angry 表示“生气的”；be angry with someone 表示“生某人的气”。",
+        "knowledge_point": "情绪形容词辨析",
+        "options": [
+          "afraid",
+          "bored",
+          "angry",
+          "happy"
+        ],
+        "question": "Someone breaks Tom’s bike. Tom is ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "afraid",
+        "difficulty": 2,
+        "explanation": "句中有 of，常见搭配 be afraid of 表示“害怕……”，所以填 afraid。",
+        "knowledge_point": "情绪形容词辨析",
+        "options": [],
+        "question": "The little girl is ______ of the dark.（害怕）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 57
+      },
+      {
+        "answer": "worried",
+        "difficulty": 2,
+        "explanation": "明天有考试，孩子可能会担心。worried 表示“担心的”。",
+        "knowledge_point": "情绪形容词辨析",
+        "options": [
+          "worried"
+        ],
+        "question": "The child has a big test tomorrow and does not feel ready. The child is ______.（担心的）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "How",
+        "difficulty": 1,
+        "explanation": "询问某人的感受可以用“How do/does ... feel?”；主语 you 前用 do。",
+        "knowledge_point": "情境交际",
+        "options": [
+          "What",
+          "How",
+          "Where",
+          "When"
+        ],
+        "question": "—______ do you feel today? —I feel happy.",
+        "score": 5,
+        "type": "choice",
+        "id": 59
+      },
+      {
+        "answer": "should",
+        "difficulty": 1,
+        "explanation": "朋友感冒了，建议他休息，可以用 should；should 后接动词原形 rest。",
+        "knowledge_point": "情境交际",
+        "options": [
+          "should",
+          "are",
+          "does",
+          "did"
+        ],
+        "question": "Your friend has a cold. You say: “You ______ have a rest.”",
+        "score": 5,
+        "type": "choice",
+        "id": 60
+      },
+      {
+        "answer": "How does Tom feel?",
+        "difficulty": 2,
+        "explanation": "询问第三人称单数 Tom 的感受，用 How does ... feel?；does 后的 feel 用原形。",
+        "knowledge_point": "情境交际",
+        "options": [],
+        "question": "根据提示写出问句：Tom / feel（询问他的感受）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "should drink",
+        "difficulty": 2,
+        "explanation": "口渴时可以建议对方喝些水。情态动词 should 后接动词原形 drink。",
+        "knowledge_point": "情境交际",
+        "options": [],
+        "question": "补全句子：You ______ ______ some water if you are thirsty.（应该喝）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "thirsty",
+        "difficulty": 1,
+        "explanation": "走了很长时间后，想喝水，说明“我”口渴了。thirsty 意为“口渴的”。",
+        "knowledge_point": "词义理解",
+        "options": [
+          "hungry",
+          "thirsty",
+          "sleepy",
+          "cold"
+        ],
+        "question": "We walked for a long time. I want to drink some water. I am ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 63
+      },
+      {
+        "answer": "under",
+        "difficulty": 1,
+        "explanation": "猫在桌子下面，under 意为“在……下面”。",
+        "knowledge_point": "词义理解",
+        "options": [
+          "on",
+          "under",
+          "behind",
+          "near"
+        ],
+        "question": "The cat is ______ the table. You can see it below the table.",
+        "score": 5,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "tall",
+        "difficulty": 2,
+        "explanation": "她比班里其他同学都高，tall 意为“高的”。",
+        "knowledge_point": "词义理解",
+        "options": [
+          "short",
+          "young",
+          "tall",
+          "kind"
+        ],
+        "question": "Lily is taller than everyone else in her class. Lily is ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "句子说 Ben has a fever（发烧了），所以他不舒服。ill 意为“生病的”，判断为正确。",
+        "knowledge_point": "词义理解",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Ben has a fever, so he is ill. Here, “ill” means “sick.”",
+        "score": 5,
+        "type": "true_false",
+        "id": 66
+      },
+      {
+        "answer": "clean",
+        "difficulty": 2,
+        "explanation": "句子说房间里没有灰尘，说明房间很干净。clean 意为“干净的”。",
+        "knowledge_point": "词义理解",
+        "options": [],
+        "question": "There is no dirt in the room. The room is ______.（根据句意填入一个合适的英语单词。）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 67
+      },
+      {
+        "answer": "Why don't you ask your teacher for help?",
+        "difficulty": 2,
+        "explanation": "“Why don’t you + 动词原形…?”可用来提出建议；ask用动词原形。",
+        "knowledge_point": "建议短语",
+        "options": [],
+        "question": "你的同学不懂数学题，请用“Why don’t you…?”给他提一条建议。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 68
+      },
+      {
+        "answer": "reading",
+        "difficulty": 2,
+        "explanation": "“How about”后面接名词或动词-ing形式，因此read要变为reading。",
+        "knowledge_point": "建议短语",
+        "options": [],
+        "question": "How about ______ (read) this book together?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 69
+      },
+      {
+        "answer": "should",
+        "difficulty": 1,
+        "explanation": "“You should + 动词原形”可以表达“你应该……”，表示提出建议。",
+        "knowledge_point": "建议短语",
+        "options": [],
+        "question": "You ______ drink some water if you feel thirsty.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 70
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“You could + 动词原形”是提出建议的常见表达；could后用动词原形talk。",
+        "knowledge_point": "建议短语",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“You could talk to your friend.”可以用来给朋友提建议。",
+        "score": 5,
+        "type": "true_false",
+        "id": 71
+      },
+      {
+        "answer": "How about going to the park?",
+        "difficulty": 3,
+        "explanation": "“How about”后接动词-ing形式，所以go应改为going；该句可用于建议去公园。",
+        "knowledge_point": "建议短语",
+        "options": [],
+        "question": "把词语组成一个建议句：about / How / to the park / going",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 72
+      },
+      {
+        "answer": "gets up",
+        "difficulty": 1,
+        "explanation": "get up 意为“起床”。主语 Amy 是第三人称单数，句子描述日常习惯，动词用 gets。",
+        "knowledge_point": "动词短语",
+        "options": [
+          "gets up",
+          "looks for",
+          "turns on",
+          "talks about"
+        ],
+        "question": "Amy ______ at seven every morning.",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "turn on",
+        "difficulty": 2,
+        "explanation": "turn on 意为“打开”，可以和表示电器的名词搭配。祈使句用动词原形。",
+        "knowledge_point": "动词短语",
+        "options": [
+          "turn on",
+          "look for",
+          "get up",
+          "sit on"
+        ],
+        "question": "It's dark in the room. Please ______ the light.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "talk about",
+        "difficulty": 2,
+        "explanation": "talk about 意为“谈论”。句中有 are，表示正在进行的动作，因此用 are talking about。",
+        "knowledge_point": "动词短语",
+        "options": [
+          "talk about",
+          "get up",
+          "turn on",
+          "look for"
+        ],
+        "question": "The children are ______ their holiday plans.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "looking for",
+        "difficulty": 2,
+        "explanation": "look for 意为“寻找”。前有 is，构成现在进行时 is looking for。",
+        "knowledge_point": "动词短语",
+        "options": [],
+        "question": "The cat is ______ its toy.（寻找）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 76
+      },
+      {
+        "answer": "gets up",
+        "difficulty": 3,
+        "explanation": "get up 意为“起床”。主语 My brother 是第三人称单数，表示日常习惯时要在动词上加 -s，写作 gets up。",
+        "knowledge_point": "动词短语",
+        "options": [],
+        "question": "My brother ______ (get up) early on school days.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 77
+      },
+      {
+        "answer": "The ground is wet because it rained last night.",
+        "difficulty": 1,
+        "explanation": "“because”表示原因：昨晚下雨是原因，地面湿是结果。选项2表达了相同的因果关系。",
+        "knowledge_point": "逻辑理解",
+        "options": [
+          "The ground is wet, but it did not rain last night.",
+          "The ground is wet because it rained last night.",
+          "It rained last night, but the ground is dry.",
+          "The ground will be wet if it rains tonight."
+        ],
+        "question": "Choose the sentence that means “昨晚下雨了，所以地面是湿的”。",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "It was cold, so I put on my coat.",
+        "difficulty": 2,
+        "explanation": "天气冷是原因，穿上外套是因此采取的行动。so 表示“所以”。",
+        "knowledge_point": "逻辑理解",
+        "options": [
+          "It was cold, but I put on my coat.",
+          "It was cold, so I put on my coat.",
+          "It was cold because I put on my coat.",
+          "If it was cold, I put on my coat."
+        ],
+        "question": "选出表示“天气很冷，所以我穿上了外套”的句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "but",
+        "difficulty": 1,
+        "explanation": "前半句说莉莉很累，后半句说她仍然帮妈妈，前后形成转折，因此用 but（但是）。",
+        "knowledge_point": "逻辑理解",
+        "options": [],
+        "question": "Lily was tired, ______ she helped her mother clean the room.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 80
+      },
+      {
+        "answer": "False",
+        "difficulty": 2,
+        "explanation": "句子说汤姆因为下雨而待在家里，说明他没有去公园。",
+        "knowledge_point": "逻辑理解",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Tom stayed at home because it was raining. So he went to the park.（根据句意判断：他去了公园。）",
+        "score": 5,
+        "type": "true_false",
+        "id": 81
+      },
+      {
+        "answer": "He missed the bus, so he was late for school.",
+        "difficulty": 3,
+        "explanation": "短文说明本迟到了，因为他错过了公交车。原因是错过公交车，结果是上学迟到。",
+        "knowledge_point": "逻辑理解",
+        "options": [],
+        "question": "Ben got up late this morning. He missed the bus and arrived at school after the bell rang. Why was Ben late for school?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "gets",
+        "difficulty": 2,
+        "explanation": "这是 if 引导的条件句，条件部分通常用一般现在时。主语 he 是第三人称单数，因此用 gets。",
+        "knowledge_point": "语法结构",
+        "options": [],
+        "question": "If he ______ (get) up early, he will catch the bus.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 83
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "在常见的真实条件句中，if 从句通常用一般现在时，主句可以用 will 加动词原形。",
+        "knowledge_point": "语法结构",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：If it rains tomorrow, we will stay at home.",
+        "score": 5,
+        "type": "true_false",
+        "id": 84
+      },
+      {
+        "answer": "She doesn't like apples.",
+        "difficulty": 2,
+        "explanation": "一般现在时中，主语 she 是第三人称单数，否定句用 doesn't；助动词后面的动词用原形 like。",
+        "knowledge_point": "语法结构",
+        "options": [],
+        "question": "把句子改成否定句：She likes apples.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "playing",
+        "difficulty": 2,
+        "explanation": "enjoy 后面通常接动词的 -ing 形式，因此用 playing。",
+        "knowledge_point": "语法结构",
+        "options": [],
+        "question": "My friends enjoy ______ (play) basketball after school.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 86
+      },
+      {
+        "answer": "Do",
+        "difficulty": 2,
+        "explanation": "主语 you 的一般现在时疑问句用 Do 开头，后面的动词保持原形。",
+        "knowledge_point": "语法结构",
+        "options": [],
+        "question": "______ you walk to school every day?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 87
+      },
+      {
+        "answer": "small",
+        "difficulty": 1,
+        "explanation": "big 意为“大”，small 意为“小”，两者意思相反。",
+        "knowledge_point": "反义词/对应词",
+        "options": [
+          "small",
+          "tall",
+          "long",
+          "wide"
+        ],
+        "question": "The opposite word of 'big' is ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "cold",
+        "difficulty": 1,
+        "explanation": "hot 意为“热的”，cold 意为“冷的”，两者意思相反。",
+        "knowledge_point": "反义词/对应词",
+        "options": [
+          "warm",
+          "cold",
+          "dry",
+          "bright"
+        ],
+        "question": "The opposite word of 'hot' is ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "close",
+        "difficulty": 1,
+        "explanation": "open 意为“打开”，close 意为“关闭”，它们表示相反的动作。",
+        "knowledge_point": "反义词/对应词",
+        "options": [
+          "close",
+          "clean",
+          "start",
+          "read"
+        ],
+        "question": "Please ______ the window. The opposite of 'open' is ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 90
+      },
+      {
+        "answer": "question",
+        "difficulty": 2,
+        "explanation": "answer 意为“回答”或“答案”，question 意为“问题”，question and answer 是一组对应词。",
+        "knowledge_point": "反义词/对应词",
+        "options": [],
+        "question": "Complete the pair: question and ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 91
+      },
+      {
+        "answer": "young",
+        "difficulty": 2,
+        "explanation": "old 意为“年老的”，young 意为“年轻的”，在描述年龄时两者意思相反。",
+        "knowledge_point": "反义词/对应词",
+        "options": [],
+        "question": "The opposite of 'old' in 'an old man' is ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "I'm sorry.",
+        "difficulty": 2,
+        "explanation": "不小心踩到别人的脚时，应先道歉。“I'm sorry.”表示“对不起”。",
+        "knowledge_point": "综合情境",
+        "options": [
+          "I'm sorry.",
+          "Good luck.",
+          "You're welcome.",
+          "See you later."
+        ],
+        "question": "You accidentally step on your classmate's foot. You can say: ______",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "Good idea.",
+        "difficulty": 2,
+        "explanation": "朋友提议一起打扫教室，你赞同这个建议，可以说“Good idea.”（好主意）。",
+        "knowledge_point": "综合情境",
+        "options": [
+          "Good idea.",
+          "I'm afraid not.",
+          "Never mind.",
+          "Good night."
+        ],
+        "question": "Your friend says, “Let's clean the classroom together.” You agree. You can say: ______",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "How about",
+        "difficulty": 3,
+        "explanation": "“How about + 动词-ing?”可以用来提出建议，因此空格处填“How about”。",
+        "knowledge_point": "综合情境",
+        "options": [],
+        "question": "Complete the suggestion: “______ going to the library after school?”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 95
+      },
+      {
+        "answer": "true",
+        "difficulty": 2,
+        "explanation": "“You are right.”表示“你说得对”，可以用来表示赞同。",
+        "knowledge_point": "综合情境",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“You are right.” can be used to agree with someone.（判断正误）",
+        "score": 5,
+        "type": "true_false",
+        "id": 96
+      },
+      {
+        "answer": "Good luck!",
+        "difficulty": 3,
+        "explanation": "比赛前祝愿别人好运，可以说“Good luck!”。",
+        "knowledge_point": "综合情境",
+        "options": [],
+        "question": "Your sister is going to take part in a singing contest. Write one suitable sentence to wish her well.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 97
+      },
+      {
+        "answer": "sad",
+        "difficulty": 1,
+        "explanation": "“伤心的”是 sad；句意是小狗走丢了，所以我们很伤心。",
+        "knowledge_point": "情绪单词拼写",
+        "options": [],
+        "question": "We feel ______ because our dog is lost. (伤心)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 98
+      },
+      {
+        "answer": "excited",
+        "difficulty": 2,
+        "explanation": "“兴奋的”是 excited；知道明天要去动物园让孩子们感到兴奋。",
+        "knowledge_point": "情绪单词拼写",
+        "options": [],
+        "question": "The children are ______ about the school trip tomorrow. (兴奋的)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "worried",
+        "difficulty": 2,
+        "explanation": "“担心的”是 worried；be worried about 表示“为……担心”。",
+        "knowledge_point": "情绪单词拼写",
+        "options": [],
+        "question": "Dad is ______ about the heavy rain. (担心的)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 100
+      },
+      {
+        "answer": "tired",
+        "difficulty": 1,
+        "explanation": "“疲倦的”是 tired；跑了很久后，孩子感到累了。",
+        "knowledge_point": "情绪单词拼写",
+        "options": [],
+        "question": "After running for a long time, the boy feels ______. (疲倦的)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "drink",
+        "difficulty": 1,
+        "explanation": "You should 后接动词原形。表示“喝些水”是 drink some water。",
+        "knowledge_point": "建议短语表达",
+        "options": [],
+        "question": "You have a headache. You should ______ some water.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 102
+      },
+      {
+        "answer": "Why not",
+        "difficulty": 2,
+        "explanation": "“为什么不……呢？”可以用 Why not + 动词原形...? 提建议。",
+        "knowledge_point": "建议短语表达",
+        "options": [],
+        "question": "______ talk to your teacher about the problem?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 103
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "You can 后面接动词原形。Ask 是原形，asks 是第三人称单数形式。",
+        "knowledge_point": "建议短语表达",
+        "options": [
+          "A. ask your mum for help",
+          "B. asks your mum for help",
+          "C. asking your mum for help"
+        ],
+        "question": "You can ______ if you don't understand the question.",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "should",
+        "difficulty": 2,
+        "explanation": "should 后接动词原形 read，整句表示“你应该每天读英语”。",
+        "knowledge_point": "建议短语表达",
+        "options": [],
+        "question": "You ______ read English every day.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "Why not 后接动词原形 go，因此正确表达是 Why not go for a walk?",
+        "knowledge_point": "建议短语表达",
+        "options": [
+          "A. Why not going for a walk?",
+          "B. Why not go for a walk?",
+          "C. Why not goes for a walk?"
+        ],
+        "question": "Which sentence gives a suggestion correctly?",
+        "score": 5,
+        "type": "choice",
+        "id": 106
+      },
+      {
+        "answer": "You should drink some water.",
+        "difficulty": 2,
+        "explanation": "should用于提出建议，后面接动词原形drink。",
+        "knowledge_point": "身体健康与建议",
+        "options": [],
+        "question": "你渴了。请用should写一句建议：喝些水。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "shouldn't",
+        "difficulty": 2,
+        "explanation": "牙痛时不应该吃太多糖果；shouldn't后接动词原形eat。",
+        "knowledge_point": "身体健康与建议",
+        "options": [],
+        "question": "You have a toothache. You ______ eat too many sweets.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 108
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "发烧时应休息。should后接动词原形rest，因此选B。",
+        "knowledge_point": "身体健康与建议",
+        "options": [
+          "You should run fast.",
+          "You should have a rest.",
+          "You shouldn't tell anyone."
+        ],
+        "question": "If you have a fever, what should you do?",
+        "score": 5,
+        "type": "choice",
+        "id": 109
+      },
+      {
+        "answer": "headache",
+        "difficulty": 2,
+        "explanation": "headache表示“头痛”；have a headache表示“头痛”。",
+        "knowledge_point": "身体健康与建议",
+        "options": [],
+        "question": "I have a ______. My head hurts.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "True",
+        "difficulty": 2,
+        "explanation": "should后面接动词原形，句中的see是原形；生病时看医生也是合理的建议。",
+        "knowledge_point": "身体健康与建议",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：If you are ill, you should see a doctor.",
+        "score": 5,
+        "type": "true_false",
+        "id": 111
+      },
+      {
+        "answer": "1. B；2. A；3. D；4. C",
+        "difficulty": 1,
+        "explanation": "be afraid 是“害怕”；wear warm clothes 是“穿暖和的衣服”；be angry 是“生气”；see a doctor 是“看医生”。",
+        "knowledge_point": "核心词汇英汉匹配",
+        "options": [
+          "A. 生气",
+          "B. 害怕",
+          "C. 看医生",
+          "D. 穿暖和的衣服"
+        ],
+        "question": "选择合适的中文意思：1. be afraid；2. wear warm clothes；3. be angry；4. see a doctor。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "1. 害怕；2. 生气；3. 穿暖和的衣服",
+        "difficulty": 1,
+        "explanation": "afraid 意为“害怕的”；angry 意为“生气的”；warm clothes 意为“暖和的衣服”。",
+        "knowledge_point": "核心词汇英汉匹配",
+        "options": [],
+        "question": "写出下列短语的中文意思：1. be afraid；2. be angry；3. wear warm clothes。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "1. see a doctor；2. be angry；3. be afraid",
+        "difficulty": 1,
+        "explanation": "“看医生”是 see a doctor；“生气”是 be angry；“害怕”是 be afraid。",
+        "knowledge_point": "核心词汇英汉匹配",
+        "options": [],
+        "question": "根据中文写出相应的英文短语：1. 看医生；2. 生气；3. 害怕。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "be afraid 的意思是“害怕”，不是“生气”。",
+        "knowledge_point": "核心词汇英汉匹配",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断正误：be afraid 的意思是“害怕”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 115
+      },
+      {
+        "answer": "1. be angry；2. wear warm clothes",
+        "difficulty": 2,
+        "explanation": "“生气”可用 be angry 表示；“穿暖和的衣服”是 wear warm clothes。",
+        "knowledge_point": "核心词汇英汉匹配",
+        "options": [],
+        "question": "根据中文补全英语短语：1. 生气：be ______；2. 穿暖和的衣服：wear ______ ______。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "牙疼时应告诉家长并寻求帮助；吃很多糖果可能让牙齿更不舒服。",
+        "knowledge_point": "情境建议匹配",
+        "options": [
+          "A. Eat lots of candy.",
+          "B. Tell your parent and ask for help.",
+          "C. Stay up late."
+        ],
+        "question": "You have a toothache. What should you do?",
+        "score": 2,
+        "type": "choice",
+        "id": 117
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "下雨时带伞是合适的准备；戴太阳镜不能防止被雨淋湿。",
+        "knowledge_point": "情境建议匹配",
+        "options": [
+          "A. Take an umbrella.",
+          "B. Wear sunglasses.",
+          "C. Eat some ice cream."
+        ],
+        "question": "It is raining outside. What can you do?",
+        "score": 2,
+        "type": "choice",
+        "id": 118
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "感到口渴时喝水是合适的建议。",
+        "knowledge_point": "情境建议匹配",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "If you feel thirsty, you can drink some water.",
+        "score": 2,
+        "type": "true_false",
+        "id": 119
+      },
+      {
+        "answer": "should",
+        "difficulty": 2,
+        "explanation": "“You should...”表示“你应该……”，可用于给出建议。",
+        "knowledge_point": "情境建议匹配",
+        "options": [],
+        "question": "You ______ go to bed early if you feel tired.（用 should 或 shouldn’t 填空）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "wear a warm coat",
+        "difficulty": 2,
+        "explanation": "天气寒冷时，穿一件暖和的大衣能帮助保暖；答案意思相符即可。",
+        "knowledge_point": "情境建议匹配",
+        "options": [],
+        "question": "It is very cold outside. What should you do? You should ______.（用英语写出一条合适的建议）",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "How does he feel?",
+        "difficulty": 1,
+        "explanation": "主语 he 是第三人称单数，疑问句中用 does；does 后面的动词用原形 feel。",
+        "knowledge_point": "询问情绪句型",
+        "options": [
+          "How does he feel?",
+          "How do he feel?",
+          "How he does feel?"
+        ],
+        "question": "选择正确的句子，询问“他感觉怎么样？”",
+        "score": 5,
+        "type": "choice",
+        "id": 122
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“How do you feel?” 用来询问对方“你感觉怎么样？”，句型正确。",
+        "knowledge_point": "询问情绪句型",
+        "options": [],
+        "question": "判断正误：How do you feel? 可以用来询问“你感觉怎么样？”",
+        "score": 5,
+        "type": "true_false",
+        "id": 123
+      },
+      {
+        "answer": "does",
+        "difficulty": 2,
+        "explanation": "主语 she 是第三人称单数，询问她的感受时用 does；助动词后接动词原形 feel。",
+        "knowledge_point": "询问情绪句型",
+        "options": [],
+        "question": "填空：How _____ she feel?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 124
+      },
+      {
+        "answer": "I feel happy.",
+        "difficulty": 1,
+        "explanation": "回答“How do you feel?”时，可以用“I feel + 情绪或感受词”。happy 表示“开心的”。",
+        "knowledge_point": "询问情绪句型",
+        "options": [
+          "I feel happy.",
+          "How do you feel?",
+          "She feels happy."
+        ],
+        "question": "选择合适的回答：How do you feel?",
+        "score": 5,
+        "type": "choice",
+        "id": 125
+      },
+      {
+        "answer": "How does Amy feel?",
+        "difficulty": 2,
+        "explanation": "Amy 是第三人称单数，询问她的感受要用 does；does 后使用动词原形 feel。",
+        "knowledge_point": "询问情绪句型",
+        "options": [],
+        "question": "连词成句：feel, Amy, How, does, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
       }
     ]
   },
@@ -679,6 +2018,235 @@
         "count to ten错写成count with ten"
       ],
       "tips": "这些都是以动词原形开头的短语，可以直接用在should后面。"
+    },
+    {
+      "common_mistakes": [
+        "混淆描述人的情绪与描述事物特征的形容词，例如把 bored（感到无聊的）和 boring（令人无聊的）弄反。",
+        "忘记情绪形容词常与 be 动词搭配，如 I am happy.、She is nervous.",
+        "用 -ed 形容人的感受，用 -ing 形容引起这种感受的事物，如 excited/exciting。"
+      ],
+      "core_concept": "情绪与心理状态形容词用来描述人当下的感受或心理状态，常见词有 happy（开心的）、sad（难过的）、angry（生气的）、afraid（害怕的）、tired（疲倦的）、nervous（紧张的）、excited（兴奋的）和 worried（担心的）。",
+      "key_formula": "主语 + be 动词（am/is/are）+ 情绪或心理状态形容词。例：I am tired. She is happy. They are nervous.",
+      "point": "情绪与心理状态形容词",
+      "tips": "记词时把形容词和情境配对：考试前可能 nervous（紧张），收到礼物可能 excited（兴奋），跑步后可能 tired（疲倦）。造句时先选对 be 动词，再补上形容词；描述“人感到……”时特别留意 excited、bored、worried 等 -ed 形式。"
+    },
+    {
+      "common_mistakes": [
+        "只说“别难过”，没有给出具体、可实行的建议。",
+        "提出建议时忘记使用建议表达，如“You should…”或“Why not…?”",
+        "把描述情绪的句子和提出建议的句子混淆。"
+      ],
+      "core_concept": "当别人感到难过、生气、紧张等负面情绪时，可以先表达理解，再提出友好、具体的缓解建议。常用表达有“You should…（你应该……）”“You can…（你可以……）”“Why not…?（为什么不……呢？）”和“How about…?（……怎么样？）”。",
+      "key_formula": "理解情绪 + 提出建议：I’m sorry to hear that. You should / can + 动词原形……；Why not + 动词原形……?；How about + 动词-ing……?",
+      "point": "针对负面情绪提出缓解建议",
+      "tips": "先判断对方的情绪和原因，再选择合适的建议。例如，紧张时可以深呼吸或听音乐；难过时可以和朋友谈谈或做喜欢的事；生气时可以先冷静下来。建议要友善、具体，并注意句型：should/can 后接动词原形；Why not 后接动词原形；How about 后接动词-ing。"
+    },
+    {
+      "common_mistakes": [
+        "在 if 引导的条件从句中误用 will，如说 If I will feel angry...。通常用一般现在时表示条件。",
+        "把条件句的意思理解成已经发生的事实；条件句常用于表达假设、建议或可能的结果。",
+        "只说情绪而不说明调节方法，可以补充 take a deep breath、talk to someone 等做法。"
+      ],
+      "core_concept": "条件句可以用来表达：如果遇到某种让人有情绪的情况，可以采取什么办法来调节情绪。常见结构是“If + 一般现在时, … will/can + 动词原形”。例如：If I feel nervous, I will take a deep breath.（如果我感到紧张，我会深呼吸。）",
+      "key_formula": "If + 主语 + 一般现在时, 主语 + will/can + 动词原形. 也可以把主句放在前面：主语 + will/can + 动词原形 + if + 主语 + 一般现在时.",
+      "point": "条件句中表达情绪调节",
+      "tips": "先找出 if 引导的部分，确认它说的是条件；条件从句中的动词用一般现在时。主句可用 will 表示将会采取的行动，也可用 can 表示可以采取的行动。if 从句放在句首时，通常在从句后加逗号；放在句末时，一般不加逗号。"
+    },
+    {
+      "common_mistakes": [
+        "把 angry（生气的）和 sad（悲伤的）混淆。",
+        "把 afraid（害怕的）和其他表示担心或难过的情绪词混淆。"
+      ],
+      "core_concept": "情绪形容词用来描述人的感受。例如：happy（开心的）、sad（悲伤的）、angry（生气的）、afraid（害怕的）、excited（兴奋的）、worried（担心的）。",
+      "key_formula": "主语 + be动词 + 情绪形容词：She is happy.（她很开心。）",
+      "point": "情绪形容词词义",
+      "tips": "记忆单词时可联想具体情境：收到礼物可能感到 happy，考试前可能感到 worried，遇到危险可能感到 afraid。注意区分相近或易混淆的情绪词。"
+    },
+    {
+      "common_mistakes": [
+        "should后接动词原形，不加to，例如：You should rest.",
+        "建议类短语要结合情境选择；生病时可以看医生，紧张时可以深呼吸。"
+      ],
+      "core_concept": "建议类动词短语常用于告诉别人可以做什么。常见表达有：take a deep breath（深呼吸）、see a doctor（看医生）、get some rest（休息一下）、drink some water（喝些水）、ask for help（寻求帮助）。也可以用“You should + 动词原形”来提出建议。",
+      "key_formula": "You should + 动词原形.（你应该……）",
+      "point": "建议类动词短语",
+      "tips": "提出建议时，先判断对方遇到的情况，再选择合适的表达。例如，对方累了，可以说“Get some rest.”；对方生病了，可以说“You should see a doctor.”"
+    },
+    {
+      "common_mistakes": [
+        "把固定搭配中的介词误换成其他介词，例如说 count with ten，而不是 count to ten。",
+        "只按中文逐词翻译，不注意英语中动词与介词、名词与介词的固定搭配。",
+        "忽略搭配中的冠词或动词形式，导致表达不自然或语法错误。"
+      ],
+      "core_concept": "英语搭配是词语之间习惯上相互配合的用法。学习时要把常见的动词、名词、形容词与介词等作为整体记忆，并结合句意判断用法。",
+      "key_formula": "常见搭配示例：count to + 数字（数到……）；listen to + 人或事物（听……）；be good at + 名词或动名词（擅长……）；look at + 人或事物（看……）。",
+      "point": "语法搭配",
+      "tips": "记忆搭配时可以连同短语和例句一起朗读、书写；遇到介词选择题，先回忆完整搭配，再检查句意和动词形式。"
+    },
+    {
+      "common_mistakes": [
+        "把描述情绪的形容词和描述人的性格、外貌的词混淆。",
+        "忽略介词搭配，例如 be afraid of 表示“害怕……”，be angry with 表示“生……的气”。",
+        "只根据句子中的单个词猜答案，没有结合主语和语境判断情绪。"
+      ],
+      "core_concept": "情绪形容词用来描述人或动物的感受。常见词有 happy（高兴的）、sad（伤心的）、angry（生气的）、afraid（害怕的）、excited（兴奋的）、worried（担心的）和 bored（感到无聊的）。做题时要结合句意，并留意常见搭配。",
+      "key_formula": "主语 + be（am/is/are）+ 情绪形容词；be afraid of + 人或事物（害怕……）；be angry with + 人（生某人的气）。",
+      "point": "情绪形容词辨析",
+      "tips": "先看语境线索，再排除意思不合的选项。例如遇到危险可能感到 afraid，收到好消息可能感到 happy，弄坏心爱的东西可能感到 sad。记住 be afraid of 和 be angry with 等常见搭配。"
+    },
+    {
+      "common_mistakes": [
+        "询问感受时，How 后面应使用助动词或 be 动词，不能混用：How does Sarah feel? / How is Sarah?",
+        "第三人称单数的一般现在时疑问句中，助动词用 does，后面的实义动词用原形。",
+        "should 表示“应该”，常用于提出建议；can 表示“能够、可以”，will 常表示将来。",
+        "情境交际要根据对话对象、场合和上下文选择合适的表达。"
+      ],
+      "core_concept": "情境交际是根据人物、场合和交流目的，选用恰当的英语问句、答语和建议表达。理解句意和情境线索，注意常见句型及动词形式。",
+      "key_formula": "询问感受：How + do/does + 主语 + feel?；提出建议：主语 + should + 动词原形。",
+      "point": "情境交际",
+      "tips": "先看上下文判断是在询问、描述还是提建议；再检查主语与动词形式。遇到建议类情境，可留意 should；遇到感受类问句，可留意 How does ... feel? 或 How is ...?"
+    },
+    {
+      "common_mistakes": [
+        "只根据单个汉语释义猜词，忽略句子里的线索。",
+        "把意思相近的词混淆，或忽略词语的感情色彩。",
+        "忘记结合上下文判断一个词在句子中的具体含义。"
+      ],
+      "core_concept": "词义理解是根据已学词义、句子内容和上下文线索，判断词语在具体语境中的意思。可以先读懂整句话，再留意动作、感受、原因或结果等提示，最后选择最符合语境的词。",
+      "key_formula": "读上下文 → 找线索 → 判断词义 → 代入检查",
+      "point": "词义理解",
+      "tips": "先读完整句话，不要急着看选项；圈出提示词或描述结果的部分；将选出的词放回句子中，检查意思是否通顺。注意区分含义相近或感情色彩不同的词，如 happy（开心）、sad（伤心）、tired（疲倦）和 excited（兴奋）。"
+    },
+    {
+      "common_mistakes": [
+        "把建议句型和命令句混淆；“You should…”后接动词原形。",
+        "表达建议时忽略情境，选了语法正确但不适合解决问题的做法。",
+        "把“Why don’t you…?”误写成“Why don’t you to…?”；该句型后接动词原形。"
+      ],
+      "core_concept": "建议短语用于提出有帮助的做法。常见表达包括“You should…（你应该……）”“You could…（你可以……）”“Why don’t you…?（你为什么不……？）”和“How about…?（……怎么样？）”。",
+      "key_formula": "You should/could + 动词原形；Why don’t you + 动词原形…?；How about + 名词/动词-ing…?",
+      "point": "建议短语",
+      "tips": "先看清楚对方遇到的问题，再选择能解决问题的建议。记住：should、could和Why don’t you后接动词原形；How about后接名词或动词-ing形式。"
+    },
+    {
+      "common_mistakes": [
+        "动词短语中的动词要根据主语和时态变化，如 look for 可变为 looks for、is looking for。",
+        "动词短语里的介词或副词通常不能随意省略或替换，如 look for 是“寻找”，look at 是“看”。",
+        "使用现在进行时要用“be动词 + 动词-ing”，不能只用动词原形。"
+      ],
+      "core_concept": "动词短语由动词和介词或副词等组成，表达一个完整的动作或意思，例如 look for（寻找）、get up（起床）、turn on（打开）。使用时要根据句子的主语和时态变化动词。",
+      "key_formula": "动词短语在句中作谓语：主语 + 动词短语（按主语和时态变化）；现在进行时：主语 + am/is/are + 动词-ing + 短语中的其他部分。",
+      "point": "动词短语",
+      "tips": "先理解句意，再判断需要表达的动作；留意主语和时间线索，检查动词形式是否正确。"
+    },
+    {
+      "common_mistakes": [
+        "只看句中的单个词，不联系前后信息推断意思。",
+        "忽略 because、but、so 等提示词表达的逻辑关系。",
+        "没有根据句意判断人物的感受或事情的结果。"
+      ],
+      "core_concept": "逻辑理解是根据句子或短文中的线索，理解原因与结果、转折、条件等关系，并推断人物的感受、事情的发展或词语的含义。阅读时可以先找提示词，再联系上下文判断。",
+      "key_formula": "because（因为）→原因；so（所以）→结果；but（但是）→转折；if（如果）→条件。",
+      "point": "逻辑理解",
+      "tips": "读题时圈出 because、so、but、if 等连接词；再分别找出连接词两边的信息，用“为什么”“结果是什么”或“前后有什么不同”来检查自己的判断。"
+    },
+    {
+      "common_mistakes": [
+        "不要只凭句意选词，还要看句子中的语法结构。",
+        "条件句中，if 引导的条件部分通常用一般现在时；主句可以用 will 加动词原形。",
+        "be 动词后可以接形容词，描述人物或事物的状态。"
+      ],
+      "core_concept": "根据句子结构判断词语和动词形式。常见结构包括：if 引导的条件句、主语加动词、be 动词加形容词，以及一般疑问句和否定句。",
+      "key_formula": "If + 主语 + 一般现在时，主语 + will + 动词原形。例：If you follow the rules, the teachers will be happy.",
+      "point": "语法结构",
+      "tips": "做题时先找主语和谓语，再观察时间词、助动词或连词。看到 if 表示条件时，注意条件部分通常用一般现在时；看到 will 时，后面的动词用原形。"
+    },
+    {
+      "common_mistakes": [
+        "不要把意思相近的词当作反义词，例如 big 和 large 意思相近。",
+        "有些词要根据语境判断对应关系；例如 old 可以表示“年老的”，也可以表示“旧的”。",
+        "注意拼写和词性，通常要用同一词性的词进行对应，如 fast（形容词）和 slow（形容词）。"
+      ],
+      "core_concept": "反义词表示意思相反的词，如 hot 和 cold；对应词则是在某个方面相对或相互关联的词，如 question 和 answer、teacher 和 student。",
+      "key_formula": "先理解单词的意思，再判断它们是否表达相反或相互对应的关系。",
+      "point": "反义词/对应词",
+      "tips": "做题时先读懂句意，再从选项中找意思相反或成对关联的词。可以用常见词对帮助记忆：big—small，hot—cold，young—old，open—close，up—down，day—night。注意同一个词在不同语境中可能有不同含义。"
+    },
+    {
+      "common_mistakes": [
+        "不要只看单个词，要结合说话场景和上下文选择合适的表达。",
+        "安慰、道歉、提建议和回应建议是不同的交际功能，不能混用。",
+        "注意区分相似回答，例如表示赞同用“You are right.”，表示接受建议可用“Good idea.”"
+      ],
+      "core_concept": "“综合情境”要求根据人物、场合和交际目的，选择恰当的英语表达。常见情境包括安慰、道歉、提出建议、表达赞同、邀请和回应等。",
+      "key_formula": "先判断情境和交际目的，再选择符合语气与意思的表达。",
+      "point": "综合情境",
+      "tips": "读题时先找出关键信息：谁在说话、发生了什么、对方需要什么。安慰别人可说“Don't worry.”；道歉可说“I'm sorry.”；提出建议可说“You should...”或“Why don't you...?”；表示赞同可说“You are right.”；接受建议可说“Good idea.”。"
+    },
+    {
+      "common_mistakes": [
+        "把 happy 拼成 hapy，漏写一个 p。",
+        "把 angry 拼成 angery，多加一个 e。",
+        "注意区分表示情绪的形容词和表示感受的表达，如 be sad、feel worried。"
+      ],
+      "core_concept": "掌握常见情绪形容词的拼写和含义，并能根据句意选词填空。常见词包括 happy（开心的）、angry（生气的）、sad（伤心的）、excited（兴奋的）、worried（担心的）和 tired（疲倦的）。",
+      "key_formula": "主语 + be/feel + 情绪形容词；根据句意和中文提示选择对应的情绪词，并注意拼写。",
+      "point": "情绪单词拼写",
+      "tips": "记词时把单词和情境联系起来：收到礼物会 happy，弄坏东西可能让别人 angry，考试前可能 feel worried。书写时逐个检查字母，特别注意 happy 的双写 p，以及 excited、worried 的拼写。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 should 后的动词写成第三人称单数形式；should 后接动词原形。",
+        "表示“数到十”时用 count to ten，不要漏掉介词 to。",
+        "提出建议时，注意区分 You should...（你应该……）和 Why not...?（为什么不……）。"
+      ],
+      "core_concept": "用英语给别人提建议时，可以使用 You should + 动词原形，表示“你应该……”；也可以使用 Why not + 动词原形...?，表示“为什么不……呢？”还可以使用 You can + 动词原形，表示“你可以……”。",
+      "key_formula": "You should + 动词原形. / Why not + 动词原形...? / You can + 动词原形.",
+      "point": "建议短语表达",
+      "tips": "看到 should 或 can 时，后面直接使用动词原形；使用 Why not 提建议时，也要接动词原形。回答建议时，可以说 That’s a good idea.（好主意。）"
+    },
+    {
+      "common_mistakes": [
+        "把should后面的动词写成第三人称形式；should后接动词原形。",
+        "混淆身体部位和症状表达，如headache（头痛）与head（头）。",
+        "给建议时忘记使用should或shouldn't，或误把shouldn't当作“应该”。"
+      ],
+      "core_concept": "学习描述常见身体不适，并用should或shouldn't提出简单的健康建议。常见表达有have a cold（感冒）、have a fever（发烧）、have a headache（头痛）、have a toothache（牙痛）；建议可使用You should...（你应该……）和You shouldn't...（你不应该……）。",
+      "key_formula": "描述不适：主语 + have/has + 症状；提出建议：主语 + should/shouldn't + 动词原形。",
+      "point": "身体健康与建议",
+      "tips": "记住should后接动词原形，例如You should rest.（你应该休息。）谈到明显或严重的不适时，可以建议对方告诉家长并寻求医生帮助。"
+    },
+    {
+      "common_mistakes": [
+        "把 be afraid 和 be angry 的意思混淆。",
+        "漏记短语中的冠词或动词，如 see a doctor。",
+        "将 wear warm clothes 误解为“买暖和的衣服”。"
+      ],
+      "core_concept": "学习并掌握常见英语短语与中文意思的对应关系，能根据词义准确匹配。",
+      "key_formula": "英语短语 ↔ 中文意思；匹配时先抓住关键词，再结合整个短语判断。",
+      "point": "核心词汇英汉匹配",
+      "tips": "记忆时可以把短语放进简单情境中：I am angry.（我生气了。）I am afraid.（我害怕。）You should see a doctor.（你应该看医生。）Wear warm clothes.（穿暖和的衣服。）"
+    },
+    {
+      "common_mistakes": [
+        "把情绪或身体感受与不合适的建议搭配，例如 feel cold—do more exercise。",
+        "忽略建议的实际作用，例如 feel angry 时，take a deep breath 有助于平静下来。"
+      ],
+      "core_concept": "根据情境的需要，选择能解决问题或带来帮助的建议。常见表达有：You should...（你应该……）、You can...（你可以……）。",
+      "key_formula": "情境 → 判断需要 → 选择合适的建议。例如：feel cold → wear a coat。",
+      "point": "情境建议匹配",
+      "tips": "先找出情境中的关键词，再想一想这个人需要什么帮助。例如，feel sad（感到难过）可以 watch a movie（看电影）；stay healthy（保持健康）可以 do more exercise（多做运动）。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 do 放在主语后面的动词之后。",
+        "询问对方感受时，用 How do you feel?；回答时可以说 I feel happy/sad/tired。",
+        "第三人称单数主语 he/she 时，使用 does，如 How does she feel?。"
+      ],
+      "core_concept": "询问某人的情绪或感受，常用句型“How do/does + 主语 + feel?”。回答时可用“主语 + feel/feels + 情绪或感受词”。",
+      "key_formula": "How + do/does + 主语 + feel?；主语 + feel/feels + 情绪或感受词.",
+      "point": "询问情绪句型",
+      "tips": "先看主语：I、you、we、they 等搭配 do；he、she 等搭配 does。回答时注意主语是第三人称单数时，feel 要加 -s，例如 She feels happy."
     }
   ]
 }

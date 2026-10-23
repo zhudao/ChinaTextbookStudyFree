@@ -4,30 +4,30 @@
   "unit_number": 5,
   "unit_test": {
     "title": "Unit 5 Recycle & Review Baseline Test",
-    "total_score": 100,
+    "total_score": 311,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "词汇逻辑分类",
-        "question": "单词 'plane', 'train', 'taxi' 都属于交通工具类词汇。",
-        "options": [],
         "answer": "对",
-        "explanation": "plane(飞机), train(火车), taxi(出租车)均属于交通工具。"
+        "difficulty": 1,
+        "explanation": "plane（飞机）、train（火车）和 taxi（出租车）都是交通工具。",
+        "knowledge_point": "词汇逻辑分类",
+        "options": [],
+        "question": "单词“plane”“train”“taxi”都属于交通工具类词汇。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "冠词搭配",
-        "question": "在单词 'eraser' 前面表示 '一个' 时，应该用 'a'。",
-        "options": [],
         "answer": "错",
-        "explanation": "eraser以元音音素开头，应用an。"
+        "difficulty": 1,
+        "explanation": "eraser 开头发元音音素，表示“一个橡皮”时用 an eraser。",
+        "knowledge_point": "冠词搭配",
+        "options": [],
+        "question": "在单词 'eraser' 前面表示 '一个' 时，应该用 'a'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
         "id": 3,
@@ -41,58 +41,58 @@
         "explanation": "be going to结构表示计划或打算做某事。"
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "时态辨析",
-        "question": "'last weekend' 通常与过去式连用，不与将来时连用。",
-        "options": [],
         "answer": "对",
-        "explanation": "last weekend意为上周末，是过去时间的标志。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "叙事连接词",
-        "question": "在描述事情经过时，'Finally' 通常放在段落的最开头。",
-        "options": [],
-        "answer": "错",
-        "explanation": "Finally表示‘最后’，应放在事件描述的末尾。"
-      },
-      {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "last weekend 意为“上周末”，表示过去的时间，通常与一般过去时连用。",
+        "knowledge_point": "时态辨析",
+        "options": [],
+        "question": "'last weekend' 通常与过去式连用，不与将来时连用。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "Finally 表示“最后”，通常用于介绍叙述中的最后一件事，而不是段落开头。",
+        "knowledge_point": "叙事连接词",
+        "options": [],
+        "question": "在描述事情经过时，'Finally' 通常放在段落的最开头。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "an; some",
+        "difficulty": 1,
+        "explanation": "apple 开头发元音音素，用 an；milk 是不可数名词，表示一些牛奶时用 some。",
         "knowledge_point": "冠词搭配",
-        "question": "I would like ____ apple and ____ milk.",
         "options": [
           "a; some",
           "an; some",
           "an; a",
           "a; a"
         ],
-        "answer": "an; some",
-        "explanation": "apple是元音音素开头用an；milk是不可数名词用some。"
+        "question": "I would like ____ apple and ____ milk.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "summer",
         "difficulty": 1,
+        "explanation": "scientist（科学家）、pilot（飞行员）和 coach（教练）都是职业；summer（夏天）是季节。",
         "knowledge_point": "词汇分类",
-        "question": "Which word doesn't belong to others? (哪一个单词不属于同一类?)",
         "options": [
           "scientist",
           "pilot",
           "coach",
           "summer"
         ],
-        "answer": "summer",
-        "explanation": "其他三项是职业，summer是季节。"
+        "question": "Which word doesn't belong to the others?（哪一个单词不属于同一类？）",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
         "id": 8,
@@ -111,116 +111,116 @@
         "explanation": "第二人称you对应的be动词是are。"
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "First",
         "difficulty": 2,
+        "explanation": "句子接着用 Then 表示“然后”，所以空格应填表示第一步的 First。",
         "knowledge_point": "叙事连接词",
-        "question": "____, he got up. Then, he brushed his teeth.",
         "options": [
           "Finally",
           "After that",
           "First",
           "Next"
         ],
-        "answer": "First",
-        "explanation": "表示事情的第一步通常用First。"
+        "question": "____, he got up. Then, he brushed his teeth.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "astronaut",
         "difficulty": 1,
+        "explanation": "喜欢星星并想探索太空的人可能想成为宇航员，英文是 astronaut。astronaut 的发音以元音音素开头，所以前面用 an。",
         "knowledge_point": "职业词汇",
-        "question": "Mike likes stars. He wants to be an ____.",
         "options": [
           "postman",
           "astronaut",
           "worker",
           "doctor"
         ],
-        "answer": "astronaut",
-        "explanation": "喜欢星星的人想当宇航员(astronaut)，且以元音开头应用an。"
+        "question": "Mike likes stars. He wants to be an ____.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "went; am",
         "difficulty": 2,
+        "explanation": "Yesterday 表示过去，go 的过去式是 went；Today 表示现在，I 与 am 搭配。",
         "knowledge_point": "时态辨析",
-        "question": "Yesterday I ____ to the park. Today I ____ at home.",
         "options": [
           "go; am",
           "went; was",
           "went; am",
           "go; was"
         ],
-        "answer": "went; am",
-        "explanation": "第一句有Yesterday用过去式；第二句有Today且主语是I用am。"
+        "question": "Yesterday I ____ to the park. Today I ____ at home.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "After that",
         "difficulty": 1,
+        "explanation": "叙述事情顺序时，Then之后可以用After that（之后）继续衔接。",
         "knowledge_point": "连词用法",
-        "question": "____ comes after 'Then' in a story sequence?",
         "options": [
           "Before",
           "Yesterday",
           "After that",
           "In the morning"
         ],
-        "answer": "After that",
-        "explanation": "在叙事逻辑中，Then之后常用After that衔接。"
+        "question": "____ comes after 'Then' in a story sequence?",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "When",
         "difficulty": 2,
+        "explanation": "回答“At 7:00”表示时间，所以用 When 提问。",
         "knowledge_point": "疑问词辨析",
-        "question": "____ are you going to the party? At 7:00.",
         "options": [
           "Where",
           "When",
           "Who",
           "How"
         ],
-        "answer": "When",
-        "explanation": "对时间提问用When。"
+        "question": "____ are you going to the party? At 7:00.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "read",
         "difficulty": 2,
+        "explanation": "be going to 后面接动词原形，所以选 read。",
         "knowledge_point": "固定搭配",
-        "question": "Sarah is going to ____ a magazine this afternoon.",
         "options": [
           "read",
           "reads",
           "reading",
           "readed"
         ],
-        "answer": "read",
-        "explanation": "be going to后面跟动词原形。"
+        "question": "Sarah is going to ____ a magazine this afternoon.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "That sounds great",
         "difficulty": 3,
+        "explanation": "约翰说自己打算成为一名老师，艾米可以表示赞赏。正确表达是“That sounds great.”，其中主语“That”搭配“sounds”；“That's sounds”重复使用了谓语形式。",
         "knowledge_point": "综合理解",
-        "question": "John: I'm going to be a teacher. Amy: ____.",
         "options": [
           "Good luck",
-          "That's sounds great",
+          "That sounds great",
           "Me either",
           "I am a teacher"
         ],
-        "answer": "That's sounds great",
-        "explanation": "当别人说出理想时，合适的反馈是表示赞赏。"
+        "question": "John: I'm going to be a teacher. Amy: ____.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
         "id": 16,
@@ -234,26 +234,26 @@
         "explanation": "看电影固定搭配为see a film。"
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
+        "answer": "After",
         "difficulty": 2,
+        "explanation": "After that 是固定表达，意思是“在那之后”；句子中的 that 已给出，因此填 After。",
         "knowledge_point": "叙事连接词",
-        "question": "First, I wash my face. ____ that, I have breakfast.",
         "options": [],
-        "answer": "after",
-        "explanation": "After that是固定的衔接短语。"
+        "question": "First, I wash my face. ____ that, I have breakfast.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "冠词搭配",
-        "question": "There is ____ orange on the table.",
-        "options": [],
         "answer": "an",
-        "explanation": "orange以元音音素开头，用an。"
+        "difficulty": 1,
+        "explanation": "orange 开头发元音音素，前面用 an。",
+        "knowledge_point": "冠词搭配",
+        "options": [],
+        "question": "There is ____ orange on the table.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
       },
       {
         "id": 19,
@@ -267,12 +267,10 @@
         "explanation": "对将来地点的询问，可用will加动词原形。"
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-3,B-1,C-4,D-2",
         "difficulty": 1,
+        "explanation": "A. take a trip—3. 去旅行；B. go hiking—1. 去远足；C. see a doctor—4. 看病；D. by subway—2. 乘地铁。",
         "knowledge_point": "词汇翻译",
-        "question": "给下列短语进行英汉配对。",
         "options": [
           "take a trip",
           "go hiking",
@@ -283,28 +281,26 @@
           "去旅行",
           "看病"
         ],
-        "answer": "A-3,B-1,C-4,D-2",
-        "explanation": "A.take a trip-3.去旅行; B.go hiking-1.去远足; C.see a doctor-4.看病; D.by subway-2.乘地铁。"
+        "question": "给下列短语进行英汉配对。A. take a trip；B. go hiking；C. see a doctor；D. by subway。1. 去远足；2. 乘地铁；3. 去旅行；4. 看病。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "最后",
         "difficulty": 2,
+        "explanation": "Finally 意为“最后”，通常用于介绍一系列事情中最后发生的一步。",
         "knowledge_point": "叙事连接词",
-        "question": "给下列逻辑连接词进行英汉配对。",
         "options": [
-          "In the morning",
-          "Then",
-          "Finally",
-          "Yesterday",
-          "昨天",
+          "首先",
+          "然后",
           "最后",
-          "在早上",
-          "然后"
+          "昨天"
         ],
-        "answer": "A-3,B-4,C-2,D-1",
-        "explanation": "A.In the morning-3.在早上; B.Then-4.然后; C.Finally-2.最后; D.Yesterday-1.昨天。"
+        "question": "讲述做三明治的步骤时，要介绍最后一步，应该选哪个词？",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
         "id": 22,
@@ -339,6 +335,919 @@
         ],
         "answer": "He,will,be,a,pilot",
         "explanation": "主语He + will be + 职业a pilot。"
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "Apple、banana和orange都是水果；milk是饮料，不属于水果类。",
+        "knowledge_point": "词汇逻辑分类与冠词搭配",
+        "options": [
+          "apple",
+          "banana",
+          "milk",
+          "orange"
+        ],
+        "question": "Which word does not belong?（哪一个词不属于同一类？）",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "an",
+        "difficulty": 1,
+        "explanation": "Egg是单数可数名词，表示泛指时需要冠词。egg以元音音素开头，因此用an。",
+        "knowledge_point": "词汇逻辑分类与冠词搭配",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "不填"
+        ],
+        "question": "I have ___ egg for breakfast. 选出恰当的冠词。",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "a",
+        "difficulty": 1,
+        "explanation": "Uniform虽然以字母u开头，但开头发音是辅音音素 /j/，所以用a。",
+        "knowledge_point": "词汇逻辑分类与冠词搭配",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "不填"
+        ],
+        "question": "Tom wears ___ uniform at school. 选出恰当的冠词。",
+        "score": 1,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "Book和pencil都属于学习用品，因此可以归为同一类。",
+        "knowledge_point": "词汇逻辑分类与冠词搭配",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Book and pencil belong to the same group: school things.（判断正误）",
+        "score": 1,
+        "type": "true_false",
+        "id": 27
+      },
+      {
+        "answer": "a",
+        "difficulty": 2,
+        "explanation": "Dog是单数可数名词，此处泛指一只狗；dog以辅音音素开头，所以用a。",
+        "knowledge_point": "词汇逻辑分类与冠词搭配",
+        "options": [],
+        "question": "补全句子：There is ___ dog in the garden.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 28
+      },
+      {
+        "answer": "the",
+        "difficulty": 2,
+        "explanation": "前一句已经提到一只猫，后一句中的cat指的就是那只已明确的猫，因此用the表示特指。",
+        "knowledge_point": "词汇逻辑分类与冠词搭配",
+        "options": [],
+        "question": "补全句子：I see a cat. ___ cat is black.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 29
+      },
+      {
+        "answer": "First",
+        "difficulty": 1,
+        "explanation": "“首先”表示叙事的第一步，因此应填 First。句首连接词后加逗号。",
+        "knowledge_point": "叙事逻辑连接词的应用",
+        "options": [
+          "Finally",
+          "First",
+          "Because",
+          "So"
+        ],
+        "question": "___, Lily put on her coat. Then she went outside.",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "Then",
+        "difficulty": 1,
+        "explanation": "“然后”表示接着发生的动作。句子先说拿起书包，接着说去学校。",
+        "knowledge_point": "叙事逻辑连接词的应用",
+        "options": [
+          "Then",
+          "Because",
+          "When",
+          "Finally"
+        ],
+        "question": "I picked up my schoolbag. ___, I went to school.",
+        "score": 1,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "because",
+        "difficulty": 2,
+        "explanation": "后半句说明他迟到的原因，因此用 because，表示“因为”。",
+        "knowledge_point": "叙事逻辑连接词的应用",
+        "options": [
+          "so",
+          "finally",
+          "because",
+          "next"
+        ],
+        "question": "Tom was late ___ the bus was slow.",
+        "score": 1,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "so",
+        "difficulty": 2,
+        "explanation": "前半句是下雨这一原因，后半句是带伞这一结果，因此用 so，表示“所以”。",
+        "knowledge_point": "叙事逻辑连接词的应用",
+        "options": [
+          "when",
+          "because",
+          "first",
+          "so"
+        ],
+        "question": "It was raining, ___ I took an umbrella.",
+        "score": 1,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "Finally",
+        "difficulty": 2,
+        "explanation": "故事中先收拾玩具、再洗手，回家是最后发生的事，所以用 Finally。",
+        "knowledge_point": "叙事逻辑连接词的应用",
+        "options": [
+          "Next",
+          "Finally",
+          "Because",
+          "When"
+        ],
+        "question": "First, we cleaned the room. Then, we washed our hands. ___, we went home.",
+        "score": 1,
+        "type": "choice",
+        "id": 34
+      },
+      {
+        "answer": "When",
+        "difficulty": 3,
+        "explanation": "句子表示“当我到家时，妈妈正在做晚饭”，When 引出时间背景。",
+        "knowledge_point": "叙事逻辑连接词的应用",
+        "options": [
+          "So",
+          "Because",
+          "When",
+          "Finally"
+        ],
+        "question": "___ I got home, my mother was cooking dinner.",
+        "score": 1,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "主语是She，be动词用is；be going to后接动词原形visit。",
+        "knowledge_point": "一般将来时的计划与展望",
+        "options": [
+          "She are going to visit her aunt.",
+          "She is going to visit her aunt.",
+          "She is going visit her aunt."
+        ],
+        "question": "选出正确的句子：她打算明天去看望姑姑。",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "will后面接动词原形，所以句子中的help用法正确。",
+        "knowledge_point": "一般将来时的计划与展望",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：I will helps my mother tomorrow.",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "are going to",
+        "difficulty": 1,
+        "explanation": "主语We对应are；表示已有的周末计划，用are going to，后接动词原形play。",
+        "knowledge_point": "一般将来时的计划与展望",
+        "options": [],
+        "question": "填空：We ________ ________ ________ play basketball this weekend.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "will",
+        "difficulty": 2,
+        "explanation": "看到乌云后作出预测，句意是“看那些乌云！快要下雨了”，可用will表达对未来的预测；will后接动词原形rain。",
+        "knowledge_point": "一般将来时的计划与展望",
+        "options": [],
+        "question": "填空：Look at those dark clouds! It ________ rain soon.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 39
+      },
+      {
+        "answer": "I am going to clean my room tomorrow.",
+        "difficulty": 2,
+        "explanation": "已有计划可用be going to；主语I对应am，clean用动词原形，tomorrow放在句末。",
+        "knowledge_point": "一般将来时的计划与展望",
+        "options": [],
+        "question": "连词成句：tomorrow / I / clean / am / my room / going to",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "No, she won't.",
+        "difficulty": 2,
+        "explanation": "Will一般疑问句的否定简答为No, 主语 + won't。she对应she won't。",
+        "knowledge_point": "一般将来时的计划与展望",
+        "options": [],
+        "question": "回答问题：Will Lily go to the park tomorrow?（已知她明天要在家学习。）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "水果",
+        "difficulty": 1,
+        "explanation": "apple（苹果）、banana（香蕉）和 orange（橙子）都属于水果。",
+        "knowledge_point": "词汇逻辑分类",
+        "options": [],
+        "question": "填空：apple、banana、orange 都属于______类词汇。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 42
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "doctor（医生）、teacher（教师）和 farmer（农民）都是职业；其余选项是动物、水果或交通工具。",
+        "knowledge_point": "词汇逻辑分类",
+        "options": [
+          "A. doctor",
+          "B. tiger",
+          "C. grape",
+          "D. bus"
+        ],
+        "question": "下列哪个单词和其他三个不属于同一类别？",
+        "score": 2,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "Monday（星期一）、Tuesday（星期二）和 Friday（星期五）都是一周中的日子。",
+        "knowledge_point": "词汇逻辑分类",
+        "options": [],
+        "question": "Monday、Tuesday 和 Friday 都属于表示星期的词汇。",
+        "score": 2,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "shirt（衬衫）、coat（外套）和 skirt（裙子）都是衣物；其他选项分别是食物、家具和动物。",
+        "knowledge_point": "词汇逻辑分类",
+        "options": [
+          "A. bread",
+          "B. shirt",
+          "C. chair",
+          "D. rabbit"
+        ],
+        "question": "下列哪组单词都属于衣物？",
+        "score": 2,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "食物",
+        "difficulty": 2,
+        "explanation": "rice（米饭）、bread（面包）和 noodles（面条）都是食物。分类依据是它们都可以作为食物，而不是拼写或读音。",
+        "knowledge_point": "词汇逻辑分类",
+        "options": [],
+        "question": "填空：rice、bread、noodles 都属于______类词汇。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "a",
+        "difficulty": 1,
+        "explanation": "book 开头发辅音音素，表示“一个”时用 a。",
+        "knowledge_point": "冠词搭配",
+        "options": [],
+        "question": "I have ____ book.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "some",
+        "difficulty": 1,
+        "explanation": "water 是不可数名词，表示一些水时用 some。",
+        "knowledge_point": "冠词搭配",
+        "options": [],
+        "question": "There is ____ water in the glass.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 48
+      },
+      {
+        "answer": "an",
+        "difficulty": 2,
+        "explanation": "hour 的 h 不发音，单词开头发元音音素，因此用 an。",
+        "knowledge_point": "冠词搭配",
+        "options": [],
+        "question": "We waited for ____ hour.",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "is reading",
+        "difficulty": 2,
+        "explanation": "Look 表示“看”，常提示正在发生的动作。主语 Amy 是第三人称单数，用 is；read 的现在分词是 reading。",
+        "knowledge_point": "时态辨析",
+        "options": [],
+        "question": "Look! Amy ____ (read) a book now.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "will visit",
+        "difficulty": 2,
+        "explanation": "Tomorrow 表示将来，句子使用一般将来时 will + 动词原形，因此填 will visit。",
+        "knowledge_point": "时态辨析",
+        "options": [],
+        "question": "We ____ (visit) Grandma tomorrow.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 51
+      },
+      {
+        "answer": "plays",
+        "difficulty": 2,
+        "explanation": "Every Sunday 表示经常发生的习惯，使用一般现在时。主语 He 是第三人称单数，play 要加 -s，变为 plays。",
+        "knowledge_point": "时态辨析",
+        "options": [],
+        "question": "He ____ (play) football every Sunday.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "ate",
+        "difficulty": 2,
+        "explanation": "Last night 表示过去，使用一般过去时。eat 的过去式是不规则变化 ate。",
+        "knowledge_point": "时态辨析",
+        "options": [],
+        "question": "They ____ dinner at six last night. (eat)",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 53
+      },
+      {
+        "answer": "Next",
+        "difficulty": 2,
+        "explanation": "Next 表示“接下来”，可用于介绍紧接着发生的下一件事。",
+        "knowledge_point": "叙事连接词",
+        "options": [],
+        "question": "First, we made a paper boat. ____, we put it in the water.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "Finally",
+        "difficulty": 2,
+        "explanation": "Finally 表示“最后”，适合引出故事中最后发生的事情。",
+        "knowledge_point": "叙事连接词",
+        "options": [
+          "First",
+          "Finally",
+          "Yesterday",
+          "In the morning"
+        ],
+        "question": "We cleaned the room. Then, we put the books away. ____, we went out to play.",
+        "score": 5,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "carrot",
+        "difficulty": 1,
+        "explanation": "apple、banana 和 pear 都是水果；carrot（胡萝卜）是蔬菜。",
+        "knowledge_point": "词汇分类",
+        "options": [
+          "apple",
+          "banana",
+          "carrot",
+          "pear"
+        ],
+        "question": "Which word doesn't belong to the others?（哪一个单词不属于同一类？）",
+        "score": 5,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "tiger",
+        "difficulty": 1,
+        "explanation": "bus、train 和 plane 都是交通工具；tiger（老虎）是动物。",
+        "knowledge_point": "词汇分类",
+        "options": [
+          "bus",
+          "train",
+          "tiger",
+          "plane"
+        ],
+        "question": "Which word doesn't belong to the others?（哪一个单词不属于同一类？）",
+        "score": 5,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "hospital",
+        "difficulty": 2,
+        "explanation": "doctor、nurse 和 teacher 都是职业；hospital（医院）是地点。",
+        "knowledge_point": "词汇分类",
+        "options": [
+          "doctor",
+          "hospital",
+          "nurse",
+          "teacher"
+        ],
+        "question": "Which word doesn't belong to the others?（哪一个单词不属于同一类？）",
+        "score": 5,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "winter",
+        "difficulty": 1,
+        "explanation": "Monday、Friday 和 Sunday 都是星期名称；winter（冬天）是季节。",
+        "knowledge_point": "词汇分类",
+        "options": [
+          "Monday",
+          "winter",
+          "Friday",
+          "Sunday"
+        ],
+        "question": "Which word doesn't belong to the others?（哪一个单词不属于同一类？）",
+        "score": 5,
+        "type": "choice",
+        "id": 59
+      },
+      {
+        "answer": "sleep",
+        "difficulty": 2,
+        "explanation": "run、jump 和 swim 都是活动或运动动作；sleep（睡觉）通常表示休息，不属于这组运动动作。",
+        "knowledge_point": "词汇分类",
+        "options": [
+          "run",
+          "jump",
+          "sleep",
+          "swim"
+        ],
+        "question": "Which word doesn't belong to the others?（哪一个单词不属于同一类？）",
+        "score": 5,
+        "type": "choice",
+        "id": 60
+      },
+      {
+        "answer": "doctor",
+        "difficulty": 1,
+        "explanation": "医生给病人看病。句中说 Lily 想帮助生病的人，因此应选 doctor。",
+        "knowledge_point": "职业词汇",
+        "options": [
+          "doctor",
+          "farmer",
+          "pilot",
+          "postman"
+        ],
+        "question": "Lily wants to help sick people. She wants to be a ____.",
+        "score": 5,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "farmer",
+        "difficulty": 1,
+        "explanation": "农民从事种植或养殖工作。句中提到 Tom 在田里种蔬菜，因此他是一名 farmer。",
+        "knowledge_point": "职业词汇",
+        "options": [
+          "teacher",
+          "farmer",
+          "worker",
+          "astronaut"
+        ],
+        "question": "Tom grows vegetables in the field. He is a ____.",
+        "score": 5,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "teacher 的意思是“教师”，所以这句话正确。",
+        "knowledge_point": "职业词汇",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "A teacher teaches students.（教师教学生。）",
+        "score": 5,
+        "type": "true_false",
+        "id": 63
+      },
+      {
+        "answer": "pilot",
+        "difficulty": 2,
+        "explanation": "驾驶飞机的人是飞行员，英文是 pilot。句中使用 a pilot，冠词用法正确。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "A person who flies a plane is a ____.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 64
+      },
+      {
+        "answer": "postman",
+        "difficulty": 2,
+        "explanation": "邮递员负责投递信件和邮件，英文是 postman。注意拼写是 postman。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "A ____ brings letters to people's homes.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 65
+      },
+      {
+        "answer": "but",
+        "difficulty": 1,
+        "explanation": "前后两部分意思转折：我喜欢苹果，但是我不喜欢香蕉，因此用but。",
+        "knowledge_point": "连词用法",
+        "options": [
+          "and",
+          "but",
+          "because",
+          "or"
+        ],
+        "question": "I like apples, ____ I don't like bananas.",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "because",
+        "difficulty": 1,
+        "explanation": "后半句说明他开心的原因，用because连接。",
+        "knowledge_point": "连词用法",
+        "options": [
+          "because",
+          "but",
+          "or",
+          "then"
+        ],
+        "question": "Tom is happy ____ he won the game.",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "so",
+        "difficulty": 2,
+        "explanation": "前半句说明原因，后半句说明结果，用so连接，表示“所以”。",
+        "knowledge_point": "连词用法",
+        "options": [
+          "so",
+          "but",
+          "or",
+          "when"
+        ],
+        "question": "It was raining, ____ we stayed at home.",
+        "score": 5,
+        "type": "choice",
+        "id": 68
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "and可以连接意思相近或补充说明的内容，表示“和；并且”。",
+        "knowledge_point": "连词用法",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "在句子“I have a dog and a cat.”中，and表示“和”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 69
+      },
+      {
+        "answer": "or",
+        "difficulty": 1,
+        "explanation": "问对方想要茶还是果汁，是提供选择，因此用or，表示“或者”。",
+        "knowledge_point": "连词用法",
+        "options": [
+          "and",
+          "but",
+          "or",
+          "because"
+        ],
+        "question": "Would you like tea ____ juice?",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "回答“In the library”表示地点，询问地点用 Where。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Who",
+          "Where",
+          "When",
+          "Why"
+        ],
+        "question": "____ do you read books? In the library.",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "Who",
+        "difficulty": 1,
+        "explanation": "回答“My brother”表示一个人，询问人物用 Who。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "What",
+          "How",
+          "Who",
+          "Where"
+        ],
+        "question": "____ is playing football? My brother.",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "Why",
+        "difficulty": 2,
+        "explanation": "回答“Because I am tired”说明原因，询问原因用 Why。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "When",
+          "Why",
+          "Which",
+          "Who"
+        ],
+        "question": "____ are you going to bed early? Because I am tired.",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "How",
+        "difficulty": 2,
+        "explanation": "回答“By bus”表示交通方式，询问方式用 How。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Where",
+          "What",
+          "How",
+          "When"
+        ],
+        "question": "____ do you go to school? By bus.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "Which",
+        "difficulty": 2,
+        "explanation": "回答“The blue one”是在几个选项中作选择，询问“哪一个”用 Which。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Who",
+          "Which",
+          "Why",
+          "When"
+        ],
+        "question": "____ bag is yours, the red one or the blue one? The blue one.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "playing",
+        "difficulty": 2,
+        "explanation": "enjoy 后面接动词时，动词要用-ing形式，因此填 playing。",
+        "knowledge_point": "固定搭配",
+        "options": [],
+        "question": "The children enjoy ____ (play) football after school.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 76
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "be good at 是固定搭配，意为“擅长……”。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "for"
+        ],
+        "question": "Tom is good ____ drawing pictures.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "to visit",
+        "difficulty": 2,
+        "explanation": "would like to do sth. 是固定搭配，意为“想要做某事”，to 后接动词原形。",
+        "knowledge_point": "固定搭配",
+        "options": [],
+        "question": "I would like ____ (visit) the science museum.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 78
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "look forward to 是固定搭配，其中 to 是介词，后接名词或动词-ing形式。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "在句子“We look forward to seeing you.”中，to 后面的 seeing 使用正确。",
+        "score": 5,
+        "type": "true_false",
+        "id": 79
+      },
+      {
+        "answer": "with",
+        "difficulty": 2,
+        "explanation": "help someone with something 是固定搭配，意为“帮助某人做某事或处理某事”。",
+        "knowledge_point": "固定搭配",
+        "options": [],
+        "question": "Can you help me ____ my English homework?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 80
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "看到朋友的新书包后说“Wow, it's beautiful!”是在表示赞美，回答“Thank you”最自然。",
+        "knowledge_point": "综合理解",
+        "options": [
+          "A. I'm sorry.",
+          "B. Thank you.",
+          "C. Good night."
+        ],
+        "question": "Lily: Look at my new schoolbag! Tom: Wow, it's beautiful! Lily: ____",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“It's rainy today”说明今天在下雨，因此带雨伞是合理的。",
+        "knowledge_point": "综合理解",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "根据对话判断正误：Mum: It's rainy today. Take your umbrella. Ben: OK. Ben should take an umbrella.",
+        "score": 5,
+        "type": "true_false",
+        "id": 82
+      },
+      {
+        "answer": "What time",
+        "difficulty": 2,
+        "explanation": "回答“It's seven thirty.”告诉我们具体时间，因此问句应使用“What time”。",
+        "knowledge_point": "综合理解",
+        "options": [],
+        "question": "补全问句：A: ____ do you get up? B: At seven thirty.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 83
+      },
+      {
+        "answer": "They go to the park by bike on Sunday morning.",
+        "difficulty": 2,
+        "explanation": "短文说明星期天早上，Sara和弟弟骑自行车去公园。回答时要概括出人物、时间、地点和出行方式。",
+        "knowledge_point": "综合理解",
+        "options": [],
+        "question": "阅读短文并用英语回答：Sara and her brother like riding bikes. On Sunday morning, they ride their bikes to the park. Where do Sara and her brother go, and how do they get there?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "She wants to make a birthday card for her friend.",
+        "difficulty": 3,
+        "explanation": "短文先说明今天是朋友的生日，接着说Lucy正在制作贺卡，结合语境可知她想为朋友做一张生日贺卡。",
+        "knowledge_point": "综合理解",
+        "options": [],
+        "question": "阅读短文并用英语回答：Today is Lucy's friend Emma's birthday. Lucy is making a card. What does Lucy want to make for her friend?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "去旅行",
+        "difficulty": 1,
+        "explanation": "take a trip的意思是“去旅行”。",
+        "knowledge_point": "词汇翻译",
+        "options": [],
+        "question": "take a trip的中文意思是________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "去远足",
+        "difficulty": 1,
+        "explanation": "go hiking表示“去远足”或“去徒步旅行”。",
+        "knowledge_point": "词汇翻译",
+        "options": [],
+        "question": "把“去远足”翻译成英语：________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 87
+      },
+      {
+        "answer": "乘地铁",
+        "difficulty": 1,
+        "explanation": "by subway表示“乘地铁”。by在这里表示出行方式。",
+        "knowledge_point": "词汇翻译",
+        "options": [],
+        "question": "by subway的意思是________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 88
+      },
+      {
+        "answer": "see a doctor",
+        "difficulty": 2,
+        "explanation": "“看病”可以说see a doctor，指去看医生。",
+        "knowledge_point": "词汇翻译",
+        "options": [],
+        "question": "把“看病”翻译成英语：________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 89
+      },
+      {
+        "answer": "A-2,B-1",
+        "difficulty": 2,
+        "explanation": "A. go swimming表示“去游泳”；B. by bus表示“乘公共汽车”。",
+        "knowledge_point": "词汇翻译",
+        "options": [
+          "go swimming",
+          "by bus",
+          "乘公共汽车",
+          "去游泳"
+        ],
+        "question": "给下列短语进行英汉配对。A. go swimming；B. by bus。1. 乘公共汽车；2. 去游泳。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 90
       }
     ]
   },
@@ -711,6 +1620,161 @@
         "will后面加了to"
       ],
       "tips": "看到tomorrow, tonight, next week等时间状语时，优先考虑将来时。"
+    },
+    {
+      "common_mistakes": [
+        "把用途或外形不同的词误分到同一类，例如把水果和饮料都归为“食物”而不看题目要求的具体类别。",
+        "看到名词是单数就一律加a，忽略元音音素开头的词要用an。",
+        "忘记the用于谈话双方都知道或已明确指出的人或事物；泛指可数名词单数时通常不能单独使用。"
+      ],
+      "core_concept": "词汇逻辑分类是按共同特征给词语归类，例如人物、动物、食物、饮料或学习用品。冠词要与名词的含义和用法搭配：a/an用于泛指的单数可数名词，a放在辅音音素开头的词前，an放在元音音素开头的词前；the用于特指的人或事物。复数名词或不可数名词泛指时，通常不加a/an。",
+      "key_formula": "泛指单数可数名词：a + 辅音音素开头的词；an + 元音音素开头的词。特指名词：the + 名词。",
+      "point": "词汇逻辑分类与冠词搭配",
+      "tips": "可以先问自己两个问题：这个词属于哪一类？这个名词是泛指还是特指？若是泛指的单数可数名词，再读出名词开头的音来选择a或an。"
+    },
+    {
+      "common_mistakes": [
+        "把叙事连接词当作可互换的词，忽略它们表达的时间顺序或因果关系。",
+        "按中文语序逐字翻译，导致连接词放错位置或句子不通顺。",
+        "只写动作，不说明动作之间的先后、原因或结果。"
+      ],
+      "core_concept": "叙事逻辑连接词能帮助读者看清故事中事件的先后、同时发生、原因和结果，使叙述更连贯。常用词包括：first（首先）、then（然后）、next（接着）、after that（之后）、finally（最后）、when（当……时）、because（因为）、so（所以）。",
+      "key_formula": "先后顺序：First, ... Then/Next, ... After that, ... Finally, ...；原因与结果：... because ... / ... , so ...；同时或时间背景：When ... , ...。",
+      "point": "叙事逻辑连接词的应用",
+      "tips": "先想清楚故事里发生了哪些事，再按时间顺序排列；如果要说明“为什么”，用 because 引出原因；如果要说明“因此”，用 so 引出结果。句首使用连接词时，通常在后面加逗号，如：Finally, we went home."
+    },
+    {
+      "common_mistakes": [
+        "will和be going to后面都要接动词原形，不要加-s或改成过去式。",
+        "be going to中的be要根据主语选择am、is或are。",
+        "表达已经安排好的计划时，常用现在进行时，如I'm visiting my grandma tomorrow；不要把所有将来安排都机械地写成will。"
+      ],
+      "core_concept": "一般将来时用来谈论将来要发生的事、计划或展望。小学阶段常用will和be going to两种表达：will常用于预测、临时决定或表达意愿；be going to常用于表达已有计划或根据迹象作出的预测。",
+      "key_formula": "will：主语 + will + 动词原形；否定句：主语 + will not（won't）+ 动词原形；一般疑问句：Will + 主语 + 动词原形？be going to：主语 + am/is/are going to + 动词原形；否定句：主语 + am/is/are not going to + 动词原形；一般疑问句：Am/Is/Are + 主语 + going to + 动词原形？",
+      "point": "一般将来时的计划与展望",
+      "tips": "先判断句意：已经有打算或计划，通常用be going to；临时决定、意愿或一般预测，常用will。再检查动词形式：will或going to后面都接动词原形。遇到tomorrow、next week、this weekend等时间词时，可用它们帮助理解语境，但不能只凭时间词决定时态。"
+    },
+    {
+      "common_mistakes": [
+        "只看单词的某一个字母或读音来分类，而忽略词义。",
+        "把可以同时属于不同类别的词硬分成唯一一类；分类时要根据题目指定的标准。"
+      ],
+      "core_concept": "词汇逻辑分类就是根据单词的意思、用途或共同特征，把词语归到合适的类别中。例如，plane、train、taxi 都是交通工具；apple、banana、orange 都是水果。",
+      "key_formula": "根据分类标准判断共同特征 → 找出符合特征的单词 → 将单词归入相应类别。",
+      "point": "词汇逻辑分类",
+      "tips": "做题时先翻译或理解单词，再找出它们的共同点。遇到“哪个不属于这一类”时，逐个检查，并说明其他词共享的类别特征。"
+    },
+    {
+      "common_mistakes": [
+        "误以为 a 或 an 只由单词的首字母决定；应根据单词开头的发音来选择。",
+        "在不可数名词前误用 a 或 an；如表示一些牛奶，应说 some milk。",
+        "忘记首次提到的单数可数名词通常需要冠词或其他限定词。"
+      ],
+      "core_concept": "冠词常用于名词前。a 和 an 都表示“一个”，用于单数可数名词前：后接辅音音素开头的词通常用 a，后接元音音素开头的词通常用 an。some 可用于表示“一些”，常放在可数名词复数或不可数名词前。",
+      "key_formula": "a + 辅音音素开头的单数可数名词；an + 元音音素开头的单数可数名词；some + 可数名词复数或不可数名词",
+      "point": "冠词搭配",
+      "tips": "判断用 a 还是 an 时，重点听单词开头的音，而不是只看首字母。例如，eraser 和 apple 开头发元音音素，用 an；book 开头发辅音音素，用 a。milk 是不可数名词，表示一些牛奶时用 some。"
+    },
+    {
+      "common_mistakes": [
+        "看到时间词后只判断时态，却忘记根据主语选择正确的动词形式。",
+        "把一般过去时和一般现在时混用，例如过去发生的动作仍使用动词原形。",
+        "将 be 动词和实义动词的变化规则混淆。"
+      ],
+      "core_concept": "时态表示动作发生的时间。小学阶段常见的一般现在时、现在进行时、一般过去时和一般将来时，可以结合时间标志词和句子意思来辨别；选好时态后，还要注意主语与动词形式的搭配。",
+      "key_formula": "一般现在时：主语 + 动词原形（第三人称单数时，动词通常加 -s/-es）；现在进行时：主语 + am/is/are + 动词-ing；一般过去时：主语 + 动词过去式；一般将来时：主语 + will + 动词原形。",
+      "point": "时态辨析",
+      "tips": "做题时可以依次问自己：动作发生在什么时候？有没有时间标志词？主语是什么？需要用哪种时态和动词形式？例如，Yesterday I went... 中 Yesterday 表示过去，因此用过去式 went；Today I am... 中 Today 表示现在，主语 I 与 am 搭配。"
+    },
+    {
+      "common_mistakes": [
+        "把 First、Then、Finally 当作可以随意互换的词，导致事件顺序不清楚。",
+        "混淆 Then 和 After that 的用法；两者都可表示“然后、之后”，After that 后面常接逗号或名词短语。",
+        "把 Finally 放在第一步之前。它通常用于叙述最后发生的事情。",
+        "忘记在句首连接词后加逗号，例如：First, I got up."
+      ],
+      "core_concept": "叙事连接词用于按时间顺序组织事件，让故事或事情经过表达得清楚、连贯。常见表达有 First（首先）、Then（然后）、Next（接下来）、After that（在那之后）和 Finally（最后）。时间短语如 In the morning（在早上）和 Yesterday（昨天）也能帮助交代事情发生的时间。",
+      "key_formula": "First, + 第一步。Then/Next/After that, + 后续事件。Finally, + 最后一步。",
+      "point": "叙事连接词",
+      "tips": "先找出事件的先后顺序，再选择合适的连接词。讲述步骤时可用 First、Then/Next、After that、Finally；句首使用这些连接表达时，通常在后面加逗号。"
+    },
+    {
+      "common_mistakes": [
+        "只看单词的中文意思，忽略它们所属的类别。",
+        "把同一主题下的词误认为同一类别，例如“医生”和“医院”都与医疗有关，但一个是职业，一个是地点。",
+        "分类时没有说明共同点，导致判断依据不清楚。"
+      ],
+      "core_concept": "词汇分类是根据单词的共同特征或含义，把它们归为一类。常见类别包括职业、季节、动物、食物、交通工具、地点和动作等。判断时先找出几个词的共同点，再找出不符合这一特点的词。",
+      "key_formula": "找出共同类别 → 判断每个词是否属于该类别 → 选出不属于的一项",
+      "point": "词汇分类",
+      "tips": "读懂每个单词的意思后，尝试用一句话概括大多数词的共同点。例如 scientist、pilot、coach 都是职业，而 summer 是季节。注意不要只凭单词拼写或字母特征判断。"
+    },
+    {
+      "common_mistakes": [
+        "把职业词汇的中文意思和英文单词混淆，或记错拼写。",
+        "只看职业名称，不结合句意判断职业是否合适。",
+        "使用 a 或 an 时忽略单词的发音，例如 astronaut 前用 an。"
+      ],
+      "core_concept": "学习常见职业名称及其含义，并根据人物的兴趣、工作内容或句子线索选择合适的职业词汇。",
+      "key_formula": "职业词汇选择：理解句意和线索 → 判断对应职业 → 检查拼写及冠词。发音以元音音素开头的单数可数名词前通常用 an，如 an astronaut；其他情况通常用 a，如 a doctor。",
+      "point": "职业词汇",
+      "tips": "可以把职业与典型工作或线索配对记忆：doctor—看病，teacher—教书，farmer—种植或养殖，pilot—驾驶飞机，astronaut—太空探索。遇到填空题时，先读懂整句话，再选择最符合语境的职业。"
+    },
+    {
+      "common_mistakes": [
+        "混淆表示先后顺序的连词和表示原因、转折的连词。",
+        "把because和so在同一句中重复使用，例如：Because it rained, so we stayed home。",
+        "忘记连词连接的句子需要表达清楚、合理的逻辑关系。"
+      ],
+      "core_concept": "连词可以连接单词、短语或句子，帮助表达句子之间的逻辑关系。常见连词包括：and（和；并且）、but（但是）、because（因为）、so（所以）、or（或者）、when（当……时）。叙述事情顺序时，可以使用then（然后）和after that（之后）。",
+      "key_formula": "句子1 + 连词 + 句子2；表达原因时可用“结果 + because + 原因”，表达因果时也可用“原因 + so + 结果”。",
+      "point": "连词用法",
+      "tips": "先判断两部分之间的关系：补充用and，转折用but，选择用or，原因用because，结果用so，时间顺序或时间关系可用then、after that、when。"
+    },
+    {
+      "common_mistakes": [
+        "混淆询问时间的 when 和询问地点的 where。",
+        "询问人物用 who，询问事物或做什么用 what。",
+        "询问方式、身体状况或交通方式时常用 how。",
+        "不要只看句子中的某个单词，要根据回答内容判断该用哪个疑问词。"
+      ],
+      "core_concept": "疑问词放在一般疑问句或特殊疑问句的句首，用来询问不同的信息。常见疑问词有：what（什么）、who（谁）、where（哪里）、when（什么时候）、why（为什么）、which（哪一个）和 how（怎样）。",
+      "key_formula": "疑问词 + 一般疑问句语序？（be动词、助动词或情态动词通常放在主语前。）",
+      "point": "疑问词辨析",
+      "tips": "先读回答，找出其中的关键信息，再反推疑问词。例如回答是时间，用 when；回答是地点，用 where；回答说明原因，用 why。注意：询问年龄常用 How old，询问数量常用 How many 或 How much，询问频率常用 How often。"
+    },
+    {
+      "common_mistakes": [
+        "忽略固定搭配中动词或介词的固定形式。",
+        "be going to 后误用动词的第三人称单数、现在分词或过去式。",
+        "只根据句意选词，没有检查搭配和句子结构。"
+      ],
+      "core_concept": "固定搭配是两个或多个词经常按照固定形式一起使用的表达。学习时要记住搭配的整体形式，并结合句意判断用法。",
+      "key_formula": "be going to + 动词原形；like/enjoy + 动词-ing；look forward to + 名词或动词-ing；be good at + 名词或动词-ing。",
+      "point": "固定搭配",
+      "tips": "做题时先找句中的提示词，再检查后面应接什么形式。例如，看到 be going to，后面用动词原形；看到 enjoy，后面通常用动词-ing。"
+    },
+    {
+      "common_mistakes": [
+        "把单词或句子逐个翻译，却忽略上下文和说话人的意图。",
+        "回答对话时只看语法形式，不考虑场合和礼貌表达。",
+        "阅读短文时遗漏时间、人物、地点等关键信息。"
+      ],
+      "core_concept": "综合理解是结合上下文、关键词和已知信息，理解句子或短文的主要意思、说话人的意图，并据此选择合适的表达或答案。",
+      "key_formula": "综合理解：抓关键词 → 联系上下文 → 判断主要意思或交际意图 → 核对答案是否符合语境。",
+      "point": "综合理解",
+      "tips": "先读完整对话或短文，再留意关键词；遇到不认识的词，可以根据上下文猜测。选择答案后，把它放回原文读一遍，检查意思和语法是否都通顺。"
+    },
+    {
+      "common_mistakes": [
+        "混淆意思相近的词或短语。",
+        "翻译时遗漏介词或其他重要词语。",
+        "只记单词，不结合短语和句子理解用法。"
+      ],
+      "core_concept": "词汇翻译是根据英语单词或短语的意思，准确写出对应的中文；也可以根据中文意思写出常见的英语表达。翻译时要结合上下文，注意短语中的每个词。",
+      "key_formula": "英语单词或短语 ↔ 对应的中文意思",
+      "point": "词汇翻译",
+      "tips": "把单词放在短语或句子中记忆；注意短语整体的意思，例如take a trip是“去旅行”，不能只逐词翻译。"
     }
   ]
 }

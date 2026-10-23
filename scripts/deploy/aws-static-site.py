@@ -3,6 +3,7 @@
 import argparse
 import json
 import subprocess
+import sys
 from pathlib import Path
 from media_types import inspect_overrides, load_media_overrides, s3_client
 
@@ -107,6 +108,8 @@ def main():
         print(template_path);return
     if args.region!='ap-northeast-1':raise ValueError('This deployment is scoped to Tokyo.')
     if not args.site.joinpath('index.html').is_file():raise ValueError('Missing verified website export')
+    subprocess.run([sys.executable, str(ROOT / 'scripts/checks/content-retention.py'),
+                    '--public', str(args.site)], check=True)
     base=['aws','--profile',args.profile,'--region',args.region,'--no-cli-pager']
     def aws(command,capture=False):
         if capture:return json.loads(subprocess.check_output(base+command,text=True))

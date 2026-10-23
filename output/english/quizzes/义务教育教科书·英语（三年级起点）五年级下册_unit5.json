@@ -4,275 +4,273 @@
   "unit_number": 5,
   "unit_test": {
     "title": "Unit 5 Whose dog is it? 单元通关自测卷",
-    "total_score": 100,
+    "total_score": 115,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "名词性物主代词的用法",
-        "question": "'mine' 的意思是'我的'。",
-        "options": [],
         "answer": "对",
-        "explanation": "mine是名词性物主代词，表示“我的（东西）”。"
+        "difficulty": 1,
+        "explanation": "mine是名词性物主代词，表示“我的（东西）”，通常不需要再接名词。",
+        "knowledge_point": "名词性物主代词的用法",
+        "options": [],
+        "question": "'mine' 的意思是“我的（东西）”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "climb的-ing形式是climbing，表示“正在攀爬”时，要放在am、is或are之后，例如：He is climbing.",
         "knowledge_point": "现在进行时态 (be+doing)",
-        "question": "正在爬树可以表达为 'climbing'。",
         "options": [],
-        "answer": "对",
-        "explanation": "climb的动词ing形式是climbing。"
+        "question": "“正在爬树”中的“正在爬”可以用 climbing 表达。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "hers相当于“her+名词”，可单独代替前面提到的名词，后面通常不再接名词。",
         "knowledge_point": "名词性物主代词的用法",
+        "options": [],
         "question": "'hers' 后面通常不需要再加名词。",
-        "options": [],
-        "answer": "对",
-        "explanation": "名词性物主代词相当于“形容词性物主代词+名词”，所以后面不再接名词。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 2,
+        "explanation": "sing 末尾的 -ng 通常发 /ŋ/；pink 末尾的 -nk 通常发 /ŋk/，pink 比 sing 多出 /k/ 音。",
         "knowledge_point": "字母组合-ng和-nk的发音规律",
+        "options": [],
         "question": "单词 'sing' 和 'pink' 中字母组合的发音完全相同。",
-        "options": [],
-        "answer": "错",
-        "explanation": "sing发/ŋ/，pink发/ŋk/，两者不同。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "询问物品归属 (Whose句型)",
-        "question": "'Whose' 的意思是'那是谁'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "Whose的意思是“谁的”，Who's才是“谁是”。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "Whose 的意思是“谁的”；Who's 通常是 who is 或 who has 的缩写。",
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "options": [],
+        "question": "“Whose”的意思是“那是谁”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "mine",
+        "difficulty": 1,
+        "explanation": "句末没有名词，空格处要用名词性物主代词mine，表示“我的（钢笔）”。",
         "knowledge_point": "名词性物主代词的用法",
-        "question": "The blue pen is ________.",
         "options": [
           "my",
           "mine",
           "me",
           "I"
         ],
-        "answer": "mine",
-        "explanation": "句末没有名词，需用名词性物主代词mine。"
+        "question": "The blue pen is ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "Whose",
         "difficulty": 1,
+        "explanation": "句意是“这是谁的帽子？”询问物品属于谁要用 Whose。",
         "knowledge_point": "询问物品归属 (Whose句型)",
-        "question": "— ________ hat is this? — It's Mike's.",
         "options": [
           "Who",
           "What",
           "Whose",
           "Where"
         ],
-        "answer": "Whose",
-        "explanation": "询问物品归属用Whose。"
+        "question": "— ________ hat is this? — It's Mike's.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "are",
         "difficulty": 2,
+        "explanation": "rabbits是复数，be动词用are；现在进行时结构为are + jumping。",
         "knowledge_point": "现在进行时态 (be+doing)",
-        "question": "The rabbits ________ jumping now.",
         "options": [
           "is",
           "be",
           "are",
           "am"
         ],
-        "answer": "are",
-        "explanation": "主语rabbits是复数，be动词用are。"
+        "question": "The rabbits ________ jumping now.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "yours",
         "difficulty": 1,
+        "explanation": "空格处代替“your book”，且后面没有名词，所以用名词性物主代词yours。",
         "knowledge_point": "名词性物主代词的用法",
-        "question": "That's not my book. It is ________.",
         "options": [
           "yours",
           "you",
           "your",
           "she"
         ],
-        "answer": "yours",
-        "explanation": "此处指代你的书，用名词性物主代词yours。"
+        "question": "That's not my book. It is ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "sleeping",
         "difficulty": 1,
+        "explanation": "现在进行时中be动词后接动词-ing形式。sleep加-ing为sleeping。",
         "knowledge_point": "现在进行时态 (be+doing)",
-        "question": "Look! The baby is ________.",
         "options": [
           "sleep",
           "sleeps",
           "sleeping",
           "slept"
         ],
-        "answer": "sleeping",
-        "explanation": "be动词后接动词ing形式表示正在进行。"
+        "question": "Look! The baby is ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "ours; theirs",
         "difficulty": 2,
+        "explanation": "两处空格后都没有名词，分别用ours代替“our books”，用theirs代替“their books”。",
         "knowledge_point": "名词性物主代词的用法",
-        "question": "These books are ________. Those are ________.",
         "options": [
           "our; their",
           "ours; theirs",
           "ours; their",
           "our; theirs"
         ],
-        "answer": "ours; theirs",
-        "explanation": "前后两处都缺名词性物主代词。"
+        "question": "These books are ________. Those are ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "drinking",
         "difficulty": 2,
+        "explanation": "现在进行时要用be动词加动词-ing形式；drink加-ing为drinking。",
         "knowledge_point": "现在进行时态 (be+doing)",
-        "question": "What is the dog doing? It's ________ water.",
         "options": [
           "drink",
           "drinking",
           "drinks",
           "drank"
         ],
-        "answer": "drinking",
-        "explanation": "正在喝水需用drinking。"
+        "question": "What is the dog doing? It's ________ water.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "running",
         "difficulty": 3,
+        "explanation": "run的末尾是“辅音-元音-辅音”结构，变成-ing形式时双写末尾的n，再加-ing：run—running。",
         "knowledge_point": "现在进行时态 (be+doing)",
-        "question": "Is Fido ________? No, he's sleeping.",
         "options": [
           "runing",
           "running",
           "run",
           "runes"
         ],
-        "answer": "running",
-        "explanation": "run的ing形式需要双写n再加ing。"
+        "question": "Is Fido ________? No, he's sleeping.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "yours",
         "difficulty": 2,
+        "explanation": "yours 是名词性物主代词，可以单独使用，表示“你们的”。your 是形容词性物主代词，后面还要接名词。",
         "knowledge_point": "询问物品归属 (Whose句型)",
-        "question": "— Are these ________? — Yes, they're ours.",
         "options": [
           "you",
           "yours",
           "your",
           "mine"
         ],
-        "answer": "yours",
-        "explanation": "问句意思：这些是你们的吗？用yours。"
+        "question": "— Are these ________? — Yes, they're ours.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "his",
         "difficulty": 1,
+        "explanation": "空格后没有名词，his在这里作名词性物主代词，表示“他的（画）”。",
         "knowledge_point": "名词性物主代词的用法",
-        "question": "The yellow picture is ________.",
         "options": [
           "his",
           "him",
           "he",
           "me"
         ],
-        "answer": "his",
-        "explanation": "his既是形容词性也是名词性物主代词。"
+        "question": "The yellow picture is ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "现在进行时态 (be+doing)",
-        "question": "The boy is ___ a book in the library.",
-        "options": [],
         "answer": "reading",
-        "explanation": "正在看书用reading。"
-      },
-      {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
-        "knowledge_point": "名词性物主代词的用法",
-        "question": "I am Sarah. This bag is ___.",
-        "options": [],
-        "answer": "mine",
-        "explanation": "指我的书包且不接名词，用mine。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
+        "explanation": "read加-ing为reading。句中已有is，后面应填动词-ing形式。",
         "knowledge_point": "现在进行时态 (be+doing)",
-        "question": "— What are they doing? — They are ___.",
         "options": [],
-        "answer": "eating",
-        "explanation": "正在吃东西用eating。"
-      },
-      {
-        "id": 19,
+        "question": "The boy is ___ a book in the library.",
+        "score": 5,
         "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "询问物品归属 (Whose句型)",
-        "question": "___ pens are these? They are hers.",
-        "options": [],
-        "answer": "whose",
-        "explanation": "询问谁的钢笔用whose。"
+        "id": 16
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "mine",
         "difficulty": 1,
+        "explanation": "说话人是Sarah，书包属于“我”，且空格后没有名词，因此用mine。",
         "knowledge_point": "名词性物主代词的用法",
-        "question": "将下列词汇与其对应的中文意思相连。",
+        "options": [],
+        "question": "I am Sarah. This bag is ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "eating",
+        "difficulty": 2,
+        "explanation": "现在进行时结构是be动词加动词-ing形式；eat加-ing为eating。",
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "options": [],
+        "question": "— What are they doing? — They are ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "Whose",
+        "difficulty": 2,
+        "explanation": "句意是“这些是谁的钢笔？它们是她的。”询问归属用 Whose，句首首字母要大写。",
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "options": [],
+        "question": "___ pens are these? They are hers.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-4,B-1,C-3,D-2",
+        "difficulty": 1,
+        "explanation": "mine表示“我的”，yours表示“你的／你们的”，ours表示“我们的”，theirs表示“他们的／她们的／它们的”。",
+        "knowledge_point": "名词性物主代词的用法",
         "options": [
           "mine",
           "yours",
@@ -283,61 +281,134 @@
           "我们的",
           "我的"
         ],
-        "answer": "A-4,B-1,C-3,D-2",
-        "explanation": "mine我的, yours你们的, ours我们的, theirs他们的。"
+        "question": "将下列词汇与其对应的中文意思相连：A. mine；B. yours；C. ours；D. theirs。1. 你们的；2. 他们的；3. 我们的；4. 我的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "攀爬",
         "difficulty": 1,
+        "explanation": "“climbing”是动词“climb”的-ing形式，意思是“攀爬”。",
         "knowledge_point": "现在进行时态 (be+doing)",
-        "question": "将下列动词ing形式与其意思相连。",
         "options": [
-          "climbing",
-          "playing",
-          "jumping",
-          "drinking",
+          "攀爬",
           "玩耍",
-          "喝水",
           "跳跃",
-          "攀爬"
+          "喝水"
         ],
-        "answer": "A-4,B-1,C-3,D-2",
-        "explanation": "climbing攀爬, playing玩耍, jumping跳跃, drinking喝水。"
+        "question": "“climbing”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Whose is it?",
         "difficulty": 1,
+        "explanation": "Whose 放在句首，后接 is it，构成“它是谁的？”",
         "knowledge_point": "询问物品归属 (Whose句型)",
-        "question": "连词成句。",
         "options": [
           "is",
           "Whose",
           "it",
           "?"
         ],
-        "answer": "Whose,is,it,?",
-        "explanation": "Whose is it? 是谁的？"
+        "question": "连词成句：is / Whose / it / ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "The dog is sleeping now.",
         "difficulty": 2,
+        "explanation": "现在进行时的结构是“主语 + am/is/are + 动词-ing”。句子的主语是单数名词短语“The dog”，所以用is；sleep的-ing形式是sleeping。",
         "knowledge_point": "现在进行时态 (be+doing)",
-        "question": "连词成句。",
         "options": [
-          "dog",
-          "The",
-          "sleeping",
-          "is",
-          "."
+          "The dog sleeping now.",
+          "The dog is sleeping now.",
+          "The dog are sleeping now.",
+          "The dog sleeps now."
         ],
-        "answer": "The,dog,is,sleeping,.",
-        "explanation": "The dog is sleeping. 这只狗正在睡觉。"
+        "question": "看！这只狗正在睡觉。选出正确的英文句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 23
+      },
+      {
+        "answer": "They are Lily's.",
+        "difficulty": 2,
+        "explanation": "these 指复数物品，所以用 They are；Lily's 表示“莉莉的”。",
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "options": [],
+        "question": "根据提示写出答句：Whose books are these?（Lily）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "bank 末尾是 -nk，通常发 /ŋk/；其余三个单词末尾的 -ng 通常发 /ŋ/。",
+        "knowledge_point": "字母组合-ng和-nk的发音规律",
+        "options": [
+          "A. ring",
+          "B. bank",
+          "C. long",
+          "D. song"
+        ],
+        "question": "下列哪个单词末尾的字母组合通常发 /ŋk/？",
+        "score": 2,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "/ŋ/",
+        "difficulty": 1,
+        "explanation": "在常见单词 sing 中，末尾的 -ng 通常发鼻音 /ŋ/，不额外加 /g/ 音。",
+        "knowledge_point": "字母组合-ng和-nk的发音规律",
+        "options": [],
+        "question": "单词 'sing' 中 -ng 通常发什么音？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "/ŋk/",
+        "difficulty": 2,
+        "explanation": "think 末尾的 -nk 通常发 /ŋk/，发音包含先后的 /ŋ/ 和 /k/。",
+        "knowledge_point": "字母组合-ng和-nk的发音规律",
+        "options": [],
+        "question": "补全发音：单词 'think' 中 -nk 通常发 ______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "pink 的 -nk 通常发 /ŋk/；sing 的 -ng 通常发 /ŋ/，不含末尾的 /k/ 音。",
+        "knowledge_point": "字母组合-ng和-nk的发音规律",
+        "options": [
+          "A. pink 和 sing 的结尾发音都包含 /k/。",
+          "B. pink 的结尾有 /k/ 音，sing 的结尾没有。",
+          "C. pink 的结尾没有 /ŋ/ 音，sing 的结尾有 /k/ 音。",
+          "D. pink 和 sing 的结尾发音完全相同。"
+        ],
+        "question": "关于 'pink' 和 'sing' 的结尾发音，哪项正确？",
+        "score": 2,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "pink, sink",
+        "difficulty": 2,
+        "explanation": "pink 和 sink 都以 -nk 结尾，-nk 通常发 /ŋk/；ring 以 -ng 结尾，通常发 /ŋ/。",
+        "knowledge_point": "字母组合-ng和-nk的发音规律",
+        "options": [],
+        "question": "从下列单词中找出两个末尾通常发 /ŋk/ 的单词：ring, pink, sink。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
       }
     ]
   },
@@ -721,6 +792,52 @@
         "无法区分两个组合的浊度和清脆度"
       ],
       "tips": "ng喉头震动响亮些，nk结尾有一个轻微的/k/爆破音。"
+    },
+    {
+      "common_mistakes": [
+        "不要把形容词性物主代词和名词性物主代词混用：my、your、our、their后面通常要接名词；mine、yours、ours、theirs后面通常不接名词。",
+        "his既可以作形容词性物主代词，也可以作名词性物主代词，要根据后面是否有名词判断。",
+        "its通常作形容词性物主代词，后面接名词；小学阶段一般不单独用its表示“它的东西”。"
+      ],
+      "core_concept": "名词性物主代词表示“某人的……”，相当于“形容词性物主代词+名词”，用来代替前面提到的名词，避免重复。常见形式有：mine（我的）、yours（你的／你们的）、his（他的）、hers（她的）、ours（我们的）、theirs（他们的／她们的／它们的）。",
+      "key_formula": "名词性物主代词 = 形容词性物主代词 + 名词；名词性物主代词后面通常不再接名词。",
+      "point": "名词性物主代词的用法",
+      "tips": "做题时先看空格后面有没有名词：有名词时通常填my、your、his、her、our、their等；没有名词、需要代替“某人的东西”时通常填mine、yours、his、hers、ours、theirs。"
+    },
+    {
+      "common_mistakes": [
+        "Whose 意为“谁的”，用于询问物品属于谁；Who's 是 who is 或 who has 的缩写，意思不同。",
+        "Whose 后面可以直接接名词，如 Whose hat is this?",
+        "your、my 等形容词性物主代词后面要接名词；yours、mine 等名词性物主代词可以单独使用。",
+        "回答物品归属时，单数可用 It's + 名词所有格或物主代词；复数可用 They're + 名词所有格或物主代词。"
+      ],
+      "core_concept": "Whose 用来询问物品属于谁，常见句型有“Whose + 名词 + is/are + this/that/these/those?”和“Whose is this/that?”。回答时可说“It's + 人名+'s.”“It's mine/yours/his/hers/ours/theirs.”；复数物品则用“They're + ...”。",
+      "key_formula": "Whose + 名词 + is/are + 指示代词?；Whose + is/are + 指示代词?；回答：It's/They're + 名词所有格或名词性物主代词。",
+      "point": "询问物品归属 (Whose句型)",
+      "tips": "先看要询问的是“谁的”，再用 Whose；接着根据物品数量选择 is 或 are。回答时也要注意单复数，并区分 your + 名词与 yours 单独使用。"
+    },
+    {
+      "common_mistakes": [
+        "忘记在动词-ing形式前加be动词。",
+        "be动词没有与主语保持一致：I用am，he/she/it及单数名词用is，you及复数名词用are。",
+        "把动词直接加-ing，忽略拼写变化，例如run要双写n再加-ing。",
+        "把现在进行时误用于表示习惯或经常发生的动作。"
+      ],
+      "core_concept": "现在进行时表示说话时正在发生或现阶段正在进行的动作。基本结构是“主语 + am/is/are + 动词-ing”，常与now、Look!、Listen!等表示当前时间或提醒观察的词语连用。",
+      "key_formula": "主语 + am/is/are + 动词-ing。I am reading. He is sleeping. They are playing.",
+      "point": "现在进行时态 (be+doing)",
+      "tips": "做题时先找主语，确定am、is或are；再把动作动词变成-ing形式。注意：be动词不能省略。"
+    },
+    {
+      "common_mistakes": [
+        "把 -ng 和 -nk 当成相同的发音；-ng 通常读 /ŋ/，-nk 通常读 /ŋk/。",
+        "读 -nk 时漏掉末尾的 /k/ 音。",
+        "在 /ŋ/ 后额外加上 /g/ 音，把 sing 读成类似“sing-g”。"
+      ],
+      "core_concept": "-ng 和 -nk 常出现在单词末尾。-ng 通常发 /ŋ/，如 sing、long；-nk 通常发 /ŋk/，如 pink、bank。读 -nk 时要在 /ŋ/ 后读出清晰的 /k/ 音。",
+      "key_formula": "-ng → /ŋ/；-nk → /ŋk/",
+      "point": "字母组合-ng和-nk的发音规律",
+      "tips": "练习时先慢读，再逐渐加快：ring、song、king；pink、thank、think。注意比较每组词的结尾：-ng 只有 /ŋ/，-nk 还要加上 /k/。"
     }
   ]
 }

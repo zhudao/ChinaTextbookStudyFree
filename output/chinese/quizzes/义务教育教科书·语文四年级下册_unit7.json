@@ -4,324 +4,314 @@
   "unit_number": 7,
   "unit_test": {
     "title": "第七单元基础达标与综合素质测试",
-    "total_score": 100,
+    "total_score": 601,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“芙蓉楼送辛渐”中的“渐”读 jiàn；“辛渐”是诗中友人的名字。",
         "knowledge_point": "字音字形鉴别",
+        "options": [],
         "question": "“芙蓉楼送辛渐”中的“渐”字读音是 jiàn。",
-        "options": [],
-        "answer": "对",
-        "explanation": "‘渐’在文中读 jiàn，指辛渐，人名。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "“冰心”喻指纯洁的心，而非温度低。",
         "knowledge_point": "词语释义",
+        "options": [],
         "question": "“洛阳亲友如相问，一片冰心在玉壶”中，“冰心”指冰凉的心。",
-        "options": [],
-        "answer": "错",
-        "explanation": "‘冰心’喻指纯洁的心，而非温度低。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "《“诺曼底号”遇难记》是法国作家维克多·雨果的作品。",
         "knowledge_point": "文本理解",
+        "options": [],
         "question": "《“诺曼底号”遇难记》的作者是法国著名作家雨果。",
-        "options": [],
-        "answer": "对",
-        "explanation": "《“诺曼底号”遇难记》是维克多·雨果的名篇。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "修辞手法",
-        "question": "“不要人夸好颜色，只留清气满乾坤”运用了拟人的修辞手法。",
-        "options": [],
         "answer": "错",
-        "explanation": "这句主要运用了托物言志，侧重描写梅花的品质。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 1,
-        "knowledge_point": "描写方法识别",
-        "question": "通过描写海水的咆哮、人们的惊慌来表现船长的镇定，这是侧面描写。",
+        "explanation": "这句主要运用了托物言志，侧重描写梅花的品质；“不要人夸好颜色，只留清气满乾坤”没有把梅花当作人来写，因此不属于拟人。",
+        "knowledge_point": "修辞手法",
         "options": [],
-        "answer": "对",
-        "explanation": "通过周围人和环境的混乱反衬主角的镇定，属于侧面描写/反衬。"
+        "question": "“不要人夸好颜色，只留清气满乾坤”运用了拟人的修辞手法。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "句子借海水的咆哮和人们的惊慌来衬托船长的镇定，没有直接描写船长的神态或心理，属于侧面描写。",
+        "knowledge_point": "描写方法识别",
+        "options": [],
+        "question": "通过描写海水的咆哮、人们的惊慌来表现船长的镇定，这是侧面描写。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "不愿同流合污的高洁情操",
+        "difficulty": 1,
+        "explanation": "“不要人夸好颜色，只留清气满乾坤”写墨梅不求别人夸赞，只愿留下清香，表达了诗人高洁、不慕虚名的志趣。",
         "knowledge_point": "咏物言志诗鉴赏",
-        "question": "《墨梅》一诗中，诗人通过赞美墨梅，表达了自己怎样的志趣？",
         "options": [
           "追求富贵荣华",
           "热爱大自然的美景",
           "不愿同流合污的高洁情操",
           "思念家乡亲人的情感"
         ],
-        "answer": "不愿同流合污的高洁情操",
-        "explanation": "“不要人夸好颜色，只留清气满乾坤”表达了诗人高洁的操守。"
+        "question": "《墨梅》一诗中，诗人通过赞美墨梅，表达了自己怎样的志趣？",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "胸怀大志",
         "difficulty": 1,
+        "explanation": "“胸怀大志”指心里有远大的志向。",
         "knowledge_point": "词语理解",
-        "question": "下列词语中，形容人“志向高远”的是哪一个？",
         "options": [
           "胸怀大志",
           "小心翼翼",
           "迫不及待",
           "欣喜若狂"
         ],
-        "answer": "胸怀大志",
-        "explanation": "胸怀大志指心里有远大的志向。"
+        "question": "下列词语中，形容人“志向高远”的是哪一个？",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "hùn",
         "difficulty": 1,
+        "explanation": "“混乱”表示杂乱、没有秩序，“混”在这个词中读hùn。",
         "knowledge_point": "多音字辨析",
-        "question": "“在这个混乱的场面中，哈尔威船长巍然屹立。”句子中“混”的读音是：",
         "options": [
           "hún",
           "hùn",
           "hūn",
           "hǔn"
         ],
-        "answer": "hùn",
-        "explanation": "“混乱”的“混”读音为第四声。"
+        "question": "“在这个混乱的场面中，哈尔威船长巍然屹立。”句子中“混”的读音是：",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "烘托灾难即将来临的紧张气氛",
         "difficulty": 2,
+        "explanation": "阴惨惨的薄雾与船长大声指挥的紧急情景相互映衬，营造出压抑、紧张的氛围，暗示危险正在逼近。",
         "knowledge_point": "反衬手法分析",
-        "question": "阅读：‘阴惨惨的薄雾笼罩着大海。哈尔威船长站在指挥台上，大声吼喝……’这段环境描写的作用是：",
         "options": [
           "展示大海的美丽",
           "说明天气的寒冷",
           "烘托灾难即将来临的紧张气氛",
           "介绍客轮的行驶路线"
         ],
-        "answer": "烘托灾难即将来临的紧张气氛",
-        "explanation": "阴惨惨的薄雾暗示了不祥的预兆，烘托了紧张的氛围。"
+        "question": "阅读：“阴惨惨的薄雾笼罩着大海。哈尔威船长站在指挥台上，大声吼喝……”这段环境描写的作用是：",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "黎明",
         "difficulty": 1,
+        "explanation": "“平明”指天刚亮的时候，也就是黎明。诗句写的是清晨送别友人的情景。",
         "knowledge_point": "古诗名句积累",
-        "question": "“寒雨连江夜入吴，平明送客楚山孤”中，“平明”的意思是：",
         "options": [
           "平常",
           "黎明",
           "明亮",
           "中午"
         ],
-        "answer": "黎明",
-        "explanation": "平明：天刚亮的时候。"
+        "question": "“寒雨连江夜入吴，平明送客楚山孤”中，“平明”的意思是：",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "用胸膛堵住敌人的枪口",
         "difficulty": 2,
+        "explanation": "堵枪口是黄继光在危急关头舍己为人、英勇无畏的表现，最能体现他的英雄气概。",
         "knowledge_point": "人物形象评价",
-        "question": "在《黄继光》一文中，最能体现黄继光英雄气概的行为是：",
         "options": [
           "向连长请战",
           "在敌人的炮火中爬行",
           "用胸膛堵住敌人的枪口",
           "执行通信任务"
         ],
-        "answer": "用胸膛堵住敌人的枪口",
-        "explanation": "堵枪口是黄继光舍己为人牺牲自我的英雄行为最核心的表现。"
+        "question": "在《黄继光》一文中，最能体现黄继光英雄气概的行为是：",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "气急败坏",
         "difficulty": 2,
+        "explanation": "“视死如归”“刚正不阿”“厚德载物”都可以表现高尚品质；“气急败坏”形容因愤怒或着急而狼狈的样子，不是描写高尚品质的词语。",
         "knowledge_point": "词语辨析",
-        "question": "下列词语中，哪一个不是描写人的高尚品质的？",
         "options": [
           "视死如归",
           "刚正不阿",
           "气急败坏",
           "厚德载物"
         ],
-        "answer": "气急败坏",
-        "explanation": "气急败坏是贬义词，形容羞恼愤怒。"
+        "question": "下列词语中，哪一个不是描写人的高尚品质的？",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "嘿！我就是那个‘书呆子’王小明。",
         "difficulty": 2,
+        "explanation": "这个开头比较有趣，容易吸引注意。不过自我介绍还要根据场合选择合适的表达，并继续介绍必要信息。",
         "knowledge_point": "语言表达简明",
-        "question": "在自我介绍时，以下哪种开头最能快速吸引老师和同学？",
         "options": [
           "我叫王小明，今年十岁了。",
           "我家里有三口人，性格开朗。",
           "嘿！我就是那个‘书呆子’王小明。",
           "我的爱好有很多，比如看书。"
         ],
-        "answer": "嘿！我就是那个‘书呆子’王小明。",
-        "explanation": "以此有趣的绰号开头能迅速建立鲜明的人物形象。"
+        "question": "在自我介绍时，以下哪种开头最能快速吸引老师和同学？",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "晶莹透明、纯洁无暇",
         "difficulty": 3,
+        "explanation": "“冰心”与“玉壶”都让人联想到清澈、洁净，诗人借此表达自己品格高洁、内心清白。",
         "knowledge_point": "核心意象分析",
-        "question": "《芙蓉楼送辛渐》中，“冰心”和“玉壶”两组意象结合在一起，传达出一种什么样的形象？",
         "options": [
           "富有且豪华",
           "冰冷而孤独",
           "晶莹透明、纯洁无暇",
           "忧国忧民、壮志难酬"
         ],
-        "answer": "晶莹透明、纯洁无暇",
-        "explanation": "冰代表纯，玉代表洁，组合寓意高尚人品。"
+        "question": "《芙蓉楼送辛渐》中，“冰心”和“玉壶”两组意象结合在一起，传达出一种什么样的形象？",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "虽然……但是……",
         "difficulty": 1,
+        "explanation": "前后两句意思相反：船长虽然牺牲了，但他的精神仍然被人们铭记，属于转折关系。",
         "knowledge_point": "关联词使用",
-        "question": "“（ ）哈尔威船长牺牲了，（ ）他伟大的精神永远活在人们心中。”括号内填入正确的是：",
         "options": [
           "因为……所以……",
           "只要……就……",
           "虽然……但是……",
           "如果……就……"
         ],
-        "answer": "虽然……但是……",
-        "explanation": "由于前后句呈转折关系，应选“虽然……但是……”。"
+        "question": "“（ ）哈尔威船长牺牲了，（ ）他伟大的精神永远活在人们心中。”括号内填入正确的是：",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "古诗填空",
-        "question": "“我家洗砚池头树，朵朵花开（ ）。”",
-        "options": [],
         "answer": "淡墨痕",
-        "explanation": "选自王冕的《墨梅》。"
+        "difficulty": 1,
+        "explanation": "这两句出自王冕的《墨梅》：“我家洗砚池头树，朵朵花开淡墨痕。”",
+        "knowledge_point": "古诗填空",
+        "options": [],
+        "question": "“我家洗砚池头树，朵朵花开（ ）。”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "文学常识",
-        "question": "《“诺曼底号”遇难记》中，轮船相撞是因为海面上起了大（ ）。",
-        "options": [],
         "answer": "雾",
-        "explanation": "事故的起因是“阴惨惨的薄雾”。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "文章关键信息",
-        "question": "哈尔威船长在指挥自救时，首先保护的是（ ）。",
+        "difficulty": 1,
+        "explanation": "课文写轮船相撞时海面上有“阴惨惨的薄雾”，因此填“雾”。",
+        "knowledge_point": "文学常识",
         "options": [],
+        "question": "《“诺曼底号”遇难记》中，轮船相撞是因为海面上起了大（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
         "answer": "妇女儿童",
-        "explanation": "在危急关头，船长先救最弱小的群体。"
+        "difficulty": 2,
+        "explanation": "船长在指挥自救时首先保护妇女儿童，体现了危急关头优先救助弱者。",
+        "knowledge_point": "文章关键信息",
+        "options": [],
+        "question": "哈尔威船长在指挥自救时，首先保护的是（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "matching",
-        "score": 5,
+        "answer": "黄继光舍身堵枪眼，体现了视死如归。",
         "difficulty": 1,
+        "explanation": "黄继光在战斗中舍身堵枪眼，体现了视死如归；“忠于职守”更适合描述哈尔威船长在灾难中坚守岗位。",
         "knowledge_point": "人物与品质对应",
-        "question": "将下列人物与其对应的优秀品质连接起来：",
         "options": [
-          "黄继光",
-          "哈尔威船长",
-          "王冕",
-          "王昌龄",
-          "忠于职守",
-          "视死如归",
-          "坚守清操",
-          "不改冰心"
+          "黄继光舍身堵枪眼，体现了忠于职守。",
+          "黄继光舍身堵枪眼，体现了视死如归。",
+          "哈尔威船长在灾难中坚守岗位，体现了视死如归。",
+          "王冕借《墨梅》表达了不改冰心的志向。"
         ],
-        "answer": "A-2,B-1,C-3,D-4",
-        "explanation": "黄继光视死如归；哈尔威船长忠于职守；王冕写墨梅坚守清操；王昌龄诗中表露不改冰心。"
+        "question": "根据人物事迹或作品内容，下面哪项人物与品质对应正确？",
+        "score": 5,
+        "type": "choice",
+        "id": 19
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-4，B-2，C-1，D-3",
         "difficulty": 1,
+        "explanation": "临危不惧是遇到危险时不害怕，对应“正视危险”；锲而不舍是坚持不懈地努力，对应“不断努力”；囊萤夜读和悬梁刺股都是勤奋读书的故事，分别对应“勤学苦读”和“刻苦励志”。",
         "knowledge_point": "词语配对",
-        "question": "将下列成语与对应的意思连接起来：",
         "options": [
-          "临危不惧",
-          "锲而不舍",
-          "囊萤夜读",
-          "悬梁刺股",
-          "勤学苦读",
-          "不断努力",
-          "刻苦励志",
-          "正视危险"
+          "A. 临危不惧",
+          "B. 锲而不舍",
+          "C. 囊萤夜读",
+          "D. 悬梁刺股",
+          "1. 勤学苦读",
+          "2. 不断努力",
+          "3. 刻苦励志",
+          "4. 正视危险"
         ],
-        "answer": "A-4,B-2,C-1,D-3",
-        "explanation": "临危不惧对应正视危险；锲而不舍对应不断努力；囊萤夜读对应勤学苦读；悬梁刺股对应刻苦励志。"
+        "question": "将下列成语与对应的意思连接起来。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "表现英勇杀敌的志向",
         "difficulty": 2,
+        "explanation": "“大雪满弓刀”描绘了将士冒着风雪、手持弓刀的画面，表现出英勇无畏、奋勇杀敌的志向。",
         "knowledge_point": "古诗情境对应",
-        "question": "将古诗名句与所表达的志趣连接起来：",
         "options": [
-          "一片冰心在玉壶",
-          "只留清气满乾坤",
-          "烈火焚烧若等闲",
-          "大雪满弓刀",
-          "高洁的操守",
-          "清廉的人格",
-          "英勇的杀敌",
-          "坚定的意志"
+          "表达对家乡的思念",
+          "表现英勇杀敌的志向",
+          "赞美清廉的人格",
+          "描写闲适恬淡的生活"
         ],
-        "answer": "A-2,B-1,C-4,D-3",
-        "explanation": "玉壶冰心对应清廉；清气满乾坤对应高洁；烈火焚烧对应坚定；弓刀对应杀敌志。"
+        "question": "“大雪满弓刀”描绘的画面最能表现将士怎样的志向？",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "在海难中，哈尔威船长是一位真正的英雄。",
         "difficulty": 2,
+        "explanation": "先交代事情发生的情境“在海难中”，再说“哈尔威船长”是“一位真正的英雄”，句子表达完整，末尾用句号。",
         "knowledge_point": "句式训练",
-        "question": "将下列词语排列成一句赞美哈尔威船长的话：",
         "options": [
           "哈尔威船长",
           "一位",
@@ -330,16 +320,16 @@
           "是",
           "在海难中"
         ],
-        "answer": "在海难中,哈尔威船长,是,一位,真正的,英雄",
-        "explanation": "组合成合乎逻辑的叙述句。"
+        "question": "将下列词语排列成一句赞美哈尔威船长的话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "性格开朗的我,喜欢,在广场上,尽情地,滑旱冰",
         "difficulty": 2,
+        "explanation": "按“谁＋做什么＋在哪里＋怎样做”的顺序排列，可以突出“我”的爱好和活动情景。",
         "knowledge_point": "描写手法应用",
-        "question": "将下列描写词语排列成展示自我的句子：",
         "options": [
           "喜欢",
           "性格开朗的我",
@@ -347,8 +337,1709 @@
           "尽情地",
           "滑旱冰"
         ],
-        "answer": "性格开朗的我,喜欢,在广场上,尽情地,滑旱冰",
-        "explanation": "按“谁＋爱好＋干什么”的结构排列。"
+        "question": "将下列描写词语排列成通顺的句子：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "侧面描写是借助主要人物以外的人、环境或事物来间接表现人物。A、C、D都直接写了船长的言行，属于正面描写。",
+        "knowledge_point": "侧面描写与反衬手法",
+        "options": [
+          "A. 船长大声命令大家有秩序地撤离。",
+          "B. 人们惊慌失措，船舱里一片混乱，海水不断涌来。",
+          "C. 船长站在指挥台上，沉着地指挥救援。",
+          "D. 船长说：“必须把每个人都救出去。”"
+        ],
+        "question": "下面哪一句主要运用了侧面描写来衬托船长？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "句子直接写出了船长的神态和动作，表现他沉着、有条理，属于正面描写。",
+        "knowledge_point": "侧面描写与反衬手法",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "“船长镇定地站在指挥台上，有条不紊地安排救援。”这句话属于侧面描写。",
+        "score": 1,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "人们的慌乱（或人群的混乱）",
+        "difficulty": 1,
+        "explanation": "句子先写其他人的慌乱，再写船长的镇定，通过两种状态的对照，突出船长临危不乱。",
+        "knowledge_point": "侧面描写与反衬手法",
+        "options": [],
+        "question": "“人们乱作一团，船长却仍然镇定地指挥。”这句话用人们的________反衬船长的镇定。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "示例：海水不断涌进船舱，船身剧烈摇晃，乘客们惊慌地寻找出口。在这危急时刻，船长仍沉着地安排大家撤离。",
+        "difficulty": 2,
+        "explanation": "答案先描写凶险环境和乘客的反应，再写船长的表现，借环境的危急和他人的慌乱，侧面衬托船长的沉着、果断。",
+        "knowledge_point": "侧面描写与反衬手法",
+        "options": [],
+        "question": "请写两句话：先描写危险环境或他人的反应，再写船长的表现，侧面衬托船长临危不乱。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "示例：乘客们有的哭喊，有的四处奔跑，甲板上乱成一片。这样的侧面描写通过乘客的慌乱，反衬船长的镇定和指挥有方。",
+        "difficulty": 2,
+        "explanation": "乘客的反应不是直接描写船长，而是从周围人的慌乱中突出船长镇定的特点。回答要同时指出描写内容和衬托作用。",
+        "knowledge_point": "侧面描写与反衬手法",
+        "options": [],
+        "question": "阅读句子：“甲板上，乘客们哭喊着四处奔跑，救生艇旁挤满了人。”如果这句话出现在船长指挥救援的片段中，它可能起什么作用？请简要说明。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "海水的凶猛与船长的沉着形成对照，属于以环境的凶险反衬人物的镇定。A主要是直接写船长的言行；C主要写船体情况；D直接概括船长的品质。",
+        "knowledge_point": "侧面描写与反衬手法",
+        "options": [
+          "A. 船长举起手臂，示意乘客依次登上救生艇。",
+          "B. 巨浪猛烈拍打船身，船长仍冷静地指挥救援。",
+          "C. 船舱里已经进了很多水，地板湿滑。",
+          "D. 船长是一位勇敢而负责的人。"
+        ],
+        "question": "下面哪一句最能体现“以环境的凶险反衬人物的镇定”？",
+        "score": 1,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "借梅花的淡雅、清香表达诗人高洁、朴素的品格。",
+        "difficulty": 1,
+        "explanation": "《墨梅》写梅花不求鲜艳、只愿留下清香，诗人借梅花的特点表达自己不慕虚名、保持高洁的志向。",
+        "knowledge_point": "咏物言志诗的鉴赏",
+        "options": [],
+        "question": "王冕《墨梅》中，诗人借梅花表达了怎样的品格？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“粉骨碎身浑不怕，要留清白在人间”写石灰即使粉身碎骨也不怕，仍要留下清白。诗人借石灰表达坚守清白、勇于奉献的志向。",
+        "knowledge_point": "咏物言志诗的鉴赏",
+        "options": [
+          "A. 赞美石灰颜色洁白、用途很多",
+          "B. 借石灰表达坚守清白、不怕牺牲的志向",
+          "C. 说明石灰制作起来十分容易",
+          "D. 表达诗人喜欢粉末状的东西"
+        ],
+        "question": "于谦《石灰吟》中，“粉骨碎身浑不怕，要留清白在人间”主要表达什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "咏物言志诗不只描写事物的外形、颜色或习性，还常借这些特点表达诗人的志向、品格或情感。",
+        "knowledge_point": "咏物言志诗的鉴赏",
+        "options": [],
+        "question": "咏物言志诗只要说清楚诗中事物的样子，就算读懂了全诗。",
+        "score": 1,
+        "type": "true_false",
+        "id": 32
+      },
+      {
+        "answer": "清白",
+        "difficulty": 1,
+        "explanation": "《石灰吟》中的“要留清白在人间”既写石灰的洁白，也寄托了诗人保持清正品格的愿望。",
+        "knowledge_point": "咏物言志诗的鉴赏",
+        "options": [],
+        "question": "《石灰吟》中“要留______在人间”的“清白”，既指石灰的颜色，也象征诗人清正的品格。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 33
+      },
+      {
+        "answer": "先找出诗句写了什么事物及其特点，再联系这些特点思考诗人想表达的品格、志向或情感，并结合全诗说明理由。",
+        "difficulty": 2,
+        "explanation": "鉴赏咏物言志诗要把“物”的描写和“人”的精神联系起来。联系全诗寻找依据，可以避免只看字面或凭空猜测寓意。",
+        "knowledge_point": "咏物言志诗的鉴赏",
+        "options": [],
+        "question": "读一首咏物言志诗时，可以按什么步骤理解诗人借物表达的意思？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "示例：诗人写梅花在寒冷中开放、留下清香，借梅花不畏严寒、清雅自持的特点，表达自己保持高洁品格、不求虚名的志向。",
+        "difficulty": 2,
+        "explanation": "回答应包含两部分：梅花的具体特点，以及这些特点所寄托的诗人品格或志向。联系具体诗句作答会更清楚。",
+        "knowledge_point": "咏物言志诗的鉴赏",
+        "options": [],
+        "question": "请用“物的特点”和“诗人的志向”两方面，简要说明诗人可以怎样借梅花表达心意。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "自画像习作要抓住最有特点的外貌，并用具体事情表现性格。只罗列许多外貌特征，反而不容易让读者记住。",
+        "knowledge_point": "习作：我的“自画像”",
+        "options": [
+          "把脸、头发、五官和衣服逐项写得一样详细",
+          "选择一两个最有辨识度的特点来写",
+          "只写自己穿什么衣服",
+          "完全不写外貌"
+        ],
+        "question": "写自己的外貌时，怎样写更容易让读者记住你？",
+        "score": 2,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“我很热心”是一个特点，写出自己帮助同学的具体经过，能让读者通过事情感受到这个特点。",
+        "knowledge_point": "习作：我的“自画像”",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "写“我很热心”时，可以用一次自己帮助同学的经历来说明。",
+        "score": 2,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "典型",
+        "difficulty": 1,
+        "explanation": "典型事例能具体地表现人物特点，让习作避免变成特点的简单罗列。",
+        "knowledge_point": "习作：我的“自画像”",
+        "options": [],
+        "question": "介绍自己的性格时，可以选择一件________的事情来说明。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "参考：我有一头自然卷的短发，同学们常叫我“小卷毛”。",
+        "difficulty": 2,
+        "explanation": "答案应选择具体、容易辨认的外貌特点。写出“自然卷的短发”并联系绰号，能让形象更鲜明；意思相近即可。",
+        "knowledge_point": "习作：我的“自画像”",
+        "options": [],
+        "question": "请用一句话写出自己一个有辨识度的外貌特点，可以配上一个贴切的绰号。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "例如：我很马虎，常把作业题目看漏。一次数学测验时，我没有看清题目中的“至少”，急忙写完就交卷。检查时我发现了错误，赶紧改正。从那以后，我会把题目读两遍再作答。",
+        "difficulty": 2,
+        "explanation": "回答要包含一个性格特点和一件能够说明这个特点的具体事情。写清事情经过，也可以补充自己的想法或改变。示例仅供参考，写真实经历即可。",
+        "knowledge_point": "习作：我的“自画像”",
+        "options": [],
+        "question": "请用一两句话写一个能表现自己性格特点的小事。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "参考：大家都叫我“故事迷”。我留着齐耳短发，笑起来眼睛弯弯的，最喜欢读故事书。每天午休，我都会拿出一本书安静地读。上周，朋友忘了带书，我就把自己的书和她一起看，还轮流读给她听。她说故事真有趣，我也很开心。我是一个爱读书、愿意分享的人。",
+        "difficulty": 3,
+        "explanation": "一段完整的自画像可以写外貌、爱好和具体事例，并用事情表现性格。示例中的绰号、外貌和共同读书的经历相互关联；也可以写自己的真实经历，不必照抄。",
+        "knowledge_point": "习作：我的“自画像”",
+        "options": [],
+        "question": "请写一段约80字的“我的自画像”，至少包括一个外貌特点、一项爱好或性格特点，以及一件具体小事。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "“边塞”的“塞”读 sài，指边疆地区；“堵塞”读 sè，“塞住”读 sāi。",
+        "knowledge_point": "字音字形鉴别",
+        "options": [
+          "A. sāi",
+          "B. sè",
+          "C. sài"
+        ],
+        "question": "“边塞”的“塞”应读哪一个音？",
+        "score": 2,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "辨",
+        "difficulty": 1,
+        "explanation": "“辨别”表示分辨、区别，所以应写“辨”，中间是“刀”字旁；“辩”常用于辩论。",
+        "knowledge_point": "字音字形鉴别",
+        "options": [],
+        "question": "请在横线上填入正确的字：我们要学会辨别是非，不要把“辩别”写错。正确写法是“____别”。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 43
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“一叶扁舟”形容小船，“扁”读 piān；“扁平”中的“扁”读 biǎn。",
+        "knowledge_point": "字音字形鉴别",
+        "options": [
+          "A. biǎn",
+          "B. piān"
+        ],
+        "question": "“一叶扁舟”中的“扁”读什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 44
+      },
+      {
+        "answer": "瓣",
+        "difficulty": 2,
+        "explanation": "花瓣是花的一部分，应写“瓣”；“辩”表示辩论，“辨”表示辨别。",
+        "knowledge_point": "字音字形鉴别",
+        "options": [],
+        "question": "请填入正确的字：花____随风飘落。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "dūn",
+        "difficulty": 2,
+        "explanation": "“蹲下”的“蹲”读 dūn，左边是“足”字旁，表示与腿脚动作有关。",
+        "knowledge_point": "字音字形鉴别",
+        "options": [],
+        "question": "“蹲下”的“蹲”读音是____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "温暖",
+        "difficulty": 1,
+        "explanation": "“春风”本指春天的风。在“春风吹绿了柳树”中，它表示自然的春风；在“老师的鼓励像春风一样温暖”中，“春风”用来比喻温暖、亲切的关怀。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "在“老师的鼓励像春风一样温暖”中，“春风”可以理解为（ ）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "“津津有味”形容兴趣很浓厚、吃得或谈得很有滋味。句子写小明爱听故事，听得很投入，因此选择A。",
+        "knowledge_point": "词语释义",
+        "options": [
+          "A. 兴趣很浓厚",
+          "B. 说话声音很大",
+          "C. 心里十分着急",
+          "D. 做事速度很快"
+        ],
+        "question": "“小明听故事听得津津有味。”句中“津津有味”的意思是（ ）。",
+        "score": 2,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "珍贵的东西",
+        "difficulty": 2,
+        "explanation": "“掌上明珠”原指掌中的珍珠，常用来比喻父母特别疼爱的子女。句子写爷爷疼爱小孙女，因此这里指爷爷最疼爱的人。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "“小孙女是爷爷的掌上明珠。”句中“掌上明珠”比喻什么？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "明亮",
+        "difficulty": 1,
+        "explanation": "“明”有多种意思，如明亮、清楚、公开等。“灯火通明”中的“明”表示明亮。",
+        "knowledge_point": "词语释义",
+        "options": [
+          "A. 明亮",
+          "B. 清楚",
+          "C. 公开",
+          "D. 眼力好"
+        ],
+        "question": "“灯火通明”中的“明”是什么意思？",
+        "score": 2,
+        "type": "choice",
+        "id": 50
+      },
+      {
+        "answer": "他急得像热锅上的蚂蚁一样，团团转。",
+        "difficulty": 2,
+        "explanation": "“团团转”原指围着圈子转，在句中形容他因为着急而忙乱、不知所措。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "用自己的话解释“团团转”在句子中的意思：他急得像热锅上的蚂蚁一样，团团转。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "概括故事内容要抓住主要人物和事件。选项B说明了哈尔威船长在遇险时指挥救援这一主要内容。",
+        "knowledge_point": "文本理解",
+        "options": [
+          "A. 介绍一艘轮船的外形和航行路线",
+          "B. 写哈尔威船长在船只遇险时指挥救援",
+          "C. 讲述乘客登船前的准备过程",
+          "D. 描写海上风景的变化"
+        ],
+        "question": "阅读一篇记叙文，想概括文章主要内容，下面哪种方法更合适？",
+        "score": 2,
+        "type": "choice",
+        "id": 52
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "人物的特点需要从语言、动作、神态和事件经过等细节中寻找依据。",
+        "knowledge_point": "文本理解",
+        "options": [],
+        "question": "判断人物特点时，可以结合文中描写人物的语言和行动来分析。",
+        "score": 2,
+        "type": "true_false",
+        "id": 53
+      },
+      {
+        "answer": "上下文",
+        "difficulty": 1,
+        "explanation": "同一个词在不同语境中可能有不同意思，联系上下文有助于准确理解。",
+        "knowledge_point": "文本理解",
+        "options": [],
+        "question": "遇到不熟悉的词语，可以联系________来推测它在文中的意思。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 54
+      },
+      {
+        "answer": "先找到与问题相关的语句，再结合语句说明理由。",
+        "difficulty": 2,
+        "explanation": "回答“从哪里看出”一类的问题，要从文章中寻找具体依据，不能只写结论。",
+        "knowledge_point": "文本理解",
+        "options": [],
+        "question": "阅读文章后，题目问“你从哪里看出主人公很勇敢”，回答时应该怎样做？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 55
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "题目询问的是作者想表达的情感，应结合全文内容和关键细节理解，不能只凭个人猜测。",
+        "knowledge_point": "文本理解",
+        "options": [
+          "A. 联系全文内容和关键细节，判断作者的情感",
+          "B. 只看文章最后一个词",
+          "C. 根据自己的经历随意猜测",
+          "D. 只数文章写了多少句话"
+        ],
+        "question": "想理解作者写一篇文章时表达的情感，哪种做法比较恰当？",
+        "score": 3,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "句子把“红红的太阳”比作“一个大火球”，是比喻。",
+        "knowledge_point": "修辞手法",
+        "options": [
+          "A. 比喻",
+          "B. 拟人",
+          "C. 排比",
+          "D. 设问"
+        ],
+        "question": "“红红的太阳像一个大火球。”这句话运用了哪种修辞手法？",
+        "score": 2,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "拟人",
+        "difficulty": 1,
+        "explanation": "“小溪唱着歌”把小溪当作人来写，赋予了小溪人的动作，因此运用了拟人。",
+        "knowledge_point": "修辞手法",
+        "options": [],
+        "question": "“小溪一路唱着歌，欢快地流向远方。”运用了什么修辞手法？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "排比",
+        "difficulty": 2,
+        "explanation": "“我们爱……”重复了三次，结构相似，语气一致，形成排比。",
+        "knowledge_point": "修辞手法",
+        "options": [],
+        "question": "“我们爱校园的花草，我们爱明亮的教室，我们爱亲切的老师。”这句话运用了什么修辞手法？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "句子用疑问的形式表达了“大家都喜欢春天”这一明确意思，属于反问。反问句通常不需要对方回答。",
+        "knowledge_point": "修辞手法",
+        "options": [],
+        "question": "“春天这么美，谁不喜欢呢？”运用了反问的修辞手法。",
+        "score": 2,
+        "type": "true_false",
+        "id": 60
+      },
+      {
+        "answer": "夸张",
+        "difficulty": 2,
+        "explanation": "“一口气跑了十万八千里”明显超过实际情况，是为了突出跑得很快，运用了夸张。",
+        "knowledge_point": "修辞手法",
+        "options": [],
+        "question": "“听到上课铃，他一口气跑了十万八千里。”这句话运用了什么修辞手法？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "正面描写",
+        "difficulty": 1,
+        "explanation": "句子直接写了小明的动作和语言，直接表现他帮助同学的情形，属于正面描写。",
+        "knowledge_point": "描写方法识别",
+        "options": [],
+        "question": "“小明连忙扶起摔倒的同学，说：‘你没事吧？’”这句话主要运用了哪种描写方法？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "侧面描写",
+        "difficulty": 2,
+        "explanation": "句子没有直接写歌声的特点，而是写听众听后的反应，借听众的表现间接突出歌声动听。",
+        "knowledge_point": "描写方法识别",
+        "options": [],
+        "question": "“歌声刚停，教室里立刻响起热烈的掌声，大家都不约而同地站了起来。”这段话主要通过什么描写表现歌声动听？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "A直接写妹妹的表情，属于正面描写；B通过鸟儿和树叶的反应间接表现风很大，属于侧面描写；C写人物的动作和语言，属于正面描写。",
+        "knowledge_point": "描写方法识别",
+        "options": [
+          "A. 妹妹皱起眉头，紧紧攥着手里的纸条。",
+          "B. 狂风吹得树叶乱舞，枝头的鸟儿也赶紧躲进了窝。",
+          "C. 爸爸拍了拍我的肩膀，说：“别着急，再想一想。”"
+        ],
+        "question": "下面哪一句主要运用了侧面描写？",
+        "score": 2,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "正面描写",
+        "difficulty": 2,
+        "explanation": "句子直接写了奶奶的神态和动作，表现她看到孙子归来时的激动，属于正面描写。",
+        "knowledge_point": "描写方法识别",
+        "options": [],
+        "question": "“奶奶眼眶湿润，快步迎上来，一把抱住我。”这句话主要运用了什么描写方法？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 65
+      },
+      {
+        "answer": "侧面描写",
+        "difficulty": 3,
+        "explanation": "片段通过雷声、树枝摇晃和窗户震动描写暴雨来临的情形，没有直接写人们的害怕，而是借环境变化表现大家感到紧张，属于侧面描写。",
+        "knowledge_point": "描写方法识别",
+        "options": [],
+        "question": "暴雨突然来临，雷声震耳，树枝被吹得左右摇晃，窗户也不停地响。屋里的人都停下了手中的事，紧张地望向窗外。这段话主要通过什么描写表现屋里人的紧张？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "事物特点；志向或品格",
+        "difficulty": 1,
+        "explanation": "咏物言志诗先描写事物，再借事物的特点表达诗人的志向、品格或情感。",
+        "knowledge_point": "咏物言志诗鉴赏",
+        "options": [],
+        "question": "咏物言志诗常先描写某种事物的特点，再借它表达诗人的____或____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 67
+      },
+      {
+        "answer": "坚韧、不畏严寒",
+        "difficulty": 1,
+        "explanation": "梅花在寒冷的天气中开放，诗人常借这一特点赞美坚强、不畏艰难的品格。",
+        "knowledge_point": "咏物言志诗鉴赏",
+        "options": [],
+        "question": "梅花常在寒冷中开放。咏物诗中，诗人可以借梅花这一特点赞美怎样的品格？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 68
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "咏物言志诗不只描写事物，也借事物的特点寄托诗人的志向、品格或情感。",
+        "knowledge_point": "咏物言志诗鉴赏",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "咏物言志诗通常会借描写事物来表达诗人的志向、品格或情感。",
+        "score": 5,
+        "type": "true_false",
+        "id": 69
+      },
+      {
+        "answer": "借物抒情，也叫托物言志。",
+        "difficulty": 2,
+        "explanation": "诗人描写菊花不怕秋寒、傲然开放的特点，借菊花表达自己的志趣与品格，这种写法叫托物言志，也可以说是借物抒情。",
+        "knowledge_point": "咏物言志诗鉴赏",
+        "options": [],
+        "question": "诗人写菊花在秋风中傲然开放，并借此表达自己不怕困难、坚守志向的品格。这种写法叫什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "诗中写竹子扎根石缝、迎风挺立，表现了竹子的坚韧；诗人借此表达自己坚定不屈、不怕困难的志向。",
+        "difficulty": 2,
+        "explanation": "回答时要先指出诗中事物及其特点，再联系特点说明诗人寄托的志向或品格。石缝和风雨突出竹子生长环境艰难、仍然挺立的特点。",
+        "knowledge_point": "咏物言志诗鉴赏",
+        "options": [],
+        "question": "读下面两句：“竹生石缝中，风雨不能折。”诗人可能借竹子的什么特点，表达怎样的志向或品格？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 71
+      },
+      {
+        "answer": "十分着急，等不及了",
+        "difficulty": 1,
+        "explanation": "“迫不及待”形容心情急切，急得不能再等待。",
+        "knowledge_point": "词语理解",
+        "options": [],
+        "question": "“听说春游就要开始了，同学们迫不及待地收拾好东西。”这里“迫不及待”的意思是____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 72
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“小心翼翼”形容做事谨慎、十分小心。轻手轻脚地端热汤，说明他很谨慎。",
+        "knowledge_point": "词语理解",
+        "options": [
+          "他小心翼翼地把热汤端到桌上。",
+          "他欣喜若狂地把热汤端到桌上。",
+          "他迫不及待地把热汤端到桌上。",
+          "他胸怀大志地把热汤端到桌上。"
+        ],
+        "question": "哪句话最能表现“小心翼翼”的意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "高兴",
+        "difficulty": 1,
+        "explanation": "“欣喜若狂”形容高兴到了极点。“欣喜”表示欢喜，因此“高兴”与它意思相近。",
+        "knowledge_point": "词语理解",
+        "options": [],
+        "question": "“欣喜若狂”中，“欣喜”的意思和“____”相近。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 74
+      },
+      {
+        "answer": "细心地",
+        "difficulty": 2,
+        "explanation": "“认真检查”说明做事仔细、谨慎，句中的“细心地”能表达与“小心翼翼”相近的意思。",
+        "knowledge_point": "词语理解",
+        "options": [],
+        "question": "“小明小心翼翼地检查每一道题，生怕漏看题目。”句中“小心翼翼”可以换成“____地”而不改变主要意思。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 75
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“胸怀大志”强调心中有远大的志向，常用于描述人有长远的理想和抱负。B项符合这一意思。",
+        "knowledge_point": "词语理解",
+        "options": [
+          "他胸怀大志，立志长大后成为一名科学家，为大家解决难题。",
+          "妹妹胸怀大志地一口气吃完了一块蛋糕。",
+          "小猫胸怀大志地躲进了纸箱。",
+          "雨点胸怀大志地落在窗台上。"
+        ],
+        "question": "哪句话中“胸怀大志”的使用最恰当？",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“背着书包”中的“背”表示把书包放在背上，读 bēi；表示背部或背面时读 bèi。",
+        "knowledge_point": "多音字辨析",
+        "options": [],
+        "question": "判断：句子“小明背着书包去上学”中，“背”的读音是 bēi。",
+        "score": 5,
+        "type": "true_false",
+        "id": 77
+      },
+      {
+        "answer": "zhǎng",
+        "difficulty": 1,
+        "explanation": "“长大”表示年龄或程度增加时，“长”读zhǎng；表示长度大时读cháng。",
+        "knowledge_point": "多音字辨析",
+        "options": [],
+        "question": "春天来了，小树渐渐长大了。“长”的读音是____。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 78
+      },
+      {
+        "answer": "cháng",
+        "difficulty": 2,
+        "explanation": "“长短”表示长度，“长”读cháng；“成长”表示生长、发展，“长”读zhǎng。",
+        "knowledge_point": "多音字辨析",
+        "options": [],
+        "question": "在“长短”和“成长”两个词语中，“长”分别读什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 79
+      },
+      {
+        "answer": "xíng",
+        "difficulty": 2,
+        "explanation": "“行走”表示走路，“行”读xíng；“银行”中的“行”读háng。",
+        "knowledge_point": "多音字辨析",
+        "options": [
+          "háng",
+          "xíng",
+          "hēng",
+          "xìng"
+        ],
+        "question": "“小队沿着山路继续行走。”句子中“行”的读音是：",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "A、C",
+        "difficulty": 2,
+        "explanation": "“中间”的“间”表示两者之间，读jiān；“间隔”的“间”也读jiàn，表示隔开一段时间或距离；“房间”中的“间”读jiān。",
+        "knowledge_point": "多音字辨析",
+        "options": [
+          "A. 中间（jiān）",
+          "B. 房间（jiàn）",
+          "C. 间隔（jiàn）",
+          "D. 时间（jiàn）"
+        ],
+        "question": "下面加点字的读音正确的是哪些？（多选）",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "反衬",
+        "difficulty": 1,
+        "explanation": "热闹的集市与小女孩的孤单形成鲜明对照，更突出了她无人陪伴的处境。",
+        "knowledge_point": "反衬手法分析",
+        "options": [],
+        "question": "热闹的人群来来往往，街角的小女孩却独自低着头。这里用热闹的街景衬托小女孩的孤单，属于____手法。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "周围的人都慌乱地喊叫，船长却沉着地安排救援，两种表现形成对照，突出船长临危不乱、沉着负责的品质。",
+        "knowledge_point": "反衬手法分析",
+        "options": [
+          "突出船长临危不乱",
+          "说明船长不喜欢说话",
+          "表现船上十分安静",
+          "说明乘客都不害怕"
+        ],
+        "question": "灾难发生时，乘客们惊慌地喊叫，哈尔威船长却镇定地指挥大家逃生。这组对照主要突出了什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "反衬不只是写出不同，还要借这种对照突出主要对象的特点、情感或主题。",
+        "knowledge_point": "反衬手法分析",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "只要文章中出现了两个不同的事物，就一定用了反衬手法。",
+        "score": 3,
+        "type": "true_false",
+        "id": 84
+      },
+      {
+        "answer": "路上没有行人",
+        "difficulty": 2,
+        "explanation": "“只有我的脚步声”写出了雨夜街道的安静、空旷，与雨声形成映衬，突出夜晚的寂静。",
+        "knowledge_point": "反衬手法分析",
+        "options": [],
+        "question": "阅读：“雨点敲打着屋檐，路上没有行人，只有我的脚步声。”文中“只有我的脚步声”衬托出路上怎样的情景？",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "用寒冷的天气衬托孩子们内心的喜悦与期待。",
+        "difficulty": 3,
+        "explanation": "“寒风刺骨”写出天气的寒冷，“笑声不断”“兴奋地等待”写出孩子们的愉快和期待。寒冷与欢乐形成反差，使孩子们的喜悦更加鲜明。",
+        "knowledge_point": "反衬手法分析",
+        "options": [],
+        "question": "阅读：“寒风刺骨，孩子们却在校门口笑声不断，兴奋地等待运动会开幕。”这句话怎样运用反衬手法？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "孤帆远影碧空尽，唯见长江天际流。",
+        "difficulty": 1,
+        "explanation": "这是李白《黄鹤楼送孟浩然之广陵》中的诗句，写友人的船影消失后，诗人仍望着长江远去。",
+        "knowledge_point": "古诗名句积累",
+        "options": [],
+        "question": "请补写诗句：孤帆远影碧空尽，__________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 87
+      },
+      {
+        "answer": "欲穷千里目，更上一层楼。",
+        "difficulty": 2,
+        "explanation": "这是王之涣《登鹳雀楼》中的后两句，告诉人们想看得更远，就要登得更高。",
+        "knowledge_point": "古诗名句积累",
+        "options": [],
+        "question": "请补写诗句：白日依山尽，黄河入海流。__________，__________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 88
+      },
+      {
+        "answer": "千山鸟飞绝，万径人踪灭。",
+        "difficulty": 2,
+        "explanation": "这是柳宗元《江雪》的开头两句，描绘了飞鸟绝迹、人迹全无的寂静景象。",
+        "knowledge_point": "古诗名句积累",
+        "options": [],
+        "question": "《江雪》中描写群山寂静、道路无人踪迹的两句是：__________，__________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 89
+      },
+      {
+        "answer": "√",
+        "difficulty": 1,
+        "explanation": "“随风潜入夜，润物细无声”出自杜甫《春夜喜雨》，写春雨在夜里悄悄降落、滋润万物。",
+        "knowledge_point": "古诗名句积累",
+        "options": [
+          "√",
+          "×"
+        ],
+        "question": "“随风潜入夜，润物细无声”出自杜甫的《春夜喜雨》。",
+        "score": 5,
+        "type": "true_false",
+        "id": 90
+      },
+      {
+        "answer": "欲把西湖比西子，淡妆浓抹总相宜。",
+        "difficulty": 2,
+        "explanation": "这是苏轼《饮湖上初晴后雨》中的后两句。诗人把西湖比作西施，写出西湖无论晴天还是雨天都很美。",
+        "knowledge_point": "古诗名句积累",
+        "options": [],
+        "question": "请补写诗句：水光潋滟晴方好，山色空蒙雨亦奇。__________，__________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 91
+      },
+      {
+        "answer": "英勇无畏、舍己为人",
+        "difficulty": 2,
+        "explanation": "黄继光面对敌人的枪口仍用胸膛堵住枪眼，表现出不怕牺牲的勇气和为战友、为胜利献身的精神。",
+        "knowledge_point": "人物形象评价",
+        "options": [],
+        "question": "黄继光用胸膛堵住敌人的枪口，这一事例表现了他怎样的品质？请写出两个恰当的词语。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "因为他不顾个人安危，用自己的身体挡住敌人的枪口，为战友继续前进创造了条件。",
+        "difficulty": 3,
+        "explanation": "评价人物要结合行为说明理由。黄继光在危险面前挺身而出，体现了勇敢和无私。",
+        "knowledge_point": "人物形象评价",
+        "options": [],
+        "question": "请用“我认为黄继光是一个……的人，因为……”的句式评价黄继光。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "小英雄雨来在敌人面前坚强不屈，始终没有说出交通员的下落，表现了他的机智勇敢和热爱祖国。",
+        "knowledge_point": "人物形象评价",
+        "options": [
+          "雨来贪玩、不爱学习",
+          "雨来胆小怕事",
+          "雨来机智勇敢、热爱祖国",
+          "雨来不愿帮助别人"
+        ],
+        "question": "《小英雄雨来》中，雨来面对敌人的威逼利诱，始终不说出交通员的下落。这主要表现了他：",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "示例：从他每天坚持为大家打扫教室可以看出，他是一个勤劳、乐于为集体服务的人。",
+        "difficulty": 3,
+        "explanation": "答案需要同时包含具体事例和人物品质。只写“他很好”或只复述打扫教室，都没有完整说明评价依据。",
+        "knowledge_point": "人物形象评价",
+        "options": [],
+        "question": "班级里，小明每天早到十分钟，主动打扫教室，还把桌椅摆整齐。请结合事例评价小明，写出他的一种品质并说明理由。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 95
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "评价人物不能只凭自己的好恶下结论，需要结合课文中的具体描写或事例说明理由。",
+        "knowledge_point": "人物形象评价",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "评价人物时，只要说出自己喜欢或不喜欢他就可以，不必结合课文内容说明理由。",
+        "score": 5,
+        "type": "true_false",
+        "id": 96
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“安静”表示没有声音或不吵闹，适合形容教室里的状态；“热闹”不符合句意。",
+        "knowledge_point": "词语辨析",
+        "options": [
+          "安静",
+          "热闹",
+          "急忙",
+          "整齐"
+        ],
+        "question": "上课铃响了，同学们立刻回到座位，教室渐渐（　　）下来。",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "“珍贵”表示价值大、值得珍视，常用来形容礼物、文物、时间或友谊等。句中用“珍贵”形容这份礼物，表达合适。",
+        "knowledge_point": "词语辨析",
+        "options": [],
+        "question": "判断正误：这份生日礼物很珍贵，我要好好保存。",
+        "score": 5,
+        "type": "true_false",
+        "id": 98
+      },
+      {
+        "answer": "仔细",
+        "difficulty": 2,
+        "explanation": "“仔细”表示认真细致，和“检查作业”搭配恰当。“认真”也常能用于类似语境，但本题根据“每道题都检查一遍”的细致动作，填“仔细”最合适。",
+        "knowledge_point": "词语辨析",
+        "options": [],
+        "question": "请从“仔细、迅速”中选择恰当的词语填空：做完作业后，小明把每道题都（　　）地检查了一遍。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 99
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“果然”表示事情和预想的一样。句中先写大家猜测要下雨，后写天空真的下起雨来，所以用“果然”最恰当。“突然”表示事情发生得出乎意料。",
+        "knowledge_point": "词语辨析",
+        "options": [
+          "突然",
+          "果然",
+          "仍然",
+          "显然"
+        ],
+        "question": "大家猜今天可能会下雨，放学时天空（　　）下起了雨。",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "赞美",
+        "difficulty": 3,
+        "explanation": "“赞美”表示称赞、颂扬，适合表达对帮助他人的行为的肯定。“批评”表示指出缺点或错误，不符合句意。",
+        "knowledge_point": "词语辨析",
+        "options": [],
+        "question": "根据句意，从“赞美、批评”中选择恰当的词语填空：同学们纷纷（　　）主动帮助老人的小红。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“一起高兴地欢笑”表达重复，“高兴地欢笑”已经包含愉快的意思。改成“大家一起欢笑”，句子更简洁，意思也清楚。",
+        "knowledge_point": "语言表达简明",
+        "options": [
+          "A. 大家一起高兴地欢笑。",
+          "B. 大家一起欢笑。",
+          "C. 大家一起非常高兴地欢笑。",
+          "D. 大家在一起，大家欢笑。"
+        ],
+        "question": "下面哪句话表达得最简明？",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "春天，校园里的花开了。",
+        "difficulty": 2,
+        "explanation": "“春天的时候”可以简化为“春天”，“各种各样的”在这里没有必要保留，删减后句子依然清楚完整。",
+        "knowledge_point": "语言表达简明",
+        "options": [],
+        "question": "把句子“在春天的时候，校园里的各种各样的花都开放了”改得简明一些。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 103
+      },
+      {
+        "answer": "小丽带了铅笔、橡皮和尺子。",
+        "difficulty": 2,
+        "explanation": "原句先说带了文具，后面又重复列出“铅笔、橡皮、尺子”，合并后既保留了重要信息，也避免重复。",
+        "knowledge_point": "语言表达简明",
+        "options": [],
+        "question": "把句子“小丽带了文具，她带了铅笔、橡皮和尺子”改得简明一些。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "题目要求介绍自己喜欢的运动，打篮球和喜欢篮球都与主题有关；“昨天吃了面条”与主题无关，应删去。",
+        "knowledge_point": "语言表达简明",
+        "options": [
+          "A. 我喜欢运动，我最喜欢打篮球，我昨天吃了面条。",
+          "B. 我最喜欢打篮球，打篮球是我喜欢的运动。",
+          "C. 我最喜欢打篮球，每周都会和同学一起打球。",
+          "D. 我最喜欢运动，运动很重要，运动对身体好。"
+        ],
+        "question": "小军要介绍自己喜欢的运动，下面哪句话最简明且紧扣主题？",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "我和同学去公园看花，玩得很开心。",
+        "difficulty": 3,
+        "explanation": "“和同学们一起”“一块儿”意思重复，可以删去其中一个；“玩得可真是太开心了”也可简化为“玩得很开心”。修改后保留了人物、地点、活动和感受等重要信息。",
+        "knowledge_point": "语言表达简明",
+        "options": [],
+        "question": "把句子“我和同学们一起一块儿去了公园看花，我们玩得可真是太开心了”改得简明一些。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 106
+      },
+      {
+        "answer": "高洁、清白",
+        "difficulty": 2,
+        "explanation": "“冰心”和“玉壶”都是洁净透明的意象，诗人借它们表达自己高洁清白的品格。",
+        "knowledge_point": "核心意象分析",
+        "options": [],
+        "question": "《芙蓉楼送辛渐》中，诗人用“冰心”“玉壶”比喻自己________的品格。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 107
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "诗人借“冰心”“玉壶”表达内心纯洁、为人清白，并非在描写一件普通的冰玉器物。",
+        "knowledge_point": "核心意象分析",
+        "options": [],
+        "question": "判断：分析诗歌意象时，只要知道这个事物字面上是什么，就不必联系诗句和诗人的情感。",
+        "score": 5,
+        "type": "true_false",
+        "id": 108
+      },
+      {
+        "answer": "A",
+        "difficulty": 3,
+        "explanation": "“孤帆”是诗中醒目的景物，结合“远影”“碧空尽”和送别情境，可感受到诗人目送友人远去时的不舍。",
+        "knowledge_point": "核心意象分析",
+        "options": [
+          "诗人目送友人远去，流露出不舍之情",
+          "诗人正在欣赏热闹的集市",
+          "诗人盼望马上回家吃饭",
+          "诗人赞美山峰十分高大"
+        ],
+        "question": "《黄鹤楼送孟浩然之广陵》中，“孤帆远影碧空尽”里的“孤帆”最能帮助我们体会什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 109
+      },
+      {
+        "answer": "明月",
+        "difficulty": 2,
+        "explanation": "诗人把明月当作寄托思念的对象，仿佛请它陪伴自己远望故乡。",
+        "knowledge_point": "核心意象分析",
+        "options": [],
+        "question": "李白《静夜思》中，诗人抬头看见________，由此引发对故乡的思念。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 110
+      },
+      {
+        "answer": "诗人借“梅花”傲雪开放、清香自守的特点，表达自己不畏严寒、品格高洁的情感。",
+        "difficulty": 3,
+        "explanation": "梅花在寒冷中开放，具有耐寒、清香等特点。联系诗句和全诗主题，可以体会诗人借梅花表达的品格或情感；回答时要说明意象特点与寓意之间的联系。",
+        "knowledge_point": "核心意象分析",
+        "options": [],
+        "question": "古诗中常借梅花表达情感或品格。请结合梅花的特点，写一句话说明它可能寄托的寓意。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "因为……所以……",
+        "difficulty": 1,
+        "explanation": "“天气突然变冷”是原因，“大家穿上了厚衣服”是结果，应用表示因果关系的“因为……所以……”。",
+        "knowledge_point": "关联词使用",
+        "options": [
+          "虽然……但是……",
+          "因为……所以……",
+          "如果……就……",
+          "不但……而且……"
+        ],
+        "question": "“（ ）天气突然变冷，（ ）大家都穿上了厚衣服。”括号内填入正确的是：",
+        "score": 5,
+        "type": "choice",
+        "id": 112
+      },
+      {
+        "answer": "只要……就……",
+        "difficulty": 1,
+        "explanation": "只要认真观察，就能发现身边的变化，前一分句是后一分句成立的条件，表示条件关系。",
+        "knowledge_point": "关联词使用",
+        "options": [
+          "即使……也……",
+          "虽然……但是……",
+          "只要……就……",
+          "因为……所以……"
+        ],
+        "question": "“（ ）认真观察，（ ）能发现身边的变化。”括号内填入恰当的关联词：",
+        "score": 5,
+        "type": "choice",
+        "id": 113
+      },
+      {
+        "answer": "虽然……但是……",
+        "difficulty": 2,
+        "explanation": "“山路很陡”与“登山队员没有退缩”意思形成转折，应用“虽然……但是……”。",
+        "knowledge_point": "关联词使用",
+        "options": [
+          "如果……就……",
+          "不但……而且……",
+          "因为……所以……",
+          "虽然……但是……"
+        ],
+        "question": "“（ ）山路十分陡峭，（ ）登山队员没有退缩。”填入关联词，最恰当的是：",
+        "score": 5,
+        "type": "choice",
+        "id": 114
+      },
+      {
+        "answer": "如果……就……",
+        "difficulty": 2,
+        "explanation": "“明天不下雨”是假设的情况，“我们去公园”是这种情况下会做的事，属于假设关系。",
+        "knowledge_point": "关联词使用",
+        "options": [
+          "如果……就……",
+          "虽然……但是……",
+          "因为……所以……",
+          "一边……一边……"
+        ],
+        "question": "“（ ）明天不下雨，（ ）我们一起去公园。”括号内填入恰当的关联词：",
+        "score": 5,
+        "type": "choice",
+        "id": 115
+      },
+      {
+        "answer": "只有……才……",
+        "difficulty": 2,
+        "explanation": "“认真检查”是“发现并改正错误”必需的条件，表示必要条件，因此用“只有……才……”。",
+        "knowledge_point": "关联词使用",
+        "options": [
+          "只要……就……",
+          "只有……才……",
+          "因为……所以……",
+          "虽然……但是……"
+        ],
+        "question": "“（ ）认真检查，（ ）能及时发现并改正错误。”括号内填入最恰当的关联词：",
+        "score": 5,
+        "type": "choice",
+        "id": 116
+      },
+      {
+        "answer": "不要人夸好颜色",
+        "difficulty": 1,
+        "explanation": "《墨梅》后两句是：“不要人夸好颜色，只留清气满乾坤。”",
+        "knowledge_point": "古诗填空",
+        "options": [],
+        "question": "“不要人夸（ ），只留清气满乾坤。”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "只留清气满乾坤",
+        "difficulty": 1,
+        "explanation": "这句出自王冕的《墨梅》：“不要人夸好颜色，只留清气满乾坤。”",
+        "knowledge_point": "古诗填空",
+        "options": [],
+        "question": "“不要人夸好颜色，（ ）。”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "飞入菜花无处寻",
+        "difficulty": 1,
+        "explanation": "杨万里的《宿新市徐公店》写道：“儿童急走追黄蝶，飞入菜花无处寻。”",
+        "knowledge_point": "古诗填空",
+        "options": [],
+        "question": "“儿童急走追黄蝶，（ ）。”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "树头新绿未成阴",
+        "difficulty": 2,
+        "explanation": "《宿新市徐公店》开头两句是：“篱落疏疏一径深，树头新绿未成阴。”",
+        "knowledge_point": "古诗填空",
+        "options": [],
+        "question": "“篱落疏疏一径深，（ ）。”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "醉里吴音相媚好",
+        "difficulty": 2,
+        "explanation": "辛弃疾的《清平乐·村居》写道：“大儿锄豆溪东，中儿正织鸡笼。最喜小儿亡赖，溪头卧剥莲蓬。”题目所给的上句“茅檐低小，溪上青青草”之后是“醉里吴音相媚好，白发谁家翁媪”。",
+        "knowledge_point": "古诗填空",
+        "options": [],
+        "question": "“茅檐低小，溪上青青草。（ ）。”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "《“诺曼底号”遇难记》",
+        "difficulty": 1,
+        "explanation": "题目所指的课文篇名是《“诺曼底号”遇难记》。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "课文写客轮相撞和船长哈尔威组织救援，篇名是《________》。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "哈尔威",
+        "difficulty": 1,
+        "explanation": "课文中的船长名叫哈尔威，他在危急时刻指挥大家有序脱险。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "《“诺曼底号”遇难记》中，指挥乘客和船员脱险的船长叫________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "相撞的是“诺曼底号”和“玛丽号”，不是“诺曼底号”和“泰坦尼克号”。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "判断：在《“诺曼底号”遇难记》中，与“诺曼底号”相撞的是“泰坦尼克号”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 124
+      },
+      {
+        "answer": "玛丽号",
+        "difficulty": 2,
+        "explanation": "课文写“诺曼底号”与“玛丽号”发生了相撞。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "与“诺曼底号”相撞的轮船名叫________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "指挥乘客和船员有序脱险",
+        "difficulty": 2,
+        "explanation": "面对危急情况，哈尔威船长镇定地指挥救援，让乘客和船员有序逃生。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "轮船相撞后，哈尔威船长主要做了什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "指挥自救",
+        "difficulty": 1,
+        "explanation": "题干询问哈尔威船长在危急关头主要做什么；根据题目给出的信息，他组织并指挥救援。",
+        "knowledge_point": "文章关键信息",
+        "options": [],
+        "question": "从题目提供的信息看，哈尔威船长在危急关头主要在做什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "妇女儿童",
+        "difficulty": 1,
+        "explanation": "题干说明船长首先保护妇女儿童，因此先被保护的是这一群体。",
+        "knowledge_point": "文章关键信息",
+        "options": [
+          "老人和船员",
+          "妇女儿童",
+          "所有乘客同时行动",
+          "船上的工作人员"
+        ],
+        "question": "根据题目提供的信息，哈尔威船长首先保护哪一群体？",
+        "score": 5,
+        "type": "choice",
+        "id": 128
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "题目提供的信息明确说，哈尔威船长在指挥自救时首先保护妇女儿童。",
+        "knowledge_point": "文章关键信息",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断：哈尔威船长在指挥自救时，首先保护妇女儿童。",
+        "score": 5,
+        "type": "true_false",
+        "id": 129
+      },
+      {
+        "answer": "先保护妇女儿童",
+        "difficulty": 2,
+        "explanation": "从题干可提取出关键信息：船长的救援安排有先后顺序，最先保护的是妇女儿童。",
+        "knowledge_point": "文章关键信息",
+        "options": [],
+        "question": "根据题目提供的信息，用一句话概括哈尔威船长救援安排中的“先后顺序”信息：他先（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "他先保护妇女儿童，体现了危急时刻优先照顾弱者。",
+        "difficulty": 3,
+        "explanation": "回答应包含原文信息“先保护妇女儿童”，并联系这一行动表现出的优先救助弱者的做法；不能添加题目未提供的具体细节。",
+        "knowledge_point": "文章关键信息",
+        "options": [],
+        "question": "根据题目提供的信息，简要说明哈尔威船长首先保护妇女儿童这条关键信息。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 131
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "哈尔威船长在灾难发生时坚守岗位、指挥救援，体现了忠于职守。",
+        "knowledge_point": "人物与品质对应",
+        "options": [
+          "A. 视死如归",
+          "B. 忠于职守",
+          "C. 坚守清操",
+          "D. 不改冰心"
+        ],
+        "question": "哈尔威船长面对灾难坚守岗位、指挥救援，最能体现哪种品质？",
+        "score": 2,
+        "type": "choice",
+        "id": 132
+      },
+      {
+        "answer": "视死如归",
+        "difficulty": 1,
+        "explanation": "黄继光在战斗中不怕牺牲，舍身堵住敌人的枪口，体现了视死如归的品质。",
+        "knowledge_point": "人物与品质对应",
+        "options": [],
+        "question": "黄继光在战斗中舍身堵枪眼，表现出________的品质。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 133
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "王冕借《墨梅》表达不追求华丽、不随波逐流的志向，体现了坚守清操。",
+        "knowledge_point": "人物与品质对应",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "王冕借《墨梅》表达坚守清操的志向。（判断对错）",
+        "score": 2,
+        "type": "true_false",
+        "id": 134
+      },
+      {
+        "answer": "不改冰心",
+        "difficulty": 2,
+        "explanation": "王昌龄的诗句“洛阳亲友如相问，一片冰心在玉壶”表达了自己品格高洁、志向不改。",
+        "knowledge_point": "人物与品质对应",
+        "options": [],
+        "question": "王昌龄诗句“一片冰心在玉壶”常用来表现________的品质。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 135
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "“一片冰心在玉壶”表达品格纯洁、志向坚定，与“不改冰心”相对应；“忠于职守”指认真坚守自己的岗位职责。",
+        "knowledge_point": "人物与品质对应",
+        "options": [
+          "A. 王冕——忠于职守",
+          "B. 黄继光——坚守清操",
+          "C. 王昌龄——不改冰心",
+          "D. 哈尔威船长——视死如归"
+        ],
+        "question": "下列人物与品质对应正确的一项是：",
+        "score": 2,
+        "type": "choice",
+        "id": 136
+      },
+      {
+        "answer": "A-2，B-1，C-3",
+        "difficulty": 1,
+        "explanation": "欢天喜地形容非常高兴，对应“兴高采烈”；安静形容没有声音、不吵闹，对应“寂静”；寒冷和炎热意思相反，对应“酷热”。",
+        "knowledge_point": "词语配对",
+        "options": [
+          "A. 欢天喜地",
+          "B. 安静",
+          "C. 寒冷",
+          "1. 寂静",
+          "2. 兴高采烈",
+          "3. 酷热"
+        ],
+        "question": "把词语与意思相近或相反的词语配对。A. 欢天喜地　B. 安静　C. 寒冷；1. 寂静　2. 兴高采烈　3. 酷热",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "A-3，B-1，C-2",
+        "difficulty": 1,
+        "explanation": "画蛇添足比喻做了多余的事，反而不恰当；守株待兔比喻不主动努力，只存侥幸心理；亡羊补牢比喻出了问题后及时补救。",
+        "knowledge_point": "词语配对",
+        "options": [
+          "A. 画蛇添足",
+          "B. 守株待兔",
+          "C. 亡羊补牢",
+          "1. 不主动努力，存着侥幸心理",
+          "2. 出了问题后及时想办法补救",
+          "3. 做了多余的事，反而不恰当"
+        ],
+        "question": "将成语与它所表达的意思配对。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 138
+      },
+      {
+        "answer": "A-2，B-3，C-1",
+        "difficulty": 2,
+        "explanation": "“金灿灿”形容金黄色且闪亮的样子；“静悄悄”形容非常安静；“笑盈盈”形容满脸笑容的样子。",
+        "knowledge_point": "词语配对",
+        "options": [
+          "A. 金灿灿",
+          "B. 静悄悄",
+          "C. 笑盈盈",
+          "1. 满脸笑容的样子",
+          "2. 金黄色且闪亮的样子",
+          "3. 非常安静的样子"
+        ],
+        "question": "把词语与它描写的样子配对。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 139
+      },
+      {
+        "answer": "A-3，B-1，C-2",
+        "difficulty": 2,
+        "explanation": "“嫩绿”常用来描写刚长出的叶子；“湛蓝”常用来描写晴朗天空的颜色；“皑皑”常用来描写白雪覆盖的样子。",
+        "knowledge_point": "词语配对",
+        "options": [
+          "A. 嫩绿",
+          "B. 湛蓝",
+          "C. 皑皑",
+          "1. 晴朗天空的颜色",
+          "2. 白雪覆盖的样子",
+          "3. 刚长出的叶子的颜色"
+        ],
+        "question": "将词语与常见的描写对象配对。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 140
+      },
+      {
+        "answer": "A-2，B-3，C-1",
+        "difficulty": 2,
+        "explanation": "“聆听”常与“教诲”搭配，表示认真听取教导；“改正”常与“错误”搭配；“欣赏”常与“风景”搭配。",
+        "knowledge_point": "词语配对",
+        "options": [
+          "A. 聆听",
+          "B. 改正",
+          "C. 欣赏",
+          "1. 风景",
+          "2. 教诲",
+          "3. 错误"
+        ],
+        "question": "将动词与合适的词语配对。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 141
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“孤帆远影碧空尽，唯见长江天际流”描写送别友人后，诗人目送孤帆远去的情景，表现了依依惜别之情。",
+        "knowledge_point": "古诗情境对应",
+        "options": [
+          "A. 欢庆丰收",
+          "B. 依依惜别",
+          "C. 盼望春天",
+          "D. 赞美劳动"
+        ],
+        "question": "“孤帆远影碧空尽，唯见长江天际流”对应的情境最可能是：",
+        "score": 2,
+        "type": "choice",
+        "id": 142
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "“儿童急走追黄蝶，飞入菜花无处寻”描写孩子追逐黄蝶，蝴蝶飞进菜花田后找不到了，表现出乡村生活的活泼有趣。",
+        "knowledge_point": "古诗情境对应",
+        "options": [
+          "A. 儿童追蝶的乡村趣事",
+          "B. 将士冒雪出征",
+          "C. 诗人登高望远",
+          "D. 朋友临别相送"
+        ],
+        "question": "“儿童急走追黄蝶，飞入菜花无处寻”描绘了哪种情境？",
+        "score": 2,
+        "type": "choice",
+        "id": 143
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "“欲穷千里目，更上一层楼”写想看得更远就要登得更高，常用来表达积极进取、不断向上的志趣。",
+        "knowledge_point": "古诗情境对应",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "“欲穷千里目，更上一层楼”表现了积极进取的志趣。",
+        "score": 2,
+        "type": "true_false",
+        "id": 144
+      },
+      {
+        "answer": "思乡",
+        "difficulty": 2,
+        "explanation": "“举头望明月，低头思故乡”写诗人抬头望月、低头思念故乡的情景，表达了思乡之情。",
+        "knowledge_point": "古诗情境对应",
+        "options": [],
+        "question": "“举头望明月，低头思故乡”表达了诗人怎样的情感？填一个恰当的词语：________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 145
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "“不要人夸好颜色，只留清气满乾坤”写墨梅不求别人夸赞颜色，只愿留下清香充满天地，借梅花表达不慕虚名、品格高洁的志趣。",
+        "knowledge_point": "古诗情境对应",
+        "options": [
+          "A. 热闹欢快的节日场面",
+          "B. 远行途中思念亲友",
+          "C. 不慕虚名、品格高洁",
+          "D. 田间劳作的辛苦"
+        ],
+        "question": "“不要人夸好颜色，只留清气满乾坤”最能对应哪种志趣？",
+        "score": 2,
+        "type": "choice",
+        "id": 146
+      },
+      {
+        "answer": "小鸟在枝头唱歌。",
+        "difficulty": 1,
+        "explanation": "“小鸟”是句子要说的对象，“在枝头唱歌”说明小鸟做什么，按这个顺序组成完整的陈述句。",
+        "knowledge_point": "句式训练",
+        "options": [],
+        "question": "把词语连成一句通顺的话：唱歌　小鸟　在枝头",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 147
+      },
+      {
+        "answer": "今天的天气真晴朗啊！",
+        "difficulty": 1,
+        "explanation": "把“真”放在“晴朗”前面，组成感叹句；感叹句末尾用感叹号。",
+        "knowledge_point": "句式训练",
+        "options": [],
+        "question": "给下列词语排序，并加上合适的标点：今天的　天气　真　晴朗　啊",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 148
+      },
+      {
+        "answer": "你今天读完这本书了吗？",
+        "difficulty": 2,
+        "explanation": "这是询问对方是否读完书的疑问句，句末应使用问号。",
+        "knowledge_point": "句式训练",
+        "options": [],
+        "question": "把下面的陈述句改成疑问句：你今天读完了这本书。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 149
+      },
+      {
+        "answer": "操场上有许多同学在跑步。",
+        "difficulty": 2,
+        "explanation": "“操场上”交代地点，“有许多同学”说明那里有什么，“在跑步”补充说明同学们正在做什么。",
+        "knowledge_point": "句式训练",
+        "options": [],
+        "question": "把词语整理成通顺的句子：许多同学　在跑步　操场上　有",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 150
+      },
+      {
+        "answer": "我们要爱护校园里的花草。",
+        "difficulty": 2,
+        "explanation": "把“我们”作为句子的对象，“要爱护校园里的花草”说明应该怎么做。句意完整，末尾用句号。",
+        "knowledge_point": "句式训练",
+        "options": [],
+        "question": "把下列词语排列成一句通顺的话：校园里的　我们　花草　要爱护",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 151
+      },
+      {
+        "answer": "动作描写",
+        "difficulty": 1,
+        "explanation": "“蹦蹦跳跳”写出了小兔子的动作，属于动作描写。",
+        "knowledge_point": "描写手法应用",
+        "options": [],
+        "question": "“小兔子蹦蹦跳跳地跑进草丛。”这句话主要运用了什么描写手法？",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 152
+      },
+      {
+        "answer": "神态描写",
+        "difficulty": 2,
+        "explanation": "“脸上露出了笑容”描写的是人物面部表情，因此属于神态描写。",
+        "knowledge_point": "描写手法应用",
+        "options": [
+          "外貌描写",
+          "动作描写",
+          "神态描写",
+          "心理描写"
+        ],
+        "question": "“听到比赛获胜的消息，乐乐的脸上露出了灿烂的笑容。”这句话主要运用了哪种描写手法？",
+        "score": 5,
+        "type": "choice",
+        "id": 153
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "人物说的话属于语言描写，能表现人物说话的内容和语气。",
+        "knowledge_point": "描写手法应用",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "“妈妈轻声说：‘别着急，慢慢来。’”这句话运用了语言描写。",
+        "score": 5,
+        "type": "true_false",
+        "id": 154
+      },
+      {
+        "answer": "我紧紧握住奖状，心里像揣着一只欢快的小鸟，开心极了。",
+        "difficulty": 3,
+        "explanation": "示例先写“紧紧握住奖状”的动作，再写“心里像揣着一只欢快的小鸟”的心理感受，使高兴的心情更具体。",
+        "knowledge_point": "描写手法应用",
+        "options": [],
+        "question": "请用动作或心理描写，把“我很高兴”写得具体、生动。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 155
+      },
+      {
+        "answer": "小花猫弓起身子，竖着耳朵，眼睛紧盯着墙角的小老鼠。",
+        "difficulty": 3,
+        "explanation": "“弓起身子”“竖着耳朵”“紧盯着”具体写出了小花猫的动作和神态，让它准备捉老鼠的样子更清楚。",
+        "knowledge_point": "描写手法应用",
+        "options": [],
+        "question": "请把“小花猫准备捉老鼠”扩写成一句话，至少使用两处具体描写。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 156
       }
     ]
   },
@@ -704,34 +2395,289 @@
   },
   "knowledge_summary": [
     {
+      "common_mistakes": [
+        "把人物直接说的话、动作等正面描写误认为侧面描写。",
+        "只找出环境或他人的描写，却没有说明它怎样衬托主要人物。",
+        "把反衬理解成单纯的对比；要说明两者特点相反，以及对比后突出什么。"
+      ],
+      "core_concept": "侧面描写不直接描写主要人物，而是通过周围的人物反应、环境变化或其他事物，间接表现主要人物的特点。反衬是用相反或相对的事物作对照，使主要对象的特点更加鲜明。例如，描写海难中的惊慌、混乱与海水的凶险，可以衬托哈尔威船长的镇定、果断和忠于职守。",
+      "key_formula": "侧面描写：周围的人、环境或事物 → 间接表现主要人物；反衬：相反或相对的特点作对比 → 突出主要对象的特点。",
       "point": "侧面描写与反衬手法",
-      "core_concept": "侧面描写是通过描写周围的人物、环境或事物，来间接表现主要描写对象的一种方法。在《“诺曼底号”遇难记》中，作者极力描写海难发生时的惊恐场面、人们的混乱以及海水的无情，通过这些负面和混乱的因素，反而衬托出哈尔威船长在生死关头指挥若定、忠于职守的英雄气概。这种‘以动衬静’‘以乱衬定’的方法，能使人物形象更加立体，震撼人心。",
-      "key_formula": "侧面描写 = 他人的反应 / 环境的渲染 / 事物的对比",
-      "common_mistakes": [
-        "分不清正面描写和侧面描写，把船长的语言描写也当成侧面描写。",
-        "在反衬时，无法准确找出被衬托的对象和衬托物之间的逻辑关系。"
-      ],
-      "tips": "寻找描写中“除了主角之外”的杂物、他人或背景，看它们是否在为主角的形象“加分”或作对比。"
+      "tips": "读到环境或他人反应时，可以依次问：写了谁或什么？它表现了怎样的情形？与主要人物的表现有什么不同？这种不同突出了人物的什么特点？答题时要把“描写内容”和“衬托作用”说完整。"
     },
     {
+      "common_mistakes": [
+        "只看到诗句对物的颜色、形状、香气等描写，忽略诗人借物表达的志向和品质。",
+        "把诗中的象征性词语只按字面理解，例如把“冰心”只理解为寒冷的心。",
+        "认为诗中所有物的特点都能代表同一种品质，要结合具体诗句和全诗来判断。"
+      ],
+      "core_concept": "咏物言志诗表面写梅花、石灰等具体事物，实际借事物的特点表达诗人的志向、品格或情感。鉴赏时先找出“写了什么物、写了物的什么特点”，再思考这些特点与诗人的品格有什么联系，从而理解“物”与“人”的统一。",
+      "key_formula": "咏物言志 = 物的特点（色、香、形、习性等） + 诗人的志向、品格或情感",
       "point": "咏物言志诗的鉴赏",
-      "core_concept": "此类诗歌表面描写的是某种具体的自然物（如梅花、冰心、石灰等），但实际上诗人是将自己的志向、抱负或品质寄托在这些意象中。例如《墨梅》中的‘清气’象征高洁，‘淡墨’象征朴素。鉴赏时不仅要看‘物’的特点，更要领会‘人’的操守，实现‘人’与‘物’在精神层面的高度统一。",
-      "key_formula": "咏物言志 = 物的特征（色、香、形） + 人的志向（德、操、魂）",
-      "common_mistakes": [
-        "仅停留在对物体的字面描写上，忽略了诗句背后的深远含义。",
-        "将‘冰心’简单理解为寒冷，未能识别其作为纯洁人格的象征意义。"
-      ],
-      "tips": "关注诗中最后两句，通常那是全诗的“诗眼”，直接点明志向所在。要把梅花的冷色调和诗人的清正廉洁联系起来思考。"
+      "tips": "阅读时可以先圈出描写事物的词语，再找出直接表达志向或品格的句子。不要只凭一个词猜寓意，要联系整首诗。结尾有时会点明志向，但并非每首诗都一定如此。"
     },
     {
-      "point": "习作：我的“自画像”",
-      "core_concept": "这是一种典型的人物描写练习。学生需要从外貌（抓住最有特色的地方）、性格（如勇敢、内向、马虎）、爱好（如滑雪、读书）等多方面介绍自己。最关键的是要‘以事写人’，即通过一两个生动的小故事，把自己性格中的某个侧面真实地展示出来，避免干巴巴的罗列特征，使读者读后能如同见到本人一样。",
-      "key_formula": "自画像 = 独特外貌 + 性格标签 + 典型事例（1-2件）",
       "common_mistakes": [
-        "泛泛而谈，列了一堆标签却没有任何具体例子支撑，人物形象模糊。",
-        "外貌描写面面俱到（大眼睛、高鼻子），没有抓住宅、痦子、发型等具有区分度的特征。"
+        "只罗列“我勇敢、我爱读书、我很认真”等特点，没有用具体事情说明，人物形象不够鲜明。",
+        "外貌描写面面俱到，却没有抓住最有辨识度的特征。",
+        "故事写得过于笼统，缺少动作、语言或心理描写，读者难以感受到人物的性格。",
+        "为了让自己显得完美而只写优点，内容不够真实。"
       ],
-      "tips": "先给自己取一个客观的“绰号”（如同桌给起的），然后围绕这个绰号来组织材料，这样更有针对性。"
+      "core_concept": "“我的自画像”是介绍自己的习作。可以从外貌、性格、爱好等方面选取内容，重点抓住一两个最有特点的地方，再用一两件真实、具体的小事来表现自己的性格或兴趣。写作时不必面面俱到，要让读者读后觉得这个“我”真实、清楚、有特点。",
+      "key_formula": "我的“自画像”＝有辨识度的外貌特点＋鲜明的性格或爱好＋具体事例（1—2件）",
+      "point": "习作：我的“自画像”",
+      "tips": "可以先想想同学或家人给自己起过什么贴切的绰号，再围绕这个特点选事例。写外貌时挑选一两个最特别的地方；写事例时交代事情经过，并加入动作、语言或心理描写。结尾可以写写自己对自己的认识，或想改进的地方。"
+    },
+    {
+      "common_mistakes": [
+        "把形近字当成同一个字，忽略偏旁和笔画差别。",
+        "只凭字形猜读音，忽略多音字在词语中的具体读音。",
+        "写字时漏写、添写笔画，或把容易混淆的部件写错。"
+      ],
+      "core_concept": "字音字形鉴别，就是根据具体词语和语境辨认汉字的读音与字形。学习时要留意多音字在词语中的读音，也要比较形近字的偏旁、笔画和意义。",
+      "key_formula": "辨字音：把字放回词语和句子中，联系语境判断读音；辨字形：比较偏旁、笔画和部件，再联系字义辨认。",
+      "point": "字音字形鉴别",
+      "tips": "遇到多音字，先读完整词语，再根据词义判断；遇到形近字，可以把易错部件圈出来，并用组词的方法检查。例如，“渐渐”的“渐”读 jiàn；“辩论、辨别、花瓣”中的“辩、辨、瓣”形近，但偏旁不同、意思也不同。"
+    },
+    {
+      "common_mistakes": [
+        "只按字面理解词语，忽略词语在句子中的意思。",
+        "遇到古诗中的比喻或典故时，把它当作日常用语理解。",
+        "解释词语时只换成一个近义词，没有结合上下文说明。"
+      ],
+      "core_concept": "词语释义，就是说明词语在具体语境中的意思。理解词语时，可以先看字面意思，再联系上下文、生活经验或修辞手法，判断它在句子里表达的含义。",
+      "key_formula": "词语在句中的意思＝词语本义或常见义＋具体语境中的含义",
+      "point": "词语释义",
+      "tips": "阅读时可以把词语暂时换成自己的解释，再读一遍句子，看意思是否通顺。解释古诗词中的词语时，尤其要结合诗句整体理解，避免只看单个字的字面意思。"
+    },
+    {
+      "common_mistakes": [
+        "只关注个别词句，忽略全文内容。",
+        "没有结合上下文和关键细节，就随意推断人物想法或文章主旨。",
+        "把自己的看法当成文本明确表达的内容。"
+      ],
+      "core_concept": "文本理解是通过阅读文章，弄清写了什么、人物有什么特点、事情怎样发展，以及作者想表达什么。理解时要联系上下文，关注关键词句和重要细节，并用文本内容作为依据。",
+      "key_formula": "理解文本＝读懂内容＋抓住关键细节＋联系上下文＋寻找文本依据",
+      "point": "文本理解",
+      "tips": "答题时可以先找相关句子，再用自己的话整理。遇到“为什么”“从哪里看出”等问题，要说明理由并指出文本依据；遇到概括题，注意语言简洁、信息完整。"
+    },
+    {
+      "common_mistakes": [
+        "把描写内容或表达的思想感情，误当成修辞手法。",
+        "判断修辞时只看单个词语，没有结合句子的整体表达。",
+        "认为一句话只能使用一种修辞手法；有些句子会综合运用多种修辞。"
+      ],
+      "core_concept": "修辞手法是为了让表达更生动、形象或有感染力而使用的表达方式。小学阶段常见的修辞手法有比喻、拟人、夸张、排比、反问和设问等。判断时要关注句子的表达特点：比喻是把一种事物比作另一种事物；拟人是把事物当作人来写；夸张是有意扩大或缩小事物的特点；排比是用结构相似、语气一致的句子或短语连续表达；反问是用疑问形式表达明确的肯定或否定；设问是先提出问题，再自己回答。",
+      "key_formula": "判断修辞手法：找表达特点 → 联系句子整体意思 → 判断表达效果。比喻看“像什么”，拟人看“是否写出人的动作或情感”，夸张看“是否明显超出事实”，排比看“是否有三个或以上结构相似的部分”。",
+      "point": "修辞手法",
+      "tips": "例句：“弯弯的月亮像小船。”把月亮比作小船，是比喻；“小鸟在枝头唱歌。”把小鸟写得像人一样唱歌，是拟人；“教室里安静得连一根针掉在地上都听得见。”是夸张；“书是知识的海洋，是智慧的源泉，是进步的阶梯。”是排比。分析句子时还要留意：表达志向或赞美品质属于表达内容或写作手法，不一定是修辞。"
+    },
+    {
+      "common_mistakes": [
+        "把描写对象和描写方法混为一谈：写了人物，不一定就是正面描写；还要看是否直接表现人物特点。",
+        "把环境描写一概当作侧面描写：环境描写若主要交代时间、地点或背景，不一定是在侧面表现人物。",
+        "把侧面描写和反衬完全等同：侧面描写是通过相关的人或事物间接表现对象；反衬是用相反或相对的内容突出对象特点，是一种表现效果。"
+      ],
+      "core_concept": "描写方法识别，就是根据文字是直接表现描写对象，还是借助周围的人、事、景物间接表现对象，判断所用方法。直接描写对象的语言、动作、神态、心理等，通常属于正面描写；通过他人反应、环境变化或相关事物来表现对象，通常属于侧面描写。",
+      "key_formula": "直接写对象的特点、言行或心理→正面描写；借他人、环境或相关事物间接表现对象→侧面描写。",
+      "point": "描写方法识别",
+      "tips": "判断时可以问自己：“作者直接写了谁或什么？”“有没有借别的人、事、景来表现目标对象？”例如，直接写船长沉着地下达命令，是正面描写；写海水咆哮、乘客惊慌，以此突出船长的镇定，是侧面描写。"
+    },
+    {
+      "common_mistakes": [
+        "只写景物特点，不联系诗人借物表达的志向和品格。",
+        "把诗中描写的事物当作普通景物，忽略它象征的意义。",
+        "仅凭诗题猜中心思想，不结合关键诗句分析。"
+      ],
+      "core_concept": "咏物言志诗通过描写某种事物的形态、颜色、气味或生长环境，表现事物的特点，并借此寄托诗人的志向、品格或情感。鉴赏时要关注“写了什么事物、突出什么特点、借物表达什么”。",
+      "key_formula": "诗中描写了____（事物）的____特点，诗人借此表达了____（志向、品格或情感）。",
+      "point": "咏物言志诗鉴赏",
+      "tips": "先圈出描写事物特点的词句，再联系事物常见的象征意义和诗人的表达，最后用“借物抒情”或“托物言志”概括主旨。例如，梅花常在寒冷中开放，可以象征坚韧、高洁；鉴赏时仍要以诗句为依据。"
+    },
+    {
+      "common_mistakes": [
+        "只根据词语中某个字的字面意思猜词义，忽略整个词语的含义。",
+        "把意思相近的词语混为一谈，不结合句子判断。",
+        "遇到不熟悉的词语时，不用上下文或查词典确认。"
+      ],
+      "core_concept": "理解词语，就是弄清词语的意思，并能根据语境判断它在句子中的含义。可以从字面意思、近义词和反义词、生活经验以及上下文线索等方面理解。",
+      "key_formula": "理解词语：看字词组成 + 联系上下文 + 放回句子检验",
+      "point": "词语理解",
+      "tips": "遇到不懂的词，先读完整句话，找出解释、举例、转折或因果等线索，再把词语的意思放回句子中检查是否通顺。"
+    },
+    {
+      "common_mistakes": [
+        "把多音字在一个词中的读音固定下来，忽略它会随词义和语境变化。",
+        "只根据字形猜读音，不结合词语和句子判断。",
+        "读准字音后，仍可能写错声调。"
+      ],
+      "core_concept": "一个汉字有两个或多个读音，叫多音字。辨析时要把字放进词语或句子中，结合词义判断读音，并注意声调。",
+      "key_formula": "结合语境 → 判断词义 → 选择读音 → 检查声调",
+      "point": "多音字辨析",
+      "tips": "先读完整个词语或句子，再根据它表达的意思判断多音字的读音。平时可以把多音字按不同读音和对应词语分类记忆，例如“混乱”的“混”读hùn，“混合”的“混”也读hùn；而“混水摸鱼”中的“混”读hún。"
+    },
+    {
+      "common_mistakes": [
+        "把反衬和正面描写混为一谈，只看描写对象，不看它与主要内容之间的对比关系。",
+        "认为环境描写只是在交代时间、地点或天气，忽略它也能突出人物特点、情节气氛或主题。",
+        "分析作用时只说“用了反衬”，没有指出哪些内容形成对照，以及突出了什么。"
+      ],
+      "core_concept": "反衬是一种表现手法：用与主要对象特点相反或不同的事物作对照，突出主要对象的特点、品质或情感。分析时要找出对照双方，再说明对照突出了什么。",
+      "key_formula": "反衬作用分析：对照双方＋形成的反差＋突出的人物特点、情节气氛或主题。",
+      "point": "反衬手法分析",
+      "tips": "阅读时先找出被重点表现的对象，再找与它形成对照的内容。可以思考：两者哪里不同？这种差异让主要对象的什么特点更加鲜明？回答时尽量结合原文，不要只写“突出了中心”。"
+    },
+    {
+      "common_mistakes": [
+        "把古诗名句中的关键词按现代常用义理解，忽略诗句语境。",
+        "只记住诗句字面意思，却混淆诗句所表达的情感或画面。",
+        "默写时出现错别字、漏字或顺序颠倒。"
+      ],
+      "core_concept": "古诗名句积累，就是熟读、理解并记忆经典诗句，能根据提示准确补写诗句，也能结合上下文解释关键词、体会诗句描绘的景象和表达的情感。",
+      "key_formula": "理解诗句：关键词义 + 诗句画面 + 表达情感；积累运用：读准、记牢、写准确。",
+      "point": "古诗名句积累",
+      "tips": "可以用“读—解—想—背—写”的方法：朗读诗句，解释关键词，想象画面，背诵全句，最后遮住原文默写并检查。"
+    },
+    {
+      "common_mistakes": [
+        "只凭人物的身份或称号评价人物，没有结合具体事例。",
+        "只复述人物做了什么，没有说明这些行为体现了怎样的品质。",
+        "评价过于笼统，如只说“他很勇敢”，却没有说明依据。"
+      ],
+      "core_concept": "人物形象评价，就是根据课文中的语言、动作、神态、心理以及具体事件，概括人物的性格特点和精神品质，并说明判断依据。",
+      "key_formula": "人物形象评价 = 具体事例或描写 + 人物品质 + 简要说明",
+      "point": "人物形象评价",
+      "tips": "回答时可以使用“从……可以看出……，因为……”的句式。评价要有依据，品质概括要贴合事例；同一个人物也可能表现出多种品质。"
+    },
+    {
+      "common_mistakes": [
+        "把意思相近的词语当成完全相同，忽略它们在感情色彩、适用对象和使用场合上的区别。",
+        "只看词语中的某个字来猜意思，不结合整个词语和句子判断。"
+      ],
+      "core_concept": "词语辨析就是根据词语的意思、感情色彩、适用对象和使用场合，判断它们之间的区别，并选择最适合具体语境的词语。",
+      "key_formula": "结合语境，从词义、感情色彩、适用对象和使用场合辨析词语。",
+      "point": "词语辨析",
+      "tips": "遇到近义词时，可以分别把它们放进句子里读一读；比较句意是否通顺、表达是否准确。也可以查词典确认词义和感情色彩。"
+    },
+    {
+      "common_mistakes": [
+        "把简明误解成一味追求字数少，导致意思表达不清。",
+        "重复表达相同内容，或使用与主题无关的细节。",
+        "删去重要信息，造成句子意思不完整。"
+      ],
+      "core_concept": "语言表达简明，就是围绕表达目的，把意思说清楚、说完整，同时避免重复、啰嗦和无关内容。",
+      "key_formula": "表达简明＝意思清楚完整＋内容紧扣重点－重复啰嗦－无关信息",
+      "point": "语言表达简明",
+      "tips": "写完或说完后，试着问自己：这句话的重点是什么？有没有相同意思说了两遍？有没有与主题无关的内容？删去某些词句后，意思还清楚完整吗？"
+    },
+    {
+      "common_mistakes": [
+        "把意象只理解为诗中出现的具体事物，忽略它可能寄托的情感和品格。",
+        "只凭一个词就下结论，要结合诗句内容和上下文分析。",
+        "把意象的寓意说得过于宽泛，最好用诗句中的关键词说明理由。"
+      ],
+      "core_concept": "意象是诗歌中带有情感或寓意的景物、事物。分析核心意象时，要先找到反复出现或最能体现主题的事物，再联系诗句和背景，体会它寄托的情感、品格或志向。",
+      "key_formula": "找意象 → 联系诗句特点 → 推想寄托的情感或品格 → 用诗句说明理由",
+      "point": "核心意象分析",
+      "tips": "可以问自己：诗人写了什么事物？这个事物有什么特点？诗人为什么选它？它和诗人的情感或品格有什么联系？回答时尽量结合诗句中的词语。"
+    },
+    {
+      "common_mistakes": [
+        "混淆表示转折、因果、条件和假设关系的关联词。",
+        "关联词前后搭配不当，或只看单个词语而忽略句意。",
+        "句子中有两个分句时，误以为一定要使用成对出现的关联词。"
+      ],
+      "core_concept": "关联词用来连接词语、分句或句子，表示它们之间的关系。使用时要先理解句意，再选择能准确表达关系的关联词，并注意前后搭配。常见关系包括并列、递进、转折、因果、条件和假设。",
+      "key_formula": "先辨关系，再选词语，最后检查搭配和句意。",
+      "point": "关联词使用",
+      "tips": "看到两个分句时，可以先问自己：它们是在说并列的事情、后一层意思更进一步、意思相反、说明原因和结果，还是提出条件或假设？例如：转折用“虽然……但是……”，因果用“因为……所以……”，条件用“只要……就……”或“只有……才……”，假设用“如果……就……”。"
+    },
+    {
+      "common_mistakes": [
+        "背诵时漏字、添字，或把相近的诗句混淆。",
+        "填写诗句时只记得大意，忽略了原诗中的用字和顺序。",
+        "没有先读题干提供的上下句，导致接错诗句。"
+      ],
+      "core_concept": "古诗填空要根据已知诗句回忆原诗，准确填写缺少的字词或诗句，并注意诗句的顺序和用字。",
+      "key_formula": "读提示句 → 回忆诗题与作者 → 补全诗句 → 对照原诗检查",
+      "point": "古诗填空",
+      "tips": "先读题目中的提示，想一想诗句出自哪首诗，再按原诗顺序填写。写完后逐字检查，特别留意容易记错的字词。"
+    },
+    {
+      "common_mistakes": [
+        "把文学常识只当作作者姓名来记，忽略作品的体裁、主要内容和相关背景。",
+        "混淆作品中的人物、事件和故事发生的原因。",
+        "只背诵零散信息，不结合课文内容理解和记忆。"
+      ],
+      "core_concept": "文学常识是阅读和理解文学作品时需要了解的基本知识，包括作者、作品名称、体裁、主要人物和内容等。学习课文时，可以联系作品内容来记忆相关信息。",
+      "key_formula": "了解一篇作品：作者＋作品名称＋体裁或内容＋关键人物与事件。",
+      "point": "文学常识",
+      "tips": "复习时先读清作品名称，再回忆作者及课文中的主要人物、事件和关键细节。遇到填空题，可以根据题干中的提示回想课文原句或主要情节。"
+    },
+    {
+      "common_mistakes": [
+        "把文章中的细节都当作关键信息，忽略它们与主要内容的关系。",
+        "只记住人物做了什么，却没有联系当时的情境和原因。",
+        "回答时加入文章没有写出的内容。"
+      ],
+      "core_concept": "文章关键信息是理解文章主要内容不可缺少的内容，常包括人物、事件、时间、地点、原因、经过和结果。阅读时要围绕文章主题寻找相关信息，并依据原文作答。",
+      "key_formula": "概括事件：人物＋在什么情况下＋做了什么＋结果怎样。",
+      "point": "文章关键信息",
+      "tips": "可用“谁、何时何地、遇到什么情况、做了什么、结果如何”帮助梳理信息。若题目问“首先”“最后”“为什么”等，要特别留意表示先后、因果和转折的词语。"
+    },
+    {
+      "common_mistakes": [
+        "把人物与品质的对应关系只靠名字或熟悉程度来判断，没有结合人物事迹或作品内容。",
+        "混淆相近的品质词，如“忠于职守”和“视死如归”。"
+      ],
+      "core_concept": "人物的优秀品质可以从其言行、事迹或作品中体现。判断人物与品质的对应关系时，要找到具体依据，再选择最贴切的品质词。",
+      "key_formula": "人物（或作品）＋具体言行、事迹＋品质依据＝恰当对应",
+      "point": "人物与品质对应",
+      "tips": "先回忆人物做过什么、说过什么或写过什么，再思考这些表现体现了怎样的品质。比如，黄继光在战斗中舍身堵枪眼，体现了视死如归；哈尔威船长在灾难中坚守岗位，体现了忠于职守。若题目涉及诗文，还要联系诗句表达的志向和情感。"
+    },
+    {
+      "common_mistakes": [
+        "只根据词语的字面猜意思，不结合整个词语或句子的语境。",
+        "把意思相近的词语当成完全相同，忽略它们的使用对象和语气差别。",
+        "配对后没有检查词语和解释是否能相互说明。"
+      ],
+      "core_concept": "词语配对，就是根据词语的意思、特点或使用情境，把它与合适的解释、近义词、反义词或相关词语对应起来。",
+      "key_formula": "读懂词语 → 找出关键词或特点 → 比较选项 → 结合语境检查配对",
+      "point": "词语配对",
+      "tips": "可以先配最有把握的一组，再用排除法处理剩下的选项。注意题目要求配的是意思、近义词、反义词，还是使用情境。"
+    },
+    {
+      "common_mistakes": [
+        "只看诗句中的单个字词，忽略整句描绘的画面和情感。",
+        "把相似的志趣混为一谈，如将“清廉”与“高洁”不加区分。",
+        "忘记结合诗人的处境、诗歌背景和常见意象理解诗句。"
+      ],
+      "core_concept": "“古诗情境对应”是根据诗句描绘的景物、人物行为和表达的情感，判断它对应的生活场景、志趣或品格。理解时可以先想象诗句画面，再抓住关键词，最后联系全诗的情感。",
+      "key_formula": "读诗句 → 想画面 → 抓关键词 → 联系情感或志趣 → 选择最恰当的对应项",
+      "point": "古诗情境对应",
+      "tips": "先用自己的话说出诗句的画面，再圈出最能表现情感或志趣的词语。若题目要求连线，注意每项只对应最贴切的一项；若有多个选项看起来相近，比较它们与诗句画面及全诗情感是否一致。"
+    },
+    {
+      "common_mistakes": [
+        "词语排列时只看词语顺序，没有先找句子的主语和谓语。",
+        "陈述句末尾忘记加句号，疑问句末尾误用句号。",
+        "改写句子时改变了原句的意思。"
+      ],
+      "core_concept": "句式训练是学习辨认和运用不同句子形式。常见练习包括把词语连成通顺的句子、调整语序、变换句式，以及正确使用标点。做题时要先弄清句子要表达的意思，再安排词语顺序，并检查语意是否完整、表达是否通顺。",
+      "key_formula": "排列词语：找准主语和谓语 → 按语意安排词语 → 加上合适的标点。",
+      "point": "句式训练",
+      "tips": "排列词语时，可以先找“谁”或“什么”是句子要说的对象，再找它“做什么”或“是什么”。读一读整理好的句子，检查意思是否清楚、词语搭配是否自然，最后补上标点。改写句式时，注意保持原意不变。"
+    },
+    {
+      "common_mistakes": [
+        "只写人物或事物做了什么，没有写清楚样子、动作或感受。",
+        "使用了许多形容词，却没有具体细节，描写显得空泛。",
+        "把不同描写手法混在一起，读者不容易看出重点。"
+      ],
+      "core_concept": "描写手法是把人、事物或场景写得具体、生动的方法。常见的有外貌描写、动作描写、语言描写、神态描写和心理描写。写作时可根据表达需要选择合适的手法，并用具体细节表现特点。",
+      "key_formula": "描写对象＋具体细节（外貌、动作、语言、神态或心理）＋特点或感受",
+      "point": "描写手法应用",
+      "tips": "先想清楚要表现谁或什么、有什么特点，再选择合适的描写手法。比如写“我喜欢滑旱冰”，可补充人物特点和动作细节；写人物心情，可描写表情、动作或心里想法。注意描写要真实、具体，避免只堆砌形容词。"
     }
   ]
 }

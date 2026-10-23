@@ -4,275 +4,273 @@
   "unit_number": 5,
   "unit_test": {
     "title": "Unit 5 Basic Skills Test",
-    "total_score": 95,
+    "total_score": 606,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "pilot意为“飞行员”，指驾驶飞机的人。",
         "knowledge_point": "职业名词词义",
-        "question": "'pilot' 的意思是'飞行员'。",
         "options": [],
-        "answer": "对",
-        "explanation": "pilot是本单元核心职业词汇，意为飞行员。"
+        "question": "'pilot' 的意思是“飞行员”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "工人通常在工厂（factory）工作；医生或护士通常在医院（hospital）工作。",
         "knowledge_point": "工作地点辨析",
+        "options": [],
         "question": "A worker usually works in a hospital.",
-        "options": [],
-        "answer": "错",
-        "explanation": "工人通常在工厂(factory)工作，医生或护士在医院(hospital)工作。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "主语是he，询问职业时要用does，后面的动词用原形。正确表达是“What does he do?”",
         "knowledge_point": "动词三单形式",
+        "options": [],
         "question": "在询问职业时，'What do he do?' 是正确的表达方式。",
-        "options": [],
-        "answer": "错",
-        "explanation": "当主语是he时，助动词应用does，正确表达为What does he do?"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 2,
+        "explanation": "喜欢运动的人可能更适合成为运动员（athlete）或体育老师（PE teacher）。head teacher是校长，和喜欢运动没有直接的对应关系。",
         "knowledge_point": "职业与爱好的关联",
+        "options": [],
         "question": "If you like sports, you can be a head teacher.",
-        "options": [],
-        "answer": "错",
-        "explanation": "喜欢运动的人更适合作为运动员(athlete)或体育老师(PE teacher)。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "交通方式表达",
-        "question": "'by bike' 意为'骑自行车'。",
-        "options": [],
-        "answer": "对",
-        "explanation": "by + 交通工具 表示通过某种方式。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "by + 交通工具表示乘坐或使用某种交通方式；by bike 意为“骑自行车”。",
+        "knowledge_point": "交通方式表达",
+        "options": [],
+        "question": "'by bike' 意为“骑自行车”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "does",
         "difficulty": 1,
+        "explanation": "your father 是第三人称单数。一般现在时的特殊疑问句使用 does，后面的 do 用原形。",
         "knowledge_point": "代词与谓语一致性",
-        "question": "What ______ your father do?",
         "options": [
           "do",
           "does",
           "is",
           "are"
         ],
-        "answer": "does",
-        "explanation": "your father是第三人称单数，疑问句借用助动词does。"
+        "question": "What ______ your father do?",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "postman",
         "difficulty": 1,
+        "explanation": "在邮局（post office）工作的人通常是邮递员（postman）。",
         "knowledge_point": "职业词汇辨析",
-        "question": "He works in a post office. He is a ______.",
         "options": [
           "cook",
           "doctor",
           "postman",
           "driver"
         ],
-        "answer": "postman",
-        "explanation": "在邮局(post office)工作的人是邮递员(postman)。"
+        "question": "He works in a post office. He is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "at",
         "difficulty": 1,
+        "explanation": "work at a university 是常见搭配，表示“在一所大学工作”。",
         "knowledge_point": "介词搭配",
-        "question": "My aunt works ______ a university.",
         "options": [
           "in",
           "at",
           "on",
           "to"
         ],
-        "answer": "at",
-        "explanation": "在大学工作固定搭配为work at a university。"
+        "question": "My aunt works ______ a university.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "doctor",
         "difficulty": 1,
+        "explanation": "医生（doctor）帮助生病的人。",
         "knowledge_point": "短语理解",
-        "question": "A ______ helps sick people.",
         "options": [
           "scientist",
           "doctor",
           "pilot",
           "police officer"
         ],
-        "answer": "doctor",
-        "explanation": "医生(doctor)负责救治病人。"
+        "question": "A ______ helps sick people.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "Where",
         "difficulty": 2,
+        "explanation": "对地点提问用疑问词 Where，意思是“哪里”。",
         "knowledge_point": "询问地点",
-        "question": "— ______ does he work? — He works in a gym.",
         "options": [
           "What",
           "How",
           "Where",
           "Who"
         ],
-        "answer": "Where",
-        "explanation": "对地点提问用疑问词Where。"
+        "question": "— ______ does he work? — He works in a gym.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "singer",
         "difficulty": 1,
+        "explanation": "会唱歌的人是歌手，sing（唱歌）加上表示“做某事的人”的 -er，构成 singer。",
         "knowledge_point": "词汇拼写",
-        "question": "My mother is a ______ . She can sing many songs.",
         "options": [
           "singer",
           "sister",
           "student",
           "worker"
         ],
-        "answer": "singer",
-        "explanation": "会唱歌(sing)的是歌手(singer)。"
+        "question": "My mother is a ______ . She can sing many songs.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "goes",
         "difficulty": 2,
+        "explanation": "主语 She 是第三人称单数，一般现在时谓语动词 go 要加 -es，变为 goes。",
         "knowledge_point": "主谓一致",
-        "question": "She ______ to work by bus.",
         "options": [
           "go",
           "goes",
           "going",
           "to go"
         ],
-        "answer": "goes",
-        "explanation": "主语为She，一般现在时谓语动词用三单形式goes。"
+        "question": "She ______ to work by bus.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "artist",
         "difficulty": 2,
+        "explanation": "drawing 意为“画画”，喜欢画画的人可以成为艺术家，artist 符合句意。",
         "knowledge_point": "逻辑推理",
-        "question": "If you like drawing, you can be an ______.",
         "options": [
           "doctor",
           "artist",
           "worker",
           "actor"
         ],
-        "answer": "artist",
-        "explanation": "喜欢绘画(drawing)可以成为艺术家(artist)。"
+        "question": "If you like drawing, you can be an ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "How",
         "difficulty": 2,
+        "explanation": "答语 By car 表示交通方式，询问“怎样去上班”用 How。",
         "knowledge_point": "疑问词辨析",
-        "question": "— ______ does she go to work? — By car.",
         "options": [
           "What",
           "How",
           "Where",
           "Which"
         ],
-        "answer": "How",
-        "explanation": "对交通方式提问用疑问词How。"
+        "question": "— ______ does she go to work? — By car.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "scientist",
         "difficulty": 3,
+        "explanation": "喜欢科学（science）对应的理想职业是科学家（scientist）。",
         "knowledge_point": "职业规划",
-        "question": "I want to be a ______ because I like science.",
         "options": [
           "police officer",
           "scientist",
           "cleaner",
           "dancer"
         ],
-        "answer": "scientist",
-        "explanation": "喜欢科学(science)对应的理想职业是科学家(scientist)。"
+        "question": "I want to be a ______ because I like science.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "职业词汇",
-        "question": "A person who flies a plane is a ______.",
-        "options": [],
         "answer": "pilot",
-        "explanation": "驾飞机的人是飞行员。"
+        "difficulty": 1,
+        "explanation": "A person who flies a plane is a pilot，意思是“驾驶飞机的人是飞行员”。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "A person who flies a plane is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "动词形式",
-        "question": "Sarah ______ (study) very hard.",
-        "options": [],
         "answer": "studies",
-        "explanation": "三单形式变化规律，y结尾变i加es。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "地点词汇",
-        "question": "My father is a teacher. He works in a ______.",
-        "options": [],
-        "answer": "school",
-        "explanation": "教师的工作地点在学校。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "固定搭配",
-        "question": "I go to work ______ foot.",
+        "explanation": "主语Sarah是第三人称单数，句子表示一般现在时。study以辅音字母+y结尾，变y为i再加-es，写作studies。",
+        "knowledge_point": "动词形式",
         "options": [],
-        "answer": "on",
-        "explanation": "步行用固定搭配on foot。"
+        "question": "Sarah ______ (study) very hard.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "school",
         "difficulty": 1,
+        "explanation": "句子说父亲是一名教师，教师通常在学校工作，所以填 school。",
+        "knowledge_point": "地点词汇",
+        "options": [],
+        "question": "My father is a teacher. He works in a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "on",
+        "difficulty": 2,
+        "explanation": "步行的固定搭配是 on foot，因此句子为 I go to work on foot.",
+        "knowledge_point": "固定搭配",
+        "options": [],
+        "question": "I go to work ______ foot.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-2，B-4，C-3，D-1",
+        "difficulty": 1,
+        "explanation": "businessman 意为“商人”；factory worker 意为“工厂工人”；stay healthy 意为“保持健康”；sea 意为“大海”。",
         "knowledge_point": "词汇中英匹配",
-        "question": "将下列英文职业/动作与中文意思匹配。",
         "options": [
           "businessman",
           "factory worker",
@@ -283,36 +281,32 @@
           "保持健康",
           "工厂工人"
         ],
-        "answer": "A-2,B-4,C-3,D-1",
-        "explanation": "A.businessman-商人; B.factory worker-工厂工人; C.stay healthy-保持健康; D.sea-大海。"
+        "question": "将下列英文职业、地点或短语与中文意思匹配。A. businessman；B. factory worker；C. stay healthy；D. sea。①大海；②商人；③保持健康；④工厂工人。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A police officer helps people and keeps them safe.",
         "difficulty": 1,
+        "explanation": "“Police officer”是“警察”的意思，警察帮助人们并保护他们的安全。其他选项分别是“邮递员”“校长”和“邮局”。",
         "knowledge_point": "职业与工作内容匹配",
-        "question": "将下列短语与其意思匹配。",
         "options": [
-          "be good at",
-          "police officer",
-          "head teacher",
-          "post office",
-          "校长",
-          "邮局",
-          "擅长",
-          "警察"
+          "A postman delivers letters.",
+          "A police officer helps people and keeps them safe.",
+          "A head teacher delivers letters.",
+          "A post office helps people and keeps them safe."
         ],
-        "answer": "A-3,B-4,C-1,D-2",
-        "explanation": "A.be good at-擅长; B.police officer-警察; C.head teacher-校长; D.post office-邮局。"
+        "question": "Which sentence correctly matches a job with its work?",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "What,does,he,do,?",
         "difficulty": 2,
+        "explanation": "询问他人的职业可用“What does he do?”。he是第三人称单数，所以用does；does后面的动词用原形do。",
         "knowledge_point": "核心句型",
-        "question": "连词成句：does, he, What, do, ?",
         "options": [
           "What",
           "does",
@@ -320,8 +314,1742 @@
           "do",
           "?"
         ],
-        "answer": "What,does,he,do,?",
-        "explanation": "这是询问他人的职业的标准句型。"
+        "question": "连词成句：does, he, What, do, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "Doctor 表示“医生”，医生通常在医院工作，hospital 表示“医院”。",
+        "knowledge_point": "职业名词与工作场所对应",
+        "options": [
+          "farm",
+          "hospital",
+          "factory",
+          "school"
+        ],
+        "question": "A doctor usually works in a _____.",
+        "score": 1,
+        "type": "choice",
+        "id": 23
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "Teacher 是“教师”，school 是“学校”，教师通常在学校工作。",
+        "knowledge_point": "职业名词与工作场所对应",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "A teacher usually works in a school.",
+        "score": 1,
+        "type": "true_false",
+        "id": 24
+      },
+      {
+        "answer": "farm",
+        "difficulty": 1,
+        "explanation": "Farmer 表示“农民”，农民通常在农场工作；常见表达是 works on a farm。",
+        "knowledge_point": "职业名词与工作场所对应",
+        "options": [],
+        "question": "A farmer usually works on a _____.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 25
+      },
+      {
+        "answer": "A cook works in a restaurant.",
+        "difficulty": 2,
+        "explanation": "Cook 是“厨师”，restaurant 是“餐馆”。用 “A + 职业 + works in + 场所” 表达。",
+        "knowledge_point": "职业名词与工作场所对应",
+        "options": [],
+        "question": "用 cook 和 restaurant 写一个句子，表达厨师通常在哪里工作。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "factory",
+        "difficulty": 2,
+        "explanation": "Worker 表示“工人”，工人通常在工厂工作。句子意思是“工人在工厂工作”。",
+        "knowledge_point": "职业名词与工作场所对应",
+        "options": [],
+        "question": "A worker works in a _____.（工厂）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "An office worker works in an office.",
+        "difficulty": 2,
+        "explanation": "Office worker 表示“办公室职员”，通常在 office（办公室）工作。office 以元音音素开头，因此前面用 an。",
+        "knowledge_point": "职业名词与工作场所对应",
+        "options": [],
+        "question": "用 office worker 和 office 写一个句子，表达办公室职员通常在哪里工作。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "询问某人做什么工作，常用“What does … do?”，所以选B。",
+        "knowledge_point": "职业及通勤方式的询问",
+        "options": [
+          "What is your father do?",
+          "What does your father do?",
+          "How does your father do?"
+        ],
+        "question": "想问“你爸爸是做什么工作的？”，应说：",
+        "score": 1,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "How does Amy go to work?",
+        "difficulty": 1,
+        "explanation": "询问第三人称单数如何上班，用“How does + 人 + go to work?”。does后面的动词用原形go。",
+        "knowledge_point": "职业及通勤方式的询问",
+        "options": [],
+        "question": "连词成句：Amy / how / go to work / does?",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "an",
+        "difficulty": 1,
+        "explanation": "actor以元音音素开头，因此职业前用an。",
+        "knowledge_point": "职业及通勤方式的询问",
+        "options": [],
+        "question": "My uncle is ___ actor.（填a或an）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 31
+      },
+      {
+        "answer": "She goes to work by bus.",
+        "difficulty": 2,
+        "explanation": "She是第三人称单数，go要变为goes；乘公交车可表达为by bus。",
+        "knowledge_point": "职业及通勤方式的询问",
+        "options": [],
+        "question": "根据提示写句子：she / go to work / by bus",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "询问某人如何上班可以说“How does he go to work?”；回答步行时用“on foot”。",
+        "knowledge_point": "职业及通勤方式的询问",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“How does he go to work? — He goes to work on foot.” 这组问答表达正确吗？",
+        "score": 1,
+        "type": "true_false",
+        "id": 33
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "回答职业可以说“She is a teacher.”；回答通勤方式可以说“She goes to work by bike.”，两句都符合语法和语境。",
+        "knowledge_point": "职业及通勤方式的询问",
+        "options": [
+          "A: What does your mother do? B: She is teacher. A: How does she go to work? B: She goes to work by bike.",
+          "A: What do your mother do? B: She is a teacher. A: How does she goes to work? B: She goes to work by bike.",
+          "A: What does your mother do? B: She is a teacher. A: How does she go to work? B: She goes to work by bike."
+        ],
+        "question": "选择一组正确的问答。",
+        "score": 2,
+        "type": "choice",
+        "id": 34
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "Leo喜欢画画。设计师的工作常常需要绘画和设计，因此兴趣与职业工作内容相关。",
+        "knowledge_point": "职业规划与个人兴趣的逻辑关联",
+        "options": [
+          "A. I enjoy drawing, so I’d like to be a designer.",
+          "B. I enjoy drawing, so I’d like to be a cook.",
+          "C. I enjoy drawing, so I’d like to be a pilot.",
+          "D. I enjoy drawing, so I’d like to be a farmer."
+        ],
+        "question": "Leo enjoys drawing. Which sentence best connects his interest with a future job?",
+        "score": 2,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "句子说明了 Maya 喜欢帮助别人，而医生的工作包括照顾病人，因此兴趣和职业内容有关联。",
+        "knowledge_point": "职业规划与个人兴趣的逻辑关联",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Maya says, “I enjoy helping sick people, so I’d like to be a doctor.” Her interest is connected to her job choice.",
+        "score": 2,
+        "type": "true_false",
+        "id": 36
+      },
+      {
+        "answer": "because",
+        "difficulty": 1,
+        "explanation": "because 表示“因为”，可以引出选择某职业的理由：我喜欢种植植物，所以想成为一名农民。",
+        "knowledge_point": "职业规划与个人兴趣的逻辑关联",
+        "options": [],
+        "question": "Complete the sentence: I’d like to be a farmer ______ I enjoy growing plants.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 37
+      },
+      {
+        "answer": "A. I enjoy reading stories, so I’d like to be a writer.",
+        "difficulty": 2,
+        "explanation": "A 说明了阅读故事的兴趣与写故事的职业之间的联系。其他选项没有清楚解释这种兴趣如何与职业相关。",
+        "knowledge_point": "职业规划与个人兴趣的逻辑关联",
+        "options": [
+          "A. I enjoy reading stories, so I’d like to be a writer.",
+          "B. I enjoy reading stories, so I’d like to be a swimmer.",
+          "C. I enjoy reading stories, so I’d like to be a driver.",
+          "D. I enjoy reading stories, so I’d like to be a gardener."
+        ],
+        "question": "Amy enjoys reading stories and making up her own stories. Which sentence best explains her career choice?",
+        "score": 3,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "I’d like to be a teacher because I enjoy helping children learn.",
+        "difficulty": 2,
+        "explanation": "答案用 because 连接职业和兴趣：喜欢帮助孩子学习，是想成为老师的理由。也可使用其他合理职业与兴趣的组合，只要逻辑清楚。",
+        "knowledge_point": "职业规划与个人兴趣的逻辑关联",
+        "options": [],
+        "question": "Complete the sentence with a job and a reason: “I’d like to be a ______ because I enjoy ______.”",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "Sam喜欢修理东西，而工程师常常需要设计、制作或改进物品，因此 B 最清楚地说明了兴趣和职业之间的联系。",
+        "knowledge_point": "职业规划与个人兴趣的逻辑关联",
+        "options": [
+          "A. Sam enjoys fixing things, so he’d like to be a singer because he likes repairing machines.",
+          "B. Sam enjoys fixing things, so he’d like to be an engineer because he likes making and improving things.",
+          "C. Sam enjoys fixing things, so he’d like to be a dancer because he likes repairing bikes.",
+          "D. Sam enjoys fixing things, so he’d like to be a farmer because he likes fixing computers."
+        ],
+        "question": "Sam enjoys fixing things. Which sentence gives the clearest reason for his future job choice?",
+        "score": 3,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "teacher意为“教师”，通常在学校教书。",
+        "knowledge_point": "职业名词词义",
+        "options": [
+          "A. 医生",
+          "B. 教师",
+          "C. 司机",
+          "D. 农民"
+        ],
+        "question": "Which word means “教师”？",
+        "score": 2,
+        "type": "choice",
+        "id": 41
+      },
+      {
+        "answer": "doctor",
+        "difficulty": 1,
+        "explanation": "doctor意为“医生”。",
+        "knowledge_point": "职业名词词义",
+        "options": [],
+        "question": "医生的英文是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 42
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "farmer意为“农民”，通常从事农业劳动。",
+        "knowledge_point": "职业名词词义",
+        "options": [
+          "A. 农民",
+          "B. 护士",
+          "C. 飞行员",
+          "D. 教师"
+        ],
+        "question": "“farmer”是什么意思？",
+        "score": 2,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "driver",
+        "difficulty": 2,
+        "explanation": "driver意为“司机”，指驾驶车辆的人。",
+        "knowledge_point": "职业名词词义",
+        "options": [],
+        "question": "司机的英文是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 44
+      },
+      {
+        "answer": "teacher",
+        "difficulty": 2,
+        "explanation": "teacher意为“教师”；nurse意为“护士”。两者都是职业名词。",
+        "knowledge_point": "职业名词词义",
+        "options": [],
+        "question": "在“教师、护士、飞行员”中，表示“教师”的英文职业名词是什么？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "老师通常在学校（school）工作。A项医院通常是医生或护士工作的地方。",
+        "knowledge_point": "工作地点辨析",
+        "options": [
+          "A. hospital",
+          "B. school",
+          "C. farm"
+        ],
+        "question": "Where does a teacher usually work?",
+        "score": 2,
+        "type": "choice",
+        "id": 46
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "医生通常在医院（hospital）工作。",
+        "knowledge_point": "工作地点辨析",
+        "options": [
+          "A. hospital",
+          "B. factory",
+          "C. farm"
+        ],
+        "question": "A doctor usually works in a _____.",
+        "score": 2,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "farm",
+        "difficulty": 1,
+        "explanation": "农民通常在农场（farm）工作。",
+        "knowledge_point": "工作地点辨析",
+        "options": [],
+        "question": "A farmer usually works on a _____.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 48
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "厨师通常在餐馆（restaurant）工作，因此句子正确。",
+        "knowledge_point": "工作地点辨析",
+        "options": [],
+        "question": "A cook usually works in a restaurant.",
+        "score": 2,
+        "type": "true_false",
+        "id": 49
+      },
+      {
+        "answer": "factory",
+        "difficulty": 2,
+        "explanation": "工人通常在工厂工作，英文是 factory。完整句子是：A worker usually works in a factory.",
+        "knowledge_point": "工作地点辨析",
+        "options": [],
+        "question": "A worker usually works in a _____.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "likes",
+        "difficulty": 1,
+        "explanation": "主语She是第三人称单数，肯定句中的实义动词like要加-s，变为likes。",
+        "knowledge_point": "动词三单形式",
+        "options": [],
+        "question": "选词填空：She ______ (like) apples.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 51
+      },
+      {
+        "answer": "watches",
+        "difficulty": 2,
+        "explanation": "主语My brother是单数第三人称；watch以-ch结尾，通常加-es，变为watches。",
+        "knowledge_point": "动词三单形式",
+        "options": [],
+        "question": "用括号中动词的正确形式填空：My brother ______ TV after dinner. (watch)",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "studies",
+        "difficulty": 2,
+        "explanation": "主语Tom是第三人称单数。study以辅音字母加-y结尾，要先把y变成i，再加-es，变为studies。",
+        "knowledge_point": "动词三单形式",
+        "options": [],
+        "question": "用括号中动词的正确形式填空：Tom ______ English every day. (study)",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 53
+      },
+      {
+        "answer": "Does; play",
+        "difficulty": 2,
+        "explanation": "一般现在时的一般疑问句中，第三人称单数主语前用Does，后面的实义动词用原形play。",
+        "knowledge_point": "动词三单形式",
+        "options": [],
+        "question": "用do或does及括号中的动词完成句子：______ your sister ______ tennis? (play)",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "has",
+        "difficulty": 2,
+        "explanation": "主语The dog是第三人称单数，have的三单形式是不规则变化has。",
+        "knowledge_point": "动词三单形式",
+        "options": [],
+        "question": "用括号中动词的正确形式填空：The dog ______ a long tail. (have)",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 55
+      },
+      {
+        "answer": "artist",
+        "difficulty": 1,
+        "explanation": "artist意为“艺术家、画家”。喜欢画画的人可能适合成为艺术家。",
+        "knowledge_point": "职业与爱好的关联",
+        "options": [],
+        "question": "If you like drawing, you can be an ______.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 56
+      },
+      {
+        "answer": "A. doctor",
+        "difficulty": 2,
+        "explanation": "医生可以帮助病人，喜欢帮助和照顾别人的人可能适合成为医生。句子中的doctor以辅音音素开头，因此使用a。",
+        "knowledge_point": "职业与爱好的关联",
+        "options": [
+          "A. doctor",
+          "B. farmer",
+          "C. singer"
+        ],
+        "question": "If you like helping sick people, you can be a ______.",
+        "score": 2,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "If you like sports, you can be a PE teacher.",
+        "difficulty": 2,
+        "explanation": "sports意为“运动”，PE teacher意为“体育老师”。此句使用“If you like ..., you can be a/an ...”表达爱好与职业的联系。",
+        "knowledge_point": "职业与爱好的关联",
+        "options": [],
+        "question": "用英语完成句子：如果你喜欢运动，你可以成为一名体育老师。If you like ______, you can be a ______.",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "喜欢唱歌的人可能适合成为歌手（singer）。爱好可以作为选择职业的参考。",
+        "knowledge_point": "职业与爱好的关联",
+        "options": [],
+        "question": "If you like singing, you can be a singer.",
+        "score": 2,
+        "type": "true_false",
+        "id": 59
+      },
+      {
+        "answer": "B. an artist",
+        "difficulty": 2,
+        "explanation": "喜欢画画的人可能适合成为艺术家。artist以元音音素开头，所以前面用an；teacher以辅音音素开头，前面用a。",
+        "knowledge_point": "职业与爱好的关联",
+        "options": [
+          "A. a teacher",
+          "B. an artist",
+          "C. a driver"
+        ],
+        "question": "Which job may suit someone who likes painting?",
+        "score": 2,
+        "type": "choice",
+        "id": 60
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "by bus 意为“乘公共汽车”，by 后的交通工具前通常不加冠词。",
+        "knowledge_point": "交通方式表达",
+        "options": [
+          "A. on bus",
+          "B. by bus",
+          "C. by a bus"
+        ],
+        "question": "“乘公共汽车”用英语怎么说？",
+        "score": 2,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "on foot",
+        "difficulty": 1,
+        "explanation": "“步行”通常表达为 on foot，不用 by foot。",
+        "knowledge_point": "交通方式表达",
+        "options": [],
+        "question": "“步行”用英语怎么说？请填入短语。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 62
+      },
+      {
+        "answer": "How do you go to school?",
+        "difficulty": 2,
+        "explanation": "询问对方怎样去学校，常用“How do you go to school?”。",
+        "knowledge_point": "交通方式表达",
+        "options": [],
+        "question": "根据中文提示补全句子：你怎样去学校？__________",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "I go to the park by bike.",
+        "difficulty": 2,
+        "explanation": "回答交通方式时，可用“主语 + go to + 地点 + by + 交通工具”。by bike 表示骑自行车。",
+        "knowledge_point": "交通方式表达",
+        "options": [],
+        "question": "用英语写一句话：我骑自行车去公园。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 64
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "by train 意为“乘火车”。by 后直接接交通工具名称，通常不加 a。",
+        "knowledge_point": "交通方式表达",
+        "options": [
+          "A. by a train",
+          "B. by train",
+          "C. on train"
+        ],
+        "question": "选择正确表达：我们乘火车去上海。We go to Shanghai ________.",
+        "score": 3,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "likes",
+        "difficulty": 1,
+        "explanation": "She 是第三人称单数，肯定句中的一般现在时实义动词 like 要加 -s。",
+        "knowledge_point": "代词与谓语一致性",
+        "options": [
+          "like",
+          "likes",
+          "liking",
+          "is like"
+        ],
+        "question": "She ______ reading storybooks.",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "play",
+        "difficulty": 1,
+        "explanation": "主语 They 是复数，肯定句中一般现在时的实义动词用原形 play。",
+        "knowledge_point": "代词与谓语一致性",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "is play"
+        ],
+        "question": "They ______ football after school.",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "doesn't",
+        "difficulty": 2,
+        "explanation": "Tom 是第三人称单数，否定句使用 doesn't；助动词后面的实义动词用原形 watch。",
+        "knowledge_point": "代词与谓语一致性",
+        "options": [
+          "don't",
+          "doesn't",
+          "isn't",
+          "aren't"
+        ],
+        "question": "Tom ______ watch TV on school nights.",
+        "score": 5,
+        "type": "choice",
+        "id": 68
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "主语 He 是第三人称单数，be 动词应使用 is。",
+        "knowledge_point": "代词与谓语一致性",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "question": "He ______ my best friend.",
+        "score": 5,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "Do",
+        "difficulty": 2,
+        "explanation": "主语 you 搭配助动词 do，构成一般现在时的一般疑问句；主语后的实义动词用原形 have。",
+        "knowledge_point": "代词与谓语一致性",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "question": "______ you have a pet?",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "teacher",
+        "difficulty": 1,
+        "explanation": "在学校教学生的人是教师（teacher）。",
+        "knowledge_point": "职业词汇辨析",
+        "options": [
+          "teacher",
+          "farmer",
+          "driver",
+          "cook"
+        ],
+        "question": "She teaches children at school. She is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "doctor",
+        "difficulty": 1,
+        "explanation": "医生照顾病人并帮助他们恢复健康；句中 sick people（病人）是提示。",
+        "knowledge_point": "职业词汇辨析",
+        "options": [
+          "nurse",
+          "doctor",
+          "worker",
+          "postman"
+        ],
+        "question": "He works in a hospital and helps sick people. He is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "driver",
+        "difficulty": 1,
+        "explanation": "驾驶公交车的人是司机（driver）；句中的 drives 和 bus 提供了线索。",
+        "knowledge_point": "职业词汇辨析",
+        "options": [
+          "farmer",
+          "driver",
+          "teacher",
+          "cook"
+        ],
+        "question": "My uncle drives a bus every day. He is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "farmer",
+        "difficulty": 1,
+        "explanation": "在农场种植庄稼或饲养动物的人是农民（farmer）。",
+        "knowledge_point": "职业词汇辨析",
+        "options": [
+          "farmer",
+          "doctor",
+          "postman",
+          "nurse"
+        ],
+        "question": "He grows vegetables on a farm. He is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "cook",
+        "difficulty": 1,
+        "explanation": "在餐馆为顾客做饭的人是厨师（cook）；make meals（做饭）是关键词。",
+        "knowledge_point": "职业词汇辨析",
+        "options": [
+          "cook",
+          "driver",
+          "teacher",
+          "worker"
+        ],
+        "question": "She makes meals in a restaurant. She is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "to",
+        "difficulty": 1,
+        "explanation": "listen to 是固定搭配，表示“听……”。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "at",
+          "to",
+          "for",
+          "on"
+        ],
+        "question": "Please listen ______ the teacher carefully.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "表示在具体星期几时通常用 on，因此说 on Monday。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "to"
+        ],
+        "question": "We have an English lesson ______ Monday.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "表示具体时刻通常用 at，因此说 at seven o’clock。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "for"
+        ],
+        "question": "The film starts ______ seven o’clock.",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "for",
+        "difficulty": 2,
+        "explanation": "wait for 是固定搭配，表示“等待……”。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "to",
+          "for",
+          "at",
+          "in"
+        ],
+        "question": "I’m waiting ______ my friend outside the library.",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "at",
+        "difficulty": 2,
+        "explanation": "be good at 是固定搭配，表示“擅长……”。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "question": "Amy is good ______ drawing pictures.",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "get up",
+        "difficulty": 1,
+        "explanation": "get up 意为“起床”。句子表示我每天早上七点起床。",
+        "knowledge_point": "短语理解",
+        "options": [
+          "get up",
+          "go to bed",
+          "look at",
+          "come from"
+        ],
+        "question": "I ______ at seven o’clock every morning.",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "看起来像",
+        "difficulty": 1,
+        "explanation": "look like 意为“看起来像”。",
+        "knowledge_point": "短语理解",
+        "options": [],
+        "question": "“look like” 的意思是 ______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "T",
+        "difficulty": 1,
+        "explanation": "play football 意为“踢足球”，符合句意。",
+        "knowledge_point": "短语理解",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“They play football after school.” 意思是“他们放学后踢足球。”",
+        "score": 5,
+        "type": "true_false",
+        "id": 83
+      },
+      {
+        "answer": "put on",
+        "difficulty": 2,
+        "explanation": "天气冷时需要穿上外套。put on 意为“穿上”，强调穿衣的动作。",
+        "knowledge_point": "短语理解",
+        "options": [
+          "put on",
+          "take off",
+          "turn on",
+          "look for"
+        ],
+        "question": "It is cold outside. Please ______ your coat.",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "look after",
+        "difficulty": 2,
+        "explanation": "look after 意为“照顾”。句意是“莉莉每天照顾她的弟弟”。",
+        "knowledge_point": "短语理解",
+        "options": [
+          "look at",
+          "look for",
+          "look after",
+          "look up"
+        ],
+        "question": "Lily ______ her little brother every day.",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "问“你住在哪里？”用 Where。主语是 you，疑问句中用 do。",
+        "knowledge_point": "询问地点",
+        "options": [
+          "Where",
+          "When",
+          "Who",
+          "Why"
+        ],
+        "question": "______ do you live? — I live in Beijing.",
+        "score": 5,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "Where is your school?",
+        "difficulty": 2,
+        "explanation": "询问学校在哪里用 Where；主语 your school 是单数，be 动词用 is，并放在主语前。",
+        "knowledge_point": "询问地点",
+        "options": [],
+        "question": "用 Where 和 is 将词语连成句子：your school",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 87
+      },
+      {
+        "answer": "does",
+        "difficulty": 2,
+        "explanation": "主语 Lily 是第三人称单数，询问她在哪里上学时用 does；后面的动词 study 保持原形。",
+        "knowledge_point": "询问地点",
+        "options": [],
+        "question": "Where ______ Lily study?（填入适当的助动词）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 88
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "句子使用 Where 询问地点，且主语 we 后面使用 are，语序正确。",
+        "knowledge_point": "询问地点",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "“Where are we?”可以用来询问“我们在哪里吗？”",
+        "score": 5,
+        "type": "true_false",
+        "id": 89
+      },
+      {
+        "answer": "Where does Tom play football?",
+        "difficulty": 3,
+        "explanation": "将地点短语 after school 作为提问对象，用 Where 替换；Tom 是第三人称单数，所以用 does，动词 play 用原形。",
+        "knowledge_point": "询问地点",
+        "options": [],
+        "question": "把句子 “Tom plays football in the park.” 改成对地点提问的疑问句。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 90
+      },
+      {
+        "answer": "library",
+        "difficulty": 1,
+        "explanation": "图书馆的英文是 library，字母顺序是 l-i-b-r-a-r-y。",
+        "knowledge_point": "词汇拼写",
+        "options": [
+          "librery",
+          "library",
+          "libary",
+          "librarey"
+        ],
+        "question": "We can read and borrow books in a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "Saturday",
+        "difficulty": 1,
+        "explanation": "星期六是 Saturday，拼写时注意中间的字母组合 tur。",
+        "knowledge_point": "词汇拼写",
+        "options": [
+          "Saterday",
+          "Saturday",
+          "Satuday",
+          "Saterdy"
+        ],
+        "question": "We don't go to school on ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "beautiful",
+        "difficulty": 2,
+        "explanation": "“美丽的”是 beautiful，常见拼写是 b-e-a-u-t-i-f-u-l。",
+        "knowledge_point": "词汇拼写",
+        "options": [
+          "beautifull",
+          "beutiful",
+          "beautiful",
+          "beautifil"
+        ],
+        "question": "The flowers are very ______. I like them.",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "because",
+        "difficulty": 2,
+        "explanation": "because 表示“因为”，注意拼写中间是 cause，不要漏写字母 a。",
+        "knowledge_point": "词汇拼写",
+        "options": [
+          "becase",
+          "becuase",
+          "because",
+          "becouse"
+        ],
+        "question": "I stayed at home ______ it was rainy.",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "different",
+        "difficulty": 2,
+        "explanation": "different 意为“不同的”，正确拼写为 d-i-f-f-e-r-e-n-t，注意开头有两个 f。",
+        "knowledge_point": "词汇拼写",
+        "options": [
+          "diferent",
+          "different",
+          "diffrent",
+          "differant"
+        ],
+        "question": "The two pictures are not the same. They are ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "likes",
+        "difficulty": 1,
+        "explanation": "Tom 是第三人称单数，一般现在时动词 like 要加 -s，变为 likes。",
+        "knowledge_point": "主谓一致",
+        "options": [
+          "like",
+          "likes",
+          "liking",
+          "to like"
+        ],
+        "question": "Tom ______ apples.",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "play",
+        "difficulty": 1,
+        "explanation": "They 是复数主语，一般现在时使用动词原形 play。",
+        "knowledge_point": "主谓一致",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "to plays"
+        ],
+        "question": "They ______ football after school.",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "The cat 是单数名词，be 动词要用 is。",
+        "knowledge_point": "主谓一致",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "question": "The cat ______ under the table.",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "We 是复数人称代词，be 动词要用 are。",
+        "knowledge_point": "主谓一致",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "question": "We ______ good friends.",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "watches",
+        "difficulty": 2,
+        "explanation": "My brother 是第三人称单数；watch 以 ch 结尾，一般现在时第三人称单数形式加 -es，写作 watches。",
+        "knowledge_point": "主谓一致",
+        "options": [
+          "watch",
+          "watchs",
+          "watches",
+          "watching"
+        ],
+        "question": "My brother ______ TV in the evening.",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "句意是“如果你感到口渴，你可以喝一些水。”感到口渴时喝水符合逻辑。",
+        "knowledge_point": "逻辑推理",
+        "options": [
+          "drink some water",
+          "wear a warm coat",
+          "go to bed"
+        ],
+        "question": "If you feel thirsty, you can ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "because",
+        "difficulty": 2,
+        "explanation": "后半句说明了我带伞的原因：外面正在下雨。because 用来引出原因。",
+        "knowledge_point": "逻辑推理",
+        "options": [],
+        "question": "I take an umbrella ______ it is raining outside.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 102
+      },
+      {
+        "answer": "True",
+        "difficulty": 2,
+        "explanation": "妈妈说太阳下山后天会变暗。太阳下山后天变暗，符合句子给出的信息。",
+        "knowledge_point": "逻辑推理",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Mum says, “The sky gets dark after the sun goes down.” So, after the sun goes down, the sky gets dark.",
+        "score": 5,
+        "type": "true_false",
+        "id": 103
+      },
+      {
+        "answer": "Because it is cold.",
+        "difficulty": 2,
+        "explanation": "句子说明了 Ben 戴帽子的原因是天气冷。Because it is cold. 意为“因为天气很冷”。",
+        "knowledge_point": "逻辑推理",
+        "options": [],
+        "question": "Ben wears a hat because it is cold. Why does Ben wear a hat?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "A",
+        "difficulty": 3,
+        "explanation": "句意是“如果你先完成作业，就可以之后看电视。”题目说作业已经完成，因此可以得出之后可以看电视。选项 A 符合这个条件。",
+        "knowledge_point": "逻辑推理",
+        "options": [
+          "She can watch TV later.",
+          "She must do her homework again.",
+          "She cannot watch TV ever."
+        ],
+        "question": "Lily says, “If I finish my homework, I can watch TV later.” Lily has finished her homework. What can we infer?",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "When",
+        "difficulty": 1,
+        "explanation": "答语 at seven o’clock 表示时间，询问“什么时候”用 When。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Where",
+          "When",
+          "Who",
+          "Why"
+        ],
+        "question": "— ______ do you get up? — At seven o’clock.",
+        "score": 5,
+        "type": "choice",
+        "id": 106
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "答语 In the library 表示地点，询问“在哪里”用 Where。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "What",
+          "Who",
+          "Where",
+          "When"
+        ],
+        "question": "— ______ are the students reading? — In the library.",
+        "score": 5,
+        "type": "choice",
+        "id": 107
+      },
+      {
+        "answer": "Who",
+        "difficulty": 1,
+        "explanation": "答语 My brother 指一个人，询问“谁”用 Who。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Whose",
+          "Who",
+          "Which",
+          "What"
+        ],
+        "question": "— ______ is playing football? — My brother.",
+        "score": 5,
+        "type": "choice",
+        "id": 108
+      },
+      {
+        "answer": "Why",
+        "difficulty": 2,
+        "explanation": "答语 Because I’m tired 说明原因，询问“为什么”用 Why。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "How",
+          "When",
+          "Why",
+          "Where"
+        ],
+        "question": "— ______ do you want to go home? — Because I’m tired.",
+        "score": 5,
+        "type": "choice",
+        "id": 109
+      },
+      {
+        "answer": "Whose",
+        "difficulty": 2,
+        "explanation": "答语 It’s Tom’s 表示物品属于汤姆，询问“谁的”用 Whose。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Who",
+          "What",
+          "Whose",
+          "Which"
+        ],
+        "question": "— ______ book is this? — It’s Tom’s.",
+        "score": 5,
+        "type": "choice",
+        "id": 110
+      },
+      {
+        "answer": "doctor",
+        "difficulty": 2,
+        "explanation": "doctor 是“医生”。想帮助病人，可以说：“I want to be a doctor.”",
+        "knowledge_point": "职业规划",
+        "options": [
+          "doctor",
+          "farmer",
+          "driver",
+          "cook"
+        ],
+        "question": "I want to help sick people. I want to be a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 111
+      },
+      {
+        "answer": "an",
+        "difficulty": 2,
+        "explanation": "artist 以元音音素开头，因此前面用 an。完整句子是“I want to be an artist.”",
+        "knowledge_point": "职业规划",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "不填"
+        ],
+        "question": "I want to be ______ artist.",
+        "score": 5,
+        "type": "choice",
+        "id": 112
+      },
+      {
+        "answer": "T",
+        "difficulty": 1,
+        "explanation": "teacher 的意思是“教师”，这句话表示“我想成为一名教师”。",
+        "knowledge_point": "职业规划",
+        "options": [
+          "T",
+          "F"
+        ],
+        "question": "“I want to be a teacher.” 的意思是“我想成为一名教师。”",
+        "score": 5,
+        "type": "true_false",
+        "id": 113
+      },
+      {
+        "answer": "pilot",
+        "difficulty": 2,
+        "explanation": "pilot 是“飞行员”。句型“I want to be a ...”表示“我想成为一名……”。",
+        "knowledge_point": "职业规划",
+        "options": [],
+        "question": "I want to fly a plane. I want to be a ______.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 114
+      },
+      {
+        "answer": "I want to be a teacher because I like children.",
+        "difficulty": 3,
+        "explanation": "用“I want to be a/an + 职业”表达职业理想，再用“because”说明原因。teacher 前用 a。",
+        "knowledge_point": "职业规划",
+        "options": [],
+        "question": "用英语写一句话：我想成为一名教师，因为我喜欢孩子。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "teacher",
+        "difficulty": 1,
+        "explanation": "A teacher teaches students，意思是“教师教学生”。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "A person who teaches students is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "doctor",
+        "difficulty": 1,
+        "explanation": "A doctor helps sick people，意思是“医生帮助病人”。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "A person who helps sick people is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "nurse",
+        "difficulty": 2,
+        "explanation": "Nurse 是“护士”。字母 n 的发音是辅音音素，因此前面用 a：a nurse。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "My aunt works in a hospital and takes care of patients. She is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "She is an artist.",
+        "difficulty": 2,
+        "explanation": "Artist 意为“艺术家”，以元音音素开头，因此前面用 an。完整句子是 She is an artist.",
+        "knowledge_point": "职业词汇",
+        "options": [
+          "She is a artist.",
+          "She is an artist.",
+          "She are an artist.",
+          "She is an teacher."
+        ],
+        "question": "Choose the correct sentence.",
+        "score": 5,
+        "type": "choice",
+        "id": 119
+      },
+      {
+        "answer": "He is a farmer.",
+        "difficulty": 2,
+        "explanation": "What does he do? 用来询问男性的职业；farmer 意为“农民”，回答为 He is a farmer.",
+        "knowledge_point": "职业词汇",
+        "options": [
+          "He is a farmer.",
+          "She is a doctor.",
+          "He flies a plane."
+        ],
+        "question": "A: What does your grandfather do? B: ______",
+        "score": 5,
+        "type": "choice",
+        "id": 120
+      },
+      {
+        "answer": "plays",
+        "difficulty": 1,
+        "explanation": "主语Tom是第三人称单数，表示一般现在时，play后加-s。",
+        "knowledge_point": "动词形式",
+        "options": [],
+        "question": "Tom ______ (play) basketball after school every day.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "are watching",
+        "difficulty": 2,
+        "explanation": "now表示动作正在发生；主语They后用are，watch加-ing，构成现在进行时。",
+        "knowledge_point": "动词形式",
+        "options": [],
+        "question": "They ______ (watch) TV now.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "went",
+        "difficulty": 2,
+        "explanation": "yesterday表示过去，go是不规则动词，其过去式是went。",
+        "knowledge_point": "动词形式",
+        "options": [],
+        "question": "We ______ (go) to the park yesterday.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "eat",
+        "difficulty": 1,
+        "explanation": "情态动词can后接动词原形，因此使用eat，不加-s或其他词尾。",
+        "knowledge_point": "动词形式",
+        "options": [],
+        "question": "My little sister can ______ (eat) by herself.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "are",
+        "difficulty": 2,
+        "explanation": "The subject “The boys and their teacher” refers to more than one person, so the correct be verb is “are.” “Now” shows the sentence describes the present situation.",
+        "knowledge_point": "动词形式",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "question": "Choose the correct answer: The boys and their teacher ______ in the classroom now.",
+        "score": 5,
+        "type": "choice",
+        "id": 125
+      },
+      {
+        "answer": "hospital",
+        "difficulty": 1,
+        "explanation": "医生通常在医院工作，所以填 hospital。",
+        "knowledge_point": "地点词汇",
+        "options": [],
+        "question": "A doctor works in a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "library",
+        "difficulty": 1,
+        "explanation": "图书馆是读书和借书的地方，所以填 library。",
+        "knowledge_point": "地点词汇",
+        "options": [],
+        "question": "We can read and borrow books in a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "park",
+        "difficulty": 1,
+        "explanation": "公园是人们散步、玩耍和休闲的地方，所以填 park。",
+        "knowledge_point": "地点词汇",
+        "options": [],
+        "question": "Children can play and run in the ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "cinema",
+        "difficulty": 2,
+        "explanation": "电影院是看电影的地方，所以填 cinema。",
+        "knowledge_point": "地点词汇",
+        "options": [],
+        "question": "We go to the ______ to watch a film.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "supermarket",
+        "difficulty": 2,
+        "explanation": "超市里可以买到食物和日用品，所以填 supermarket。",
+        "knowledge_point": "地点词汇",
+        "options": [],
+        "question": "Mum buys food and drinks at the ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "to",
+        "difficulty": 1,
+        "explanation": "“听音乐”常用固定搭配 listen to music。",
+        "knowledge_point": "固定搭配",
+        "options": [],
+        "question": "I like listening ______ music.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 131
+      },
+      {
+        "answer": "at",
+        "difficulty": 2,
+        "explanation": "“擅长……”用 be good at，at 后面可以接名词或动名词。",
+        "knowledge_point": "固定搭配",
+        "options": [],
+        "question": "Amy is good ______ drawing.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
+      },
+      {
+        "answer": "at",
+        "difficulty": 2,
+        "explanation": "“看……”用 look at，不能遗漏介词 at。",
+        "knowledge_point": "固定搭配",
+        "options": [],
+        "question": "Please look ______ the picture.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 133
+      },
+      {
+        "answer": "in",
+        "difficulty": 3,
+        "explanation": "“对……感兴趣”用 be interested in。",
+        "knowledge_point": "固定搭配",
+        "options": [],
+        "question": "Tom is interested ______ science.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 134
+      },
+      {
+        "answer": "a good time",
+        "difficulty": 2,
+        "explanation": "“玩得开心”可以表达为 have a good time。",
+        "knowledge_point": "固定搭配",
+        "options": [],
+        "question": "We had ______ ______ ______ at the park yesterday.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 135
+      },
+      {
+        "answer": "A-3，B-1，C-2",
+        "difficulty": 1,
+        "explanation": "teacher 是“老师”；farmer 是“农民”；doctor 是“医生”。",
+        "knowledge_point": "词汇中英匹配",
+        "options": [
+          "teacher",
+          "farmer",
+          "doctor",
+          "医生",
+          "老师",
+          "农民"
+        ],
+        "question": "将英文职业与中文意思匹配。A. teacher；B. farmer；C. doctor。①农民；②医生；③老师。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 136
+      },
+      {
+        "answer": "A-2，B-3，C-1",
+        "difficulty": 1,
+        "explanation": "school 意为“学校”；hospital 意为“医院”；sea 意为“大海”。",
+        "knowledge_point": "词汇中英匹配",
+        "options": [
+          "school",
+          "hospital",
+          "sea",
+          "大海",
+          "学校",
+          "医院"
+        ],
+        "question": "将下列英文单词与中文意思匹配。A. school；B. hospital；C. sea。①医院；②学校；③大海。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "A-2，B-3，C-1",
+        "difficulty": 2,
+        "explanation": "stay healthy 是“保持健康”；work hard 是“努力工作”；go fishing 是“去钓鱼”。",
+        "knowledge_point": "词汇中英匹配",
+        "options": [
+          "stay healthy",
+          "work hard",
+          "go fishing",
+          "去钓鱼",
+          "保持健康",
+          "努力工作"
+        ],
+        "question": "将下列英文短语与中文意思匹配。A. stay healthy；B. work hard；C. go fishing。①努力工作；②保持健康；③去钓鱼。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 138
+      },
+      {
+        "answer": "大海",
+        "difficulty": 1,
+        "explanation": "sea 是名词，意思是“大海”。",
+        "knowledge_point": "词汇中英匹配",
+        "options": [],
+        "question": "sea 的中文意思是______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 139
+      },
+      {
+        "answer": "保持健康",
+        "difficulty": 2,
+        "explanation": "stay healthy 是一个短语，表示“保持健康”。",
+        "knowledge_point": "词汇中英匹配",
+        "options": [],
+        "question": "stay healthy 的中文意思是______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 140
+      },
+      {
+        "answer": "A teacher teaches students.",
+        "difficulty": 1,
+        "explanation": "Teacher（教师）教学生，因此正确句子是“A teacher teaches students.”",
+        "knowledge_point": "职业与工作内容匹配",
+        "options": [
+          "A doctor grows crops.",
+          "A teacher teaches students.",
+          "A farmer takes care of sick people.",
+          "A police officer delivers letters."
+        ],
+        "question": "Which sentence correctly matches a job with its work?",
+        "score": 5,
+        "type": "choice",
+        "id": 141
+      },
+      {
+        "answer": "police officer",
+        "difficulty": 1,
+        "explanation": "police officer 意为“警察”。警察帮助人们并维护安全。",
+        "knowledge_point": "职业与工作内容匹配",
+        "options": [],
+        "question": "A ______ helps people and keeps them safe.（一位______帮助人们并保护他们的安全。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 142
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "A postman（邮递员）delivers letters（投递信件），所以句子正确。",
+        "knowledge_point": "职业与工作内容匹配",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "A postman delivers letters.（邮递员投递信件。）",
+        "score": 5,
+        "type": "true_false",
+        "id": 143
+      },
+      {
+        "answer": "works",
+        "difficulty": 2,
+        "explanation": "描述某人的日常工作时，可以说 A nurse works in a hospital. 表示“一位护士在医院工作”。",
+        "knowledge_point": "职业与工作内容匹配",
+        "options": [],
+        "question": "A nurse ______ in a hospital.（一位护士在医院工作。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 144
+      },
+      {
+        "answer": "She is good at teaching students.",
+        "difficulty": 2,
+        "explanation": "teacher 意为“教师”，常见工作内容是教学生。be good at 表示“擅长”，at 后面的动词要用-ing形式，因此用 teaching。",
+        "knowledge_point": "职业与工作内容匹配",
+        "options": [],
+        "question": "根据提示完成句子：She is a teacher. She is good at ______ students.（teach）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 145
+      },
+      {
+        "answer": "do",
+        "difficulty": 1,
+        "explanation": "主语they不是第三人称单数，询问他们的职业时用“What do they do?”。",
+        "knowledge_point": "核心句型",
+        "options": [
+          "do",
+          "does"
+        ],
+        "question": "选择正确的词填空：What ___ they do?",
+        "score": 5,
+        "type": "choice",
+        "id": 146
+      },
+      {
+        "answer": "does",
+        "difficulty": 1,
+        "explanation": "主语Amy是第三人称单数，因此特殊疑问句中用does。",
+        "knowledge_point": "核心句型",
+        "options": [
+          "do",
+          "does"
+        ],
+        "question": "选择正确的词填空：What ___ Amy do?",
+        "score": 5,
+        "type": "choice",
+        "id": 147
+      },
+      {
+        "answer": "Where does your father work?",
+        "difficulty": 2,
+        "explanation": "询问工作地点用Where；your father是第三人称单数，所以用does，后接动词原形work。",
+        "knowledge_point": "核心句型",
+        "options": [],
+        "question": "根据提示写出完整句子：你的爸爸在哪里工作？（Where / your father / work）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 148
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "问句“What does your mother do?”询问妈妈的职业。“She is a nurse.”意为“她是一名护士”，回答合适。",
+        "knowledge_point": "核心句型",
+        "options": [
+          "A. She is a nurse.",
+          "B. She works in a hospital.",
+          "C. She likes reading."
+        ],
+        "question": "选择合适的答句：What does your mother do?",
+        "score": 5,
+        "type": "choice",
+        "id": 149
+      },
+      {
+        "answer": "does",
+        "difficulty": 2,
+        "explanation": "句子主语是he，需用does；does后面的动词必须用原形，所以应为“What does he do?”。",
+        "knowledge_point": "核心句型",
+        "options": [],
+        "question": "填空：What ___ he ___?（询问他的职业）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 150
       }
     ]
   },
@@ -678,6 +2406,281 @@
         "like后面忘记加动词ing形式"
       ],
       "tips": "注意职业词汇前面的冠词：a doctor, an artist。"
+    },
+    {
+      "common_mistakes": [
+        "混淆职业名称和工作场所名称，例如把 hospital（医院）当作 doctor（医生）。",
+        "认为某种职业只能在一个固定场所工作；有些职业可能在不同地方工作。",
+        "拼写职业词时漏掉或错写字母，如 teacher、nurse。"
+      ],
+      "core_concept": "职业名词表示一个人从事的工作；工作场所表示这个人通常在哪里工作。学习常见职业及其工作场所，并用 “A/An … works in/at …” 表达对应关系。",
+      "key_formula": "A/An + 职业 + works in/at + 工作场所. 例如：A doctor works in a hospital. An office worker works in an office.",
+      "point": "职业名词与工作场所对应",
+      "tips": "记忆时把职业和常见工作场所成对学习。表达工作场所时，许多较大的室内场所前用 in，如 in a hospital、in a school；特定地点或场所名称前常用 at，如 at a restaurant；农场常说 on a farm。职业以辅音音素开头通常用 a，以元音音素开头通常用 an，如 a teacher、an office worker。"
+    },
+    {
+      "common_mistakes": [
+        "询问职业时，注意使用“What does … do?”，不要说“What is … do?”",
+        "主语是第三人称单数时，回答中动词通常加-s，如“She works…”",
+        "询问某人如何上班，用“How does … go to work?”；回答可用“by bus/by bike/on foot”等表达方式。",
+        "表示乘坐具体交通工具通常用“by + 交通工具”，但“步行”说“on foot”，不说“by foot”。"
+      ],
+      "core_concept": "本课学习询问和描述职业及通勤方式。询问某人的职业可以说“What does he/she do?”，询问某人如何上班可以说“How does he/she go to work?”。回答时根据主语使用合适的动词形式，并用交通方式表达通勤方法。",
+      "key_formula": "职业：What does + 人 + do? — He/She is a/an + 职业. / He/She works as a/an + 职业.；通勤：How does + 人 + go to work? — He/She goes to work by + 交通工具. / He/She goes to work on foot.",
+      "point": "职业及通勤方式的询问",
+      "tips": "职业前通常用a或an，具体取决于后面单词开头的发音，如a teacher、an actor。描述第三人称单数的日常通勤时，问句用does，回答中的go要变为goes。交通方式可说by bus、by car、by train、by bike，也可说on foot。"
+    },
+    {
+      "common_mistakes": [
+        "只说职业名称，不说明兴趣与职业之间的联系。",
+        "认为有兴趣就一定适合某种职业；还要考虑能力、学习和实际工作内容。",
+        "把“I like...”和“... is a good job for me”直接并列，却没有解释原因。"
+      ],
+      "core_concept": "谈论职业规划时，可以把个人兴趣与职业的日常工作联系起来，说明自己为什么喜欢或适合某种职业。常用表达有“I’m interested in...”“I enjoy...”“I’d like to be a...”“This job is a good fit for me because...”。",
+      "key_formula": "I enjoy + 名词/动词-ing. I’d like to be a + 职业 + because + 兴趣与工作内容的联系。",
+      "point": "职业规划与个人兴趣的逻辑关联",
+      "tips": "先说自己喜欢什么，再想想哪些职业会用到这种兴趣，最后用 because 解释理由。例如：I enjoy helping people, so I’d like to be a nurse. I think it would be a good fit because nurses care for people."
+    },
+    {
+      "common_mistakes": [
+        "把职业名词与相近职业混淆，如pilot（飞行员）和driver（司机）。",
+        "注意有些职业名词以-er或-or结尾，但不能只凭词尾猜词义。"
+      ],
+      "core_concept": "职业名词表示从事某种工作的人。学习时要把英语单词与职业名称对应起来，并结合工作内容记忆。",
+      "key_formula": "职业名词 = 表示从事某种职业的人的名词",
+      "point": "职业名词词义",
+      "tips": "可以用“职业—工作场所—工作内容”联想记忆，例如pilot—飞机—驾驶飞机；doctor—医院—看病。"
+    },
+    {
+      "common_mistakes": [
+        "不要把职业和工作地点混淆：worker（工人）通常在 factory（工厂）工作；doctor（医生）和 nurse（护士）通常在 hospital（医院）工作。",
+        "表示某人在某地工作，常用 work in a/an + 地点。",
+        "有些职业可能在多个地点工作，题目中的 usually 表示“通常”，应根据常见职业特点判断。"
+      ],
+      "core_concept": "认识常见职业及其通常的工作地点，并能用简单英语描述职业与工作地点的关系。",
+      "key_formula": "职业 + usually works in a/an + 工作地点.\n例：A teacher usually works in a school.（老师通常在学校工作。）",
+      "point": "工作地点辨析",
+      "tips": "先找出句子中的职业，再判断它通常在哪里工作。常见搭配：teacher—school，doctor/nurse—hospital，worker—factory，farmer—farm，cook—restaurant，driver—bus/taxi。注意 a/an 的用法，如 a school、an office。"
+    },
+    {
+      "common_mistakes": [
+        "主语是he、she、it或单数名词时，肯定句的实义动词容易忘记加-s或-es。",
+        "动词以辅音字母加y结尾时，容易误加-s；应先将y变为i，再加-es。",
+        "在does或doesn't后，容易把动词再次变成三单形式；此时应使用动词原形。"
+      ],
+      "core_concept": "一般现在时中，主语是第三人称单数时，肯定句的实义动词通常要加-s或-es。he、she、it以及一个人或一个事物的名称，常作第三人称单数主语。在疑问句和否定句中，通常使用does或doesn't，后面的实义动词用原形。",
+      "key_formula": "肯定句：主语（he/she/it/单数名词）+ 动词三单形式；疑问句：Does + 主语 + 动词原形？；否定句：主语 + doesn't + 动词原形。",
+      "point": "动词三单形式",
+      "tips": "判断动词形式前，先找句子的主语，再看句子是否是一般现在时。主语是he、she、it或单数名词，且是肯定句时，使用动词三单形式；看到does或doesn't时，记得后面用动词原形。"
+    },
+    {
+      "common_mistakes": [
+        "不要认为一种爱好只能对应一种职业，同一种爱好可能适合多种职业。",
+        "表达职业与爱好的联系时，注意使用正确的职业名称和句型。",
+        "兴趣可以帮助人们选择职业，但职业还需要相应的学习和技能。"
+      ],
+      "core_concept": "爱好可以为选择职业提供参考。喜欢运动的人可能适合成为运动员或体育老师；喜欢画画的人可能适合成为画家；喜欢帮助别人、照顾病人的人可能适合成为医生或护士。爱好和职业不是固定的一一对应关系。",
+      "key_formula": "表达职业与爱好的联系：If you like + 爱好, you can be a/an + 职业. 例如：If you like drawing, you can be an artist.",
+      "point": "职业与爱好的关联",
+      "tips": "先找出句子中的爱好，再判断所选职业是否与这种爱好相符。回答时可使用Yes, you can.或No, you can't.；也可以补充更合适的职业。"
+    },
+    {
+      "common_mistakes": [
+        "表示乘坐某种交通工具时，通常用 by + 交通工具名称，且交通工具前不加 a 或 the，如 by bus。",
+        "说“步行”用 on foot，不说 by foot。",
+        "描述正在乘坐交通工具时，可以用 take a bus 或 ride a bike 等表达；它们的结构与 by bus、by bike 不同。"
+      ],
+      "core_concept": "表达交通方式常用 by + 交通工具名称，如 by bus（乘公共汽车）、by train（乘火车）、by bike（骑自行车）、by plane（乘飞机）。询问交通方式常用“How do you go to school?”，回答可用“I go to school by bus.”。步行用 on foot。",
+      "key_formula": "How do/does + 主语 + go/get to + 地点? 主语 + go/goes/get/gets to + 地点 + by + 交通工具.；步行：on foot。",
+      "point": "交通方式表达",
+      "tips": "记住 by 后直接接交通工具名称，通常不加冠词；可以通过问答练习巩固：How do you go to the park? I go by bike. 注意说“步行”时用 on foot。"
+    },
+    {
+      "common_mistakes": [
+        "把单数代词 he、she、it 或单数人名与动词原形搭配，如 he play；一般现在时中应在动词后加 -s 或 -es。",
+        "把复数代词 they、we、you 与动词的第三人称单数形式搭配。",
+        "在 does 或 doesn't 后仍给实义动词加 -s，如 does likes；助动词后应使用动词原形。",
+        "忘记 be 动词也要与主语一致：I am，he/she/it is，you/we/they are。"
+      ],
+      "core_concept": "谓语动词的形式要与主语的人称和单复数保持一致。一般现在时中，he、she、it 及单数人名作主语时，肯定句的实义动词通常加 -s 或 -es；否定句和一般疑问句使用 does/doesn't，后面的实义动词用原形。I、you、we、they 及复数名词作主语时，通常使用动词原形，否定句和一般疑问句使用 do/don't。be 动词则根据主语选择 am、is 或 are。",
+      "key_formula": "一般现在时：I/you/we/they + 动词原形；he/she/it/单数名词 + 动词-s/-es。疑问句：Do/Does + 主语 + 动词原形？否定句：主语 + don't/doesn't + 动词原形。be 动词：I am；he/she/it is；you/we/they are。",
+      "point": "代词与谓语一致性",
+      "tips": "做题时先圈出主语，再判断人称和单复数；若句中已有 does、doesn't、do 或 don't，后面的实义动词用原形；主语是 and 连接的两个人或事物时，通常视为复数。"
+    },
+    {
+      "common_mistakes": [
+        "只根据职业名称的字面意思猜测，不结合工作地点或工作内容。",
+        "混淆相近职业，例如在医院工作的医生（doctor）和护士（nurse）。",
+        "忽略句子中的关键词，如 teach、drive、cook 等。"
+      ],
+      "core_concept": "职业词汇用来描述人们的工作。辨认职业时，可以结合工作地点、工作内容和句子中的提示词。例如，post office（邮局）对应 postman（邮递员）；school（学校）和 teach（教书）常与 teacher（教师）相关。",
+      "key_formula": "工作地点或工作内容的线索 + 职业词汇 = 判断正确职业",
+      "point": "职业词汇辨析",
+      "tips": "先找句子中描述工作地点或工作内容的关键词，再从选项中选择最符合的职业。常见词汇：teacher（教师）、doctor（医生）、nurse（护士）、cook（厨师）、driver（司机）、farmer（农民）、postman（邮递员）、worker（工人）。"
+    },
+    {
+      "common_mistakes": [
+        "把中文里的介词用法直接套到英文中，例如将“在大学工作”机械翻译成 work in a university。",
+        "混淆表示时间的介词：at 常用于具体时刻，on 常用于星期或具体日期，in 常用于月份、年份和较长时间段。",
+        "遗漏固定搭配中的介词，或把相近介词随意替换。"
+      ],
+      "core_concept": "介词常与动词、形容词、名词或表示时间、地点的词搭配使用。学习时要把常见组合当作整体记忆，并结合句意判断介词。",
+      "key_formula": "常见搭配：work at + 单位或机构；listen to + 人或声音；look at + 人或物；good at + 活动或学科；wait for + 人或事物。时间表达中：at + 时刻，on + 星期或具体日期，in + 月份、年份或较长时间段。",
+      "point": "介词搭配",
+      "tips": "遇到介词空格，先看它前后的词，再判断是固定搭配、地点表达还是时间表达。把搭配连同例句一起记忆；不确定时，可先排除不符合句意或时间、地点规则的选项。"
+    },
+    {
+      "common_mistakes": [
+        "不要只看单个单词的意思，要结合短语中各个词的搭配来理解整体意思。",
+        "遇到不熟悉的短语，可以联系句子情境判断，不要逐词生硬翻译。"
+      ],
+      "core_concept": "短语是由两个或多个词组成、表达一定意思的词语组合。理解英语短语时，要关注词语搭配和上下文。",
+      "key_formula": "结合短语搭配与句子情境，判断短语的整体意思。",
+      "point": "短语理解",
+      "tips": "先读完整句子，找出人物、动作或场景等线索；再判断短语整体表达的意思。注意有些短语不能按每个单词的字面意思直接翻译。"
+    },
+    {
+      "common_mistakes": [
+        "询问地点时误用 What、Who 或 How。",
+        "把 Where 放在主语之后，忘记按英语疑问句语序调整动词。",
+        "回答地点时只重复 Where，而没有说明具体地点。"
+      ],
+      "core_concept": "询问某人或某物在哪里、在哪里工作或发生时，通常使用疑问词 Where，意思是“哪里”。回答时说明具体地点。",
+      "key_formula": "Where + be动词 + 主语？\nWhere + do/does + 主语 + 动词原形？",
+      "point": "询问地点",
+      "tips": "主语是 he、she 或单数人名时，一般现在时的实义动词疑问句用 does，后面的动词用原形；主语是 I、you 或复数时用 do。若句子使用 be 动词，则把 be 动词放到主语前。"
+    },
+    {
+      "common_mistakes": [
+        "把发音相近的单词拼错，或漏写、错写字母。",
+        "混淆词形相近或意思相关的单词，要结合句意判断。",
+        "写句子时忘记单词的大小写和必要的词尾变化。"
+      ],
+      "core_concept": "词汇拼写是按照单词的字母顺序正确写出单词。做题时，可以结合句意判断需要的词义，再回忆单词的字母、发音和常见构词规律，并检查拼写是否完整。",
+      "key_formula": "理解句意 → 判断所需词义 → 回忆字母顺序 → 检查拼写",
+      "point": "词汇拼写",
+      "tips": "记单词时可以边读边按字母顺序拼写，并把容易混淆的单词放在一起比较。完成题目后，检查首字母大小写、字母顺序和词尾是否正确。"
+    },
+    {
+      "common_mistakes": [
+        "主语是 he、she、it 或单数名词时，常忘记在一般现在时谓语动词后加 -s 或 -es。",
+        "主语是复数名词或 I、you 时，误用动词的第三人称单数形式。",
+        "看到离谓语动词最近的名词就决定动词形式，忽略真正的主语。"
+      ],
+      "core_concept": "主谓一致是指句子的主语和谓语动词在人称和数上保持一致。一般现在时中，主语是第三人称单数时，谓语动词通常加 -s 或 -es；其他主语通常使用动词原形。be 动词要根据主语选择 am、is 或 are。",
+      "key_formula": "一般现在时：第三人称单数主语 + 动词-s/-es；I/you/复数主语 + 动词原形。be 动词：I + am；he/she/it/单数名词 + is；you/复数主语 + are。",
+      "point": "主谓一致",
+      "tips": "先找到句子的主语，再判断它是单数还是复数以及是否为第三人称，最后选择相应的谓语形式。注意不要被主语后面的其他名词干扰。"
+    },
+    {
+      "common_mistakes": [
+        "只看句子中的个别单词，不结合前后意思判断。",
+        "忽略条件和结果之间的关系，例如把“如果……就……”的条件理解反了。",
+        "根据生活常识猜答案，却没有检查答案是否符合题目给出的信息。"
+      ],
+      "core_concept": "逻辑推理是根据题目给出的条件和信息，判断它们之间的关系，再得出合理结论。读英语题时，可以先找关键词，再把句子意思理清楚，最后选择与信息一致的答案。",
+      "key_formula": "先找条件和关键词 → 理清条件与结果的关系 → 根据题意得出结论",
+      "point": "逻辑推理",
+      "tips": "先圈出关键词，如 if、because、so、but、before、after 和表示喜好、职业、时间的词；再用自己的话说清句意。做选择题时，逐项检查选项是否符合题目条件，不要只凭单个词或印象作答。"
+    },
+    {
+      "common_mistakes": [
+        "混淆 what 和 which：what 通常用于开放选择，which 用于有限范围内的选择。",
+        "混淆 when 和 where：when 询问时间，where 询问地点。",
+        "询问人物时误用 who；询问物品或事情应使用 what。"
+      ],
+      "core_concept": "疑问词放在句首，用来询问不同的信息。常见疑问词有 what（什么）、who（谁）、whose（谁的）、which（哪一个）、when（什么时候）、where（在哪里）、why（为什么）和 how（怎样、如何）。",
+      "key_formula": "疑问词 + 一般疑问句语序？例如：Where do you live? / What is this?",
+      "point": "疑问词辨析",
+      "tips": "先看答语或题目中缺少的信息，再选择对应的疑问词。注意 how 还可以询问身体状况或程度，如 How are you?、How old are you?"
+    },
+    {
+      "common_mistakes": [
+        "把职业名称和工作内容混淆；例如 scientist 是“科学家”，不是“科学”。",
+        "表达职业理想时，常用“I want to be a/an + 职业名称.”；元音音素开头的职业前用 an，如 artist。",
+        "说明职业原因时，可用“because I like ...”或“because I am good at ...”。"
+      ],
+      "core_concept": "学习常见职业名称，以及用简单英语表达自己想从事的职业和理由。",
+      "key_formula": "I want to be a/an + 职业名称 + because + 理由.\n例：I want to be a doctor because I want to help people.",
+      "point": "职业规划",
+      "tips": "先想一想自己喜欢什么、擅长什么，再选择合适的职业。记住职业名称前要根据发音选择 a 或 an，例如 a teacher、an artist。"
+    },
+    {
+      "common_mistakes": [
+        "不要把职业名称和工作地点混淆，例如 pilot（飞行员）和 airport（机场）。",
+        "注意有些职业单词以 -er 或 -or 结尾，但不能只靠词尾猜意思。",
+        "第三人称单数句中，he/she 后的动词通常要加 -s，如 She is a nurse.、He teaches English."
+      ],
+      "core_concept": "职业词汇用来描述人们的工作。常见表达包括 a teacher（教师）、a doctor（医生）、a nurse（护士）、a farmer（农民）、a pilot（飞行员）和 a cook（厨师）。可以用 What does he/she do? 询问职业，用 He/She is a/an ... 作答。",
+      "key_formula": "What does he/she do? — He/She is a/an + 职业名称.；What do you do? — I am a/an + 职业名称.",
+      "point": "职业词汇",
+      "tips": "把职业和典型工作联系起来记忆：teacher teaches students，doctor helps sick people，pilot flies a plane。练习时可用 What does ... do? 提问，再用 He/She is a/an ... 回答。"
+    },
+    {
+      "common_mistakes": [
+        "第三人称单数一般现在时中，动词常需加-s或-es；辅音字母+y结尾时，通常把y改为i再加-es。",
+        "be动词和助动词后要根据句子结构使用合适的动词形式，如情态动词后用动词原形，have/has后常接过去分词。",
+        "动词形式要结合主语、时态和句子结构判断，不能只看动词本身。"
+      ],
+      "core_concept": "英语动词会根据主语、时态和句子结构发生变化。常见形式包括动词原形、第三人称单数形式、现在分词、过去式和过去分词。做题时先找主语和时间线索，再判断需要哪种动词形式。",
+      "key_formula": "一般现在时：I/you/we/they + 动词原形；he/she/it + 动词-s/-es。辅音字母+y结尾，变y为i加-es；现在进行时：am/is/are + 动词-ing；一般过去时：动词过去式；情态动词 + 动词原形。",
+      "point": "动词形式",
+      "tips": "先圈出主语，再找时间词（如 every day、now、yesterday），最后检查句子中是否有be动词、助动词或情态动词。注意study的第三人称单数是studies，但现在分词是studying。"
+    },
+    {
+      "common_mistakes": [
+        "注意区分地点名词的拼写和含义。",
+        "根据人物的职业或活动判断地点时，要看清句子的提示信息。",
+        "地点前的冠词要与单词发音和语法搭配，如 a school、a hospital。"
+      ],
+      "core_concept": "地点词汇表示人们学习、工作、生活或进行活动的场所。根据句意选择合适的地点词，并注意单词拼写及其在句中的用法。",
+      "key_formula": "人物或活动提示 + 地点词汇；例如：teacher → school，doctor → hospital，read books → library。",
+      "point": "地点词汇",
+      "tips": "记忆地点词汇时，可以把地点和常见人物或活动配对：teacher—school，doctor—hospital，read books—library，watch a film—cinema，buy food—supermarket。答题时先找句中的提示词，再选出最符合句意的地点。"
+    },
+    {
+      "common_mistakes": [
+        "把介词搭配混用，如说 by foot，而不是 on foot。",
+        "只记单词意思，不记固定搭配中的介词或动词形式。",
+        "忽略句子中的主语和时态，导致搭配使用不当。"
+      ],
+      "core_concept": "固定搭配是两个或多个词经常一起使用的表达，词语之间的组合通常不能随意替换。学习时要把搭配作为整体记忆，并结合句子语境正确使用。",
+      "key_formula": "常见形式：动词＋介词（如 look at）；形容词＋介词（如 be good at）；介词＋名词（如 on foot）。",
+      "point": "固定搭配",
+      "tips": "记搭配时连同介词一起记，并用完整句子练习。例如：I go to school on foot.（我步行去上学。）注意搭配中的介词通常不能根据中文直译后随意更换。"
+    },
+    {
+      "common_mistakes": [
+        "把 business（生意）和 businessman（商人）混淆。",
+        "把 factory worker（工厂工人）误解成 factory（工厂）。",
+        "把 stay healthy（保持健康）按单词逐个翻译，忽略它是一个常用短语。"
+      ],
+      "core_concept": "词汇中英匹配就是根据英文单词或短语的整体意思，找到对应的中文。匹配时可以先识别关键词，再结合熟悉的词义判断。",
+      "key_formula": "英文单词或短语的意思 = 对应的中文意思",
+      "point": "词汇中英匹配",
+      "tips": "先找自己熟悉的词：businessman 中的 business 与生意有关，worker 表示工人，healthy 表示健康；再将整词或短语与中文意思配对。"
+    },
+    {
+      "common_mistakes": [
+        "不要把职业名称和工作地点混淆，例如 police officer 是警察，post office 是邮局。",
+        "be good at 后面通常接名词或动词-ing形式，表示“擅长……”。",
+        "head teacher 表示校长，不是普通教师。"
+      ],
+      "core_concept": "学习常见职业、工作地点及工作内容的英文表达，并根据词义进行匹配。",
+      "key_formula": "职业名称表示“做什么工作”；工作地点表示“在哪里工作”；工作内容可用“A/An + 职业 + works at/in + 地点”或“A/An + 职业 + helps/does + 工作内容”表达。",
+      "point": "职业与工作内容匹配",
+      "tips": "先找出句子中的职业关键词，再判断其常见工作内容或工作地点。例：A police officer helps people and keeps them safe.（警察帮助人们并保护他们的安全。）A postman delivers letters.（邮递员投递信件。）"
+    },
+    {
+      "common_mistakes": [
+        "一般现在时的特殊疑问句中，主语是第三人称单数时，助动词用does；其他主语通常用do。",
+        "does后面的动词要用原形，不能说“What does he does?”",
+        "询问职业可用“What does he do?”；询问工作地点可用“Where does he work?”，两者不要混淆。"
+      ],
+      "core_concept": "本课学习常见核心句型，重点掌握用特殊疑问词提问及一般现在时中do/does的用法。以“What does he do?”为例：What是疑问词，does是助动词，he是主语，do是动词原形，句子常用来询问“他是做什么工作的？”。",
+      "key_formula": "特殊疑问词 + do/does + 主语 + 动词原形 + 其他？\n主语是he、she、it或单数名词时用does；主语是I、you、we、they或复数名词时用do。",
+      "point": "核心句型",
+      "tips": "先找疑问词，再判断主语：第三人称单数用does，其他人称用do。接着放入动词原形，最后检查句末是否使用问号。回答职业问题时可用“He is a doctor.”或“She is a teacher.”。"
     }
   ]
 }

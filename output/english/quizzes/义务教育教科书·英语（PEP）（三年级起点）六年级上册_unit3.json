@@ -4,275 +4,273 @@
   "unit_number": 3,
   "unit_test": {
     "title": "Unit 3 My weekend plan 单元基础过关测验",
-    "total_score": 100,
+    "total_score": 530,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "tomorrow 的意思是“明天”，yesterday 才是“昨天”。",
         "knowledge_point": "时间状语辨析",
+        "options": [],
         "question": "'tomorrow' 的意思是'昨天'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "tomorrow 的意思是明天，yesterday 才是昨天。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "take a trip 的意思是“去旅行”，不是“去探险”。",
         "knowledge_point": "词组含义",
-        "question": "'take a trip' 的意思是'去探险'。",
         "options": [],
-        "answer": "错",
-        "explanation": "take a trip 的意思是去旅行。"
+        "question": "'take a trip' 的意思是“去探险”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "be going to + 动词原形可以表示未来的计划或打算。句中 I am going to see a film 表示“我打算去看电影”。",
         "knowledge_point": "be going to 语法",
-        "question": "句子 'I am going to see a film' 中 be going to 表示打算做某事。",
         "options": [],
-        "answer": "对",
-        "explanation": "be going to + 动词原形表示未来的计划或打算。"
+        "question": "句子“I am going to see a film”中，be going to 表示打算做某事。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "Where 用于询问地点，例如：Where is my bag?（我的包在哪里？）",
         "knowledge_point": "疑问词含义",
+        "options": [],
         "question": "'Where' 常用于询问地点。",
-        "options": [],
-        "answer": "对",
-        "explanation": "Where 是对地点的提问。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "词汇搭配",
-        "question": "'post office' 是'邮局'的意思。",
-        "options": [],
-        "answer": "对",
-        "explanation": "post office 是固定词组，指邮局。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "post office 是固定词组，意思是“邮局”。",
+        "knowledge_point": "词汇搭配",
+        "options": [],
+        "question": "'post office' 是'邮局'的意思。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "comic book",
+        "difficulty": 1,
+        "explanation": "comic book 意为“漫画书”；dictionary 是“词典”，postcard 是“明信片”。",
         "knowledge_point": "词组含义",
-        "question": "Which word means '漫画书'?",
         "options": [
           "comic book",
           "dictionary",
           "word book",
           "postcard"
         ],
-        "answer": "comic book",
-        "explanation": "comic book意为漫画书。"
+        "question": "Which word means “漫画书”?",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "are",
         "difficulty": 1,
+        "explanation": "主语是 you，be 动词用 are。",
         "knowledge_point": "人称代词与be动词匹配",
-        "question": "What ______ you going to do this evening?",
         "options": [
           "is",
           "am",
           "are",
           "be"
         ],
-        "answer": "are",
-        "explanation": "主语是you，be动词应用are。"
+        "question": "What ______ you going to do this evening?",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "visit",
         "difficulty": 2,
+        "explanation": "be going to 后面跟动词原形，所以用 visit。",
         "knowledge_point": "动词形式",
-        "question": "Sarah is going to ______ her grandparents tonight.",
         "options": [
           "visiting",
           "visit",
           "visits",
           "visited"
         ],
-        "answer": "visit",
-        "explanation": "be going to 后面跟动词原形。"
+        "question": "Sarah is going to ______ her grandparents tonight.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "bookstore",
         "difficulty": 1,
+        "explanation": "买字典通常要去书店，bookstore 意为“书店”。",
         "knowledge_point": "地点搭配",
-        "question": "I'm going to buy a dictionary in the ______.",
         "options": [
           "cinema",
           "bookstore",
           "museum",
           "hospital"
         ],
-        "answer": "bookstore",
-        "explanation": "买字典通常要去书店(bookstore)。"
+        "question": "I'm going to buy a dictionary in the ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "When",
         "difficulty": 2,
+        "explanation": "答句“This afternoon.”表示时间，询问时间用When。",
         "knowledge_point": "疑问词辨析",
-        "question": "— ______ are you going? — This afternoon.",
         "options": [
           "Where",
           "What",
           "When",
           "Who"
         ],
-        "answer": "When",
-        "explanation": "答句是时间点，问句应使用 When。"
+        "question": "— ______ are you going? — This afternoon.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "see",
         "difficulty": 2,
+        "explanation": "see a film 是固定搭配，表示“看电影”。",
         "knowledge_point": "固定搭配",
-        "question": "We are going to ______ a film tonight.",
         "options": [
           "look",
           "see",
           "read",
           "listen"
         ],
-        "answer": "see",
-        "explanation": "see a film 是固定搭配，表示看电影。"
+        "question": "We are going to ______ a film tonight.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "next",
         "difficulty": 1,
+        "explanation": "next week表示“下周”，是将来的时间状语，与be going to表示将来的计划相符。",
         "knowledge_point": "时间状语",
-        "question": "I'm going to take a trip ______ week.",
         "options": [
           "last",
           "next",
           "ago",
           "yesterday"
         ],
-        "answer": "next",
-        "explanation": "be going to搭配将来时间next week。"
+        "question": "I'm going to take a trip ______ week.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "postcard",
         "difficulty": 1,
+        "explanation": "send a postcard意为“寄一张明信片”，postcard是可以寄给朋友的物品。",
         "knowledge_point": "常见物词汇",
-        "question": "I want to send a ______ to my friend.",
         "options": [
           "postcard",
           "supermarket",
           "dictionary",
           "trip"
         ],
-        "answer": "postcard",
-        "explanation": "寄送明信片(postcard)是常见表达。"
+        "question": "I want to send a ______ to my friend.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "Thank you",
         "difficulty": 2,
+        "explanation": "当别人祝你玩得愉快时，应表示感谢，回答“Thank you”。",
         "knowledge_point": "交际用语",
-        "question": "Have a good time! — ______.",
         "options": [
           "Me too",
           "Thank you",
           "You're welcome",
           "Goodbye"
         ],
-        "answer": "Thank you",
-        "explanation": "当别人祝你玩得愉快时，应回答谢谢。"
+        "question": "Have a good time! — ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "How",
         "difficulty": 3,
+        "explanation": "答句“By bus.”表示交通方式，询问方式用How。",
         "knowledge_point": "疑问词辨析",
-        "question": "— ______ are you going to the cinema? — By bus.",
         "options": [
           "Where",
           "When",
           "How",
           "What"
         ],
-        "answer": "How",
-        "explanation": "答句是方式(by bus)，应用How提问。"
+        "question": "— ______ are you going to the cinema? — By bus.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "将来时间表达",
-        "question": "I am going to the park ____ (明天).",
-        "options": [],
         "answer": "tomorrow",
-        "explanation": "明天的英文单词是 tomorrow。"
+        "difficulty": 1,
+        "explanation": "“明天”的英文是 tomorrow，常用来表示将来时间。",
+        "knowledge_point": "将来时间表达",
+        "options": [],
+        "question": "I am going to the park ____ (明天).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "be going to 结构",
-        "question": "My father ____ going to wash his car.",
-        "options": [],
         "answer": "is",
-        "explanation": "主语 My father 是第三人称单数，be动词选is。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "活动词组",
-        "question": "Let's go and ____ a film.",
-        "options": [],
-        "answer": "see",
-        "explanation": "看电影搭配动词see。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "具体计划",
-        "question": "Where are you ____ to go?",
+        "explanation": "My father 是第三人称单数，be 动词用 is。going to 后接动词原形 wash。",
+        "knowledge_point": "be going to 结构",
         "options": [],
-        "answer": "going",
-        "explanation": "be going to 结构中缺少going。"
+        "question": "My father ____ going to wash his car.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "see",
         "difficulty": 1,
+        "explanation": "“看电影”常用搭配是“see a film”。",
+        "knowledge_point": "活动词组",
+        "options": [],
+        "question": "Let's go and ____ a film.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "going",
+        "difficulty": 2,
+        "explanation": "be going to 表示“打算／计划做……”。句中已有 are，空格应填 going，构成 are going to go。",
+        "knowledge_point": "具体计划",
+        "options": [],
+        "question": "Where are you ____ to go?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-3,B-2,C-4,D-1",
+        "difficulty": 1,
+        "explanation": "A对应3，B对应2，C对应4，D对应1。",
         "knowledge_point": "计划活动匹配",
-        "question": "将下列短语与中文意思连线。",
         "options": [
           "visit grandparents",
           "see a film",
@@ -283,16 +281,16 @@
           "看望祖父母",
           "去旅行"
         ],
-        "answer": "A-3,B-2,C-4,D-1",
-        "explanation": "A对应3，B对应2，C对应4，D对应1。"
+        "question": "将下列短语与中文意思连线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-3，B-4，C-2，D-1",
         "difficulty": 1,
+        "explanation": "tonight 是今晚；this morning 是今天上午；next week 是下周；this afternoon 是今天下午。",
         "knowledge_point": "时间状语匹配",
-        "question": "将时间状语与对应意思连线。",
         "options": [
           "tonight",
           "this morning",
@@ -303,16 +301,16 @@
           "今晚",
           "今天上午"
         ],
-        "answer": "A-3,B-4,C-2,D-1",
-        "explanation": "tonight是今晚，this morning是今天上午，next week是下周，this afternoon是今天下午。"
+        "question": "将时间状语与对应意思连线：A. tonight；B. this morning；C. next week；D. this afternoon。1. 今天下午；2. 下周；3. 今晚；4. 今天上午。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Where are you going?",
         "difficulty": 2,
+        "explanation": "Where放在句首，后接be动词are，再接主语you和going，构成“Where+be+主语+其他？”的特殊疑问句。",
         "knowledge_point": "疑问句序",
-        "question": "将其连成一句话：are, Where, going, you, ?",
         "options": [
           "are",
           "Where",
@@ -320,16 +318,16 @@
           "you",
           "?"
         ],
-        "answer": "Where,are,you,going,?",
-        "explanation": "Where引导的be going to特殊疑问句，结构为Where+be+主语+going?"
+        "question": "将下列词语连成一句话：are, Where, going, you, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "I am going to study.",
         "difficulty": 2,
+        "explanation": "陈述句主语在前，语序为 I + am + going to + study；句首字母大写，句末用句号。",
         "knowledge_point": "陈述句序",
-        "question": "将其连成一句话：am, to, I, study, going, .",
         "options": [
           "am",
           "to",
@@ -338,8 +336,1647 @@
           "going",
           "."
         ],
-        "answer": "I,am,going,to,study,.",
-        "explanation": "陈述句主语在前：I + am + going + to + 动词原形。"
+        "question": "将其连成一句话：am, to, I, study, going, .",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "am",
+        "difficulty": 1,
+        "explanation": "主语是 I，be 动词用 am。完整句子是：I am going to read a book tonight.",
+        "knowledge_point": "be going to 结构表示计划",
+        "options": [],
+        "question": "填空：I ___ going to read a book tonight.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 24
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "主语 he 是第三人称单数，使用 is；be going to 后接动词原形 play。",
+        "knowledge_point": "be going to 结构表示计划",
+        "options": [
+          "A. He are going to play football.",
+          "B. He is going to play football.",
+          "C. He is going to plays football."
+        ],
+        "question": "选择正确的句子。",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "They are going to visit the zoo tomorrow.",
+        "difficulty": 2,
+        "explanation": "主语 They 对应 are；be going to 后使用动词原形 visit。",
+        "knowledge_point": "be going to 结构表示计划",
+        "options": [],
+        "question": "连词成句：tomorrow / going / the zoo / visit / are / They / to",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "She isn't going to watch TV this evening.",
+        "difficulty": 2,
+        "explanation": "否定句在 is 后加 not，缩写为 isn't；going to 后的 watch 保持动词原形。",
+        "knowledge_point": "be going to 结构表示计划",
+        "options": [],
+        "question": "将句子改为否定句：She is going to watch TV this evening.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "Are you going to clean your room?",
+        "difficulty": 2,
+        "explanation": "一般疑问句把 are 提到主语 you 前面，其他部分保持不变。",
+        "knowledge_point": "be going to 结构表示计划",
+        "options": [],
+        "question": "将句子改为一般疑问句：You are going to clean your room.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "is going to",
+        "difficulty": 2,
+        "explanation": "主语 My brother 是第三人称单数，用 is；be going to 后接动词原形 help。",
+        "knowledge_point": "be going to 结构表示计划",
+        "options": [],
+        "question": "填空：My brother ___ ___ ___ help our dad on Saturday.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "plan to do something 表示“计划做某事”，to 后接动词原形，因此选 visit。",
+        "knowledge_point": "计划相关的活动词汇与时间状语",
+        "options": [
+          "visits",
+          "visit",
+          "visiting",
+          "visited"
+        ],
+        "question": "We plan to ______ our grandparents this Sunday.",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "具体星期前通常用介词 on，因此说 on Friday。",
+        "knowledge_point": "计划相关的活动词汇与时间状语",
+        "options": [],
+        "question": "补全句子：Lily is going to see a film ______ Friday.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 31
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "next week 前通常不加时间介词；play basketball 表示“打篮球”，故选 A。",
+        "knowledge_point": "计划相关的活动词汇与时间状语",
+        "options": [
+          "They plan to play basketball next week.",
+          "They plan to playing basketball next week.",
+          "They plans to play basketball in next week.",
+          "They plan play basketball on next week."
+        ],
+        "question": "选出表达正确的一句。",
+        "score": 1,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "false",
+        "difficulty": 2,
+        "explanation": "plan 后要接 to 再接动词原形，正确说法是 We plan to go camping tomorrow.",
+        "knowledge_point": "计划相关的活动词汇与时间状语",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：We plan go camping tomorrow.",
+        "score": 1,
+        "type": "true_false",
+        "id": 33
+      },
+      {
+        "answer": "We are going to clean the room this evening.",
+        "difficulty": 2,
+        "explanation": "“打扫房间”是 clean the room；be going to 后接动词原形。this evening 前通常不加时间介词。",
+        "knowledge_point": "计划相关的活动词汇与时间状语",
+        "options": [],
+        "question": "根据提示写句子：我们打算今晚打扫房间。（be going to；clean the room；this evening）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "in",
+        "difficulty": 2,
+        "explanation": "月份前通常用 in，因此用 in July。",
+        "knowledge_point": "计划相关的活动词汇与时间状语",
+        "options": [],
+        "question": "补全句子：Ben plans to visit a museum ______ July.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "询问对方将要做什么，用“What will you do...?”；will放在主语you前，后接动词原形do。",
+        "knowledge_point": "询问并交流未来行程安排",
+        "options": [
+          "What you will do this weekend?",
+          "What will you do this weekend?",
+          "What do you will this weekend?",
+          "What will you doing this weekend?"
+        ],
+        "question": "选择正确的句子，询问“你这个周末将做什么？”",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "问将如何去某地，使用“How will you go...?”；“by train”表示乘火车。",
+        "knowledge_point": "询问并交流未来行程安排",
+        "options": [
+          "How will you go to Beijing?",
+          "What will you go to Beijing?",
+          "When will you go by Beijing?",
+          "How you will go to Beijing?"
+        ],
+        "question": "选择正确的句子，询问“你将怎样去北京？”",
+        "score": 1,
+        "type": "choice",
+        "id": 37
+      },
+      {
+        "answer": "will visit",
+        "difficulty": 2,
+        "explanation": "“tomorrow”表示将来的时间，应使用一般将来时“will + 动词原形”；visit保持原形。",
+        "knowledge_point": "询问并交流未来行程安排",
+        "options": [],
+        "question": "根据句意填空：We ______ (visit) the zoo tomorrow.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "When will you leave?",
+        "difficulty": 2,
+        "explanation": "询问离开的时间用“When will you leave?”，结构是When + will + 主语 + 动词原形。",
+        "knowledge_point": "询问并交流未来行程安排",
+        "options": [],
+        "question": "根据答语补全问句：—__________? —I will leave at seven tomorrow morning.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "I will go to the beach by bus this Saturday.",
+        "difficulty": 2,
+        "explanation": "可用“I will + 动词原形”表达计划；句中交代了地点the beach、交通方式by bus和时间this Saturday。",
+        "knowledge_point": "询问并交流未来行程安排",
+        "options": [],
+        "question": "用英语写一句话：我将在本周六乘公交车去海滩。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "A",
+        "difficulty": 3,
+        "explanation": "问句询问的是周日的计划，回答“I’m going to...”表示已计划好的安排；主语I搭配am，后接动词原形see。",
+        "knowledge_point": "询问并交流未来行程安排",
+        "options": [
+          "I’m going to see my grandparents.",
+          "I am go to see my grandparents.",
+          "I going to see my grandparents.",
+          "I will seeing my grandparents."
+        ],
+        "question": "—What are you going to do on Sunday? —__________",
+        "score": 1,
+        "type": "choice",
+        "id": 41
+      },
+      {
+        "answer": "昨天",
+        "difficulty": 1,
+        "explanation": "yesterday 表示“昨天”，指过去的时间。",
+        "knowledge_point": "时间状语辨析",
+        "options": [],
+        "question": "填空：I watched a film ______.（我昨天看了一部电影。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 42
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "tomorrow 表示“明天”，next week 表示“下周”，两者都指将来的时间。",
+        "knowledge_point": "时间状语辨析",
+        "options": [
+          "A. yesterday",
+          "B. tomorrow",
+          "C. last night",
+          "D. two days ago"
+        ],
+        "question": "哪个时间状语表示将来？",
+        "score": 2,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "last Sunday 表示“上个星期日”，属于过去的时间状语；tomorrow 才表示“明天”。",
+        "knowledge_point": "时间状语辨析",
+        "options": [],
+        "question": "'last Sunday' 表示将来的时间。",
+        "score": 2,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "题干中的 yesterday（昨天）表示过去，句子应使用一般过去时。played 是 play 的过去式。",
+        "knowledge_point": "时间状语辨析",
+        "options": [
+          "A. played",
+          "B. play",
+          "C. will play",
+          "D. plays"
+        ],
+        "question": "选择合适的动词：We ______ basketball yesterday.",
+        "score": 2,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "next",
+        "difficulty": 2,
+        "explanation": "next year 表示“明年”，指将来的时间；last year 表示“去年”，指过去的时间。",
+        "knowledge_point": "时间状语辨析",
+        "options": [],
+        "question": "填空：My family will travel to Beijing ______ year.（我的家人明年将去北京旅行。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 46
+      },
+      {
+        "answer": "去旅行",
+        "difficulty": 1,
+        "explanation": "take a trip 是常见词组，意思是“去旅行”。",
+        "knowledge_point": "词组含义",
+        "options": [],
+        "question": "填空：take a trip 的意思是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 47
+      },
+      {
+        "answer": "明信片",
+        "difficulty": 1,
+        "explanation": "postcard 意为“明信片”。",
+        "knowledge_point": "词组含义",
+        "options": [],
+        "question": "postcard 的中文意思是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 48
+      },
+      {
+        "answer": "dictionary",
+        "difficulty": 1,
+        "explanation": "dictionary 意为“词典”，可用来查找单词的意思。",
+        "knowledge_point": "词组含义",
+        "options": [
+          "comic book",
+          "dictionary",
+          "postcard",
+          "trip"
+        ],
+        "question": "Which word means “词典”?",
+        "score": 2,
+        "type": "choice",
+        "id": 49
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "comic book 的意思是“漫画书”。",
+        "knowledge_point": "词组含义",
+        "options": [],
+        "question": "'comic book' 的意思是“漫画书”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 50
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "主语是 She，be 动词用 is；going to 后接动词原形 visit。",
+        "knowledge_point": "be going to 语法",
+        "options": [
+          "A. am",
+          "B. is",
+          "C. are"
+        ],
+        "question": "She ____ going to visit her grandma tomorrow.",
+        "score": 2,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "are going to play",
+        "difficulty": 2,
+        "explanation": "主语 They 是复数，be 动词用 are；going to 后用动词原形 play。",
+        "knowledge_point": "be going to 语法",
+        "options": [],
+        "question": "用括号内单词的适当形式填空：They ____ ____ ____ (play) basketball after school.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "isn't going to watch",
+        "difficulty": 2,
+        "explanation": "主语 Tom 是第三人称单数，be 动词用 is；否定句在 is 后加 not，going to 后接动词原形 watch。is not 可缩写为 isn't。",
+        "knowledge_point": "be going to 语法",
+        "options": [],
+        "question": "用括号内单词的适当形式填空：Tom ____ ____ ____ ____ (watch) TV tonight.（他今晚不打算看电视。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 53
+      },
+      {
+        "answer": "Are you going to clean your room this afternoon?",
+        "difficulty": 2,
+        "explanation": "一般疑问句将 be 动词 are 提到主语 you 前；其余部分按“主语 + going to + 动词原形”排列。",
+        "knowledge_point": "be going to 语法",
+        "options": [],
+        "question": "连词成句：you / going to / are / clean / your room / this afternoon",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "B",
+        "difficulty": 3,
+        "explanation": "根据“Look at those black clouds”（看那些乌云）可以推测很快要下雨，因此用 be going to 表示根据当前迹象作出的推测。主语 It 搭配 is。",
+        "knowledge_point": "be going to 语法",
+        "options": [
+          "A. is going to rain",
+          "B. is going to rain",
+          "C. are going to rain"
+        ],
+        "question": "Look at those black clouds! It ____ soon.",
+        "score": 2,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "When 用来询问时间，句意是“你什么时候起床？”",
+        "knowledge_point": "疑问词含义",
+        "options": [
+          "A. Where",
+          "B. When",
+          "C. Who",
+          "D. Why"
+        ],
+        "question": "选择合适的疑问词：_____ do you get up?（你什么时候起床？）",
+        "score": 2,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Who 用来询问人物，句意是“谁是你的英语老师？”",
+        "knowledge_point": "疑问词含义",
+        "options": [],
+        "question": "'Who' 常用于询问人物。",
+        "score": 2,
+        "type": "true_false",
+        "id": 57
+      },
+      {
+        "answer": "whose",
+        "difficulty": 2,
+        "explanation": "Whose 用来询问某物属于谁，句意是“这是谁的铅笔？”",
+        "knowledge_point": "疑问词含义",
+        "options": [],
+        "question": "填入合适的疑问词：_____ pencil is this?（这是谁的铅笔？）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "Why",
+        "difficulty": 2,
+        "explanation": "Why 用于询问原因，答句给出了原因：因为今天是星期天。",
+        "knowledge_point": "疑问词含义",
+        "options": [],
+        "question": "根据答句补全疑问句：_____ are you happy? Because it is Sunday.（你为什么开心？因为今天是星期天。）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "how",
+        "difficulty": 2,
+        "explanation": "How 可用于询问身体状况。How are you? 意为“你好吗？”",
+        "knowledge_point": "疑问词含义",
+        "options": [],
+        "question": "填入合适的疑问词：_____ are you today?（你今天好吗？）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "do homework 是常见搭配，意思是“做家庭作业”。",
+        "knowledge_point": "词汇搭配",
+        "options": [
+          "do homework",
+          "make homework",
+          "play homework",
+          "go homework"
+        ],
+        "question": "“做家庭作业”应该说：",
+        "score": 2,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "have",
+        "difficulty": 1,
+        "explanation": "have breakfast 是固定搭配，意思是“吃早餐”。",
+        "knowledge_point": "词汇搭配",
+        "options": [],
+        "question": "We usually ___ breakfast at seven o'clock.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 62
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "go to school 是常见搭配，意思是“去上学”。",
+        "knowledge_point": "词汇搭配",
+        "options": [],
+        "question": "'go to school' 的意思是“去上学”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 63
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "listen to music 中 listen 后面接 to，表示“听音乐”。",
+        "knowledge_point": "词汇搭配",
+        "options": [
+          "listen music",
+          "listen to music",
+          "hear to music",
+          "look to music"
+        ],
+        "question": "选择正确的搭配：",
+        "score": 2,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "look after",
+        "difficulty": 2,
+        "explanation": "look after 是固定搭配，意思是“照顾”。句意为“她每天照顾她的弟弟”。",
+        "knowledge_point": "词汇搭配",
+        "options": [],
+        "question": "She ___ her little brother every day.（照顾）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 65
+      },
+      {
+        "answer": "am",
+        "difficulty": 1,
+        "explanation": "主语是 I，be 动词用 am。",
+        "knowledge_point": "人称代词与be动词匹配",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "question": "I ______ a student.",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "主语是 she，属于第三人称单数，be 动词用 is。",
+        "knowledge_point": "人称代词与be动词匹配",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "question": "She ______ my sister.",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "主语是 they，表示复数，be 动词用 are。",
+        "knowledge_point": "人称代词与be动词匹配",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "question": "They ______ in the classroom.",
+        "score": 5,
+        "type": "choice",
+        "id": 68
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "it 是第三人称单数，be 动词用 is。",
+        "knowledge_point": "人称代词与be动词匹配",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "question": "It ______ a sunny day.",
+        "score": 5,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "you 表示“你”或“你们”时，be 动词都用 are。",
+        "knowledge_point": "人称代词与be动词匹配",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "question": "You ______ my good friends.",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "plays",
+        "difficulty": 1,
+        "explanation": "句子描述每天的习惯，用一般现在时；主语 Tom 是第三人称单数，play 要加 -s。",
+        "knowledge_point": "动词形式",
+        "options": [
+          "play",
+          "plays",
+          "played",
+          "playing"
+        ],
+        "question": "Tom usually ______ basketball after school.",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "went",
+        "difficulty": 2,
+        "explanation": "yesterday 表示过去，go 的过去式是不规则变化 went。",
+        "knowledge_point": "动词形式",
+        "options": [
+          "go",
+          "goes",
+          "went",
+          "going"
+        ],
+        "question": "We ______ to the park yesterday.",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "eats",
+        "difficulty": 1,
+        "explanation": "一般现在时中，主语 My cat 是第三人称单数，eat 要加 -s。",
+        "knowledge_point": "动词形式",
+        "options": [
+          "eat",
+          "eats",
+          "ate",
+          "eating"
+        ],
+        "question": "My cat ______ fish every morning.",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "rain",
+        "difficulty": 2,
+        "explanation": "will 后面要用动词原形，因此填 rain。",
+        "knowledge_point": "动词形式",
+        "options": [],
+        "question": "It will ______ tomorrow.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 74
+      },
+      {
+        "answer": "正在读书",
+        "difficulty": 2,
+        "explanation": "is reading 是现在进行时，表示正在发生的动作；read 加 -ing 后为 reading。",
+        "knowledge_point": "动词形式",
+        "options": [],
+        "question": "将句中加粗部分翻译成中文：Amy **is reading** a book now.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 75
+      },
+      {
+        "answer": "library",
+        "difficulty": 1,
+        "explanation": "我们去图书馆借书。borrow 意为“借入、借阅”，library 意为“图书馆”。",
+        "knowledge_point": "地点搭配",
+        "options": [
+          "library",
+          "cinema",
+          "hospital",
+          "post office"
+        ],
+        "question": "We can borrow books from the ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "cinema",
+        "difficulty": 1,
+        "explanation": "看电影通常去电影院。cinema 意为“电影院”。",
+        "knowledge_point": "地点搭配",
+        "options": [
+          "museum",
+          "cinema",
+          "bookstore",
+          "library"
+        ],
+        "question": "Let's go to the ______ to see a film.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "hospital",
+        "difficulty": 1,
+        "explanation": "生病了通常要去医院看医生。hospital 意为“医院”。",
+        "knowledge_point": "地点搭配",
+        "options": [
+          "post office",
+          "museum",
+          "hospital",
+          "cinema"
+        ],
+        "question": "If you are ill, you can see a doctor in the ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "post office",
+        "difficulty": 2,
+        "explanation": "寄信要去邮局。post office 意为“邮局”。",
+        "knowledge_point": "地点搭配",
+        "options": [
+          "library",
+          "post office",
+          "museum",
+          "bookstore"
+        ],
+        "question": "Amy wants to send a letter. She should go to the ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "museum",
+        "difficulty": 2,
+        "explanation": "参观古老的物品可以去博物馆。museum 意为“博物馆”。",
+        "knowledge_point": "地点搭配",
+        "options": [
+          "hospital",
+          "cinema",
+          "museum",
+          "post office"
+        ],
+        "question": "We can see many old things in a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "Where",
+        "difficulty": 2,
+        "explanation": "答句“At the school library.”表示地点，询问地点用Where。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Who",
+          "Where",
+          "When",
+          "How"
+        ],
+        "question": "— ______ do you read books after school? — At the school library.",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "Who",
+        "difficulty": 2,
+        "explanation": "答句“My cousin.”表示人物，询问人物用Who。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "What",
+          "When",
+          "Who",
+          "Where"
+        ],
+        "question": "— ______ is that girl? — She is my cousin.",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "What",
+        "difficulty": 2,
+        "explanation": "答句“A storybook.”表示物品，询问是什么用What。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "How",
+          "Who",
+          "What",
+          "When"
+        ],
+        "question": "— ______ is in your schoolbag? — A storybook.",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "How",
+        "difficulty": 3,
+        "explanation": "答句“By bike.”表示上学的方式，询问方式用How。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "When",
+          "Where",
+          "Who",
+          "How"
+        ],
+        "question": "— ______ does Ben go to school? — By bike.",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "do",
+        "difficulty": 1,
+        "explanation": "do homework 是固定搭配，表示“做作业”。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "do",
+          "make",
+          "see",
+          "listen"
+        ],
+        "question": "I usually ______ my homework after dinner.",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "listen to",
+        "difficulty": 2,
+        "explanation": "listen to music 是固定搭配。listen 表示主动听，后面接宾语时通常要加 to。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "listen",
+          "listen to",
+          "hear to",
+          "look at"
+        ],
+        "question": "Please ______ the music carefully.",
+        "score": 5,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "have",
+        "difficulty": 1,
+        "explanation": "have breakfast 是固定搭配，表示“吃早饭”。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "have",
+          "make",
+          "read",
+          "watch"
+        ],
+        "question": "We ______ breakfast at seven every morning.",
+        "score": 5,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "play",
+        "difficulty": 2,
+        "explanation": "play basketball 是固定搭配，表示“打篮球”。球类运动前通常不加冠词。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "play",
+          "do",
+          "go",
+          "see"
+        ],
+        "question": "The children often ______ basketball after school.",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "take",
+        "difficulty": 2,
+        "explanation": "take a photo 是固定搭配，表示“拍照”。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "take",
+          "make",
+          "do",
+          "have"
+        ],
+        "question": "May I ______ a photo of the flowers?",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "I went to the park yesterday.",
+        "difficulty": 1,
+        "explanation": "“Yesterday”表示“昨天”，说明动作发生在过去，因此应使用一般过去时“went”。",
+        "knowledge_point": "时间状语",
+        "options": [
+          "I go to the park yesterday.",
+          "I went to the park yesterday.",
+          "I will go to the park yesterday.",
+          "I am going to the park yesterday."
+        ],
+        "question": "选出时间状语和动词形式搭配正确的句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 90
+      },
+      {
+        "answer": "Tomorrow",
+        "difficulty": 1,
+        "explanation": "tomorrow表示“明天”，是将来的时间状语。句子表示明天将去看望奶奶，因此用will visit。",
+        "knowledge_point": "时间状语",
+        "options": [
+          "Yesterday",
+          "Tomorrow",
+          "Last week",
+          "A year ago"
+        ],
+        "question": "______ I will visit my grandma.",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "ago",
+        "difficulty": 2,
+        "explanation": "表示“……以前”时，ago放在时间词后面，因此应说 three days ago。",
+        "knowledge_point": "时间状语",
+        "options": [
+          "ago",
+          "next",
+          "last",
+          "tomorrow"
+        ],
+        "question": "We saw a big dog three days ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "Every day",
+        "difficulty": 1,
+        "explanation": "Every day表示“每天”，说明经常发生或习惯性的动作；主语I与动词原形walk搭配正确。",
+        "knowledge_point": "时间状语",
+        "options": [
+          "Every day",
+          "Yesterday",
+          "Tomorrow",
+          "Last night"
+        ],
+        "question": "______ I walk to school with my sister.",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "last Sunday",
+        "difficulty": 2,
+        "explanation": "句意为“我们上周日去了动物园”，表示过去的时间。last Sunday可作时间状语，放在句末；go的过去式是went。",
+        "knowledge_point": "时间状语",
+        "options": [],
+        "question": "We ______ to the zoo ______.（用go和last Sunday的正确形式填空）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 94
+      },
+      {
+        "answer": "umbrella",
+        "difficulty": 1,
+        "explanation": "下雨时可以用umbrella（雨伞）遮雨。",
+        "knowledge_point": "常见物词汇",
+        "options": [
+          "umbrella",
+          "camera",
+          "ticket",
+          "dictionary"
+        ],
+        "question": "It is raining. I need an ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "dictionary",
+        "difficulty": 1,
+        "explanation": "dictionary意为“词典”，可以用来查找单词的意思。",
+        "knowledge_point": "常见物词汇",
+        "options": [
+          "postcard",
+          "dictionary",
+          "trip",
+          "umbrella"
+        ],
+        "question": "I don't know this word. I can look it up in a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "camera",
+        "difficulty": 1,
+        "explanation": "camera意为“照相机”，可以用来拍照。",
+        "knowledge_point": "常见物词汇",
+        "options": [
+          "ticket",
+          "camera",
+          "supermarket",
+          "dictionary"
+        ],
+        "question": "We take photos with a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "ticket",
+        "difficulty": 1,
+        "explanation": "ticket意为“票”，乘坐火车时通常需要车票。",
+        "knowledge_point": "常见物词汇",
+        "options": [
+          "ticket",
+          "postcard",
+          "umbrella",
+          "camera"
+        ],
+        "question": "I need a ______ to get on the train.",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "dictionary",
+        "difficulty": 1,
+        "explanation": "dictionary的意思是“词典”，可以帮助我们查单词。",
+        "knowledge_point": "常见物词汇",
+        "options": [],
+        "question": "A ______ can help me find the meaning of a word.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "You're welcome",
+        "difficulty": 1,
+        "explanation": "别人说“Thank you”表示感谢，常用“You're welcome”回应，意为“不客气”。",
+        "knowledge_point": "交际用语",
+        "options": [
+          "You're welcome",
+          "Good morning",
+          "I'm sorry",
+          "Good night"
+        ],
+        "question": "Thank you for your help. — ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "That's OK",
+        "difficulty": 2,
+        "explanation": "别人说“I'm sorry”表示道歉，可以用“That's OK”表示没关系。",
+        "knowledge_point": "交际用语",
+        "options": [
+          "Good idea",
+          "That's OK",
+          "See you",
+          "Here you are"
+        ],
+        "question": "I'm sorry I'm late. — ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "Good morning",
+        "difficulty": 1,
+        "explanation": "早上见面时，可以用“Good morning”互相问候。",
+        "knowledge_point": "交际用语",
+        "options": [
+          "Good night",
+          "Good morning",
+          "You're welcome",
+          "See you later"
+        ],
+        "question": "你早上遇见老师，可以说：______.",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "Sure",
+        "difficulty": 2,
+        "explanation": "对方请求帮忙时，如果愿意帮助，可以回答“Sure”，表示“当然可以”。",
+        "knowledge_point": "交际用语",
+        "options": [
+          "Sure",
+          "Never mind",
+          "Goodbye",
+          "I'm fine"
+        ],
+        "question": "Can you help me carry this box? — ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "Yes, I'd love to",
+        "difficulty": 2,
+        "explanation": "接受邀请时，可以说“Yes, I'd love to”，表示“好的，我很乐意”。",
+        "knowledge_point": "交际用语",
+        "options": [
+          "Yes, I'd love to",
+          "I'm sorry",
+          "Not at all",
+          "Good morning"
+        ],
+        "question": "Would you like to play football with us? — ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "tonight",
+        "difficulty": 1,
+        "explanation": "“今晚”的英文是 tonight，用来表示今天晚些时候。",
+        "knowledge_point": "将来时间表达",
+        "options": [],
+        "question": "We will watch a film ____ (今晚).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "next week",
+        "difficulty": 1,
+        "explanation": "“下周”的英文是 next week，表示将来的一个星期。",
+        "knowledge_point": "将来时间表达",
+        "options": [],
+        "question": "They are going to visit the museum ____ (下周).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 106
+      },
+      {
+        "answer": "in two days",
+        "difficulty": 2,
+        "explanation": "“两天后”可以说 in two days，表示从现在起经过两天。",
+        "knowledge_point": "将来时间表达",
+        "options": [],
+        "question": "My birthday party is ____ (两天后).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "next month 表示“下个月”，符合句意。",
+        "knowledge_point": "将来时间表达",
+        "options": [
+          "A. yesterday",
+          "B. last month",
+          "C. next month",
+          "D. every day"
+        ],
+        "question": "Which phrase means “下个月”?",
+        "score": 5,
+        "type": "choice",
+        "id": 108
+      },
+      {
+        "answer": "False",
+        "difficulty": 2,
+        "explanation": "tomorrow 的意思是“明天”，不是“昨天”；“昨天”是 yesterday。",
+        "knowledge_point": "将来时间表达",
+        "options": [],
+        "question": "“Tomorrow” means “昨天”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 109
+      },
+      {
+        "answer": "am",
+        "difficulty": 1,
+        "explanation": "主语是 I，be 动词用 am；going to 后接动词原形 visit。",
+        "knowledge_point": "be going to 结构",
+        "options": [],
+        "question": "I ____ going to visit my grandma tomorrow.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "主语 They 是复数，be 动词用 are；going to 后接动词原形 play。",
+        "knowledge_point": "be going to 结构",
+        "options": [],
+        "question": "They ____ going to play basketball this afternoon.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "read",
+        "difficulty": 2,
+        "explanation": "be going to 后面接动词原形，因此用 read，不能用 reading。",
+        "knowledge_point": "be going to 结构",
+        "options": [],
+        "question": "She is going to ____ (read) a story tonight.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "He is going to fly a kite next week.",
+        "difficulty": 2,
+        "explanation": "肯定句结构是主语 + am/is/are + going to + 动词原形。He 对应 is，fly 使用原形。",
+        "knowledge_point": "be going to 结构",
+        "options": [],
+        "question": "连词成句：going to / He / a kite / is / fly / next week",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "Is Lily going to cook dinner tonight?",
+        "difficulty": 3,
+        "explanation": "一般疑问句把 be 动词 Is 放到主语 Lily 前面；going to 后用动词原形 cook。",
+        "knowledge_point": "be going to 结构",
+        "options": [],
+        "question": "把句子改成一般疑问句：Lily is going to cook dinner tonight.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "play",
+        "difficulty": 1,
+        "explanation": "“踢足球”用“play football”表示。",
+        "knowledge_point": "活动词组",
+        "options": [],
+        "question": "We often ____ football after school.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "read",
+        "difficulty": 1,
+        "explanation": "“读书”常用搭配是“read a book”。",
+        "knowledge_point": "活动词组",
+        "options": [],
+        "question": "I like to ____ a book in the evening.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "fly",
+        "difficulty": 1,
+        "explanation": "“放风筝”用“fly a kite”表示。",
+        "knowledge_point": "活动词组",
+        "options": [],
+        "question": "The children want to ____ a kite in the park.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "go swimming",
+        "difficulty": 2,
+        "explanation": "“去游泳”常说“go swimming”；go后接表示活动的动词时，常用动词-ing形式。",
+        "knowledge_point": "活动词组",
+        "options": [],
+        "question": "It's hot today. Let's ____ after lunch.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "play",
+        "difficulty": 2,
+        "explanation": "“打篮球”用“play basketball”表示；主语是第三人称单数“He”，一般现在时中动词要加-s。",
+        "knowledge_point": "活动词组",
+        "options": [],
+        "question": "He often ____ basketball with his friends.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "主语 Tom 是第三人称单数，be 动词用 is；is going to 后接动词原形 visit。",
+        "knowledge_point": "具体计划",
+        "options": [],
+        "question": "Tom ____ going to visit his grandpa this Sunday.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "主语 We 对应的 be 动词是 are，构成 are going to play。",
+        "knowledge_point": "具体计划",
+        "options": [],
+        "question": "We ____ going to play basketball after school.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "Is Lucy going to read a book tonight?",
+        "difficulty": 2,
+        "explanation": "一般疑问句要把 be 动词 Is 放在主语 Lucy 前；going to 后用动词原形 read。",
+        "knowledge_point": "具体计划",
+        "options": [],
+        "question": "连词成句：going / Is / a book / Lucy / to read / tonight",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "主语 They 对应 are；be going to 后接动词原形 fly，因此选 A。",
+        "knowledge_point": "具体计划",
+        "options": [
+          "A. They are going to fly kites tomorrow.",
+          "B. They is going to fly kites tomorrow.",
+          "C. They are going to flies kites tomorrow."
+        ],
+        "question": "选出表达正确的一句。",
+        "score": 5,
+        "type": "choice",
+        "id": 123
+      },
+      {
+        "answer": "I am going to clean my room.",
+        "difficulty": 2,
+        "explanation": "表达“打算做某事”时用主语 + am/is/are going to + 动词原形。I 对应 am，clean 使用原形。",
+        "knowledge_point": "具体计划",
+        "options": [],
+        "question": "用英语写一句话：我打算打扫我的房间。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "看望祖父母",
+        "difficulty": 1,
+        "explanation": "visit 表示看望、拜访，grandparents 表示祖父母或外祖父母。",
+        "knowledge_point": "计划活动匹配",
+        "options": [],
+        "question": "visit grandparents 的意思是______。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "see a film 表示去看电影，film 是“电影”。",
+        "knowledge_point": "计划活动匹配",
+        "options": [
+          "去超市",
+          "去看电影",
+          "去旅行",
+          "看望祖父母"
+        ],
+        "question": "see a film 的意思是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 126
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "take a trip 是常见表达，意思是“去旅行”。",
+        "knowledge_point": "计划活动匹配",
+        "options": [],
+        "question": "判断正误：take a trip 的意思是“去旅行”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 127
+      },
+      {
+        "answer": "go to the supermarket",
+        "difficulty": 2,
+        "explanation": "“去某地”可以用 go to；supermarket 表示“超市”。",
+        "knowledge_point": "计划活动匹配",
+        "options": [],
+        "question": "“去超市”用英语怎么说？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "去旅行对应 take a trip；take a film 不表示“去旅行”。",
+        "knowledge_point": "计划活动匹配",
+        "options": [
+          "take a trip",
+          "visit a film",
+          "go grandparents",
+          "see the supermarket"
+        ],
+        "question": "哪一个短语表示“去旅行”？",
+        "score": 2,
+        "type": "choice",
+        "id": 129
+      },
+      {
+        "answer": "今晚",
+        "difficulty": 1,
+        "explanation": "tonight 表示“今晚”。",
+        "knowledge_point": "时间状语匹配",
+        "options": [],
+        "question": "tonight 的意思是______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 130
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "this morning 表示“今天上午”，morning 意为“早晨、上午”。",
+        "knowledge_point": "时间状语匹配",
+        "options": [
+          "A. 今天下午",
+          "B. 今天上午",
+          "C. 下周",
+          "D. 今晚"
+        ],
+        "question": "“今天上午”用英语怎么说？",
+        "score": 2,
+        "type": "choice",
+        "id": 131
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "next week 中 next 表示“下一个”，所以 next week 是“下周”。",
+        "knowledge_point": "时间状语匹配",
+        "options": [],
+        "question": "next week 的意思是“下周”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 132
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "this afternoon 表示“今天下午”，afternoon 是“下午”。",
+        "knowledge_point": "时间状语匹配",
+        "options": [
+          "A. 今晚",
+          "B. 今天上午",
+          "C. 今天下午",
+          "D. 下周"
+        ],
+        "question": "选出 this afternoon 的正确意思。",
+        "score": 2,
+        "type": "choice",
+        "id": 133
+      },
+      {
+        "answer": "next week",
+        "difficulty": 2,
+        "explanation": "“下周”可以表达为 next week。",
+        "knowledge_point": "时间状语匹配",
+        "options": [],
+        "question": "“下周”用英语怎么说？请填入完整的时间表达：______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 134
+      },
+      {
+        "answer": "Is she your English teacher?",
+        "difficulty": 1,
+        "explanation": "含be动词的一般疑问句要把be动词放到主语前，因此Is放在句首，接主语she和其他部分。",
+        "knowledge_point": "疑问句序",
+        "options": [
+          "Is",
+          "she",
+          "your",
+          "English",
+          "teacher",
+          "?"
+        ],
+        "question": "将下列词语连成一句话：she, Is, your, English, teacher, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 135
+      },
+      {
+        "answer": "What do you like?",
+        "difficulty": 2,
+        "explanation": "What放句首；一般现在时中，主语you前用助动词do，实义动词like放在主语之后。",
+        "knowledge_point": "疑问句序",
+        "options": [
+          "do",
+          "What",
+          "you",
+          "like",
+          "?"
+        ],
+        "question": "将下列词语连成一句话：do, What, you, like, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 136
+      },
+      {
+        "answer": "Does Tom play football?",
+        "difficulty": 2,
+        "explanation": "主语Tom是第三人称单数，一般疑问句用Does开头；Does后面的实义动词play使用原形。",
+        "knowledge_point": "疑问句序",
+        "options": [
+          "Tom",
+          "Does",
+          "football",
+          "play",
+          "?"
+        ],
+        "question": "将下列词语连成一句话：Tom, Does, football, play, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "Where can we see pandas?",
+        "difficulty": 3,
+        "explanation": "特殊疑问词Where放句首，情态动词can放在主语we前，后接动词原形see和宾语pandas。",
+        "knowledge_point": "疑问句序",
+        "options": [
+          "we",
+          "Where",
+          "pandas",
+          "can",
+          "see",
+          "?"
+        ],
+        "question": "将下列词语连成一句话：we, Where, pandas, can, see, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 138
+      },
+      {
+        "answer": "Are they watching TV?",
+        "difficulty": 3,
+        "explanation": "现在进行时的一般疑问句把be动词are提到主语they前面，后面接现在分词watching及其他部分。",
+        "knowledge_point": "疑问句序",
+        "options": [
+          "watching",
+          "Are",
+          "TV",
+          "they",
+          "?"
+        ],
+        "question": "将下列词语连成一句话：watching, Are, TV, they, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 139
+      },
+      {
+        "answer": "She reads books every day.",
+        "difficulty": 1,
+        "explanation": "主语 She 放在句首，实义动词 reads 放在主语之后；every day 表示频率，放在句末。",
+        "knowledge_point": "陈述句序",
+        "options": [],
+        "question": "将其连成一句话：every day, reads, She, books, .",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 140
+      },
+      {
+        "answer": "They are playing football now.",
+        "difficulty": 2,
+        "explanation": "现在进行时的陈述句语序是“主语 + be 动词 + 动词-ing + 其他”，因此为 They are playing football now.",
+        "knowledge_point": "陈述句序",
+        "options": [],
+        "question": "将其连成一句话：playing, now, are, They, football, .",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 141
+      },
+      {
+        "answer": "Tom can swim very well.",
+        "difficulty": 2,
+        "explanation": "情态动词 can 放在主语 Tom 后，后面接动词原形 swim；very well 放在句末。",
+        "knowledge_point": "陈述句序",
+        "options": [],
+        "question": "将其连成一句话：well, can, Tom, swim, very, .",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 142
+      },
+      {
+        "answer": "We visited the museum yesterday.",
+        "difficulty": 2,
+        "explanation": "主语 We 在前，过去式谓语 visited 在后，宾语 the museum 随后；yesterday 通常放在句末。",
+        "knowledge_point": "陈述句序",
+        "options": [],
+        "question": "将其连成一句话：yesterday, the, We, museum, visited, .",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 143
+      },
+      {
+        "answer": "My brother is a student.",
+        "difficulty": 1,
+        "explanation": "这是含 be 动词的陈述句，语序为主语 My brother + be 动词 is + 表语 a student。",
+        "knowledge_point": "陈述句序",
+        "options": [],
+        "question": "将其连成一句话：a, is, student, My, brother, .",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 144
       }
     ]
   },
@@ -669,15 +2306,16 @@
   },
   "knowledge_summary": [
     {
-      "point": "be going to 结构",
-      "core_concept": "表示即将发生的动作或未来的计划打算。",
-      "key_formula": "主语 + am/is/are + going to + 动词原形 (V-base)",
       "common_mistakes": [
         "漏写 be 动词",
-        "going to 后面接了动词 ing 形式",
-        "be 动词与主语不匹配（如 I is ...）"
+        "going to 后面接动词-ing形式，而不是动词原形",
+        "be 动词与主语不匹配（如 I is）",
+        "把 be going to 后的动词误写成过去式"
       ],
-      "tips": "标志词有 tomorrow, next week, tonight, this afternoon。"
+      "core_concept": "be going to 表示将要发生的动作或已经计划、打算要做的事。句中要根据主语选择 am、is 或 are，going to 后接动词原形。",
+      "key_formula": "肯定句：主语 + am/is/are + going to + 动词原形。否定句：主语 + am/is/are + not + going to + 动词原形。一般疑问句：Am/Is/Are + 主语 + going to + 动词原形？",
+      "point": "be going to 结构",
+      "tips": "先找主语，确定 am、is 或 are；再检查 going to 后面是否为动词原形。常见将来时间提示词包括 tomorrow、next week、tonight 和 this afternoon。"
     },
     {
       "point": "疑问词 What, Where, When",
@@ -698,6 +2336,258 @@
         "take a trip 中间掉了冠词 a"
       ],
       "tips": "记词组比记单个动词更有效，注意动词后面的名词搭配。"
+    },
+    {
+      "common_mistakes": [
+        "be going to 中的 be 要随主语变化：I am，he/she/it is，you/we/they are。",
+        "be going to 后面接动词原形，不能加 -s 或改成过去式。",
+        "否定句要在 be 后加 not；一般疑问句把 be 提到主语前。"
+      ],
+      "core_concept": "be going to + 动词原形，常用来表示计划或打算做某事。",
+      "key_formula": "肯定句：主语 + am/is/are + going to + 动词原形；否定句：主语 + am/is/are + not + going to + 动词原形；一般疑问句：Am/Is/Are + 主语 + going to + 动词原形？",
+      "point": "be going to 结构表示计划",
+      "tips": "先根据主语选 am、is 或 are，再接 going to 和动词原形。例：I am going to visit my grandma.（我打算去看望奶奶。）"
+    },
+    {
+      "common_mistakes": [
+        "把“计划做某事”误写成 plan do something；通常说 plan to do something。",
+        "混淆时间介词：具体某一天或日期前常用 on，月份或年份前常用 in，具体时刻前常用 at。",
+        "tomorrow、next week、this weekend 等时间词前通常不加 in、on、at。"
+      ],
+      "core_concept": "谈论计划时，可以用 plan to do、want to do、be going to do 等表达打算做某事，再搭配时间状语说明活动何时进行。六年级常见活动词汇包括 visit a museum（参观博物馆）、see a film（看电影）、play basketball（打篮球）、go camping（去露营）、clean the room（打扫房间）和 do homework（做作业）。",
+      "key_formula": "主语 + plan(s) to + 动词原形 + 活动 + 时间状语。例：We plan to visit the zoo tomorrow.（我们计划明天去动物园。）时间状语常见搭配：on Monday / on July 12th；in July / in 2027；at 3 o’clock；tomorrow / next week / this weekend（前面通常不加介词）。",
+      "point": "计划相关的活动词汇与时间状语",
+      "tips": "先找出句中“做什么”的活动短语，再判断“什么时候”。看到具体星期或日期，常考虑 on；看到月份或年份，常考虑 in；看到具体钟点，常考虑 at。若时间状语是 tomorrow、next Sunday 或 this evening，通常直接使用，不加时间介词。注意主语是 he、she 或单数名词时，plan 通常写作 plans。"
+    },
+    {
+      "common_mistakes": [
+        "询问计划时漏掉助动词will，或误把will后面的动词写成过去式。",
+        "问句中主语和will的位置颠倒错误，例如说成“What you will do?”。",
+        "回答时忘记使用时间表达，如this weekend、tomorrow或next week。",
+        "询问交通方式时混淆“How will you go?”和“What will you do?”。"
+      ],
+      "core_concept": "用一般将来时询问和交流未来的行程安排。常见表达包括询问将做什么、何时出发、去哪里、如何前往，以及和谁一起去；回答时用will或be going to说明计划，并补充时间、地点、交通方式等信息。",
+      "key_formula": "询问：What will + 主语 + do? / Where will + 主语 + go? / When will + 主语 + leave? / How will + 主语 + go?；回答：主语 + will + 动词原形 + 其他信息. 也可用：主语 + be going to + 动词原形 + 其他信息.",
+      "point": "询问并交流未来行程安排",
+      "tips": "交流行程时，可以按“时间—地点—活动—交通方式—同行者”的顺序组织信息。例如：What will you do this weekend? I’ll visit the museum on Saturday. How will you get there? I’ll go by bus. 注意will后接动词原形；be going to前要根据主语使用am、is或are。"
+    },
+    {
+      "common_mistakes": [
+        "混淆表示过去、现在和将来的时间状语，如 yesterday、today 和 tomorrow。",
+        "把表示时间的词语误当成动作或地点信息。",
+        "注意时间状语所在的句子可能需要使用不同的动词时态。"
+      ],
+      "core_concept": "时间状语表示动作发生的时间，常由单词或短语构成。辨析时先理解其含义，再判断动作发生在过去、现在还是将来。",
+      "key_formula": "yesterday（昨天）、last...（上一个……）→ 过去；today（今天）、now（现在）→ 现在；tomorrow（明天）、next...（下一个……）→ 将来。",
+      "point": "时间状语辨析",
+      "tips": "先找时间状语，再根据它表示的时间判断句意和动词形式。例如：I played football yesterday.（我昨天踢了足球。）I will visit Grandma tomorrow.（我明天将去看望奶奶。）"
+    },
+    {
+      "common_mistakes": [
+        "不要只凭单个单词猜词组整体含义；应结合搭配和语境理解。",
+        "注意区分意思相近的词组，如 take a trip（去旅行）和 go on an adventure（去探险）。"
+      ],
+      "core_concept": "词组是由两个或多个单词组合而成的固定表达，整体意思有时不能简单按单词逐个翻译。理解词组时，要记住常见搭配，并结合句子语境判断。",
+      "key_formula": "词组整体含义＝常见搭配含义＋具体语境",
+      "point": "词组含义",
+      "tips": "学习时可以把词组和中文意思一起记忆，并用简单句子练习；遇到不熟悉的词组时，结合上下文判断。"
+    },
+    {
+      "common_mistakes": [
+        "be going to 后面要用动词原形，不能加动词的 -ing 或过去式。",
+        "be 动词要根据主语变化：I 用 am；he、she、it 或单数名词用 is；you、we、they 或复数名词用 are。",
+        "否定句在 be 动词后加 not；一般疑问句把 be 动词移到主语前。",
+        "询问打算做什么时，疑问词放在 be 动词前，如 What are you going to do?"
+      ],
+      "core_concept": "be going to 常用于表示将来的计划、打算，或根据已有迹象推测即将发生的事情。基本结构为“主语 + be 动词 + going to + 动词原形”。",
+      "key_formula": "肯定句：主语 + am/is/are + going to + 动词原形；否定句：主语 + am/is/are + not + going to + 动词原形；一般疑问句：Am/Is/Are + 主语 + going to + 动词原形？",
+      "point": "be going to 语法",
+      "tips": "记忆口诀：be 动词看主语，going to 后接原形。I 配 am，单数配 is，复数和 you 配 are。"
+    },
+    {
+      "common_mistakes": [
+        "把 when（时间）和 where（地点）混淆。",
+        "把 who（谁）和 whose（谁的）混淆。",
+        "使用疑问词时，没有根据要询问的信息选择合适的词。"
+      ],
+      "core_concept": "疑问词通常放在疑问句句首，用来询问特定信息。常见疑问词包括：what（什么）、who（谁）、whose（谁的）、where（哪里）、when（什么时候）、why（为什么）和 how（怎样、如何）。",
+      "key_formula": "疑问词 + 一般疑问句语序？例如：Where do you live?（你住在哪里？）",
+      "point": "疑问词含义",
+      "tips": "先判断句子想询问哪类信息，再选择疑问词：地点选 where，时间选 when，原因选 why，人物选 who，所属选 whose，事物或内容选 what，方式或情况选 how。"
+    },
+    {
+      "common_mistakes": [
+        "把两个单词逐字翻译，忽略固定搭配的整体意思。",
+        "只记单词意思，不注意哪些词经常一起使用。",
+        "混淆意思相近的搭配，例如 go to school（去上学）和 go home（回家）。"
+      ],
+      "core_concept": "词汇搭配是两个或多个词按照英语习惯组合在一起，形成常见表达。学习时要把搭配作为整体记忆，并结合语境理解和使用。",
+      "key_formula": "常见搭配＝词语组合＋整体意思＋使用语境",
+      "point": "词汇搭配",
+      "tips": "可以把常用搭配按主题分类记忆，如地点、活动和日常生活；读句子时留意哪些词经常一起出现，并尝试用搭配造句。"
+    },
+    {
+      "common_mistakes": [
+        "把 he、she、it 和 are 搭配；第三人称单数通常用 is。",
+        "把 I 和 is 或 are 搭配；I 应与 am 搭配。",
+        "误以为 you 只有“你们”的意思；you 表示“你”或“你们”时都用 are。"
+      ],
+      "core_concept": "英语中 be 动词要根据主语的人称和单复数变化：I 用 am；he、she、it 及单数名词用 is；you、we、they 及复数名词用 are。",
+      "key_formula": "I am；you/we/they are；he/she/it is",
+      "point": "人称代词与be动词匹配",
+      "tips": "先找句子的主语，再判断它的人称和单复数，最后选择相应的 be 动词。"
+    },
+    {
+      "common_mistakes": [
+        "在 will、can、must 等词后误用动词的第三人称单数或过去式。",
+        "忘记在一般现在时中，主语是 he、she、it 或单数名词时，谓语动词通常要加 -s 或 -es。",
+        "看到 yesterday、last week 等表示过去的时间词，却使用动词原形或现在时。",
+        "在 be going to 后误用动词的 -ing 形式。"
+      ],
+      "core_concept": "动词形式要根据句子的时间、主语以及前面的助动词或情态动词来选择。常见形式有动词原形、第三人称单数形式、过去式和 -ing 形式。",
+      "key_formula": "一般现在时：I/you/we/they + 动词原形；he/she/it + 动词-s/-es。一般过去时：主语 + 动词过去式。will/can/must/be going to + 动词原形（注意：be going to 前的 be 要随主语变化）。",
+      "point": "动词形式",
+      "tips": "做题时先找时间线索词，再看主语，最后检查动词前是否有 will、can、must 或 be going to 等结构。常见时间线索：every day、usually 表示习惯；yesterday、last week 表示过去；now 表示正在发生。"
+    },
+    {
+      "common_mistakes": [
+        "只根据句子里的动词选地点，没有注意地点通常提供什么服务。",
+        "混淆意思相近或都可能出现的地点词，例如 bookstore（书店）和 library（图书馆）。"
+      ],
+      "core_concept": "地点搭配是根据人物的活动或需要，选择通常会去的地点。理解地点词的意思，并留意句中的动作和物品，可以帮助判断。",
+      "key_formula": "人物活动或需要 + 合适的地点",
+      "point": "地点搭配",
+      "tips": "做题时先圈出表示活动或需要的关键词，再想一想人们通常去哪里做这件事。"
+    },
+    {
+      "common_mistakes": [
+        "混淆疑问词与答句信息：先判断答句回答的是时间、地点、人物、事物还是方式。",
+        "不要只看疑问词，还要注意问句语序：疑问词 + be动词/助动词 + 主语 + 其他成分。",
+        "How many用于询问可数名词的数量；How much常用于询问价格或不可数名词的量。"
+      ],
+      "core_concept": "疑问词用于询问不同的信息。When问时间，Where问地点，Who问人物，What问事物或内容，How问方式或情况。选择疑问词时，可以先看答句提供了什么信息。",
+      "key_formula": "疑问词 + be动词/助动词 + 主语 + 其他成分？",
+      "point": "疑问词辨析",
+      "tips": "做题时先找出答句中的关键信息，再判断要询问哪一类内容：时间用When，地点用Where，人物用Who，事物或内容用What，方式用How。"
+    },
+    {
+      "common_mistakes": [
+        "把中文里的“看、听、做”等动词直接逐字翻译，忽略英语固定搭配。",
+        "混淆相近动词，例如说“听音乐”要用listen to，而不是hear。"
+      ],
+      "core_concept": "固定搭配是英语中习惯上经常一起使用的词语组合。学习时要把搭配整体记忆，并注意动词与名词、介词的正确组合。",
+      "key_formula": "动词 + 名词（如 see a film）；动词 + 介词 + 名词（如 listen to music）。",
+      "point": "固定搭配",
+      "tips": "可以把搭配放进短句中记忆，例如 see a film（看电影）、do homework（做作业）、listen to music（听音乐）。遇到搭配时，先回想熟悉的整组表达，不要只按中文逐字翻译。"
+    },
+    {
+      "common_mistakes": [
+        "不要只看句子中某个动词来判断时间，还要留意时间状语和上下文。",
+        "last week、yesterday等表示过去；next week、tomorrow等表示将来；every day、usually等常表示习惯或经常发生的动作。",
+        "时间状语的位置比较灵活，通常可放在句末，有时也可放在句首。"
+      ],
+      "core_concept": "时间状语是用来说明动作或状态发生时间的词、短语或从句，常回答“什么时候”。在小学英语中，常见的时间状语包括表示过去、现在、将来和经常性的词语或短语。",
+      "key_formula": "时间状语常见形式：时间词（yesterday、tomorrow）；时间短语（last week、next year、at seven o’clock）；频度副词（often、usually、every day）。",
+      "point": "时间状语",
+      "tips": "做题时先找表示时间的词或短语，再结合句意判断动作发生在过去、现在还是将来，最后检查动词形式是否与时间相符。注意：ago通常放在时间词后，如 two days ago；next和last通常放在时间词前，如 next Monday、last year。"
+    },
+    {
+      "common_mistakes": [
+        "不要把物品和地点、活动混淆，例如supermarket是“超市”，trip是“旅行”。",
+        "注意词汇的拼写与用法，如dictionary意为“词典”，postcard意为“明信片”。"
+      ],
+      "core_concept": "学习常见物品的英语名称，并结合句子理解词义和用法。",
+      "key_formula": "常见物品词汇：postcard（明信片），dictionary（词典），umbrella（雨伞），camera（照相机），ticket（票）。",
+      "point": "常见物词汇",
+      "tips": "记忆单词时，可以把英文单词、中文意思和实际物品联系起来；做题时先看句子中的关键词，再判断所需物品。"
+    },
+    {
+      "common_mistakes": [
+        "把不同场合的回应混淆，例如别人道谢时说“You're welcome”，别人祝愿时通常说“Thank you”。",
+        "只按单词字面意思作答，没有结合对话情境。",
+        "问候、告别或请求帮助时，忽略礼貌表达。"
+      ],
+      "core_concept": "交际用语是日常交流中根据情境使用的固定表达。回答时要先判断对方是在问候、感谢、道歉、祝愿、邀请还是请求，再选择自然、礼貌的回应。",
+      "key_formula": "先判断交际情境，再使用相应表达：感谢→You're welcome；道歉→That's OK / Never mind；祝愿→Thank you；请求帮助→Sure / Of course。",
+      "point": "交际用语",
+      "tips": "做题时留意对话中的关键词和说话目的。例如，别人说“Have a good time!”是在表达祝愿，通常回答“Thank you”；别人说“Thank you”时，可以回答“You're welcome”。"
+    },
+    {
+      "common_mistakes": [
+        "tomorrow（明天）和 yesterday（昨天）不要混淆。",
+        "next week（下周）通常表示从现在起的下一个星期，不表示本周剩下的时间。",
+        "表示“在某个时间之后”时，注意使用 in，例如 in two days（两天后）。"
+      ],
+      "core_concept": "将来时间表达用来说明事情将在现在之后发生。常见表达有 tomorrow（明天）、tonight（今晚）、next week（下周）、next month（下个月）和 in two days（两天后）。它们常与一般将来时连用，例如 will + 动词原形或 be going to + 动词原形。",
+      "key_formula": "主语 + will + 动词原形 + 将来时间；主语 + am/is/are going to + 动词原形 + 将来时间",
+      "point": "将来时间表达",
+      "tips": "先看时间表达所指的时间，再选择合适的句子结构。例：I will visit my grandma tomorrow.（我明天会去看望奶奶。）We are going to play football next week.（我们下周打算踢足球。）"
+    },
+    {
+      "common_mistakes": [
+        "不要把固定搭配中的动词随意替换，例如说“see a film”，而不是“look a film”。",
+        "注意动词形式：在“Let's”和“go and”之后，使用动词原形。"
+      ],
+      "core_concept": "英语中表示活动的词组通常由动词和名词组成。学习常见搭配，并在句子中使用正确的动词形式。",
+      "key_formula": "Let's + 动词原形 + 活动；go and + 动词原形 + 活动",
+      "point": "活动词组",
+      "tips": "记忆常见活动搭配：see a film（看电影）、play football（踢足球）、read a book（读书）、fly a kite（放风筝）、go swimming（去游泳）。"
+    },
+    {
+      "common_mistakes": [
+        "be going to 中漏掉 be 动词或把 be 动词形式用错。",
+        "疑问句中没有将 be 动词放到主语前面。",
+        "把具体计划和一般习惯混淆。"
+      ],
+      "core_concept": "“具体计划”可以用 be going to + 动词原形表示，意思是“打算／计划做……”。be 动词要根据主语选择 am、is 或 are；在疑问句中，将 be 动词放在主语前。",
+      "key_formula": "肯定句：主语 + am/is/are going to + 动词原形 + 其他。否定句：主语 + am/is/are not going to + 动词原形 + 其他。一般疑问句：Am/Is/Are + 主语 + going to + 动词原形 + 其他？",
+      "point": "具体计划",
+      "tips": "先根据主语确定 be 动词：I 用 am，he/she/it 或单数名词用 is，you/we/they 或复数名词用 are。be going to 后面的动词用原形。看到具体的将来计划，可以先找主语和 be 动词，再补上 going to 和动词原形。"
+    },
+    {
+      "common_mistakes": [
+        "把 visit grandparents 误解为“拜访父母”；grandparents 指祖父母、外祖父母。",
+        "把 see a film 和 watch TV 混淆；see a film 表示去看电影。",
+        "把 take a trip 误解为“拿一趟旅行”；它表示去旅行。",
+        "go to the supermarket 中，supermarket 表示超市。"
+      ],
+      "core_concept": "学习常见计划活动短语，并根据短语含义与情境，匹配相应的活动或中文意思。",
+      "key_formula": "计划活动表达：动词或动词短语 + 活动内容或地点。例如：visit grandparents（看望祖父母），see a film（去看电影），take a trip（去旅行），go to the supermarket（去超市）。",
+      "point": "计划活动匹配",
+      "tips": "先圈出短语中的关键词，再判断活动内容或地点。看到 grandparents 想到“祖父母”，film 想到“电影”，trip 想到“旅行”，supermarket 想到“超市”。"
+    },
+    {
+      "common_mistakes": [
+        "把 this morning 和 this afternoon 混淆：前者是今天上午，后者是今天下午。",
+        "把 tonight 误认为 today；tonight 特指今晚。",
+        "next week 表示下周，不是本周。"
+      ],
+      "core_concept": "时间状语用于说明动作发生的时间。常见表达有：tonight（今晚）、this morning（今天上午）、this afternoon（今天下午）、next week（下周）。注意根据上下文和时间词判断动作发生的具体时间。",
+      "key_formula": "时间状语常放在句末：主语 + 动词（短语）+ 时间状语。例：I will visit my grandma next week.",
+      "point": "时间状语匹配",
+      "tips": "先抓住时间词中的关键词：morning 是上午，afternoon 是下午，tonight 是今晚，next 表示“下一个”。"
+    },
+    {
+      "common_mistakes": [
+        "把疑问词放在句末。",
+        "一般疑问句中把be动词或助动词放在主语后面。",
+        "有实义动词时漏用do或does，或does后面的动词没有还原原形。"
+      ],
+      "core_concept": "英语疑问句的语序要根据句子类型来安排。特殊疑问句通常是“疑问词+be动词/助动词/情态动词+主语+其他”；一般疑问句通常是“be动词/助动词/情态动词+主语+其他”。",
+      "key_formula": "特殊疑问句：疑问词 + be/助动词/情态动词 + 主语 + 其他？一般疑问句：Be/助动词/情态动词 + 主语 + 其他？",
+      "point": "疑问句序",
+      "tips": "先判断疑问词是否询问句子中的某个信息；再找出句子的be动词、助动词或情态动词，并将它放到主语前。一般现在时的实义动词疑问句用do/does，does后动词用原形。"
+    },
+    {
+      "common_mistakes": [
+        "把 be 动词放在主语前，写成疑问句语序。",
+        "漏掉句子中的助动词或情态动词。",
+        "忘记陈述句句末通常用句号。"
+      ],
+      "core_concept": "陈述句通常按照“主语 + 谓语 + 其他成分”的顺序表达。含有 be 动词或情态动词时，它们通常放在主语之后；一般现在时或一般过去时的实义动词则根据主语和时态变化。",
+      "key_formula": "主语 + 谓语（be 动词／助动词或情态动词 + 动词／实义动词）+ 其他成分 + 句号。",
+      "point": "陈述句序",
+      "tips": "连词成句时，先找主语，再确定谓语动词和其他成分；注意固定搭配、动词形式和句末标点。"
     }
   ]
 }

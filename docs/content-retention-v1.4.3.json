@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "baseline_release": "v1.4.0-content",
+  "baseline_lessons_verified": 2356,
+  "baseline_questions_verified": 15117,
+  "regular_lessons": 2387,
+  "regular_questions": 15303,
+  "missing_knowledge": 0,
+  "below_six_questions": 0,
+  "pilot_practice_migrations": [
+    {
+      "original": "g1up-u1-kp1",
+      "practice": "g1up-u1-kp4"
+    },
+    {
+      "original": "g1up-u1-kp2",
+      "practice": "g1up-u1-kp5"
+    },
+    {
+      "original": "g1up-u1-kp3",
+      "practice": "g1up-u1-kp6"
+    }
+  ],
+  "errors": []
+}

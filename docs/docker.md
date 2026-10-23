@@ -2,7 +2,7 @@
 
 安装 Docker Desktop（Windows/macOS）或 Docker Engine + Compose（Linux）。无需安装 Node.js、Python、FFmpeg，无需 AI API Key。
 
-**已确认题库版本衔接问题**：此前已发布的 `v1.4.0-content` 有 15,117 道常规题，本次主线构建仅有 7,004 道，未带入已补齐内容。下面的命令通过了容器和音频验证，但没有保留旧版完整题库；已有完整题库的部署在修复前应保留原材料和备份。详见 [版本对照与恢复依据](content-release-reconciliation-2026-10-21.md)。
+**v1.4.3 已修复题库版本衔接**：此前补齐版的 2,356 课、15,117 题与讲解已完整保留，当前共 2,387 课、15,303 道常规题。新版全新构建，以及从 v1.4.0 / v1.4.2 原项目升级均通过内容保留、音频和实际播放验证。详见 [本版审计](content-audit-v1.4.3.md)。
 
 ## 全新部署
 
@@ -11,11 +11,11 @@
 ```sh
 git clone --branch main https://github.com/wuwangzhang1216/ChinaTextbookStudyFree.git
 cd ChinaTextbookStudyFree
-docker compose build --build-arg ASSETS_RELEASE=v1.4.2-edge-audio
+docker compose build --build-arg ASSETS_RELEASE=v1.4.3-content-restored
 docker compose up -d --no-build --wait --wait-timeout 120
 ```
 
-打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载并校验 `v1.4.2-edge-audio` 的全部资源（音频按体积分包），复用已验证的 MP3 与转换缓存，再导出静态站点。下载、校验和构建需要时间；建议至少预留 40 GB 磁盘空间。后续修改页面复用依赖及资源层缓存。
+打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载并校验 `v1.4.3-content-restored` 的全部资源（音频按体积分包），复用已验证的 MP3 与转换缓存，再导出静态站点。下载、校验和构建需要时间；建议至少预留 40 GB 磁盘空间。后续修改页面复用依赖及资源层缓存。
 
 镜像包含四科题库、课文、故事、配图、原音频及 Web MP3；运行阶段只有 Nginx，无需业务后端或数据库。代码、构建工具和环境密钥不进入运行镜像。
 
@@ -26,7 +26,7 @@ docker compose up -d --no-build --wait --wait-timeout 120
 ```sh
 git switch main
 git pull --ff-only origin main
-docker compose build --build-arg ASSETS_RELEASE=v1.4.2-edge-audio
+docker compose build --build-arg ASSETS_RELEASE=v1.4.3-content-restored
 docker compose up -d --no-build --force-recreate --wait --wait-timeout 120
 ```
 
@@ -84,7 +84,20 @@ docker build --target prebuilt --build-context site=apps/web/out -t china-textbo
 
 此命令需要支持命名构建上下文的 Docker BuildKit；`apps/web/out/` 必须来自完整成功的生产构建。默认 Compose 仍使用前面的完整自动构建流程。
 
-## 新版 Release 验收记录（2026-10-21）
+## v1.4.3 修正版验收记录
+
+- ARM64 全新构建：安装完整分包、校验资源、执行当前源码生产构建；运行容器为 `nginx` 用户且健康检查通过。
+- 从 `v1.4.0-content` 升级：先启动原版并保存每日目标 200 XP、播放旧讲解，再保留原项目和地址替换镜像；升级后目标与 5 颗宝石保留，原 2,356 课、15,117 题逐一保留。
+- 从 `v1.4.2-edge-audio` 升级：同样保留原项目和地址，目标 100 XP 与 5 颗宝石保留，完整题库恢复至 2,387 课、15,303 题。
+- 三个运行容器分别核对全部 249,852 个音频文件的 SHA-256，检查全部 JSON 音频引用、20 项 HTTP 冒烟检查，以及 MP3 类型、完整解码与 Range 206；实际页面中文朗读自然结束，下一步解锁。
+- 仍保留 2026 秋版二上数学、视觉数感示范、多孩子档案与当前功能；旧数感题作为三节巩固练习继续开放，旧错题复习保持原键与复习时间。
+- 仅验收 Docker Desktop Linux/ARM64，未在本轮验证 x86 或实体手机/iPad。技术检查不等于教师签审或全库人工听审。
+
+详细机器结果随 [修正版 Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.4.3-content-restored) 的 `VALIDATION.json` 提供；复验脚本与基线包含在匹配源码包内。
+
+## 历史 v1.4.2 Release 验收记录（2026-10-21）
+
+以下为旧版技术验收，未覆盖跨版本题库保留；其已知内容回退已由上方 v1.4.3 修复。
 
 **Docker 验证（2026-10-21）已通过**：在 Apple Silicon/ARM64 上完成新版 Release 无缓存全新构建，以及从 `v1.4.0-content` 旧容器升级。两个容器分别通过 20 项 HTTP 检查；244,930 个音频文件的 SHA-256 全部匹配，67,595 个唯一音频引用无缺失；各抽取 12 段 MP3 完整解码和 Range 206 检查通过。浏览器实际播放中文数学讲解及课文，共 4 个新版页面均自然播完，讲解后“下一步”正常解锁，控制台无错误或警告；升级保留每日目标设置。未在本轮验证 x86 主机或实体手机/iPad。
 

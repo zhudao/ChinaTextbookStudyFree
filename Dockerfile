@@ -12,7 +12,7 @@ RUN npm ci --no-audit --no-fund
 
 # Keep the large, verified resource installation cached across UI changes.
 COPY scripts/install-release.py scripts/install-release.py
-ARG ASSETS_RELEASE=v1.4.2-edge-audio
+ARG ASSETS_RELEASE=v1.4.3-content-restored
 RUN python3 scripts/install-release.py --tag "$ASSETS_RELEASE"
 
 COPY packages/core packages/core
@@ -21,6 +21,8 @@ COPY output output
 COPY scripts/tts/web_audio.py scripts/tts/web_audio.py
 COPY scripts/tts/apply_audio_versions.py scripts/tts/apply_audio_versions.py
 COPY release/audio-version-map.json release/audio-version-map.json
+COPY release/content-baseline-v1.4.0.json release/content-baseline-v1.4.0.json
+COPY scripts/checks/content-retention.py scripts/checks/content-retention.py
 COPY scripts/run-python.mjs scripts/run-python.mjs
 RUN npm run build
 

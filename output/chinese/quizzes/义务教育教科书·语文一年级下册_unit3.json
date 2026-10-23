@@ -4,347 +4,1248 @@
   "unit_number": 3,
   "unit_test": {
     "title": "第三单元「伙伴」同步过关自测卷",
-    "total_score": 100,
+    "total_score": 362,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "ABB式词语积累",
-        "question": "“安安静静”是ABB形式的词语吗？",
-        "options": [],
         "answer": "错",
-        "explanation": "“安安静静”是AABB形式，“静悄悄”才是ABB形式。"
+        "difficulty": 1,
+        "explanation": "“安安静静”由“安、安、静、静”组成，前两个字相同，后两个字也相同，是AABB式，不是ABB式。ABB式如“静悄悄”，由一个“静”和两个相同的“悄”组成。",
+        "knowledge_point": "ABB式词语积累",
+        "options": [],
+        "question": "“安安静静”是ABB式词语吗？",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "答案是“对”。向别人借东西时，先用“请”提出请求，能表现礼貌；对方答应后，再说“谢谢”，表达感谢。",
         "knowledge_point": "口语交际：礼貌请求",
-        "question": "向别人借东西时，应该先说“请”，再说“谢谢”。",
         "options": [],
-        "answer": "对",
-        "explanation": "礼貌请求需要使用礼貌用语，这体现了对他人的尊重。"
+        "question": "借同学的橡皮时，可以先说“请把橡皮借我用一下”，同学答应后说“谢谢”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“河”读 hé，音节是 he，音节第一个字母 h 的大写形式是 H。因此，用音序查字法查“河”时，第一步先找大写字母 H。",
         "knowledge_point": "音序查字法步骤",
+        "options": [],
         "question": "用音序查字法查“河”字，应先找大写字母“H”。",
-        "options": [],
-        "answer": "对",
-        "explanation": "查字典第一步是找首字母大写，“河”的音节是he，首字母是H。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "先找音节“云”的音序 Y",
         "difficulty": 2,
+        "explanation": "题目已知“云”的音节是 yun。音序是音节第一个字母的大写形式，所以第一步先找大写字母 Y，而不是先找页码或按笔画查字。",
         "knowledge_point": "音序查字法步骤",
-        "question": "在音序查字法中，字母“R”的后面一个是“T”。",
-        "options": [],
-        "answer": "错",
-        "explanation": "按照字母表顺序，R后面是S，T在S的后面。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "ABB式词语积累",
-        "question": "“叽叽喳喳”是形容鸟叫的声音。",
-        "options": [],
-        "answer": "对",
-        "explanation": "“叽叽喳喳”通常形容很多小鸟在叫，也形容人多说话杂乱。"
-      },
-      {
-        "id": 6,
-        "type": "choice",
+        "options": [
+          "先找音节“云”的音序 Y",
+          "先找“云”的页码",
+          "先翻到字典中任意一页",
+          "先按笔画数找“云”"
+        ],
+        "question": "查“云”字时，已知它的音节是 yun。按音序查字法，第一步应该做什么？",
         "score": 5,
+        "type": "choice",
+        "id": 4
+      },
+      {
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "“叽叽喳喳”中前两个字是“叽叽”，后两个字是“喳喳”，共四个字，属于AABB式，不是ABB式。后两个字相同还不够，ABB式还要符合“第一个字加后两个相同的字”的结构。",
+        "knowledge_point": "ABB式词语积累",
+        "options": [],
+        "question": "“叽叽喳喳”是ABB式词语，因为它的后两个字相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "都有了邻居和伙伴",
+        "difficulty": 1,
+        "explanation": "答案是“都有了邻居和伙伴”。题干说明树旁有了别的树，喜鹊有了伙伴；它们不再孤单，所以后来都很快乐。只说“有了邻居”没有完整说出树和喜鹊各自的变化。",
         "knowledge_point": "中外传闻及课文理解",
-        "question": "《树和喜鹊》中，后来树和喜鹊都很快乐，是因为：",
         "options": [
           "树长高了",
           "喜鹊会唱歌",
-          "他们都有了邻居",
+          "都有了邻居和伙伴",
           "天黑了"
         ],
-        "answer": "他们都有了邻居",
-        "explanation": "有了邻居就不再孤单，所以树和喜鹊都很快乐。"
+        "question": "《树和喜鹊》中，树和喜鹊原先只有自己。后来，树旁有了别的树，喜鹊也有了伙伴，它们一起生活。它们后来都很快乐，主要是因为：",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "la",
         "difficulty": 2,
+        "explanation": "找到音序 L 后，要在这个音序下找音节。音节 la 的第一个字母是小写 l，与大写音序 L 对应；he、me、ne 的首字母都不是 l。",
         "knowledge_point": "音序查字法步骤",
-        "question": "查字典时，查到音序“L”后，接下来应该找音节：",
         "options": [
           "le",
           "he",
-          "me",
+          "la",
           "ne"
         ],
-        "answer": "le",
-        "explanation": "音序L对应的音节首字母必须是l。"
+        "question": "已经找到音序“L”，接下来要找音节。下面哪个音节的首字母与“L”对应？",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "静悄悄",
         "difficulty": 1,
+        "explanation": "题目说明教室里没有人，也没有声音，适合用“静悄悄”描写安静的状态。“笑嘻嘻”描写笑的样子，“胖乎乎”描写样子，“红润润”常描写颜色或气色。",
         "knowledge_point": "ABB式词语积累",
-        "question": "天黑了，教室里_____的，一个人也没有。",
         "options": [
           "笑嘻嘻",
           "静悄悄",
           "胖乎乎",
           "红润润"
         ],
-        "answer": "静悄悄",
-        "explanation": "形容教室没有声音用“静悄悄”。"
+        "question": "天黑了，教室里没有人，也没有声音。下面哪个词语最适合形容教室？",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "妈妈，我可以去小明家玩吗？",
         "difficulty": 2,
+        "explanation": "答案是“妈妈，我可以去小明家玩吗？”这句话先称呼妈妈，再用“可以……吗”商量，清楚地说出想去小明家玩的请求；其他说法像命令，或没有直接礼貌地询问。",
         "knowledge_point": "口语交际：礼貌请求",
-        "question": "你想去同学家玩，怎么跟妈妈说最礼貌？",
         "options": [
           "我要去小明家！",
           "妈，快送我去小明家。",
           "妈妈，我可以去小明家玩吗？",
           "小明让我去他家。"
         ],
-        "answer": "妈妈，我可以去小明家玩吗？",
-        "explanation": "“可以……吗”是商量的语气，最礼貌。"
+        "question": "你想去同学家玩，怎么跟妈妈说最礼貌？",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "飞快",
         "difficulty": 1,
+        "explanation": "答案是“飞快”。题目说小鸭子很快就到了小公鸡身边，线索是到达的速度快。“飞快”表示速度很快；“快乐”表示心情好，“吃力”表示做起来费劲，“难过”表示伤心，都不符合这个速度线索。",
         "knowledge_point": "字义辨析",
-        "question": "“小鸭子（  ）地游到小公鸡身边。”括号里填哪个词最合适？",
         "options": [
           "飞快",
           "快乐",
           "吃力",
           "难过"
         ],
-        "answer": "飞快",
-        "explanation": "课文中描写小鸭子去救小公鸡时用的是“飞快地”。"
+        "question": "“小鸭子很快就游到了小公鸡身边。”要把“很快”换成一个词，可以说小鸭子（  ）地游到了小公鸡身边。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "哗啦啦",
         "difficulty": 1,
+        "explanation": "答案是“哗啦啦”。题目限定要找常用来描写水流声音的词语；“哗啦啦”可以描写水流的声音。“绿油油”常描写绿色，“亮晶晶”常描写明亮的样子，“软绵绵”常描写柔软的样子。",
         "knowledge_point": "词语搭配",
-        "question": "下列词语中，哪一个是形容声音的？",
         "options": [
           "绿油油",
           "亮晶晶",
           "哗啦啦",
           "软绵绵"
         ],
-        "answer": "哗啦啦",
-        "explanation": "“哗啦啦”形容水流声或下雨声。"
+        "question": "下列词语中，哪一个常用来描写水流的声音？",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
-        "difficulty": 3,
+        "answer": "不及汪伦送我情",
+        "difficulty": 1,
+        "explanation": "答案是“不及汪伦送我情”。《赠汪伦》中，“桃花潭水深千尺”后面紧接着这句，完整的两句是“桃花潭水深千尺，不及汪伦送我情”。",
         "knowledge_point": "古诗理解",
-        "question": "《赠汪伦》中，“桃花潭水深千尺”的下一句是：",
         "options": [
           "不及汪伦送我情",
           "李白乘舟将欲行",
           "忽闻岸上踏歌声",
           "笑问客从何处来"
         ],
-        "answer": "不及汪伦送我情",
-        "explanation": "这是李白写给好友汪伦的送别诗名句。"
+        "question": "《赠汪伦》中，“桃花潭水深千尺”的下一句是哪一句？",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
-        "difficulty": 2,
+        "answer": "yuè",
+        "difficulty": 1,
+        "explanation": "答案是yuè。“音乐”指歌曲或乐曲，“乐”在“音乐”中读yuè；“快乐”中的“乐”读lè。",
         "knowledge_point": "多音字",
-        "question": "“音乐”中的“乐”读作：",
         "options": [
           "lè",
           "yuè",
-          "luè",
+          "lǜ",
           "rè"
         ],
-        "answer": "yuè",
-        "explanation": "“乐”在音乐中读yuè，在快乐中读lè。"
+        "question": "“音乐”中的“乐”读作：",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "足字旁",
         "difficulty": 1,
+        "explanation": "“跳、跑、踢”三个字左边都有足字旁（⻊）。题目要求观察它们左边相同的部件，所以答案是足字旁。",
         "knowledge_point": "部首识别",
-        "question": "“跳、跑、踢”这些字的部首都是：",
         "options": [
           "口字旁",
           "足字旁",
           "提手旁",
           "走字底"
         ],
-        "answer": "足字旁",
-        "explanation": "这些动作都与脚有关，所以是足字旁。"
-      },
-      {
-        "id": 15,
+        "question": "看“跳、跑、踢”三个字的左边，它们都有哪个相同的部件？",
+        "score": 5,
         "type": "choice",
-        "score": 5,
+        "id": 14
+      },
+      {
+        "answer": "短文没有说明谁会帮谁。",
         "difficulty": 2,
+        "explanation": "题目只说小鸭子会游泳、小公鸡不会，还说他们一起去玩，没有写谁帮助了谁。因此，文中没有足够信息判断谁会帮谁；答案是“短文没有说明谁会帮谁”。",
         "knowledge_point": "短文阅读",
-        "question": "小鸭子会游泳，小公鸡不会。他们一起去玩，谁会帮谁？",
-        "options": [
-          "谁也不帮",
-          "小鸭子帮小公鸡",
-          "小公鸡帮小鸭子",
-          "小草帮他们"
-        ],
-        "answer": "小鸭子帮小公鸡",
-        "explanation": "基于课文内容以及常识，能游泳的动物会帮助不能游泳的动物。"
+        "options": [],
+        "question": "小鸭子会游泳，小公鸡不会。他们一起去玩。短文没有说他们做了什么。谁会帮谁？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "古诗填空",
-        "question": "李白乘舟将欲行，忽闻岸上（___）声。",
-        "options": [],
         "answer": "踏歌",
-        "explanation": "出自古诗《赠汪伦》，踏歌是古代边唱歌边用脚踏地打拍子的形式。"
+        "difficulty": 1,
+        "explanation": "答案是“踏歌”。《赠汪伦》原句是“李白乘舟将欲行，忽闻岸上踏歌声”，所以“岸上”后、“声”前应填“踏歌”，共两个字。",
+        "knowledge_point": "古诗填空",
+        "options": [],
+        "question": "《赠汪伦》：李白乘舟将欲行，忽闻岸上（___）声。请按原诗填两个字。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "词语积累",
-        "question": "“孤单”的意思是一个人，没有（___）。",
-        "options": [],
         "answer": "伙伴",
-        "explanation": "课文《树和喜鹊》中提到因为没有伙伴，所以树和喜鹊都很孤单。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "反义词",
-        "question": "“单”的反义词通常是（___）。",
+        "difficulty": 2,
+        "explanation": "答案是“伙伴”。“孤单”在这里表示一个人没有同伴；在给定的“伙伴、铅笔”中，“铅笔”不能说明有没有同伴。",
+        "knowledge_point": "词语积累",
         "options": [],
+        "question": "从“伙伴、铅笔”中选一个词填空：“孤单”是一个人，没有（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
         "answer": "双",
-        "explanation": "单指一个，双指两个。"
+        "difficulty": 1,
+        "explanation": "答案是“双”。“单”表示一个，“双”表示两个，数量意思相反，所以“单”的反义词通常是“双”。",
+        "knowledge_point": "反义词",
+        "options": [
+          "双",
+          "大",
+          "上",
+          "来"
+        ],
+        "question": "“单”的反义词通常是哪个？",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "matching",
-        "score": 5,
+        "answer": "红彤彤、绿油油、黄灿灿、白茫茫",
         "difficulty": 1,
+        "explanation": "按“红、绿、黄、白”的顺序配对，得到“红彤彤、绿油油、黄灿灿、白茫茫”。每个词都是一个颜色字加上两个相同的字，符合ABB式。",
         "knowledge_point": "ABB式词语积累",
-        "question": "请将颜色和对应的词语连起来。",
-        "options": [
-          "红",
-          "绿",
-          "黄",
-          "白",
-          "油油",
-          "灿灿",
-          "彤彤",
-          "茫茫"
-        ],
-        "answer": "A-3,B-1,C-2,D-4",
-        "explanation": "红彤彤，绿油油，黄灿灿，白茫茫。"
+        "options": [],
+        "question": "请把颜色和词语配成四组：红、绿、黄、白；彤彤、油油、灿灿、茫茫。每种颜色和每组叠字各用一次，按“红、绿、黄、白”的顺序写出四个完整词语。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "先在 Y 下找到 yun 和页码，再翻到对应页码找“月”",
         "difficulty": 2,
+        "explanation": "“月”读 yuè，音节是 yue，音序是 Y。找到音序后，还要在 Y 下找到音节 yue 和页码，再翻到对应页码找字；不能把音节 yun 当作 yue。",
         "knowledge_point": "音序查字法步骤",
-        "question": "请将大写字母与对应的小写字母连线。",
         "options": [
-          "G",
-          "H",
-          "R",
-          "Q",
-          "h",
-          "g",
-          "q",
-          "r"
+          "先在 Y 下找到 yun 和页码，再翻到对应页码找“月”",
+          "先在 Y 下找到 yue 和页码，再翻到对应页码找“月”",
+          "只找到大写字母 Y 就已经查完了",
+          "先按“月”的笔画数找到页码"
         ],
-        "answer": "A-2,B-1,C-4,D-3",
-        "explanation": "考查大小写字母的一一对应。"
+        "question": "查“月”字，已知它读 yuè，音节是 yue。已经找到音序 Y，接下来怎样查？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "踢足球",
         "difficulty": 1,
+        "explanation": "答案是“踢足球”。旧题给出的动作词中，“踢”与“足球”搭配，表示用脚踢足球；其余搭配不符合“用脚踢足球”这一动作线索。",
         "knowledge_point": "动宾搭配",
-        "question": "帮词语找朋友，连一连。",
         "options": [
-          "踢",
-          "跳",
-          "打",
-          "听",
-          "皮球",
-          "足球",
-          "音乐",
-          "绳"
+          "跳足球",
+          "听音乐",
+          "踢足球",
+          "关门"
         ],
-        "answer": "A-2,B-4,C-1,D-3",
-        "explanation": "踢足球，跳绳，打皮球，听音乐。"
+        "question": "从旧题中的词语搭配里，选出表示用脚踢足球的词语。",
+        "score": 2,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "小鸭子正在水里游泳。",
         "difficulty": 1,
+        "explanation": "答案是“小鸭子正在水里游泳。”题目给出的词语是“小鸭子、正在、水里、游泳”，按意思排列后组成通顺的句子，并在句末加句号。",
         "knowledge_point": "语言表达",
-        "question": "连词成句：",
-        "options": [
-          "小鸭子",
-          "正在",
-          "水里",
-          "游泳"
-        ],
-        "answer": "小鸭子,正在,水里,游泳",
-        "explanation": "按照主语+状态+地点的顺序排列。"
+        "options": [],
+        "question": "按顺序连词成句，并在句末加句号：小鸭子、正在、水里、游泳。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "诗句写李白乘船将要离开，又忽然听见岸上传来踏歌声",
         "difficulty": 2,
+        "explanation": "答案是“诗句写李白乘船将要离开，又忽然听见岸上传来踏歌声”。题目给出的诗句是“李白乘舟将欲行，忽闻岸上踏歌声”；“乘舟将欲行”写李白将要乘船离开，“忽闻”写他忽然听见。",
         "knowledge_point": "古诗理解",
-        "question": "将这句诗按正确顺序排列：",
         "options": [
-          "桃花潭水",
-          "千尺",
-          "深"
+          "诗句写汪伦乘船将要离开，又听见岸上传来踏歌声",
+          "诗句写李白乘船将要离开，又忽然听见岸上传来踏歌声",
+          "诗句写李白将要回家，又看见岸上的桃花潭",
+          "诗句写李白先听见水声，再看见岸上的踏歌声"
         ],
-        "answer": "桃花潭水,深,千尺",
-        "explanation": "诗句为：桃花潭水深千尺。"
+        "question": "《赠汪伦》写道：“李白乘舟将欲行，忽闻岸上踏歌声。”哪一项说出了诗句写到的内容？",
+        "score": 5,
+        "type": "choice",
+        "id": 23
+      },
+      {
+        "answer": "H",
+        "difficulty": 1,
+        "explanation": "“海”的音节是 hai。音序是音节第一个字母的大写形式；h 的大写形式是 H，所以只填大写字母 H。",
+        "knowledge_point": "音序查字法步骤",
+        "options": [],
+        "question": "“海”的音节是 hai。音序是音节第一个字母的大写形式。请只填一个大写字母。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "先按音序找到音节和页码，再翻到该页找字",
+        "difficulty": 3,
+        "explanation": "小明已经找到音序，说明第一步已经完成。下一步应在这个音序下找到要查的音节和页码，再翻到该页找字；随便翻页或改用笔画查找都不是题目所说的方法。",
+        "knowledge_point": "音序查字法步骤",
+        "options": [
+          "先按音序找到音节和页码，再翻到该页找字",
+          "只要找到音序，查字就完成了",
+          "先翻到字典最后一页，再随便找字",
+          "先数笔画，再按笔画数找字"
+        ],
+        "question": "小明用音序查字法查字，已经在字典里找到这个字的音序。他接下来应该怎样做？",
+        "score": 5,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "请把书递给我，好吗？",
+        "difficulty": 2,
+        "explanation": "答案是“请把书递给我，好吗？”题目要求礼貌地请同桌递书，这句话用“请”和“好吗”提出清楚的请求，语气是商量的；“把书递给我”没有礼貌用语，像是在直接要求。",
+        "knowledge_point": "口语交际：礼貌请求",
+        "options": [
+          "把书递给我。",
+          "请把书递给我，好吗？",
+          "你为什么不递书？",
+          "我不要这本书。"
+        ],
+        "question": "你坐在座位上，需要同桌帮你递一本书。选一句礼貌的请求。",
+        "score": 5,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "答案是“对”。题目说明老师正在批改作业，此时先问“您现在方便吗？”是在留意老师是否有空；得到回应后再提出借彩笔的请求，比直接打断或命令更有礼貌。",
+        "knowledge_point": "口语交际：礼貌请求",
+        "options": [],
+        "question": "老师正在批改作业，你想借彩笔，可以先问：“老师，您现在方便吗？我想借一支彩笔，可以吗？”",
+        "score": 2,
+        "type": "true_false",
+        "id": 27
+      },
+      {
+        "answer": "谢谢",
+        "difficulty": 2,
+        "explanation": "答案是“谢谢”。题目中同学已经答应借出尺子；此时说“谢谢”可以表达感谢。",
+        "knowledge_point": "口语交际：礼貌请求",
+        "options": [],
+        "question": "填一个词：同学答应把尺子借给你后，你可以说“______”。（只填“谢谢”或“不客气”中的一个）",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "请你帮我把这盒彩笔拿一下，好吗？",
+        "difficulty": 3,
+        "explanation": "答案是“请你帮我把这盒彩笔拿一下，好吗？”小雨双手拿着画纸，需要哥哥帮忙拿开彩笔盒；这句话用“请”和“好吗”礼貌地说明了请求。哥哥答应后，小雨还应说“谢谢”。不能说“快拿给我”，因为那听起来像命令。",
+        "knowledge_point": "口语交际：礼貌请求",
+        "options": [
+          "快拿给我。",
+          "请你帮我把这盒彩笔拿一下，好吗？",
+          "我不想画画了。",
+          "你自己拿吧。"
+        ],
+        "question": "小雨双手拿着画纸，想请哥哥帮忙拿开彩笔盒。哪句话最合适？",
+        "score": 5,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "后两个字",
+        "difficulty": 1,
+        "explanation": "ABB式词语由第一个字和后两个相同的字组成，所以重复的是“后两个字”。例如“胖乎乎”中，后两个字都是“乎”。",
+        "knowledge_point": "ABB式词语积累",
+        "options": [],
+        "question": "ABB式词语中，重复的是“前两个字”还是“后两个字”？请只填写“前两个字”或“后两个字”。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "胖乎乎",
+        "difficulty": 2,
+        "explanation": "“胖乎乎”由“胖”和两个相同的“乎”组成，是ABB式，也适合描写小猫胖胖的样子。“安安静静”“高高兴兴”和“叽叽喳喳”都是AABB式，不符合题目要求。",
+        "knowledge_point": "ABB式词语积累",
+        "options": [
+          "胖乎乎",
+          "安安静静",
+          "高高兴兴",
+          "叽叽喳喳"
+        ],
+        "question": "小猫身体圆圆的，看起来胖胖的。下面哪个三字词语是ABB式，又适合描写小猫的样子？",
+        "score": 5,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "我听同学说花坛边有一朵花，我还没有去看。",
+        "difficulty": 1,
+        "explanation": "答案是“我听同学说花坛边有一朵花，我还没有去看。”小明没有亲自去花坛边看，消息来自同学，因此这句话说清了消息来源，也没有把听来的事说成亲眼所见。",
+        "knowledge_point": "中外传闻及课文理解",
+        "options": [
+          "我听同学说花坛边有一朵花，我还没有去看。",
+          "我亲眼看见花坛边有一朵花。",
+          "同学没有告诉我花坛边的事。",
+          "我听同学说教室里有一朵花。"
+        ],
+        "question": "小明没有去花坛边看花，只听同学说那里有一朵花。哪句话既说清了消息来自哪里，也说明小明还没有亲自看过？",
+        "score": 5,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "小红看见窗边有一只小鸟；小明听小红说窗边有一只小鸟。",
+        "difficulty": 2,
+        "explanation": "答案是“小红看见窗边有一只小鸟；小明听小红说窗边有一只小鸟。”小红亲眼看见了，可以说自己看见；小明没有到窗边，只听小红告诉他，不能说自己也看见了。",
+        "knowledge_point": "中外传闻及课文理解",
+        "options": [
+          "小红看见窗边有一只小鸟；小明听小红说窗边有一只小鸟。",
+          "小红和小明都亲眼看见窗边有一只小鸟。",
+          "小红听小明说窗边有一只小鸟；小明亲眼看见了。",
+          "小红看见窗边有两只小鸟；小明也看见了。"
+        ],
+        "question": "小红站在窗边看见一只小鸟，告诉了没有到窗边的小明。哪句话说得准确？",
+        "score": 5,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "答案是“错”。小芳只听同学说树上有小鸟，自己没有去看，所以不能说“我亲眼看见树上有小鸟”；她可以说“我听同学说树上有小鸟”。",
+        "knowledge_point": "中外传闻及课文理解",
+        "options": [],
+        "question": "判断：小芳只听同学说树上有小鸟，自己没有去看。她说“我亲眼看见树上有小鸟”是准确的。",
+        "score": 5,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "听说",
+        "difficulty": 1,
+        "explanation": "答案是“听说”。小刚从同学那里知道操场边有一朵花，自己还没有去看，因此应说“我听说操场边有一朵花”，不能说自己看见了。",
+        "knowledge_point": "中外传闻及课文理解",
+        "options": [],
+        "question": "从“听说、看见”中选一个词填空。小刚从同学那里知道操场边有一朵花，自己还没有去看。他可以说：“我（　　）操场边有一朵花。”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "我听同学说操场边有一只小狗。",
+        "difficulty": 1,
+        "explanation": "答案是“我听同学说操场边有一只小狗。”题干说小军没有亲眼看见小狗，只听同学说起，因此准确的表达要说明消息来自同学，不能说自己亲眼看见，也不能把地点改成教室。",
+        "knowledge_point": "中外传闻及课文理解",
+        "options": [
+          "我听同学说操场边有一只小狗。",
+          "我亲眼看见操场边有一只小狗。",
+          "我听同学说教室里有一只小狗。",
+          "同学没有告诉我小狗在哪里。"
+        ],
+        "question": "小军没有看见小狗，只听同学说操场边有一只小狗。哪句话准确说明了消息来源和地点？",
+        "score": 5,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "答案是“错”。“飞快”表示速度很快，“快乐”表示心情好。句子说小朋友心里开心，应说“心里很快乐”，不能用“飞快”来表示心情。",
+        "knowledge_point": "字义辨析",
+        "options": [],
+        "question": "判断：小朋友收到伙伴送的礼物，心里很开心，可以说“心里很飞快”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "吃力",
+        "difficulty": 2,
+        "explanation": "答案是“吃力”。题目明确说小明搬箱子时费了很大劲，线索是做起来费劲。“吃力”正表示做事费劲；“飞快”表示速度快，不表示费劲。",
+        "knowledge_point": "字义辨析",
+        "options": [
+          "快乐",
+          "飞快",
+          "吃力",
+          "难过"
+        ],
+        "question": "小明搬一个大箱子，搬得满头大汗，费了很大劲。他搬得很（  ）。选最合适的词。",
+        "score": 3,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "答案是“对”。句子明确说小汽车很快到达，说明它行驶的速度快。“飞快”表示速度很快，用在这里合适；“快乐”说的是心情，不能表示行驶速度。",
+        "knowledge_point": "字义辨析",
+        "options": [],
+        "question": "判断：小汽车很快就到了，可以说“小汽车飞快地开到了”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 39
+      },
+      {
+        "answer": "安静",
+        "difficulty": 2,
+        "explanation": "答案是“安静”。题目说大家停止说话，教室里没有吵闹声，描述的是教室的状态。“安静”表示没有吵闹声；“快乐”表示心情好，不适合描述这里的声音状态。",
+        "knowledge_point": "字义辨析",
+        "options": [
+          "快乐",
+          "安静",
+          "难过",
+          "飞快"
+        ],
+        "question": "大家都停止说话后，教室里没有吵闹声。教室里很（  ）。选最合适的词。",
+        "score": 3,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "飞快",
+        "difficulty": 2,
+        "explanation": "答案是“飞快”。题目要求选出表示速度很快的词。“飞快”表示速度快；“吃力”表示做起来费劲，“快乐”表示心情好，“难过”表示伤心。",
+        "knowledge_point": "字义辨析",
+        "options": [
+          "吃力",
+          "难过",
+          "飞快",
+          "快乐"
+        ],
+        "question": "下面哪个词表示动作的速度很快？",
+        "score": 3,
+        "type": "choice",
+        "id": 41
+      },
+      {
+        "answer": "小鸟",
+        "difficulty": 1,
+        "explanation": "答案是“小鸟”。“叽叽喳喳”在这里描写鸟叫声，能发出鸟叫声的动物是小鸟；石头、桌子和棉花都不是会发出鸟叫声的动物。",
+        "knowledge_point": "词语搭配",
+        "options": [
+          "石头",
+          "小鸟",
+          "桌子",
+          "棉花"
+        ],
+        "question": "“叽叽喳喳的小鸟”中，“叽叽喳喳”描写鸟叫声。下面哪一个能发出鸟叫声？",
+        "score": 5,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "三个字，后两个字相同",
+        "difficulty": 2,
+        "explanation": "答案是“三个字，后两个字相同”。“胖乎乎”由“胖、乎、乎”三个字组成，后两个字相同，所以是ABB式；它不是四个字的AABB式。",
+        "knowledge_point": "词语搭配",
+        "options": [
+          "三个字，前两个字相同",
+          "三个字，后两个字相同",
+          "四个字，前后各有两个相同的字",
+          "两个字，两个字相同"
+        ],
+        "question": "“胖乎乎”是ABB式词语。它符合下面哪种特点？",
+        "score": 5,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "答案是“错”。“安安静静”有四个字，前两个字相同、后两个字也相同，是AABB式；ABB式要有三个字，后两个字相同。",
+        "knowledge_point": "词语搭配",
+        "options": [],
+        "question": "判断：“安安静静”是ABB式词语。",
+        "score": 5,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "香喷喷",
+        "difficulty": 2,
+        "explanation": "答案是“香喷喷”。题目说厨房里正在煮饭，要描述饭菜闻起来很香；“香喷喷”常用来描写香味，和饭菜搭配合适。“绿油油”描写绿色，“亮晶晶”描写明亮的样子，“哗啦啦”描写声音。",
+        "knowledge_point": "词语搭配",
+        "options": [
+          "香喷喷",
+          "绿油油",
+          "亮晶晶",
+          "哗啦啦"
+        ],
+        "question": "厨房里正在煮饭。选择合适的词语填空：“饭菜闻起来____。”",
+        "score": 5,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "静悄悄",
+        "difficulty": 2,
+        "explanation": "答案是“静悄悄”。题目要求从“绿油油、亮晶晶、静悄悄”中找一个表示安静的词语。“静悄悄”表示安静；“绿油油”表示绿色，“亮晶晶”表示明亮的样子。",
+        "knowledge_point": "词语搭配",
+        "options": [],
+        "question": "从“绿油油、亮晶晶、静悄悄”中写出一个表示安静的词语。（限写3个字）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "答案是“对”。“忽闻岸上踏歌声”写李白忽然听见岸上传来的踏歌声；这里的“闻”是听见。",
+        "knowledge_point": "古诗理解",
+        "options": [],
+        "question": "判断：“忽闻岸上踏歌声”写李白忽然听见岸上传来踏歌声。",
+        "score": 5,
+        "type": "true_false",
+        "id": 47
+      },
+      {
+        "answer": "汪伦",
+        "difficulty": 2,
+        "explanation": "答案是“汪伦”。题目说明诗句中的“我”指李白；“不及汪伦送我情”写汪伦送别李白，所以送别李白的人是汪伦。",
+        "knowledge_point": "古诗理解",
+        "options": [],
+        "question": "读“不及汪伦送我情”。已知诗句中的“我”指李白，送别李白的人是谁？请用一个名字作答。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 48
+      },
+      {
+        "answer": "不及是比不上",
+        "difficulty": 2,
+        "explanation": "答案是“不及是比不上”。诗句说桃花潭水比不上汪伦送别李白的情意；这里的“不及”表示比不上，不是超过。",
+        "knowledge_point": "古诗理解",
+        "options": [],
+        "question": "用6个字填写：“不及”在诗句中的意思是____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "汪伦送别李白的情意值得珍视",
+        "difficulty": 2,
+        "explanation": "答案是“汪伦送别李白的情意值得珍视”。诗句先写桃花潭水很深，再说潭水“不及”汪伦送别自己的情意；“不及”是比不上。诗人借潭水表达对汪伦情意的珍视，并非在报告两者的实际测量结果。",
+        "knowledge_point": "古诗理解",
+        "options": [
+          "桃花潭水比汪伦送别李白的情意更值得珍视",
+          "李白没有听见岸上的踏歌声",
+          "汪伦送别李白的情意值得珍视",
+          "诗句是在报告桃花潭水的实际深度"
+        ],
+        "question": "根据“桃花潭水深千尺，不及汪伦送我情”，诗人想表达什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 50
+      },
+      {
+        "answer": "lè",
+        "difficulty": 1,
+        "explanation": "答案是lè。“快乐”表示心情愉快，“乐”在“快乐”中读lè；“音乐”中的“乐”读yuè。",
+        "knowledge_point": "多音字",
+        "options": [
+          "yuè",
+          "lè",
+          "rè",
+          "lǜ"
+        ],
+        "question": "“快乐”中的“乐”读作：",
+        "score": 5,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "答案是错。“音乐”中的“乐”读yuè，“快乐”中的“乐”读lè，两处读音不同，不是都读lè。",
+        "knowledge_point": "多音字",
+        "options": [],
+        "question": "“音乐”和“快乐”中的“乐”都读lè。（对或错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 52
+      },
+      {
+        "answer": "lè",
+        "difficulty": 2,
+        "explanation": "答案是lè。句子说小明心情很好，“快乐”表示心情愉快，其中的“乐”读lè；“音乐”中的“乐”读yuè。",
+        "knowledge_point": "多音字",
+        "options": [
+          "lè",
+          "yuè",
+          "lǜ",
+          "rè"
+        ],
+        "question": "小明心情很好，说：“我很快乐。”这句话中的“乐”读作：",
+        "score": 5,
+        "type": "choice",
+        "id": 53
+      },
+      {
+        "answer": "yuè",
+        "difficulty": 2,
+        "explanation": "答案是yuè。句子中的词是“音乐”，指歌曲或乐曲，所以“乐”读yuè；“快乐”中的“乐”读lè。",
+        "knowledge_point": "多音字",
+        "options": [],
+        "question": "读句子：“我喜欢听音乐。”句子中的“乐”读音是____。（填拼音）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "第一处读yuè，第二处读lè",
+        "difficulty": 3,
+        "explanation": "答案是“第一处读yuè，第二处读lè”。第一处“乐”在“音乐”中，读yuè；第二处“乐”在“快乐”中，读lè。要根据每个“乐”所在的词语分别判断。",
+        "knowledge_point": "多音字",
+        "options": [
+          "两处都读yuè",
+          "第一处读yuè，第二处读lè",
+          "两处都读lè",
+          "第一处读lè，第二处读yuè"
+        ],
+        "question": "读一读：“音乐让我快乐。”两个“乐”的读音分别是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "口字旁",
+        "difficulty": 1,
+        "explanation": "“吃”和“叫”的左边都有口字旁，所以这两个字共同的部件是口字旁。",
+        "knowledge_point": "部首识别",
+        "options": [
+          "足字旁",
+          "口字旁",
+          "提手旁",
+          "走字底"
+        ],
+        "question": "“吃”和“叫”的左边都有相同的部件。这个部件是：",
+        "score": 5,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "提手旁",
+        "difficulty": 1,
+        "explanation": "“打”和“拍”的左边都带提手旁（扌），所以它们左边相同的部件是提手旁。",
+        "knowledge_point": "部首识别",
+        "options": [
+          "走字底",
+          "提手旁",
+          "口字旁",
+          "足字旁"
+        ],
+        "question": "看“打、拍”两个字的左边，它们都有哪个相同的部件？",
+        "score": 5,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "这句话是错的。“跑”字左边是足字旁（⻊），不是走字底（辶）。两种部件字形和位置不同。",
+        "knowledge_point": "部首识别",
+        "options": [],
+        "question": "“跑”字左边的部件是走字底。",
+        "score": 3,
+        "type": "true_false",
+        "id": 58
+      },
+      {
+        "answer": "口",
+        "difficulty": 2,
+        "explanation": "“喝”字左边有口字旁。题目要求只填一个字，因此应填“口”，组成“口字旁”。",
+        "knowledge_point": "部首识别",
+        "options": [],
+        "question": "只填一个字：“喝”字左边有“____字旁”。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "足字旁",
+        "difficulty": 2,
+        "explanation": "看字形可知，“跑”左边是足字旁（⻊）；“这”下边是走之底（辶）。题目问“跑”左边、而“这”下边没有的部件，因此答案是足字旁。",
+        "knowledge_point": "部首识别",
+        "options": [
+          "口字旁",
+          "提手旁",
+          "走字底",
+          "足字旁"
+        ],
+        "question": "小明说：“跑”和“这”有同一个部件，因为它们都和走动有关。”看字形，哪个部件在“跑”的左边，而不在“这”的下边？",
+        "score": 5,
+        "type": "choice",
+        "id": 60
+      },
+      {
+        "answer": "小明",
+        "difficulty": 1,
+        "explanation": "短文说“早上，小明带来一本故事书”，所以带来故事书的人是小明。",
+        "knowledge_point": "短文阅读",
+        "options": [],
+        "question": "读短文后填空，只写姓名：早上，小明带来一本故事书。他和小华一起看书。带来故事书的人是（　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "小兔子把伞借给小猴子。",
+        "difficulty": 2,
+        "explanation": "短文先说小猴子没有带伞、衣服湿了，接着明确写出小兔子把自己的伞借给小猴子。因此，小兔子是用借伞的办法帮助小猴子。",
+        "knowledge_point": "短文阅读",
+        "options": [
+          "小兔子把伞借给小猴子。",
+          "小猴子把伞借给小兔子。",
+          "小兔子请小猴子一起找伞。",
+          "短文没有说谁帮助了谁。"
+        ],
+        "question": "读短文后选择：下雨了，小猴子没有带伞，衣服湿了。小兔子把自己的伞借给小猴子。小兔子怎样帮助了小猴子？",
+        "score": 5,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "短文说小猫在椅子下面找到了球。题目说小猫一直没有找到球，与短文写的结果不一样，所以答案是“错”。",
+        "knowledge_point": "短文阅读",
+        "options": [],
+        "question": "读短文后判断：小猫的球不见了。它找了找，在椅子下面找到了球。小猫一直没有找到球。（　）",
+        "score": 5,
+        "type": "true_false",
+        "id": 63
+      },
+      {
+        "answer": "小丽和小红一起给花浇了水。",
+        "difficulty": 2,
+        "explanation": "短文说小丽请小红一起给花浇水，因此两个人一起浇了水。答案是“小丽和小红一起给花浇了水。”",
+        "knowledge_point": "短文阅读",
+        "options": [
+          "小丽和小红一起给花浇了水。",
+          "小红一个人把花盆搬走了。",
+          "小丽把花送给了小红。",
+          "小红请小丽去找水杯。"
+        ],
+        "question": "读短文后选择：小丽看到花盆里的土干了，就请小红一起给花浇水。她们做了什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "小刚",
+        "difficulty": 3,
+        "explanation": "短文写明小刚先把球滚给小雨，小雨接住后又把球滚回给小刚。题目问先把球滚给小雨的人，因此答案是小刚。",
+        "knowledge_point": "短文阅读",
+        "options": [],
+        "question": "读短文后填空，只写姓名：小刚和小雨在院子里玩球。小刚把球滚给小雨，小雨接住球，又把球滚回给小刚。先把球滚给小雨的人是（　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 65
+      },
+      {
+        "answer": "深千尺",
+        "difficulty": 1,
+        "explanation": "答案是“深千尺”。《赠汪伦》原句是“桃花潭水深千尺，不及汪伦送我情”，题干给出“桃花潭水”，接下来的三个字是“深千尺”。这里是诗句表达，不是实际测量水深。",
+        "knowledge_point": "古诗填空",
+        "options": [],
+        "question": "《赠汪伦》：桃花潭水（___），不及汪伦送我情。请按原诗填三个字。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "李白正要乘船出发",
+        "difficulty": 2,
+        "explanation": "答案是“李白正要乘船出发”。“乘舟”说明李白坐船，“将欲行”说明他正要出发；诗句没有说他已经离开。",
+        "knowledge_point": "古诗填空",
+        "options": [
+          "李白已经下船回家",
+          "李白正要乘船出发",
+          "汪伦正要乘船出发",
+          "李白正在岸上唱歌"
+        ],
+        "question": "读《赠汪伦》中的“李白乘舟将欲行”，哪句话说得对？",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "答案是“对”。“忽闻岸上踏歌声”写李白忽然听到岸上的声音；这里的“闻”表示听到，不是看见。",
+        "knowledge_point": "古诗填空",
+        "options": [],
+        "question": "判断：“忽闻岸上踏歌声”写李白忽然听见岸上的声音。",
+        "score": 5,
+        "type": "true_false",
+        "id": 68
+      },
+      {
+        "answer": "李白正要离开时，忽然听到岸上的踏歌声",
+        "difficulty": 2,
+        "explanation": "答案是“李白正要离开时，忽然听到岸上的踏歌声”。“将欲行”说明李白正要乘船离开，“忽闻”说明他忽然听到，“岸上踏歌声”说明声音来自岸上。",
+        "knowledge_point": "古诗填空",
+        "options": [
+          "李白正要离开时，忽然听到岸上的踏歌声",
+          "李白已经回家，听见家里的歌声",
+          "汪伦坐在船上，听见岸上的流水声",
+          "李白看见岸上有人唱歌，但没有听见声音"
+        ],
+        "question": "《赠汪伦》中，“李白乘舟将欲行，忽闻岸上踏歌声”写了什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "不及汪伦送我情",
+        "difficulty": 1,
+        "explanation": "答案是“不及汪伦送我情”。《赠汪伦》后两句是“桃花潭水深千尺，不及汪伦送我情”，题干给出前一句，空格应填下一句，共七个字。",
+        "knowledge_point": "古诗填空",
+        "options": [],
+        "question": "《赠汪伦》：桃花潭水深千尺，（___）。请按原诗填七个字。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "亮晶晶",
+        "difficulty": 1,
+        "explanation": "答案是“亮晶晶”。它有三个字，后两个字都是“晶”，符合题目要求的三个字且后两个字相同。“红花”只有两个字；“高高兴兴”有四个字；“叮当响”的后两个字不同。",
+        "knowledge_point": "词语积累",
+        "options": [
+          "红花",
+          "亮晶晶",
+          "高高兴兴",
+          "叮当响"
+        ],
+        "question": "下面哪个词语有三个字，而且后两个字相同？",
+        "score": 1,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "小兔轻轻地走进屋里。",
+        "difficulty": 2,
+        "explanation": "答案是“小兔轻轻地走进屋里。”题目说明小兔走路时没有弄出大声音，“轻轻地”表示动作轻，符合这个意思；“大声地”与没有大声音相反，另外两个词分别表示香味和颜色，不说明走路的声音大小。",
+        "knowledge_point": "词语积累",
+        "options": [
+          "小兔大声地走进屋里。",
+          "小兔轻轻地走进屋里。",
+          "小兔香喷喷地走进屋里。",
+          "小兔红彤彤地走进屋里。"
+        ],
+        "question": "小兔走路时没有弄出大声音。选一句最符合题意的话。",
+        "score": 1,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "答案是“错”。“亮晶晶”有三个字，后两个字相同；“红红的”有三个字，但前两个字相同，后两个字不同。因此两者不是同一种重复形式。",
+        "knowledge_point": "词语积累",
+        "options": [],
+        "question": "判断：“亮晶晶”和“红红的”都是后两个字相同的三字词语。（只填“对”或“错”）",
+        "score": 1,
+        "type": "true_false",
+        "id": 73
+      },
+      {
+        "answer": "叮叮当当地",
+        "difficulty": 2,
+        "explanation": "答案是“叮叮当当地”。句子说小铃铛发出清脆的声音，“叮叮当当”可以描写铃铛的声音。“静悄悄”表示安静，“软绵绵”描写柔软的样子，“绿油油”描写绿色的样子，都不能描写铃铛发出的声音。",
+        "knowledge_point": "词语积累",
+        "options": [
+          "静悄悄地",
+          "叮叮当当地",
+          "软绵绵地",
+          "绿油油地"
+        ],
+        "question": "风吹过，挂在门上的小铃铛发出清脆的声音。选词填空：“铃铛（　　）响起来。”",
+        "score": 1,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "这块布又软又轻。",
+        "difficulty": 3,
+        "explanation": "答案是“这块布又软又轻。”题目给出的两条信息是这块布摸起来柔软、拿起来很轻，这句话同时符合两条信息。“这块布很硬”与柔软相反；“这块布很重”与很轻相反；“这块布很响”说的是声音，不符合题意。",
+        "knowledge_point": "词语积累",
+        "options": [
+          "这块布很硬。",
+          "这块布又软又轻。",
+          "这块布很重。",
+          "这块布很响。"
+        ],
+        "question": "一块布摸起来柔软，拿起来也很轻。下面哪句话同时符合这两条信息？",
+        "score": 1,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "短",
+        "difficulty": 1,
+        "explanation": "答案是“短”。“长”和“短”都可以说物体的长度，意思相反，所以它们是一对反义词。",
+        "knowledge_point": "反义词",
+        "options": [
+          "高",
+          "短",
+          "多",
+          "慢"
+        ],
+        "question": "一根绳子不长，可以说它很（　）。",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "少",
+        "difficulty": 2,
+        "explanation": "答案是“少”。“多”表示数量大，“少”表示数量不多；两者用于比较数量时意思相反。",
+        "knowledge_point": "反义词",
+        "options": [],
+        "question": "从“多、少、上、下”中，写出“多”的反义词：____（限填一个词）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 77
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "答案是“对”。“上”和“下”表示相对的位置；“桌子上面”和“桌子下面”位置相反，所以“上”和“下”是反义词。",
+        "knowledge_point": "反义词",
+        "options": [],
+        "question": "判断：在表示位置时，“上”和“下”是一对反义词。",
+        "score": 5,
+        "type": "true_false",
+        "id": 78
+      },
+      {
+        "answer": "开",
+        "difficulty": 2,
+        "explanation": "答案是“开”。按题目给定的“门”这个词，“开门”与“关门”表示相反的状态或动作；“大”“多”“长”都不是“关”的反义词。",
+        "knowledge_point": "反义词",
+        "options": [
+          "大",
+          "开",
+          "多",
+          "长"
+        ],
+        "question": "小明把门关上了。和“关”意思相反、能与“门”搭配的词是哪个？",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "长",
+        "difficulty": 3,
+        "explanation": "答案是“长”。题目要求找表示长度相反的一对词。“多—少”比较数量，“上—下”比较位置，只有“长—短”比较长度，因此小红选的“短”对应“长”。",
+        "knowledge_point": "反义词",
+        "options": [],
+        "question": "小红说：“短”的反义词是“长”。她比较的是长度，不是数量或位置。她说得对吗？填“对”或“错”：____",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 80
+      },
+      {
+        "answer": "打球",
+        "difficulty": 1,
+        "explanation": "答案是“打球”。“打”表示动作，“球”是动作对象；“打球”表示进行球类活动。其他搭配虽然也能组成词语，但不表示进行球类活动。",
+        "knowledge_point": "动宾搭配",
+        "options": [
+          "打球",
+          "看书",
+          "听音乐",
+          "提水"
+        ],
+        "question": "选出表示进行球类活动的通顺词语。",
+        "score": 2,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "听音乐",
+        "difficulty": 1,
+        "explanation": "答案是“听音乐”。“听”表示用耳朵感受声音，“音乐”是听的对象。“看音乐”可用于表示看音乐相关内容，但不符合用耳朵感受音乐声音的线索；“读音乐”和“关音乐”也不符合这个线索。",
+        "knowledge_point": "动宾搭配",
+        "options": [
+          "看音乐",
+          "听音乐",
+          "读音乐",
+          "关音乐"
+        ],
+        "question": "选出表示用耳朵感受音乐声音的词语。",
+        "score": 2,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "看书",
+        "difficulty": 2,
+        "explanation": "答案是“看书”。题目说小雨用眼睛读书上的字，动作是“看”，对象是“书”，所以说“看书”。“读书”也是通顺的词语，但题目要根据“用眼睛看”的动作来选择。",
+        "knowledge_point": "动宾搭配",
+        "options": [
+          "读故事",
+          "看书",
+          "听音乐",
+          "提水"
+        ],
+        "question": "小雨用眼睛看书上的字。下面哪个词语最符合她正在做的动作？",
+        "score": 2,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "拍",
+        "difficulty": 2,
+        "explanation": "答案是“拍”。题目限定从“拍、踢”中选择，并说明用手掌轻轻碰大腿；这种动作说“拍大腿”，所以填“拍”。",
+        "knowledge_point": "动宾搭配",
+        "options": [],
+        "question": "从“拍、踢”中选一个字，填在“___大腿”前，组成表示用手掌轻轻碰大腿的词语。只填1个字。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "读故事",
+        "difficulty": 2,
+        "explanation": "答案是“读故事”。题目要求从“读、关、故事、门”中各选两个字，并表示阅读故事。“读”表示动作，“故事”是阅读的对象，因此组成“读故事”。",
+        "knowledge_point": "动宾搭配",
+        "options": [],
+        "question": "从“读、关、故事、门”中各选两个字，写出表示阅读故事的词语。限写2个字。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "H",
+        "difficulty": 1,
+        "explanation": "答案是“H”。“花”读huā，读音首字母是h，对应的大写字母是H，所以“花”的音序是H。查字时还要继续找音节huā和对应页码。",
+        "knowledge_point": "语言表达",
+        "options": [
+          "h",
+          "H",
+          "huā",
+          "花"
+        ],
+        "question": "“花”读huā。查“花”时，音序应选哪一个？",
+        "score": 2,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "找音节lín和对应页码",
+        "difficulty": 2,
+        "explanation": "答案是“找音节lín和对应页码”。已经找到大写字母L，下一步要在L下面找到音节lín及它对应的页码，然后再按页码查字。",
+        "knowledge_point": "语言表达",
+        "options": [],
+        "question": "查“林（lín）”时，已经找到大写字母L。下一步要做什么？请写出“找音节lín和对应页码”。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 87
+      },
+      {
+        "answer": "请您把书递给我，好吗？",
+        "difficulty": 1,
+        "explanation": "答案是“请您把书递给我，好吗？”小明想请老师递书，这句话用“请您”和“好吗”礼貌地提出请求，没有把请求说成命令。",
+        "knowledge_point": "语言表达",
+        "options": [
+          "把书给我！",
+          "请您把书递给我，好吗？",
+          "你必须把书递给我。",
+          "书，快拿来。"
+        ],
+        "question": "小明想请老师帮忙递一本书，哪句话说得最有礼貌？",
+        "score": 2,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "谢谢",
+        "difficulty": 1,
+        "explanation": "答案是“谢谢”。小伙伴帮忙捡起掉在地上的橡皮后，应向对方表示感谢；合适的感谢用语是“谢谢”。",
+        "knowledge_point": "语言表达",
+        "options": [],
+        "question": "小伙伴帮你捡起掉在地上的橡皮。请填入表示感谢的两个字：____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 89
+      },
+      {
+        "answer": "第二个和第三个字相同",
+        "difficulty": 2,
+        "explanation": "答案是“第二个和第三个字相同”。“亮晶晶”由“亮”和两个“晶”组成，符合ABB式；“安安静静”是AABB式，不能只因为词语里有重复字就归为ABB式。",
+        "knowledge_point": "语言表达",
+        "options": [
+          "第二个和第三个字相同",
+          "第一个和第二个字相同",
+          "四个字都相同",
+          "每个字都不相同"
+        ],
+        "question": "“亮晶晶”是ABB式词语。它的字形特点是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 90
       }
     ]
   },
@@ -698,34 +1599,169 @@
   },
   "knowledge_summary": [
     {
+      "common_mistakes": [
+        "音序是音节第一个字母的大写形式，不是小写字母，也不是整个音节。",
+        "找到音序后还要继续找音节和页码，最后翻到对应页码查字；只找到大写字母还没有查完。"
+      ],
+      "core_concept": "音序查字法是根据汉字的读音查字典的方法。音序是音节第一个字母的大写形式。例如，“河”读 hé，音节是 he，音序是 H。查字时先找音序，再找音节和页码，最后翻到相应页码找汉字。",
+      "key_formula": "读准字音，找音序（大写字母）→找音节和页码→翻到页码找字。",
       "point": "音序查字法步骤",
-      "core_concept": "音序查字法是利用汉字的读音来查字典的方法。第一步：认清首字母，并在“汉语拼音音节索引”中找到对应の大写字母。第二步：在该大写字母下找到要查字的音节及页码。第三步：翻到对应的页码，根据声调顺序找到汉字。",
-      "key_formula": "找大写字母 -> 找音节 -> 找页码",
-      "common_mistakes": [
-        "把小写字母当做音序",
-        "字母表顺序不熟导致找错字母"
-      ],
-      "tips": "可以背诵音序歌：A B C D E F G, H I J K L M N..."
+      "tips": "先写出要查字的音节，把第一个字母写成大写形式；按字典索引找到这个音序，再找音节和页码；最后翻到对应页码找字。易错点：音序用大写字母；找到音序后还要继续查音节和页码。"
     },
     {
+      "common_mistakes": [
+        "把请求说成命令，如只说“把橡皮给我”。",
+        "只说“请”却不说明要别人做什么，或请求后忘记道谢。"
+      ],
+      "core_concept": "需要别人帮忙时，可以先有礼貌地称呼对方，再用“请”或“可以……吗”提出清楚的请求；对方答应后说“谢谢”。请求时要用商量的语气，不要命令或强迫别人。",
+      "key_formula": "称呼 + 礼貌地说清请求 + 对方答应后道谢。例：小明，请把尺子借我用一下，好吗？谢谢你。",
       "point": "口语交际：礼貌请求",
-      "core_concept": "在生活中，当我们需要别人帮助时，要使用恰当的语态和辞令。首先要观察对方是否有空，然后使用礼貌用语，说明请求原因，最后表示感谢。态度要诚恳，语气要委婉，不要强迫别人。",
-      "key_formula": "称呼 + 请（或可以吗）+ 谢",
-      "common_mistakes": [
-        "说话冷冰冰，像下命令",
-        "忘了说感谢的话"
-      ],
-      "tips": "多用商量的口气，把“给我”换成“请给我”。"
+      "tips": "先想清楚需要什么帮助，再选择合适的话说出来。说话时语气友好；对方答应后，要记得说“谢谢”。"
     },
     {
-      "point": "ABB式词语积累",
-      "core_concept": "这类词语通过重叠后两字，起到强调状态、色彩或声音的作用，读起来朗朗上口。在描写环境时，如“静悄悄”；描写声音时，如“叽叽喳喳”；描写样子时，如“胖乎乎”。",
-      "key_formula": "前1个字 + 后2个重复的字",
       "common_mistakes": [
-        "与AABB式（如：安安静静）混淆",
-        "第二个和第三个字写错"
+        "把“安安静静”误认为ABB式；它是AABB式。",
+        "只看后两个字相同就判断是ABB式，还要检查第一个字是否与后两个字不同。",
+        "把“绿油油”误写成“绿悠悠”。"
       ],
-      "tips": "按照分类来记，比如颜色类：红彤彤、绿油油、白生生。"
+      "core_concept": "ABB式词语由第一个字和后两个相同的字组成，如“静悄悄”“绿油油”“胖乎乎”。它可以描写安静的状态、颜色或样子。“安安静静”和“叽叽喳喳”都是AABB式，不是ABB式。",
+      "key_formula": "ABB式：第一个字 + 后两个相同的字。例：“静”+“悄悄”，“胖”+“乎乎”。",
+      "point": "ABB式词语积累",
+      "tips": "先看词语有几个字，再检查后两个字是否相同；如果三个字的结构是“一个字 + 两个相同的字”，就是ABB式。还可以联系意思，想想词语描写的是声音、颜色、样子还是状态。"
+    },
+    {
+      "common_mistakes": [
+        "把听别人说的事说成自己亲眼看见的事。",
+        "一个人看见了，不等于另一个人也看见了。",
+        "读故事时只凭猜测作答，没有找到支持答案的情节。"
+      ],
+      "core_concept": "读故事时，先弄清人物和事情经过，再根据故事里的情节理解人物的心情和事情的原因。讲事情时，要分清亲眼看见和听别人说：亲眼看见可以说“我看见……”，听来的可以说“我听……说……”。例如，自己看见雨后地上有水，可以说“我看见地上有水”；家人告诉你地上有水，可以说“我听家人说地上有水”。",
+      "key_formula": "读故事：找人物、看发生了什么、找支持答案的情节。讲事情：亲眼看见的说“我看见……”，听来的说“我听……说……”。",
+      "point": "中外传闻及课文理解",
+      "tips": "按顺序说清谁做了什么，再找出能说明答案的情节。讲自己没亲眼看见的事，要说清消息来源。易错点：听别人说不等于自己亲眼看见；一个人看见了，不代表另一个人也看见了。"
+    },
+    {
+      "common_mistakes": [
+        "把表示心情的“快乐”当成表示动作速度快的“飞快”。",
+        "只看句子里的一个词就选答案，没有检查整个句子表达的意思。",
+        "把“吃力”（做起来费劲）和“飞快”（速度很快）混为一谈。"
+      ],
+      "core_concept": "字义辨析，就是结合句子和情境，分清词语的意思，再选出最合适的词。比如，“跑得飞快”说速度快；“搬得很吃力”说做起来费劲；“心里快乐”说心情好。",
+      "key_formula": "读句子和情境 → 想一想词语的意思 → 放回句子检查是否合适。",
+      "point": "字义辨析",
+      "tips": "先找句子说的是动作、心情还是事情做起来的难易，再比较词语意思。注意看清题目给出的线索：表示速度的词要和“快、慢”等线索相合；表示心情的词要和开心、伤心等线索相合。"
+    },
+    {
+      "common_mistakes": [
+        "只看词语的样子，不联系它描写的事物或情景；可以把词语放进句子里读一读，检查意思是否合适。",
+        "把ABB式和AABB式混淆：ABB如“胖乎乎”，AABB如“安安静静”。",
+        "以为一个词语只能搭配一种事物；要根据句子提供的具体情景判断。"
+      ],
+      "core_concept": "词语搭配要看词语的意思和句子中的事物是否合适。例如，“绿油油”可以描写菜叶的颜色，“亮晶晶”可以描写星星明亮的样子，“静悄悄”可以描写夜晚很安静。ABB式词语有三个字，后两个字相同，如“胖乎乎”；“安安静静”是AABB式。",
+      "key_formula": "搭配时先看句子写的事物或情景，再选意思相合的词语。辨认ABB式时，数一数是否三个字，再看后两个字是否相同。",
+      "point": "词语搭配",
+      "tips": "先读句子，想一想它写的是什么，再选能准确描写它的词语。辨认ABB式时数三个字，并检查第二、第三个字是否相同。"
+    },
+    {
+      "common_mistakes": [
+        "把“闻”理解成看见；“忽闻”在诗中是忽然听见。",
+        "把“千尺”当成桃花潭的实际测量结果；诗句用它来写潭水很深。",
+        "把“不及”理解成超过；在诗句中，“不及”是比不上。",
+        "只读到潭水很深，没有联系后一句理解诗人对汪伦情意的珍视。"
+      ],
+      "core_concept": "《赠汪伦》写李白乘船将要离开时，忽然听见岸上传来踏歌声。“闻”是听见；“不及”是比不上。诗人写桃花潭水很深，又说潭水比不上汪伦送别自己的情意，表达对这份情意的珍视。“千尺”是诗句中的表达，不是实际测量数据。",
+      "key_formula": "读诗方法：先找诗中写到的人和事，再联系前后句理解词语。例如，“忽闻”是忽然听见，“不及”是比不上。",
+      "point": "古诗理解",
+      "tips": "先读准诗句，再找诗中有哪些人、发生了什么事。遇到不懂的词，联系整句和前后句想一想；不要把诗里的表达直接当成实际测量。"
+    },
+    {
+      "common_mistakes": [
+        "只看单个“乐”字，不结合它所在的词语判断读音。",
+        "把“音乐”中的yuè和“快乐”中的lè弄反。",
+        "看到“乐”就只想到一种读音，忽略不同词语中的读音可能不同。"
+      ],
+      "core_concept": "有些汉字在不同词语中读音不同，叫多音字。“乐”在“音乐”中读yuè，在“快乐”中读lè。要结合它所在的词语来判断读音。",
+      "key_formula": "先看“乐”所在的词语，再读完整个词：音乐读yuè，快乐读lè。",
+      "point": "多音字",
+      "tips": "可以把“音乐”和“快乐”放在一起对照记忆。判断时先读词语，再说出“乐”的读音；也要注意同一句话里两个“乐”可能读得不同。"
+    },
+    {
+      "common_mistakes": [
+        "不要只凭字义猜部件；先看字形中实际出现了什么。",
+        "足字旁“⻊”和走之底“辶”不是同一个部件，形状和位置都不同。",
+        "看到部件在字的左边，不代表所有左边部件都是同一种；要逐字观察。"
+      ],
+      "core_concept": "认字时，可以观察汉字的左边、上边或下边，找出相同的部件，并说出部件名称。例如，“跑”和“跳”左边都有足字旁（⻊）；“打”和“拍”左边都有提手旁（扌）。本课练习观察字形中的部件，不要求判断字典中的归部。",
+      "key_formula": "观察字形 → 找相同部件 → 说出部件名称。例：“吃、叫”的左边都有口字旁。",
+      "point": "部首识别",
+      "tips": "先看字的具体部件，再判断名称。可以对照“跑”左边的足字旁（⻊）和“这”下边的走之底（辶）。易错点：不要只凭意思猜部件；不要把足字旁和走之底混为一谈。"
+    },
+    {
+      "common_mistakes": [
+        "只凭生活常识猜人物做了什么，没有先从短文里找依据。",
+        "把短文没有写的事情当成已知信息。",
+        "看见“他”“她”时没有联系前后句，弄错指的是谁。"
+      ],
+      "core_concept": "读短文时，先看清人物和事情，再从文中找能支持答案的信息。题目问“谁”“做了什么”或“事情后来怎样”，要用短文里的线索回答。例如，短文写“乐乐把书递给小雨”，就能知道递书的人是乐乐、接书的人是小雨；短文没有写的事情，不能只靠猜测补上。",
+      "key_formula": "读题目 → 回短文找线索 → 用文中的信息回答。",
+      "point": "短文阅读",
+      "tips": "读完可以问自己：短文里有谁？发生了什么？题目问什么？答案能从哪句话找到？遇到“他”或“她”，要联系前后句确认指的是谁。"
+    },
+    {
+      "common_mistakes": [
+        "把“闻”理解成“看见”；诗句中的“闻”表示听到。",
+        "把“将欲行”理解成已经离开；它表示正要出发。",
+        "补写时漏字、换字，或把字的顺序写错。"
+      ],
+      "core_concept": "古诗填空要根据已给出的诗句，回想原诗，并按原来的顺序补写。比如，看到“床前明月光”，可以回想这句诗写到明亮的月光照在床前。读懂诗句中的词语，也能帮助理解诗意： “乘舟”是坐船，“将欲行”是正要出发，“闻”是听见。",
+      "key_formula": "读已知诗句 → 回想原句 → 按顺序补写 → 连起来检查。",
+      "point": "古诗填空",
+      "tips": "先读空格前后的字，想想空格要补几个字；写好后从头读一遍，检查字数、顺序和意思。易错点：把“闻”当成“看见”；把“将欲行”当成“已经离开”。"
+    },
+    {
+      "common_mistakes": [
+        "只看一个词就猜意思，不联系句子里的事情。",
+        "看到词语有重复的字就认为形式相同；要逐字观察字数和重复的位置。",
+        "把表示声音的词语和表示安静、样子的词语混淆。",
+        "只注意句子中的一个词，没有检查所选词语是否和整句话意思相合。"
+      ],
+      "core_concept": "积累词语时，要会读词语、理解词语，并能根据具体句子选用合适的词。词语可以描写声音、颜色或样子。例如，“亮晶晶”可以描写明亮闪亮的样子；“叮叮当当”可以描写清脆的声音。看词语形式时，可以数一数有几个字，再看看哪些字重复。",
+      "key_formula": "理解词语：读句子，想一想事情和词语的意思是否相合。观察词语：数一数字，再看有没有相同的字。选词填句：先读完整句话，再选最合适的词。",
+      "point": "词语积累",
+      "tips": "读词语时，可以把它放回句子里再读一遍。比较词语时，逐字看清字数和相同的字；选择词语时，找出句子里关于声音、颜色或样子的线索。"
+    },
+    {
+      "common_mistakes": [
+        "把意思相反的词误当成读音相同或字形相近的词；判断时要看词语意思。",
+        "只记住一组固定反义词，忽略上下文；例如“开”在不同说法中，反义词可能不同。"
+      ],
+      "core_concept": "反义词是意思相反或相对的词。学习时可以把两个词放在同一类事物或同一句话里比较，例如“大”和“小”表示大小相反，“上”和“下”表示位置相对。判断反义词要看意思，不能只看字形。",
+      "key_formula": "比较两个词的意思；意思相反或相对的一对词，可以是反义词。例子：多—少，来—去，长—短。",
+      "point": "反义词",
+      "tips": "先说清每个词的意思，再找意思相反或相对的词。可用具体事物帮助理解：比较两根长短不同的绳子，或看物品在桌子的上面还是下面。遇到多义词时，结合句子判断。"
+    },
+    {
+      "common_mistakes": [
+        "只看两个词能不能放在一起，没有检查动作和对象的意思是否合适。",
+        "把动作相近的词混淆；要根据动作线索选择合适的动词。",
+        "把活动用到的器具误当成动作对象，例如“跳绳”里的“绳”是活动用到的器具。"
+      ],
+      "core_concept": "动宾搭配是把表示动作的词和表示动作对象的词合在一起，组成意思通顺的词语。例如，“擦桌子”中，“擦”表示动作，“桌子”是动作对象；“读故事”中，“读”表示动作，“故事”是动作对象。",
+      "key_formula": "动词＋合适的动作对象。例：擦桌子、读故事、提水、关门。先弄清动作，再找这个动作作用的对象。",
+      "point": "动宾搭配",
+      "tips": "先想清楚题目说的是哪种动作，再找动作对象。把搭配连起来读一读，确认它既通顺，也符合题目给出的动作线索。"
+    },
+    {
+      "common_mistakes": [
+        "音序要写读音首字母对应的大写字母，例如“花（huā）”的音序是H，不是小写h。",
+        "找到大写字母后，还要找音节和页码，再翻到对应页码查字。",
+        "有重复字不一定是ABB式；“亮晶晶”是ABB式，“安安静静”是AABB式。",
+        "请求别人帮忙时要用礼貌的话说清请求；得到帮助后要说“谢谢”。"
+      ],
+      "core_concept": "本课学习连词成句、音序查字、礼貌请求和ABB式词语。连词成句时，按意思排列词语，组成通顺的话。音序查字时，先找读音首字母的大写字母，再找音节和页码，最后按页码查字。请求别人帮忙时，可以用“请”等礼貌用语说明请求；得到帮助后要道谢。ABB式词语由一个字和后两个相同的字组成，如“静悄悄”“胖乎乎”。",
+      "key_formula": "连词成句：按意思排列词语，组成通顺的话。音序查字：读准字音→找首字母的大写字母→找音节和页码→按页码查字。礼貌请求：称呼对方→用“请”等词说明请求→得到帮助后道谢。ABB式：一个字＋后两个相同的字，如“绿油油”。",
+      "point": "语言表达",
+      "tips": "先想清楚词语之间的意思，再连成通顺的话。查字时按步骤找大写字母、音节和页码。请求别人时说清楚想请对方做什么，并用礼貌用语；得到帮助后记得道谢。辨认ABB式词语时，检查第二个字和第三个字是否相同。"
     }
   ]
 }

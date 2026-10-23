@@ -4,326 +4,2070 @@
   "unit_number": 3,
   "unit_test": {
     "title": "第三单元《天气》阶段自测卷",
-    "total_score": 100,
+    "total_score": 594,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "阳光直射会使气温计受热，读数可能偏高。应在室外阴凉、通风处测量。",
         "knowledge_point": "气温计的使用",
+        "options": [],
         "question": "测量气温时，气温计应该挂在室外阳光直射的地方。",
-        "options": [],
-        "answer": "错",
-        "explanation": "测量气温应在室外阴凉通风处，阳光直射会导致数值偏高。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "降水量表示降水形成的水层深度，通常用毫米（mm）作单位。",
         "knowledge_point": "降水量的测量",
-        "question": "降雨量是用毫米作单位来计量的。",
         "options": [],
-        "answer": "对",
-        "explanation": "降水量的法定计量单位是毫米（mm）。"
+        "question": "降水量通常用毫米（mm）作单位来计量。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "风向表示风吹来的方向，所以北风是从北向南吹的风。",
         "knowledge_point": "风向的定义",
+        "options": [],
         "question": "风向是指风吹来的方向，比如北风是指从北向南吹的风。",
-        "options": [],
-        "answer": "对",
-        "explanation": "风向即风来源的方向。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "本课的简化标准中，云量超过天空的四分之三时称为阴。题干中的“整个天空的四分之三以上”符合这一判断。",
         "knowledge_point": "云的识别",
+        "options": [],
         "question": "阴天时，云量通常占据了整个天空的四分之三以上。",
-        "options": [],
-        "answer": "对",
-        "explanation": "气象学规定云量覆盖天空80%及以上为阴天。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "天气预报的制作",
-        "question": "现在气象员只依靠超级计算机就能发布准确的天气预报，不需要人工参与。",
-        "options": [],
-        "answer": "错",
-        "explanation": "天气预报需要经过人工集体会商后才会发布。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "天气预报会用到计算机处理资料，但还需要气象人员分析判断、会商并制作预报。",
+        "knowledge_point": "天气预报的制作",
+        "options": [],
+        "question": "现在气象员只依靠超级计算机就能发布准确的天气预报，不需要人工参与。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "与液柱顶端持平",
         "difficulty": 1,
+        "explanation": "平视液柱顶端能减少视角造成的读数误差。",
         "knowledge_point": "气温计的读数",
-        "question": "读取气温计数值时，视线应该（ ）。",
         "options": [
           "仰视液柱顶端",
           "俯视液柱顶端",
           "与液柱顶端持平",
           "随意观察"
         ],
-        "answer": "与液柱顶端持平",
-        "explanation": "平视可以保证读数准确，避免产生误差。"
+        "question": "读取气温计数值时，视线应该（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "冰雹",
         "difficulty": 1,
+        "explanation": "雨、雪、冰雹会从云中降落到地面，属于降水形式；雾、霜、露水不是降水。",
         "knowledge_point": "降水形式",
-        "question": "下列属于降水形式的是（ ）。",
         "options": [
           "雾",
           "冰雹",
           "霜",
           "露水"
         ],
-        "answer": "冰雹",
-        "explanation": "雨、雪、冰雹都属于大气降水形式。"
+        "question": "下列属于降水形式的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "西南风",
         "difficulty": 2,
+        "explanation": "风向标箭头指向的方向是风吹来的方向。箭头指向西南方，所以刮西南风。",
         "knowledge_point": "风向标的使用",
-        "question": "如果风向标的箭头指向西南方，说明此时刮的是（ ）。",
         "options": [
           "东北风",
           "西南风",
           "东南风",
           "西北风"
         ],
-        "answer": "西南风",
-        "explanation": "风向标箭头指向的方向即为风吹来的方向。"
+        "question": "如果风向标的箭头指向西南方，说明此时刮的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "积云",
         "difficulty": 1,
+        "explanation": "积云通常一团团向上堆积，看起来像棉花团。",
         "knowledge_point": "积云的特征",
-        "question": "看上去像棉花团一样的云叫（ ）。",
         "options": [
           "卷云",
           "层云",
           "积云",
           "雨云"
         ],
-        "answer": "积云",
-        "explanation": "积云特征为像棉花团、团状堆积。"
+        "question": "看上去像棉花团一样的云叫（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "直筒透明杯子",
         "difficulty": 2,
+        "explanation": "直筒容器上下粗细均匀，水面高度与雨水深度相对应，透明材质便于观察水位。",
         "knowledge_point": "制作雨量器",
-        "question": "制作简易雨量器时，容器的形状应该是（ ）。",
         "options": [
           "上大下小的圆锥形",
           "不规则形状",
           "直筒透明杯子",
           "球形杯子"
         ],
-        "answer": "直筒透明杯子",
-        "explanation": "雨量器要求上下粗细均匀以保证刻度均匀。"
+        "question": "制作简易雨量器时，容器的形状应该是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "风速仪",
         "difficulty": 1,
+        "explanation": "风速仪是测量风速的专用仪器。",
         "knowledge_point": "天气观测工具",
-        "question": "测量风速的专业仪器的名称是（ ）。",
         "options": [
           "风向标",
           "气压计",
           "风速仪",
           "百叶箱"
         ],
-        "answer": "风速仪",
-        "explanation": "风速仪是测量风速的专用仪器。"
+        "question": "测量风速的专业仪器的名称是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "中雨",
         "difficulty": 2,
+        "explanation": "24小时降水量10.0—24.9毫米为中雨，15毫米在这个范围内。",
         "knowledge_point": "降雨等级划分",
-        "question": "24小时总降水量为15毫米，属于（ ）。",
         "options": [
           "小雨",
           "中雨",
           "大雨",
           "暴雨"
         ],
-        "answer": "中雨",
-        "explanation": "10-24.9毫米之间为中雨。"
+        "question": "24小时总降水量为15毫米，属于（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "下午2点左右",
         "difficulty": 1,
+        "explanation": "地面在中午后还会继续吸收太阳辐射并升温，因此气温通常在午后达到较高值。",
         "knowledge_point": "气温的变化",
-        "question": "一天中气温最高的时间段通常是在（ ）。",
         "options": [
           "上午10点",
           "中午12点",
           "下午2点左右",
           "傍晚6点"
         ],
-        "answer": "下午2点左右",
-        "explanation": "受地表散热滞后影响，最高温通常在午后两小时。"
+        "question": "一天中气温最高的时间段通常是在（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "昆明四季如春",
         "difficulty": 3,
+        "explanation": "“四季如春”描述的是昆明较长时间里常见的天气特点，属于气候。其他选项描述的是某一天、某一晚或此刻的状况，属于天气。",
         "knowledge_point": "天气与气候的区别",
-        "question": "下列描述属于气候的是（ ）。",
         "options": [
           "昆明四季如春",
           "今天乌云密布",
           "昨晚下了一场雨",
           "此刻窗外微风习习"
         ],
-        "answer": "昆明四季如春",
-        "explanation": "气候强调长期稳定性，天气强调短时间的瞬间状态。"
+        "question": "下列描述属于气候的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "南风 4级",
         "difficulty": 2,
+        "explanation": "烟向北飘，说明风从南方吹来，因此是南风；树枝摇动表示风力较强，按常见观察描述约为4级。",
         "knowledge_point": "风力等级观察",
-        "question": "当我们看到烟飘向北方，树枝摇动，这时的风向和风力大约是（ ）。",
         "options": [
           "北风 1级",
           "南风 4级",
           "南风 1级",
           "西风 2级"
         ],
-        "answer": "南风 4级",
-        "explanation": "烟向北飘是南风；树枝摇动约4级（风吹树枝动）。"
+        "question": "当我们看到烟飘向北方，树枝摇动，这时的风向和风力大约是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "摄氏度",
         "difficulty": 2,
+        "explanation": "℃是摄氏度的符号，是常用的温度单位。",
         "knowledge_point": "气温计结构",
-        "question": "气温计上标有的℃符号意为（ ）。",
         "options": [
           "华氏度",
           "摄氏度",
           "经度",
           "纬度"
         ],
-        "answer": "摄氏度",
-        "explanation": "℃是国际上常用的摄氏温标单位。"
+        "question": "气温计上标有的℃符号意为（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "数据收集",
         "difficulty": 1,
+        "explanation": "天气预报从收集气温、气压、风向、风速和降水等观测数据开始，后续环节才能据此进行分析和预测。",
         "knowledge_point": "天气预报流程",
-        "question": "制作天气预报的第一步流程是（ ）。",
         "options": [
           "数值天气预报",
           "气象员会商",
           "数据收集",
           "发布预报"
         ],
-        "answer": "数据收集",
-        "explanation": "天气预报始于全球各地的气象站点数据收集。"
+        "question": "制作天气预报的第一步流程是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "国庆",
         "difficulty": 3,
+        "explanation": "国庆是公历节日，不属于传统农耕二十四节气。",
         "knowledge_point": "二十四节气",
-        "question": "下列哪个选项不属于二十四节气？（ ）。",
         "options": [
           "夏至",
           "大寒",
           "国庆",
           "惊蛰"
         ],
-        "answer": "国庆",
-        "explanation": "国庆是公历节日，非传统农耕二十四节气。"
+        "question": "下列哪个选项不属于二十四节气？（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "气温计读数",
-        "question": "冰水混合物的温度被规定为（ ___ ）℃。",
-        "options": [],
         "answer": "0",
-        "explanation": "标准大气压下水结冰的温度为0度。"
-      },
-      {
-        "id": 20,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "风力等级",
-        "question": "蒲福风力等级表将风力共分为（ ___ ）个等级。",
-        "options": [],
-        "answer": "13",
-        "explanation": "蒲福风力等级表通常划分为0-12级，共13个等级。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
-        "knowledge_point": "气温计结构",
-        "question": "气温计主要由液柱、刻度、单位和（ ___ ）组成。",
+        "explanation": "冰水混合物的温度规定为0℃。",
+        "knowledge_point": "气温计读数",
         "options": [],
+        "question": "冰水混合物的温度被规定为（ ___ ）℃。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 19
+      },
+      {
+        "answer": "13",
+        "difficulty": 2,
+        "explanation": "蒲福风力等级表通常划分为0级到12级，首尾都包含在内，所以共有12－0＋1＝13个等级。",
+        "knowledge_point": "风力等级",
+        "options": [],
+        "question": "蒲福风力等级表将风力共分为（ ___ ）个等级。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
+      },
+      {
         "answer": "液泡",
-        "explanation": "气温计下端装液体的部位叫液泡。"
+        "difficulty": 1,
+        "explanation": "气温计下端装液体的部位叫液泡。",
+        "knowledge_point": "气温计结构",
+        "options": [],
+        "question": "气温计主要由液柱、刻度、单位和（ ___ ）组成。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "降水量的测量",
-        "question": "测量降水量时，应把雨量器放在（ ___ ）的地方。",
-        "options": [],
         "answer": "空旷",
-        "explanation": "空旷地带无遮挡，测得的降水量才具有代表性。"
+        "difficulty": 2,
+        "explanation": "空旷、无遮挡的地方能减少屋檐或树木等对降水收集的影响，使测量更有代表性。",
+        "knowledge_point": "降水量的测量",
+        "options": [],
+        "question": "测量降水量时，应把雨量器放在（ ___ ）的地方。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "云的分类",
-        "question": "像羽毛一样纤细的云通常是（ ___ ）。",
-        "options": [],
         "answer": "卷云",
-        "explanation": "卷云通常在高空，呈纤维状或羽毛状。"
+        "difficulty": 2,
+        "explanation": "卷云通常位于高空，细长、纤细，常像羽毛或丝线。",
+        "knowledge_point": "云的分类",
+        "options": [],
+        "question": "像羽毛一样纤细的云通常是（ ___ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "摄氏度；℃",
+        "difficulty": 1,
+        "explanation": "气温计常用摄氏度表示温度，摄氏度的符号是℃。",
+        "knowledge_point": "气温计的读数与测量",
+        "options": [],
+        "question": "气温通常用什么单位表示？它的符号是什么？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "先让气温计液柱稳定，再让视线与液柱顶端保持水平，读出对应刻度，并写上℃。",
+        "difficulty": 1,
+        "explanation": "视线水平可以减少观察角度造成的读数误差；读数还要记录正确单位。",
+        "knowledge_point": "气温计的读数与测量",
+        "options": [],
+        "question": "使用气温计读数时，应该怎样观察和记录？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "气温计应放在通风且避免阳光直射的地方，等液柱稳定后再读数。",
+        "knowledge_point": "气温计的读数与测量",
+        "options": [
+          "A. 放在阳光直射的窗台上，立刻读数",
+          "B. 放在通风、避免阳光直射的地方，等液柱稳定后读数",
+          "C. 用手紧握玻璃泡，再读数",
+          "D. 放在暖气旁边读数"
+        ],
+        "question": "怎样测量气温比较合适？",
+        "score": 1,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "读数时让视线与液柱顶端保持水平，有助于准确判断液柱对应的刻度。",
+        "knowledge_point": "气温计的读数与测量",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "读气温计时，视线应与液柱顶端保持水平。",
+        "score": 1,
+        "type": "true_false",
+        "id": 27
+      },
+      {
+        "answer": "19℃",
+        "difficulty": 2,
+        "explanation": "液柱顶端在18℃和20℃之间的中间刻度，对应19℃。读数时要看液柱顶端对应的刻度。",
+        "knowledge_point": "气温计的读数与测量",
+        "options": [],
+        "question": "一支气温计的刻度每小格表示1℃。液柱顶端正好对着18℃与20℃之间的中间刻度，气温是多少？",
+        "score": 2,
+        "type": "calculation",
+        "id": 28
+      },
+      {
+        "answer": "下降",
+        "difficulty": 1,
+        "explanation": "气温降低时，温度计内液柱通常会下降；气温升高时，液柱通常会上升。",
+        "knowledge_point": "气温计的读数与测量",
+        "options": [],
+        "question": "气温降低时，气温计的液柱通常会升高还是下降？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "水层深度，通常用毫米（mm）表示。",
+        "difficulty": 1,
+        "explanation": "降水量表示一定时间内降水形成的水层有多深，不是降水持续了多久。",
+        "knowledge_point": "降水量的测量与降水等级",
+        "options": [],
+        "question": "降水量通常表示什么？常用什么单位？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "把雨量器放在开阔、平坦且没有遮挡的地方；降水后平视刻度，读取水层深度，并记录统计时间。",
+        "difficulty": 2,
+        "explanation": "周围有屋檐、树木等遮挡会影响收集到的降水量；读数时平视刻度有助于读准水深。",
+        "knowledge_point": "降水量的测量与降水等级",
+        "options": [],
+        "question": "使用雨量器测量降水量时，怎样放置雨量器并读取读数？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "小雨",
+        "difficulty": 1,
+        "explanation": "按24小时降雨量等级，0.1～9.9毫米为小雨；4毫米在这个范围内。",
+        "knowledge_point": "降水量的测量与降水等级",
+        "options": [],
+        "question": "某地24小时降雨量为4毫米，属于哪一级降雨？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "大雨",
+        "difficulty": 2,
+        "explanation": "按24小时降雨量等级，25.0～49.9毫米为大雨；32毫米落在这个范围内。",
+        "knowledge_point": "降水量的测量与降水等级",
+        "options": [
+          "小雨",
+          "中雨",
+          "大雨",
+          "暴雨"
+        ],
+        "question": "某地24小时降雨量为32毫米，属于哪一级降雨？",
+        "score": 2,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "降水量是一定时间内降水形成的水层深度，不是下雨持续的小时数。",
+        "knowledge_point": "降水量的测量与降水等级",
+        "options": [],
+        "question": "判断题：下雨持续了6小时，所以降水量就是6毫米。",
+        "score": 2,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "小明：暴雨；小红：中雨。",
+        "difficulty": 3,
+        "explanation": "24小时降雨量48毫米属于25.0～49.9毫米的大雨；12毫米属于10.0～24.9毫米的中雨。",
+        "knowledge_point": "降水量的测量与降水等级",
+        "options": [],
+        "question": "同一天，甲地24小时降雨量为48毫米，乙地为12毫米。分别判断两地的降雨等级。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "风吹来的方向",
+        "difficulty": 1,
+        "explanation": "风向是按照风的来向命名的。例如，风从北边吹来，就叫北风。",
+        "knowledge_point": "风向与风力的观测",
+        "options": [],
+        "question": "风向表示什么？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 36
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "风从东边吹来，风向就是东风；风吹去的方向不是风向的命名依据。",
+        "knowledge_point": "风向与风力的观测",
+        "options": [
+          "A. 西风",
+          "B. 南风",
+          "C. 东风",
+          "D. 北风"
+        ],
+        "question": "风从东方吹来，这种风的风向是（ ）。",
+        "score": 1,
+        "type": "choice",
+        "id": 37
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "风力表示风的强弱，可以观察风对旗子、树枝等物体的影响来判断。",
+        "knowledge_point": "风向与风力的观测",
+        "options": [],
+        "question": "观察旗子飘动和树枝摇晃的情况，可以帮助我们判断风力大小。",
+        "score": 1,
+        "type": "true_false",
+        "id": 38
+      },
+      {
+        "answer": "风向标",
+        "difficulty": 1,
+        "explanation": "风向标会随风转动，能够帮助我们辨认风从哪个方向吹来。",
+        "knowledge_point": "风向与风力的观测",
+        "options": [],
+        "question": "可以用________观测风向。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "分别记录风向和风力；例如记为“西风，风力较小”。",
+        "difficulty": 2,
+        "explanation": "风向和风力是两种不同的信息：风向说明风从哪里来，风力说明风有多强。观测记录应把两者分开写清楚。",
+        "knowledge_point": "风向与风力的观测",
+        "options": [],
+        "question": "操场上的旗子向东飘，附近树叶轻轻摇动。写出观测记录时应记录的两项内容，并举例说明。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "风吹来的方向与旗子飘去的方向相反。旗子向南飘，说明风从北边吹来，所以是北风。",
+        "knowledge_point": "风向与风力的观测",
+        "options": [
+          "A. 南风",
+          "B. 北风",
+          "C. 东风",
+          "D. 西风"
+        ],
+        "question": "一面旗子向南飘。忽略其他影响，风大约从哪个方向吹来？",
+        "score": 2,
+        "type": "choice",
+        "id": 41
+      },
+      {
+        "answer": "云覆盖天空的多少。",
+        "difficulty": 1,
+        "explanation": "云量描述的是云在天空中占据的范围，不是云的形状或云有多高。",
+        "knowledge_point": "云量的识别与形态分类",
+        "options": [],
+        "question": "“云量”主要指什么？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 42
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "云量较少，表示天空中大部分区域没有被云遮住；但这不等于能只凭云量确定全部天气情况。",
+        "knowledge_point": "云量的识别与形态分类",
+        "options": [
+          "A. 云覆盖了大部分天空",
+          "B. 云只覆盖了少部分天空",
+          "C. 云的边缘很清楚",
+          "D. 云看起来像羽毛"
+        ],
+        "question": "天空中只有几小片云，其余大多是蓝天。关于云量，哪项描述最合适？",
+        "score": 1,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "积云",
+        "difficulty": 1,
+        "explanation": "积云常像棉花团或堆起来的白色团块，边缘比较清楚。",
+        "knowledge_point": "云量的识别与形态分类",
+        "options": [],
+        "question": "天空中出现一团团像棉花、边缘比较清楚的云，通常称为哪种云？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 44
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "云量和云的形态是不同的观察内容：云量看覆盖多少，形态看外形特征。",
+        "knowledge_point": "云量的识别与形态分类",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "云量说的是云覆盖天空的多少，云的形态说的是云的外形特征。",
+        "score": 1,
+        "type": "true_false",
+        "id": 45
+      },
+      {
+        "answer": "卷云",
+        "difficulty": 2,
+        "explanation": "卷云通常显得较高、较薄，形状像羽毛或细丝。",
+        "knowledge_point": "云量的识别与形态分类",
+        "options": [
+          "A. 积云",
+          "B. 卷云",
+          "C. 层云",
+          "D. 雨滴"
+        ],
+        "question": "哪一种云常显得又高又薄，像羽毛或细丝？",
+        "score": 1,
+        "type": "choice",
+        "id": 46
+      },
+      {
+        "answer": "云覆盖天空的约一半，属于云量中等；天空大部分区域被云遮住，属于云量较多。",
+        "difficulty": 2,
+        "explanation": "估计云量时，把天空看作一个整体，比较云覆盖的范围。覆盖约一半可描述为云量中等；覆盖大部分天空可描述为云量较多。",
+        "knowledge_point": "云量的识别与形态分类",
+        "options": [],
+        "question": "观察甲天空，云大约覆盖一半；观察乙天空，云覆盖了大部分天空。分别怎样描述这两处的云量？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "收集气象观测资料",
+        "difficulty": 1,
+        "explanation": "制作预报首先要获得天气资料，例如气温、风向、风速和降水情况。",
+        "knowledge_point": "天气预报的制作流程",
+        "options": [],
+        "question": "制作天气预报时，首先需要做什么？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 48
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "气象工作人员会利用气象站、雷达、卫星等渠道收集天气资料；不能只靠一个人随口猜测。",
+        "knowledge_point": "天气预报的制作流程",
+        "options": [
+          "只听一个人的感觉",
+          "利用多种观测设备收集资料",
+          "只看昨天的天气"
+        ],
+        "question": "下列哪种做法有助于收集天气资料？",
+        "score": 1,
+        "type": "choice",
+        "id": 49
+      },
+      {
+        "answer": "分析",
+        "difficulty": 1,
+        "explanation": "收集到资料后，气象工作人员要综合分析不同地点和时间的天气变化，再判断未来天气。",
+        "knowledge_point": "天气预报的制作流程",
+        "options": [],
+        "question": "收集气象资料之后，气象工作人员要对资料进行________，判断天气可能怎样变化。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "天气预报是依据观测资料和分析作出的预测，不是随口猜测。",
+        "knowledge_point": "天气预报的制作流程",
+        "options": [],
+        "question": "天气预报是根据气象观测资料分析后作出的预测。",
+        "score": 1,
+        "type": "true_false",
+        "id": 51
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "分析天气情况后，气象工作人员会制作预报并发布给公众；之后还会持续观测，根据新资料调整预报。",
+        "knowledge_point": "天气预报的制作流程",
+        "options": [
+          "收集资料后立刻停止观测",
+          "发布预报后继续观测，必要时更新",
+          "只要发布一次预报就不能更改"
+        ],
+        "question": "天气预报发布以后，气象工作人员还需要做什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 52
+      },
+      {
+        "answer": "收集观测资料、分析天气情况、制作并发布预报、持续观测和更新预报",
+        "difficulty": 2,
+        "explanation": "天气预报通常先从收集资料开始，再分析天气变化，接着制作并发布预报；天气情况变化时，还要继续观测并及时更新。",
+        "knowledge_point": "天气预报的制作流程",
+        "options": [],
+        "question": "请按先后顺序写出天气预报制作的主要环节。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "天气",
+        "difficulty": 1,
+        "explanation": "“今天”表示较短时间，“晴朗”描述当时的大气状况，所以这是天气。",
+        "knowledge_point": "天气与气候的差异",
+        "options": [
+          "天气",
+          "气候"
+        ],
+        "question": "“今天阳光明媚，气温很高”描述的是天气还是气候？",
+        "score": 1,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "气候",
+        "difficulty": 1,
+        "explanation": "“通常”表示长期、多次出现的特点；一个地区夏季通常炎热多雨，描述的是气候。",
+        "knowledge_point": "天气与气候的差异",
+        "options": [
+          "天气",
+          "气候"
+        ],
+        "question": "“南方一些地区夏季通常炎热多雨”描述的是天气还是气候？",
+        "score": 1,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "天气是短时间的大气状况，气候是地区较长时间的天气平均状况和特点，二者有关联，但含义不同。",
+        "knowledge_point": "天气与气候的差异",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "天气和气候都是指某一天的大气状况。",
+        "score": 1,
+        "type": "true_false",
+        "id": 56
+      },
+      {
+        "answer": "气候",
+        "difficulty": 2,
+        "explanation": "“每年冬季通常寒冷”说的是一个地区在较长时间里反复出现的季节特点，属于气候。",
+        "knowledge_point": "天气与气候的差异",
+        "options": [],
+        "question": "“这个地区每年冬季通常比较寒冷”描述的是________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 57
+      },
+      {
+        "answer": "天气",
+        "difficulty": 2,
+        "explanation": "“明天”指较短时间，“可能有雨”描述对近期大气状况的预报，因此属于天气预报。",
+        "knowledge_point": "天气与气候的差异",
+        "options": [],
+        "question": "气象预报说“明天可能有雨”，这里预报的是________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "天气",
+        "difficulty": 2,
+        "explanation": "下雨是某地在较短时间内发生的大气现象，所以它描述的是天气。一个地方偶尔下雨，并不能单独说明当地的气候特点。",
+        "knowledge_point": "天气与气候的差异",
+        "options": [],
+        "question": "小明说：“我们这里今天下雨，所以这里的气候就是多雨。”他的说法正确吗？请写出判断，并说明理由。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "气温计测量的是空气的温度，应放在阴凉、通风处，避免阳光直射。",
+        "knowledge_point": "气温计的使用",
+        "options": [
+          "A. 室外阴凉、通风处",
+          "B. 阳光直射的窗台上",
+          "C. 靠近暖气的地方"
+        ],
+        "question": "测量气温时，气温计适合放在哪里？",
+        "score": 2,
+        "type": "choice",
+        "id": 60
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "用手握住气温计的玻璃泡，会把手的热量传给气温计，影响测量结果。",
+        "knowledge_point": "气温计的使用",
+        "options": [],
+        "question": "测量气温时，可以用手握住气温计的玻璃泡。",
+        "score": 2,
+        "type": "true_false",
+        "id": 61
+      },
+      {
+        "answer": "稳定",
+        "difficulty": 1,
+        "explanation": "需要等气温计示数稳定后再读数，这样读数更可靠。",
+        "knowledge_point": "气温计的使用",
+        "options": [],
+        "question": "测量气温时，要等气温计的示数____后再读数。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "与液柱顶端保持水平",
+        "difficulty": 2,
+        "explanation": "平视液柱顶端可以减少观察角度造成的读数误差。",
+        "knowledge_point": "气温计的使用",
+        "options": [],
+        "question": "读气温计时，眼睛应怎样观察液柱顶端？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "气温计应在空气流通的环境中测量。把它紧贴墙面或放在地面附近，可能使测量结果受到周围物体影响。",
+        "knowledge_point": "气温计的使用",
+        "options": [
+          "A. 把气温计紧贴墙面",
+          "B. 将气温计放在阴凉、通风处，等待示数稳定",
+          "C. 把气温计放在阳光下，并立即读数"
+        ],
+        "question": "下面哪种做法更适合用气温计测量气温？",
+        "score": 2,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "雨量器用于收集降水并测量形成的水层高度。",
+        "knowledge_point": "降水量的测量",
+        "options": [
+          "A. 雨量器",
+          "B. 温度计",
+          "C. 风向标"
+        ],
+        "question": "测量降水量通常要使用哪种工具？",
+        "score": 2,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "毫米（mm）",
+        "difficulty": 1,
+        "explanation": "降水量表示水层的深度，常用毫米作为计量单位。",
+        "knowledge_point": "降水量的测量",
+        "options": [],
+        "question": "降水量常用（ ___ ）作单位。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "如果雨量器被屋檐或树枝遮挡，收集到的降水会减少，读数可能偏小。",
+        "knowledge_point": "降水量的测量",
+        "options": [],
+        "question": "把雨量器放在屋檐下测量，可能会使测得的降水量不准确。",
+        "score": 3,
+        "type": "true_false",
+        "id": 67
+      },
+      {
+        "answer": "12毫米",
+        "difficulty": 2,
+        "explanation": "雨量器中的水层高度是12毫米，所以测得的降水量为12毫米。",
+        "knowledge_point": "降水量的测量",
+        "options": [],
+        "question": "雨后，雨量器中的水层高度是12毫米，这次测得的降水量是多少？",
+        "score": 3,
+        "type": "calculation",
+        "id": 68
+      },
+      {
+        "answer": "东",
+        "difficulty": 1,
+        "explanation": "风从东方吹来，就称为东风。",
+        "knowledge_point": "风向的定义",
+        "options": [],
+        "question": "从东方吹来的风叫作____风。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 69
+      },
+      {
+        "answer": "西风",
+        "difficulty": 1,
+        "explanation": "南风表示风从南方吹来；西风表示风从西方吹来。",
+        "knowledge_point": "风向的定义",
+        "options": [
+          "南风",
+          "西风",
+          "北风",
+          "东风"
+        ],
+        "question": "从西方吹来的风叫什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "从南向北",
+        "difficulty": 2,
+        "explanation": "南风是从南方吹来的风，因此它从南向北吹。",
+        "knowledge_point": "风向的定义",
+        "options": [],
+        "question": "南风是从哪个方向吹向哪个方向？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 71
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "西风表示风从西方吹来，通常吹向东方。",
+        "knowledge_point": "风向的定义",
+        "options": [],
+        "question": "西风是从西向东吹的风。",
+        "score": 2,
+        "type": "true_false",
+        "id": 72
+      },
+      {
+        "answer": "北风",
+        "difficulty": 2,
+        "explanation": "题目说风从北方吹来，按风吹来的方向命名，因此叫北风。",
+        "knowledge_point": "风向的定义",
+        "options": [
+          "南风",
+          "西风",
+          "北风",
+          "东风"
+        ],
+        "question": "一面旗子被风吹动。已知风是从北方吹来的，这是什么风？",
+        "score": 2,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "云量少于天空的四分之一，按本课标准属于晴。",
+        "knowledge_point": "云的识别",
+        "options": [
+          "A. 阴",
+          "B. 晴",
+          "C. 多云"
+        ],
+        "question": "观察天空时，云只遮住不到四分之一的天空，最适合判断为哪种天气？",
+        "score": 2,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "多云",
+        "difficulty": 1,
+        "explanation": "云量约占天空的四分之一到四分之三时，称为多云。",
+        "knowledge_point": "云的识别",
+        "options": [],
+        "question": "云遮住了天空的大约一半，按云量应判断为______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 75
+      },
+      {
+        "answer": "积云",
+        "difficulty": 1,
+        "explanation": "积云常呈团块状，看起来像棉花团。",
+        "knowledge_point": "云的识别",
+        "options": [],
+        "question": "常常像一团团棉花的云叫作什么云？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 76
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "卷云轻薄、细长，常像丝带或羽毛；它通常不会直接带来大暴雨。高大的积雨云才可能伴随强降水。",
+        "knowledge_point": "云的识别",
+        "options": [
+          "A. 卷云像羽毛，出现就一定会下大暴雨",
+          "B. 层云像棉花团，通常高高耸起",
+          "C. 卷云常呈轻薄的丝状或羽毛状"
+        ],
+        "question": "下面哪项关于卷云的说法正确？",
+        "score": 2,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "积雨云；可能伴随强降水或雷电",
+        "difficulty": 2,
+        "explanation": "高大、发展旺盛的积雨云可能带来强降水和雷电。观察到这类云时，应留意天气变化。",
+        "knowledge_point": "云的识别",
+        "options": [],
+        "question": "小明看到天空中有高大、向上发展的云。可能是什么云？它可能带来什么天气？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 78
+      },
+      {
+        "answer": "观测天气信息 → 整理和分析资料 → 预测天气变化 → 制作并发布天气预报",
+        "difficulty": 1,
+        "explanation": "制作天气预报通常先收集观测资料，再分析和预测，最后制作并发布预报。",
+        "knowledge_point": "天气预报的制作",
+        "options": [],
+        "question": "请按先后顺序排列天气预报制作的主要步骤：预测天气变化、发布天气预报、观测并收集天气信息、分析资料。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 79
+      },
+      {
+        "answer": "气象卫星",
+        "difficulty": 1,
+        "explanation": "气象卫星能从高空观测大范围天气情况，为制作天气预报提供资料。",
+        "knowledge_point": "天气预报的制作",
+        "options": [],
+        "question": "气象部门可以利用________从高空观测大范围的天气情况。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 80
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "天气预报根据观测资料和分析结果作出预测，不能保证未来天气一定完全如此。",
+        "knowledge_point": "天气预报的制作",
+        "options": [],
+        "question": "天气预报是根据现有天气资料作出的预测，天气变化时预报也可能更新。",
+        "score": 2,
+        "type": "true_false",
+        "id": 81
+      },
+      {
+        "answer": "整理和分析天气资料",
+        "difficulty": 2,
+        "explanation": "收集到的观测资料需要经过整理和分析，才能用于预测天气变化。",
+        "knowledge_point": "天气预报的制作",
+        "options": [],
+        "question": "气象部门收集到气象站、雷达等提供的资料后，通常要先做什么，才能进一步预测天气？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "电视、广播、手机",
+        "difficulty": 2,
+        "explanation": "天气预报制作完成后，可以通过电视、广播、手机等渠道传递给公众。",
+        "knowledge_point": "天气预报的制作",
+        "options": [],
+        "question": "请写出两种或两种以上人们可以收听或查看天气预报的渠道。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "摄氏度（℃）",
+        "difficulty": 1,
+        "explanation": "气温计的温度通常用摄氏度表示，符号是℃。",
+        "knowledge_point": "气温计的读数",
+        "options": [],
+        "question": "气温常用（ ）作单位，符号是（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "读数时视线应与液柱顶端持平；仰视或俯视都可能使读数不准确。",
+        "knowledge_point": "气温计的读数",
+        "options": [],
+        "question": "读取气温计时，仰视液柱顶端也能保证读数准确。（判断对错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 85
+      },
+      {
+        "answer": "21℃",
+        "difficulty": 2,
+        "explanation": "液柱顶端对应20℃以上的第一个小格，因此读作21℃。",
+        "knowledge_point": "气温计的读数",
+        "options": [],
+        "question": "一支气温计上，每小格表示1℃。液柱顶端位于20℃刻度上方一小格处，读数是多少？",
+        "score": 5,
+        "type": "calculation",
+        "id": 86
+      },
+      {
+        "answer": "液柱顶端",
+        "difficulty": 1,
+        "explanation": "读数时要观察液柱顶端与刻度的位置关系，并让视线与顶端持平。",
+        "knowledge_point": "气温计的读数",
+        "options": [],
+        "question": "读气温计时，应让视线与（ ）持平。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 87
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "读数时应让气温计保持在测量环境中，并避免用手捂住测温部位，否则可能影响测量结果。",
+        "knowledge_point": "气温计的读数",
+        "options": [],
+        "question": "为了看清刻度，可以把气温计从测量地点拿到手里捂着读数。（判断对错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 88
+      },
+      {
+        "answer": "雨、雪、冰雹",
+        "difficulty": 1,
+        "explanation": "常见的降水形式有雨、雪和冰雹。",
+        "knowledge_point": "降水形式",
+        "options": [],
+        "question": "请写出三种常见的降水形式。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 89
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "雪是固态水从云中降落到地面的现象，属于降水。",
+        "knowledge_point": "降水形式",
+        "options": [],
+        "question": "雪属于降水形式。（判断对错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 90
+      },
+      {
+        "answer": "雾",
+        "difficulty": 2,
+        "explanation": "雾是近地面空气中的水汽凝结成许多小水滴形成的现象，不是从云中降落到地面的降水。",
+        "knowledge_point": "降水形式",
+        "options": [
+          "雨",
+          "雪",
+          "雾",
+          "冰雹"
+        ],
+        "question": "下列哪一种现象不属于降水形式？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "冰雹",
+        "difficulty": 2,
+        "explanation": "冰雹是从云中降落的固态降水，通常呈冰块或冰粒状。",
+        "knowledge_point": "降水形式",
+        "options": [],
+        "question": "夏天有时会从天空落下较硬的冰粒，这种降水形式叫作什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "雨",
+        "difficulty": 2,
+        "explanation": "雨是以液态水滴形式降落的降水；雪和冰雹则是固态降水。",
+        "knowledge_point": "降水形式",
+        "options": [],
+        "question": "在雨、雪、冰雹中，哪一种通常以液态水滴的形式落到地面？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "北风",
+        "difficulty": 1,
+        "explanation": "箭头指向北方，表示风从北方吹来，因此是北风。",
+        "knowledge_point": "风向标的使用",
+        "options": [
+          "北风",
+          "南风",
+          "东风",
+          "西风"
+        ],
+        "question": "风向标的箭头指向北方，此时刮的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "风向表示风吹来的方向，所以箭头指向东方表示刮东风。",
+        "knowledge_point": "风向标的使用",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "风向标箭头指向东方，表示刮东风。",
+        "score": 5,
+        "type": "true_false",
+        "id": 95
+      },
+      {
+        "answer": "风向",
+        "difficulty": 1,
+        "explanation": "风向标的主要用途是帮助人们判断风吹来的方向，也就是风向。",
+        "knowledge_point": "风向标的使用",
+        "options": [],
+        "question": "风向标可以帮助我们判断风吹来的方向，这个方向叫作（ ）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 96
+      },
+      {
+        "answer": "西风",
+        "difficulty": 2,
+        "explanation": "风从西方吹来，风向标箭头会指向西方，所以此时刮西风。",
+        "knowledge_point": "风向标的使用",
+        "options": [],
+        "question": "风从西方吹来，此时刮的是（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 97
+      },
+      {
+        "answer": "东风",
+        "difficulty": 2,
+        "explanation": "风向是风吹来的方向。风向标箭头指向东方，说明风从东方吹来，因此刮东风。",
+        "knowledge_point": "风向标的使用",
+        "options": [],
+        "question": "观察风向标时，发现箭头指向东方。请写出此时的风向。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 98
+      },
+      {
+        "answer": "白色或灰白色",
+        "difficulty": 1,
+        "explanation": "积云通常呈白色或灰白色，形状像棉花团。",
+        "knowledge_point": "积云的特征",
+        "options": [],
+        "question": "积云通常呈（ ）色或灰白色。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "底部较平",
+        "difficulty": 2,
+        "explanation": "积云向上堆积，底部常比较平，边缘轮廓较清楚。",
+        "knowledge_point": "积云的特征",
+        "options": [],
+        "question": "积云常向上堆积，它的底部通常比较（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 100
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "积云一团团堆积，外形常像棉花团。",
+        "knowledge_point": "积云的特征",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "积云常像一团团棉花一样堆在天空中。",
+        "score": 5,
+        "type": "true_false",
+        "id": 101
+      },
+      {
+        "answer": "层云",
+        "difficulty": 2,
+        "explanation": "层云像一层薄幕铺在天空中；积云则像一团团棉花向上堆积。",
+        "knowledge_point": "积云的特征",
+        "options": [
+          "层云",
+          "积云",
+          "卷云",
+          "积雨云"
+        ],
+        "question": "哪种云通常像一层薄幕铺在天空中，而不是一团团向上堆积？",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "可能发展成积雨云",
+        "difficulty": 2,
+        "explanation": "如果积云持续长高、变得厚重，可能发展成积雨云；积雨云常伴有强降雨或雷电。",
+        "knowledge_point": "积云的特征",
+        "options": [],
+        "question": "积云不断长高、变得厚重时，可能发展成（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 103
+      },
+      {
+        "answer": "等间隔",
+        "difficulty": 1,
+        "explanation": "在直筒容器上标出等间隔刻度，便于比较水位高度。",
+        "knowledge_point": "制作雨量器",
+        "options": [],
+        "question": "在直筒容器外壁标刻度时，各条刻度线之间的距离应当（填“相等”或“不相等”）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 104
+      },
+      {
+        "answer": "平坦、开阔且无遮挡的地方",
+        "difficulty": 2,
+        "explanation": "树木、屋檐等会挡住雨水，倾斜或不平的地面也会影响测量，因此应选平坦、开阔、无遮挡的位置。",
+        "knowledge_point": "制作雨量器",
+        "options": [],
+        "question": "简易雨量器应该放在什么样的地方，才能较准确地收集雨水？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "容器保持竖直并放在水平地面上，能使水位读数更可靠。",
+        "knowledge_point": "制作雨量器",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "放置雨量器时，应让容器竖直并放在平坦的地方。（判断）",
+        "score": 5,
+        "type": "true_false",
+        "id": 106
+      },
+      {
+        "answer": "视线应与水面齐平",
+        "difficulty": 2,
+        "explanation": "俯视或仰视都会造成读数偏差；视线与水面齐平有助于准确读取刻度。",
+        "knowledge_point": "制作雨量器",
+        "options": [],
+        "question": "读取雨量器中的水位时，眼睛的视线应怎样与水面保持关系？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "8毫米",
+        "difficulty": 2,
+        "explanation": "水面对应刻度为8毫米，因此记录的降雨量是8毫米。",
+        "knowledge_point": "制作雨量器",
+        "options": [],
+        "question": "雨停后，雨量器中的水面对应刻度为8毫米，这次测得的降雨量是多少？",
+        "score": 5,
+        "type": "calculation",
+        "id": 108
+      },
+      {
+        "answer": "温度计",
+        "difficulty": 1,
+        "explanation": "温度计可以测量气温，观察读数时要看清刻度和单位。",
+        "knowledge_point": "天气观测工具",
+        "options": [
+          "温度计",
+          "雨量器",
+          "风向标",
+          "气压计"
+        ],
+        "question": "要测量今天的气温，应该使用（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 109
+      },
+      {
+        "answer": "雨量器",
+        "difficulty": 1,
+        "explanation": "雨量器用来收集和测量一段时间内的降水量。",
+        "knowledge_point": "天气观测工具",
+        "options": [
+          "气压计",
+          "雨量器",
+          "温度计",
+          "风向标"
+        ],
+        "question": "下雨后，想知道降了多少雨，应该查看（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 110
+      },
+      {
+        "answer": "风向标",
+        "difficulty": 1,
+        "explanation": "风向标能帮助判断风从哪个方向吹来。",
+        "knowledge_point": "天气观测工具",
+        "options": [
+          "风速仪",
+          "风向标",
+          "气压计",
+          "雨量器"
+        ],
+        "question": "想知道风是从哪个方向吹来的，可以使用（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 111
+      },
+      {
+        "answer": "气压计",
+        "difficulty": 2,
+        "explanation": "气压计用于测量大气压强，可以帮助人们了解气压变化。",
+        "knowledge_point": "天气观测工具",
+        "options": [
+          "温度计",
+          "气压计",
+          "雨量器",
+          "风向标"
+        ],
+        "question": "下列工具中，用来测量大气压强的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 112
+      },
+      {
+        "answer": "百叶箱",
+        "difficulty": 2,
+        "explanation": "百叶箱可以为箱内的温度计等观测仪器遮挡阳光和雨水，让观测条件更合适；它本身不是测量气温的仪器。",
+        "knowledge_point": "天气观测工具",
+        "options": [
+          "风速仪",
+          "百叶箱",
+          "雨量器",
+          "气压计"
+        ],
+        "question": "天气观测时，常用来放置温度计并减少阳光直射影响的装置是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 113
+      },
+      {
+        "answer": "小雨",
+        "difficulty": 1,
+        "explanation": "24小时降水量0.1—9.9毫米为小雨，8毫米在这个范围内。",
+        "knowledge_point": "降雨等级划分",
+        "options": [
+          "小雨",
+          "中雨",
+          "大雨",
+          "暴雨"
+        ],
+        "question": "某地24小时降水量为8毫米，属于（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 114
+      },
+      {
+        "answer": "大雨",
+        "difficulty": 2,
+        "explanation": "24小时降水量25.0—49.9毫米为大雨，30毫米在这个范围内。",
+        "knowledge_point": "降雨等级划分",
+        "options": [
+          "小雨",
+          "中雨",
+          "大雨",
+          "暴雨"
+        ],
+        "question": "某地24小时降水量为30毫米，属于（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 115
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "24小时降水量达到50毫米但未满100毫米，属于暴雨。",
+        "knowledge_point": "降雨等级划分",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "24小时降水量为60毫米，属于暴雨。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 116
+      },
+      {
+        "answer": "25",
+        "difficulty": 2,
+        "explanation": "大雨的24小时降水量范围从25.0毫米开始，因此达到25毫米时属于大雨。",
+        "knowledge_point": "降雨等级划分",
+        "options": [],
+        "question": "24小时降水量达到____毫米时，开始属于大雨。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 117
+      },
+      {
+        "answer": "1小时",
+        "difficulty": 2,
+        "explanation": "题目如果给出1小时降水量，就要使用1小时降雨等级标准；不能直接拿24小时标准来判断。",
+        "knowledge_point": "降雨等级划分",
+        "options": [],
+        "question": "判断降雨等级时，除了看降水量，还要先确认降水量统计的____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "清晨",
+        "difficulty": 1,
+        "explanation": "夜间没有太阳照射，地面持续向外散热，因此清晨的气温通常较低。",
+        "knowledge_point": "气温的变化",
+        "options": [
+          "清晨",
+          "中午",
+          "下午",
+          "傍晚"
+        ],
+        "question": "一天中气温通常较低的时间是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 119
+      },
+      {
+        "answer": "升高",
+        "difficulty": 1,
+        "explanation": "太阳升起后，地面逐渐吸收太阳的热量，周围空气也会逐渐变暖。",
+        "knowledge_point": "气温的变化",
+        "options": [],
+        "question": "太阳升起后，气温通常会逐渐______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 120
+      },
+      {
+        "answer": "下降",
+        "difficulty": 1,
+        "explanation": "太阳落山后，地面不再接受阳光照射，并持续向外散热，气温通常逐渐下降。",
+        "knowledge_point": "气温的变化",
+        "options": [],
+        "question": "太阳落山后，气温通常会逐渐______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 121
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "气温会随时间变化；在晴朗天气下，白天通常先升高，午后较高，之后逐渐降低。",
+        "knowledge_point": "气温的变化",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "在晴朗的一天里，气温通常先升高，午后较高，之后逐渐降低。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 122
+      },
+      {
+        "answer": "升高了5℃",
+        "difficulty": 2,
+        "explanation": "用后来测得的气温减去先前测得的气温：18℃ − 13℃ = 5℃，所以气温升高了5℃。",
+        "knowledge_point": "气温的变化",
+        "options": [],
+        "question": "早上测得气温是13℃，中午测得气温是18℃。中午比早上升高了多少摄氏度？",
+        "score": 5,
+        "type": "calculation",
+        "id": 123
+      },
+      {
+        "answer": "天气",
+        "difficulty": 1,
+        "explanation": "“今天”表示较短的时间，“晴朗”描述今天的大气状况，因此这是天气。",
+        "knowledge_point": "天气与气候的区别",
+        "options": [],
+        "question": "“今天是晴朗的一天”描述的是天气还是气候？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "气候",
+        "difficulty": 1,
+        "explanation": "“夏季炎热多雨”概括了一个地方夏季经常出现的天气特点，属于气候。",
+        "knowledge_point": "天气与气候的区别",
+        "options": [],
+        "question": "一个地方长期呈现“夏季炎热多雨”的特点，这描述的是（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "天气会在短时间内发生变化，早晨晴朗不代表下午也一定晴朗。",
+        "knowledge_point": "天气与气候的区别",
+        "options": [],
+        "question": "判断：早晨天气晴朗，所以这个地方的气候一定是晴朗的。",
+        "score": 5,
+        "type": "true_false",
+        "id": 126
+      },
+      {
+        "answer": "气候",
+        "difficulty": 2,
+        "explanation": "“冬季寒冷、降雪较多”概括了一个地方冬季长期常见的特点，因此属于气候。",
+        "knowledge_point": "天气与气候的区别",
+        "options": [],
+        "question": "“这个地方冬季寒冷，降雪较多”描述的是（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "天气指一个地方短时间内的大气状况，气候指一个地方较长时间里常见的天气特点。",
+        "difficulty": 3,
+        "explanation": "天气看短时间，变化较快；气候看较长时间，概括一个地方经常出现的天气特点。",
+        "knowledge_point": "天气与气候的区别",
+        "options": [],
+        "question": "用一句话说说天气和气候有什么区别。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "风从西方吹来，是西风。",
+        "difficulty": 1,
+        "explanation": "风向表示风吹来的方向。旗子飘向东边，说明风从西边吹来，所以是西风。",
+        "knowledge_point": "风力等级观察",
+        "options": [],
+        "question": "旗子飘向东方，风向是什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "×",
+        "difficulty": 1,
+        "explanation": "风向表示风吹来的方向，不是风吹去的方向。",
+        "knowledge_point": "风力等级观察",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "风向是指风吹去的方向。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 130
+      },
+      {
+        "answer": "风力",
+        "difficulty": 1,
+        "explanation": "风力表示风的强弱；风向表示风吹来的方向。",
+        "knowledge_point": "风力等级观察",
+        "options": [],
+        "question": "表示风有多强的名称是______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 131
+      },
+      {
+        "answer": "东风",
+        "difficulty": 2,
+        "explanation": "风从东方吹来时叫东风。风向按风吹来的方向命名。",
+        "knowledge_point": "风力等级观察",
+        "options": [
+          "东风",
+          "西风",
+          "南风",
+          "北风"
+        ],
+        "question": "风从东方吹来，这种风叫（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 132
+      },
+      {
+        "answer": "2级",
+        "difficulty": 2,
+        "explanation": "微风轻轻吹动树叶，表示风力较小，按常见观察描述可估计为约2级。",
+        "knowledge_point": "风力等级观察",
+        "options": [
+          "0级",
+          "2级",
+          "4级",
+          "6级"
+        ],
+        "question": "观察时发现微风轻轻吹动树叶，风力大约是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 133
+      },
+      {
+        "answer": "液柱",
+        "difficulty": 1,
+        "explanation": "气温变化时，液体会膨胀或收缩，使管中的液柱升高或降低。",
+        "knowledge_point": "气温计结构",
+        "options": [
+          "液泡",
+          "液柱",
+          "刻度",
+          "单位"
+        ],
+        "question": "气温计中会随温度变化而升降的部分是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 134
+      },
+      {
+        "answer": "刻度",
+        "difficulty": 1,
+        "explanation": "刻度标示温度数值，帮助我们读出气温。",
+        "knowledge_point": "气温计结构",
+        "options": [],
+        "question": "气温计上用来表示温度数值的线和数字叫作（ ___ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 135
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "液泡内的液体会随温度变化而膨胀或收缩，带动液柱升降。",
+        "knowledge_point": "气温计结构",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "气温升高时，气温计中的液柱通常会升高。",
+        "score": 5,
+        "type": "true_false",
+        "id": 136
+      },
+      {
+        "answer": "℃",
+        "difficulty": 2,
+        "explanation": "℃是摄氏度的符号，读气温时要留意温度数值和单位。",
+        "knowledge_point": "气温计结构",
+        "options": [],
+        "question": "摄氏度的符号是（ ___ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "整理和分析数据",
+        "difficulty": 1,
+        "explanation": "收集到的气象数据需要先整理、分析，才能用于后续的模型计算和天气研判。",
+        "knowledge_point": "天气预报流程",
+        "options": [],
+        "question": "天气数据收集后，通常要先进行什么工作？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 138
+      },
+      {
+        "answer": "数值天气预报",
+        "difficulty": 2,
+        "explanation": "天气预报模型会根据收集和整理好的气象数据进行计算，推测未来天气变化。",
+        "knowledge_point": "天气预报流程",
+        "options": [
+          "数据收集",
+          "数值天气预报",
+          "发布预报",
+          "气象员会商"
+        ],
+        "question": "利用计算机模型对气象数据进行计算，预测天气变化，这一步叫（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 139
+      },
+      {
+        "answer": "气象员会商",
+        "difficulty": 2,
+        "explanation": "模型计算后，气象员会结合观测资料、模型结果等信息综合分析，再形成预报意见。",
+        "knowledge_point": "天气预报流程",
+        "options": [
+          "数据收集",
+          "气象员会商",
+          "发布预报",
+          "整理仪器"
+        ],
+        "question": "模型计算得出预测结果后，气象员综合分析并讨论天气情况，这一步是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 140
+      },
+      {
+        "answer": "发布预报",
+        "difficulty": 1,
+        "explanation": "经过数据收集、分析计算和气象员研判后，天气预报才会通过相应渠道发布给公众。",
+        "knowledge_point": "天气预报流程",
+        "options": [],
+        "question": "天气预报流程的最后一步是（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 141
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "天气预报依据观测资料和科学分析作出，是对未来天气的预测；天气变化复杂，预报不等于绝对保证。",
+        "knowledge_point": "天气预报流程",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "天气预报是根据观测数据和分析作出的预测，不是对天气的绝对保证。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 142
+      },
+      {
+        "answer": "立春",
+        "difficulty": 2,
+        "explanation": "立春是春季的第一个节气，通常被看作春季开始的标志。",
+        "knowledge_point": "二十四节气",
+        "options": [
+          "立春",
+          "立夏",
+          "立秋",
+          "立冬"
+        ],
+        "question": "通常表示春季开始的节气是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 143
+      },
+      {
+        "answer": "夏至",
+        "difficulty": 2,
+        "explanation": "夏至前后，北半球白昼时间较长；它是二十四节气之一。",
+        "knowledge_point": "二十四节气",
+        "options": [
+          "冬至",
+          "夏至",
+          "霜降",
+          "小寒"
+        ],
+        "question": "在我国，通常一年中白昼较长的时节与哪个节气有关？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 144
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "二十四节气反映季节、气候和自然现象的变化，也与传统农事活动有关。",
+        "knowledge_point": "二十四节气",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "二十四节气可以帮助人们了解季节和气候的变化。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 145
+      },
+      {
+        "answer": "国庆节",
+        "difficulty": 2,
+        "explanation": "国庆节是节日，不是节气。端午节、中秋节等也属于传统节日，而不是二十四节气。",
+        "knowledge_point": "二十四节气",
+        "options": [],
+        "question": "国庆节属于传统节日，不属于二十四________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 146
+      },
+      {
+        "answer": "春雨惊春清谷天，夏满芒夏暑相连；秋处露秋寒霜降，冬雪雪冬小大寒。",
+        "difficulty": 3,
+        "explanation": "这首口诀按照春、夏、秋、冬的顺序，概括了每个季节的六个节气。",
+        "knowledge_point": "二十四节气",
+        "options": [],
+        "question": "请写出帮助记忆二十四节气顺序的口诀。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 147
+      },
+      {
+        "answer": "摄氏度",
+        "difficulty": 1,
+        "explanation": "气温计常用摄氏度表示温度，符号是℃。",
+        "knowledge_point": "气温计读数",
+        "options": [],
+        "question": "气温计常用的温度单位是（ ___ ），符号是℃。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 148
+      },
+      {
+        "answer": "先看单位，再找到液柱顶端对应的刻度",
+        "difficulty": 1,
+        "explanation": "读气温计时，先确认单位，再依据液柱顶端的位置和刻度读数。",
+        "knowledge_point": "气温计读数",
+        "options": [
+          "先看单位，再找到液柱顶端对应的刻度",
+          "只看气温计的颜色",
+          "只看气温计的长度"
+        ],
+        "question": "读气温计时，哪种做法正确？",
+        "score": 5,
+        "type": "choice",
+        "id": 149
+      },
+      {
+        "answer": "−3℃",
+        "difficulty": 2,
+        "explanation": "液柱顶端在0℃以下3℃处，读作−3℃，也就是零下3摄氏度。",
+        "knowledge_point": "气温计读数",
+        "options": [],
+        "question": "液柱顶端比0℃刻度低3℃，气温是（ ___ ）℃。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 150
+      },
+      {
+        "answer": "上升",
+        "difficulty": 1,
+        "explanation": "气温升高时，气温计中的液柱通常会向上升；气温降低时，液柱会向下降。",
+        "knowledge_point": "气温计读数",
+        "options": [],
+        "question": "气温升高时，气温计中的液柱通常会（ ___ ）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 151
+      },
+      {
+        "answer": "4℃",
+        "difficulty": 2,
+        "explanation": "每小格代表1℃，液柱顶端在0℃以上第4小格处，因此读作4℃。",
+        "knowledge_point": "气温计读数",
+        "options": [],
+        "question": "某气温计每小格代表1℃，液柱顶端在0℃以上第4小格处。气温是（ ___ ）℃。",
+        "score": 5,
+        "type": "calculation",
+        "id": 152
+      },
+      {
+        "answer": "0级",
+        "difficulty": 1,
+        "explanation": "蒲福风力等级从0级开始，0级表示无风或风力很弱。",
+        "knowledge_point": "风力等级",
+        "options": [],
+        "question": "蒲福风力等级中，表示无风或风力很弱的是（ ___ ）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 153
+      },
+      {
+        "answer": "越强",
+        "difficulty": 1,
+        "explanation": "风力等级数字越大，表示风通常越强。",
+        "knowledge_point": "风力等级",
+        "options": [],
+        "question": "风力等级的数字越大，风通常（ ___ ）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 154
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "蒲福风力等级包含0级，因此从0级到12级一共有13个等级。",
+        "knowledge_point": "风力等级",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "蒲福风力等级从0级开始。（　　）",
+        "score": 5,
+        "type": "true_false",
+        "id": 155
+      },
+      {
+        "answer": "风力等级较高",
+        "difficulty": 2,
+        "explanation": "旗帜被风吹得越明显，说明风通常越强，因此风力等级也通常较高。",
+        "knowledge_point": "风力等级",
+        "options": [],
+        "question": "两面相同的旗帜在相近条件下，一面几乎不动，另一面被吹得明显飘扬。被吹得明显飘扬的地方，风力等级通常（ ___ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 156
+      },
+      {
+        "answer": "风力等级表示风的强弱；风速表示空气流动的快慢。",
+        "difficulty": 3,
+        "explanation": "风力等级是对风强弱的分级描述，风速则是对空气流动速度的测量。二者有关联，但含义不同。",
+        "knowledge_point": "风力等级",
+        "options": [],
+        "question": "风力等级和风速有什么不同？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 157
+      },
+      {
+        "answer": "积云",
+        "difficulty": 1,
+        "explanation": "积云常呈一团团隆起的形状，看起来像棉花团。",
+        "knowledge_point": "云的分类",
+        "options": [],
+        "question": "看起来像一团团棉花的云，通常叫作（ ___ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 158
+      },
+      {
+        "answer": "层云",
+        "difficulty": 1,
+        "explanation": "层云像一层薄幕铺展在天空中，常呈灰白色。",
+        "knowledge_point": "云的分类",
+        "options": [],
+        "question": "像一层灰色薄幕铺在天空中的云，通常叫作（ ___ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 159
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "卷云通常细长、纤细，常呈羽毛状或丝线状；成团的云常是积云。",
+        "knowledge_point": "云的分类",
+        "options": [
+          "羽毛状、纤细",
+          "一团团像棉花",
+          "铺成灰色薄层",
+          "完全看不见"
+        ],
+        "question": "下面哪种形状更符合卷云的特点？",
+        "score": 5,
+        "type": "choice",
+        "id": 160
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "积云常常一团团隆起，形状像棉花团。",
+        "knowledge_point": "云的分类",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断：积云常看起来像一团团棉花。",
+        "score": 5,
+        "type": "true_false",
+        "id": 161
+      },
+      {
+        "answer": "高空",
+        "difficulty": 2,
+        "explanation": "卷云通常出现在高空，外形纤细，常由冰晶组成。",
+        "knowledge_point": "云的分类",
+        "options": [],
+        "question": "卷云通常出现在（ ___ ），形状像羽毛或丝线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 162
       }
     ]
   },
@@ -685,14 +2429,15 @@
       "tips": "风向标的箭头指向哪，就是什么风；旗子向南飘，吹的是北风。"
     },
     {
-      "point": "云的识别",
-      "core_concept": "根据云量判断天气，根据形态区分类型。",
-      "key_formula": "云量：晴(<1/4)、多云(1/4-3/4)、阴(>3/4)。形态：积云、层云、卷云。",
       "common_mistakes": [
-        "分不清多云和阴天",
-        "认为卷云会带大暴雨"
+        "把多云和阴天混淆：多云时云量约占天空的四分之一到四分之三，阴天时云量超过四分之三。",
+        "认为卷云会带来大暴雨。卷云通常呈白色、丝状或羽毛状，常见于晴朗天气或天气变化前。",
+        "只看云的形状判断天气，而忽略云量和云的变化。"
       ],
-      "tips": "高大的积雨云常伴随强降水，卷云出现通常预示着晴好天气。"
+      "core_concept": "观察天空时，可以先估计云遮住天空的多少，再看云的形状。云量较少时通常称为晴，云量约占天空四分之一到四分之三时称为多云，云量超过四分之三时称为阴。积云常像棉花团，层云呈片状或层状，卷云则细长、轻薄，像羽毛或丝带。高大的积雨云可能伴随强降水、雷电等天气。",
+      "key_formula": "按本课的简化标准估算云量：晴：云量少于天空的1/4；多云：云量约为1/4至3/4；阴：云量超过3/4。常见云形：积云像棉花团，层云像灰色的层，卷云像白色的丝或羽毛。",
+      "point": "云的识别",
+      "tips": "判断天气时，先把天空大致分成几份，估计有多少被云遮住；再观察云的形状和高度。不要把云的外形当成绝对的天气预报。高大、发展旺盛的积雨云可能带来强降水或雷电；轻薄的卷云通常不会直接带来大暴雨。"
     },
     {
       "point": "天气与气候",
@@ -703,6 +2448,290 @@
         "认为气候每天都会变"
       ],
       "tips": "二十四节气是古人观察气候规律总结出的指导农耕的历法。"
+    },
+    {
+      "common_mistakes": [
+        "读数时没有让视线与液柱顶端保持水平，容易看错刻度。",
+        "把温度计的液柱高度直接当作温度，忽略了刻度数字和单位。",
+        "测量时用手握住温度计的玻璃泡，可能影响读数。",
+        "读数时忘记写“℃”。"
+      ],
+      "core_concept": "气温计是测量空气温度的工具，常用单位是摄氏度，符号是℃。测量时把气温计放在通风、避免阳光直射的地方，等液柱稳定后，让视线与液柱顶端保持水平，再读出刻度和单位。",
+      "key_formula": "气温读数＝气温计上液柱顶端对应的刻度，单位为℃。",
+      "point": "气温计的读数与测量",
+      "tips": "读数前先找准刻度数字和每小格代表的温度；液柱上升表示温度升高，液柱下降表示温度降低。测量气温时不要用手握住玻璃泡，也不要把气温计放在阳光直射或靠近热源的地方。"
+    },
+    {
+      "common_mistakes": [
+        "把降水量和下雨的时间长短混为一谈；降水量看的是一定时间内降下来的水有多深。",
+        "认为雨量器里的水越多就说明雨下得越久；降水量还与降水强弱有关。",
+        "读刻度时没有让视线与水面保持水平。",
+        "把降水等级只按降水持续时间判断，而忽略规定的时间范围和降水量。"
+      ],
+      "core_concept": "降水量是一定时间内降落到地面的雨、雪等降水，按水层深度计算的量，常用毫米（mm）作单位。测量时，雨量器应放在开阔、平坦、没有遮挡的地方；降水后读取雨量器中的水深。天气预报中的降水等级，是根据规定时间内的降水量划分的。小学阶段常用的24小时降雨量等级为：小雨0.1～9.9毫米，中雨10.0～24.9毫米，大雨25.0～49.9毫米，暴雨50.0～99.9毫米，大暴雨100.0～249.9毫米，特大暴雨250.0毫米及以上。",
+      "key_formula": "降水量＝一定时间内收集到的降水水层深度；24小时降雨量等级：小雨0.1～9.9毫米，中雨10.0～24.9毫米，大雨25.0～49.9毫米，暴雨50.0～99.9毫米，大暴雨100.0～249.9毫米，特大暴雨≥250.0毫米。",
+      "point": "降水量的测量与降水等级",
+      "tips": "雨量器用于收集降水，读数时要看水层深度，单位通常是毫米。比较降水量或判断等级前，先确认统计时间相同；本课的等级表按24小时降雨量判断。雪等固态降水通常需先按规范融化后再测量。"
+    },
+    {
+      "common_mistakes": [
+        "把风吹来的方向和风吹去的方向弄反：风向按风的来向命名。",
+        "认为风力越大，风向就一定会改变；风向和风力是不同的观测内容。",
+        "只观察一次就判断风向或风力；风可能会变化，最好多观察几次。",
+        "把风力等级当作风速的具体数值；风力等级主要根据风对周围事物的影响来判断。"
+      ],
+      "core_concept": "观察风时，要分别记录风向和风力。风向是风吹来的方向，通常用东、南、西、北等方向表示；风力表示风的强弱，可以根据旗子、树枝、烟、风车等物体受到风影响的情况来判断。观测时可使用风向标判断风向，使用风速仪测量风速，也可以观察周围物体的变化，并在安全的地方进行。",
+      "key_formula": "风向＝风吹来的方向；风力＝风的强弱（可根据风对物体的影响判断）",
+      "point": "风向与风力的观测",
+      "tips": "观测风向时，先辨认东、南、西、北，再看风向标指向的来风方向。例如，风从西边吹来，就是西风。观测风力时，观察旗子飘动、树枝摇晃等现象；同一地点可在不同时间重复观察，并记录日期、时间、风向和风力。不要在雷雨、大风或有坠物风险的地方观测。"
+    },
+    {
+      "common_mistakes": [
+        "把云量和云的形状混为一谈：云量说的是天空中云覆盖的多少，形态分类说的是云的外形特征。",
+        "看到云少就认为一定是晴天；天气还受降水、风等因素影响。",
+        "认为云的形状永远不变；云会随风移动，也会不断变化。"
+      ],
+      "core_concept": "观察天空时，可以从两个方面认识云：一是云量，即云覆盖天空的多少；二是形态，即云看起来是什么样子。观察云量时，可把天空大致看作一个整体，比较被云遮住的部分和露出蓝天的部分。观察形态时，可留意云的厚薄、高低、边缘和排列。常见的云有像棉花团、边缘清楚的积云，像薄纱或羽毛、较高较薄的卷云，以及成片分布、像灰白色幕布的层云。",
+      "key_formula": "云量：比较云覆盖天空的面积与天空总面积；形态分类：根据云的外观特征进行辨认。",
+      "point": "云量的识别与形态分类",
+      "tips": "观察时选择视野开阔、安全的地点，抬头看天空；可以把天空想象成几个大小相近的区域，估计其中有云的区域有多少。记录时写清观察时间、云量和云的外形，例如“云量较少，天空中有几朵边缘清楚、像棉花团的积云”。"
+    },
+    {
+      "common_mistakes": [
+        "认为天气预报只是根据当天的天气随口猜测。",
+        "认为气象工作人员只看一个地方或一种数据就能作出预报。",
+        "认为天气预报一定完全准确，不会发生变化。"
+      ],
+      "core_concept": "天气预报是根据气象观测资料，分析天气变化规律后，对未来天气作出的预测。制作天气预报通常包括收集观测资料、分析天气情况、制作和发布预报、持续观测并及时更新等环节。",
+      "key_formula": "观测天气 → 分析资料 → 制作预报 → 发布预报 → 持续跟踪与更新",
+      "point": "天气预报的制作流程",
+      "tips": "气象工作人员会收集来自气象站、雷达、卫星等渠道的资料，例如气温、风向、风速、降水和云的变化。再把不同地点、不同时间的资料综合起来进行分析，判断天气可能怎样变化，最后用人们容易理解的方式发布预报。天气状况会变化，因此预报也可能更新。"
+    },
+    {
+      "common_mistakes": [
+        "把某一天的天气当作一个地区长期的气候。",
+        "认为天气和气候完全没有关系；其实气候是一个地区长期天气状况的特征。"
+      ],
+      "core_concept": "天气指一个地方在较短时间里大气的状况，比如今天是否下雨、气温高不高、风大不大。气候指一个地区较长时间里天气的平均状况和特点，比如某地夏季通常炎热多雨。",
+      "key_formula": "天气＝某地短时间的大气状况；气候＝某地区较长时间的天气平均状况和特点。",
+      "point": "天气与气候的差异",
+      "tips": "判断时先看时间：说“今天、明天、这几天”，通常是在说天气；说“常年、通常、每年某个季节”，通常是在说气候。气候需要观察和统计较长时间的天气，不能只凭一天来判断。"
+    },
+    {
+      "common_mistakes": [
+        "把气温计放在阳光直射处，读数会受影响。",
+        "测量时用手握住气温计的玻璃泡，可能使读数偏高。",
+        "还没等示数稳定就读数，容易读得不准确。",
+        "读数时视线没有与液柱顶端保持水平。"
+      ],
+      "core_concept": "气温计用来测量空气的温度。测量时应将气温计放在室外阴凉、通风处，让玻璃泡周围有空气流动，并避免阳光直射；等示数稳定后，再平视液柱顶端读数。",
+      "key_formula": "气温计读数 = 液柱顶端所对应的刻度值",
+      "point": "气温计的使用",
+      "tips": "测量前先看清气温计的单位和刻度；放置时不要让气温计接触热源、墙面或地面，也不要用手捂住玻璃泡。读数时先找到液柱顶端，再平视刻度。"
+    },
+    {
+      "common_mistakes": [
+        "把降水量和雨水的深度混淆；降水量指一定时间内降落在地面上的水层深度。",
+        "雨量器放在屋檐下、树下等有遮挡的地方，读数会不准确。",
+        "读数时没有让雨量器保持平稳，或没有按刻度读取。"
+      ],
+      "core_concept": "降水量是一定时间内降落在地面上的雨、雪等降水形成的水层深度，通常用雨量器测量，单位是毫米（mm）。测量时要把雨量器放在空旷、无遮挡的地方，降水后平稳地读取刻度。",
+      "key_formula": "降水量＝雨量器中水层的高度；单位：毫米（mm）。",
+      "point": "降水量的测量",
+      "tips": "测量前检查雨量器是否完好，并放在四周无遮挡的空旷处；降水后平稳读取刻度。测量雪等固态降水时，需按规范收集并融化后再测量。"
+    },
+    {
+      "common_mistakes": [
+        "把风吹去的方向当作风向；风向表示风吹来的方向。",
+        "认为风向与风的流动方向相同；实际上风从所标示的方向吹向别处。"
+      ],
+      "core_concept": "风向是风吹来的方向。例如，北风是从北方吹向南方的风。",
+      "key_formula": "风向＝风吹来的方向；北风：北→南，南风：南→北。",
+      "point": "风向的定义",
+      "tips": "判断风向时，先想风是从哪里吹来的。风向通常用东、南、西、北等方向表示。"
+    },
+    {
+      "common_mistakes": [
+        "认为天气预报只靠超级计算机自动生成，不需要气象人员分析。",
+        "把天气预报看成对天气的绝对保证，而不是根据观测资料作出的预测。"
+      ],
+      "core_concept": "天气预报是气象工作者根据观测到的天气信息，分析天气变化并预测未来天气的过程。",
+      "key_formula": "观测天气信息 → 整理和分析资料 → 预测天气变化 → 制作并发布天气预报",
+      "point": "天气预报的制作",
+      "tips": "可以把天气预报的制作想成“先观察、再分析、后发布”。看天气预报时，留意预报的时间和地点；天气变化时，也可以关注更新后的预报。"
+    },
+    {
+      "common_mistakes": [
+        "读数时仰视或俯视液柱顶端，会造成读数误差。",
+        "温度计上的刻度间隔代表一定的温度，不能只看液柱所在的大致位置。",
+        "读数时不要把温度计从被测环境中拿开，也不要用手捂住测温部位。"
+      ],
+      "core_concept": "读取气温计时，应让视线与液柱顶端保持同一水平，再根据液柱顶端对应的刻度读数。读数时要看清刻度单位，并判断液柱位于哪两个刻度之间。",
+      "key_formula": "读数＝液柱顶端所对应的温度刻度（单位：℃）",
+      "point": "气温计的读数",
+      "tips": "先找到液柱顶端，再平视刻度；确认每一小格代表多少摄氏度，最后写上“℃”。"
+    },
+    {
+      "common_mistakes": [
+        "把雾、露、霜也当作降水形式；它们是水汽凝结或凝华后出现在近地面物体或空气中的现象。",
+        "认为降水只有雨；雪和冰雹也属于降水形式。"
+      ],
+      "core_concept": "降水是大气中的水以液态或固态形式降落到地面的现象。常见的降水形式有雨、雪和冰雹。",
+      "key_formula": "常见降水形式：雨、雪、冰雹。",
+      "point": "降水形式",
+      "tips": "判断一种现象是不是降水，可以想一想：水滴或冰晶是否从云中降落到地面。雨是液态水，雪和冰雹是固态水。"
+    },
+    {
+      "common_mistakes": [
+        "把风吹去的方向误认为风向。风向是风吹来的方向。",
+        "以为风向标箭头指向风吹去的方向；通常箭头指向风吹来的方向。",
+        "只看风向，不注意在开阔、安全的地方观察风向标。"
+      ],
+      "core_concept": "风向标用来辨别风向。风向标转动后，箭头所指的方向就是风吹来的方向。比如箭头指向西南方，表示刮西南风。",
+      "key_formula": "箭头指向的方向＝风吹来的方向＝风向",
+      "point": "风向标的使用",
+      "tips": "观察前确认风向标能自由转动，并在开阔、无遮挡的地方读取箭头方向。可以先辨认东、南、西、北，再判断箭头所指的方向。"
+    },
+    {
+      "common_mistakes": [
+        "把积云和层云混淆：积云呈一团团堆积状，层云则像一层薄幕铺在天空中。",
+        "认为所有积云都会下雨；普通积云通常不带来降雨，只有发展旺盛的积雨云才常伴有强降雨、雷电等天气。"
+      ],
+      "core_concept": "积云是一种常见的云，通常由空气中的水蒸气遇冷凝结形成。它常呈白色或灰白色，形状像棉花团，一团团向上堆积，底部较平，边缘轮廓清晰。积云常出现在晴朗天气里；如果云团不断长高、变得厚重，也可能发展成积雨云。",
+      "key_formula": "积云的外形特点：像棉花团，一团团向上堆积，底部较平。",
+      "point": "积云的特征",
+      "tips": "观察云时，可以留意颜色、形状和排列方式。看到边缘清楚、像棉花团一样向上堆积的云，通常是积云。不要只凭云的颜色判断天气，也不要把普通积云和可能带来雷雨的积雨云混为一谈。"
+    },
+    {
+      "common_mistakes": [
+        "把容器做成上宽下窄或形状不规则，导致水位变化与刻度不对应。",
+        "读数时没有让视线与水面齐平，或没有从统一的起始刻度读数。",
+        "把雨量器放在屋檐、树下等遮挡处，测得的雨量不准确。"
+      ],
+      "core_concept": "雨量器用来收集降水，并测量一段时间内降水的多少。简易雨量器可以用透明、上下粗细均匀的直筒容器制作；在容器外壁标出刻度，放在开阔、水平且无遮挡的地方。降雨后观察并记录水面对应的刻度。",
+      "key_formula": "降雨量＝雨水在直筒容器中的高度。相同时间、相同地点进行测量和记录，结果更便于比较。",
+      "point": "制作雨量器",
+      "tips": "制作时选用透明直筒容器，在外壁贴上刻度纸，并用尺子从容器底部向上标出等间隔刻度。使用前将雨量器放在平坦、开阔处，确保容器竖直；读数时视线与水面齐平。雨停后及时记录水位，并注意每次测量使用相同的读数方法。"
+    },
+    {
+      "common_mistakes": [
+        "把风向标和风速仪混淆：风向标用来判断风向，风速仪用来测量风速。",
+        "认为气温和降水都用同一种工具测量：气温用温度计，降水量通常用雨量器。",
+        "百叶箱不是测量气温的仪器，而是放置温度计等仪器、减少日晒和雨淋影响的装置。"
+      ],
+      "core_concept": "天气观测工具能帮助人们测量或判断天气情况。常见工具有温度计、雨量器、风向标、风速仪和气压计等；使用时要了解每种工具的用途，并按照正确的方法观测。",
+      "key_formula": "风向标判断风向；风速仪测量风速；温度计测量气温；雨量器测量降水量；气压计测量气压。",
+      "point": "天气观测工具",
+      "tips": "观测前先想一想要了解哪种天气信息，再选择对应工具。读数时观察刻度和单位；判断风向时，注意风向指的是风吹来的方向。"
+    },
+    {
+      "common_mistakes": [
+        "不要把降雨等级和雨滴大小、下雨时间长短混淆；等级主要按规定时段内的降水量划分。",
+        "题目中的降水量以毫米为单位，注意看清统计时段是1小时还是24小时。",
+        "24小时降水量15毫米属于中雨，不属于小雨。"
+      ],
+      "core_concept": "降雨等级根据一定时段内测得的降水量来划分。小学常用的24小时降水量标准是：小雨0.1—9.9毫米，中雨10.0—24.9毫米，大雨25.0—49.9毫米，暴雨50.0—99.9毫米；更大的降水量还可划分为大暴雨和特大暴雨。",
+      "key_formula": "24小时降水量（毫米）与降雨等级对照：0.1—9.9为小雨；10.0—24.9为中雨；25.0—49.9为大雨；50.0—99.9为暴雨。",
+      "point": "降雨等级划分",
+      "tips": "先圈出题目给出的统计时段和降水量，再查找对应范围。若题目给的是1小时降水量，应使用1小时的等级标准，不能直接套用24小时标准。"
+    },
+    {
+      "common_mistakes": [
+        "把太阳直射最强的中午当作一天中气温最高的时刻。",
+        "只看某一时刻的气温，忽略不同时间测得的气温变化。",
+        "认为每天气温变化都完全相同；实际情况会受天气、季节和地点影响。"
+      ],
+      "core_concept": "气温会随着时间变化。通常一天中清晨气温较低，日出后逐渐升高，午后达到较高值，之后逐渐下降。气温变化受太阳照射、地面吸收和释放热量以及天气等因素影响。",
+      "key_formula": "气温变化量 = 后测气温 − 先测气温",
+      "point": "气温的变化",
+      "tips": "比较气温时要使用同一地点、同一测量方法和相同单位，并记录测量时间。观察一天的气温变化，可以按固定时间测量并把结果记下来。"
+    },
+    {
+      "common_mistakes": [
+        "把一天或几天内的天气情况误认为气候。",
+        "认为某个地方长期的气候特点能准确说明它每天的天气。",
+        "忽略气候描述通常包含较长时间里的常见天气特征。"
+      ],
+      "core_concept": "天气指某个地方在较短时间内的大气状况，例如晴、雨、冷热和风力；气候指一个地方较长时间里经常出现的天气特点。",
+      "key_formula": "短时间、变化快＝天气；长时间、较稳定＝气候。",
+      "point": "天气与气候的区别",
+      "tips": "判断时先看描述的时间长短：说“今天”“刚才”“明天”的，多半是天气；说一个地方多年或长期的常见特点，多半是气候。"
+    },
+    {
+      "common_mistakes": [
+        "把风向说成风吹去的方向；风向是风吹来的方向。",
+        "只凭单一现象判断风力；应观察烟、旗帜、树枝等多个线索。",
+        "把风力等级和风向混淆；风向表示方向，风力表示风的强弱。"
+      ],
+      "core_concept": "风向是风吹来的方向，可观察烟、旗帜或风向标来判断；风力表示风的强弱，可以根据风对烟、旗帜、树枝等物体造成的影响作大致估计。观察时要注意安全，并结合多个现象判断。",
+      "key_formula": "风向看风从哪里来；风力看风有多强。",
+      "point": "风力等级观察",
+      "tips": "观察烟飘向哪里时，风向应判断为相反方向。例如烟向北飘，说明风从南方吹来，是南风。树枝摇动说明风力较强，按常见观察描述可估计为约4级。不同环境下现象可能有所差异，判断时应综合观察。"
+    },
+    {
+      "common_mistakes": [
+        "把℃误认为华氏度；℃表示摄氏度。",
+        "把液泡和液柱混淆：液泡是下端装液体的部分，液柱是管中随温度变化而升降的液体。",
+        "读数时忽略刻度间隔，或没有看清温度单位。"
+      ],
+      "core_concept": "气温计用来测量空气的温度。常见气温计由液泡、液柱、刻度和单位等部分组成。液泡内的液体会随温度变化而膨胀或收缩，使液柱升降；刻度和单位帮助我们读出温度。℃表示摄氏度。",
+      "key_formula": "气温计读数＝液柱顶端对应的刻度值，单位通常为℃。",
+      "point": "气温计结构",
+      "tips": "读气温时先确认单位，再观察液柱顶端对应的刻度；读数时视线与液柱顶端保持水平。不同气温计的外形可能不同，但都要根据刻度和单位读数。"
+    },
+    {
+      "common_mistakes": [
+        "把发布预报误认为天气预报流程的第一步。",
+        "认为天气预报只靠气象员观察，不需要仪器和数据。",
+        "把天气预报当作绝对准确的天气保证。"
+      ],
+      "core_concept": "天气预报是根据观测资料和科学分析，对未来天气作出的预测。一般流程是：收集气象数据，整理和分析数据，使用天气预报模型进行计算，再由气象员综合研判，最后发布预报。",
+      "key_formula": "收集数据 → 整理分析 → 模型计算 → 气象员研判 → 发布预报",
+      "point": "天气预报流程",
+      "tips": "气象站、气象卫星和气象雷达等设备可以帮助收集天气信息。预报发布后，人们可以据此安排出行和活动；天气变化复杂，因此预报是预测，不是保证。"
+    },
+    {
+      "common_mistakes": [
+        "把端午节、国庆节等节日误认为节气。",
+        "认为节气只表示天气变化；节气也反映季节和自然现象的变化，并与传统农事活动有关。",
+        "混淆相邻节气的名称和大致时令。"
+      ],
+      "core_concept": "二十四节气是我国古人根据太阳在一年中的位置变化，以及气温、降水、物候等自然现象总结出来的时间知识，用来反映季节变化并指导农事。二十四节气按一年顺序排列，每个节气约相隔半个月。",
+      "key_formula": "春雨惊春清谷天，夏满芒夏暑相连；秋处露秋寒霜降，冬雪雪冬小大寒。",
+      "point": "二十四节气",
+      "tips": "学习时可按春、夏、秋、冬四季记忆，每季六个节气；结合身边的气温、雨雪和植物变化观察节气。节气日期每年可能略有变化，记忆时不必把它们当作固定不变的公历节日。"
+    },
+    {
+      "common_mistakes": [
+        "读气温计时，要先看清刻度单位是摄氏度（℃），再读数。",
+        "液柱顶端的位置可能在两个标线之间，不能只看最接近的刻度线。",
+        "气温计的液柱向上升表示温度升高，向下降表示温度降低。"
+      ],
+      "core_concept": "气温计用来测量空气的温度，常用单位是摄氏度，符号为℃。读数时先确认单位，再找到液柱顶端所在的位置，结合刻度读出温度。冰水混合物的温度规定为0℃；温度低于0℃时，可以用负数表示。",
+      "key_formula": "气温计读数＝液柱顶端对应的刻度值（单位：℃）",
+      "point": "气温计读数",
+      "tips": "读数时让视线与液柱顶端保持水平，先观察每一小格代表多少摄氏度，再数液柱顶端对应的刻度。读零下温度时，注意在数字前加“−”。"
+    },
+    {
+      "common_mistakes": [
+        "把风力等级的数字当成风速的具体数值；风力等级表示风的强弱，风速才表示空气流动的快慢。",
+        "认为风力等级从1级开始；蒲福风力等级包含0级。",
+        "认为等级越高风越弱；风力等级数字越大，风通常越强。"
+      ],
+      "core_concept": "风力等级用来描述风的强弱。常见的蒲福风力等级从0级到12级，共13个等级。等级越高，风越强；不同等级通常会有相应的自然现象或物体变化作为判断依据。",
+      "key_formula": "蒲福风力等级：0级至12级，共12－0＋1＝13个等级。",
+      "point": "风力等级",
+      "tips": "观察风吹动树叶、树枝、旗帜等物体的情况，可以帮助判断风的强弱。判断时注意比较现象：物体被吹动得越明显，风通常越强。"
+    },
+    {
+      "common_mistakes": [
+        "把云的形状和天气变化简单地一一对应；云的变化只能帮助观察天气，不能单独作为准确预报。",
+        "混淆高而纤细的卷云与成团的积云。"
+      ],
+      "core_concept": "云是空中小水滴或冰晶聚集形成的。观察云的高度、形状和厚薄，可以认识常见云的类别。小学阶段常见的分类有卷云、积云和层云。",
+      "key_formula": "云的形状特征：卷云像羽毛或丝线；积云像棉花团；层云像铺开的灰色薄层。",
+      "point": "云的分类",
+      "tips": "观察天空时，可以比较云是纤细、成团还是铺展开来，也可以留意它的颜色和厚薄。云的形状会变化，判断天气还要结合其他现象。"
     }
   ]
 }

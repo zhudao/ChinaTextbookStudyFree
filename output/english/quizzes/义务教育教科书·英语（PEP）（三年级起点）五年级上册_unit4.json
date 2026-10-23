@@ -4,7 +4,7 @@
   "unit_number": 4,
   "unit_test": {
     "title": "Unit 4 What can you do? 单元基础评测",
-    "total_score": 100,
+    "total_score": 120,
     "time_minutes": 40,
     "questions": [
       {
@@ -19,26 +19,26 @@
         "explanation": "speak 是‘说’，English 是‘英语’，故正确。"
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "乐器与球类运动的冠词规则",
-        "question": "玩足球应该说 'play the football'。",
-        "options": [],
         "answer": "错",
-        "explanation": "在英语中，球类运动前不加定冠词the，应该是play football。"
+        "difficulty": 1,
+        "explanation": "表示进行足球运动时，football 前不加 the，应说 play football。",
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "options": [],
+        "question": "玩足球应该说 'play the football'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "语音：字母组合oo的发音辨析",
-        "question": "单词 'cook' 和 'cool' 中的 'oo' 发音相同。",
-        "options": [],
         "answer": "错",
-        "explanation": "cook发短音/ʊ/，cool发长音/u:/。"
+        "difficulty": 2,
+        "explanation": "cook 中的 oo 发短音 /ʊ/，cool 中的 oo 发长音 /uː/，两者不同。",
+        "knowledge_point": "语音：字母组合oo的发音辨析",
+        "options": [],
+        "question": "单词 'cook' 和 'cool' 中的 'oo' 发音相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
         "id": 4,
@@ -79,20 +79,20 @@
         "explanation": "情态动词can后面必须跟动词原形。"
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "the",
         "difficulty": 1,
+        "explanation": "演奏乐器时，乐器名称前通常加 the，所以说 play the pipa。",
         "knowledge_point": "乐器与球类运动的冠词规则",
-        "question": "Chen Jie can play _____ pipa.",
         "options": [
           "a",
           "an",
           "the",
           "/"
         ],
-        "answer": "the",
-        "explanation": "在西洋或民族乐器名称前通常要加定冠词the。"
+        "question": "Chen Jie can play _____ pipa.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
         "id": 8,
@@ -127,20 +127,20 @@
         "explanation": "clean the room是清理房间，语义逻辑正确。"
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "book",
         "difficulty": 2,
+        "explanation": "book 中的 oo 发短音 /ʊ/；food、cool、zoo 中的 oo 发长音 /uː/。",
         "knowledge_point": "语音：字母组合oo的发音辨析",
-        "question": "Which word has a different sound for 'oo'?",
         "options": [
           "food",
           "cool",
           "zoo",
           "book"
         ],
-        "answer": "book",
-        "explanation": "book发短音/ʊ/，其余三项发长音/u:/。"
+        "question": "Which word has a different sound for 'oo'?",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
         "id": 11,
@@ -159,20 +159,20 @@
         "explanation": "Can you help me? 是询问对方能否帮助自己。"
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "/; the",
         "difficulty": 2,
+        "explanation": "basketball 表示球类运动，前面不加冠词；erhu 是乐器，前面通常加 the。",
         "knowledge_point": "乐器与球类运动的冠词规则",
-        "question": "He can play _____ basketball and play _____ erhu.",
         "options": [
           "the; /",
           "/; the",
           "the; the",
           "/; /"
         ],
-        "answer": "/; the",
-        "explanation": "球类运动前不加the，乐器前加the。"
+        "question": "He can play _____ basketball and play _____ erhu.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
         "id": 13,
@@ -245,15 +245,15 @@
         "explanation": "询问对方能做什么，使用情态动词can。"
       },
       {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "乐器与球类运动的冠词规则",
-        "question": "Sarah can play _____ piano.",
-        "options": [],
         "answer": "the",
-        "explanation": "乐器名称前需要加定冠词the。"
+        "difficulty": 2,
+        "explanation": "piano 是乐器，演奏乐器时通常在名称前加 the。",
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "options": [],
+        "question": "Sarah can play _____ piano.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
       },
       {
         "id": 19,
@@ -338,6 +338,82 @@
         ],
         "answer": "What,can,you,do,?",
         "explanation": "疑问句语序为疑问词+can+主语+动词原形。"
+      },
+      {
+        "answer": "/",
+        "difficulty": 1,
+        "explanation": "tennis 表示球类运动，play 后直接接运动名称，不加冠词。",
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "options": [],
+        "question": "We play _____ tennis after school.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "the",
+        "difficulty": 2,
+        "explanation": "guitar 是乐器，表示演奏吉他时通常说 play the guitar。",
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "options": [],
+        "question": "My brother can play _____ guitar.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "/ʊ/",
+        "difficulty": 1,
+        "explanation": "look 中的 oo 发短音 /ʊ/，与 book、cook 中的 oo 发音相同。",
+        "knowledge_point": "语音：字母组合oo的发音辨析",
+        "options": [],
+        "question": "look 中的字母组合 oo 通常发____音。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "moon",
+        "difficulty": 2,
+        "explanation": "moon 中的 oo 发长音 /uː/，与 food 和 zoo 中的 oo 发音相同。",
+        "knowledge_point": "语音：字母组合oo的发音辨析",
+        "options": [
+          "good",
+          "moon",
+          "cook",
+          "look"
+        ],
+        "question": "Which word has the same 'oo' sound as 'food'?",
+        "score": 3,
+        "type": "choice",
+        "id": 27
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "“zoo”中的字母组合 oo 发长音 /uː/，不是短音 /ʊ/，所以判断为错误。",
+        "knowledge_point": "语音：字母组合oo的发音辨析",
+        "options": [],
+        "question": "判断正误：单词“zoo”中的“oo”发短音 /ʊ/。",
+        "score": 2,
+        "type": "true_false",
+        "id": 28
+      },
+      {
+        "answer": "good",
+        "difficulty": 2,
+        "explanation": "good 中的 oo 发短音 /ʊ/；其他三个单词中的 oo 发长音 /uː/。",
+        "knowledge_point": "语音：字母组合oo的发音辨析",
+        "options": [
+          "food",
+          "good",
+          "moon",
+          "school"
+        ],
+        "question": "Which word has a different sound for 'oo'?",
+        "score": 3,
+        "type": "choice",
+        "id": 29
       }
     ]
   },
@@ -704,6 +780,28 @@
         "混淆food和foot的发音。"
       ],
       "tips": "记短音口诀：看(look)书(book)做饭(cook)，好(good)脚(foot)。"
+    },
+    {
+      "common_mistakes": [
+        "在球类运动前误加 the，例如说 play the football；应说 play football。",
+        "在乐器前漏掉 the，例如说 play piano；应说 play the piano。",
+        "把表示运动的名词和表示乐器的名词混淆，误用冠词。"
+      ],
+      "core_concept": "表示进行球类运动时，play 后通常直接接球类名称，不加冠词；表示演奏乐器时，play 后的乐器名称前通常要加 the。",
+      "key_formula": "play + 球类运动名称；play + the + 乐器名称",
+      "point": "乐器与球类运动的冠词规则",
+      "tips": "看到 play 后的词先判断它表示运动还是乐器：球类运动前通常不加冠词，乐器前通常加 the。"
+    },
+    {
+      "common_mistakes": [
+        "把所有含有 oo 的单词都读成同一种音。",
+        "混淆 book、cook 中的短音 /ʊ/ 与 food、cool 中的长音 /uː/。",
+        "只看字母组合，不结合具体单词辨音。"
+      ],
+      "core_concept": "字母组合 oo 常见两种发音：短音 /ʊ/，如 book、cook、look、good；长音 /uː/，如 food、cool、zoo、moon。学习时要通过单词和例词辨认，不能只凭 oo 判断发音。",
+      "key_formula": "oo → /ʊ/（如 book）；oo → /uː/（如 food）",
+      "point": "语音：字母组合oo的发音辨析",
+      "tips": "把单词按 oo 的读音分类记忆：book、cook、look、good 读 /ʊ/；food、cool、zoo、moon 读 /uː/。遇到新单词时，可以先试读，再用熟悉的例词对照。"
     }
   ]
 }

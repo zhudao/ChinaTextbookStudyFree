@@ -4,7 +4,7 @@
   "unit_number": 5,
   "unit_test": {
     "title": "Unit 5 Do you like pears? 单元基础评测",
-    "total_score": 100,
+    "total_score": 109,
     "time_minutes": 40,
     "questions": [
       {
@@ -52,15 +52,15 @@
         "explanation": "Do you like...? 是询问喜好的标准句型。"
       },
       {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "元音字母u在闭音节中的发音",
-        "question": "单词 'under' 中字母 'u' 的发音和 'duck' 相同。",
-        "options": [],
         "answer": "对",
-        "explanation": "在闭音节单词中，字母u通常发短音/ʌ/。"
+        "difficulty": 2,
+        "explanation": "under的第一个音节和duck中的u都发短音/ʌ/。",
+        "knowledge_point": "元音字母u在闭音节中的发音",
+        "options": [],
+        "question": "单词“under”中第一个字母u的发音和“duck”中的u相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
       },
       {
         "id": 6,
@@ -159,20 +159,20 @@
         "explanation": "对于建议的积极回应常使用 Great!。"
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "duck, run",
         "difficulty": 2,
+        "explanation": "duck和run中的u都发短音/ʌ/；use中的u通常发/juː/，student中的u也不发/ʌ/。",
         "knowledge_point": "元音字母u在闭音节中的发音",
-        "question": "下列哪组单词中字母u的发音相同？",
         "options": [
           "duck, run",
           "under, use",
           "fun, student",
           "computer, cup"
         ],
-        "answer": "duck, run",
-        "explanation": "duck和run中的u都发/ʌ/音。"
+        "question": "下列哪组单词中字母u的发音相同？",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
         "id": 13,
@@ -337,6 +337,50 @@
         ],
         "answer": "I,don't,like,bananas",
         "explanation": "主语+don't+动词原形+其他。"
+      },
+      {
+        "answer": "cup",
+        "difficulty": 1,
+        "explanation": "cup以辅音音素/p/收尾，u在这个闭音节单词中通常发短音/ʌ/。",
+        "knowledge_point": "元音字母u在闭音节中的发音",
+        "options": [],
+        "question": "填入一个单词：字母u发/ʌ/的单词是（____）。提示：杯子。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "fun",
+        "difficulty": 1,
+        "explanation": "fun以辅音音素/n/收尾，u在闭音节中通常发短音/ʌ/。",
+        "knowledge_point": "元音字母u在闭音节中的发音",
+        "options": [],
+        "question": "选择合适的单词完成句子：We have ______ at the park.（我们在公园玩得很开心。）",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "/ʌ/",
+        "difficulty": 1,
+        "explanation": "bus是闭音节单词，字母u通常发短音/ʌ/。",
+        "knowledge_point": "元音字母u在闭音节中的发音",
+        "options": [],
+        "question": "单词“bus”中字母u通常发什么音？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "use中的u通常发/juː/，而cup中的u发短音/ʌ/，两者不同。",
+        "knowledge_point": "元音字母u在闭音节中的发音",
+        "options": [],
+        "question": "单词“use”和“cup”中字母u的发音相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 27
       }
     ]
   },
@@ -701,14 +745,15 @@
       "tips": "在寻求许可或接到别人邀请时，别忘了加上Please和Thanks表现礼貌。"
     },
     {
-      "point": "元音字母u在闭音节中的发音",
-      "core_concept": "字母u在辅+元+辅结构单词中的短元音发音规则。",
-      "key_formula": "u -> /ʌ/ (短音，嘴张开，舌尖抵下齿)",
       "common_mistakes": [
-        "将fun读成/fɑːn/或/fʊn/",
-        "不区分开音节中的/ju:/音"
+        "把闭音节中的字母u读成字母名称音/juː/。",
+        "把短元音/ʌ/误读成/ɑː/或/ʊ/。",
+        "只看单词中有字母u，不判断它所在音节是否为闭音节。"
       ],
-      "tips": "记顺口溜：鸭子duck跑得快run，在那under太阳下fun。"
+      "core_concept": "在许多单音节闭音节单词中，元音字母u通常发短音/ʌ/，如cup、bus、duck和run。闭音节通常以辅音音素收尾；字母u在开音节或其他组合中的读音可能不同。",
+      "key_formula": "闭音节中，u通常发/ʌ/，如：cup /kʌp/、fun /fʌn/。",
+      "point": "元音字母u在闭音节中的发音",
+      "tips": "练习时先找元音u，再看它后面是否有辅音收尾，最后模仿/ʌ/的短促发音。记一记：duck、run、fun、cup里的u通常发/ʌ/。"
     }
   ]
 }

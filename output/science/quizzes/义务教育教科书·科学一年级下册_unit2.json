@@ -4,326 +4,1734 @@
   "unit_number": 2,
   "unit_test": {
     "title": "第二单元《动物》单元过关检测卷",
-    "total_score": 100,
+    "total_score": 469,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "玩具狗是非生物，不具备生物的生长和繁殖特征。",
         "knowledge_point": "动物的基本特征",
+        "options": [],
         "question": "玩具狗也能像真狗一样长大、生小宝宝。",
-        "options": [],
-        "answer": "错",
-        "explanation": "玩具狗是非生物，不具备生物的生长和繁殖特征。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "人属于动物，也需要空气、水和食物才能生存。",
         "knowledge_point": "动物的基本特征",
+        "options": [],
         "question": "人也是动物，因为我们也需要空气、水和食物。",
-        "options": [],
-        "answer": "对",
-        "explanation": "人属于生物中的动物类，具有动物的基本生存需求。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 2,
+        "explanation": "观察动物应遵循不干扰、不伤害的原则，不要用手直接抓捕。",
         "knowledge_point": "观察动物的注意事项",
+        "options": [],
         "question": "在校园里观察小动物时，我们可以用手直接抓捕。",
-        "options": [],
-        "answer": "错",
-        "explanation": "观察动物应遵循不干扰、不伤害原则，不能直接用手抓捕。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "鱼张合嘴巴是在让水流经过鳃，帮助鱼从水中获取氧气，不是在喝水解渴。",
         "knowledge_point": "鱼的特征",
+        "options": [],
         "question": "鱼在水里不停地张嘴闭嘴是在喝水，它们不会口渴。",
-        "options": [],
-        "answer": "错",
-        "explanation": "鱼张合嘴巴是在让水流过鳃部进行呼吸，而不是在喝水。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "蜗牛的结构",
-        "question": "蜗牛爬行过的地方会留下一条黏液组成的痕迹。",
-        "options": [],
-        "answer": "对",
-        "explanation": "蜗牛通过腹足分泌黏液来辅助爬行，干燥后会有银色痕迹。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "蜗牛用腹足分泌黏液帮助爬行，爬过的地方可能留下黏液痕迹。",
+        "knowledge_point": "蜗牛的结构",
+        "options": [],
+        "question": "蜗牛爬行过的地方会留下一条黏液组成的痕迹。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "真狗有生命，会呼吸",
         "difficulty": 1,
+        "explanation": "真狗是有生命的动物，会呼吸、长大；玩具狗没有生命。",
         "knowledge_point": "动物的基本特征",
-        "question": "下列哪一项是真狗和玩具狗最大的不同？",
         "options": [
           "真狗有生命，会呼吸",
           "玩具狗会叫",
           "真狗有白色的毛",
           "玩具狗有四个轮子"
         ],
-        "answer": "真狗有生命，会呼吸",
-        "explanation": "生命特征是生物与非生物的本质区别。"
+        "question": "下列哪一项是真狗和玩具狗最大的不同？",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "放大镜",
         "difficulty": 1,
+        "explanation": "放大镜可以帮助我们看清蜗牛身上的细小特征。",
         "knowledge_point": "校园动物的观察",
-        "question": "如果我们想看清蜗牛身上的细节，应该选择哪种工具？",
         "options": [
           "尺子",
           "剪刀",
           "放大镜",
           "温度计"
         ],
-        "answer": "放大镜",
-        "explanation": "放大镜是观察细小特征的必备常用科学工具。"
+        "question": "如果我们想看清蜗牛身上的细节，应该选择哪种工具？",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "长在长触角的顶端",
         "difficulty": 2,
+        "explanation": "蜗牛有两对触角，眼睛位于较长的那一对触角的顶端。",
         "knowledge_point": "蜗牛的身体结构",
-        "question": "蜗牛的眼睛长在哪里？",
         "options": [
           "长在壳上",
           "长在腹部",
           "长在长触角的顶端",
           "长在口的两侧"
         ],
-        "answer": "长在长触角的顶端",
-        "explanation": "蜗牛有两对触角，眼睛位于较长的那一对触角的顶端。"
+        "question": "蜗牛的眼睛长在哪里？",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "静静地观察，记录特征",
         "difficulty": 1,
+        "explanation": "静静观察并记录特征，既能了解动物，也能减少对它们的打扰。",
         "knowledge_point": "观察动物的注意事项",
-        "question": "在观察校园小动物时，正确的做法是：",
         "options": [
           "把动物带回家养",
           "静静地观察，记录特征",
           "把动物抓起来观察",
           "喂它们吃巧克力"
         ],
-        "answer": "静静地观察，记录特征",
-        "explanation": "科学观察应尊重生命，保护动物的生存环境。"
+        "question": "在观察校园小动物时，正确的做法是：",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "鱼鳍",
         "difficulty": 2,
+        "explanation": "鱼鳍能帮助鱼游动、保持平衡和改变方向。",
         "knowledge_point": "鱼的结构",
-        "question": "鱼在水里游动主要依靠身体的哪个部位？",
         "options": [
           "鳃盖",
           "鱼鳞",
           "鱼鳍",
           "鱼嘴"
         ],
-        "answer": "鱼鳍",
-        "explanation": "鱼鳍（包括背鳍、胸鳍、腹鳍、臀鳍和尾鳍）是鱼的运动器官。"
+        "question": "鱼在水里游动主要依靠身体的哪个部位？",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "小蚕苗",
         "difficulty": 3,
+        "explanation": "蚕卵孵化出来的是蚕的幼虫，也叫蚕宝宝或小蚕苗，不是蝴蝶、蜻蜓或蚂蚁。",
         "knowledge_point": "动物的繁殖",
-        "question": "老师把蚕卵放在教室里，过一段时间会孵化出：",
         "options": [
           "小蝴蝶",
           "小蜻蜓",
           "小蚕苗",
           "小蚂蚁"
         ],
-        "answer": "小蚕苗",
-        "explanation": "蚕卵孵化出来的是蚕的幼虫，俗称小蚕苗。"
+        "question": "老师把蚕卵放在教室里，过一段时间会孵化出：",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "厚厚的冰块",
         "difficulty": 1,
+        "explanation": "蜗牛喜欢阴暗潮湿的环境，冰块会冻伤蜗牛。",
         "knowledge_point": "动物的生存需求",
-        "question": "给蜗牛建一个“家”，不需要准备的是：",
         "options": [
           "潮湿的土",
           "透气的孔",
           "新鲜的菜叶",
           "厚厚的冰块"
         ],
-        "answer": "厚厚的冰块",
-        "explanation": "蜗牛喜欢阴暗潮湿的环境，冰块会冻伤蜗牛。"
+        "question": "给蜗牛建一个“家”，不需要准备的是：",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "蛞蝓（鼻涕虫）",
         "difficulty": 1,
+        "explanation": "蛞蝓和蜗牛主要靠身体腹面爬行，运动方式相似。",
         "knowledge_point": "动物的运动方式",
-        "question": "下列动物中，运动方式和蜗牛最像的是：",
         "options": [
           "蜻蜓",
           "蛞蝓（鼻涕虫）",
           "金鱼",
           "小猫"
         ],
-        "answer": "蛞蝓（鼻涕虫）",
-        "explanation": "蛞蝓和蜗牛一样，都是通过腹足爬行的。"
+        "question": "下列动物中，运动方式和蜗牛最像的是：",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "6条",
         "difficulty": 2,
+        "explanation": "蚂蚁属于昆虫，有三对足，也就是6条腿。",
         "knowledge_point": "动物的多样性",
-        "question": "蚂蚁有几条腿？",
         "options": [
           "2条",
           "4条",
           "6条",
           "8条"
         ],
-        "answer": "6条",
-        "explanation": "蚂蚁属于昆虫，其典型特征之一是有三对足（共6条）。"
+        "question": "蚂蚁有几条腿？",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "从嘴里进去",
         "difficulty": 2,
+        "explanation": "鱼呼吸时，水从嘴进入，经过鳃部后从鳃盖附近流出。鳃盖不是水进入的入口。",
         "knowledge_point": "鱼的结构",
-        "question": "鱼呼吸时，水从哪里流进去？",
         "options": [
           "从鳃盖进去",
           "从嘴里进去",
           "从眼睛进去",
           "从尾巴进去"
         ],
-        "answer": "从嘴里进去",
-        "explanation": "鱼呼吸时，水从口中进入，经过鳃部后由鳃盖排出。"
+        "question": "鱼呼吸时，水从哪里流进去？",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "都会叫喊",
         "difficulty": 1,
+        "explanation": "动物并非都会发出叫声，如鱼、蜗牛等通常不发出声音。",
         "knowledge_point": "动物特征",
-        "question": "以下不是动物共同点的是：",
         "options": [
           "都会运动",
           "都会叫喊",
           "都要吃东西",
           "都会排泄"
         ],
-        "answer": "都会叫喊",
-        "explanation": "动物并非都会发出叫声，如鱼、蜗牛等通常不发出声音。"
+        "question": "以下不是动物共同点的是：",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "蚂蚁和兔子",
         "difficulty": 3,
+        "explanation": "蚂蚁有足，兔子也有足；蜗牛用腹足运动，金鱼用鳍运动，不属于这一组。",
         "knowledge_point": "动物分类",
-        "question": "如果按照“有没有脚”给下面动物分类，哪一组是一类的？",
         "options": [
           "蜗牛和金鱼",
           "蚂蚁和蜗牛",
           "兔子和金鱼",
           "蚂蚁和兔子"
         ],
-        "answer": "蚂蚁和兔子",
-        "explanation": "蚂蚁有足，兔子有足；蜗牛是腹足，鱼是鳍，结构不同。"
+        "question": "如果按照“有没有脚”给下面动物分类，哪一组是一类的？",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "菜叶",
         "difficulty": 2,
+        "explanation": "蜗牛常吃嫩叶等植物，所以菜叶是合适的选择。",
         "knowledge_point": "动物的食性",
-        "question": "蜗牛最喜欢吃的食物是：",
         "options": [
           "小虫子",
           "菜叶",
           "肉块",
           "饼干"
         ],
-        "answer": "菜叶",
-        "explanation": "蜗牛属于植食性动物，喜食嫩叶。"
+        "question": "蜗牛最喜欢吃的食物是：",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "蜗牛的结构",
-        "question": "蜗牛有（___）对触角。",
-        "options": [],
         "answer": "2",
-        "explanation": "蜗牛头部有两对触角，一对长，一对短。"
-      },
-      {
-        "id": 20,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "校园动物观察",
-        "question": "我们观察校园小动物时，发现蚂蚁身体通常分为（___）节。",
-        "options": [],
-        "answer": "3",
-        "explanation": "昆虫的身体分为头、胸、腹三部分。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
+        "explanation": "蜗牛头部有两对触角，一对较长，一对较短。",
         "knowledge_point": "蜗牛的结构",
-        "question": "蜗牛用来爬行的部位叫（___）。",
         "options": [],
+        "question": "蜗牛有（___）对触角。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 19
+      },
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "蚂蚁属于昆虫，昆虫的身体通常分为头、胸、腹三部分。",
+        "knowledge_point": "校园动物观察",
+        "options": [],
+        "question": "我们观察校园小动物时，发现蚂蚁身体通常分为（___）部分。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
+      },
+      {
         "answer": "腹足",
-        "explanation": "蜗牛底部的肌肉组织称为腹足。"
-      },
-      {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "鱼的结构",
-        "question": "金鱼用来呼吸的器官是（___）。",
+        "explanation": "蜗牛身体底部的肌肉结构叫腹足，蜗牛靠它爬行。",
+        "knowledge_point": "蜗牛的结构",
         "options": [],
-        "answer": "鳃",
-        "explanation": "鳃是鱼类特有的呼吸器官，可以过滤溶解在水中的氧气。"
+        "question": "蜗牛用来爬行的部位叫（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "蜗牛的取食",
-        "question": "蜗牛嘴里长着成千上万颗小齿，我们把这种结构叫做（___）。",
+        "answer": "鳃",
+        "difficulty": 2,
+        "explanation": "鳃是鱼用来呼吸的器官，能帮助鱼利用水中的氧气。",
+        "knowledge_point": "鱼的结构",
         "options": [],
+        "question": "金鱼用来呼吸的器官是（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
         "answer": "齿舌",
-        "explanation": "齿舌是蜗牛特有的取食器官。"
+        "difficulty": 3,
+        "explanation": "齿舌上有许多细小的齿，蜗牛用它刮取食物。",
+        "knowledge_point": "蜗牛的取食",
+        "options": [],
+        "question": "蜗牛嘴里长着成千上万颗小齿，我们把这种结构叫做（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "动物是有生命的生物，通常会生长，需要食物和水，也能对周围变化作出反应。",
+        "difficulty": 1,
+        "explanation": "这些都是动物常见的生命特征。",
+        "knowledge_point": "动物的基本特征与辨别",
+        "options": [],
+        "question": "写出动物的一种基本特征。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "小狗是有生命的动物；风扇和汽车是物品，不是动物。",
+        "knowledge_point": "动物的基本特征与辨别",
+        "options": [
+          "A. 小狗",
+          "B. 风扇",
+          "C. 汽车"
+        ],
+        "question": "下面哪一个是动物？",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "动物的身体各不相同。鱼有鳍，蛇没有腿，鸟有翅膀，并非所有动物都有四条腿。",
+        "knowledge_point": "动物的基本特征与辨别",
+        "options": [],
+        "question": "所有动物都有四条腿。（判断对错）",
+        "score": 1,
+        "type": "true_false",
+        "id": 26
+      },
+      {
+        "answer": "鳍",
+        "difficulty": 1,
+        "explanation": "鱼通常用鳍帮助游动，用鳃呼吸。",
+        "knowledge_point": "动物的基本特征与辨别",
+        "options": [],
+        "question": "鱼通常用什么帮助自己在水里游动？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "鸟通常有羽毛、翅膀和喙。翅膀是辨认鸟类时可以观察的身体特征之一。",
+        "knowledge_point": "动物的基本特征与辨别",
+        "options": [
+          "A. 有鳞片和鳍",
+          "B. 有羽毛和翅膀",
+          "C. 有轮子和车门"
+        ],
+        "question": "哪组特征最像鸟？",
+        "score": 1,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "鱼",
+        "difficulty": 2,
+        "explanation": "鱼生活在水里，通常用鳍游动；观察生活环境和运动方式，可以帮助辨认动物。",
+        "knowledge_point": "动物的基本特征与辨别",
+        "options": [],
+        "question": "一种动物生活在水里，通常用鳍游动。它可能是什么动物？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "草地、花坛和树下",
+        "difficulty": 1,
+        "explanation": "草地、花坛和树下可能有小动物活动或躲藏。观察时要保持安静，不追赶、不触摸，也不踩坏花草。",
+        "knowledge_point": "校园动物的寻找与观察",
+        "options": [
+          "草地、花坛和树下",
+          "教室的课桌抽屉里",
+          "操场跑道正中央",
+          "校园垃圾桶里面"
+        ],
+        "question": "在校园里寻找小动物时，哪些地方值得安静观察？",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "安静观察可以减少对动物的惊扰，也能让我们更仔细地看清它的活动。",
+        "knowledge_point": "校园动物的寻找与观察",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "观察小动物时，安静地站在一旁比追着它跑更合适。",
+        "score": 1,
+        "type": "true_false",
+        "id": 31
+      },
+      {
+        "answer": "颜色",
+        "difficulty": 1,
+        "explanation": "观察动物时，可以记录它的颜色、大小、身体特点和正在做的事情。",
+        "knowledge_point": "校园动物的寻找与观察",
+        "options": [],
+        "question": "观察动物外形时，可以记录它的________。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "不应该。追赶会惊吓动物，也可能让我们踩坏花草；应该保持距离，安静观察。",
+        "difficulty": 2,
+        "explanation": "观察动物要爱护它们。追赶、触摸可能让动物受惊或受伤，也会妨碍它们生活。",
+        "knowledge_point": "校园动物的寻找与观察",
+        "options": [],
+        "question": "小明看见一只蝴蝶，想追着它跑。这样做合适吗？为什么？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "蚂蚁在花坛旁，正在搬运食物。",
+        "difficulty": 2,
+        "explanation": "观察记录可以写明动物的名称、地点和活动情况。答案只要包含这些关键信息即可。",
+        "knowledge_point": "校园动物的寻找与观察",
+        "options": [],
+        "question": "请仿照例子写一句观察记录：“小鸟在树枝上，正在唱歌。”写一种你可能在校园里观察到的动物。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "不一定。一次没有看到，只能说明这次没有发现；可以换个时间或地点继续安静观察。",
+        "difficulty": 2,
+        "explanation": "动物可能在躲藏、休息或暂时不在附近。寻找动物需要耐心，不能因为一次没看到就断定校园里没有。",
+        "knowledge_point": "校园动物的寻找与观察",
+        "options": [],
+        "question": "小红在花坛旁没有找到动物，就说“校园里没有小动物”。她说得对吗？请说明理由。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "蜗牛背上有壳，身体柔软，头部有触角，腹面有腹足。",
+        "knowledge_point": "观察蜗牛的结构与运动",
+        "options": [
+          "A. 身体由坚硬的骨头组成",
+          "B. 身体柔软，背上有壳",
+          "C. 没有身体，只有壳"
+        ],
+        "question": "蜗牛的身体有什么特点？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "蜗牛通常有两对触角，较长的一对顶端有眼。",
+        "knowledge_point": "观察蜗牛的结构与运动",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "蜗牛头上有两对触角。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "腹足",
+        "difficulty": 1,
+        "explanation": "蜗牛腹部宽而扁的部分叫腹足，它帮助蜗牛爬行。",
+        "knowledge_point": "观察蜗牛的结构与运动",
+        "options": [],
+        "question": "蜗牛靠腹部宽而扁的________爬行。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "壳",
+        "difficulty": 1,
+        "explanation": "蜗牛背上的壳能保护它柔软的身体。",
+        "knowledge_point": "观察蜗牛的结构与运动",
+        "options": [],
+        "question": "蜗牛背上的________可以保护它柔软的身体。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 39
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "蜗牛靠腹足爬行，爬过的地方常留下黏液；它不是靠触角或壳移动。",
+        "knowledge_point": "观察蜗牛的结构与运动",
+        "options": [
+          "A. 靠触角划水",
+          "B. 靠壳滚动",
+          "C. 靠腹足爬行"
+        ],
+        "question": "蜗牛主要怎样移动？",
+        "score": 1,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "轻轻观察蜗牛的外形和爬行，不拉扯触角或身体；观察后将它放回适宜的地方。",
+        "difficulty": 2,
+        "explanation": "轻柔观察可以避免伤害蜗牛；放回合适环境有助于照顾它。",
+        "knowledge_point": "观察蜗牛的结构与运动",
+        "options": [],
+        "question": "观察蜗牛时，怎样做才能不伤害它？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "水、食物、空气和适宜的生活环境。",
+        "difficulty": 1,
+        "explanation": "动物需要水和食物维持生命，也需要空气呼吸，还需要适合自己的环境。",
+        "knowledge_point": "动物生存需求与环境搭建",
+        "options": [],
+        "question": "说出动物生存通常需要的两种条件。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 42
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "金鱼生活在水中，鱼缸里应有清洁的水和足够的空间，不能用干燥的沙土代替水。",
+        "knowledge_point": "动物生存需求与环境搭建",
+        "options": [
+          "A. 装满干沙的盒子",
+          "B. 有清洁水和活动空间的鱼缸",
+          "C. 密封的空瓶子"
+        ],
+        "question": "哪种环境更适合金鱼生活？",
+        "score": 2,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "不同动物的生活习性不同，因此适合它们的环境也不同。",
+        "knowledge_point": "动物生存需求与环境搭建",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "兔子和金鱼需要完全相同的生活环境。",
+        "score": 2,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "食物",
+        "difficulty": 1,
+        "explanation": "按动物的生活习性提供合适的食物，有助于满足它的生存需要。",
+        "knowledge_point": "动物生存需求与环境搭建",
+        "options": [],
+        "question": "搭建动物的生活环境时，除了水和空气，还要为它准备合适的_____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 45
+      },
+      {
+        "answer": "有清洁的水、合适的食物、空气和活动空间，并有便于躲藏的地方。",
+        "difficulty": 2,
+        "explanation": "小兔需要食物、水和空气，也需要能活动的空间；躲藏处能让它感到安全。具体布置还应符合兔子的生活习性。",
+        "knowledge_point": "动物生存需求与环境搭建",
+        "options": [],
+        "question": "你要为一只小兔搭建生活环境，可以准备哪些东西或条件？请写出两项。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "不能",
+        "difficulty": 2,
+        "explanation": "把动物放进密封的盒子里，会使空气无法正常流通，动物也可能缺少活动空间，因此不适合长期生活。",
+        "knowledge_point": "动物生存需求与环境搭建",
+        "options": [],
+        "question": "把一只小动物长时间放在密封、没有空气流通的小盒子里，可以满足它的生存需要吗？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "鱼主要用鳃从水中获取氧气。",
+        "knowledge_point": "鱼的结构与水中适应",
+        "options": [
+          "用肺从空气中吸氧",
+          "用鳃从水中获取氧气",
+          "用鳍呼吸"
+        ],
+        "question": "鱼主要用身体的哪个部分从水中获取氧气？",
+        "score": 1,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "尾巴",
+        "difficulty": 1,
+        "explanation": "鱼摆动尾巴，能推动身体向前游动。",
+        "knowledge_point": "鱼的结构与水中适应",
+        "options": [],
+        "question": "鱼游动时，常摆动身体后面的____来帮助前进。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "鱼鳍可以帮助鱼保持平衡，也能帮助它改变游动方向。",
+        "knowledge_point": "鱼的结构与水中适应",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "鱼鳍能帮助鱼保持平衡和改变方向。",
+        "score": 1,
+        "type": "true_false",
+        "id": 50
+      },
+      {
+        "answer": "鱼身上的鳞片可以保护身体，也能让身体表面较为光滑，帮助鱼在水中活动。",
+        "difficulty": 2,
+        "explanation": "鳞片覆盖在鱼的身体表面，能起到保护作用；身体表面较光滑，也有利于鱼在水中游动。",
+        "knowledge_point": "鱼的结构与水中适应",
+        "options": [],
+        "question": "鱼身上的鳞片有什么作用？请说出一点。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "许多鱼生活在淡水中，例如池塘或河流里的鱼；也有许多鱼生活在海水中。",
+        "knowledge_point": "鱼的结构与水中适应",
+        "options": [
+          "所有鱼都生活在海水中",
+          "有些鱼生活在淡水中，有些鱼生活在海水中",
+          "所有鱼都生活在陆地上"
+        ],
+        "question": "关于鱼生活的水域，哪种说法正确？",
+        "score": 1,
+        "type": "choice",
+        "id": 52
+      },
+      {
+        "answer": "鳃",
+        "difficulty": 1,
+        "explanation": "鱼的鳃能帮助它从水中获取氧气；鱼鳍和尾巴主要帮助游动。",
+        "knowledge_point": "鱼的结构与水中适应",
+        "options": [],
+        "question": "鱼用哪个部分从水中获取氧气？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "鱼生活在水中，青蛙、兔子和麻雀通常不以水中生活为主。",
+        "knowledge_point": "动物的多样性与分类",
+        "options": [
+          "青蛙",
+          "兔子",
+          "鱼",
+          "麻雀"
+        ],
+        "question": "下面哪种动物主要生活在水里？",
+        "score": 1,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "蝴蝶和麻雀都有翅膀，可以按“有翅膀”这一共同特点分在一组。",
+        "knowledge_point": "动物的多样性与分类",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "蝴蝶和麻雀都有翅膀，可以按这个特点分在一组。",
+        "score": 1,
+        "type": "true_false",
+        "id": 55
+      },
+      {
+        "answer": "陆地",
+        "difficulty": 1,
+        "explanation": "兔子主要在陆地上生活，可以按照生活环境把它归入陆地动物这一组。",
+        "knowledge_point": "动物的多样性与分类",
+        "options": [],
+        "question": "兔子主要生活在水里还是______上？",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 56
+      },
+      {
+        "answer": "按生活环境分类",
+        "difficulty": 1,
+        "explanation": "把生活在水里的动物分成一组，是根据它们生活的地方来分类。",
+        "knowledge_point": "动物的多样性与分类",
+        "options": [],
+        "question": "把鱼、虾分在一组，主要是按照什么标准分类？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 57
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "蜜蜂、蝴蝶和麻雀都有翅膀；兔子没有翅膀，因此不能按这个特点和它们分在一组。",
+        "knowledge_point": "动物的多样性与分类",
+        "options": [
+          "蜜蜂",
+          "蝴蝶",
+          "兔子",
+          "麻雀"
+        ],
+        "question": "按“有没有翅膀”分类，哪种动物和其他三种不同？",
+        "score": 1,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "分类标准不同，结果可能不同。",
+        "difficulty": 2,
+        "explanation": "例如，青蛙可以按生活环境归入陆地动物，也可以按身体特点归入有四条腿的动物。分类要看使用的标准。",
+        "knowledge_point": "动物的多样性与分类",
+        "options": [],
+        "question": "青蛙可以按生活环境分类，也可以按身体特点分类。这说明什么？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "长大",
+        "difficulty": 1,
+        "explanation": "小猫会逐渐长大，这是动物具有生命的表现。",
+        "knowledge_point": "动物的基本特征",
+        "options": [],
+        "question": "小猫出生后会慢慢____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 60
+      },
+      {
+        "answer": "水",
+        "difficulty": 1,
+        "explanation": "动物需要水和食物等才能生存。",
+        "knowledge_point": "动物的基本特征",
+        "options": [],
+        "question": "动物和人一样，生存需要空气、食物和____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 61
+      },
+      {
+        "answer": "会动",
+        "difficulty": 1,
+        "explanation": "动物能活动，也会对周围环境作出反应。不同动物活动的方式不一样。",
+        "knowledge_point": "动物的基本特征",
+        "options": [],
+        "question": "小鸟会飞，小鱼会游，它们都能____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 62
+      },
+      {
+        "answer": "不追赶",
+        "difficulty": 1,
+        "explanation": "追赶会惊吓动物，也可能让观察者摔倒或受伤。",
+        "knowledge_point": "观察动物的注意事项",
+        "options": [],
+        "question": "观察小动物时，我们要静静地看，不要追赶或____它们。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 63
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "观察时保持适当距离，不触摸动物，可以减少对动物和自己的伤害。",
+        "knowledge_point": "观察动物的注意事项",
+        "options": [],
+        "question": "观察不认识的小动物时，保持距离、不用手触摸，是比较安全的做法。",
+        "score": 2,
+        "type": "true_false",
+        "id": 64
+      },
+      {
+        "answer": "告诉老师或家长",
+        "difficulty": 2,
+        "explanation": "不认识或可能有危险的动物不要自行触碰，应及时请老师或家长帮助。",
+        "knowledge_point": "观察动物的注意事项",
+        "options": [
+          "马上用手抓住",
+          "追着它看",
+          "告诉老师或家长",
+          "把它带回家"
+        ],
+        "question": "如果发现一种不认识的小动物，我们应该：",
+        "score": 3,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "恢复原样，不破坏动物生活的地方",
+        "difficulty": 2,
+        "explanation": "动物需要合适的生活环境。观察结束后应保护环境，不随意搬动或破坏它们的栖息处。",
+        "knowledge_point": "观察动物的注意事项",
+        "options": [],
+        "question": "观察结束后，我们应该怎样对待动物生活的地方？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "用鳃",
+        "difficulty": 1,
+        "explanation": "鱼用鳃呼吸，水流经过鳃时，鱼可以从水中获取氧气。",
+        "knowledge_point": "鱼的特征",
+        "options": [],
+        "question": "鱼主要用什么器官呼吸？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 67
+      },
+      {
+        "answer": "用鳍",
+        "difficulty": 1,
+        "explanation": "鱼会摆动鱼鳍帮助自己游动和改变方向。",
+        "knowledge_point": "鱼的特征",
+        "options": [],
+        "question": "鱼用什么帮助自己游动？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 68
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "鱼生活在水中，通常用鳃呼吸、用鳍帮助运动；小鸟用肺呼吸，用翅膀飞行。",
+        "knowledge_point": "鱼的特征",
+        "options": [
+          "A. 有鳃，能在水中生活",
+          "B. 有翅膀，能在天空飞",
+          "C. 有毛，靠四条腿奔跑"
+        ],
+        "question": "下面哪一项是鱼的典型特征？",
+        "score": 2,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "鱼通常生活在水中，用鳍帮助运动；它们不是靠腿在陆地上行走的。",
+        "knowledge_point": "鱼的特征",
+        "options": [],
+        "question": "鱼主要靠腿在陆地上走路。",
+        "score": 2,
+        "type": "true_false",
+        "id": 70
+      },
+      {
+        "answer": "鳃",
+        "difficulty": 2,
+        "explanation": "鱼张合嘴巴时，水会流经鳃。鳃帮助鱼从水中获取氧气，这是鱼在水中呼吸的一种方式。",
+        "knowledge_point": "鱼的特征",
+        "options": [],
+        "question": "水流经过鱼身体的哪个部位时，鱼可以从水中获取氧气？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 71
+      },
+      {
+        "answer": "壳",
+        "difficulty": 1,
+        "explanation": "蜗牛身体外面有壳，壳能保护柔软的身体。",
+        "knowledge_point": "蜗牛的结构",
+        "options": [],
+        "question": "蜗牛身体外面有一个螺旋形的（___）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 72
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "蜗牛较长的一对触角顶端有眼，可以帮助它感知周围环境。",
+        "knowledge_point": "蜗牛的结构",
+        "options": [],
+        "question": "蜗牛较长的一对触角顶端有眼。",
+        "score": 2,
+        "type": "true_false",
+        "id": 73
+      },
+      {
+        "answer": "腹足",
+        "difficulty": 2,
+        "explanation": "腹足位于蜗牛身体底部，能分泌黏液并帮助蜗牛移动。",
+        "knowledge_point": "蜗牛的结构",
+        "options": [],
+        "question": "蜗牛身体底部、帮助它爬行的部位叫（___）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 74
+      },
+      {
+        "answer": "安静地从旁边观察，不触摸它。",
+        "difficulty": 1,
+        "explanation": "保持安静、避免触摸，可以减少对小动物的惊扰，也能保护自己和动物。",
+        "knowledge_point": "校园动物的观察",
+        "options": [],
+        "question": "在校园里发现一只小虫子，怎样观察比较合适？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 75
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "观察时要爱护动物，不能为了看得更清楚而伤害或惊吓它们。",
+        "knowledge_point": "校园动物的观察",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "观察校园动物时，我们要轻声、安静，不伤害它们。",
+        "score": 5,
+        "type": "true_false",
+        "id": 76
+      },
+      {
+        "answer": "颜色、大小、形状",
+        "difficulty": 1,
+        "explanation": "这些都是可以通过观察发现并记录的动物特点。还可以记录动物怎样活动。",
+        "knowledge_point": "校园动物的观察",
+        "options": [],
+        "question": "观察一只小鸟时，我们可以记录它的________、________和________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 77
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "轻轻观察并记录看到的情况，既能了解动物，也不会伤害它。",
+        "knowledge_point": "校园动物的观察",
+        "options": [
+          "A. 把蚂蚁抓起来看",
+          "B. 安静地看蚂蚁怎样活动，并做记录",
+          "C. 用棍子拨弄蚂蚁"
+        ],
+        "question": "下面哪种做法适合观察蚂蚁？",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "只看一眼可能会漏掉细节。仔细观察并记录，能帮助我们更准确地了解动物。",
+        "knowledge_point": "校园动物的观察",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "观察动物时，只凭第一次看到的印象就记录，不需要再仔细观察。",
+        "score": 5,
+        "type": "true_false",
+        "id": 79
+      },
+      {
+        "answer": "腹足",
+        "difficulty": 1,
+        "explanation": "蜗牛用宽而扁的腹足在物体表面爬行。",
+        "knowledge_point": "蜗牛的身体结构",
+        "options": [
+          "腹足",
+          "壳",
+          "短触角",
+          "口"
+        ],
+        "question": "蜗牛主要用身体的哪一部分爬行？",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "壳",
+        "difficulty": 1,
+        "explanation": "蜗牛背上的壳能保护它的身体。",
+        "knowledge_point": "蜗牛的身体结构",
+        "options": [
+          "壳",
+          "腹足",
+          "长触角",
+          "口"
+        ],
+        "question": "蜗牛背上的哪一部分能保护身体？",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "两",
+        "difficulty": 1,
+        "explanation": "蜗牛有两对触角，也就是四根触角。",
+        "knowledge_point": "蜗牛的身体结构",
+        "options": [],
+        "question": "蜗牛有（ ）对触角。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "蜗牛的眼睛长在较长的一对触角顶端，不是长在壳上。",
+        "knowledge_point": "蜗牛的身体结构",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "蜗牛的眼睛长在壳上。",
+        "score": 5,
+        "type": "true_false",
+        "id": 83
+      },
+      {
+        "answer": "头部、腹足、内脏团",
+        "difficulty": 2,
+        "explanation": "蜗牛的身体主要包括头部、腹足和内脏团，背上还有一只保护身体的壳。",
+        "knowledge_point": "蜗牛的身体结构",
+        "options": [],
+        "question": "蜗牛的身体主要由哪三部分组成？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "鱼鳞",
+        "difficulty": 1,
+        "explanation": "鱼鳞覆盖在鱼的身体表面，能保护鱼的身体。",
+        "knowledge_point": "鱼的结构",
+        "options": [],
+        "question": "鱼身体表面常有一片片覆盖着的（___），它们能起保护作用。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "鱼鳍",
+        "difficulty": 2,
+        "explanation": "鱼鳍能帮助鱼运动，也能帮助鱼保持平衡和控制方向。",
+        "knowledge_point": "鱼的结构",
+        "options": [
+          "鱼鳃",
+          "鱼鳍",
+          "鱼鳞",
+          "鱼嘴"
+        ],
+        "question": "哪一种结构能帮助鱼保持平衡并改变游动方向？",
+        "score": 5,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "鱼呼吸时，水从嘴进入，经过鳃部后从鳃盖附近流出。",
+        "knowledge_point": "鱼的结构",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "鱼呼吸时，水从鱼的尾巴进入。",
+        "score": 5,
+        "type": "true_false",
+        "id": 87
+      },
+      {
+        "answer": "小鸡",
+        "difficulty": 1,
+        "explanation": "小鸡是从鸡蛋里孵化出来的。",
+        "knowledge_point": "动物的繁殖",
+        "options": [
+          "小猫",
+          "小鸡",
+          "小狗",
+          "小兔"
+        ],
+        "question": "鸡蛋孵化后通常会出来什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "猫会生下小猫，不是从蛋里孵出来的。",
+        "knowledge_point": "动物的繁殖",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "小猫是从蛋里孵出来的。",
+        "score": 5,
+        "type": "true_false",
+        "id": 89
+      },
+      {
+        "answer": "幼崽",
+        "difficulty": 2,
+        "explanation": "刚出生或刚孵化的小动物叫幼崽，例如小鸡、小猫和蚕宝宝。",
+        "knowledge_point": "动物的繁殖",
+        "options": [],
+        "question": "刚出生或刚孵化的小动物，可以叫作动物的______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 90
+      },
+      {
+        "answer": "兔子会生下小兔",
+        "difficulty": 2,
+        "explanation": "兔子不是从蛋里孵化出来的；母兔会生下小兔。",
+        "knowledge_point": "动物的繁殖",
+        "options": [
+          "兔子会生下小兔",
+          "兔子会孵出小鸡",
+          "兔子会生下小鱼",
+          "兔子会孵出小蝴蝶"
+        ],
+        "question": "下面哪句话说得对？",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "蝴蝶",
+        "difficulty": 3,
+        "explanation": "蝴蝶会产卵，卵孵化后先成为毛毛虫，毛毛虫再经过变化成为蝴蝶。",
+        "knowledge_point": "动物的繁殖",
+        "options": [],
+        "question": "毛毛虫长大并经过变化后，会变成______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "食物、水、空气和适宜的生活环境",
+        "difficulty": 1,
+        "explanation": "动物要生存，需要获得食物和水、呼吸空气，还需要适合自己生活的环境。",
+        "knowledge_point": "动物的生存需求",
+        "options": [],
+        "question": "动物生存通常需要哪些东西？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "兔子需要吃适合它的食物，也需要清洁的饮水、空气和适宜的生活环境。",
+        "knowledge_point": "动物的生存需求",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "兔子要健康生活，除了食物，还需要水和空气。",
+        "score": 5,
+        "type": "true_false",
+        "id": 94
+      },
+      {
+        "answer": "清水",
+        "difficulty": 1,
+        "explanation": "动物也需要水。给小鸟提供清水，可以帮助它满足饮水需要。",
+        "knowledge_point": "动物的生存需求",
+        "options": [],
+        "question": "给小鸟准备饮水时，应提供干净的______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 95
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "金鱼生活在水中，需要清洁、适宜的水环境。把金鱼放在没有水的盒子里，它无法正常生活。",
+        "knowledge_point": "动物的生存需求",
+        "options": [
+          "把金鱼放在没有水的盒子里",
+          "给金鱼提供清洁、适宜的水",
+          "给金鱼喂适合它的食物"
+        ],
+        "question": "怎样做更有利于金鱼生存？",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "不同动物的食物和生活环境不同。比如金鱼生活在水中，兔子住在陆地上，它们需要的环境并不完全一样。",
+        "knowledge_point": "动物的生存需求",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "所有动物都吃一样的食物，也住在一样的地方。",
+        "score": 5,
+        "type": "true_false",
+        "id": 97
+      },
+      {
+        "answer": "飞行",
+        "difficulty": 1,
+        "explanation": "蜻蜓用翅膀在空中飞行。",
+        "knowledge_point": "动物的运动方式",
+        "options": [
+          "游泳",
+          "飞行",
+          "爬行",
+          "跳跃"
+        ],
+        "question": "蜻蜓主要用什么方式运动？",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "游泳",
+        "difficulty": 1,
+        "explanation": "金鱼生活在水中，主要靠鱼鳍和身体摆动游泳。",
+        "knowledge_point": "动物的运动方式",
+        "options": [
+          "奔跑",
+          "飞行",
+          "游泳",
+          "爬行"
+        ],
+        "question": "金鱼在水中主要怎样运动？",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "行走和奔跑",
+        "difficulty": 1,
+        "explanation": "小猫用四条腿行走，也能奔跑。",
+        "knowledge_point": "动物的运动方式",
+        "options": [
+          "行走和奔跑",
+          "飞行和游泳",
+          "爬行和滑行",
+          "跳跃和飞行"
+        ],
+        "question": "小猫常用什么方式在地面上移动？",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "爬行",
+        "difficulty": 1,
+        "explanation": "蜗牛用身体腹面贴着地面缓慢移动，这种方式叫爬行。",
+        "knowledge_point": "动物的运动方式",
+        "options": [],
+        "question": "蜗牛主要靠身体腹面移动，这种运动方式是________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "有些动物能够用不止一种方式运动，例如小猫可以行走，也可以奔跑。",
+        "knowledge_point": "动物的运动方式",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "有些动物可以用多种方式运动。",
+        "score": 5,
+        "type": "true_false",
+        "id": 102
+      },
+      {
+        "answer": "鱼",
+        "difficulty": 1,
+        "explanation": "鱼生活在水中，通常用鳃呼吸，用鳍帮助游动。",
+        "knowledge_point": "动物的多样性",
+        "options": [
+          "鱼",
+          "猫",
+          "麻雀",
+          "兔子"
+        ],
+        "question": "下面哪种动物通常生活在水中？",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "鸟类通常有翅膀和羽毛，许多鸟能飞行；不过也有不能飞的鸟。",
+        "knowledge_point": "动物的多样性",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "许多鸟有翅膀和羽毛，其中不少鸟会飞。",
+        "score": 5,
+        "type": "true_false",
+        "id": 104
+      },
+      {
+        "answer": "8",
+        "difficulty": 1,
+        "explanation": "蜘蛛有4对足，共8条腿。蜘蛛不是昆虫。",
+        "knowledge_point": "动物的多样性",
+        "options": [],
+        "question": "蜘蛛有____条腿。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 105
+      },
+      {
+        "answer": "游泳",
+        "difficulty": 1,
+        "explanation": "鱼通常用鳍帮助自己在水里游动。",
+        "knowledge_point": "动物的多样性",
+        "options": [],
+        "question": "鱼通常用鳍在水里做什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 106
+      },
+      {
+        "answer": "猫、狗、兔子",
+        "difficulty": 2,
+        "explanation": "猫、狗和兔子都是动物，常用四条腿在陆地上行走或奔跑。动物的种类很多，外形和运动方式也各不相同。",
+        "knowledge_point": "动物的多样性",
+        "options": [],
+        "question": "写出两种常见的陆地动物。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "鱼",
+        "difficulty": 1,
+        "explanation": "鱼生活在水中，主要用鳍游动；兔子、猫和狗通常用腿行走或奔跑。",
+        "knowledge_point": "动物特征",
+        "options": [
+          "兔子",
+          "鱼",
+          "猫",
+          "狗"
+        ],
+        "question": "下面哪种动物主要用鳍在水里游动？",
+        "score": 5,
+        "type": "choice",
+        "id": 108
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "鸟有翅膀，许多鸟能飞翔；但并不是所有鸟都会飞，例如鸵鸟。",
+        "knowledge_point": "动物特征",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "许多鸟可以用翅膀飞翔。",
+        "score": 5,
+        "type": "true_false",
+        "id": 109
+      },
+      {
+        "answer": "蜗牛",
+        "difficulty": 1,
+        "explanation": "蜗牛没有腿，常用腹部缓慢爬行；它也不会像狗一样汪汪叫。",
+        "knowledge_point": "动物特征",
+        "options": [],
+        "question": "没有腿，常用腹部缓慢爬行的动物是____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "鱼用鳍游，鸟用翅膀飞",
+        "difficulty": 2,
+        "explanation": "鱼和鸟的身体特征不同，运动方式也不同：鱼主要用鳍游动，许多鸟用翅膀飞翔。",
+        "knowledge_point": "动物特征",
+        "options": [],
+        "question": "鱼和鸟各用什么身体部位运动？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "需要食物",
+        "difficulty": 1,
+        "explanation": "动物都需要食物来维持生命和生长，但不同动物吃的食物可能不同。",
+        "knowledge_point": "动物特征",
+        "options": [],
+        "question": "动物需要____才能生活和生长。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "猫和兔子",
+        "difficulty": 2,
+        "explanation": "猫和兔子都有脚，可以按“有脚”分为一类。金鱼没有脚，靠鳍游动。",
+        "knowledge_point": "动物分类",
+        "options": [
+          "猫和兔子",
+          "金鱼和猫",
+          "金鱼和兔子",
+          "金鱼、猫和兔子"
+        ],
+        "question": "按“有没有脚”分类，下面哪两个动物可以分到“有脚”这一组？",
+        "score": 5,
+        "type": "choice",
+        "id": 113
+      },
+      {
+        "answer": "有翅膀",
+        "difficulty": 2,
+        "explanation": "蝴蝶和麻雀都有翅膀，可以按“有没有翅膀”分组。",
+        "knowledge_point": "动物分类",
+        "options": [
+          "有翅膀",
+          "生活在水里",
+          "有四条腿",
+          "身体上有毛"
+        ],
+        "question": "蝴蝶和麻雀有一个相同的身体特征。按照什么标准，可以把它们分到一组？",
+        "score": 5,
+        "type": "choice",
+        "id": 114
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "分类可以根据不同特征进行。比如青蛙可以按生活环境分类，也可以按身体特征分类。",
+        "knowledge_point": "动物分类",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "同一种动物可以根据不同的特征，分到不同的组里。",
+        "score": 5,
+        "type": "true_false",
+        "id": 115
+      },
+      {
+        "answer": "蜗牛",
+        "difficulty": 2,
+        "explanation": "蜗牛用腹部的足帮助运动；金鱼靠鳍游动，麻雀用脚行走、用翅膀飞行。",
+        "knowledge_point": "动物分类",
+        "options": [
+          "麻雀",
+          "蜗牛",
+          "金鱼"
+        ],
+        "question": "下面哪种动物用腹足运动？",
+        "score": 5,
+        "type": "choice",
+        "id": 116
+      },
+      {
+        "answer": "有翅膀",
+        "difficulty": 3,
+        "explanation": "麻雀和蝴蝶都有翅膀，可以分到同一组；兔子和金鱼没有翅膀。",
+        "knowledge_point": "动物分类",
+        "options": [
+          "有翅膀",
+          "有四条腿",
+          "生活在水里",
+          "身体上有毛"
+        ],
+        "question": "小明要把麻雀、蝴蝶、兔子和金鱼分成“有翅膀”和“没有翅膀”两组，他应该观察什么特征？",
+        "score": 5,
+        "type": "choice",
+        "id": 117
+      },
+      {
+        "answer": "草",
+        "difficulty": 1,
+        "explanation": "兔子主要吃草、菜叶等植物，属于植食性动物。",
+        "knowledge_point": "动物的食性",
+        "options": [
+          "草",
+          "小鱼",
+          "肉块",
+          "奶酪"
+        ],
+        "question": "兔子平时主要吃什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 118
+      },
+      {
+        "answer": "肉食性",
+        "difficulty": 2,
+        "explanation": "猫主要吃鱼、鼠等动物，主要以其他动物为食，属于肉食性动物。",
+        "knowledge_point": "动物的食性",
+        "options": [
+          "植食性",
+          "肉食性",
+          "杂食性",
+          "不吃东西"
+        ],
+        "question": "猫主要吃鱼和老鼠，它属于哪种食性？",
+        "score": 5,
+        "type": "choice",
+        "id": 119
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "牛主要吃草等植物，因此属于植食性动物。",
+        "knowledge_point": "动物的食性",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "牛主要吃草，属于植食性动物。对还是错？",
+        "score": 5,
+        "type": "true_false",
+        "id": 120
+      },
+      {
+        "answer": "杂食性",
+        "difficulty": 2,
+        "explanation": "鸡会吃谷物等植物，也会吃虫子等小动物，所以属于杂食性动物。",
+        "knowledge_point": "动物的食性",
+        "options": [],
+        "question": "鸡既吃谷物，也吃虫子，属于________动物。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 121
+      },
+      {
+        "answer": "植物",
+        "difficulty": 1,
+        "explanation": "主要吃植物的动物属于植食性动物。",
+        "knowledge_point": "动物的食性",
+        "options": [],
+        "question": "主要吃草、树叶等食物的动物，主要吃的是________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "安静地在旁边观察并记录，不追赶或伤害它。",
+        "difficulty": 1,
+        "explanation": "安静观察能减少对小动物的惊扰，也能帮助我们看到它原来的活动情况。",
+        "knowledge_point": "校园动物观察",
+        "options": [],
+        "question": "看到一只蜗牛在花坛边爬行，我们怎样观察比较合适？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "眼睛、触角、腿",
+        "difficulty": 1,
+        "explanation": "观察蚂蚁时，可以记录看见的身体部位，例如眼睛、触角和腿。",
+        "knowledge_point": "校园动物观察",
+        "options": [],
+        "question": "观察蚂蚁时，我们可以看看它有没有（___）、（___）和（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "观察动物时不能为了看清楚而抓捏、踩踏或破坏它们的生活环境。",
+        "knowledge_point": "校园动物观察",
+        "options": [],
+        "question": "观察校园小动物时，可以把它抓起来捏一捏，看看它会不会动。（对或错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 125
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "观察记录应写自己实际看到的内容，例如在哪里发现、身体有什么特征、正在做什么。",
+        "knowledge_point": "校园动物观察",
+        "options": [
+          "A. 它一定很喜欢我",
+          "B. 它有六条腿，正在地上爬",
+          "C. 它今天心情很好"
+        ],
+        "question": "下面哪一项是比较合适的动物观察记录？",
+        "score": 5,
+        "type": "choice",
+        "id": 126
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "校园里的动物需要安全的生活环境。观察结束后不带走动物，也不破坏它们的住所。",
+        "knowledge_point": "校园动物观察",
+        "options": [
+          "A. 把动物带回家",
+          "B. 不打扰动物，离开时不破坏它的住所",
+          "C. 把它的巢穴拆开看看"
+        ],
+        "question": "观察完一只小动物后，我们应该怎么做？",
+        "score": 5,
+        "type": "choice",
+        "id": 127
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "蜗牛用齿舌刮取食物，再把食物送入口中。",
+        "knowledge_point": "蜗牛的取食",
+        "options": [
+          "A. 用脚夹住食物",
+          "B. 用齿舌刮取食物",
+          "C. 用触角咬食物"
+        ],
+        "question": "蜗牛主要用什么方式取食？",
+        "score": 5,
+        "type": "choice",
+        "id": 128
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "齿舌上有许多细小的齿，可以帮助蜗牛刮取食物。",
+        "knowledge_point": "蜗牛的取食",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "蜗牛会用齿舌刮取食物。",
+        "score": 5,
+        "type": "true_false",
+        "id": 129
+      },
+      {
+        "answer": "嫩叶",
+        "difficulty": 2,
+        "explanation": "嫩叶是蜗牛常见的食物之一。",
+        "knowledge_point": "蜗牛的取食",
+        "options": [],
+        "question": "蜗牛常吃植物的（___）等食物。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "蜗牛有触角，触角可以帮助它感知周围环境，但取食时主要依靠齿舌刮取食物。",
+        "knowledge_point": "蜗牛的取食",
+        "options": [
+          "A. 触角",
+          "B. 齿舌",
+          "C. 壳"
+        ],
+        "question": "蜗牛的触角、齿舌和壳中，主要帮助它刮取食物的是哪一个？",
+        "score": 5,
+        "type": "choice",
+        "id": 131
+      },
+      {
+        "answer": "入口中",
+        "difficulty": 2,
+        "explanation": "蜗牛用齿舌刮下食物后，会把食物送入口中。",
+        "knowledge_point": "蜗牛的取食",
+        "options": [],
+        "question": "蜗牛用齿舌刮取食物后，会把食物送（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
       }
     ]
   },
@@ -703,6 +2111,246 @@
         "忽略蜗牛的腹足也属于某种意义上的‘足’（但与昆虫足有别）"
       ],
       "tips": "分类之前，先想好是按‘有没有脚’分，还是按‘生活在哪里’分。"
+    },
+    {
+      "common_mistakes": [
+        "把会动的物体都当成动物，例如汽车和风扇。",
+        "认为所有动物都有四条腿，忽略鱼、鸟和蛇等动物的不同。",
+        "只凭动物生活的地方或颜色辨认动物，忽略身体特征和活动方式。"
+      ],
+      "core_concept": "动物是有生命的生物，通常能够生长、需要食物和水，也能对周围的变化作出反应。不同动物的身体特征和活动方式不同：有的有腿，有的有翅膀或鳍；有的生活在陆地上，有的生活在水里。辨别动物时，可以观察它的身体、运动方式和生活环境。",
+      "key_formula": "辨别动物：观察身体特征 + 运动方式 + 生活环境。",
+      "point": "动物的基本特征与辨别",
+      "tips": "观察时可以先看动物有没有头、身体、腿、翅膀或鳍，再看它怎样运动、生活在哪里。不要只看一个特征，也不要把汽车、玩具等非生物误认为动物。"
+    },
+    {
+      "common_mistakes": [
+        "只看动物的外形，不留意它在哪里、在做什么。",
+        "为了看得更清楚而追赶、触摸或抓动物。",
+        "把一次没有看到动物，当成校园里没有这种动物。"
+      ],
+      "core_concept": "在校园里寻找动物时，可以到草地、花坛、树下等地方安静观察。观察动物在哪里、外形有什么特点、正在做什么，并用语言或图画记录。观察时要爱护动物，不追赶、不触摸、不伤害它们；观察后轻轻离开，不破坏它们生活的地方。",
+      "key_formula": "寻找动物 → 安静观察 → 记录发现 → 轻轻离开",
+      "point": "校园动物的寻找与观察",
+      "tips": "可以和同学结伴，在老师或家长的带领下观察。先站在合适的距离，再看看动物在哪里、在做什么；没找到时也不要翻动石头、踩踏花草，可以换个时间或地点再观察。"
+    },
+    {
+      "common_mistakes": [
+        "把蜗牛的壳当作它的身体；蜗牛身体柔软，壳是身体外部的保护结构。",
+        "认为蜗牛用脚走路；蜗牛用腹部宽而扁的腹足爬行。",
+        "观察时用手拉扯触角或把蜗牛从壳里拽出，这会伤害蜗牛。"
+      ],
+      "core_concept": "蜗牛有柔软的身体，背上有壳，头部有两对触角，腹面有宽扁的腹足。蜗牛靠腹足爬行，爬过的地方常会留下黏液。观察时要轻拿轻放，不伤害蜗牛，观察后将它放回合适的环境。",
+      "key_formula": "蜗牛的主要结构：壳、头部、两对触角、腹足；运动方式：腹足爬行。",
+      "point": "观察蜗牛的结构与运动",
+      "tips": "观察蜗牛时可以从上方和侧面仔细看，留意触角的伸缩和腹足的运动。不要用力碰触角、拉扯身体或敲击壳；观察结束后，把蜗牛放回原来的适宜环境，并洗手。"
+    },
+    {
+      "common_mistakes": [
+        "以为动物只要有食物就能生存，忽略水、空气、适宜的温度和安全的栖身处。",
+        "认为所有动物都住在同一种环境里；不同动物需要的环境条件不同。",
+        "搭建动物的生活环境时，没有考虑动物的活动空间和生活习性。"
+      ],
+      "core_concept": "动物需要食物、水、空气和适宜的生活环境才能生存。不同动物的生活习性不同，搭建环境时要尽量提供它所需要的条件，并留出适当的活动空间。",
+      "key_formula": "适合动物的环境 = 满足它的基本生存需求 + 符合它的生活习性",
+      "point": "动物生存需求与环境搭建",
+      "tips": "搭建前先观察动物：它生活在陆地还是水中？需要什么食物？喜欢干燥还是潮湿？需要躲藏处吗？照料时要保持环境清洁，不随意把动物放到不适合它的地方。"
+    },
+    {
+      "common_mistakes": [
+        "认为所有鱼都必须生活在海水中；许多鱼生活在淡水中。",
+        "认为鱼用鳃呼吸空气；鱼主要用鳃从水中获取氧气。",
+        "认为鱼鳍和鱼尾作用相同；鱼鳍帮助平衡和改变方向，鱼尾帮助推动身体前进。"
+      ],
+      "core_concept": "鱼的身体有适应水中生活的特点。鱼通常有鳃、鳍和覆盖身体的鳞片：鳃帮助鱼从水中获取氧气，鳍帮助鱼保持平衡、改变方向，尾巴帮助鱼游动。鱼的身体外形有助于在水中前进。",
+      "key_formula": "鳃：从水中获取氧气；鳍：保持平衡、改变方向；尾巴：推动身体前进。",
+      "point": "鱼的结构与水中适应",
+      "tips": "观察鱼时，可以先找出头、身体和尾巴，再观察鳃盖附近的鳃、身体两侧的鳍以及身上的鳞片。记住：不同种类的鱼外形会有差异，但这些结构通常都与水中生活有关。"
+    },
+    {
+      "common_mistakes": [
+        "认为动物只能按生活的地方分类。",
+        "认为外形相似的动物一定属于同一类。",
+        "把分类当成给动物排好坏或大小。"
+      ],
+      "core_concept": "动物种类很多，生活环境、外形和生活方式也各不相同。我们可以根据动物的共同特点，把它们分成不同的类；同一种动物也可能从不同角度进行分类。",
+      "key_formula": "观察动物特点 → 找出相同点 → 按同一标准分类",
+      "point": "动物的多样性与分类",
+      "tips": "分类时先说清楚按什么标准，再观察每种动物是否符合。例如，按生活环境可分为生活在水里的、陆地上的；按身体特点可分为有翅膀的、没有翅膀的。分类标准不同，结果也可能不同。"
+    },
+    {
+      "common_mistakes": [
+        "只看外形判断是不是动物，忽略它是否有生命。",
+        "认为动物一定会走、会叫；不同动物的活动方式各不相同。",
+        "把人排除在动物之外。"
+      ],
+      "core_concept": "动物是有生命的生物。它们会生长，通常会繁殖后代，需要空气、水和食物，并能对周围环境作出反应。人也属于动物。玩具动物虽然外形像动物，但没有生命，不会自己生长和繁殖。",
+      "key_formula": "动物有生命，能生长，需要空气、水和食物，并能对环境作出反应；人也属于动物。",
+      "point": "动物的基本特征",
+      "tips": "判断一个东西是不是动物，不要只看它像不像动物，可以观察它是否有生命、会不会生长，是否需要空气、水和食物。"
+    },
+    {
+      "common_mistakes": [
+        "用手抓、追赶或惊吓动物",
+        "为了看清楚而破坏动物的栖息环境",
+        "随意给动物喂食或把它们带回家"
+      ],
+      "core_concept": "观察动物时要爱护动物、注意安全，尽量不打扰它们的生活。可以在合适的距离静静观察，并记录看到的特征。",
+      "key_formula": "安全观察＝保持距离＋不抓不追＋不喂不扰＋保护环境",
+      "point": "观察动物的注意事项",
+      "tips": "观察前先征得老师或家长同意；观察时轻声、慢慢靠近并保持距离，不触摸、不追赶、不投喂。观察后把现场恢复原样，遇到不认识或可能有危险的动物，及时告诉老师或家长。"
+    },
+    {
+      "common_mistakes": [
+        "把鱼张嘴闭嘴误认为是在喝水。鱼通过鳃呼吸，水流经过鳃时，鱼从水中获取氧气。",
+        "认为所有生活在水里的动物都是鱼。鱼有鳃，通常用鳍运动；鲸、海豚等虽然生活在水里，却不是鱼。",
+        "认为所有鱼都长着明显的鳞片或外形都一样。不同鱼的身体形状和外表可能不同。"
+      ],
+      "core_concept": "鱼生活在水中，身体通常分为头、躯干和尾等部分。鱼用鳃呼吸，用鳍帮助运动，尾部也能帮助游动。不同种类的鱼在大小、颜色和身体形状上可能不同。",
+      "key_formula": "鱼的典型特征：用鳃呼吸，用鳍运动，生活在水中。",
+      "point": "鱼的特征",
+      "tips": "观察鱼时，可以从生活环境、呼吸方式和运动方式来认识它。观察鱼缸里的鱼张合嘴巴、鳃盖活动和鱼鳍摆动即可，不要敲打鱼缸或把鱼捞出水面。"
+    },
+    {
+      "common_mistakes": [
+        "把蜗牛的壳误认为身体的一部分；壳是蜗牛身体外面的保护结构。",
+        "把蜗牛的一对触角说成两对；蜗牛有两对触角，长的一对顶端有眼。",
+        "把腹足说成蜗牛的壳或触角；腹足位于身体底部，用来爬行。"
+      ],
+      "core_concept": "蜗牛的身体柔软，外面有一个螺旋形的壳。头部有两对触角，较长的一对顶端有眼。身体底部的腹足能分泌黏液，帮助蜗牛爬行。",
+      "key_formula": "蜗牛的主要结构：壳、头、触角、腹足。",
+      "point": "蜗牛的结构",
+      "tips": "观察活蜗牛时要轻拿轻放，不要拉扯触角或损伤它的身体；观察后将蜗牛放回适宜的环境。"
+    },
+    {
+      "common_mistakes": [
+        "观察时只看一眼，就凭印象说动物的样子。",
+        "为了看得更清楚而触摸、抓取或惊吓动物。",
+        "把看到的事实和自己的猜测混在一起。"
+      ],
+      "core_concept": "观察校园动物时，可以用眼睛仔细看，也可以借助放大镜等工具，记录动物的颜色、大小、形状和活动方式。观察时要轻声、安静，不伤害动物，也不随意触摸或带走它们。",
+      "key_formula": "观察动物：看一看、记一记、轻轻观察、不伤害动物。",
+      "point": "校园动物的观察",
+      "tips": "观察前先选好安全的位置；可以从远处观察动物，再把看到的特点画下来或写下来。遇到不认识的动物，不要用手碰，可以请老师帮助。"
+    },
+    {
+      "common_mistakes": [
+        "误以为蜗牛的壳就是身体；蜗牛的身体主要包括头部、腹足和内脏团，壳是保护身体的结构。",
+        "误以为蜗牛的眼睛长在嘴边；眼睛长在较长的一对触角顶端。",
+        "混淆两对触角的长短和作用；蜗牛有两对触角，较长的一对顶端有眼睛。"
+      ],
+      "core_concept": "蜗牛的身体主要包括头部、腹足和内脏团，背上有壳。头部有口和两对触角，较长的一对触角顶端有眼睛；腹足宽而扁，帮助蜗牛爬行。",
+      "key_formula": "蜗牛身体结构：头部（口、两对触角）＋腹足（爬行）＋内脏团；背上有壳（保护身体）。",
+      "point": "蜗牛的身体结构",
+      "tips": "观察蜗牛时不要用力拉扯触角或壳。可看一看它怎样伸出触角、用腹足爬行，并注意眼睛位于长触角的顶端。"
+    },
+    {
+      "common_mistakes": [
+        "把鱼鳍和鱼鳃混淆：鱼鳍帮助鱼运动，鱼鳃帮助鱼呼吸。",
+        "认为鱼鳞能帮助鱼呼吸或游动；鱼鳞主要覆盖并保护鱼的身体。",
+        "认为水从鳃盖进入；鱼呼吸时，水从嘴进入，经过鳃，再从鳃盖附近流出。"
+      ],
+      "core_concept": "鱼的身体有头、躯干和尾等部分。鱼鳍帮助鱼保持平衡、控制方向和游动；鳃是呼吸器官；鱼鳞覆盖身体，起保护作用。鱼呼吸时，水从嘴进入，经过鳃后从鳃盖附近流出。",
+      "key_formula": "鱼鳍帮助运动和保持平衡；鳃帮助呼吸；鱼鳞保护身体。",
+      "point": "鱼的结构",
+      "tips": "观察鱼时，可以注意鱼鳍、鱼鳃和鱼鳞分别在哪里、有什么作用。记住：鳍负责运动，鳃负责呼吸，鳞片保护身体。"
+    },
+    {
+      "common_mistakes": [
+        "误以为所有动物都是从蛋里孵出来的。",
+        "把幼崽和其他动物的幼崽混淆，例如认为蚕卵会孵出小蝴蝶。",
+        "认为动物长大后就不再繁殖。"
+      ],
+      "core_concept": "动物会繁殖后代。不同动物繁殖后代的方式不同：有些动物产卵，幼崽从卵里孵化出来；有些动物直接生下幼崽。幼崽会逐渐长大，成为成体。",
+      "key_formula": "动物繁殖后代：有的产卵，有的直接生下幼崽。",
+      "point": "动物的繁殖",
+      "tips": "观察动物时，可以留意它们是产卵还是生下幼崽，也可以观察幼崽长大后的变化。记住：鸡蛋孵出小鸡，蚕卵孵出蚕宝宝，猫和狗会生下幼崽。"
+    },
+    {
+      "common_mistakes": [
+        "把人类喜欢的食物或环境当成所有动物都需要的。",
+        "以为动物只要有食物就能生存，忽略水、空气和合适的生活环境。",
+        "认为动物需要的住所和环境完全相同。"
+      ],
+      "core_concept": "动物生存需要食物、水、空气和适宜的生活环境。不同动物需要的食物、住所和环境各不相同。",
+      "key_formula": "动物生存的基本需要：食物＋水＋空气＋适宜的生活环境。",
+      "point": "动物的生存需求",
+      "tips": "观察动物时，可以想一想：它吃什么、在哪里生活、怎样获得水和空气。照顾动物要提供适合它的食物和环境，不要随意喂食，也不要破坏它的住所。"
+    },
+    {
+      "common_mistakes": [
+        "认为动物只能用一种方式运动。",
+        "把相似的运动方式和相同的运动方式混为一谈。"
+      ],
+      "core_concept": "不同动物的运动方式各有特点。动物会根据身体结构和生活环境，采用爬行、行走、奔跑、跳跃、飞行、游泳等方式运动；有些动物还能用多种方式运动。",
+      "key_formula": "观察动物的身体特点和运动表现，可以判断它的运动方式。",
+      "point": "动物的运动方式",
+      "tips": "观察时要注意动物实际的运动表现，不要只凭外形猜测。同一种动物也可能会有不止一种运动方式。"
+    },
+    {
+      "common_mistakes": [
+        "认为所有动物都有相同的外形或相同数量的腿。",
+        "只根据动物生活的地方来判断它属于哪一类，忽略它的身体特征。",
+        "把动物和植物混为一谈，忘记动物能活动，也需要食物。"
+      ],
+      "core_concept": "动物种类很多，外形、大小、生活环境和运动方式各不相同。有的生活在陆地，有的生活在水中，还有的能在空中飞行。观察动物的身体特征和生活方式，可以发现它们之间的相同点与不同点。",
+      "key_formula": "观察动物：看外形、数腿脚、找运动方式、了解生活环境。",
+      "point": "动物的多样性",
+      "tips": "观察动物时要轻声、保持距离，不随意触摸或捕捉。可以比较动物的身体、腿脚、运动方式和生活环境，并说出它们的不同之处。"
+    },
+    {
+      "common_mistakes": [
+        "把某一种动物的特征当成所有动物都有的特征，例如认为所有动物都会叫。",
+        "只看动物生活的地方或外形，忽略它们都会生长、需要食物等共同特点。",
+        "误以为动物只能用腿运动；鱼会游，鸟会飞，蛇会爬。"
+      ],
+      "core_concept": "动物的外形、运动方式和生活习性各不相同。动物都需要食物，能够生长和运动，也会排出体内不需要的东西；但不是所有动物都会叫、都会走路或生活在同一种环境中。",
+      "key_formula": "观察动物时，可以从外形、运动方式、食物和生活环境等方面比较；不同动物有不同特征，也有一些共同点。",
+      "point": "动物特征",
+      "tips": "观察动物时要看清具体事实，不要把一种动物的特点说成所有动物都有。可以比较它们的身体样子、怎样运动、吃什么、住在哪里。"
+    },
+    {
+      "common_mistakes": [
+        "分类时只看动物大小或生活地点，不看题目指定的特征。",
+        "把蜗牛的腹足、鱼的鳍和蚂蚁、兔子的足当成相同结构。",
+        "认为一种动物只能按一种方法分类；同一种动物可以根据不同特征分到不同组。"
+      ],
+      "core_concept": "动物可以根据身体特征分类，例如有没有脚、有没有翅膀、身体表面有什么。分类时要先确定分类标准，再比较动物是否具有这个特征。",
+      "key_formula": "分类步骤：确定分类标准 → 观察动物特征 → 按标准分组。",
+      "point": "动物分类",
+      "tips": "一年级观察动物时，可以从明显的特征入手，如有无足、有无翅膀、生活在哪里。要按同一个标准比较，不要把不同标准混在一起。动物还可以按照其他特征重新分类。"
+    },
+    {
+      "common_mistakes": [
+        "认为所有动物都吃同一种食物。",
+        "把动物偶尔吃到的东西当作它主要的食物。",
+        "认为食肉动物只吃肉，忽略有些动物也会吃其他食物。"
+      ],
+      "core_concept": "动物的食性是指动物主要吃什么食物。动物吃的食物各不相同：有的主要吃植物，有的主要吃其他动物，有的植物和动物都吃。",
+      "key_formula": "主要吃植物：植食性；主要吃其他动物：肉食性；植物和动物都吃：杂食性。",
+      "point": "动物的食性",
+      "tips": "判断动物的食性时，可以观察它平时主要吃什么。比如兔子主要吃草和菜叶，猫主要吃小动物和鱼，鸡会吃谷物、虫子等。"
+    },
+    {
+      "common_mistakes": [
+        "把观察到的动物特征当成所有同类动物都完全一样的特征。",
+        "观察动物时追赶、抓捏或喂食，可能会伤害动物。",
+        "只记录动物的名字，忽略它的外形、活动和所在位置。"
+      ],
+      "core_concept": "观察校园动物时，可以留意它们的外形、大小、颜色、运动方式和生活地点，并用图画或简单文字记录。观察要安静、仔细，不伤害动物，也不随意改变它们的生活环境。",
+      "key_formula": "观察记录＝动物名称＋外形特征＋活动情况＋发现地点",
+      "point": "校园动物观察",
+      "tips": "可以从校园里常见的小动物开始观察，如蚂蚁、蝴蝶、蜗牛和麻雀。观察时先远远看，再记录看到的事实；不要只凭猜测判断动物在想什么。结束后不带走动物，不破坏它们的巢穴。"
+    },
+    {
+      "common_mistakes": [
+        "把蜗牛的齿舌误认为牙齿或舌头。",
+        "认为蜗牛只吃植物；不同种类的蜗牛食物可能不同。"
+      ],
+      "core_concept": "蜗牛用嘴取食，嘴里有布满细小齿的齿舌。它会用齿舌刮取食物，再把食物送入口中。常见蜗牛会吃嫩叶等食物。",
+      "key_formula": "蜗牛取食：齿舌刮取食物 → 食物进入口中",
+      "point": "蜗牛的取食",
+      "tips": "观察蜗牛取食时要轻轻放置食物，不要用手触碰蜗牛的嘴。可观察它如何伸出身体并刮取食物。"
     }
   ]
 }

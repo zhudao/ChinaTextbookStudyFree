@@ -4,326 +4,1838 @@
   "unit_number": 2,
   "unit_test": {
     "title": "第二单元《电路》单元达标卷",
-    "total_score": 100,
+    "total_score": 559,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "家庭电路电压较高，触碰可能造成严重伤害，因此不能用家里的交流电做电路实验。实验应按老师指导使用安全的电源。",
         "knowledge_point": "安全用电",
+        "options": [],
         "question": "我们不能用家里的交流电做电路实验。",
-        "options": [],
-        "answer": "对",
-        "explanation": "家用交流电电压高达220V，远超人体安全电压（36V），电路实验只能使用干电池。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "导线直接连接电池的两端，会形成短路，可能使电流过大，导致电池发热甚至损坏。",
         "knowledge_point": "闭合电路的形成",
+        "options": [],
         "question": "导线直接连接电池的两端会导致电池发热发烫甚至损坏。",
-        "options": [],
-        "answer": "对",
-        "explanation": "这种连接方式叫短路，会导致电流过大从而损坏电池。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 2,
+        "explanation": "自制电路检测器只适用于安全的简单电路，不能用于检测电视机等家用电器或交流电设备。",
         "knowledge_point": "电路故障检测",
+        "options": [],
         "question": "电路检测器可以用来检测家用电视机的电路故障。",
-        "options": [],
-        "answer": "错",
-        "explanation": "自制电路检测器只能检测简单直流电路，严禁检测交流电电器。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "导体与绝缘体",
-        "question": "人体的导电性能很好，所以湿的手不能去按开关。",
-        "options": [],
         "answer": "对",
-        "explanation": "人体和水都是导体，湿手操作开关极易发生触电危险。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "电路连接方式",
-        "question": "在并联电路中，一个灯泡坏了，另一个灯泡也不会亮。",
-        "options": [],
-        "answer": "错",
-        "explanation": "并联电路中各支路互不影响，一个坏了其他仍能正常工作。"
-      },
-      {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "人体和水分都可能导电，湿手操作开关会增加触电风险，应先擦干双手。",
+        "knowledge_point": "导体与绝缘体",
+        "options": [],
+        "question": "人体能导电，因此湿手不能去按开关。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "并联电路有多条支路，一个灯泡所在的支路坏了，另一个支路通常仍然连通，所以另一个灯泡仍可能发光。",
+        "knowledge_point": "电路连接方式",
+        "options": [],
+        "question": "在并联电路中，一个灯泡坏了，另一个灯泡也不会亮。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "灯丝",
+        "difficulty": 1,
+        "explanation": "电流流过灯丝时，灯丝会发光；玻璃罩、金属架和连接点本身不是灯泡主要的发光部分。",
         "knowledge_point": "灯泡结构",
-        "question": "小灯泡发光的部分是（ ）。",
         "options": [
           "玻璃罩",
           "金属架",
           "灯丝",
           "连接点"
         ],
-        "answer": "灯丝",
-        "explanation": "电流流过灯丝时产生热量，使其发光。"
+        "question": "小灯泡发光的部分是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "开关",
         "difficulty": 1,
+        "explanation": "开关通过接通或断开电路，控制电流能否通过。",
         "knowledge_point": "电路组件作用",
-        "question": "电路中控制电流通断的元件是（ ）。",
         "options": [
           "导线",
           "开关",
           "电池",
           "灯座"
         ],
-        "answer": "开关",
-        "explanation": "开关通过接触和断开发挥控制通断的作用。"
+        "question": "电路中控制电流通断的元件是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "电池",
         "difficulty": 1,
+        "explanation": "电池能够向电路提供电能，是常见的电源。",
         "knowledge_point": "能量来源",
-        "question": "在电路中，能够提供电能的装置是（ ）。",
         "options": [
           "发电机",
           "变压器",
           "电池",
           "电插头"
         ],
-        "answer": "电池",
-        "explanation": "电池是电路的电源，负责提供能量。"
+        "question": "在电路中，能够提供电能的装置是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "干木棒",
         "difficulty": 2,
+        "explanation": "干燥木材通常不容易导电，属于绝缘体。铁钉和硬币是金属制品，铅笔芯主要含石墨，它们都能导电。",
         "knowledge_point": "导体与绝缘体辨析",
-        "question": "下列物体中，属于绝缘体的是（ ）。",
         "options": [
           "铁钉",
           "铅笔芯",
           "干木棒",
           "硬币"
         ],
-        "answer": "干木棒",
-        "explanation": "不善于导电的物体是绝缘体，铁、碳、硬币（金属）都是导体。"
+        "question": "下列物体中，属于绝缘体的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "电路连接是否松动",
         "difficulty": 2,
+        "explanation": "排查故障时通常先检查容易发现、容易处理的连接问题，再进一步检查电池、灯泡和导线。",
         "knowledge_point": "电路故障检测",
-        "question": "当灯泡不亮时，我们第一步通常先检查（ ）。",
         "options": [
           "电池是否有电",
           "灯泡是否破碎",
           "导线内部是否断裂",
           "电路连接是否松动"
         ],
-        "answer": "电路连接是否松动",
-        "explanation": "排查故障应遵循从易到难的原则，先检查连接。"
+        "question": "当灯泡不亮时，我们第一步通常先检查（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "灯泡",
         "difficulty": 1,
+        "explanation": "让灯泡发光的基本电路需要电源、导线和用电器；开关不是构成闭合电路的必需部分。",
         "knowledge_point": "简单电路构建",
-        "question": "让一个灯泡亮起来，至少需要电池、导线和（ ）。",
         "options": [
           "开关",
           "灯泡",
           "电池盒",
           "灯座"
         ],
-        "answer": "灯泡",
-        "explanation": "基本电路的三要素是电源、导线和用电器（灯泡）。"
+        "question": "让一个灯泡亮起来，至少需要电池、导线和（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "导体",
         "difficulty": 2,
+        "explanation": "铅笔芯接入电路检测器后能让检测器亮起，说明电流能够通过铅笔芯，因此它是导体。",
         "knowledge_point": "导体导电性测试",
-        "question": "实验发现铅笔芯能让电路检测器亮起来，说明铅笔芯是（ ）。",
         "options": [
           "导体",
           "绝缘体",
           "半导体",
           "电源"
         ],
-        "answer": "导体",
-        "explanation": "能导电的物体被称为导体。"
+        "question": "实验发现铅笔芯能让电路检测器亮起来，说明铅笔芯是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "正极",
         "difficulty": 2,
+        "explanation": "常见圆柱形干电池的铜帽端标有“+”，是正极；另一端是负极。",
         "knowledge_point": "电池结构",
-        "question": "干电池铜帽一端是（ ）。",
         "options": [
           "负极",
           "正极",
           "南极",
           "北极"
         ],
-        "answer": "正极",
-        "explanation": "电池铜帽端为正极（+），锌壳端为负极（-）。"
+        "question": "干电池铜帽一端是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "可能有导线连接",
         "difficulty": 3,
+        "explanation": "检测器亮表示检测时两点间有电流通过的通路，因此盒内可能有导线把这两点连接起来；这不能证明盒内一定有电池或开关。",
         "knowledge_point": "隐蔽连接推测",
-        "question": "用电路检测器检测接线盒，发现1-2两点能亮，说明内部（ ）。",
         "options": [
           "可能有导线连接",
           "一定有电池",
           "一定是断开的",
           "有开关"
         ],
-        "answer": "可能有导线连接",
-        "explanation": "通路状态代表两点间存在电流通过的路径。"
+        "question": "用电路检测器检测接线盒，发现1-2两点能亮，说明内部（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "大",
         "difficulty": 2,
+        "explanation": "相同电池串联时，总电压通常是各节电池电压之和，因此比一节电池的电压大。",
         "knowledge_point": "电路连接方式",
-        "question": "两节电池串联起来后的电压比一节电池（ ）。",
         "options": [
           "小",
           "大",
           "一样",
           "不确定"
         ],
-        "answer": "大",
-        "explanation": "电池串联总电压等于各电池电压之和。"
+        "question": "两节相同的电池串联起来后的电压比一节电池（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "不导电",
         "difficulty": 2,
+        "explanation": "插头外部的塑料通常不容易导电，能隔开内部或插脚附近的带电部分，帮助保护使用者。",
         "knowledge_point": "导体应用",
-        "question": "插头外部一般用塑料包裹，因为它（ ）。",
         "options": [
           "轻便",
           "硬度高",
           "不导电",
           "耐磨"
         ],
-        "answer": "不导电",
-        "explanation": "绝缘体可以防止触电，保护使用者的安全。"
+        "question": "插头外部一般用塑料包裹，因为它（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "一直不亮",
         "difficulty": 3,
+        "explanation": "灯泡坏了，检测器就不能正常发光，因此检测导线时灯泡不会亮。",
         "knowledge_point": "故障逻辑排查",
-        "question": "如果电路检测器的灯泡坏了，它检测导线时（ ）。",
         "options": [
           "一直发光",
           "一直不亮",
           "有时亮",
           "炸裂"
         ],
-        "answer": "一直不亮",
-        "explanation": "检测器本身如果有故障，则无法完成检测任务。"
+        "question": "如果电路检测器的灯泡坏了，它检测导线时（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "木块",
         "difficulty": 1,
+        "explanation": "开关底座需要与导电部分隔开，木块在干燥时不容易导电，适合作为课堂简易开关的绝缘底座。",
         "knowledge_point": "开关材料",
-        "question": "制作开关的底座部分应选用（ ）。",
         "options": [
           "铜片",
           "铁片",
           "铝片",
           "木块"
         ],
-        "answer": "木块",
-        "explanation": "开关底座需要绝缘材料防止电流流失。"
+        "question": "制作开关的底座部分应选用（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "电池结构",
-        "question": "普通干电池通常有（ ）个连接点。",
-        "options": [],
         "answer": "2",
-        "explanation": "电池包含正极和负极两个连接点。"
-      },
-      {
-        "id": 20,
+        "difficulty": 1,
+        "explanation": "普通干电池有正极和负极两个连接点。",
+        "knowledge_point": "电池结构",
+        "options": [],
+        "question": "普通干电池通常有（ ）个连接点。",
+        "score": 5,
         "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "隐蔽连接",
-        "question": "一个具有4个接线柱的接线盒，最多可以产生（ ）组不同的检测组合。",
-        "options": [],
+        "id": 19
+      },
+      {
         "answer": "6",
-        "explanation": "组合数学：1-2, 1-3, 1-4, 2-3, 2-4, 3-4 共6组。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "电路连接状态",
-        "question": "电流从正极出发流向负极，形成一个闭合的路径叫（ ）。",
-        "options": [],
-        "answer": "通路",
-        "explanation": "形成闭合环路的电路状态称为通路。"
-      },
-      {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "导体定义",
-        "question": "容易让电流通过的物体被称作（ ）。",
-        "options": [],
-        "answer": "导体",
-        "explanation": "科学术语定义的导体。"
-      },
-      {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "电路故障类型",
-        "question": "电路中导线没连好导致的断开现象称为（ ）。",
+        "explanation": "4个接线柱两两组合，组合数为4×3÷2＝6。分别是1—2、1—3、1—4、2—3、2—4、3—4。同一对不因交换顺序而重复计算。",
+        "knowledge_point": "隐蔽连接",
         "options": [],
+        "question": "一个具有4个接线柱的接线盒，最多可以产生（ ）组不同的检测组合。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
+      },
+      {
+        "answer": "通路",
+        "difficulty": 1,
+        "explanation": "电流能够沿着闭合的电路路径流动，这种状态叫通路。",
+        "knowledge_point": "电路连接状态",
+        "options": [],
+        "question": "电流从正极出发流向负极，形成一个闭合的路径叫（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
+      },
+      {
+        "answer": "导体",
+        "difficulty": 1,
+        "explanation": "容易让电流通过的物体叫作导体。",
+        "knowledge_point": "导体定义",
+        "options": [],
+        "question": "容易让电流通过的物体被称作（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
         "answer": "断路",
-        "explanation": "电路断开且电流无法通过的状态叫断路。"
+        "difficulty": 2,
+        "explanation": "电路某处断开，电流不能通过，这种现象叫断路。",
+        "knowledge_point": "电路故障类型",
+        "options": [],
+        "question": "电路中导线没连好导致的断开现象称为（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "电池、导线和灯泡要连接成完整的回路，电流才能通过灯泡。只有把材料放在一起而没有连成回路，灯泡不会亮。",
+        "knowledge_point": "闭合电路的形成与控制",
+        "options": [
+          "把电池和灯泡放在桌上",
+          "用导线把电池和灯泡连接成完整回路",
+          "只用一根导线接触灯泡"
+        ],
+        "question": "要让小灯泡亮起来，最重要的是：",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "闭合的开关能让电路接通，使电流可以通过；断开的开关会使电路中断。",
+        "knowledge_point": "闭合电路的形成与控制",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "开关闭合时，电路接通；开关断开时，电路中断。",
+        "score": 1,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "闭合",
+        "difficulty": 1,
+        "explanation": "电路各部分连接完整、没有断开的地方，形成了完整回路，这样的电路叫闭合电路。",
+        "knowledge_point": "闭合电路的形成与控制",
+        "options": [],
+        "question": "电路连接完整、形成完整回路时，叫作______电路。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "不能",
+        "difficulty": 2,
+        "explanation": "开关断开会让电路出现断开的地方，电路不再闭合，电流无法通过灯泡，因此灯泡不能正常发光。",
+        "knowledge_point": "闭合电路的形成与控制",
+        "options": [],
+        "question": "电路中的开关断开后，小灯泡还能正常发光吗？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "电池、导线、小灯泡、开关",
+        "difficulty": 2,
+        "explanation": "这些是组成简单电路的常见元件。它们要正确连接成完整回路，开关才能控制小灯泡的亮灭。",
+        "knowledge_point": "闭合电路的形成与控制",
+        "options": [],
+        "question": "写出组成一个可控制小灯泡亮灭的简单电路所需的四种元件。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "合上开关，电路闭合，小灯泡发光；打开开关，电路断开，小灯泡熄灭。",
+        "difficulty": 2,
+        "explanation": "开关能改变电路的通断状态。闭合时形成完整回路，电流可以通过；断开时回路中断，电流不能通过。",
+        "knowledge_point": "闭合电路的形成与控制",
+        "options": [],
+        "question": "小明用电池、导线、开关和小灯泡组成一个电路。请说明合上开关和打开开关时，电路及小灯泡会发生什么变化。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "电路中有断开的地方时，回路不完整，电流无法连续通过，所以小灯泡不亮。",
+        "knowledge_point": "电路故障的检测与排除",
+        "options": [
+          "电路形成了完整回路",
+          "电路有断开的地方",
+          "开关已经闭合",
+          "电池装得很牢"
+        ],
+        "question": "小灯泡不亮时，最可能的原因之一是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "开关断开会使电路中断，电流不能形成完整回路，小灯泡通常不会发光。",
+        "knowledge_point": "电路故障的检测与排除",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "开关断开时，简单电路中的小灯泡通常不会发光。",
+        "score": 1,
+        "type": "true_false",
+        "id": 31
+      },
+      {
+        "answer": "灯泡",
+        "difficulty": 1,
+        "explanation": "灯泡是电路中的用电器。若灯泡损坏，即使电池和导线连接正常，电路也可能无法使它发光。",
+        "knowledge_point": "电路故障的检测与排除",
+        "options": [],
+        "question": "检查电路故障时，可以用一个确认完好的____替换原来的小灯泡，看看灯泡是否发光。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "检查开关是否闭合、导线是否接牢、电池是否装好且有电、灯泡是否完好；每次只检查或更换一个部件。",
+        "difficulty": 2,
+        "explanation": "逐项检查并一次只改变一个条件，可以根据灯泡是否恢复发光来判断故障所在，避免同时改变多处而无法确定原因。",
+        "knowledge_point": "电路故障的检测与排除",
+        "options": [],
+        "question": "小灯泡不亮了，请写出两种安全、合理的检查方法。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "小灯泡不亮，因为开关断开，电路没有形成完整回路。把开关闭合后再观察。",
+        "difficulty": 2,
+        "explanation": "导线连接正确、电池有电且灯泡完好，但开关断开会使电路中断。闭合开关可以接通回路。",
+        "knowledge_point": "电路故障的检测与排除",
+        "options": [],
+        "question": "一个电路中，电池有电、灯泡完好、导线连接牢固，但小灯泡不亮。检查发现开关处于断开状态。请说明原因和解决办法。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "不要这样做。导线直接连接电池两端会造成短路，可能使导线或电池发热。",
+        "difficulty": 2,
+        "explanation": "排查电路应检查部件和连接情况，不能用导线直接连通电池正负两端。家庭插座电压更高，也不能用这种方法检查。",
+        "knowledge_point": "电路故障的检测与排除",
+        "options": [],
+        "question": "为了检查电池是否有电，小明打算用一根导线直接连接电池的两端。这样做安全吗？为什么？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "地面湿可能与下雨有关，但也可能是洒水造成的。看到湿地面只能提出推测，不能直接确定下过雨。",
+        "knowledge_point": "隐蔽连接的逻辑推测",
+        "options": [
+          "地面一定是被雨淋湿的",
+          "地面可能被雨淋湿，也可能有其他原因",
+          "有人一定刚刚洒了水",
+          "地面不可能是雨淋湿的"
+        ],
+        "question": "小明早上看到操场地面是湿的。他怎样推测最合理？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "两件事同时发生只是线索，不足以证明其中一件导致了另一件。还需要进一步收集证据。",
+        "knowledge_point": "隐蔽连接的逻辑推测",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "如果小草枯黄时天气也很热，就能确定小草一定是被高温晒枯的。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "脚印",
+        "difficulty": 1,
+        "explanation": "脚印可能帮助推测有人经过，但还需要观察脚印的新旧、方向等线索；只凭脚印不能确定是谁留下的。",
+        "knowledge_point": "隐蔽连接的逻辑推测",
+        "options": [],
+        "question": "小路边有一串通向花坛的鞋印。根据这条线索，可以推测有人曾经从小路走向花坛。这里的关键线索是________。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "小杰可能先打开了窗户，风把纸吹到了地上；也可能是有人碰到了桌子，纸滑落下来。",
+        "difficulty": 2,
+        "explanation": "纸落到地上说明它离开了桌面，但原因不止一种。提出多个可能解释，并寻找窗户、风或桌面被碰动等证据，推测会更可靠。",
+        "knowledge_point": "隐蔽连接的逻辑推测",
+        "options": [],
+        "question": "桌上的纸不见了，后来在地上发现了它。写出两种可能的原因。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "叶片被咬缺口是直接线索，但不能单独证明是毛毛虫造成的。检查叶片附近是否有毛毛虫或虫粪，可以增加证据。",
+        "knowledge_point": "隐蔽连接的逻辑推测",
+        "options": [
+          "看到叶片有咬痕，就确定是毛毛虫吃的",
+          "观察叶片附近是否有毛毛虫或虫粪",
+          "因为花盆是绿色的，就确定是毛毛虫吃的",
+          "不看其他线索，直接下结论"
+        ],
+        "question": "小华发现菜叶有缺口，猜测可能是毛毛虫咬的。哪项做法最能帮助检验这个推测？",
+        "score": 2,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "小林可能给植物浇了水，水从花盆底部流到托盘里；也可能有人刚刚给它浇过水。托盘里有水是线索，但不能单独确定是谁或什么时候浇的。",
+        "difficulty": 2,
+        "explanation": "托盘积水与浇水可能有关，但也可能是别人浇的，或有其他水源。观察土壤湿度、询问照料者等证据，能帮助比较不同解释。",
+        "knowledge_point": "隐蔽连接的逻辑推测",
+        "options": [],
+        "question": "小林回家后发现植物托盘里有水。他猜想妈妈给植物浇过水。请说明这项推测为什么可能成立，以及还不能确定什么。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "A、B",
+        "difficulty": 1,
+        "explanation": "铜和铁都是金属，通常容易导电，属于导体；干燥的塑料不容易导电，属于绝缘体。",
+        "knowledge_point": "导体与绝缘体的辨析及安全用电",
+        "options": [
+          "A. 铜丝",
+          "B. 铁钉",
+          "C. 干燥塑料尺"
+        ],
+        "question": "下面哪些物品通常是导体？（多选）",
+        "score": 2,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "电线外面的塑料皮通常是绝缘体，不容易让电流通过，可以帮助隔开里面的金属导线。",
+        "knowledge_point": "导体与绝缘体的辨析及安全用电",
+        "options": [],
+        "question": "电线外面的塑料皮是导体，主要作用是把电流传到我们手上。（判断）",
+        "score": 1,
+        "type": "true_false",
+        "id": 43
+      },
+      {
+        "answer": "导体",
+        "difficulty": 1,
+        "explanation": "容易让电流通过的材料叫导体。常见金属，如铜、铝和铁，通常都是导体。",
+        "knowledge_point": "导体与绝缘体的辨析及安全用电",
+        "options": [],
+        "question": "容易让电流通过的材料叫________。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 44
+      },
+      {
+        "answer": "绝缘体",
+        "difficulty": 2,
+        "explanation": "干燥的橡胶不容易让电流通过，常用于电线外皮或插头外壳，属于绝缘体。",
+        "knowledge_point": "导体与绝缘体的辨析及安全用电",
+        "options": [],
+        "question": "干燥的橡胶通常不容易让电流通过，属于________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "湿手接触电器有触电危险。操作电器前应擦干双手；如果发现电器或电线破损，应远离并告知成人处理。",
+        "knowledge_point": "导体与绝缘体的辨析及安全用电",
+        "options": [
+          "A. 用湿手拔插头",
+          "B. 擦干双手后再操作电器",
+          "C. 用铁丝插入插座"
+        ],
+        "question": "下面哪种做法比较安全？",
+        "score": 2,
+        "type": "choice",
+        "id": 46
+      },
+      {
+        "answer": "因为金属芯是导体，能传导电流；塑料或橡胶外皮通常是绝缘体，可以把金属芯与人体隔开，帮助降低触电风险。",
+        "difficulty": 3,
+        "explanation": "电线利用了导体和绝缘体的不同特点：金属芯负责导电，外层绝缘材料帮助防止人直接接触导电部分。但电线破损时仍有危险，应远离并告知成人。",
+        "knowledge_point": "导体与绝缘体的辨析及安全用电",
+        "options": [],
+        "question": "电线为什么通常用金属作芯、用塑料或橡胶作外皮？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "湿手容易导电，触碰电器或开关可能增加触电危险。应先擦干双手，并遵守大人的指导。",
+        "knowledge_point": "安全用电",
+        "options": [
+          "A. 用湿手拔插头",
+          "B. 擦干手后再接触电器",
+          "C. 把金属物插进插座"
+        ],
+        "question": "下面哪种做法比较安全？",
+        "score": 2,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "插座",
+        "difficulty": 1,
+        "explanation": "插座可能带电，不能把手指或任何物品伸进去。",
+        "knowledge_point": "安全用电",
+        "options": [],
+        "question": "不能把手指或物品伸进________里。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 49
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "电线破损可能使人接触到带电部分，应远离并告诉大人，不能自行触碰或修理。",
+        "knowledge_point": "安全用电",
+        "options": [],
+        "question": "发现电线外皮破损时，应远离并告诉大人，不要自己触碰或修理。",
+        "score": 2,
+        "type": "true_false",
+        "id": 50
+      },
+      {
+        "answer": "立刻告诉大人，并远离电器；不要触碰或自行修理。",
+        "difficulty": 2,
+        "explanation": "电器冒烟可能表示出现故障，继续使用会有触电或起火危险。应远离并及时请大人处理。",
+        "knowledge_point": "安全用电",
+        "options": [],
+        "question": "看到家里的电器冒烟了，你应该怎么做？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "先呼救，让大人切断电源；在确认断电前，不要直接用手拉触电者。",
+        "difficulty": 3,
+        "explanation": "触电者可能仍与电源相连，直接用手拉可能导致救助者也触电。应立即呼救，由大人切断电源并处理。",
+        "knowledge_point": "安全用电",
+        "options": [],
+        "question": "如果有人触电，为什么不能直接用手拉他？应该怎样做？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "电池、导线、用电器",
+        "difficulty": 1,
+        "explanation": "电池提供电能，导线连接各部分，用电器利用电能；它们连接成完整通路后，才能形成闭合电路。",
+        "knowledge_point": "闭合电路的形成",
+        "options": [],
+        "question": "一个简单电路通常由电池、导线和____组成。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "灯泡的两个连接点分别与电池的两端相连，电流才能经过灯泡后回到电池，形成完整通路。",
+        "knowledge_point": "闭合电路的形成",
+        "options": [
+          "A. 导线只连接电池的一端和灯泡的一处",
+          "B. 灯泡的两个连接点分别连接电池的两端",
+          "C. 导线直接连接电池的两端，不经过灯泡",
+          "D. 开关断开，导线连接其余部分"
+        ],
+        "question": "下面哪种连接方式能使灯泡所在的电路形成闭合通路？",
+        "score": 2,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "开关断开会使电路中断，电流不能持续通过灯泡，灯泡通常不会亮。",
+        "knowledge_point": "闭合电路的形成",
+        "options": [],
+        "question": "电路中的开关断开时，电流仍能顺利通过灯泡。",
+        "score": 2,
+        "type": "true_false",
+        "id": 55
+      },
+      {
+        "answer": "中断",
+        "difficulty": 2,
+        "explanation": "导线脱落会让电流通路不完整，电路不再闭合，因此小灯泡通常不能正常发光。",
+        "knowledge_point": "闭合电路的形成",
+        "options": [],
+        "question": "如果连接灯泡的一根导线脱落，电路通路就会____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 56
+      },
+      {
+        "answer": "把开关合上（闭合），让电路形成完整通路。",
+        "difficulty": 2,
+        "explanation": "开关闭合后，原来断开的部分接通，电池、导线和灯泡构成完整通路，灯泡才可能发光。",
+        "knowledge_point": "闭合电路的形成",
+        "options": [],
+        "question": "一个电路连接完整，但小灯泡不亮，检查后发现开关处于断开状态。要让电路接通，应怎样做？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 57
+      },
+      {
+        "answer": "先检查电路连接是否松动，再逐个检查电池、灯泡和导线。",
+        "difficulty": 2,
+        "explanation": "按从易到难的顺序逐项排查，有助于较快找到故障。每次检查一个可能原因，避免遗漏。",
+        "knowledge_point": "电路故障检测",
+        "options": [],
+        "question": "小灯泡不亮了，请写出一种合理的故障排查顺序。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "亮",
+        "difficulty": 2,
+        "explanation": "检测器正常且连接良好时，被检测的元件能够导电，检测器中的小灯泡就会亮。",
+        "knowledge_point": "电路故障检测",
+        "options": [],
+        "question": "用正常的电路检测器检测一根完好的导线，检测器中的小灯泡会（ ）。",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 59
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "检测具体元件前，应先确认检测器本身可以正常工作，否则无法判断元件是否有故障。",
+        "knowledge_point": "电路故障检测",
+        "options": [],
+        "question": "检测电路元件前，先用检测器自身的两端接触，确认小灯泡能亮。",
+        "score": 2,
+        "type": "true_false",
+        "id": 60
+      },
+      {
+        "answer": "B",
+        "difficulty": 3,
+        "explanation": "不能只凭小灯泡不亮就断定元件损坏。先检查检测器是否正常、接触是否良好，再重新检测元件。",
+        "knowledge_point": "电路故障检测",
+        "options": [
+          "A. 立即认定电池坏了",
+          "B. 检查检测器是否正常、接触是否良好，再重新检测",
+          "C. 把检测器接到家用插座上试一试",
+          "D. 直接拆开家用电器检查"
+        ],
+        "question": "用电路检测器检测一根导线时，小灯泡不亮。较合适的做法是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "导体",
+        "difficulty": 1,
+        "explanation": "容易导电的物体叫导体，许多金属都容易导电。",
+        "knowledge_point": "导体与绝缘体",
+        "options": [],
+        "question": "容易导电的物体叫作什么？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 62
+      },
+      {
+        "answer": "橡胶",
+        "difficulty": 1,
+        "explanation": "干燥的橡胶不容易导电，常用来包裹电线，帮助保护人们免受触电伤害。",
+        "knowledge_point": "导体与绝缘体",
+        "options": [
+          "铜片",
+          "铁钉",
+          "橡胶",
+          "铝箔"
+        ],
+        "question": "下面哪种物体通常是绝缘体？",
+        "score": 2,
+        "type": "choice",
+        "id": 63
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "铅笔芯的主要成分是石墨，石墨能导电，因此铅笔芯属于导体。",
+        "knowledge_point": "导体与绝缘体",
+        "options": [],
+        "question": "铅笔芯通常能导电，属于导体。",
+        "score": 2,
+        "type": "true_false",
+        "id": 64
+      },
+      {
+        "answer": "塑料",
+        "difficulty": 2,
+        "explanation": "电线外面的塑料外皮不容易导电，能减少人接触内部金属导线的机会。",
+        "knowledge_point": "导体与绝缘体",
+        "options": [],
+        "question": "电线外面常包着一层塑料，主要是利用塑料的什么性质？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 65
+      },
+      {
+        "answer": "干燥的木片",
+        "difficulty": 2,
+        "explanation": "铜片、铁钉和铝箔都是金属，通常容易导电；干燥的木片通常不容易导电，属于绝缘体。",
+        "knowledge_point": "导体与绝缘体",
+        "options": [
+          "铜片",
+          "铁钉",
+          "干燥的木片",
+          "铝箔"
+        ],
+        "question": "用安全的低电压电路做实验时，下面哪种材料通常不容易导电？",
+        "score": 2,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "串联",
+        "difficulty": 1,
+        "explanation": "串联电路中的元件首尾相接，电流只有一条通路。",
+        "knowledge_point": "电路连接方式",
+        "options": [],
+        "question": "把电池、导线和灯泡首尾相接，形成一条通路，这种连接方式叫作（　　）。",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 67
+      },
+      {
+        "answer": "并联",
+        "difficulty": 1,
+        "explanation": "并联电路的用电器分别连接在共同的两点之间，电流可以通过不同支路。",
+        "knowledge_point": "电路连接方式",
+        "options": [],
+        "question": "两个灯泡分别连接在电路中的两条支路上，这种连接方式叫作（　　）。",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 68
+      },
+      {
+        "answer": "串联",
+        "difficulty": 2,
+        "explanation": "串联电路只有一条通路，其中一个灯泡断开后，整个电路的通路被切断，另一个灯泡也不能发光。",
+        "knowledge_point": "电路连接方式",
+        "options": [
+          "串联",
+          "并联"
+        ],
+        "question": "两个灯泡接在同一条通路上，一个灯泡断开后另一个也不亮。这两个灯泡的连接方式最可能是（　　）。",
+        "score": 4,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "并联",
+        "difficulty": 2,
+        "explanation": "并联电路有多条支路，一个支路断开时，其他支路仍可能形成完整通路。",
+        "knowledge_point": "电路连接方式",
+        "options": [
+          "串联",
+          "并联"
+        ],
+        "question": "家中多个用电器通常采用哪种连接方式，这样一个用电器关闭时其他用电器通常仍能工作？",
+        "score": 4,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "玻璃泡",
+        "difficulty": 1,
+        "explanation": "玻璃泡包在灯泡外部，主要作用是保护灯丝和内部结构。",
+        "knowledge_point": "灯泡结构",
+        "options": [
+          "灯丝",
+          "玻璃泡",
+          "金属架",
+          "连接点"
+        ],
+        "question": "小灯泡外面的透明部分叫（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "金属架",
+        "difficulty": 2,
+        "explanation": "金属架连接灯泡底部的连接点和灯丝，并支撑灯丝。",
+        "knowledge_point": "灯泡结构",
+        "options": [
+          "金属架",
+          "玻璃泡",
+          "灯丝",
+          "玻璃罩"
+        ],
+        "question": "小灯泡内部支撑灯丝并帮助连接电路的部分是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "灯丝是小灯泡中通电后发光的部分。",
+        "knowledge_point": "灯泡结构",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "小灯泡的灯丝通电后可以发光。",
+        "score": 5,
+        "type": "true_false",
+        "id": 73
+      },
+      {
+        "answer": "两个",
+        "difficulty": 2,
+        "explanation": "灯泡底部有两个连接点，分别接触电路的不同部分，才能使电流经过灯泡形成通路。",
+        "knowledge_point": "灯泡结构",
+        "options": [],
+        "question": "小灯泡底部有（ ）个连接点。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 74
+      },
+      {
+        "answer": "灯丝",
+        "difficulty": 2,
+        "explanation": "完整的电流通路经过灯丝，灯丝才能发光。若连接不完整，电流无法通过灯泡。",
+        "knowledge_point": "灯泡结构",
+        "options": [],
+        "question": "小灯泡接入完整电路后，电流经过的发光部分是（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 75
+      },
+      {
+        "answer": "电池",
+        "difficulty": 1,
+        "explanation": "电池是电源，能为电路提供电能；开关负责控制通断。",
+        "knowledge_point": "电路组件作用",
+        "options": [
+          "电池",
+          "导线",
+          "开关",
+          "灯泡"
+        ],
+        "question": "简单电路中，通常负责提供电能的元件是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "导线",
+        "difficulty": 1,
+        "explanation": "导线把电池、开关和灯泡等元件连接起来，形成电流通路。",
+        "knowledge_point": "电路组件作用",
+        "options": [
+          "灯泡",
+          "导线",
+          "开关",
+          "灯座"
+        ],
+        "question": "电路中负责连接各个元件的通常是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "用电器",
+        "difficulty": 2,
+        "explanation": "灯泡是用电器，它使用电能并发光；电池提供电能。",
+        "knowledge_point": "电路组件作用",
+        "options": [
+          "电源",
+          "用电器",
+          "开关",
+          "导线"
+        ],
+        "question": "电路中的灯泡属于（ ），它通电后可以发光。",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "开关闭合时，电路接通；开关断开时，电路中断。",
+        "knowledge_point": "电路组件作用",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "开关可以控制电路的通断。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 79
+      },
+      {
+        "answer": "电池（或电源）",
+        "difficulty": 2,
+        "explanation": "电池是电源，负责提供电能；导线负责连接，开关负责控制通断。",
+        "knowledge_point": "电路组件作用",
+        "options": [],
+        "question": "电路中，负责提供电能的元件是________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 80
+      },
+      {
+        "answer": "太阳",
+        "difficulty": 1,
+        "explanation": "植物能利用太阳的光和热生长，因此太阳是植物重要的能量来源。",
+        "knowledge_point": "能量来源",
+        "options": [
+          "太阳",
+          "石头",
+          "玻璃",
+          "沙子"
+        ],
+        "question": "植物生长所需的一种重要能量来源是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "食物",
+        "difficulty": 1,
+        "explanation": "人体活动需要能量，食物能为人体提供能量。",
+        "knowledge_point": "能量来源",
+        "options": [
+          "食物",
+          "影子",
+          "空气中的声音",
+          "水杯"
+        ],
+        "question": "人走路、跑步时，身体获得能量的主要来源是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "电风扇工作时使用电能，通常从电池或电网获得电能；电风扇本身不是电能的来源。",
+        "knowledge_point": "能量来源",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "电风扇工作所需的电能来自电池或电网，而不是电风扇自己产生的。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 83
+      },
+      {
+        "answer": "燃料",
+        "difficulty": 2,
+        "explanation": "煤、天然气和木材等燃料燃烧时能释放能量，可用于加热或做饭。",
+        "knowledge_point": "能量来源",
+        "options": [],
+        "question": "煤、天然气和木材等燃烧时能够提供能量，它们属于________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 84
+      },
+      {
+        "answer": "太阳能",
+        "difficulty": 2,
+        "explanation": "太阳提供的光和热可以被利用，这种来自太阳的能量称为太阳能。",
+        "knowledge_point": "能量来源",
+        "options": [],
+        "question": "来自太阳的能量称为________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 85
+      },
+      {
+        "answer": "导体",
+        "difficulty": 1,
+        "explanation": "容易导电的物体叫导体。",
+        "knowledge_point": "导体与绝缘体辨析",
+        "options": [],
+        "question": "容易导电的物体叫作____。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 86
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "铅笔芯主要含有石墨，石墨能够导电，所以铅笔芯不是绝缘体。",
+        "knowledge_point": "导体与绝缘体辨析",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "铅笔芯不容易导电，属于绝缘体。（  ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 87
+      },
+      {
+        "answer": "橡胶",
+        "difficulty": 1,
+        "explanation": "干燥的橡胶不容易导电，通常用作电线外皮等绝缘材料。",
+        "knowledge_point": "导体与绝缘体辨析",
+        "options": [],
+        "question": "电线外皮常用____制成，因为它不容易导电。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 88
+      },
+      {
+        "answer": "塑料尺",
+        "difficulty": 2,
+        "explanation": "塑料通常不容易导电，属于绝缘体；铜属于导体。",
+        "knowledge_point": "导体与绝缘体辨析",
+        "options": [
+          "铜丝",
+          "塑料尺",
+          "铁钉",
+          "铝片"
+        ],
+        "question": "下列物体中，通常属于绝缘体的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "干木片是绝缘体，铜片是导体。",
+        "difficulty": 2,
+        "explanation": "干燥木材不容易导电，铜是金属，容易导电。判断时要看材料本身，而不是物体的大小或形状。",
+        "knowledge_point": "导体与绝缘体辨析",
+        "options": [],
+        "question": "比较干木片和铜片的导电性，分别说出它们属于导体还是绝缘体。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 90
+      },
+      {
+        "answer": "闭合",
+        "difficulty": 1,
+        "explanation": "电流需要沿着连续、完整的通路流动。电路断开时，灯泡通常不会亮。",
+        "knowledge_point": "简单电路构建",
+        "options": [],
+        "question": "电路连接成（　　）回路时，灯泡才能发光。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 91
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "电池的两极需要通过导线分别连接到灯泡的两个连接点，构成闭合回路。",
+        "knowledge_point": "简单电路构建",
+        "options": [],
+        "question": "判断：把电池的两极分别用导线连接到灯泡的两个连接点，可能组成让灯泡发亮的电路。",
+        "score": 5,
+        "type": "true_false",
+        "id": 92
+      },
+      {
+        "answer": "导线",
+        "difficulty": 2,
+        "explanation": "导线把电池和灯泡连接起来，形成电流通过的通路。",
+        "knowledge_point": "简单电路构建",
+        "options": [],
+        "question": "在简单电路中，连接电池和灯泡、形成电流通路的材料是（　　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "灯泡不亮，电路没有形成闭合回路。可能有导线没有接牢，或连接位置不正确。",
+        "difficulty": 2,
+        "explanation": "电路有断开的地方时，电流不能形成完整通路。逐一检查导线两端和灯泡连接点，有助于找到断开处。",
+        "knowledge_point": "简单电路构建",
+        "options": [],
+        "question": "小明用电池、导线和灯泡搭好电路后，灯泡没有亮。请写出一种可能的原因，并说明应怎样检查。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 94
+      },
+      {
+        "answer": "不安全。不能用导线直接连接电池的两极，因为这可能造成短路。",
+        "difficulty": 2,
+        "explanation": "导线直接连接电池两极时，电流可能过大，造成电池发热或损坏。搭建电路时应在电路中连接用电器，并在成人指导下操作。",
+        "knowledge_point": "简单电路构建",
+        "options": [],
+        "question": "小刚想让电流更快通过，用一根导线直接连接电池的两极。这种做法安全吗？为什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 95
+      },
+      {
+        "answer": "能导电",
+        "difficulty": 1,
+        "explanation": "导体是容易让电流通过的物体，电路检测器亮起说明电流通过了待测物体。",
+        "knowledge_point": "导体导电性测试",
+        "options": [],
+        "question": "电路检测器接入一个待测物体后亮起，说明这个物体（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 96
+      },
+      {
+        "answer": "绝缘体",
+        "difficulty": 1,
+        "explanation": "在检测器连接正常、接触良好的情况下，检测器不亮说明电流不容易通过橡皮，因此橡皮是绝缘体。",
+        "knowledge_point": "导体导电性测试",
+        "options": [],
+        "question": "电路检测器工作正常，接入橡皮后不亮。橡皮通常属于（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 97
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "待测物体可能没有接触好，也可能是检测器电路连接松动。应先确认检测器正常、接触良好，再重复测试。",
+        "knowledge_point": "导体导电性测试",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "用电路检测器测试物体时，如果检测器没有亮起，应先检查连接并重复测试，再作判断。",
+        "score": 5,
+        "type": "true_false",
+        "id": 98
+      },
+      {
+        "answer": "先用检测器的两个检测头直接接触，确认检测器能亮；再把待测物体接入检测头之间，观察是否亮起。",
+        "difficulty": 3,
+        "explanation": "先检查检测器，能排除检测器本身的故障；再让待测物体接触两个检测头并观察现象。接触要可靠，若结果不确定可重复测试。",
+        "knowledge_point": "导体导电性测试",
+        "options": [],
+        "question": "简要写出用电路检测器测试一个物体是否导电的两个步骤。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "不可以",
+        "difficulty": 2,
+        "explanation": "家庭插座的电压很高，存在触电危险。小学导电性测试应使用电池和安全的电路检测器，不能用插座电源测试。",
+        "knowledge_point": "导体导电性测试",
+        "options": [],
+        "question": "为了测试金属勺是否导电，可以把它插进家庭插座吗？（填“可以”或“不可以”）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 100
+      },
+      {
+        "answer": "负极",
+        "difficulty": 1,
+        "explanation": "常见圆柱形干电池没有铜帽的一端是负极，通常标有“−”。",
+        "knowledge_point": "电池结构",
+        "options": [],
+        "question": "常见圆柱形干电池上，标有“−”的一端是（ ）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 101
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "电池的正极和负极是两个不同的连接点；“南极”和“北极”是地理或磁体相关说法，不是电池两极的名称。",
+        "knowledge_point": "电池结构",
+        "options": [
+          "只有正极",
+          "有正极和负极",
+          "只有负极",
+          "有南极和北极"
+        ],
+        "question": "普通干电池的两个连接点分别叫什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "闭合",
+        "difficulty": 2,
+        "explanation": "电池两极与用电器连接后形成闭合电路，电流才能通过电路，用电器才可能工作。",
+        "knowledge_point": "电池结构",
+        "options": [],
+        "question": "电池两极与导线、用电器连接成（ ）电路，用电器才能工作。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 103
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "电池的两极不能直接用导线连在一起，这会造成短路。连接用电器时，应让电流经过用电器，形成闭合回路。",
+        "knowledge_point": "电池结构",
+        "options": [],
+        "question": "判断：用导线把电池的正极和负极直接连在一起，是正确的电池使用方法。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 104
+      },
+      {
+        "answer": "通路",
+        "difficulty": 1,
+        "explanation": "电路检测器亮，说明电流能够通过被测的两点，检测到的是通路。",
+        "knowledge_point": "隐蔽连接推测",
+        "options": [],
+        "question": "电路检测器检测两点时亮起，说明这两点之间检测到了（　）。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "检测器不亮表示本次检测没有发现通路，但也要考虑接触不良或检测器故障，不能仅凭一次结果断定盒内绝对没有导线。",
+        "knowledge_point": "隐蔽连接推测",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "检测器不亮，就能确定接线盒内部没有任何导线连接。（　）",
+        "score": 3,
+        "type": "true_false",
+        "id": 106
+      },
+      {
+        "answer": "1-3两点之间可能有导线连接",
+        "difficulty": 2,
+        "explanation": "检测器在1-3两点间亮起，说明两点间检测到通路，因此可以推测它们之间可能有导线连接，但不能断定内部结构只有这一种可能。",
+        "knowledge_point": "隐蔽连接推测",
+        "options": [],
+        "question": "检测接线盒时，2-3两点不亮，1-3两点亮。根据结果，1和3两点之间可能怎样连接？",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "先确认检测器正常，再逐组检测接线柱、保证接触良好，并记录结果",
+        "difficulty": 3,
+        "explanation": "检测器本身要能正常工作，测量时要接触可靠，还应逐组检测并记录，避免把错误读数当成盒内的连接情况。",
+        "knowledge_point": "隐蔽连接推测",
+        "options": [],
+        "question": "用电路检测器推测接线盒内部连接时，开始检测前和检测过程中应注意什么？写出两点。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 108
+      },
+      {
+        "answer": "可能是1-2与3-4分别连接，也可能存在其他能产生相同检测结果的内部连接方式",
+        "difficulty": 4,
+        "explanation": "1-2和3-4分别亮，说明这两组端点各自检测到通路。检测只能提供外部现象，不能总是确定唯一的内部结构，所以应谨慎表述为“可能”。",
+        "knowledge_point": "隐蔽连接推测",
+        "options": [],
+        "question": "接线盒有4个接线柱。检测发现1-2能亮、3-4能亮，其他任意两点组合都不亮。写出一种可能的内部连接推测，并说明为什么不能说它一定是唯一答案。",
+        "score": 6,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "铜",
+        "difficulty": 1,
+        "explanation": "铜是容易导电的金属，常用作电线的金属芯来传输电流。",
+        "knowledge_point": "导体应用",
+        "options": [
+          "铜",
+          "橡胶",
+          "塑料",
+          "木头"
+        ],
+        "question": "电线内部常用哪种材料来传输电流？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 110
+      },
+      {
+        "answer": "金属插脚",
+        "difficulty": 2,
+        "explanation": "插头的金属插脚能与插座内的金属部分接触，使电路连接起来。",
+        "knowledge_point": "导体应用",
+        "options": [
+          "塑料外壳",
+          "金属插脚",
+          "橡胶护套",
+          "木质把手"
+        ],
+        "question": "插头上哪一部分利用导体的性质与插座接触？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 111
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "铜、铝等金属容易导电，常用于导线或其他输电部件。",
+        "knowledge_point": "导体应用",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "铜和铝常被用来制作导线，是因为它们容易导电。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 112
+      },
+      {
+        "answer": "绝缘体",
+        "difficulty": 2,
+        "explanation": "塑料通常不容易导电，属于绝缘材料；它常包裹导线外部，帮助减少触电危险。",
+        "knowledge_point": "导体应用",
+        "options": [],
+        "question": "电线外面常包着塑料。塑料通常不容易导电，属于________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 113
+      },
+      {
+        "answer": "导体",
+        "difficulty": 2,
+        "explanation": "导体容易让电流通过。电线里的金属芯正是利用这一性质来输送电流的。",
+        "knowledge_point": "导体应用",
+        "options": [],
+        "question": "容易导电的材料叫作________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 114
+      },
+      {
+        "answer": "先让检测器的两根检测导线金属头相互接触，观察灯泡是否发光。",
+        "difficulty": 2,
+        "explanation": "检测器自检可以帮助判断它本身是否能正常工作，避免把检测器故障误认为被测电路故障。",
+        "knowledge_point": "故障逻辑排查",
+        "options": [],
+        "question": "用电路检测器检查导线前，怎样先判断检测器本身是否正常？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "检测器不亮可能是检测器自身的灯泡、电池或连接处有问题，应先自检并检查检测器，再判断被测电路。",
+        "knowledge_point": "故障逻辑排查",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "用电路检测器检测某段导线时灯泡不亮，就能确定这段导线一定断了。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 116
+      },
+      {
+        "answer": "先检查检测器的电池、灯泡和连接处，再让检测器两端金属头接触自检；自检正常后，重新检查该导线。",
+        "difficulty": 3,
+        "explanation": "更换导线之前，应先排除检测器本身的故障。自检正常后若检测导线仍不亮，再根据检测结果判断导线是否有问题。",
+        "knowledge_point": "故障逻辑排查",
+        "options": [],
+        "question": "小明用检测器检查一根导线，灯泡不亮。他发现检测器两端接触时灯泡也不亮。此时应先做什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "灯泡可能接触不良，也可能已损坏；还应检查灯泡与电路的连接。",
+        "difficulty": 3,
+        "explanation": "检测器其他部分工作正常而更换灯泡后能发光，说明原灯泡或它的连接处可能有问题；仅凭现象不一定能区分灯泡损坏和接触不良。",
+        "knowledge_point": "故障逻辑排查",
+        "options": [],
+        "question": "检测器自检时灯泡不亮。检查电池和导线连接后，它们都正常；换上一只好灯泡后检测器能发光。原来最可能是什么地方出了问题？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "先断开电池盒的一端，使电路断开；不要直接用简易检测器检查连接电源的电路。",
+        "difficulty": 3,
+        "explanation": "检查前断开电源可以避免带电检测带来的危险，也能防止检测器或电路受到损坏。",
+        "knowledge_point": "故障逻辑排查",
+        "options": [],
+        "question": "检查一个由电池供电的电路前，为了安全，应先做什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "导体",
+        "difficulty": 1,
+        "explanation": "开关接通时，电流需要经过金属触点等导电部分，因此这些部分通常用导体制作。",
+        "knowledge_point": "开关材料",
+        "options": [],
+        "question": "开关中用来接通电路的金属触点属于（填“导体”或“绝缘体”）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "×",
+        "difficulty": 1,
+        "explanation": "开关的不同部分用途不同：金属触点要导电，底座和外壳通常要绝缘。",
+        "knowledge_point": "开关材料",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "开关的底座和金属触点都应该用容易导电的材料制作。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 121
+      },
+      {
+        "answer": "金属片和塑料",
+        "difficulty": 2,
+        "explanation": "金属片可以用作接通电路的导电部分，塑料通常用作底座或外壳的绝缘部分。",
+        "knowledge_point": "开关材料",
+        "options": [],
+        "question": "简易开关的接触部分可以选用________，外壳可以选用________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 122
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "开关的金属触点负责导电，塑料外壳能帮助隔开带电部分并保护使用者。",
+        "knowledge_point": "开关材料",
+        "options": [
+          "A. 金属触点和金属外壳",
+          "B. 金属触点和塑料外壳",
+          "C. 塑料触点和铜外壳",
+          "D. 木制触点和铁外壳"
+        ],
+        "question": "下列哪种材料搭配更适合制作开关？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 123
+      },
+      {
+        "answer": "不可以",
+        "difficulty": 2,
+        "explanation": "潮湿会使木材更容易导电，不能把潮湿木块当作可靠的绝缘材料。实际电器应采用合格的绝缘材料，并注意用电安全。",
+        "knowledge_point": "开关材料",
+        "options": [],
+        "question": "一块木头被水浸湿后，还能放心地当作开关的绝缘底座吗？（填“可以”或“不可以”）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "先检查电路检测器是否能正常工作，再逐对检测并记录结果。",
+        "difficulty": 1,
+        "explanation": "检测器本身正常，检测结果才有参考价值；逐对检测并记录可以避免遗漏或重复。",
+        "knowledge_point": "隐蔽连接",
+        "options": [],
+        "question": "检测接线盒内部的隐蔽连接前，应该先做什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "接线柱之间是否通路不能只凭外观判断，应使用电路检测器逐对检测。",
+        "knowledge_point": "隐蔽连接",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "接线盒外面看起来相邻的两个接线柱，里面一定连接在一起。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 126
+      },
+      {
+        "answer": "3",
+        "difficulty": 2,
+        "explanation": "3个接线柱两两组合为1—2、1—3、2—3，共3组；也可用3×2÷2＝3计算。",
+        "knowledge_point": "隐蔽连接",
+        "options": [],
+        "question": "一个接线盒有3个接线柱。要把每一对接线柱都检测一次，需要检测（ ）组。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 127
+      },
+      {
+        "answer": "小灯泡发亮，说明这两个接线柱之间形成了通路；小灯泡不亮，说明这次检测没有测到通路。",
+        "difficulty": 2,
+        "explanation": "电流能通过连接在检测器两端的接线柱时，小灯泡会发亮。若不亮，可能是这两个接线柱之间不通，也应确认检测器和接触是否正常。",
+        "knowledge_point": "隐蔽连接",
+        "options": [],
+        "question": "用正常的电路检测器检测一对接线柱时，小灯泡发亮通常说明什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "依次检测1—2、1—3、1—4、2—3、2—4、3—4。",
+        "difficulty": 3,
+        "explanation": "先从接线柱1开始，分别与2、3、4检测；再检测2与3、2与4；最后检测3与4。这样每一对都检测一次，没有漏测或重复。",
+        "knowledge_point": "隐蔽连接",
+        "options": [],
+        "question": "有编号为1、2、3、4的4个接线柱。请写出一种不遗漏、不重复的逐对检测顺序。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "断路",
+        "difficulty": 1,
+        "explanation": "开关断开会使电路路径中断，电流无法通过，这种状态叫断路。",
+        "knowledge_point": "电路连接状态",
+        "options": [],
+        "question": "电路中有一处连接断开，电流不能通过，这种状态叫（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "通路",
+        "difficulty": 1,
+        "explanation": "开关闭合后，如果电路连接完整并形成闭合回路，电流就能通过，用电器可以工作。",
+        "knowledge_point": "电路连接状态",
+        "options": [
+          "通路",
+          "断路",
+          "短路"
+        ],
+        "question": "电池、导线、开关和小灯泡连接完整，开关闭合后，小灯泡发亮。此时电路处于哪种状态？",
+        "score": 5,
+        "type": "choice",
+        "id": 131
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "开关断开会使电路中断，形成断路，电流不能持续通过小灯泡。",
+        "knowledge_point": "电路连接状态",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断：开关断开时，电路仍是闭合的通路，小灯泡可以正常发亮。",
+        "score": 5,
+        "type": "true_false",
+        "id": 132
+      },
+      {
+        "answer": "短路",
+        "difficulty": 2,
+        "explanation": "导线直接连接电池两极，电流绕过小灯泡，形成短路。短路可能使导线或电池发热，实验时应避免。",
+        "knowledge_point": "电路连接状态",
+        "options": [],
+        "question": "用一根导线直接连接电池的正、负极，使电流绕过小灯泡，这种状态叫（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 133
+      },
+      {
+        "answer": "断路；检查开关是否断开或导线是否松脱，并在电池、导线和小灯泡正确连接后闭合开关。",
+        "difficulty": 2,
+        "explanation": "小灯泡不亮可能是回路不完整造成的断路。检查开关和导线连接，修复后形成闭合回路，灯泡才可能发亮。",
+        "knowledge_point": "电路连接状态",
+        "options": [],
+        "question": "小灯泡不亮，检查后发现一根导线没有接好。此时电路是什么状态？怎样调整才能让小灯泡有机会发亮？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 134
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "铜是金属，容易让电流通过，属于导体。",
+        "knowledge_point": "导体定义",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "铜线是导体。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 135
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "橡胶通常不容易让电流通过，是绝缘体。",
+        "knowledge_point": "导体定义",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "橡胶通常容易让电流通过，所以它是导体。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 136
+      },
+      {
+        "answer": "导体",
+        "difficulty": 2,
+        "explanation": "石墨能够让电流通过，因此属于导体。",
+        "knowledge_point": "导体定义",
+        "options": [],
+        "question": "石墨虽然不是金属，但也能导电，属于（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "金属通常容易让电流通过，是常见的导体；塑料和橡胶通常是绝缘体。",
+        "knowledge_point": "导体定义",
+        "options": [
+          "A. 塑料尺",
+          "B. 铝片",
+          "C. 橡皮擦"
+        ],
+        "question": "下面哪种物体通常是导体？",
+        "score": 5,
+        "type": "choice",
+        "id": 138
+      },
+      {
+        "answer": "小灯泡亮了，说明钥匙能让电流通过，钥匙是导体。",
+        "difficulty": 2,
+        "explanation": "在电路中接入钥匙后小灯泡亮了，说明钥匙所在部分能够让电流通过，因此钥匙属于导体。实验应使用安全的低压电路。",
+        "knowledge_point": "导体定义",
+        "options": [],
+        "question": "把一把金属钥匙接入安全的低压电路后，小灯泡亮了。这个现象说明什么？钥匙属于哪一类物体？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 139
+      },
+      {
+        "answer": "断路",
+        "difficulty": 1,
+        "explanation": "开关没有接通时，电路通路被切断，电流不能通过，灯泡不会亮。",
+        "knowledge_point": "电路故障类型",
+        "options": [],
+        "question": "开关处于断开状态，灯泡不亮，这时电路属于（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 140
+      },
+      {
+        "answer": "短路",
+        "difficulty": 2,
+        "explanation": "导线直接连接电池两端，电流没有经过灯泡，形成短路。不要这样连接，短路可能使电池和导线发热。",
+        "knowledge_point": "电路故障类型",
+        "options": [],
+        "question": "用一根导线直接连接电池的两端，可能造成（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 141
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "导线连接松脱会使电路不完整，电流无法通过，属于断路。",
+        "knowledge_point": "电路故障类型",
+        "options": [
+          "A. 短路",
+          "B. 断路",
+          "C. 电路正常",
+          "D. 电池充满电"
+        ],
+        "question": "电路中的一根导线脱落后，灯泡不亮。最可能发生了哪种故障？",
+        "score": 5,
+        "type": "choice",
+        "id": 142
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "灯泡不亮不一定是灯泡损坏，也可能是电池没电、开关未接通或导线连接不良等原因造成的。",
+        "knowledge_point": "电路故障类型",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "灯泡不亮，就一定是灯泡坏了。",
+        "score": 5,
+        "type": "true_false",
+        "id": 143
+      },
+      {
+        "answer": "检查连接是否牢固，再逐一检查电池、开关和灯泡。",
+        "difficulty": 3,
+        "explanation": "排查时应有顺序地检查电路各部分，逐一寻找原因，不要把导线直接接到电池两端。",
+        "knowledge_point": "电路故障类型",
+        "options": [],
+        "question": "一个简单电路中的灯泡不亮。写出一种安全的排查方法。（ ）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 144
       }
     ]
   },
@@ -674,14 +2186,265 @@
       "tips": "每次检测前应先自碰检测头的两个金属头，确认检测器正常。"
     },
     {
-      "point": "导体与绝缘体",
-      "core_concept": "物体根据导电性能分为容易导电和不容易导电两类。",
-      "key_formula": "金属一般是导体，木头橡胶塑料常为绝缘体",
       "common_mistakes": [
-        "认为铅笔芯（石墨）是绝缘体",
-        "认为干木头湿了也是绝缘体"
+        "认为铅笔芯（石墨）是绝缘体；实际上石墨能导电。",
+        "认为干木头受潮后仍一定是绝缘体；潮湿会使木头的导电能力增强。",
+        "把“绝缘体”理解为在任何情况下都完全不能导电；绝缘体只是比较不容易导电。"
       ],
-      "tips": "潮湿的物体往往会变成导体，安全用电务必保持干燥。"
+      "core_concept": "物体的导电能力不同。容易导电的物体叫导体，不容易导电的物体叫绝缘体。常见金属、石墨和人体通常是导体；干燥的木头、橡胶和塑料通常是绝缘体。",
+      "key_formula": "容易导电 → 导体；不容易导电 → 绝缘体。金属和石墨通常是导体；干燥的木头、橡胶和塑料通常是绝缘体。",
+      "point": "导体与绝缘体",
+      "tips": "物体是否干燥会影响导电情况，潮湿的木头等物体导电能力可能增强。不要用湿手触碰电器或开关，也不要自行用电路测试市电；学习导电实验时应使用安全的低电压电源，并在老师指导下进行。"
+    },
+    {
+      "common_mistakes": [
+        "误以为只要电池、导线和灯泡都在，灯泡就一定会亮；如果连接处断开，电路仍不闭合。",
+        "把开关打开和关闭的含义弄反：开关闭合时电路接通，断开时电路中断。",
+        "认为电流能通过断开的导线或开关间隙。"
+      ],
+      "core_concept": "电路是电流流经的路径。电池、导线、用电器和开关连接成一条完整、没有断开的回路时，电路闭合，电流可以通过，用电器可能工作。电路中有断开的地方时，电路不闭合，电流无法通过，用电器通常不能工作。开关通过闭合或断开电路来控制用电器。",
+      "key_formula": "闭合电路：电池正极 → 导线 → 用电器 → 导线 → 电池负极，形成完整回路。",
+      "point": "闭合电路的形成与控制",
+      "tips": "检查电路时，可以从电池的一端沿着导线和用电器逐段查看，确认每个连接点都接好，并能沿完整路径回到电池另一端。开关合上，电路闭合；开关打开，电路断开。"
+    },
+    {
+      "common_mistakes": [
+        "电路不亮时就随意更换电池，没有先检查连接是否松动或断开。",
+        "检查电路时用导线直接连接电池的两端，可能造成短路；不要这样做。",
+        "把灯泡不亮都归因于灯泡损坏，忽略电池没电、开关未闭合或导线接触不良等原因。"
+      ],
+      "core_concept": "简单电路由电池、导线、用电器（如小灯泡）和开关等组成。电路只有形成完整、连通的回路，电流才能通过，小灯泡才可能发光。检测故障时，可以按顺序检查各部分，并在每次只改变一个条件后观察现象，从而找到问题并排除故障。",
+      "key_formula": "完整回路：电池正极 → 导线 → 用电器 → 导线 → 电池负极。电路断开或连接不良时，电流不能形成连续通路。",
+      "point": "电路故障的检测与排除",
+      "tips": "先观察电路连接，再检查开关是否闭合、导线两端是否接牢、电池是否装好且有电、灯泡是否完好。每次只检查或更换一个部件，便于判断故障原因。排查时不要让导线直接连接电池的两端，也不要接触家庭插座。"
+    },
+    {
+      "common_mistakes": [
+        "只看两个事物同时出现，就认定它们之间一定有联系。",
+        "把合理猜测当作已经证实的事实。",
+        "忽略其他可能原因，或没有寻找更多证据。"
+      ],
+      "core_concept": "隐蔽连接是指两个事物之间存在不容易直接看出的联系。可以通过观察线索、提出可能的解释，再收集证据来推测这种联系。推测不等于事实，证据越多、解释越能排除其他可能，结论就越可靠。",
+      "key_formula": "观察线索 → 提出可能联系 → 寻找证据 → 比较其他解释 → 作出谨慎推测",
+      "point": "隐蔽连接的逻辑推测",
+      "tips": "先问“我观察到了什么”，再问“哪些事物可能有关”。用证据支持推测，并检查有没有其他解释。例如，发现地面潮湿，可能是下雨，也可能是有人洒了水；还要观察天空、屋檐或周围的水迹，才能判断哪种解释更有依据。"
+    },
+    {
+      "common_mistakes": [
+        "认为金属以外的材料都一定是绝缘体；实际导电性还要看材料种类和状态。",
+        "认为绝缘体在任何情况下都绝对安全；潮湿、破损或污染可能增加触电风险。",
+        "用湿手触碰电器，或把金属物品插入插座。"
+      ],
+      "core_concept": "容易让电流通过的材料叫导体，常见的有铜、铝、铁等金属；不容易让电流通过的材料叫绝缘体，常见的有干燥的橡胶、塑料和木头。导体和绝缘体在生活中常配合使用：电线里的金属芯负责导电，外面的塑料或橡胶外皮用于绝缘。安全用电要做到不触碰裸露电线、不用湿手操作电器、不把物品插入插座；发现电器或电线破损，应告知成人处理，不能自行触碰或修理。",
+      "key_formula": "判断材料：容易导电 → 导体；不容易导电 → 绝缘体。安全用电：远离裸露电线和插座，不湿手操作，发现破损及时告知成人。",
+      "point": "导体与绝缘体的辨析及安全用电",
+      "tips": "可用电线作例子理解：金属芯是导体，能把电流传过去；塑料外皮是绝缘体，可以减少电流接触人体的风险。判断时要看材料本身及其干湿、破损等状态；无论如何，都不要用生活中的插座或裸露电线做实验。"
+    },
+    {
+      "common_mistakes": [
+        "认为只要手是干的就可以触碰电器或插座。",
+        "认为家用电压低，能用来做实验。",
+        "遇到电器冒烟或有人触电时，直接用手去处理。"
+      ],
+      "core_concept": "安全用电就是按正确的方法使用电器，远离触电和电气火灾危险。家庭电路危险，不能用来做实验；遇到故障或触电，应先确保自身安全，再请大人处理。",
+      "key_formula": "安全用电口诀：不碰插座和裸露电线；湿手不碰电器；不私拉乱接；发现故障先断电并告诉大人。",
+      "point": "安全用电",
+      "tips": "使用电器前先检查电线和插头是否完好，按说明操作。不要把手指或物品伸进插座，不在电器旁玩水。发现电线破损、电器冒烟或闻到焦味，应立即远离并告诉大人。有人触电时，不要直接用手拉；应立即呼救并让大人切断电源。"
+    },
+    {
+      "common_mistakes": [
+        "以为电池只要接上一根导线就能让电器工作；电流需要从电池一端经过用电器，再回到电池另一端。",
+        "以为开关断开时电路仍然闭合；断开的开关会使电流通路中断。",
+        "把导线直接连接电池两端当成正常电路；这种连接可能造成短路，使电池发热或损坏。"
+      ],
+      "core_concept": "电流要持续通过电池、导线和用电器，必须有一条完整、不中断的通路，这种通路叫闭合电路。开关闭合时，电路接通；开关断开或导线脱落时，电路中断，用电器通常不能工作。",
+      "key_formula": "闭合电路：电池一端 → 导线 → 用电器 → 导线 → 电池另一端",
+      "point": "闭合电路的形成",
+      "tips": "检查电路时，先确认电池、导线和用电器连接可靠，再看开关是否闭合。连接时要让电流经过用电器，不能用导线直接连接电池两端。"
+    },
+    {
+      "common_mistakes": [
+        "电路检测器只适用于检测简单电路，不能用来检测家用电器或插座等交流电设备。",
+        "灯泡不亮不一定是灯泡坏了，也可能是电池没电、导线断开或连接松动。",
+        "检测前忘记断开原电路，或没有先确认检测器本身能正常工作。"
+      ],
+      "core_concept": "电路不通时，小灯泡就不会亮。排查故障可以按从简单到复杂的顺序，逐一检查电池、灯泡、导线和连接处。使用自制电路检测器前，要先检查它能否正常工作；检测元件时应把元件从原电路中取下，再接入检测器。自制检测器只用于安全的简单电路，不能检测家用电器、插座或其他交流电设备。",
+      "key_formula": "检测器由电池、导线和小灯泡组成；被检测的元件接入后，灯泡亮，说明该元件能够导电；灯泡不亮，说明该元件可能不导电或检测器连接有问题。",
+      "point": "电路故障检测",
+      "tips": "排查时先观察电路连接是否松动，再用已确认正常的电路检测器逐个检测元件。每次只检测一个元件，并注意导线是否接触良好；不要用检测器接触插座或家用电器。"
+    },
+    {
+      "common_mistakes": [
+        "把串联和并联混淆：串联电路只有一条电流通路，并联电路有多条支路。",
+        "认为并联电路中一个用电器坏了，其他用电器也一定不能工作。",
+        "误以为增加电池后，无论怎样连接，电路电压都会增大。"
+      ],
+      "core_concept": "电路中的电池、导线和用电器可以采用不同的连接方式。串联是把元件首尾相接，电流只有一条通路；并联是把元件分别接在共同的两点之间，电流有多条通路。电池串联时总电压通常增大；用电器并联时，一个支路断开，其他支路通常仍能工作。",
+      "key_formula": "相同电池串联：总电压约等于各电池电压之和。",
+      "point": "电路连接方式",
+      "tips": "判断连接方式时，先看电流有几条通路：只有一条通常是串联，有多条支路通常是并联。观察一个用电器断开后其他用电器是否还能工作，也能帮助判断。"
+    },
+    {
+      "common_mistakes": [
+        "把玻璃罩当作发光部分；玻璃罩主要用于保护灯丝。",
+        "认为灯泡接上电源就一定会亮；还需要有完整的电流通路。",
+        "忽略灯泡底部的两个连接点，误以为只要接触一个地方就能形成通路。"
+      ],
+      "core_concept": "小灯泡通常由玻璃泡、灯丝、金属架和底部的连接点等部分组成。灯丝是发光部分，金属架用于支撑灯丝并连接电路，玻璃泡保护内部结构。电流从一个连接点进入，经过金属架和灯丝，再从另一个连接点流出；形成完整通路时，灯丝才能发光。",
+      "key_formula": "完整电流通路：一个连接点 → 金属架 → 灯丝 → 金属架 → 另一个连接点",
+      "point": "灯泡结构",
+      "tips": "观察小灯泡时，可以先找出玻璃泡、灯丝、金属架和底部的两个连接点。连接电路时，让两个连接点分别接触电路的不同部分，形成完整通路。不要用手触摸或拆开连接着电源的灯泡。"
+    },
+    {
+      "common_mistakes": [
+        "认为电池负责控制电路通断；电池的作用是提供电能。",
+        "认为灯座能使灯泡发光；灯座主要用于固定灯泡并连接电路。",
+        "忽略导线的作用；导线用来连接电路元件，让电流通过。"
+      ],
+      "core_concept": "简单电路通常由电源、导线、用电器和开关等组成。电源提供电能，导线连接各元件并形成电流通路，用电器把电能转化为光、热等形式，开关控制电路的通断。电路形成闭合回路时，用电器才能工作。",
+      "key_formula": "闭合电路：电流有通路，用电器工作；断开电路：电流通路中断，用电器停止工作。",
+      "point": "电路组件作用",
+      "tips": "观察电路时，可以逐个判断元件的作用：电能从哪里来、各部分怎样连接、哪个元件负责工作、哪个元件控制通断。操作电路时，不要用导线直接连接电池的两端。"
+    },
+    {
+      "common_mistakes": [
+        "把能量来源和能量使用后的表现混为一谈，例如灯光是电能转化后的表现，不是电能的来源。",
+        "认为电器本身能产生电能；多数电器需要从电池或电网获得电能。"
+      ],
+      "core_concept": "能量可以来自不同的来源。电池能提供电能，食物能为人体活动提供能量，太阳能来自太阳，燃料燃烧也能提供能量。不同来源的能量可以被人和各种装置利用。",
+      "key_formula": "能量来源 → 提供能量 → 人或物体利用能量",
+      "point": "能量来源",
+      "tips": "判断能量来源时，可以问“这个人或装置从哪里获得能量？”例如手电筒从电池获得电能；电风扇从电网获得电能；人跑步需要从食物中获得能量；植物生长需要太阳提供的光能。"
+    },
+    {
+      "common_mistakes": [
+        "不能只根据物体的外观判断导电性，应根据材料的性质辨别。",
+        "铅笔芯的主要成分是石墨，能够导电；它不是绝缘体。",
+        "潮湿的木材比干燥的木材更容易导电，讨论木材时要注意干湿条件。"
+      ],
+      "core_concept": "容易导电的物体叫导体，不容易导电的物体叫绝缘体。金属、石墨和盐水通常是导体；干燥的木材、橡胶和塑料通常是绝缘体。",
+      "key_formula": "无",
+      "point": "导体与绝缘体辨析",
+      "tips": "记住常见材料的例子，并留意条件：干木棒通常是绝缘体，铅笔芯中的石墨是导体。不要随意用家用电源进行导电实验。"
+    },
+    {
+      "common_mistakes": [
+        "认为电路中必须有开关，灯泡才能亮；实际上，电池、导线和灯泡连接成闭合回路就能发光。",
+        "把断开的电路当成完整电路；电流需要沿着闭合的通路流动。",
+        "只把导线接到灯泡的一处，忽略灯泡的两个连接点都要接入电路。"
+      ],
+      "core_concept": "简单电路由电源、导线和用电器组成。电池提供电能，导线连接电路中的各部分，灯泡等用电器把电能转化为光和热。电路形成闭合回路时，灯泡才能亮；开关可以控制电路的通断。",
+      "key_formula": "闭合电路＝电源＋导线＋用电器，并且各部分连接成完整通路。",
+      "point": "简单电路构建",
+      "tips": "连接时，让电池的两极分别通过导线接到灯泡的两个连接点上，使电流能够从电池一极出发，经灯泡后回到另一极。检查灯泡不亮时，可逐段查看导线是否接牢、电池是否有电、灯泡是否完好，以及电路是否闭合。不要用导线直接连接电池的两极，以免短路。"
+    },
+    {
+      "common_mistakes": [
+        "看到物体由金属制成就直接判断，不通过实验验证。",
+        "把电路检测器没亮误认为物体一定是绝缘体；也可能是电路接触不良或检测器故障。",
+        "用手直接接触实验电路中的裸露导线或电池两端。"
+      ],
+      "core_concept": "导体导电性测试是用电路检测器检验物体能否让电流通过。检测器接入待测物体后，如果电路形成通路、检测器亮起，说明物体能导电，是导体；如果没有亮起，需检查连接并重复测试，确认后再判断。常见导体有铜、铁等金属和铅笔芯，常见绝缘体有塑料、橡皮和干燥木头。",
+      "key_formula": "检测器亮起且重复测试结果可靠 → 待测物体能导电，属于导体；检测器不亮且电路连接正常 → 待测物体不易导电，属于绝缘体。",
+      "point": "导体导电性测试",
+      "tips": "先确认电路检测器本身能正常工作，再将待测物体接入电路并确保接触良好；每次测试后观察现象，必要时重复测试。实验中不连接家庭插座，不用手触碰裸露导线。"
+    },
+    {
+      "common_mistakes": [
+        "把电池的正极和负极混淆。",
+        "认为电池只有一个连接点。",
+        "认为电池只要接上一根导线就能让用电器工作。"
+      ],
+      "core_concept": "普通干电池有正极和负极两个连接点。常见圆柱形干电池的铜帽端是正极（+），另一端的金属底部是负极（−）。电流需要通过闭合的电路才能使小灯泡等用电器工作。",
+      "key_formula": "普通干电池：铜帽端＝正极（+）；另一端＝负极（−）。",
+      "point": "电池结构",
+      "tips": "观察电池外壳上的“+”“−”标记来辨认正、负极；使用电池连接电路时，要让电池的两极分别接入电路，形成闭合回路。不要把电池两极直接用导线连接，以免短路。"
+    },
+    {
+      "common_mistakes": [
+        "检测器亮起只能说明检测时两点间存在通路，不能据此断定里面一定有电池或开关。",
+        "检测器不亮不一定代表接线盒内部绝对没有连接，也可能是接触不良或检测器本身有问题。",
+        "推测隐蔽连接时，应记录每一组检测结果，再综合判断，不能只凭一组结果下结论。"
+      ],
+      "core_concept": "接线盒里的导线连接看不见时，可以用电路检测器逐组检测外部接线柱。检测器亮，说明这两点之间能形成通路，内部可能有导线连接；检测器不亮，说明本次检测没有发现通路。把各组结果记录下来并综合比较，可以推测盒内可能的连接方式，但检测结果不一定能确定唯一结构。",
+      "key_formula": "检测器亮 → 两点间检测到通路；检测器不亮 → 本次未检测到通路。",
+      "point": "隐蔽连接推测",
+      "tips": "检测前先确认电路检测器能正常工作；每次只测一组接线柱，确保接触良好并重复检测；把结果及时记录。推测时使用“可能”而不是“一定”，并注意不同的内部连接方式有时会产生相同的检测结果。"
+    },
+    {
+      "common_mistakes": [
+        "把导体和绝缘体混淆：金属通常容易导电，塑料、橡胶通常不容易导电。",
+        "认为导体只能用来传电；实际上导体还用于连接电路、输送电流等。",
+        "使用电器时误以为绝缘外壳就代表可以触碰裸露电线或插头金属部分。"
+      ],
+      "core_concept": "导体是容易导电的材料，常见的有铜、铝、铁等金属。导线的金属芯、插头的金属插脚等部件利用导体的性质，让电流通过或进入电器。塑料、橡胶等通常不容易导电，常用来包裹导线或制作插头外壳，减少触电危险。",
+      "key_formula": "电路中，导体用于连接和输送电流；塑料、橡胶等绝缘材料用于隔开带电部分，提供保护。",
+      "point": "导体应用",
+      "tips": "判断物品中导体的作用时，可以先找金属部分，再想它是否承担连接电路、传输电流或接触电源的任务。导体虽容易导电，但不能因此认为它总是安全；不要用身体或不明物品试验是否导电。"
+    },
+    {
+      "common_mistakes": [
+        "把检测器不亮直接判断为被测物体有故障，没有先检查检测器本身。",
+        "检测前没有确认电池、灯泡和连接处是否正常。",
+        "检查带电电路时直接使用简易电路检测器，可能造成危险或损坏器材。"
+      ],
+      "core_concept": "排查电路故障时，应先确认检测器本身能够正常工作，再逐步检查电路中的电池、导线、灯泡及连接处。一次检查一个部分，并根据现象判断可能的故障位置。",
+      "key_formula": "检测器先自检：两根检测导线的金属头相互接触，若灯泡发光，说明检测器基本正常；若不亮，应先检查检测器的电池、灯泡和连接。",
+      "point": "故障逻辑排查",
+      "tips": "遇到检测器不亮，先不要急着判断被测导线或电路有问题。先让检测器的两端接触进行自检；自检正常后，再逐段检测被测电路。检测前应断开被测电路的电源，不要用简易检测器检查家庭插座等带电设备。"
+    },
+    {
+      "common_mistakes": [
+        "认为开关的所有部分都要用导体制作；实际上，导电部分和底座的材料用途不同。",
+        "认为任何木材都能安全地代替电器中的绝缘材料；潮湿或未经处理的木材可能导电，实际电器应使用合适的绝缘材料。"
+      ],
+      "core_concept": "开关通常由导电部分和绝缘部分组成。导电部分需要让电流通过，常用金属；底座和外壳等部分通常使用绝缘材料，减少触电和短路的危险。",
+      "key_formula": "开关材料选择：接触电路的部分选导体；支撑、隔离和保护的部分选绝缘体。",
+      "point": "开关材料",
+      "tips": "观察开关时，分别找出负责接通电路的部分和支撑、保护的部分，再根据用途判断材料。课堂实验中的木块可作绝缘底座；生活中的电器应使用符合安全要求的材料。"
+    },
+    {
+      "common_mistakes": [
+        "把接线柱的个数当成检测组合数。",
+        "只检测部分接线柱之间的连接，漏掉其他组合。",
+        "把同一组接线柱的顺序颠倒后重复计数，例如把1—2和2—1算成两组。"
+      ],
+      "core_concept": "接线盒外部看不见内部导线时，可以用电路检测器逐对检测接线柱之间是否通电，据此推测盒内的连接情况。检测时，逐一记录每一对接线柱的结果；同一对只算一次。",
+      "key_formula": "n个接线柱两两组成的不同检测组合数为 n×(n−1)÷2。",
+      "point": "隐蔽连接",
+      "tips": "先给接线柱编号，再按顺序检测并打勾记录。例如4个接线柱可依次检测1—2、1—3、1—4、2—3、2—4、3—4，共6组。检测器每次使用前都要先检查是否正常。"
+    },
+    {
+      "common_mistakes": [
+        "把电路元件连在一起就认为电路一定是通路；如果连接不完整，仍可能是断路。",
+        "认为开关断开时电流还能持续流动；开关断开会使电路中断。",
+        "把短路和通路混为一谈；电流绕过用电器直接连接电源两极，可能造成危险。"
+      ],
+      "core_concept": "电路有通路、断路和短路等连接状态。通路是电路连接完整、形成闭合回路，电流可以通过，用电器通常能工作；断路是电路某处断开，回路不完整，电流不能通过；短路是电流不经过用电器等正常路径而直接连接电源两极，可能导致导线或电池发热，实验中应避免。",
+      "key_formula": "判断电路状态：回路闭合且电流经过用电器＝通路；回路断开＝断路；电流绕过用电器直接连接电源两极＝短路。",
+      "point": "电路连接状态",
+      "tips": "判断时沿着电流路径逐段检查：从电源一极出发，是否能经过导线和用电器，再回到电源另一极？路径完整且经过用电器是通路；某处断开是断路；若电流直接从电源一极流向另一极而绕过用电器，则是短路。"
+    },
+    {
+      "common_mistakes": [
+        "把“导体”误认为只有金属；一些非金属材料也能导电。",
+        "认为导体能让电流轻易通过，就可以直接用手触摸通电的导体。"
+      ],
+      "core_concept": "容易让电流通过的物体叫作导体。常见导体有铜、铁、铝等金属，以及石墨和含有杂质的水等。导体的作用是让电流通过，但接触带电导体仍可能触电，不能因为它能导电就随意触摸。",
+      "key_formula": "导体：容易让电流通过的物体。",
+      "point": "导体定义",
+      "tips": "判断一种材料是否属于导体，可以根据它是否容易让电流通过来判断。日常生活中不要用手触碰电线或其他带电物体。"
+    },
+    {
+      "common_mistakes": [
+        "把断路和短路混为一谈：断路是电路某处断开；短路是电流绕过用电器，形成不正常的通路。",
+        "认为灯泡不亮一定是灯泡坏了；导线、电池或开关连接不当也会造成电路故障。",
+        "排查电路时忽视安全，不应把电池两端直接用导线连接。"
+      ],
+      "core_concept": "电路故障是电路不能按预期工作的情况。常见故障有断路、短路，以及电池没电、灯泡损坏、开关接触不良等。排查时可以逐段检查导线和元件的连接，并一次只检查一个可能原因。",
+      "key_formula": "无",
+      "point": "电路故障类型",
+      "tips": "记忆要点：断路是“路断了”，电流不能通过；短路是“绕过用电器直接连通”，可能使电池或导线发热。观察故障现象后，按顺序检查连接和元件。"
     }
   ]
 }

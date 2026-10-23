@@ -4,315 +4,305 @@
   "unit_number": 3,
   "unit_test": {
     "title": "Unit 3 Unit Test (Grade 5下)",
-    "total_score": 100,
+    "total_score": 122,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "January 的常见标准缩写是 Jan.，首字母大写。",
         "knowledge_point": "十二月份的名称与缩写",
+        "options": [],
         "question": "'Jan.' 是 January 的标准缩写形式。",
-        "options": [],
-        "answer": "对",
-        "explanation": "January的缩写是Jan."
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "十二月份的名称与缩写",
-        "question": "'September' 的简写是 Sep.，且首字母不用大写。",
-        "options": [],
         "answer": "错",
-        "explanation": "月份及其缩写的首字母必须大写。"
-      },
-      {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "节日、活动与月份的对应",
-        "question": "National Day in China is in October.",
-        "options": [],
-        "answer": "对",
-        "explanation": "中国国庆节是在10月。"
-      },
-      {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "字母组合ch和sh的发音规律",
-        "question": "在单词 'fish' 和 'sheep' 中，'sh' 的发音是相同的。",
-        "options": [],
-        "answer": "对",
-        "explanation": "sh在这两个单词中都发/ʃ/。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 1,
-        "knowledge_point": "询问活动举办的时间",
-        "question": "当你想询问派对在什么时候，可以说 'When is the party?'",
-        "options": [],
-        "answer": "对",
-        "explanation": "When is...? 用来询问时间。"
-      },
-      {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
-        "difficulty": 1,
+        "explanation": "月份名称及缩写的首字母要大写。September 的常见缩写是 Sep. 或 Sept.，应写作 Sep.，而不是 sep.。",
         "knowledge_point": "十二月份的名称与缩写",
-        "question": "Which month comes after February?",
+        "options": [],
+        "question": "'September' 的简写是 Sep.，且首字母不用大写。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "中国国庆节在10月1日，但题目说的是 October，实际是对的。 ",
+        "knowledge_point": "节日、活动与月份的对应",
+        "options": [],
+        "question": "National Day in China is in October.",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "fish 和 sheep 中的 sh 都发 /ʃ/。",
+        "knowledge_point": "字母组合ch和sh的发音规律",
+        "options": [],
+        "question": "在单词 'fish' 和 'sheep' 中，'sh' 的发音是相同的。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "When is...? 用来询问某项活动或事件在什么时候举行。",
+        "knowledge_point": "询问活动举办的时间",
+        "options": [],
+        "question": "当你想询问派对在什么时候，可以说“When is the party?”",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "March",
+        "difficulty": 1,
+        "explanation": "February（二月）之后是 March（三月）。",
+        "knowledge_point": "十二月份的名称与缩写",
         "options": [
           "January",
           "March",
           "April",
           "May"
         ],
-        "answer": "March",
-        "explanation": "二月之后是三月。"
+        "question": "Which month comes after February?",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "February",
         "difficulty": 1,
+        "explanation": "这句话表示“我们在二月放寒假”。不同地区的假期安排可能不同，此处按题目给出的选项作答。",
         "knowledge_point": "十二月份的名称与缩写",
-        "question": "We have a winter vacation in _________.",
         "options": [
           "February",
           "July",
           "August",
           "June"
         ],
-        "answer": "February",
-        "explanation": "寒假通常在二月或一月。"
+        "question": "We have a winter vacation in _________.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "Oct.",
         "difficulty": 1,
+        "explanation": "October（十月）的常见缩写是 Oct.。",
         "knowledge_point": "十二月份的名称与缩写",
-        "question": "The English abbreviation for 'October' is ________.",
         "options": [
           "Oct.",
           "Nov.",
           "Otc.",
           "sep."
         ],
-        "answer": "Oct.",
-        "explanation": "十月的缩写是Oct."
+        "question": "The English abbreviation for 'October' is ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "school",
         "difficulty": 2,
+        "explanation": "school 中的 ch 发 /k/；teacher、chicken 和 lunch 中的 ch 发 /tʃ/。",
         "knowledge_point": "字母组合ch和sh的发音规律",
-        "question": "Which word has a different sound for 'ch'?",
         "options": [
           "teacher",
           "chicken",
           "school",
           "lunch"
         ],
-        "answer": "school",
-        "explanation": "school中的ch发/k/，其他三个发/tʃ/。"
+        "question": "Which word has a different sound for 'ch'?",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "March",
         "difficulty": 1,
+        "explanation": "植树节在3月12日，所以选择 March。",
         "knowledge_point": "节日、活动与月份的对应",
-        "question": "Tree Planting Day is in _________.",
         "options": [
           "March",
           "April",
           "May",
           "June"
         ],
-        "answer": "March",
-        "explanation": "植树节在3月12日。"
+        "question": "Tree Planting Day is in _________.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "It's",
         "difficulty": 2,
+        "explanation": "问活动在什么时候举行，可用“It’s in + 月份”回答。It’s是It is的缩写。",
         "knowledge_point": "询问活动举办的时间",
-        "question": "— When is the English party? — ________ in May.",
         "options": [
           "They are",
           "It's",
           "Is it",
           "Its"
         ],
-        "answer": "It's",
-        "explanation": "It's是It is的缩写，常用于回答时间。"
+        "question": "— When is the English party? — ________ in May.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "May",
         "difficulty": 1,
+        "explanation": "Mother's Day（母亲节）通常在五月；May 的首字母要大写。",
         "knowledge_point": "十二月份的名称与缩写",
-        "question": "Mother's Day is in ________.",
         "options": [
           "March",
           "April",
           "May",
           "June"
         ],
-        "answer": "May",
-        "explanation": "母亲节在五月。"
+        "question": "Mother's Day is in ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "September",
         "difficulty": 2,
+        "explanation": "September是月份名称，可以用来回答生日在什么时候；月份首字母要大写。",
         "knowledge_point": "询问活动举办的时间",
-        "question": "— When is your birthday? — It's in ________.",
         "options": [
           "monday",
           "blue",
           "September",
           "China"
         ],
-        "answer": "September",
-        "explanation": "回答时间时应选择表示月份的单词。"
+        "question": "— When is your birthday? — It's in ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "September",
         "difficulty": 2,
+        "explanation": "中国教师节在9月10日，所以选择 September。",
         "knowledge_point": "节日、活动与月份的对应",
-        "question": "Teachers' Day is in ________.",
         "options": [
           "August",
           "September",
           "October",
           "November"
         ],
-        "answer": "September",
-        "explanation": "教师节在9月。"
+        "question": "Teachers' Day is in ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "No, it isn't",
         "difficulty": 3,
+        "explanation": "后一句说明运动会在四月，因此它不在五月。对“Is the sports meet...?”作否定回答：No, it isn’t.",
         "knowledge_point": "询问活动举办的时间",
-        "question": "— Is the sports meet in May? — ________. It's in April.",
         "options": [
           "Yes, it is",
           "No, it isn't",
           "Yes, they are",
           "No, they aren't"
         ],
-        "answer": "No, it isn't",
-        "explanation": "根据后一句的纠正，应作否定回答。"
+        "question": "— Is the sports meet in May? — ________. It's in April.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
+        "answer": "January",
         "difficulty": 1,
+        "explanation": "January 是一月，是一年中的第一个月；月份名称首字母大写。",
         "knowledge_point": "十二月份的名称与缩写",
+        "options": [],
         "question": "The first month of a year is ________.",
-        "options": [],
-        "answer": "january",
-        "explanation": "一年中的第一个月是一月。"
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
+        "answer": "June",
         "difficulty": 2,
+        "explanation": "按月份顺序，May（五月）之后、July（七月）之前是 June（六月）。",
         "knowledge_point": "十二月份的名称与缩写",
+        "options": [],
         "question": "The month between May and July is ________.",
-        "options": [],
-        "answer": "june",
-        "explanation": "五月和七月之间是六月。"
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
+        "answer": "When",
         "difficulty": 2,
+        "explanation": "When用来询问时间，句型为“When is + 活动或事件?”",
         "knowledge_point": "询问活动举办的时间",
+        "options": [],
         "question": "— ________ is the school trip? — It's in May.",
-        "options": [],
-        "answer": "when",
-        "explanation": "询问时间用疑问词when。"
-      },
-      {
-        "id": 19,
+        "score": 5,
         "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "节日、活动与月份的对应",
-        "question": "Children's Day is in ________.",
-        "options": [],
-        "answer": "june",
-        "explanation": "儿童节在6月。"
+        "id": 18
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "June",
         "difficulty": 1,
+        "explanation": "儿童节在6月1日，月份英文是 June。",
+        "knowledge_point": "节日、活动与月份的对应",
+        "options": [],
+        "question": "Children's Day is in ________.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "八月",
+        "difficulty": 1,
+        "explanation": "August 的意思是“八月”，缩写为 Aug.，月份名称和缩写的首字母都要大写。",
         "knowledge_point": "十二月份的名称与缩写",
-        "question": "请将月份与其对应的中文意思连线。",
         "options": [
-          "April",
-          "August",
-          "December",
-          "July",
-          "八月",
           "四月",
+          "八月",
           "七月",
           "十二月"
         ],
-        "answer": "A-2,B-1,C-4,D-3",
-        "explanation": "April-四月; August-八月; December-十二月; July-七月。"
+        "question": "单词 August 的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "National Day is in October.",
         "difficulty": 2,
+        "explanation": "National Day is in October（十月）。“is in + 月份”用于表达节日所在的月份。",
         "knowledge_point": "节日、活动与月份的对应",
-        "question": "请将活动与对应月份连线。",
         "options": [
-          "Easter",
-          "National Day",
-          "New Year",
-          "sports meet",
-          "一月",
-          "四月",
-          "十月",
-          "运动会"
+          "National Day is in January.",
+          "National Day is in October.",
+          "National Day is in June.",
+          "National Day is in March."
         ],
-        "answer": "A-2,B-3,C-1,D-4",
-        "explanation": "复活节通常在四月，国庆在十月，新年在一月，sports meet是运动会。"
+        "question": "Which sentence is correct?",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "When,is,the,party,?",
         "difficulty": 1,
+        "explanation": "特殊疑问句语序为“疑问词 + be动词 + 主语”，所以组成“When is the party?”",
         "knowledge_point": "询问活动举办的时间",
-        "question": "连词成句：the, When, is, party, ?",
         "options": [
           "the",
           "When",
@@ -320,16 +310,16 @@
           "party",
           "?"
         ],
-        "answer": "When,is,the,party,?",
-        "explanation": "特殊疑问句语序：疑问词+be动词+名词。"
+        "question": "连词成句：the, When, is, party, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "It,is,in,May,.",
         "difficulty": 1,
+        "explanation": "回答活动时间可以说“It is in + 月份.”，缩写形式是“It’s in + 月份.”",
         "knowledge_point": "询问活动举办的时间",
-        "question": "连词成句：It, in, is, May, .",
         "options": [
           "It",
           "in",
@@ -337,8 +327,147 @@
           "May",
           "."
         ],
-        "answer": "It,is,in,May,.",
-        "explanation": "固定句式It is in + 月份。"
+        "question": "连词成句：It, in, is, May, .",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "January",
+        "difficulty": 1,
+        "explanation": "New Year's Day（一月一日）在一月，January 是“一月”。",
+        "knowledge_point": "节日、活动与月份的对应",
+        "options": [],
+        "question": "New Year's Day is in ________.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "B. It’s on Friday.",
+        "difficulty": 1,
+        "explanation": "问句“When is the school trip?”询问学校旅行什么时候举行。选项B用“on Friday”回答星期，表达正确。",
+        "knowledge_point": "询问活动举办的时间 (When is...?)",
+        "options": [
+          "A. It’s Friday.",
+          "B. It’s on Friday.",
+          "C. It’s at Friday."
+        ],
+        "question": "—When is the school trip?\n—____",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“When is the party?”是询问聚会时间的正确表达；“It’s at 6:00.”用具体钟点回答，正确。",
+        "knowledge_point": "询问活动举办的时间 (When is...?)",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断对错：\n—When is the party?\n—It’s at 6:00.",
+        "score": 1,
+        "type": "true_false",
+        "id": 26
+      },
+      {
+        "answer": "When",
+        "difficulty": 1,
+        "explanation": "询问活动在什么时候举行，用“When is ...?”。“When”可以询问日期或时间。",
+        "knowledge_point": "询问活动举办的时间 (When is...?)",
+        "options": [],
+        "question": "补全句子：\n____ is the sports meeting?",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "When is the art show?",
+        "difficulty": 2,
+        "explanation": "询问活动时间的语序是“When is + 活动名称?”。“the art show”是活动名称，放在“is”后面。",
+        "knowledge_point": "询问活动举办的时间 (When is...?)",
+        "options": [],
+        "question": "把单词连成正确的句子：\nis / the art show / When",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "It’s in May.",
+        "difficulty": 2,
+        "explanation": "月份前通常用介词“in”，所以可以回答“It’s in May.”，表示活动在五月举行。",
+        "knowledge_point": "询问活动举办的时间 (When is...?)",
+        "options": [],
+        "question": "根据提示写出完整回答：\nWhen is the English festival? (五月)",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "C. When is the music show?",
+        "difficulty": 2,
+        "explanation": "“When is the music show?”询问音乐演出什么时候举行，与回答“It’s on Sunday.”相匹配。具体日期或星期前通常用“on”。",
+        "knowledge_point": "询问活动举办的时间 (When is...?)",
+        "options": [
+          "A. What is the music show?",
+          "B. Where is the music show?",
+          "C. When is the music show?"
+        ],
+        "question": "选择最合适的问句：\n—____\n—It’s on Sunday.",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "/ʃ/",
+        "difficulty": 1,
+        "explanation": "she 中的 sh 通常发 /ʃ/。",
+        "knowledge_point": "字母组合ch和sh的发音规律",
+        "options": [],
+        "question": "单词 'she' 中的字母组合 'sh' 通常发什么音？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 31
+      },
+      {
+        "answer": "chair",
+        "difficulty": 2,
+        "explanation": "chair 中的 ch 发 /tʃ/；fish、shop 和 brush 中的 sh 发 /ʃ/。",
+        "knowledge_point": "字母组合ch和sh的发音规律",
+        "options": [
+          "fish",
+          "shop",
+          "chair",
+          "brush"
+        ],
+        "question": "Which word has the /tʃ/ sound?",
+        "score": 3,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "ch 在 school 中发 /k/，不是通常的 /tʃ/。",
+        "knowledge_point": "字母组合ch和sh的发音规律",
+        "options": [],
+        "question": "在单词 'school' 中，'ch' 发 /k/ 音。",
+        "score": 2,
+        "type": "true_false",
+        "id": 33
+      },
+      {
+        "answer": "sh",
+        "difficulty": 1,
+        "explanation": "fish 的拼写中包含 sh，这个组合通常发 /ʃ/。",
+        "knowledge_point": "字母组合ch和sh的发音规律",
+        "options": [],
+        "question": "在单词 'fish' 中，通常发 /ʃ/ 音的字母组合是 ____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 34
       }
     ]
   },
@@ -714,6 +843,60 @@
         "特殊单词school中ch的发音误读"
       ],
       "tips": "sh的发音就像要求别人安静时发出的'嘘'声。"
+    },
+    {
+      "common_mistakes": [
+        "月份名称和缩写的首字母都要大写，如 January、Jan.",
+        "注意区分相邻月份的先后顺序。",
+        "September 常缩写为 Sep. 或 Sept.；October 缩写为 Oct.，不要混淆。"
+      ],
+      "core_concept": "英语中一年有十二个月，月份名称及常见缩写如下：January (Jan.) 一月；February (Feb.) 二月；March (Mar.) 三月；April (Apr.) 四月；May (May) 五月；June (Jun.) 六月；July (Jul.) 七月；August (Aug.) 八月；September (Sep. 或 Sept.) 九月；October (Oct.) 十月；November (Nov.) 十一月；December (Dec.) 十二月。",
+      "key_formula": "月份顺序：January → February → March → April → May → June → July → August → September → October → November → December。",
+      "point": "十二月份的名称与缩写",
+      "tips": "记忆月份时，可以先按顺序背诵，再重点记忆容易混淆的缩写，例如 June—Jun.、July—Jul.；月份名称和缩写的首字母均大写。书写缩写时，常见格式会在末尾加句点，如 Jan.、Feb.、Mar.。May 通常直接写作 May。"
+    },
+    {
+      "common_mistakes": [
+        "把节日所在的月份和具体日期混淆，例如植树节在3月，具体日期是3月12日。",
+        "月份名称首字母要大写，如 June、October。",
+        "sport meet 是“运动会”，不是月份或节日。"
+      ],
+      "core_concept": "学习常见节日和校园活动对应的月份，并能用英语表达。",
+      "key_formula": "节日或活动 + is in + 月份. 例如：Children's Day is in June.",
+      "point": "节日、活动与月份的对应",
+      "tips": "记住月份英语名称：January（一月）、March（三月）、June（六月）、September（九月）、October（十月）。回答“某节日在哪个月”时，可以用“It's in + 月份”或“某节日 is in + 月份”。"
+    },
+    {
+      "common_mistakes": [
+        "回答活动时间时只说日期，遗漏具体时间或上午、下午等信息。",
+        "询问时间时误用“What time”来替代“When”。“When”可以询问日期或时间；“What time”通常询问具体钟点。",
+        "忘记在活动名称前使用介词“is”，或把“is”放在活动名称之后。"
+      ],
+      "core_concept": "用“When is ...?”询问活动在什么时候举行。回答时可以说日期、星期、具体时刻，或“在某个节日/某段时间”。",
+      "key_formula": "When is + 活动名称？\n回答：It’s + 时间表达。 / 活动名称 + is + 时间表达。",
+      "point": "询问活动举办的时间 (When is...?)",
+      "tips": "活动名称可以是 a party、the sports meeting、the English test 等。回答日期时常用 on，如“on Friday”；回答具体时刻时常用 at，如“at 3:00”；回答月份、季节或节日时通常用 in，如“in May”“in summer”“in December”。"
+    },
+    {
+      "common_mistakes": [
+        "把字母组合 ch 和 sh 看成两个字母分别发音。",
+        "认为 ch 在所有单词中都发相同的音；例如 school 中的 ch 发 /k/，而 chicken 中的 ch 发 /tʃ/。"
+      ],
+      "core_concept": "ch 和 sh 都是常见的字母组合。sh 通常发 /ʃ/，如 fish、sheep；ch 通常发 /tʃ/，如 chicken、lunch，但在 school 中发 /k/。",
+      "key_formula": "sh → /ʃ/；ch 通常 → /tʃ/，少数常见词中 → /k/（如 school）。",
+      "point": "字母组合ch和sh的发音规律",
+      "tips": "记单词时把发音和例词一起记：sh—fish、sheep；ch—chicken、lunch；ch 发 /k/—school。读音不确定时，多听、多跟读。"
+    },
+    {
+      "common_mistakes": [
+        "询问时间用When，不要与询问地点的Where混淆。",
+        "回答活动举办时间时，可用“It’s in + 月份”。月份首字母要大写。",
+        "问句中使用is时，简短回答要用“it”，如“Yes, it is.”或“No, it isn’t.”"
+      ],
+      "core_concept": "询问活动举办的时间，可以用“When is + 活动名称或事件？”回答时常用“It’s in + 月份.”；也可以用“Is + 活动名称或事件 + in + 月份?”询问某活动是否在某月举行，并用“Yes, it is.”或“No, it isn’t.”回答。",
+      "key_formula": "When is + 活动或事件？— It’s in + 月份.；Is + 活动或事件 + in + 月份？— Yes, it is. / No, it isn’t.",
+      "point": "询问活动举办的时间",
+      "tips": "When用于询问“什么时候”。记住月份名称首字母要大写，如April、May、September。回答具体月份时，通常在月份前加in。"
     }
   ]
 }

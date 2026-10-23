@@ -4,326 +4,575 @@
   "unit_number": 2,
   "unit_test": {
     "title": "第二单元《材料》单元评价卷",
-    "total_score": 100,
+    "total_score": 186,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "大山、森林和河流都是自然形成的，没有经过人类制造，因此属于自然世界。",
         "knowledge_point": "自然世界与人工世界",
+        "options": [],
         "question": "大山、森林和河流都属于自然世界中的景观。",
-        "options": [],
-        "answer": "对",
-        "explanation": "大山、森林和河流是自然形成的，不属于人工制造。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "棉质毛巾通常柔软、能吸水，不会摸起来非常坚硬。不同毛巾的表面可能有些粗糙或光滑。",
         "knowledge_point": "常见材料的辨识与特性",
+        "options": [],
         "question": "棉质毛巾摸起来非常坚硬、光滑。",
-        "options": [],
-        "answer": "错",
-        "explanation": "棉布材料的特性通常是柔软、吸水、粗糙。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "古代人们曾把文字写在竹片上，再把竹片编连起来，称为竹简。",
         "knowledge_point": "书的历史与材料演变",
+        "options": [],
         "question": "在古代，人们曾把字写在竹片上，这种书叫竹简。",
-        "options": [],
-        "answer": "对",
-        "explanation": "竹子是古代造纸术普及前重要的书写材料。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "瓦楞形纸的结构比平纸更稳定，通常能承受更大的压力。",
         "knowledge_point": "改变材料形状增强性能",
+        "options": [],
         "question": "瓦楞状的纸比普通的平纸支撑力更强。",
-        "options": [],
-        "answer": "对",
-        "explanation": "改变形状能增强纸的承重能力。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "物品的组成与功能设计",
-        "question": "一把好椅子所有部位都必须用同一种材料做成。",
-        "options": [],
-        "answer": "错",
-        "explanation": "椅子通常结合多种材料，如木头做支架，海绵做垫子。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "椅子通常结合多种材料，如木头做支架，海绵做垫子。",
+        "knowledge_point": "物品的组成与功能设计",
+        "options": [],
+        "question": "一把好椅子所有部位都必须用同一种材料做成。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "铁钥匙",
         "difficulty": 1,
+        "explanation": "铁属于金属，铁钥匙由金属材料制成。塑料盆、纸飞机和木板凳分别主要由塑料、纸和木材制成。",
         "knowledge_point": "常见材料的辨识与特性",
-        "question": "下列物品中，由金属材料制成的是（ ）。",
         "options": [
           "塑料盆",
           "铁钥匙",
           "纸飞机",
           "木板凳"
         ],
-        "answer": "铁钥匙",
-        "explanation": "钥匙通常由铁或铜等金属制成。"
+        "question": "下列物品中，由金属材料制成的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "高大的楼房",
         "difficulty": 1,
+        "explanation": "楼房由人们使用材料建造而成，属于人工世界。兔子、原始森林和彩虹都是自然形成的。",
         "knowledge_point": "自然世界与人工世界",
-        "question": "下列属于人工世界产物的是（ ）。",
         "options": [
           "奔跑的兔子",
           "高大的楼房",
           "原始森林",
           "美丽的彩虹"
         ],
-        "answer": "高大的楼房",
-        "explanation": "楼房由人类加工材料建造，属于人工世界。"
+        "question": "下列属于人工世界产物的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "金属",
         "difficulty": 2,
+        "explanation": "许多金属表面有光泽，敲击时会发出较清脆的声音。这些特点可以帮助我们辨认金属。",
         "knowledge_point": "常见材料的辨识与特性",
-        "question": "这种材料亮晶晶的，敲击声音清脆，它是（ ）。",
         "options": [
           "木材",
           "石头",
           "陶瓷",
           "金属"
         ],
-        "answer": "金属",
-        "explanation": "金属具有光泽且敲击声响亮。"
+        "question": "一种材料表面亮晶晶的，敲击时会发出清脆的声音，它最可能是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "纸",
         "difficulty": 1,
+        "explanation": "教材封面常用纸或纸制材料制作。一本书通常还可能包含其他材料，例如塑料覆膜或装订用材料。",
         "knowledge_point": "常见材料的辨识与特性",
-        "question": "我们使用的教材封面主要是用（ ）做成的。",
         "options": [
           "纸",
           "玻璃",
           "皮革",
           "橡胶"
         ],
-        "answer": "纸",
-        "explanation": "书本的主要材料是纸。"
+        "question": "我们使用的教材封面主要是用（ ）做成的。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "轻便易携带",
         "difficulty": 2,
+        "explanation": "纸比成捆的竹简轻，通常更容易携带和阅读。",
         "knowledge_point": "书的历史与材料演变",
-        "question": "相比于竹简，纸这种材料的优点是（ ）。",
         "options": [
           "更笨重",
           "更容易刻字",
           "轻便易携带",
           "防蛀防腐烂"
         ],
-        "answer": "轻便易携带",
-        "explanation": "纸克服了竹简笨重的缺陷。"
+        "question": "相比于竹简，纸这种材料的优点是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "不透水的塑料布",
         "difficulty": 1,
+        "explanation": "伞面需要挡雨，因此通常使用不容易让水通过的防水布料或塑料涂层布。吸水的棉布不适合做伞面。",
         "knowledge_point": "常见材料的辨识与特性",
-        "question": "雨伞的伞面通常选用的材料是（ ）。",
         "options": [
           "吸水的棉布",
           "不透水的塑料布",
           "厚重的木板",
           "容易生锈的铁片"
         ],
-        "answer": "不透水的塑料布",
-        "explanation": "雨伞需要防水，塑料或防水布是最佳选择。"
+        "question": "雨伞的伞面通常选用的材料是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "隔热并增加承重",
         "difficulty": 2,
+        "explanation": "瓦楞结构能形成空气层，有助于隔热；它的形状也能增强支撑能力。",
         "knowledge_point": "改变材料形状增强性能",
-        "question": "在餐盒里垫上一层瓦楞纸，主要的目的是（ ）。",
         "options": [
           "让饭菜更好吃",
           "让餐盒更美观",
           "隔热并增加承重",
           "减轻餐盒重量"
         ],
-        "answer": "隔热并增加承重",
-        "explanation": "瓦楞状结构留有空气层，能隔热和增强支撑。"
+        "question": "在餐盒里垫上一层瓦楞纸，主要的目的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "有弹性且耐磨",
         "difficulty": 2,
+        "explanation": "橡胶具备良好的弹性和防滑耐磨性，适合做鞋底。",
         "knowledge_point": "物品的组成与功能设计",
-        "question": "运动鞋的鞋底通常使用橡胶，是因为这种材料（ ）。",
         "options": [
           "颜色漂亮",
           "容易碎裂",
           "有弹性且耐磨",
           "非常沉重"
         ],
-        "answer": "有弹性且耐磨",
-        "explanation": "橡胶具备良好的弹性和防滑耐磨性。"
+        "question": "运动鞋的鞋底通常使用橡胶，是因为这种材料（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "节约资源保护环境",
         "difficulty": 2,
+        "explanation": "回收利用塑料瓶可以减少新原料的使用，也能减少垃圾和环境污染。",
         "knowledge_point": "材料的来源与回收利用",
-        "question": "回收废旧塑料瓶的主要科学意义是（ ）。",
         "options": [
           "浪费金钱",
           "制造更多垃圾",
           "节约资源保护环境",
           "塑料瓶太占地儿"
         ],
-        "answer": "节约资源保护环境",
-        "explanation": "回收利用可以减少原材料的消耗及环境污染。"
+        "question": "回收废旧塑料瓶的主要科学意义是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "玻璃",
         "difficulty": 1,
+        "explanation": "玻璃通常透明，能让光线通过，适合制作需要透光的窗户。窗框还可能由木材、金属或塑料制成。",
         "knowledge_point": "常见材料的辨识与特性",
-        "question": "我们通常用（ ）材料来制作透明的窗户。",
         "options": [
           "木头",
           "金属",
           "玻璃",
           "水泥"
         ],
-        "answer": "玻璃",
-        "explanation": "玻璃具有透光性好的特点。"
+        "question": "我们通常用（ ）材料来制作透明的窗户。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "变大",
         "difficulty": 3,
+        "explanation": "纸折成风琴状后形成连续的折面，结构更稳定，因此支撑重物的能力会增强。",
         "knowledge_point": "改变材料形状增强性能",
-        "question": "把纸折成风琴状（W形）后再放上重物，它能承载的力会（ ）。",
         "options": [
           "变小",
           "变大",
           "不变",
           "无法判断"
         ],
-        "answer": "变大",
-        "explanation": "折叠增加了结构的稳定性，从而增加了载重力。"
+        "question": "把纸折成风琴状（W形）后再放上重物，它能承载的力会（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "不锈钢",
         "difficulty": 2,
+        "explanation": "不锈钢是金属，通常比竹子、木头和塑料更容易传热。使用金属筷子夹热食物时，筷子也可能变热。",
         "knowledge_point": "常见材料的辨识与特性",
-        "question": "筷子常用的材料比较多。下列材料中，导热最快的是（ ）。",
         "options": [
           "竹子",
           "木头",
           "不锈钢",
           "塑料"
         ],
-        "answer": "不锈钢",
-        "explanation": "金属的导热性能优于木材和塑料。"
+        "question": "下列常用来制作筷子的材料中，通常导热最快的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "防烫手",
         "difficulty": 2,
+        "explanation": "杯套能隔开杯身与手，减少热量传递，帮助防烫。",
         "knowledge_point": "物品的组成与功能设计",
-        "question": "保温杯的杯套通常是尼龙或硅胶做的，主要是为了（ ）。",
         "options": [
           "防烫手",
           "装水多",
           "让杯子变轻",
           "变得更硬"
         ],
-        "answer": "防烫手",
-        "explanation": "硅胶是热的不良导体，能起到防烫作用。"
+        "question": "保温杯的杯套通常是尼龙或硅胶做的，主要是为了（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "书的历史与材料演变",
-        "question": "在造纸术发明前，人们在竹片上刻字，一捆竹简写不了太多字。大约（ ）年前蔡伦改进了造纸术。",
-        "options": [],
         "answer": "2000",
-        "explanation": "蔡伦在公元105年前后改进造纸术，距今约两千年。"
-      },
-      {
-        "id": 20,
+        "difficulty": 3,
+        "explanation": "蔡伦在公元105年前后改进造纸术，距今约两千年。",
+        "knowledge_point": "书的历史与材料演变",
+        "options": [],
+        "question": "在造纸术发明前，人们在竹片上刻字，一捆竹简写不了太多字。大约（ ）年前蔡伦改进了造纸术。",
+        "score": 5,
         "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "常见材料的辨识与特性",
-        "question": "常见的材料种类很多，本单元我们重点学习辨认了（ ）种基础材料。",
-        "options": [],
+        "id": 19
+      },
+      {
         "answer": "6",
-        "explanation": "通常包括木材、金属、塑料、玻璃、纤维（布）、陶瓷等。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "常用材料鉴别",
-        "question": "衣服通常是由（ ）材料制成的。",
-        "options": [],
-        "answer": "纤维",
-        "explanation": "纤维是各种布料的主要成分。"
-      },
-      {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "自然世界与人工世界",
-        "question": "我们使用的尺子是用（ ）制造出来的物品。",
-        "options": [],
-        "answer": "塑料",
-        "explanation": "小学生用的直尺最常用的材料是塑料。"
-      },
-      {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "材料的来源与回收利用",
-        "question": "为了保护环境，我们应该把废旧垃圾放进（ ）箱里。",
+        "explanation": "本题按课堂中常见的六类基础材料作答：木材、金属、塑料、玻璃、纤维（布）和陶瓷。不同教材的分类方式可能略有不同。",
+        "knowledge_point": "常见材料的辨识与特性",
         "options": [],
+        "question": "常见的材料种类很多，本单元重点学习辨认了（ ）种基础材料。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
+      },
+      {
+        "answer": "纤维",
+        "difficulty": 1,
+        "explanation": "衣服常用棉、羊毛等纤维制成的布料制作。",
+        "knowledge_point": "常用材料鉴别",
+        "options": [],
+        "question": "衣服通常是由（ ）材料制成的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
+      },
+      {
+        "answer": "塑料",
+        "difficulty": 1,
+        "explanation": "常见的学生直尺多由塑料制成。尺子是人们加工材料制作出来的人工物品。",
+        "knowledge_point": "自然世界与人工世界",
+        "options": [],
+        "question": "我们使用的尺子常用（ ）制造出来。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
         "answer": "回收",
-        "explanation": "可回收物应放入指定的回收设施中。"
+        "difficulty": 2,
+        "explanation": "适合回收的废弃物应分类投放到相应的回收箱或回收设施中。",
+        "knowledge_point": "材料的来源与回收利用",
+        "options": [],
+        "question": "为了保护环境，我们应该把废旧可回收物分类放进（ ）箱里。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "木桌是人工物品，树木是自然物。",
+        "difficulty": 1,
+        "explanation": "树木自然生长，属于自然世界；木桌由人们把木材加工制作而成，属于人工世界。",
+        "knowledge_point": "自然世界与人工世界",
+        "options": [],
+        "question": "树木和木桌分别属于哪一个世界？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "石头可以是自然界中的天然材料，但人们把石头砌成石桥后，石桥就是经过建造的人工物品。",
+        "knowledge_point": "自然世界与人工世界",
+        "options": [],
+        "question": "石头做成的桥没有使用人工材料，所以它属于自然世界。",
+        "score": 3,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "小鸟是自然物，鸟窝是小鸟搭建的，不是人类制造的人工物品。",
+        "difficulty": 2,
+        "explanation": "自然世界中的动物也会搭窝、筑巢，但这不是人类加工或制造的物品。判断人工物品时，要注意是谁制造或建造的。",
+        "knowledge_point": "自然世界与人工世界",
+        "options": [],
+        "question": "小鸟和小鸟搭建的鸟窝都属于人工世界吗？请说明理由。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "竹简",
+        "difficulty": 1,
+        "explanation": "竹简由竹片编连而成，古人曾用它记录文字。",
+        "knowledge_point": "书的历史与材料演变",
+        "options": [],
+        "question": "古人把写有文字的竹片编连起来，制成的书写材料叫（ ）。",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "纸比较轻，便于携带；但纸容易受潮、撕破，也可能被虫蛀。",
+        "difficulty": 2,
+        "explanation": "比较材料时要同时看优点和不足。纸比竹简轻便，但保存时需要注意防潮、防虫和避免撕破。",
+        "knowledge_point": "书的历史与材料演变",
+        "options": [],
+        "question": "说出纸作为书写材料的一个优点和一个不足。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "电子书可以用电子设备阅读，不需要拿着许多纸页；但阅读时通常需要设备和电量。",
+        "difficulty": 3,
+        "explanation": "电子书是现代常见的阅读形式，便于储存和查找内容，但需要合适的电子设备才能阅读。",
+        "knowledge_point": "书的历史与材料演变",
+        "options": [],
+        "question": "现代电子书和纸质书有什么不同？请说出电子书的一个方便之处和一个限制。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "材料的种类没有改变，但形状改变后，支撑能力可能增强。",
+        "knowledge_point": "改变材料形状增强性能",
+        "options": [],
+        "question": "把一张纸折出许多折痕后，纸的形状变了，它的支撑能力也可能发生变化。",
+        "score": 2,
+        "type": "true_false",
+        "id": 30
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "将纸折成连续的拱形后，形状能帮助分散重物的压力，通常比平放的纸更能支撑重物。",
+        "knowledge_point": "改变材料形状增强性能",
+        "options": [
+          "把纸铺平",
+          "把纸折成连续的拱形",
+          "把纸揉成一团",
+          "把纸撕成小片"
+        ],
+        "question": "想让一张纸更有支撑力，可以把它（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "形状",
+        "difficulty": 1,
+        "explanation": "纸的材料没有改变，只改变了纸的形状，支撑力就可能不同。",
+        "knowledge_point": "改变材料形状增强性能",
+        "options": [],
+        "question": "把平纸折成瓦楞状，改变的是纸的（ ）。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "伞面",
+        "difficulty": 1,
+        "explanation": "伞面能遮挡雨水；伞柄方便人握住伞。",
+        "knowledge_point": "物品的组成与功能设计",
+        "options": [],
+        "question": "雨伞中主要用来遮挡雨水的部分是____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 33
+      },
+      {
+        "answer": "轻便",
+        "difficulty": 1,
+        "explanation": "书包需要背着或提着，轻便的材料有助于减轻负担；材料还要结实耐用。",
+        "knowledge_point": "物品的组成与功能设计",
+        "options": [],
+        "question": "制作书包时，选择轻便的材料可以让书包更____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 34
+      },
+      {
+        "answer": "玻璃",
+        "difficulty": 2,
+        "explanation": "窗户需要透光，玻璃透明，适合做窗户；窗框还可以选用其他合适的材料。",
+        "knowledge_point": "物品的组成与功能设计",
+        "options": [
+          "玻璃",
+          "棉花",
+          "橡皮泥",
+          "纸巾"
+        ],
+        "question": "为了让窗户透进阳光，窗户的透明部分通常选用（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "树木",
+        "difficulty": 1,
+        "explanation": "木材是由树木加工得到的，树木是木材的自然来源。",
+        "knowledge_point": "材料的来源与回收利用",
+        "options": [],
+        "question": "木材主要来自（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 36
+      },
+      {
+        "answer": "玻璃瓶",
+        "difficulty": 1,
+        "explanation": "玻璃瓶属于玻璃制品，通常可以回收并加工利用；剩饭属于厨余垃圾，废纸和易拉罐也通常属于可回收物。具体投放应看当地分类标识。",
+        "knowledge_point": "材料的来源与回收利用",
+        "options": [
+          "玻璃瓶",
+          "剩饭",
+          "沾满油污的纸巾",
+          "果皮"
+        ],
+        "question": "下面哪一种通常属于可回收物？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 37
+      },
+      {
+        "answer": "动物",
+        "difficulty": 2,
+        "explanation": "羊毛来自羊等动物，属于来自动物的材料。",
+        "knowledge_point": "材料的来源与回收利用",
+        "options": [],
+        "question": "羊毛主要来自（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 38
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "回收利用废纸可以减少对新原料的需求，并减少废弃物。",
+        "knowledge_point": "材料的来源与回收利用",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "废纸可以回收利用，帮助节约资源。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 39
+      },
+      {
+        "answer": "木材",
+        "difficulty": 1,
+        "explanation": "木桌通常由木材制成，木材是常见的天然材料。",
+        "knowledge_point": "常用材料鉴别",
+        "options": [],
+        "question": "教室里的木桌通常是由（ ）制成的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "塑料",
+        "difficulty": 1,
+        "explanation": "塑料尺通常由塑料制成，塑料常用于制作轻便的日用品。",
+        "knowledge_point": "常用材料鉴别",
+        "options": [],
+        "question": "常见的透明直尺可以由（ ）制成。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "玻璃",
+        "difficulty": 1,
+        "explanation": "玻璃通常比较透明，许多窗户使用玻璃制作。",
+        "knowledge_point": "常用材料鉴别",
+        "options": [],
+        "question": "窗户上常见的透明材料是（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 42
+      },
+      {
+        "answer": "金属",
+        "difficulty": 2,
+        "explanation": "铁钉通常由金属制成。金属一般较坚硬，但不同金属的特点有所不同。",
+        "knowledge_point": "常用材料鉴别",
+        "options": [],
+        "question": "铁钉通常属于（ ）材料制品。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 43
+      },
+      {
+        "answer": "不同的材料",
+        "difficulty": 2,
+        "explanation": "一个物品可能由几种材料组成。比如剪刀的刀刃常用金属，手柄可能用塑料。",
+        "knowledge_point": "常用材料鉴别",
+        "options": [],
+        "question": "剪刀的刀刃和手柄可能由（ ）制成。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 44
       }
     ]
   },
@@ -654,14 +903,15 @@
   },
   "knowledge_summary": [
     {
-      "point": "自然世界与人工世界",
-      "core_concept": "人造物品由于使用了天然材料加工而成，构成了人工世界。",
-      "key_formula": "天然材料 + 人力加工 = 人工物品",
       "common_mistakes": [
-        "认为木头桌子是自然界直接长出来的",
-        "区分不清原材料和成品"
+        "认为木头桌子是自然界直接长出来的。树木是自然物，木桌经过人类加工后才成为人工物品。",
+        "区分不清原材料和成品。木材、石头等可以是材料，桌子、石桥等则是加工或建造后的物品。",
+        "认为只要材料来自自然，做成的物品也属于自然世界。判断时还要看物品是否经过人类加工或建造。"
       ],
-      "tips": "看物品是否有人类干预、修改、组合的痕迹。"
+      "core_concept": "自然世界包括自然形成的事物，如山川、河流、动植物和天气现象。人工世界包括人类制造、加工或建造的物品与设施。许多人工物品使用天然材料，也可能使用人工材料；关键是看它是否经过人类的加工、组合或建造。",
+      "key_formula": "天然材料 + 人力加工 = 人工物品（人工世界的一部分）",
+      "point": "自然世界与人工世界",
+      "tips": "判断一个事物属于自然世界还是人工世界，可以问：它是自然形成的，还是人们加工、制造或建造出来的？注意区分材料和成品：树木是自然物，木头桌子是人工物；河流是自然物，人工修建的水渠是人工物。"
     },
     {
       "point": "常见材料的辨识",
@@ -702,6 +952,73 @@
         "不能对等材料属性与功能"
       ],
       "tips": "分析椅子、杯子、帽子等，思考没处部位为什么用这种材料。"
+    },
+    {
+      "common_mistakes": [
+        "只凭物品的用途猜材料，不注意观察材料本身的特点。",
+        "认为同一种物品只能用一种材料制作；实际上，物品常由多种材料组成。",
+        "把“透明”和“坚硬”等特性混为一谈；不同材料可以具有不同的特性。",
+        "认为所有金属都不会生锈；有些金属容易生锈，有些则较耐锈。"
+      ],
+      "core_concept": "材料是制作物品所用的物质。常见材料有木材、金属、塑料、玻璃、纸、布和陶瓷等。我们可以通过观察颜色、光泽、透明度、软硬、粗糙程度，以及简单比较吸水、导热等特点，来辨认材料。物品的用途不同，适合使用的材料也不同；一个物品也可能由几种材料制成。",
+      "key_formula": "观察物品的材料特征 → 比较不同材料 → 根据用途选择合适的材料",
+      "point": "常见材料的辨识与特性",
+      "tips": "观察时先看、再摸、再比较。不能确认时，可以和身边的材料样品比较；涉及热水、尖锐物品或易碎材料时，应请成人帮助。"
+    },
+    {
+      "common_mistakes": [
+        "把蔡伦说成最早发明造纸术的人；更准确地说，他改进了造纸术。",
+        "认为古代所有书都写在竹简上；人们也曾使用甲骨、青铜器、木片、帛等材料。",
+        "认为纸一定比其他材料更耐用；纸较轻便，但容易受潮、撕破或被虫蛀。"
+      ],
+      "core_concept": "书的材料随着人们的生活和技术发展不断变化。古人曾在甲骨、青铜器、竹木片和帛等材料上记录文字；造纸术改进和普及后，纸逐渐成为常用的书写材料。后来，人们又用纸张印刷成书，并发展出电子书等阅读形式。不同材料各有特点。",
+      "key_formula": "材料的特点会影响书的轻重、携带、制作和保存。",
+      "point": "书的历史与材料演变",
+      "tips": "观察一种书或阅读材料时，可以想一想：它由什么材料制成？拿起来轻不轻？容易保存吗？它有什么方便之处，又有什么不足？"
+    },
+    {
+      "common_mistakes": [
+        "认为只要增加材料数量，物体就会更牢固，忽略形状也会影响支撑力。",
+        "认为改变材料形状会改变材料本身；实际上，材料种类不变，形状变化能改变它的性能。",
+        "认为所有形状都能增强支撑力；不同形状的效果不同，需要通过比较和实验来判断。"
+      ],
+      "core_concept": "材料的形状会影响它的性能。把纸折成瓦楞形、风琴形等，可以让结构更稳定，增强支撑和承重能力；有些形状还能形成空气层，帮助隔热。",
+      "key_formula": "材料性能会受形状影响：改变形状 → 结构发生变化 → 某些性能增强。",
+      "point": "改变材料形状增强性能",
+      "tips": "可以用相同的纸、相同的支撑距离和相同大小的重物，比较平纸与折叠纸能承受多少重物。比较时一次只改变纸的形状，结果更容易看清。"
+    },
+    {
+      "common_mistakes": [
+        "认为物品只能用一种材料制作。",
+        "只关注材料是否好看，忽略它是否适合物品的用途。",
+        "认为同一种材料适合制作物品的所有部位。"
+      ],
+      "core_concept": "一件物品可以由不同的部分组成，各部分承担不同的功能。设计或制作物品时，要根据每个部分的用途选择合适的材料。",
+      "key_formula": "物品的组成与功能相适应；材料的特点与部件的用途相适应。",
+      "point": "物品的组成与功能设计",
+      "tips": "观察物品时，可以依次思考：它由哪些部分组成？每个部分有什么用？这些部分为什么选用这种材料？"
+    },
+    {
+      "common_mistakes": [
+        "认为所有材料都来自工厂；其实材料来自自然界，也可以经过加工制成。",
+        "认为所有废弃物都能回收；不同材料需要分类处理。",
+        "把可回收物随意丢弃，或认为回收利用没有意义。"
+      ],
+      "core_concept": "生活中的材料有不同来源。有些材料直接取自自然界，如木材来自树木、棉花来自植物、羊毛来自动物；有些材料由人们加工制造，如塑料、玻璃和纸。把废纸、金属、玻璃、塑料等适合回收的物品分类收集，再加工利用，可以节约资源、减少垃圾和环境污染。",
+      "key_formula": "材料来源：自然界中的动植物、矿物等；回收利用：分类收集可回收物 → 加工处理 → 制成新材料或产品。",
+      "point": "材料的来源与回收利用",
+      "tips": "判断材料来源时，可以想一想它来自植物、动物还是矿物，或者是经过加工制造的。投放垃圾时，先辨认材料种类，再按当地分类标识放入相应的回收设施；有油污或无法回收的物品要依照分类要求处理。"
+    },
+    {
+      "common_mistakes": [
+        "不要只凭材料的颜色或形状判断它是什么；应观察软硬、轻重、透明度、是否容易弯折等特点。",
+        "同一种物品可能由多种材料制成，例如铅笔有木材、石墨和橡皮等部分。",
+        "材料名称和物品名称不同：棉、木材、金属、玻璃、塑料、纤维等是材料。"
+      ],
+      "core_concept": "身边的物品由不同材料制成。观察材料的软硬、轻重、透明度、粗糙或光滑等特点，可以帮助我们鉴别常见材料。常见材料有木材、金属、玻璃、塑料、纤维和橡胶等。",
+      "key_formula": "观察物品的特征（软硬、轻重、透明度等）→比较材料特点→判断可能的材料。",
+      "point": "常用材料鉴别",
+      "tips": "可以从身边的物品开始观察：摸一摸（安全且征得同意）、看一看、比较不同物品的特点。注意区分物品和材料，例如“杯子”是物品，“玻璃”可能是它的材料。"
     }
   ]
 }

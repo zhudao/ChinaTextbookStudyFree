@@ -4,326 +4,1680 @@
   "unit_number": 3,
   "unit_test": {
     "title": "第3单元「太阳、地球和月球」单元基础过关测验",
-    "total_score": 100,
+    "total_score": 474,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "太阳是恒星，能自己发光发热；月球本身不发光，我们看到的月光主要是太阳光照到月球后反射来的。",
         "knowledge_point": "天体特征对比",
+        "options": [],
         "question": "太阳和月球都能自己发光。",
-        "options": [],
-        "answer": "错",
-        "explanation": "太阳是恒星，能发光发热；月球是卫星，反射太阳光。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "加加林是人类第一位进入太空的人。他从太空观察到地球，但“地球近似球体”的认识早在他之前就已通过其他证据逐渐形成。",
         "knowledge_point": "地球形状的认知",
+        "options": [],
         "question": "人类第一位进入太空的人通过观察发现地球是圆的。",
-        "options": [],
-        "answer": "对",
-        "explanation": "加加林在太空中看到地球是一个蓝色的星球。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 2,
+        "explanation": "影子产生通常需要光源、遮挡物和屏。只有光而没有遮挡物，或没有屏接收，就不能在屏上看到影子。",
         "knowledge_point": "影子的产生条件",
+        "options": [],
         "question": "只要有光，就一定能看到物体的影子。",
-        "options": [],
-        "answer": "错",
-        "explanation": "影子产生的条件包括光源、遮挡物和屏，三者缺一不可。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "月相变化有规律，并且会周期性地重复。",
         "knowledge_point": "月相变化规律",
+        "options": [],
         "question": "月相的变化是没有规律的。",
-        "options": [],
-        "answer": "错",
-        "explanation": "月相变化具有周期性，每月变化一次。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "海陆分布",
-        "question": "在观察地球仪时，蓝色的部分代表海洋。",
-        "options": [],
-        "answer": "对",
-        "explanation": "在地图或地球仪上，蓝色通常表示水域或海洋。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "在地球仪上，蓝色通常用来表示海洋等水域。",
+        "knowledge_point": "海陆分布",
+        "options": [],
+        "question": "在观察地球仪时，蓝色的部分代表海洋。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "环形山",
         "difficulty": 1,
+        "explanation": "月球表面分布着许多环形山，这是月球表面显著的地貌特征之一。",
         "knowledge_point": "天体特征对比",
-        "question": "月球表面高低不平的地貌结构被称为（）。",
         "options": [
           "山脉",
           "海洋",
           "环形山",
           "大峡谷"
         ],
-        "answer": "环形山",
-        "explanation": "月球表面最显著的特征是密集的环形山。"
+        "question": "月球表面高低不平的地貌结构被称为（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "中午",
         "difficulty": 2,
+        "explanation": "太阳高度角越高，影子通常越短。一天中太阳位置较高的时段在中午前后，所以影子较短。",
         "knowledge_point": "影子变化规律",
-        "question": "在阳光下，由于太阳位置的变化，影子的长度会随着时间发生变化。一天中影子最短的时间是（）。",
         "options": [
           "早晨",
           "中午",
           "傍晚",
           "深夜"
         ],
-        "answer": "中午",
-        "explanation": "太阳高度角越高，影子越短。中午太阳升得最高，所以影子最短。"
+        "question": "在阳光下，由于太阳位置的变化，影子的长度会随着时间发生变化。一天中影子最短的时间是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "由圆变缺",
         "difficulty": 2,
+        "explanation": "农历上半月，月相由缺变圆；农历下半月，月相由圆变缺。",
         "knowledge_point": "月相变化规律",
-        "question": "农历下半月的月相变化规律是（）。",
         "options": [
           "由圆变缺",
           "由缺变圆",
           "一直是半圆",
           "没有变化"
         ],
-        "answer": "由圆变缺",
-        "explanation": "农历一个月中，上半月由缺变圆，下半月由圆变缺。"
+        "question": "农历下半月的月相变化规律是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "桅杆",
         "difficulty": 2,
+        "explanation": "地球表面是弯曲的，远处驶来的船会从地平线后逐渐显现，桅杆通常先被看到。",
         "knowledge_point": "地球形状证据",
-        "question": "在海边观察进港的帆船时，最先看到的是（）。",
         "options": [
           "整只船",
           "船底",
           "桅杆",
-          "海浪"
+          "船尾"
         ],
-        "answer": "桅杆",
-        "explanation": "因为地球是球性的，进港的船先出桅杆，出港的船先匿船身。"
+        "question": "在海边观察远处驶来的帆船，通常最先看到船的哪一部分？",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "沿直线",
         "difficulty": 1,
+        "explanation": "光沿直线传播，遇到不透明物体被挡住，物体背光的一侧就会形成影子。",
         "knowledge_point": "影子变化规律",
-        "question": "影子总是在背光的一面，这说明光是（）传播的。",
         "options": [
           "曲线",
           "沿直线",
           "折射",
           "漫反射"
         ],
-        "answer": "沿直线",
-        "explanation": "光沿直线传播时被遮挡物挡住，背后形成阴影。"
+        "question": "影子总是在背光的一面，这说明光是（）传播的。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "海洋面积大",
         "difficulty": 3,
+        "explanation": "地球表面约71%是海洋，约29%是陆地，因此海洋面积比陆地面积大。",
         "knowledge_point": "海陆分布",
-        "question": "在“数格子”实验中，如果我们比较地球表面的陆地和海洋面积，结果会是（）。",
         "options": [
           "陆地面积大",
           "海洋面积大",
           "面积一样大",
           "无法判断"
         ],
-        "answer": "海洋面积大",
-        "explanation": "地球表面约71%是海洋，只有29%是陆地。"
+        "question": "在“数格子”实验中，如果我们比较地球表面的陆地和海洋面积，结果会是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "卫星",
         "difficulty": 1,
+        "explanation": "月球围绕地球运行，是地球的天然卫星。",
         "knowledge_point": "天体对比",
-        "question": "月球是地球唯一的（）。",
         "options": [
           "恒星",
           "行星",
           "卫星",
-          "星体"
+          "星系"
         ],
-        "answer": "卫星",
-        "explanation": "月球围绕行星（地球）运行，属于自然卫星。"
+        "question": "月球是地球唯一的（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "十五",
         "difficulty": 2,
+        "explanation": "满月通常出现在农历十五或十六前后，此时从地球上看，月面明亮部分较完整。",
         "knowledge_point": "月相规律",
-        "question": "我们通常在农历（）的时候能看到满月。",
         "options": [
           "初一",
           "初七",
           "十五",
           "二十"
         ],
-        "answer": "十五",
-        "explanation": "每逢农历十五或十六，太阳和月球位于地球两侧，月面全部朝向地球。"
+        "question": "我们通常在农历（）的时候能看到满月。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "方向与长度",
         "difficulty": 1,
+        "explanation": "光源的位置或照射角度改变时，光线被挡住的方向和范围会变化，因此影子的方向与长度可能发生改变。",
         "knowledge_point": "影子特征",
-        "question": "改变光源的照射角度，影子的（）会发生改变。",
         "options": [
           "方向与长度",
           "颜色",
           "虚实",
           "重量"
         ],
-        "answer": "方向与长度",
-        "explanation": "光源倾斜度影响长度，光源位置影响方向。"
+        "question": "改变光源的照射角度，影子的（）会发生改变。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "太阳太远",
         "difficulty": 3,
+        "explanation": "太阳真实大小远大于月球，但太阳距离地球也远得多，所以从地球上看，太阳和月球的视大小差不多。",
         "knowledge_point": "天体特征",
-        "question": "太阳比月亮大得多，但在地球上看它们大小差不多，这是因为（）。",
         "options": [
           "月球发光",
           "太阳太远",
           "地球在中间",
           "人类错觉"
         ],
-        "answer": "太阳太远",
-        "explanation": "近大远小的原理，太阳距离地球极远（约1.5亿千米）。"
+        "question": "太阳比月亮大得多，但在地球上看它们大小差不多，这是因为（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "圆弧形",
         "difficulty": 2,
+        "explanation": "月食时，地球挡住太阳光，影子落在月球上。观察到的影子边缘呈圆弧形，这是认识地球形状的一项证据。",
         "knowledge_point": "地球形状证据",
-        "question": "在月食时，地球投射在月球上的影子总是（）边缘。",
         "options": [
           "直线",
           "锯齿状",
           "圆弧形",
           "方形"
         ],
-        "answer": "圆弧形",
-        "explanation": "这是地球是球体的重要科学证据之一。"
+        "question": "月食时，地球投射在月球上的影子边缘通常呈什么形状？",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "海洋水",
         "difficulty": 1,
+        "explanation": "海洋覆盖地球表面的大部分，海水占地球总水量的绝大部分。",
         "knowledge_point": "水资源",
-        "question": "地球上的水主要以（）的形式存在。",
         "options": [
           "陆地水",
           "海洋水",
           "淡水",
           "雨水"
         ],
-        "answer": "海洋水",
-        "explanation": "海水占据了地球上总水量的绝大部分。"
+        "question": "地球上的水主要以（）的形式存在。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "空气",
         "difficulty": 2,
+        "explanation": "月球周围几乎没有大气，因此没有人类可以呼吸的空气。",
         "knowledge_point": "月球环境",
-        "question": "月球上没有（）。",
         "options": [
           "土地",
           "阳光",
           "引力",
           "空气"
         ],
-        "answer": "空气",
-        "explanation": "月球是一颗荒漠、真空的体。由于质量小，月球无法保留大气层。"
+        "question": "月球上没有（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "地球历史",
-        "question": "麦哲伦船队环球航行用了（）年时间，证明了地球是球形的。",
-        "options": [],
         "answer": "3",
-        "explanation": "1519-1522年期间，麦哲伦船队历经3年完成环球航行。"
-      },
-      {
-        "id": 20,
+        "difficulty": 1,
+        "explanation": "麦哲伦船队从1519年出发，1522年返回，历时约3年。",
+        "knowledge_point": "地球历史",
+        "options": [],
+        "question": "麦哲伦船队环球航行用了（）年时间，证明了地球是球形的。",
+        "score": 5,
         "type": "fill_blank",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "月球地貌",
-        "question": "月球上最高的山脉高约（）米，比珠穆朗玛峰还低一些。",
-        "options": [],
+        "id": 19
+      },
+      {
         "answer": "8000",
-        "explanation": "月球上最高的山脉近似8000米。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "影子条件",
-        "question": "影子产生的遮挡物必须是（）的物体。",
-        "options": [],
-        "answer": "不透明",
-        "explanation": "只有不透明或半透明的物体才能挡住光线产生影子。"
-      },
-      {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
+        "difficulty": 3,
+        "explanation": "月球上最高的山脉近似8000米。",
         "knowledge_point": "月球地貌",
-        "question": "月球表面阴暗的部分，实际上是平原，被称为（）。",
         "options": [],
-        "answer": "月海",
-        "explanation": "虽然叫“海”，但里面没有水，而是月面上的开阔平原。"
+        "question": "月球上最高的山脉高约（）米，比珠穆朗玛峰还低一些。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "影子工具",
-        "question": "古代人利用阳光下物体影子变化的规律制成的计时仪器叫（）。",
+        "answer": "不透明",
+        "difficulty": 1,
+        "explanation": "不透明物体能挡住光线，因此在它后方的表面上可以形成影子。",
+        "knowledge_point": "影子条件",
         "options": [],
+        "question": "影子产生的遮挡物必须是（）的物体。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
+      },
+      {
+        "answer": "月海",
+        "difficulty": 1,
+        "explanation": "虽然叫“海”，但里面没有水，而是月面上的开阔平原。",
+        "knowledge_point": "月球地貌",
+        "options": [],
+        "question": "月球表面阴暗的部分，实际上是平原，被称为（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
         "answer": "日晷",
-        "explanation": "日晷是利用日影方位计时的一种工具。"
+        "difficulty": 2,
+        "explanation": "日晷利用太阳照射下影子的方向和位置变化来判断时间。",
+        "knowledge_point": "影子工具",
+        "options": [],
+        "question": "古代人利用阳光下物体影子变化的规律制成的计时仪器叫（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "太阳是一颗恒星，能自行发光、发热；月球本身不发光，我们看到的月光主要是太阳光的反射。",
+        "knowledge_point": "天体特征对比（太阳与月球）",
+        "options": [
+          "太阳和月球都能自行发光",
+          "太阳能自行发光，月球不能",
+          "月球能自行发光，太阳不能",
+          "太阳和月球都不能发光"
+        ],
+        "question": "关于太阳和月球发光的特点，哪项说法正确？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "月球本身不发光，我们看到的月光主要是太阳光照到月球后反射来的。",
+        "knowledge_point": "天体特征对比（太阳与月球）",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "我们看到的月光主要是太阳光照到月球后反射来的。",
+        "score": 1,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "地球",
+        "difficulty": 1,
+        "explanation": "月球是地球的天然卫星，绕着地球运行。",
+        "knowledge_point": "天体特征对比（太阳与月球）",
+        "options": [],
+        "question": "月球是________的卫星。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "太阳",
+        "difficulty": 1,
+        "explanation": "太阳是一颗恒星，能自行发光、发热，为地球带来光和热。",
+        "knowledge_point": "天体特征对比（太阳与月球）",
+        "options": [],
+        "question": "能自行发光、发热的恒星是________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "月相变化不是月球本身变形，而是月球绕地球运行时，日、地、月的位置关系发生变化，我们看到的受太阳照亮部分也随之变化。",
+        "knowledge_point": "天体特征对比（太阳与月球）",
+        "options": [
+          "月球的形状每天都在改变",
+          "月球绕地球运行，我们看到的受光部分不同",
+          "月球自己发出的光忽明忽暗",
+          "太阳每天把月球切成不同形状"
+        ],
+        "question": "月亮有时像圆盘，有时像弯弯的月牙，主要是因为：",
+        "score": 1,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "太阳和月球距离地球都很远，但太阳的真实大小远大于月球；从地球上看，它们的视大小看起来相近。",
+        "difficulty": 2,
+        "explanation": "太阳的真实大小远大于月球，但太阳也比月球离地球远得多，因此从地球上看，两者的视大小看起来相近。",
+        "knowledge_point": "天体特征对比（太阳与月球）",
+        "options": [],
+        "question": "太阳和月球从地球上看起来大小相近，能否说明它们的真实大小差不多？请说明理由。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "光源、不透明物体和能接收影子的屏幕（如地面或墙面）。",
+        "difficulty": 1,
+        "explanation": "光照到不透明物体时会被挡住，在物体背光的一侧形成影子；屏幕能让影子更容易被观察到。",
+        "knowledge_point": "影子的产生条件与变化规律",
+        "options": [],
+        "question": "影子通常是怎样形成的？请写出形成影子需要的主要条件。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "相反方向",
+        "difficulty": 1,
+        "explanation": "影子形成在物体挡住光线的一侧，因此影子的方向与光源所在方向相反。",
+        "knowledge_point": "影子的产生条件与变化规律",
+        "options": [],
+        "question": "物体挡住光线后，影子出现在光源的（　　）方向。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 31
+      },
+      {
+        "answer": "√",
+        "difficulty": 1,
+        "explanation": "太阳、手电筒、台灯等都可以作为光源。只要光照到不透明物体并被挡住，就可能形成影子。",
+        "knowledge_point": "影子的产生条件与变化规律",
+        "options": [],
+        "question": "只有太阳光照射物体时才会产生影子。（　　）",
+        "score": 1,
+        "type": "true_false",
+        "id": 32
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "手电筒和物体的相对位置没有改变，所以影子的方向通常不变；物体离手电筒更近时，影子一般会变大。",
+        "knowledge_point": "影子的产生条件与变化规律",
+        "options": [
+          "A. 变大",
+          "B. 变小",
+          "C. 一定不变"
+        ],
+        "question": "手电筒的位置不变，把一个不透明玩具向手电筒移近，玩具在白纸上的影子通常会怎样变化？",
+        "score": 2,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "手电筒",
+        "difficulty": 2,
+        "explanation": "影子的方向与光源相反。影子向左，说明光源在物体的右侧。",
+        "knowledge_point": "影子的产生条件与变化规律",
+        "options": [],
+        "question": "在桌面上，影子向左延伸，光源大约在物体的哪一侧？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "物体的摆放方向会影响它挡住光线的轮廓，因此影子的形状也可能改变。",
+        "knowledge_point": "影子的产生条件与变化规律",
+        "options": [
+          "A. 影子一定完全相同",
+          "B. 影子可能改变",
+          "C. 影子一定消失"
+        ],
+        "question": "把一个长方体积木转动一个方向，再用手电筒从同一位置照射，它的影子可能会怎样？",
+        "score": 2,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "约一个月（约29.5天）。",
+        "difficulty": 1,
+        "explanation": "月相变化会按一定顺序重复出现，一个完整周期大约是29.5天。",
+        "knowledge_point": "月相变化的周期性规律",
+        "options": [],
+        "question": "月相从一种形状变化到再次出现相同形状，大约需要多长时间？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 36
+      },
+      {
+        "answer": "太阳",
+        "difficulty": 1,
+        "explanation": "月球本身不会发光，我们看到的月光是太阳光照到月球后反射来的。",
+        "knowledge_point": "月相变化的周期性规律",
+        "options": [],
+        "question": "月球本身不会发光，它反射的是____的光。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 37
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "月球绕地球运行时，我们看到它被太阳照亮部分的形状和大小发生变化，因此出现不同月相。",
+        "knowledge_point": "月相变化的周期性规律",
+        "options": [
+          "A. 地球每天都把影子投到月球上",
+          "B. 月球绕地球运行，照亮部分从地球上看起来不断变化",
+          "C. 月球每天改变自己的形状",
+          "D. 云朵把月球遮成不同形状"
+        ],
+        "question": "月相为什么会发生变化？",
+        "score": 1,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "从新月到满月，再由满月到新月，月相会按一定顺序重复，大约每29.5天完成一次循环。",
+        "knowledge_point": "月相变化的周期性规律",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "月相会按一定顺序周期性地变化。",
+        "score": 1,
+        "type": "true_false",
+        "id": 39
+      },
+      {
+        "answer": "新月—上弦月—满月—下弦月",
+        "difficulty": 2,
+        "explanation": "月相由新月逐渐变圆，到满月后再逐渐变缺，常见关键阶段依次为新月、上弦月、满月、下弦月，然后再次接近新月。",
+        "knowledge_point": "月相变化的周期性规律",
+        "options": [],
+        "question": "按月相变化的先后顺序填空：新月 → ____ → 满月 → ____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "大约29.5天。",
+        "difficulty": 2,
+        "explanation": "一个完整的月相周期约为29.5天，比30天少约半天，所以不能说每次都恰好是30天。",
+        "knowledge_point": "月相变化的周期性规律",
+        "options": [],
+        "question": "小明说：“一个月相周期一定恰好是30天。”这句话不准确。一个月相周期大约是多少天？",
+        "score": 2,
+        "type": "calculation",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "在海边观察远去的船，通常会先看不见船身，再看不见桅杆。这说明地表有弯曲，是认识地球形状的一种证据。",
+        "knowledge_point": "地球形状的认知证据",
+        "options": [
+          "船身先消失，桅杆后消失",
+          "桅杆先消失，船身后消失",
+          "船的颜色逐渐改变",
+          "船一直完整可见"
+        ],
+        "question": "在海边观察一艘船逐渐驶向远方，通常会先看不见什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "地球不是完全平坦的。远处船只下部先被遮住等现象，说明地表有弯曲。",
+        "knowledge_point": "地球形状的认知证据",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "地球表面是完全平坦的，所以远去的船会从上到下逐渐变小。",
+        "score": 1,
+        "type": "true_false",
+        "id": 43
+      },
+      {
+        "answer": "圆",
+        "difficulty": 1,
+        "explanation": "月食时，地球挡住阳光并在月球上形成影子。观察到的影子边缘呈圆弧，是支持地球接近球形的证据之一。",
+        "knowledge_point": "地球形状的认知证据",
+        "options": [],
+        "question": "月食时，地球投在月球上的影子边缘通常呈______形。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 44
+      },
+      {
+        "answer": "地球接近球形。",
+        "difficulty": 2,
+        "explanation": "如果地球表面大致是平的，船只远去时不应总是下部先被地面遮住。船身先消失、桅杆后消失，说明地表有弯曲，支持地球接近球形的认识。",
+        "knowledge_point": "地球形状的认知证据",
+        "options": [],
+        "question": "小明观察到远去的船先看不见船身，后来才看不见桅杆。这一现象支持什么认识？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "例如：人们乘船不断向一个方向航行，最后回到了出发地点。这说明地球表面是弯曲并连成一体的，支持地球接近球形。",
+        "difficulty": 2,
+        "explanation": "环球航行可以沿着地球表面绕行，并回到出发地点，是人们认识地球形状的一种证据。回答说出这一现象及它支持的认识即可。",
+        "knowledge_point": "地球形状的认知证据",
+        "options": [],
+        "question": "请写出一种与远去船只或月食不同的、能帮助人们认识地球形状的证据，并说明它支持什么认识。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "两极略扁、赤道略鼓",
+        "difficulty": 2,
+        "explanation": "地球整体接近球体，但并非完美的正球体：两极稍扁，赤道稍鼓。",
+        "knowledge_point": "地球形状的认知证据",
+        "options": [],
+        "question": "地球接近球体，但并非完美的正球体。它的形状特点是______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "地球表面有海洋和陆地，海洋面积大约占71%，陆地大约占29%，所以海洋面积更大。",
+        "knowledge_point": "地球表面的海陆分布",
+        "options": [
+          "陆地面积比海洋大",
+          "海洋面积比陆地大",
+          "陆地和海洋面积一样大",
+          "地球表面全是陆地"
+        ],
+        "question": "地球表面，海洋和陆地哪一部分面积更大？",
+        "score": 1,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "海洋约占地球表面积的71%，陆地约占29%，海洋面积大约是陆地面积的2.4倍。",
+        "knowledge_point": "地球表面的海陆分布",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "地球表面的海洋面积大约是陆地面积的两倍多。",
+        "score": 1,
+        "type": "true_false",
+        "id": 49
+      },
+      {
+        "answer": "海洋",
+        "difficulty": 1,
+        "explanation": "地球表面大约有71%被海洋覆盖，因此从太空看，地球呈现出蓝色。",
+        "knowledge_point": "地球表面的海陆分布",
+        "options": [],
+        "question": "地球表面约有71%被______覆盖。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "约71%",
+        "difficulty": 2,
+        "explanation": "海洋约占71%，陆地约占29%，两者合计约为100%。",
+        "knowledge_point": "地球表面的海陆分布",
+        "options": [],
+        "question": "地球表面陆地约占29%，那么海洋约占地球表面积的多少？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "岛屿",
+        "difficulty": 2,
+        "explanation": "岛屿是四面被海水包围的陆地。较大的陆地称为大陆。",
+        "knowledge_point": "地球表面的海陆分布",
+        "options": [],
+        "question": "四面被海水包围的陆地叫作______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "地球上的海洋彼此连通，构成广阔的水域；陆地则包括大陆和岛屿。A、B都把海洋和陆地的关系说错了。",
+        "knowledge_point": "地球表面的海陆分布",
+        "options": [
+          "海洋彼此完全隔开，互不相连",
+          "地球表面只有陆地，没有海洋",
+          "海洋彼此连通，陆地包括大陆和岛屿",
+          "所有陆地都是四面被海水包围的岛屿"
+        ],
+        "question": "下面关于地球表面海陆分布的说法，正确的是哪一项？",
+        "score": 1,
+        "type": "choice",
+        "id": 53
+      },
+      {
+        "answer": "月球",
+        "difficulty": 1,
+        "explanation": "月球是地球的天然卫星，围绕地球运动。",
+        "knowledge_point": "天体特征对比",
+        "options": [
+          "太阳",
+          "地球",
+          "月球",
+          "火星"
+        ],
+        "question": "围绕地球运动的天然卫星是（）。",
+        "score": 2,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "地球是一颗行星，自己不能像太阳那样发光；我们看到的地球亮面是反射太阳光形成的。",
+        "knowledge_point": "天体特征对比",
+        "options": [],
+        "question": "地球和太阳一样，能自己发光。",
+        "score": 2,
+        "type": "true_false",
+        "id": 55
+      },
+      {
+        "answer": "地球",
+        "difficulty": 1,
+        "explanation": "地球围绕太阳运动，是太阳系中的一颗行星。",
+        "knowledge_point": "天体特征对比",
+        "options": [],
+        "question": "围绕太阳运动、也有空气和液态水的行星是____。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 56
+      },
+      {
+        "answer": "太阳",
+        "difficulty": 1,
+        "explanation": "太阳是一颗恒星，能自己发光发热；月球和地球都不能像太阳那样自己发光。",
+        "knowledge_point": "天体特征对比",
+        "options": [],
+        "question": "太阳、地球和月球中，能自己发光发热的是____。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 57
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "地球整体看起来像一个球，但并非绝对规则的正球体，所以说地球整体近似球体。",
+        "knowledge_point": "地球形状的认知",
+        "options": [
+          "A. 地球是平的",
+          "B. 地球整体近似球体",
+          "C. 地球是正方体"
+        ],
+        "question": "地球整体的形状最接近下面哪一种？",
+        "score": 2,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "月食时，地球挡住太阳光，在月球上形成的影子边缘呈弧形，这是认识地球形状的一种证据。",
+        "knowledge_point": "地球形状的认知",
+        "options": [],
+        "question": "月食时，地球投在月球上的影子边缘呈弧形，这可以作为认识地球形状的证据。",
+        "score": 2,
+        "type": "true_false",
+        "id": 59
+      },
+      {
+        "answer": "船桅（或船的上部）",
+        "difficulty": 2,
+        "explanation": "在合适的观察条件下，远处的船驶近时，通常先看到较高的船桅或船的上部，再看到船身。这是认识地球表面弯曲的一种证据。",
+        "knowledge_point": "地球形状的认知",
+        "options": [],
+        "question": "远处的一艘船驶向岸边时，我们通常先看到船的________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 60
+      },
+      {
+        "answer": "地球整体近似球体。",
+        "difficulty": 1,
+        "explanation": "这是对地球整体形状的科学描述。地球表面有高山、海洋等起伏，因此不是完美的正球体。",
+        "knowledge_point": "地球形状的认知",
+        "options": [],
+        "question": "填空：地球整体的形状________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "人造卫星或宇航员从太空拍摄的地球照片",
+        "difficulty": 2,
+        "explanation": "从太空拍摄的照片能呈现地球整体的样子，帮助人们直观地认识到地球整体近似球体。",
+        "knowledge_point": "地球形状的认知",
+        "options": [],
+        "question": "请写出一种能帮助人们直观看到地球整体形状的证据。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "光源、遮挡物和屏",
+        "difficulty": 1,
+        "explanation": "光源发出光，遮挡物挡住部分光，屏接收影子，三者配合才能看到影子。",
+        "knowledge_point": "影子的产生条件",
+        "options": [],
+        "question": "看到影子通常需要哪三样东西？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "手电筒是光源，玩具能遮挡光线，墙面可以接收影子。",
+        "knowledge_point": "影子的产生条件",
+        "options": [
+          "A. 手电筒、玩具和墙面",
+          "B. 玩具、书本和水杯",
+          "C. 阳光、草地和空气"
+        ],
+        "question": "用手电筒照出玩具的影子，下面哪组物品能满足产生影子的条件？",
+        "score": 2,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "光线被遮挡后，还需要有表面接收影子，才能看到影子。",
+        "knowledge_point": "影子的产生条件",
+        "options": [],
+        "question": "有光源和遮挡物，就一定能在任何地方看到影子，不需要屏。",
+        "score": 2,
+        "type": "true_false",
+        "id": 65
+      },
+      {
+        "answer": "遮挡物",
+        "difficulty": 2,
+        "explanation": "物体挡住光线后，光照不到的区域会在屏上形成影子。",
+        "knowledge_point": "影子的产生条件",
+        "options": [],
+        "question": "光从手电筒照向墙面时，放入一个不透明的物体挡住部分光线。这个物体叫作什么？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "当遮挡物位于光源和屏之间时，它会挡住部分光线，屏上就能形成影子。",
+        "knowledge_point": "影子的产生条件",
+        "options": [
+          "A. 屏在光源和遮挡物之间",
+          "B. 遮挡物在光源和屏之间",
+          "C. 光源、遮挡物和屏随意摆放"
+        ],
+        "question": "想让屏上出现物体的影子，光源、遮挡物和屏通常怎样排列？",
+        "score": 2,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "由缺变圆",
+        "difficulty": 1,
+        "explanation": "农历上半月，月球被照亮的部分看起来逐渐增多，月相由缺变圆。",
+        "knowledge_point": "月相变化规律",
+        "options": [],
+        "question": "填空：农历上半月，月相一般是由____变圆。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 68
+      },
+      {
+        "answer": "满月",
+        "difficulty": 1,
+        "explanation": "满月时，从地球上看到的月球明亮部分接近圆形。",
+        "knowledge_point": "月相变化规律",
+        "options": [
+          "新月",
+          "上弦月",
+          "满月",
+          "蛾眉月"
+        ],
+        "question": "月亮看起来又圆又亮时，这种月相通常叫作（）。",
+        "score": 2,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "新月（或几乎看不见月亮）",
+        "difficulty": 2,
+        "explanation": "月相周期中，满月之后月亮逐渐变缺，最后到达新月，之后又开始由缺变圆。",
+        "knowledge_point": "月相变化规律",
+        "options": [],
+        "question": "填空：满月之后，月相会逐渐变缺，最后到达____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "月球绕地球运动时，我们看到的月球被太阳照亮的部分会发生变化，所以月相看起来也会变化。",
+        "difficulty": 2,
+        "explanation": "月球本身不会发光，太阳照亮月球的一半。月球绕地球运动时，地球上观察到的明亮部分形状会改变，形成有规律的月相变化。",
+        "knowledge_point": "月相变化规律",
+        "options": [],
+        "question": "为什么我们看到的月亮有时像弯弯的月牙，有时又像圆盘？",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 71
+      },
+      {
+        "answer": "海洋",
+        "difficulty": 1,
+        "explanation": "地球表面大部分被海洋覆盖，海洋约占地球表面的71%。",
+        "knowledge_point": "海陆分布",
+        "options": [],
+        "question": "地球表面面积较大的一部分是（　　）。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 72
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "地球表面既有海洋，也有陆地；海洋面积比陆地面积大。",
+        "knowledge_point": "海陆分布",
+        "options": [],
+        "question": "地球表面只有海洋，没有陆地。",
+        "score": 2,
+        "type": "true_false",
+        "id": 73
+      },
+      {
+        "answer": "海洋",
+        "difficulty": 2,
+        "explanation": "观察地球仪时，通常可以用蓝色部分表示海洋，用其他颜色表示陆地。",
+        "knowledge_point": "海陆分布",
+        "options": [
+          "海洋",
+          "陆地",
+          "山脉",
+          "沙漠"
+        ],
+        "question": "地球仪上通常用蓝色表示（　　）。",
+        "score": 3,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "29",
+        "difficulty": 3,
+        "explanation": "地球表面约71%是海洋，约29%是陆地，因此陆地约占地球表面的29%。",
+        "knowledge_point": "海陆分布",
+        "options": [],
+        "question": "地球表面的陆地面积约占地球表面的（　　）%。",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 75
+      },
+      {
+        "answer": "相反",
+        "difficulty": 1,
+        "explanation": "影子出现在物体背向光源的一侧，因此影子的方向和光源所在方向相反。",
+        "knowledge_point": "影子变化规律",
+        "options": [
+          "相同",
+          "相反",
+          "总是向北",
+          "总是向南"
+        ],
+        "question": "光源在物体的东边时，物体的影子通常在（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "√",
+        "difficulty": 1,
+        "explanation": "早晨太阳位置较低，物体的影子通常比较长。",
+        "knowledge_point": "影子变化规律",
+        "options": [
+          "√",
+          "×"
+        ],
+        "question": "阳光下，早晨的影子通常比中午的影子长。",
+        "score": 5,
+        "type": "true_false",
+        "id": 77
+      },
+      {
+        "answer": "长度",
+        "difficulty": 1,
+        "explanation": "观察并记录影子的长度，可以发现太阳位置变化时影子长短也会发生变化。",
+        "knowledge_point": "影子变化规律",
+        "options": [],
+        "question": "用尺子测量并记录影子的________，可以比较不同时段影子的长短。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 78
+      },
+      {
+        "answer": "太阳位置变化时，影子的方向和长度也会变化；太阳位置较高时，影子通常较短。",
+        "difficulty": 2,
+        "explanation": "影子由光被物体挡住形成。一天中太阳在天空中的位置不断变化，因此影子的方向和长度会随之变化。太阳位置较高时，光照较接近从上方照射，影子通常较短。",
+        "knowledge_point": "影子变化规律",
+        "options": [],
+        "question": "晴天里，同一根固定的旗杆从早晨到中午，影子的方向和长度会怎样变化？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 79
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "远处驶来的船通常先露出桅杆，驶远时则通常先看不见船身，这与地球表面弯曲有关。",
+        "knowledge_point": "地球形状证据",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "远处驶来的船，通常是桅杆先出现在地平线上。",
+        "score": 5,
+        "type": "true_false",
+        "id": 80
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "地球整体近似球体，不是平平的一张大圆盘。",
+        "knowledge_point": "地球形状证据",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "地球整体是平平的圆盘形。",
+        "score": 5,
+        "type": "true_false",
+        "id": 81
+      },
+      {
+        "answer": "球",
+        "difficulty": 1,
+        "explanation": "地球整体近似球体，但并不是完全规则的正球体。",
+        "knowledge_point": "地球形状证据",
+        "options": [],
+        "question": "地球整体的形状近似于一个（　　）体。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 82
+      },
+      {
+        "answer": "圆弧",
+        "difficulty": 2,
+        "explanation": "月食时，地球在月球上形成的影子边缘呈圆弧形，可作为地球整体近似球体的证据。",
+        "knowledge_point": "地球形状证据",
+        "options": [],
+        "question": "月食时，地球投在月球上的影子边缘呈（　　）形。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "恒星",
+        "difficulty": 1,
+        "explanation": "太阳能够自己发光、发热，因此属于恒星。",
+        "knowledge_point": "天体对比",
+        "options": [
+          "恒星",
+          "行星",
+          "卫星",
+          "彗星"
+        ],
+        "question": "太阳属于哪一类天体？",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "行星",
+        "difficulty": 1,
+        "explanation": "地球围绕太阳运行，属于行星。",
+        "knowledge_point": "天体对比",
+        "options": [
+          "恒星",
+          "行星",
+          "卫星",
+          "流星"
+        ],
+        "question": "地球围绕太阳运行，地球属于（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "恒星能自己发光，行星通常依靠反射恒星的光被看见。",
+        "knowledge_point": "天体对比",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "恒星能自己发光，行星通常不能自己发光。",
+        "score": 5,
+        "type": "true_false",
+        "id": 86
+      },
+      {
+        "answer": "太阳",
+        "difficulty": 2,
+        "explanation": "地球围绕太阳运行，太阳是地球所属的恒星。",
+        "knowledge_point": "天体对比",
+        "options": [],
+        "question": "地球围绕哪颗恒星运行？",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 87
+      },
+      {
+        "answer": "恒星、行星、卫星",
+        "difficulty": 2,
+        "explanation": "太阳是恒星，地球是围绕太阳运行的行星，月球是围绕地球运行的卫星。",
+        "knowledge_point": "天体对比",
+        "options": [],
+        "question": "把太阳、地球、月球按顺序填入相应类别：太阳是____，地球是____，月球是____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 88
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "月球本身不发光，我们看到的月光是太阳光照到月球后反射来的光。",
+        "knowledge_point": "月相规律",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "月球本身不会发光，我们看到的月光主要是太阳光照射到月球后反射来的。",
+        "score": 5,
+        "type": "true_false",
+        "id": 89
+      },
+      {
+        "answer": "新月",
+        "difficulty": 1,
+        "explanation": "农历初一前后，月球位于地球与太阳之间附近，从地球上较难看到明亮的月面，这时的月相称为新月。",
+        "knowledge_point": "月相规律",
+        "options": [],
+        "question": "农历初一前后通常出现的月相叫作（）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 90
+      },
+      {
+        "answer": "新月→上弦月→满月→下弦月→新月",
+        "difficulty": 2,
+        "explanation": "月球绕地球运动时，我们看到的明亮部分形状依次变化，之后又回到新月，形成循环。",
+        "knowledge_point": "月相规律",
+        "options": [],
+        "question": "请按变化先后写出月相的大致顺序：新月、满月、下弦月、上弦月。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 91
+      },
+      {
+        "answer": "约一个月",
+        "difficulty": 2,
+        "explanation": "月相从新月变化一周多到上弦月，再到满月、下弦月，随后回到新月，整个循环约一个月。",
+        "knowledge_point": "月相规律",
+        "options": [],
+        "question": "月相从新月开始变化，再回到新月，大约需要（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "月相变化是月球绕地球运动时，太阳照亮的月球部分相对于地球的方向不断变化造成的；不是月球形状真的改变，也不是地球影子遮住了月球。",
+        "difficulty": 3,
+        "explanation": "月球始终近似球形，太阳照亮月球的一半；月球绕地球运动时，我们从地球上看到的明亮部分范围不同，因此月相会变化。地球影子遮挡月球是月食，不是平常的月相变化。",
+        "knowledge_point": "月相规律",
+        "options": [],
+        "question": "为什么月亮看起来会有不同的形状？请简单说明。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "光被物体挡住",
+        "difficulty": 1,
+        "explanation": "影子是光照射时被不透明物体挡住后形成的较暗区域。",
+        "knowledge_point": "影子特征",
+        "options": [],
+        "question": "影子形成的主要原因是光被物体（）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 94
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "影子不是物体本身，也没有重量；它是光被挡住后形成的较暗区域。",
+        "knowledge_point": "影子特征",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "影子是一个有重量的物体。（）",
+        "score": 5,
+        "type": "true_false",
+        "id": 95
+      },
+      {
+        "answer": "光源在物体左边，影子通常出现在物体的右边。",
+        "difficulty": 2,
+        "explanation": "影子通常出现在物体背向光源的一侧。光源从左边照来时，物体挡住光，右侧较容易形成影子。",
+        "knowledge_point": "影子特征",
+        "options": [],
+        "question": "光源在物体左边照射时，影子通常出现在物体的哪一边？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 96
+      },
+      {
+        "answer": "变长",
+        "difficulty": 2,
+        "explanation": "光源较低时，光线斜着照向物体，影子通常会变长；实际观察时还要注意物体和接收影子的表面位置。",
+        "knowledge_point": "影子特征",
+        "options": [],
+        "question": "保持物体不动，把手电筒从较高处移到较低处照射，影子通常会（）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 97
+      },
+      {
+        "answer": "物体的形状",
+        "difficulty": 2,
+        "explanation": "影子的形状通常与挡光物体的外形有关。物体转动或光源位置改变时，影子的形状也可能随之改变。",
+        "knowledge_point": "影子特征",
+        "options": [],
+        "question": "在光源和物体位置合适时，影子的形状通常与（）有关。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 98
+      },
+      {
+        "answer": "太阳",
+        "difficulty": 1,
+        "explanation": "太阳能自己发光、发热，是一颗恒星。",
+        "knowledge_point": "天体特征",
+        "options": [
+          "太阳",
+          "月球",
+          "地球",
+          "彗星"
+        ],
+        "question": "下面哪种天体能够自己发光、发热？（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "月球本身不会像太阳那样发光，我们看到的月光主要是月球反射的太阳光。",
+        "knowledge_point": "天体特征",
+        "options": [],
+        "question": "月球看起来明亮，是因为它能像太阳一样自己发光。对还是错？",
+        "score": 5,
+        "type": "true_false",
+        "id": 100
+      },
+      {
+        "answer": "距离",
+        "difficulty": 2,
+        "explanation": "同一个物体离我们越远，看起来通常越小。天体看起来的大小与它离观察者的距离有关。",
+        "knowledge_point": "天体特征",
+        "options": [],
+        "question": "同样大小的物体，离我们越远，看起来通常越小。天体看起来的大小与它和观察者之间的什么有关？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "月球",
+        "difficulty": 2,
+        "explanation": "月球是地球的天然卫星，它绕着地球运动。",
+        "knowledge_point": "天体特征",
+        "options": [],
+        "question": "地球的天然卫星是（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 102
+      },
+      {
+        "answer": "太阳光太强，星星的光被衬得不明显",
+        "difficulty": 3,
+        "explanation": "星星白天仍然在天空中，但太阳光照亮了天空，使星星的光不容易被我们看见。",
+        "knowledge_point": "天体特征",
+        "options": [],
+        "question": "白天通常看不见星星，简单说说这是为什么。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 103
+      },
+      {
+        "answer": "含盐较多，不能直接饮用",
+        "difficulty": 1,
+        "explanation": "海水是咸水，含有较多盐分，通常不能直接饮用。",
+        "knowledge_point": "水资源",
+        "options": [
+          "含盐较多，不能直接饮用",
+          "都是纯净水，可以直接饮用",
+          "全都储存在地下",
+          "比淡水更适合饮用"
+        ],
+        "question": "海水的主要特点是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "河流和湖泊中的水",
+        "difficulty": 1,
+        "explanation": "河水、湖水通常属于淡水，是人们生活和生产用水的重要来源。",
+        "knowledge_point": "水资源",
+        "options": [
+          "海洋里的水",
+          "河流和湖泊中的水",
+          "咸水湖中的水",
+          "含盐很多的海水"
+        ],
+        "question": "下面哪一种通常属于淡水资源？",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "地球上的水虽然很多，但海洋水占大部分，含盐较多，不能直接饮用；可供人们利用的淡水资源有限，因此不能不加节制地使用。",
+        "knowledge_point": "水资源",
+        "options": [],
+        "question": "地球上的水很多，所以人们可以不加节制地使用淡水。（判断正误）",
+        "score": 5,
+        "type": "true_false",
+        "id": 106
+      },
+      {
+        "answer": "关紧水龙头",
+        "difficulty": 1,
+        "explanation": "用完水及时关紧水龙头，可以减少不必要的浪费。",
+        "knowledge_point": "水资源",
+        "options": [],
+        "question": "洗手后要及时（）水龙头。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 107
+      },
+      {
+        "answer": "不向河流、湖泊倾倒垃圾和污水",
+        "difficulty": 2,
+        "explanation": "垃圾和污水会污染水源。保护水资源不仅要节约用水，也要避免污染河流和湖泊。",
+        "knowledge_point": "水资源",
+        "options": [],
+        "question": "写出一种保护水资源的做法。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 108
+      },
+      {
+        "answer": "有",
+        "difficulty": 1,
+        "explanation": "月球有引力，只是引力比地球小。",
+        "knowledge_point": "月球环境",
+        "options": [],
+        "question": "月球有引力吗？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "阳光",
+        "difficulty": 1,
+        "explanation": "太阳光可以照到月球表面，所以月球并不是没有阳光。",
+        "knowledge_point": "月球环境",
+        "options": [],
+        "question": "月球表面能被什么照亮？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "岩石和尘土",
+        "difficulty": 2,
+        "explanation": "月球表面有岩石和尘土，但没有地球上那样的土壤和植物。",
+        "knowledge_point": "月球环境",
+        "options": [
+          "岩石和尘土",
+          "森林和草地",
+          "河流和湖泊",
+          "大片海洋"
+        ],
+        "question": "月球表面常见的地形物质是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 111
+      },
+      {
+        "answer": "没有可供呼吸的空气",
+        "difficulty": 2,
+        "explanation": "月球几乎没有大气，人类不能不穿宇航服直接呼吸。",
+        "knowledge_point": "月球环境",
+        "options": [],
+        "question": "人到月球表面活动时，为什么要穿宇航服？请写出一个原因。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "昼夜温差很大",
+        "difficulty": 3,
+        "explanation": "月球缺少大气调节和保持热量，因此白天和夜晚的表面温度相差很大。",
+        "knowledge_point": "月球环境",
+        "options": [
+          "昼夜温差很大",
+          "全年温度都一样",
+          "夜晚一定比白天暖和",
+          "没有昼夜变化"
+        ],
+        "question": "月球表面没有大气调节温度，可能会出现什么现象？",
+        "score": 5,
+        "type": "choice",
+        "id": 113
+      },
+      {
+        "answer": "约46亿年",
+        "difficulty": 1,
+        "explanation": "科学家根据对地球岩石等证据的研究，推测地球形成于约46亿年前。",
+        "knowledge_point": "地球历史",
+        "options": [],
+        "question": "地球大约有（）年的历史。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 114
+      },
+      {
+        "answer": "化石",
+        "difficulty": 1,
+        "explanation": "化石是古代生物留下的遗迹或遗体，是研究古代生命的重要线索。",
+        "knowledge_point": "地球历史",
+        "options": [],
+        "question": "科学家可以通过研究古代生物留下的（）来了解过去的生命。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 115
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "地球历史非常漫长，地表环境和生命都在不断变化。",
+        "knowledge_point": "地球历史",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "地球形成以后，地表环境和生命一直没有变化。",
+        "score": 5,
+        "type": "true_false",
+        "id": 116
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "麦哲伦船队持续向前航行，最终回到出发地，说明地球表面是弯曲相连的，为认识地球是球形提供了证据。",
+        "knowledge_point": "地球历史",
+        "options": [
+          "A. 船队航行几天后停在原地",
+          "B. 船队沿着一个方向航行，最后回到出发地",
+          "C. 船员看到海面上没有岛屿"
+        ],
+        "question": "麦哲伦船队完成环球航行，最能说明什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 117
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "岩石和化石能够保存地球过去的线索，科学家可以研究它们来了解地球和生命的历史。",
+        "knowledge_point": "地球历史",
+        "options": [
+          "A. 只观察今天的天气",
+          "B. 研究岩石和化石",
+          "C. 只观察植物的颜色"
+        ],
+        "question": "科学家想了解很久以前的地球和生命，下面哪种做法最有帮助？",
+        "score": 5,
+        "type": "choice",
+        "id": 118
+      },
+      {
+        "answer": "环形山",
+        "difficulty": 1,
+        "explanation": "环形山是月球表面常见的圆形凹坑，形状像一座环状的山。",
+        "knowledge_point": "月球地貌",
+        "options": [],
+        "question": "月球表面有许多圆形凹坑，通常称为（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "月海只是名称，实际是月球表面的平原，并没有海水。",
+        "knowledge_point": "月球地貌",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "月海里有很多水，所以看起来比较暗。",
+        "score": 5,
+        "type": "true_false",
+        "id": 120
+      },
+      {
+        "answer": "较亮",
+        "difficulty": 2,
+        "explanation": "月球上的高地通常比月海明亮，在月面照片上常显得颜色更浅。",
+        "knowledge_point": "月球地貌",
+        "options": [],
+        "question": "和月海相比，月球高地在月面照片上通常显得（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "陨石等撞击",
+        "difficulty": 2,
+        "explanation": "月球上的许多环形山是陨石等天体撞击月面形成的。",
+        "knowledge_point": "月球地貌",
+        "options": [],
+        "question": "月球表面许多环形山主要是由什么形成的？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "光源",
+        "difficulty": 1,
+        "explanation": "没有光照，就没有光线被遮挡，也就不能形成影子。",
+        "knowledge_point": "影子条件",
+        "options": [],
+        "question": "形成影子需要有（）发出光线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "光线照射到不透明物体时会被挡住；如果物体后方有表面，就可能出现影子。",
+        "knowledge_point": "影子条件",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "不透明物体挡住光线后，可能在它后面的地面或屏幕上形成影子。",
+        "score": 5,
+        "type": "true_false",
+        "id": 124
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "透明玻璃能让大部分光线通过，通常不会形成清晰的影子；不透明物体更容易形成明显的影子。",
+        "knowledge_point": "影子条件",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "透明玻璃挡住了全部光线，所以通常能形成清晰的影子。",
+        "score": 5,
+        "type": "true_false",
+        "id": 125
+      },
+      {
+        "answer": "屏幕",
+        "difficulty": 2,
+        "explanation": "光源提供光线，不透明物体挡住部分光线，屏幕或地面等表面接收影子。",
+        "knowledge_point": "影子条件",
+        "options": [],
+        "question": "影子通常出现在遮挡物后方的地面、墙面或（）上。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "光源、遮挡物、白纸",
+        "difficulty": 2,
+        "explanation": "手电筒提供光线，积木挡住光线，白纸接收影子，三者配合就能观察到影子。",
+        "knowledge_point": "影子条件",
+        "options": [],
+        "question": "用手电筒、积木和白纸做影子实验时，手电筒、积木和白纸分别充当什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "光被不透明物体挡住",
+        "difficulty": 1,
+        "explanation": "光沿直线传播时遇到不透明物体，会被挡住，因此在物体背光的一侧形成较暗的影子。",
+        "knowledge_point": "影子工具",
+        "options": [],
+        "question": "影子是因为光被（）而形成的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "影子",
+        "difficulty": 1,
+        "explanation": "不透明物体挡住光后，背光一侧会出现较暗的区域，这就是影子。",
+        "knowledge_point": "影子工具",
+        "options": [],
+        "question": "光照到不透明物体时，物体背光的一侧会出现（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "影子的方向通常与光源所在方向相反",
+        "difficulty": 2,
+        "explanation": "物体挡住光后，影子出现在背光的一侧，因此影子的方向通常与光源所在方向相反。",
+        "knowledge_point": "影子工具",
+        "options": [],
+        "question": "请说一说影子的方向和光源方向通常有什么关系。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "影子的大小会变化",
+        "difficulty": 2,
+        "explanation": "改变光源、物体或屏幕之间的位置，影子可能变大或变小。",
+        "knowledge_point": "影子工具",
+        "options": [],
+        "question": "把手电筒靠近一个物体，观察物体在屏幕上的影子，影子的大小可能会怎样？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 131
+      },
+      {
+        "answer": "太阳位置变化，影子的位置和方向也会变化",
+        "difficulty": 3,
+        "explanation": "太阳在天空中的位置会随着时间变化，地面上物体影子的位置和方向也会随之变化。日晷正是利用这种规律计时。",
+        "knowledge_point": "影子工具",
+        "options": [],
+        "question": "日晷为什么能用来判断时间？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
       }
     ]
   },
@@ -692,6 +2046,247 @@
         "误以为地球表面全是陆地"
       ],
       "tips": "月食时的圆弧影、航行的小船、卫星照片是地球是球体的三大铁证。"
+    },
+    {
+      "common_mistakes": [
+        "误以为太阳和月球都是会发光的恒星。",
+        "误以为月球的形状变化是月球本身在变形。",
+        "把太阳和月球的大小、距离与我们看到的视大小混为一谈。"
+      ],
+      "core_concept": "太阳是一颗恒星，能自己发光、发热；月球是地球的卫星，本身不发光，我们看到的月光主要是太阳光照到月球后反射来的。太阳和月球的真实大小、与地球的距离都不同，但从地球上看，它们在天空中的视大小看起来相近。月球绕地球运行，随着日、地、月相对位置变化，我们看到被太阳照亮的月球部分不同，因此月相会变化。",
+      "key_formula": "太阳：恒星，能自行发光发热；月球：地球的卫星，本身不发光，反射太阳光。",
+      "point": "天体特征对比（太阳与月球）",
+      "tips": "观察时可比较太阳和月球是否能自行发光、它们与地球的关系以及外观变化。观察太阳必须使用专用的安全观测设备，不能直接用眼睛看，也不要通过普通望远镜直视太阳。"
+    },
+    {
+      "common_mistakes": [
+        "认为只有太阳光才能产生影子；手电筒等光源也能产生影子。",
+        "认为透明物体一定会形成清晰的影子；透明物体通常只形成较淡的影子。",
+        "认为影子总在物体的同一侧；影子会出现在光源相反的一侧。"
+      ],
+      "core_concept": "光沿直线传播。光照到不透明物体时，物体挡住一部分光，在它背光的一侧就会形成影子。影子的方向、大小和形状会随光源和物体的位置、距离及摆放方式发生变化。",
+      "key_formula": "影子出现在光源的相反方向；光源、物体和影子大致在一条直线上。",
+      "point": "影子的产生条件与变化规律",
+      "tips": "可以用手电筒、纸杯和白纸做实验：移动手电筒，观察影子的方向和大小；改变纸杯的摆放方向，观察影子形状。实验时不要用强光照射眼睛。"
+    },
+    {
+      "common_mistakes": [
+        "认为月亮本身会发光；其实我们看到的是它反射的太阳光。",
+        "认为月相变化是地球的影子遮住月亮造成的；月相主要由太阳、地球和月球的相对位置变化形成。",
+        "认为月相每天都一样，或每月变化没有规律。"
+      ],
+      "core_concept": "月球绕地球运行时，太阳照亮的半个月球始终朝向太阳。我们从地球上看到被照亮部分的多少和形状会发生变化，这就是月相变化。月相按一定顺序重复出现，大约29.5天完成一个周期。",
+      "key_formula": "一个月相变化周期约为29.5天，通常说约一个月。",
+      "point": "月相变化的周期性规律",
+      "tips": "可以连续多天在差不多的时间观察月亮并记录形状。月相通常按“新月—娥眉月—上弦月—盈凸月—满月—亏凸月—下弦月—残月”的顺序变化，再进入下一个周期。农历日期与月相有大致对应关系，但月相变化的周期约为29.5天，并不等于固定的30天。"
+    },
+    {
+      "common_mistakes": [
+        "把地球看成一个完全规则的圆球；实际的地球在两极略扁、赤道略鼓。",
+        "认为只凭一种现象就能证明地球的形状；多种观察结果相互印证，结论更可靠。",
+        "误以为远去的船是整个一下子消失；通常先看不见船身，再看不见桅杆或上部。"
+      ],
+      "core_concept": "地球是一个接近球体的天体。人们通过观察远去的船、月食时地球投在月球上的影子，以及不同地点看到的星空等现象，逐步认识到地球的形状。地球并非完美的圆球，而是一个两极稍扁、赤道稍鼓的球体。",
+      "key_formula": "无",
+      "point": "地球形状的认知证据",
+      "tips": "判断地球形状时，可以把几种证据联系起来：远处船只先从下部消失，说明地表有弯曲；月食时地球投在月球上的影子边缘呈圆弧，支持地球接近球形；人们还能通过环球航行回到出发地点。观察现象时要注意描述清楚，并避免把单一证据说成唯一证明。"
+    },
+    {
+      "common_mistakes": [
+        "误以为地球表面海洋和陆地面积一样大。",
+        "把地图上的蓝色区域当作全部都是海洋，忽略河流、湖泊等水域。",
+        "认为陆地彼此完全分开；实际上许多陆地连在一起，形成大陆。"
+      ],
+      "core_concept": "地球表面由海洋和陆地组成，海洋面积比陆地面积大，约占地球表面积的71%；陆地约占29%。陆地包括大陆和岛屿，海洋之间相互连通。",
+      "key_formula": "海洋约占地球表面积的71%，陆地约占29%；海洋面积约为陆地面积的2.4倍。",
+      "point": "地球表面的海陆分布",
+      "tips": "观察地球仪或世界地图时，通常用蓝色表示海洋，用其他颜色表示陆地。可以先整体比较海洋和陆地的面积，再找一找大陆、岛屿和海洋的位置。地球表面的海陆分布并不均匀，但无论从哪里观察，海洋总面积都大于陆地总面积。"
+    },
+    {
+      "common_mistakes": [
+        "认为月球会自己发光；实际上月光主要是月球反射的太阳光。",
+        "把月球表面的暗色区域误认为有水的海洋；月海是月球表面的地形名称，并不是真正的海洋。",
+        "认为所有天体大小相同、运动方式也相同。"
+      ],
+      "core_concept": "太阳、地球和月球都是天体，但它们的特征不同：太阳是一颗恒星，能自己发光发热；地球是一颗行星，绕太阳运动，也有空气和液态水；月球是地球的天然卫星，绕地球运动，本身不发光，我们看到的月光主要来自太阳光的反射。月球表面有许多环形山。",
+      "key_formula": "辨认天体特征：是否能自己发光；绕什么天体运动；有哪些显著表面特征。",
+      "point": "天体特征对比",
+      "tips": "观察或比较天体时，可从发光情况、运动关系和表面特征入手。记住：太阳能自己发光，地球绕太阳运动，月球绕地球运动；月球表面的环形山是常见地貌。"
+    },
+    {
+      "common_mistakes": [
+        "把地球说成绝对规则的圆球；更准确地说，地球整体近似球体。",
+        "认为地球看起来是平的，就说明地球是平的。",
+        "把月球上的环形山等形状误当成观察地球形状的证据。"
+      ],
+      "core_concept": "地球是一个整体近似球体的天体。人们通过观察远处驶来的船、月食时地球投在月球上的影子，以及从太空拍摄的地球照片等证据，逐步认识到地球的形状。",
+      "key_formula": "地球整体近似球体（不是绝对规则的正球体）。",
+      "point": "地球形状的认知",
+      "tips": "观察地球形状时，要依据多种可靠证据。远处的船驶近时，通常先看到船桅或上部，再看到船身；月食时，地球投在月球上的影子边缘呈弧形；人造卫星和宇航员拍摄的照片则能直接展现地球整体近似球体的样子。"
+    },
+    {
+      "common_mistakes": [
+        "误以为有光就一定会有影子；还需要不透明或半透明的物体遮挡光线，并有屏接收影子。",
+        "把影子看成物体本身；影子是光被遮挡后在屏上形成的暗区。",
+        "忽略光源、遮挡物和屏的位置关系；三者需要适当排列，屏上才能看到影子。"
+      ],
+      "core_concept": "影子是光被物体挡住后，在屏上形成的暗区。要看到影子，通常需要光源、遮挡物和屏：光源发出光，遮挡物挡住部分光，屏接收到影子。",
+      "key_formula": "影子的产生条件：光源 + 遮挡物 + 屏（接收影子的表面）",
+      "point": "影子的产生条件",
+      "tips": "可以用手电筒、玩具和墙面做实验：让手电筒照向玩具，再观察墙面。移动光源、玩具或墙面，看看影子怎样变化。"
+    },
+    {
+      "common_mistakes": [
+        "把月相变化误认为没有规律。",
+        "认为月亮本身的形状在变化；实际上我们看到的是月球被太阳照亮部分的不同形状。",
+        "混淆上半月和下半月的变化方向。"
+      ],
+      "core_concept": "月相是从地球上看到的月球明亮部分的形状。月球绕地球运动时，太阳照亮的半球朝向地球的部分不断变化，因此月相会有规律地改变。",
+      "key_formula": "月相变化顺序：新月（看不见或几乎看不见）→蛾眉月→上弦月→满月→下弦月→蛾眉月→新月。农历上半月由缺变圆，下半月由圆变缺。",
+      "point": "月相变化规律",
+      "tips": "记住“上半月，月亮渐渐变圆；下半月，月亮渐渐变缺”。月相变化是连续且周期性的，一个月相周期约为一个农历月。"
+    },
+    {
+      "common_mistakes": [
+        "把地球仪上的蓝色部分误认为陆地；蓝色通常表示海洋或其他水域。",
+        "认为陆地和海洋面积差不多；实际上地球表面海洋面积明显更大。",
+        "只看地球仪的一面就判断海陆分布；应观察整个地球表面，或通过转动地球仪、数格子来比较。"
+      ],
+      "core_concept": "地球表面由海洋和陆地组成。观察地球仪或地图时，蓝色通常表示海洋，其他颜色常用来表示陆地。地球表面海洋面积约占71%，陆地面积约占29%，所以海洋面积比陆地面积大得多。",
+      "key_formula": "地球表面：海洋约占71%，陆地约占29%；海洋面积 > 陆地面积。",
+      "point": "海陆分布",
+      "tips": "观察地球仪时，可以先辨认蓝色海洋和其他颜色的陆地，再转动地球仪或用“数格子”的方法比较两者面积。数格子时要观察地球的多个部分，不能只凭某一面作判断。"
+    },
+    {
+      "common_mistakes": [
+        "认为影子的方向固定不变。太阳位置变化时，影子的方向也会变化。",
+        "认为影子越长，太阳越高。实际上，太阳高度越高，影子通常越短。",
+        "认为只有太阳光才能形成影子。只要有光源、遮挡物和能接收影子的表面，也能形成影子。"
+      ],
+      "core_concept": "影子是光被不透明物体挡住后，在物体背光一侧形成的暗区。光沿直线传播，因此影子通常出现在遮挡物背向光源的一侧。太阳在天空中的位置变化时，影子的方向和长度也会随之改变。",
+      "key_formula": "太阳高度越高，影子通常越短；太阳高度越低，影子通常越长。影子方向与光源所在方向相反。",
+      "point": "影子变化规律",
+      "tips": "观察一天中同一物体的影子时，选择晴朗天气，把物体固定在同一位置，并在地面标记影子的方向和长度。比较记录可发现：早晨和傍晚影子较长，中午太阳位置较高，影子较短；影子的方向也会随着太阳位置改变。"
+    },
+    {
+      "common_mistakes": [
+        "把帆船“先看到桅杆”误解为只能证明地球是球形；它是多种观察证据之一。",
+        "认为月食时地球的影子一定是完整圆形。月食不同阶段看到的只是影子边缘的一部分，呈圆弧形。",
+        "把地球说成完全规则的正球体；更准确地说，地球整体近似球体。"
+      ],
+      "core_concept": "地球整体近似球体。远处船只逐渐出现或消失、月食时地球在月球上的影子呈圆弧形等现象，都能帮助人们认识地球的形状。",
+      "key_formula": "无",
+      "point": "地球形状证据",
+      "tips": "观察现象时要说清看到的证据：船从远处驶来时，桅杆先出现；船驶远时，船身先逐渐看不见；月食时，地球投在月球上的影子边缘呈圆弧形。多种证据共同支持地球整体近似球形。"
+    },
+    {
+      "common_mistakes": [
+        "把恒星、行星和卫星混为一谈。",
+        "认为看起来会发光的天体一定能自己发光。",
+        "认为太阳是行星，或月球能自己发光。"
+      ],
+      "core_concept": "天体有不同的特点。恒星能自己发光、发热；行星通常围绕恒星运行，本身不发光，靠反射恒星的光被看见；卫星围绕行星运行。太阳是恒星，地球是行星，月球是地球的天然卫星。",
+      "key_formula": "恒星：自己发光；行星：绕恒星运行；卫星：绕行星运行。",
+      "point": "天体对比",
+      "tips": "判断天体类别时，可以先看它是否自己发光，再看它围绕什么运行。不要把“看得见”误认为“自己会发光”。"
+    },
+    {
+      "common_mistakes": [
+        "把月相变化误认为月球本身形状在变化；实际上是月球被太阳照亮部分的朝向和可见范围不同。",
+        "认为满月总在农历十五出现；通常在农历十五前后，也可能在十六。",
+        "把月相变化当作月球被地球影子遮挡；地球影子遮挡月球属于月食。"
+      ],
+      "core_concept": "月球本身不发光，靠反射太阳光发亮。月球绕地球运动时，太阳照亮的半球相对于地球的方向不断变化，所以我们看到的明亮部分形状也随之变化，这就是月相变化。月相按大致顺序循环变化：新月（农历初一前后）→上弦月（初七、初八前后）→满月（十五、十六前后）→下弦月（二十二、二十三前后）→再回到新月，约一个月循环一次。",
+      "key_formula": "月相变化顺序：新月 → 上弦月 → 满月 → 下弦月 → 新月；约一个月循环一次。",
+      "point": "月相规律",
+      "tips": "可以用“初一新、初八上弦、十五满、二十三下弦”帮助记忆。观察时尽量在天气晴朗、视野开阔的地方进行，并连续多天在相近时间记录月亮的形状和位置。"
+    },
+    {
+      "common_mistakes": [
+        "认为影子有颜色或重量；影子是光被物体挡住后形成的较暗区域。",
+        "认为物体的位置改变，影子的方向和长短一定不变；影子会随光源、物体和接收影子的表面的位置变化。",
+        "把影子看成物体本身；影子的形状通常与物体的外形有关，但不一定完全相同。"
+      ],
+      "core_concept": "光照到物体时，如果物体挡住了一部分光，物体后方或旁边较暗的区域就形成影子。影子具有方向、形状和大小等特征，会随光源、物体和接收影子的表面的位置变化。",
+      "key_formula": "影子形成：光源发光 → 物体挡光 → 在物体后方的表面上形成较暗区域。",
+      "point": "影子特征",
+      "tips": "观察影子时，可以固定物体和接收影子的表面，只改变光源的位置或角度，比较影子的方向、长短和形状。要形成清楚的影子，需要有光源、不透明物体和能接收影子的表面。"
+    },
+    {
+      "common_mistakes": [
+        "认为所有天体都会自己发光。太阳能发光，月球主要是反射太阳光。",
+        "把天体在天空中看起来的大小，当成它们真实的大小；看起来大小还与距离有关。",
+        "认为星星白天消失了；白天星星仍在，只是太阳光太强，通常看不见。"
+      ],
+      "core_concept": "天体是宇宙中的星球和其他物体，如太阳、月球和星星。不同天体的大小、形状、颜色、亮度和运动情况各不相同；观察到的明暗和大小也会受到光线及距离影响。",
+      "key_formula": "观察到的大小与天体的真实大小、距离有关：天体越远，看起来通常越小。",
+      "point": "天体特征",
+      "tips": "观察天体时，可以比较它们的形状、亮度和位置变化。不要直接用眼睛长时间看太阳；白天看不见星星，通常是因为太阳光太强。"
+    },
+    {
+      "common_mistakes": [
+        "把地球上的水都当作可以直接饮用的淡水。",
+        "认为节约用水只需要少用水，不需要防止水污染。"
+      ],
+      "core_concept": "地球上的水资源包括海洋水、陆地水和大气水。海洋水占地球总水量的大部分，但含盐较多，不能直接饮用。人们生活和生产所需的淡水主要来自河流、湖泊和地下水等。淡水资源有限，我们应节约用水并保护水源。",
+      "key_formula": "可直接利用的淡水资源有限；节水与防止水污染都能帮助保护水资源。",
+      "point": "水资源",
+      "tips": "洗手时及时关水龙头；用洗菜水浇花；不向河流、湖泊倾倒垃圾或污水。"
+    },
+    {
+      "common_mistakes": [
+        "误以为月球上没有阳光；实际上阳光可以照到月球表面。",
+        "误以为月球没有引力；月球有引力，只是比地球小。",
+        "把月球表面的昼夜温差大，误解为月球上有空气。"
+      ],
+      "core_concept": "月球表面没有人类可以呼吸的大气，接近真空。月球有岩石、尘土和引力，也能被太阳照亮；但由于没有大气调节温度，月球表面昼夜温差很大。",
+      "key_formula": "月球表面：有岩石和尘土、有引力；没有可供呼吸的空气。",
+      "point": "月球环境",
+      "tips": "判断月球环境时，可以分别想一想空气、阳光、引力和地表：月球没有可供呼吸的空气，但有阳光、有引力，也有岩石和尘土。"
+    },
+    {
+      "common_mistakes": [
+        "不要把麦哲伦本人说成完成了环球航行；他在航行途中去世，船队后来完成了航行。",
+        "地球形成于约46亿年前，不要把这个数值误认为精确到某一年。",
+        "地球历史是漫长的变化过程，生命和地表都经历了许多变化。"
+      ],
+      "core_concept": "地球有漫长的历史，科学家通过岩石、化石等线索了解地球和生命的变化。约46亿年前，地球逐渐形成；后来出现了生命，生命种类不断变化。麦哲伦船队在1519年至1522年间完成环球航行，为认识地球形状提供了重要证据。",
+      "key_formula": "麦哲伦船队航行时间：1522－1519＝3（年）",
+      "point": "地球历史",
+      "tips": "记住两个重要信息：地球有约46亿年的历史；麦哲伦船队环球航行历时约3年。观察化石时，可以把它看作古代生物留下的线索；观察环球航行路线时，想一想船队为何能回到出发地点。"
+    },
+    {
+      "common_mistakes": [
+        "把“月海”误认为月球上有水的海洋。",
+        "认为月球表面像地球一样有空气和流动的水。",
+        "把环形山误认为火山口；月球上的许多环形山是陨石等撞击形成的。"
+      ],
+      "core_concept": "月球表面有明暗不同的地貌，常见的有月海、高地和环形山。月海看起来较暗，实际是广阔的平原；高地通常较亮；环形山是月面上常见的圆形凹坑。",
+      "key_formula": "无",
+      "point": "月球地貌",
+      "tips": "观察月球照片时，可以先找明暗区域，再辨认月海和高地；看到圆形凹坑时，可联系陨石撞击来理解环形山的形成。"
+    },
+    {
+      "common_mistakes": [
+        "认为只要有物体就一定能形成清晰的影子；透明物体通常不能形成清晰影子。",
+        "忽略光源、遮挡物和接收影子的屏幕之间的位置关系。",
+        "认为影子的大小和方向不会变化。"
+      ],
+      "core_concept": "影子是光被物体挡住后，在物体后方的屏幕或地面上形成的较暗区域。形成影子需要光源、不透明遮挡物和接收影子的屏幕或表面，三者的位置要合适。",
+      "key_formula": "形成影子的基本条件：光源 + 不透明遮挡物 + 接收影子的屏幕或表面。",
+      "point": "影子条件",
+      "tips": "可以用手电筒、积木和白纸做实验：把手电筒当作光源，积木当作遮挡物，白纸当作屏幕。移动手电筒或积木，观察影子的变化。"
+    },
+    {
+      "common_mistakes": [
+        "影子不是物体本身，而是光被物体挡住后形成的较暗区域。",
+        "影子的方向通常与光源所在方向相反；不要把影子的方向和光源的方向混淆。",
+        "影子的大小会随光源、物体和屏幕之间的位置变化，不是固定不变的。"
+      ],
+      "core_concept": "影子工具是利用光和影子的规律制作或使用的工具。光照到不透明物体时，物体会挡住一部分光，在物体背光的一侧形成影子。日晷利用太阳位置变化时影子的方向和长短变化来判断时间；手电筒和屏幕也可以用来观察影子的形成和变化。",
+      "key_formula": "光照到不透明物体时，物体会挡住光，并在背光一侧形成影子。",
+      "point": "影子工具",
+      "tips": "观察影子时，可以改变光源、物体或屏幕的位置，比较影子的方向、大小和形状。制作简易日晷时，要把刻度固定在地面或底板上，并在不同时间观察影子的位置。"
     }
   ]
 }

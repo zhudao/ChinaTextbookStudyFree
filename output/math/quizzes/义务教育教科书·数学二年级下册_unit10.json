@@ -244,7 +244,7 @@
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "实际问题的综合解决",
-        "question": "比较大小：$2999 \\bigcirc 3001$，圆圈里应填（ ）。",
+        "question": "比较大小：$2999 \text{ } 3001$，圆圈里应填（ ）。",
         "options": [
           ">",
           "<",

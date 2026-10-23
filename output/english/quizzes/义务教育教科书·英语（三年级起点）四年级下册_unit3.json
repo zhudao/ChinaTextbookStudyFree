@@ -4,295 +4,289 @@
   "unit_number": 3,
   "unit_test": {
     "title": "Unit 3 Weather Basic Test",
-    "total_score": 100,
+    "total_score": 370,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "Weather vocabulary",
-        "question": "'sunny' 的意思是'晴朗的'。",
-        "options": [],
         "answer": "对",
-        "explanation": "sunny意为晴朗的，sun为太阳。"
-      },
-      {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 1,
+        "explanation": "sunny 意为“晴朗的”，常用来描述阳光明媚的天气。",
         "knowledge_point": "Weather vocabulary",
-        "question": "'rainy' 的意思是'下雪的'。",
         "options": [],
-        "answer": "错",
-        "explanation": "rainy是下雨的，snowy才是下雪的。"
+        "question": "'sunny' 的意思是“晴朗的”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "rainy 意为“下雨的”；snowy 才表示“下雪的”。",
+        "knowledge_point": "Weather vocabulary",
+        "options": [],
+        "question": "'rainy' 的意思是“下雪的”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "hot 表示天气炎热，通常不适合穿保暖的毛衣。Sweater 是“毛衣”。",
         "knowledge_point": "Activities judgment",
+        "options": [],
         "question": "当天气 'hot' 时，我们适合穿 'sweater'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "hot是炎热的，不适合穿sweater（毛衣）。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "Weather vocabulary",
-        "question": "'cloudy' 对应的天气现象是'多云'。",
-        "options": [],
         "answer": "对",
-        "explanation": "cloud是云，cloudy是多云的。"
+        "difficulty": 1,
+        "explanation": "cloud 是“云”，cloudy 是“多云的”。",
+        "knowledge_point": "Weather vocabulary",
+        "options": [],
+        "question": "'cloudy' 对应的天气现象是“多云”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "“What is the weather like?”是询问天气情况的常用表达。",
         "knowledge_point": "Grammar usage",
-        "question": "询问天气可以用 'What is the weather like?'",
         "options": [],
-        "answer": "对",
-        "explanation": "这是询问天气的标准格式。"
+        "question": "询问天气可以用“What is the weather like?”",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "cold",
         "difficulty": 1,
+        "explanation": "“穿上外套”提示天气很冷，cold 意为“寒冷的”。",
         "knowledge_point": "Weather vocabulary",
-        "question": "It's very ____. Put on your coat.",
         "options": [
           "hot",
           "cold",
           "warm",
           "sunny"
         ],
-        "answer": "cold",
-        "explanation": "由后句'穿上外套'可知天气很冷。"
+        "question": "It's very ____. Put on your coat.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "rainy",
         "difficulty": 1,
+        "explanation": "括号里的“下雨的”对应 rainy。",
         "knowledge_point": "Weather vocabulary",
-        "question": "Can I go outside? No, it's ____. (下雨的)",
         "options": [
           "rainy",
           "windy",
           "cloudy",
           "sunny"
         ],
-        "answer": "rainy",
-        "explanation": "下雨的对应单词是rainy。"
+        "question": "Can I go outside? No, it's ____.（下雨的）",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "What's",
         "difficulty": 2,
+        "explanation": "询问天气可以说“What’s the weather like in New York?”，也可以说“How’s the weather in New York?”。",
         "knowledge_point": "Asking about weather",
-        "question": "____ the weather like in New York?",
         "options": [
           "What",
           "How",
           "What's",
           "How's"
         ],
-        "answer": "What's",
-        "explanation": "询问天气用What's the weather like或How's the weather。"
+        "question": "____ the weather like in New York?",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "snowy",
         "difficulty": 1,
+        "explanation": "snowy 意为“下雪的”，下雪时可以堆雪人。",
         "knowledge_point": "Weather vocabulary",
-        "question": "Look! It's ____. Let's make a snowman.",
         "options": [
           "snowy",
           "rainy",
           "warm",
           "cool"
         ],
-        "answer": "snowy",
-        "explanation": "堆雪人(make a snowman)需要下雪的天气(snowy)。"
+        "question": "Look! It's ____. Let's make a snowman.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "warm",
         "difficulty": 2,
+        "explanation": "26 degrees 通常表示天气温暖，可用 warm 描述。cold 是寒冷的，cool 是凉爽的，snowy 是下雪的。",
         "knowledge_point": "Activities judgment",
-        "question": "It's 26 degrees. It's ____.",
         "options": [
           "cold",
           "cool",
           "warm",
           "snowy"
         ],
-        "answer": "warm",
-        "explanation": "26度属于温暖(warm)的范畴。"
+        "question": "It's 26 degrees. It's ____.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "sunny",
         "difficulty": 1,
+        "explanation": "太阳出来了，天气通常是晴朗的；sunny 意为“晴朗的”。",
         "knowledge_point": "Weather vocabulary",
-        "question": "The sun is out. It's ____ today.",
         "options": [
           "sunny",
           "windy",
           "rainy",
           "cloudy"
         ],
-        "answer": "sunny",
-        "explanation": "太阳出来了，天气是晴朗的。"
+        "question": "The sun is out. It's ____ today.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "Yes",
         "difficulty": 2,
+        "explanation": "肯定回答用“Yes, you can.”，句意是“可以，你能去”。",
         "knowledge_point": "Response to permission",
-        "question": "Can I go outside? ____, you can.",
         "options": [
           "No",
           "Yes",
           "Ok",
           "Sorry"
         ],
-        "answer": "Yes",
-        "explanation": "肯定回答用Yes, you can。"
+        "question": "Can I go outside? ____, you can.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "windy",
         "difficulty": 3,
+        "explanation": "放风筝通常需要有风。句子说天气凉爽并邀请大家去放风筝，因此 windy（有风的）最符合情境。",
         "knowledge_point": "Sentence logic",
-        "question": "It's cool and ____. Let's fly a kite.",
         "options": [
           "snowy",
           "windy",
           "hot",
           "rainy"
         ],
-        "answer": "windy",
-        "explanation": "放风筝(fly a kite)需要有风(windy)的天气。"
+        "question": "It's cool and ____. Let's fly a kite.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "in",
         "difficulty": 1,
+        "explanation": "表示在某个城市里，通常用 in，所以说 in Beijing。",
         "knowledge_point": "Location preposition",
-        "question": "What's the weather like ____ Beijing?",
         "options": [
           "on",
           "at",
           "to",
           "in"
         ],
-        "answer": "in",
-        "explanation": "在某个城市名称前用介词in。"
+        "question": "What's the weather like ____ Beijing?",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "Good night",
         "difficulty": 2,
+        "explanation": "睡觉前说晚安用 Good night。",
         "knowledge_point": "Basic greetings",
-        "question": "Time to go to bed. ____!",
         "options": [
           "Good morning",
           "Good afternoon",
           "Good night",
           "Goodbye"
         ],
-        "answer": "Good night",
-        "explanation": "睡觉前说晚安(Good night)。"
+        "question": "Time to go to bed. ____!",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "Weather vocabulary",
-        "question": "It is very ____ (炎热的). I want some water.",
-        "options": [],
         "answer": "hot",
-        "explanation": "炎热的对应单词是hot。"
-      },
-      {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "Activities judgment",
-        "question": "Can I have some ____ (汤)? Yes, you can.",
-        "options": [],
-        "answer": "soup",
-        "explanation": "汤的对应单词是soup。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "hot 意为“炎热的”。",
         "knowledge_point": "Weather vocabulary",
-        "question": "It's ____ (凉爽的) in autumn.",
         "options": [],
-        "answer": "cool",
-        "explanation": "秋天天气凉爽，单词是cool。"
-      },
-      {
-        "id": 19,
+        "question": "It is very ____（炎热的）. I want some water.",
+        "score": 5,
         "type": "fill_blank_text",
-        "score": 5,
+        "id": 16
+      },
+      {
+        "answer": "soup",
         "difficulty": 2,
-        "knowledge_point": "Weather asking",
-        "question": "____ the weather like today?",
+        "explanation": "“汤”用英语说 soup。句子意思是“我可以喝一些汤吗？可以。”",
+        "knowledge_point": "Activities judgment",
         "options": [],
-        "answer": "whats",
-        "explanation": "缩写形式为what's，此处要求全小写字母不含标点。"
+        "question": "Can I have some ____ (汤)? Yes, you can.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "cool",
         "difficulty": 1,
-        "knowledge_point": "Vocabulary matching",
-        "question": "将下列英文单词与对应的中文意思连线。",
-        "options": [
-          "windy",
-          "cloudy",
-          "sunny",
-          "snowy",
-          "下雪的",
-          "晴朗的",
-          "多云的",
-          "有风的"
-        ],
-        "answer": "A-4,B-3,C-2,D-1",
-        "explanation": "windy-有风的, cloudy-多云的, sunny-晴朗的, snowy-下雪的。"
+        "explanation": "cool 意为“凉爽的”，可用来描述秋天舒适偏凉的天气。",
+        "knowledge_point": "Weather vocabulary",
+        "options": [],
+        "question": "It's ____（凉爽的）in autumn.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "whats",
         "difficulty": 2,
+        "explanation": "完整句子是 “What’s the weather like today?”，空格处填写 What’s。按题目要求使用小写且不写标点，因此答案为 whats。",
+        "knowledge_point": "Weather asking",
+        "options": [],
+        "question": "____ the weather like today?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "有风的",
+        "difficulty": 1,
+        "explanation": "windy 的意思是“有风的”，不是单独的“风”。",
+        "knowledge_point": "Vocabulary matching",
+        "options": [
+          "有风的",
+          "多云的",
+          "晴朗的",
+          "下雪的"
+        ],
+        "question": "“windy”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
+      },
+      {
+        "answer": "A-4,B-3,C-2,D-1",
+        "difficulty": 2,
+        "explanation": "warm 是温暖的，cool 是凉爽的，hot 是炎热的，cold 是寒冷的。",
         "knowledge_point": "Adjective matching",
-        "question": "将下列描述程度的词语与中文对应。",
         "options": [
           "warm",
           "cool",
@@ -303,33 +297,33 @@
           "凉爽的",
           "温暖的"
         ],
-        "answer": "A-4,B-3,C-2,D-1",
-        "explanation": "warm-温暖的, cool-凉爽的, hot-炎热的, cold-寒冷的。"
+        "question": "将下列描述温度的词语与中文对应：A. warm；B. cool；C. hot；D. cold。1. 寒冷的；2. 炎热的；3. 凉爽的；4. 温暖的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "What is the weather like?",
         "difficulty": 2,
+        "explanation": "询问天气的常见句式是“What is the weather like?”，疑问词What放在句首，接be动词is，再接主语the weather。",
         "knowledge_point": "Sentence structure",
-        "question": "连词成句：[the, What, weather, is, like]",
         "options": [
-          "the",
           "What",
-          "weather",
           "is",
+          "the",
+          "weather",
           "like"
         ],
-        "answer": "What,is,the,weather,like",
-        "explanation": "询问天气的固定句式：What is the weather like?"
+        "question": "连词成句：[the, What, weather, is, like]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Can,I,go,outside,now",
         "difficulty": 3,
+        "explanation": "请求许可时用“Can I + 动词原形 + 其他？”组成疑问句。正确句子是 Can I go outside now?，意思是“我现在可以到外面去吗？”",
         "knowledge_point": "Permission sentence",
-        "question": "连词成句：[Can, I, go, now, outside]",
         "options": [
           "Can",
           "I",
@@ -337,8 +331,1075 @@
           "now",
           "outside"
         ],
-        "answer": "Can,I,go,outside,now",
-        "explanation": "Can I go outside now? 表示我现在可以出去吗？"
+        "question": "连词成句：[Can, I, go, now, outside]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "sunny",
+        "difficulty": 1,
+        "explanation": "sunny 表示“晴朗的”，常用来描述有阳光的天气。",
+        "knowledge_point": "天气形容词的认读",
+        "options": [],
+        "question": "“晴朗的”用英语怎么说？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "cloudy 表示“多云的”，cloud 是“云”，加 -y 后成为描述天气的形容词。",
+        "knowledge_point": "天气形容词的认读",
+        "options": [
+          "A. rainy",
+          "B. cloudy",
+          "C. windy"
+        ],
+        "question": "哪个单词表示“多云的”？",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "windy",
+        "difficulty": 1,
+        "explanation": "windy 表示“有风的”，可以用来描述风比较大的天气。",
+        "knowledge_point": "天气形容词的认读",
+        "options": [],
+        "question": "读一读：有风的天气是 ______ weather.（填写表示“有风的”的英语单词）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "rainy 表示“下雨的”，可用于描述正在下雨或常有雨的天气。",
+        "knowledge_point": "天气形容词的认读",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "rainy 的意思是“下雨的”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 27
+      },
+      {
+        "answer": "snowy",
+        "difficulty": 2,
+        "explanation": "snowy 表示“下雪的”。记住 snow 是“雪”，snowy 是描述天气的形容词。",
+        "knowledge_point": "天气形容词的认读",
+        "options": [],
+        "question": "根据意思写出英语：下雪的。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "A sunny 表示“晴朗的”，与句意相符；rainy 是“下雨的”，cloudy 是“多云的”。",
+        "knowledge_point": "天气形容词的认读",
+        "options": [
+          "A. sunny",
+          "B. rainy",
+          "C. cloudy"
+        ],
+        "question": "选择合适的单词补全句子：The sun is shining. It is ______.（太阳在照耀，天气很晴朗。）",
+        "score": 1,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "询问天气常说“How’s the weather?”，意思是“天气怎么样？”。",
+        "knowledge_point": "询问天气状况",
+        "options": [
+          "How are you weather?",
+          "How’s the weather?",
+          "What weather are?"
+        ],
+        "question": "想问“天气怎么样？”，应说：",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "sunny是“晴朗的”，描述天气时说“It’s sunny.”。",
+        "knowledge_point": "询问天气状况",
+        "options": [
+          "It’s sun.",
+          "It’s sunny.",
+          "It sunny."
+        ],
+        "question": "外面阳光明媚。别人问“How’s the weather?”，你可以回答：",
+        "score": 1,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“What’s the weather like?”也可以用来询问天气状况。",
+        "knowledge_point": "询问天气状况",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“What’s the weather like?”可以用来询问天气。",
+        "score": 1,
+        "type": "true_false",
+        "id": 32
+      },
+      {
+        "answer": "It’s rainy.",
+        "difficulty": 2,
+        "explanation": "rainy表示“下雨的”。回答天气状况时用“It’s + 天气形容词”。",
+        "knowledge_point": "询问天气状况",
+        "options": [],
+        "question": "补全答句：How’s the weather? — ________（下雨的）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "cloudy",
+        "difficulty": 2,
+        "explanation": "cloudy表示“多云的”，完整句子是“It’s cloudy.”。",
+        "knowledge_point": "询问天气状况",
+        "options": [],
+        "question": "补全句子：It’s ________.（多云的）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 34
+      },
+      {
+        "answer": "It’s snowy.",
+        "difficulty": 2,
+        "explanation": "snowy表示“下雪的”。描述天气时用“It’s + snowy”。",
+        "knowledge_point": "询问天气状况",
+        "options": [],
+        "question": "看见雪花正在飘落。请用英语回答“How’s the weather?”。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "sunny 表示晴朗。晴天适合放风筝，fly a kite 意为“放风筝”。",
+        "knowledge_point": "基于天气的活动建议",
+        "options": [
+          "A. read a book indoors",
+          "B. fly a kite",
+          "C. use an umbrella indoors"
+        ],
+        "question": "It is sunny. What can you do outside?",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "False",
+        "difficulty": 1,
+        "explanation": "下雨时在室内读书更合适。fly a kite（放风筝）通常适合有风、天气较好的时候。",
+        "knowledge_point": "基于天气的活动建议",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "It is rainy. You can fly a kite outside.",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "can",
+        "difficulty": 2,
+        "explanation": "用“You can + 动词原形”表达“你可以……”。句意为：天气炎热，你可以去游泳。",
+        "knowledge_point": "基于天气的活动建议",
+        "options": [],
+        "question": "It is hot. You ___ go swimming.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "You can read a book indoors.",
+        "difficulty": 2,
+        "explanation": "rainy 表示下雨。可以用“You can + 动词短语”提出建议；read a book indoors 表示“在室内读书”。",
+        "knowledge_point": "基于天气的活动建议",
+        "options": [],
+        "question": "Complete the suggestion: It is rainy. ____________________.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "It is snowy. You can make a snowman.",
+        "difficulty": 3,
+        "explanation": "snowy 表示下雪的。下雪时可以堆雪人，make a snowman 意为“堆雪人”。答案也可写成“You can make a snowman when it is snowy.”",
+        "knowledge_point": "基于天气的活动建议",
+        "options": [],
+        "question": "请用英语写一句话，描述“下雪了”，并建议做一项合适的活动（例如堆雪人）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "It is windy. You can fly a kite.",
+        "difficulty": 3,
+        "explanation": "windy 表示有风的，fly a kite 表示放风筝。先用“It is + 天气词”描述天气，再用“You can + 动词短语”提出建议。",
+        "knowledge_point": "基于天气的活动建议",
+        "options": [],
+        "question": "请根据“有风”写一句英语活动建议，使用 windy 和 fly a kite。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "cold",
+        "difficulty": 1,
+        "explanation": "cold 表示寒冷。寒冷的天气适合穿外套保暖。",
+        "knowledge_point": "Activities judgment",
+        "options": [
+          "hot",
+          "cold",
+          "warm",
+          "sunny"
+        ],
+        "question": "It's very ____ outside. Please wear your coat.",
+        "score": 5,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "下雨时带雨伞是合适的选择。umbrella 的意思是“雨伞”。",
+        "knowledge_point": "Activities judgment",
+        "options": [],
+        "question": "When it's rainy, taking an umbrella is a good idea.",
+        "score": 2,
+        "type": "true_false",
+        "id": 43
+      },
+      {
+        "answer": "play outside",
+        "difficulty": 2,
+        "explanation": "sunny 表示晴朗的。在晴朗的天气里，可以去户外玩。play outside 意为“在户外玩”。",
+        "knowledge_point": "Activities judgment",
+        "options": [],
+        "question": "It's sunny. We can ____ (在户外玩).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 44
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "主语是第三人称单数的“He”，一般现在时动词“like”要加 -s，变为“likes”。",
+        "knowledge_point": "Grammar usage",
+        "options": [
+          "like",
+          "likes",
+          "liking"
+        ],
+        "question": "Choose the correct word: He ___ apples.",
+        "score": 2,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "Does",
+        "difficulty": 2,
+        "explanation": "主语“she”是第三人称单数，一般现在时疑问句用“Does”开头；助动词后面的动词用原形“play”。",
+        "knowledge_point": "Grammar usage",
+        "options": [],
+        "question": "___ she play football after school?",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 46
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "句子主语是“I”，对应的 be 动词是“am”，所以“I am a student.”正确。",
+        "knowledge_point": "Grammar usage",
+        "options": [],
+        "question": "“I am a student.”是正确的句子。",
+        "score": 2,
+        "type": "true_false",
+        "id": 47
+      },
+      {
+        "answer": "goes",
+        "difficulty": 2,
+        "explanation": "主语“My brother”是第三人称单数；一般现在时中，“go”要加 -es，变为“goes”。",
+        "knowledge_point": "Grammar usage",
+        "options": [],
+        "question": "Complete the sentence: My brother ___ to school by bus every day. (go)",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 48
+      },
+      {
+        "answer": "does not like",
+        "difficulty": 3,
+        "explanation": "主语“Tom”是第三人称单数，否定句使用“does not”；助动词“does”后面的行为动词用原形“like”。",
+        "knowledge_point": "Grammar usage",
+        "options": [],
+        "question": "Complete the sentence: Tom ___ milk. (not like)",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 49
+      },
+      {
+        "answer": "How's",
+        "difficulty": 1,
+        "explanation": "“How’s the weather?”是询问天气的常用表达，How’s是How is的缩写。",
+        "knowledge_point": "Asking about weather",
+        "options": [
+          "How's",
+          "What",
+          "What's",
+          "Where's"
+        ],
+        "question": "____ the weather today?",
+        "score": 5,
+        "type": "choice",
+        "id": 50
+      },
+      {
+        "answer": "It's sunny.",
+        "difficulty": 1,
+        "explanation": "回答天气情况时常用“It’s + 天气形容词”。sunny表示晴朗的。",
+        "knowledge_point": "Asking about weather",
+        "options": [
+          "It's sunny.",
+          "It's a sun.",
+          "They're sunny.",
+          "It sunny."
+        ],
+        "question": "How's the weather?（天气晴朗。）",
+        "score": 5,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "weather",
+        "difficulty": 1,
+        "explanation": "完整问句是“What’s the weather like?”，意思是“天气怎么样？”。",
+        "knowledge_point": "Asking about weather",
+        "options": [],
+        "question": "What's the ______ like?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "How's",
+        "difficulty": 2,
+        "explanation": "“How’s the weather in London?”是询问伦敦天气的正确表达。",
+        "knowledge_point": "Asking about weather",
+        "options": [],
+        "question": "______ the weather in London?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 53
+      },
+      {
+        "answer": "It's windy.",
+        "difficulty": 2,
+        "explanation": "询问天气后，可以用“It’s + 天气形容词”回答。windy表示有风的。",
+        "knowledge_point": "Asking about weather",
+        "options": [],
+        "question": "The wind is blowing. How's the weather? 请用英语回答。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "Sure",
+        "difficulty": 1,
+        "explanation": "“Sure.”表示“当然可以”，是对请求许可的肯定回答。",
+        "knowledge_point": "Response to permission",
+        "options": [
+          "Sure",
+          "No, you can't",
+          "Sorry",
+          "Not"
+        ],
+        "question": "Can I borrow your ruler? — ____. Here you are.",
+        "score": 5,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "No, you can't.",
+        "difficulty": 2,
+        "explanation": "前句说明现在不能看电视，因此应回答“No, you can't.”，表示不允许。",
+        "knowledge_point": "Response to permission",
+        "options": [
+          "Yes, you can.",
+          "No, you can't.",
+          "Sure.",
+          "Thank you."
+        ],
+        "question": "Can I watch TV now? — Sorry, you need to do your homework. — ____. ",
+        "score": 5,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“Yes, you can.”表示允许，是对“Can I ...?”的合适肯定回答。",
+        "knowledge_point": "Response to permission",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：别人问“Can I open the window?”，回答“Yes, you can.”表示允许。",
+        "score": 5,
+        "type": "true_false",
+        "id": 57
+      },
+      {
+        "answer": "can't",
+        "difficulty": 2,
+        "explanation": "表示不允许时，可以说“No, you can't.”，can't意为“不能”。",
+        "knowledge_point": "Response to permission",
+        "options": [],
+        "question": "补全句子：Can I play here? — No, you ____.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 58
+      },
+      {
+        "answer": "Sorry, you can't.",
+        "difficulty": 2,
+        "explanation": "“Sorry, you can't.”表示抱歉，不能允许；它既表达否定，也比较礼貌。",
+        "knowledge_point": "Response to permission",
+        "options": [],
+        "question": "根据情境补全回答：May I use your phone? — ________. My phone is not here.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "umbrella",
+        "difficulty": 2,
+        "explanation": "下雨时带伞可以遮雨，所以 umbrella（雨伞）符合句意。",
+        "knowledge_point": "Sentence logic",
+        "options": [
+          "sunglasses",
+          "umbrella",
+          "skateboard",
+          "kite"
+        ],
+        "question": "It's raining outside. Take your ____ with you.",
+        "score": 5,
+        "type": "choice",
+        "id": 60
+      },
+      {
+        "answer": "hungry",
+        "difficulty": 2,
+        "explanation": "午饭时间到了，大家通常会感到饿，因此 hungry（饿的）最符合情境。",
+        "knowledge_point": "Sentence logic",
+        "options": [
+          "hungry",
+          "sleepy",
+          "thirsty",
+          "cold"
+        ],
+        "question": "It's lunchtime. I'm ____. Let's eat.",
+        "score": 5,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "because",
+        "difficulty": 3,
+        "explanation": "后半句说明了不能去公园的原因，用 because（因为）连接原因和结果。",
+        "knowledge_point": "Sentence logic",
+        "options": [
+          "but",
+          "because",
+          "or",
+          "and"
+        ],
+        "question": "We can't go to the park ____ it's raining.",
+        "score": 5,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "True",
+        "difficulty": 2,
+        "explanation": "句子说天冷，穿上外套可以保暖，前后意思合理。",
+        "knowledge_point": "Sentence logic",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "It's cold today, so I will wear my coat.",
+        "score": 5,
+        "type": "true_false",
+        "id": 63
+      },
+      {
+        "answer": "so",
+        "difficulty": 3,
+        "explanation": "句子先说 Lucy 很累，再说她早早上床睡觉，后半句是前半句带来的结果，用 so（所以）连接。",
+        "knowledge_point": "Sentence logic",
+        "options": [],
+        "question": "Lucy is very tired, ____ she goes to bed early.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 64
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "书本在桌子的表面上，用 on。",
+        "knowledge_point": "Location preposition",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "question": "The book is ____ the desk.",
+        "score": 5,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "in",
+        "difficulty": 1,
+        "explanation": "表示人在房间里面，用 in。",
+        "knowledge_point": "Location preposition",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "to"
+        ],
+        "question": "The cat is ____ the room.",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "at",
+        "difficulty": 2,
+        "explanation": "at school 表示“在学校”，用于指明具体地点。",
+        "knowledge_point": "Location preposition",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "under"
+        ],
+        "question": "The children are ____ school now.",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "under",
+        "difficulty": 1,
+        "explanation": "under 表示“在……下面”，球在椅子下面。",
+        "knowledge_point": "Location preposition",
+        "options": [
+          "behind",
+          "under",
+          "on",
+          "in"
+        ],
+        "question": "The ball is ____ the chair.（球在椅子下面。）",
+        "score": 5,
+        "type": "choice",
+        "id": 68
+      },
+      {
+        "answer": "behind",
+        "difficulty": 2,
+        "explanation": "behind 表示“在……后面”，狗在门后面。",
+        "knowledge_point": "Location preposition",
+        "options": [
+          "in front of",
+          "between",
+          "behind",
+          "on"
+        ],
+        "question": "The dog is ____ the door.（狗在门后面。）",
+        "score": 5,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "Good morning",
+        "difficulty": 1,
+        "explanation": "上午见面时通常说 Good morning，表示“早上好”。",
+        "knowledge_point": "Basic greetings",
+        "options": [
+          "Good night",
+          "Good morning",
+          "Goodbye",
+          "Good afternoon"
+        ],
+        "question": "It is 8:00 a.m. You meet your teacher. You say, “____!”",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "Good afternoon",
+        "difficulty": 1,
+        "explanation": "下午见面时可以说 Good afternoon，表示“下午好”。",
+        "knowledge_point": "Basic greetings",
+        "options": [
+          "Good afternoon",
+          "Good morning",
+          "Good night",
+          "Bye"
+        ],
+        "question": "It is 3:00 p.m. You see your friend. You say, “____!”",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "Bye",
+        "difficulty": 1,
+        "explanation": "Bye 是常见的“再见”，朋友分别时可以使用。",
+        "knowledge_point": "Basic greetings",
+        "options": [
+          "Hello",
+          "Bye",
+          "Good morning",
+          "Nice to meet you"
+        ],
+        "question": "You are leaving your friend. What can you say?",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "Nice to meet you, too.",
+        "difficulty": 2,
+        "explanation": "别人说 Nice to meet you（很高兴认识你）时，可以回答 Nice to meet you, too（我也很高兴认识你）。",
+        "knowledge_point": "Basic greetings",
+        "options": [
+          "Good night.",
+          "Nice to meet you, too.",
+          "Good morning.",
+          "Goodbye."
+        ],
+        "question": "A: Nice to meet you.  B: ____",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "Hello!",
+        "difficulty": 1,
+        "explanation": "Hello 是常见的打招呼用语，表示“你好”。",
+        "knowledge_point": "Basic greetings",
+        "options": [
+          "Hello!",
+          "Goodbye!",
+          "Good night!",
+          "Good afternoon!"
+        ],
+        "question": "You see your classmate at school. You can say, “____!”",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "What’s the weather like today?",
+        "difficulty": 1,
+        "explanation": "“今天天气怎么样？”可以问 “What’s the weather like today?”。What’s 是 what is 的缩写，不能漏掉撇号。",
+        "knowledge_point": "Weather asking",
+        "options": [
+          "What’s the weather like today?",
+          "What the weather like today?",
+          "How weather is today?",
+          "What’s the weather today like it?"
+        ],
+        "question": "选出询问“今天天气怎么样？”的正确句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "How’s the weather today?",
+        "difficulty": 1,
+        "explanation": "询问天气还可以说 “How’s the weather today?”，意思是“今天天气怎么样？”",
+        "knowledge_point": "Weather asking",
+        "options": [
+          "What’s the weather today?",
+          "How’s the weather today?",
+          "Where’s the weather today?"
+        ],
+        "question": "选出正确的天气问句。",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "sunny",
+        "difficulty": 1,
+        "explanation": "sunny 意为“晴朗的”，常用来描述天气：It’s sunny.",
+        "knowledge_point": "Weather asking",
+        "options": [],
+        "question": "It’s ____ today.（今天阳光明媚。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 77
+      },
+      {
+        "answer": "cloudy",
+        "difficulty": 2,
+        "explanation": "cloudy 意为“多云的”。描述天气时可以说 “It’s cloudy.”",
+        "knowledge_point": "Weather asking",
+        "options": [
+          "cloudy",
+          "windy",
+          "rainy"
+        ],
+        "question": "天空中有许多云，可以说：It’s ____.",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "It’s rainy.",
+        "difficulty": 2,
+        "explanation": "rainy 意为“下雨的”。回答天气问句时可以用 “It’s + 天气形容词”，所以答案是 “It’s rainy.”",
+        "knowledge_point": "Weather asking",
+        "options": [],
+        "question": "用 rainy 回答：What’s the weather like today?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 79
+      },
+      {
+        "answer": "cloudy—多云的；sunny—晴朗的；snowy—下雪的；windy—有风的",
+        "difficulty": 1,
+        "explanation": "根据天气单词的含义配对：cloudy 与云有关，sunny 与太阳有关，snowy 与雪有关，windy 与风有关。",
+        "knowledge_point": "Vocabulary matching",
+        "options": [
+          "cloudy",
+          "sunny",
+          "snowy",
+          "windy",
+          "下雪的",
+          "晴朗的",
+          "多云的",
+          "有风的"
+        ],
+        "question": "将英文单词与对应的中文意思配对：cloudy、sunny、snowy、windy。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 80
+      },
+      {
+        "answer": "晴朗的",
+        "difficulty": 1,
+        "explanation": "sunny 表示“晴朗的”，常用来描述阳光充足的天气。",
+        "knowledge_point": "Vocabulary matching",
+        "options": [
+          "有风的",
+          "晴朗的",
+          "多云的",
+          "下雪的"
+        ],
+        "question": "sunny 的意思是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "有风的",
+        "difficulty": 1,
+        "explanation": "windy 与 wind（风）有关，windy 表示“有风的”。",
+        "knowledge_point": "Vocabulary matching",
+        "options": [
+          "有风的",
+          "晴朗的",
+          "多云的",
+          "下雪的"
+        ],
+        "question": "windy 的意思是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 82
+      },
+      {
+        "answer": "cloudy",
+        "difficulty": 1,
+        "explanation": "“多云的”对应 cloudy。cloud 表示“云”，cloudy 用来描述多云的天气。",
+        "knowledge_point": "Vocabulary matching",
+        "options": [
+          "windy",
+          "cloudy",
+          "sunny",
+          "snowy"
+        ],
+        "question": "“多云的”用英文怎么说？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 83
+      },
+      {
+        "answer": "snowy",
+        "difficulty": 1,
+        "explanation": "snowy 表示“下雪的”，用于描述有雪或正在下雪的天气。",
+        "knowledge_point": "Vocabulary matching",
+        "options": [
+          "windy",
+          "cloudy",
+          "sunny",
+          "snowy"
+        ],
+        "question": "Which word means “下雪的”？",
+        "score": 2,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "A-2,B-3,C-1",
+        "difficulty": 1,
+        "explanation": "big 是大的，small 是小的，tall 是高的。",
+        "knowledge_point": "Adjective matching",
+        "options": [
+          "big",
+          "small",
+          "tall",
+          "小的",
+          "高的",
+          "大的"
+        ],
+        "question": "将形容词与中文对应：A. big；B. small；C. tall。1. 高的；2. 大的；3. 小的。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "A-2,B-3,C-1",
+        "difficulty": 1,
+        "explanation": "red 是红色的，blue 是蓝色的，green 是绿色的。",
+        "knowledge_point": "Adjective matching",
+        "options": [
+          "red",
+          "blue",
+          "green",
+          "绿色的",
+          "红色的",
+          "蓝色的"
+        ],
+        "question": "将颜色形容词与中文对应：A. red；B. blue；C. green。1. 绿色的；2. 红色的；3. 蓝色的。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "happy",
+        "difficulty": 1,
+        "explanation": "句意是“她很开心”，happy 的意思是“开心的”。",
+        "knowledge_point": "Adjective matching",
+        "options": [
+          "sad",
+          "happy",
+          "cold",
+          "small"
+        ],
+        "question": "选出合适的形容词：She is ______ because she got a gift.（她收到了一份礼物，所以很开心。）",
+        "score": 2,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "cold",
+        "difficulty": 2,
+        "explanation": "雪通常是冷的，因此 cold（寒冷的）最符合句意。",
+        "knowledge_point": "Adjective matching",
+        "options": [
+          "hot",
+          "cold",
+          "tall",
+          "happy"
+        ],
+        "question": "选出合适的形容词：The snow is ______.（雪是______的。）",
+        "score": 2,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "The cat is small.",
+        "difficulty": 2,
+        "explanation": "small 是形容词，意思是“小的”，放在名词 cat 后面描述猫的大小。",
+        "knowledge_point": "Adjective matching",
+        "options": [],
+        "question": "用 small（小的）完成句子：The cat is ______.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 89
+      },
+      {
+        "answer": "She likes apples.",
+        "difficulty": 1,
+        "explanation": "陈述句通常按“主语＋谓语＋其他成分”的顺序排列：She是主语，likes是谓语，apples是宾语。",
+        "knowledge_point": "Sentence structure",
+        "options": [
+          "She",
+          "likes",
+          "apples"
+        ],
+        "question": "连词成句：[apples, She, likes]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 90
+      },
+      {
+        "answer": "Are you a student?",
+        "difficulty": 2,
+        "explanation": "以be动词开头的一般疑问句结构是“Be动词＋主语＋其他成分？”，所以Are放在you前面。",
+        "knowledge_point": "Sentence structure",
+        "options": [
+          "you",
+          "Are",
+          "a",
+          "student"
+        ],
+        "question": "连词成句：[you, Are, a, student]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 91
+      },
+      {
+        "answer": "Where does Tom live?",
+        "difficulty": 3,
+        "explanation": "特殊疑问句中Where放在句首，接助动词does和主语Tom；does后面的实义动词用原形live。",
+        "knowledge_point": "Sentence structure",
+        "options": [
+          "live",
+          "Where",
+          "Tom",
+          "does"
+        ],
+        "question": "连词成句：[live, Where, Tom, does]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "I usually get up at seven.",
+        "difficulty": 3,
+        "explanation": "陈述句按“主语＋频率副词＋实义动词＋其他成分”的顺序排列，因此usually放在get前面。",
+        "knowledge_point": "Sentence structure",
+        "options": [
+          "at",
+          "I",
+          "seven",
+          "get",
+          "usually",
+          "up"
+        ],
+        "question": "连词成句：[at, I, seven, get, usually, up]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "What does she want?",
+        "difficulty": 3,
+        "explanation": "特殊疑问句“What does she want?”中，疑问词What在句首，接助动词does和主语she；does后面的实义动词用原形want。",
+        "knowledge_point": "Sentence structure",
+        "options": [
+          "she",
+          "What",
+          "want",
+          "does"
+        ],
+        "question": "连词成句：[she, What, want, does]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 94
+      },
+      {
+        "answer": "Can I use your pencil?",
+        "difficulty": 2,
+        "explanation": "请求许可的句型是“Can I + 动词原形 + 其他？”。use 是动词原形，句末加问号。",
+        "knowledge_point": "Permission sentence",
+        "options": [],
+        "question": "用所给词语组成句子：I / use / your pencil（可以；Can 开头）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 95
+      },
+      {
+        "answer": "Yes, you can.",
+        "difficulty": 2,
+        "explanation": "对 Can I...? 的肯定回答可以说“Yes, you can.”，意思是“可以”。",
+        "knowledge_point": "Permission sentence",
+        "options": [
+          "Yes, you can.",
+          "No, you can't.",
+          "Can I?"
+        ],
+        "question": "—Can I sit here? —______.（可以）",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "No, you can't.",
+        "difficulty": 2,
+        "explanation": "根据题意不能在课堂上跑，应回答“No, you can't.”，意思是“不可以”。",
+        "knowledge_point": "Permission sentence",
+        "options": [
+          "Yes, you can.",
+          "No, you can't.",
+          "You can sit here."
+        ],
+        "question": "—Can I run in the classroom? —______.（不可以）",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "Can I drink some water?",
+        "difficulty": 3,
+        "explanation": "询问“我可以喝些水吗？”用“Can I + 动词原形 + 其他？”。drink 使用动词原形。",
+        "knowledge_point": "Permission sentence",
+        "options": [],
+        "question": "翻译成英语：我可以喝些水吗？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 98
+      },
+      {
+        "answer": "Can",
+        "difficulty": 1,
+        "explanation": "请求许可时，Can 放在主语 I 前面，构成“Can I...? ”。",
+        "knowledge_point": "Permission sentence",
+        "options": [],
+        "question": "填空：______ I open the door?（我可以打开门吗？）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 99
       }
     ]
   },
@@ -711,6 +1772,182 @@
         "回答中使用 I 而不是 you，如 Yes, I can."
       ],
       "tips": "别人问'我可以吗？'你要答'你可以'。所以用'Yes, you can'。"
+    },
+    {
+      "common_mistakes": [
+        "把表示天气的名词和形容词混淆，例如 rain 是“雨”，rainy 是“下雨的”。",
+        "拼读相似的词时混淆，如 cloudy（多云的）和 windy（有风的）。",
+        "读句子时忽略天气形容词后面的词尾 -y。"
+      ],
+      "core_concept": "天气形容词用来描述天气情况，常见词有 sunny（晴朗的）、cloudy（多云的）、rainy（下雨的）、windy（有风的）和 snowy（下雪的）。学习时要认清单词的拼写和意思，并能在句子中找到它们。",
+      "key_formula": "It is + 天气形容词.（天气是……。）例如：It is sunny.（天气晴朗。）",
+      "point": "天气形容词的认读",
+      "tips": "认读时可以把单词和天气画面联系起来：sunny 想到太阳，cloudy 想到云，rainy 想到雨，windy 想到风，snowy 想到雪。注意这些词都以 -y 结尾。"
+    },
+    {
+      "common_mistakes": [
+        "询问天气时常用“How’s the weather?”，不要说“How’s weather?”。",
+        "回答天气状况时常用“It’s...”开头，例如“It’s sunny.”。",
+        "描述天气用形容词，如sunny、rainy、cloudy；不要把名词rain直接当作形容词说“It’s rain.”。"
+      ],
+      "core_concept": "本课学习用英语询问和描述天气。常见问句是“How’s the weather?”或“What’s the weather like?”，回答时可说“It’s sunny/rainy/cloudy/windy/snowy.”。",
+      "key_formula": "询问：How’s the weather? / What’s the weather like? 回答：It’s + 天气形容词.",
+      "point": "询问天气状况",
+      "tips": "看到天气图片或听到天气提示时，先判断天气，再用“It’s + 形容词”回答。例：How’s the weather? — It’s windy. 也可以加上地点或时间：How’s the weather in Beijing today? — It’s sunny."
+    },
+    {
+      "common_mistakes": [
+        "把天气和活动建议搭配错，例如说下雨时去野餐。",
+        "忘记使用 can 或 should 来表达建议。",
+        "说天气时忘记使用适当的 be 动词，例如 It is sunny。",
+        "把 go swimming、fly a kite 等活动短语写错。"
+      ],
+      "core_concept": "根据天气选择合适的活动，并用简单英语提出建议。描述天气时常用“It is + 天气词”，提出建议时可以说“You can + 动词短语”或“You should + 动词短语”。例如：It is sunny. You can fly a kite.（天气晴朗，你可以放风筝。）",
+      "key_formula": "It is + 天气词. You can/should + 动词短语.",
+      "point": "基于天气的活动建议",
+      "tips": "先看天气，再想适合在这种天气做什么：晴天可以放风筝或踢足球；下雨天可以在家读书或画画；炎热时可以游泳；寒冷或下雪时可以穿暖和些、堆雪人。can 表示“可以”，should 表示“应该”，后面接动词原形。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 rainy（下雨的）和 snowy（下雪的）混淆。",
+        "cold 表示冷，cool 表示凉爽；hot 表示炎热，warm 表示温暖。",
+        "表示天气时，常用句型是“It’s + 天气词”，如“It’s sunny.”"
+      ],
+      "core_concept": "学习描述天气的常见英语词汇，并能根据天气线索理解或表达天气情况。",
+      "key_formula": "It’s + 天气词.（天气是……。）",
+      "point": "Weather vocabulary",
+      "tips": "可以把天气词和生活情境联系起来记忆：看到太阳想到 sunny，堆雪人想到 snowy，穿上外套可能是 cold。"
+    },
+    {
+      "common_mistakes": [
+        "混淆描述天气的词，如 warm（温暖的）、hot（炎热的）和 cold（寒冷的）。",
+        "只看温度数字就判断天气，忽略不同活动或衣物是否合适。",
+        "把 soup（汤）等食物词汇拼写错误，或忘记在 Can I have some... ? 中使用食物名称。"
+      ],
+      "core_concept": "Activities judgment 指根据天气、温度和具体情境判断适合做什么、穿什么或吃什么，并用简单英语表达。常见天气词有 hot、warm、cool、cold、sunny、rainy、snowy；常见活动或物品词有 play outside、wear a sweater、drink water、soup。",
+      "key_formula": "判断情境并选择合适表达：天气或温度 + 合适的衣物、活动或物品。询问能否获得某物可用：Can I have some + 食物或饮品？肯定回答：Yes, you can.",
+      "point": "Activities judgment",
+      "tips": "先读懂情境中的天气、温度或请求，再判断选项是否合理。记住：hot 是炎热，cold 是寒冷，warm 是温暖；soup 的拼写是 s-o-u-p。"
+    },
+    {
+      "common_mistakes": [
+        "第三人称单数主语后，动词常需加 -s 或 -es。",
+        "询问天气时，注意使用“What is the weather like?”或“How is the weather?”，不能遗漏 be 动词。",
+        "一般疑问句通常要把 be 动词或助动词放到主语前。"
+      ],
+      "core_concept": "英语语法帮助我们正确组织单词和句子。本课练习常见的日常表达、一般疑问句和第三人称单数动词形式。",
+      "key_formula": "What is the weather like? = How is the weather?；一般现在时中，主语为 he、she、it 或单数名词时，行为动词通常加 -s 或 -es。",
+      "point": "Grammar usage",
+      "tips": "先找句子的主语，再判断动词形式；提问时留意句首是否需要使用 be 动词或助动词。读完整句话，检查语序和动词是否匹配。"
+    },
+    {
+      "common_mistakes": [
+        "询问天气可以说“What’s the weather like?”或“How’s the weather?”，不能说“How the weather?”",
+        "描述天气时，常用“It’s + 形容词”，如“It’s sunny.”",
+        "问某地的天气时，可在句末加地点，如“What’s the weather like in New York?”"
+      ],
+      "core_concept": "询问天气常用“What’s the weather like?”和“How’s the weather?”。回答时常用“It’s + 天气形容词”，例如“It’s rainy.”；也可以说“It’s raining.”。询问特定地点的天气时，在句末加上地点。",
+      "key_formula": "What’s the weather like (in + 地点)? / How’s the weather (in + 地点)? — It’s + 天气形容词.",
+      "point": "Asking about weather",
+      "tips": "记住两种常用问法：What’s the weather like? 和 How’s the weather? 回答时用 It’s 开头。sunny、cloudy、windy、rainy 等词常以-y结尾；下雨也可以说“It’s raining.”"
+    },
+    {
+      "common_mistakes": [
+        "肯定回答常用“Yes, you can.”，不能只看句首的“Yes”而漏掉后面的情态动词。",
+        "否定回答常用“No, you can't.”或“Sorry, you can't.”，不能回答“Yes, you can't.”。",
+        "回答要与对方请求的内容和情境相符；不允许时，可以礼貌地说“Sorry”。"
+      ],
+      "core_concept": "当别人用“Can I ...?”征求许可时，可以用“Yes, you can.”表示允许，用“No, you can't.”表示不允许。也可以用“Sure.”或“Sorry, ...”等表达，使回答更自然、礼貌。",
+      "key_formula": "Can I + 动词短语？— Yes, you can. / No, you can't. / Sure. / Sorry, ...",
+      "point": "Response to permission",
+      "tips": "练习时可以把请求和回答连起来读：Can I use your pen? — Sure. 注意“you”指向提问的人，因此回答时常说“You can”或“You can't”。"
+    },
+    {
+      "common_mistakes": [
+        "只看单个词的意思，没有联系整句话的情境。",
+        "忽略句子前后内容之间的逻辑关系。",
+        "选择语法上看似正确、但不符合常识或上下文的答案。"
+      ],
+      "core_concept": "Sentence logic（句子逻辑）是根据句子中的词语、上下文和生活常识，判断句意是否合理，并选择最符合语境的表达。",
+      "key_formula": "读懂句意 → 找出上下文线索 → 联系常识 → 选择逻辑最通顺的答案",
+      "point": "Sentence logic",
+      "tips": "先读完整句话，不要急着选答案。注意 and、but、because 等词提示的关系，也要留意活动、天气、地点和人物之间是否搭配合理。"
+    },
+    {
+      "common_mistakes": [
+        "表示在城市、国家或较大的区域时，通常用 in。",
+        "表示在具体地点时，常用 at；表示在某物的表面时，常用 on。",
+        "不要只根据中文“在”来选介词，要看地点的范围和特点。"
+      ],
+      "core_concept": "地点介词用于说明人或物在哪里。in 常表示在较大的范围或空间里面；on 常表示在某个表面上；at 常表示在具体地点或位置。",
+      "key_formula": "in + 城市、国家或较大范围；on + 表面；at + 具体地点或位置",
+      "point": "Location preposition",
+      "tips": "先判断地点是较大范围、表面，还是具体位置，再选择 in、on 或 at。例：in Beijing（在北京），on the desk（在书桌上），at school（在学校）。"
+    },
+    {
+      "common_mistakes": [
+        "把 Good night（晚安）和 Goodbye（再见）混淆：Good night 常用于晚上道晚安或睡前告别；Goodbye 用于告别。",
+        "Good morning 用于上午问候，Good afternoon 用于下午问候，注意根据时间选择。",
+        "初次见面时可说 Nice to meet you；回应时说 Nice to meet you, too."
+      ],
+      "core_concept": "学习在常见情境中使用英语问候语和告别语，并能根据时间、场合及对话内容作出恰当回应。",
+      "key_formula": "问候：Hello! / Hi! / Good morning! / Good afternoon!；告别：Goodbye! / Bye! / Good night!；初次见面：Nice to meet you. — Nice to meet you, too.",
+      "point": "Basic greetings",
+      "tips": "先判断情境：见面时打招呼，离开时道别；上午用 Good morning，下午用 Good afternoon，晚上睡前或夜间告别时可说 Good night。熟悉的朋友之间常用 Hi 或 Bye。"
+    },
+    {
+      "common_mistakes": [
+        "忘记在 What 后使用 is。",
+        "把 What's 拼成 whats；注意撇号表示缩写。",
+        "混淆询问天气的 What’s the weather like? 和询问天气状况的 How’s the weather?；两种问法都常用。"
+      ],
+      "core_concept": "询问天气时，可以说 “What’s the weather like today?”（今天天气怎么样？）或 “How’s the weather today?”（今天天气怎么样？）。回答时可说 “It’s sunny.”（天气晴朗。）或 “It’s rainy.”（下雨。）等。",
+      "key_formula": "What’s the weather like (today)? — It’s + 天气形容词.\nHow’s the weather (today)? — It’s + 天气形容词.",
+      "point": "Weather asking",
+      "tips": "What's 是 what is 的缩写；问句中的 like 表示“怎么样”。描述天气时，sunny、rainy、cloudy、windy 等形容词常放在 It’s 后面。"
+    },
+    {
+      "common_mistakes": [
+        "把 cloudy（多云的）和 sunny（晴朗的）混淆。",
+        "看到 wind 就只想到“风”，忘记 windy 表示“有风的”。",
+        "把 snowy（下雪的）误认为 snow（雪）；snowy 是形容天气的词。"
+      ],
+      "core_concept": "本课学习用英文描述天气的词汇，并将英文单词与对应的中文意思配对。",
+      "key_formula": "天气词汇：windy—有风的；cloudy—多云的；sunny—晴朗的；snowy—下雪的。",
+      "point": "Vocabulary matching",
+      "tips": "可以用词根记忆：windy 来自 wind（风），cloudy 来自 cloud（云），sunny 来自 sun（太阳），snowy 来自 snow（雪）。"
+    },
+    {
+      "common_mistakes": [
+        "把相近的形容词混淆，例如 warm 和 hot。",
+        "只看中文意思，不结合句子里的线索判断形容词。"
+      ],
+      "core_concept": "形容词用来描述人或事物的特征，如温度、大小、颜色和感受。做形容词匹配时，要把英文单词与意思相同的中文对应起来，也可以根据句子线索选择合适的形容词。",
+      "key_formula": "形容词 + 名词；例如：a cold day（寒冷的一天）。",
+      "point": "Adjective matching",
+      "tips": "先找出形容词描述的特征，再联系熟悉的生活场景判断词义。注意区分意思相近的词：cool 是凉爽的，cold 是寒冷的；warm 是温暖的，hot 是炎热的。"
+    },
+    {
+      "common_mistakes": [
+        "疑问句中忘记把助动词或be动词放在主语前。",
+        "陈述句中词序通常是“主语＋谓语＋其他成分”，不要随意调换。",
+        "使用频率副词时，注意它通常放在实义动词前、be动词后。"
+      ],
+      "core_concept": "句子结构是词语按照一定顺序组成完整句子的方式。英语常见的陈述句结构是“主语＋谓语＋其他成分”；一般疑问句常把be动词或助动词放在主语前；特殊疑问句通常是“疑问词＋be动词或助动词＋主语＋谓语”。",
+      "key_formula": "陈述句：主语＋谓语＋其他成分；一般疑问句：Be动词/助动词＋主语＋谓语？；特殊疑问句：疑问词＋Be动词/助动词＋主语＋谓语？",
+      "point": "Sentence structure",
+      "tips": "先找句子的主语和谓语，再判断句子是陈述句还是疑问句。陈述句通常主语在前；疑问句要注意疑问词或be动词、助动词的位置。句首单词首字母大写，句末使用合适的标点。"
+    },
+    {
+      "common_mistakes": [
+        "请求许可时，Can 应放在主语前面。",
+        "句末要加问号；now 通常放在句尾。",
+        "回答许可请求时，Yes, you can. 表示可以；No, you can’t. 表示不可以。"
+      ],
+      "core_concept": "Permission sentence（请求许可的句子）常用“Can I + 动词原形 + 其他？”来询问“我可以……吗？”。例如：Can I open the window?（我可以打开窗户吗？）",
+      "key_formula": "Can I + 动词原形 + 其他？\n肯定回答：Yes, you can.\n否定回答：No, you can’t.",
+      "point": "Permission sentence",
+      "tips": "先找出表示请求许可的 Can，再接 I 和动词原形；句末通常用问号。回答时，根据是否允许选择 Yes, you can. 或 No, you can’t."
     }
   ]
 }

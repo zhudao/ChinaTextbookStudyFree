@@ -4,326 +4,1367 @@
   "unit_number": 2,
   "unit_test": {
     "title": "第二单元《生物的多样性》单元达标验收卷",
-    "total_score": 100,
+    "total_score": 379,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "生物后代与其亲代在形态结构等方面相似的现象叫做遗传。题目中的绿豆形状相似，体现了遗传。",
         "knowledge_point": "植物的遗传与变异",
+        "options": [],
         "question": "亲代绿豆是圆形的，后代绿豆也一定是圆形的，这属于遗传现象。",
-        "options": [],
-        "answer": "对",
-        "explanation": "生物后代与其亲代在形态结构上相似的现象叫做遗传。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "自然保护区可以保护生物及其原有的栖息地，属于就地保护的重要方式。",
         "knowledge_point": "生物多样性的保护",
+        "options": [],
         "question": "建立自然保护区是保护生物多样性的一种有效措施。",
-        "options": [],
-        "answer": "对",
-        "explanation": "建立自然保护区可以就地保护生物的原有生存环境。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "动物的遗传与变异",
-        "question": "变异在生物界是普遍存在的，而遗传只发生在特定物种中。",
-        "options": [],
         "answer": "错",
-        "explanation": "遗传和变异是生物界普遍存在的生命特性。"
-      },
-      {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "校园生物大搜索",
-        "question": "调查校园生物时，地下、空中和水中都要进行观察和记录。",
-        "options": [],
-        "answer": "对",
-        "explanation": "全面的调查应覆盖校园内的各个角落和空间。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 2,
-        "knowledge_point": "古代生物化石",
-        "question": "化石只能在沉积岩中找到，在火山岩中不可能存在化石。",
+        "explanation": "遗传和变异都是生物界普遍存在的生命现象，不是只有某些特定物种才有。",
+        "knowledge_point": "动物的遗传与变异",
         "options": [],
-        "answer": "对",
-        "explanation": "由于岩浆的高温，化石通常保存在沉积岩中。"
+        "question": "变异在生物界是普遍存在的，而遗传只发生在特定物种中。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "校园生物可能生活在地面、地下、空中或水中，调查时应尽量覆盖不同空间和地点。",
         "knowledge_point": "校园生物大搜索",
-        "question": "在校园生物大搜索中，对于不认识的植物，我们应该（ ）。",
+        "options": [],
+        "question": "调查校园生物时，地下、空中和水中都要进行观察和记录。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "生物遗体通常在沉积物中被掩埋并保存，岩浆的高温通常会破坏遗体，因此化石主要在沉积岩中发现。",
+        "knowledge_point": "古代生物化石",
+        "options": [],
+        "question": "化石只能在沉积岩中找到，在火山岩中不可能存在化石。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "拍下照片或画图记录",
+        "difficulty": 1,
+        "explanation": "不认识的生物可以先记录外形和发现地点，再查找资料确认；随意采摘或带走会影响生物及其生活环境。",
+        "knowledge_point": "校园生物大搜索",
         "options": [
           "拔出来带回教室询问",
           "直接跳过不记入调查表",
           "拍下照片或画图记录",
           "带回家问父母"
         ],
-        "answer": "拍下照片或画图记录",
-        "explanation": "科学调查应保护现场环境，不认识的生物可通过图文记录后期查证。"
+        "question": "在校园生物大搜索中，对于不认识的植物，我们应该（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "变异",
         "difficulty": 1,
+        "explanation": "这句话说明了同胞兄弟之间以及与亲代之间的差异，属于变异。",
         "knowledge_point": "植物的变异",
-        "question": "“一母生九子，连母十个样”这句话描述的主要是（ ）现象。",
         "options": [
           "遗传",
           "变异",
           "进化",
           "发育"
         ],
-        "answer": "变异",
-        "explanation": "这句话说明了同胞兄弟之间以及与亲代之间的差异，属于变异。"
+        "question": "“一母生九子，连母十个样”这句话描述的主要是（ ）现象。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "分成两个对立的类别",
         "difficulty": 2,
+        "explanation": "二歧分类法每次依据一个明确特征，将生物分成有该特征和无该特征的两类。",
         "knowledge_point": "二歧分类法",
-        "question": "二歧分类法是将特征不同的生物（ ）。",
         "options": [
           "按大小分类",
           "分成两个对立的类别",
           "按颜色分类",
           "随机分成若干类"
         ],
-        "answer": "分成两个对立的类别",
-        "explanation": "二歧分类法是确定一个标准，将生物分为有此特征和无此特征的两类。"
+        "question": "二歧分类法是将特征不同的生物（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "运动方式",
         "difficulty": 1,
+        "explanation": "恐龙骨骼的形态和四肢结构能提供有关其运动方式的线索；叫声、具体体色和瞬时情绪不能仅凭骨骼化石确定。",
         "knowledge_point": "古代生物化石",
-        "question": "通过观察恐龙化石，科学家可以推断出恐龙的（ ）。",
         "options": [
           "叫声高低",
           "运动方式",
           "具体的体色",
           "瞬时情绪"
         ],
-        "answer": "运动方式",
-        "explanation": "骨骼化石的结构可以反映其四肢发育和运动方式。"
+        "question": "通过观察恐龙化石，科学家可以推断出恐龙的（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "单眼皮",
         "difficulty": 1,
+        "explanation": "单双眼皮属于可通过生殖细胞传递给后代的形态特征。",
         "knowledge_point": "人体的遗传",
-        "question": "下列属于人体遗传特征的是（ ）。",
         "options": [
           "单眼皮",
           "后天的伤疤",
           "学习的知识",
           "喜欢的颜色"
         ],
-        "answer": "单眼皮",
-        "explanation": "单双眼皮属于可通过生殖细胞传递给后代的形态特征。"
+        "question": "下列属于人体遗传特征的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "银杏",
         "difficulty": 1,
+        "explanation": "银杏在地质历史上很早就已出现，现存银杏与古代化石中的银杏形态相似，因此常被称为“活化石”。",
         "knowledge_point": "古代生物化石",
-        "question": "被称为“活化石”的植物是（ ）。",
         "options": [
           "绿梦",
           "银杏",
           "仙人掌",
           "凤仙花"
         ],
-        "answer": "银杏",
-        "explanation": "银杏出现在几亿年前，形态至今变化不大，被称为活化石。"
+        "question": "被称为“活化石”的植物是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "为了维持生态系统平衡",
         "difficulty": 1,
+        "explanation": "多种生物彼此联系、相互依存，有助于生态系统保持稳定并发挥正常功能。",
         "knowledge_point": "生物多样性的意义",
-        "question": "保护生物多样性的根本目的是（ ）。",
         "options": [
           "为了观赏",
           "为了维持生态系统平衡",
           "为了消灭害虫",
           "为了让人类更好控制自然"
         ],
-        "answer": "为了维持生态系统平衡",
-        "explanation": "生物多样性是生态系统稳定和功能的基础。"
+        "question": "保护生物多样性的根本目的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "金鱼形态各异是人工选择和变异的结果",
         "difficulty": 2,
+        "explanation": "金鱼个体会出现不同特征，人们经过长期人工选育，培育出许多形态各异的品种。",
         "knowledge_point": "动物的遗传与变异",
-        "question": "下列关于金鱼的说法正确的是（ ）。",
         "options": [
           "金鱼是天生的野生品种",
           "金鱼形态各异是人工选择和变异的结果",
           "所有金鱼都没有相似之处",
           "金鱼不会产生变异"
         ],
-        "answer": "金鱼形态各异是人工选择和变异的结果",
-        "explanation": "人类利用生物的变异，通过人工选育培育出了品种繁多的金鱼。"
+        "question": "下列关于金鱼的说法正确的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "干旱",
         "difficulty": 2,
+        "explanation": "刺状叶的表面积较小，能减少水分蒸腾，帮助仙人掌适应干旱环境。",
         "knowledge_point": "植物与环境",
-        "question": "仙人掌的叶退化成刺，主要是为了适应（ ）的环境。",
         "options": [
           "寒冷",
           "潮湿",
           "高温",
           "干旱"
         ],
-        "answer": "干旱",
-        "explanation": "刺状叶减少了水分蒸腾，是适应荒漠干旱环境的表现。"
+        "question": "仙人掌的叶退化成刺，主要是为了适应（ ）的环境。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "用编号或图例表示",
         "difficulty": 3,
+        "explanation": "用编号或统一的符号表示生物，并在图例中说明，可以让分布图清楚易读。",
         "knowledge_point": "制作校园生物分布图",
-        "question": "在制作校园生物分布图时，如果生物种类太多，可以（ ）。",
         "options": [
           "不标在图上",
           "只记录动物",
           "用编号或图例表示",
           "全部密密麻麻写上去"
         ],
-        "answer": "用编号或图例表示",
-        "explanation": "图例法能使分布图清晰、直观地传达信息。"
+        "question": "在制作校园生物分布图时，如果生物种类太多，可以（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "会有不同程度差异",
         "difficulty": 2,
+        "explanation": "同一种树的叶子也可能在大小、形状、颜色或叶缘等方面存在差异，因此不一定完全相同。",
         "knowledge_point": "调查校园生物",
-        "question": "校园里的生物多种多样，即使是同一种树，其叶子（ ）。",
         "options": [
           "完全一模一样",
           "会有不同程度差异",
           "大小相同但颜色不同",
           "形态完全不同"
         ],
-        "answer": "会有不同程度差异",
-        "explanation": "由于变异的存在，世界上没有两片完全相同的叶子。"
+        "question": "校园里的生物多种多样，即使是同一种树，其叶子（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "迁地保护",
         "difficulty": 2,
+        "explanation": "建立基因库是在原产地之外保存遗传资源，属于迁地保护。",
         "knowledge_point": "生物多样性的保护",
-        "question": "建立基因库属于保护生物多样性的（ ）。",
         "options": [
           "迁地保护",
           "就地保护",
           "国家法律宣传",
           "环境整治"
         ],
-        "answer": "迁地保护",
-        "explanation": "将遗传物质或种子等移出原产地保存属于迁地保护。"
+        "question": "建立基因库属于保护生物多样性的（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "具有耐寒的身体结构",
         "difficulty": 3,
+        "explanation": "猛犸象化石在冰原环境中被发现，结合其长毛等身体特征，可以推断它适应寒冷环境。",
         "knowledge_point": "古代生物化石",
-        "question": "猛犸象的化石在冰原中被发现，说明猛犸象（ ）。",
         "options": [
           "不能适应寒冷环境",
           "具有耐寒的身体结构",
           "曾生活在赤道地区",
           "是由恐龙演化而来"
         ],
-        "answer": "具有耐寒的身体结构",
-        "explanation": "猛犸象披满长毛，是典型的寒带动物。"
+        "question": "猛犸象的化石在冰原中被发现，结合猛犸象披有长毛这一特征，可以推断猛犸象（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "二歧分类法",
-        "question": "在使用二歧分类法将4种不同的生物完全区分开，最少需要进行（ ）级分类。",
-        "options": [],
         "answer": "2",
-        "explanation": "第一级分2组，第二级每组再分2个，即可区分出4个物种。"
-      },
-      {
-        "id": 20,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "调查校园生物",
-        "question": "在校园生物大搜索中，我们主要观察（ ）个方面的环境。",
-        "options": [],
-        "answer": "3",
-        "explanation": "通常指天上、地上（含水中）、地下三个空间。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "古代生物化石",
-        "question": "（ ）是存留在岩石中的古生物遗体、遗物或遗迹。",
-        "options": [],
-        "answer": "化石",
-        "explanation": "化石是研究生物进化的重要依据。"
-      },
-      {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
+        "explanation": "一级最多分成2类，二级最多分成4类，因此2级足以区分4种生物。",
         "knowledge_point": "二歧分类法",
-        "question": "确定一个标准，将事物分为两类，再确定标准，直到分完为止，这种方法叫（ ）。",
         "options": [],
-        "answer": "二歧分类法",
-        "explanation": "二歧分类法是科学分类的基础方法。"
+        "question": "在使用二歧分类法将4种不同的生物完全区分开，最少需要进行（ ）级分类。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 19
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
+        "answer": "3",
         "difficulty": 1,
-        "knowledge_point": "动物的变异",
-        "question": "同一种群中的不同个体在形态特征上存在的差异叫做（ ）。",
+        "explanation": "校园生物调查可以从天上、地上（含水中）和地下三个空间寻找与观察。",
+        "knowledge_point": "调查校园生物",
         "options": [],
+        "question": "在校园生物大搜索中，我们主要观察（ ）个方面的环境。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
+      },
+      {
+        "answer": "化石",
+        "difficulty": 1,
+        "explanation": "存留在岩石中的古生物遗体、遗物或遗迹称为化石。",
+        "knowledge_point": "古代生物化石",
+        "options": [],
+        "question": "（ ）是存留在岩石中的古生物遗体、遗物或遗迹。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
+      },
+      {
+        "answer": "二歧分类法",
+        "difficulty": 2,
+        "explanation": "二歧分类法每次将对象分成两个类别，并反复选择标准进行分类。",
+        "knowledge_point": "二歧分类法",
+        "options": [],
+        "question": "确定一个标准，将事物分为两类，再确定标准，直到分完为止，这种方法叫（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
         "answer": "变异",
-        "explanation": "变异是物种多样性的重要来源之一。"
+        "difficulty": 1,
+        "explanation": "同一种群中的不同个体在形态特征等方面存在差异，这种现象叫做变异。",
+        "knowledge_point": "动物的变异",
+        "options": [],
+        "question": "同一种群中的不同个体在形态特征上存在的差异叫做（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "调查要先确定范围、路线和分工，才能有序观察并减少遗漏。",
+        "knowledge_point": "校园生物大搜索与调查",
+        "options": [
+          "看到什么就马上抓来研究",
+          "先确定调查范围、路线和分工",
+          "只调查校园里最大的生物",
+          "不需要记录，结束后凭记忆交流"
+        ],
+        "question": "进行校园生物调查前，哪种做法最合适？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "记录观察时间和地点，便于整理资料，也能比较不同地点或时间的发现。",
+        "knowledge_point": "校园生物大搜索与调查",
+        "options": [],
+        "question": "观察到一种不认识的生物时，可以先记录它的外形特征、观察地点和时间。",
+        "score": 1,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "形状（或外形特征）",
+        "difficulty": 1,
+        "explanation": "不认识生物时，先客观描述可观察到的特征，再查阅资料辨认，避免凭印象猜测。",
+        "knowledge_point": "校园生物大搜索与调查",
+        "options": [],
+        "question": "遇到不认识的生物时，先记录它的颜色、大小和____等特征。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "调查应保护生物及其生活环境。观察、拍照和记录通常能获得信息，又不必伤害生物。",
+        "knowledge_point": "校园生物大搜索与调查",
+        "options": [
+          "把所有小动物带回教室",
+          "为看清植物而折下枝叶",
+          "观察并拍照记录，尽量不打扰生物",
+          "把石头和枯木翻开后不放回原处"
+        ],
+        "question": "调查校园小动物时，哪种做法更合适？",
+        "score": 1,
+        "type": "choice",
+        "id": 27
+      },
+      {
+        "answer": "3种",
+        "difficulty": 2,
+        "explanation": "柳树、蚂蚁和麻雀是三种不同的生物；同一类生物的不同个体不应重复算作不同种类。",
+        "knowledge_point": "校园生物大搜索与调查",
+        "options": [],
+        "question": "小组记录到柳树12棵、蚂蚁5只、麻雀2只。按记录中的生物种类计算，一共发现几种生物？",
+        "score": 1,
+        "type": "calculation",
+        "id": 28
+      },
+      {
+        "answer": "记录的观察范围、时间或方法不同，可能造成发现的种类和数量不同。比较时应尽量统一这些条件。",
+        "difficulty": 2,
+        "explanation": "若一组调查了花坛，另一组调查了操场，或者观察时长不同，结果就不宜直接比较。说明调查条件有助于公平分析。",
+        "knowledge_point": "校园生物大搜索与调查",
+        "options": [],
+        "question": "两个小组调查后发现的生物种类不同。写出一种可能的原因，并说明比较结果时应注意什么。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "二歧分类法每一步都按一个明确特征把对象分成两类，例如“有翅膀”和“没有翅膀”。",
+        "knowledge_point": "二歧分类法及其应用",
+        "options": [
+          "A. 每一步根据一个特征分成两类",
+          "B. 每一步根据许多特征分成任意数量的类",
+          "C. 只按对象的大小分类",
+          "D. 只用于给动物取名字"
+        ],
+        "question": "下列哪一项最符合二歧分类法？",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“有花”和“没有花”是互相对立的可观察特征，可以作为一步分类的两种选择。",
+        "knowledge_point": "二歧分类法及其应用",
+        "options": [],
+        "question": "判断：用“有花”和“没有花”把一组植物分成两类，可以作为二歧分类的一步。",
+        "score": 1,
+        "type": "true_false",
+        "id": 31
+      },
+      {
+        "answer": "有翅膀；没有翅膀",
+        "difficulty": 2,
+        "explanation": "“有翅膀”和“没有翅膀”是一对清楚、互相排斥的特征，可用于把这组动物分成两类。",
+        "knowledge_point": "二歧分类法及其应用",
+        "options": [],
+        "question": "要把一组动物分成“有翅膀”和另一类，另一类应写成________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "有花 → 向日葵、玫瑰；没有花 → 松树、蕨",
+        "difficulty": 2,
+        "explanation": "先用“是否开花”把植物分成两组：向日葵和玫瑰有花，松树和蕨没有花。两组互不重叠，并包含全部四种植物。",
+        "knowledge_point": "二歧分类法及其应用",
+        "options": [],
+        "question": "用“有花”和“没有花”把向日葵、玫瑰、松树、蕨分类。请写出两类各包含哪些植物。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“大”没有说明按什么标准判断，容易产生歧义；“有轮子/没有轮子”是较清楚、容易观察的一对特征。",
+        "knowledge_point": "二歧分类法及其应用",
+        "options": [
+          "A. 大的和不大的",
+          "B. 有轮子的和没有轮子的",
+          "C. 好用的和不好用的",
+          "D. 贵的和不贵的"
+        ],
+        "question": "给一组玩具设计二歧分类时，哪一对分类标准最清楚、容易观察？",
+        "score": 1,
+        "type": "choice",
+        "id": 34
+      },
+      {
+        "answer": "有壳的：蜗牛；没有壳的：蚯蚓、蝴蝶。再把“没有壳的”分为“有翅膀的：蝴蝶”和“没有翅膀的：蚯蚓”。",
+        "difficulty": 3,
+        "explanation": "先按“有无壳”分成两类；再对没有壳的一类按“有无翅膀”继续分，最终可以辨认三种动物。",
+        "knowledge_point": "二歧分类法及其应用",
+        "options": [],
+        "question": "用“有壳/没有壳”先分类蜗牛、蚯蚓和蝴蝶。再选择一个特征，把“没有壳”的动物分开，写出完整分类步骤。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "遗传",
+        "difficulty": 1,
+        "explanation": "子代与亲代相似的特征传递，称为遗传。例如，猫的幼崽常会继承亲代的一些毛色或体形特征。",
+        "knowledge_point": "植物与动物的遗传与变异",
+        "options": [],
+        "question": "生物的亲代与子代之间相似特征的传递，称为什么？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 36
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "同种生物的不同个体之间可能存在差异，这种现象称为变异。",
+        "knowledge_point": "植物与动物的遗传与变异",
+        "options": [],
+        "question": "同一品种的植物，叶片大小可能不同，这属于生物的变异。（判断正误）",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "种子长成的植物与亲代植物在许多特征上相似，体现了遗传；不同植株之间也可能存在差异。",
+        "knowledge_point": "植物与动物的遗传与变异",
+        "options": [
+          "A. 遗传",
+          "B. 遗传",
+          "C. 变异",
+          "D. 环境影响"
+        ],
+        "question": "一株豌豆结出的种子长成新植株，新植株的花色与亲代相似。这主要说明了什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "环境影响",
+        "difficulty": 2,
+        "explanation": "植物长得高矮不仅与遗传特征有关，也会受到阳光、水分、土壤等环境条件影响。只凭高矮不同，不能判断差异完全由遗传造成。",
+        "knowledge_point": "植物与动物的遗传与变异",
+        "options": [],
+        "question": "两株同种幼苗遗传特征相近，但一株阳光充足、浇水适宜，另一株光照不足、水分较少，长成后高矮不同。这种差异可能与什么有关？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "同窝小狗有的毛色较浅、有的较深，是同种动物个体间的差异，属于变异。",
+        "knowledge_point": "植物与动物的遗传与变异",
+        "options": [
+          "A. 遗传",
+          "B. 变异",
+          "C. 光合作用",
+          "D. 生长"
+        ],
+        "question": "同一窝小狗的毛色深浅不完全相同，这种现象属于什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "亲代",
+        "difficulty": 2,
+        "explanation": "子代会从亲代继承一些特征，例如动物的毛色、植物的花色等；但子代也可能与亲代或同类个体存在差异。",
+        "knowledge_point": "植物与动物的遗传与变异",
+        "options": [],
+        "question": "植物和动物的子代会从______继承一些特征。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "化石通常是保存在岩层中的古代生物遗体或遗迹。现代生物的骨骼不属于古代生物化石。",
+        "knowledge_point": "古代生物化石与演化",
+        "options": [
+          "现代植物的叶子",
+          "古代生物的遗体或遗迹保存在岩层中",
+          "刚死亡的动物尸体",
+          "人造的石头模型"
+        ],
+        "question": "下列哪一项最符合“化石”的含义？",
+        "score": 1,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "化石不只包括骨骼等遗体，也包括足迹、爬痕等生物留下的活动痕迹。",
+        "knowledge_point": "古代生物化石与演化",
+        "options": [
+          "只有动物骨骼才能成为化石",
+          "植物遗体和生物活动留下的痕迹也可能形成化石",
+          "所有石头都是化石",
+          "化石只能保存在海水中"
+        ],
+        "question": "关于化石，下列说法正确的是哪一项？",
+        "score": 1,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "足迹属于古代生物留下的活动痕迹。如果被沉积物覆盖并长期保存下来，就可能形成化石。",
+        "knowledge_point": "古代生物化石与演化",
+        "options": [],
+        "question": "古代生物留下的足迹也可能成为化石。",
+        "score": 1,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "岩层",
+        "difficulty": 1,
+        "explanation": "古代生物遗体或遗迹可能被沉积物覆盖，经过漫长时间保存并与岩层一起形成化石。",
+        "knowledge_point": "古代生物化石与演化",
+        "options": [],
+        "question": "化石通常保存在地球的____中。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 45
+      },
+      {
+        "answer": "化石；生物",
+        "difficulty": 2,
+        "explanation": "不同岩层中的化石记录了古代生物的情况；比较这些记录，可以发现生物种类和形态随着时间发生变化，为研究生物演化提供线索。",
+        "knowledge_point": "古代生物化石与演化",
+        "options": [],
+        "question": "科学家通过研究不同岩层中的____，发现不同时期的____种类和形态有所不同。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "古代生物种类和形态会随时间发生变化，化石记录为这种变化提供了证据；但化石记录并不完整，科学家还需要结合其他证据进行推测。",
+        "difficulty": 3,
+        "explanation": "不同地层中的化石可以反映不同时期生物的特点，帮助科学家研究生物演化。化石并不能保存所有生物的全部信息，因此结论需要依据多种证据。",
+        "knowledge_point": "古代生物化石与演化",
+        "options": [],
+        "question": "为什么说化石能帮助科学家研究生物演化？回答时请说明化石提供了什么线索，以及研究化石时要注意什么。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "生物多样性既包括生物种类的丰富，也与它们的生存环境有关。只保护少数珍稀动物不能代替对植物、其他生物和栖息地的保护。",
+        "knowledge_point": "生物多样性的保护意义与措施",
+        "options": [
+          "只保护珍稀动物",
+          "保护各种生物及其生存环境",
+          "只保护森林中的树木",
+          "把所有野生动物都带回家饲养"
+        ],
+        "question": "下列哪种做法最符合保护生物多样性的含义？",
+        "score": 2,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "生物之间以及生物与环境之间存在联系。保护多种生物及其栖息地，有助于维持生态系统的稳定。",
+        "knowledge_point": "生物多样性的保护意义与措施",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "保护生物多样性有助于维持生态系统的稳定。",
+        "score": 2,
+        "type": "true_false",
+        "id": 49
+      },
+      {
+        "answer": "栖息地",
+        "difficulty": 1,
+        "explanation": "栖息地是生物生活和繁衍的环境。保护栖息地，能为生物提供必要的食物、空间和繁殖场所。",
+        "knowledge_point": "生物多样性的保护意义与措施",
+        "options": [],
+        "question": "生物生活和繁衍所依赖的环境叫作____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "建立自然保护区是保护生物及栖息地的重要措施之一。随意捕猎、破坏湿地和向河流排污都会损害生物多样性。",
+        "knowledge_point": "生物多样性的保护意义与措施",
+        "options": [
+          "随意捕猎野生动物",
+          "建立自然保护区并保护栖息地",
+          "向河流倾倒垃圾",
+          "大量砍伐森林"
+        ],
+        "question": "下列哪一项是保护生物多样性的有效措施？",
+        "score": 2,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "减少一次性用品使用，做好垃圾分类，不购买野生动物制品。",
+        "difficulty": 2,
+        "explanation": "这些行为可以减少资源消耗和污染，也能减少对野生动物的伤害。日常行动与保护生物及其生存环境密切相关。",
+        "knowledge_point": "生物多样性的保护意义与措施",
+        "options": [],
+        "question": "请写出一种你在日常生活中可以采取的保护生物多样性的做法。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "食物、药物或生产生活资源；这些用途只要答出一类即可。",
+        "difficulty": 2,
+        "explanation": "许多生物能为人类提供食物、药物以及生产生活所需的资源。保护生物多样性也有助于保留未来利用和研究的可能。",
+        "knowledge_point": "生物多样性的保护意义与措施",
+        "options": [],
+        "question": "举出一类生物多样性能够为人类提供的资源或帮助。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "遗传",
+        "difficulty": 1,
+        "explanation": "后代与亲代具有相似的特征，这种现象叫做遗传。",
+        "knowledge_point": "植物的遗传与变异",
+        "options": [],
+        "question": "豌豆后代的种子形状与亲代相似，这种现象叫做______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 54
+      },
+      {
+        "answer": "变异",
+        "difficulty": 1,
+        "explanation": "同种植物的不同个体在特征上出现差异，属于变异现象。",
+        "knowledge_point": "植物的遗传与变异",
+        "options": [],
+        "question": "同一片菜地里的青菜，有的叶片较大，有的叶片较小，这体现了植物的______现象。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 55
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "后代与亲代之间既有相似之处，也可能存在差异。相似体现遗传，差异体现变异。",
+        "knowledge_point": "植物的遗传与变异",
+        "options": [],
+        "question": "植物的后代既可能继承亲代的特征，也可能与亲代存在差异。",
+        "score": 2,
+        "type": "true_false",
+        "id": 56
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "同种植物的不同个体在花色上有差异，属于变异。种子萌发、植物向光生长不是遗传与变异的例子。",
+        "knowledge_point": "植物的遗传与变异",
+        "options": [
+          "A. 种子吸水后开始萌发",
+          "B. 同种花中有的开红花，有的开白花",
+          "C. 植物的茎向着阳光生长",
+          "D. 叶片通过气孔进行气体交换"
+        ],
+        "question": "下面哪种现象最能说明植物存在变异？",
+        "score": 2,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "相似；差异",
+        "difficulty": 2,
+        "explanation": "遗传表现为亲代与后代之间的相似，变异表现为同种植物个体之间或亲代与后代之间的差异。",
+        "knowledge_point": "植物的遗传与变异",
+        "options": [],
+        "question": "植物后代与亲代的特征有______，属于遗传；同种植物个体之间存在______，属于变异。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "就地保护",
+        "difficulty": 1,
+        "explanation": "在生物原来的生存环境中连同栖息地一起保护，属于就地保护。",
+        "knowledge_point": "生物多样性的保护",
+        "options": [],
+        "question": "把生物留在原有栖息地中进行保护，称为（ ）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "迁地保护",
+        "difficulty": 2,
+        "explanation": "动物园将动物迁离其原有生境进行饲养和保护，属于迁地保护。",
+        "knowledge_point": "生物多样性的保护",
+        "options": [
+          "就地保护",
+          "迁地保护",
+          "环境整治",
+          "合理捕捞"
+        ],
+        "question": "把某些珍稀动物迁到动物园中饲养保护，这种措施属于（ ）。",
+        "score": 3,
+        "type": "choice",
+        "id": 60
+      },
+      {
+        "answer": "遗传（基因）的多样性",
+        "difficulty": 2,
+        "explanation": "同一种生物的不同个体可能具有不同的遗传特征，这种差异体现了遗传（基因）的多样性。",
+        "knowledge_point": "生物多样性的保护",
+        "options": [],
+        "question": "同一种植物的不同品种具有不同的遗传特征，这体现了生物多样性中的（ ）。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "减少污染并保护和修复生物的栖息地",
+        "difficulty": 2,
+        "explanation": "栖息地为生物提供生存条件，减少污染并保护、修复栖息地有助于保护生物及其赖以生存的生态系统。",
+        "knowledge_point": "生物多样性的保护",
+        "options": [
+          "减少污染并保护和修复生物的栖息地",
+          "随意捕捉野生动物",
+          "砍伐森林扩大耕地",
+          "向河流倾倒垃圾"
+        ],
+        "question": "以下哪项做法有利于保护生物多样性？（ ）",
+        "score": 3,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "遗传",
+        "difficulty": 1,
+        "explanation": "后代与亲代在某些特征上相似，这种现象叫遗传。",
+        "knowledge_point": "动物的遗传与变异",
+        "options": [],
+        "question": "小狗的毛色和亲代相似，这种现象叫作______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 63
+      },
+      {
+        "answer": "变异",
+        "difficulty": 1,
+        "explanation": "同种动物的个体之间存在差异，属于变异现象。",
+        "knowledge_point": "动物的遗传与变异",
+        "options": [],
+        "question": "同一窝小猫的毛色或体形并不完全相同，这说明动物存在______现象。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 64
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "同种动物的亲代和后代往往有许多相似之处，但不一定完全相同。",
+        "knowledge_point": "动物的遗传与变异",
+        "options": [],
+        "question": "同种动物的后代通常会与亲代有相似的特征，但也可能存在差异。",
+        "score": 2,
+        "type": "true_false",
+        "id": 65
+      },
+      {
+        "answer": "小羊和亲代毛色相似体现遗传；同一群小羊的毛色深浅不同体现变异。",
+        "difficulty": 2,
+        "explanation": "亲代与后代具有相似特征是遗传现象；同种动物的不同个体之间存在差异是变异现象。",
+        "knowledge_point": "动物的遗传与变异",
+        "options": [],
+        "question": "一群小羊中，小羊的毛色与亲代相似，但同一群小羊的毛色深浅不完全相同。请分别说出这两种现象体现了什么。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "科学调查要保护生物及其栖息环境，观察时不应随意捕捉或带走生物。",
+        "knowledge_point": "校园生物大搜索",
+        "options": [],
+        "question": "为了看清校园里的昆虫，可以把它们都捉回教室观察。",
+        "score": 2,
+        "type": "true_false",
+        "id": 67
+      },
+      {
+        "answer": "花坛",
+        "difficulty": 1,
+        "explanation": "花坛是校园中适合开展观察的地点之一，也可以调查草地、树下、墙角和水边等地方。",
+        "knowledge_point": "校园生物大搜索",
+        "options": [],
+        "question": "校园里可以选择草地、树下、墙角或（　　）等地点进行生物调查。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 68
+      },
+      {
+        "answer": "记录生物的名称或特征、数量和发现地点",
+        "difficulty": 2,
+        "explanation": "写清生物的特征、数量和地点，能让调查记录更具体，也便于之后整理和比较。",
+        "knowledge_point": "校园生物大搜索",
+        "options": [],
+        "question": "调查时发现一种认识的植物，请写出记录它时至少应关注的三项信息。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 69
+      },
+      {
+        "answer": "发现的生物数量会变化，因为调查地点、时间或天气等条件可能不同。",
+        "difficulty": 2,
+        "explanation": "不同条件会影响生物是否出现以及是否容易被观察到。比较调查结果时，应留意调查时间、地点和天气等因素。",
+        "knowledge_point": "校园生物大搜索",
+        "options": [],
+        "question": "两组同学在不同时间调查同一片草地，发现的生物数量不一样。请写出一个可能的原因。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "脚印化石",
+        "difficulty": 2,
+        "explanation": "脚印是古生物活动留下的痕迹，属于遗迹化石。它能为研究古生物的行动方式提供线索。",
+        "knowledge_point": "古代生物化石",
+        "options": [],
+        "question": "古生物在泥地上留下的脚印经过长期保存，形成了（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 71
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "同种植物的不同个体可能在花色、叶片大小或株高等方面存在差异，这些差异属于变异。",
+        "knowledge_point": "植物的变异",
+        "options": [
+          "A. 同一株植物的叶片都长在枝条上",
+          "B. 同一种花中有的花朵颜色较深，有的较浅",
+          "C. 种子萌发后长出幼苗",
+          "D. 植物吸收水分后生长"
+        ],
+        "question": "下面哪种现象属于植物的变异？",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "同一种植物的个体之间可能存在差异，例如株高、果实大小或花色不同，这就是变异。",
+        "knowledge_point": "植物的变异",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "同一种植物的不同个体可能有差异，这种现象叫作变异。",
+        "score": 5,
+        "type": "true_false",
+        "id": 73
+      },
+      {
+        "answer": "环境",
+        "difficulty": 2,
+        "explanation": "光照、水分和土壤等环境条件会影响植物的生长，使植物出现不同表现。",
+        "knowledge_point": "植物的变异",
+        "options": [],
+        "question": "同一种植物在不同的光照、水分和土壤条件下，可能表现出不同的生长状况，这说明植物的表现会受到（ ）因素影响。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 74
+      },
+      {
+        "answer": "遗传因素和环境因素",
+        "difficulty": 2,
+        "explanation": "植物出现差异，既可能与遗传物质有关，也可能受到光照、水分、温度和土壤等环境条件影响。",
+        "knowledge_point": "植物的变异",
+        "options": [],
+        "question": "植物的变异可能与哪些因素有关？请写出两类主要因素。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 75
+      },
+      {
+        "answer": "答案不唯一。例如：挑选同一种植物的种子，分别在光照、水分、土壤等条件相同的环境中种植，观察并比较它们的株高、叶片和果实等特征。",
+        "difficulty": 3,
+        "explanation": "比较时要尽量控制环境条件和生长阶段等因素，观察同种植物个体间是否仍有差异。这样能减少环境差异对观察结果的干扰。",
+        "knowledge_point": "植物的变异",
+        "options": [],
+        "question": "如果想观察同一种植物不同个体之间的差异，可以怎样进行比较？请简要说明。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 76
+      },
+      {
+        "answer": "有翅和无翅",
+        "difficulty": 2,
+        "explanation": "“是否有翅”是一个可观察、可判断的二分标准，可以将生物分成有翅和无翅两类。",
+        "knowledge_point": "二歧分类法",
+        "options": [],
+        "question": "用一个明确的特征将生物分成两类：一类有翅，另一类（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 77
+      },
+      {
+        "answer": "有毛和无毛",
+        "difficulty": 2,
+        "explanation": "“是否有毛”是明确的单一分类标准，得到的两类分别是有毛和无毛。",
+        "knowledge_point": "二歧分类法",
+        "options": [],
+        "question": "以“是否有毛”为标准，生物可以分为（ ）和（ ）两类。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 78
+      },
+      {
+        "answer": "3",
+        "difficulty": 3,
+        "explanation": "2级最多区分4个对象，不足以区分6个；3级最多区分8个，因此至少需要3级。",
+        "knowledge_point": "二歧分类法",
+        "options": [],
+        "question": "在每一级都将一组分成两类的情况下，要区分6种生物，最少需要（ ）级分类。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 79
+      },
+      {
+        "answer": "√",
+        "difficulty": 1,
+        "explanation": "子女可能在外貌或其他特征上与父母相似，这是遗传现象的一种表现。",
+        "knowledge_point": "人体的遗传",
+        "options": [],
+        "question": "孩子的一些特征可能与父母相似。",
+        "score": 5,
+        "type": "true_false",
+        "id": 80
+      },
+      {
+        "answer": "伤疤",
+        "difficulty": 1,
+        "explanation": "伤疤通常是受伤后形成的，是后天经历造成的，不会通过生殖细胞遗传给子女。",
+        "knowledge_point": "人体的遗传",
+        "options": [],
+        "question": "人受伤后留下的____通常属于后天形成的特征。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 81
+      },
+      {
+        "answer": "子女可能与父母相似，但不会在所有特征上完全相同。",
+        "difficulty": 2,
+        "explanation": "遗传会使亲代和子代之间出现相似之处，但每个人的特征组合也有差异，因此子女不一定与父母完全一样。",
+        "knowledge_point": "人体的遗传",
+        "options": [],
+        "question": "判断：子女的所有特征都与父母完全相同。请写出判断并简要说明。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "血型",
+        "difficulty": 2,
+        "explanation": "血型受遗传影响，可以作为人体遗传特征的例子；会骑自行车是后天通过练习学会的。",
+        "knowledge_point": "人体的遗传",
+        "options": [
+          "会骑自行车",
+          "血型",
+          "手上的伤疤",
+          "喜欢吃甜食"
+        ],
+        "question": "下列哪项是受遗传影响的人体特征？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "不一定。遗传使孩子可能与父母有相似特征，但孩子的特征组合不一定与父母完全相同；有些特征也会受到环境和生活经历影响。",
+        "difficulty": 3,
+        "explanation": "遗传不是让子女成为父母的完全复制。亲子之间可以既有相似处，也有差异，观察特征时还要考虑后天环境和经历。",
+        "knowledge_point": "人体的遗传",
+        "options": [],
+        "question": "小明发现自己和爸爸都有酒窝，就说自己所有特征都一定和爸爸相同。你同意吗？请说明理由。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "不同生物之间存在食物、传粉、栖息等联系，它们共同参与生态系统的运转。",
+        "knowledge_point": "生物多样性的意义",
+        "options": [],
+        "question": "不同生物相互联系、相互依存，有助于维持生态系统的稳定。",
+        "score": 5,
+        "type": "true_false",
+        "id": 85
+      },
+      {
+        "answer": "植物",
+        "difficulty": 1,
+        "explanation": "许多植物可以作为食物或药材，也能提供木材、纤维等原材料，是生物多样性对人类的重要价值之一。",
+        "knowledge_point": "生物多样性的意义",
+        "options": [],
+        "question": "许多生物能为人类提供食物和药物。例如，不少药材来自________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 86
+      },
+      {
+        "answer": "蜜蜂可以帮助植物传粉，促进植物繁殖；植物为蜜蜂提供花蜜和花粉。",
+        "difficulty": 2,
+        "explanation": "蜜蜂和植物之间存在相互联系：蜜蜂获得食物的同时，也帮助植物传粉，体现了生物多样性的生态作用。",
+        "knowledge_point": "生物多样性的意义",
+        "options": [],
+        "question": "请说出蜜蜂和开花植物之间的一种相互关系，并说明这种关系有什么意义。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 87
+      },
+      {
+        "answer": "增加",
+        "difficulty": 2,
+        "explanation": "如果一个地区的生物种类较多、生物之间的联系较丰富，生态系统通常能更好地应对环境变化；但生态系统稳定还受多种因素影响。",
+        "knowledge_point": "生物多样性的意义",
+        "options": [],
+        "question": "在其他条件相近时，生物种类较丰富，生物之间的联系也较多，生态系统应对环境变化的能力通常会________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 88
+      },
+      {
+        "answer": "例如，野生植物可能为人类提供新的食物或药物来源；保护它们及其生活环境，有助于保存这些资源和相关生态作用。",
+        "difficulty": 2,
+        "explanation": "生物多样性具有资源价值，也关系到生态系统的正常运行。保护生物及其栖息环境，可以为人类和自然保留更多可能。",
+        "knowledge_point": "生物多样性的意义",
+        "options": [],
+        "question": "举一个例子说明生物多样性对人类有用，并写出保护它的一个理由。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 89
+      },
+      {
+        "answer": "阳光",
+        "difficulty": 1,
+        "explanation": "多数绿色植物需要阳光进行光合作用，制造自身生长所需的养分。",
+        "knowledge_point": "植物与环境",
+        "options": [],
+        "question": "多数绿色植物生长需要水、空气和（ ）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 90
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "水分不足会影响植物的正常生长，严重时还会使植物枯萎。",
+        "knowledge_point": "植物与环境",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "植物的生长会受到水分条件的影响。",
+        "score": 5,
+        "type": "true_false",
+        "id": 91
+      },
+      {
+        "answer": "莲的叶片宽大，叶柄较长，有助于叶片伸出水面接受阳光；叶片表面不易沾水，也适合水生环境。",
+        "difficulty": 2,
+        "explanation": "莲生活在水中或水边，叶片和叶柄的特点有利于它获得阳光，并适应水生环境。",
+        "knowledge_point": "植物与环境",
+        "options": [],
+        "question": "莲的叶片宽大、叶柄较长，这些特点对它适应水生环境有什么帮助？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "向阳",
+        "difficulty": 2,
+        "explanation": "植物的茎和叶常会朝光照较多的方向生长，这有利于植物获得更多阳光。",
+        "knowledge_point": "植物与环境",
+        "options": [],
+        "question": "把一盆植物放在窗边一段时间后，常会发现它的茎和叶朝着（ ）的一侧生长。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 93
+      },
+      {
+        "answer": "水分不足会使植物生长变慢，叶片萎蔫；如果长期缺水，植物可能枯死。",
+        "difficulty": 2,
+        "explanation": "水是植物生长的重要条件。缺水会影响植物吸收和运输养分，进而影响生长。",
+        "knowledge_point": "植物与环境",
+        "options": [],
+        "question": "如果一株植物长期得不到足够的水，可能会出现哪些变化？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 94
+      },
+      {
+        "answer": "先确定调查范围和观察路线",
+        "difficulty": 2,
+        "explanation": "先明确调查范围和路线，能帮助调查者有顺序地观察校园，减少遗漏。",
+        "knowledge_point": "制作校园生物分布图",
+        "options": [
+          "先确定调查范围和观察路线",
+          "先把所有生物画在图上",
+          "先给每种生物取新名字",
+          "先采集生物带回教室"
+        ],
+        "question": "制作校园生物分布图前，比较合理的第一步是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "生物名称和它出现的位置",
+        "difficulty": 2,
+        "explanation": "分布图需要呈现生物种类及其分布地点，记录名称和位置才能在图上准确标注。",
+        "knowledge_point": "制作校园生物分布图",
+        "options": [
+          "生物名称和它出现的位置",
+          "调查者最喜欢的颜色",
+          "教室里课桌的数量",
+          "当天午餐的菜单"
+        ],
+        "question": "调查校园生物时，最需要记录的信息是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "图例说明图中的符号代表什么，能帮助读图的人理解生物的种类和分布。",
+        "knowledge_point": "制作校园生物分布图",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "分布图上的符号可以配上图例，说明每种符号代表的生物。",
+        "score": 5,
+        "type": "true_false",
+        "id": 97
+      },
+      {
+        "answer": "不打扰",
+        "difficulty": 2,
+        "explanation": "调查校园生物时应以观察和记录为主，尽量不采摘植物、不捕捉动物，保护校园生物。",
+        "knowledge_point": "制作校园生物分布图",
+        "options": [],
+        "question": "调查校园生物时，应尽量________生物。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 98
+      },
+      {
+        "answer": "操场西侧的花坛",
+        "difficulty": 3,
+        "explanation": "记录具体地点，并用符号或编号在相应位置标注，才能呈现生物的分布情况。其他合理且具体的校园地点也可作为答案。",
+        "knowledge_point": "制作校园生物分布图",
+        "options": [],
+        "question": "小明在操场西侧花坛发现一只蝴蝶。请写出他应在分布图上标注蝴蝶的位置。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "地上",
+        "difficulty": 1,
+        "explanation": "校园里的草、树、昆虫和鸟等，常能在地面及其附近观察到；地上是调查时可以寻找的空间之一。",
+        "knowledge_point": "调查校园生物",
+        "options": [],
+        "question": "调查校园生物时，除了天上和地下，还要观察（ ）的生物。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 100
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "一次调查中没有发现某种生物，不代表校园里一定没有它；它可能体型小、躲藏起来，或在其他时间活动。",
+        "knowledge_point": "调查校园生物",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "某个角落一次没有观察到动物，就能确定那里没有动物。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 101
+      },
+      {
+        "answer": "地点和环境",
+        "difficulty": 2,
+        "explanation": "记录发现地点和环境，有助于了解生物在哪里生活，也方便调查后整理和比较。",
+        "knowledge_point": "调查校园生物",
+        "options": [],
+        "question": "调查记录除了写下观察到的生物名称或特征，还应记录发现的（ ）和（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 102
+      },
+      {
+        "answer": "不可以。应尽量观察和记录，不随意采摘、捕捉或破坏生物及其生活环境。",
+        "difficulty": 2,
+        "explanation": "调查的目的是认识校园生物。随意采摘或捕捉会伤害生物、破坏栖息地；应在安全前提下轻声观察并如实记录。",
+        "knowledge_point": "调查校园生物",
+        "options": [],
+        "question": "调查时发现一只不认识的小动物，可以为了看清楚而随意抓起来带走吗？请说明理由。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 103
+      },
+      {
+        "answer": "毛色、体形、耳朵形状等（答出一种即可）",
+        "difficulty": 1,
+        "explanation": "同一种动物的不同个体可能在多种特征上有差异，如颜色、体形或器官形状。",
+        "knowledge_point": "动物的变异",
+        "options": [],
+        "question": "举出一种同一种动物不同个体之间可能存在的差异。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "变异指同一种动物不同个体之间的差异，是生物普遍存在的现象。",
+        "knowledge_point": "动物的变异",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "同一种动物的不同个体之间可能存在差异，这种现象叫做变异。",
+        "score": 5,
+        "type": "true_false",
+        "id": 105
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "有些变异能遗传给后代，有些变异主要由环境造成，不一定能遗传。",
+        "knowledge_point": "动物的变异",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "动物身上出现的所有变异都一定会遗传给后代。",
+        "score": 5,
+        "type": "true_false",
+        "id": 106
+      },
+      {
+        "answer": "遗传",
+        "difficulty": 2,
+        "explanation": "有些个体差异与遗传有关，能够由亲代传给后代；但并非所有变异都能遗传。",
+        "knowledge_point": "动物的变异",
+        "options": [],
+        "question": "有些动物的变异与（ ）有关，可能传给后代。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "小兔子的毛色不同属于同一种动物个体间的差异，因此是变异。",
+        "difficulty": 2,
+        "explanation": "题目比较的是同一种动物——兔子，不同个体的毛色存在差异，符合变异的含义。",
+        "knowledge_point": "动物的变异",
+        "options": [],
+        "question": "同一窝小兔中，有的毛色是白色，有的是灰色。这种差异属于什么现象？为什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 108
       }
     ]
   },
@@ -664,14 +1705,15 @@
       "tips": "要像科学家一样记录时间和地点，对未知生物拍照。"
     },
     {
-      "point": "二歧分类法",
-      "core_concept": "基于特征有无将生物不断一分为二。",
-      "key_formula": "n 级分类可辨别 2 的 n 次方个物种。",
       "common_mistakes": [
-        "分类标准不明确",
-        "同一级使用了多个分类标准"
+        "分类标准不明确或不客观，导致分类结果不容易判断。",
+        "同一级分类中混用多个标准，使分类过程不一致。",
+        "误以为分类到两组就结束；应继续按明确标准分类，直到各个生物都能被区分。"
       ],
-      "tips": "标准必须是客观的形态特征，如“是否有毛”。"
+      "core_concept": "二歧分类法是每次选用一个明确、客观的特征，把生物分成有该特征和无该特征两类，再对各组重复这一过程，直到需要区分的生物都能被识别。",
+      "key_formula": "若每一级都将一组分成两类，n级最多可区分2ⁿ个对象；区分N个对象至少需要满足2ⁿ≥N的最小整数n。",
+      "point": "二歧分类法",
+      "tips": "选用容易观察、判断一致的特征，例如“是否有毛”或“是否有翅”。每次分类只使用一个标准，并检查同组中的对象能否继续区分。"
     },
     {
       "point": "遗传与变异",
@@ -702,6 +1744,194 @@
         "认为保护生物只是少吃野味"
       ],
       "tips": "建立自然保护区是最核心、最有效的手段。"
+    },
+    {
+      "common_mistakes": [
+        "只记录熟悉或显眼的生物，忽略小型、隐蔽的生物。",
+        "把一次观察到的情况当成整个季节或全年都如此。",
+        "随意采摘、捕捉或伤害生物，破坏它们的生活环境。",
+        "记录信息不完整，缺少观察地点、时间或生物特征。"
+      ],
+      "core_concept": "校园生物调查是有目的、有计划地观察并记录校园里的生物及其生活环境。通过实地观察、分类整理和交流比较，我们能了解校园生物的种类、分布与生活状况。",
+      "key_formula": "调查记录 = 生物名称或特征 + 观察地点 + 观察时间 + 数量或发现情况 + 环境信息",
+      "point": "校园生物大搜索与调查",
+      "tips": "调查前准备记录表、铅笔和放大镜等工具，约定安全范围与分工；记录时写清时间、地点和特征；遇到不认识的生物先描述，不凭印象乱猜；调查后按植物、动物等类别整理资料，并比较不同地点的发现。"
+    },
+    {
+      "common_mistakes": [
+        "把分类依据写成“是否常见”“是否有用”等主观标准，而不是清楚、可观察的特征。",
+        "分类的两类特征不互相对立或不全面，导致有些对象无法归类或能同时落入两类。",
+        "误以为二歧分类法只能分类动物；它也可以用于植物、物品等。"
+      ],
+      "core_concept": "二歧分类法是一种逐步分类的方法：每一步都根据一个明确特征，把对象分成两组互相排斥的类别。再对每组对象继续选择特征、分成两类，直到能辨认每个对象。",
+      "key_formula": "每一步：一个明确特征 → 分成“有该特征”和“没有该特征”两类；沿分类步骤逐次判断，找到对象所属类别。",
+      "point": "二歧分类法及其应用",
+      "tips": "先观察对象有哪些明显差异，再选择一个能把当前对象分成两组的特征。可以用“有……/没有……”或“……/不……”写成成对选项。分类后检查：每个对象是否都能且只能进入一类？如果不能，就换一个更清楚、适用的特征。二歧分类法常用于制作检索表，帮助逐步辨认对象。"
+    },
+    {
+      "common_mistakes": [
+        "认为子代和亲代完全相同；实际上子代通常会继承亲代的许多特征，也可能存在差异。",
+        "把遗传与变异混为一谈；遗传是特征从亲代传给子代，变异是同种生物个体之间存在差异。",
+        "认为所有差异都由遗传造成；生活环境也会影响生物表现出的特征。"
+      ],
+      "core_concept": "遗传是生物亲代与子代之间相似特征的传递，变异是同种生物不同个体之间的差异。植物和动物的子代会继承亲代的一些特征，但也会出现差异；遗传和环境共同影响生物的生长与表现。",
+      "key_formula": "亲代特征传给子代 → 遗传；同种生物个体间有差异 → 变异",
+      "point": "植物与动物的遗传与变异",
+      "tips": "观察遗传与变异时，可以比较同种植物的叶形、花色或果实，也可以比较同种动物的毛色、体形等。先找亲子间相似的特征，再找同种个体间不同的特征。注意：阳光、水分、温度和食物等环境条件也会影响生物的生长表现。"
+    },
+    {
+      "common_mistakes": [
+        "把化石误认为只有动物的骨骼；植物的叶片、孢子和生物留下的足迹等也可能形成化石。",
+        "认为化石能完整保存古生物的全部样子；多数化石只保存了生物的一部分或留下的痕迹。",
+        "把生物演化理解为个体在一生中主动改变；演化是生物种群经过许多世代逐渐发生变化。"
+      ],
+      "core_concept": "化石是保存在岩层中的古代生物遗体或遗迹，是研究古生物及其生活环境的重要证据。不同地层中的化石显示，地球上的生物种类和形态随时间发生变化，这为认识生物演化提供了线索。",
+      "key_formula": "无",
+      "point": "古代生物化石与演化",
+      "tips": "观察化石时，可以关注它保存的是身体部分还是活动痕迹，并比较不同岩层中化石的种类和特征。化石记录并不完整，因此科学家会结合多种证据推测古代生物及其演化。"
+    },
+    {
+      "common_mistakes": [
+        "认为保护生物多样性只是在保护珍稀动物，忽略了植物、微生物及它们的生存环境。",
+        "认为某种生物暂时没有明显用途就不需要保护。",
+        "认为保护生物多样性只靠建立自然保护区，忽视日常生活中的节约资源和减少污染。"
+      ],
+      "core_concept": "生物多样性是指地球上生物种类的丰富程度及其生活环境的多样性。保护生物多样性，就是保护各种生物及其赖以生存的环境，使它们能够繁衍生息。",
+      "key_formula": "保护生物多样性＝保护生物及其栖息地＋合理利用资源＋减少人为破坏",
+      "point": "生物多样性的保护意义与措施",
+      "tips": "判断一项做法是否有助于保护生物多样性，可以想一想：它是否保护了生物或栖息地，是否减少了污染和资源浪费，是否避免了对生态系统的过度干扰。"
+    },
+    {
+      "common_mistakes": [
+        "遗传不是后代与亲代完全相同，而是后代具有与亲代相似的特征。",
+        "变异不一定都是明显的，也不一定都是有害的。",
+        "同一植物的种子长成的植株可能各有差异，这些差异可能与遗传或环境有关。"
+      ],
+      "core_concept": "植物的遗传是指后代与亲代在形态特征等方面具有相似性；植物的变异是指同种植物的不同个体之间，或同一个体的亲代与后代之间存在差异。遗传使植物保持种类的基本特征，变异使植物个体有所不同。",
+      "key_formula": "遗传：亲代与后代有相似特征；变异：同种植物个体之间存在差异。",
+      "point": "植物的遗传与变异",
+      "tips": "观察植物时，可以比较叶片形状、花色、果实大小和种子形状等特征。判断遗传或变异时，要先看比较对象：相似特征体现遗传，不同个体之间的差异体现变异。植物的生长环境也会影响一些表现出来的特征。"
+    },
+    {
+      "common_mistakes": [
+        "把就地保护和迁地保护混为一谈：自然保护区主要属于就地保护，动物园、植物园和基因库等主要属于迁地保护。",
+        "认为保护生物多样性只要保护珍稀动物；保护其栖息地、各种生物及其遗传差异同样重要。",
+        "认为建立保护区后就不需要其他保护行动；减少污染、合理利用资源和遵守相关法律也很重要。"
+      ],
+      "core_concept": "生物多样性包括生物种类的多样性、遗传（基因）的多样性和生态系统的多样性。保护生物多样性，就是保护各种生物及其生存环境，维护生态系统的稳定。",
+      "key_formula": "保护生物多样性：就地保护为主，结合迁地保护，并通过法律、宣传教育和合理利用资源等措施共同实施。",
+      "point": "生物多样性的保护",
+      "tips": "判断保护方式时，看保护对象是否留在原来的生存环境中：在原地连同栖息地一起保护，通常是就地保护；离开原地保存或繁育，通常是迁地保护。"
+    },
+    {
+      "common_mistakes": [
+        "认为遗传只发生在某些特定物种中；遗传是生物的普遍特征。",
+        "认为同一种动物的个体完全相同；同种动物的个体之间也可能存在差异。",
+        "把所有差异都归因于遗传；动物的外形和生活状况也可能受到环境影响。"
+      ],
+      "core_concept": "动物的后代与亲代在许多特征上相似，这种现象叫遗传；同种动物的不同个体或后代与亲代之间存在差异，这种现象叫变异。遗传和变异是生物界普遍存在的现象。",
+      "key_formula": "遗传：后代与亲代相似；变异：个体之间或亲代与后代之间存在差异。",
+      "point": "动物的遗传与变异",
+      "tips": "观察动物时，可以比较体形、毛色、耳朵形状等特征。既要找出亲代和后代相似的地方，也要注意同种动物个体之间的不同。金鱼品种丰富，是人们利用变异进行长期人工选育的结果。"
+    },
+    {
+      "common_mistakes": [
+        "只观察熟悉或显眼的生物，忽略草丛、树下、墙角和水边等地方。",
+        "调查时随意采摘、捕捉或带走生物，破坏它们的生活环境。",
+        "记录过于笼统，没有写清生物的名称、数量或发现地点。"
+      ],
+      "core_concept": "校园生物大搜索是一项有计划的观察调查活动。我们可以在校园不同地点寻找生物，记录它们的名称、数量、生活环境和发现位置；遇到不认识的生物，可用照片或图画记录，之后再查找资料确认。调查过程中要保护生物和它们的栖息环境。",
+      "key_formula": "完整调查 = 多地点观察 + 认真记录 + 保护生物与环境",
+      "point": "校园生物大搜索",
+      "tips": "观察时轻声慢行，不翻动或破坏生物的生活场所；记录要具体、真实。天气、季节和观察时间可能影响发现的生物种类和数量，因此比较调查结果时要考虑这些条件。"
+    },
+    {
+      "common_mistakes": [
+        "把化石误认为只有古生物的骨骼；古生物的遗体、遗物和遗迹都可能形成化石。",
+        "认为化石能直接告诉我们古生物的所有特征；许多信息需要根据化石的形态和保存环境推断。",
+        "把“活化石”和化石混为一谈；“活化石”指现今仍生存、且与古代化石所示形态相似的生物。"
+      ],
+      "core_concept": "化石是存留在岩石中的古生物遗体、遗物或遗迹。化石能帮助人们了解古生物的形态、生活环境和生物演变。古生物遗体常被泥沙等掩埋，经过漫长时间，部分遗体或痕迹得以保存。",
+      "key_formula": "化石＝存留在岩石中的古生物遗体、遗物或遗迹",
+      "point": "古代生物化石",
+      "tips": "观察化石时，可以从形态、结构和发现地点等方面寻找线索，再推断古生物可能的特征和生活方式。化石通常保存在沉积岩中；岩浆的高温往往会破坏生物遗体。推断时要区分化石直接呈现的证据和科学家的合理推测。"
+    },
+    {
+      "common_mistakes": [
+        "认为同一种植物的个体完全相同；实际上，个体之间常有细微差异。",
+        "把植物生长过程中因环境造成的变化，都当作能够遗传的变异。",
+        "认为所有变异都会让植物更好；有些变异可能有利，有些可能不利，也有些影响不明显。"
+      ],
+      "core_concept": "同种植物的不同个体之间，以及同一个体的亲代与后代之间，常会出现形态、生长状况等方面的差异，这种现象叫作变异。变异有的由遗传物质的差异引起，有的与环境条件有关。",
+      "key_formula": "变异＝同种生物个体之间或亲代与后代之间的差异",
+      "point": "植物的变异",
+      "tips": "比较植物时，尽量选择同种植物，并关注相同部位和相近生长阶段；若要判断差异是否可能遗传，还要区分遗传因素和光照、水分、土壤等环境因素的影响。"
+    },
+    {
+      "common_mistakes": [
+        "把后天形成的伤疤、学会的知识或个人喜好误认为遗传特征。",
+        "认为遗传特征一定会在父母和孩子身上完全相同。"
+      ],
+      "core_concept": "遗传是生物亲代与子代之间相似特征传递的现象。人类的许多特征，如血型、肤色和部分面部形态，受遗传影响；伤疤、知识和个人喜好等通常不是通过遗传传递的。孩子会与父母有相似之处，也会有自己的不同特征。",
+      "key_formula": "亲代的遗传信息通过生殖细胞传递给子代；子代特征通常既有与亲代相似之处，也有不同之处。",
+      "point": "人体的遗传",
+      "tips": "比较自己和父母、兄弟姐妹的特征时，可以观察单双眼皮、发际线或耳垂等，并注意有些特征还会受到环境和生活经历影响。不要仅凭一个特征就判断亲缘关系。"
+    },
+    {
+      "common_mistakes": [
+        "把保护生物多样性理解成只保护珍稀动物，忽略植物、微生物和生态系统。",
+        "认为生物多样性的意义只在于供人观赏或利用。",
+        "忽视不同生物之间相互依存的关系。"
+      ],
+      "core_concept": "生物多样性包括生物种类的多样性、遗传的多样性和生态系统的多样性。多种生物及其相互作用共同维持生态系统的结构与功能。生物多样性还为人类提供食物、药物、原材料等资源，并具有科学研究、文化和审美价值。",
+      "key_formula": "生物多样性的意义：维持生态系统稳定与功能 + 为人类提供资源和服务",
+      "point": "生物多样性的意义",
+      "tips": "理解生物多样性的意义时，可以从“生态作用”和“对人类的价值”两方面思考。举例时，既可以说蜜蜂为植物传粉，也可以说植物提供食物和药材；保护对象不只是动物，还包括植物、微生物及其生活环境。"
+    },
+    {
+      "common_mistakes": [
+        "把植物的生长需要与植物对环境的适应混为一谈。",
+        "认为植物只能适应环境，忽略环境变化也会影响植物的生长。"
+      ],
+      "core_concept": "植物的生长受到水、阳光、空气、温度和土壤等环境因素影响。不同植物具有不同特点，能帮助它们适应生活环境；环境条件发生变化时，植物的生长和分布也可能随之改变。",
+      "key_formula": "植物的形态特点与生活环境相适应；环境条件会影响植物的生长。",
+      "point": "植物与环境",
+      "tips": "观察植物时，可以把它的根、茎、叶等特点与生长地的水分、光照和温度联系起来。比如，仙人掌的刺状叶有助于减少水分散失；荷叶表面不易沾水，适合生长在水边。"
+    },
+    {
+      "common_mistakes": [
+        "只记录熟悉或显眼的生物，遗漏其他种类。",
+        "把生物分布图画得过于拥挤，没有使用图例或编号。",
+        "只标出生物种类，不记录它们出现的位置。",
+        "调查时随意采摘植物或捕捉动物，影响校园生物。"
+      ],
+      "core_concept": "校园生物分布图是用图示和文字记录校园内生物种类及其分布位置的地图。制作时，要先确定调查范围和路线，再观察、记录不同地点的生物，最后在校园平面图上用符号、编号或图例清晰表示。调查应细致、安全，并尽量不打扰生物。",
+      "key_formula": "校园生物分布图 = 校园平面图 + 生物种类与位置记录 + 清晰的符号或图例",
+      "point": "制作校园生物分布图",
+      "tips": "可按校园区域或路线分组调查，例如操场、花坛、树下和墙角；在记录表中写明生物名称、地点和观察到的情况。绘图时统一符号，并配上图例、标题和必要的方向标记。遇到不认识的生物，可先描述特征或拍照记录，之后再请教老师，不要随意采摘或捕捉。"
+    },
+    {
+      "common_mistakes": [
+        "只观察校园里显眼的植物和动物，忽略小型生物及其生活环境。",
+        "把一次没有发现生物当作该处没有生物；有些生物体型小、善于躲藏，或只在特定时间活动。",
+        "调查时随意采摘、捕捉或破坏生物及其栖息地。",
+        "把同一种生物个体间的差异误认为它们一定属于不同种类。"
+      ],
+      "core_concept": "调查校园生物，就是有计划地观察和记录校园中生物的种类、数量、形态特征及其生活环境。调查时可以从天上、地上（包括水中）和地下等空间寻找，注意观察植物、动物及其他容易忽略的小型生物。",
+      "key_formula": "调查记录＝生物名称或特征＋发现地点和环境＋观察到的数量或现象",
+      "point": "调查校园生物",
+      "tips": "调查前确定范围、时间和分工；记录时写清地点、环境和生物特征，必要时用图画或照片辅助；遇到不认识的生物先描述特征，不随意采摘、捕捉或触碰；调查后整理记录，并注意不要把没有观察到误说成一定不存在。"
+    },
+    {
+      "common_mistakes": [
+        "不要把个体间的差异都看作变异：比较时应先确认它们属于同一种动物。",
+        "动物的变异不只体现在外形上，也可以体现在颜色、体形、行为或生理特征上。",
+        "变异有的能遗传给后代，有的主要由环境造成，不一定会遗传。"
+      ],
+      "core_concept": "同一种动物的不同个体之间，常会在毛色、体形、耳朵形状等特征上有所不同，这种现象叫做变异。变异是生物普遍存在的现象。变异可能与遗传有关，也可能受环境影响；有些变异能够遗传，有些则不能。",
+      "key_formula": "变异：同一种动物不同个体之间的差异。",
+      "point": "动物的变异",
+      "tips": "观察动物变异时，先确定比较对象属于同一种动物，再比较同一类特征。例如，比较同一品种猫的毛色或同一群兔子的耳朵长度。讨论变异原因时，可以分别考虑遗传因素和环境因素。"
     }
   ]
 }

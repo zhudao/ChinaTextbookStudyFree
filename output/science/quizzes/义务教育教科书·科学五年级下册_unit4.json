@@ -4,326 +4,1495 @@
   "unit_number": 4,
   "unit_test": {
     "title": "第四单元「热」基础评价周测",
-    "total_score": 100,
+    "total_score": 425,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "在发生热传导时，热量会从温度较高的物体传向温度较低的物体，直到温度趋于相同。",
         "knowledge_point": "热传导",
+        "options": [],
         "question": "热量总是从温度较高的物体传向温度较低的物体。",
-        "options": [],
-        "answer": "对",
-        "explanation": "热传递的基本规律是从高温物体传向低温物体，或者从物体的高温部分传向低温部分。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "烧杯底部的水受热后，密度通常会减小并向上流动；较冷、密度较大的水向下流动，形成对流。",
         "knowledge_point": "热对流",
+        "options": [],
         "question": "在烧杯底部加热水时，热水会向上流动，冷水会向下流动。",
-        "options": [],
-        "answer": "对",
-        "explanation": "液体受热后体积膨胀，密度减小而上升，上部冷液体密度大而下沉，形成对流。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "冬天室内空气中的水蒸气遇到较冷的玻璃，会凝结成小水珠。",
         "knowledge_point": "凝结",
+        "options": [],
         "question": "冬天窗户玻璃上的水珠通常出现在室内的一面。",
-        "options": [],
-        "answer": "对",
-        "explanation": "室内温暖的水蒸气遇到冰冷的玻璃表面凝结成小水珠。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "塑料、木头和陶瓷的导热能力通常较弱，属于热的不良导体。",
         "knowledge_point": "热的良导体",
+        "options": [],
         "question": "塑料、木头和陶瓷都是热的良导体。",
-        "options": [],
-        "answer": "错",
-        "explanation": "塑料、木头和陶瓷导热性能差，属于热的不良导体。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "保温",
-        "question": "保温杯里的真空层主要目的是为了美观。",
-        "options": [],
-        "answer": "错",
-        "explanation": "真空层是为了隔绝热传导和热对流，从而起到保温作用。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "真空层可以减少热传导和热对流，帮助减慢热量传递；它不是为了美观。",
+        "knowledge_point": "保温",
+        "options": [],
+        "question": "保温杯里的真空层主要目的是为了美观。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "湿衣服晾干了",
+        "difficulty": 1,
+        "explanation": "湿衣服上的液态水变成看不见的水蒸气进入空气，这个过程属于蒸发。",
         "knowledge_point": "水的状态变化",
-        "question": "下列现象中，属于蒸发过程的是（）。",
         "options": [
           "湿衣服晾干了",
           "草叶上出现露水",
           "河面结冰了",
           "冰棍冒“白气”"
         ],
-        "answer": "湿衣服晾干了",
-        "explanation": "水从液态变为气态的过程叫蒸发。"
+        "question": "下列现象中，属于蒸发过程的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "向两端传递",
         "difficulty": 1,
+        "explanation": "金属条中部受热后，中部温度较高，热量会从中部向两侧温度较低的部分传递。",
         "knowledge_point": "热量的传递",
-        "question": "在金属条的中部加热，热量会（）。",
         "options": [
           "只向左端传递",
           "只向右端传递",
           "向两端传递",
           "不传递"
         ],
-        "answer": "向两端传递",
-        "explanation": "热在固体中会从受热处（高温）向未受热处（低温）各个方向传递。"
+        "question": "在金属条的中部加热，热量会（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "向下流动",
         "difficulty": 1,
+        "explanation": "空调制冷时，较冷的空气密度较大，会向下沉；扇叶向上拨动有助于冷空气扩散并形成空气循环。",
         "knowledge_point": "热对流",
-        "question": "为了让房间快点凉快下来，空调扇叶应向上拨动，是因为冷空气会（）。",
         "options": [
           "向上流动",
           "向下流动",
           "向左流动",
           "水平流动"
         ],
-        "answer": "向下流动",
-        "explanation": "冷空气密度大，会向下沉，从而形成对流使全屋降温。"
+        "question": "为了让房间快点凉快下来，空调扇叶应向上拨动，是因为冷空气会（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "防止烫手",
         "difficulty": 2,
+        "explanation": "木头和塑料传热较慢，用作锅柄能减缓热量传到手上。",
         "knowledge_point": "热的良导体",
-        "question": "炒菜锅的把手通常用木头或塑料制造，主要是为了（）。",
         "options": [
           "减轻重量",
           "增加强度",
           "防止烫手",
           "更加美观"
         ],
-        "answer": "防止烫手",
-        "explanation": "木头和塑料是热的不良导体，能减缓热传导。"
+        "question": "炒菜锅的把手通常用木头或塑料制造，主要是为了（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "表面积越大蒸发越快",
         "difficulty": 2,
+        "explanation": "涂开水滴后，水与空气接触的表面积增大，因此水蒸发得更快。",
         "knowledge_point": "蒸发",
-        "question": "在两块同样的玻璃片上分别滴一滴水，将其中的一滴涂开，发现涂开的水干得快。这说明（）。",
         "options": [
           "温度越高蒸发越快",
           "空气流动越快蒸发越快",
           "表面积越大蒸发越快",
           "水的多少影响蒸发"
         ],
-        "answer": "表面积越大蒸发越快",
-        "explanation": "涂开增加了水与空气接触的表面积，从而加速蒸发。"
+        "question": "在两块同样的玻璃片上分别滴一滴水，将其中的一滴涂开，发现涂开的水干得快。这说明（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "从热水传向冰块",
         "difficulty": 1,
+        "explanation": "热水温度比冰块高，热量会从温度较高的热水传向温度较低的冰块。",
         "knowledge_point": "热传递",
-        "question": "把冰块放入热水中，热量的流动方向是（）。",
         "options": [
           "从冰块传向热水",
           "从热水传向冰块",
           "不发生热量传递",
           "无法判断"
         ],
-        "answer": "从热水传向冰块",
-        "explanation": "热量从高温物体（热水）传向低温物体（冰块）。"
+        "question": "把冰块放入热水中，热量的流动方向是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "铝片",
         "difficulty": 2,
+        "explanation": "金属通常是热的良导体，铝片比木板、玻璃纸和塑料板更容易传递热量。",
         "knowledge_point": "导热性能",
-        "question": "下列材料中，导热性能最好的是（）。",
         "options": [
           "铝片",
           "木板",
           "玻璃纸",
           "塑料板"
         ],
-        "answer": "铝片",
-        "explanation": "金属通常是热的良导体，其导热性能优于非金属。"
+        "question": "下列材料中，导热性能最好的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "立即停止",
         "difficulty": 1,
+        "explanation": "沸腾需要持续吸热。撤掉热源后，水不能继续从酒精灯吸热，沸腾会停止。",
         "knowledge_point": "水的沸腾",
-        "question": "当水加热到沸腾时，撤掉酒精灯停止加热，水的沸腾现象会（）。",
         "options": [
           "继续维持很长时间",
           "立即停止",
           "温度继续升高",
           "变成结冰"
         ],
-        "answer": "立即停止",
-        "explanation": "沸腾需要持续吸热，撤掉热源后无法吸热，沸腾停止。"
+        "question": "当水加热到沸腾时，撤掉酒精灯停止加热，水的沸腾现象会（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "空气中的水蒸气遇冷凝结的",
         "difficulty": 2,
+        "explanation": "空气中的水蒸气遇到较冷的杯壁，变成液态的小水珠附着在杯子外侧。",
         "knowledge_point": "凝结",
-        "question": "盛有冰块的杯子外壁会出现小水珠，这些水珠来自（）。",
         "options": [
           "杯子里的冰融化流出的",
           "从杯壁渗出来的",
           "空气中的水蒸气遇冷凝结的",
           "冰直接变成的"
         ],
-        "answer": "空气中的水蒸气遇冷凝结的",
-        "explanation": "空气中的水蒸气遇到较冷的杯壁释放热量变成液态水。"
+        "question": "盛有冰块的杯子外壁会出现小水珠，这些水珠来自（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "能减少热量的散失",
         "difficulty": 1,
+        "explanation": "羽绒中含有大量不易流动的空气，空气是热的不良导体，能减慢身体热量向外传递。羽绒服并不产生热量。",
         "knowledge_point": "保温原理",
-        "question": "穿羽绒服感到暖和，是因为羽绒（）。",
         "options": [
           "能产生热量",
           "是热的良导体",
           "能减少热量的散失",
           "吸收了外界的热量"
         ],
-        "answer": "能减少热量的散失",
-        "explanation": "羽绒中含有大量空气，是热的不良导体，能减少身体热量散失。"
+        "question": "穿羽绒服感到暖和，是因为羽绒（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "方便观察水的流动",
         "difficulty": 3,
+        "explanation": "红墨水能让水流的路径更容易看清，帮助我们观察受热水上升、较冷水下沉的过程；它不是用来增加水重或加快加热的。",
         "knowledge_point": "热对流",
-        "question": "在探究水的热对流实验中，我们在水中加入红墨水是为了（）。",
         "options": [
           "增加水的重量",
           "使水变鲜艳",
           "方便观察水的流动",
           "加快水的加热速度"
         ],
-        "answer": "方便观察水的流动",
-        "explanation": "红墨水作为示踪剂，能清晰显示冷热水流动的轨迹。"
+        "question": "在探究水的热对流实验中，我们在水中加入红墨水是为了（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "铁棒是热的良导体，能迅速传走手上的热",
         "difficulty": 2,
+        "explanation": "铁和木头在室外放置一段时间后，温度可能相近。铁导热较快，能更快地把手上的热量传走，所以摸起来更冷。",
         "knowledge_point": "热量的传递",
-        "question": "冬天触摸室外的铁棒比木头感觉更冷，是因为（）。",
         "options": [
           "铁棒的温度比木头低",
           "铁棒是热的良导体，能迅速传走手上的热",
           "铁棒吸收了冷气",
           "木头能产生热量"
         ],
-        "answer": "铁棒是热的良导体，能迅速传走手上的热",
-        "explanation": "铁导热快，在相同时间内从手上带走的热量更多。"
+        "question": "冬天触摸室外的铁棒比木头感觉更冷，是因为（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "热的不良导体",
         "difficulty": 2,
+        "explanation": "塑料传热较慢，做杯盖有助于减慢杯口附近的热量传递。杯盖也能减少空气流动和热水蒸气逸出。",
         "knowledge_point": "保温杯设计",
-        "question": "保温杯杯盖通常是塑料材质，因为塑料是（）。",
         "options": [
           "热的良导体",
           "热的不良导体",
           "极其坚固的材料",
           "能产生热量的材料"
         ],
-        "answer": "热的不良导体",
-        "explanation": "塑料可以减缓杯子热量向上方的自然对流和传导散失。"
+        "question": "保温杯杯盖通常是塑料材质，因为塑料是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "水的状态变化",
-        "question": "在常压下，水加热到沸腾时的温度大约是（）℃。",
-        "options": [],
         "answer": "100",
-        "explanation": "在标准大气压下，水的沸点是100摄氏度。"
-      },
-      {
-        "id": 20,
-        "type": "fill_blank",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "在标准大气压下，水通常在100℃沸腾；实际沸点会受气压等因素影响。",
         "knowledge_point": "水的状态变化",
-        "question": "水开始结冰时的温度通常是（）℃。",
         "options": [],
+        "question": "在常压下，水加热到沸腾时的温度大约是（）℃。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 19
+      },
+      {
         "answer": "0",
-        "explanation": "在标准大气压下，水的冰点是0摄氏度。"
+        "difficulty": 1,
+        "explanation": "在标准大气压下，水通常在0℃开始结冰。",
+        "knowledge_point": "水的状态变化",
+        "options": [],
+        "question": "水开始结冰时的温度通常是（）℃。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "凝结",
-        "question": "空气中的水蒸气受冷变成液态的小水珠，这种现象叫作（）。",
-        "options": [],
         "answer": "凝结",
-        "explanation": "凝结是气体遇冷放热转变为液体的物理现象。"
+        "difficulty": 2,
+        "explanation": "水蒸气是气态的水，遇冷变成液态的小水珠，这种变化叫作凝结。",
+        "knowledge_point": "凝结",
+        "options": [],
+        "question": "空气中的水蒸气受冷变成液态的小水珠，这种现象叫作（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "热传递方式",
-        "question": "热在液体和气体中主要通过（）的方式进行传递。",
-        "options": [],
         "answer": "对流",
-        "explanation": "通过流体（液态、气态）的宏观运动来平衡温度的传递方式是热对流。"
+        "difficulty": 2,
+        "explanation": "液体和气体属于流体，受热后较热的部分会上升、较冷的部分会下降，流体的整体运动带动热量传递，这种方式叫热对流。",
+        "knowledge_point": "热传递方式",
+        "options": [],
+        "question": "热在液体和气体中主要通过（）的方式进行传递。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "导热性分类",
-        "question": "容易传热的物体被称作热的（）。",
-        "options": [],
         "answer": "良导体",
-        "explanation": "不同材料导热能力不同，导热强的称为热的良导体。"
+        "difficulty": 2,
+        "explanation": "容易传热的物体称为热的良导体。",
+        "knowledge_point": "导热性分类",
+        "options": [],
+        "question": "容易传热的物体被称作热的（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "冰吸收热量后会融化，从固态变成液态的水。",
+        "knowledge_point": "水的状态变化与温度关系",
+        "options": [
+          "A. 水结冰",
+          "B. 冰融化成水",
+          "C. 水蒸气凝结成水滴",
+          "D. 水蒸发成水蒸气"
+        ],
+        "question": "冰块放在温暖的房间里，逐渐变成水，这种变化是（ ）。",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "水蒸发时，液态水变成水蒸气，需要吸收热量；受热通常会使蒸发加快。",
+        "knowledge_point": "水的状态变化与温度关系",
+        "options": [
+          "A. 水蒸发成水蒸气",
+          "B. 水蒸气凝结成水滴",
+          "C. 水结成冰",
+          "D. 冰融化成水"
+        ],
+        "question": "湿衣服在阳光下更容易晾干，主要是因为（ ）。",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "蒸发可以在不同温度下发生，不需要液体达到沸点；温度较高时，蒸发通常更快。",
+        "knowledge_point": "水的状态变化与温度关系",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "水只有达到100℃并沸腾时，才会变成水蒸气。（ ）",
+        "score": 1,
+        "type": "true_false",
+        "id": 26
+      },
+      {
+        "answer": "凝结",
+        "difficulty": 1,
+        "explanation": "水蒸气遇冷会放出热量，变成液态小水滴，这种变化叫凝结。",
+        "knowledge_point": "水的状态变化与温度关系",
+        "options": [],
+        "question": "烧热的水蒸气遇冷后变成小水滴，这种变化叫作____。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "0",
+        "difficulty": 2,
+        "explanation": "在标准大气压下，水的冰点约为0℃。水降到这个温度附近时可能开始结冰。",
+        "knowledge_point": "水的状态变化与温度关系",
+        "options": [],
+        "question": "在标准大气压下，水的冰点约为____℃。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 28
+      },
+      {
+        "answer": "水先由固态冰融化成液态水；继续吸收热量后，水可以蒸发成水蒸气。",
+        "difficulty": 2,
+        "explanation": "冰受热时先融化，固态变成液态；液态水继续吸热，可逐渐蒸发成气态水蒸气。",
+        "knowledge_point": "水的状态变化与温度关系",
+        "options": [],
+        "question": "把冰放在加热的容器中持续加热，冰和水可能依次发生哪些状态变化？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "吸收周围的热量",
+        "difficulty": 1,
+        "explanation": "水蒸发是液态水变成水蒸气的过程，这个过程需要从周围吸收热量。",
+        "knowledge_point": "水的蒸发与凝结中的能量传递",
+        "options": [],
+        "question": "液态水蒸发成水蒸气时，会从周围吸收热量还是向周围放出热量？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "水蒸气遇冷凝结成小水滴时，会把热量传给周围环境。",
+        "knowledge_point": "水的蒸发与凝结中的能量传递",
+        "options": [
+          "A. 吸收周围的热量",
+          "B. 向周围放出热量",
+          "C. 不发生热量传递"
+        ],
+        "question": "水蒸气凝结成液态水时，通常会怎样传递热量？",
+        "score": 1,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "水在常温下也会蒸发，只是温度、空气流动和水面大小等因素会影响蒸发快慢。",
+        "knowledge_point": "水的蒸发与凝结中的能量传递",
+        "options": [],
+        "question": "水只有被烧热后才会蒸发。",
+        "score": 1,
+        "type": "true_false",
+        "id": 32
+      },
+      {
+        "answer": "水分蒸发时吸收了手周围的热量，使手的温度降低，所以会感到凉。",
+        "difficulty": 2,
+        "explanation": "湿手上的液态水变成水蒸气时吸收热量，这些热量来自手及其周围，因此手会感到凉。",
+        "knowledge_point": "水的蒸发与凝结中的能量传递",
+        "options": [],
+        "question": "手上沾水后，水分蒸发时手为什么会感到凉？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "冷饮使杯子外侧附近的空气降温，空气中的水蒸气遇冷凝结成小水滴；凝结时热量传给周围。",
+        "difficulty": 2,
+        "explanation": "杯外的水珠不是饮料穿过杯壁渗出来的，而是空气中的水蒸气遇冷凝结形成的。凝结过程中，水蒸气会向周围传递热量。",
+        "knowledge_point": "水的蒸发与凝结中的能量传递",
+        "options": [],
+        "question": "冷饮杯外常出现小水珠。请说明这些水珠如何形成，并说出凝结时热量传递的方向。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "蒸发吸收热量；凝结向周围放出热量。",
+        "difficulty": 2,
+        "explanation": "蒸发是液态水变成水蒸气，需要吸收周围热量；凝结是水蒸气变成液态水，会把热量传给周围。",
+        "knowledge_point": "水的蒸发与凝结中的能量传递",
+        "options": [],
+        "question": "用一句话分别说明水蒸发和水蒸气凝结时的热量传递方向。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "热会从温度较高的一端逐步传向温度较低的一端，金属棒本身不需要整体移动。",
+        "knowledge_point": "热传导：热在金属中的传递规律",
+        "options": [
+          "从冷的一端传向热的一端",
+          "从热的一端逐步传向冷的一端",
+          "金属棒整体移动到冷处",
+          "热只停留在受热的一端"
+        ],
+        "question": "把金属棒的一端放在热水中，热量在金属棒中通常会怎样传递？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "热传导时，热从高温处传到低温处，物体不需要整体移动。",
+        "knowledge_point": "热传导：热在金属中的传递规律",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "热传导可以在物体内部发生，而且不需要物体整体移动。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "高；低",
+        "difficulty": 1,
+        "explanation": "热传递的方向是从温度较高的部分到温度较低的部分。",
+        "knowledge_point": "热传导：热在金属中的传递规律",
+        "options": [],
+        "question": "热在金属中通常从温度较____的部分传向温度较____的部分。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "热会沿着金属夹子从靠近热水的一端逐步传到手握的一端，使夹子变热。实验时不应直接用手触摸受热的夹子。",
+        "difficulty": 2,
+        "explanation": "金属是热的良导体，热会沿金属从温度较高处传向温度较低处。观察时要注意安全。",
+        "knowledge_point": "热传导：热在金属中的传递规律",
+        "options": [],
+        "question": "用金属夹子夹住热水杯中的热杯壁，一会儿后金属夹子也可能变热。请说明原因，并说出一条安全注意事项。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "金属棒A端到B端",
+        "difficulty": 2,
+        "explanation": "热传递方向是从温度较高处到温度较低处，因此热从受热的A端逐步传向较冷的B端。",
+        "knowledge_point": "热传导：热在金属中的传递规律",
+        "options": [],
+        "question": "一根金属棒的A端温度较高，B端温度较低。在温度变化过程中，热量会主要沿哪个方向传递？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "金属通常比木头更容易传热；把金属勺放入热汤中，勺柄可能逐渐变热，而木勺柄变热较慢。",
+        "difficulty": 2,
+        "explanation": "金属通常是热的良导体，热能较容易沿金属传递；木头传热较慢。实验观察时不要直接触摸热勺。",
+        "knowledge_point": "热传导：热在金属中的传递规律",
+        "options": [],
+        "question": "金属和木头相比，哪一种通常更容易传热？请举一个生活中的例子说明。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "水受热后膨胀，密度变小，会向上运动；较冷、密度较大的水下沉补充，形成循环流动，把热量传开。",
+        "knowledge_point": "热在液体和气体中的对流现象",
+        "options": [
+          "热水下沉，冷水上升",
+          "热水上升，冷水下沉",
+          "冷热水都不移动",
+          "水只在底部移动"
+        ],
+        "question": "烧水时，水壶底部的水受热后，通常会怎样运动？",
+        "score": 1,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "对流依靠液体或气体各部分流动来传递热量，所以液体和气体中都可以发生对流。",
+        "knowledge_point": "热在液体和气体中的对流现象",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "热可以通过对流在液体和气体中传递。",
+        "score": 1,
+        "type": "true_false",
+        "id": 43
+      },
+      {
+        "answer": "密度较大",
+        "difficulty": 1,
+        "explanation": "同种流体中，较冷的部分通常密度较大，容易下沉；较热的部分通常密度较小，容易上升。",
+        "knowledge_point": "热在液体和气体中的对流现象",
+        "options": [],
+        "question": "同种液体或气体中，较冷的部分通常密度较____，容易下沉。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 44
+      },
+      {
+        "answer": "对流",
+        "difficulty": 1,
+        "explanation": "液体或气体各部分发生循环流动，并带着热量传递，这种方式叫对流。",
+        "knowledge_point": "热在液体和气体中的对流现象",
+        "options": [],
+        "question": "液体或气体各部分流动并传递热量的方式叫作____。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "暖空气受热后密度变小而上升；较冷的空气密度较大，会流向暖气附近并下沉或被加热。空气不断循环，把热量带到房间各处。",
+        "difficulty": 2,
+        "explanation": "暖气附近的空气受热上升，周围较冷的空气补充过来，形成循环流动，因此房间里的热量逐渐分散。",
+        "knowledge_point": "热在液体和气体中的对流现象",
+        "options": [],
+        "question": "冬天打开暖气后，房间里的空气怎样通过对流逐渐变暖？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "水会形成循环：底部受热的水上升，较冷的水下沉补充；食用色素会随水流移动，帮助我们观察这一对流过程。",
+        "difficulty": 2,
+        "explanation": "色素只是帮助观察水的运动。受热的水变轻上升，较冷的水下沉，水的循环流动带动色素移动。",
+        "knowledge_point": "热在液体和气体中的对流现象",
+        "options": [],
+        "question": "在透明容器底部一侧加热，并在水中滴入少量食用色素。描述可能观察到的现象，并说明原因。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "减少热传导和热对流",
+        "difficulty": 1,
+        "explanation": "双层杯壁之间的真空缺少能传导热量的物质，也不容易形成空气流动，因此能减少热传导和热对流，但不能完全阻止热量传递。",
+        "knowledge_point": "保温杯的设计原理（减缓热传递）",
+        "options": [
+          "减少热传导和热对流",
+          "加快杯内外空气流动",
+          "让热量传递完全停止",
+          "增强杯壁向外辐射热量"
+        ],
+        "question": "保温杯双层杯壁之间的真空层，主要有什么作用？",
+        "score": 1,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "保温杯通过杯壁、反光层和杯盖等结构减缓热传导、热对流和热辐射，但不能完全阻止热量传递。因此判断为“真”。",
+        "knowledge_point": "保温杯的设计原理（减缓热传递）",
+        "options": [],
+        "question": "【判断题】保温杯可以减缓热量传递，但不能完全阻止热量传递。（真 / 假） 答案：真",
+        "score": 1,
+        "type": "true_false",
+        "id": 49
+      },
+      {
+        "answer": "热辐射",
+        "difficulty": 2,
+        "explanation": "光亮的反光层能把一部分热辐射反射回去，从而减少热量向外散失；它主要不是用来减少热传导或热对流。",
+        "knowledge_point": "保温杯的设计原理（减缓热传递）",
+        "options": [],
+        "question": "保温杯内壁的光亮反光层，主要用于减少热量通过什么方式传递？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 50
+      },
+      {
+        "answer": "杯盖能减缓杯口处的热量交换，并减少空气流动带来的热对流。",
+        "difficulty": 2,
+        "explanation": "杯口是热量容易与外界交换的地方。盖紧杯盖可以减少杯内外空气流动和热量交换，因此有助于保温。",
+        "knowledge_point": "保温杯的设计原理（减缓热传递）",
+        "options": [],
+        "question": "保温杯的杯盖要盖紧。请说出杯盖有助于保温的一个原因。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "真空层",
+        "difficulty": 2,
+        "explanation": "空气可以传导热量，也能流动形成热对流。双层杯壁之间的真空几乎没有物质，能减少热传导和热对流。",
+        "knowledge_point": "保温杯的设计原理（减缓热传递）",
+        "options": [],
+        "question": "双层杯壁之间，哪种结构比填满空气更能减缓热传导和热对流？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "不会。热量仍会通过杯盖、杯口或杯壁等部位慢慢传递，所以放置一段时间后水温仍可能发生变化。",
+        "difficulty": 3,
+        "explanation": "保温杯只是减缓热传递，并非完全隔绝热量。杯盖和杯口等部位仍可能发生热量交换，因此杯中热水最终会变凉，只是速度较慢。",
+        "knowledge_point": "保温杯的设计原理（减缓热传递）",
+        "options": [],
+        "question": "把一杯热水盖紧后放入保温杯，放置很久后水温会不会永远保持不变？为什么？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "热传导通常需要物体之间直接接触，热量由高温部分传向低温部分。",
+        "knowledge_point": "热传导",
+        "options": [
+          "A. 热量从低温部分传向高温部分",
+          "B. 热量从高温部分传向低温部分",
+          "C. 热量只能在液体中传递",
+          "D. 热传导不需要物体接触"
+        ],
+        "question": "热传导时，热量通常怎样传递？",
+        "score": 2,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "金属",
+        "difficulty": 1,
+        "explanation": "在日常生活中，金属通常是传热较快的材料；木头和塑料传热较慢。",
+        "knowledge_point": "热传导",
+        "options": [],
+        "question": "铁勺、木勺和塑料勺中，通常传热最快的是____勺。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 55
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "木头也能传热，只是传热速度通常比金属慢，所以不能说木头完全不传热。",
+        "knowledge_point": "热传导",
+        "options": [],
+        "question": "木头完全不能传热。",
+        "score": 2,
+        "type": "true_false",
+        "id": 56
+      },
+      {
+        "answer": "热传导",
+        "difficulty": 2,
+        "explanation": "勺子与热汤接触后，热量从较热的汤传到勺子，再沿勺子传向较冷的部分，这种传热方式叫热传导。",
+        "knowledge_point": "热传导",
+        "options": [],
+        "question": "把金属勺放进热汤里，勺柄逐渐变热，这种传热方式叫____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 57
+      },
+      {
+        "answer": "热量从热水传到金属杯壁，再沿杯壁从较热处传向较冷处。",
+        "difficulty": 3,
+        "explanation": "热水与杯壁接触，热量先传给杯壁；随后热量沿杯壁由温度较高的部分传向温度较低的部分，这属于热传导。",
+        "knowledge_point": "热传导",
+        "options": [],
+        "question": "把金属杯装入热水后，杯壁逐渐变热。请简要说明热量是怎样传递的。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "液体受热后通常会膨胀，密度变小，因而向上流动；周围较冷、密度较大的液体会下沉补充，形成循环流动。",
+        "knowledge_point": "热对流",
+        "options": [],
+        "question": "液体受热后，通常会因密度减小而上升。",
+        "score": 2,
+        "type": "true_false",
+        "id": 59
+      },
+      {
+        "answer": "暖空气上升，冷空气下沉",
+        "difficulty": 2,
+        "explanation": "暖空气通常密度较小，会向上流动；冷空气密度较大，会向下流动。这种空气循环属于热对流。",
+        "knowledge_point": "热对流",
+        "options": [],
+        "question": "热对流中，通常是____上升，____下沉。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "因为热空气密度较小，会向上流动；冷空气密度较大，会向下流动，从而使室内空气形成循环。",
+        "difficulty": 2,
+        "explanation": "热对流依靠液体或气体的流动传递热量。暖气片附近的空气受热上升，较冷的空气下沉并流向暖气片附近，持续循环后有助于暖和房间。",
+        "knowledge_point": "热对流",
+        "options": [],
+        "question": "冬天暖气片通常安装在较低的位置。请用热对流的知识解释这样做的原因。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "水蒸气遇冷变成液态水",
+        "difficulty": 1,
+        "explanation": "凝结是水蒸气由气态变成液态的过程。",
+        "knowledge_point": "凝结",
+        "options": [],
+        "question": "凝结是水蒸气遇冷变成（）。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "冷饮料杯的外壁温度较低，周围空气中的水蒸气遇冷凝结成小水珠。",
+        "knowledge_point": "凝结",
+        "options": [
+          "杯里的饮料穿过杯壁",
+          "周围空气中的水蒸气遇冷变成水珠",
+          "杯子自己产生了水",
+          "空气中的氧气变成了水"
+        ],
+        "question": "夏天，冷饮料杯外壁出现小水珠，主要是因为（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 63
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "蒸发是液态水变成水蒸气；凝结是水蒸气遇冷变成液态水，二者方向相反。",
+        "knowledge_point": "凝结",
+        "options": [],
+        "question": "液态水变成水蒸气的现象叫作凝结。",
+        "score": 3,
+        "type": "true_false",
+        "id": 64
+      },
+      {
+        "answer": "金属",
+        "difficulty": 1,
+        "explanation": "铜、铝、铁等金属通常传热较快，是常见的热的良导体。",
+        "knowledge_point": "热的良导体",
+        "options": [],
+        "question": "铜、铝、铁等材料通常属于热的（填“良导体”或“不良导体”）。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 65
+      },
+      {
+        "answer": "铝勺",
+        "difficulty": 2,
+        "explanation": "铝是金属，传热通常比木头快，因此铝勺更容易把热量传到手握的部分。",
+        "knowledge_point": "热的良导体",
+        "options": [],
+        "question": "把铝勺和木勺的一端同时放进温水中一会儿，哪把勺子的另一端通常会更快变暖？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "热的不良导体并非完全不传热，只是传热比较慢。",
+        "knowledge_point": "热的良导体",
+        "options": [],
+        "question": "热的不良导体完全不能传递热量。",
+        "score": 3,
+        "type": "true_false",
+        "id": 67
+      },
+      {
+        "answer": "金属",
+        "difficulty": 2,
+        "explanation": "锅身用金属制作，能较快地把火的热量传给锅内食物。",
+        "knowledge_point": "热的良导体",
+        "options": [],
+        "question": "炒菜锅的锅身常用（填“金属”或“木头”）制作，因为它传热较快。",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 68
+      },
+      {
+        "answer": "减慢",
+        "difficulty": 1,
+        "explanation": "保温是减慢热量传递，让物体较长时间保持温度，不是产生热量。",
+        "knowledge_point": "保温",
+        "options": [],
+        "question": "保温的主要作用是（　　）热量传递。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 69
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "棉衣中的空气不容易传递热量，能减慢人体热量散失，因此穿棉衣会感觉暖和。",
+        "knowledge_point": "保温",
+        "options": [],
+        "question": "棉衣中的空气能帮助减慢人体热量散失。",
+        "score": 2,
+        "type": "true_false",
+        "id": 70
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "热量会从热水传向较冷的周围空气。给杯子套上能减慢热量传递的材料，可以让热水降温较慢。保温材料并不会使热水变得更热。",
+        "knowledge_point": "保温",
+        "options": [
+          "A. 让热水更快地把热量传给周围空气",
+          "B. 用保温套包住杯子，减慢热量散失",
+          "C. 把杯子放在冰块旁边"
+        ],
+        "question": "冬天想让一杯热水凉得慢一些，下面哪种做法更合适？",
+        "score": 2,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "传导",
+        "difficulty": 2,
+        "explanation": "热量可以通过传导、对流和辐射传递。真空中没有物质，能减少传导和对流，但不能完全阻止热辐射。",
+        "knowledge_point": "保温",
+        "options": [],
+        "question": "热量通过相互接触的物体传递，这种方式叫热（　　）。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 72
+      },
+      {
+        "answer": "热水的温度会逐渐降低。保温材料只能减慢热量从热水向周围传递，不能完全阻止热量传递，也不能让热水一直保持原来的温度。",
+        "difficulty": 2,
+        "explanation": "热量会从较热的热水传向较冷的周围环境。保温只能减慢这一过程，因此放置较长时间后，热水仍会变凉。",
+        "knowledge_point": "保温",
+        "options": [],
+        "question": "把热水装进保温杯后放置很长时间，热水的温度会怎样变化？为什么？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 73
+      },
+      {
+        "answer": "融化",
+        "difficulty": 1,
+        "explanation": "冰受热后从固态变成液态水，这种状态变化叫融化。",
+        "knowledge_point": "水的状态变化",
+        "options": [],
+        "question": "冰块受热后变成水，这个过程叫作（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 74
+      },
+      {
+        "answer": "凝结",
+        "difficulty": 2,
+        "explanation": "水蒸气遇冷会从气态变成液态小水滴，这种变化叫凝结。杯壁上的小水滴来自空气中的水蒸气，而不是穿过杯壁渗出来的水。",
+        "knowledge_point": "水的状态变化",
+        "options": [
+          "蒸发",
+          "沸腾",
+          "凝结",
+          "融化"
+        ],
+        "question": "冰凉的饮料杯外壁出现小水滴，主要是因为空气中的水蒸气遇冷变成小水滴。这个过程叫（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "液态",
+        "difficulty": 1,
+        "explanation": "蒸发是水从液态变成气态的过程，因此蒸发前的水是液态。",
+        "knowledge_point": "水的状态变化",
+        "options": [],
+        "question": "蒸发是水从（）变成气态水蒸气的过程。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 76
+      },
+      {
+        "answer": "从热水传向勺子",
+        "difficulty": 1,
+        "explanation": "热水的温度高于勺子，接触后热量会从热水传向温度较低的勺子。",
+        "knowledge_point": "热量的传递",
+        "options": [
+          "从勺子传向热水",
+          "从热水传向勺子",
+          "热量不传递",
+          "从空气传向热水"
+        ],
+        "question": "把一把凉金属勺放入热水中，刚放入时热量主要会（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "热量会从温度较高处传向温度较低处，因此靠近热源的部分会先变热，热量再逐渐传向较远处。",
+        "knowledge_point": "热量的传递",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "用一端加热金属棒时，热量会从受热的一端逐渐传向较冷的部分。",
+        "score": 5,
+        "type": "true_false",
+        "id": 78
+      },
+      {
+        "answer": "温度",
+        "difficulty": 1,
+        "explanation": "比较两处温度后，可以判断热量通常从温度较高的一处传向温度较低的一处。",
+        "knowledge_point": "热量的传递",
+        "options": [],
+        "question": "判断热量传递方向时，应比较物体或物体各部分的______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 79
+      },
+      {
+        "answer": "热量会从温度较高处传向温度较低处",
+        "difficulty": 2,
+        "explanation": "热水温度高于杯子，热量会传给杯子；杯子温度高于周围空气时，也会继续向周围传热。随着热量传递，温差逐渐减小。",
+        "knowledge_point": "热量的传递",
+        "options": [],
+        "question": "一杯热水放在桌上会逐渐变凉。请用热量传递的规律解释这一现象。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 80
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "判断：水只有达到沸腾时才会蒸发。（×）水在常温下也会蒸发，不必等到沸腾。",
+        "knowledge_point": "蒸发",
+        "options": [],
+        "question": "水只有达到沸腾时才会蒸发。（判断对错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 81
+      },
+      {
+        "answer": "水蒸气",
+        "difficulty": 1,
+        "explanation": "蒸发时，液体表面的水慢慢变成水蒸气并进入空气。",
+        "knowledge_point": "蒸发",
+        "options": [],
+        "question": "蒸发时，液体表面的水会慢慢变成（ ），进入空气中。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 82
+      },
+      {
+        "answer": "通常会蒸发得更快。",
+        "difficulty": 2,
+        "explanation": "温度较高时，液体蒸发通常更快；比较时应尽量保证水量、表面积和空气流动等条件相同。",
+        "knowledge_point": "蒸发",
+        "options": [],
+        "question": "把两份同样多、表面积相同的水放在空气流动情况相同的地方，其中一份温度较高。较热的那份水通常会怎样蒸发？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "把湿衣服展开晾晒，衣服干得更快。",
+        "difficulty": 2,
+        "explanation": "衣服展开后，水与空气接触的表面积增大，蒸发通常加快。",
+        "knowledge_point": "蒸发",
+        "options": [],
+        "question": "写出一种利用增大水与空气接触面积来加快湿衣服变干的方法。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "空气流动较快的一盘水蒸发得更快。",
+        "difficulty": 2,
+        "explanation": "空气流动较快时，液体表面附近的水蒸气更容易被带走，因此蒸发通常加快。",
+        "knowledge_point": "蒸发",
+        "options": [],
+        "question": "两盘水的水量、温度和表面积都相同，一盘放在通风处，另一盘放在空气流动较慢的地方。哪一盘水通常蒸发得更快？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "热量从温度较高的物体传向温度较低的物体。",
+        "difficulty": 1,
+        "explanation": "热传递的方向由温度高低决定，热量由高温处传向低温处。",
+        "knowledge_point": "热传递",
+        "options": [],
+        "question": "热传递时，热量通常从______的物体传向______的物体。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "热量会从较热的汤传到较冷的金属勺，勺子温度因此升高。",
+        "knowledge_point": "热传递",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "把金属勺放进热汤里，过一会儿勺柄会变热，这是热传递现象。",
+        "score": 5,
+        "type": "true_false",
+        "id": 87
+      },
+      {
+        "answer": "传导",
+        "difficulty": 2,
+        "explanation": "热量通过相互接触的固体从热的一端传向较冷的一端，这种方式叫传导。",
+        "knowledge_point": "热传递",
+        "options": [],
+        "question": "铁锅的锅底受热后，热量传到锅柄，使锅柄变热，这种热传递方式主要是______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 88
+      },
+      {
+        "answer": "热水向冷水传递热量，直到两者温度趋于相同。",
+        "difficulty": 2,
+        "explanation": "刚混合时热水温度较高、冷水温度较低，热量由热水传向冷水；传递一段时间后，两者温度趋于相同。",
+        "knowledge_point": "热传递",
+        "options": [],
+        "question": "将一杯热水倒入一杯冷水中，热量会怎样传递？最后两杯水的温度会有什么变化？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 89
+      },
+      {
+        "answer": "阳光通过辐射把热量传到地球。",
+        "difficulty": 2,
+        "explanation": "太阳和地球之间有很大一段空间，太阳的热量可以通过辐射传递，不需要物体直接接触。",
+        "knowledge_point": "热传递",
+        "options": [],
+        "question": "太阳和地球之间没有直接接触，地球仍能获得太阳的热量。这主要是通过什么方式传热？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 90
+      },
+      {
+        "answer": "×",
+        "difficulty": 1,
+        "explanation": "木头通常导热较慢，常用作锅柄等部件，减少热量传到手上。",
+        "knowledge_point": "导热性能",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "木头通常比金属导热快。（）",
+        "score": 3,
+        "type": "true_false",
+        "id": 91
+      },
+      {
+        "answer": "金属",
+        "difficulty": 1,
+        "explanation": "金属通常是热的良导体，传递热量较快。",
+        "knowledge_point": "导热性能",
+        "options": [],
+        "question": "铝、铜等材料属于热的良导体，通常都属于（）。",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 92
+      },
+      {
+        "answer": "锅底用金属有利于较快地把热量传给食物；锅柄用木头或塑料，是因为它们导热较慢，握持时不容易很快变烫。",
+        "difficulty": 2,
+        "explanation": "这是利用不同材料导热性能不同的特点：金属传热快，木头和塑料传热慢。",
+        "knowledge_point": "导热性能",
+        "options": [],
+        "question": "炒锅的锅底常用金属制作，锅柄常用木头或塑料制作。请分别说明这样设计的原因。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "金属勺",
+        "difficulty": 2,
+        "explanation": "在其他条件相同的情况下，金属导热通常比木头快，因此热量更容易沿金属勺传到露出水面的部分。",
+        "knowledge_point": "导热性能",
+        "options": [
+          "金属勺",
+          "木勺"
+        ],
+        "question": "把金属勺和木勺的一端同时放入同一杯温水中，露出水面的部分长度相同。通常先变暖的是（）。",
+        "score": 4,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "水温、材料的长度和粗细、浸入水中的长度等条件应尽量相同；只改变材料种类，比较另一端变热的快慢。",
+        "difficulty": 3,
+        "explanation": "公平比较时，除了要研究的材料种类，其他可能影响传热快慢的条件都应尽量保持相同。",
+        "knowledge_point": "导热性能",
+        "options": [],
+        "question": "比较金属棒和木棒的导热性能时，要怎样控制实验条件，才能使比较更公平？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 95
+      },
+      {
+        "answer": "100℃",
+        "difficulty": 1,
+        "explanation": "在标准大气压下，水通常加热到约100℃开始沸腾。气压不同，沸点也可能变化。",
+        "knowledge_point": "水的沸腾",
+        "options": [],
+        "question": "在标准大气压下，水通常加热到约多少摄氏度开始沸腾？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 96
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "在标准大气压下，水沸腾时通常持续吸热，但温度保持在沸点附近，不会继续升高。",
+        "knowledge_point": "水的沸腾",
+        "options": [],
+        "question": "在标准大气压下，水沸腾时持续吸热，温度通常保持在约100℃。",
+        "score": 5,
+        "type": "true_false",
+        "id": 97
+      },
+      {
+        "answer": "液体内部和表面",
+        "difficulty": 2,
+        "explanation": "沸腾时，液体内部和表面都会发生剧烈汽化，水中会出现大量气泡。",
+        "knowledge_point": "水的沸腾",
+        "options": [],
+        "question": "水沸腾时，剧烈汽化会发生在水的什么位置？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 98
+      },
+      {
+        "answer": "变大并上升，随后破裂",
+        "difficulty": 2,
+        "explanation": "加热过程中，水内部形成的气泡会逐渐变大并向上升，升到水面后破裂，水蒸气散到空气中。",
+        "knowledge_point": "水的沸腾",
+        "options": [],
+        "question": "水沸腾时，水中气泡通常会怎样变化？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "白色的“雾气”是水蒸气遇冷后形成的小水滴；真正的水蒸气通常是看不见的。",
+        "difficulty": 2,
+        "explanation": "水沸腾后产生的水蒸气本身看不见。它遇到较冷的空气后凝结成许多小水滴，才形成我们看到的白色“雾气”。",
+        "knowledge_point": "水的沸腾",
+        "options": [],
+        "question": "水壶嘴附近常能看到白色“雾气”。这些白色小颗粒是什么？真正的水蒸气能看见吗？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 100
+      },
+      {
+        "answer": "热量",
+        "difficulty": 1,
+        "explanation": "热量通常从温度较高的物体传向温度较低的物体；保温能减慢这种传递。",
+        "knowledge_point": "保温原理",
+        "options": [],
+        "question": "热量通常会从温度较（高/低）的物体传向温度较（高/低）的物体。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "保温材料通常不能产生热量，主要是减慢热量的传递，使物体较长时间保持原来的温度。",
+        "knowledge_point": "保温原理",
+        "options": [],
+        "question": "判断：保温杯能让冷水自己变热。",
+        "score": 5,
+        "type": "true_false",
+        "id": 102
+      },
+      {
+        "answer": "空气",
+        "difficulty": 2,
+        "explanation": "棉絮中有许多不易流动的空气。空气是热的不良导体，因此棉絮能减慢热量传递。",
+        "knowledge_point": "保温原理",
+        "options": [],
+        "question": "棉衣里的棉絮蓬松，含有许多不易流动的（），因此能帮助保温。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 103
+      },
+      {
+        "answer": "减慢热量散失，使水保持较长时间的温度",
+        "difficulty": 2,
+        "explanation": "保温杯通过杯壁、杯盖等结构减少热量传递。热水的热量仍会逐渐散失，只是散失得较慢。",
+        "knowledge_point": "保温原理",
+        "options": [],
+        "question": "保温杯的作用是什么？它能让热水永远保持原来的温度吗？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "用相同的热水分别装入两个相同的杯子，一个包上棉布，另一个不包；放在相同环境中，定时测量并记录水温，比较一段时间后哪杯水降温较慢。",
+        "difficulty": 3,
+        "explanation": "实验中应控制水量、初始水温、杯子和放置环境等条件相同，只改变是否包棉布。若包棉布的杯子降温较慢，说明棉布能减慢热量散失、起到保温作用。",
+        "knowledge_point": "保温原理",
+        "options": [],
+        "question": "设计一个简单实验，比较包棉布和不包棉布的杯子哪一个保温效果更好。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "真空",
+        "difficulty": 1,
+        "explanation": "真空中几乎没有物质，热量难以通过传导和对流传递，因此双层杯壁之间抽成真空可以减慢热量散失。",
+        "knowledge_point": "保温杯设计",
+        "options": [],
+        "question": "双层保温杯的夹层常抽成（），以减慢热传导和热对流。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 106
+      },
+      {
+        "answer": "热辐射",
+        "difficulty": 2,
+        "explanation": "光亮的反光层能反射一部分热辐射，从而减慢热量通过辐射方式散失。",
+        "knowledge_point": "保温杯设计",
+        "options": [],
+        "question": "保温杯内壁采用光亮的反光材料，主要是为了减慢热量通过（）散失。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 107
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "保温杯不能自己产生热量，主要作用是减慢杯内物体与周围环境之间的热量传递。",
+        "knowledge_point": "保温杯设计",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "保温杯可以自己产生热量，让杯内的水一直保持原来的温度。",
+        "score": 5,
+        "type": "true_false",
+        "id": 108
+      },
+      {
+        "answer": "用塑料或其他热的不良导体制作杯盖，并加上密封圈；盖紧杯盖可以减少热量从杯口传递和逸出。",
+        "difficulty": 2,
+        "explanation": "塑料传热较慢，密封圈能减小杯口缝隙中的空气流动。盖紧杯盖能够减少热对流以及热水蒸气带走的热量。",
+        "knowledge_point": "保温杯设计",
+        "options": [],
+        "question": "请说出一种杯盖或杯口的设计，并说明它怎样帮助保温。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "双层杯壁间的真空层能减弱热传导和热对流；反光内壁能减弱热辐射，因此这两种设计都能减慢热量散失。",
+        "knowledge_point": "保温杯设计",
+        "options": [
+          "只把杯子做得更重",
+          "采用双层杯壁并在夹层抽成真空，同时使用反光内壁",
+          "在杯身开孔，让空气自由流动",
+          "用金属网替代杯盖"
+        ],
+        "question": "以下哪种设计最有利于减慢热水的热量散失？",
+        "score": 5,
+        "type": "choice",
+        "id": 110
+      },
+      {
+        "answer": "热传导",
+        "difficulty": 1,
+        "explanation": "热量通过物体内部或相互接触的物体传递，称为热传导。金属勺是固体，热量会沿着勺子传递。",
+        "knowledge_point": "热传递方式",
+        "options": [
+          "热传导",
+          "热对流",
+          "热辐射"
+        ],
+        "question": "把金属勺放进热汤里，勺柄逐渐变热，主要是通过哪种方式传递热量？",
+        "score": 5,
+        "type": "choice",
+        "id": 111
+      },
+      {
+        "answer": "热辐射",
+        "difficulty": 2,
+        "explanation": "太阳与地球之间有很大的空间，热量不需要通过物体直接接触或流体整体流动来传递，这种方式叫热辐射。",
+        "knowledge_point": "热传递方式",
+        "options": [],
+        "question": "太阳的热量传到地球，主要通过（）的方式。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "热传导常见于固体中。热量会从温度较高的部分传向温度较低的部分。",
+        "knowledge_point": "热传递方式",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "热传导可以使热量在固体中从较热的部分传向较冷的部分。",
+        "score": 5,
+        "type": "true_false",
+        "id": 113
+      },
+      {
+        "answer": "热对流",
+        "difficulty": 2,
+        "explanation": "锅里的水受热后，热水上升、冷水下沉，水整体流动并带动热量传递，这主要是热对流。",
+        "knowledge_point": "热传递方式",
+        "options": [
+          "热传导",
+          "热对流",
+          "热辐射",
+          "热传导和热辐射"
+        ],
+        "question": "烧水时，锅里的水受热后上下流动，使整锅水逐渐变热。主要的热传递方式是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 114
+      },
+      {
+        "answer": "热传导、热对流和热辐射",
+        "difficulty": 3,
+        "explanation": "热可以通过物体或接触传递（热传导）、通过液体或气体流动传递（热对流），也可以通过热辐射传递。",
+        "knowledge_point": "热传递方式",
+        "options": [],
+        "question": "热传递的三种主要方式是（）、（）和（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "热的不良导体",
+        "difficulty": 2,
+        "explanation": "不容易传热的材料称为热的不良导体，例如木头、塑料和橡胶。",
+        "knowledge_point": "导热性分类",
+        "options": [],
+        "question": "不容易传热的材料称为热的（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "金属通常容易传热，因此属于热的良导体。",
+        "knowledge_point": "导热性分类",
+        "options": [
+          "A. 铁勺",
+          "B. 木筷",
+          "C. 塑料尺",
+          "D. 橡胶手套"
+        ],
+        "question": "下面哪种物品的材料通常是热的良导体？",
+        "score": 5,
+        "type": "choice",
+        "id": 117
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "木头通常不容易传热，所以属于热的不良导体。",
+        "knowledge_point": "导热性分类",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "木头通常是热的不良导体。",
+        "score": 5,
+        "type": "true_false",
+        "id": 118
+      },
+      {
+        "answer": "木头（或塑料）",
+        "difficulty": 2,
+        "explanation": "锅柄常使用木头或塑料等不容易传热的材料，能减少热量传到手上。",
+        "knowledge_point": "导热性分类",
+        "options": [],
+        "question": "为了减少热锅把手传来的热量，锅柄常用（）等不容易传热的材料制作。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "铜",
+        "difficulty": 3,
+        "explanation": "铜属于金属，通常容易传热，是热的良导体。锅身使用铜等金属有助于热量传递到食物。",
+        "knowledge_point": "导热性分类",
+        "options": [],
+        "question": "小明想制作一个容易把热量传给食物的锅身，应选择木头、塑料还是铜？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
       }
     ]
   },
@@ -692,6 +1861,226 @@
         "认为保温效果好的杯子不能装冰块"
       ],
       "tips": "保温的本质是“减缓”热量传递的速度，而不是彻底“制止”。"
+    },
+    {
+      "common_mistakes": [
+        "认为水只会在100℃时才蒸发；实际上水在不同温度下都能蒸发，温度较高时通常蒸发得更快。",
+        "把蒸发和沸腾混为一谈；蒸发可以在液体表面缓慢发生，沸腾则会在液体内部和表面同时剧烈发生。",
+        "认为水结冰后质量消失；水只是由液态变成固态。"
+      ],
+      "core_concept": "水通常有固态、液态和气态三种状态。温度变化会引起水的状态变化：冰受热融化成水，水继续受热会蒸发；水蒸气遇冷会凝结成小水滴，水降到冰点以下会结冰。水的状态变化过程中，水的多少并不会因此消失。",
+      "key_formula": "吸收热量：冰→水→水蒸气；放出热量：水蒸气→水→冰。标准大气压下，水的冰点约为0℃，沸点约为100℃。",
+      "point": "水的状态变化与温度关系",
+      "tips": "观察水的变化时，注意区分“温度变化”和“状态变化”。蒸发可以在各种温度下发生；沸腾通常需要液体达到沸点。标准大气压下，纯水在0℃附近结冰、在100℃沸腾，但实际情况会受到气压等因素影响。"
+    },
+    {
+      "common_mistakes": [
+        "认为水蒸发时会放出热量；实际上液态水变成水蒸气需要吸收周围的热量。",
+        "认为凝结需要吸收热量；实际上水蒸气变成液态水时会把热量传给周围。",
+        "认为只有加热时水才会蒸发；水在常温下也能蒸发，只是快慢不同。"
+      ],
+      "core_concept": "水蒸发时，液态水吸收周围的热量，变成水蒸气；水蒸气凝结时，会把热量传给周围，变成液态水。水的状态变化伴随着能量在水和周围环境之间的传递。",
+      "key_formula": "蒸发：液态水吸收热量 → 水蒸气；凝结：水蒸气 → 液态水，并向周围放出热量。",
+      "point": "水的蒸发与凝结中的能量传递",
+      "tips": "可以用湿手感到凉、冷饮杯外出现水珠等现象来理解：湿手上的水蒸发时吸收热量，所以手感到凉；杯外的水珠来自空气中的水蒸气凝结，凝结时热量传给周围。温度较高、空气流动较快或水面较大时，蒸发通常会更快。"
+    },
+    {
+      "common_mistakes": [
+        "认为热会从温度低的地方传到温度高的地方。",
+        "认为金属各处会同时变热，而不是热逐步传递。",
+        "把热传导和物体整体移动混为一谈。"
+      ],
+      "core_concept": "热传导是热从温度较高的部分传到温度较低的部分，物体本身不需要整体移动。金属通常是热的良导体。金属的一端受热后，热会沿着金属逐步传向较冷的部分。",
+      "key_formula": "热传递方向：温度较高处 → 温度较低处",
+      "point": "热传导：热在金属中的传递规律",
+      "tips": "可以用金属棒做观察：把棒的一端放在热水中，安全地观察另一端是否逐渐变热。实验时不要直接触摸热金属，也不要使用明火；热水和金属棒应由成人协助操作。"
+    },
+    {
+      "common_mistakes": [
+        "认为热量会像水一样整体从热处流到冷处；在液体和气体中，对流是流体各部分移动并带着热量传递。",
+        "认为所有物质都能发生对流；对流主要发生在液体和气体中，固体中不靠流体流动传热。",
+        "认为受热后的液体或气体会下沉；通常受热后体积膨胀、密度变小而上升，较冷的部分密度较大而下沉。"
+      ],
+      "core_concept": "液体或气体受热后，通常会膨胀、密度变小并上升；周围较冷、密度较大的部分会流过来补充并下沉。这样流体不断循环，把热量从较热处带到较冷处，这种传热方式叫对流。",
+      "key_formula": "对流：较热、密度较小的流体上升；较冷、密度较大的流体下沉，循环流动并传递热量。",
+      "point": "热在液体和气体中的对流现象",
+      "tips": "可以用烧水、暖气使房间变暖等现象来理解对流。观察时关注流体哪里受热、哪里变热，以及流体是否发生循环流动。对流需要液体或气体能够流动。"
+    },
+    {
+      "common_mistakes": [
+        "认为保温杯能完全阻止热量传递。实际上，保温杯只能减缓热量传递，不能让热量传递彻底停止。",
+        "认为只有杯壁真空才能保温。杯盖、内外壁材料和结构也会影响保温效果。",
+        "把热传递只理解为热传导。热量还可以通过热对流和热辐射传递。"
+      ],
+      "core_concept": "保温杯通过多种结构共同减缓热量传递：双层杯壁之间的真空能减少热传导和热对流；内壁的反光层能减少热辐射；密合的杯盖能减少杯口处的热量交换和空气流动。因此，热水不容易变凉，冷水也不容易变热。",
+      "key_formula": "保温杯通过减少热传导、热对流和热辐射来减缓热量传递；保温并不等于完全隔绝热量。",
+      "point": "保温杯的设计原理（减缓热传递）",
+      "tips": "观察保温杯时，可以分别思考杯壁、反光层和杯盖的作用。真空层主要减少热传导和热对流，反光层主要减少热辐射，密合的杯盖主要减少杯口处的热量交换。"
+    },
+    {
+      "common_mistakes": [
+        "把热传导和热对流、热辐射混为一谈。",
+        "认为只有金属能传热；其实各种物体都能传热，只是快慢不同。",
+        "认为热量会从低温物体传向高温物体。"
+      ],
+      "core_concept": "热传导是热量通过物体或物体之间的接触，从温度较高的部分传向温度较低的部分的传热方式。固体中常见热传导；不同材料传热快慢不同，金属通常传热较快，木头、塑料等通常传热较慢。",
+      "key_formula": "本课不涉及计算公式。热传导方向：高温部分 → 低温部分。",
+      "point": "热传导",
+      "tips": "观察热传导时，可以比较材料不同、其他条件相同的物体升温快慢。实验中注意安全，不要直接触摸热水、火焰或被加热的金属；使用温度计或在成人指导下操作。"
+    },
+    {
+      "common_mistakes": [
+        "把热对流说成热量本身向上流动。实际上，是液体或气体受热后发生流动，并带动热量传递。",
+        "认为冷热空气会朝同一个方向运动。通常，较热、密度较小的空气上升，较冷、密度较大的空气下沉。",
+        "认为红墨水能加快水的对流。它主要用于显示水流，便于观察。"
+      ],
+      "core_concept": "热对流是液体或气体受热后，因温度不同、密度不同而发生流动，从而传递热量的方式。一般来说，较热的液体或气体密度较小，会向上流动；较冷的密度较大，会向下流动。冷热部分不断交换位置，就形成对流。",
+      "key_formula": "热对流：较热、密度较小的液体或气体上升；较冷、密度较大的液体或气体下降。",
+      "point": "热对流",
+      "tips": "观察热对流时，可以用红墨水等颜色明显的物质显示水流方向。生活中，空调通常装在较高处，暖气片通常靠近地面：冷气向下沉、热空气向上升，空气循环有助于调节房间温度。"
+    },
+    {
+      "common_mistakes": [
+        "把杯子外壁的水珠误认为是杯内的水渗出来的。",
+        "把凝结和蒸发混淆：凝结是水蒸气遇冷变成液态水，蒸发是液态水变成水蒸气。",
+        "认为水蒸气凝结成水珠时不需要温度变化。"
+      ],
+      "core_concept": "空气中的水蒸气遇冷，会变成液态的小水珠，这种现象叫作凝结。凝结是水的一种状态变化。",
+      "key_formula": "水蒸气（气态）—遇冷→水（液态）",
+      "point": "凝结",
+      "tips": "观察凝结现象时，可以留意冷物体表面附近的水珠，例如冰饮料杯外壁、冬天的窗玻璃。水珠来自空气中的水蒸气，而不是物体内部渗出的水。"
+    },
+    {
+      "common_mistakes": [
+        "把能传热的材料都称为热的良导体；实际上，不同材料传热快慢不同。",
+        "认为热的不良导体完全不传热；它们只是传热比较慢。",
+        "忽视物体不同部分可能使用不同材料，例如锅身用金属，锅柄用木头或塑料。"
+      ],
+      "core_concept": "热的良导体是传热能力较强、传热较快的材料。常见的热的良导体有铜、铝、铁等金属。热的不良导体传热较慢，常见的有木头、塑料、橡胶和空气等。生活中会根据需要选择不同材料：锅身常用金属，便于把热传给食物；锅柄常用木头或塑料，能减缓热传递，减少烫手的风险。",
+      "key_formula": "没有计算公式。可用“传热快慢”判断材料：传热较快的是热的良导体，传热较慢的是热的不良导体。",
+      "point": "热的良导体",
+      "tips": "比较材料的导热能力时，要在相同条件下进行，并注意安全。金属通常是热的良导体，但材料是否适合某种用途，还要结合耐热、强度等特点判断。"
+    },
+    {
+      "common_mistakes": [
+        "认为保温就是自己产生热量；实际上，保温是减慢热量传递。",
+        "认为只有真空才能保温；空气、棉花等也能减慢热量传递。",
+        "认为所有保温材料都能阻止热量传递；它们只能减慢热量传递。"
+      ],
+      "core_concept": "热量会从温度较高的物体传向温度较低的物体。保温是通过减少热量传递，使物体较长时间保持原来的温度，并不是产生热量或完全阻止热量传递。",
+      "key_formula": "无",
+      "point": "保温",
+      "tips": "保温时可以通过减少热传导、热对流和热辐射来减慢热量传递。例如，保温杯的真空层能减少热传导和热对流，内壁的反光层能减少热辐射；棉衣中的空气也能减慢热量传递。"
+    },
+    {
+      "common_mistakes": [
+        "把蒸发和沸腾混为一谈：蒸发可以在液体表面、不同温度下发生；沸腾则在液体内部和表面同时发生。",
+        "把“白气”当成水蒸气：水蒸气看不见，看到的白色小液滴是水蒸气遇冷后凝结形成的。",
+        "认为水只在0℃结冰、100℃沸腾：这些温度是在标准大气压下的通常情况，气压等因素可能影响沸点。"
+      ],
+      "core_concept": "水可以在固态、液态和气态之间变化。冰受热融化成水，水继续受热会蒸发或沸腾变成水蒸气；水蒸气遇冷会凝结成水，水冷却到一定温度会结冰，冰受热又会融化。",
+      "key_formula": "冰（固态）受热 → 水（液态）受热 → 水蒸气（气态）；水蒸气遇冷 → 水（液态）遇冷 → 冰（固态）。标准大气压下，水通常在0℃结冰、在100℃沸腾。",
+      "point": "水的状态变化",
+      "tips": "观察水的状态变化时，可同时关注温度和状态：固态的冰受热会融化，液态的水受热会蒸发，达到沸点时会沸腾；气态水蒸气遇冷会凝结，液态水冷却到冰点会结冰。水的状态变化通常伴随吸热或放热。"
+    },
+    {
+      "common_mistakes": [
+        "把热量传递误认为冷量从低温物体传向高温物体。",
+        "觉得摸起来更冷的物体一定温度更低；如果铁和木头处于同一环境中，它们的温度可能相同，只是铁导热更快。",
+        "认为热量只能沿一个方向传递；热量会从高温处向周围的低温处传递。"
+      ],
+      "core_concept": "热量会从温度较高的地方传向温度较低的地方，直到温度趋于相同。热可以通过传导、对流和辐射等方式传递；在小学阶段，常重点观察热在固体中的传导，以及不同材料传热快慢的差异。",
+      "key_formula": "热量传递方向：高温处 → 低温处。没有需要计算的公式。",
+      "point": "热量的传递",
+      "tips": "观察热传递时，先找出温度较高和较低的部分，再判断热量的传递方向。比较材料导热快慢时，应尽量保证物体大小、初始温度和受热条件相同。"
+    },
+    {
+      "common_mistakes": [
+        "把蒸发和沸腾混为一谈：蒸发可以在液体表面、不同温度下发生；沸腾需要达到一定温度，并在液体内部和表面同时发生。",
+        "认为只有水变热才会蒸发；其实水在常温下也会蒸发。",
+        "忽略空气流动、温度和液体表面积对蒸发快慢的影响。"
+      ],
+      "core_concept": "蒸发是液体表面的水慢慢变成水蒸气，散发到空气中的现象。水在常温下也会蒸发。通常，温度越高、空气流动越快、液体表面积越大，蒸发越快。",
+      "key_formula": "没有固定的计算公式；一般来说，温度越高、空气流动越快、液体表面积越大，蒸发越快。",
+      "point": "蒸发",
+      "tips": "观察生活中的湿衣服、水洼和湿手，想一想哪些条件会使水干得更快。做比较实验时，保持水量等其他条件相同，一次只改变一个因素。蒸发形成的水蒸气通常看不见，不要把它和热水上方可见的白雾混为一谈。"
+    },
+    {
+      "common_mistakes": [
+        "误以为热量会从低温物体传向高温物体。",
+        "把热量和温度混为一谈；热量是传递的能量，温度表示物体的冷热程度。",
+        "认为热传递只会发生在相互接触的物体之间。"
+      ],
+      "core_concept": "热传递是热量从温度较高的物体或部分传向温度较低的物体或部分的过程，直到温度趋于相同。热传递有传导、对流和辐射等方式。",
+      "key_formula": "热量传递方向：高温处 → 低温处；温差越大，热传递通常越明显。",
+      "point": "热传递",
+      "tips": "观察热传递时，先比较物体或各部分的温度，再判断热量从哪里传向哪里。固体中常见传导；液体和气体中常见对流；太阳的热量可以通过辐射传到地球。"
+    },
+    {
+      "common_mistakes": [
+        "不要把“摸起来凉”直接等同于“导热性能差”；材料的温度和传热快慢是不同概念。",
+        "不能只凭材料的名称判断导热性能，比较时还要注意材料的厚度、大小和实验条件是否相同。",
+        "金属通常导热较快，但不同金属的导热能力也不完全相同。"
+      ],
+      "core_concept": "导热性能是材料传递热量快慢的性质。热量会从温度较高的地方传向温度较低的地方。像铝、铜等金属通常导热较快，木头、塑料、橡胶等通常导热较慢。导热快的材料常用于锅底；导热慢的材料常用于锅柄或保温用品。",
+      "key_formula": "比较材料的导热性能：在其他条件相同的情况下，热量传递得越快，导热性能越好。",
+      "point": "导热性能",
+      "tips": "可以用相同长度、相同粗细的不同材料进行对比实验：将材料的一端放入温水中，观察另一端变热的快慢。实验时要注意安全，并尽量保持水温、浸入长度和材料尺寸相同。"
+    },
+    {
+      "common_mistakes": [
+        "认为水一达到沸点，温度就会继续升高；通常在标准大气压下，水沸腾时温度保持在约100℃。",
+        "把水面冒出的水蒸气误认为小水泡；水蒸气看不见，看到的白色“雾气”是水蒸气遇冷后形成的小水滴。",
+        "认为水沸腾时只在水面发生；沸腾时水内部和表面都会产生大量气泡。"
+      ],
+      "core_concept": "水沸腾是液体内部和表面同时发生的剧烈汽化现象。标准大气压下，水通常加热到约100℃开始沸腾；沸腾时持续吸热，但温度通常保持不变。停止加热后，水不能继续从热源获得热量，沸腾会逐渐停止。",
+      "key_formula": "标准大气压下：水的沸点约为100℃；沸腾过程中，水持续吸热，温度通常保持不变。",
+      "point": "水的沸腾",
+      "tips": "观察水沸腾时，注意水中气泡的变化和温度计读数。实验中要小心热水和热器材，温度计不能碰到容器底部或侧壁。水的沸点会受气压影响，因此100℃是标准大气压下的近似值。"
+    },
+    {
+      "common_mistakes": [
+        "把保温理解成物体自己产生热量；保温材料主要是减慢热量传递。",
+        "认为厚材料一定保温好；材料中是否含有较多不流动的空气、是否能减少热传递也很重要。",
+        "认为保温只能阻止热量散出；保温也能减慢外界热量传入。"
+      ],
+      "core_concept": "热量会从温度较高的物体传向温度较低的物体。保温是通过减慢热量传递，让物体较长时间保持原来的温度；保温材料本身通常不会产生热量。",
+      "key_formula": "热量传递方向：高温物体 → 低温物体。",
+      "point": "保温原理",
+      "tips": "羽绒、棉絮和泡沫等材料中常有较多不易流动的空气，而空气是热的不良导体，因此能减慢热量传递。给热水杯加盖、使用保温杯，也能减少热量通过对流、传导等方式散失。保温同样可以减慢外界热量传入较冷的物体。"
+    },
+    {
+      "common_mistakes": [
+        "认为保温杯能自己产生热量；实际上它主要是减慢热量传递。",
+        "认为杯壁越厚就一定越保温；保温效果还与材料、夹层和杯口设计有关。",
+        "认为杯盖只用于防漏；杯盖也能减少杯口处的热量散失。"
+      ],
+      "core_concept": "保温杯通过减少热传导、热对流和热辐射来减慢热量散失。常见设计包括双层杯壁与中间的真空层、内壁的反光层，以及用热的不良导体制作的杯盖和密封圈。",
+      "key_formula": "保温效果的关键是减慢热量传递；没有需要记忆的计算公式。",
+      "point": "保温杯设计",
+      "tips": "观察保温杯的结构时，可以依次想一想：哪里可能发生热传导、热对流或热辐射？相应的结构怎样减慢这些热量传递？"
+    },
+    {
+      "common_mistakes": [
+        "把热传导、热对流和热辐射混为一谈。",
+        "认为热对流发生在固体中；热对流主要发生在液体和气体中。",
+        "认为热只能通过接触传递；热辐射不需要物质直接接触。"
+      ],
+      "core_concept": "热会从温度较高的物体或部位传向温度较低的物体或部位。热传递主要有三种方式：热传导、热对流和热辐射。热传导常见于固体中；热对流主要发生在液体和气体中；热辐射可以在没有空气等物质传递的情况下传递热量，例如太阳把热传到地球。",
+      "key_formula": "热传递方向：高温处（物体）→低温处（物体）。",
+      "point": "热传递方式",
+      "tips": "判断热传递方式时，先看热量通过什么过程传递：靠物体内部或相互接触传递，通常是热传导；靠液体或气体整体流动传递，是热对流；不依靠物质直接接触、以辐射形式传递，是热辐射。实际生活中，多种方式常会同时发生。"
+    },
+    {
+      "common_mistakes": [
+        "把“容易传热”和“容易保存热量”混为一谈；导热性描述的是传热能力。",
+        "认为金属一定比所有其他材料导热都强；不同金属的导热能力也有差异。",
+        "把木头、塑料等称为完全不导热；更准确地说，它们通常是热的不良导体。"
+      ],
+      "core_concept": "材料传递热量的能力叫导热性。容易传热的材料是热的良导体，如铜、铁等金属；不容易传热的材料是热的不良导体，如木头、塑料、橡胶和空气等。导热性分类是相对的，表示材料传热能力强弱，并不代表材料能否传热。",
+      "key_formula": "导热性强弱：热的良导体（容易传热）与热的不良导体（不容易传热）。",
+      "point": "导热性分类",
+      "tips": "判断时关注材料是否容易传热，而不是它看起来是否“热”或“冷”。可以用相同条件进行比较实验：将不同材料的一端放在温水附近，观察另一端升温快慢；注意安全，不触碰过热物体。"
     }
   ]
 }

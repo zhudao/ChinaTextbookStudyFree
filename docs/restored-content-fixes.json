@@ -1,0 +1,133 @@
+[
+  {
+    "source": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit5.json",
+    "section": "exam",
+    "question_id": 11,
+    "before": {
+      "id": 11,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 3,
+      "knowledge_point": "求一个数是另一个数的几倍",
+      "question": "红圆片 6 个，蓝圆片个数是红圆片的 5 倍。如果蓝圆片拿走 10 个，剩下的蓝圆片是红圆片的几倍？",
+      "options": [
+        "3 倍",
+        "4 倍",
+        "5 倍",
+        "2 倍"
+      ],
+      "answer": "3_倍",
+      "explanation": "蓝圆片共有 $6 \\times 5 = 30$ 个。拿走后剩下 $30 - 10 = 20$ 个。不小心算错？重算：$10$ 拿走剩下 $20$，但问的是倍数，$20 \\div 6$ 不整除。修正题目数据：红 6 蓝 30，拿走 12。$30-12=18, 18/6=3$。选项由于系统原因手动校对：原题修正为：蓝圆片 30个，拿走 12个，剩 18个。$18/6=3$。由于无法修改题面，重新设计此题：红 6，蓝是红 5 倍即 30。拿走 12 个剩 18. $18 \\div 6 = 3$。正确答案 3 倍。"
+    },
+    "after": {
+      "id": 11,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 3,
+      "knowledge_point": "求一个数是另一个数的几倍",
+      "question": "红圆片6个，蓝圆片个数是红圆片的5倍。如果拿走12个蓝圆片，剩下的蓝圆片个数是红圆片的几倍？",
+      "options": [
+        "3 倍",
+        "4 倍",
+        "5 倍",
+        "2 倍"
+      ],
+      "answer": "3 倍",
+      "explanation": "蓝圆片原有 $6 \\times 5 = 30$ 个，拿走12个后还剩 $30 - 12 = 18$ 个。$18 \\div 6 = 3$，所以剩下的蓝圆片个数是红圆片的3倍。"
+    },
+    "reason": "Available options cannot represent 20/6; make the intended removal 12 and keep exactly one correct visible answer."
+  },
+  {
+    "source": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit5.json",
+    "lesson_id": "english-g4down-u5-kp9",
+    "section": "unit_test",
+    "question_id": 62,
+    "before": {
+      "answer": "books",
+      "difficulty": 1,
+      "explanation": "book 是一般规则名词，变复数时在词尾加 -s。",
+      "knowledge_point": "名词复数用法",
+      "options": [
+        ""
+      ],
+      "question": "book 的复数形式是 ______。",
+      "score": 5,
+      "type": "fill_blank",
+      "id": 62
+    },
+    "after": {
+      "answer": "books",
+      "difficulty": 1,
+      "explanation": "book 是一般规则名词，变复数时在词尾加 -s。",
+      "knowledge_point": "名词复数用法",
+      "options": [],
+      "question": "book 的复数形式是 ______。",
+      "score": 5,
+      "type": "fill_blank",
+      "id": 62
+    },
+    "reason": "Remove an empty placeholder option from a text-input question; all question text, answers, explanations and IDs are retained."
+  },
+  {
+    "source": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit5.json",
+    "lesson_id": "english-g4down-u5-kp9",
+    "section": "unit_test",
+    "question_id": 63,
+    "before": {
+      "answer": "boxes",
+      "difficulty": 2,
+      "explanation": "box 以 x 结尾，变复数时通常加 -es，写作 boxes。",
+      "knowledge_point": "名词复数用法",
+      "options": [
+        ""
+      ],
+      "question": "There are three ______ under the table.（box）",
+      "score": 5,
+      "type": "fill_blank_text",
+      "id": 63
+    },
+    "after": {
+      "answer": "boxes",
+      "difficulty": 2,
+      "explanation": "box 以 x 结尾，变复数时通常加 -es，写作 boxes。",
+      "knowledge_point": "名词复数用法",
+      "options": [],
+      "question": "There are three ______ under the table.（box）",
+      "score": 5,
+      "type": "fill_blank_text",
+      "id": 63
+    },
+    "reason": "Remove an empty placeholder option from a text-input question; all question text, answers, explanations and IDs are retained."
+  },
+  {
+    "source": "output/english/quizzes/义务教育教科书·英语（三年级起点）四年级下册_unit5.json",
+    "lesson_id": "english-g4down-u5-kp9",
+    "section": "unit_test",
+    "question_id": 64,
+    "before": {
+      "answer": "babies",
+      "difficulty": 2,
+      "explanation": "baby 以辅音字母加 y 结尾，变复数时去掉 y，加 -ies。",
+      "knowledge_point": "名词复数用法",
+      "options": [
+        ""
+      ],
+      "question": "把 baby 改成复数：______",
+      "score": 5,
+      "type": "fill_blank",
+      "id": 64
+    },
+    "after": {
+      "answer": "babies",
+      "difficulty": 2,
+      "explanation": "baby 以辅音字母加 y 结尾，变复数时去掉 y，加 -ies。",
+      "knowledge_point": "名词复数用法",
+      "options": [],
+      "question": "把 baby 改成复数：______",
+      "score": 5,
+      "type": "fill_blank",
+      "id": 64
+    },
+    "reason": "Remove an empty placeholder option from a text-input question; all question text, answers, explanations and IDs are retained."
+  }
+]

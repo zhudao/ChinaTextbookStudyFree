@@ -1,0 +1,1036 @@
+{
+  "created_at": "2026-10-22T03:18:30.346302+00:00",
+  "counts": {
+    "json_files": 2473,
+    "books": 45,
+    "lessons": 2387,
+    "lesson_questions": 15303,
+    "question_audio": 16529,
+    "explanation_audio": 16529,
+    "knowledge_text_fields": 7160,
+    "knowledge_audio_fields": 7160,
+    "units": 293,
+    "passages": 779,
+    "passages_sentences": 13001,
+    "passages_sentence_audio": 13001,
+    "passages_with_original_pages": 779,
+    "stories": 284,
+    "stories_sentences": 5037,
+    "stories_sentence_audio": 5037,
+    "story_questions": 1226,
+    "story_images": 284
+  },
+  "subjects": {
+    "math": 13,
+    "chinese": 12,
+    "english": 8,
+    "science": 12
+  },
+  "question_types": {
+    "choice": 6868,
+    "true_false": 2725,
+    "fill_blank": 582,
+    "fill_blank_text": 4614,
+    "calculation": 282,
+    "word_order": 90,
+    "matching": 142,
+    "story:choice": 852,
+    "story:fill_blank_text": 278,
+    "story:true_false": 96
+  },
+  "lesson_question_counts": {
+    "6": 2079,
+    "7": 82,
+    "8": 63,
+    "9": 55,
+    "10": 35,
+    "11": 27,
+    "12": 20,
+    "13": 13,
+    "14": 6,
+    "15": 3,
+    "17": 2,
+    "18": 1,
+    "19": 1
+  },
+  "expected_routes": 3838,
+  "missing_routes": [],
+  "unique_media": {
+    "audio": 88155,
+    "story-images": 284,
+    "textbook-pages": 1561
+  },
+  "media_references": {
+    "audio": 101800,
+    "textbook-pages": 2343,
+    "story-images": 284
+  },
+  "image_dimensions": {
+    "story-images:1920x1280": 188,
+    "story-images:1376x768": 96,
+    "textbook-pages:870x1229": 1561
+  },
+  "integrity_errors": [],
+  "warnings": {
+    "lessons_without_knowledge": 0,
+    "lessons_without_knowledge_examples": [],
+    "one_question_lessons": 0,
+    "control_character_fields": 106,
+    "control_character_examples": [
+      {
+        "location": "g1up-u9-kp1.questions[7].question",
+        "text": "$16 - 3$ 的符号应该填什么？$16 - 3 \bigcirc 14$"
+      },
+      {
+        "location": "g3up-u3-kp3.questions[3].explanation",
+        "text": "1000 千克 = 1 吨，3000 千克 = $3000 \times \frac{1}{1000} = 3$ 吨。"
+      },
+      {
+        "location": "g3up-u4-kp2.questions[4].question",
+        "text": "在算式 $6\blacksquare 4 - 238$ 中，如果要使差的中间一位是 0，方框里应填（    ）。"
+      },
+      {
+        "location": "g3up-u4-kp2.questions[4].explanation",
+        "text": "个位 $4-8$ 不够减向十位借1，十位变为 $\blacksquare-1-3=0$，则 $\blacksquare=4$。验算：$644-238=406$ ✓。"
+      },
+      {
+        "location": "g5up-u2-kp1.questions[8].explanation",
+        "text": "$12 \times 5 = 60$。验算：$60 \times 2 \times \frac{1}{2} = 60$ 或 $60 \times \frac{1}{5} = 12$ ✓。"
+      },
+      {
+        "location": "g5up-u3-kp1.questions[2].question",
+        "text": "计算 $1.2 \bdiv 4$，商是多少？"
+      },
+      {
+        "location": "g5up-u3-kp1.questions[2].explanation",
+        "text": "$1.2 \bdiv 4 = 0.3$。验算：$0.3 \times 4 = 1.2$ ✓。"
+      },
+      {
+        "location": "g5up-u3-kp1.questions[3].explanation",
+        "text": "如果是 $0.12 \bdiv 4 = 0.03$，末位是 3。通过验证可知末位是 3。"
+      },
+      {
+        "location": "g5up-u3-kp1.questions[4].explanation",
+        "text": "列式：$244 \bdiv 4 = 61$。验算：$61 \times 4 = 244$ ✓。"
+      },
+      {
+        "location": "g5up-u3-kp1.questions[5].question",
+        "text": "计算：$100 \bdiv 4 = ?$"
+      },
+      {
+        "location": "g5up-u3-kp1.questions[5].explanation",
+        "text": "$100 \bdiv 4 = 25$。验算：$25 \times 4 = 100$ ✓。"
+      },
+      {
+        "location": "g5up-u3-kp2.questions[1].question",
+        "text": "$4.8 \bdiv 0.06$ 的商的最高位是哪一位？"
+      },
+      {
+        "location": "g5up-u3-kp2.questions[1].explanation",
+        "text": "$4.8 \bdiv 0.06 = 480 \bdiv 6 = 80$。8 在十位上，所以最高位是十位。"
+      },
+      {
+        "location": "g5up-u3-kp2.questions[2].options[0]",
+        "text": "$3.6 \bdiv 0.12$"
+      },
+      {
+        "location": "g5up-u3-kp2.questions[2].options[1]",
+        "text": "$3.6 \bdiv 1.2$"
+      },
+      {
+        "location": "g5up-u3-kp2.questions[2].options[2]",
+        "text": "$3.6 \bdiv 12$"
+      },
+      {
+        "location": "g5up-u3-kp2.questions[2].options[3]",
+        "text": "$0.36 \bdiv 12$"
+      },
+      {
+        "location": "g5up-u3-kp2.questions[2].answer",
+        "text": "$3.6 \bdiv 0.12$"
+      },
+      {
+        "location": "g5up-u3-kp2.questions[3].options[0]",
+        "text": "$a \bdiv 0.9$"
+      },
+      {
+        "location": "g5up-u3-kp2.questions[3].options[1]",
+        "text": "$a \bdiv 1.1$"
+      }
+    ],
+    "raw_latex_fields": 57,
+    "raw_latex_examples": [
+      {
+        "location": "g2down-u4-kp1.knowledge.key_formula",
+        "text": "被除数 \\bdiv 除数 = 商"
+      },
+      {
+        "location": "g2down-u4-kp2.knowledge.key_formula",
+        "text": "总数 \\bdiv 份数 = 每份数；总数 \\bdiv 每份数 = 份数"
+      },
+      {
+        "location": "g5down-u6-kp1.questions[2].options[0]",
+        "text": "\\frac{4}{8}"
+      },
+      {
+        "location": "g5down-u6-kp1.questions[2].options[1]",
+        "text": "\\frac{1}{2}"
+      },
+      {
+        "location": "g5down-u6-kp1.questions[2].options[2]",
+        "text": "\\frac{1}{4}"
+      },
+      {
+        "location": "g5down-u6-kp1.questions[2].options[3]",
+        "text": "\\frac{4}{16}"
+      },
+      {
+        "location": "g5down-u6-kp1.questions[2].answer",
+        "text": "\\frac{1}{2}"
+      },
+      {
+        "location": "g5down-u6-kp1.questions[3].options[0]",
+        "text": "\\frac{3}{15}"
+      },
+      {
+        "location": "g5down-u6-kp1.questions[3].options[1]",
+        "text": "\\frac{3}{5}"
+      },
+      {
+        "location": "g5down-u6-kp1.questions[3].options[2]",
+        "text": "\\frac{1}{15}"
+      }
+    ],
+    "previous_guide_omissions": [
+      {
+        "route": "/book/g1up/guide/1/",
+        "actual": 6,
+        "previous": 3
+      },
+      {
+        "route": "/book/g2up/guide/1/",
+        "actual": 5,
+        "previous": 4
+      },
+      {
+        "route": "/book/g4up/guide/3/",
+        "actual": 4,
+        "previous": 3
+      },
+      {
+        "route": "/book/g2down/guide/1/",
+        "actual": 4,
+        "previous": 3
+      },
+      {
+        "route": "/book/g4down/guide/1/",
+        "actual": 5,
+        "previous": 4
+      },
+      {
+        "route": "/book/g4down/guide/3/",
+        "actual": 6,
+        "previous": 5
+      },
+      {
+        "route": "/book/chinese-g1up/guide/4/",
+        "actual": 4,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g1up/guide/6/",
+        "actual": 5,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g1up/guide/8/",
+        "actual": 12,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g2up/guide/7/",
+        "actual": 10,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g2up/guide/8/",
+        "actual": 26,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3up/guide/1/",
+        "actual": 4,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3up/guide/3/",
+        "actual": 13,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3up/guide/4/",
+        "actual": 4,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3up/guide/5/",
+        "actual": 21,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3up/guide/6/",
+        "actual": 7,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3up/guide/7/",
+        "actual": 14,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3up/guide/8/",
+        "actual": 26,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g4up/guide/2/",
+        "actual": 7,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g4up/guide/4/",
+        "actual": 8,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g4up/guide/6/",
+        "actual": 13,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g4up/guide/7/",
+        "actual": 13,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g5up/guide/2/",
+        "actual": 9,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g5up/guide/3/",
+        "actual": 7,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g5up/guide/6/",
+        "actual": 7,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g5up/guide/7/",
+        "actual": 11,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g5up/guide/8/",
+        "actual": 8,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g6up/guide/2/",
+        "actual": 19,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g6up/guide/4/",
+        "actual": 9,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g1down/guide/1/",
+        "actual": 6,
+        "previous": 5
+      },
+      {
+        "route": "/book/chinese-g1down/guide/3/",
+        "actual": 15,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g1down/guide/4/",
+        "actual": 15,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g1down/guide/7/",
+        "actual": 5,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g1down/guide/8/",
+        "actual": 13,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g2down/guide/1/",
+        "actual": 8,
+        "previous": 4
+      },
+      {
+        "route": "/book/chinese-g2down/guide/4/",
+        "actual": 9,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g2down/guide/5/",
+        "actual": 26,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g2down/guide/6/",
+        "actual": 15,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g2down/guide/7/",
+        "actual": 11,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g2down/guide/8/",
+        "actual": 5,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3down/guide/2/",
+        "actual": 21,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3down/guide/3/",
+        "actual": 7,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3down/guide/4/",
+        "actual": 16,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3down/guide/5/",
+        "actual": 15,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3down/guide/7/",
+        "actual": 20,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g3down/guide/8/",
+        "actual": 21,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g4down/guide/2/",
+        "actual": 15,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g4down/guide/3/",
+        "actual": 17,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g4down/guide/4/",
+        "actual": 18,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g4down/guide/5/",
+        "actual": 26,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g4down/guide/6/",
+        "actual": 5,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g4down/guide/7/",
+        "actual": 26,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g4down/guide/8/",
+        "actual": 22,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g5down/guide/4/",
+        "actual": 25,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g5down/guide/6/",
+        "actual": 14,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g5down/guide/7/",
+        "actual": 19,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g5down/guide/8/",
+        "actual": 10,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g6down/guide/1/",
+        "actual": 7,
+        "previous": 5
+      },
+      {
+        "route": "/book/chinese-g6down/guide/2/",
+        "actual": 12,
+        "previous": 3
+      },
+      {
+        "route": "/book/chinese-g6down/guide/3/",
+        "actual": 12,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g3up/guide/1/",
+        "actual": 15,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g3up/guide/3/",
+        "actual": 5,
+        "previous": 4
+      },
+      {
+        "route": "/book/english-g3up/guide/6/",
+        "actual": 26,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g4up/guide/2/",
+        "actual": 23,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g4up/guide/3/",
+        "actual": 26,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g4up/guide/4/",
+        "actual": 5,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g4up/guide/5/",
+        "actual": 25,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g4up/guide/6/",
+        "actual": 22,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g5up/guide/3/",
+        "actual": 20,
+        "previous": 4
+      },
+      {
+        "route": "/book/english-g6up/guide/2/",
+        "actual": 23,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g6up/guide/3/",
+        "actual": 24,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g6up/guide/4/",
+        "actual": 20,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g6up/guide/5/",
+        "actual": 25,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g6up/guide/6/",
+        "actual": 21,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g6up/guide/7/",
+        "actual": 26,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g3down/guide/1/",
+        "actual": 4,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g3down/guide/3/",
+        "actual": 4,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g3down/guide/4/",
+        "actual": 25,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g4down/guide/3/",
+        "actual": 16,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g4down/guide/4/",
+        "actual": 19,
+        "previous": 4
+      },
+      {
+        "route": "/book/english-g4down/guide/5/",
+        "actual": 21,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g5down/guide/1/",
+        "actual": 7,
+        "previous": 4
+      },
+      {
+        "route": "/book/english-g5down/guide/3/",
+        "actual": 5,
+        "previous": 4
+      },
+      {
+        "route": "/book/english-g5down/guide/4/",
+        "actual": 26,
+        "previous": 4
+      },
+      {
+        "route": "/book/english-g5down/guide/6/",
+        "actual": 23,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g6down/guide/1/",
+        "actual": 22,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g6down/guide/2/",
+        "actual": 26,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g6down/guide/3/",
+        "actual": 23,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g6down/guide/4/",
+        "actual": 24,
+        "previous": 3
+      },
+      {
+        "route": "/book/english-g6down/guide/5/",
+        "actual": 15,
+        "previous": 3
+      },
+      {
+        "route": "/book/science-g1up/guide/2/",
+        "actual": 24,
+        "previous": 3
+      },
+      {
+        "route": "/book/science-g2up/guide/2/",
+        "actual": 7,
+        "previous": 6
+      },
+      {
+        "route": "/book/science-g3up/guide/3/",
+        "actual": 27,
+        "previous": 6
+      },
+      {
+        "route": "/book/science-g4up/guide/1/",
+        "actual": 25,
+        "previous": 5
+      },
+      {
+        "route": "/book/science-g4up/guide/2/",
+        "actual": 9,
+        "previous": 6
+      },
+      {
+        "route": "/book/science-g4up/guide/3/",
+        "actual": 29,
+        "previous": 6
+      },
+      {
+        "route": "/book/science-g5up/guide/1/",
+        "actual": 14,
+        "previous": 5
+      },
+      {
+        "route": "/book/science-g5up/guide/2/",
+        "actual": 27,
+        "previous": 4
+      },
+      {
+        "route": "/book/science-g5up/guide/3/",
+        "actual": 11,
+        "previous": 4
+      },
+      {
+        "route": "/book/science-g5up/guide/4/",
+        "actual": 5,
+        "previous": 4
+      },
+      {
+        "route": "/book/science-g6up/guide/1/",
+        "actual": 27,
+        "previous": 6
+      },
+      {
+        "route": "/book/science-g1down/guide/1/",
+        "actual": 10,
+        "previous": 7
+      },
+      {
+        "route": "/book/science-g1down/guide/2/",
+        "actual": 22,
+        "previous": 6
+      },
+      {
+        "route": "/book/science-g3down/guide/1/",
+        "actual": 8,
+        "previous": 5
+      },
+      {
+        "route": "/book/science-g3down/guide/2/",
+        "actual": 7,
+        "previous": 5
+      },
+      {
+        "route": "/book/science-g3down/guide/3/",
+        "actual": 22,
+        "previous": 5
+      },
+      {
+        "route": "/book/science-g4down/guide/1/",
+        "actual": 25,
+        "previous": 5
+      },
+      {
+        "route": "/book/science-g4down/guide/2/",
+        "actual": 24,
+        "previous": 4
+      },
+      {
+        "route": "/book/science-g5down/guide/1/",
+        "actual": 28,
+        "previous": 7
+      },
+      {
+        "route": "/book/science-g5down/guide/2/",
+        "actual": 27,
+        "previous": 5
+      },
+      {
+        "route": "/book/science-g5down/guide/4/",
+        "actual": 20,
+        "previous": 5
+      },
+      {
+        "route": "/book/science-g6down/guide/1/",
+        "actual": 5,
+        "previous": 4
+      },
+      {
+        "route": "/book/science-g6down/guide/2/",
+        "actual": 18,
+        "previous": 5
+      },
+      {
+        "route": "/book/science-g6down/guide/3/",
+        "actual": 9,
+        "previous": 5
+      }
+    ]
+  },
+  "pressure_samples": {
+    "options": [
+      {
+        "route": "/lesson/english-g6up/english-g6up-u5-kp2/",
+        "question": 34,
+        "length": 106,
+        "options": [
+          "A: What does your mother do? B: She is teacher. A: How does she go to work? B: She goes to work by bike.",
+          "A: What do your mother do? B: She is a teacher. A: How does she goes to work? B: She goes to work by bike.",
+          "A: What does your mother do? B: She is a teacher. A: How does she go to work? B: She goes to work by bike."
+        ]
+      },
+      {
+        "route": "/lesson/english-g6up/english-g6up-u5-kp3/",
+        "question": 40,
+        "length": 105,
+        "options": [
+          "A. Sam enjoys fixing things, so he’d like to be a singer because he likes repairing machines.",
+          "B. Sam enjoys fixing things, so he’d like to be an engineer because he likes making and improving things.",
+          "C. Sam enjoys fixing things, so he’d like to be a dancer because he likes repairing bikes.",
+          "D. Sam enjoys fixing things, so he’d like to be a farmer because he likes fixing computers."
+        ]
+      },
+      {
+        "route": "/lesson/chinese-g5down/chinese-g5down-u4-kp22/",
+        "question": 19,
+        "length": 93,
+        "options": [
+          "杜甫—《闻官军收河南河北》—“青春作伴好还乡”；王昌龄—《从军行》—“不破楼兰终不还”；陆游—《秋夜将晓出篱门迎凉有感》—“南望王师又一年”；范成大—《四时田园杂兴》—“童孙未解供耕织”",
+          "杜甫—《闻官军收河南河北》—“青春作伴好还乡”；王昌龄—《秋夜将晓出篱门迎凉有感》—“南望王师又一年”；陆游—《从军行》—“不破楼兰终不还”；范成大—《四时田园杂兴》—“童孙未解供耕织”",
+          "杜甫—《从军行》—“不破楼兰终不还”；王昌龄—《闻官军收河南河北》—“青春作伴好还乡”；陆游—《秋夜将晓出篱门迎凉有感》—“南望王师又一年”；范成大—《四时田园杂兴》—“童孙未解供耕织”",
+          "杜甫—《闻官军收河南河北》—“青春作伴好还乡”；王昌龄—《从军行》—“不破楼兰终不还”；陆游—《四时田园杂兴》—“童孙未解供耕织”；范成大—《秋夜将晓出篱门迎凉有感》—“南望王师又一年”"
+        ]
+      },
+      {
+        "route": "/lesson/english-g4down/english-g4down-u4-kp17/",
+        "question": 100,
+        "length": 72,
+        "options": [
+          "This means “this one,” usually referring to one person or thing nearby.",
+          "This means “those ones,” referring to several people or things far away.",
+          "It means “these ones,” referring to several people or things nearby.",
+          "It means “that one,” usually referring to one person or thing far away."
+        ]
+      },
+      {
+        "route": "/lesson/chinese-g6down/chinese-g6down-u2-kp9/",
+        "question": 19,
+        "length": 71,
+        "options": [
+          "丹尼尔·笛福—《汤姆·索亚历险记》；塞尔玛·拉格洛芙—《尼尔斯骑鹅旅行记》；马克·吐温—《鲁滨逊漂流记》；夏洛蒂·勃朗特—《简·爱》",
+          "丹尼尔·笛福—《鲁滨逊漂流记》；塞尔玛·拉格洛芙—《尼尔斯骑鹅旅行记》；马克·吐温—《汤姆·索亚历险记》；夏洛蒂·勃朗特—《简·爱》",
+          "丹尼尔·笛福—《鲁滨逊漂流记》；塞尔玛·拉格洛芙—《汤姆·索亚历险记》；马克·吐温—《尼尔斯骑鹅旅行记》；夏洛蒂·勃朗特—《简·爱》",
+          "丹尼尔·笛福—《鲁滨逊漂流记》；塞尔玛·拉格洛芙—《尼尔斯骑鹅旅行记》；马克·吐温—《汤姆·索亚历险记》；夏洛蒂·勃朗特—《汤姆·索亚历险记》"
+        ]
+      },
+      {
+        "route": "/lesson/chinese-g5down/chinese-g5down-u7-kp12/",
+        "question": 79,
+        "length": 68,
+        "options": [
+          "位置与材料：石桥位于山谷中、桥面由石板铺成；结构与环境：桥身有三个拱洞、桥下溪水四季流动。介绍建筑特点时不采用“古人曾在桥边集市交易”。",
+          "位置与材料：古人曾在桥边集市交易、桥下溪水四季流动；结构与环境：石桥位于山谷中、桥面由石板铺成。介绍建筑特点时不采用“桥身有三个拱洞”。",
+          "位置与材料：石桥位于山谷中、桥身有三个拱洞；结构与环境：桥面由石板铺成、古人曾在桥边集市交易。介绍建筑特点时不采用“桥下溪水四季流动”。",
+          "把五条资料都归在同一类，介绍时逐条照抄，不作取舍。"
+        ]
+      },
+      {
+        "route": "/lesson/chinese-g5down/chinese-g5down-u6-kp11/",
+        "question": 67,
+        "length": 66,
+        "options": [
+          "孙膑观察到双方马匹分上、中、下三等，安排田忌以下等马对齐威王的上等马，再以自己的上等马和中等马分别对对方中等马和下等马，最终赢两场。",
+          "孙膑让田忌每一场都用上等马比赛，因为上等马一定能胜过对方所有等级的马。",
+          "孙膑让田忌三场都使用下等马，齐威王看到后主动认输。",
+          "孙膑让田忌改变马的等级，使每匹马在比赛中都变得更快。"
+        ]
+      },
+      {
+        "route": "/lesson/chinese-g6down/chinese-g6down-u1-kp4/",
+        "question": 33,
+        "length": 62,
+        "options": [
+          "A. 村里的节日活动很多。大家一起打扫院子。",
+          "B. 节日里，邻居们常常互相照应。李奶奶出门买菜时，王叔叔帮她搬回沉重的米袋；小玲家临时缺少桌椅，几户邻居送来椅子和折叠桌。",
+          "C. 先写街上挂着彩灯、摊位摆着小吃、路边有人卖玩具，再说节日的街道真热闹。",
+          "D. 节日里大家准备了许多食物。邻居们互相问候，孩子们在院子里玩耍，大人们帮忙布置场地。"
+        ]
+      },
+      {
+        "route": "/lesson/chinese-g5up/chinese-g5up-u8-kp7/",
+        "question": 21,
+        "length": 61,
+        "options": [
+          "囫囵吞枣—不加分析地笼统接受；不耻下问—向学问或见识不如自己的人请教；博览群书—广泛阅读书籍；手不释卷—常常读书、勤奋好学",
+          "囫囵吞枣—广泛阅读书籍；不耻下问—常常读书、勤奋好学；博览群书—向学问或见识不如自己的人请教；手不释卷—不加分析地笼统接受",
+          "囫囵吞枣—向学问或见识不如自己的人请教；不耻下问—不加分析地笼统接受；博览群书—常常读书、勤奋好学；手不释卷—广泛阅读书籍",
+          "囫囵吞枣—常常读书、勤奋好学；不耻下问—广泛阅读书籍；博览群书—不加分析地笼统接受；手不释卷—向学问或见识不如自己的人请教"
+        ]
+      },
+      {
+        "route": "/lesson/g6up/g6up-u1-kp4/",
+        "question": 29,
+        "length": 59,
+        "options": [
+          "$\\frac{5}{6}\\times\\frac{3}{5}\\times\\frac{2}{5}$",
+          "$\\frac{5}{6}+\\frac{3}{5}+\\frac{2}{5}$",
+          "$\\frac{5}{6}\\times\\frac{3}{5}+\\frac{2}{5}$",
+          "$\\frac{5}{6}\\times\\frac{3}{5}+\\frac{5}{6}\\times\\frac{2}{5}$"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "route": "/lesson/english-g6up/english-g6up-u7-kp1/",
+        "question": 29,
+        "length": 244,
+        "text": "A Hare laughs at a slow Tortoise and challenges him to a race. The Hare runs ahead, then stops to rest. The Tortoise keeps moving and reaches the finish first. In English, briefly explain why the Tortoise wins and what lesson the story teaches."
+      },
+      {
+        "route": "/lesson/g4down/g4down-u8-kp3/",
+        "question": 15,
+        "length": 208,
+        "text": "学校统计甲、乙两个班三次读书活动借出的图书册数，每个“█”表示1册。\n甲班：第1次 ████████████ 12册；第2次 ████████████████ 16册；第3次 ████████████████████ 20册。\n乙班：第1次 ██████████ 10册；第2次 ██████████████ 14册；第3次 ██████████████████ 18册。\n根据这三次记录，哪班每次借出的册数都较多？"
+      },
+      {
+        "route": "/lesson/english-g6up/english-g6up-u7-kp1/",
+        "question": 24,
+        "length": 207,
+        "text": "Read the story: “One morning, a Crow found a piece of cheese. A Fox wanted it, so he praised the Crow’s voice. The Crow opened her beak to sing, and the cheese fell. The Fox took it.” Who are the characters?"
+      },
+      {
+        "route": "/lesson/g4down/g4down-u8-kp3/",
+        "question": 25,
+        "length": 192,
+        "text": "某班连续四天记录洗手用水量，每个“█”表示1升。\n第1天：████████████████████████████████ 32升\n第2天：████████████████████████████ 28升\n第3天：████████████████████████ 24升\n第4天：████████████████████ 20升\n根据这组数据，对第5天用水量作出谨慎预测，哪项最合适？"
+      },
+      {
+        "route": "/lesson/english-g6down/english-g6down-u3-kp21/",
+        "question": 127,
+        "length": 175,
+        "text": "Choose the correct question word to match each answer. 1. ___ is your new book? —It is on the desk. 2. ___ did you travel? —By train. 3. ___ will we visit Grandma? —On Sunday."
+      },
+      {
+        "route": "/lesson/english-g6down/english-g6down-u3-kp21/",
+        "question": 21,
+        "length": 173,
+        "text": "Match the questions and answers. A. Where did you go? B. How did you go? C. Who did you go with? D. What did you do? 1. I saw films. 2. To Xinjiang. 3. By bus. 4. My cousin."
+      },
+      {
+        "route": "/lesson/english-g6up/english-g6up-u7-kp1/",
+        "question": 28,
+        "length": 170,
+        "text": "An Ant stores food for winter, but a Grasshopper spends the summer singing and playing. When winter comes, the Grasshopper has no food. Which lesson best fits this fable?"
+      },
+      {
+        "route": "/lesson/english-g6down/english-g6down-u5-kp14/",
+        "question": 84,
+        "length": 165,
+        "text": "阅读短文并用英语回答：Sara and her brother like riding bikes. On Sunday morning, they ride their bikes to the park. Where do Sara and her brother go, and how do they get there?"
+      },
+      {
+        "route": "/lesson/g4down/g4down-u8-kp3/",
+        "question": 21,
+        "length": 161,
+        "text": "学校连续四周的废纸回收量如下图，每个“█”表示1千克。\n第1周：████████████ 12千克\n第2周：███████████████ 15千克\n第3周：██████████████████ 18千克\n第4周：█████████████████████ 21千克\n根据这组数据，对第5周回收量作出谨慎预测，哪项最合适？"
+      },
+      {
+        "route": "/lesson/english-g6down/english-g6down-u3-kp3/",
+        "question": 41,
+        "length": 150,
+        "text": "Use the words to write three sentences in the correct order: pack our bags / go to the bus stop / get on the bus. Start with First, Then, and Finally."
+      }
+    ],
+    "knowledge": [
+      {
+        "route": "/lesson/english-g6down/english-g6down-u1-kp6/",
+        "length": 393,
+        "text": "比较级用于比较两个人或事物在某方面的差异。常见句型是“A + be动词/实义动词 + 形容词或副词比较级 + than + B”，意思是“A比B更……”。形容词和副词的比较级常见构成：一般在词尾加-er，如 tall—taller；以不发音的字母e结尾加-r，如 nice—nicer；以“辅音字母+y”结尾，变y为i再加-er，如 happy—happier；重读闭音节词末尾只有一个辅音字母时，双写该字母再加-er，如 big—bigger。较长的形容词或副词通常在前面加more，如 beautiful—more beautiful。也有不规则变化，如 good/well—better，bad/badly—worse。比较对象为代词时，than后可用主格或宾格：You are taller than I (am). 和 You are taller than me. 都可以。"
+      },
+      {
+        "route": "/lesson/english-g5down/english-g5down-u3-kp1/",
+        "length": 238,
+        "text": "英语中一年有十二个月，月份名称及常见缩写如下：January (Jan.) 一月；February (Feb.) 二月；March (Mar.) 三月；April (Apr.) 四月；May (May) 五月；June (Jun.) 六月；July (Jul.) 七月；August (Aug.) 八月；September (Sep. 或 Sept.) 九月；October (Oct.) 十月；November (Nov.) 十一月；December (Dec.) 十二月。"
+      },
+      {
+        "route": "/lesson/english-g3up/english-g3up-u1-kp14/",
+        "length": 236,
+        "text": "见面时可以用 Hello! 或 Hi! 打招呼，分别时可以用 Goodbye! 或 Bye!。介绍自己可以说 I'm + 名字. 或 My name's + 名字.；询问对方姓名可以说 What's your name?。常见学习用品有 ruler（尺子）、eraser（橡皮）、pencil（铅笔）、crayon（蜡笔）、bag（书包）、pen（钢笔）和 book（书）。表达自己有某样东西时，可以说 I have a/an + 物品，例如 I have a book."
+      },
+      {
+        "route": "/lesson/g6down/g6down-u3-kp1/",
+        "length": 235,
+        "text": "圆柱有两个完全相同的圆形底面和一个曲面侧面；圆柱两个底面之间的垂直距离叫做高，圆柱有无数条高。圆锥有一个圆形底面、一个曲面侧面和一个顶点，从顶点到底面圆心的垂直线段叫做高，圆锥只有一条高。圆柱的侧面沿一条高剪开并展平，可以得到长方形；当长方形的长和宽相等时，得到正方形。圆锥的侧面展开后是扇形。把长方形绕它的一条边旋转一周，可以得到圆柱；把直角三角形绕它的一条直角边旋转一周，可以得到圆锥。例如，长方形绕一条长边旋转时，旋转轴所在的边成为圆柱的高，另一条边决定底面半径。"
+      },
+      {
+        "route": "/lesson/english-g6up/english-g6up-u7-kp12/",
+        "length": 218,
+        "text": "问路和指路时，可以先礼貌地询问地点或路线，再用方位词和动作短语说明位置与走法。常用表达包括：Excuse me.（打扰一下。）Where is the ...?（……在哪里？）How can I get to the ...?（我怎样才能到……？）Go straight.（直走。）Turn left/right.（向左/右转。）It’s next to/across from/between ...（它在……旁边/对面/两者之间。）"
+      }
+    ],
+    "stories": [
+      {
+        "route": "/stories/chinese-g5up/chinese-g5up-s11-v2/",
+        "sentences": 49,
+        "length": 1598
+      },
+      {
+        "route": "/stories/chinese-g3up/chinese-g3up-s8-v2/",
+        "sentences": 62,
+        "length": 1462
+      },
+      {
+        "route": "/stories/chinese-g5up/chinese-g5up-s12-v2/",
+        "sentences": 54,
+        "length": 1447
+      },
+      {
+        "route": "/stories/chinese-g3up/chinese-g3up-s7-v2/",
+        "sentences": 61,
+        "length": 1443
+      },
+      {
+        "route": "/stories/chinese-g3up/chinese-g3up-s6-v2/",
+        "sentences": 59,
+        "length": 1423
+      }
+    ],
+    "passages": [
+      {
+        "route": "/reading/english-g6down/english-g6down-p3/",
+        "sentences": 78,
+        "length": 3402
+      },
+      {
+        "route": "/reading/english-g5down/english-g5down-p3/",
+        "sentences": 93,
+        "length": 3215
+      },
+      {
+        "route": "/reading/chinese-g4down/chinese-g4down-p31/",
+        "sentences": 149,
+        "length": 3200
+      },
+      {
+        "route": "/reading/chinese-g5down/chinese-g5down-p10/",
+        "sentences": 110,
+        "length": 2992
+      },
+      {
+        "route": "/reading/english-g6up/english-g6up-p4/",
+        "sentences": 75,
+        "length": 2971
+      }
+    ]
+  },
+  "media_format_mismatches": {
+    "image/png": 42
+  }
+}

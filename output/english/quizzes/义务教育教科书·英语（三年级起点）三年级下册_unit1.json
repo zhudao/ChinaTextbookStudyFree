@@ -4,41 +4,41 @@
   "unit_number": 1,
   "unit_test": {
     "title": "Unit 1 Welcome back to school! 单元达标测试卷",
-    "total_score": 100,
+    "total_score": 134,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "国家名称与核心词汇",
-        "question": "'the USA' 翻译为 '美国'。",
-        "options": [],
         "answer": "对",
-        "explanation": "the USA 是 the United States of America 的缩写，意为美国。"
+        "difficulty": 1,
+        "explanation": "the USA 是 the United States of America 的简称，意思是美国。",
+        "knowledge_point": "国家名称与核心词汇",
+        "options": [],
+        "question": "'the USA' 翻译为“美国”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "国家名称与核心词汇",
-        "question": "'teacher' 指的是 '学生'。",
-        "options": [],
         "answer": "错",
-        "explanation": "teacher 是老师，student 才是学生。"
+        "difficulty": 1,
+        "explanation": "teacher 是“老师”；student 才是“学生”。",
+        "knowledge_point": "国家名称与核心词汇",
+        "options": [],
+        "question": "'teacher' 指的是“学生”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "元音字母a在闭音节中的发音",
-        "question": "单词 'cat' 中字母 'a' 的发音和 'bag' 中相同。",
-        "options": [],
         "answer": "对",
-        "explanation": "两者都是闭音节单词，字母a发短元音/æ/。"
+        "difficulty": 1,
+        "explanation": "cat 和 bag 中的 a 都处在常见的闭音节中，通常发短元音 /æ/。",
+        "knowledge_point": "元音字母a在闭音节中的发音",
+        "options": [],
+        "question": "单词 'cat' 中字母 'a' 的发音和 'bag' 中相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
         "id": 4,
@@ -52,15 +52,15 @@
         "explanation": "这是询问国籍或来源地的标准句型。"
       },
       {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "国家名称与核心词汇",
-        "question": "介绍一位男生时应该用 'She is'。",
-        "options": [],
         "answer": "错",
-        "explanation": "男生使用人称代词 he，女生使用 she。"
+        "difficulty": 2,
+        "explanation": "介绍男生时用 he；介绍女生时用 she。",
+        "knowledge_point": "国家名称与核心词汇",
+        "options": [],
+        "question": "介绍一位男生时应该用 'She is'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
       },
       {
         "id": 6,
@@ -79,36 +79,36 @@
         "explanation": "be from 表示来自某地。"
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "Teacher",
         "difficulty": 1,
+        "explanation": "China、Canada 和 USA 都是国家名称，Teacher 是职业称呼。",
         "knowledge_point": "国家名称与核心词汇",
-        "question": "选出不同类的一项：",
         "options": [
           "China",
           "Canada",
           "USA",
           "Teacher"
         ],
-        "answer": "Teacher",
-        "explanation": "前三个是国家名，Teacher 是职业身份。"
+        "question": "选出不同类的一项：",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "back",
         "difficulty": 1,
+        "explanation": "Welcome back to school! 意为“欢迎回到学校！”",
         "knowledge_point": "国家名称与核心词汇",
-        "question": "Welcome ___ to school!",
         "options": [
           "back",
           "bag",
           "book",
           "black"
         ],
-        "answer": "back",
-        "explanation": "welcome back to... 欢迎回到..."
+        "question": "Welcome ___ to school!",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
         "id": 9,
@@ -127,84 +127,84 @@
         "explanation": "回答来源地问句时，常用 I'm from + 地点。"
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "He",
         "difficulty": 2,
+        "explanation": "Mr Jones 是男性，用 he；句子开头的单词首字母要大写。",
         "knowledge_point": "国家名称与核心词汇",
-        "question": "This is Mr Jones. ___ is a teacher.",
         "options": [
           "She",
           "he",
           "He",
           "i"
         ],
-        "answer": "He",
-        "explanation": "Mr Jones 是男性，在句首需要大写 He。"
+        "question": "This is Mr Jones. ___ is a teacher.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "boys and girls",
         "difficulty": 1,
+        "explanation": "'boys and girls' 可以用来称呼同学们。",
         "knowledge_point": "国家名称与核心词汇",
-        "question": "Good morning, ___. (早上好，同学们。)",
         "options": [
           "boy",
           "parents",
           "boys and girls",
           "teacher"
         ],
-        "answer": "boys and girls",
-        "explanation": "常用 boys and girls 来称呼全体学生。"
+        "question": "Good morning, ___.（早上好，同学们。）",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "dad",
         "difficulty": 1,
+        "explanation": "hand 和 dad 中的 a 都发 /æ/；cake、face 和 name 中的 a 通常发 /eɪ/。",
         "knowledge_point": "元音字母a在闭音节中的发音",
-        "question": "单词 'hand' 中字母 'a' 的发音与下列哪个相同？",
         "options": [
           "cake",
           "face",
           "dad",
           "name"
         ],
-        "answer": "dad",
-        "explanation": "hand 和 dad 的 a 都发 /æ/，其他选项发 /eɪ/。"
+        "question": "单词 'hand' 中字母 'a' 的发音与下列哪个相同？",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "student",
         "difficulty": 2,
+        "explanation": "Mike 是一名学生，student 意为“学生”。",
         "knowledge_point": "国家名称与核心词汇",
-        "question": "Mike is a ___. (Mike是一名学生。)",
         "options": [
           "teacher",
           "student",
-          "china",
+          "China",
           "she"
         ],
-        "answer": "student",
-        "explanation": "由语境可知需填身份词 student。"
+        "question": "Mike is a ___.（Mike 是一名学生。）",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "She",
         "difficulty": 2,
+        "explanation": "题干说“她”，要用表示女性的主格人称代词 She。句首首字母大写。",
         "knowledge_point": "人称代词用法",
-        "question": "___ is a new student. (她是一名新学生。)",
         "options": [
           "He",
           "She",
           "I",
           "You"
         ],
-        "answer": "She",
-        "explanation": "题干指定为'她'，故选 She。"
+        "question": "___ is a new student.（她是一名新学生。）",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
         "id": 15,
@@ -245,66 +245,58 @@
         "explanation": "you 作为主语时 be 动词用 are。"
       },
       {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "国家名称与核心词汇",
-        "question": "I am a ___. (我是一名学生。)",
-        "options": [],
         "answer": "student",
-        "explanation": "学生对应的英文单词是 student。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 3,
+        "difficulty": 2,
+        "explanation": "“学生”对应的英文单词是 student。",
         "knowledge_point": "国家名称与核心词汇",
-        "question": "Nice ___ meet you.",
         "options": [],
-        "answer": "to",
-        "explanation": "固定搭配 nice to meet you。"
+        "question": "I am a ___.（我是一名学生。）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
-        "difficulty": 1,
+        "answer": "to",
+        "difficulty": 3,
+        "explanation": "固定表达是 Nice to meet you.，意为“很高兴认识你”。",
         "knowledge_point": "国家名称与核心词汇",
-        "question": "请将下列英文单词与其对应的中文意思连线。",
+        "options": [],
+        "question": "Nice ___ meet you.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "加拿大",
+        "difficulty": 1,
+        "explanation": "Canada 的中文意思是“加拿大”，所以应选 C。",
+        "knowledge_point": "国家名称与核心词汇",
         "options": [
-          "Canada",
-          "China",
-          "UK",
-          "USA",
           "英国",
           "美国",
           "加拿大",
           "中国"
         ],
-        "answer": "A-3,B-4,C-1,D-2",
-        "explanation": "Canada-加拿大, China-中国, UK-英国, USA-美国。"
+        "question": "Canada 的中文意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "学生",
         "difficulty": 2,
+        "explanation": "student 的意思是“学生”。teacher 是“教师”，he 是“他”，she 是“她”。",
         "knowledge_point": "国家名称与核心词汇",
-        "question": "请将称呼语与其对应中文意思连线。",
         "options": [
-          "teacher",
-          "student",
-          "he",
-          "she",
-          "她",
-          "他",
+          "教师",
           "学生",
-          "教师"
+          "他",
+          "她"
         ],
-        "answer": "A-4,B-3,C-2,D-1",
-        "explanation": "teacher-教师, student-学生, he-他, she-她。"
+        "question": "“student”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
         "id": 22,
@@ -337,6 +329,135 @@
         ],
         "answer": "Welcome,back,to,school",
         "explanation": "固定短语 welcome back to school。"
+      },
+      {
+        "answer": "短元音 /æ/",
+        "difficulty": 1,
+        "explanation": "在常见的闭音节单词 cat 中，a 通常发短元音 /æ/。",
+        "knowledge_point": "元音字母a在闭音节中的发音",
+        "options": [],
+        "question": "单词 'cat' 中的字母 a 通常发什么音？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "map",
+        "difficulty": 1,
+        "explanation": "map 中的 a 后有辅音 p 封住音节，通常发 /æ/。",
+        "knowledge_point": "元音字母a在闭音节中的发音",
+        "options": [],
+        "question": "下面这个单词的字母 a 通常发 /æ/：m___p。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 25
+      },
+      {
+        "answer": "cap",
+        "difficulty": 1,
+        "explanation": "cap 是常见的闭音节单词，a 通常发 /æ/；cape 中的 a 通常发 /eɪ/。",
+        "knowledge_point": "元音字母a在闭音节中的发音",
+        "options": [
+          "cap",
+          "cape",
+          "cake",
+          "name"
+        ],
+        "question": "下列哪个单词中字母 a 通常发 /æ/？",
+        "score": 3,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "在常见的单音节闭音节单词中，a 通常发 /æ/。例如 bag、man、sad。",
+        "knowledge_point": "元音字母a在闭音节中的发音",
+        "options": [],
+        "question": "在常见的单音节闭音节单词中，字母 a 通常发短元音 /æ/。",
+        "score": 2,
+        "type": "true_false",
+        "id": 27
+      },
+      {
+        "answer": "He",
+        "difficulty": 1,
+        "explanation": "题干说“他”，指一名男孩，用主格人称代词 He。",
+        "knowledge_point": "人称代词用法",
+        "options": [
+          "He",
+          "She",
+          "It",
+          "We"
+        ],
+        "question": "___ is my brother.（他是我的哥哥。）",
+        "score": 5,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "It",
+        "difficulty": 2,
+        "explanation": "cat 在这里指一只动物，且不特别说明性别时，通常用 it 代替；句首要大写。",
+        "knowledge_point": "人称代词用法",
+        "options": [
+          "I",
+          "They",
+          "It",
+          "You"
+        ],
+        "question": "The cat is small. ___ is cute.（这只猫很小。它很可爱。）",
+        "score": 5,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "We",
+        "difficulty": 2,
+        "explanation": "“我和我的朋友”包括说话人在内，表示“我们”，用 We。We 作主语时搭配 are。",
+        "knowledge_point": "人称代词用法",
+        "options": [
+          "They",
+          "We",
+          "He",
+          "It"
+        ],
+        "question": "My friend and I are classmates. ___ are in Grade Three.（我和朋友是同学。我们上三年级。）",
+        "score": 5,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "They",
+        "difficulty": 2,
+        "explanation": "“这些书”是多个事物，代替复数名词用 they；句首首字母大写。",
+        "knowledge_point": "人称代词用法",
+        "options": [
+          "It",
+          "She",
+          "They",
+          "I"
+        ],
+        "question": "These books are new. ___ are on the desk.（这些书是新的。它们在桌子上。）",
+        "score": 5,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "You",
+        "difficulty": 1,
+        "explanation": "直接对听话人说“你”，用 you。You 作主语时搭配 are。",
+        "knowledge_point": "人称代词用法",
+        "options": [
+          "You",
+          "He",
+          "We",
+          "She"
+        ],
+        "question": "___ are my good friend.（你是我的好朋友。）",
+        "score": 5,
+        "type": "choice",
+        "id": 32
       }
     ]
   },
@@ -708,6 +829,40 @@
         "无法区分闭音节 a 和开音节 a (如 name)。"
       ],
       "tips": "发 /æ/ 时嘴巴要张大，嘴角向两边拉，舌尖抵下齿。"
+    },
+    {
+      "common_mistakes": [
+        "国家名称要注意首字母大写，如 China、Canada、the UK、the USA。",
+        "teacher 是教师，student 是学生；不要混淆职业和学生身份。",
+        "he 指男性，she 指女性；句首的人称代词首字母要大写。",
+        "固定表达是 Nice to meet you.，其中 to 不要漏掉。"
+      ],
+      "core_concept": "认识常见国家名称及相关核心词汇，理解并使用 teacher、student、he、she 等词，还能运用 Welcome back to school! 和 Nice to meet you. 等简单表达。",
+      "key_formula": "This is + 人名. He/She is a + 身份。；Welcome back to + 地点；Nice to meet you.",
+      "point": "国家名称与核心词汇",
+      "tips": "记忆国家名时注意首字母大写：China（中国）、Canada（加拿大）、the UK（英国）、the USA（美国）。联系人物性别记忆 he 和 she；通过身份句型练习 teacher 和 student。"
+    },
+    {
+      "common_mistakes": [
+        "把闭音节中的字母 a 读成长音 /eɪ/。",
+        "只看单词字母，不注意 a 后面是否有辅音来封住音节。",
+        "认为所有含字母 a 的单词发音都相同。"
+      ],
+      "core_concept": "在常见的单音节闭音节单词中，元音字母 a 通常发短元音 /æ/，发音时嘴巴张开，声音短促。常见例词有 cat、bag、hand 和 dad。",
+      "key_formula": "辅音 + a + 辅音（闭音节）→ a 通常发 /æ/，如 cat、map、dad。",
+      "point": "元音字母a在闭音节中的发音",
+      "tips": "读单词时，先观察 a 后面是否有辅音来封住音节，再结合熟悉的例词判断。注意 cake、name 中的 a 通常发 /eɪ/，与闭音节中的 /æ/ 不同。"
+    },
+    {
+      "common_mistakes": [
+        "人称代词要根据说话人或所指的人、物来选择。",
+        "句首的人称代词首字母要大写。",
+        "he、she、it 表示单数第三人称，后面通常搭配 is；I 搭配 am，you、we、they 搭配 are。"
+      ],
+      "core_concept": "人称代词用来代替表示人的称呼或表示人、物的名词。英语人称代词有主格和宾格两种形式。本课先学习常用主格：I（我）、you（你；你们）、he（他）、she（她）、it（它）、we（我们）、they（他们；她们；它们）。主格常放在句子开头或动词前，作主语。",
+      "key_formula": "主格人称代词 + 动词 + 其他。常见搭配：I am；he/she/it is；you/we/they are。",
+      "point": "人称代词用法",
+      "tips": "记忆小口诀：我 I，你 you，他 he，她 she，动物物品 it；我们 we，你们 you，他们她们它们 they。做题时可先用中文确认所指对象，再检查句子中的动词搭配。"
     }
   ]
 }

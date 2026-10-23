@@ -4,264 +4,262 @@
   "unit_number": 4,
   "unit_test": {
     "title": "第四单元：动物朋友 基础闯关测试",
-    "total_score": 100,
+    "total_score": 458,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“古怪”表面上像是在批评猫，但结合课文中猫的各种可爱表现，可以看出作者其实很喜欢它。",
         "knowledge_point": "明贬实褒的表达方式",
+        "options": [],
         "question": "在老舍的《猫》中，作者说猫性格“古怪”，实际上是表达对猫的喜爱之情。",
-        "options": [],
-        "answer": "对",
-        "explanation": "“古怪”一词在此处是明贬实褒，体现了猫性格独特可爱。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "冒号在文稿纸上通常占一格，写在格子的左下方。",
         "knowledge_point": "冒号的用法与排版规范",
+        "options": [],
         "question": "冒号在文稿纸上书写时，通常占据一个格子的左下角。",
-        "options": [],
-        "answer": "对",
-        "explanation": "标点符号在硬笔书写中需规范，冒号占一格且靠左下方。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "课文通过母鸡警戒、保护小鸡等表现，写出了它的负责、慈爱和勇敢，也使作者改变了原先的看法。",
         "knowledge_point": "动作与神态的细节描写",
+        "options": [],
         "question": "《母鸡》一课通过母鸡负责、慈爱、勇敢的动作描写，改变了作者对它的偏见。",
-        "options": [],
-        "answer": "对",
-        "explanation": "作者通过观察母鸡护雏的一连串动作，产生了敬佩之情。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "“看守”的“看”读 kān，表示守护，不读 kàn。",
         "knowledge_point": "词语字音",
+        "options": [],
         "question": "“看守”中的“看”字读音是 kàn。",
-        "options": [],
-        "answer": "错",
-        "explanation": "“看守”的“看”读一声kān，表示守护。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "明贬实褒的表达方式",
-        "question": "“它要是高兴，能比谁都温柔可亲。”这是一句明贬实褒的话。",
-        "options": [],
-        "answer": "错",
-        "explanation": "这句话是直接描写温顺，不含贬义词语，属于直接赞美。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
-        "difficulty": 1,
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "这句话直接写猫温柔可亲，没有使用看似贬义的词语，因此不是明贬实褒。",
         "knowledge_point": "明贬实褒的表达方式",
-        "question": "在《白鹅》中，作者称呼白鹅为“鹅老爷”，体现了作者怎样的情感？",
+        "options": [],
+        "question": "“它要是高兴，能比谁都温柔可亲。”这是一句明贬实褒的话。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "对鹅的调侃与喜爱",
+        "difficulty": 1,
+        "explanation": "“鹅老爷”把白鹅称作“老爷”，带有戏谑、亲昵的意味，联系全文可知作者并非真的讨厌白鹅。",
+        "knowledge_point": "明贬实褒的表达方式",
         "options": [
           "讨厌鹅的傲慢",
           "对鹅的调侃与喜爱",
           "不满鹅的架子大",
           "害怕白鹅咬人"
         ],
-        "answer": "对鹅的调侃与喜爱",
-        "explanation": "“鹅老爷”运用了拟人化的称呼，带有戏谑和亲昵的感觉。"
+        "question": "在《白鹅》中，作者称呼白鹅为“鹅老爷”，体现了作者怎样的情感？",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "欺弱怕强",
         "difficulty": 1,
+        "explanation": "这句话写母鸡啄人时会让人感到疼，结合课文对它欺侮弱小者的描写，体现了它欺弱怕强的特点。",
         "knowledge_point": "动作与神态的细节描写",
-        "question": "“它要是啄你一口，那就真的疼了。”这句话最能体现母鸡的什么特点？",
         "options": [
           "温柔可爱",
           "欺弱怕强",
           "凶狠可怕",
           "性格散漫"
         ],
-        "answer": "欺弱怕强",
-        "explanation": "在描写母鸡讨厌的部分，作者通过这种细节描写体现它欺侮弱小的习性。"
+        "question": "“它要是啄你一口，那就真的疼了。”这句话最能体现母鸡的什么特点？",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "它立刻警告：泥干了，快加点水。",
         "difficulty": 1,
+        "explanation": "“它立刻警告”是提示语，冒号后面引出警告的具体内容。",
         "knowledge_point": "冒号的用法与排版规范",
-        "question": "下列句子中，冒号使用正确的一项是：",
         "options": [
           "它的一举一动：都显得那么高傲。",
           "鹅的吃饭，非有一人侍候不可：真是架子十足。",
           "它吃法：必须由三样东西组成。",
           "它立刻警告：泥干了，快加点水。"
         ],
-        "answer": "它立刻警告：泥干了，快加点水。",
-        "explanation": "冒号在此处用于引出提示语的内容。"
+        "question": "下列句子中，冒号使用正确的一项是：",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "赞美蜜蜂的勤劳和无私奉献",
         "difficulty": 2,
+        "explanation": "诗人借蜜蜂辛勤采蜜、酿蜜却不求回报的情景，赞美了勤劳奉献的精神。",
         "knowledge_point": "古诗内容理解",
-        "question": "阅读《蜂》，判断诗人通过“采得百花成蜜后，为谁辛苦为谁甜”表达了什么？",
         "options": [
           "赞美蜜蜂的勤劳和无私奉献",
           "感叹蜜蜂工作环境的艰辛",
           "希望蜜蜂能够多产蜂蜜",
           "批评蜜蜂不劳而获的行为"
         ],
-        "answer": "赞美蜜蜂的勤劳和无私奉献",
-        "explanation": "诗人借蜜蜂辛勤采蜜却不求回报的精神来赞美劳动者。"
+        "question": "阅读《蜂》，判断诗人通过“采得百花成蜜后，为谁辛苦为谁甜”表达了什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "关心、干预",
         "difficulty": 1,
+        "explanation": "这里说它什么事也不过问，意思是什么事都不关心，也不去干预。",
         "knowledge_point": "字词含义",
-        "question": "“它贪睡，无忧无虑，什么事也不过问。”中“过问”的意思是：",
         "options": [
           "过去询问",
           "关心、干预",
           "路过问候",
           "经过询问"
         ],
-        "answer": "关心、干预",
-        "explanation": "这里的“过问”是指猫对事情不关心的状态。"
+        "question": "“它贪睡，无忧无虑，什么事也不过问。”中“过问”的意思是：",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "英雄",
         "difficulty": 2,
+        "explanation": "课文结尾，作者看到母鸡负责、慈爱、勇敢、辛苦的一面后，转而敬佩并赞美它是英雄。",
         "knowledge_point": "明贬实褒的表达方式",
-        "question": "“这真是一只（  ）的母鸡！”在课文结尾，作者这样感叹。",
         "options": [
           "讨人厌",
           "令人生厌",
           "英雄",
           "美丽"
         ],
-        "answer": "英雄",
-        "explanation": "文章结尾作者从讨厌转为敬佩，赞美母鸡是英雄。"
+        "question": "“这真是一只（  ）的母鸡！”在课文结尾，作者这样感叹。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "假若……无论……",
         "difficulty": 1,
+        "explanation": "“它不高兴”提出一种假设，“谁说多少好话，它一声也不出”表示在这种情况下结果不变，因此用“假若……无论……”搭配。",
         "knowledge_point": "关联词运用",
-        "question": "“（  ）它不高兴，（  ）谁说多少好话，它一声也不出。”",
         "options": [
           "如果……就……",
           "虽然……但是……",
           "假若……无论……",
           "只有……才……"
         ],
-        "answer": "假若……无论……",
-        "explanation": "这里表示假设和条件逻辑，猫不高兴时非常固执。"
+        "question": "“（  ）它不高兴，（  ）谁说多少好话，它一声也不出。”",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "目中无人",
         "difficulty": 1,
+        "explanation": "“目中无人”形容骄傲自大，看不起别人，符合题意。",
         "knowledge_point": "词语辨析",
-        "question": "形容傲慢到极点，不把别人放在眼里的词语是：",
         "options": [
           "不胜其烦",
           "目中无人",
           "一丝不苟",
           "从容不迫"
         ],
-        "answer": "目中无人",
-        "explanation": "目中无人形容人或动物极其自大傲慢。"
+        "question": "形容傲慢到极点，不把别人放在眼里的词语是：",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "细节和动作描写",
         "difficulty": 2,
+        "explanation": "通过具体的时长和姿态，刻画了猫抓老鼠的耐心。",
         "knowledge_point": "动作描写",
-        "question": "老舍在描写猫“尽职”时，通过写猫屏息凝视等了几个钟头，这是（  ）描写。",
         "options": [
           "神态描写",
           "细节和动作描写",
           "语言描写",
           "环境描写"
         ],
-        "answer": "细节和动作描写",
-        "explanation": "通过具体的时长和姿态，刻画了猫抓老鼠的耐心。"
+        "question": "老舍在描写猫“尽职”时，通过写猫屏息凝视等了几个钟头，这是（  ）描写。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "先抑后扬",
         "difficulty": 3,
+        "explanation": "文章前部分写讨厌母鸡，后半部分写敬佩母鸡，形成情感对比。",
         "knowledge_point": "表达技巧",
-        "question": "相比丰子恺写白鹅，老舍在《母鸡》中主要运用了什么样的结构？",
         "options": [
           "先分后总",
           "先抑后扬",
           "承上启下",
           "托物言志"
         ],
-        "answer": "先抑后扬",
-        "explanation": "文章前部分写讨厌母鸡，后半部分写敬佩母鸡，形成情感对比。"
+        "question": "相比丰子恺写白鹅，老舍在《母鸡》中主要运用了什么样的结构？",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "古诗名句",
-        "question": "采得百花成蜜后，为谁辛苦为谁（    ）？",
-        "options": [],
         "answer": "甜",
-        "explanation": "出自罗隐的《蜂》。"
+        "difficulty": 1,
+        "explanation": "这两句出自唐代罗隐的《蜂》：“采得百花成蜜后，为谁辛苦为谁甜？”诗句赞美蜜蜂勤劳，也引人思考劳动的意义。",
+        "knowledge_point": "古诗名句",
+        "options": [],
+        "question": "采得百花成蜜后，为谁辛苦为谁（　　）？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "课文关键字",
-        "question": "《白鹅》一课中，白鹅走路的样子可以用“引吭（    ）”来形容。",
-        "options": [],
         "answer": "大叫",
-        "explanation": "考查词语积累，引吭大叫。注：课文原文描述声调。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "作者常识",
-        "question": "《猫》和《母鸡》的作者都是享誉世界的著名作家（    ）。",
-        "options": [],
-        "answer": "老舍",
-        "explanation": "老舍是本单元重点作家。"
-      },
-      {
-        "id": 19,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "“引吭大叫”形容放开嗓子高声叫。它写的是白鹅的叫声，不是走路的样子。",
+        "knowledge_point": "课文关键字",
+        "options": [],
+        "question": "《白鹅》一课中，白鹅的叫声可以用“引吭（    ）”来形容。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "老舍",
+        "difficulty": 2,
+        "explanation": "《猫》和《母鸡》都是老舍写的，老舍是中国现代著名作家。",
+        "knowledge_point": "作者常识",
+        "options": [],
+        "question": "《猫》和《母鸡》的作者都是享誉世界的著名作家（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "A-2，B-3，C-4，D-1",
+        "difficulty": 1,
+        "explanation": "引吭大叫常用来显出气势；屏息凝视表示专注地盯着，可能是在观察或等待抓老鼠；警戒是守卫、提防危险；狂吠常用于提醒或驱赶入侵者。",
         "knowledge_point": "词语释义",
-        "question": "请将描写动作的词语与其对应的情感连接起来。",
         "options": [
           "引吭大叫",
           "屏息凝视",
@@ -272,36 +270,32 @@
           "抓老鼠",
           "护雏"
         ],
-        "answer": "A-2,B-3,C-4,D-1",
-        "explanation": "引吭大叫显威风，屏息凝视抓老鼠，警戒护雏，狂吠是对入侵者的负责。"
+        "question": "请将描写动作的词语与其对应的情感或作用连接起来：A.引吭大叫，B.屏息凝视，C.警戒，D.狂吠。1.提醒或驱赶入侵者，2.显出气势，3.专注地观察或等待，4.守卫并提防危险。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "白鹅步态傲慢，架子十足。",
         "difficulty": 2,
+        "explanation": "文中对白鹅“步态傲慢、架子十足”的描写，表现了它高傲十足。",
         "knowledge_point": "动物特征匹配",
-        "question": "将动物与其在文章中体现出的性格特点相连。",
         "options": [
-          "白鹅",
-          "猫",
-          "母鸡",
-          "白公鹅",
-          "慈爱勇敢",
-          "高傲十足",
-          "海军上将",
-          "古怪可爱"
+          "白鹅十分温顺，常常依偎在主人身边。",
+          "白鹅步态傲慢，架子十足。",
+          "白鹅叫声轻柔，走路小心翼翼。",
+          "白鹅胆小怕事，总躲着其他动物。"
         ],
-        "answer": "A-2,B-4,C-1,D-3",
-        "explanation": "根据丰子恺、老舍、叶·诺索夫的课文内容进行性格匹配。"
+        "question": "读句子：“白鹅走起路来步态傲慢，架子十足。”这句话表现了白鹅什么特点？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-6，B-5，C-7，D-8。即：讨厌—喜欢，高傲—谦卑，温柔—粗鲁，尽职—失职。",
         "difficulty": 1,
+        "explanation": "这些词语分别表达相反的态度、待人方式或工作表现。",
         "knowledge_point": "反义词连线",
-        "question": "将下列词语与它们的反义词连线。",
         "options": [
           "讨厌",
           "高傲",
@@ -312,33 +306,32 @@
           "粗鲁",
           "失职"
         ],
-        "answer": "A-2,B-1,C-3,D-4",
-        "explanation": "考查对本单元常见形容词的反义理解。"
+        "question": "将下列词语与它们的反义词连线。左边依次为A、B、C、D，右边依次为1、2、3、4：A.讨厌　B.高傲　C.温柔　D.尽职；1.谦卑　2.喜欢　3.粗鲁　4.失职。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "猫的性格实在有些古怪。",
         "difficulty": 1,
+        "explanation": "先把“猫的性格”作为句子的主要内容，再用“实在有些古怪”说明性格特点。原题给出的词语缺少“有些”，因此补全后才是通顺、准确的句子。",
         "knowledge_point": "简单句排列",
-        "question": "请将词语排成描写猫的一句话。",
         "options": [
-          "猫的",
-          "这种",
-          "性格",
-          "古怪",
-          "实在"
+          "猫的，性格，实在，这种，古怪",
+          "猫的性格实在有些古怪。",
+          "实在猫的性格有些古怪。",
+          "这种性格古怪猫的实在。"
         ],
-        "answer": "猫的,性格,实在,这种,古怪",
-        "explanation": "出自《猫》的首句，调整为规范陈述句。"
+        "question": "请将词语排成描写猫的一句话：猫的、性格、实在、有些、古怪。",
+        "score": 5,
+        "type": "choice",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "它,发现,一点东西,放声,啼叫",
         "difficulty": 2,
+        "explanation": "先发现一点东西，再放声啼叫，动作顺序要符合事情的发展。题干中的“保护小鸡”与给出的“发现一点东西、放声啼叫”不完全对应，建议将题干改为“请排好母鸡发现一点东西后呼唤小鸡的动作顺序”。",
         "knowledge_point": "动作连贯句",
-        "question": "请排好母鸡保护小鸡时的动作顺序。",
         "options": [
           "它",
           "放声",
@@ -346,8 +339,1093 @@
           "发现",
           "一点东西"
         ],
-        "answer": "它,发现,一点东西,放声,啼叫",
-        "explanation": "这是描写母鸡发现食物后呼唤小鸡的动作序列。"
+        "question": "请排好母鸡发现一点东西后呼唤小鸡的动作顺序。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "表面上批评小狗贪吃，实际上表达了对它的喜爱。",
+        "difficulty": 2,
+        "explanation": "“小馋猫”表面上是在说小狗贪吃，但“小馋猫”是带有亲昵意味的称呼；结合它摇着尾巴等着吃饭的可爱样子，可以看出说话人其实很喜欢它。",
+        "knowledge_point": "明贬实褒的表达方式",
+        "options": [],
+        "question": "读句子：“我家的小狗真是个小馋猫，一听见饭碗响，就摇着尾巴跑过来。”这句话表面上在说小狗什么？实际上表达了什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "淘气包",
+        "difficulty": 3,
+        "explanation": "“淘气包”表面上像是在说弟弟淘气，联系他主动帮忙整理书本的情景，可以看出姐姐是在亲昵地称呼他，心里其实喜欢弟弟。",
+        "knowledge_point": "明贬实褒的表达方式",
+        "options": [],
+        "question": "补充一个看似批评、实际上表达亲昵的词语：弟弟真是个（  ），刚才还把我的书弄乱了，现在又主动帮我整理好。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "连续动作",
+        "difficulty": 1,
+        "explanation": "按先后顺序写出一连串具体动作，能让读者清楚地看到动物是怎样活动的。",
+        "knowledge_point": "动作与神态的细节描写",
+        "options": [],
+        "question": "把动物一个大动作拆成几个按顺序发生的小动作，属于对动物的____描写。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "小猫弓起身子，竖起耳朵，紧紧盯着线团，忽然伸出爪子把线团拍向一旁。",
+        "difficulty": 2,
+        "explanation": "答案按照动作发生的先后写出了弓身、竖耳、盯住、伸爪和拍打等具体细节，比只写“小猫在玩线团”更清楚生动。表述合理即可。",
+        "knowledge_point": "动作与神态的细节描写",
+        "options": [],
+        "question": "请把“小猫玩线团”写得更具体，至少写出三个连续动作。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "小狗竖起耳朵，瞪圆眼睛，尾巴夹在两腿之间，缩到桌子下面。",
+        "difficulty": 2,
+        "explanation": "竖耳、瞪眼、夹尾巴和躲藏这些神态与动作细节，能表现小狗听到巨响后的紧张和害怕。表述合理即可。",
+        "knowledge_point": "动作与神态的细节描写",
+        "options": [],
+        "question": "听见一声巨响后，小狗很害怕。请写出一句话，用动作或神态细节表现它的害怕。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "小鸟昂起头，抖了抖羽毛，张开翅膀，欢快地飞向树枝。",
+        "difficulty": 2,
+        "explanation": "“昂起头”“抖羽毛”“张开翅膀”“飞向树枝”写出了连续动作；“欢快”点出了小鸟的状态。表达合理即可。",
+        "knowledge_point": "动作与神态的细节描写",
+        "options": [],
+        "question": "小鸟发现主人回来后十分高兴。请写一句话，运用连续动作和神态描写表现它的高兴。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "冒号",
+        "difficulty": 1,
+        "explanation": "“有三种颜色”是总括语，后面列出具体颜色，使用冒号引出分述内容。",
+        "knowledge_point": "冒号的用法与排版规范",
+        "options": [],
+        "question": "填入合适的标点：花园里的花有三种颜色____红色、黄色和紫色。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "冒号应当用在提示语后，引出提示内容；这里“明天”后面没有提示语，因此不应使用冒号。",
+        "knowledge_point": "冒号的用法与排版规范",
+        "options": [],
+        "question": "判断正误：明天：我们全班去参观博物馆。",
+        "score": 2,
+        "type": "true_false",
+        "id": 31
+      },
+      {
+        "answer": "小明说：",
+        "difficulty": 2,
+        "explanation": "“小明说”是提示语，后面引出小明说的话，因此在提示语后加冒号。",
+        "knowledge_point": "冒号的用法与排版规范",
+        "options": [],
+        "question": "在“____我已经把作业做完了。”的横线上，填入合适的提示语和标点。（提示语：小明说）",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "冒号应写在格子的左下方。",
+        "difficulty": 1,
+        "explanation": "文稿纸上书写冒号时，通常占一格，并写在格子的左下方，不写在正中间或右侧。",
+        "knowledge_point": "冒号的用法与排版规范",
+        "options": [],
+        "question": "在文稿纸上书写冒号时，冒号应写在格子的什么位置？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "“困难”的“难”读 nán，表示不容易；“灾难”的“难”读 nàn。",
+        "knowledge_point": "词语字音",
+        "options": [
+          "A. 困难（nán）",
+          "B. 灾难（nán）",
+          "C. 难民（nán）",
+          "D. 难友（nán）"
+        ],
+        "question": "下面词语中，“难”的读音标注正确的一项是（ ）。",
+        "score": 2,
+        "type": "choice",
+        "id": 34
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“重量”中的“重”读 zhòng，表示分量大。",
+        "knowledge_point": "词语字音",
+        "options": [],
+        "question": "“重量”中的“重”读 zhòng。",
+        "score": 2,
+        "type": "true_false",
+        "id": 35
+      },
+      {
+        "answer": "kān",
+        "difficulty": 1,
+        "explanation": "“看书”中的“看”表示用眼睛阅读，读 kàn。",
+        "knowledge_point": "词语字音",
+        "options": [],
+        "question": "“看书”中的“看”读 ______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 36
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“朝阳”中的“朝”读 zhāo，指早晨；“朝代”中的“朝”读 cháo。",
+        "knowledge_point": "词语字音",
+        "options": [
+          "A. 朝代（zhāo）",
+          "B. 朝阳（zhāo）",
+          "C. 朝向（zhāo）",
+          "D. 朝见（zhāo）"
+        ],
+        "question": "下面词语中，“朝”的读音标注正确的一项是（ ）。",
+        "score": 2,
+        "type": "choice",
+        "id": 37
+      },
+      {
+        "answer": "重（chóng）：重复；重（zhòng）：重要",
+        "difficulty": 2,
+        "explanation": "“重”是多音字。“重复”表示再来一次，读 chóng；“重要”表示有重大意义，读 zhòng。",
+        "knowledge_point": "词语字音",
+        "options": [],
+        "question": "给“重”注音，并分别组一个词：表示“再来一次”时读 ______，组词 ______；表示“有重大意义”时读 ______，组词 ______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 38
+      },
+      {
+        "answer": "春天",
+        "difficulty": 1,
+        "explanation": "“迟日”指春日，“江山丽”和“春风花草香”都描写了春天明媚、温暖的景色。",
+        "knowledge_point": "古诗内容理解",
+        "options": [
+          "春天",
+          "夏天",
+          "秋天",
+          "冬天"
+        ],
+        "question": "杜甫《绝句》中“迟日江山丽，春风花草香”描写的是什么季节？",
+        "score": 5,
+        "type": "choice",
+        "id": 39
+      },
+      {
+        "answer": "溪边",
+        "difficulty": 2,
+        "explanation": "诗句“最喜小儿亡赖，溪头卧剥莲蓬”写小儿躺在溪边剥莲蓬。“溪头”就是溪边。",
+        "knowledge_point": "古诗内容理解",
+        "options": [
+          "溪边",
+          "山顶",
+          "屋檐下",
+          "田野里"
+        ],
+        "question": "辛弃疾《清平乐·村居》中，小儿在哪里剥莲蓬？",
+        "score": 5,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "《悯农》（其二）写农民在烈日下辛勤耕作，诗人由此感叹粮食来之不易，提醒人们珍惜粮食。",
+        "knowledge_point": "古诗内容理解",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "李绅《悯农》（其二）通过描写农民辛苦劳作，表达了粮食来之不易的意思。",
+        "score": 5,
+        "type": "true_false",
+        "id": 41
+      },
+      {
+        "answer": "不知细叶谁裁出，二月春风似剪刀。",
+        "difficulty": 2,
+        "explanation": "贺知章《咏柳》用“二月春风似剪刀”作比，把春风比作剪刀，写出春风仿佛裁剪出柳叶的巧妙景象。",
+        "knowledge_point": "古诗内容理解",
+        "options": [],
+        "question": "贺知章《咏柳》中，哪两句把春风比作剪刀，写出春风裁出柳叶的巧妙？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 42
+      },
+      {
+        "answer": "表达了诗人喜爱西湖晴天和雨天景色的感情。",
+        "difficulty": 3,
+        "explanation": "诗句描写了西湖在晴天和雨天各有不同的美景。“总相宜”说明诗人认为两种景色都很美，表达了对西湖的喜爱。",
+        "knowledge_point": "古诗内容理解",
+        "options": [],
+        "question": "苏轼《饮湖上初晴后雨》中，“水光潋滟晴方好，山色空蒙雨亦奇”写了西湖晴天和雨天的景色。诗人借这两句表达了怎样的感情？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 43
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“骄傲”在这里表示自以为了不起，看不起别人。",
+        "knowledge_point": "字词含义",
+        "options": [
+          "A. 自豪",
+          "B. 自以为了不起，看不起别人",
+          "C. 坚强",
+          "D. 勇敢"
+        ],
+        "question": "“他取得一点成绩就骄傲起来。”中“骄傲”的意思是：",
+        "score": 5,
+        "type": "choice",
+        "id": 44
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“温和”在句中形容阳光不强烈、让人觉得舒服，是暖和柔和的意思。",
+        "knowledge_point": "字词含义",
+        "options": [
+          "A. 态度亲切",
+          "B. 暖和柔和",
+          "C. 性格温顺",
+          "D. 语言和气"
+        ],
+        "question": "“午后的阳光很温和，照在身上暖洋洋的。”中“温和”的意思是：",
+        "score": 5,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "“刚摘下来的蔬菜很新鲜”中的“新鲜”指没有变质；“这件事真新鲜”中的“新鲜”指少见、特别。两处意思不同，因此说它们意思相同的判断是错误的。",
+        "knowledge_point": "字词含义",
+        "options": [],
+        "question": "判断：“刚摘下来的蔬菜很新鲜。”和“这件事真新鲜！”中的“新鲜”意思相同。（对 / 错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 46
+      },
+      {
+        "answer": "清楚",
+        "difficulty": 1,
+        "explanation": "根据“听得很明白”可知，“清晰”在句中是清楚、明白的意思。",
+        "knowledge_point": "字词含义",
+        "options": [],
+        "question": "“老师讲得很清晰，大家都听得很明白。”中“清晰”的意思是________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "指望",
+        "difficulty": 2,
+        "explanation": "“盼望”表示殷切地期待；“指望”表示把希望寄托在某人或某事上。联系句意，应填“指望”。",
+        "knowledge_point": "字词含义",
+        "options": [],
+        "question": "从“盼望、指望”中选一个填空：这件事能不能办成，我不敢________他一个人。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 48
+      },
+      {
+        "answer": "因为……所以……",
+        "difficulty": 1,
+        "explanation": "前半句说明原因，后半句说明结果，二者是因果关系，因此填“因为……所以……”。",
+        "knowledge_point": "关联词运用",
+        "options": [],
+        "question": "（  ）今天下雨，（  ）运动会改到明天举行。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "虽然……但是……",
+        "difficulty": 1,
+        "explanation": "“天气很冷”和“同学们仍坚持跑步”之间是转折关系，用“虽然……但是……”连接。",
+        "knowledge_point": "关联词运用",
+        "options": [
+          "因为……所以……",
+          "虽然……但是……",
+          "如果……就……",
+          "不但……而且……"
+        ],
+        "question": "（  ）天气很冷，（  ）同学们仍坚持跑步。",
+        "score": 5,
+        "type": "choice",
+        "id": 50
+      },
+      {
+        "answer": "只有……才……",
+        "difficulty": 2,
+        "explanation": "“认真观察”是“发现事物的特点”的必要条件，缺少这个条件就不容易发现，因此用“只有……才……”。",
+        "knowledge_point": "关联词运用",
+        "options": [],
+        "question": "（  ）认真观察，（  ）能发现身边事物的特点。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "不但……而且……",
+        "difficulty": 2,
+        "explanation": "“会唱歌”和“会跳舞”是递进关系，后一个分句在前一个分句的基础上更进一步，所以用“不但……而且……”。",
+        "knowledge_point": "关联词运用",
+        "options": [
+          "尽管……还是……",
+          "不但……而且……",
+          "因为……所以……",
+          "只要……就……"
+        ],
+        "question": "小文（  ）会唱歌，（  ）会跳舞。",
+        "score": 5,
+        "type": "choice",
+        "id": 52
+      },
+      {
+        "answer": "只要……就……",
+        "difficulty": 2,
+        "explanation": "“把作业写完”是“可以去公园”的充分条件，做到这件事就能得到后面的结果，因此用“只要……就……”。",
+        "knowledge_point": "关联词运用",
+        "options": [],
+        "question": "（  ）把作业写完，我们（  ）可以去公园。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "欢快",
+        "difficulty": 1,
+        "explanation": "“欢快”表示欢乐、轻快，形容歌声的情绪和节奏很恰当；“欢喜”主要表示心里高兴。",
+        "knowledge_point": "词语辨析",
+        "options": [
+          "欢快",
+          "欢喜",
+          "欢呼",
+          "欢送"
+        ],
+        "question": "山间传来一阵____的歌声，大家听了都忍不住跟着哼唱。",
+        "score": 5,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "陆续",
+        "difficulty": 2,
+        "explanation": "“陆续”表示先后、接连不断地发生，适合描述同学们一个接一个地走进教室；“连续”强调一个接一个、不间断。",
+        "knowledge_point": "词语辨析",
+        "options": [
+          "继续",
+          "陆续",
+          "连续",
+          "持续"
+        ],
+        "question": "上课铃响后，同学们____走进教室。",
+        "score": 5,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "观察",
+        "difficulty": 1,
+        "explanation": "“观察”指仔细察看事物的变化，符合认真看蚂蚁搬食物的语境；“观看”多指看节目或比赛。",
+        "knowledge_point": "词语辨析",
+        "options": [
+          "观看",
+          "观察",
+          "欣赏",
+          "参观"
+        ],
+        "question": "为了了解蚂蚁怎样搬运食物，小明蹲在地上仔细____。",
+        "score": 5,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "一丝不苟",
+        "difficulty": 2,
+        "explanation": "“一丝不苟”形容做事认真细致，连最细微的地方也不马虎，适合形容检查作业的态度。",
+        "knowledge_point": "词语辨析",
+        "options": [
+          "目中无人",
+          "一丝不苟",
+          "不胜其烦",
+          "从容不迫"
+        ],
+        "question": "老师____地检查每一份作业，不放过任何一个小错误。",
+        "score": 5,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "从容不迫",
+        "difficulty": 2,
+        "explanation": "“从容不迫”形容态度镇静、不慌不忙，符合面对突发情况仍沉着处理的语境；“一丝不苟”强调认真细致。",
+        "knowledge_point": "词语辨析",
+        "options": [
+          "一丝不苟",
+          "目中无人",
+          "从容不迫",
+          "不胜其烦"
+        ],
+        "question": "遇到突发情况，班长没有慌张，而是____地安排大家离开教室。",
+        "score": 5,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "动作",
+        "difficulty": 1,
+        "explanation": "“弯腰”和“捡起”写出了小明做事情时的具体动作，属于动作描写。",
+        "knowledge_point": "动作描写",
+        "options": [],
+        "question": "小明弯下腰，捡起地上的铅笔。“弯下腰”和“捡起”属于（　　　）描写。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "先擦黑板，再把粉笔放回盒子，最后走回座位",
+        "difficulty": 2,
+        "explanation": "句子按照动作发生的先后顺序，写清了小红整理讲台的过程，这样的描写具体明白。",
+        "knowledge_point": "动作描写",
+        "options": [],
+        "question": "按动作发生的顺序补写：值日结束后，小红先________，再________，最后________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "他轻轻推开门，探进脑袋，踮着脚走进房间。",
+        "difficulty": 2,
+        "explanation": "“轻轻推开”“探进”“踮着脚走进”把动作写得具体，还能让读者感受到他小心翼翼的样子。",
+        "knowledge_point": "动作描写",
+        "options": [],
+        "question": "把“他走进房间”改写成一句更具体的动作描写。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“紧紧抱住”和“蹦蹦跳跳”都是人物的动作，写出了小乐收到礼物后的高兴。",
+        "knowledge_point": "动作描写",
+        "options": [
+          "写出了小乐收到礼物后的高兴",
+          "写出了屋子里的陈设",
+          "写出了礼物的颜色",
+          "写出了小乐说话的声音"
+        ],
+        "question": "“小乐紧紧抱住礼物，蹦蹦跳跳地跑去告诉妈妈。”这处动作描写主要表现了什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "动作描写不仅能写大幅度的动作，也能写轻轻点头、握紧拳头等细微动作。",
+        "knowledge_point": "动作描写",
+        "options": [],
+        "question": "动作描写可以写细小的动作，也可以写连续动作。（　）",
+        "score": 5,
+        "type": "true_false",
+        "id": 63
+      },
+      {
+        "answer": "拟人",
+        "difficulty": 2,
+        "explanation": "“唱歌”通常是人的行为，把小鸟写得像人一样，运用了拟人，使描写更生动。",
+        "knowledge_point": "表达技巧",
+        "options": [
+          "比喻",
+          "拟人",
+          "夸张",
+          "排比"
+        ],
+        "question": "“清晨，小鸟在枝头快乐地唱歌。”这句话主要运用了哪种表达技巧？",
+        "score": 5,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "对比",
+        "difficulty": 2,
+        "explanation": "把操场上热闹的课间和安静的上课时进行比较，突出了校园生活场景的变化。",
+        "knowledge_point": "表达技巧",
+        "options": [
+          "对比",
+          "比喻",
+          "拟人",
+          "设问"
+        ],
+        "question": "“课间的操场热闹非凡，上课铃响后，校园顿时安静下来。”这句话主要运用了什么表达技巧？",
+        "score": 5,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "比喻",
+        "difficulty": 2,
+        "explanation": "把弯弯的月亮说成小船，借助两者形状相似来描写月亮，运用了比喻。",
+        "knowledge_point": "表达技巧",
+        "options": [
+          "拟人",
+          "比喻",
+          "排比",
+          "反问"
+        ],
+        "question": "“弯弯的月亮像一条小船，挂在深蓝的夜空中。”这句话运用了哪种表达技巧？",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "先抑后扬",
+        "difficulty": 3,
+        "explanation": "先写对小猫的不满，再写它帮助主人后的喜欢，情感由低到高，属于先抑后扬。",
+        "knowledge_point": "表达技巧",
+        "options": [
+          "先扬后抑",
+          "先抑后扬",
+          "首尾照应",
+          "总分结构"
+        ],
+        "question": "一篇文章先写“我”嫌小猫调皮，后来写它陪伴生病的“我”，结尾表达了对小猫的喜爱。这种写法是？",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "运用了拟人，把溪水写得像人在唱歌，表现溪水流动时声音清脆悦耳，使描写更生动。",
+        "difficulty": 3,
+        "explanation": "“唱着欢快的歌”赋予溪水人的动作和情态。回答时指出表达方法，并联系句子说明表达效果。",
+        "knowledge_point": "表达技巧",
+        "options": [],
+        "question": "读句子：“山间的小溪一路奔跑，唱着欢快的歌。”这句话运用了什么表达技巧？有什么表达效果？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 68
+      },
+      {
+        "answer": "欲穷千里目",
+        "difficulty": 1,
+        "explanation": "这两句出自唐代王之涣的《登鹳雀楼》。要想看到更远的景色，就要再登上一层楼。",
+        "knowledge_point": "古诗名句",
+        "options": [],
+        "question": "补全诗句：白日依山尽，黄河入海流。________，更上一层楼。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 69
+      },
+      {
+        "answer": "李白",
+        "difficulty": 1,
+        "explanation": "“举头望明月，低头思故乡”出自唐代诗人李白的《静夜思》，写出了诗人望月思乡的情感。",
+        "knowledge_point": "古诗名句",
+        "options": [
+          "李白",
+          "杜甫",
+          "王维",
+          "白居易"
+        ],
+        "question": "“举头望明月，低头思故乡”出自哪位诗人的作品？",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "春色满园关不住，一枝红杏出墙来",
+        "difficulty": 2,
+        "explanation": "诗句出自宋代叶绍翁的《游园不值》。即使园门没有打开，诗人仍从墙外伸出的红杏感受到满园春色。",
+        "knowledge_point": "古诗名句",
+        "options": [],
+        "question": "补全诗句：应怜屐齿印苍苔，小扣柴扉久不开。________，________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 71
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "“不识庐山真面目，只缘身在此山中”出自宋代苏轼的《题西林壁》，说明观察事物时，身处其中可能难以看清全貌。",
+        "knowledge_point": "古诗名句",
+        "options": [],
+        "question": "“不识庐山真面目，只缘身在此山中”出自苏轼的《题西林壁》。（判断对错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 72
+      },
+      {
+        "answer": "少壮不努力，老大徒伤悲",
+        "difficulty": 2,
+        "explanation": "这两句出自汉乐府《长歌行》，劝勉人们珍惜时光，年轻时努力学习和做事，年老时才不会徒然悔恨。",
+        "knowledge_point": "古诗名句",
+        "options": [],
+        "question": "补全诗句：百川东到海，何时复西归？________，________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 73
+      },
+      {
+        "answer": "姿态",
+        "difficulty": 1,
+        "explanation": "“步调从容”写出了白鹅走路不慌不忙的样子，也表现了它高傲的特点。",
+        "knowledge_point": "课文关键字",
+        "options": [],
+        "question": "《白鹅》中，“步调从容”描写的是白鹅走路时的（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 74
+      },
+      {
+        "answer": "从容",
+        "difficulty": 1,
+        "explanation": "“从容”指不慌不忙、镇定自若。联系白鹅走路的语境，可以理解它的步伐不急不慢。",
+        "knowledge_point": "课文关键字",
+        "options": [],
+        "question": "“步调从容”中的“从容”是指不慌不忙、（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 75
+      },
+      {
+        "answer": "叫声",
+        "difficulty": 2,
+        "explanation": "联系“引吭大叫”可以判断，“引吭”描写的是白鹅放开嗓子发声，表现其叫声响亮。",
+        "knowledge_point": "课文关键字",
+        "options": [],
+        "question": "《白鹅》中，“引吭大叫”主要描写白鹅的哪一方面？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 76
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "“步调从容”描写白鹅走路的样子；“引吭大叫”描写白鹅的叫声。",
+        "knowledge_point": "课文关键字",
+        "options": [],
+        "question": "判断：在《白鹅》中，“引吭大叫”描写的是白鹅走路的样子。（    ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 77
+      },
+      {
+        "answer": "引吭大叫",
+        "difficulty": 2,
+        "explanation": "“引吭大叫”写白鹅叫声高而响亮；回答时要能把关键词与它表现的特点联系起来。",
+        "knowledge_point": "课文关键字",
+        "options": [],
+        "question": "《白鹅》中，哪个关键词语能表现白鹅放开嗓子高声鸣叫？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 78
+      },
+      {
+        "answer": "舒庆春",
+        "difficulty": 2,
+        "explanation": "老舍是笔名，他的原名是舒庆春。",
+        "knowledge_point": "作者常识",
+        "options": [],
+        "question": "作家老舍的原名是（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 79
+      },
+      {
+        "answer": "《骆驼祥子》",
+        "difficulty": 2,
+        "explanation": "《骆驼祥子》是老舍的代表作品；老舍原名舒庆春。",
+        "knowledge_point": "作者常识",
+        "options": [
+          "《骆驼祥子》",
+          "《朝花夕拾》",
+          "《草房子》",
+          "《西游记》"
+        ],
+        "question": "下列哪部作品是老舍的代表作品？",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "《母鸡》的作者是老舍，不是鲁迅。",
+        "knowledge_point": "作者常识",
+        "options": [
+          "A. 老舍",
+          "B. 鲁迅",
+          "C. 巴金",
+          "D. 冰心"
+        ],
+        "question": "《母鸡》的作者是谁？",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "《猫》和《母鸡》都是老舍的作品。",
+        "knowledge_point": "作者常识",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断：课文《猫》和《母鸡》都是老舍写的。",
+        "score": 5,
+        "type": "true_false",
+        "id": 82
+      },
+      {
+        "answer": "老舍",
+        "difficulty": 1,
+        "explanation": "老舍善于观察生活，常用亲切、朴实的语言描写动物和日常生活。",
+        "knowledge_point": "作者常识",
+        "options": [],
+        "question": "《猫》的作者是（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "非常安静，连呼吸声都仿佛听得见。",
+        "difficulty": 1,
+        "explanation": "“鸦雀无声”形容非常安静，没有声音。根据句子中同学们认真听讲的情景，可以判断这里是在说明教室很安静。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "教室里鸦雀无声，同学们都在认真听讲。“鸦雀无声”在句子中的意思是________。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "认真细心",
+        "difficulty": 1,
+        "explanation": "句子中“仔细地观察”说明小明观察得认真、细心，因此“仔细”在这里的意思是认真细心。",
+        "knowledge_point": "词语释义",
+        "options": [
+          "做事很快",
+          "认真细心",
+          "声音很大",
+          "随随便便"
+        ],
+        "question": "小明仔细地观察蚂蚁搬家。句子中的“仔细”是什么意思？",
+        "score": 3,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "辨认",
+        "difficulty": 2,
+        "explanation": "“辨认”指根据特点分辨并认出事物。句中需要分清道路的方向，填“辨认”合适。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "雾很大，我们只能凭路边的标志________方向。（填入合适的词语：辨认、分辨）",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "“温和”可以形容气候不冷不热，也可以形容人的态度、性情平和。词语的具体意思要根据句子判断。",
+        "knowledge_point": "词语释义",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "“春天的天气很温和”和“老师用温和的语气鼓励我”中的“温和”，意思完全相同。（ ）",
+        "score": 3,
+        "type": "true_false",
+        "id": 87
+      },
+      {
+        "answer": "“争先恐后”形容争着向前，唯恐落后。",
+        "difficulty": 2,
+        "explanation": "联系“跑向操场”的情景可知，大家都想快些到达，谁也不想落在后面，所以“争先恐后”形容争着向前、唯恐落后。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "“下课铃一响，同学们争先恐后地跑向操场。”请结合句子解释“争先恐后”。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 88
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "白鹅的步态常被描写得从容、傲慢，表现出高傲的特点；“声音洪亮”主要是对叫声的描写。",
+        "knowledge_point": "动物特征匹配",
+        "options": [
+          "A. 温顺胆小",
+          "B. 高傲从容",
+          "C. 慈爱勇敢",
+          "D. 古怪可爱"
+        ],
+        "question": "课文描写白鹅走路时步态从容、架子十足，最能表现它的特点是（ ）。",
+        "score": 2,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "猫既有老实、贪玩、尽职等看似矛盾的表现，又显得可爱，因此可以概括为“古怪可爱”。",
+        "knowledge_point": "动物特征匹配",
+        "options": [
+          "A. 古怪可爱",
+          "B. 凶猛好斗",
+          "C. 胆小怕事",
+          "D. 懒惰无用"
+        ],
+        "question": "老舍笔下的猫既老实又贪玩，有时又十分尽职。对它的特点概括最恰当的是（ ）。",
+        "score": 2,
+        "type": "choice",
+        "id": 90
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "母鸡孵出小鸡后会警戒、保护小鸡，课文表现了它慈爱、勇敢的一面，并非只写它爱炫耀。",
+        "knowledge_point": "动物特征匹配",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "老舍笔下的母鸡在成为母亲后，仍然只是爱炫耀，没有表现出保护小鸡的勇敢。",
+        "score": 2,
+        "type": "true_false",
+        "id": 91
+      },
+      {
+        "answer": "海军上将",
+        "difficulty": 2,
+        "explanation": "叶·诺索夫把白公鹅比作“海军上将”，用这个称呼表现它派头十足、神气十足的样子。",
+        "knowledge_point": "动物特征匹配",
+        "options": [],
+        "question": "叶·诺索夫笔下的白公鹅被作者称作“__________”。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "慈爱勇敢",
+        "difficulty": 2,
+        "explanation": "母鸡照料小鸡时表现出慈爱；遇到危险时会挺身保护小鸡，表现出勇敢。",
+        "knowledge_point": "动物特征匹配",
+        "options": [],
+        "question": "母鸡照料小鸡、保护小鸡的情景，表现了它__________的特点。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "明亮—黑暗",
+        "difficulty": 1,
+        "explanation": "“明亮”指光线充足，“黑暗”指光线不足，二者意思相反。",
+        "knowledge_point": "反义词连线",
+        "options": [],
+        "question": "请为“明亮”写一个反义词：______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 94
+      },
+      {
+        "answer": "安静—热闹",
+        "difficulty": 1,
+        "explanation": "“安静”表示没有明显声响或吵闹，“热闹”表示人多、声音大或气氛活跃，在描述环境时二者意思相反。",
+        "knowledge_point": "反义词连线",
+        "options": [],
+        "question": "把“安静”和“热闹”这两个词组成一组反义词：______—______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 95
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "“勇敢”表示不怕困难或危险，“胆怯”表示害怕、缺少勇气，二者意思相反。",
+        "knowledge_point": "反义词连线",
+        "options": [],
+        "question": "判断对错：“勇敢”和“胆怯”是一组反义词。（　）",
+        "score": 2,
+        "type": "true_false",
+        "id": 96
+      },
+      {
+        "answer": "轻",
+        "difficulty": 2,
+        "explanation": "“重”表示分量大，“轻”表示分量小，二者在物体分量这一方面意思相反。",
+        "knowledge_point": "反义词连线",
+        "options": [],
+        "question": "“这只箱子很重。”句子中的“重”的反义词是______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 97
+      },
+      {
+        "answer": "开始—结束",
+        "difficulty": 2,
+        "explanation": "“开始”表示事情从某时起头，“结束”表示事情到某时停止，二者表示相反的过程。",
+        "knowledge_point": "反义词连线",
+        "options": [],
+        "question": "将“开始”与它的反义词连线：A.开始　B.认真　1.结束　2.马虎。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 98
+      },
+      {
+        "answer": "春风轻轻地吹过田野。",
+        "difficulty": 1,
+        "explanation": "“春风”是句子说的对象，“吹过”是动作，“田野”说明动作经过的地方；“轻轻地”放在动作前，说明吹的样子。",
+        "knowledge_point": "简单句排列",
+        "options": [],
+        "question": "请把“田野、春风、轻轻地、吹过”排列成一句通顺的话。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "小明在教室里认真地读书。",
+        "difficulty": 1,
+        "explanation": "先说谁在做什么，再把地点“在教室里”和表示动作状态的“认真地”放到合适的位置。",
+        "knowledge_point": "简单句排列",
+        "options": [],
+        "question": "请把“小明、读书、在教室里、认真地”排列成一句通顺的话。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 100
+      },
+      {
+        "answer": "花园里的花开了。",
+        "difficulty": 1,
+        "explanation": "“花”是句子的主要对象，“花园里的”放在“花”前面，说明花在哪里；“开了”说明花发生了什么变化。",
+        "knowledge_point": "简单句排列",
+        "options": [],
+        "question": "请把“开了、花园里的、花”排列成一句通顺的话。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "放学后，我们一起去图书馆。",
+        "difficulty": 2,
+        "explanation": "“放学后”表示时间，通常放在句子开头；“我们”是做事的人，“一起去图书馆”说明要做什么。",
+        "knowledge_point": "简单句排列",
+        "options": [
+          "放学后，我们一起去图书馆。",
+          "一起图书馆我们放学后去。",
+          "去放学后图书馆一起我们。",
+          "我们图书馆放学后一起去。"
+        ],
+        "question": "下面哪一句的语序最通顺？",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "晴朗的天空中飘着几朵白云。",
+        "difficulty": 2,
+        "explanation": "“晴朗的”修饰“天空”，“几朵”修饰“白云”。按照“地点＋动作＋事物”的表达顺序，可以说“晴朗的天空中飘着几朵白云”。",
+        "knowledge_point": "简单句排列",
+        "options": [],
+        "question": "请把“几朵、晴朗的、白云、天空中、飘着”排列成一句通顺的话。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 103
+      },
+      {
+        "answer": "小红先洗净苹果，接着削去果皮，然后把苹果切成小块。",
+        "difficulty": 1,
+        "explanation": "洗苹果、削皮、切块符合准备苹果的先后顺序，用“先、接着、然后”把动作连起来，句子清楚连贯。",
+        "knowledge_point": "动作连贯句",
+        "options": [],
+        "question": "用“先、接着、然后”把下面的动作连成一句话：小红切苹果、洗苹果、削苹果皮。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "先打开水龙头，再把手放到水下，最后关上水龙头。",
+        "difficulty": 1,
+        "explanation": "洗手时要先打开水龙头，再冲洗双手，之后关上水龙头，动作顺序合理。",
+        "knowledge_point": "动作连贯句",
+        "options": [
+          "先关上水龙头，再打开水龙头，最后把手放到水下。",
+          "先打开水龙头，再把手放到水下，最后关上水龙头。",
+          "先把手放到水下，再关上水龙头，最后打开水龙头。"
+        ],
+        "question": "洗手时，下面哪句话的动作顺序最连贯？",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "“拿起书包”在前，“走出教室”在后，动作按照事情发生的顺序排列，句意连贯。",
+        "knowledge_point": "动作连贯句",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "“放学后，小刚拿起书包，走出教室。”这句话中的动作顺序是连贯的。",
+        "score": 5,
+        "type": "true_false",
+        "id": 106
+      },
+      {
+        "answer": "小猫先跑到窗边，接着跳上窗台，最后望着窗外的小鸟。",
+        "difficulty": 2,
+        "explanation": "按“跑到窗边—跳上窗台—望着小鸟”的顺序排列动作，并用“先、接着、最后”连接，句子就连贯了。",
+        "knowledge_point": "动作连贯句",
+        "options": [],
+        "question": "用“先、接着、最后”把下面的动作连成一句话：小猫望着窗外的小鸟、跑到窗边、跳上窗台。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "先把种子放进土里，再盖上一层土，然后浇一些水。",
+        "difficulty": 2,
+        "explanation": "种花时通常先放种子，再盖土，最后浇水。按这样的顺序表达，动作之间衔接自然。",
+        "knowledge_point": "动作连贯句",
+        "options": [
+          "先浇一些水，再把种子放进土里，最后盖上一层土。",
+          "先把种子放进土里，再盖上一层土，然后浇一些水。",
+          "先盖上一层土，再浇一些水，最后把种子放进土里。"
+        ],
+        "question": "种花时，下面哪句话的动作顺序最合理、连贯？",
+        "score": 5,
+        "type": "choice",
+        "id": 108
       }
     ]
   },
@@ -702,34 +1780,198 @@
   },
   "knowledge_summary": [
     {
+      "common_mistakes": [
+        "误以为作者真的讨厌这些动物。",
+        "仿写时只使用贬义词，却没有通过具体情境和语气表现喜爱。"
+      ],
+      "core_concept": "“明贬实褒”是指表面上使用“古怪”“高傲”“淘气”等看似贬义的词语，实际上结合上下文和语气表达喜爱、亲昵或赞赏。这样的写法常带有调侃意味，使文章显得风趣，也让情感表达更加含蓄。",
+      "key_formula": "看似贬义的词语 + 喜爱、亲昵的语境 = 明贬实褒",
       "point": "明贬实褒的表达方式",
-      "core_concept": "作者在描写喜爱的动物时，表面上使用一些看似贬义的词语，如“古怪”、“高傲”、“鹅老爷”、“讨厌”，实际上在这些词语中蕴含着深厚的喜爱、亲昵和赞赏之情。这种表达方式能使文章语言更加风趣幽默，情感表达更显委婉、耐人寻味。",
-      "key_formula": "贬义词语 + 宠溺语气 = 强烈的表达喜爱之情",
-      "common_mistakes": [
-        "误认为作者真的讨厌这些动物",
-        "在仿写时只学会了贬义词，却没能通过语境体现出喜爱的温度"
-      ],
-      "tips": "朗读时注意带上调皮、宠溺的语气，就能听出作者其实是在“反向表白”。"
+      "tips": "判断时不要只看一个词，要联系前后文和作者描写的具体情景。仿写时，可以先写动物的一个小缺点，再写出它让人喜爱的表现。朗读时试着读出调皮、亲昵的语气。"
     },
     {
+      "common_mistakes": [
+        "只用“跑”“叫”等笼统的词语，没写清动作的具体样子。",
+        "动作和神态描写与要表现的性格不相符。",
+        "把动作一味堆叠，却没有按照先后顺序写清楚。"
+      ],
+      "core_concept": "动作描写是写出动物做了什么、怎样做；神态描写是写出动物的神情、状态。抓住有代表性的细节，按顺序写出连续动作，并配合恰当的神态描写，能让动物形象更具体，也能表现它的性格和情感。",
+      "key_formula": "具体动作（按顺序）＋恰当神态＋性格特点＝生动的动物形象",
       "point": "动作与神态的细节描写",
-      "core_concept": "为了让动物形象跃然纸上，作者通常会选取一系列连贯的动作进行精准刻画。例如老舍描写猫抓老鼠时的“屏息凝视”、“一连站几个钟头”，以及母鸡护雏时“挺着脖儿”、“警戒”等。神态描写则辅以情感，让动物不仅具备“形”，更具备“神”。",
-      "key_formula": "连续动词 + 描写性形容词 = 生动的动物性格",
-      "common_mistakes": [
-        "描写过于笼统，如只写“小狗在跑”，没有具体的姿态",
-        "动作描写与要表达的性格不匹配"
-      ],
-      "tips": "观察动物时要学会抓拍“特写镜头”，把大的动作拆解成三个以上的小动作。"
+      "tips": "观察动物时，可以把一个大动作拆成几个连续的小动作，再留意它的眼睛、耳朵、尾巴和身体姿态。例如，不只写“小猫抓老鼠”，还可以写它弓起身子、竖起耳朵、盯住老鼠，最后猛地扑过去。"
     },
     {
-      "point": "冒号的用法与排版规范",
-      "core_concept": "冒号在本单元主要用于提起下文。一种是用于提示语后（如：它立刻警告：……），另一种是用于总括语后，引出具体的分述内容（如：它吃的食物有：水、泥、草）。在书写时，冒号在格子的左下方，不宜写在正中间。",
-      "key_formula": "总结词 + 冒号 + 具体内容（分述）",
       "common_mistakes": [
-        "在该用句号或逗号的地方错误运用冒号",
-        "文稿纸书写时冒号写在右侧或格子中间"
+        "在该用逗号或句号的地方误用冒号。",
+        "提示语或总括语后没有需要引出的内容，却使用冒号。",
+        "在文稿纸上把冒号写在格子正中间或右侧。"
       ],
-      "tips": "记住“先总后分”时，中间往往需要一个冒号来连接。"
+      "core_concept": "冒号可以用在提示语后，引出提示的具体内容；也可以用在总括语后，引出具体分述的内容。书写时，冒号占一个格，写在格子的左下方。",
+      "key_formula": "提示语或总括语 + 冒号 + 提示内容或具体分述",
+      "point": "冒号的用法与排版规范",
+      "tips": "看到句子先概括、后具体说明时，可以想一想是否需要用冒号；冒号后面应有被引出的内容。书写时记住把冒号放在格子的左下方。"
+    },
+    {
+      "common_mistakes": [
+        "同一个字在不同词语中可能有不同读音，要结合词义和语境判断。",
+        "不要只凭字形猜读音；遇到不熟悉的词，可以查字典或向老师请教。"
+      ],
+      "core_concept": "词语字音是词语中每个字的读音。学习时要注意多音字在不同词语中的读音，并结合词义辨别。",
+      "key_formula": "辨认词语字音：读词语 → 联系词义和语境 → 判断每个字的读音。",
+      "point": "词语字音",
+      "tips": "读词语时，可以把词语放进句子里理解，再判断多音字的读音。例如“看守”的“看”读 kān，表示守护；“看书”的“看”读 kàn，表示用眼睛阅读。"
+    },
+    {
+      "common_mistakes": [
+        "只根据诗句中的个别字词猜意思，不联系整首诗理解。",
+        "把诗中描写的景物和诗人表达的情感混为一谈。",
+        "忽略古诗中的比喻、拟人等表达方式。"
+      ],
+      "core_concept": "理解古诗内容，要先读懂诗句描写的事物和情景，再联系整首诗体会诗人表达的情感或道理。",
+      "key_formula": "诗句字面意思 + 全诗情景 + 关键字词 = 诗歌主要内容与情感",
+      "point": "古诗内容理解",
+      "tips": "读诗三步走：一读诗句，理解字面意思；二找画面，想象诗中情景；三抓关键词，体会诗人的情感或道理。"
+    },
+    {
+      "common_mistakes": [
+        "把多义词只按常见意思理解，忽略它在句子中的具体含义。",
+        "只看单个字词，不结合前后文判断意思。",
+        "混淆意思相近的词，忽略它们在语气和使用场景上的差别。"
+      ],
+      "core_concept": "字词含义是字或词在具体语言环境中的意思。同一个词在不同句子中可能有不同含义，理解时要联系上下文，也可以用近义词替换、查词典等方法验证。",
+      "key_formula": "理解字词含义：联系上下文 → 判断词语在句中的作用 → 用近义词替换或查词典验证。",
+      "point": "字词含义",
+      "tips": "遇到不理解的字词，先读完整句话，再看前后文提供了什么线索。试着把词语替换成意思相近的词，检查句意是否通顺；若仍不确定，可以查词典。"
+    },
+    {
+      "common_mistakes": [
+        "把表示转折的“虽然……但是……”误用于假设关系。",
+        "关联词搭配正确，但前后分句的逻辑关系不恰当。",
+        "只看单个关联词，不结合整句话的意思判断。"
+      ],
+      "core_concept": "关联词用来连接分句，帮助表达分句之间的关系。使用时要先判断句意，再选择搭配恰当、逻辑合适的关联词。常见关系有并列、递进、转折、因果、条件、假设和选择等。",
+      "key_formula": "判断句意关系 → 选择合适的关联词 → 检查搭配和前后逻辑。",
+      "point": "关联词运用",
+      "tips": "读句子时，可以先用自己的话说清前后分句的关系：是“即使这样也……”（条件或假设）、“因为……所以……”（因果），还是“虽然……但是……”（转折）。再选择对应的关联词，并把整句话读一遍，检查是否通顺。"
+    },
+    {
+      "common_mistakes": [
+        "只看词语的字面意思，不结合语境判断。",
+        "把意思相近的词语当作可以随意替换的词语。",
+        "忽略词语的感情色彩和适用对象。"
+      ],
+      "core_concept": "词语辨析，就是结合词语的意思、感情色彩、适用对象和使用情境，判断哪个词语最恰当。",
+      "key_formula": "辨析词语：先理解词义，再比较差别，最后结合语境选择。",
+      "point": "词语辨析",
+      "tips": "做题时先读完整句子，找出句子表达的意思；再比较选项中词语的区别；最后把词语放回句子里读一读，看意思和语气是否合适。"
+    },
+    {
+      "common_mistakes": [
+        "把动作描写和神态描写混淆：动作描写侧重人物或动物“做什么”，神态描写侧重表情变化。",
+        "只摘录动作词，却不说明这些动作表现了什么。",
+        "认为动作描写只能写大动作，忽略了细微动作和动作的先后顺序。"
+      ],
+      "core_concept": "动作描写是通过描写人物或动物的动作、姿态及动作变化，表现其性格、心情或特点。",
+      "key_formula": "动作描写＋动作细节（动作、姿态、先后顺序等）→ 表现特点或心情",
+      "point": "动作描写",
+      "tips": "例如，写小猫抓老鼠时，可以写它“蹲着、盯着、扑过去”等动作，再说明这些动作表现了它的专注和敏捷。分析时要结合原文，不要只凭一个动作词下结论。"
+    },
+    {
+      "common_mistakes": [
+        "把表达技巧和文章的写作顺序混为一谈。",
+        "认为拟人只是把事物写得像人，却忽略它能让描写更生动。",
+        "分析表达效果时只说“写得很好”，没有结合具体内容说明。"
+      ],
+      "core_concept": "表达技巧是作者为了更清楚、生动地表达意思或情感而使用的方法。阅读时，可以留意文章怎样安排内容、怎样描写事物，以及怎样表达感情。",
+      "key_formula": "表达效果分析：运用了什么方法＋写了什么内容＋表达了什么情感或作用。",
+      "point": "表达技巧",
+      "tips": "读到生动的句子时，先找出用了什么方法，再想作者写了什么、这样写有什么好处。分析结构时，可以梳理开头、中间和结尾的内容及情感变化。"
+    },
+    {
+      "common_mistakes": [
+        "背诵诗句时容易漏字、添字或把相近的字写错。",
+        "只记住诗句，不了解诗句的作者和含义。",
+        "回答诗句出处时，把诗名、作者或朝代混淆。"
+      ],
+      "core_concept": "古诗名句是古诗中语言凝练、意味深长的句子。学习时不仅要准确记忆，还要了解诗句出处和大意，并能联系诗歌内容理解它表达的情感或道理。",
+      "key_formula": "记忆名句：抓关键词 → 读准、读熟 → 联系上下句理解 → 核对作者与诗题。",
+      "point": "古诗名句",
+      "tips": "可以按诗题或主题分类积累名句。背诵时先理解句意，再遮住关键词默写；完成后检查字词、顺序和标点。"
+    },
+    {
+      "common_mistakes": [
+        "只记住关键词，却不能结合上下文说出它表现的特点。",
+        "把相近词语混淆，或用词语解释课文内容时不够准确。",
+        "忽略关键词所在句子，导致理解偏离课文意思。"
+      ],
+      "core_concept": "课文关键字是能帮助我们理解课文主要内容、人物特点或作者情感的重要词语。学习时要联系词语所在的句子和课文内容，理解词语的意思及其表达作用。",
+      "key_formula": "找关键词 → 联系上下文理解词义 → 结合课文内容说作用",
+      "point": "课文关键字",
+      "tips": "遇到关键字，可用“这个词写了什么？联系上下文是什么意思？它表现了什么特点或情感？”三个问题来思考。"
+    },
+    {
+      "common_mistakes": [
+        "把作品中的人物或故事主人公误认为作者。",
+        "只记住作者姓名，却忽略作者的代表作品和创作特点。"
+      ],
+      "core_concept": "作者常识包括作家的姓名、代表作品及其创作特点。学习课文时，了解作者有助于更好地理解文章内容和表达的情感。",
+      "key_formula": "作者常识＝作者姓名＋代表作品＋创作特点",
+      "point": "作者常识",
+      "tips": "阅读课文时，可以把作者姓名、代表作品和文章内容联系起来记忆；注意区分作者与文中的人物。"
+    },
+    {
+      "common_mistakes": [
+        "只根据单个字猜词义，忽略词语在句子中的具体意思。",
+        "把近义词看成完全相同，忽略它们在语气、用法上的区别。",
+        "解释词语时只换成另一个词，没有结合上下文说明。"
+      ],
+      "core_concept": "词语释义就是说明词语的意思。理解词语时，可以先联系生活经验，再把词语放回句子或短文中，结合上下文、近义词和反义词来判断。遇到多义词，要选择最符合当前语境的意思。",
+      "key_formula": "解释词语＝结合语境理解词语＋用简洁、准确的话说明意思",
+      "point": "词语释义",
+      "tips": "读句子时，先找出词语描写的人、事、物或动作，再留意前后文提供的线索。可以用“这个词在这里表示……”来组织解释。若题目提供选项，先看词语在句子中的用法，再判断哪个意思最合适。"
+    },
+    {
+      "common_mistakes": [
+        "把动物的性格特点和外形特征混为一谈。",
+        "只凭生活经验判断，忽略文章中的动作、叫声和作者描写。",
+        "连线时没有按题目给出的选项顺序核对答案。"
+      ],
+      "core_concept": "阅读写动物的文章时，可以从外形、动作、叫声和与人的相处方式中寻找线索，概括动物在文中表现出的特点。匹配时要依据课文内容，而不只是依据对这种动物的一般印象。",
+      "key_formula": "动物特点＝文章中的具体描写（外形、动作、叫声、习性等）＋根据描写作出的概括",
+      "point": "动物特征匹配",
+      "tips": "先圈出描写动物的关键词，再想这些词表现了什么特点；注意区分题目问的是外形还是性格；匹配后回到原文检查依据。"
+    },
+    {
+      "common_mistakes": [
+        "把意思相近的词语当成反义词，例如“温柔”和“谦卑”。",
+        "只看词语的字面形式，不结合词义判断是否相反。"
+      ],
+      "core_concept": "反义词是意思相反或相对的词。判断时要先理解词义，再找出在同一方面与它相反的词。",
+      "key_formula": "理解词义 → 找出相反或相对的意思 → 配对核对",
+      "point": "反义词连线",
+      "tips": "连线前可以先给词语分类，再逐个配对。例如，“喜欢”与“讨厌”表示相反的态度，“尽职”与“失职”表示相反的工作表现。注意有些词只有放在合适的语境中，才能准确判断其反义词。"
+    },
+    {
+      "common_mistakes": [
+        "只看单个词语的意思，不考虑词语之间的搭配。",
+        "忽略“谁、怎么样、做什么”等句子成分之间的关系。",
+        "排好后没有通读，导致语序不通或表达不完整。"
+      ],
+      "core_concept": "简单句排列，就是根据词语的意思和语法关系，把词语按合适的顺序组合成通顺、完整的句子。排列时可以先找句子的主要内容，再确定修饰词的位置，最后通读检查。",
+      "key_formula": "常见语序：谁（什么）＋怎么样／做什么；修饰词通常放在被修饰的词语前面。",
+      "point": "简单句排列",
+      "tips": "可以先试着找主语和谓语，再把表示时间、地点、程度或特点的词语放到合适位置。读起来不顺时，重新检查词语搭配和句子成分。"
+    },
+    {
+      "common_mistakes": [
+        "把几个动作词简单堆在一起，顺序不符合事情发展的过程。",
+        "只写动作，不交代是谁做的，句子意思不清楚。",
+        "动作之间缺少必要的连接词，读起来不连贯。"
+      ],
+      "core_concept": "动作连贯句是按照事情发展的先后顺序，把同一个人或事物连续做的几个动作写在一起，让读者清楚地知道动作是怎样发生的。",
+      "key_formula": "人物或事物 + 按先后顺序排列的动作 + 合适的连接词。",
+      "point": "动作连贯句",
+      "tips": "例如：小明先拿出画纸，接着拿起画笔，最后画了一只小鸟。动作顺序清楚，读起来连贯。"
     }
   ]
 }

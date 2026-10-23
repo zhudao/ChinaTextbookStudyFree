@@ -4,339 +4,1602 @@
   "unit_number": 4,
   "unit_test": {
     "title": "Unit 4 I have a pen pal 기초 evaluation",
-    "total_score": 100,
+    "total_score": 444,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "Hobbies vocabulary",
-        "question": "'reading stories' 的中文意思是'阅读故事'。",
-        "options": [],
         "answer": "对",
-        "explanation": "reading stories 是本单元的核心短语，意为阅读故事。"
+        "difficulty": 1,
+        "explanation": "reading stories 意为“阅读故事”。",
+        "knowledge_point": "Hobbies vocabulary",
+        "options": [],
+        "question": "'reading stories' 的中文意思是“阅读故事”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "Hobbies vocabulary",
-        "question": "'climbing mountains' 的中文意思是'钓鱼'。",
-        "options": [],
         "answer": "错",
-        "explanation": "climbing mountains 意思是爬山，钓鱼是 fishing。"
-      },
-      {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 1,
-        "knowledge_point": "Grammar: Subject-verb agreement",
-        "question": "在句子 'He likes singing.' 中，likes 是动词 like 的三单形式。",
-        "options": [],
-        "answer": "对",
-        "explanation": "当主语是 He 时，动词 like 需要变为三单形式 likes。"
-      },
-      {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "Grammar: Interrogative sentence",
-        "question": "询问对方的爱好，可以说 'What is your hobby?'。",
-        "options": [],
-        "answer": "对",
-        "explanation": "What is your hobby? 用于询问一个人的爱好。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
+        "explanation": "climbing mountains 意为“爬山”；“钓鱼”是 fishing。",
         "knowledge_point": "Hobbies vocabulary",
-        "question": "'singing' 是 'sing' 的 -ing 形式。",
         "options": [],
-        "answer": "对",
-        "explanation": "like 后面跟动词 -ing 形式表示爱好。"
+        "question": "'climbing mountains' 的中文意思是“钓鱼”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "主语 He 是第三人称单数。在一般现在时中，动词 like 要加 -s，变成 likes。",
+        "knowledge_point": "Grammar: Subject-verb agreement",
+        "options": [],
+        "question": "在句子 'He likes singing.' 中，likes 是动词 like 的三单形式。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "What is your hobby? 是以 what 开头的特殊疑问句，用来询问对方的爱好。",
+        "knowledge_point": "Grammar: Interrogative sentence",
+        "options": [],
+        "question": "询问对方的爱好，可以说 “What is your hobby?”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "singing 是 sing 加 -ing 构成的形式。",
+        "knowledge_point": "Hobbies vocabulary",
+        "options": [],
+        "question": "'singing' 是 'sing' 的 -ing 形式。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "studying",
+        "difficulty": 1,
+        "explanation": "like 后接动词-ing形式表示喜欢做某事，因此 study 要变为 studying。",
         "knowledge_point": "Hobbies",
-        "question": "I like ________ words.",
         "options": [
           "study",
           "studies",
           "studying",
           "studied"
         ],
-        "answer": "studying",
-        "explanation": "like doing sth. 是表达爱好的固定搭配。"
+        "question": "I like ________ English words.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "doing",
         "difficulty": 1,
+        "explanation": "表达“练功夫”常用 do kung fu。like 后描述活动时通常接动词-ing形式，因此用 doing。",
         "knowledge_point": "Vocabulary: hobbies",
-        "question": "Oliver likes ________ Kung Fu.",
         "options": [
           "doing",
           "does",
           "did",
           "do"
         ],
-        "answer": "doing",
-        "explanation": "做武术的表达是 do Kung Fu，在 like 后使用 doing。"
+        "question": "Oliver likes ________ kung fu.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "lives",
         "difficulty": 2,
+        "explanation": "主语 He 是第三人称单数，一般现在时中行为动词 live 要加 -s，变为 lives。",
         "knowledge_point": "Third person singular",
-        "question": "He ________ in Australia.",
         "options": [
           "live",
           "lives",
           "living",
           "is live"
         ],
-        "answer": "lives",
-        "explanation": "主语是 He，动词 live 要用三单形式 lives。"
+        "question": "He ________ in Australia.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "What",
         "difficulty": 1,
+        "explanation": "询问爱好是什么，用疑问代词 what。句意是：“彼得的爱好是什么？”",
         "knowledge_point": "Interrogative pronoun",
-        "question": "—_______ are Peter's hobbies? —He likes reading.",
         "options": [
           "Who",
           "Where",
           "When",
           "What"
         ],
-        "answer": "What",
-        "explanation": "询问爱好用疑问词 What。"
+        "question": "—_______ are Peter's hobbies? —He likes reading.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "pen pal",
         "difficulty": 1,
+        "explanation": "pen pal 意为“笔友”。",
         "knowledge_point": "Translation",
-        "question": "选取 '笔友' 的正确英文表达。",
         "options": [
           "schoolmate",
           "pen pal",
           "teacher",
           "doctor"
         ],
-        "answer": "pen pal",
-        "explanation": "pen pal 意为笔友。"
+        "question": "选取“笔友”的正确英文表达。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "he doesn't",
         "difficulty": 2,
+        "explanation": "Does 开头的一般疑问句，否定回答用 No, 主语 + doesn't。此处主语是 he。",
         "knowledge_point": "Auxiliary verb: does",
-        "question": "—Does he live on a farm? —No, ________.",
         "options": [
           "he does",
           "he is",
           "he doesn't",
           "he isn't"
         ],
-        "answer": "he doesn't",
-        "explanation": "Does 开头的一般疑问句，否定回答用 No, 主语 + doesn't。"
+        "question": "—Does he live on a farm? —No, ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "singing",
         "difficulty": 1,
+        "explanation": "表达喜欢唱歌时，like 后用动词-ing形式：like singing。",
         "knowledge_point": "Hobbies",
-        "question": "My sister likes ________.",
         "options": [
           "sing",
           "singing",
           "sings",
           "is sing"
         ],
-        "answer": "singing",
-        "explanation": "表达爱好使用 like doing。"
+        "question": "My sister likes ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "teaches",
         "difficulty": 2,
+        "explanation": "主语 She 是第三人称单数；teach 以 ch 结尾，一般现在时变为 teaches。",
         "knowledge_point": "Verb form",
-        "question": "She ________ Chinese to her students.",
         "options": [
           "teachs",
           "teach",
           "teaching",
           "teaches"
         ],
-        "answer": "teaches",
-        "explanation": "主语为 She，teach 以 ch 结尾，变三单加 es。"
+        "question": "She ________ Chinese to her students.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "collecting stamps",
         "difficulty": 1,
+        "explanation": "collecting stamps 意为“集邮”，是表示爱好的常见短语。",
         "knowledge_point": "Hobbies",
-        "question": "Choosing '集邮' in English.",
         "options": [
           "collecting stamps",
           "drawing pictures",
           "making kites",
           "playing football"
         ],
-        "answer": "collecting stamps",
-        "explanation": "collecting stamps 意思是集邮。"
+        "question": "Which phrase means “集邮”?",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "Where",
         "difficulty": 2,
+        "explanation": "询问地点用 Where。",
         "knowledge_point": "Question word",
-        "question": "—________ does he live? —He lives in Canberra.",
         "options": [
           "What",
           "Who",
           "Where",
           "How"
         ],
-        "answer": "Where",
-        "explanation": "询问地点用 Where。"
+        "question": "—________ does he live? —He lives in Canberra.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "Hobbies",
-        "question": "He likes playing ________ (足球).",
-        "options": [],
         "answer": "football",
-        "explanation": "踢足球的英文是 play football。"
-      },
-      {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "Third person singular verb",
-        "question": "She ________ (做) her homework in the evening.",
-        "options": [],
-        "answer": "does",
-        "explanation": "主语 She 是三单，do 变形式为 does。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "“踢足球”说 play football；球类运动前通常不加 the。",
         "knowledge_point": "Hobbies",
-        "question": "I like swimming and ________ (远足).",
         "options": [],
-        "answer": "hiking",
-        "explanation": "远足是 hike，在 like 后用 hiking。"
-      },
-      {
-        "id": 19,
+        "question": "He likes playing ________ (足球).",
+        "score": 5,
         "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "Auxiliary verb",
-        "question": "________ (助动词) he go to work by bus?",
-        "options": [],
+        "id": 16
+      },
+      {
         "answer": "does",
-        "explanation": "主语是 he，一般疑问句句首用助动词 does。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "Vocabulary: activities",
-        "question": "请将下列英语短语与对应的中文意思匹配。",
-        "options": [
-          "flying kites",
-          "cooking food",
-          "dancing",
-          "drawing",
-          "烹饪",
-          "放风筝",
-          "绘画",
-          "跳舞"
-        ],
-        "answer": "A-2,B-1,C-4,D-3",
-        "explanation": "A-flying kites(放风筝), B-cooking food(烹饪), C-dancing(跳舞), D-drawing(绘画)"
-      },
-      {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "Action phrases",
-        "question": "匹配下列动作描述与翻译。",
-        "options": [
-          "write an email",
-          "go hiking",
-          "climb mountains",
-          "watch TV",
-          "去远足",
-          "写邮件",
-          "看电视",
-          "爬山"
-        ],
-        "answer": "A-2,B-1,C-4,D-3",
-        "explanation": "A-写邮件, B-去远足, C-爬山, D-看电视"
+        "explanation": "主语 She 是第三人称单数，do 的第三人称单数形式是 does。",
+        "knowledge_point": "Third person singular verb",
+        "options": [],
+        "question": "She ________ (做) her homework in the evening.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "hiking",
         "difficulty": 1,
+        "explanation": "hike 意为“远足”，在 like 后用动词-ing形式 hiking。",
+        "knowledge_point": "Hobbies",
+        "options": [],
+        "question": "I like swimming and ________ (远足).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "does",
+        "difficulty": 2,
+        "explanation": "主语是 he，一般现在时的一般疑问句用 does 开头；助动词 does 后的实义动词 go 用原形。",
+        "knowledge_point": "Auxiliary verb",
+        "options": [],
+        "question": "________ (助动词) he go to work by bus?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "放风筝",
+        "difficulty": 1,
+        "explanation": "“flying kites”的意思是“放风筝”。",
+        "knowledge_point": "Vocabulary: activities",
+        "options": [
+          "放风筝",
+          "烹饪食物",
+          "跳舞",
+          "绘画"
+        ],
+        "question": "“flying kites”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
+      },
+      {
+        "answer": "写邮件",
+        "difficulty": 2,
+        "explanation": "write an email 的意思是“写邮件”。go hiking 是“去远足”，climb mountains 是“爬山”，watch TV 是“看电视”。",
+        "knowledge_point": "Action phrases",
+        "options": [
+          "写邮件",
+          "去远足",
+          "爬山",
+          "看电视"
+        ],
+        "question": "“write an email”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 21
+      },
+      {
+        "answer": "He,likes,reading,stories",
+        "difficulty": 1,
+        "explanation": "陈述句语序为主语+谓语+其他部分。主语He是第三人称单数，所以用likes；like后接动作时用reading。",
         "knowledge_point": "Hobbies sentence",
-        "question": "连词成句：[likes, stories, reading, He]",
         "options": [
           "likes",
           "stories",
           "reading",
           "He"
         ],
-        "answer": "He,likes,reading,stories",
-        "explanation": "陈述句语序为主+谓+宾。动词用likes。"
+        "question": "连词成句：[likes, stories, reading, He]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "What are his hobbies?",
         "difficulty": 3,
+        "explanation": "特殊疑问句中，疑问词 What 放句首；接 be 动词 are，再接主语 his hobbies。注意首字母大写并在句末加问号。",
         "knowledge_point": "Question sentence",
-        "question": "连词成句：[hobbies, are, What, his]",
         "options": [
           "hobbies",
           "are",
           "What",
           "his"
         ],
-        "answer": "What,are,his,hobbies",
-        "explanation": "特殊疑问句语序：疑问词+be+物主代词+名词。"
+        "question": "连词成句：[hobbies, are, What, his]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "询问“你的爱好是什么？”可以说 What are your hobbies?",
+        "knowledge_point": "个人兴趣爱好表达 (Hobbies)",
+        "options": [
+          "Where are your hobbies?",
+          "What are your hobbies?",
+          "When are your hobbies?",
+          "Who are your hobbies?"
+        ],
+        "question": "“你的爱好是什么？”用英语怎么说？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "reading",
+        "difficulty": 1,
+        "explanation": "like 后面可以接动词-ing，read 要变为 reading。",
+        "knowledge_point": "个人兴趣爱好表达 (Hobbies)",
+        "options": [],
+        "question": "填空：I like ______ (read) books.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 25
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "介绍第三人称单数的爱好时，like 要加-s，因此 She likes dancing. 正确。",
+        "knowledge_point": "个人兴趣爱好表达 (Hobbies)",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：She likes dancing. 表示“她喜欢跳舞。”",
+        "score": 1,
+        "type": "true_false",
+        "id": 26
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "play 常用于球类运动；play 后直接接 football，不加 the。",
+        "knowledge_point": "个人兴趣爱好表达 (Hobbies)",
+        "options": [
+          "play the football",
+          "play football",
+          "playing the football",
+          "plays the football"
+        ],
+        "question": "选出正确的表达：“踢足球”",
+        "score": 1,
+        "type": "choice",
+        "id": 27
+      },
+      {
+        "answer": "My hobby is swimming.",
+        "difficulty": 2,
+        "explanation": "可以用 My hobby is + 动词-ing 表达“我的爱好是……”。swim 的-ing形式是 swimming。",
+        "knowledge_point": "个人兴趣爱好表达 (Hobbies)",
+        "options": [],
+        "question": "用英语写一句话：我的爱好是游泳。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "She likes drawing.",
+        "difficulty": 2,
+        "explanation": "介绍第三人称单数 She 的爱好时，like 要加-s；draw 的-ing形式是 drawing。",
+        "knowledge_point": "个人兴趣爱好表达 (Hobbies)",
+        "options": [],
+        "question": "连词成句：likes / drawing / She",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "watches",
+        "difficulty": 1,
+        "explanation": "主语 Lucy 是第三人称单数；watch 以 ch 结尾，变为第三人称单数时加 -es。",
+        "knowledge_point": "一般现在时第三人称单数陈述",
+        "options": [],
+        "question": "用括号中动词的正确形式填空：Lucy ___ (watch) TV after dinner.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 30
+      },
+      {
+        "answer": "studies",
+        "difficulty": 2,
+        "explanation": "主语 My brother 是第三人称单数。study 以辅音字母加 y 结尾，变 y 为 i 再加 -es，写作 studies。",
+        "knowledge_point": "一般现在时第三人称单数陈述",
+        "options": [],
+        "question": "用括号中动词的正确形式填空：My brother ___ (study) English every day.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 31
+      },
+      {
+        "answer": "goes",
+        "difficulty": 1,
+        "explanation": "主语 The bus 是第三人称单数；go 以 o 结尾，第三人称单数形式加 -es，写作 goes。",
+        "knowledge_point": "一般现在时第三人称单数陈述",
+        "options": [],
+        "question": "用括号中动词的正确形式填空：The bus ___ (go) to the park on Sundays.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "主语 Amy 是第三人称单数，read 是一般动词，需加 -s，故选 reads。",
+        "knowledge_point": "一般现在时第三人称单数陈述",
+        "options": [
+          "A. read",
+          "B. reads",
+          "C. reading",
+          "D. is read"
+        ],
+        "question": "选出正确句子：",
+        "score": 1,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "False",
+        "difficulty": 1,
+        "explanation": "句子的主语是 He，属于第三人称单数；普通动词 like 要加 -s，正确句子是 He likes apples.。",
+        "knowledge_point": "一般现在时第三人称单数陈述",
+        "options": [],
+        "question": "判断正误：He like apples.",
+        "score": 1,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "The classroom 是第三人称单数，be 动词用 is。",
+        "knowledge_point": "一般现在时第三人称单数陈述",
+        "options": [],
+        "question": "用括号中动词的正确形式填空：The classroom ___ (be) clean.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "询问年龄用“How old”，句中有be动词is，放在主语you之前。",
+        "knowledge_point": "询问他人信息的特殊疑问句",
+        "options": [
+          "What old are you?",
+          "How old are you?",
+          "How are you old?",
+          "How age are you?"
+        ],
+        "question": "想询问对方的年龄，应该说：",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "Where does your uncle work?",
+        "difficulty": 2,
+        "explanation": "询问地点用Where。主语your uncle是第三人称单数，一般现在时借助does，实义动词work用原形。",
+        "knowledge_point": "询问他人信息的特殊疑问句",
+        "options": [],
+        "question": "连词成句：your uncle / where / work / does",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 37
+      },
+      {
+        "answer": "T",
+        "difficulty": 1,
+        "explanation": "询问某人什么时候起床，用When开头；主语是he，一般现在时借助does，后接动词原形get up。",
+        "knowledge_point": "询问他人信息的特殊疑问句",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "“When does he get up?”可以用来询问“他什么时候起床吗？”",
+        "score": 1,
+        "type": "true_false",
+        "id": 38
+      },
+      {
+        "answer": "Whose",
+        "difficulty": 2,
+        "explanation": "询问物品属于谁，用Whose；后接名词coat，再用is和主语this coat构成问句。",
+        "knowledge_point": "询问他人信息的特殊疑问句",
+        "options": [],
+        "question": "_____ coat is this? It’s Lily’s.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 39
+      },
+      {
+        "answer": "Who plays the piano after school?",
+        "difficulty": 3,
+        "explanation": "Who在句中作主语，直接接谓语动词。一般现在时中，Who按第三人称单数处理，所以play要变为plays，不加does。",
+        "knowledge_point": "询问他人信息的特殊疑问句",
+        "options": [],
+        "question": "用Who改写句子，询问“谁放学后弹钢琴”：Amy plays the piano after school.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "询问数量用How many，后接可数名词复数books。主语your sister是第三人称单数，使用does，实义动词have用原形。",
+        "knowledge_point": "询问他人信息的特殊疑问句",
+        "options": [
+          "How much books does your sister have?",
+          "How many books does your sister have?",
+          "How many books do your sister have?",
+          "How many books your sister has?"
+        ],
+        "question": "想询问“你姐姐有多少本书？”，选择正确的句子。",
+        "score": 1,
+        "type": "choice",
+        "id": 41
+      },
+      {
+        "answer": "fishing",
+        "difficulty": 1,
+        "explanation": "fishing 意为“钓鱼”，是表示爱好的常见词汇。",
+        "knowledge_point": "Hobbies vocabulary",
+        "options": [],
+        "question": "“钓鱼”用英语怎么说？填入一个单词：______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 42
+      },
+      {
+        "answer": "I like reading stories.",
+        "difficulty": 2,
+        "explanation": "表达“我喜欢阅读故事”可用 I like reading stories.；like 后接动词 -ing 形式。",
+        "knowledge_point": "Hobbies vocabulary",
+        "options": [],
+        "question": "用英语写一句话：我喜欢阅读故事。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 43
+      },
+      {
+        "answer": "dancing",
+        "difficulty": 2,
+        "explanation": "like 后接动词-ing 形式。dance 变为 dancing 时去掉词尾不发音的 e，因此完整句子是 “I like dancing.”",
+        "knowledge_point": "Hobbies vocabulary",
+        "options": [
+          "dance",
+          "dancing",
+          "dances",
+          "to dance"
+        ],
+        "question": "选择正确的形式填空：I like ______.（我喜欢跳舞。）",
+        "score": 3,
+        "type": "choice",
+        "id": 44
+      },
+      {
+        "answer": "reads",
+        "difficulty": 1,
+        "explanation": "主语 Lily 是第三人称单数，一般现在时中动词 read 要加 -s，因此填 reads。",
+        "knowledge_point": "Grammar: Subject-verb agreement",
+        "options": [],
+        "question": "用括号中动词的正确形式填空：Lily ______ (read) a book every evening.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 45
+      },
+      {
+        "answer": "watch",
+        "difficulty": 1,
+        "explanation": "主语 They 是复数，一般现在时中行为动词用原形，因此填 watch。",
+        "knowledge_point": "Grammar: Subject-verb agreement",
+        "options": [],
+        "question": "用括号中动词的正确形式填空：They ______ (watch) cartoons after school.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 46
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "主语 My brother 是第三人称单数，动词 go 要加 -es，故选 goes。",
+        "knowledge_point": "Grammar: Subject-verb agreement",
+        "options": [
+          "A. goes",
+          "B. go",
+          "C. going",
+          "D. are go"
+        ],
+        "question": "选择正确的词填空：My brother ______ to school by bus.",
+        "score": 2,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "are",
+        "difficulty": 2,
+        "explanation": "You 和 Jack 由 and 连接，表示两个人，作复数主语，因此 be 动词用 are。",
+        "knowledge_point": "Grammar: Subject-verb agreement",
+        "options": [],
+        "question": "用正确的 be 动词填空：You and Jack ______ good friends.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 48
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "“The dogs”是复数主语，应搭配 are。原句应改为 “The dogs are hungry.”",
+        "knowledge_point": "Grammar: Subject-verb agreement",
+        "options": [],
+        "question": "判断句子是否正确：The dogs is hungry.",
+        "score": 2,
+        "type": "true_false",
+        "id": 49
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "一般疑问句可以用 Yes 或 No 回答。Are you a student? 的肯定回答是 Yes, I am.",
+        "knowledge_point": "Grammar: Interrogative sentence",
+        "options": [
+          "A. Yes, I do.",
+          "B. Yes, I am.",
+          "C. Yes, I can."
+        ],
+        "question": "选择对 “Are you a student?” 的正确回答。",
+        "score": 2,
+        "type": "choice",
+        "id": 50
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "询问地点用 where。特殊疑问词放在句首，因此完整句子是 Where do you live?",
+        "knowledge_point": "Grammar: Interrogative sentence",
+        "options": [],
+        "question": "填入合适的疑问词：________ do you live?",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 51
+      },
+      {
+        "answer": "Does",
+        "difficulty": 2,
+        "explanation": "主语 Amy 是第三人称单数，一般现在时的一般疑问句要用 Does 开头，后面的实义动词用原形 read。",
+        "knowledge_point": "Grammar: Interrogative sentence",
+        "options": [],
+        "question": "填入合适的助动词：________ Amy read books every day?",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "What is your name?",
+        "difficulty": 2,
+        "explanation": "询问姓名用 What。特殊疑问词放在句首，接 be 动词和主语，句末用问号。",
+        "knowledge_point": "Grammar: Interrogative sentence",
+        "options": [],
+        "question": "将词语排列成正确的疑问句：your / name / is / what",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "句中有 be 动词 is，构成一般疑问句时把 is 放在主语 Tom 前面，因此应为 Is Tom happy?",
+        "knowledge_point": "Grammar: Interrogative sentence",
+        "options": [
+          "A. Does Tom happy?",
+          "B. Tom is happy?",
+          "C. Is Tom happy?"
+        ],
+        "question": "选择正确的一般疑问句。",
+        "score": 2,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "likes",
+        "difficulty": 1,
+        "explanation": "主语 Amy 是第三人称单数，因此用 likes。表达爱好时，后面的 read 用动词-ing形式 reading。",
+        "knowledge_point": "Hobbies",
+        "options": [],
+        "question": "Amy ________ reading storybooks. (like)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 55
+      },
+      {
+        "answer": "playing",
+        "difficulty": 1,
+        "explanation": "play chess 表示“下棋”；like 后描述活动时用动词-ing形式，所以填 playing。",
+        "knowledge_point": "Vocabulary: hobbies",
+        "options": [
+          "playing",
+          "going",
+          "doing",
+          "making"
+        ],
+        "question": "Mia likes ________ chess after school.",
+        "score": 5,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "go",
+        "difficulty": 1,
+        "explanation": "go swimming 是“去游泳”的常见表达。句子主语是 I，因此用 go。",
+        "knowledge_point": "Vocabulary: hobbies",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "does"
+        ],
+        "question": "I often ________ swimming on Sundays.",
+        "score": 5,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "drawing",
+        "difficulty": 1,
+        "explanation": "draw 表示“画画”，drawing 表示“画画这项活动”。like 后可接动词-ing形式。",
+        "knowledge_point": "Vocabulary: hobbies",
+        "options": [],
+        "question": "My hobby is ________. (draw)",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 58
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "singing 的意思是“唱歌”，所以“She likes singing.”表示“她喜欢唱歌”。",
+        "knowledge_point": "Vocabulary: hobbies",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“She likes singing.”的意思是“她喜欢唱歌”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 59
+      },
+      {
+        "answer": "playing basketball",
+        "difficulty": 2,
+        "explanation": "“打篮球”用 play basketball；在 like 后描述活动时用动词-ing形式，故为 playing basketball。",
+        "knowledge_point": "Vocabulary: hobbies",
+        "options": [],
+        "question": "用英语写出“打篮球”这项爱好，并补全句子：I like ________.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "Lily studies English every day.",
+        "difficulty": 2,
+        "explanation": "主语 Lily 是第三人称单数，动词 study 以辅音字母加 y 结尾，要把 y 改为 i 再加 -es，写作 studies。",
+        "knowledge_point": "Third person singular",
+        "options": [
+          "Lily study English every day.",
+          "Lily studies English every day.",
+          "Lily studys English every day.",
+          "Lily studying English every day."
+        ],
+        "question": "选择正确的句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "watches",
+        "difficulty": 2,
+        "explanation": "主语 My brother 是第三人称单数；watch 以 -ch 结尾，通常加 -es，变为 watches。",
+        "knowledge_point": "Third person singular",
+        "options": [
+          "watch",
+          "watchs",
+          "watches",
+          "watching"
+        ],
+        "question": "My brother ________ TV after dinner.",
+        "score": 5,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "doesn't like",
+        "difficulty": 3,
+        "explanation": "主语 Emma 是第三人称单数，否定句使用 doesn’t + 动词原形，因此填 doesn’t like，不能写 doesn’t likes。",
+        "knowledge_point": "Third person singular",
+        "options": [
+          "doesn't like",
+          "doesn't likes",
+          "don't like",
+          "not likes"
+        ],
+        "question": "Emma ________ coffee.",
+        "score": 5,
+        "type": "choice",
+        "id": 63
+      },
+      {
+        "answer": "has",
+        "difficulty": 2,
+        "explanation": "主语 The dog 是第三人称单数；have 的第三人称单数形式是不规则变化 has。",
+        "knowledge_point": "Third person singular",
+        "options": [
+          "have",
+          "has",
+          "haves",
+          "having"
+        ],
+        "question": "The dog ________ a long tail.",
+        "score": 5,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "Does Tom walk to school every day?",
+        "difficulty": 3,
+        "explanation": "一般现在时的一般疑问句中，第三人称单数使用 Does 开头；助动词后面的行为动词用原形 walk。",
+        "knowledge_point": "Third person singular",
+        "options": [
+          "Does Tom walks to school every day?",
+          "Does Tom walk to school every day?",
+          "Do Tom walk to school every day?",
+          "Is Tom walk to school every day?"
+        ],
+        "question": "选择正确的一般疑问句。",
+        "score": 5,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "Who",
+        "difficulty": 1,
+        "explanation": "询问人的身份用 who。句意是：“谁是你的英语老师？”",
+        "knowledge_point": "Interrogative pronoun",
+        "options": [
+          "Who",
+          "What",
+          "Whose",
+          "Which"
+        ],
+        "question": "_______ is your English teacher?",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "Whose",
+        "difficulty": 1,
+        "explanation": "询问物品属于谁，用 whose。句意是：“这是谁的书包？”",
+        "knowledge_point": "Interrogative pronoun",
+        "options": [
+          "Who",
+          "Whose",
+          "What",
+          "Where"
+        ],
+        "question": "_______ is this schoolbag?",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "Which",
+        "difficulty": 2,
+        "explanation": "句中给出了两本书这一选择范围，因此用 which 询问“哪一本”。",
+        "knowledge_point": "Interrogative pronoun",
+        "options": [
+          "What",
+          "Who",
+          "Which",
+          "Whose"
+        ],
+        "question": "_______ is your book, the red one or the blue one?",
+        "score": 5,
+        "type": "choice",
+        "id": 68
+      },
+      {
+        "answer": "What",
+        "difficulty": 1,
+        "explanation": "疑问代词 what 在句中作主语，询问发生了什么。句意是：“出了什么事？”",
+        "knowledge_point": "Interrogative pronoun",
+        "options": [],
+        "question": "_______ happened yesterday?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 69
+      },
+      {
+        "answer": "Who",
+        "difficulty": 2,
+        "explanation": "疑问代词 who 作介词 for 的宾语，询问对象是人。句意是：“你在等谁？”",
+        "knowledge_point": "Interrogative pronoun",
+        "options": [],
+        "question": "_______ are you waiting for?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 70
+      },
+      {
+        "answer": "我喜欢读书。",
+        "difficulty": 1,
+        "explanation": "I 意为“我”，like reading 意为“喜欢读书”，整句可译为“我喜欢读书。”",
+        "knowledge_point": "Translation",
+        "options": [],
+        "question": "把句子 “I like reading.” 翻译成中文。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 71
+      },
+      {
+        "answer": "She is my friend.",
+        "difficulty": 2,
+        "explanation": "“她”译为 She，“是”译为 is，“我的朋友”译为 my friend。",
+        "knowledge_point": "Translation",
+        "options": [],
+        "question": "把“她是我的朋友。”翻译成英文。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 72
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“早上好”通常译为 Good morning。A 是“晚安”，C 是“再见”，D 是“谢谢”。",
+        "knowledge_point": "Translation",
+        "options": [
+          "Good night.",
+          "Good morning.",
+          "Goodbye.",
+          "Thank you."
+        ],
+        "question": "“早上好”对应的英文是哪一项？",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "I have two cats.",
+        "difficulty": 2,
+        "explanation": "“我有”译为 I have，“两只猫”译为 two cats。数量大于一时，名词 cat 要用复数 cats。",
+        "knowledge_point": "Translation",
+        "options": [],
+        "question": "把“我有两只猫。”翻译成英文。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 74
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "句子表达的是“他每天步行去学校。”逐词理解后，再按自然的中文语序表达即可。",
+        "knowledge_point": "Translation",
+        "options": [],
+        "question": "判断正误： “He walks to school every day.” 可以翻译为“他每天步行去学校。”",
+        "score": 5,
+        "type": "true_false",
+        "id": 75
+      },
+      {
+        "answer": "Does",
+        "difficulty": 1,
+        "explanation": "主语 Lily 是第三人称单数，构成一般疑问句时用 Does；后面的动词用原形 like。",
+        "knowledge_point": "Auxiliary verb: does",
+        "options": [],
+        "question": "______ Lily like apples?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 76
+      },
+      {
+        "answer": "doesn't",
+        "difficulty": 2,
+        "explanation": "主语 My brother 是第三人称单数，否定句用 doesn't；doesn't 后面的动词用原形 play。",
+        "knowledge_point": "Auxiliary verb: does",
+        "options": [],
+        "question": "My brother ________ play basketball on Mondays.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 77
+      },
+      {
+        "answer": "Does your mother cook dinner every day?",
+        "difficulty": 2,
+        "explanation": "your mother 是第三人称单数。把一般现在时句子改为一般疑问句时，用 Does 放在主语前，动词 cooks 改为原形 cook。",
+        "knowledge_point": "Auxiliary verb: does",
+        "options": [],
+        "question": "将句子改为一般疑问句：Your mother cooks dinner every day.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 78
+      },
+      {
+        "answer": "does",
+        "difficulty": 1,
+        "explanation": "主语 The dog 是第三人称单数，简短回答中用 does。",
+        "knowledge_point": "Auxiliary verb: does",
+        "options": [],
+        "question": "—Does the dog run fast? —Yes, it ________.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 79
+      },
+      {
+        "answer": "Does",
+        "difficulty": 2,
+        "explanation": "当句子用 does 提问时，后面的实义动词要用原形，因此应说 Does Anna go，而不是 Does Anna goes。",
+        "knowledge_point": "Auxiliary verb: does",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "question": "______ Anna go to school by bus?",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "watches",
+        "difficulty": 2,
+        "explanation": "主语 My brother 是第三人称单数；watch 以 ch 结尾，加 -es 变为 watches。",
+        "knowledge_point": "Verb form",
+        "options": [
+          "watch",
+          "watchs",
+          "watches",
+          "watching"
+        ],
+        "question": "My brother ________ TV after dinner.",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "study",
+        "difficulty": 2,
+        "explanation": "主语 They 不是第三人称单数，一般现在时中使用动词原形 study。",
+        "knowledge_point": "Verb form",
+        "options": [
+          "studies",
+          "study",
+          "studys",
+          "studying"
+        ],
+        "question": "They ________ English at school.",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "flies",
+        "difficulty": 3,
+        "explanation": "主语 The bird 是第三人称单数。fly 以辅音字母加 y 结尾，变 y 为 i 再加 -es，成为 flies。",
+        "knowledge_point": "Verb form",
+        "options": [
+          "flys",
+          "flies",
+          "fly",
+          "flying"
+        ],
+        "question": "The bird ________ in the sky.",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "Does",
+        "difficulty": 3,
+        "explanation": "主语 your father 是第三人称单数，疑问句用 Does 开头；助动词后面的动词用原形 like。",
+        "knowledge_point": "Verb form",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "question": "________ your father like apples?",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "doesn’t",
+        "difficulty": 3,
+        "explanation": "主语 Lily 是第三人称单数，否定句用 doesn’t；doesn’t 后接动词原形 eat。",
+        "knowledge_point": "Verb form",
+        "options": [
+          "don’t",
+          "doesn’t",
+          "isn’t",
+          "aren’t"
+        ],
+        "question": "Lily ________ eat meat.",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "When",
+        "difficulty": 1,
+        "explanation": "答语“On Sunday”表示时间，因此用 When 询问“什么时候”。",
+        "knowledge_point": "Question word",
+        "options": [
+          "Who",
+          "When",
+          "Where",
+          "Why"
+        ],
+        "question": "—________ do you play basketball? —On Sunday.",
+        "score": 5,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "Who",
+        "difficulty": 1,
+        "explanation": "答语“my sister”指人物，因此用 Who 询问“谁”。",
+        "knowledge_point": "Question word",
+        "options": [
+          "What",
+          "Who",
+          "When",
+          "How"
+        ],
+        "question": "—________ is that girl? —She is my sister.",
+        "score": 5,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "Why",
+        "difficulty": 2,
+        "explanation": "答语说明了原因（因为我累了），所以用 Why 询问“为什么”。",
+        "knowledge_point": "Question word",
+        "options": [
+          "Where",
+          "How",
+          "Why",
+          "Who"
+        ],
+        "question": "—________ are you going to bed early? —Because I am tired.",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "What",
+        "difficulty": 2,
+        "explanation": "询问“你最喜欢的颜色是什么”用 What。",
+        "knowledge_point": "Question word",
+        "options": [
+          "What",
+          "When",
+          "Where",
+          "Who"
+        ],
+        "question": "________ is your favourite colour?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 89
+      },
+      {
+        "answer": "How",
+        "difficulty": 2,
+        "explanation": "答语“It is fine”描述天气状况，因此用 How 询问“怎么样”。",
+        "knowledge_point": "Question word",
+        "options": [],
+        "question": "—________ is the weather today? —It is fine.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 90
+      },
+      {
+        "answer": "plays",
+        "difficulty": 1,
+        "explanation": "主语 Tom 是第三人称单数，play 通常直接加 -s，变为 plays。",
+        "knowledge_point": "Third person singular verb",
+        "options": [],
+        "question": "Tom ________ basketball after school. (play)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 91
+      },
+      {
+        "answer": "watches",
+        "difficulty": 2,
+        "explanation": "主语 My sister 是第三人称单数，watch 以 ch 结尾，加 -es 变为 watches。",
+        "knowledge_point": "Third person singular verb",
+        "options": [],
+        "question": "My sister ________ TV in the evening. (watch)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "studies",
+        "difficulty": 2,
+        "explanation": "主语 Lucy 是第三人称单数；study 以辅音字母加 y 结尾，去掉 y 加 -ies，变为 studies。",
+        "knowledge_point": "Third person singular verb",
+        "options": [],
+        "question": "Lucy ________ English every day. (study)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "doesn't like",
+        "difficulty": 2,
+        "explanation": "主语 He 是第三人称单数，否定句用 doesn’t；doesn’t 后面的行为动词用原形 like。",
+        "knowledge_point": "Third person singular verb",
+        "options": [],
+        "question": "He ________ ________ bananas. (不喜欢)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 94
+      },
+      {
+        "answer": "Does; go",
+        "difficulty": 3,
+        "explanation": "一般疑问句以 Does 开头；主语为第三人称单数时，助动词后面的行为动词用原形 go。",
+        "knowledge_point": "Third person singular verb",
+        "options": [],
+        "question": "________ your father ________ to work by bus? (go)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 95
+      },
+      {
+        "answer": "Do",
+        "difficulty": 1,
+        "explanation": "主语是 you，一般现在时的一般疑问句用 Do 开头。",
+        "knowledge_point": "Auxiliary verb",
+        "options": [],
+        "question": "________ you like apples?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 96
+      },
+      {
+        "answer": "does not",
+        "difficulty": 2,
+        "explanation": "主语是单数第三人称 Amy，一般现在时的否定句用 does not；like 保持原形。",
+        "knowledge_point": "Auxiliary verb",
+        "options": [],
+        "question": "Amy ________ ________ (不) watch TV in the morning.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 97
+      },
+      {
+        "answer": "Did",
+        "difficulty": 2,
+        "explanation": "句中有 yesterday，表示过去；一般过去时的一般疑问句用 Did 开头，后面的 play 用原形。",
+        "knowledge_point": "Auxiliary verb",
+        "options": [],
+        "question": "________ they ________ (play) basketball yesterday?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 98
+      },
+      {
+        "answer": "does",
+        "difficulty": 2,
+        "explanation": "主语是单数第三人称 Tom，一般现在时的否定句用 does not；have 用原形。",
+        "knowledge_point": "Auxiliary verb",
+        "options": [],
+        "question": "Tom ________ not ________ (have) a pet.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "is",
+        "difficulty": 2,
+        "explanation": "主语是 she，be 动词用 is；is 与现在分词 reading 一起构成现在进行时。",
+        "knowledge_point": "Auxiliary verb",
+        "options": [],
+        "question": "She ________ reading a book now.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 100
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“dancing”表示“跳舞”；“drawing”表示“绘画”。",
+        "knowledge_point": "Vocabulary: activities",
+        "options": [
+          "烹饪",
+          "跳舞",
+          "放风筝",
+          "绘画"
+        ],
+        "question": "“dancing”是什么意思？",
+        "score": 1,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "flying kites",
+        "difficulty": 1,
+        "explanation": "“放风筝”用英语表达为“flying kites”。",
+        "knowledge_point": "Vocabulary: activities",
+        "options": [],
+        "question": "根据中文提示写出英语短语：放风筝。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 102
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“cooking food”表示烹饪食物，也就是做饭。",
+        "knowledge_point": "Vocabulary: activities",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“cooking food”的意思是“烹饪食物”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 103
+      },
+      {
+        "answer": "drawing",
+        "difficulty": 1,
+        "explanation": "“drawing”表示绘画或画画。",
+        "knowledge_point": "Vocabulary: activities",
+        "options": [],
+        "question": "请填入表示“绘画”的英语活动词：________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "句子结构为“主语 + be动词 + 动词-ing”。“跳舞”是 dancing，因此应说“She is dancing.”",
+        "knowledge_point": "Vocabulary: activities",
+        "options": [
+          "flying kites",
+          "cooking food",
+          "dancing",
+          "drawing"
+        ],
+        "question": "选择合适的词完成句子：She is ________.（她正在跳舞。）",
+        "score": 1,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "climb mountains",
+        "difficulty": 1,
+        "explanation": "“爬山”可以说 climb mountains。climb 表示“攀登”，mountains 表示“山”。",
+        "knowledge_point": "Action phrases",
+        "options": [],
+        "question": "“爬山”用英语怎么说？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 106
+      },
+      {
+        "answer": "write an email",
+        "difficulty": 1,
+        "explanation": "write an email 的意思是“写一封邮件”或“写邮件”。",
+        "knowledge_point": "Action phrases",
+        "options": [],
+        "question": "补全短语：write ___ email（写邮件）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "go hiking",
+        "difficulty": 2,
+        "explanation": "go hiking 表示“去远足”。表示参加远足活动时，常用 go hiking。",
+        "knowledge_point": "Action phrases",
+        "options": [
+          "A. go hiking",
+          "B. watch TV",
+          "C. write an email"
+        ],
+        "question": "哪个短语的意思是“去远足”？",
+        "score": 2,
+        "type": "choice",
+        "id": 108
+      },
+      {
+        "answer": "watch",
+        "difficulty": 2,
+        "explanation": "固定搭配是 watch TV，意思是“看电视”。",
+        "knowledge_point": "Action phrases",
+        "options": [],
+        "question": "选择合适的词填空：I often ___ TV after dinner.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "climb mountains 的意思是“爬山”，所以这个句子说法正确。",
+        "knowledge_point": "Action phrases",
+        "options": [],
+        "question": "判断正误：Climb mountains 的意思是“爬山”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 110
+      },
+      {
+        "answer": "I like playing football.",
+        "difficulty": 1,
+        "explanation": "主语I后用like；表示“踢足球”这一爱好时，play变为playing。",
+        "knowledge_point": "Hobbies sentence",
+        "options": [],
+        "question": "连词成句：[football, playing, like, I]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "likes",
+        "difficulty": 1,
+        "explanation": "主语She是第三人称单数，描述她喜欢做某事时，like要变为likes。",
+        "knowledge_point": "Hobbies sentence",
+        "options": [],
+        "question": "填空：She _____ drawing pictures.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 112
+      },
+      {
+        "answer": "They like collecting stamps.",
+        "difficulty": 2,
+        "explanation": "主语They后用like；collect表示爱好时用动词-ing形式collecting。",
+        "knowledge_point": "Hobbies sentence",
+        "options": [],
+        "question": "连词成句：[stamps, collecting, like, They]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "主语Tom是第三人称单数，因此用likes；like后接动作时，用动词-ing形式reading。",
+        "knowledge_point": "Hobbies sentence",
+        "options": [
+          "Tom like read books.",
+          "Tom likes reading books.",
+          "Tom likes read books."
+        ],
+        "question": "选择正确的句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 114
+      },
+      {
+        "answer": "My hobby is swimming.",
+        "difficulty": 2,
+        "explanation": "可以用“My hobby is + 动词-ing形式”描述爱好，因此swim要变为swimming。",
+        "knowledge_point": "Hobbies sentence",
+        "options": [],
+        "question": "用提示词写出完整句子：My hobby / swim",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "Is he your brother?",
+        "difficulty": 2,
+        "explanation": "这是一般疑问句，be 动词 Is 放在主语 he 前面，句末用问号。",
+        "knowledge_point": "Question sentence",
+        "options": [
+          "he",
+          "your",
+          "Is",
+          "brother"
+        ],
+        "question": "连词成句：[he, your, Is, brother]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "Where is your school?",
+        "difficulty": 2,
+        "explanation": "询问地点用 Where。特殊疑问词放句首，后接 is，再接主语 your school。",
+        "knowledge_point": "Question sentence",
+        "options": [
+          "your",
+          "school",
+          "Where",
+          "is"
+        ],
+        "question": "连词成句：[your, school, Where, is]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "Who is your English teacher?",
+        "difficulty": 3,
+        "explanation": "Who 在这里询问人物并作主语，后接 is 和表语 your English teacher。",
+        "knowledge_point": "Question sentence",
+        "options": [
+          "your",
+          "Who",
+          "English",
+          "teacher",
+          "is"
+        ],
+        "question": "连词成句：[your, Who, English, teacher, is]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "When do you get up?",
+        "difficulty": 3,
+        "explanation": "一般现在时的特殊疑问句，主语是 you，谓语是实义动词 get up，因此用助动词 do。语序为 When + do + you + 动词原形。",
+        "knowledge_point": "Question sentence",
+        "options": [
+          "you",
+          "When",
+          "get",
+          "do",
+          "up"
+        ],
+        "question": "连词成句：[you, When, get, do, up]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "How are you?",
+        "difficulty": 1,
+        "explanation": "询问身体状况或近况常用 How are you? 疑问词 How 在句首，接 are 和主语 you。",
+        "knowledge_point": "Question sentence",
+        "options": [
+          "are",
+          "How",
+          "you"
+        ],
+        "question": "连词成句：[are, How, you]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
       }
     ]
   },
@@ -708,6 +1971,233 @@
         "What is his hobbies? (hobbies 是复数需用 are)"
       ],
       "tips": "助动词 Does 就像照妖镜，它一出来，动词的三单形式就要变回原形。"
+    },
+    {
+      "common_mistakes": [
+        "谈论爱好时，表示“喜欢做某事”常用 like/love/enjoy + 动词-ing，不说 like do（表示一般习惯时也可用 like to do）。",
+        "询问兴趣可用 What are your hobbies? 或 What do you like doing?；回答时用 My hobby is... 或 I like...。",
+        "第三人称单数作主语时，动词要相应变化：He likes reading.；be 动词也要用 is：Her hobby is dancing.",
+        "play 常用于球类或游戏，play basketball；乐器前通常加 the，play the piano。"
+      ],
+      "core_concept": "用简单的英语询问和表达自己或他人的兴趣爱好，并说明喜欢的活动。",
+      "key_formula": "What are your hobbies? — I like/love/enjoy + 动词-ing.；What does he/she like doing? — He/She likes + 动词-ing.；My hobby is + 动词-ing/名词.",
+      "point": "个人兴趣爱好表达 (Hobbies)",
+      "tips": "先想一想活动名称，再用完整句子表达。常见爱好有 reading（阅读）、drawing（画画）、swimming（游泳）、singing（唱歌）、dancing（跳舞）和 playing football（踢足球）。回答问题时注意主语：I like...；He/She likes...。"
+    },
+    {
+      "common_mistakes": [
+        "主语是第三人称单数时，动词忘记加 -s 或 -es。",
+        "把 be 动词的变化规则和普通动词混淆，例如说 He are happy。",
+        "遇到以辅音字母加 y 结尾的动词，误写成直接加 -s；正确形式是把 y 改为 i 再加 -es。",
+        "主语是 I、you 或复数时，误给动词加 -s。"
+      ],
+      "core_concept": "一般现在时常用于描述经常发生的动作、习惯、事实或状态。陈述句中，主语是第三人称单数时，谓语动词要用相应形式；主语是其他人称或复数时，普通动词通常用原形。",
+      "key_formula": "第三人称单数主语 + 动词-s/-es；其他主语 + 动词原形。常见变化：一般动词加 -s；以 s、sh、ch、x、o 结尾的动词加 -es；辅音字母+y结尾，变 y 为 i 再加 -es。be 动词中，I 用 am，you 和复数用 are，he/she/it及单数名词用 is。",
+      "point": "一般现在时第三人称单数陈述",
+      "tips": "先找句子的主语，再判断它是否为第三人称单数；是的话检查谓语动词是否需要加 -s 或 -es。注意以辅音字母+y结尾的动词要变 y 为 i 再加 -es，而元音字母+y结尾通常直接加 -s，如 play→plays。"
+    },
+    {
+      "common_mistakes": [
+        "把特殊疑问词和一般疑问句语序混淆，如说成“What your name is?”",
+        "忘记在助动词后使用动词原形，如说成“Where does he lives?”",
+        "询问主语时仍加不必要的助动词，如说成“Who does play football?”"
+      ],
+      "core_concept": "特殊疑问句用来询问具体信息，常以疑问词开头。询问他人信息时，先根据要了解的内容选择疑问词，再使用正确的语序。",
+      "key_formula": "疑问词 + be动词/情态动词 + 主语 + 其他？；疑问词 + do/does/did + 主语 + 动词原形 + 其他？；疑问词作主语时：疑问词 + 谓语动词 + 其他？",
+      "point": "询问他人信息的特殊疑问句",
+      "tips": "常见疑问词：what询问事物或信息，who询问人物，whose询问所属，where询问地点，when询问时间，how询问方式或状态，how old询问年龄，how many询问可数名词数量。含be动词或情态动词时，将它们放在主语前；一般现在时和一般过去时的实义动词句，通常借助do、does或did。若疑问词本身就是句子的主语，则直接接谓语动词，不加do/does/did。"
+    },
+    {
+      "common_mistakes": [
+        "把 climbing mountains（爬山）和 fishing（钓鱼）混淆。",
+        "把表示爱好的动词 -ing 形式误写成动词原形。"
+      ],
+      "core_concept": "学习描述爱好的常见英语词汇和短语，并掌握用动词 -ing 形式表达喜欢做某事。",
+      "key_formula": "like/likes + 动词-ing；例如：I like reading stories.（我喜欢阅读故事。）",
+      "point": "Hobbies vocabulary",
+      "tips": "记忆爱好词汇时，可以把英语短语和对应的活动画面联系起来。注意有些动词变为 -ing 形式时需要去掉词尾不发音的 e，例如：dance → dancing；sing → singing。"
+    },
+    {
+      "common_mistakes": [
+        "主语是 he、she、it 或单数名词时，忘记给一般现在时动词加 -s 或 -es。",
+        "主语是复数名词时，误给动词加 -s。",
+        "有 and 连接的两个主语时，误把它们当作单数主语。"
+      ],
+      "core_concept": "主谓一致指句子的主语和谓语动词在人称和数上相互匹配。小学阶段最常见的情况是一般现在时：主语为 he、she、it 或单数名词时，动词通常加 -s 或 -es；主语为 I、you、we、they 或复数名词时，动词使用原形。be 动词也要随主语变化：I am；he/she/it is；you/we/they are。",
+      "key_formula": "一般现在时：第三人称单数主语 + 动词-s/-es；其他主语 + 动词原形。be 动词：I am；单数第三人称 is；you/we/they 及复数主语 are。",
+      "point": "Grammar: Subject-verb agreement",
+      "tips": "先找句子的主语，再判断主语是单数还是复数、是否为第三人称，最后选择对应的动词形式。注意：and 连接两个不同的人或事物时，通常作复数主语；主语是 he/she/it 时，一般现在时动词常加 -s 或 -es。"
+    },
+    {
+      "common_mistakes": [
+        "一般疑问句通常用 Yes 或 No 回答；特殊疑问句则需要根据疑问词回答具体信息。",
+        "使用 be 动词或情态动词构成疑问句时，通常把它们放到主语前面。",
+        "使用实义动词构成一般现在时疑问句时，常用 do 或 does；主语是第三人称单数时用 does，后面的动词用原形。",
+        "特殊疑问句中，疑问词通常放在句首，后面接一般疑问句语序；询问主语时，语序可能不同。",
+        "疑问句句末要使用问号。"
+      ],
+      "core_concept": "疑问句用于提问。小学阶段常见的疑问句有一般疑问句和特殊疑问句。一般疑问句通常用 Yes 或 No 回答；特殊疑问句以疑问词开头，用来询问人物、事物、地点、时间、原因、方式或数量等信息。",
+      "key_formula": "一般疑问句：Be 动词/情态动词 + 主语 + 其他？；实义动词的一般现在时：Do/Does + 主语 + 动词原形 + 其他？特殊疑问句：疑问词 + 一般疑问句语序？",
+      "point": "Grammar: Interrogative sentence",
+      "tips": "常见疑问词：what（什么）、who（谁）、where（哪里）、when（什么时候）、why（为什么）、how（怎样）、how many（多少，问可数名词数量）。例如：Is she happy? — Yes, she is.；Where do you live? — I live in Beijing.；What is your hobby? — My hobby is reading."
+    },
+    {
+      "common_mistakes": [
+        "like 后表达爱好时，常用动词-ing形式，如 like reading、like swimming。",
+        "play football 中，球类运动前通常不加 the；collect stamps 表示“集邮”，也可以说 collecting stamps。",
+        "说“某人喜欢……”时，第三人称单数要用 likes，如 He likes hiking."
+      ],
+      "core_concept": "本课学习爱好的常见表达，以及用 like + 动词-ing 说明自己或他人的兴趣。常见爱好包括 reading books（读书）、singing（唱歌）、swimming（游泳）、hiking（远足）、collecting stamps（集邮）和 playing football（踢足球）。",
+      "key_formula": "主语 + like/likes + 动词-ing；主语是 he、she 或单数人名时用 likes。",
+      "point": "Hobbies",
+      "tips": "介绍爱好时，可以说“I like reading.”或“She likes singing.”。动词变为-ing时，通常直接加-ing，如 play → playing、sing → singing；以不发音的 e 结尾时，通常去 e 再加-ing，如 hike → hiking、dance → dancing。"
+    },
+    {
+      "common_mistakes": [
+        "like 后接另一项活动时，常用 like doing something。",
+        "注意搭配：play chess、play basketball、go swimming、do kung fu。",
+        "不要把爱好活动和表示爱好者的单词混淆，例如 swim 是“游泳”，swimmer 是“游泳者”。"
+      ],
+      "core_concept": "本课学习谈论爱好的常见词汇和表达方式。",
+      "key_formula": "主语 + like/likes + doing ...；常见搭配：play + 球类或棋类，go + -ing 活动，do + 功夫或运动项目。",
+      "point": "Vocabulary: hobbies",
+      "tips": "谈论自己用 I like，谈论第三人称单数用 he/she likes。like 后描述活动时通常用动词-ing形式，如 like reading、likes drawing。记忆活动搭配时，可把 play、go、do 和常见爱好一起记。"
+    },
+    {
+      "common_mistakes": [
+        "主语是 he、she、it 或单数名词时，别忘了将一般现在时的行为动词变为第三人称单数形式。",
+        "动词以辅音字母加 y 结尾时，通常把 y 改为 i 再加 -es，如 study → studies；元音字母加 y 结尾则直接加 -s，如 play → plays。",
+        "have 的第三人称单数形式是 has；以 -s、-sh、-ch、-x、-o 结尾的动词通常加 -es。",
+        "be 动词和情态动词有各自的用法：he is、she has；can 后面的动词不加第三人称单数词尾。"
+      ],
+      "core_concept": "在一般现在时中，主语是第三人称单数（如 he、she、it 或一个人、一个事物）时，行为动词通常要加 -s 或 -es。be 动词用 is，have 变为 has。",
+      "key_formula": "第三人称单数主语 + 行为动词-s/-es；以辅音字母+y结尾：y改为i再加-es；have→has；be→is。",
+      "point": "Third person singular",
+      "tips": "可先找句子的主语：如果是 he、she、it 或单数名词，再看是否为一般现在时。肯定句给行为动词加词尾；否定句或疑问句用了 does，动词就用原形。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 who、what 和 which 混用：who 问人，what 问事物或内容，which 常用于从给定范围中选择。",
+        "疑问代词在句中通常代替被询问的人或事物，后面不再接它所代替的名词。",
+        "询问主语时，疑问代词本身就是主语，后面的动词要根据句意和时态正确使用。"
+      ],
+      "core_concept": "疑问代词用于提问，通常代替句子中的人或事物。常见的有 who（谁）、whom（谁，作宾语）、whose（谁的）、what（什么）和 which（哪一个）。",
+      "key_formula": "疑问代词 + 一般疑问句语序？；疑问代词作主语时：疑问代词 + 谓语动词……？",
+      "point": "Interrogative pronoun",
+      "tips": "先判断要问的是人、物品或所属关系：问“谁”用 who，问“谁的”用 whose，问“什么”用 what；在明确的选择范围中问“哪一个”用 which。若疑问代词作宾语，通常使用一般疑问句语序；若它作主语，则直接放在谓语动词前。"
+    },
+    {
+      "common_mistakes": [
+        "只逐字翻译，不根据语境调整语序或选择合适词义。",
+        "遗漏冠词、代词或 be 动词等必要成分。",
+        "忽略英语大小写和标点规则。"
+      ],
+      "core_concept": "Translation（翻译）是理解一种语言表达的意思，再用另一种语言自然、准确地表达出来。英译中和中译英时，应先读懂整句话，再留意词义、语序、语法和语境。",
+      "key_formula": "翻译步骤：读懂原句 → 确认关键词和语境 → 按目标语言习惯组织句子 → 检查语法、拼写和标点。",
+      "point": "Translation",
+      "tips": "翻译时不要只把单词逐个替换。先弄清楚句子表达的完整意思；中译英时检查主语、动词、时态和大小写，英译中时用自然通顺的中文表达。遇到多种词义时，结合上下文选择。"
+    },
+    {
+      "common_mistakes": [
+        "does 用于第三人称单数主语，如 he、she、it 或单数名词；I、you、we、they 不用 does。",
+        "does 后面的实义动词要用原形，不能再加 -s，例如 Does she like ...?，不是 Does she likes ...?",
+        "含 does 的一般疑问句，肯定回答用 Yes, 主语 + does；否定回答用 No, 主语 + doesn't。",
+        "doesn't 后面的实义动词也用原形，例如 He doesn't play ...。"
+      ],
+      "core_concept": "Does 是助动词 do 的第三人称单数形式，常用于一般现在时中，帮助构成以 he、she、it 或单数名词为主语的一般疑问句和否定句。句子中用了 does 或 doesn't 后，实义动词用原形。",
+      "key_formula": "一般疑问句：Does + 第三人称单数主语 + 动词原形 ...?；肯定回答：Yes, 主语 + does.；否定回答：No, 主语 + doesn't.；否定句：第三人称单数主语 + doesn't + 动词原形。",
+      "point": "Auxiliary verb: does",
+      "tips": "看到 he、she、it 或单数名词时，先判断是否需要 does。疑问句或否定句里若已经有 does/doesn't，实义动词不要再加 -s。"
+    },
+    {
+      "common_mistakes": [
+        "主语是第三人称单数时，忘记在一般现在时的动词后加 -s 或 -es。",
+        "把以辅音字母加 y 结尾的动词直接加 -s；例如，study 应变为 studies。",
+        "在 does 或 doesn’t 后仍把动词变成第三人称单数形式；应使用动词原形。",
+        "把 be 动词和普通动词的变化规则混淆。"
+      ],
+      "core_concept": "动词形式会根据主语和句子结构变化。一般现在时中，主语是第三人称单数（he、she、it 或一个人、物）时，普通动词通常加 -s 或 -es；其他主语通常用动词原形。遇到 does、doesn’t 或情态动词 can 等时，后面的动词用原形。",
+      "key_formula": "一般现在时：I/you/we/they + 动词原形；he/she/it/单数名词 + 动词-s/-es。以辅音字母加 y 结尾，变 y 为 i 再加 -es；以 s、sh、ch、x、o 结尾，通常加 -es。does/doesn’t/can + 动词原形。",
+      "point": "Verb form",
+      "tips": "先找句子的主语，再判断主语是否为第三人称单数；接着查看句中是否有 does、doesn’t 或 can 等词。可以用 he/she/it 替换单数人或物来检查动词形式。"
+    },
+    {
+      "common_mistakes": [
+        "不要把不同疑问词混用：who问人，where问地点，when问时间，why问原因，how问方式或状态。",
+        "疑问词放在句首；如果句中没有be动词或情态动词，通常需要用do、does或did帮助构成疑问句。"
+      ],
+      "core_concept": "疑问词（question words）用于询问特定信息，常见的有what（什么）、who（谁）、where（哪里）、when（什么时候）、why（为什么）和how（怎样）。根据想了解的信息选择合适的疑问词。",
+      "key_formula": "疑问词 + be动词/情态动词 + 主语 + 其他？；疑问词 + do/does/did + 主语 + 动词原形 + 其他？",
+      "point": "Question word",
+      "tips": "先判断题目想询问哪类信息，再选择疑问词。回答地点常用地点名称，回答时间常用时间表达，回答原因常用because引导的句子。"
+    },
+    {
+      "common_mistakes": [
+        "主语是 he、she、it 或单数名词时，忘记给一般现在时的动词加 -s 或 -es。",
+        "把 have、do、go 等特殊动词直接加 -s，写成 haves、dos、gos。",
+        "否定句和疑问句中已经用了 does 或 doesn’t，仍把后面的动词写成第三人称单数形式。"
+      ],
+      "core_concept": "一般现在时中，当主语是第三人称单数（如 he、she、it 或一个人、物的名称）时，肯定句里的行为动词通常要变为第三人称单数形式。",
+      "key_formula": "肯定句：第三人称单数主语 + 动词-s/-es；否定句：主语 + doesn’t + 动词原形；疑问句：Does + 主语 + 动词原形？",
+      "point": "Third person singular verb",
+      "tips": "多数动词直接加 -s，如 play → plays；以 s、sh、ch、x、o 结尾的动词通常加 -es，如 wash → washes、go → goes；辅音字母加 y 结尾时，变 y 为 i 再加 -es，如 study → studies；have 变为 has。含 does 或 doesn’t 的疑问句、否定句中，行为动词用原形。"
+    },
+    {
+      "common_mistakes": [
+        "把助动词和实义动词混淆：助动词帮助构成疑问句、否定句或时态，本身通常不表示具体动作。",
+        "一般现在时中，主语是 he、she、it 或单数名词时，疑问句和否定句用 does；其他主语通常用 do。",
+        "does 或 did 已经体现了人称或时态，后面的实义动词要用原形。",
+        "be 动词 am、is、are 也可以作助动词，但它们不能与 do、does、did 随意连用。"
+      ],
+      "core_concept": "助动词是帮助主要动词表达语法意义的词。小学阶段常见的有 do、does、did，以及用于进行时的 be 动词（am、is、are）。它们常用于构成疑问句和否定句。",
+      "key_formula": "一般现在时：Do/Does + 主语 + 动词原形？；主语 + do/does not + 动词原形。一般过去时：Did + 主语 + 动词原形？；主语 + did not + 动词原形。",
+      "point": "Auxiliary verb",
+      "tips": "先找句子的主语，再判断时态：一般现在时看主语选择 do 或 does；一般过去时用 did。若句首或否定词中已经有 do、does、did，后面的主要动词保持原形。"
+    },
+    {
+      "common_mistakes": [
+        "把活动短语中的动词和名词顺序弄混，例如把“放风筝”说成“kite flying”时，要注意常见表达是“flying kites”。",
+        "有些活动名称以动词-ing形式出现，如 dancing、drawing；拼写时要注意字母。",
+        "“做饭”常说 cooking 或 cooking food；“画画”常说 drawing。"
+      ],
+      "core_concept": "用英语描述日常活动时，常用动词的-ing形式表示正在进行或作为活动名称，例如 flying kites（放风筝）、cooking food（烹饪食物）、dancing（跳舞）和 drawing（绘画）。",
+      "key_formula": "活动表达：动词-ing（+ 名词），如 fly → flying kites，cook → cooking food；在句子中可用“主语 + be动词 + 动词-ing”表示正在做某事，如“She is dancing.”",
+      "point": "Vocabulary: activities",
+      "tips": "记忆时可以把动作和对应场景联系起来：风筝在空中是 flying kites，厨房里准备食物是 cooking food，随着音乐移动是 dancing，用笔画图是 drawing。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 go hiking（去远足）和 climb mountains（爬山）混为一谈。",
+        "watch TV 中的 TV 通常大写。",
+        "描述动作时，注意动词和后面的词语要搭配使用，例如 write an email。"
+      ],
+      "core_concept": "Action phrases（动作短语）用来表达做某事或进行某种活动，常见结构是动词加名词或其他词语。",
+      "key_formula": "动词 + 名词或其他词语，例如：write an email；go hiking；climb mountains；watch TV。",
+      "point": "Action phrases",
+      "tips": "可以把短语和熟悉的活动联系起来记忆：写邮件是 write an email，去远足是 go hiking，爬山是 climb mountains，看电视是 watch TV。"
+    },
+    {
+      "common_mistakes": [
+        "主语是he、she或单数人名时，like通常要变为likes。",
+        "表示爱好时，like后接动词-ing形式，如like reading。",
+        "注意句子的语序：主语 + 谓语 + 其他部分；句首首字母大写，句末加句号。"
+      ],
+      "core_concept": "描述爱好时，常用“主语 + like/likes + 名词”或“主语 + like/likes + 动词-ing形式”。I、you、we、they及复数主语用like；he、she、it及单数主语用likes。",
+      "key_formula": "主语 + like/likes + 名词或动词-ing形式",
+      "point": "Hobbies sentence",
+      "tips": "先找句子的主语，再根据主语选择like或likes。like后面如果跟动作，通常要用动词-ing形式，例如：She likes drawing. 描述一种爱好时，也可以用“My hobby is + 动词-ing形式”，例如：My hobby is swimming。"
+    },
+    {
+      "common_mistakes": [
+        "特殊疑问句中，疑问词通常放在句首。",
+        "含有 be 动词时，不要把 be 动词放到主语后面。",
+        "一般疑问句通常把 be 动词或助动词放在主语前。",
+        "句首单词首字母要大写，句末要加问号。"
+      ],
+      "core_concept": "英语疑问句主要分为一般疑问句和特殊疑问句。一般疑问句通常用 Yes 或 No 回答；特殊疑问句以 what、where、who、when、why、how 等疑问词开头，用来询问具体信息。",
+      "key_formula": "一般疑问句：Be 动词/助动词 + 主语 + 其他？；特殊疑问句：疑问词 + Be 动词/助动词 + 主语 + 其他？含 be 动词的特殊疑问句也常用“疑问词 + 主语 + be 动词 + 其他？”结构，如 What hobbies are his? 不自然，应说 What are his hobbies?",
+      "point": "Question sentence",
+      "tips": "先判断要问什么：只问“是否”用一般疑问句；询问人物、地点、时间、事物或方式等，用相应疑问词开头。再找句中的 be 动词或助动词，按句型排列，最后检查大小写和问号。"
     }
   ]
 }

@@ -4,295 +4,289 @@
   "unit_number": 4,
   "unit_test": {
     "title": "Unit 4 Standard Evaluation",
-    "total_score": 100,
+    "total_score": 585,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "first 的缩写是 1st，末尾使用 st。",
         "knowledge_point": "序数词的缩写规则",
+        "options": [],
         "question": "序数词 'first' 的缩写形式是 '1st'。",
-        "options": [],
-        "answer": "对",
-        "explanation": "first结尾字母是st，缩写为1st。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "two 对应的序数词是 second，是不规则变化，不是在 two 后直接加 nd。",
         "knowledge_point": "序数词的构成",
+        "options": [],
         "question": "'second' 变序数词直接在 two 后面加 nd。",
-        "options": [],
-        "answer": "错",
-        "explanation": "two对应的序数词是second，属于不规则变化。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "表示具体的某一天或日期时，通常用 on，例如 on May 4th。",
         "knowledge_point": "介词的使用",
+        "options": [],
         "question": "在描述具体的日期时，如 'on May 4th'，应该使用介词 on。",
-        "options": [],
-        "answer": "对",
-        "explanation": "在具体的某一天前要用介词on。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "twelve 变成序数词时，拼写为 twelfth。",
         "knowledge_point": "序数词的拼写",
+        "options": [],
         "question": "'twelfth' 的拼写是正确的（第十二）。",
-        "options": [],
-        "answer": "对",
-        "explanation": "twelve变序数词需要把ve变成f再加th。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "句型理解",
-        "question": "句型 'When is the art show?' 是用来询问美术展在什么地方举办。",
-        "options": [],
-        "answer": "错",
-        "explanation": "When引导的疑问句询问的是时间，询问地点应使用Where。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "When引导的疑问句询问时间；询问地点应使用Where。",
+        "knowledge_point": "句型理解",
+        "options": [],
+        "question": "句型 'When is the art show?' 是用来询问美术展在什么地方举办。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "on",
         "difficulty": 1,
+        "explanation": "具体到4月1日这个日期，日期前用介词 on。",
         "knowledge_point": "具体日期的表达法",
-        "question": "When is the party? It's ______ April 1st.",
         "options": [
           "in",
           "at",
           "on",
           "to"
         ],
-        "answer": "on",
-        "explanation": "具体到某一天使用介词on。"
+        "question": "When is the party? It's ______ April 1st.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "first",
         "difficulty": 1,
+        "explanation": "日期表达常用序数词，6月1日可写作 June 1st 或 June first。",
         "knowledge_point": "序数词辨析",
-        "question": "Children's Day is on June ______.",
         "options": [
           "one",
           "first",
           "the one",
           "1th"
         ],
-        "answer": "first",
-        "explanation": "日期表达常用序数词，6月1日应为June 1st或June first。"
+        "question": "Children's Day is on June ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "When",
         "difficulty": 1,
+        "explanation": "答句中的“in July”表示时间，因此用When提问。",
         "knowledge_point": "疑问词辨析",
-        "question": "______ is your birthday? It's in July.",
         "options": [
           "Where",
           "What",
           "Who",
           "When"
         ],
-        "answer": "When",
-        "explanation": "答句提到的是月份时间，提问词用When。"
+        "question": "______ is your birthday? It's in July.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "fifth",
         "difficulty": 2,
+        "explanation": "five 变序数词时，去掉 ve 再加 th，拼作 fifth。",
         "knowledge_point": "序数词拼写特殊变体",
-        "question": "My father's birthday is on August ______.",
         "options": [
           "five",
           "fifth",
           "fiveth",
           "5st"
         ],
-        "answer": "fifth",
-        "explanation": "five变序数词需改ve为f再加th，即fifth。"
+        "question": "My father's birthday is on August ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "some",
         "difficulty": 1,
+        "explanation": "肯定句中修饰可数名词复数，用 some。",
         "knowledge_point": "限定词用法",
-        "question": "There are ______ special days in May.",
         "options": [
           "a",
           "some",
           "any",
           "the"
         ],
-        "answer": "some",
-        "explanation": "肯定句中修饰可数名词复数用some。"
+        "question": "There are ______ special days in May.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "three; third",
         "difficulty": 2,
+        "explanation": "第一空表示数量，用基数词 three；第二空表示顺序，用序数词 third。",
         "knowledge_point": "基数词与序数词",
-        "question": "I have ______ pens. The ______ one is blue.",
         "options": [
           "three; three",
           "third; third",
           "three; third",
           "third; three"
         ],
-        "answer": "three; third",
-        "explanation": "第一空表示数量用基数词，第二空表示顺序用序数词。"
+        "question": "I have ______ pens. The ______ one is blue.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "21st",
         "difficulty": 2,
+        "explanation": "21读作twenty-first，末尾个位是1，且不属于11、12、13结尾的例外，因此缩写为21st。",
         "knowledge_point": "序数词缩写规则",
-        "question": "Which of the following is correct?",
         "options": [
           "21th",
           "21st",
           "21rd",
           "21nd"
         ],
-        "answer": "21st",
-        "explanation": "21st读作twenty-first，缩写取last two letters即st。"
+        "question": "Which of the following is correct?",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "Yes, it is",
         "difficulty": 1,
+        "explanation": "问句以“Is”开头，主语是“it”。肯定回答用“Yes, it is.”",
         "knowledge_point": "日常交际",
-        "question": "Is the singing contest on May 4th? ______.",
         "options": [
           "Yes, it is",
           "Yes, it isn't",
           "No, it is",
           "No, it does"
         ],
-        "answer": "Yes, it is",
-        "explanation": "Is it开关的一般疑问句，肯定回答为Yes, it is。"
+        "question": "Is the singing contest on May 4th? ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "third",
         "difficulty": 3,
+        "explanation": "按星期日为一周第一天，星期一是第二天，星期二是第三天，因此选序数词 third。",
         "knowledge_point": "综合理解",
-        "question": "Today is Monday. Tomorrow is the ______ day of the week.",
         "options": [
           "second",
           "three",
           "third",
           "two"
         ],
-        "answer": "third",
-        "explanation": "周日是第一天，周一是第二天，周二（明天）是第三天third。"
+        "question": "Today is Monday. Tomorrow is the ______ day of the week.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "their",
         "difficulty": 2,
+        "explanation": "birthdays 是名词，前面需要形容词性物主代词 their，表示“他们的生日”。",
         "knowledge_point": "代词搭配",
-        "question": "Those are ______ birthdays.",
         "options": [
           "they",
           "their",
           "them",
           "theirs"
         ],
-        "answer": "their",
-        "explanation": "修饰名词birthdays需要用形容词性物主代词their。"
+        "question": "Those are ______ birthdays.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "序数词",
-        "question": "January is the ___ month of a year.",
-        "options": [],
         "answer": "first",
-        "explanation": "一月是一年中的第一个月。"
-      },
-      {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "序数词拼写",
-        "question": "The sports meet is on October ___ (3rd).",
-        "options": [],
-        "answer": "third",
-        "explanation": "3rd对应的完整单词拼写是third。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "询问活动日期",
-        "question": "___ is the English test? It's on June 2nd.",
-        "options": [],
-        "answer": "when",
-        "explanation": "提问具体时间使用疑问词when。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "序数词用法",
-        "question": "There are 31 days in May. The last day is May ___.",
-        "options": [],
-        "answer": "thirty-first",
-        "explanation": "31号应使用序数词thirty-first。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "January是一年中的第一个月，所以使用序数词first。",
+        "knowledge_point": "序数词",
+        "options": [],
+        "question": "January is the ___ month of a year.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
+      },
+      {
+        "answer": "third",
+        "difficulty": 2,
+        "explanation": "3rd 的完整拼写是 third。",
+        "knowledge_point": "序数词拼写",
+        "options": [],
+        "question": "The sports meet is on October ___ (3rd).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "When",
+        "difficulty": 2,
+        "explanation": "询问英语考试的日期要用疑问词 When。",
+        "knowledge_point": "询问活动日期",
+        "options": [],
+        "question": "___ is the English test? It's on June 2nd.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "thirty-first",
+        "difficulty": 3,
+        "explanation": "31号表示日期中的顺序，应使用序数词 thirty-first。",
+        "knowledge_point": "序数词用法",
+        "options": [],
+        "question": "There are 31 days in May. The last day is May ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "美术展",
+        "difficulty": 1,
+        "explanation": "art show 的意思是“美术展”，不是“艺术课”。",
         "knowledge_point": "关键词汇",
-        "question": "将英文表达与中文意思匹配。",
         "options": [
-          "art show",
-          "sports meet",
-          "math test",
-          "birthday",
-          "生日",
-          "数学测试",
+          "艺术课",
           "运动会",
+          "数学测试",
           "美术展"
         ],
-        "answer": "A-4,B-3,C-2,D-1",
-        "explanation": "art show-美术展, sports meet-运动会, math test-数学测试, birthday-生日。"
+        "question": "“art show”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-3，B-1，C-2，D-4",
         "difficulty": 2,
+        "explanation": "second—2nd，twentieth—20th，third—3rd，twelfth—12th。",
         "knowledge_point": "序数词及其缩写",
-        "question": "将序数词单词与对应的数字缩写匹配。",
         "options": [
           "second",
           "twentieth",
@@ -303,16 +297,16 @@
           "2nd",
           "12th"
         ],
-        "answer": "A-3,B-1,C-2,D-4",
-        "explanation": "second-2nd, twentieth-20th, third-3rd, twelfth-12th。"
+        "question": "将序数词单词与对应的数字缩写匹配。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "When,is,the,art,show,?",
         "difficulty": 1,
+        "explanation": "询问活动时间的语序是“When + is + 活动名称?”，因此组成“When is the art show?”",
         "knowledge_point": "询问时间",
-        "question": "连词成句：the, show, When, is, art, ?",
         "options": [
           "the",
           "show",
@@ -321,16 +315,16 @@
           "art",
           "?"
         ],
-        "answer": "When,is,the,art,show,?",
-        "explanation": "特殊疑问句结构为：疑问词+be动词+名词。"
+        "question": "连词成句：the, show, When, is, art, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "It,is,on,May,5th,.",
         "difficulty": 2,
+        "explanation": "句意为“日期是5月5日”。按给出的单词排列为“It is on May 5th.”其中 May 是月份，5th 是序数词。",
         "knowledge_point": "日期陈述",
-        "question": "连词成句：is, May, It, on, 5th, .",
         "options": [
           "is",
           "May",
@@ -339,8 +333,1764 @@
           "5th",
           "."
         ],
-        "answer": "It,is,on,May,5th,.",
-        "explanation": "肯定句结构为：主语+is+on+月份+序数词。"
+        "question": "连词成句：is, May, It, on, 5th, .",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "second",
+        "difficulty": 1,
+        "explanation": "2 的序数词是 second，属于特殊形式，不是按照一般规则写成 twoth。",
+        "knowledge_point": "序数词的构成与缩写规则",
+        "options": [
+          "twoth",
+          "second",
+          "twentieth",
+          "two"
+        ],
+        "question": "基数词 two 的序数词是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "5th",
+        "difficulty": 1,
+        "explanation": "five 的序数词是 fifth，缩写为 5th。",
+        "knowledge_point": "序数词的构成与缩写规则",
+        "options": [
+          "5st",
+          "5nd",
+          "5rd",
+          "5th"
+        ],
+        "question": "序数词 fifth 的正确缩写是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "twelfth",
+        "difficulty": 2,
+        "explanation": "twelve 变成序数词时，先把 ve 改为 f，再加 th，写作 twelfth。",
+        "knowledge_point": "序数词的构成与缩写规则",
+        "options": [
+          "twelveth",
+          "twelfth",
+          "twelvth",
+          "twelveths"
+        ],
+        "question": "基数词 twelve 的序数词是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "thirteenth",
+        "difficulty": 2,
+        "explanation": "13 的序数词是 thirteenth。缩写时注意 13 属于特殊的 11、12、13 这一组，因此写 13th。",
+        "knowledge_point": "序数词的构成与缩写规则",
+        "options": [
+          "threeteenth",
+          "thirteenth",
+          "thirtyth",
+          "thirteenth"
+        ],
+        "question": "基数词 thirteen 的序数词是什么？",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "20th",
+        "difficulty": 2,
+        "explanation": "twenty 变为 twentieth，缩写为 20th。以辅音字母加 y 结尾的基数词通常变 y 为 i，再加 eth。",
+        "knowledge_point": "序数词的构成与缩写规则",
+        "options": [],
+        "question": "请写出序数词 twentieth 的数字缩写：____。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "23rd",
+        "difficulty": 2,
+        "explanation": "23 的个位是 3，且不是以 13 结尾，因此序数词缩写用 rd，写作 23rd。",
+        "knowledge_point": "序数词的构成与缩写规则",
+        "options": [],
+        "question": "学校运动会中，小明获得第二十三名。用数字和序数词缩写表示“第二十三”：____。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "October 5th 是具体日期，因此前面用 on。",
+        "knowledge_point": "具体日期的表达法",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "for"
+        ],
+        "question": "My birthday is ______ October 5th.",
+        "score": 5,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "in",
+        "difficulty": 1,
+        "explanation": "这里只说月份，没有具体到某一天，所以月份前用 in。",
+        "knowledge_point": "具体日期的表达法",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "by"
+        ],
+        "question": "We have a school trip ______ May.",
+        "score": 5,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "June 12th 是具体日期，前面用介词 on，句子正确。",
+        "knowledge_point": "具体日期的表达法",
+        "options": [],
+        "question": "判断正误：The meeting is on June 12th. True / False",
+        "score": 5,
+        "type": "true_false",
+        "id": 32
+      },
+      {
+        "answer": "on",
+        "difficulty": 2,
+        "explanation": "问具体活动在哪一天，回答时用 on；完整句子为“It's on March 3rd.”",
+        "knowledge_point": "具体日期的表达法",
+        "options": [],
+        "question": "填入适当的介词：When is the art show? It's ______ March 3rd.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 33
+      },
+      {
+        "answer": "on",
+        "difficulty": 2,
+        "explanation": "具体到12月25日时，日期前用 on。完整句子为“The holiday is on December 25th.”",
+        "knowledge_point": "具体日期的表达法",
+        "options": [],
+        "question": "用一个介词补全句子：The holiday is ______ December 25th.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 34
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "询问“你的生日是什么时候？”应说 When is your birthday?",
+        "knowledge_point": "询问生日或具体活动的日期",
+        "options": [
+          "What is your birthday?",
+          "When is your birthday?",
+          "Where is your birthday?",
+          "Who is your birthday?"
+        ],
+        "question": "选择合适的句子：________",
+        "score": 1,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "回答生日日期时可以说 My birthday is on + 月份 + 序数词。May 3rd 表示5月3日。",
+        "knowledge_point": "询问生日或具体活动的日期",
+        "options": [
+          "My birthday is on May 3rd.",
+          "My birthday is in May 3rd.",
+          "My birthday is at May 3rd.",
+          "My birthday is May 3."
+        ],
+        "question": "别人问你 When is your birthday? 你在5月3日过生日，应怎样回答？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "When",
+        "difficulty": 1,
+        "explanation": "When 用来询问时间。句子结构为 When is + 活动?",
+        "knowledge_point": "询问生日或具体活动的日期",
+        "options": [],
+        "question": "填空：________ is the school trip?",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 37
+      },
+      {
+        "answer": "T",
+        "difficulty": 1,
+        "explanation": "询问具体活动日期可以用 What date is the party?，意思是“聚会是几月几日？”",
+        "knowledge_point": "询问生日或具体活动的日期",
+        "options": [],
+        "question": "判断正误：What date is the party? 可以用来询问聚会的具体日期。",
+        "score": 1,
+        "type": "true_false",
+        "id": 38
+      },
+      {
+        "answer": "It’s on October 12th.",
+        "difficulty": 2,
+        "explanation": "回答活动日期时，可用 It’s on + 月份 + 序数词。12日写作12th，读作 the twelfth。",
+        "knowledge_point": "询问生日或具体活动的日期",
+        "options": [],
+        "question": "用英语回答：The art show is on October 12th. 问：When is the art show?",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "When is the basketball game? — It’s on June 21st.",
+        "difficulty": 2,
+        "explanation": "询问活动日期可以说 When is the basketball game? 回答时用 It’s on + 月份 + 序数词；21日写作21st。",
+        "knowledge_point": "询问生日或具体活动的日期",
+        "options": [],
+        "question": "篮球赛在6月21日。请用英语写出一个询问篮球赛日期的问题，并回答。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "thin 中的 th 发清辅音 /θ/，读音开头类似 /θɪn/。发音时声带不振动。",
+        "knowledge_point": "字母组合th的发音规律",
+        "options": [
+          "A. /ð/",
+          "B. /θ/",
+          "C. /s/",
+          "D. /f/"
+        ],
+        "question": "单词 thin 中，字母组合 th 通常发什么音？",
+        "score": 1,
+        "type": "choice",
+        "id": 41
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "this 中的 th 发浊辅音 /ð/。发音时舌尖轻放在上下齿之间，声带振动。",
+        "knowledge_point": "字母组合th的发音规律",
+        "options": [
+          "A. /ð/",
+          "B. /θ/",
+          "C. /t/",
+          "D. /z/"
+        ],
+        "question": "单词 this 中，字母组合 th 通常发什么音？",
+        "score": 1,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "think 中的 th 通常发清辅音 /θ/，发音时声带不振动。",
+        "knowledge_point": "字母组合th的发音规律",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断正误：think 中的 th 通常发 /θ/。",
+        "score": 1,
+        "type": "true_false",
+        "id": 43
+      },
+      {
+        "answer": "/ð/",
+        "difficulty": 2,
+        "explanation": "mother 中的 th 发浊辅音 /ð/。这个词可以按音节练习：moth-er。",
+        "knowledge_point": "字母组合th的发音规律",
+        "options": [],
+        "question": "填空：mother 中的 th 通常发 ______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 44
+      },
+      {
+        "answer": "浊；振动",
+        "difficulty": 2,
+        "explanation": "发 /ð/ 时，th 是浊辅音，舌尖轻放在上下齿之间，声带振动；发 /θ/ 时声带不振动。",
+        "knowledge_point": "字母组合th的发音规律",
+        "options": [],
+        "question": "发 /ð/ 时，声带会 ______；因此 /ð/ 是 ______ 辅音。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "/θ/",
+        "difficulty": 2,
+        "explanation": "mouth 末尾的 th 通常发清辅音 /θ/。发音时舌尖轻放在上下齿之间，声带不振动。",
+        "knowledge_point": "字母组合th的发音规律",
+        "options": [],
+        "question": "填空：mouth 末尾的 th 通常发 ______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 46
+      },
+      {
+        "answer": "2nd",
+        "difficulty": 1,
+        "explanation": "second 表示第二，缩写为 2nd。",
+        "knowledge_point": "序数词的缩写规则",
+        "options": [],
+        "question": "序数词 'second' 的缩写形式是 ______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 47
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "third 的缩写是 3rd；4th 和 5th 都以 th 结尾。",
+        "knowledge_point": "序数词的缩写规则",
+        "options": [
+          "A. 3th",
+          "B. 3st",
+          "C. 3rd",
+          "D. 3nd"
+        ],
+        "question": "下列哪个是 'third' 的正确缩写？",
+        "score": 2,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "12th",
+        "difficulty": 2,
+        "explanation": "12 虽然个位是 2，但 12 是特殊情况，序数词缩写为 12th。",
+        "knowledge_point": "序数词的缩写规则",
+        "options": [],
+        "question": "数字 12 的序数词缩写是 ______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 49
+      },
+      {
+        "answer": "th",
+        "difficulty": 2,
+        "explanation": "21 不属于 11、12、13 这几个例外，且个位是 1，因此缩写为 21st。",
+        "knowledge_point": "序数词的缩写规则",
+        "options": [],
+        "question": "序数词 'twenty-first' 的缩写是 21____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 50
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "13 是例外数字，缩写为 13th，而不是 13rd。",
+        "knowledge_point": "序数词的缩写规则",
+        "options": [],
+        "question": "因为 13 的个位是 3，所以它的序数词缩写是 '13rd'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 51
+      },
+      {
+        "answer": "fourth",
+        "difficulty": 1,
+        "explanation": "four 的序数词通常在词尾加 -th，写作 fourth。",
+        "knowledge_point": "序数词的构成",
+        "options": [],
+        "question": "填空：four 的序数词是 ______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "fifth",
+        "difficulty": 2,
+        "explanation": "five 以 -ve 结尾，变序数词时把 ve 改为 f，再加 -th，写作 fifth。",
+        "knowledge_point": "序数词的构成",
+        "options": [],
+        "question": "five 的序数词是哪一个？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "twentieth",
+        "difficulty": 2,
+        "explanation": "twenty 以辅音字母加 y 结尾，变序数词时把 y 改为 ie，再加 -th。",
+        "knowledge_point": "序数词的构成",
+        "options": [],
+        "question": "填空：twenty 的序数词是 ______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "3rd",
+        "difficulty": 1,
+        "explanation": "three 的序数词是 third，缩写为 3rd。",
+        "knowledge_point": "序数词的构成",
+        "options": [
+          "3th",
+          "3rd",
+          "3nd",
+          "3st"
+        ],
+        "question": "three 的序数词缩写是哪一个？",
+        "score": 2,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "ninth",
+        "difficulty": 2,
+        "explanation": "nine 变序数词时去掉词尾 e，再加 -th，写作 ninth。",
+        "knowledge_point": "序数词的构成",
+        "options": [],
+        "question": "填空：nine 的序数词是 ______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 56
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "表示具体时刻通常用 at，例如 at seven o'clock（在七点）。",
+        "knowledge_point": "介词的使用",
+        "options": [],
+        "question": "We have breakfast ___ 7:00.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 57
+      },
+      {
+        "answer": "in",
+        "difficulty": 1,
+        "explanation": "表示月份时通常用 in，例如 in June（在六月）。",
+        "knowledge_point": "介词的使用",
+        "options": [],
+        "question": "My birthday is ___ July.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 58
+      },
+      {
+        "answer": "on",
+        "difficulty": 2,
+        "explanation": "表示在某一天或星期几，通常用 on，例如 on Monday（在星期一）。",
+        "knowledge_point": "介词的使用",
+        "options": [],
+        "question": "Our English class is ___ Monday.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 59
+      },
+      {
+        "answer": "under",
+        "difficulty": 1,
+        "explanation": "under 表示“在……下面”。句意是“猫在桌子下面”。",
+        "knowledge_point": "介词的使用",
+        "options": [],
+        "question": "The cat is ___ the table.（猫在桌子下面。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 60
+      },
+      {
+        "answer": "next to",
+        "difficulty": 2,
+        "explanation": "next to 表示“紧挨着；在……旁边”。句意是“学校紧挨着公园”。",
+        "knowledge_point": "介词的使用",
+        "options": [],
+        "question": "The school is ___ the park.（学校紧挨着公园。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 61
+      },
+      {
+        "answer": "first",
+        "difficulty": 1,
+        "explanation": "one 的序数词是不规则形式 first，表示第一。",
+        "knowledge_point": "序数词的拼写",
+        "options": [],
+        "question": "请写出 one 的序数词：____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "third",
+        "difficulty": 1,
+        "explanation": "three 的序数词是 third，表示“第三”。",
+        "knowledge_point": "序数词的拼写",
+        "options": [
+          "third",
+          "threeth",
+          "thirth",
+          "three"
+        ],
+        "question": "Which is the correct spelling of “第三”？",
+        "score": 2,
+        "type": "choice",
+        "id": 63
+      },
+      {
+        "answer": "fifth",
+        "difficulty": 2,
+        "explanation": "five 变成序数词时，去掉 ve，改为 f，再加 th：fifth。",
+        "knowledge_point": "序数词的拼写",
+        "options": [],
+        "question": "写出 five 的序数词：____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 64
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "以 y 结尾的 twenty 变为序数词时，把 y 改成 ie，再加 th，拼作 twentieth。",
+        "knowledge_point": "序数词的拼写",
+        "options": [],
+        "question": "'twentyth' 是“第二十”的正确拼写。",
+        "score": 2,
+        "type": "true_false",
+        "id": 65
+      },
+      {
+        "answer": "sixth",
+        "difficulty": 2,
+        "explanation": "six 变成序数词时，直接在词尾加 th，拼作 sixth。",
+        "knowledge_point": "序数词的拼写",
+        "options": [
+          "sixth",
+          "sixthth",
+          "sikth",
+          "sixeth"
+        ],
+        "question": "下面哪个是 six 的序数词？",
+        "score": 2,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "Where意为“在哪里”，用于询问地点。句子是在问图书馆的位置。",
+        "knowledge_point": "句型理解",
+        "options": [
+          "A. 什么时候",
+          "B. 在哪里",
+          "C. 谁"
+        ],
+        "question": "'Where is the library?' 中的Where是在询问什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "When意为“什么时候”，句子询问运动会的日期或时间。",
+        "knowledge_point": "句型理解",
+        "options": [
+          "A. 运动会什么时候举行",
+          "B. 运动会在哪里举行",
+          "C. 谁参加运动会"
+        ],
+        "question": "'When is the sports meet?' 的意思是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 68
+      },
+      {
+        "answer": "Where",
+        "difficulty": 2,
+        "explanation": "题目问的是美术室在什么地方，所以应使用Where。完整句子是“Where is the art room?”",
+        "knowledge_point": "句型理解",
+        "options": [],
+        "question": "用适当的疑问词填空：______ is the art room? It is next to the music room.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 69
+      },
+      {
+        "answer": "Yes, she is.",
+        "difficulty": 2,
+        "explanation": "Is she your English teacher? 是以Is开头的一般疑问句，肯定回答为“Yes, she is.”",
+        "knowledge_point": "句型理解",
+        "options": [],
+        "question": "根据提示作肯定回答：Is she your English teacher?（是）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "How do you go to school?",
+        "difficulty": 3,
+        "explanation": "询问上学的方式要用How；主语是you，句中使用助动词do。",
+        "knowledge_point": "句型理解",
+        "options": [],
+        "question": "根据答句写出问句：I go to school by bus.（询问上学的方式）",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 71
+      },
+      {
+        "answer": "second",
+        "difficulty": 1,
+        "explanation": "表示“第二”要用序数词 second；two 是基数词，表示数量“二”。",
+        "knowledge_point": "序数词辨析",
+        "options": [
+          "two",
+          "second",
+          "twoth",
+          "the two"
+        ],
+        "question": "My classroom is on the ______ floor.",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "third",
+        "difficulty": 1,
+        "explanation": "three 的序数词是 third，属于需要单独记忆的特殊形式。",
+        "knowledge_point": "序数词辨析",
+        "options": [
+          "three",
+          "threeth",
+          "third",
+          "thirth"
+        ],
+        "question": "Today is the ______ day of our trip.",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "fifth",
+        "difficulty": 2,
+        "explanation": "five 变序数词时，先把 ve 改为 f，再加 th，写作 fifth。",
+        "knowledge_point": "序数词辨析",
+        "options": [
+          "fiveth",
+          "fifth",
+          "fiveths",
+          "five"
+        ],
+        "question": "Sam is the ______ student in line.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "twelfth",
+        "difficulty": 2,
+        "explanation": "一年有十二个月，December 是第十二个月。twelve 的序数词是 twelfth。",
+        "knowledge_point": "序数词辨析",
+        "options": [
+          "twelveth",
+          "twelfth",
+          "twelve",
+          "twentieth"
+        ],
+        "question": "December is the ______ month of the year.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "twentieth",
+        "difficulty": 2,
+        "explanation": "整十数 twenty 变序数词时，把词尾 y 改为 ie，再加 th，写作 twentieth。",
+        "knowledge_point": "序数词辨析",
+        "options": [
+          "twentyth",
+          "twentieth",
+          "twentith",
+          "twenty"
+        ],
+        "question": "My birthday is on the ______ of May.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "答句中的“in the library”表示地点，因此用Where提问。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Where",
+          "When",
+          "Who",
+          "Why"
+        ],
+        "question": "______ do you read books? I read books in the library.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "Who",
+        "difficulty": 1,
+        "explanation": "答句中的“My sister”指人，询问人物用Who。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "What",
+          "Who",
+          "Where",
+          "When"
+        ],
+        "question": "______ is that girl? She is my sister.",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "Why",
+        "difficulty": 2,
+        "explanation": "答句用“Because”说明原因，询问原因用Why。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "How",
+          "Why",
+          "When",
+          "Who"
+        ],
+        "question": "______ are you happy? Because today is my birthday.",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "How",
+        "difficulty": 2,
+        "explanation": "答句中的“By bus”表示出行方式，询问方式用How。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Where",
+          "What",
+          "How",
+          "Why"
+        ],
+        "question": "______ do you go to school? By bus.",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "What",
+        "difficulty": 2,
+        "explanation": "答句中的“an apple”是具体的事物，询问“是什么”用What。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Who",
+          "When",
+          "What",
+          "Where"
+        ],
+        "question": "______ do you want to eat? I want an apple.",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "third",
+        "difficulty": 1,
+        "explanation": "three 的序数词是特殊形式 third，不是 threeth。",
+        "knowledge_point": "序数词拼写特殊变体",
+        "options": [
+          "three",
+          "threeth",
+          "third",
+          "thirth"
+        ],
+        "question": "April is the ______ month of the year.",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "eighth",
+        "difficulty": 2,
+        "explanation": "eight 变序数词时，在词尾加 h，拼作 eighth；不写成 eightth。",
+        "knowledge_point": "序数词拼写特殊变体",
+        "options": [
+          "eightth",
+          "eighth",
+          "eighteenth",
+          "eighty"
+        ],
+        "question": "Which is the correct spelling of the ordinal form of eight?",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "ninth",
+        "difficulty": 2,
+        "explanation": "nine 变序数词时去掉末尾的 e，再加 th，拼作 ninth。",
+        "knowledge_point": "序数词拼写特殊变体",
+        "options": [],
+        "question": "Spell the ordinal number for nine.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "False",
+        "difficulty": 2,
+        "explanation": "twelve 的序数词是 twelfth，不是 twelveth；变形时去掉 ve，再加 fth。",
+        "knowledge_point": "序数词拼写特殊变体",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "The ordinal form of twelve is spelled “twelveth.”",
+        "score": 5,
+        "type": "true_false",
+        "id": 85
+      },
+      {
+        "answer": "second",
+        "difficulty": 1,
+        "explanation": "two 的序数词是特殊形式 second。",
+        "knowledge_point": "序数词拼写特殊变体",
+        "options": [],
+        "question": "Our team came in ______ place. (two)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "an",
+        "difficulty": 1,
+        "explanation": "hour 的 h 不发音，开头是元音音素，因此用 an。",
+        "knowledge_point": "限定词用法",
+        "options": [
+          "a",
+          "an",
+          "some",
+          "any"
+        ],
+        "question": "I have ______ English lesson today.",
+        "score": 5,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "many",
+        "difficulty": 1,
+        "explanation": "Books 是可数名词复数，询问数量用 many。",
+        "knowledge_point": "限定词用法",
+        "options": [
+          "much",
+          "many",
+          "any",
+          "a"
+        ],
+        "question": "How ______ books are there on the shelf?",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "any",
+        "difficulty": 2,
+        "explanation": "否定句中常用 any 修饰可数名词复数 apples。",
+        "knowledge_point": "限定词用法",
+        "options": [
+          "some",
+          "any",
+          "a",
+          "many"
+        ],
+        "question": "There aren't ______ apples in the basket.",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "much",
+        "difficulty": 2,
+        "explanation": "Water 是不可数名词，询问数量用 much。",
+        "knowledge_point": "限定词用法",
+        "options": [
+          "many",
+          "much",
+          "a",
+          "these"
+        ],
+        "question": "How ______ water do you drink every day?",
+        "score": 5,
+        "type": "choice",
+        "id": 90
+      },
+      {
+        "answer": "my",
+        "difficulty": 1,
+        "explanation": "my 表示“我的”，放在名词 bag 前说明所属关系。",
+        "knowledge_point": "限定词用法",
+        "options": [
+          "I",
+          "me",
+          "my",
+          "mine"
+        ],
+        "question": "This is ______ school bag.",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "four",
+        "difficulty": 1,
+        "explanation": "句子询问苹果的数量“How many”，应使用基数词 four。",
+        "knowledge_point": "基数词与序数词",
+        "options": [
+          "four",
+          "fourth",
+          "the four",
+          "the fourth"
+        ],
+        "question": "How many apples are there? There are ______ apples.",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "second",
+        "difficulty": 2,
+        "explanation": "表示排在第二位，用序数词 second；序数词前通常加 the。",
+        "knowledge_point": "基数词与序数词",
+        "options": [
+          "two",
+          "second",
+          "twoth",
+          "the two"
+        ],
+        "question": "Amy is the ______ girl in the line.",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "fifth",
+        "difficulty": 2,
+        "explanation": "five 的序数词是 fifth，表示第五层。",
+        "knowledge_point": "基数词与序数词",
+        "options": [
+          "five",
+          "fiveth",
+          "fifth",
+          "fifteen"
+        ],
+        "question": "Our classroom is on the ______ floor.",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "seven 表示数量，是基数词；seventh 表示顺序，是序数词。",
+        "knowledge_point": "基数词与序数词",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“Seven”表示数量，“seventh”表示顺序。",
+        "score": 5,
+        "type": "true_false",
+        "id": 95
+      },
+      {
+        "answer": "first",
+        "difficulty": 2,
+        "explanation": "one 的序数词是不规则变化 first，表示第一名。",
+        "knowledge_point": "基数词与序数词",
+        "options": [],
+        "question": "Tom won the race and came in ______ place.（用 one 的序数词填空）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 96
+      },
+      {
+        "answer": "2nd",
+        "difficulty": 1,
+        "explanation": "2读作second，个位是2，因此序数词缩写为2nd。",
+        "knowledge_point": "序数词缩写规则",
+        "options": [
+          "2st",
+          "2nd",
+          "2rd",
+          "2th"
+        ],
+        "question": "Which is the correct ordinal abbreviation for 2?",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "12th",
+        "difficulty": 2,
+        "explanation": "12虽然个位是2，但以12结尾的数字是例外，统一使用th。",
+        "knowledge_point": "序数词缩写规则",
+        "options": [
+          "12nd",
+          "12th",
+          "12st",
+          "12rd"
+        ],
+        "question": "Choose the correct abbreviation for the ordinal number 12.",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "23rd",
+        "difficulty": 2,
+        "explanation": "23不以13结尾，个位是3，因此使用rd，写作23rd。",
+        "knowledge_point": "序数词缩写规则",
+        "options": [
+          "23th",
+          "23nd",
+          "23rd",
+          "23st"
+        ],
+        "question": "Which abbreviation is correct for the ordinal number 23?",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "40th",
+        "difficulty": 1,
+        "explanation": "40的个位是0，不符合st、nd或rd的条件，所以使用th。",
+        "knowledge_point": "序数词缩写规则",
+        "options": [
+          "40st",
+          "40nd",
+          "40rd",
+          "40th"
+        ],
+        "question": "What is the correct ordinal abbreviation for 40?",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "111th",
+        "difficulty": 3,
+        "explanation": "111以11结尾，是特殊例外，所以使用th，而不是根据个位1写st。",
+        "knowledge_point": "序数词缩写规则",
+        "options": [
+          "111st",
+          "111nd",
+          "111rd",
+          "111th"
+        ],
+        "question": "Which abbreviation is correct for the ordinal number 111?",
+        "score": 5,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "No, it isn't.",
+        "difficulty": 1,
+        "explanation": "问句是“Is it ...?”，否定回答用“No, it isn't.”",
+        "knowledge_point": "日常交际",
+        "options": [
+          "Yes, it is.",
+          "No, it isn't.",
+          "No, it doesn't.",
+          "Yes, it isn't."
+        ],
+        "question": "Is the school trip on June 2nd? No, ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "What time",
+        "difficulty": 1,
+        "explanation": "询问具体时间用“What time”，句子可表达为“What time is the party?”",
+        "knowledge_point": "日常交际",
+        "options": [
+          "What time",
+          "What colour",
+          "How many",
+          "Who"
+        ],
+        "question": "你想询问聚会几点开始，应说：______ is the party?",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "Thank you.",
+        "difficulty": 1,
+        "explanation": "别人帮助你后，可以礼貌地说“Thank you.”表示感谢。",
+        "knowledge_point": "日常交际",
+        "options": [
+          "Thank you.",
+          "I'm sorry.",
+          "Good night.",
+          "See you."
+        ],
+        "question": "Your friend helps you carry your books. What should you say?",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "Can I",
+        "difficulty": 2,
+        "explanation": "请求允许时可以用“Can I ...?”，句首大写，问句末尾用问号。",
+        "knowledge_point": "日常交际",
+        "options": [
+          "Can I",
+          "Do I",
+          "Am I",
+          "Does I"
+        ],
+        "question": "你想借用同学的尺子，可以说：______ use your ruler, please?",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "I'd love to.",
+        "difficulty": 2,
+        "explanation": "接受邀请时可以说“I'd love to.”，意思是“我很乐意”。",
+        "knowledge_point": "日常交际",
+        "options": [
+          "I'd love to.",
+          "It's not mine.",
+          "I'm ten.",
+          "You're welcome."
+        ],
+        "question": "“Would you like to play basketball with us?” “______”",
+        "score": 5,
+        "type": "choice",
+        "id": 106
+      },
+      {
+        "answer": "second",
+        "difficulty": 2,
+        "explanation": "星期一之后是星期二。星期日为一周第一天时，星期二是第二天，所以填 second。",
+        "knowledge_point": "综合理解",
+        "options": [],
+        "question": "Sunday is the first day of the week. Monday is the ______ day.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 107
+      },
+      {
+        "answer": "True",
+        "difficulty": 2,
+        "explanation": "句子说明明天是星期五，因此今天就是星期四，判断正确。",
+        "knowledge_point": "综合理解",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Today is Thursday. Tomorrow is Friday.",
+        "score": 5,
+        "type": "true_false",
+        "id": 108
+      },
+      {
+        "answer": "third",
+        "difficulty": 3,
+        "explanation": "先后顺序是：第一，给植物浇水；第二，把植物放在阳光下；第三，等待它生长。因此空格填 third。",
+        "knowledge_point": "综合理解",
+        "options": [
+          "first",
+          "second",
+          "third",
+          "fourth"
+        ],
+        "question": "Read the steps: First, water the plant. Second, put it in the sun. ______, wait for it to grow.",
+        "score": 5,
+        "type": "choice",
+        "id": 109
+      },
+      {
+        "answer": "Tuesday",
+        "difficulty": 3,
+        "explanation": "短文说今天是星期一，明天要去图书馆。星期一的第二天是星期二，所以答案是 Tuesday。",
+        "knowledge_point": "综合理解",
+        "options": [],
+        "question": "Amy has a busy week. Today is Monday. She will go to the library tomorrow. What day will she go to the library?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "The boy is happy because he has a new book.",
+        "difficulty": 4,
+        "explanation": "短文说男孩得到了一本新书，并且很喜欢读书，因此他开心的原因是有了一本新书。",
+        "knowledge_point": "综合理解",
+        "options": [],
+        "question": "Read and answer: Tom gets a new book from his aunt. He likes reading very much. He reads the book after dinner and feels happy. Why is Tom happy?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "She",
+        "difficulty": 1,
+        "explanation": "句子中需要一个作主语的代词。She 是主格，表示“她”；her 是宾格或形容词性物主代词。",
+        "knowledge_point": "代词搭配",
+        "options": [
+          "She",
+          "Her",
+          "Hers",
+          "Him"
+        ],
+        "question": "______ is my sister.",
+        "score": 5,
+        "type": "choice",
+        "id": 112
+      },
+      {
+        "answer": "them",
+        "difficulty": 2,
+        "explanation": "代词作动词 like 的宾语，要用宾格 them。",
+        "knowledge_point": "代词搭配",
+        "options": [
+          "they",
+          "their",
+          "them",
+          "theirs"
+        ],
+        "question": "We like ______ very much.",
+        "score": 5,
+        "type": "choice",
+        "id": 113
+      },
+      {
+        "answer": "ours",
+        "difficulty": 2,
+        "explanation": "空格处单独表示“我们的”，后面没有名词，所以用名词性物主代词 ours。",
+        "knowledge_point": "代词搭配",
+        "options": [
+          "our",
+          "ours",
+          "we",
+          "us"
+        ],
+        "question": "This classroom is ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 114
+      },
+      {
+        "answer": "her",
+        "difficulty": 2,
+        "explanation": "在介词 to 后作宾语，要用宾格 her。",
+        "knowledge_point": "代词搭配",
+        "options": [
+          "she",
+          "her",
+          "hers",
+          "he"
+        ],
+        "question": "Please give the book to ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 115
+      },
+      {
+        "answer": "his",
+        "difficulty": 3,
+        "explanation": "空格后没有名词，句意是“那辆自行车是他的”，要用可单独表示所属的名词性物主代词 his。",
+        "knowledge_point": "代词搭配",
+        "options": [
+          "he",
+          "him",
+          "his",
+          "their"
+        ],
+        "question": "That bike is ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 116
+      },
+      {
+        "answer": "second",
+        "difficulty": 1,
+        "explanation": "February是一年中的第二个月，second表示“第二”。",
+        "knowledge_point": "序数词",
+        "options": [],
+        "question": "February is the ___ month of a year.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "third",
+        "difficulty": 1,
+        "explanation": "Three表示“三”，表示第三时要使用特殊形式third。",
+        "knowledge_point": "序数词",
+        "options": [],
+        "question": "March is the ___ month of a year.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "fourth",
+        "difficulty": 1,
+        "explanation": "多数序数词在基数词后加-th，four的序数词是fourth。",
+        "knowledge_point": "序数词",
+        "options": [],
+        "question": "April is the ___ month of a year.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "fifth",
+        "difficulty": 2,
+        "explanation": "Five变序数词时要去掉ve，再加fth，拼写为fifth。",
+        "knowledge_point": "序数词",
+        "options": [],
+        "question": "May is the ___ month of a year.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "third",
+        "difficulty": 2,
+        "explanation": "表示比赛名次时使用序数词。第三名是the third place。",
+        "knowledge_point": "序数词",
+        "options": [
+          "three",
+          "third",
+          "thirteen",
+          "thirtieth"
+        ],
+        "question": "She came in ___ place in the race.",
+        "score": 5,
+        "type": "choice",
+        "id": 121
+      },
+      {
+        "answer": "first",
+        "difficulty": 1,
+        "explanation": "1st 的完整拼写是 first。它是特殊拼写，不是 oneth。",
+        "knowledge_point": "序数词拼写",
+        "options": [],
+        "question": "New Year's Day is on January ___ (1st).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "fourth",
+        "difficulty": 1,
+        "explanation": "4th 写作 fourth，在基数词 four 后加 th。",
+        "knowledge_point": "序数词拼写",
+        "options": [],
+        "question": "My birthday is on May ___ (4th).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "fifth",
+        "difficulty": 2,
+        "explanation": "5th 写作 fifth。five 变为序数词时，要把 ve 改为 f，再加 th。",
+        "knowledge_point": "序数词拼写",
+        "options": [],
+        "question": "Amy finished in ___ place (5th).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "eighth",
+        "difficulty": 2,
+        "explanation": "8th 写作 eighth。注意拼写中有 gh，再加 t h。",
+        "knowledge_point": "序数词拼写",
+        "options": [],
+        "question": "Our classroom is on the ___ floor (8th).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "twentieth",
+        "difficulty": 3,
+        "explanation": "20th 写作 twentieth。twenty 变序数词时，先把 y 改为 ie，再加 th。",
+        "knowledge_point": "序数词拼写",
+        "options": [],
+        "question": "The school library opened on September ___ (20th).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "When",
+        "difficulty": 1,
+        "explanation": "询问运动会的日期用句型 When is the sports meet?",
+        "knowledge_point": "询问活动日期",
+        "options": [],
+        "question": "___ is the sports meet? It's on May 8th.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "It's on October 1st.",
+        "difficulty": 2,
+        "explanation": "回答活动日期时可以用 It’s on + 日期。",
+        "knowledge_point": "询问活动日期",
+        "options": [],
+        "question": "When is the school trip? (October 1st)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "When is the art show?",
+        "difficulty": 2,
+        "explanation": "询问艺术展的日期，用 When is + 活动名称?",
+        "knowledge_point": "询问活动日期",
+        "options": [],
+        "question": "完成问句：___ ___ the art show?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "When is the singing contest? 意为“歌唱比赛是什么时候？”，回答日期用 It’s on + 日期。",
+        "knowledge_point": "询问活动日期",
+        "options": [
+          "A. It’s in the music room.",
+          "B. It’s on July 12th.",
+          "C. It’s a singing contest."
+        ],
+        "question": "选择合适的回答：When is the singing contest?",
+        "score": 5,
+        "type": "choice",
+        "id": 130
+      },
+      {
+        "answer": "False",
+        "difficulty": 2,
+        "explanation": "When 用来询问时间或日期；句子问校庆日是什么时候，答句应给出日期，例如 It’s on April 15th。",
+        "knowledge_point": "询问活动日期",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：When is the school anniversary? — It's in the library.",
+        "score": 5,
+        "type": "true_false",
+        "id": 131
+      },
+      {
+        "answer": "second",
+        "difficulty": 1,
+        "explanation": "表示第二要用序数词 second。",
+        "knowledge_point": "序数词用法",
+        "options": [],
+        "question": "I am the ___ child in my family.（第二）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
+      },
+      {
+        "answer": "fifth",
+        "difficulty": 2,
+        "explanation": "five 的序数词是 fifth，拼写时把 ve 变为 f 再加 th。",
+        "knowledge_point": "序数词用法",
+        "options": [],
+        "question": "Today is the ___ day of the school trip.（第五）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 133
+      },
+      {
+        "answer": "third",
+        "difficulty": 1,
+        "explanation": "three 的序数词是 third，表示第三。",
+        "knowledge_point": "序数词用法",
+        "options": [],
+        "question": "Our classroom is on the ___ floor.（第三）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 134
+      },
+      {
+        "answer": "twelfth",
+        "difficulty": 2,
+        "explanation": "twelve 的序数词是 twelfth，拼写时去掉 ve，改为 f，再加 th。",
+        "knowledge_point": "序数词用法",
+        "options": [],
+        "question": "My birthday is on the ___ of June.（第十二天）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 135
+      },
+      {
+        "answer": "twentieth",
+        "difficulty": 2,
+        "explanation": "twenty 以 y 结尾，变序数词时把 y 改为 ie，再加 th，写作 twentieth。",
+        "knowledge_point": "序数词用法",
+        "options": [],
+        "question": "She finished in ___ place.（第二十）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 136
+      },
+      {
+        "answer": "学校旅行",
+        "difficulty": 1,
+        "explanation": "school trip 的意思是“学校旅行”。",
+        "knowledge_point": "关键词汇",
+        "options": [],
+        "question": "school trip 的中文意思是______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "歌唱比赛",
+        "difficulty": 1,
+        "explanation": "singing contest 意为“歌唱比赛”。",
+        "knowledge_point": "关键词汇",
+        "options": [],
+        "question": "singing contest 的意思是______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 138
+      },
+      {
+        "answer": "birthday",
+        "difficulty": 1,
+        "explanation": "“生日”对应的英文单词是 birthday。",
+        "knowledge_point": "关键词汇",
+        "options": [],
+        "question": "“生日”用英语怎么说？______",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 139
+      },
+      {
+        "answer": "sports meet",
+        "difficulty": 2,
+        "explanation": "sports meet 表示“运动会”，常指学校或组织举办的体育活动。",
+        "knowledge_point": "关键词汇",
+        "options": [
+          "art show",
+          "sports meet",
+          "math test",
+          "school trip"
+        ],
+        "question": "学校举行运动会，应该选择哪个英文表达？",
+        "score": 3,
+        "type": "choice",
+        "id": 140
+      },
+      {
+        "answer": "art show",
+        "difficulty": 2,
+        "explanation": "art show 的意思是“美术展”，因此可用它描述展出学生美术作品的活动。",
+        "knowledge_point": "关键词汇",
+        "options": [],
+        "question": "用英语写出“美术展”：______",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 141
+      },
+      {
+        "answer": "first",
+        "difficulty": 1,
+        "explanation": "基数词 one 的序数词是 first，缩写为 1st。",
+        "knowledge_point": "序数词及其缩写",
+        "options": [],
+        "question": "请写出 one 的序数词。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 142
+      },
+      {
+        "answer": "3rd",
+        "difficulty": 1,
+        "explanation": "three 的序数词是 third，数字缩写为 3rd。",
+        "knowledge_point": "序数词及其缩写",
+        "options": [],
+        "question": "请写出 third 的数字缩写。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 143
+      },
+      {
+        "answer": "fifth",
+        "difficulty": 2,
+        "explanation": "five 变为序数词时，先将词尾 ve 变为 f，再加 th，写作 fifth。",
+        "knowledge_point": "序数词及其缩写",
+        "options": [],
+        "question": "请写出 five 的序数词。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 144
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "12 的序数词是 twelfth，缩写为 12th；12 结尾用 th，不用 nd。",
+        "knowledge_point": "序数词及其缩写",
+        "options": [
+          "A. 12th",
+          "B. 12nd",
+          "C. 12st"
+        ],
+        "question": "Which is the correct ordinal abbreviation for twelve?",
+        "score": 2,
+        "type": "choice",
+        "id": 145
+      },
+      {
+        "answer": "twentieth",
+        "difficulty": 3,
+        "explanation": "twenty 变为序数词时，去掉词尾 y，改为 ie，再加 th，写作 twentieth。",
+        "knowledge_point": "序数词及其缩写",
+        "options": [],
+        "question": "请写出 twenty 的序数词。",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 146
+      },
+      {
+        "answer": "When is the school trip?",
+        "difficulty": 1,
+        "explanation": "询问某项活动在什么时候举行，可用“When is + 活动名称?”",
+        "knowledge_point": "询问时间",
+        "options": [],
+        "question": "根据中文写出句子：学校旅行在什么时候？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 147
+      },
+      {
+        "answer": "It’s at three o’clock.",
+        "difficulty": 1,
+        "explanation": "回答活动举行的时间，可用“It’s at + 时间.”；表示具体钟点时，时间前用at。",
+        "knowledge_point": "询问时间",
+        "options": [],
+        "question": "补全对话：—When is the party? —It’s ___ three o’clock.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 148
+      },
+      {
+        "answer": "What time is it?",
+        "difficulty": 2,
+        "explanation": "询问现在几点钟，常用“What time is it?”",
+        "knowledge_point": "询问时间",
+        "options": [],
+        "question": "根据中文写出句子：现在几点钟？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 149
+      },
+      {
+        "answer": "It’s seven o’clock.",
+        "difficulty": 2,
+        "explanation": "回答“What time is it?”时，可以用“It’s + 钟点.”；整点可用“数字 + o’clock”表达。",
+        "knowledge_point": "询问时间",
+        "options": [],
+        "question": "现在是七点整。用英语回答“What time is it?”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 150
+      },
+      {
+        "answer": "When is the English class? — It’s at nine o’clock.",
+        "difficulty": 2,
+        "explanation": "询问英语课的时间用“When is the English class?”；回答活动时间用“It’s at + 时间.”",
+        "knowledge_point": "询问时间",
+        "options": [],
+        "question": "看提示完成对话：English class / 9:00。写出“英语课在什么时候？”及回答。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 151
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "表示具体的某月某日时，日期前通常用介词 on。",
+        "knowledge_point": "日期陈述",
+        "options": [],
+        "question": "填空：It is ___ June 2nd.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 152
+      },
+      {
+        "answer": "March",
+        "difficulty": 1,
+        "explanation": "月份名称首字母要大写，因此“3月”写作 March。",
+        "knowledge_point": "日期陈述",
+        "options": [],
+        "question": "填空：It is on ___ 8th.（3月）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 153
+      },
+      {
+        "answer": "It is on October 1st.",
+        "difficulty": 2,
+        "explanation": "日期陈述可用“It is on + 月份 + 序数词.”表示；10月1日写作 October 1st。",
+        "knowledge_point": "日期陈述",
+        "options": [],
+        "question": "用英语写出：日期是10月1日。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 154
+      },
+      {
+        "answer": "1st",
+        "difficulty": 2,
+        "explanation": "日期中的“1日”要用序数词 first 的缩写形式 1st。",
+        "knowledge_point": "日期陈述",
+        "options": [],
+        "question": "填空：It is on April ___.（4月1日）",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 155
+      },
+      {
+        "answer": "It is on July 12th.",
+        "difficulty": 2,
+        "explanation": "月份 July 首字母大写；12日写作 12th。按日期陈述句式写为“It is on July 12th.”",
+        "knowledge_point": "日期陈述",
+        "options": [],
+        "question": "根据提示完成句子：It is ___ ___.（7月12日）",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 156
       }
     ]
   },
@@ -707,6 +2457,301 @@
         "混淆'three'和'this'中th的发音"
       ],
       "tips": "咬舌尖。发/θ/时声带不震动（如three, thin），发/ð/时声带震动（如this, that, mother）。"
+    },
+    {
+      "common_mistakes": [
+        "把序数词缩写中的字母写成与基数词末尾相同的字母，例如把 first 写成 1th。",
+        "只记住一般规律，忽略 1、2、3 的特殊变化和 11、12、13 的例外。",
+        "忘记序数词常用于表示顺序、日期或名次。"
+      ],
+      "core_concept": "序数词表示人或事物的顺序，常见形式是在基数词后加 -th；1、2、3 有特殊形式，部分词还需改变拼写。序数词的数字缩写通常由数字加序数词末尾字母组成。",
+      "key_formula": "一般：基数词 + th；1st = first，2nd = second，3rd = third。以 8 结尾的 eight 去掉 t 再加 h（eighth）；以辅音字母 + y 结尾的词，变 y 为 i 再加 eth（twentieth）。缩写：1st、2nd、3rd；其他通常为数字 + th，但 11th、12th、13th 是例外。",
+      "point": "序数词的构成与缩写规则",
+      "tips": "先认清特殊词 first、second、third，再用一般规则。注意 fifth、eighth、ninth、twelfth 和 twentieth 等拼写变化。写缩写时看数字的末两位：11、12、13 都用 th；其余数字通常看个位，1 用 st，2 用 nd，3 用 rd，其他用 th。"
+    },
+    {
+      "common_mistakes": [
+        "具体到某一天（包括日期）通常用介词 on，不用 in 或 at。",
+        "月份前通常用 in，例如 in April；不要把月份和具体日期的介词混淆。",
+        "日期可以写作 April 1st，也可以说 April first。"
+      ],
+      "core_concept": "表达具体日期时，通常在日期前使用介词 on。询问日期可以说“When is ...?”，回答时用“It's on ...”。",
+      "key_formula": "It's on + 月份 + 序数词。例：It's on April 1st.",
+      "point": "具体日期的表达法",
+      "tips": "日期中的数字通常用序数词形式，如 1st、2nd、3rd、4th。读日期时，April 1st 可读作 April first。"
+    },
+    {
+      "common_mistakes": [
+        "询问具体日期时，把 when 和 what date 混用：询问“什么时候”可用 When is ...?；询问“几月几日”可用 What’s the date of ...? 或 What date is ...?",
+        "回答日期时漏掉序数词，如应说 It’s May 5th，而不是 It’s May 5。",
+        "询问某人的生日时，要说 When is your birthday?，回答时常用 My birthday is on ...。"
+      ],
+      "core_concept": "学习询问和回答生日或具体活动日期的常用表达，能听懂并说出月份和日期。",
+      "key_formula": "询问生日：When is your birthday? — My birthday is on + 月份 + 序数词。询问活动日期：When is + 活动? — It’s on + 月份 + 序数词. / What date is + 活动? — It’s + 月份 + 序数词.",
+      "point": "询问生日或具体活动的日期",
+      "tips": "日期中的“几日”通常用序数词，如 first、second、third、fifth、twentieth。口语中回答日期时，月份后接序数词；有具体日期时，常在日期前加 on，例如 on June 1st。"
+    },
+    {
+      "common_mistakes": [
+        "把字母组合 th 只记成一种发音；它常见有清辅音 /θ/ 和浊辅音 /ð/ 两种。",
+        "发 /θ/ 时误读成 /s/ 或 /f/；发 /ð/ 时误读成 /z/ 或 /d/。",
+        "只凭拼写或位置判断发音；有些词需要结合常见词和词典记忆。"
+      ],
+      "core_concept": "字母组合 th 通常表示两个发音：清辅音 /θ/ 和浊辅音 /ð/。发 /θ/ 时，舌尖轻放在上下齿之间，气流通过，声带不振动，如 thin、three、bath。发 /ð/ 时，舌尖位置相似，但声带振动，如 this、that、mother、with。它们都不是汉语拼音里的音，练习时注意舌尖位置和声带是否振动。",
+      "key_formula": "th 常见发音：/θ/（清辅音，如 thin、think、mouth）；/ð/（浊辅音，如 the、this、those、father）。常见提示：the、this、that、these、those、they、them、there 等常用词中的 th 多读 /ð/；但发音要结合具体单词记忆。",
+      "point": "字母组合th的发音规律",
+      "tips": "练习时可把手轻放在喉咙上：发 /θ/ 时声带不振动，发 /ð/ 时能感觉到振动。舌尖轻触上下齿之间，气流从舌尖和牙齿间通过。先慢读，再放进单词和句子中练习；遇到不确定的词，可查词典听发音。"
+    },
+    {
+      "common_mistakes": [
+        "把序数词缩写中的字母写成数字的最后一个字母，例如把 1st 写成 1th。",
+        "忘记 11th、12th、13th 是特殊形式，不能按个位数字套用 st、nd、rd。",
+        "把基数词和序数词混淆，例如用 4 表示“第四”，而不是 4th。"
+      ],
+      "core_concept": "序数词表示顺序，常用数字加序数词末尾字母缩写。一般根据序数词单词的最后两个字母确定缩写后缀。",
+      "key_formula": "first → 1st，second → 2nd，third → 3rd；其余一般加 th。特别注意：11th、12th、13th。",
+      "point": "序数词的缩写规则",
+      "tips": "记忆口诀：一看末两位，11、12、13 都用 th；不属于这三种时，再看个位，1 用 st，2 用 nd，3 用 rd，其余用 th。"
+    },
+    {
+      "common_mistakes": [
+        "把所有序数词都当作在基数词后加 -th。",
+        "漏掉 first、second、third 等不规则变化。",
+        "拼写时忘记去掉部分词尾或改 y 为 ie。",
+        "把序数词缩写中的数字与字母搭配写错。"
+      ],
+      "core_concept": "序数词表示顺序，常见构成方法有：基数词后加 -th；特殊词 first、second、third；以 -ve 结尾的词把 ve 改成 f 再加 -th；以辅音字母加 y 结尾的词把 y 改成 ie 再加 -th；以不发音的 e 结尾的词通常去 e 再加 -th。序数词常用缩写形式表示，如 1st、2nd、3rd、4th。",
+      "key_formula": "基数词 → 序数词：常见情况加 -th；one → first，two → second，three → third；five → fifth，twelve → twelfth；twenty → twentieth；nine → ninth。",
+      "point": "序数词的构成",
+      "tips": "记忆时可先记住 first、second、third 三个特殊词，再掌握常见拼写变化。写缩写时，1、2、3 分别搭配 st、nd、rd；其他数字通常搭配 th。"
+    },
+    {
+      "common_mistakes": [
+        "把表示具体某一天的 on 和表示某个月、某年的 in 混淆。",
+        "表示具体时刻通常用 at，不要把 at 和 in、on 随意替换。",
+        "表示地点时要根据地点范围和具体位置选择 in、on 或 at。"
+      ],
+      "core_concept": "介词常用来表示时间、地点和方向等关系。五年级常见介词有 in、on、at、to、from、under、behind、next to 等。",
+      "key_formula": "时间：at + 具体时刻；on + 具体某一天；in + 月份、年份或较长时间段。地点：in + 内部空间；on + 表面；at + 某个具体地点或场所。",
+      "point": "介词的使用",
+      "tips": "先判断句子要表达的是时间、地点还是方向，再根据介词搭配选择。记时间介词可以用口诀：点钟 at，日期 on，年月 in。"
+    },
+    {
+      "common_mistakes": [
+        "把基数词直接加上 th，如把 five 写成 fiveth。",
+        "漏掉不规则变化，如 first、second、third。",
+        "拼写以 y 结尾的序数词时，忘记把 y 改成 ie，如 twentieth。",
+        "把 twelve 变成序数词时，误写成 twelveth。"
+      ],
+      "core_concept": "序数词表示顺序，常见序数词由基数词变化而来。多数词在词尾加 th；first、second、third 是特殊变化；以 ve 结尾的 five、twelve 分别变为 fifth、twelfth；以 y 结尾的词通常把 y 改为 ie，再加 th，如 twentieth。",
+      "key_formula": "基数词 → 序数词：多数加 th；one→first，two→second，three→third；five→fifth，twelve→twelfth；以 y 结尾时 y→ie，再加 th。",
+      "point": "序数词的拼写",
+      "tips": "记忆时可把特殊拼写分组背诵：1st–3rd（first、second、third），5th 和 12th（fifth、twelfth），以及以 y 结尾的词（如 twentieth）。写完后检查词尾和字母变化。"
+    },
+    {
+      "common_mistakes": [
+        "把“When”误解为询问地点；“When”询问时间，“Where”询问地点。",
+        "特殊疑问句中疑问词和回答内容不匹配。",
+        "一般疑问句忘记使用“Yes”或“No”作简短回答。"
+      ],
+      "core_concept": "句型理解要关注句子的结构和疑问词，判断句子表达什么，并用符合句意的内容回答。常见疑问词有：what（什么）、when（什么时候）、where（在哪里）、who（谁）、why（为什么）和how（怎样）。",
+      "key_formula": "特殊疑问句：疑问词 + be动词/助动词 + 主语 + 其他？\n一般疑问句：Be动词/助动词 + 主语 + 其他？\n回答时要让信息与疑问词相对应。",
+      "point": "句型理解",
+      "tips": "读疑问句时，可以先圈出疑问词，再想一想它需要哪类答案。例如，When is the art show? 应回答时间；Where is the art show? 应回答地点。看到Is/Are/Do/Does等开头时，通常是在问“是否”，可用Yes或No作简短回答。"
+    },
+    {
+      "common_mistakes": [
+        "把序数词和基数词混淆：表示“第几”用序数词，表示数量用基数词。",
+        "忘记序数词前通常要加 the；但日期等固定表达中常省略 the。",
+        "把序数词的拼写规则记错，如 fifth、ninth、twelfth。"
+      ],
+      "core_concept": "序数词表示顺序或名次，常用于回答“第几（个）”。常见序数词包括 first（第一）、second（第二）、third（第三）、fourth（第四）等。序数词前通常加 the；表示日期时，月份后可直接用序数词，如 June first。",
+      "key_formula": "the + 序数词 + 名词；日期：月份 + 序数词（如 June first）",
+      "point": "序数词辨析",
+      "tips": "记忆口诀：一、二、三特殊记（first、second、third）；其余多数加 -th；five 变 fifth，nine 去 e 加 th，twelve 变 twelfth；整十数把 y 改成 ie 再加 th（如 twentieth）。"
+    },
+    {
+      "common_mistakes": [
+        "把When（何时）和Where（哪里）混淆。",
+        "询问人物用Who，询问事物或内容常用What。",
+        "询问原因用Why，回答时常用Because说明原因。",
+        "询问方式或状态常用How。"
+      ],
+      "core_concept": "疑问词放在句首，用来询问不同的信息。根据答句所表达的内容选择合适的疑问词：Who问人，What问事物或内容，When问时间，Where问地点，Why问原因，How问方式或状态。",
+      "key_formula": "疑问词 + 一般疑问句语序 + 其他成分？",
+      "point": "疑问词辨析",
+      "tips": "先看答句中的关键信息：月份、日期或钟点通常对应When；地点对应Where；人物对应Who；原因对应Why；动作、事物或内容常对应What；方式或状态常对应How。"
+    },
+    {
+      "common_mistakes": [
+        "把 five 的序数词写成 fiveth；正确拼写是 fifth。",
+        "把 twelve 的序数词写成 twelveth；正确拼写是 twelfth。",
+        "把 eight 的序数词写成 eightth；正确拼写是 eighth。",
+        "混淆序数词的拼写和数字缩写，如 1st、2nd、3rd、4th。"
+      ],
+      "core_concept": "序数词表示顺序，常用来表示日期、名次或次序。大多数序数词在基数词后加 -th，但有些词的拼写会发生变化，需要特别记忆。",
+      "key_formula": "常见特殊变形：one → first，two → second，three → third，five → fifth，eight → eighth，nine → ninth，twelve → twelfth。其他多数序数词通常加 -th，如 six → sixth、seven → seventh。",
+      "point": "序数词拼写特殊变体",
+      "tips": "记忆特殊词时，可把基数词和序数词成对朗读、书写。看到日期或“第几名”等语境时，先判断需要序数词，再检查是否属于特殊拼写。"
+    },
+    {
+      "common_mistakes": [
+        "可数名词单数前通常需要限定词，如 a book、the book。",
+        "some 常用于肯定句，any 常用于疑问句和否定句；但在表示邀请或期待肯定回答的疑问句中也可用 some。",
+        "a 用于辅音音素开头的单词前，an 用于元音音素开头的单词前。",
+        "不要把修饰可数名词复数的 many 和修饰不可数名词的 much 混用。"
+      ],
+      "core_concept": "限定词放在名词前，用来说明名词所指的人或物的数量、范围或归属。常见限定词有 a、an、the、some、any、many、much、this、that、my 等。",
+      "key_formula": "a/an + 可数名词单数；some/any + 可数名词复数或不可数名词；many + 可数名词复数；much + 不可数名词。",
+      "point": "限定词用法",
+      "tips": "做题时先找限定词后面的名词，判断它是单数、复数还是不可数名词；再看句子是肯定句、否定句还是疑问句，最后选择合适的限定词。"
+    },
+    {
+      "common_mistakes": [
+        "表示数量时误用序数词，如说 three books，而不是 third books。",
+        "表示顺序或名次时误用基数词，如说 the three book，而不是 the third book。",
+        "序数词前常漏掉定冠词 the。",
+        "容易拼错常见序数词，如 first、second、third、fifth、ninth、twelfth。"
+      ],
+      "core_concept": "基数词表示数量，回答“How many?”；序数词表示顺序或名次，回答“Which one?”。序数词常放在名词前，前面通常加 the。",
+      "key_formula": "基数词 + 可数名词复数，表示数量；the + 序数词 + 名词，表示顺序或名次。",
+      "point": "基数词与序数词",
+      "tips": "记住常见变化：one—first，two—second，three—third；大多数序数词在基数词后加 -th，如 four—fourth、six—sixth；five—fifth、eight—eighth、nine—ninth、twelve—twelfth 有拼写变化。表示日期、楼层或比赛名次时，常用序数词。"
+    },
+    {
+      "common_mistakes": [
+        "不要只看序数词最后两个数字来决定后缀；要看数字个位数，11、12、13是例外。",
+        "序数词缩写要把数字与对应的后缀连写，中间不加空格或句点。"
+      ],
+      "core_concept": "序数词表示顺序，如 first（第一）、second（第二）、third（第三）。数字缩写通常由数字加上序数词末尾的两个字母构成。",
+      "key_formula": "通常：1 → st，2 → nd，3 → rd，其他数字 → th。例外：以11、12、13结尾的数字一律用 th。",
+      "point": "序数词缩写规则",
+      "tips": "先检查数字最后两位是不是11、12或13；如果是，写th。否则再看个位数：1写st，2写nd，3写rd，其余写th。"
+    },
+    {
+      "common_mistakes": [
+        "一般疑问句的回答要与问句中的主语和助动词保持一致。",
+        "不要把肯定回答写成“Yes, it isn't.”，也不要把“No”与肯定回答搭配。",
+        "在日常交际中，要根据问题内容选择合适、礼貌的表达。"
+      ],
+      "core_concept": "日常交际中，先听懂对方询问的内容，再用合适的句型作答。回答以be动词开头的一般疑问句时，肯定回答常用“Yes, 主语 + be动词.”，否定回答常用“No, 主语 + be动词 + not.”。",
+      "key_formula": "一般疑问句：Be动词 + 主语 + 其他？肯定回答：Yes, 主语 + be动词. 否定回答：No, 主语 + be动词 + not.",
+      "point": "日常交际",
+      "tips": "先找出问句中的主语和be动词，再用相同主语和be动词回答；确认具体信息时，可补充日期、时间或地点。"
+    },
+    {
+      "common_mistakes": [
+        "数星期几时要先确定题目把星期几作为一周的第一天。",
+        "序数词表示顺序，如 second、third；基数词表示数量，如 two、three。",
+        "读短文或句子时，要结合前后信息理解时间、人物和事件，不要只凭单个词猜答案。"
+      ],
+      "core_concept": "综合理解是结合题目中的多个信息，理解句意、时间顺序和人物关系，再选择或写出符合语境的答案。",
+      "key_formula": "先找关键信息 → 联系上下文 → 判断语义和顺序 → 核对答案是否符合句意",
+      "point": "综合理解",
+      "tips": "先读完整句子，圈出时间词和提示词；遇到序数词，注意它表示第几；完成后把答案放回句中通读，检查意思是否通顺。"
+    },
+    {
+      "common_mistakes": [
+        "形容词性物主代词后面要接名词，不能单独代替名词。",
+        "名词性物主代词可以单独使用，后面不再接名词。",
+        "主格代词作主语，宾格代词通常作动词或介词的宾语。"
+      ],
+      "core_concept": "代词要根据它在句子中的作用和后面是否跟名词来搭配。形容词性物主代词（my、your、his、her、its、our、their）后接名词；名词性物主代词（mine、yours、his、hers、ours、theirs）可单独使用；主格代词（I、you、he、she、it、we、they）常作主语，宾格代词（me、you、him、her、it、us、them）常作宾语。",
+      "key_formula": "形容词性物主代词 + 名词；名词性物主代词单独使用；主格作主语，宾格作宾语。",
+      "point": "代词搭配",
+      "tips": "做题时先找代词后面是否有名词：有名词常选 my、your、his、her、our、their；没有名词且表示所属，可选 mine、yours、his、hers、ours、theirs。再判断代词是作主语还是宾语。"
+    },
+    {
+      "common_mistakes": [
+        "把序数词和基数词混淆：序数词表示顺序，基数词表示数量。",
+        "忘记在序数词前使用定冠词the（表示特定顺序时）。",
+        "拼写时忽略特殊变化，如first、second、third、fifth、eighth、ninth、twelfth。",
+        "整十序数词的拼写要把词尾y变为ie再加th，如twenty变为twentieth。"
+      ],
+      "core_concept": "序数词表示人或事物的顺序，常见的有first（第一）、second（第二）、third（第三）、fourth（第四）、fifth（第五）等。表示特定的顺序时，序数词前通常加the。",
+      "key_formula": "基数词表示数量；序数词表示顺序。多数序数词由基数词加-th构成，如four—fourth；特殊形式需单独记忆，如one—first、two—second、three—third。序数词前通常用the。",
+      "point": "序数词",
+      "tips": "记忆常见特殊拼写：first、second、third、fifth、eighth、ninth、twelfth。表示日期、名次或排列顺序时，注意根据语境使用序数词，并留意前面的the。"
+    },
+    {
+      "common_mistakes": [
+        "把序数词写成基数词，如把 fifth 写成 five。",
+        "忘记 first、second、third 的特殊拼写。",
+        "把以 -ve 结尾的基数词变成序数词时，误写为直接加 th；如 five 应变为 fifth。",
+        "拼写整十序数词时，忘记把 y 改为 ie，如 twentieth。"
+      ],
+      "core_concept": "序数词表示次序，常用于日期、名次和楼层等。许多序数词由基数词加 -th 构成，但 first、second、third 的拼写特殊；以 -ve 结尾的 five、twelve 等拼写变化较大；以辅音字母加 y 结尾的整十数要先把 y 改为 ie，再加 th。",
+      "key_formula": "常见规律：基数词 + th → 序数词；first、second、third 特殊记；five → fifth，twelve → twelfth；twenty → twentieth。",
+      "point": "序数词拼写",
+      "tips": "可以把容易出错的词成组记忆：one—first，two—second，three—third；five—fifth，eight—eighth，nine—ninth；twelve—twelfth，twenty—twentieth。写日期时，先读括号中的数字，再写出对应的序数词。"
+    },
+    {
+      "common_mistakes": [
+        "询问日期或时间用 when，不用 where（询问地点）或 what（询问事物）。",
+        "回答具体日期时，常用 on，如 on June 2nd。",
+        "询问某项活动的日期时，注意把活动名称放在 be 动词后面。"
+      ],
+      "core_concept": "询问活动日期常用句型：When is + 活动名称? 回答时可用：It’s on + 日期。",
+      "key_formula": "When is + 活动名称? — It’s on + 日期.",
+      "point": "询问活动日期",
+      "tips": "When 用来询问时间或日期。说出具体日期时，通常在日期前加 on，例如：When is the school trip? It’s on May 10th."
+    },
+    {
+      "common_mistakes": [
+        "序数词表示顺序或日期，通常在基数词后加词尾，但有些词的拼写变化不规则。",
+        "序数词前常用 the；表示日期时，月份后面的日期通常用序数词。",
+        "注意区分序数词的拼写和读音，例如 fifth、twelfth、thirtieth。"
+      ],
+      "core_concept": "序数词表示人或事物的顺序，常见形式包括 first、second、third，以及在基数词后加 -th 的形式。序数词常用于名次、楼层和日期。",
+      "key_formula": "一般基数词 + -th；特殊形式：one → first，two → second，three → third；以 -ve 结尾的词常变为 -fth（如 five → fifth）；以 -y 结尾的词常把 y 变为 ie 再加 -th（如 twenty → twentieth）。",
+      "point": "序数词用法",
+      "tips": "记住 first、second、third 这三个特殊形式；拼写序数词时留意 fifth、ninth、twelfth 和 twentieth 等变化。做题时先判断要表达的是数量还是顺序：数量用基数词，顺序用序数词。"
+    },
+    {
+      "common_mistakes": [
+        "把 art show 误解成“艺术课”，它的意思是“美术展”。",
+        "混淆 sports meet（运动会）和 math test（数学测试）。",
+        "birthday 表示“生日”，不是“生日聚会”。"
+      ],
+      "core_concept": "学习并理解常见活动和日期相关词汇，能够根据英文表达说出对应的中文意思。",
+      "key_formula": "关键词汇：art show—美术展；sports meet—运动会；math test—数学测试；birthday—生日；school trip—学校旅行；singing contest—歌唱比赛。",
+      "point": "关键词汇",
+      "tips": "可以把英文词汇和具体场景联系起来记忆：看到画作想到 art show，想到运动比赛想到 sports meet。"
+    },
+    {
+      "common_mistakes": [
+        "把序数词和基数词混淆：序数词表示顺序，基数词表示数量。",
+        "把序数词缩写中的字母写错；缩写要根据序数词末尾的两个字母确定，如 first—1st、second—2nd、third—3rd。",
+        "以 -ve 结尾的基数词变序数词时，通常先将 -ve 变为 -f，再加 -th，如 five—fifth、twelve—twelfth。",
+        "注意整十数的拼写变化：twenty 变为 twentieth，去掉词尾 y，改为 ie 再加 th。",
+        "表示日期时，通常使用序数词，如 May 1st。"
+      ],
+      "core_concept": "序数词表示人或事物的顺序，常译为“第几”。大多数序数词由基数词加 -th 构成，但 first、second、third 等有特殊形式。序数词常用数字加词尾字母缩写。",
+      "key_formula": "一般形式：基数词 + -th；特殊形式：one—first (1st), two—second (2nd), three—third (3rd)。数字缩写通常按序数词末尾字母写，如 4th、5th、21st、22nd、23rd、24th。",
+      "point": "序数词及其缩写",
+      "tips": "记住 first、second、third 及其缩写 1st、2nd、3rd。其他常见形式包括 fourth—4th、fifth—5th、eighth—8th、ninth—9th、twelfth—12th、twentieth—20th。带有 1、2、3 结尾的两位数通常分别用 st、nd、rd，但 11th、12th、13th 是例外。"
+    },
+    {
+      "common_mistakes": [
+        "不要把When放在be动词后面。",
+        "询问活动时间时，常用句型“When is + 活动？”；回答时可用“It’s at + 时间.”。",
+        "询问具体钟点时，可以说“What time is it?”，回答可用“It’s + 时间.”。"
+      ],
+      "core_concept": "询问时间常用“When is …?”询问某项活动在什么时候举行；询问现在几点钟常用“What time is it?”。",
+      "key_formula": "When is + 活动？— It’s at + 时间.；What time is it? — It’s + 时间.",
+      "point": "询问时间",
+      "tips": "先判断是询问活动时间还是现在的钟点：活动时间用“When is …?”，现在几点用“What time is it?”。回答活动时间时，时间前通常用at。"
+    },
+    {
+      "common_mistakes": [
+        "日期中的日要用序数词，如 5th，而不是基数词 5。",
+        "表示“在某月某日”时，日期前通常用 on，如 on May 5th。",
+        "日期陈述中，月份首字母要大写。"
+      ],
+      "core_concept": "表达日期时，可以用“It is + on + 月份 + 序数词.”表示“日期是……”。例如：It is on May 5th.（日期是5月5日。）询问日期常用“When is it?”",
+      "key_formula": "It is on + 月份 + 序数词. / When is it?",
+      "point": "日期陈述",
+      "tips": "先写主语 It，再写 is；表示具体日期时用 on，接月份和序数词。常见日期序数词：1st、2nd、3rd、4th、5th。"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "unit_number": 3,
   "unit_test": {
     "title": "第三单元单韵母与声母基础通关测验",
-    "total_score": 100,
+    "total_score": 109,
     "time_minutes": 40,
     "questions": [
       {
@@ -30,15 +30,15 @@
         "explanation": "o的二声向上扬，发音类似于惊讶或打招呼的'ó'。"
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "j、q、x与ü相拼规则",
-        "question": "小鱼ü见到j、q、x，去掉两点还念ü。",
-        "options": [],
         "answer": "对",
-        "explanation": "这是拼音规则中的重要口诀，j q x不与u相拼，只与ü相拼且去两点。"
+        "difficulty": 2,
+        "explanation": "这句话正确。ü 跟 j、q、x 相拼时，书写时去掉两点，但读音仍是 ü。",
+        "knowledge_point": "j、q、x与ü相拼规则",
+        "options": [],
+        "question": "小鱼ü见到j、q、x，去掉两点还念ü。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
         "id": 4,
@@ -127,20 +127,20 @@
         "explanation": "f是声母，u、o、i是单韵母。"
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "j-ü→ju",
         "difficulty": 2,
+        "explanation": "j 与 ü 相拼时，ü 去掉两点，写成 ju；读音仍是 ü。其余选项分别把 ü 的两点保留、把 ü 错写成 u，或把这条规则误用于 f。",
         "knowledge_point": "j、q、x与ü相拼规则",
-        "question": "下列拼读书写完全正确的一项是：",
         "options": [
           "j-ü→jü",
           "j-ü→ju",
           "f-ü→fu",
           "q-ü→qü"
         ],
-        "answer": "j-ü→ju",
-        "explanation": "j、q、x遇到ü要去掉两点写成ju, qu, xu。"
+        "question": "下列拼读书写完全正确的一项是：",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
         "id": 11,
@@ -175,20 +175,20 @@
         "explanation": "鼓的读音是gǔ。"
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "q 和 ü",
         "difficulty": 3,
+        "explanation": "题目给出 qù（回去）。这个音节书写时由 q 和去掉两点的 ü 组成，读音仍是 ü，不是单韵母 u。",
         "knowledge_point": "j、q、x与ü相拼规则",
-        "question": "音节 'qù'（回去）是由哪两个部分组成的？",
         "options": [
           "q 和 u",
           "q 和 ü",
           "p 和 u",
           "g 和 u"
         ],
-        "answer": "q 和 ü",
-        "explanation": "q不能与u拼，这里的u实际上是去掉了两点的ü。"
+        "question": "音节“qù”（回去）是由哪两个部分组成的？",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
         "id": 14,
@@ -346,6 +346,39 @@
         ],
         "answer": "a,o,e,i",
         "explanation": "单韵母的标准顺序是a, o, e, i, u, ü。"
+      },
+      {
+        "answer": "qu",
+        "difficulty": 2,
+        "explanation": "q 与 ü 相拼时，ü 去掉两点，写成 qu，读音仍是 ü。",
+        "knowledge_point": "j、q、x与ü相拼规则",
+        "options": [],
+        "question": "把“q + ü”拼成一个音节，只写音节，填1个拼音音节：____",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "ü",
+        "difficulty": 2,
+        "explanation": "ju 中写出的 u 是 ü 去掉两点后的写法；它与 j 相拼时，原来的韵母是 ü。",
+        "knowledge_point": "j、q、x与ü相拼规则",
+        "options": [],
+        "question": "ju 里的 u 原来是哪一个韵母？只填1个拼音字母：____",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "错",
+        "difficulty": 3,
+        "explanation": "这句话错误。j、q、x 与 ü 相拼时，ü 去掉两点；n 与 ü 相拼时两点保留，写作 nü。",
+        "knowledge_point": "j、q、x与ü相拼规则",
+        "options": [],
+        "question": "n 和 ü 相拼时，ü 也要去掉两点，写成 nu。",
+        "score": 3,
+        "type": "true_false",
+        "id": 26
       }
     ]
   },
@@ -717,14 +750,14 @@
       "tips": "手指滑动练习法：左手代表声母，右手代表韵母，双手碰撞时喊出音节。"
     },
     {
-      "point": "j、q、x与ü相拼规则",
-      "core_concept": "这是拼音教学中的难点和特殊规则。声母j、q、x只能与韵母i和ü相拼，不能与u相拼。当它们与ü相拼时，ü头上的两点必须省去，但在读音上依然保持ü的音。目的是为了书写简便且不会产生歧义。",
-      "key_formula": "小ü见到j q x，去掉两点还念ü。",
       "common_mistakes": [
-        "在ju, qu, xu中错误地把韵母读成u",
-        "在书写nü, lü时错误地去掉了两点"
+        "把 ju、qu、xu 中写出的 u 当成原来的单韵母 u；这里它们分别由 j、q、x 和 ü 拼成，书写时 ü 去掉两点，读音仍是 ü。",
+        "把去两点的规则误用到 n、l 后面；n、l 与 ü 相拼时，两点要保留，如 nü、lü。"
       ],
-      "tips": "记忆口诀：小ü很有礼貌，见到j q x大哥哥，摘掉帽子去敬礼。"
+      "core_concept": "声母 j、q、x 与韵母 ü 相拼时，ü 要去掉两点，写成 ju、qu、xu，读音仍是 ü。n、l 与 ü 相拼时，ü 的两点保留。",
+      "key_formula": "j、q、x + ü：去掉 ü 的两点，读音仍是 ü。例：j + ü 写作 ju；n + ü 写作 nü。",
+      "point": "j、q、x与ü相拼规则",
+      "tips": "先看声母是不是 j、q、x：如果是，和 ü 相拼时去掉两点；如果是 n、l 等其他声母，如 n、l，则不要照搬这条规则。读 ju、qu、xu 时，记得它们原来是和 ü 相拼的。"
     }
   ]
 }

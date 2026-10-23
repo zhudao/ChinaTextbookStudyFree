@@ -4,326 +4,708 @@
   "unit_number": 2,
   "unit_test": {
     "title": "第二单元《呼吸与消化》基础达标卷",
-    "total_score": 100,
+    "total_score": 235,
     "time_minutes": 45,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "吸气时胸廓扩大，胸腔容积增加，空气经鼻腔和气管进入肺部。",
         "knowledge_point": "人体呼吸系统与过程",
+        "options": [],
         "question": "吸气时，空气通过鼻腔、气管进入肺部，此时胸腔扩张。",
-        "options": [],
-        "answer": "对",
-        "explanation": "吸气时，膈肌收缩下降，肋间肌收缩，胸廓扩大，肺部扩张进入空气。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "按食物来源，可以把食物分为植物类食物和动物类食物。",
         "knowledge_point": "食物分类",
+        "options": [],
         "question": "根据食物来源，我们可以把食物分为植物类食物和动物类食物。",
-        "options": [],
-        "answer": "对",
-        "explanation": "这是最常用的食物分类方法之一，又称素食和荤食。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "舌头能搅拌食物，也能帮助移动食物、辅助吞咽并感受味道，因此并非只起搅拌作用。",
         "knowledge_point": "口腔的消化功能",
+        "options": [],
         "question": "舌头在口腔消化的过程中只起到搅拌食物的作用。",
-        "options": [],
-        "answer": "对",
-        "explanation": "舌头主要负责搅拌食物并将其输送到食道口，同时协助感受味道。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "肺活量表示尽力吸气后尽力呼出的气体量。肺活量较大，通常说明一次尽力呼气能够排出的气体较多。",
         "knowledge_point": "测量与提升肺活量",
-        "question": "肺活量大的人，每次呼吸能够交换的气体量相对较多。",
         "options": [],
-        "answer": "对",
-        "explanation": "肺活量是人体发育水平和健康状况的重要指标，大的肺活量意味着更强气体交换能力。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
+        "question": "肺活量大的人，每次尽力呼出的气体量通常相对较多。",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "食物中的营养成分",
-        "question": "含有脂肪、蛋白质、糖类的食物才是营养均衡的，维生素不重要。",
-        "options": [],
-        "answer": "错",
-        "explanation": "维生素和矿物质也是人体必需的六大营养素，对调节身体机能至关重要。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "维生素和矿物质也是人体必需的营养成分，对调节身体机能很重要。",
+        "knowledge_point": "食物中的营养成分",
+        "options": [],
+        "question": "含有脂肪、蛋白质、糖类的食物才是营养均衡的，维生素不重要。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "氧气减少，二氧化碳增多",
         "difficulty": 1,
+        "explanation": "人体吸入氧气并排出二氧化碳，所以呼出的气体中氧气比吸入时少，二氧化碳比吸入时多；呼出气体仍含有氧气。",
         "knowledge_point": "人体呼吸系统与过程",
-        "question": "我们呼吸时，每次呼出的气体与吸入的气体相比，变化最大的是（）。",
         "options": [
           "氧气减少，二氧化碳增多",
           "氧气增多，二氧化碳减少",
           "完全没有氧气了",
           "氮气显著增加"
         ],
-        "answer": "氧气减少，二氧化碳增多",
-        "explanation": "人体呼吸过程本质是氧气与二氧化碳的交换过程。"
+        "question": "我们呼吸时，每次呼出的气体与吸入的气体相比，变化最大的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "淀粉",
         "difficulty": 1,
+        "explanation": "含淀粉的食物遇到碘酒会出现蓝色或蓝黑色，这是检验淀粉的常见方法。",
         "knowledge_point": "食物中的营养成分及其检测",
-        "question": "在馒头上滴加碘酒，馒头变蓝了，说明馒头中含有（）。",
         "options": [
           "蛋白质",
           "脂肪",
           "淀粉",
           "维生素"
         ],
-        "answer": "淀粉",
-        "explanation": "淀粉遇碘酒变蓝是基本的化学反应特征。"
+        "question": "在馒头上滴加碘酒，馒头变蓝了，说明馒头中含有（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "谷薯类",
         "difficulty": 2,
+        "explanation": "谷薯类位于宝塔底层，日常摄入量相对较多，可为身体活动提供能量。",
         "knowledge_point": "平衡膳食宝塔的应用",
-        "question": "根据“平衡膳食宝塔”，我们每天摄入量最大的应该是（）。",
         "options": [
           "谷薯类",
           "蔬菜水果类",
           "油脂类",
           "鱼肉蛋类"
         ],
-        "answer": "谷薯类",
-        "explanation": "谷薯类位于宝塔底层，提供能量，需求量最大。"
+        "question": "根据“平衡膳食宝塔”，我们每天摄入量最大的一类食物通常是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "门齿",
         "difficulty": 1,
+        "explanation": "门齿适合切割食物；犬齿适合撕裂食物，臼齿适合磨碎食物。",
         "knowledge_point": "口腔的消化功能",
-        "question": "牙齿中主要起切割食物作用的是（）。",
         "options": [
           "臼齿",
           "犬齿",
           "门齿",
           "槽牙"
         ],
-        "answer": "门齿",
-        "explanation": "门齿像菜刀负责切割，犬齿撕碎，臼齿磨碎。"
+        "question": "牙齿中主要起切割食物作用的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "增大",
         "difficulty": 2,
+        "explanation": "坚持适合自己的体育锻炼，有助于增强呼吸相关肌肉的活动能力，从而改善肺活量。锻炼要循序渐进。",
         "knowledge_point": "测量与提升肺活量",
-        "question": "通过体育锻炼，我们的肺活量通常会（）。",
         "options": [
           "减小",
           "不变",
           "增大",
           "先变大后变小"
         ],
-        "answer": "增大",
-        "explanation": "长期锻炼可增强呼吸肌力量，提升肺部的扩张能力。"
+        "question": "通过长期、适量的体育锻炼，我们的肺活量通常会（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "胃",
         "difficulty": 1,
+        "explanation": "胃属于消化器官；鼻腔、气管和肺参与呼吸。",
         "knowledge_point": "人体呼吸系统与过程",
-        "question": "下列不属于呼吸器官的是（）。",
         "options": [
           "气管",
           "肺",
           "鼻腔",
           "胃"
         ],
-        "answer": "胃",
-        "explanation": "胃属于消化器官，而非呼吸器官。"
+        "question": "下列不属于呼吸器官的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "脂肪",
         "difficulty": 2,
+        "explanation": "脂肪能在纸上留下半透明的油迹，因此可以用这个现象初步判断食物中含有较多脂肪。",
         "knowledge_point": "食物中的营养成分",
-        "question": "在白纸上涂抹花生种子，留下油迹，说明花生含有较多（）。",
         "options": [
           "糖类",
           "蛋白质",
           "脂肪",
           "水"
         ],
-        "answer": "脂肪",
-        "explanation": "脂肪能在纸上留下半透明的油迹。"
+        "question": "在白纸上涂抹花生种子，留下油迹，说明花生含有较多（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "植物类食物",
         "difficulty": 1,
+        "explanation": "面条通常由小麦粉制成，小麦是植物，因此面条属于植物类食物。",
         "knowledge_point": "食物的分类与统计",
-        "question": "面条属于（）。",
         "options": [
           "动物类食物",
           "植物类食物",
           "矿物类食物",
           "合成类食物"
         ],
-        "answer": "植物类食物",
-        "explanation": "面条由小麦加工而成，来源是植物。"
+        "question": "面条属于（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "需要更多氧气",
         "difficulty": 2,
+        "explanation": "运动时身体活动增强，需要更多氧气，也会产生更多二氧化碳，因此呼吸次数通常增加。",
         "knowledge_point": "人体呼吸系统与过程",
-        "question": "人运动后呼吸次数增加，其原因是（）。",
         "options": [
           "人变得兴奋",
           "需要更多氧气",
           "心脏跳得慢了",
           "肺变大了"
         ],
-        "answer": "需要更多氧气",
-        "explanation": "运动消耗大量能量，需要更多氧气参与转化。"
+        "question": "人运动后呼吸次数增加，其原因是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "蛋白质",
         "difficulty": 2,
+        "explanation": "蛋白质是身体生长、构建和修复所需的重要营养成分。",
         "knowledge_point": "食物中的营养成分",
-        "question": "主要负责构建和修复我们身体的营养成分是（）。",
         "options": [
           "糖类",
           "脂肪",
           "蛋白质",
           "矿物质"
         ],
-        "answer": "蛋白质",
-        "explanation": "蛋白质是生命的基础，是肌肉、皮肤等的主要成分。"
+        "question": "主要负责构建和修复我们身体的营养成分是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "淀粉",
         "difficulty": 3,
+        "explanation": "唾液中的唾液淀粉酶能帮助淀粉发生变化，所以长时间咀嚼馒头可能会尝到甜味。",
         "knowledge_point": "口腔的消化功能",
-        "question": "咀嚼馒头会感到甜，是因为唾液使其中的（）发生了变化。",
         "options": [
           "脂肪",
           "淀粉",
           "蛋白质",
           "维生素"
         ],
-        "answer": "淀粉",
-        "explanation": "唾液淀粉酶能将淀粉转化为有甜味的麦芽糖。"
+        "question": "咀嚼馒头会感到甜，是因为唾液使其中的（）发生了变化。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "米饭",
         "difficulty": 1,
+        "explanation": "米饭主要由稻米制成，稻米属于谷类，因此米饭是常见主食。",
         "knowledge_point": "食物分类",
-        "question": "下列属于主食的是（）。",
         "options": [
           "红烧肉",
           "炒青菜",
           "米饭",
           "苹果"
         ],
-        "answer": "米饭",
-        "explanation": "主食通常指谷类或薯类食物。"
+        "question": "下列属于主食的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "最大力",
         "difficulty": 2,
+        "explanation": "肺活量指尽力吸气后，尽力呼出的气体量。",
         "knowledge_point": "衡量肺活量",
-        "question": "测量肺活量时，呼出的气体量应该是（）吸一口气后的呼出量。",
         "options": [
           "轻轻",
           "普通",
           "最大力",
           "稍微"
         ],
-        "answer": "最大力",
-        "explanation": "肺活量指尽力吸气后，尽力呼出的气体量。"
+        "question": "测量肺活量时，呼出的气体量应该是（）吸一口气后的呼出量。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "食物的分类与统计",
-        "question": "如果我们一餐吃了蛋炒饭，其中包含米饭、鸡蛋、葱，我们认为这一顿饭包含了（）种食物。",
-        "options": [],
         "answer": "3",
-        "explanation": "按食材统计，米饭、鸡蛋、葱各为一种。"
-      },
-      {
-        "id": 20,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "口腔的消化功能",
-        "question": "一个成年人的牙齿通常有（）颗左右。",
-        "options": [],
-        "answer": "32",
-        "explanation": "成年人牙齿数量通常在28到32颗之间。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "人体呼吸系统与过程",
-        "question": "人体进行气体交换的主要场所是（）。",
-        "options": [],
-        "answer": "肺",
-        "explanation": "肺是呼吸系统的核心，负责血液与外界的气体交换。"
-      },
-      {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
-        "knowledge_point": "食物中的营养成分",
-        "question": "肥肉里含有丰富的（），能在纸上留下油痕。",
+        "explanation": "蛋炒饭中有米饭、鸡蛋和葱，按不同食材计数，共3种。",
+        "knowledge_point": "食物的分类与统计",
         "options": [],
-        "answer": "脂肪",
-        "explanation": "脂肪是肥肉的主要成分。"
+        "question": "如果我们一餐吃了蛋炒饭，其中包含米饭、鸡蛋、葱，我们认为这一顿饭包含了（）种食物。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 19
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "平衡膳食宝塔的应用",
-        "question": "根据营养均衡原则，我们不应该（），即只吃自己喜欢的食物。",
+        "answer": "32",
+        "difficulty": 2,
+        "explanation": "成年人的牙齿通常约有32颗；实际数量可能因智齿是否长出等情况而不同。",
+        "knowledge_point": "口腔的消化功能",
         "options": [],
+        "question": "一个成年人的牙齿通常有（）颗左右。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
+      },
+      {
+        "answer": "肺",
+        "difficulty": 2,
+        "explanation": "肺是人体气体交换的主要场所，人体通过呼吸吸收氧气并排出二氧化碳。",
+        "knowledge_point": "人体呼吸系统与过程",
+        "options": [],
+        "question": "人体进行气体交换的主要场所是（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
+      },
+      {
+        "answer": "脂肪",
+        "difficulty": 1,
+        "explanation": "肥肉中含有较多脂肪，脂肪能在纸上留下油痕。",
+        "knowledge_point": "食物中的营养成分",
+        "options": [],
+        "question": "肥肉里含有丰富的（），能在纸上留下油痕。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
         "answer": "挑食",
-        "explanation": "挑食会导致某些营养素缺乏，破坏身体健康。"
+        "difficulty": 3,
+        "explanation": "只吃自己喜欢的食物、排斥其他食物，容易造成饮食不均衡，影响健康。",
+        "knowledge_point": "平衡膳食宝塔的应用",
+        "options": [],
+        "question": "根据营养均衡原则，我们不应该（），即只吃自己喜欢的食物。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "鼻腔、气管、支气管、肺",
+        "difficulty": 2,
+        "explanation": "空气吸入时会经过鼻腔、气管和支气管，最后进入肺；呼出的空气则经相反方向排出。",
+        "knowledge_point": "人体呼吸系统与过程",
+        "options": [],
+        "question": "请按空气吸入人体时经过的顺序填写：鼻腔 →（ ）→（ ）→（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "尽力吸气后尽力呼出的气体量",
+        "difficulty": 1,
+        "explanation": "肺活量不是呼吸次数，而是一次尽力吸气后再尽力呼出的气体总量。",
+        "knowledge_point": "测量与提升肺活量",
+        "options": [],
+        "question": "肺活量指一个人（）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "持续、尽力地呼气",
+        "difficulty": 2,
+        "explanation": "测量时先尽力吸气，再含紧吹嘴，持续、尽力地呼气，直到不能再呼出为止。",
+        "knowledge_point": "测量与提升肺活量",
+        "options": [],
+        "question": "使用肺活量测量仪时，尽力吸气后应含紧吹嘴，并（）。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "跑步、游泳、跳绳等适合自己的有氧运动",
+        "difficulty": 2,
+        "explanation": "坚持适量的有氧运动有助于锻炼呼吸能力。应结合自身情况循序渐进，并注意安全。",
+        "knowledge_point": "测量与提升肺活量",
+        "options": [],
+        "question": "请写出两种有助于锻炼呼吸能力的运动。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "吹气时若气体从吹嘴旁漏出，测得的气体量可能偏少，结果会受到影响。因此原句错误，判断为“错”。",
+        "knowledge_point": "测量与提升肺活量",
+        "options": [],
+        "question": "测量肺活量时，如果吹气过程中气体从吹嘴旁漏出，测量结果就不会受到影响。对还是错？",
+        "score": 2,
+        "type": "true_false",
+        "id": 28
+      },
+      {
+        "answer": "植物类食物",
+        "difficulty": 1,
+        "explanation": "苹果长在苹果树上，苹果树是植物，所以苹果属于植物类食物。",
+        "knowledge_point": "食物的分类与统计",
+        "options": [
+          "动物类食物",
+          "植物类食物",
+          "矿物类食物",
+          "合成类食物"
+        ],
+        "question": "苹果属于（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "动物类食物",
+        "difficulty": 1,
+        "explanation": "牛奶来自动物奶牛，因此属于动物类食物。",
+        "knowledge_point": "食物的分类与统计",
+        "options": [
+          "动物类食物",
+          "植物类食物",
+          "矿物类食物",
+          "合成类食物"
+        ],
+        "question": "牛奶属于（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "4",
+        "difficulty": 1,
+        "explanation": "这份沙拉包含生菜、番茄、黄瓜和鸡蛋，都是不同的食材，共4种。",
+        "knowledge_point": "食物的分类与统计",
+        "options": [],
+        "question": "一份沙拉中有生菜、番茄、黄瓜和鸡蛋，一共有（）种食物。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 31
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "米饭和鸡蛋是两种不同的食材，重复出现的米饭只计一种，因此一碗饭和两个鸡蛋共包含2种食物。",
+        "knowledge_point": "食物的分类与统计",
+        "options": [],
+        "question": "一碗米饭和两个鸡蛋包含3种食物。（）",
+        "score": 5,
+        "type": "true_false",
+        "id": 32
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "碘酒遇到淀粉会变蓝，因此可以用来检验食物中是否含有淀粉。",
+        "knowledge_point": "食物中的营养成分及其检测",
+        "options": [
+          "A. 检验脂肪",
+          "B. 检验淀粉",
+          "C. 检验水",
+          "D. 检验维生素"
+        ],
+        "question": "用碘酒检测食物，主要是为了判断食物中是否含有哪种成分？",
+        "score": 5,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "一种食物通常含有多种营养成分。检出淀粉，只能说明其中含有淀粉，不能说明它只含淀粉。",
+        "knowledge_point": "食物中的营养成分及其检测",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "一种食物通常只含有一种营养成分。（判断对错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "半透明油斑",
+        "difficulty": 2,
+        "explanation": "含脂肪的食物在纸上挤压或涂抹后，可能留下不易消失的半透明油斑，可作为含脂肪的线索。",
+        "knowledge_point": "食物中的营养成分及其检测",
+        "options": [],
+        "question": "把食物放在纸上挤压后，如果纸上留下不易消失的________，可能说明食物中含有脂肪。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 35
+      },
+      {
+        "answer": "变蓝（或变蓝黑色）",
+        "difficulty": 1,
+        "explanation": "含有淀粉的食物遇到碘酒，会出现蓝色或蓝黑色。",
+        "knowledge_point": "食物中的营养成分及其检测",
+        "options": [],
+        "question": "含有淀粉的食物滴上碘酒后，通常会________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 36
+      },
+      {
+        "answer": "水",
+        "difficulty": 1,
+        "explanation": "水是食物中重要的营养成分之一，与淀粉、蛋白质、脂肪、维生素和无机盐等共同构成食物中的营养成分。",
+        "knowledge_point": "食物中的营养成分及其检测",
+        "options": [],
+        "question": "食物中的营养成分包括淀粉、蛋白质、脂肪、维生素、无机盐和________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 37
+      },
+      {
+        "answer": "油脂类",
+        "difficulty": 2,
+        "explanation": "油脂类位于宝塔上部，日常应适量摄入，不宜吃得过多。",
+        "knowledge_point": "平衡膳食宝塔的应用",
+        "options": [
+          "油脂类",
+          "谷薯类",
+          "蔬菜水果类",
+          "水"
+        ],
+        "question": "平衡膳食宝塔中，通常需要控制摄入量、不能吃得过多的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "多样",
+        "difficulty": 2,
+        "explanation": "不同食物所含的营养成分有所不同，食物种类多样有助于获得更全面的营养。",
+        "knowledge_point": "平衡膳食宝塔的应用",
+        "options": [],
+        "question": "合理饮食要注意食物种类（），不要长期只吃少数几种食物。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "宝塔提示各类食物的大致搭配和摄入量，不能因为喜欢某一种食物就只吃这一种。",
+        "knowledge_point": "平衡膳食宝塔的应用",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "只要喜欢吃某一种食物，每天多吃这一种，也能做到营养均衡。",
+        "score": 5,
+        "type": "true_false",
+        "id": 40
+      },
+      {
+        "answer": "蔬菜和水果",
+        "difficulty": 3,
+        "explanation": "蔬菜和水果应在日常饮食中充分安排，帮助饮食更加多样、均衡；它们不能完全互相替代。",
+        "knowledge_point": "平衡膳食宝塔的应用",
+        "options": [
+          "蔬菜和水果",
+          "油脂和盐",
+          "糖果和饮料",
+          "只吃谷薯类"
+        ],
+        "question": "午餐想搭配得更均衡，除了主食和适量的鱼肉蛋类，还应注意安排（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 41
+      },
+      {
+        "answer": "磨碎",
+        "difficulty": 1,
+        "explanation": "臼齿表面较宽，适合把食物进一步磨碎。",
+        "knowledge_point": "口腔的消化功能",
+        "options": [],
+        "question": "臼齿的主要作用是把食物（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 42
+      },
+      {
+        "answer": "唾液",
+        "difficulty": 2,
+        "explanation": "唾液能湿润食物，使食物更容易被咀嚼、吞咽；唾液中的酶还会帮助分解淀粉。",
+        "knowledge_point": "口腔的消化功能",
+        "options": [],
+        "question": "食物在口腔中与（）混合后，会变得较湿润，也更容易吞咽。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 43
+      },
+      {
+        "answer": "植物类食物",
+        "difficulty": 1,
+        "explanation": "大米来自稻谷，稻谷是植物，因此大米属于植物类食物。",
+        "knowledge_point": "食物分类",
+        "options": [],
+        "question": "大米按来源分类，属于哪一类食物？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 44
+      },
+      {
+        "answer": "动物类食物",
+        "difficulty": 1,
+        "explanation": "鸡蛋由鸡产出，来源于动物，所以属于动物类食物。",
+        "knowledge_point": "食物分类",
+        "options": [
+          "植物类食物",
+          "动物类食物",
+          "主食",
+          "水果"
+        ],
+        "question": "鸡蛋按来源分类，属于（）。",
+        "score": 2,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "土豆属于植物类食物；它也是薯类，在日常饮食中可以作为主食。植物来源和是否为主食是不同的分类角度。",
+        "knowledge_point": "食物分类",
+        "options": [],
+        "question": "土豆既是植物类食物，也可以作为主食。",
+        "score": 3,
+        "type": "true_false",
+        "id": 46
+      },
+      {
+        "answer": "苹果",
+        "difficulty": 2,
+        "explanation": "苹果属于水果，按来源是植物类食物；牛奶和鸡肉来自动物，属于动物类食物。",
+        "knowledge_point": "食物分类",
+        "options": [
+          "苹果",
+          "牛奶",
+          "鸡肉",
+          "鸡蛋"
+        ],
+        "question": "下列食物中，按来源分类与其他三种不同的是（）。",
+        "score": 3,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "糖类",
+        "difficulty": 1,
+        "explanation": "糖类是身体重要的能量来源之一。米饭、面条等食物中含有较多淀粉，淀粉属于糖类。",
+        "knowledge_point": "食物中的营养成分",
+        "options": [],
+        "question": "米饭中含有较多淀粉，淀粉属于（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 48
+      },
+      {
+        "answer": "蓝黑色",
+        "difficulty": 2,
+        "explanation": "碘液遇到淀粉会变成蓝黑色，因此滴加碘液可以帮助检验食物中是否含有淀粉。",
+        "knowledge_point": "食物中的营养成分",
+        "options": [],
+        "question": "在食物上滴加碘液，如果出现（），说明食物中含有淀粉。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "尽力吸气后尽力呼出的气体量",
+        "difficulty": 1,
+        "explanation": "肺活量不是平静呼吸时的呼气量，而是尽力吸气后能够尽力呼出的气体量。",
+        "knowledge_point": "衡量肺活量",
+        "options": [],
+        "question": "肺活量是指什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 50
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "平静呼吸时呼出的气体量不等于肺活量；测量肺活量要尽力吸气并尽力呼气。",
+        "knowledge_point": "衡量肺活量",
+        "options": [],
+        "question": "判断：平静呼吸时呼出的气体量就是肺活量。",
+        "score": 5,
+        "type": "true_false",
+        "id": 51
+      },
+      {
+        "answer": "肺活量计",
+        "difficulty": 1,
+        "explanation": "肺活量计是测量肺活量的常见工具，测量时应按照仪器说明操作。",
+        "knowledge_point": "衡量肺活量",
+        "options": [],
+        "question": "可以用什么仪器测量肺活量？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "尽力吸气，再尽力向仪器呼气，并按要求读数、记录。",
+        "difficulty": 2,
+        "explanation": "测量要尽量做到吸气和呼气充分，同时按仪器要求操作和记录读数，这样才便于比较。",
+        "knowledge_point": "衡量肺活量",
+        "options": [],
+        "question": "简要说说测量肺活量时应怎样做。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "记录中的最大读数是 1600 毫升。",
+        "difficulty": 2,
+        "explanation": "同一条件下进行了多次测量时，可以比较记录的读数；这组数据中最大的是 1600 毫升。",
+        "knowledge_point": "衡量肺活量",
+        "options": [],
+        "question": "小明测量肺活量三次，记录为 1500 毫升、1600 毫升和 1550 毫升。哪一次读数最大？",
+        "score": 5,
+        "type": "calculation",
+        "id": 54
       }
     ]
   },
@@ -698,6 +1080,106 @@
         "忽视舌头搅拌和唾液分解的作用"
       ],
       "tips": "细嚼慢咽能减轻胃部负担并让淀粉转化为糖。"
+    },
+    {
+      "common_mistakes": [
+        "把呼吸理解成只有吸气，忽略呼气也是呼吸过程的一部分。",
+        "认为肺会主动把空气吸进来；实际上，胸廓和膈肌的运动会使胸腔容积发生变化。",
+        "认为呼出的气体完全没有氧气；呼出气体中仍含有氧气，只是氧气比吸入时少。",
+        "把胃等消化器官误认为呼吸器官。"
+      ],
+      "core_concept": "呼吸系统由鼻腔、气管、支气管和肺等组成。吸气时，胸腔扩大，空气经鼻腔、气管和支气管进入肺；呼气时，胸腔缩小，肺内空气排出。肺是人体气体交换的主要场所，人体吸收氧气并排出二氧化碳。",
+      "key_formula": "吸气：胸腔扩大，空气进入肺；呼气：胸腔缩小，空气排出肺。",
+      "point": "人体呼吸系统与过程",
+      "tips": "可以把手轻轻放在胸前，平静呼吸时观察胸廓起伏：吸气时胸廓扩大，呼气时胸廓缩小。运动后，身体需要更多氧气并产生更多二氧化碳，因此呼吸通常会加快。"
+    },
+    {
+      "common_mistakes": [
+        "把肺活量理解成每分钟呼吸的次数；肺活量指尽力吸气后再尽力呼出的气体总量。",
+        "认为一次测量结果可以完全代表身体状况；测量时姿势、方法和状态都会影响结果。",
+        "认为短时间剧烈运动就一定能提高肺活量；改善需要坚持适合自己的锻炼。"
+      ],
+      "core_concept": "肺活量是一个人尽力吸气后，再尽力呼出气体的最大量。它可以反映呼吸系统的活动能力。正确测量并坚持适量运动，有助于了解和改善自己的呼吸能力。",
+      "key_formula": "肺活量 = 尽力吸气后尽力呼出的气体量",
+      "point": "测量与提升肺活量",
+      "tips": "测量前先了解仪器的使用方法；每次尽量采用相同的姿势和方法，读数更便于比较。运动从轻到重、从短到长，感到不适时应停止并告诉老师或家长。"
+    },
+    {
+      "common_mistakes": [
+        "把食物的加工形式当成来源，例如面条虽然经过加工，但主要来自小麦。",
+        "统计一餐食物种类时，重复出现的同一种食材只算一种。",
+        "分类和统计前要先说明按什么标准进行；本课主要按食物来源分类，并按不同食材的种类计数。"
+      ],
+      "core_concept": "食物可以根据来源等标准进行分类。按来源看，食物通常分为植物类食物和动物类食物。统计一餐中食物的种类时，先找出其中不同的食材，再逐一计数。",
+      "key_formula": "食物种类数＝不同食材的数量（同一种食材重复出现时只计一次）",
+      "point": "食物的分类与统计",
+      "tips": "遇到混合菜肴，可把其中的食材逐一列出，再分类和统计。例如蛋炒饭中有米饭、鸡蛋和葱，共有3种食材；米饭来自植物，鸡蛋来自动物，葱来自植物。"
+    },
+    {
+      "common_mistakes": [
+        "把食物中的营养成分与食物种类混为一谈；一种食物通常含有多种营养成分。",
+        "认为碘酒变蓝能检出所有营养成分；这个现象主要用于检验淀粉。",
+        "把实验现象当作绝对证明；检测时要按正确方法操作，并注意安全。"
+      ],
+      "core_concept": "食物中含有多种营养成分，主要包括淀粉、蛋白质、脂肪、维生素、无机盐和水。可以用简单实验检测其中一些成分：碘酒滴在含淀粉的食物上会变蓝；将食物放在纸上挤压或涂抹，纸上留下半透明油斑，可能说明食物中含有脂肪。检测蛋白质通常需要专门试剂和规范操作，小学生不应自行使用化学试剂。",
+      "key_formula": "淀粉遇碘酒会变蓝；食物在纸上留下半透明油斑，可能含有脂肪。",
+      "point": "食物中的营养成分及其检测",
+      "tips": "实验时先提出猜想，再选取少量食物进行检测；滴加碘酒要使用滴管并避免接触眼睛和皮肤。观察并记录现象，最好设置对照。检测结果只说明所用方法能发现的成分，不能据此认为食物只含有这一种成分。"
+    },
+    {
+      "common_mistakes": [
+        "误以为某一类食物越多越好，忽视各类食物搭配。",
+        "误以为宝塔顶层的油脂类应该大量摄入。",
+        "把食物种类齐全等同于营养均衡，却忽视适量和规律进餐。"
+      ],
+      "core_concept": "平衡膳食宝塔帮助我们了解每天各类食物的合理搭配和大致摄入量。通常，谷薯类摄入量较多，蔬菜水果类也应充足；鱼肉蛋奶豆类适量，油盐类摄入较少。健康饮食还要注意食物多样、不过量、少油少盐，并养成规律进餐的习惯。",
+      "key_formula": "食物多样、合理搭配、适量摄入；底层食物相对多，越靠近塔顶的食物相对少。",
+      "point": "平衡膳食宝塔的应用",
+      "tips": "安排一餐时，可搭配谷薯类、蔬菜水果类和适量的鱼肉蛋奶豆类；少吃油脂和高盐食物。宝塔表示的是各类食物的相对摄入建议，不是要求每餐都严格按图称量。"
+    },
+    {
+      "common_mistakes": [
+        "认为口腔只负责把食物嚼碎；实际上口腔还会使食物与唾液混合，并开始消化淀粉。",
+        "把门齿、犬齿和臼齿的作用混淆：门齿切割，犬齿撕裂，臼齿磨碎。",
+        "认为舌头只负责搅拌食物；舌头还帮助移动食物、辅助吞咽和感受味道。"
+      ],
+      "core_concept": "口腔是消化道的起始部分。牙齿通过咀嚼把食物切割、撕裂和磨碎；舌头帮助搅拌、移动食物，并使食物与唾液充分混合；唾液能湿润食物，其中的唾液淀粉酶还能帮助分解淀粉。因此，口腔既进行物理消化，也开始对淀粉进行化学消化。",
+      "key_formula": "牙齿咀嚼（物理消化）＋唾液湿润并帮助分解淀粉（化学消化）＋舌头搅拌和移动食物 → 形成较易吞咽的食团",
+      "point": "口腔的消化功能",
+      "tips": "观察不同牙齿的形状来记忆作用：门齿较扁平，适合切割；犬齿较尖，适合撕裂；臼齿表面较宽，适合磨碎。咀嚼馒头一段时间后可能感到微甜，这是淀粉在唾液作用下发生变化的表现。"
+    },
+    {
+      "common_mistakes": [
+        "把食物来源分类和营养分类混为一谈：前者看食物来自植物还是动物，后者看食物主要含有什么营养成分。",
+        "认为一种食物只能归入一种营养类别。许多食物同时含有多种营养成分。",
+        "把所有植物类食物都当成主食。主食通常以谷类、薯类为主，蔬菜和水果虽多来自植物，但通常不作为主食。"
+      ],
+      "core_concept": "食物可以按照不同标准分类。按来源，可分为植物类食物和动物类食物；按主要营养成分或作用，也可以分为谷薯类、蔬菜水果类、肉蛋奶豆类等。分类时要先明确依据，同一种食物可能按照不同依据属于不同类别。",
+      "key_formula": "按来源分类：食物 → 植物类食物、动物类食物。",
+      "point": "食物分类",
+      "tips": "判断题目中的分类依据：问“来自哪里”时看植物或动物来源；问“主要是什么食物”或“属于哪类膳食”时，根据题目给出的分类标准判断。辨认主食时，可先留意米、面、谷物和薯类。"
+    },
+    {
+      "common_mistakes": [
+        "误以为只有糖类、脂肪和蛋白质是营养成分，忽视维生素、矿物质和水。",
+        "把不同营养成分的作用混淆，例如认为脂肪主要负责构建和修复身体。",
+        "误以为一种食物能提供人体所需的全部营养。"
+      ],
+      "core_concept": "食物中含有多种营养成分，主要包括糖类、脂肪、蛋白质、维生素、矿物质和水。不同营养成分对身体的作用不同，均衡摄取各种食物有助于保持健康。",
+      "key_formula": "食物中的主要营养成分：糖类、脂肪、蛋白质、维生素、矿物质和水。",
+      "point": "食物中的营养成分",
+      "tips": "可以用简单实验观察部分营养成分：在白纸上挤压或涂抹食物，留下半透明油迹，说明食物中含有脂肪；用碘液滴在食物上，若变成蓝黑色，说明食物中含有淀粉。糖类可为身体提供能量，脂肪能储存能量，蛋白质有助于身体生长、构建和修复，维生素与矿物质帮助调节身体机能，水也是维持生命活动所必需的。不同食物所含营养成分不同，应合理搭配。"
+    },
+    {
+      "common_mistakes": [
+        "把平静呼吸时呼出的气体量当作肺活量。",
+        "测量时没有尽力吸气或尽力呼气，导致结果偏小。",
+        "把一次测量结果当作固定不变的数值；测量方法和身体状态也会影响结果。"
+      ],
+      "core_concept": "肺活量是尽力吸气后，再尽力呼出的气体量。使用肺活量计等工具，可以测量并记录肺活量。",
+      "key_formula": "肺活量＝尽力吸气后尽力呼出的气体量",
+      "point": "衡量肺活量",
+      "tips": "测量前先了解仪器的使用方法。测量时按要求尽力吸气，再连续、尽力地向仪器呼气；读数时注意单位，并可在相同条件下重复测量、记录和比较。使用吹嘴时应注意卫生，不要与他人共用未经清洁的吹嘴。"
     }
   ]
 }

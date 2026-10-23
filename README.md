@@ -5,9 +5,9 @@
 <details>
 <summary>版本与资源说明</summary>
 
-> **版本说明（2026-10-21）**：当前线上已部署中文 Edge TTS 补齐与旧 GPT 音频替换，配套页面、数据和音频地址已同步。本地启动使用 `main`；复现本次发布可使用对应 Release 的源码包或版本标签。
+> **版本说明（v1.4.3）**：已恢复此前 RealRouter / GPT Luna 补齐的题目与讲解，保留新版课程、数感示范、多孩子档案与当前 Web 功能；对应 Edge 音频、页面与数据同步发布。本地启动使用 `main`；复现本次发布可使用对应 Release 的源码包或版本标签。
 >
-> **完整材料包：[v1.4.2-edge-audio](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.4.2-edge-audio)**：包含当前线上页面、数据、全部音频分包、图片、匹配源码与校验清单，无需先安装旧版本。43,418 条中文 Edge 音频已补齐或更新，全部已知旧 GPT 音频已替换。详见 [安装与升级说明](docs/release-install.md)。
+> **完整材料包：[v1.4.3-content-restored](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.4.3-content-restored)**：包含已恢复的完整题库、当前页面、全部音频分包、图片、匹配源码与校验清单，无需先安装旧版本。原 v1.4.0 的 2,356 课、15,117 题已逐课核对保留；全新安装和从 v1.4.0 / v1.4.2 升级均验证通过。详见 [安装与升级说明](docs/release-install.md)。
 
 </details>
 
@@ -124,11 +124,11 @@
 | 功能 | 说明 |
 |------|------|
 | **单元小测** | 跟着课本章节走，学完一课就能练 |
-| **知识讲解** | 当前发布数据 720 节含讲解，1,474 节缺失；已确认补齐内容未带入新版，见 [版本衔接问题](docs/content-release-reconciliation-2026-10-21.md) |
+| **知识讲解** | 2,387 节常规课均有知识讲解数据，题组每课至少 6 题；见 [当前内容与资源审计](docs/content-audit-v1.4.3.md) |
 | **课文听读** | 语文/英语课文逐句朗读，支持跟读练习，展示课本原页 |
 | **跟读录音** | 浏览器内录音与回放，不上传录音；需要 HTTPS 和麦克风授权，暂无语音识别评分 |
 | **课外故事** | 每单元 2 篇 AI 分级故事 + 阅读理解题 + 儿童插画配图 |
-| **全站 TTS** | 题目、选项、讲解、故事文本均可朗读；完整包提供 116,758 个 MP3 文件；中文 Edge 音频本轮补齐或更新 43,418 条，保留原路径兼容资源 |
+| **全站 TTS** | 题目、选项、讲解、故事文本均可朗读；完整包提供 119,219 个 MP3 文件；恢复内容对应的音频全部齐备，复用已有 Edge 语音并补齐缺失项，保留原路径兼容资源 |
 | **首次讲解** | 进入课程自动尝试播放，听完才解锁下一步；按钮边框光环跟随真实播放进度，不显示秒数 |
 | **学习进度** | 当前浏览器保存完成情况、正确率与阅读星级；暂无云端账号和跨设备同步 |
 | **连击系统** | 连续答对触发连击动画与语音激励 |
@@ -145,9 +145,9 @@
 | 英语 | 人教版 PEP | 三至六年级 | 96 篇 |
 | 科学 | 教科版 | 一至六年级 | — |
 
-**当前资源规模**：45 册教材（44 册当前版本、1 册旧版兼容）、2,194 个常规课节、285 个单元挑战，常规题 7,004 道、挑战题 4,275 道，另有 779 篇课文和 284 篇故事。这是资源覆盖统计，不代表所有题目已通过教师逐题审核。
+**当前资源规模**：45 册教材（44 册当前版本、1 册旧版兼容）、2,387 个常规课节、285 个单元挑战，常规题 15,303 道、挑战题 4,275 道，另有 779 篇课文和 284 篇故事。这是资源覆盖统计，不代表所有题目已通过教师逐题审核。
 
-**题库版本衔接问题（2026-10-21）**：RealRouter / GPT Luna 已补齐并发布过 2,356 课、15,117 道常规题，讲解及题量缺口均为 0；本次 `main` / `v1.4.2-edge-audio` 未带入该批完整题库，回退为 2,194 课、7,004 题。应恢复已有成果并重新验收发布，不能把它概括成生成未完成。音频完整性和 Docker 技术检查通过未覆盖这项内容保留。详见 [版本对照与恢复依据](docs/content-release-reconciliation-2026-10-21.md) 和 [当前发布数据审计](docs/content-audit-2026-10-21.md)；已有完整题库的部署请保留原材料与备份。
+**当前审计状态（v1.4.3）**：原补齐版的 2,356 课、15,117 道常规题及讲解已恢复；保留 2026 秋版二上数学的 28 课、168 题，以及三节视觉数感示范的 18 题。原数感课的 24 道题另保留为三节巩固练习，旧错题仍可按原记录复习。全库共 2,387 节常规课、15,303 题，缺讲解 0、单题课 0、少于六题课 0。题目及故事题共 20,804 道通过实际判分检查，音频与 Docker 验证通过；教师签审仍为独立待办。详见 [本版审计及验证记录](docs/content-audit-v1.4.3.md)。
 
 ---
 
@@ -162,18 +162,18 @@
 ```sh
 git clone --branch main https://github.com/wuwangzhang1216/ChinaTextbookStudyFree.git
 cd ChinaTextbookStudyFree
-docker compose build --build-arg ASSETS_RELEASE=v1.4.2-edge-audio
+docker compose build --build-arg ASSETS_RELEASE=v1.4.3-content-restored
 docker compose up -d --no-build --wait --wait-timeout 120
 ```
 
-打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载、校验 `v1.4.2-edge-audio` 全部资源，复用已验证的 MP3 与转换缓存，再构建网站。
+打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载、校验 `v1.4.3-content-restored` 全部资源，复用已验证的 MP3 与转换缓存，再构建网站。
 
 **从旧版升级**：升级前备份自定义代码，在原项目根目录执行以下命令，并保留原来的 `.env`、Compose 项目名和访问协议、域名/IP、端口；如原先使用 `-p`、`-f` 等参数，以下每条 `docker compose` 命令都沿用这些参数。构建完成后再替换容器，浏览器学习记录继续保存在同一地址下。
 
 ```sh
 git switch main
 git pull --ff-only origin main
-docker compose build --build-arg ASSETS_RELEASE=v1.4.2-edge-audio
+docker compose build --build-arg ASSETS_RELEASE=v1.4.3-content-restored
 docker compose up -d --no-build --force-recreate --wait --wait-timeout 120
 ```
 
@@ -186,7 +186,7 @@ docker compose exec -T web wget -q -O - http://127.0.0.1:8080/healthz
 
 重新加载原页面后，可打开[中文数学讲解](http://localhost:8080/lesson/g6up/g6up-u4-kp1/)点击“朗读讲解”，以及[中文课文](http://localhost:8080/reading/chinese-g5down/chinese-g5down-p20/)点击“朗读第 5 句”，确认播放正常。自定义端口时使用原地址。
 
-**Docker 验证（2026-10-21）已通过**：在 Apple Silicon/ARM64 上完成新版 Release 无缓存全新构建，以及从 `v1.4.0-content` 旧容器升级。两个容器分别通过 20 项 HTTP 检查；244,930 个音频文件的 SHA-256 全部匹配，67,595 个唯一音频引用无缺失；各抽取 12 段 MP3 完整解码和 Range 206 检查通过。浏览器实际播放中文数学讲解及课文，共 4 个新版页面均自然播完，讲解后“下一步”正常解锁，控制台无错误或警告；升级保留每日目标设置。未在本轮验证 x86 主机或实体手机/iPad。更多设置及验收细节见 [Docker 安装说明](docs/docker.md)。
+**Docker 验证（v1.4.3）已通过**：在 Apple Silicon/ARM64 上验证完整材料包全新构建，以及从 `v1.4.0-content`、`v1.4.2-edge-audio` 两种旧容器按原项目、原端口升级。三个运行容器均通过题库保留、全量音频 SHA-256、媒体引用、HTTP 与 Range 206 检查；中文讲解自然播完并解锁下一步，升级保留浏览器学习目标。命令与验收范围见 [Docker 安装说明](docs/docker.md)。未在本轮验证 x86 主机或实体手机/iPad。
 
 ### 其他启动方式
 
@@ -203,14 +203,14 @@ cd ChinaTextbookStudyFree
 
 ### 2. 下载或升级完整资源
 
-音频、图片和配套数据通过 [v1.4.2-edge-audio Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.4.2-edge-audio) 分发。音频按体积分为多个独立 ZIP，每个不超过 1.4 GB；新版安装器会下载全部所需分包，先校验，再解压和逐文件核验，已有目录也会正常更新。
+音频、图片和配套数据通过 [v1.4.3-content-restored Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.4.3-content-restored) 分发。音频按体积分为多个独立 ZIP，每个不超过 1.4 GB；新版安装器会下载全部所需分包，先校验，再解压和逐文件核验，已有目录也会正常更新。
 
 ```bash
 # macOS / Linux：在仓库根目录执行
-python3 scripts/install-release.py --tag v1.4.2-edge-audio
+python3 scripts/install-release.py --tag v1.4.3-content-restored
 
 # Windows PowerShell
-py -3 scripts/install-release.py --tag v1.4.2-edge-audio
+py -3 scripts/install-release.py --tag v1.4.3-content-restored
 ```
 
 完整包包含 MP3、原路径音频、数据、配图和课本原页，以及可选的匹配源码与现成网站。`manifest.json`、`files.jsonl` 和 `SHA256SUMS` 提供附件及逐文件校验。建议预留至少 40 GB 用于下载、暂存、安装和备份；有本地修改时先备份。离线安装、旧版升级及验证命令见 [安装与升级说明](docs/release-install.md)。
@@ -227,7 +227,7 @@ npm run dev
 **直接使用现成网站**：无需 Git、Node.js 或 FFmpeg。从 Release 下载新版 `install-release.py`，执行：
 
 ```bash
-python3 install-release.py --tag v1.4.2-edge-audio --mode static --root ChinaStudyFree-site
+python3 install-release.py --tag v1.4.3-content-restored --mode static --root ChinaStudyFree-site
 python3 -m http.server 8080 --directory ChinaStudyFree-site
 ```
 
@@ -300,7 +300,7 @@ open ChinaTextbookStudy.xcodeproj
 
 ### 5. （可选）运行数据生成 Pipeline
 
-当前材料的覆盖统计、教师复核状态和逐课缺口见 [当前内容与资源审计](docs/content-audit-2026-10-21.md)。语文课外阅读的历史难度校准与修订流程见 [内容质量审计与升级说明](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/content-quality-review.md)。
+当前材料的覆盖统计、教师复核状态和完整性检查见 [当前内容与资源审计](docs/content-audit-v1.4.3.md)。语文课外阅读的历史难度校准与修订流程见 [内容质量审计与升级说明](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/content-quality-review.md)。
 
 中文补音当前使用 Edge TTS，默认并发 4、每秒最多启动 2 次合成（含重试），失败按指数退避。下面的生成命令只用于修改内容后的重新生成；安装和构建现成 Release 不需要调用在线 TTS。改写内容应先完成样例审阅，再同步文本、配图、音频，并保留原数据备份。
 
@@ -448,22 +448,22 @@ ChinaStudyFree/
 - [x] iOS 统一设计系统与游戏化学习体验（浅色为主 + 可选深色）
 - [x] 装扮系统闭环（皮肤 / 主题 / 课程背景购买后全局生效）
 - [x] 留存机制（每日任务 / 本周报告 / 连胜提醒推送）
-- [x] 语文扩展阅读升级；当前全库结构、资源与覆盖审计已公开，见 [审计报告](docs/content-audit-2026-10-21.md)
+- [x] 语文扩展阅读升级；当前全库结构、资源与覆盖审计已公开，见 [审计报告](docs/content-audit-v1.4.3.md)
 - [x] 中文 Edge TTS 补齐与全部已知旧 GPT 音频替换，完整性及实际播放验证通过
-- [x] Edge 音频按体积分包，配套页面、校验清单与离线安装器已交付；新版题库衔接问题见下方待办
+- [x] [修正版完整材料包 v1.4.3-content-restored](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.4.3-content-restored)：恢复题库、Edge 音频分包、页面、数据、校验清单与安装说明
 - [x] [Docker 家庭 / 校园内网部署](docs/docker.md)：新版全新构建、旧版升级及中文音频播放验证通过（ARM64）
 - [x] 二年级上册数学 2026 秋版（28 课、168 题），保留旧版路由与进度
 - [x] 同一浏览器多孩子学习档案，以及学习记录手动备份导出 / 导入
 - [x] Android WebView 工程与 CI APK 构建，见 [安卓工程说明](docs/android.md)
 - [x] RealRouter / GPT Luna 题库补齐并发布 v1.4.0-content（2,356 课、15,117 题，均含讲解且每课至少 6 题）
-- [ ] 将已补齐题库恢复合入 `main`，与新版课程、Edge 音频整合后重新发布完整材料包；见 [版本对照与恢复依据](docs/content-release-reconciliation-2026-10-21.md)
+- [x] 已补齐题库恢复合入 `main`，保留新版课程与功能；构建、打包、部署和 CI 增加逐课内容保留检查，拒绝题库回退
 - [ ] 全库教师签审、逐题语义复核与人工听审；现有模型审读和技术检查不代表教师签审完成
 - [ ] 道德与法治内容
 - [ ] 云端学习记录与自动跨设备同步（当前支持手动备份迁移）
 - [ ] 老师端与班级学习报告
 - [ ] iOS / Android 真机完整验收与正式签名、应用商店发布
 
-路线图更新于 2026-10-21。完整材料包支持下载后离线安装；Docker 首次构建需联网下载资源。校园内网的跟读录音需要 HTTPS；全库 PWA 离线预缓存及实体手机 / iPad 验收仍需补充。
+路线图对应 v1.4.3 修正版。完整材料包支持下载后离线安装；Docker 首次构建需联网下载资源。校园内网的跟读录音需要 HTTPS；全库 PWA 离线预缓存及实体手机 / iPad 验收仍需补充。
 
 ---
 

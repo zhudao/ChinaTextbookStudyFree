@@ -20,6 +20,29 @@ async function main() {
     return new Response(JSON.stringify(lesson));
   });
   assert.equal(requests, 1, "fetch each source lesson once");
+  const pilotId = "g1up-u1-kp1", practiceId = "g1up-u1-kp4";
+  const pilot = { ...lesson, id: pilotId, legacyPracticeLessonId: practiceId,
+    questions: [{ ...correction.after, id: 1001 }] };
+  const practice = { ...lesson, id: practiceId, restoresLessonId: pilotId,
+    questions: [{ ...correction.after, id: 11 }] };
+  const legacyEntry = { ...entry, lessonId: pilotId };
+  const migrated = await loadReviewLessons([legacyEntry], async url =>
+    new Response(JSON.stringify(url.includes(practiceId) ? practice : pilot)));
+  const retained = reconcileMistakes([legacyEntry], migrated);
+  assert.equal(retained.length, 1, "visual pilot replacement must retain released legacy mistakes");
+  assert.equal(retained[0].lessonId, pilotId, "keep the historical SRS key");
+  assert.equal(retained[0].box, entry.box);
+  assert.equal(retained[0].nextReviewDate, entry.nextReviewDate);
+  assert(gradeAnswer(retained[0].question, "B"));
+  await assert.rejects(loadReviewLessons([legacyEntry], async url =>
+    url.includes(practiceId) ? new Response(null, { status: 404 })
+      : new Response(JSON.stringify(pilot))), "missing compatibility data must not retire saved mistakes");
+  await assert.rejects(loadReviewLessons([legacyEntry], async url =>
+    new Response(JSON.stringify(url.includes(practiceId)
+      ? { ...practice, restoresLessonId: "g1up-u1-kp2" } : pilot))));
+  await assert.rejects(loadReviewLessons([legacyEntry], async () =>
+    new Response(JSON.stringify({ ...pilot, legacyPracticeLessonId: "english-g3up-u1-kp4" }))));
+
   const refreshed = reconcileMistakes([entry], lessons);
   const staleCache = new Map([["/data/books/g1up/lessons/g1up-u6-kp2.json", { ...lesson, questions: [correction.before] }]]);
   const firstLoad = await loadReviewLessons([entry], async url => new Response(JSON.stringify(staleCache.get(url) ?? lesson)));

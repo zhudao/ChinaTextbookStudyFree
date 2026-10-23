@@ -4,339 +4,1544 @@
   "unit_number": 4,
   "unit_test": {
     "title": "Unit 4 At the farm 单元基础过关测验",
-    "total_score": 100,
+    "total_score": 492,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "农场蔬菜与动物词汇(复数)",
-        "question": "'carrots' 的中文意思是'胡萝卜'。",
-        "options": [],
         "answer": "对",
-        "explanation": "carrot是胡萝卜，复数形式直接加s。"
+        "difficulty": 1,
+        "explanation": "carrot是“胡萝卜”，carrots是它的复数形式，意思是“胡萝卜（复数）”。",
+        "knowledge_point": "农场蔬菜与动物词汇(复数)",
+        "options": [],
+        "question": "'carrots' 的中文意思是“胡萝卜”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "tomato的复数形式是tomatoes，通常在词尾加-es。",
         "knowledge_point": "农场蔬菜与动物词汇(复数)",
+        "options": [],
         "question": "'tomato' 的复数形式是 'tomatos'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "tomato以o结尾，变复数需加es，应为tomatoes。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "arm 和 car 中的 ar 通常都发 /ɑː/。",
         "knowledge_point": "字母组合ar和al的发音规律",
+        "options": [],
         "question": "单词 'arm' 和 'car' 中 'ar' 的发音是一样的。",
-        "options": [],
-        "answer": "对",
-        "explanation": "ar在这两个单词中都发/ɑː/。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "sheep的单数和复数形式相同，表示一只或多只时都写sheep。",
         "knowledge_point": "农场蔬菜与动物词汇(复数)",
+        "options": [],
         "question": "'sheep' 的复数形式和单数形式是一样的。",
-        "options": [],
-        "answer": "对",
-        "explanation": "sheep是单复数同形词。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "these与those指代辨析",
-        "question": "'These' 指代较远处的复数物体。",
-        "options": [],
-        "answer": "错",
-        "explanation": "these是近指，those才是远指。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "these 表示近处的多个物体；those 才表示远处的多个物体。",
+        "knowledge_point": "these与those指代辨析",
+        "options": [],
+        "question": "'These' 指代较远处的复数物体。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "these",
         "difficulty": 1,
+        "explanation": "are 是 be 动词的复数形式，these 表示近处的多个事物，因此“What are these?”意为“这些是什么？”",
         "knowledge_point": "这些是什么",
-        "question": "What are _______?",
         "options": [
           "this",
           "that",
           "these",
           "it"
         ],
-        "answer": "these",
-        "explanation": "are是be动词复数形式，主语也需用复数代词。"
+        "question": "What are _______?",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "potatoes",
         "difficulty": 1,
+        "explanation": "表示泛指一类土豆时用复数。potato 以 o 结尾，复数形式通常加 es，写作 potatoes。",
         "knowledge_point": "名词复数用法",
-        "question": "I like ________.",
         "options": [
           "potato",
           "potatoes",
           "potatos",
           "a potatoes"
         ],
-        "answer": "potatoes",
-        "explanation": "表示泛指一类事物，potato需用复数形式且es结尾。"
+        "question": "I like ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "many",
         "difficulty": 1,
+        "explanation": "horses是可数名词复数，询问它的数量用“How many”。",
         "knowledge_point": "询问数量",
-        "question": "How ________ horses do you have?",
         "options": [
           "much",
           "any",
           "many",
           "old"
         ],
-        "answer": "many",
-        "explanation": "询问可数名词的数量用How many。"
+        "question": "How ________ horses do you have?",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "so",
         "difficulty": 2,
+        "explanation": "so long 表示“很长”。so 是副词，不是情态动词；too long 通常表示“太长”，常带有超过适当程度的意味。",
         "knowledge_point": "情态动词表建议",
-        "question": "Look at the green beans. They are _______ long.",
         "options": [
           "too",
           "so",
           "to",
           "two"
         ],
-        "answer": "so",
-        "explanation": "so long表示“很长”，too通常含否定意味（太长了）。"
+        "question": "Look at the green beans. They are _______ long.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "those",
         "difficulty": 1,
+        "explanation": "cows是复数，且问句指远处的奶牛，因此用those。",
         "knowledge_point": "指代远处的物体",
-        "question": "Are ________ cows? Yes, they are.",
         "options": [
           "this",
           "that",
           "those",
           "me"
         ],
-        "answer": "those",
-        "explanation": "cows是复数，主语需对应复数形式those。"
+        "question": "Are ________ cows? Yes, they are.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "sheep",
         "difficulty": 1,
+        "explanation": "How many后面接可数名词复数。sheep的单数和复数形式相同，因此用sheep。",
         "knowledge_point": "农场词汇",
-        "question": "Wait! How many ________ are there?",
         "options": [
           "sheep",
           "sheeps",
           "a sheep",
           "cow"
         ],
-        "answer": "sheep",
-        "explanation": "How many后接名词复数，sheep复数不加s。"
+        "question": "Wait! How many ________ are there?",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "No, they aren't",
         "difficulty": 2,
+        "explanation": "these tomatoes是复数，回答时用they代替；问句中的be动词是are，否定回答用aren't。",
         "knowledge_point": "对疑问句的回答",
-        "question": "-Are these tomatoes? -_______.",
         "options": [
           "Yes, it is",
           "No, they aren't",
           "Yes, they is",
           "No, it isn't"
         ],
-        "answer": "No, they aren't",
-        "explanation": "these引导的疑问句，回答主语统一用they。"
+        "question": "-Are these tomatoes? -_______.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "big",
         "difficulty": 1,
+        "explanation": "形容农场的大小通常用big（大的），所以选big。",
         "knowledge_point": "形容词词义",
-        "question": "The farm is so _______. I like it.",
         "options": [
           "cold",
           "big",
           "short",
           "fat"
         ],
-        "answer": "big",
-        "explanation": "形容农场通常用big（大）。"
+        "question": "The farm is so _______. I like it.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "cows",
         "difficulty": 1,
+        "explanation": "奶牛提供牛奶，cow 的复数形式是 cows。",
         "knowledge_point": "动物词汇",
-        "question": "They are ________. They provide milk.",
         "options": [
           "hens",
           "ducks",
           "cows",
           "horses"
         ],
-        "answer": "cows",
-        "explanation": "奶牛提供牛奶。"
+        "question": "They are ________. They provide milk.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "horses",
         "difficulty": 2,
+        "explanation": "句意是“这些______正在吃草”。horses（马）是动物，符合“吃草”的语意；potatoes（马铃薯）和 carrots（胡萝卜）是植物，hens（母鸡）通常不以吃草为主要特征。",
         "knowledge_point": "句子理解",
-        "question": "The ______ are eating grass.",
         "options": [
           "potatoes",
           "hens",
           "carrots",
           "horses"
         ],
-        "answer": "horses",
-        "explanation": "horses（马）是动物，可以吃草吃。"
+        "question": "The ______ are eating grass.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "询问数量",
-        "question": "How ___ cows do you have?",
-        "options": [],
         "answer": "many",
-        "explanation": "How many引导对可数名词数量的提问。"
+        "difficulty": 1,
+        "explanation": "询问可数名词cows的数量用“How many”，所以填many。",
+        "knowledge_point": "询问数量",
+        "options": [],
+        "question": "How ___ cows do you have?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "这些是什么",
-        "question": "What ___ these?",
-        "options": [],
         "answer": "are",
-        "explanation": "these是复数主语，be动词用are。"
+        "difficulty": 1,
+        "explanation": "these 表示复数，be 动词应使用 are。",
+        "knowledge_point": "这些是什么",
+        "options": [],
+        "question": "What ___ these?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "动物词汇",
-        "question": "I like the black and white animal. It's a ___.",
-        "options": [],
         "answer": "cow",
-        "explanation": "黑白相间的动物通常指奶牛。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "蔬菜词汇",
-        "question": "They are long and green. They are green ___.",
+        "explanation": "黑白相间的动物通常指奶牛，英文是 cow。",
+        "knowledge_point": "动物词汇",
         "options": [],
+        "question": "I like the black and white animal. It's a ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
         "answer": "beans",
-        "explanation": "豆角是长且绿色的蔬菜。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "词汇匹配",
-        "question": "请将单词与其对应的中文意思连线。",
-        "options": [
-          "potato",
-          "goat",
-          "hen",
-          "onion",
-          "山羊",
-          "洋葱",
-          "母鸡",
-          "土豆"
-        ],
-        "answer": "A-4,B-1,C-3,D-2",
-        "explanation": "potato-土豆, goat-山羊, hen-母鸡, onion-洋葱。"
-      },
-      {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "指代词匹配",
-        "question": "请将这些词组与对应的中文意思连线。",
-        "options": [
-          "at the farm",
-          "ten sheep",
-          "try some",
-          "so big",
-          "十只羊",
-          "尝一尝",
-          "好大啊",
-          "在农场"
-        ],
-        "answer": "A-4,B-1,C-2,D-3",
-        "explanation": "at the farm-在农场, ten sheep-十只羊, try some-尝一尝, so big-那么大。"
-      },
-      {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
         "difficulty": 2,
+        "explanation": "豆角通常又长又绿，英文常说 green beans。",
+        "knowledge_point": "蔬菜词汇",
+        "options": [],
+        "question": "They are long and green. They are green ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "土豆",
+        "difficulty": 1,
+        "explanation": "Potato 的意思是“土豆”。其他选项分别是山羊、母鸡和洋葱。",
+        "knowledge_point": "词汇匹配",
+        "options": [
+          "土豆",
+          "山羊",
+          "母鸡",
+          "洋葱"
+        ],
+        "question": "单词 potato 的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
+      },
+      {
+        "answer": "These are pencils on the desk.",
+        "difficulty": 1,
+        "explanation": "“these”表示“这些”，用来指代距离较近的多个事物；这里指桌子上的多支铅笔。",
+        "knowledge_point": "指代词匹配",
+        "options": [
+          "These are pencils on the desk.",
+          "This are pencils on the desk.",
+          "Those is a pencil on the desk.",
+          "It are pencils on the desk."
+        ],
+        "question": "桌子上有几支离你很近的铅笔。选择正确的句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 21
+      },
+      {
+        "answer": "Are these carrots?",
+        "difficulty": 2,
+        "explanation": "正确语序是 Are + 主语 these carrots。原题选项组成一般疑问句，句首的 Are 要大写。",
         "knowledge_point": "提问物主",
-        "question": "将下列单词连成句子：",
         "options": [
           "these",
           "Are",
           "carrots",
           "?"
         ],
-        "answer": "Are,these,carrots,?",
-        "explanation": "一般疑问句结构：Be动词+主语+其他？"
+        "question": "将下列单词连成句子：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "They are tomatoes.",
         "difficulty": 3,
+        "explanation": "原题给出的词可组成“They are tomatoes.”，主语They是复数，be动词用are；陈述句句末用句号。",
         "knowledge_point": "陈述句",
-        "question": "将下列单词连成句子：",
         "options": [
           "They",
           "tomatoes",
           "are",
           "."
         ],
-        "answer": "They,are,tomatoes,.",
-        "explanation": "主语+be动词+名词复数。"
+        "question": "将下列单词连成句子：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "carrot的意思是“胡萝卜”，其复数形式是carrots。",
+        "knowledge_point": "农场蔬菜与动物词汇(复数)",
+        "options": [
+          "A. potato",
+          "B. carrot",
+          "C. sheep"
+        ],
+        "question": "哪个单词的意思是“胡萝卜”？",
+        "score": 2,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "tomatoes",
+        "difficulty": 2,
+        "explanation": "tomato的复数形式是tomatoes，表示多个西红柿。",
+        "knowledge_point": "农场蔬菜与动物词汇(复数)",
+        "options": [],
+        "question": "请写出tomato的复数形式：_____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "potatoes",
+        "difficulty": 2,
+        "explanation": "potato的复数形式是potatoes，词尾加-es。",
+        "knowledge_point": "农场蔬菜与动物词汇(复数)",
+        "options": [],
+        "question": "一只土豆是a potato；许多土豆是many _____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "these",
+        "difficulty": 1,
+        "explanation": "书在说话人附近，而且是多个，所以用 these。",
+        "knowledge_point": "these与those指代辨析",
+        "options": [],
+        "question": "Look at _____ pencils here.（看这里的这些铅笔。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "those",
+        "difficulty": 1,
+        "explanation": "鸟在远处，而且是多只，所以用 those。",
+        "knowledge_point": "these与those指代辨析",
+        "options": [],
+        "question": "_____ birds over there are beautiful.（那边的那些鸟很漂亮。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 28
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "照片在远处，且不止一张，因此用 those；those photos 表示“那些照片”。",
+        "knowledge_point": "these与those指代辨析",
+        "options": [
+          "A. These photos over there are old.",
+          "B. Those photos over there are old.",
+          "C. This photos over there are old.",
+          "D. That photos over there are old."
+        ],
+        "question": "照片放在离我们较远的桌子上。哪句话表达正确？",
+        "score": 2,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "These are my toys.",
+        "difficulty": 2,
+        "explanation": "these 指近处的多个物体；这里的玩具在附近，所以用 These。它可以单独指代这些玩具。",
+        "knowledge_point": "these与those指代辨析",
+        "options": [],
+        "question": "用 these 或 those 填空：玩具就在我身边。_____ are my toys.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "Those are my shoes.",
+        "difficulty": 3,
+        "explanation": "鞋在远处，且有多只，因此用 those。Those are my shoes. 意为“那些是我的鞋”。",
+        "knowledge_point": "these与those指代辨析",
+        "options": [],
+        "question": "用 these 或 those 填空：鞋在房间另一边，离我较远。_____ are my shoes.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "How many books are there?",
+        "difficulty": 1,
+        "explanation": "询问可数物品“书”的数量，用How many；books用复数，句型为“How many + 复数名词 + are there?”",
+        "knowledge_point": "询问物品数量",
+        "options": [],
+        "question": "把句子补充完整：_____ _____ books are there?（有多少本书？）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "There are five apples.",
+        "difficulty": 1,
+        "explanation": "apples是可数名词复数，数量为五，回答用There are。",
+        "knowledge_point": "询问物品数量",
+        "options": [
+          "There is five apples.",
+          "There are five apples.",
+          "There are five apple.",
+          "How many five apples?"
+        ],
+        "question": "桌上有五个苹果。应选择哪一句？",
+        "score": 1,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "How many rulers are there?",
+        "difficulty": 2,
+        "explanation": "ruler是可数名词，询问数量用How many，且放在How many后面时要用复数rulers。",
+        "knowledge_point": "询问物品数量",
+        "options": [],
+        "question": "改正句子中的错误：How many ruler are there?",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "There is one ball.",
+        "difficulty": 2,
+        "explanation": "ball的数量是一个，使用There is；one后接名词单数ball。",
+        "knowledge_point": "询问物品数量",
+        "options": [
+          "There are one ball.",
+          "There is one ball.",
+          "There is one balls.",
+          "There are a ball."
+        ],
+        "question": "房间里有一个球。应选择哪一句？",
+        "score": 1,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "How many toy cars are there?",
+        "difficulty": 2,
+        "explanation": "询问玩具汽车的数量，用How many；toy cars是复数，后面搭配are there。",
+        "knowledge_point": "询问物品数量",
+        "options": [],
+        "question": "根据回答写出问句：— __________? — There are six toy cars.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 36
+      },
+      {
+        "answer": "There are eight chairs.",
+        "difficulty": 2,
+        "explanation": "题目询问椅子的数量，回答八把椅子。chairs是复数，因此用There are。",
+        "knowledge_point": "询问物品数量",
+        "options": [],
+        "question": "阅读并回答：How many chairs are there?（图中有八把椅子。）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 37
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "ball 中的 al 通常发 /ɔː/，与 call 中的 al 发音相同。",
+        "knowledge_point": "字母组合ar和al的发音规律",
+        "options": [
+          "A. /ɑː/",
+          "B. /ɔː/",
+          "C. /æ/"
+        ],
+        "question": "单词 'ball' 中 'al' 的常见发音是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "park",
+        "difficulty": 1,
+        "explanation": "park 中的 ar 通常发 /ɑː/，符合 ar 的常见发音规律。",
+        "knowledge_point": "字母组合ar和al的发音规律",
+        "options": [],
+        "question": "从 car、park、bell 中，找出含有发 /ɑː/ 的字母组合 ar 的单词：______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "在常见例词 walk 中，al 通常发 /ɔː/，而不是 /ɑː/。",
+        "knowledge_point": "字母组合ar和al的发音规律",
+        "options": [],
+        "question": "单词 'walk' 中的 'al' 通常发 /ɑː/。",
+        "score": 2,
+        "type": "true_false",
+        "id": 40
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "arm 含有 ar，ar 在 arm 中通常发 /ɑː/；其他单词不含 ar。",
+        "knowledge_point": "字母组合ar和al的发音规律",
+        "options": [
+          "A. fish",
+          "B. arm",
+          "C. desk"
+        ],
+        "question": "哪个单词中的 ar 通常发 /ɑː/？",
+        "score": 2,
+        "type": "choice",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "call 和 ball 中的 al 通常都发 /ɔː/，所以两者的 al 发音相同。",
+        "knowledge_point": "字母组合ar和al的发音规律",
+        "options": [
+          "A. call 和 car",
+          "B. call 和 ball",
+          "C. arm 和 park"
+        ],
+        "question": "哪一组单词中的字母组合 al 发音相同？",
+        "score": 2,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "They are pencils.",
+        "difficulty": 1,
+        "explanation": "提问“What are these?”时，可用“They are + 名词复数”回答。pencil 的复数形式是 pencils。",
+        "knowledge_point": "这些是什么",
+        "options": [],
+        "question": "看见近处的几支铅笔，回答：What are these? They ___ pencils.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 43
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "these 指多个事物，是复数主语，所以要用 are，不能用 is。",
+        "knowledge_point": "这些是什么",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "question": "What ___ these? They are apples.",
+        "score": 5,
+        "type": "choice",
+        "id": 44
+      },
+      {
+        "answer": "They are boxes.",
+        "difficulty": 2,
+        "explanation": "box 以 x 结尾，变复数时通常加 -es，写作 boxes。完整回答是“They are boxes.”",
+        "knowledge_point": "这些是什么",
+        "options": [],
+        "question": "看见近处的几个盒子，完成回答：What are these? They are ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "这些是什么？",
+        "difficulty": 1,
+        "explanation": "What are these? 用来询问近处的多个事物，意思是“这些是什么？”",
+        "knowledge_point": "这些是什么",
+        "options": [],
+        "question": "把“What are these?”翻译成中文。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "boxes",
+        "difficulty": 1,
+        "explanation": "box 以 x 结尾，变复数时加 es，因此是 boxes。",
+        "knowledge_point": "名词复数用法",
+        "options": [
+          "boxs",
+          "boxes",
+          "boxies",
+          "a boxes"
+        ],
+        "question": "There are three ________ in the room.",
+        "score": 5,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "babies",
+        "difficulty": 2,
+        "explanation": "baby 以辅音字母 b 加 y 结尾，变复数时去掉 y，加 ies，写作 babies。",
+        "knowledge_point": "名词复数用法",
+        "options": [
+          "babys",
+          "babies",
+          "babyes",
+          "baby"
+        ],
+        "question": "The two ________ are sleeping.",
+        "score": 5,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "children",
+        "difficulty": 2,
+        "explanation": "child 的复数是不规则变化，写作 children，不能写成 childs。",
+        "knowledge_point": "名词复数用法",
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "child"
+        ],
+        "question": "The ________ are playing in the park.",
+        "score": 5,
+        "type": "choice",
+        "id": 49
+      },
+      {
+        "answer": "toys",
+        "difficulty": 1,
+        "explanation": "toy 中 y 前是元音字母 o，因此复数形式直接加 s，写作 toys。",
+        "knowledge_point": "名词复数用法",
+        "options": [
+          "toys",
+          "toies",
+          "toyes",
+          "toy"
+        ],
+        "question": "I have two new ________.",
+        "score": 5,
+        "type": "choice",
+        "id": 50
+      },
+      {
+        "answer": "不可数名词",
+        "difficulty": 2,
+        "explanation": "milk 表示牛奶，通常作为不可数名词使用，不直接加 s 表示复数。",
+        "knowledge_point": "名词复数用法",
+        "options": [],
+        "question": "Milk 通常是________，不能直接加 s 变成复数。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "many",
+        "difficulty": 1,
+        "explanation": "apples是可数名词复数，询问苹果的数量用“How many”。",
+        "knowledge_point": "询问数量",
+        "options": [],
+        "question": "How ___ apples are there?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "How many",
+        "difficulty": 1,
+        "explanation": "cats是可数名词复数，要问有多少只猫，用“How many”开头。",
+        "knowledge_point": "询问数量",
+        "options": [],
+        "question": "___ cats do you have?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "How many books do you have?",
+        "difficulty": 2,
+        "explanation": "询问可数名词books的数量，句型是“How many + 名词复数 + do you have?”",
+        "knowledge_point": "询问数量",
+        "options": [],
+        "question": "根据中文提示写出问句：你有多少本书？（books）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "I have four ducks.",
+        "difficulty": 2,
+        "explanation": "问句询问鸭子的数量，回答可用“I have + 数量 + 名词复数”。",
+        "knowledge_point": "询问数量",
+        "options": [],
+        "question": "回答问句：How many ducks do you have?（四只）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 55
+      },
+      {
+        "answer": "should",
+        "difficulty": 1,
+        "explanation": "这句话是在给出建议，should 表示“应该”，后接动词原形 eat。",
+        "knowledge_point": "情态动词表建议",
+        "options": [
+          "should",
+          "can",
+          "am",
+          "does"
+        ],
+        "question": "You _______ eat more vegetables. They are good for you.",
+        "score": 5,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "shouldn’t",
+        "difficulty": 2,
+        "explanation": "句意是“你不应该在教室里跑”，用 shouldn’t 表示否定建议；其后接动词原形 run。",
+        "knowledge_point": "情态动词表建议",
+        "options": [
+          "should",
+          "shouldn’t",
+          "are",
+          "has"
+        ],
+        "question": "You _______ run in the classroom. It’s not safe.",
+        "score": 5,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "You should go to bed early.",
+        "difficulty": 2,
+        "explanation": "should 表示“应该”，后接动词原形 go。注意不能说 should goes 或 should to go。",
+        "knowledge_point": "情态动词表建议",
+        "options": [],
+        "question": "用 should 将单词连成句子：you / go / to bed / early",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "shouldn’t",
+        "difficulty": 1,
+        "explanation": "shouldn’t 的意思是“不应该”，用于提出否定建议。",
+        "knowledge_point": "情态动词表建议",
+        "options": [],
+        "question": "We _______ (should / shouldn’t) be kind to our classmates.（我们应该友善地对待同学。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 59
+      },
+      {
+        "answer": "He should drinks water.",
+        "difficulty": 3,
+        "explanation": "句子错误。should 后要接动词原形，应改为 He should drink water.（他应该喝水。）",
+        "knowledge_point": "情态动词表建议",
+        "options": [],
+        "question": "判断句子是否正确：He should drinks water. 若有错误，请写出正确句子。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "that",
+        "difficulty": 1,
+        "explanation": "远处的一个苹果是单数，用that指代。",
+        "knowledge_point": "指代远处的物体",
+        "options": [
+          "this",
+          "these",
+          "that",
+          "those"
+        ],
+        "question": "Look at ________ apple over there.",
+        "score": 5,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "Those",
+        "difficulty": 1,
+        "explanation": "birds是复数，且在远处，用Those；复数主语与are搭配。",
+        "knowledge_point": "指代远处的物体",
+        "options": [
+          "That",
+          "Those",
+          "This",
+          "It"
+        ],
+        "question": "________ birds are beautiful. They are over there.",
+        "score": 5,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "Is that a bus?",
+        "difficulty": 2,
+        "explanation": "远处只有一辆公交车，用that；单数指示代词的疑问句用Is that...?",
+        "knowledge_point": "指代远处的物体",
+        "options": [],
+        "question": "连词成句：that / a bus / Is / ?（表示远处的一辆公交车）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "those",
+        "difficulty": 2,
+        "explanation": "shoes是复数，指远处的多双鞋，应填those。",
+        "knowledge_point": "指代远处的物体",
+        "options": [],
+        "question": "These are my shoes here. ________ shoes over there are yours.（填一个词）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 64
+      },
+      {
+        "answer": "they are",
+        "difficulty": 2,
+        "explanation": "问句中的those指远处的复数物体，回答时用they代替，并与are搭配。",
+        "knowledge_point": "指代远处的物体",
+        "options": [],
+        "question": "Are those oranges? Yes, ________.（填两个词）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 65
+      },
+      {
+        "answer": "cows",
+        "difficulty": 1,
+        "explanation": "cow表示“奶牛”，是可数名词；两头奶牛要用复数cows。",
+        "knowledge_point": "农场词汇",
+        "options": [
+          "cow",
+          "cows",
+          "a cow",
+          "cowing"
+        ],
+        "question": "There are two ________ on the farm.",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "horse",
+        "difficulty": 1,
+        "explanation": "horse表示“马”。句子中的a表示一匹，所以用单数horse。",
+        "knowledge_point": "农场词汇",
+        "options": [
+          "horse",
+          "horses",
+          "sheep",
+          "ducks"
+        ],
+        "question": "I can see a ________ in the field.",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "How many ducks are there?",
+        "difficulty": 2,
+        "explanation": "How many用于询问可数名词的数量，后面要接名词复数。ducks是duck的复数，因此“How many ducks are there?”正确。",
+        "knowledge_point": "农场词汇",
+        "options": [
+          "How many ducks are there?",
+          "How many duck are there?",
+          "How much ducks are there?",
+          "How many a duck are there?"
+        ],
+        "question": "农场里有几只鸭子？选出正确的英文问句。",
+        "score": 5,
+        "type": "choice",
+        "id": 68
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "sheep的单数和复数形式相同，所以“three sheep”是正确表达。",
+        "knowledge_point": "农场词汇",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：There are three sheep on the farm.",
+        "score": 5,
+        "type": "true_false",
+        "id": 69
+      },
+      {
+        "answer": "farm",
+        "difficulty": 1,
+        "explanation": "farm表示“农场”，farm animals表示“农场动物”。",
+        "knowledge_point": "农场词汇",
+        "options": [],
+        "question": "填空：A place where people keep cows, sheep, and horses is a ________.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 70
+      },
+      {
+        "answer": "Yes, he is.",
+        "difficulty": 1,
+        "explanation": "问句中的主语是your brother，回答时用he代替；问句用is，回答也用is。",
+        "knowledge_point": "对疑问句的回答",
+        "options": [
+          "Yes, he is.",
+          "Yes, she is.",
+          "Yes, they are.",
+          "No, he aren't."
+        ],
+        "question": "-Is your brother at home? -_______.",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "No, it isn't.",
+        "difficulty": 1,
+        "explanation": "that book是单数物品，回答时用it代替；问句用is，否定回答用isn't。",
+        "knowledge_point": "对疑问句的回答",
+        "options": [
+          "No, they aren't.",
+          "No, it isn't.",
+          "No, he isn't.",
+          "No, it aren't."
+        ],
+        "question": "-Is that book new? -_______.",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "问句中的主语是you，回答要用you；you与be动词are搭配。",
+        "knowledge_point": "对疑问句的回答",
+        "options": [],
+        "question": "-Are you hungry? -Yes, I ____. ",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 73
+      },
+      {
+        "answer": "No, we aren't.",
+        "difficulty": 2,
+        "explanation": "问句中的we在回答中仍用we；we与are搭配，否定形式是aren't。",
+        "knowledge_point": "对疑问句的回答",
+        "options": [
+          "Yes, we are.",
+          "No, we aren't.",
+          "No, we isn't.",
+          "Yes, we is."
+        ],
+        "question": "-Are we late? -_______.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "they aren't",
+        "difficulty": 2,
+        "explanation": "those dogs是复数，回答时用they代替；问句用are，否定回答用aren't。",
+        "knowledge_point": "对疑问句的回答",
+        "options": [],
+        "question": "-Are those dogs big? -No, __________.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 75
+      },
+      {
+        "answer": "tall",
+        "difficulty": 1,
+        "explanation": "tall表示“高的”，可以用来描述树的高度。",
+        "knowledge_point": "形容词词义",
+        "options": [
+          "tall",
+          "cold",
+          "short",
+          "fat"
+        ],
+        "question": "Look at that tree. It is very _______.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "cold",
+        "difficulty": 1,
+        "explanation": "cold表示“寒冷的”。冬天的天气可以用cold来描述。",
+        "knowledge_point": "形容词词义",
+        "options": [
+          "big",
+          "fat",
+          "cold",
+          "short"
+        ],
+        "question": "It is _______ in winter. Please wear a warm coat.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "short",
+        "difficulty": 1,
+        "explanation": "short表示“短的”，这里描述的是铅笔的长度。",
+        "knowledge_point": "形容词词义",
+        "options": [
+          "tall",
+          "cold",
+          "fat",
+          "short"
+        ],
+        "question": "This pencil is not long. It is _______.",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "胖的",
+        "difficulty": 1,
+        "explanation": "fat的意思是“胖的”，可以用来描述猫的体形。",
+        "knowledge_point": "形容词词义",
+        "options": [],
+        "question": "The cat is fat. fat的意思是“______”。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 79
+      },
+      {
+        "answer": "small",
+        "difficulty": 2,
+        "explanation": "big表示“大”，small表示“小”。句子说盒子不大，因此用small描述它的大小。",
+        "knowledge_point": "形容词词义",
+        "options": [],
+        "question": "The box is not big. It is _______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 80
+      },
+      {
+        "answer": "hen",
+        "difficulty": 1,
+        "explanation": "母鸡的英文是 hen；hens 是复数形式。",
+        "knowledge_point": "动物词汇",
+        "options": [
+          "hen",
+          "duck",
+          "horse",
+          "sheep"
+        ],
+        "question": "Which animal is a female chicken?",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "ducks",
+        "difficulty": 1,
+        "explanation": "鸭子的英文是 duck，复数形式是 ducks。",
+        "knowledge_point": "动物词汇",
+        "options": [
+          "horses",
+          "ducks",
+          "cows",
+          "hens"
+        ],
+        "question": "The ________ can swim in the pond.",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "horse",
+        "difficulty": 1,
+        "explanation": "马的英文是 horse。",
+        "knowledge_point": "动物词汇",
+        "options": [],
+        "question": "A large farm animal that people can ride is a ____.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "sheep",
+        "difficulty": 2,
+        "explanation": "绵羊的英文是 sheep，它的单数和复数形式相同。",
+        "knowledge_point": "动物词汇",
+        "options": [
+          "sheep",
+          "hens",
+          "ducks",
+          "cows"
+        ],
+        "question": "Which animal has wool?",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "她正在读一本书。",
+        "difficulty": 1,
+        "explanation": "She 表示“她”，is reading 表示“正在读”，a book 表示“一本书”，所以句意是“她正在读一本书”。",
+        "knowledge_point": "句子理解",
+        "options": [
+          "她正在读一本书。",
+          "她正在写一本书。",
+          "她正在看一本电影。",
+          "她每天买一本书。"
+        ],
+        "question": "What does “She is reading a book.” mean?",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "True",
+        "difficulty": 2,
+        "explanation": "句子意思是“汤姆每天早上步行去学校”。根据句子中的 every morning（每天早上）和 walks to school（步行去学校），判断正确。",
+        "knowledge_point": "句子理解",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“Tom walks to school every morning.” means Tom goes to school on foot each morning.",
+        "score": 5,
+        "type": "true_false",
+        "id": 86
+      },
+      {
+        "answer": "is",
+        "difficulty": 2,
+        "explanation": "句意是“我的猫正在椅子上睡觉”。主语 My cat 是单数，表示正在发生的动作时用 is sleeping。",
+        "knowledge_point": "句子理解",
+        "options": [],
+        "question": "My cat ______ sleeping on the chair.（我的猫正在椅子上睡觉。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 87
+      },
+      {
+        "answer": "The girl is flying a kite.",
+        "difficulty": 2,
+        "explanation": "The girl 表示“那个女孩”，is flying a kite 表示“正在放风筝”，整句意思是“那个女孩正在放风筝”。",
+        "knowledge_point": "句子理解",
+        "options": [],
+        "question": "把词语排成通顺的句子：a kite / is / The girl / flying。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 88
+      },
+      {
+        "answer": "它们在雨天时使用。",
+        "difficulty": 3,
+        "explanation": "句子中的 They 指雨伞；when it rains 表示“下雨时”，所以整句意思是“雨伞在下雨时帮助我们保持干燥”。",
+        "knowledge_point": "句子理解",
+        "options": [],
+        "question": "“Umbrellas help us stay dry when it rains.” 的意思是什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 89
+      },
+      {
+        "answer": "carrot",
+        "difficulty": 1,
+        "explanation": "胡萝卜通常是橙色的，carrot 意为“胡萝卜”。",
+        "knowledge_point": "蔬菜词汇",
+        "options": [],
+        "question": "An orange ___ is a vegetable.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 90
+      },
+      {
+        "answer": "potato",
+        "difficulty": 1,
+        "explanation": "Potato 意为“土豆”，是常见蔬菜词汇。",
+        "knowledge_point": "蔬菜词汇",
+        "options": [
+          "potato",
+          "tomato",
+          "onion",
+          "cabbage"
+        ],
+        "question": "Which word means “土豆”?",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "tomato",
+        "difficulty": 1,
+        "explanation": "Tomato 意为“西红柿”，句子中的 red 提示了这种常见蔬菜。",
+        "knowledge_point": "蔬菜词汇",
+        "options": [],
+        "question": "A ___ is red and round.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "onion",
+        "difficulty": 2,
+        "explanation": "Onion 意为“洋葱”。句意是“妈妈切了一个洋葱”。",
+        "knowledge_point": "蔬菜词汇",
+        "options": [],
+        "question": "Mum cuts an ___ for dinner.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "cabbage",
+        "difficulty": 2,
+        "explanation": "Cabbage 意为“卷心菜”，通常是绿色的，句中用 a 表示一个。",
+        "knowledge_point": "蔬菜词汇",
+        "options": [],
+        "question": "There is a green ___ on the table.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 94
+      },
+      {
+        "answer": "胡萝卜",
+        "difficulty": 1,
+        "explanation": "carrot 的意思是“胡萝卜”，所以选项 C 正确。",
+        "knowledge_point": "词汇匹配",
+        "options": [
+          "苹果",
+          "鸭子",
+          "胡萝卜",
+          "土豆"
+        ],
+        "question": "“carrot”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "奶牛",
+        "difficulty": 1,
+        "explanation": "cow 的意思是“奶牛”。",
+        "knowledge_point": "词汇匹配",
+        "options": [
+          "西红柿",
+          "奶牛",
+          "绵羊",
+          "马"
+        ],
+        "question": "单词 cow 的正确意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "面包",
+        "difficulty": 2,
+        "explanation": "bread 的意思是“面包”。",
+        "knowledge_point": "词汇匹配",
+        "options": [
+          "面包",
+          "鱼",
+          "卷心菜",
+          "米饭"
+        ],
+        "question": "bread 的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "potato — 土豆",
+        "difficulty": 2,
+        "explanation": "“potato”是“土豆”，因此选项 B 正确。其他选项中的中文意思与 potato 不匹配。",
+        "knowledge_point": "词汇匹配",
+        "options": [
+          "potato — 兔子",
+          "potato — 土豆",
+          "potato — 小鸡",
+          "potato — 鸡肉"
+        ],
+        "question": "“potato”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "葡萄",
+        "difficulty": 2,
+        "explanation": "“grape”是“葡萄”。",
+        "knowledge_point": "词汇匹配",
+        "options": [
+          "山羊",
+          "葡萄",
+          "洋葱",
+          "苹果"
+        ],
+        "question": "英文单词“grape”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "This means “this one,” usually referring to one person or thing nearby.",
+        "difficulty": 1,
+        "explanation": "“This”表示“这个”，通常指距离说话人较近的一个人或物品。",
+        "knowledge_point": "指代词匹配",
+        "options": [
+          "This means “this one,” usually referring to one person or thing nearby.",
+          "This means “those ones,” referring to several people or things far away.",
+          "It means “these ones,” referring to several people or things nearby.",
+          "It means “that one,” usually referring to one person or thing far away."
+        ],
+        "question": "Which sentence correctly explains the meaning of “this”? (哪句话正确解释了“this”的意思？)",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "these表示“这些”，指较近的多个对象；she通常代替一位女性或女孩。",
+        "knowledge_point": "指代词匹配",
+        "options": [
+          "A. these—较近的多个物品；she—女孩",
+          "B. these—较远的一个物品；she—男孩",
+          "C. these—较近的一个物品；she—多个物品"
+        ],
+        "question": "下列哪组匹配正确？",
+        "score": 5,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "those是复数指示代词，通常指距离较远的多个对象。",
+        "knowledge_point": "指代词匹配",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：those通常用来指较远的多个物品。",
+        "score": 5,
+        "type": "true_false",
+        "id": 102
+      },
+      {
+        "answer": "they",
+        "difficulty": 2,
+        "explanation": "two dogs是复数，代替两只狗时用they。",
+        "knowledge_point": "指代词匹配",
+        "options": [],
+        "question": "用一个人称代词代替画线部分：Tom has two dogs. ______ are brown.（代替two dogs）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 103
+      },
+      {
+        "answer": "these",
+        "difficulty": 2,
+        "explanation": "apples是复数，且句意说明苹果在说话人附近，所以用these表示“这些”。",
+        "knowledge_point": "指代词匹配",
+        "options": [],
+        "question": "用合适的指示代词填空：______ apples here are fresh.（这些；指近处的多个苹果）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "Whose",
+        "difficulty": 1,
+        "explanation": "whose 意思是“谁的”，用来询问物品属于谁。",
+        "knowledge_point": "提问物主",
+        "options": [],
+        "question": "“______ pencil is this?”（这是谁的铅笔？）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 105
+      },
+      {
+        "answer": "Whose is this bag?",
+        "difficulty": 2,
+        "explanation": "询问“这个包是谁的”可以说 Whose is this bag? 注意疑问词 whose 放在句首。",
+        "knowledge_point": "提问物主",
+        "options": [
+          "bag",
+          "Whose",
+          "this",
+          "is",
+          "?"
+        ],
+        "question": "将下列单词连成句子：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 106
+      },
+      {
+        "answer": "They’re Tom’s.",
+        "difficulty": 2,
+        "explanation": "题目问复数的 shoes（鞋子），回答用 They’re；Tom’s 表示“汤姆的”。",
+        "knowledge_point": "提问物主",
+        "options": [
+          "It’s Tom’s.",
+          "They’re Tom’s.",
+          "He’s Tom."
+        ],
+        "question": "选择合适的回答：Whose shoes are these?",
+        "score": 5,
+        "type": "choice",
+        "id": 107
+      },
+      {
+        "answer": "Lucy’s",
+        "difficulty": 1,
+        "explanation": "在人名 Lucy 后加 ’s，表示“露西的”。",
+        "knowledge_point": "提问物主",
+        "options": [],
+        "question": "根据提示补全回答：Whose book is this? It’s ______.（Lucy）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 108
+      },
+      {
+        "answer": "Whose crayons are these? — They’re Ben’s.",
+        "difficulty": 3,
+        "explanation": "crayons 是复数，因此疑问句用 are，回答用 They’re；Ben’s 表示“本的”。",
+        "knowledge_point": "提问物主",
+        "options": [],
+        "question": "用 whose 提问并根据提示回答：这些蜡笔是谁的？（Ben）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "I am ten years old.",
+        "difficulty": 1,
+        "explanation": "陈述句的句首字母要大写，I后用am，句末用句号。",
+        "knowledge_point": "陈述句",
+        "options": [],
+        "question": "将下列单词连成陈述句：am / I / ten years old",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "She is happy.",
+        "difficulty": 2,
+        "explanation": "主语She是第三人称单数，be动词用is；形容词happy放在be动词后，句末用句号。",
+        "knowledge_point": "陈述句",
+        "options": [
+          "happy",
+          "is",
+          "She",
+          "."
+        ],
+        "question": "将下列单词连成陈述句：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "We play football after school.",
+        "difficulty": 2,
+        "explanation": "陈述句常按“主语+动词+其他成分”的语序排列，句首大写，句末用句号。",
+        "knowledge_point": "陈述句",
+        "options": [
+          "after school",
+          "football",
+          "We",
+          "play"
+        ],
+        "question": "将下列词语连成陈述句，并在句末加上标点：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "陈述句通常用来说明或描述事情，句末通常用句号。",
+        "knowledge_point": "陈述句",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断正误：陈述句通常用来说明事情，句末通常用句号。",
+        "score": 5,
+        "type": "true_false",
+        "id": 113
+      },
+      {
+        "answer": "The cat is under the table.",
+        "difficulty": 3,
+        "explanation": "主语The cat是第三人称单数，因此用is；地点短语under the table放在后面，句末用句号。",
+        "knowledge_point": "陈述句",
+        "options": [],
+        "question": "用给出的词语组成陈述句：the table / under / The cat / is",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 114
       }
     ]
   },
@@ -718,6 +1923,214 @@
         "混淆ball与bar的发音"
       ],
       "tips": "ar就像张大嘴巴说'啊'，al就像公鸡打鸣'喔-'"
+    },
+    {
+      "common_mistakes": [
+        "carrot的复数是carrots，不要漏掉-s。",
+        "tomato的复数是tomatoes，不是tomatos。",
+        "sheep的单数和复数形式相同。"
+      ],
+      "core_concept": "认识农场常见蔬菜和动物的英文单词，并掌握它们的复数形式。",
+      "key_formula": "多数可数名词复数加-s；以-o结尾的tomato通常加-es，变为tomatoes；sheep单复数同形。",
+      "point": "农场蔬菜与动物词汇(复数)",
+      "tips": "记单词时同时记住中文意思和复数形式：carrot—carrots（胡萝卜），tomato—tomatoes（西红柿），sheep—sheep（绵羊）。"
+    },
+    {
+      "common_mistakes": [
+        "把 these 和 those 都理解为近指，或把它们的意思弄反。",
+        "忘记 these 和 those 都指多个物体，不能用来指单数物体。",
+        "只看物体数量，不根据物体的远近选择 these 或 those。"
+      ],
+      "core_concept": "These 和 those 都是指示代词，用来指多个物体。These 指较近的物体，意思是“这些”；those 指较远的物体，意思是“那些”。",
+      "key_formula": "较近的多个物体：these；较远的多个物体：those。",
+      "point": "these与those指代辨析",
+      "tips": "记忆口诀：these 近，those 远；两者都指多个。"
+    },
+    {
+      "common_mistakes": [
+        "询问可数物品数量时误用How much，应使用How many。",
+        "How many后面忘记接可数名词复数，如apples、books。",
+        "回答时忘记使用There are表示多个，或There is表示一个。"
+      ],
+      "core_concept": "询问可数物品的数量时，使用“How many + 可数名词复数 + are there?”。回答时，数量为一个可用“There is one...”，数量为两个或更多可用“There are...”。也可以用“We have...”表达“我们有……”。",
+      "key_formula": "How many + 可数名词复数 + are there? — There is one... / There are + 数量 + 可数名词复数.",
+      "point": "询问物品数量",
+      "tips": "先判断物品能不能数：能数的物品用How many；再把名词变成复数。回答时注意数量与be动词搭配：一个用is，多个用are。例：How many pencils are there? There are three pencils."
+    },
+    {
+      "common_mistakes": [
+        "把字母组合 ar 和 al 当成只有一种固定发音。",
+        "忽略单词中的字母组合，把每个字母分开读。",
+        "只根据字母拼写猜读音，遇到不规则单词时不查读音或不听示范。"
+      ],
+      "core_concept": "字母组合 ar 和 al 在许多英语单词中有常见发音，但具体读音会受单词及口音影响。学习时可以先掌握典型例词，再通过听读和记忆认识例外。",
+      "key_formula": "常见读音：ar → /ɑː/，如 car、arm、park；al → /ɔː/，如 ball、call、walk。注：不同英语口音中元音音值可能略有差别，且存在例外。",
+      "point": "字母组合ar和al的发音规律",
+      "tips": "先观察 ar 或 al 在单词中的位置，再把整个单词读出来。用 car、arm、park 练习 ar 的常见读音，用 ball、call、walk 练习 al 的常见读音。遇到读音不同的单词时，结合老师示范或词典确认。"
+    },
+    {
+      "common_mistakes": [
+        "把 these 和 this 混用：these 指不止一个、距离较近的人或物；this 指一个较近的人或物。",
+        "these 作主语时误用 is，应使用 are。",
+        "回答“What are these?”时，忘记在可数名词复数后加 -s 或 -es。"
+      ],
+      "core_concept": "用“What are these?”询问近处的多个事物是什么。these 意为“这些”，后接 are；回答时可以说“They are + 名词复数.”",
+      "key_formula": "What are these? — They are + 可数名词复数.",
+      "point": "这些是什么",
+      "tips": "看到 these，想到“多个、近处”，并使用 are。回答时检查名词是否为复数，例如 book → books，box → boxes。"
+    },
+    {
+      "common_mistakes": [
+        "以字母 s 结尾的复数通常加 es，不是只加 s，如 bus → buses。",
+        "以辅音字母加 y 结尾，先把 y 改成 i 再加 es，如 baby → babies；元音字母加 y 则直接加 s，如 toy → toys。",
+        "有些名词的复数形式不规则，如 child → children、man → men，需要单独记忆。",
+        "不可数名词通常没有复数形式，如 milk、water。"
+      ],
+      "core_concept": "名词表示一个人或事物时通常用单数；表示两个或两个以上时通常用复数。名词复数的构成方法包括直接加 s、加 es、变 y 为 i 再加 es，以及不规则变化。",
+      "key_formula": "一般情况：名词 + s；以 s、x、ch、sh 结尾：名词 + es；辅音字母 + y 结尾：去 y + ies；部分名词有不规则复数形式。",
+      "point": "名词复数用法",
+      "tips": "先判断名词表示一个还是多个，再看词尾选择变化规则。记住常见不规则复数，并留意不可数名词不能随意加 s。"
+    },
+    {
+      "common_mistakes": [
+        "询问可数名词的数量时误用How much。",
+        "忘记可数名词复数形式，如把How many后面的cows写成cow。"
+      ],
+      "core_concept": "询问可数名词的数量，常用“How many + 可数名词复数 + do you have?”，意思是“你有多少……？”。回答时可说“I have + 数量 + 名词复数.”",
+      "key_formula": "How many + 可数名词复数 + do you have? — I have + 数量 + 可数名词复数.",
+      "point": "询问数量",
+      "tips": "看到how many，注意后面的可数名词通常要用复数；回答数量时，名词也要根据数量使用合适的形式。"
+    },
+    {
+      "common_mistakes": [
+        "混淆 should 和 can：should 表示建议，can 表示能力或允许。",
+        "把 so 当作情态动词：so 是副词，表示“如此、很”；should 才是情态动词。",
+        "情态动词后面误加 to 或把动词变形：should 后接动词原形。"
+      ],
+      "core_concept": "情态动词 should 常用来提出建议，意思是“应该”。它后面接动词原形。回答建议时，可以用“主语 + should + 动词原形”或“主语 + shouldn’t + 动词原形”。本课题目中的 so 表示“很、如此”，不是情态动词。",
+      "key_formula": "建议：主语 + should + 动词原形；否定建议：主语 + shouldn’t + 动词原形。",
+      "point": "情态动词表建议",
+      "tips": "做题时先判断句子是不是在提出建议；如果是，考虑 should 或 shouldn’t。选定后检查其后是否接动词原形。看到 so long 这样的结构时，so 表示“很”，用于修饰形容词。"
+    },
+    {
+      "common_mistakes": [
+        "把远处的单数物体和复数物体混淆：远处一个用that，远处多个用those。",
+        "this和these指近处；that和those指远处。",
+        "问句用Are those...?时，回答通常用Yes, they are.或No, they aren't.；问句用Is that...?时，回答通常用Yes, it is.或No, it isn't."
+      ],
+      "core_concept": "指远处的一个人或物，用that；指远处的多个人或物，用those。that和those常与表示距离较远的词或情境搭配。",
+      "key_formula": "远处单数：That is + 单数名词. / Is that ...? 远处复数：Those are + 复数名词. / Are those ...?",
+      "point": "指代远处的物体",
+      "tips": "先判断所指对象是远处还是近处，再判断是一个还是多个：远处单数选that，远处复数选those。"
+    },
+    {
+      "common_mistakes": [
+        "sheep的单复数形式相同，不能说sheeps。",
+        "cow的复数是cows；horse的复数是horses。",
+        "区分表示动物的单词和表示农场地点的单词。"
+      ],
+      "core_concept": "学习常见农场动物和农场相关词汇，并能在简单句子中辨认和使用它们。",
+      "key_formula": "How many + 可数名词复数 + are there?",
+      "point": "农场词汇",
+      "tips": "记忆农场词汇时，可以把动物和名称配对，如 cow（奶牛）、sheep（绵羊）、horse（马）、duck（鸭子）。练习数动物时，注意名词单复数形式。"
+    },
+    {
+      "common_mistakes": [
+        "回答疑问句时，要根据疑问句中的主语选择对应的代词，不能只看离空格最近的名词。",
+        "用be动词提问时，肯定或否定回答中的be动词要与主语保持一致。",
+        "回答以Are开头的一般疑问句时，不要误用is；回答以Is开头的一般疑问句时，不要误用are。"
+      ],
+      "core_concept": "回答一般疑问句时，通常用“Yes, 主语代词 + be动词.”表示肯定，用“No, 主语代词 + be动词 + not.”表示否定。回答中的主语代词要与问句中的人或事物对应。",
+      "key_formula": "Are you/we/they ...? — Yes, you/we/they are. / No, you/we/they aren't.；Is he/she/it ...? — Yes, he/she/it is. / No, he/she/it isn't.",
+      "point": "对疑问句的回答",
+      "tips": "先找出问句的主语，再将其换成合适的代词；接着判断问句中的be动词是is还是are，并在回答中保持一致。this/that通常用it回答，these/those通常用they回答。"
+    },
+    {
+      "common_mistakes": [
+        "只看句子中的单个词，不结合上下文判断形容词的意思。",
+        "混淆意思相近或适用对象不同的形容词，例如用fat形容农场。",
+        "忘记形容词常用来描述人、动物或事物的特点。"
+      ],
+      "core_concept": "形容词用来描述人、动物或事物的特点，可以表示大小、颜色、形状、冷热、长短、胖瘦等。理解形容词的词义时，要结合它所描述的对象和句子语境。",
+      "key_formula": "形容词 + 名词；be动词 + 形容词",
+      "point": "形容词词义",
+      "tips": "读句子时先找出形容词描述的对象，再判断哪种特点符合语境。例如，farm（农场）通常可以用big（大的）来描述；天气可以用cold（寒冷的），人或动物可以用fat（胖的），物体可以用short（短的）。"
+    },
+    {
+      "common_mistakes": [
+        "把相似动物名称混淆，如 hen（母鸡）和 duck（鸭子）。",
+        "注意动物名称的单数和复数形式，如 cow/cows、horse/horses。"
+      ],
+      "core_concept": "学习常见动物的英文名称，并结合外形、叫声或用途辨认动物。",
+      "key_formula": "单数：a/an + 动物名称；复数：动物名称 + s（如 a cow → cows）。",
+      "point": "动物词汇",
+      "tips": "看到动物图片或描述时，先找关键词：provide milk（提供牛奶）常对应 cow；lay eggs（下蛋）常对应 hen；black and white（黑白相间）可能对应 cow。"
+    },
+    {
+      "common_mistakes": [
+        "只认识单词，不结合句子整体意思判断。",
+        "忽略主语和谓语的搭配，以及名词单复数。",
+        "遇到不熟悉的词就猜，未利用句中线索。"
+      ],
+      "core_concept": "句子理解是结合句中的关键词、语法结构和上下文，弄清句子表达的人、事物、动作或状态。",
+      "key_formula": "先看关键词和句子结构，再联系上下文判断整句意思，并检查选项是否符合语意和语法。",
+      "point": "句子理解",
+      "tips": "读句子时，先圈出熟悉的关键词；再找主语和动作；最后把选项代入句中读一遍，检查意思是否合理、语法是否正确。"
+    },
+    {
+      "common_mistakes": [
+        "把 vegetable（蔬菜）和具体蔬菜名称混淆。",
+        "注意有些蔬菜名称常用复数形式，如 beans、peas。",
+        "回答多个蔬菜时，注意名词的单复数要与句意一致。"
+      ],
+      "core_concept": "学习常见蔬菜的英文名称，并能根据颜色、形状或句意辨认蔬菜词汇。",
+      "key_formula": "常见词汇：carrot 胡萝卜，potato 土豆，tomato 西红柿，cabbage 卷心菜，onion 洋葱，beans 豆角。",
+      "point": "蔬菜词汇",
+      "tips": "可以把蔬菜词汇和颜色、形状联系起来记忆，例如 orange carrot（橙色的胡萝卜）、round tomato（圆圆的西红柿）。看到 a、one 时通常使用单数；表示多个时使用复数形式。"
+    },
+    {
+      "common_mistakes": [
+        "容易把意思相近或外形相似的单词混淆。",
+        "匹配时要看清每个英文单词和中文意思，避免连线重复或遗漏。"
+      ],
+      "core_concept": "词汇匹配是根据英文单词的拼写和含义，找出对应的中文意思。做题时可以先认读单词，再逐一核对意思。",
+      "key_formula": "英文单词 ↔ 对应的中文意思",
+      "point": "词汇匹配",
+      "tips": "先读英文单词，回忆它的意思；不确定时可以根据熟悉的字母或读音提示回想，最后检查每个单词是否都匹配且没有重复。"
+    },
+    {
+      "common_mistakes": [
+        "不要把指代词和名词所指的人或物混淆：指代词用来代替或指明人、物。",
+        "注意单复数和性别：一个男孩常用he，一个女孩常用she；一个物品常用it，多个对象常用they。",
+        "this和these通常指较近的人或物；that和those通常指较远的人或物。",
+        "匹配时要看上下文，不能只根据中文意思猜。"
+      ],
+      "core_concept": "指代词用于代替或指明人物、动物、物品等。常见人称代词有I、you、he、she、it、we、they；常见指示代词有this、that、these、those。匹配时要关注所指对象的身份、数量和远近。",
+      "key_formula": "单数：this（近）、that（远）；复数：these（近）、those（远）。代替人物或物品时，根据身份和数量选择he、she、it或they。",
+      "point": "指代词匹配",
+      "tips": "先找出句子或词组中所指的人或物，再判断单复数、人物身份及远近，最后选择对应的指代词。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 whose 和 who’s 混淆：whose 表示“谁的”，who’s 是 who is 或 who has 的缩写。",
+        "whose 后面可以直接接名词，如 Whose book is this?；也可以单独使用，如 Whose is this book?",
+        "询问物品属于谁时，回答可以用 It’s + 名词所有格，或用名词所有格单独回答。"
+      ],
+      "core_concept": "“提问物主”就是询问某件物品属于谁，常用疑问词 whose，意思是“谁的”。",
+      "key_formula": "Whose + 名词 + is this/that? — It’s + 人名’s.；Whose + 名词 + are these/those? — They’re + 人名’s.",
+      "point": "提问物主",
+      "tips": "先看物品是单数还是复数，再选择 is 或 are；whose 后面直接接名词时，名词放在 whose 后面。"
+    },
+    {
+      "common_mistakes": [
+        "陈述句句末通常用句号，不要误用问号。",
+        "be动词或助动词要与主语相搭配；一般现在时中，第三人称单数主语常与is连用，复数主语常与are连用。",
+        "句子中的词要按照英语语序排列，不能照搬中文语序。"
+      ],
+      "core_concept": "陈述句用来说明事实、表达想法或描述事物，通常以句号结尾。小学阶段常见的陈述句语序是“主语+谓语+其他成分”。使用be动词时，常见结构为“主语+be动词+名词、形容词或地点等”；使用实义动词时，常见结构为“主语+动词+其他成分”。",
+      "key_formula": "主语 + 谓语 + 其他成分 + .",
+      "point": "陈述句",
+      "tips": "先找出句子的主语，再判断谓语需要用be动词还是实义动词，接着按英语语序补充其他成分，最后检查句首大写、主谓搭配和句末句号。"
     }
   ]
 }

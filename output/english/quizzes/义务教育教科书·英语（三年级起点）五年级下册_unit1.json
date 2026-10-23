@@ -4,7 +4,7 @@
   "unit_number": 1,
   "unit_test": {
     "title": "Unit 1 My day - Basic Skills Test",
-    "total_score": 100,
+    "total_score": 159,
     "time_minutes": 40,
     "questions": [
       {
@@ -41,26 +41,26 @@
         "explanation": "busy是形容词，表示忙的。"
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "频度副词的用法",
-        "question": "'sometimes' 放在句中，意思是‘总是’。",
-        "options": [],
         "answer": "错",
-        "explanation": "sometimes 是‘有时’，总是是 always。"
+        "difficulty": 2,
+        "explanation": "sometimes 的意思是“有时”，always 的意思是“总是”。",
+        "knowledge_point": "频度副词的用法",
+        "options": [],
+        "question": "“sometimes”放在句中，意思是“总是”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "询问并回答作息时间",
-        "question": "在描述时间点前，通常使用介词 'at'。",
-        "options": [],
         "answer": "对",
-        "explanation": "时间点前常用 at，如 at 7:00。"
+        "difficulty": 1,
+        "explanation": "表示具体的钟点时，时间前通常用介词 at，例如 at 7:00。",
+        "knowledge_point": "询问并回答作息时间",
+        "options": [],
+        "question": "在描述时间点前，通常使用介词 'at'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
       },
       {
         "id": 6,
@@ -79,36 +79,36 @@
         "explanation": "often提示用一般现在时，主语I用动词原形。"
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "do",
         "difficulty": 1,
+        "explanation": "主语是 you，询问日常活动时用助动词 do，句子结构为“When do you get up?”",
         "knowledge_point": "询问并回答作息时间",
-        "question": "When _____ you get up?",
         "options": [
           "does",
           "am",
           "do",
           "are"
         ],
-        "answer": "do",
-        "explanation": "主语是you，助动词用do。"
+        "question": "When _____ you get up?",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "usually",
         "difficulty": 2,
+        "explanation": "询问星期日通常做什么，用 usually（通常）表达习惯或频度。",
         "knowledge_point": "频度副词的用法",
-        "question": "What do you _____ do on Sundays?",
         "options": [
           "usually",
           "once",
           "too",
           "can"
         ],
-        "answer": "usually",
-        "explanation": "问经常做的事情，通常用频度副词usually。"
+        "question": "What do you _____ do on Sundays?",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
         "id": 9,
@@ -127,20 +127,20 @@
         "explanation": "12点通常是吃午饭（lunch）的时间。"
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "clean",
         "difficulty": 1,
+        "explanation": "clean中的字母组合cl发/kl/音；其余选项没有cl这个字母组合。",
         "knowledge_point": "字母组合cl的发音规律",
-        "question": "Which word has the /kl/ sound?",
         "options": [
           "plate",
           "clean",
           "play",
           "please"
         ],
-        "answer": "clean",
-        "explanation": "clean中的cl发/kl/音。"
+        "question": "Which word has the /kl/ sound?",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
         "id": 11,
@@ -175,36 +175,36 @@
         "explanation": "take a class 意为上课。"
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "sometimes",
         "difficulty": 2,
+        "explanation": "句子表达张鹏做运动的频率，sometimes（有时）是合适的频度副词。",
         "knowledge_point": "频度副词的用法",
-        "question": "Zhang Peng _____ plays sports.",
         "options": [
           "sometimes",
           "very",
           "good",
           "is"
         ],
-        "answer": "sometimes",
-        "explanation": "句意表达频度，需要频度副词。"
+        "question": "Zhang Peng _____ plays sports.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "At",
         "difficulty": 3,
+        "explanation": "回答具体的钟点时，时间前用 at，因此说“At 7:00 p.m.”",
         "knowledge_point": "询问并回答作息时间",
-        "question": "—When do you eat dinner? —_____ 7:00 p.m.",
         "options": [
           "In",
           "On",
           "At",
           "For"
         ],
-        "answer": "At",
-        "explanation": "具体几点钟前面用at。"
+        "question": "—When do you eat dinner? —_____ 7:00 p.m.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
         "id": 15,
@@ -245,15 +245,15 @@
         "explanation": "go for a walk 意为去散步。"
       },
       {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
+        "answer": "When",
         "difficulty": 2,
+        "explanation": "When 用于询问时间。句子完整形式为“When do you finish class in Spain?”",
         "knowledge_point": "询问并回答作息时间",
-        "question": "_____ do you finish class in Spain?",
         "options": [],
-        "answer": "when",
-        "explanation": "询问时间用疑问词when。"
+        "question": "_____ do you finish class in Spain?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
       },
       {
         "id": 19,
@@ -287,12 +287,10 @@
         "explanation": "get up-起床, brush teeth-刷牙, play sports-进行体育活动, clean my room-打扫我的房间。"
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-2，B-4，C-1，D-3",
         "difficulty": 2,
+        "explanation": "always 是“总是”，usually 是“通常”，often 是“经常”，sometimes 是“有时”。",
         "knowledge_point": "频度副词的用法",
-        "question": "请将频度副词与其中文释义及对应特征连线。",
         "options": [
           "always",
           "usually",
@@ -303,16 +301,16 @@
           "有时",
           "通常"
         ],
-        "answer": "A-2,B-4,C-1,D-3",
-        "explanation": "always-总是, usually-通常, often-经常, sometimes-有时。"
+        "question": "请将频度副词与其中文释义连线：A. always；B. usually；C. often；D. sometimes。1. 经常；2. 总是；3. 有时；4. 通常。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "When do you get up?",
         "difficulty": 2,
+        "explanation": "特殊疑问句的语序是：疑问词 When + 助动词 do + 主语 you + 动词原形 get + 其他 up。",
         "knowledge_point": "询问并回答作息时间",
-        "question": "连词成句：do, get, When, you, up, ?",
         "options": [
           "do",
           "get",
@@ -321,8 +319,10 @@
           "up",
           "?"
         ],
-        "answer": "When,do,you,get,up,?",
-        "explanation": "疑问词+do+主语+动词原形+其他？"
+        "question": "连词成句：do, get, When, you, up, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
         "id": 23,
@@ -341,6 +341,342 @@
         ],
         "answer": "I,eat,breakfast,at,7:00,.",
         "explanation": "主语+谓语+宾语+时间状语。"
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“起床”是 get up，所以“我七点起床”可以说“I get up at seven o’clock.”",
+        "knowledge_point": "日常作息动词短语与时间表达",
+        "options": [
+          "I go to bed at seven o’clock.",
+          "I get up at seven o’clock.",
+          "I have breakfast at seven o’clock.",
+          "I do my homework at seven o’clock."
+        ],
+        "question": "“我七点起床。”用英语怎么说？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“half past six”表示六点半，因此句子意思是“我六点半吃早饭”。",
+        "knowledge_point": "日常作息动词短语与时间表达",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "“I have breakfast at half past six.”的意思是“我六点半吃早饭”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "说某个具体时刻时，通常在时间前用 at，例如 at eight o’clock。",
+        "knowledge_point": "日常作息动词短语与时间表达",
+        "options": [],
+        "question": "We go to school ___ eight o’clock.（填入适当的词。）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "gets",
+        "difficulty": 2,
+        "explanation": "主语 Tom 是第三人称单数，一般现在时中 get 要加 -s，变为 gets。",
+        "knowledge_point": "日常作息动词短语与时间表达",
+        "options": [],
+        "question": "Tom ___ up at seven every morning.（get）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "I do my homework at five o’clock.",
+        "difficulty": 2,
+        "explanation": "“做作业”是 do my homework；表示具体的五点时，用 at five o’clock。",
+        "knowledge_point": "日常作息动词短语与时间表达",
+        "options": [],
+        "question": "用英语写出：“我五点做作业。”",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“上床睡觉”是 go to bed；主语 She 是第三人称单数，因此 go 变为 goes。句中的“at nine”表示九点。",
+        "knowledge_point": "日常作息动词短语与时间表达",
+        "options": [
+          "She go to bed at nine.",
+          "She goes to bed at nine.",
+          "She gets up at nine bed.",
+          "She have breakfast at nine."
+        ],
+        "question": "选择正确的句子：“她九点上床睡觉。”",
+        "score": 1,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "before",
+        "difficulty": 2,
+        "explanation": "句中 read 是行为动词，频度副词 often 通常放在行为动词前面。",
+        "knowledge_point": "频度副词的用法",
+        "options": [],
+        "question": "Complete the sentence: I often read books. I _____ read books.",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "always",
+        "difficulty": 2,
+        "explanation": "句中有 be 动词 is，频度副词通常放在 be 动词后面，因此应说 She is always happy。",
+        "knowledge_point": "频度副词的用法",
+        "options": [],
+        "question": "Complete the sentence with “always”: She _____ is happy.（改正频度副词的位置）",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "B. I get up at 6:30.",
+        "difficulty": 1,
+        "explanation": "When do you get up? 意为“你什么时候起床？”回答具体时间时用 at；选项 B 的句子结构正确。",
+        "knowledge_point": "询问并回答作息时间 (When句型)",
+        "options": [
+          "A. I get up in 6:30.",
+          "B. I get up at 6:30.",
+          "C. I gets up at 6:30.",
+          "D. I get up 6:30."
+        ],
+        "question": "选择合适的答句：When do you get up?",
+        "score": 1,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "A. does; go",
+        "difficulty": 1,
+        "explanation": "主语 Tom 是第三人称单数，问句用 does；does 后的实义动词要用原形 go。",
+        "knowledge_point": "询问并回答作息时间 (When句型)",
+        "options": [
+          "A. does; go",
+          "B. do; goes",
+          "C. does; goes",
+          "D. do; go"
+        ],
+        "question": "选择正确的词填空：When ___ Tom ___ to bed?",
+        "score": 1,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "False",
+        "difficulty": 1,
+        "explanation": "主语 Lily 是第三人称单数，问句应使用 does；正确句子是“When does Lily have breakfast?”",
+        "knowledge_point": "询问并回答作息时间 (When句型)",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：When do Lily have breakfast?",
+        "score": 1,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "When does your brother go to school?",
+        "difficulty": 2,
+        "explanation": "your brother 是第三人称单数，因此用 does；does 后接动词原形 go。询问“什么时候”时句首用 When。",
+        "knowledge_point": "询问并回答作息时间 (When句型)",
+        "options": [],
+        "question": "连词成句：does / when / your brother / go to school",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "回答具体时刻时，时间前通常用 at：I go to bed at 9:00.。",
+        "knowledge_point": "询问并回答作息时间 (When句型)",
+        "options": [],
+        "question": "填入一个合适的介词：I go to bed ___ 9:00.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 36
+      },
+      {
+        "answer": "She gets up at 7:00.",
+        "difficulty": 2,
+        "explanation": "she 是第三人称单数，回答中的 get 要变成 gets；具体时间 7:00 前用 at。",
+        "knowledge_point": "询问并回答作息时间 (When句型)",
+        "options": [],
+        "question": "根据提示完成答句：When does Lucy get up? (7:00)",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 37
+      },
+      {
+        "answer": "/kl/",
+        "difficulty": 1,
+        "explanation": "cl 通常表示 /k/ 和 /l/ 连读，因此 class 开头的 cl 发 /kl/。",
+        "knowledge_point": "字母组合cl和pl的发音规律",
+        "options": [
+          "/kl/",
+          "/pl/",
+          "/sl/"
+        ],
+        "question": "单词 class 开头的 cl 通常发什么音？",
+        "score": 1,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "/pl/",
+        "difficulty": 1,
+        "explanation": "pl 通常由 /p/ 和 /l/ 连读而成。",
+        "knowledge_point": "字母组合cl和pl的发音规律",
+        "options": [
+          "/kl/",
+          "/pl/",
+          "/fl/"
+        ],
+        "question": "单词 play 开头的 pl 通常发什么音？",
+        "score": 1,
+        "type": "choice",
+        "id": 39
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "cl 通常读作 /kl/，发音时 /k/ 后面紧接 /l/，中间不加元音。",
+        "knowledge_point": "字母组合cl和pl的发音规律",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断：单词 clock 开头的 cl 通常读作 /kl/。",
+        "score": 1,
+        "type": "true_false",
+        "id": 40
+      },
+      {
+        "answer": "pl",
+        "difficulty": 1,
+        "explanation": "plane 以 pl 开头，pl 通常读作 /pl/。",
+        "knowledge_point": "字母组合cl和pl的发音规律",
+        "options": [],
+        "question": "填入字母组合：_____ane（飞机）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 41
+      },
+      {
+        "answer": "class",
+        "difficulty": 2,
+        "explanation": "class 的开头字母组合是 cl，通常发 /kl/；它由 /k/ 和 /l/ 连读而成。",
+        "knowledge_point": "字母组合cl和pl的发音规律",
+        "options": [],
+        "question": "下面哪个单词的开头字母组合通常发 /kl/：play、class 还是 plane？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 42
+      },
+      {
+        "answer": "不要加元音，应把 /k/ 和 /l/ 连贯地读成 /kl/。",
+        "difficulty": 2,
+        "explanation": "cl 是两个辅音构成的连缀，发音时要从 /k/ 直接过渡到 /l/，不能在中间加元音。",
+        "knowledge_point": "字母组合cl和pl的发音规律",
+        "options": [],
+        "question": "读单词 clean 时，怎样读开头的 cl 才符合发音规律？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 43
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "主语是 she，疑问句用 does，主要动词 get 保持原形，故选“When does she get up?”",
+        "knowledge_point": "询问并回答作息时间",
+        "options": [
+          "A. When do she get up?",
+          "B. When does she get up?",
+          "C. When does she gets up?",
+          "D. When is she get up?"
+        ],
+        "question": "选择正确的句子来询问“她几点起床？”",
+        "score": 5,
+        "type": "choice",
+        "id": 44
+      },
+      {
+        "answer": "clock",
+        "difficulty": 1,
+        "explanation": "clock以cl开头，cl通常发/kl/音。",
+        "knowledge_point": "字母组合cl的发音规律",
+        "options": [
+          "clock",
+          "frog",
+          "black",
+          "train"
+        ],
+        "question": "Which word begins with the /kl/ sound?",
+        "score": 5,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "class中的cl通常发/kl/音，发音时把/k/和/l/连起来。",
+        "knowledge_point": "字母组合cl的发音规律",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "The letters cl in “class” usually make the /kl/ sound.",
+        "score": 5,
+        "type": "true_false",
+        "id": 46
+      },
+      {
+        "answer": "clap",
+        "difficulty": 1,
+        "explanation": "clap以cl开头，符合cl通常发/kl/的规律。",
+        "knowledge_point": "字母组合cl的发音规律",
+        "options": [],
+        "question": "Complete the word: ___ap. It means to hit your hands together.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 47
+      },
+      {
+        "answer": "/kl/",
+        "difficulty": 2,
+        "explanation": "在常见单词中，字母组合cl通常读作/kl/，由/k/和/l/连读而成。",
+        "knowledge_point": "字母组合cl的发音规律",
+        "options": [],
+        "question": "What sound does the letter combination cl usually make in words like “clean” and “clock”?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 48
+      },
+      {
+        "answer": "cloud",
+        "difficulty": 2,
+        "explanation": "cloud以cl开头，cl发/kl/音；flower以fl开头，发/fl/音；tree以tr开头，发/tr/音。",
+        "knowledge_point": "字母组合cl的发音规律",
+        "options": [],
+        "question": "Which word begins with the /kl/ sound: cloud, flower, or tree?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 49
       }
     ]
   },
@@ -725,6 +1061,71 @@
         "发音不清晰，混淆 [k] 和 [p]"
       ],
       "tips": "多读含有这组字母组合的单词，如 clean, clock (cl) 和 play, plate (pl)。"
+    },
+    {
+      "common_mistakes": [
+        "表示具体时刻时，通常用“at + 时间”，如 at seven o’clock。",
+        "在一般现在时中，主语是 he、she 或单数人名时，动词通常加 -s 或 -es，如 gets up、watches TV。",
+        "不要把表示时间的短语误当作动词短语；例如 at half past six 是时间表达，have breakfast 是动词短语。"
+      ],
+      "core_concept": "谈论日常作息时，可以用动词短语说明做什么，用时间表达说明什么时候做。常见动词短语有 get up（起床）、brush my teeth（刷牙）、have breakfast（吃早饭）、go to school（去上学）、do my homework（做作业）、go to bed（上床睡觉）。",
+      "key_formula": "主语 + 动词短语 + at + 时间。例：I get up at seven o’clock.（我七点起床。）第三人称单数：He/She + 动词-s/-es + at + 时间。例：She goes to bed at nine o’clock.（她九点上床睡觉。）",
+      "point": "日常作息动词短语与时间表达",
+      "tips": "先用动词短语说清楚日常活动，再用 at 加具体时刻补充时间。half past seven 表示七点半；a quarter past eight 表示八点一刻。读整点时可在时间后加 o’clock；日常对话中也常省略。"
+    },
+    {
+      "common_mistakes": [
+        "把 sometimes（有时）和 always（总是）的意思弄混。",
+        "频度副词放在 be 动词后面，却误放在 be 动词前面。",
+        "频度副词放在行为动词后面，却误放在行为动词前面。"
+      ],
+      "core_concept": "频度副词用来说明一件事发生得有多经常。常见词有 always（总是）、usually（通常）、often（经常）和 sometimes（有时）。",
+      "key_formula": "主语 + 频度副词 + 行为动词；主语 + be 动词 + 频度副词。例：I often read. / She is always happy.",
+      "point": "频度副词的用法",
+      "tips": "记住常见频度副词的含义；句中有行为动词时，频度副词通常放在行为动词前面；句中有 am、is、are 时，频度副词通常放在 be 动词后面。"
+    },
+    {
+      "common_mistakes": [
+        "询问具体时间时，When 后面要接助动词 do 或 does，再接主语和动词原形。",
+        "回答时通常用 at 加具体时刻，如 at 7:00；不要漏掉 at。",
+        "主语是 he、she 或单数人名时，问句用 does，回答中的实义动词通常加 -s 或 -es。"
+      ],
+      "core_concept": "用 When do/does ...? 询问某人何时做某事；用主语 + 动词短语 + at + 时间回答。",
+      "key_formula": "问句：When + do/does + 主语 + 动词原形（+ 其他）？回答：主语 + 动词短语（注意第三人称单数形式）+ at + 时间。",
+      "point": "询问并回答作息时间 (When句型)",
+      "tips": "先看问句中的主语来选择 do 或 does；does 已经表示第三人称单数，所以问句中的动词用原形。回答时再根据主语把动词变为第三人称单数形式。具体时刻前通常用 at。"
+    },
+    {
+      "common_mistakes": [
+        "把字母组合 cl、pl 当作一个整体音，只读一个音；实际上它们分别由 /k/+/l/ 和 /p/+/l/ 连读而成。",
+        "读 /l/ 时舌尖没有抵住上齿龈，或在两个辅音之间额外加上元音，导致发音不自然。",
+        "看到相同字母组合就认为一定发音完全相同；应结合具体单词多听、多读。"
+      ],
+      "core_concept": "字母组合 cl 和 pl 通常出现在音节开头，分别表示辅音连缀 /kl/ 和 /pl/。读 cl 时先发 /k/，紧接着发 /l/；读 pl 时先发 /p/，紧接着发 /l/。两个辅音要连贯发出，中间不要加元音。",
+      "key_formula": "cl → /kl/（如 class, clock）；pl → /pl/（如 play, plane）",
+      "point": "字母组合cl和pl的发音规律",
+      "tips": "练习时可以先分开发出两个辅音，再逐渐加快并连起来：/k/…/l/ → /kl/；/p/…/l/ → /pl/。注意 /l/ 要清晰，读单词时不要在辅音之间插入“呃”一类的元音。"
+    },
+    {
+      "common_mistakes": [
+        "询问日常作息时间时，常用句型是“When do you + 动词原形 ...?”，不要漏掉助动词 do。",
+        "主语是 he、she 或单数人名时，通常用 does 提问，句中的动词用原形。",
+        "回答具体的钟点时，时间前通常用 at，例如“At 7:00.”"
+      ],
+      "core_concept": "询问作息时间可以用“When do you ...?”，回答时可以说“At + 具体时间.”，也可以用完整句说明日常活动的时间。",
+      "key_formula": "When do + you/we/they + 动词原形 + ...? — At + 具体时间.；When does + he/she + 动词原形 + ...? — He/She + 动词加-s/-es + ... at + 具体时间.",
+      "point": "询问并回答作息时间",
+      "tips": "先找到句中的主语，再选择 do 或 does；问句中的主要动词用原形。回答具体钟点时，记得在时间前加 at。"
+    },
+    {
+      "common_mistakes": [
+        "不要把字母组合cl拆开读成字母名称的读音。",
+        "cl通常读作辅音连缀/k/+/l/，要把两个音连起来读。"
+      ],
+      "core_concept": "在许多英语单词中，字母组合cl表示辅音连缀/kl/：先发/k/，紧接着发/l/，例如clean、clock、clap。",
+      "key_formula": "cl → /kl/",
+      "point": "字母组合cl的发音规律",
+      "tips": "练习时先慢读/k/和/l/，再把两个音连起来：/k/—/l/→/kl/。随后朗读cl开头的单词，如clap、close、cloud。"
     }
   ]
 }

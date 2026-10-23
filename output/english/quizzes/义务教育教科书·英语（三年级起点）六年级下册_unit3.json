@@ -4,295 +4,289 @@
   "unit_number": 3,
   "unit_test": {
     "title": "Unit 3 Standard Target Test",
-    "total_score": 100,
+    "total_score": 507,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "go 是不规则动词，过去式为 went。",
         "knowledge_point": "动词过去式形式",
+        "options": [],
         "question": "'went' 是 'go' 的过去式形式。",
-        "options": [],
-        "answer": "对",
-        "explanation": "go是不规则动词，过去式为went。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "fell off 是 fall off 的过去式，表示“从……掉下来”或“跌落”。",
         "knowledge_point": "词义辨析",
+        "options": [],
         "question": "'fell off' 的意思是‘跌落’。",
-        "options": [],
-        "answer": "对",
-        "explanation": "fall off的过去式是fell off，意为从...掉下来。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 2,
+        "explanation": "一般过去时疑问句用 Did + 主语 + 动词原形。did 后应使用 go，因此应说 Did you go there?",
         "knowledge_point": "语法时态一致性",
-        "question": "在句子 'Did you went there?' 中，动词使用是正确的。",
         "options": [],
-        "answer": "错",
-        "explanation": "助动词did后面应该接动词原形go。"
+        "question": "在句子“Did you went there?”中，动词使用是正确的。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "mule 的意思是“骡子”；“大象”是 elephant。",
         "knowledge_point": "词义辨析",
+        "options": [],
         "question": "'mule' 的意思是‘大象’。",
-        "options": [],
-        "answer": "错",
-        "explanation": "mule的意思是‘骡子’。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "短语识记",
-        "question": "'took pictures' 意思是‘照相’。",
-        "options": [],
-        "answer": "对",
-        "explanation": "take pictures的过去式为took pictures。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "take pictures 的意思是“照相”；其过去式是 took pictures，意思是“照了相”。",
+        "knowledge_point": "短语识记",
+        "options": [],
+        "question": "'took pictures' 意思是‘照相’。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "根据答句地点Sanya可知，提问地点用Where。",
         "knowledge_point": "疑问词辨析",
-        "question": "— ___ did you go? — I went to Sanya.",
         "options": [
           "What",
           "Where",
           "Who",
           "How"
         ],
-        "answer": "Where",
-        "explanation": "根据答句地点Sanya可知提问地点用Where。"
+        "question": "— ___ did you go? — I went to Sanya.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "bought",
         "difficulty": 1,
+        "explanation": "yesterday 表示“昨天”，句子要用一般过去时。buy 是不规则动词，过去式为 bought。",
         "knowledge_point": "动词过去式辨析",
-        "question": "I ___ a gift for my mother yesterday.",
         "options": [
           "buy",
           "buys",
           "bought",
           "buying"
         ],
-        "answer": "bought",
-        "explanation": "yesterday提示使用过去时，buy的过去式是bought。"
+        "question": "I ___ a gift for my mother yesterday.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "By plane.",
         "difficulty": 2,
+        "explanation": "How did you go there? 询问过去去那里的交通方式，By plane. 表示“乘飞机”。",
         "knowledge_point": "交通方式表达",
-        "question": "How did you go there?",
         "options": [
           "By plane.",
           "Fine, thanks.",
           "At 7:00.",
           "With my parents."
         ],
-        "answer": "By plane.",
-        "explanation": "How引导的疑问句询问方式，回复交通方式。"
+        "question": "How did you go there?",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "mule",
         "difficulty": 1,
+        "explanation": "mule意为“骡子”，是一种动物；apple、grape和banana都是水果。",
         "knowledge_point": "词义理解",
-        "question": "Which one is NOT a fruit?",
         "options": [
           "apple",
           "grape",
           "mule",
           "banana"
         ],
-        "answer": "mule",
-        "explanation": "mule是动物（骡子），其他是水果。"
+        "question": "Which one is NOT a fruit?",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "rode",
         "difficulty": 1,
+        "explanation": "last Saturday 表示过去的时间，ride 的过去式是 rode。",
         "knowledge_point": "动词过去式",
-        "question": "I ___ a horse last Saturday.",
         "options": [
           "ride",
           "rode",
           "rid",
           "rides"
         ],
-        "answer": "rode",
-        "explanation": "last Saturday提示过去时，ride变rode。"
+        "question": "I ___ a horse last Saturday.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "fell off",
         "difficulty": 2,
+        "explanation": "句中的 hurt 表示过去发生的事情，因此用 fall 的过去式 fell，短语为 fell off。",
         "knowledge_point": "短语搭配",
-        "question": "I hurt my foot and ___ my bike.",
         "options": [
           "fell off",
           "fall off",
           "fells off",
           "falling off"
         ],
-        "answer": "fell off",
-        "explanation": "前半句hurt是过去式，后半句也应用过去式fell off。"
+        "question": "I hurt my foot and ___ my bike.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "Both B and C",
         "difficulty": 2,
+        "explanation": "问句使用一般过去时助动词 Did，肯定回答可以是“Yes, I did.”，否定回答可以是“No, I didn't.”。A 使用一般现在时，不符合问句时态。",
         "knowledge_point": "交际用语",
-        "question": "— Did you like the food there? — ___",
         "options": [
           "Yes, I do.",
           "Yes, I did.",
           "No, I didn't.",
           "Both B and C"
         ],
-        "answer": "Both B and C",
-        "explanation": "一般过去时的一般疑问句，肯定回答用Yes, I did. 否定用No, I didn't."
+        "question": "— Did you like the food there? — ___",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "looked",
         "difficulty": 3,
+        "explanation": "过去看起来像实验室，描述的是过去的情况，所以用 look 的过去式 looked；now 表示现在是健身房。",
         "knowledge_point": "综合理解",
-        "question": "It ___ like a lab, but it is a gym now.",
         "options": [
           "look",
           "looks",
           "looked",
           "looking"
         ],
-        "answer": "looked",
-        "explanation": "but之后是现在时，对比之下前面描述过去的样子。"
+        "question": "It ___ like a lab, but it is a gym now.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "on",
         "difficulty": 1,
+        "explanation": "表示“步行”使用固定搭配 on foot，因此填 on。",
         "knowledge_point": "固定搭配",
-        "question": "We went there ___ foot.",
         "options": [
           "by",
           "on",
           "with",
           "at"
         ],
-        "answer": "on",
-        "explanation": "步行用固定搭配on foot。"
+        "question": "We went there ___ foot.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "took",
         "difficulty": 2,
+        "explanation": "take pictures 表示“拍照”；during my holiday 指假期期间，句子讲过去的假期，所以用 take 的过去式 took。",
         "knowledge_point": "动词词义",
-        "question": "I ___ many pictures during my holiday.",
         "options": [
           "took",
           "saw",
           "was",
           "ate"
         ],
-        "answer": "took",
-        "explanation": "take pictures（照相）的过去式。"
+        "question": "I ___ many pictures during my holiday.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "疑问词",
-        "question": "___ did you go with? My friend.",
-        "options": [],
         "answer": "who",
-        "explanation": "询问人使用who。"
+        "difficulty": 1,
+        "explanation": "询问一起去的人，使用who（谁）。句意是“你和谁一起去的？我的朋友。”",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ did you go with? My friend.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "动词过去式",
-        "question": "We ___ (eat) fresh food last night.",
-        "options": [],
         "answer": "ate",
-        "explanation": "eat的过去式是ate。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "时间短语",
-        "question": "I went to Beijing ___ summer.",
-        "options": [],
-        "answer": "last",
-        "explanation": "表示“去年夏天”用last summer。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
+        "explanation": "last night 表示过去，eat 的过去式是 ate。",
         "knowledge_point": "动词过去式",
-        "question": "She ___ (see) a film yesterday.",
         "options": [],
+        "question": "We ___ (eat) fresh food last night.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "last",
+        "difficulty": 1,
+        "explanation": "表示“去年夏天”用 last summer；last 前不加介词。",
+        "knowledge_point": "时间短语",
+        "options": [],
+        "question": "I went to Beijing ___ summer.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
         "answer": "saw",
-        "explanation": "see的过去式是saw。"
+        "difficulty": 2,
+        "explanation": "yesterday 表示过去，see 的过去式是 saw。",
+        "knowledge_point": "动词过去式",
+        "options": [],
+        "question": "She ___ (see) a film yesterday.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "照了相",
         "difficulty": 1,
+        "explanation": "“took pictures”中的 took 是 take 的过去式，整个词组表示“照了相”。",
         "knowledge_point": "词组翻译",
-        "question": "Match the English phrases with Chinese meanings.",
         "options": [
-          "rode a horse",
-          "went camping",
-          "took pictures",
-          "bought gifts",
           "去露营",
-          "买礼物",
-          "骑马",
-          "照相"
+          "买了礼物",
+          "照了相",
+          "骑了马"
         ],
-        "answer": "A-3,B-1,C-4,D-2",
-        "explanation": "rode a horse-骑马; went camping-去露营; took pictures-照相; bought gifts-买礼物。"
+        "question": "“took pictures”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-2, B-3, C-4, D-1",
         "difficulty": 1,
+        "explanation": "Where问地点，对应To Xinjiang；How问交通方式，对应By bus；Who with问同行的人，对应My cousin；What did you do问做了什么，对应I saw films。",
         "knowledge_point": "特殊疑问句配对",
-        "question": "Match the questions and answers.",
         "options": [
           "Where did you go?",
           "How did you go?",
@@ -303,16 +297,16 @@
           "By bus.",
           "My cousin."
         ],
-        "answer": "A-2,B-3,C-4,D-1",
-        "explanation": "Where-地点; How-交通方式; Who-人; What-事情。"
+        "question": "Match the questions and answers. A. Where did you go? B. How did you go? C. Who did you go with? D. What did you do? 1. I saw films. 2. To Xinjiang. 3. By bus. 4. My cousin.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "I,went,to,Sanya,.",
         "difficulty": 2,
+        "explanation": "一般过去时肯定句的语序是“主语 + 动词过去式 + 其他”。I 是主语，went 是 go 的过去式。",
         "knowledge_point": "过去时陈述句",
-        "question": "Put the words in order: [went, Sanya, I, to, .]",
         "options": [
           "went",
           "Sanya",
@@ -320,16 +314,16 @@
           "to",
           "."
         ],
-        "answer": "I,went,to,Sanya,.",
-        "explanation": "主语+谓语+地点：我去了三亚。"
+        "question": "Put the words in order: [went, Sanya, I, to, .]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "How,did,you,go,there,?",
         "difficulty": 3,
+        "explanation": "特殊疑问句语序为“疑问词+did+主语+动词原形+其他？”所以句子是“How did you go there?”",
         "knowledge_point": "过去时疑问句",
-        "question": "Put the words in order: [you, did, How, there, go, ?]",
         "options": [
           "you",
           "did",
@@ -338,8 +332,1531 @@
           "go",
           "?"
         ],
-        "answer": "How,did,you,go,there,?",
-        "explanation": "疑问词+did+主语+动词原形+其他。"
+        "question": "Put the words in order: [you, did, How, there, go, ?]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "went",
+        "difficulty": 1,
+        "explanation": "go 的过去式是不规则变化 went，不是 goed。",
+        "knowledge_point": "高频不规则动词过去式转换",
+        "options": [],
+        "question": "Yesterday, Amy _____ to the park with her brother.（go）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "saw",
+        "difficulty": 1,
+        "explanation": "see 的过去式是 saw。句中有 last Sunday，表示过去的时间。",
+        "knowledge_point": "高频不规则动词过去式转换",
+        "options": [
+          "see",
+          "saw",
+          "seed",
+          "seeing"
+        ],
+        "question": "We _____ a big bird in the tree last Sunday.",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "bought",
+        "difficulty": 2,
+        "explanation": "buy 的过去式是 bought，表示“买了”。",
+        "knowledge_point": "高频不规则动词过去式转换",
+        "options": [],
+        "question": "Dad _____ some apples at the market yesterday.（buy）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "ate",
+        "difficulty": 2,
+        "explanation": "eat 的过去式是 ate。含有 did 的一般疑问句中，动词要用原形，所以填 eat。",
+        "knowledge_point": "高频不规则动词过去式转换",
+        "options": [
+          "ate",
+          "eats",
+          "eat",
+          "eating"
+        ],
+        "question": "Did you _____ breakfast this morning?",
+        "score": 1,
+        "type": "choice",
+        "id": 27
+      },
+      {
+        "answer": "taught",
+        "difficulty": 2,
+        "explanation": "teach 的过去式是 taught，拼写不按规则加 -ed。",
+        "knowledge_point": "高频不规则动词过去式转换",
+        "options": [],
+        "question": "Ms Green _____ us English last year.（teach）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "read",
+        "difficulty": 2,
+        "explanation": "read 的过去式拼写与原形相同，但过去式读作 /red/。表示过去的时间时，这里填 read。",
+        "knowledge_point": "高频不规则动词过去式转换",
+        "options": [
+          "read",
+          "reads",
+          "readed",
+          "reading"
+        ],
+        "question": "Tom _____ a storybook before bed last night.",
+        "score": 1,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "B. went",
+        "difficulty": 1,
+        "explanation": "句子中的 yesterday 表示过去，主语是 I，因此用 go 的过去式 went。",
+        "knowledge_point": "过去旅程及交通方式的询问",
+        "options": [
+          "A. go",
+          "B. went",
+          "C. goes",
+          "D. going"
+        ],
+        "question": "I ___ to the museum yesterday.",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "Where did you go?",
+        "difficulty": 1,
+        "explanation": "询问过去去了哪里，用“Where did + 主语 + go?”。did 后的动词用原形 go。",
+        "knowledge_point": "过去旅程及交通方式的询问",
+        "options": [],
+        "question": "用英语写出：你昨天去了哪里？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "by train",
+        "difficulty": 1,
+        "explanation": "询问交通方式常用“How did you get there?”；回答时用“by + 交通工具”，所以是 by train。",
+        "knowledge_point": "过去旅程及交通方式的询问",
+        "options": [],
+        "question": "补全句子：—How did you get to Beijing? —I got there ___ ___.（乘火车）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "F",
+        "difficulty": 1,
+        "explanation": "一般过去时疑问句中，did 后面的动词要用原形，应说“How did they travel...?”，不能用 traveled。",
+        "knowledge_point": "过去旅程及交通方式的询问",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断正误：询问过去的旅行方式可以说“How did they traveled to the city?”",
+        "score": 1,
+        "type": "true_false",
+        "id": 33
+      },
+      {
+        "answer": "How did Amy go to the park?",
+        "difficulty": 2,
+        "explanation": "询问过去的交通方式，用“How did + 主语 + go to + 地点?”；did 后用动词原形 go。",
+        "knowledge_point": "过去旅程及交通方式的询问",
+        "options": [],
+        "question": "根据答句写出问句：Amy went to the park by bike.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "We went to the beach by bus.",
+        "difficulty": 2,
+        "explanation": "过去发生的事情用 went；交通方式用 by bus。合起来是“We went to the beach by bus.”",
+        "knowledge_point": "过去旅程及交通方式的询问",
+        "options": [],
+        "question": "把词语连成句子：we / go / to the beach / by bus（上周）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "这句话讲昨天发生的事，动词应使用过去式。go的过去式是went。",
+        "knowledge_point": "过去发生事件的逻辑叙述",
+        "options": [
+          "go",
+          "went",
+          "goes",
+          "going"
+        ],
+        "question": "Yesterday, Lily ___ to the park with her brother.",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "先吃早餐，再去上学，因此First放在吃早餐的句子前，Then放在去上学的句子前。",
+        "knowledge_point": "过去发生事件的逻辑叙述",
+        "options": [
+          "First; Then",
+          "Finally; First",
+          "Because; But",
+          "Next; Finally"
+        ],
+        "question": "Choose the best words: ___, we ate breakfast. ___, we went to school.",
+        "score": 1,
+        "type": "choice",
+        "id": 37
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "Yesterday表示过去时间，讲述过去发生的事件时，通常使用一般过去时。",
+        "knowledge_point": "过去发生事件的逻辑叙述",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "When we tell a story about yesterday, we usually use the simple past tense.",
+        "score": 1,
+        "type": "true_false",
+        "id": 38
+      },
+      {
+        "answer": "saw",
+        "difficulty": 2,
+        "explanation": "句中Last Saturday表示过去时间；see是不规则动词，过去式是saw。",
+        "knowledge_point": "过去发生事件的逻辑叙述",
+        "options": [],
+        "question": "Last Saturday, we ___ (see) a big dog near the lake.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 39
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "合理顺序是先醒来（C），然后穿衣服（A），最后吃早餐（B）。因此第三件事是吃早餐。",
+        "knowledge_point": "过去发生事件的逻辑叙述",
+        "options": [
+          "I woke up.",
+          "I got dressed.",
+          "I ate breakfast."
+        ],
+        "question": "Tom woke up, got dressed, and ate breakfast. Which event happened third?",
+        "score": 1,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "First, we packed our bags. Then, we went to the bus stop. Finally, we got on the bus.",
+        "difficulty": 2,
+        "explanation": "按先后顺序组织句子，并将提示动词改为过去式：pack→packed，go→went，get→got。First、Then和Finally分别标出开始、接着和最后发生的事。",
+        "knowledge_point": "过去发生事件的逻辑叙述",
+        "options": [],
+        "question": "Use the words to write three sentences in the correct order: pack our bags / go to the bus stop / get on the bus. Start with First, Then, and Finally.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "played",
+        "difficulty": 1,
+        "explanation": "play 是规则动词，一般直接在词尾加 -ed，变为 played。",
+        "knowledge_point": "动词过去式形式",
+        "options": [],
+        "question": "Yesterday, we ______ (play) football after school.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 42
+      },
+      {
+        "answer": "studied",
+        "difficulty": 2,
+        "explanation": "study 以辅音字母 d 加 y 结尾，变过去式时将 y 改为 i，再加 -ed。",
+        "knowledge_point": "动词过去式形式",
+        "options": [],
+        "question": "将 study 变为过去式：She ______ English last night.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 43
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "see 是不规则动词，过去式为 saw。",
+        "knowledge_point": "动词过去式形式",
+        "options": [
+          "A. saw",
+          "B. seed",
+          "C. sees",
+          "D. see"
+        ],
+        "question": "Which is the past tense of “see”?",
+        "score": 2,
+        "type": "choice",
+        "id": 44
+      },
+      {
+        "answer": "didn't go",
+        "difficulty": 2,
+        "explanation": "一般过去时的否定句用 didn't 加动词原形，因此应说 didn't go，而不是 didn't went。",
+        "knowledge_point": "动词过去式形式",
+        "options": [],
+        "question": "改正句子中的错误：Tom didn't went to school yesterday. ______",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "stopped",
+        "difficulty": 2,
+        "explanation": "stop 是重读闭音节动词，词尾为一个辅音字母，变过去式时双写末尾的 p，再加 -ed。",
+        "knowledge_point": "动词过去式形式",
+        "options": [],
+        "question": "The bus ______ (stop) near the park an hour ago.",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 46
+      },
+      {
+        "answer": "horse",
+        "difficulty": 1,
+        "explanation": "horse 的意思是“马”，不是“骡子”。",
+        "knowledge_point": "词义辨析",
+        "options": [],
+        "question": "“马”用英语怎么说？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "fell 是 fall 的过去式，意思是“掉落”或“跌倒”；feel 的意思是“感觉”，两者拼写和含义不同。",
+        "knowledge_point": "词义辨析",
+        "options": [],
+        "question": "'fell' 和 'feel' 的意思相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 48
+      },
+      {
+        "answer": "掉下来",
+        "difficulty": 2,
+        "explanation": "fall off 常表示“从……掉下来”。例如：The book fell off the desk.（书从桌子上掉了下来。）",
+        "knowledge_point": "词义辨析",
+        "options": [],
+        "question": "根据句意填空：The book fell off the desk. 句中 'fell off' 的意思是“____”。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "mule 的意思是“骡子”，因此选 C。elephant 是“大象”，horse 是“马”，tiger 是“老虎”。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "A. elephant（大象）",
+          "B. horse（马）",
+          "C. mule（骡子）",
+          "D. tiger（老虎）"
+        ],
+        "question": "哪个英文单词的意思是“骡子”？",
+        "score": 2,
+        "type": "choice",
+        "id": 50
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "yesterday 表示过去，句子应使用一般过去时。go 的过去式是 went。",
+        "knowledge_point": "语法时态一致性",
+        "options": [
+          "A. go",
+          "B. went",
+          "C. goes",
+          "D. going"
+        ],
+        "question": "Yesterday, we _____ to the park.",
+        "score": 2,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "主语 She 是第三人称单数，一般现在时中动词 walk 要加 -s，应为 She walks to school every day.",
+        "knowledge_point": "语法时态一致性",
+        "options": [],
+        "question": "句子“She walk to school every day.”的时态和动词形式正确。",
+        "score": 2,
+        "type": "true_false",
+        "id": 52
+      },
+      {
+        "answer": "Does",
+        "difficulty": 2,
+        "explanation": "主语 your brother 是第三人称单数，一般现在时的一般疑问句用 Does 开头，后面的动词用原形 like。",
+        "knowledge_point": "语法时态一致性",
+        "options": [],
+        "question": "_____ your brother like apples?（填入适当的助动词）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 53
+      },
+      {
+        "answer": "They played football yesterday.",
+        "difficulty": 2,
+        "explanation": "yesterday 表示过去，play 应改为过去式 played。",
+        "knowledge_point": "语法时态一致性",
+        "options": [],
+        "question": "改正句子中的错误：They play football yesterday.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "ate",
+        "difficulty": 2,
+        "explanation": "句中的时间状语 last night 表示过去，eat 的过去式是 ate，因此应填 ate。",
+        "knowledge_point": "语法时态一致性",
+        "options": [],
+        "question": "Last night, Amy _____ (eat) dinner with her family.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 55
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "go fishing 意为“去钓鱼”。",
+        "knowledge_point": "短语识记",
+        "options": [
+          "A. 去游泳",
+          "B. 去钓鱼",
+          "C. 去购物"
+        ],
+        "question": "“去钓鱼”用英语怎么说？",
+        "score": 2,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "read books",
+        "difficulty": 1,
+        "explanation": "read books 意为“读书”；注意 read 的拼写在现在时和过去时相同。",
+        "knowledge_point": "短语识记",
+        "options": [],
+        "question": "“读书”用英语怎么说？（填入短语）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 57
+      },
+      {
+        "answer": "went shopping",
+        "difficulty": 2,
+        "explanation": "go shopping 意为“去购物”；go 的过去式是 went，因此“昨天去购物”是 went shopping。",
+        "knowledge_point": "短语识记",
+        "options": [],
+        "question": "补全句子：We ________ ________ yesterday.（我们昨天去购物了。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 58
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "listen to music 意为“听音乐”。listen 后面接表示听的对象时，通常需要加 to。",
+        "knowledge_point": "短语识记",
+        "options": [
+          "A. 听音乐",
+          "B. 看电视",
+          "C. 做作业"
+        ],
+        "question": "“listen to music”的意思是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 59
+      },
+      {
+        "answer": "played football",
+        "difficulty": 2,
+        "explanation": "play football 意为“踢足球”；题目中的 last Sunday 表示过去时间，所以 play 要变为过去式 played。",
+        "knowledge_point": "短语识记",
+        "options": [],
+        "question": "用括号中短语的正确形式填空：They ________ ________ last Sunday.（play football）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 60
+      },
+      {
+        "answer": "When",
+        "difficulty": 1,
+        "explanation": "答句中的“last Sunday”表示时间，询问时间用When。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Who",
+          "When",
+          "Where",
+          "Why"
+        ],
+        "question": "— ___ did you visit your grandma? — Last Sunday.",
+        "score": 5,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "Who",
+        "difficulty": 1,
+        "explanation": "答句中的“Tom”是人物，询问人物用Who。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "What",
+          "How",
+          "Who",
+          "When"
+        ],
+        "question": "— ___ is your best friend? — Tom is.",
+        "score": 5,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "Why",
+        "difficulty": 2,
+        "explanation": "答句说明了迟到的原因，询问原因用Why；回答原因常用because。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Where",
+          "Why",
+          "Which",
+          "Who"
+        ],
+        "question": "— ___ are you late? — Because the bus was slow.",
+        "score": 5,
+        "type": "choice",
+        "id": 63
+      },
+      {
+        "answer": "How",
+        "difficulty": 2,
+        "explanation": "答句描述了去学校的方式，询问方式用How。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "How",
+          "When",
+          "What",
+          "Whose"
+        ],
+        "question": "— ___ do you go to school? — By bike.",
+        "score": 5,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "Whose",
+        "difficulty": 2,
+        "explanation": "答句说明书包属于Amy，询问物品归属用Whose。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Who",
+          "Whose",
+          "Where",
+          "Which"
+        ],
+        "question": "— ___ schoolbag is this? — It is Amy's.",
+        "score": 5,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "went",
+        "difficulty": 1,
+        "explanation": "last Sunday 表示过去的时间，句子用一般过去时。go 的过去式是 went。",
+        "knowledge_point": "动词过去式辨析",
+        "options": [
+          "go",
+          "goes",
+          "went",
+          "going"
+        ],
+        "question": "We ___ to the park last Sunday.",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "played",
+        "difficulty": 1,
+        "explanation": "句中有 yesterday，动词要用过去式。play 是规则动词，直接加 -ed，变成 played。",
+        "knowledge_point": "动词过去式辨析",
+        "options": [
+          "play",
+          "plays",
+          "played",
+          "playing"
+        ],
+        "question": "Tom ___ football with his friends yesterday.",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "saw",
+        "difficulty": 2,
+        "explanation": "last night 表示过去的时间，see 应使用过去式 saw。",
+        "knowledge_point": "动词过去式辨析",
+        "options": [
+          "see",
+          "sees",
+          "saw",
+          "seeing"
+        ],
+        "question": "I ___ a film with my family last night.",
+        "score": 5,
+        "type": "choice",
+        "id": 68
+      },
+      {
+        "answer": "studied",
+        "difficulty": 2,
+        "explanation": "句子说的是昨天发生的事，要用过去式。study 以辅音字母加 y 结尾，变过去式时把 y 变成 i，再加 -ed：studied。",
+        "knowledge_point": "动词过去式辨析",
+        "options": [
+          "study",
+          "studys",
+          "studied",
+          "studying"
+        ],
+        "question": "Lucy ___ English yesterday evening.",
+        "score": 5,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "ate",
+        "difficulty": 2,
+        "explanation": "two hours ago 表示“两小时前”，要用一般过去时。eat 的过去式是 ate。",
+        "knowledge_point": "动词过去式辨析",
+        "options": [
+          "eat",
+          "eats",
+          "ate",
+          "eating"
+        ],
+        "question": "They ___ lunch two hours ago.",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "by bus",
+        "difficulty": 1,
+        "explanation": "“乘公共汽车”常说 by bus。by 后直接接交通工具，一般不加 a。",
+        "knowledge_point": "交通方式表达",
+        "options": [],
+        "question": "We went to the park ______.（乘公共汽车）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 71
+      },
+      {
+        "answer": "How did you go to school?",
+        "difficulty": 2,
+        "explanation": "询问过去的出行方式用“How did + 主语 + go to...?”，did 后的动词用原形 go。",
+        "knowledge_point": "交通方式表达",
+        "options": [],
+        "question": "连词成句：you / how / go / did / to school",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 72
+      },
+      {
+        "answer": "on foot",
+        "difficulty": 1,
+        "explanation": "“步行”用固定表达 on foot，不说 by foot。",
+        "knowledge_point": "交通方式表达",
+        "options": [],
+        "question": "I usually go to school ______.（步行）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 73
+      },
+      {
+        "answer": "went",
+        "difficulty": 2,
+        "explanation": "句子中的 yesterday 表示过去，因此用 go 的过去式 went。",
+        "knowledge_point": "交通方式表达",
+        "options": [],
+        "question": "My family ______ to Shanghai by train yesterday.（go）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 74
+      },
+      {
+        "answer": "By bike.",
+        "difficulty": 2,
+        "explanation": "How do you go to school? 询问日常上学方式。By bike. 表示“骑自行车”。",
+        "knowledge_point": "交通方式表达",
+        "options": [
+          "By bike.",
+          "At home.",
+          "Every Monday.",
+          "My sister."
+        ],
+        "question": "How do you go to school?",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "冷",
+        "difficulty": 1,
+        "explanation": "句子说玛丽穿上外套，因此可推断天气很冷。cold意为“冷的”。",
+        "knowledge_point": "词义理解",
+        "options": [],
+        "question": "根据上下文，填出画线词的意思：Mary put on her coat because it was very cold. cold意为“______”。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 76
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "句子提到Tom没有带伞，结果被雨淋湿了。wet在这里意为“湿的”。",
+        "knowledge_point": "词义理解",
+        "options": [
+          "干燥的",
+          "湿的",
+          "温暖的",
+          "整洁的"
+        ],
+        "question": "Tom had no umbrella, so he got wet in the rain. wet最可能是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "句子说明Lily在生日会上很开心，所以happy表示“开心的”。",
+        "knowledge_point": "词义理解",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "Lily smiled and laughed at her birthday party. She was happy. 句中的happy意为“开心的”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 78
+      },
+      {
+        "answer": "图书馆",
+        "difficulty": 2,
+        "explanation": "句子提到安静地读书和借书，这些活动通常发生在图书馆，所以library意为“图书馆”。",
+        "knowledge_point": "词义理解",
+        "options": [],
+        "question": "根据上下文，library意为“______”：We read books quietly and borrow books from the library.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 79
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "句子说明Ben帮助了生病的朋友，朋友因此感谢他。kind在这里表示“友善的、体贴的”。",
+        "knowledge_point": "词义理解",
+        "options": [
+          "吵闹的",
+          "饥饿的",
+          "友善的",
+          "迟到的"
+        ],
+        "question": "Ben helped his sick friend carry the books. He was very kind. kind最可能是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "played",
+        "difficulty": 1,
+        "explanation": "yesterday 表示过去。play 是规则动词，直接在词尾加 -ed，变为 played。",
+        "knowledge_point": "动词过去式",
+        "options": [],
+        "question": "Tom ___ (play) football yesterday.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 81
+      },
+      {
+        "answer": "went",
+        "difficulty": 2,
+        "explanation": "last weekend 表示过去，go 是不规则动词，过去式是 went。",
+        "knowledge_point": "动词过去式",
+        "options": [],
+        "question": "They ___ (go) to the park last weekend.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "didn't watch",
+        "difficulty": 2,
+        "explanation": "描述过去的否定动作时，用 didn't + 动词原形，因此填 didn't watch，而不是 didn't watched。",
+        "knowledge_point": "动词过去式",
+        "options": [],
+        "question": "I ___ (not watch) TV last night.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "listen to",
+        "difficulty": 1,
+        "explanation": "listen 后面接表示听的内容时，通常要加介词 to。",
+        "knowledge_point": "短语搭配",
+        "options": [
+          "listen to",
+          "listen at",
+          "listen on",
+          "listen for"
+        ],
+        "question": "Please ___ the teacher carefully.",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "look at",
+        "difficulty": 1,
+        "explanation": "look at 意为“看……”，后面可以接要看的对象。",
+        "knowledge_point": "短语搭配",
+        "options": [
+          "look at",
+          "look for",
+          "look after",
+          "look up"
+        ],
+        "question": "___ the picture on the wall, please.",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "to",
+        "difficulty": 2,
+        "explanation": "be good at 意为“擅长……”，at 是这个固定搭配的一部分。",
+        "knowledge_point": "短语搭配",
+        "options": [],
+        "question": "Amy is good ___ drawing.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 86
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "wake up 意为“醒来；叫醒”，是常见的动词短语。",
+        "knowledge_point": "短语搭配",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“Wake up”可以表示“醒来”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 87
+      },
+      {
+        "answer": "afraid of",
+        "difficulty": 2,
+        "explanation": "be afraid of 意为“害怕……”，后面接令人害怕的人或事物。",
+        "knowledge_point": "短语搭配",
+        "options": [],
+        "question": "The little cat is ___ dogs.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 88
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“Thank you”表示感谢，常用“You're welcome.”回应。",
+        "knowledge_point": "交际用语",
+        "options": [
+          "Good morning.",
+          "You're welcome.",
+          "I'm fine, thanks.",
+          "See you tomorrow."
+        ],
+        "question": "— Thank you for helping me. — ___",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "“How are you?”是在问候并询问近况，常见回答是“I'm fine, thanks.”",
+        "knowledge_point": "交际用语",
+        "options": [
+          "I'm fine, thanks.",
+          "Good night.",
+          "You're welcome.",
+          "Not at all."
+        ],
+        "question": "— How are you today? — ___",
+        "score": 5,
+        "type": "choice",
+        "id": 90
+      },
+      {
+        "answer": "Yes, I did.",
+        "difficulty": 2,
+        "explanation": "问句以 Did 开头，询问过去是否看过电影。肯定回答使用“Yes, 主语 + did.”",
+        "knowledge_point": "交际用语",
+        "options": [],
+        "question": "补全对话：— Did you watch the film yesterday? — ___",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 91
+      },
+      {
+        "answer": "How about you?",
+        "difficulty": 2,
+        "explanation": "“How about you?”意为“你呢？”，可用于在回答对方问题后礼貌地询问对方的情况。",
+        "knowledge_point": "交际用语",
+        "options": [],
+        "question": "补全对话：— I like English. ___",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 92
+      },
+      {
+        "answer": "Would you like to play football with me?",
+        "difficulty": 3,
+        "explanation": "邀请对方一起做某事，可以用“Would you like to ...?”；play football 表示“踢足球”，with me 表示“和我一起”。",
+        "knowledge_point": "交际用语",
+        "options": [],
+        "question": "用英语写一句话，邀请你的朋友和你一起踢足球。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "yesterday 表示昨天，句子描述过去发生的事情，动词用过去式 visited。",
+        "knowledge_point": "综合理解",
+        "options": [
+          "A. visit",
+          "B. visited",
+          "C. visits",
+          "D. visiting"
+        ],
+        "question": "We ___ the science museum yesterday.",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "now 表示现在；主语 My brother 是第三人称单数，所以一般现在时动词用 likes。",
+        "knowledge_point": "综合理解",
+        "options": [
+          "A. likes",
+          "B. liked",
+          "C. like",
+          "D. liking"
+        ],
+        "question": "My brother ___ reading storybooks now.",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "False",
+        "difficulty": 2,
+        "explanation": "句中 last year 表示过去，通常要用一般过去时；go 的过去式是 went，不是 goes。",
+        "knowledge_point": "综合理解",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：They goes to the park last year.",
+        "score": 5,
+        "type": "true_false",
+        "id": 96
+      },
+      {
+        "answer": "were playing",
+        "difficulty": 3,
+        "explanation": "at 8 o'clock last night 表示昨晚八点这一过去时刻，强调当时正在进行的动作。主语 We 对应 were，play 加 -ing。",
+        "knowledge_point": "综合理解",
+        "options": [],
+        "question": "补全句子：We ___ (play) basketball at 8 o'clock last night.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 97
+      },
+      {
+        "answer": "The girl walks to school every day, but she went by bus yesterday.",
+        "difficulty": 3,
+        "explanation": "every day 表示经常发生的习惯，用一般现在时；主语 The girl 是第三人称单数，因此用 walks。yesterday 表示过去，go 用过去式 went。",
+        "knowledge_point": "综合理解",
+        "options": [],
+        "question": "根据提示完成句子：The girl ___ (walk) to school every day, but she ___ (go) by bus yesterday.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 98
+      },
+      {
+        "answer": "to",
+        "difficulty": 1,
+        "explanation": "“听……”用固定搭配 listen to，所以填 to。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "at",
+          "to",
+          "for",
+          "in"
+        ],
+        "question": "Please listen ___ the teacher.",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "“看……”常用 look at，故填 at。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "for",
+          "of",
+          "at",
+          "with"
+        ],
+        "question": "Look ___ the picture on the wall.",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "for",
+        "difficulty": 2,
+        "explanation": "“等待某人”用 wait for somebody，因此填 for。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "to",
+          "for",
+          "on",
+          "about"
+        ],
+        "question": "We are waiting ___ our friend.",
+        "score": 5,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "at",
+        "difficulty": 2,
+        "explanation": "“擅长……”用 be good at，at 后接名词或动名词，因此填 at。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "in",
+          "at",
+          "to",
+          "of"
+        ],
+        "question": "Amy is good ___ drawing.",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "in",
+        "difficulty": 2,
+        "explanation": "“对……感兴趣”用 be interested in，因此填 in。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "on",
+          "for",
+          "in",
+          "at"
+        ],
+        "question": "Tom is interested ___ English.",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "drinks",
+        "difficulty": 1,
+        "explanation": "句意是“她每天早上喝一杯牛奶”。表示“喝”用 drink；every morning 表示经常发生的习惯，主语 She 是第三人称单数，因此用 drinks。",
+        "knowledge_point": "动词词义",
+        "options": [
+          "eats",
+          "drinks",
+          "watches",
+          "writes"
+        ],
+        "question": "She ___ a glass of milk every morning.",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "opens",
+        "difficulty": 2,
+        "explanation": "句意是“请打开门”。表示“打开”用 open；主语 you 后用动词原形 open。",
+        "knowledge_point": "动词词义",
+        "options": [
+          "closes",
+          "opens",
+          "opens up",
+          "open"
+        ],
+        "question": "Please ___ the door for me.",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "borrow",
+        "difficulty": 2,
+        "explanation": "句意是“我可以从你那里借一本书吗？”表示从别人那里借入用 borrow；lend 表示借出。",
+        "knowledge_point": "动词词义",
+        "options": [
+          "lend",
+          "borrow",
+          "buy",
+          "bring"
+        ],
+        "question": "Can I ___ a book from you?",
+        "score": 5,
+        "type": "choice",
+        "id": 106
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "feed the dog 表示“喂狗”，feed 的意思是“喂养”。",
+        "knowledge_point": "动词词义",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“Feed the dog” means “喂狗”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 107
+      },
+      {
+        "answer": "found",
+        "difficulty": 2,
+        "explanation": "句意是“我们在公园里找到了一只小猫”。表示“找到”用 find；yesterday 表示过去，find 的过去式是 found。",
+        "knowledge_point": "动词词义",
+        "options": [],
+        "question": "We ___ a little cat in the park yesterday.（find）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 108
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "回答“In the library”表示地点，询问地点用where。",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ do you read books? In the library.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "When",
+        "difficulty": 1,
+        "explanation": "回答“On Sunday”表示时间，询问时间用when。",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ do you visit your grandma? On Sunday.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "Why",
+        "difficulty": 2,
+        "explanation": "回答“Because it is fun”说明原因，询问原因用why。",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ do you like this game? Because it is fun.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "Whose",
+        "difficulty": 2,
+        "explanation": "回答“Tom’s”表示物品属于谁，询问所属用whose。",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ bag is this? It is Tom’s.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "How",
+        "difficulty": 2,
+        "explanation": "回答“By bus”说明出行方式，询问方式用how。",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ do you go to school? By bus.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "表示具体时刻“七点”用 at，at seven o’clock 意为“在七点”。",
+        "knowledge_point": "时间短语",
+        "options": [],
+        "question": "We have breakfast ___ seven o’clock.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "表示“在星期一”用 on，星期前通常用 on。",
+        "knowledge_point": "时间短语",
+        "options": [],
+        "question": "My English lesson is ___ Monday.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "in",
+        "difficulty": 2,
+        "explanation": "表示“在七月”用 in，月份前通常用 in。",
+        "knowledge_point": "时间短语",
+        "options": [],
+        "question": "It is hot ___ July.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "next week",
+        "difficulty": 2,
+        "explanation": "“下周”是 next week；next 前通常不加介词。",
+        "knowledge_point": "时间短语",
+        "options": [],
+        "question": "We will visit the zoo ___.（下周）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "every day",
+        "difficulty": 2,
+        "explanation": "“每天”可说 every day；every day 是时间短语，前面不加介词。",
+        "knowledge_point": "时间短语",
+        "options": [],
+        "question": "Tom reads English for ten minutes ___.（每天）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "骑自行车",
+        "difficulty": 1,
+        "explanation": "rode 是 ride 的过去式，rode a bike 表示“骑了自行车”，常可译为“骑自行车”。",
+        "knowledge_point": "词组翻译",
+        "options": [],
+        "question": "翻译词组：rode a bike",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "去钓鱼",
+        "difficulty": 1,
+        "explanation": "went 是 go 的过去式，went fishing 表示“去钓鱼”。",
+        "knowledge_point": "词组翻译",
+        "options": [],
+        "question": "翻译词组：went fishing",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "拍照",
+        "difficulty": 1,
+        "explanation": "take pictures 是“照相、拍照”的意思；took 是 take 的过去式。",
+        "knowledge_point": "词组翻译",
+        "options": [],
+        "question": "翻译词组：took pictures",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "买礼物",
+        "difficulty": 1,
+        "explanation": "bought 是 buy 的过去式，bought gifts 表示“买了礼物”，也可简译为“买礼物”。",
+        "knowledge_point": "词组翻译",
+        "options": [],
+        "question": "翻译词组：bought gifts",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "went camping",
+        "difficulty": 2,
+        "explanation": "“去露营”可以译为 went camping。went 是 go 的过去式，表示过去去做某事。",
+        "knowledge_point": "词组翻译",
+        "options": [],
+        "question": "将“去露营”翻译成英语。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "It's on the desk.",
+        "difficulty": 1,
+        "explanation": "“Where”询问地点。书包在桌子上，所以正确回答是“It's on the desk.”",
+        "knowledge_point": "特殊疑问句配对",
+        "options": [
+          "It's on the desk.",
+          "At seven o'clock.",
+          "My sister.",
+          "By bus."
+        ],
+        "question": "Choose the best answer: Where is your schoolbag?",
+        "score": 3,
+        "type": "choice",
+        "id": 124
+      },
+      {
+        "answer": "Five.",
+        "difficulty": 1,
+        "explanation": "How many询问数量，苹果的数量是five（五个），所以选项B正确。",
+        "knowledge_point": "特殊疑问句配对",
+        "options": [
+          "By bike.",
+          "Five.",
+          "A ruler.",
+          "At school."
+        ],
+        "question": "How many apples do you have? Choose the correct answer.",
+        "score": 3,
+        "type": "choice",
+        "id": 125
+      },
+      {
+        "answer": "Where did you see the pandas?—At the zoo.；What did you eat?—Noodles.；Who did you go with?—My dad.",
+        "difficulty": 2,
+        "explanation": "At the zoo回答地点，用Where提问；Noodles回答吃的东西，用What提问；My dad回答同行的人，用Who提问。",
+        "knowledge_point": "特殊疑问句配对",
+        "options": [
+          "Where did you see the pandas?",
+          "What did you eat?",
+          "Who did you go with?",
+          "At the zoo.",
+          "Noodles.",
+          "My dad."
+        ],
+        "question": "把每个答语与合适的问句配对并连线。答语：At the zoo. / Noodles. / My dad. 问句：Where did you see the pandas? / What did you eat? / Who did you go with?",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "1. Where; 2. How; 3. When",
+        "difficulty": 2,
+        "explanation": "A new book回答What；By train回答How；On Sunday回答When。注意每个疑问词所询问的信息类别。",
+        "knowledge_point": "特殊疑问句配对",
+        "options": [
+          "What",
+          "Where",
+          "When",
+          "Who",
+          "How"
+        ],
+        "question": "Choose the correct question word to match each answer. 1. ___ is your new book? —It is on the desk. 2. ___ did you travel? —By train. 3. ___ will we visit Grandma? —On Sunday.",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 127
+      },
+      {
+        "answer": "He is twelve years old.",
+        "difficulty": 2,
+        "explanation": "“How old”询问年龄。弟弟十二岁，所以正确回答是 “He is twelve years old.”",
+        "knowledge_point": "特殊疑问句配对",
+        "options": [
+          "He is twelve years old.",
+          "At 8:30.",
+          "Because it was raining.",
+          "The blue one."
+        ],
+        "question": "Read the question: “How old is your brother?” Choose the correct answer.",
+        "score": 4,
+        "type": "choice",
+        "id": 128
+      },
+      {
+        "answer": "She cleaned her room yesterday.",
+        "difficulty": 1,
+        "explanation": "句子描述昨天发生的动作，clean 是规则动词，过去式加 -ed，变为 cleaned。",
+        "knowledge_point": "过去时陈述句",
+        "options": [],
+        "question": "Complete the sentence with the past form of the verb: She _____ (clean) her room yesterday.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "They played football last Sunday.",
+        "difficulty": 1,
+        "explanation": "last Sunday 表示过去时间；play 的过去式是 played。",
+        "knowledge_point": "过去时陈述句",
+        "options": [],
+        "question": "Choose the correct word to complete the sentence: They _____ football last Sunday. (play / played)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "went",
+        "difficulty": 2,
+        "explanation": "go 是不规则动词，过去式是 went。句子描述昨天发生的事情，因此用 went。",
+        "knowledge_point": "过去时陈述句",
+        "options": [
+          "go",
+          "goes",
+          "went",
+          "going"
+        ],
+        "question": "We _____ to the park yesterday. Which word completes the sentence?",
+        "score": 5,
+        "type": "choice",
+        "id": 131
+      },
+      {
+        "answer": "He didn't watch TV last night.",
+        "difficulty": 2,
+        "explanation": "一般过去时的否定句用 didn't + 动词原形。watch 保持原形，不能写成 watched。",
+        "knowledge_point": "过去时陈述句",
+        "options": [],
+        "question": "Make this sentence negative: He watched TV last night.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
+      },
+      {
+        "answer": "were",
+        "difficulty": 2,
+        "explanation": "be动词用于过去时要用 was 或 were。主语 We 是复数，因此用 were。",
+        "knowledge_point": "过去时陈述句",
+        "options": [
+          "was",
+          "were",
+          "is",
+          "are"
+        ],
+        "question": "We _____ at home yesterday. Choose the correct word.",
+        "score": 5,
+        "type": "choice",
+        "id": 133
+      },
+      {
+        "answer": "Did",
+        "difficulty": 1,
+        "explanation": "含行为动词的一般过去时疑问句用“Did+主语+动词原形”。",
+        "knowledge_point": "过去时疑问句",
+        "options": [
+          "Did",
+          "Do",
+          "Was"
+        ],
+        "question": "___ you visit your grandma yesterday?",
+        "score": 1,
+        "type": "choice",
+        "id": 134
+      },
+      {
+        "answer": "Did Tom play football after school?",
+        "difficulty": 2,
+        "explanation": "行为动词的一般疑问句把Did放在主语前，并将过去式played改回原形play。",
+        "knowledge_point": "过去时疑问句",
+        "options": [],
+        "question": "Reorder the words: [Tom, football, Did, play, after, school, ?]",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 135
+      },
+      {
+        "answer": "Where did Amy buy the book?",
+        "difficulty": 3,
+        "explanation": "特殊疑问句用“疑问词+did+主语+动词原形+其他”，bought要改为原形buy。",
+        "knowledge_point": "过去时疑问句",
+        "options": [],
+        "question": "Put the words in order: [Amy, the book, Where, did, buy, ?]",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 136
+      },
+      {
+        "answer": "Was",
+        "difficulty": 2,
+        "explanation": "主语she是第三人称单数，be动词过去式用was。含be动词时直接把was提前，不用did。",
+        "knowledge_point": "过去时疑问句",
+        "options": [
+          "Did",
+          "Were",
+          "Was"
+        ],
+        "question": "___ she at home last night?",
+        "score": 2,
+        "type": "choice",
+        "id": 137
+      },
+      {
+        "answer": "What did they eat for breakfast?",
+        "difficulty": 3,
+        "explanation": "特殊疑问词What放句首，后接did、主语they和动词原形eat。",
+        "knowledge_point": "过去时疑问句",
+        "options": [],
+        "question": "Write a question using these words: [What, they, eat, for breakfast] (Use the past tense.)",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 138
       }
     ]
   },
@@ -714,6 +2231,262 @@
         "忽略时间状语（yesterday, last week）的影响"
       ],
       "tips": "看到did/didn't，后面的动词必须‘打回原形’。"
+    },
+    {
+      "common_mistakes": [
+        "把不规则动词过去式误写成“动词原形 + -ed”，如把 go 写成 goed。",
+        "混淆拼写相近的过去式，如 teach—taught、think—thought。",
+        "把过去式误用在 did 后面；did 后应使用动词原形。"
+      ],
+      "core_concept": "不规则动词的过去式通常不按“动词原形 + -ed”的规则变化，需要记住每个动词对应的形式。",
+      "key_formula": "肯定句：主语 + 不规则动词过去式；否定句或一般疑问句中有 did 时：did + 动词原形。",
+      "point": "高频不规则动词过去式转换",
+      "tips": "按变化规律分组记忆，并结合例句练习：go—went，come—came，see—saw，eat—ate，have—had，do—did，make—made，take—took，buy—bought，bring—brought，think—thought，teach—taught，say—said，tell—told，get—got，write—wrote，read—read（过去式读作 /red/）。练习时先找出句子表达的时间，再判断是否需要使用过去式。"
+    },
+    {
+      "common_mistakes": [
+        "询问过去的旅程时，忘记使用助动词 did。",
+        "did 后面的动词应使用原形，不要再用过去式。",
+        "回答过去发生的事情时，注意使用动词过去式。",
+        "询问交通方式常用“How did you go/get to...?”，回答时常用“by + 交通工具”，但步行通常说“on foot”。"
+      ],
+      "core_concept": "询问过去去过哪里、怎样到达某地，可以用一般过去时。询问地点常用“Where did you go?”；询问交通方式常用“How did you go/get to + 地点?”。回答时，地点前常用“went to”，交通方式可用“by bus/train/plane”等表达。",
+      "key_formula": "Where did + 主语 + go? — 主语 + went to + 地点.\nHow did + 主语 + go/get to + 地点? — 主语 + went/got there by + 交通工具.\n步行：go/went on foot.",
+      "point": "过去旅程及交通方式的询问",
+      "tips": "did 用来表示过去时，后面的实义动词用原形：Where did you go? / How did you get there? 回答时再根据需要使用过去式：I went to the zoo. / We went there by bus. 注意“by + 交通工具”前通常不加冠词；步行说“on foot”。"
+    },
+    {
+      "common_mistakes": [
+        "按中文语序逐句翻译，导致事件先后不清楚。",
+        "叙述过去发生的事时忘记使用过去时，如把went写成go。",
+        "把所有连接词都当作表示先后；but表示转折，because表示原因。"
+      ],
+      "core_concept": "讲述过去发生的事件时，先理清事件发生的先后顺序，再用一般过去时和合适的时间、顺序连接词组织句子，让听者明白事情怎样开始、发展和结束。常用连接词有first（首先）、then（然后）、next（接下来）、after that（之后）、finally（最后）；表示同时、原因或转折时，可用while（当……时）、because（因为）、but（但是）。",
+      "key_formula": "First, + 过去时句子. Then/Next/After that, + 过去时句子. Finally, + 过去时句子.",
+      "point": "过去发生事件的逻辑叙述",
+      "tips": "写或说之前，先按时间顺序列出事件；每件事用简短句子表达，并检查动词是否用了过去式。使用first、then、finally等词时要确保它们与事件顺序相符。常见不规则过去式包括go→went、see→saw、eat→ate、have→had。"
+    },
+    {
+      "common_mistakes": [
+        "把动词过去式一律加 -ed；有些常见动词是不规则变化，如 go → went、see → saw。",
+        "以辅音字母加 y 结尾的动词，常把 y 直接改成 i；正确形式通常是把 y 改成 i，再加 -ed，如 study → studied。",
+        "以重读闭音节结尾的部分动词，容易漏写末尾辅音字母，如 stop → stopped。",
+        "在 did 或 didn't 后误用过去式；此时应使用动词原形，如 Did you go?、I didn't go。"
+      ],
+      "core_concept": "动词过去式用于表示过去发生的动作或存在的状态。规则动词通常按拼写规则变化；不规则动词需要记住各自的形式。一般过去时的肯定句中，动词用过去式；含 did 或 didn't 的疑问句和否定句中，实义动词用原形。",
+      "key_formula": "规则变化：一般动词 + -ed；以不发音的 e 结尾 + -d；辅音字母 + y 结尾，y 改 i + -ed；部分重读闭音节动词双写末尾辅音字母 + -ed。常见不规则变化：go → went，see → saw，have → had，eat → ate，buy → bought。",
+      "point": "动词过去式形式",
+      "tips": "判断过去式时，先看动词是否为不规则动词；若是规则动词，再根据词尾拼写选择变化方式。做句子题时留意 yesterday、last week、two days ago 等过去时间提示；如果句中已有 did 或 didn't，后面的实义动词用原形。"
+    },
+    {
+      "common_mistakes": [
+        "把意思相近的词混淆，例如把 mule（骡子）误认为 elephant（大象）。",
+        "只看单词本身，忽略短语和上下文；例如 fell off 通常表示从某处掉下来。"
+      ],
+      "core_concept": "词义辨析是根据单词或短语的含义及上下文，判断它们是否表达相同意思。学习时可以结合熟悉的词语、动作和例句来理解。",
+      "key_formula": "结合词语本身和上下文 → 判断含义 → 与题目给出的意思核对",
+      "point": "词义辨析",
+      "tips": "遇到不认识的词，可以先看它所在的短语或句子，再联系已学词汇判断。注意区分意思相近但不相同的词，也要留意动词的过去式等形式变化。"
+    },
+    {
+      "common_mistakes": [
+        "在 did、does、do 等助动词后误用动词过去式或第三人称单数形式。",
+        "时间状语与动词时态不一致，如用 yesterday 搭配一般现在时。",
+        "主语是第三人称单数时，一般现在时的谓语动词忘记加 -s 或 -es。",
+        "讲述过去发生的事情时，误用一般现在时。"
+      ],
+      "core_concept": "句子中的动词时态要与时间状语和句子所表达的时间一致；同一句中如果叙述时间没有改变，相关动词的时态通常也应保持一致。还要注意助动词和主语对动词形式的影响：did 后接动词原形；一般现在时中，第三人称单数作主语时，实义动词通常加 -s 或 -es。",
+      "key_formula": "一般过去时：主语 + 动词过去式；一般现在时：I/you/we/they + 动词原形，he/she/it + 动词-s/-es；Did + 主语 + 动词原形？",
+      "point": "语法时态一致性",
+      "tips": "做题时先圈出时间状语，再判断事情发生的时间；接着找主语，检查一般现在时的动词形式；最后检查 did 后是否使用动词原形。"
+    },
+    {
+      "common_mistakes": [
+        "注意区分动词短语的原形与过去式，如 take pictures（照相）和 took pictures（照了相）。",
+        "记忆短语时要连同动词一起记，不要只记单个单词。"
+      ],
+      "core_concept": "短语由两个或多个词组成，常表达一个完整的动作或意思。学习时可结合例句记忆短语及其过去式。",
+      "key_formula": "动词短语：动词 + 其他词语；一般过去时中，不规则动词需要记住其过去式，如 take → took。",
+      "point": "短语识记",
+      "tips": "把短语放进简单句中朗读和记忆，例如：I take pictures.（我照相。）Yesterday, I took pictures.（昨天我照了相。）"
+    },
+    {
+      "common_mistakes": [
+        "把询问地点的 where 和询问方向或方式的 how 混淆。",
+        "把询问人物的 who 和询问事物的 what 混淆。",
+        "询问时间通常用 when；询问原因用 why，回答常用 because。"
+      ],
+      "core_concept": "疑问词放在句首，用来询问不同的信息。理解答句提供的信息，就能选择合适的疑问词。",
+      "key_formula": "疑问词 + 助动词/情态动词 + 主语 + 动词原形 + …？；疑问词作主语时，常用“疑问词 + 动词 + …？”",
+      "point": "疑问词辨析",
+      "tips": "先看答句的关键信息：人看who，地点看where，时间看when，原因看why，方式或状态看how，事物或事情看what。"
+    },
+    {
+      "common_mistakes": [
+        "看到过去时间状语时，误用动词原形或第三人称单数形式。",
+        "把不规则动词按规则变化加 -ed，例如把 go 写成 goed。",
+        "拼写规则动词过去式时，忽略以辅音字母加 y 结尾的动词要先变 y 为 i 再加 -ed。"
+      ],
+      "core_concept": "一般过去时表示过去发生或过去存在的动作、状态。肯定句中的实义动词通常使用过去式：规则动词一般加 -ed；不规则动词要记住其特殊形式。判断时可留意 yesterday、last week、ago 等表示过去的时间词。",
+      "key_formula": "主语 + 动词过去式 + 其他。规则变化示例：play → played，live → lived，study → studied；不规则变化示例：go → went，see → saw，buy → bought。",
+      "point": "动词过去式辨析",
+      "tips": "先根据句意和时间词判断动作是否发生在过去，再选择动词的过去式。规则动词注意拼写变化，不规则动词需要结合常见搭配记忆；否定句和疑问句中有 did 时，实义动词用原形，如 Did you go?、did not go。"
+    },
+    {
+      "common_mistakes": [
+        "询问过去的交通方式时，忘记使用 did 和动词原形 go。",
+        "把 by 后的交通工具写成复数或加冠词，例如误写为 by a bus；通常说 by bus、by train。",
+        "混淆 by bus 和 on foot；步行要说 on foot。",
+        "回答交通方式问题时，答成时间、地点或同行的人，而不是出行方式。"
+      ],
+      "core_concept": "本课学习询问和表达交通方式。询问过去怎么去某地，常用“How did you go to...?”；询问现在或一般情况，常用“How do you go to...?”。回答时可以用“主语 + went/go + to... + by + 交通工具”，也可以简答“By + 交通工具.”。步行用“on foot”。",
+      "key_formula": "过去：How did + 主语 + go to + 地点? — 主语 + went to + 地点 + by + 交通工具.；现在：How do/does + 主语 + go to + 地点? — 主语 + go/goes to + 地点 + by + 交通工具.；步行：on foot。",
+      "point": "交通方式表达",
+      "tips": "常见表达：by bus（乘公共汽车）、by car（乘小汽车）、by train（乘火车）、by plane（乘飞机）、by bike（骑自行车）、by subway（乘地铁）、on foot（步行）。问过去经历时用“How did you go...?”，回答完整句可用“I went...”；问日常方式时用“How do you go...?”。注意“by + 交通工具”通常不加冠词，而 on foot 是固定表达。"
+    },
+    {
+      "common_mistakes": [
+        "只根据单词的字母或发音猜意思，不结合句子判断。",
+        "忽略词语在不同语境中的不同含义。",
+        "看到不熟悉的词就停下来，没有利用上下文线索。"
+      ],
+      "core_concept": "理解英语词义时，可以先看单词本身，再结合句子和上下文判断。注意词性、常见搭配以及句子中的提示信息；同一个词在不同句子里可能有不同意思。",
+      "key_formula": "猜词义 = 单词线索 + 上下文线索 + 常见搭配",
+      "point": "词义理解",
+      "tips": "遇到不认识的词，先读完整句话；找出前后文中的提示词；再把猜出的意思代入原句，检查是否通顺合理。"
+    },
+    {
+      "common_mistakes": [
+        "不要给所有动词都直接加 -ed；不规则动词有各自的过去式。",
+        "注意区分动词原形和过去式，例如 go 的过去式是 went，不是 goed。",
+        "句子中有明确的过去时间时，动词通常要用过去式。"
+      ],
+      "core_concept": "动词过去式用于描述过去发生的动作或状态。常见过去时间提示词有 yesterday、last night、last week、ago 等。规则动词通常在词尾加 -ed；不规则动词需要记住其特殊变化。",
+      "key_formula": "过去发生的动作：主语 + 动词过去式 + 其他；规则动词通常加 -ed，不规则动词按其变化形式使用。",
+      "point": "动词过去式",
+      "tips": "先找句中的过去时间提示词，再判断动词应使用过去式。规则动词通常直接加 -ed，如 play → played；以不发音的 e 结尾通常加 -d，如 live → lived；部分动词需变 y 为 i 再加 -ed，如 study → studied。常见不规则变化包括 go → went、eat → ate、see → saw、ride → rode。"
+    },
+    {
+      "common_mistakes": [
+        "搭配动词时忽略介词，如说 *listen music*，正确说法是 *listen to music*。",
+        "把固定搭配中的介词随意替换，如把 *be good at* 误说成 *be good in*。",
+        "忘记根据句子的时间调整短语中的动词形式，如 *fall off* 的过去式是 *fell off*。"
+      ],
+      "core_concept": "英语短语搭配是指一些词常常按固定方式组合使用。学习时要把动词、名词和介词等作为整体记忆，并根据句子中的时间、主语等调整动词形式。",
+      "key_formula": "常见结构：动词 + 介词/副词（look at, listen to, wake up）；be动词 + 形容词 + 介词（be good at, be afraid of）。",
+      "point": "短语搭配",
+      "tips": "记短语时把整组词一起朗读、抄写，并放进简单句中练习；遇到空格题，先判断句意和时态，再检查短语是否搭配正确。"
+    },
+    {
+      "common_mistakes": [
+        "回答一般过去时的一般疑问句时，误用 do/does，而没有使用 did。",
+        "回答时态要与问句一致：问句使用 did，肯定回答用 did，否定回答用 didn't。",
+        "根据对话情境选择合适的交际表达，不能只看单个词。"
+      ],
+      "core_concept": "交际用语要结合对话情境、问句时态和表达目的来选择。回答一般过去时的一般疑问句时，通常用“Yes, 主语 + did.”或“No, 主语 + didn't.”。",
+      "key_formula": "一般过去时一般疑问句：Did + 主语 + 动词原形 ...? 肯定回答：Yes, 主语 + did. 否定回答：No, 主语 + didn't.",
+      "point": "交际用语",
+      "tips": "先判断对话在谈什么，再留意问句中的关键词和时态。看到 Did 开头的问句，回答通常用 did 或 didn't；回答感谢、问候或邀请时，也要选择符合交际场景的表达。"
+    },
+    {
+      "common_mistakes": [
+        "看到句子中有 but 就认定前后时态不同；要根据各分句的时间线索和语境判断。",
+        "忽略主语是第三人称单数时一般现在时动词需要加 -s 或 -es。",
+        "混淆一般过去时和过去进行时：前者表示过去发生或存在的情况，后者强调过去某一时刻正在进行的动作。"
+      ],
+      "core_concept": "综合理解是结合句子的语法、时间线索和上下文来判断意思，并选择合适的词语或时态。遇到 but、now、yesterday、last year 等词时，要判断它们分别对应的时间，再看句子主语和动词形式是否匹配。",
+      "key_formula": "一般现在时：主语（第三人称单数）+ 动词-s/-es；一般过去时：主语 + 动词过去式；过去进行时：主语 + was/were + 动词-ing。",
+      "point": "综合理解",
+      "tips": "做题时可以按顺序检查：①找时间词；②确认句子说的是过去、现在还是正在发生；③核对主语与动词形式；④结合转折词和上下文验证句意。"
+    },
+    {
+      "common_mistakes": [
+        "把 on foot 误写成 by foot；英语中表示“步行”用 on foot。",
+        "混淆 look at（看）和 look for（寻找）等固定搭配中的介词。",
+        "只记单个单词的意思，忽略词语组合后形成的固定用法。"
+      ],
+      "core_concept": "固定搭配是英语中习惯上经常一起使用的词语组合，通常需要把动词、名词或形容词与其搭配的介词等一起记忆。",
+      "key_formula": "常见结构：动词 + 介词（如 look at）；形容词 + 介词（如 be good at）；固定短语（如 on foot）。",
+      "point": "固定搭配",
+      "tips": "把固定搭配连同例句一起朗读、记忆；做题时先判断句意，再回想完整搭配。例如：I listen to music.（我听音乐。）"
+    },
+    {
+      "common_mistakes": [
+        "只看句子里某个单词就选答案，不结合整句话判断动词的意思。",
+        "忽略时间词和上下文，误用动词的形式。",
+        "把意思相近的动词混用，例如 see（看见）和 look at（看）。"
+      ],
+      "core_concept": "动词表示动作、状态或发生的事情。理解句意和上下文，才能选出意思合适的动词；还要注意句子的时间和主语，使用正确的动词形式。",
+      "key_formula": "结合语境选动词：主语＋合适形式的动词＋其他成分。",
+      "point": "动词词义",
+      "tips": "先找出句子中的人或事物，再问“它做了什么、发生了什么或处于什么状态”。遇到选项时，把每个动词放回句子中试读，选意思通顺且形式正确的一项。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 who（谁）和 whose（谁的）混淆：who询问人，whose询问所属。",
+        "询问时间用 when，询问地点用 where，询问原因用 why，询问方式或状态常用 how。",
+        "询问数量时，how many通常用于可数名词，how much通常用于不可数名词或询问价格。"
+      ],
+      "core_concept": "疑问词用于询问不同的信息。常见疑问词有：who（谁）、what（什么）、which（哪一个）、whose（谁的）、when（什么时候）、where（在哪里）、why（为什么）和how（怎样）。根据想要了解的信息选择合适的疑问词。",
+      "key_formula": "疑问词 + 助动词/情态动词 + 主语 + 动词原形 + 其他？\n疑问词 + be动词 + 主语 + 其他？",
+      "point": "疑问词",
+      "tips": "先判断问题想询问哪类信息，再选择疑问词：人物用who，事物或内容用what，时间用when，地点用where，原因用why，方式或状态用how；询问所属用whose，询问多个选项中的选择用which。例：Where do you live?（你住在哪里？）Why are you happy?（你为什么开心？）"
+    },
+    {
+      "common_mistakes": [
+        "last summer、next week、this morning 等时间短语前通常不加介词。",
+        "表示“在某个具体时刻”常用 at；表示“在某一天或某个日期”常用 on；表示“在某个月或某一年”常用 in。",
+        "时间短语放在句首时，通常用逗号与句子其他部分隔开。"
+      ],
+      "core_concept": "时间短语说明事情发生的时间。小学阶段常见的有带介词的时间短语（如 at seven、on Monday、in July）和不带介词的时间短语（如 last year、next week、this morning）。",
+      "key_formula": "at + 具体时刻；on + 星期或具体日期；in + 月份、年份或较长的一段时间；last/next/this/every + 时间词时通常不加介词。",
+      "point": "时间短语",
+      "tips": "先看时间范围：具体钟点选 at，星期或日期选 on，月份或年份选 in；看到 last、next、this、every 时，检查是否不需要再加介词。"
+    },
+    {
+      "common_mistakes": [
+        "把词组中的动词误译成原形，忽略过去式形式，如 rode、went、took、bought。",
+        "逐词硬译，导致中文表达不自然。",
+        "混淆相近词组，如 take pictures（照相）和 buy gifts（买礼物）。"
+      ],
+      "core_concept": "词组翻译要结合每个单词的意思和整个词组的习惯表达。翻译含过去式的词组时，还要注意动作发生在过去。",
+      "key_formula": "英文词组翻译步骤：认出关键词 → 判断词组意思 → 用自然的中文表达；遇到过去式时，注意动作已经发生。",
+      "point": "词组翻译",
+      "tips": "可以把词组按“动词＋其他部分”记忆，并通过例句巩固。注意 rode、went、took、bought 分别是 ride、go、take、buy 的过去式。"
+    },
+    {
+      "common_mistakes": [
+        "把 Where、How、Who、What 的回答类型混淆。",
+        "只看疑问词，不看回答中的关键信息。",
+        "配对时忽略问句的时态和语境。"
+      ],
+      "core_concept": "特殊疑问句要根据疑问词询问的内容，与相应的回答配对：Where问地点，How问方式或交通，Who问人，What问事情或物品，When问时间。",
+      "key_formula": "疑问词 + 助动词/情态动词 + 主语 + 动词……？→ 根据疑问词所问内容作答。",
+      "point": "特殊疑问句配对",
+      "tips": "配对时先圈出问句中的疑问词，再从回答中找对应信息。例如，看到地点就考虑 Where，看到交通方式就考虑 How，看到人物就考虑 Who。"
+    },
+    {
+      "common_mistakes": [
+        "一般过去时的陈述句中，动词要用过去式。",
+        "否定句和疑问句中有 did 时，主要动词用原形。",
+        "be动词的过去式是 was 或 were，不能与 did 连用来构成一般疑问句。"
+      ],
+      "core_concept": "一般过去时用于描述过去发生的动作或过去存在的状态。常见时间标志有 yesterday、last week、two days ago 等。",
+      "key_formula": "肯定句：主语 + 动词过去式 + 其他。含实义动词的否定句：主语 + didn't + 动词原形 + 其他。be动词句：主语 + was/were + 其他。",
+      "point": "过去时陈述句",
+      "tips": "先找出句子的主语，再判断动作是否发生在过去；如果是，就把实义动词变成过去式。规则动词通常加 -ed，如 play → played；不规则动词需要记忆，如 go → went。"
+    },
+    {
+      "common_mistakes": [
+        "在did后面误用动词过去式，如Did you went? 应为Did you go?",
+        "把did放在主语后面，如You did see...? 一般疑问句中应把Did放在主语前。",
+        "特殊疑问句忘记先写疑问词，如Where did they play?",
+        "be动词过去时was或were提问时，不要再加did，如Was she tired?"
+      ],
+      "core_concept": "过去时疑问句用来询问过去发生的事情。含行为动词时，一般疑问句通常以Did开头；特殊疑问句通常以疑问词开头，后接did、主语和动词原形。含be动词时，则把was或were放到主语前；特殊疑问句用“疑问词+was/were+主语……”的语序。",
+      "key_formula": "行为动词：一般疑问句 Did + 主语 + 动词原形 + 其他？特殊疑问句 疑问词 + did + 主语 + 动词原形 + 其他？be动词：Was/Were + 主语 + 其他？或 疑问词 + was/were + 主语 + 其他？",
+      "point": "过去时疑问句",
+      "tips": "先判断句子里是行为动词还是be动词。行为动词提问时用did，动词恢复原形；be动词提问时直接把was或were提前。回答Did开头的问题时，可用“Yes, 主语 did.”或“No, 主语 didn’t.”"
     }
   ]
 }

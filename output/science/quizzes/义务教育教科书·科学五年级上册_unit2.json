@@ -4,326 +4,2088 @@
   "unit_number": 2,
   "unit_test": {
     "title": "第二单元练习：地球表面的变化同步测试",
-    "total_score": 100,
+    "total_score": 623,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "地壳是地球的最外层；地球中心部分是地核。",
         "knowledge_point": "地球内部结构",
+        "options": [],
         "question": "地壳是地球的中心部分，离地面最远。",
-        "options": [],
-        "answer": "错",
-        "explanation": "地壳是地球的最外层。地球的中心部分是地核。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "地震时若无法及时撤离，应先就近蹲下并保护头颈，尽量躲到结实桌子等可提供遮挡的物体旁或下方，远离窗户和可能坠落的物品。所谓家具旁的“三角地带”并不保证安全，应以现场情况和可靠避险指引为准。",
         "knowledge_point": "地震的危害",
+        "options": [],
         "question": "地震发生时，如果来不及跑出室外，可以躲在坚固家具旁的三角地带。",
-        "options": [],
-        "answer": "对",
-        "explanation": "当地震发生时且无法立刻疏散至开阔草地，应寻找结实的屏障和三角支撑空间躲避。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "风的作用",
-        "question": "风对地球表面的地形地貌没有显著改变作用。",
-        "options": [],
         "answer": "错",
-        "explanation": "风具有侵蚀和搬运作用，长期作用会形成如雅丹地貌等显著地形。"
-      },
-      {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "岩层运动",
-        "question": "板块的运动是极其缓慢的，人感觉不到，但时刻在发生。",
-        "options": [],
-        "answer": "对",
-        "explanation": "地球板块一直在缓慢漂移，通常每年仅移动几厘米。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "植物对侵蚀的影响",
-        "question": "在土地上覆盖植物能有效减少雨水对土壤的侵蚀。",
-        "options": [],
-        "answer": "对",
-        "explanation": "植物根系可以固着土壤，叶片能缓冲雨雨滴的冲击力。"
-      },
-      {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "风具有侵蚀和搬运作用，长期作用会改变地表，形成如雅丹地貌等地形。",
+        "knowledge_point": "风的作用",
+        "options": [],
+        "question": "风对地球表面的地形地貌没有显著改变作用。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "板块一直在缓慢运动，通常每年移动几厘米，日常生活中很难直接感觉到。",
+        "knowledge_point": "岩层运动",
+        "options": [],
+        "question": "板块的运动是极其缓慢的，人感觉不到，但时刻在发生。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "根系能固着土壤，叶片和地面上的植物覆盖物也能缓冲雨滴、减慢地表径流，因此有助于减少侵蚀。",
+        "knowledge_point": "植物对侵蚀的影响",
+        "options": [],
+        "question": "在土地上覆盖植物能有效减少雨水对土壤的侵蚀。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "高原",
+        "difficulty": 1,
+        "explanation": "海拔较高、地面起伏较小且边缘陡峭的地形称为高原。",
         "knowledge_point": "地形地貌识别",
-        "question": "我国的西藏地区平均海拔在4000米以上，这种地形属于（ ）。",
         "options": [
           "盆地",
           "平原",
           "高原",
           "丘陵"
         ],
-        "answer": "高原",
-        "explanation": "海拔较高、地面起伏较小且边缘陡峭的地形称为高原。"
+        "question": "我国的西藏地区平均海拔在4000米以上，这种地形属于（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "地壳和地核",
         "difficulty": 1,
+        "explanation": "地球内部由外向内依次是地壳、地幔、地核，因此地幔位于地壳和地核之间。",
         "knowledge_point": "地球内部圈层",
-        "question": "在地球内部，地幔位于哪两个圈层之间？",
         "options": [
           "地壳和地核",
           "大气层和地壳",
           "地核和地心",
           "岩浆和岩石"
         ],
-        "answer": "地壳和地核",
-        "explanation": "地球结构由外向内依次是地壳、地幔、地核。"
+        "question": "在地球内部，地幔位于哪两个圈层之间？",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "岩浆岩",
         "difficulty": 2,
+        "explanation": "岩浆在地下或喷出地表后逐渐冷却、凝固，形成岩浆岩。",
         "knowledge_point": "岩石成因",
-        "question": "由岩浆冷却凝固形成的岩石被称为（ ）。",
         "options": [
           "变质岩",
           "沉积岩",
-          "火山岩",
+          "火山灰",
           "岩浆岩"
         ],
-        "answer": "岩浆岩",
-        "explanation": "岩浆喷出地表或在地下冷却后形成的岩石是岩浆岩。"
+        "question": "由岩浆冷却凝固形成的岩石被称为（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "岩层产生断裂",
         "difficulty": 1,
+        "explanation": "地壳内部岩层受到挤压等作用，可能突然断裂或错动并释放能量，引起地面震动。绝大多数地震与这一过程有关。",
         "knowledge_point": "地震成因",
-        "question": "绝大多数地震的原因是由于（ ）。",
         "options": [
           "过度开采石油",
           "岩层产生断裂",
           "全球气候变暖",
           "月球引力变化"
         ],
-        "answer": "岩层产生断裂",
-        "explanation": "地壳内部岩层相互挤压产生断裂或错动是导致地震的主因。"
+        "question": "绝大多数地震的原因是由于（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "地幔",
         "difficulty": 2,
+        "explanation": "地下的熔融岩石称为岩浆。它可能从地壳的裂缝或薄弱处上升并喷出地表。喷发物的来源与地球内部有关，不能把它说成来自大气或地核。",
         "knowledge_point": "火山喷发",
-        "question": "火山喷发物中，流出地表的熔岩来自于（ ）。",
         "options": [
           "地壳",
           "地幔",
           "地核",
           "大气"
         ],
-        "answer": "地幔",
-        "explanation": "岩浆主要存在于地幔上部，通过地壳薄弱处喷出形成流向地表的熔岩。"
+        "question": "火山喷发物中，流出地表的熔岩来自于（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "风力的侵蚀与搬运",
         "difficulty": 2,
+        "explanation": "风携带沙粒等物质吹蚀、磨蚀岩石，并搬运碎屑。戈壁上的碎石可能受到风蚀，但碎石形状还会受到岩石性质、形成过程等因素影响，不能仅凭磨圆度判断其成因。",
         "knowledge_point": "风的侵蚀作用",
-        "question": "戈壁滩上随处可见的磨圆度很差的碎石主要是由（ ）形成的。",
         "options": [
           "雨水冲刷",
           "火山爆发",
           "风力的侵蚀与搬运",
           "冰川融化"
         ],
-        "answer": "风力的侵蚀与搬运",
-        "explanation": "由于风的吹蚀和磨蚀，岩石发生物理碎裂并留在当地或短途转运。"
+        "question": "戈壁滩上的岩石和碎屑可能受到风的吹蚀、磨蚀和搬运。与风的作用有关的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "黄土高原",
         "difficulty": 3,
+        "explanation": "黄河中游流经黄土高原。当地部分地区土质疏松、植被覆盖较少，容易发生水土流失，泥沙随水流进入黄河。",
         "knowledge_point": "黄河水的变化",
-        "question": "黄河水含沙量特别大，最主要是因为黄河流经了哪一地区？",
         "options": [
           "青藏高原",
           "黄土高原",
           "四川盆地",
           "江南丘陵"
         ],
-        "answer": "黄土高原",
-        "explanation": "黄土高原土质疏松、植被稀少，受流水强烈侵蚀，泥沙汇入黄河。"
+        "question": "黄河水含沙量特别大，最主要是因为黄河流经了哪一地区？",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "水土流失",
         "difficulty": 1,
+        "explanation": "流下的泥水说明降雨对地表土壤产生了侵蚀和搬运作用。",
         "knowledge_point": "降雨试验",
-        "question": "模拟雨水侵蚀土地的实验中，斜面上的小径流意味着（ ）。",
         "options": [
           "地下水枯竭",
           "水土流失",
           "地形抬升",
           "降雨停止"
         ],
-        "answer": "水土流失",
-        "explanation": "流下的泥水说明降雨对地表土壤产生了侵蚀和搬运作用。"
+        "question": "模拟雨水侵蚀土地的实验中，斜面上的小径流意味着（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "强风吹蚀",
         "difficulty": 2,
+        "explanation": "雅丹地貌是干旱地区典型的风蚀地貌，长期风力作用塑造了它的特殊形态。",
         "knowledge_point": "雅丹地貌",
-        "question": "我国甘肃敦煌的雅丹地貌，形成其特殊形态的主要营力是（ ）。",
         "options": [
           "太阳光照",
           "动物活动",
           "冰川磨损",
           "强风吹蚀"
         ],
-        "answer": "强风吹蚀",
-        "explanation": "雅丹地貌是干旱地区典型的风蚀地貌。"
+        "question": "我国甘肃敦煌的雅丹地貌，形成其特殊形态的主要营力是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "盆地",
         "difficulty": 2,
+        "explanation": "盆地四周较高，中间较低且相对平坦，题干描述的是盆地。",
         "knowledge_point": "地形特征",
-        "question": "四周高、中间低平的地貌被称为（ ）。",
         "options": [
           "山地",
           "高原",
           "盆地",
           "丘陵"
         ],
-        "answer": "盆地",
-        "explanation": "盆地的地形特征就是四周山岭环绕，中间地形较低平。"
+        "question": "四周高、中间低平的地貌被称为（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "原地抱头躲在桌子下",
         "difficulty": 1,
+        "explanation": "地震时应迅速就近躲避并保护头部。跳窗危险，站在空旷处或哭喊都不能有效防护。",
         "knowledge_point": "地震自救",
-        "question": "地震发生时，在教室内的同学应该（ ）。",
         "options": [
           "马上跳窗逃生",
           "原地抱头躲在桌子下",
           "大声哭喊求救",
           "站在教室中间不动"
         ],
-        "answer": "原地抱头躲在桌子下",
-        "explanation": "此时应迅速寻找遮挡物，保护头部。跳窗极其危险。"
+        "question": "地震发生时，在教室内的同学应该（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "高山",
         "difficulty": 1,
+        "explanation": "板块相互挤压会使地表岩层隆起，形成山地。岩层受力后也可能弯曲或断裂，具体结果与岩层和受力情况有关。",
         "knowledge_point": "岩层断裂",
-        "question": "两个板块相互挤压产生地表突出的地形是（ ）。",
         "options": [
           "大海",
           "大峡谷",
           "高山",
           "裂谷"
         ],
-        "answer": "高山",
-        "explanation": "板块挤压会导致岩层隆起形成山脉，如喜马拉雅山。"
+        "question": "两个板块相互挤压，可能使地表形成的突出地形是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "火山活动",
         "difficulty": 3,
+        "explanation": "火山活动形成火山口，火山活动停止后，雨水、融雪和地下水等汇入低洼处，逐渐形成火山口湖。",
         "knowledge_point": "长白山天池",
-        "question": "长白山天池是一个巨大的火山口湖，它主要是由（ ）形成的。",
         "options": [
           "风力磨蚀",
           "火山活动",
           "人工挖掘",
           "地震断层"
         ],
-        "answer": "火山活动",
-        "explanation": "火山喷发停止后，火山口积水形成的湖泊。"
+        "question": "长白山天池是一个巨大的火山口湖，它主要是由（ ）形成的。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "地球内部圈层数量",
-        "question": "如果按照主要结构来分，地球内部可以分为（ ）层。",
-        "options": [],
         "answer": "3",
-        "explanation": "即地壳、地幔、地核三层。"
-      },
-      {
-        "id": 20,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "板块数量",
-        "question": "地球的岩石圈并不是一个整体，而是由（ ）大板块拼合而成的。",
-        "options": [],
-        "answer": "6",
-        "explanation": "科学界公认地球岩石圈分为六大板块。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
-        "knowledge_point": "地球最外层",
-        "question": "地球结构中，位于最外面一层、厚度最薄的是（ ）。",
+        "explanation": "按主要结构划分，地球内部由地壳、地幔和地核三层组成。",
+        "knowledge_point": "地球内部圈层数量",
         "options": [],
+        "question": "如果按照主要结构来分，地球内部可以分为（ ）层。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 19
+      },
+      {
+        "answer": "6",
+        "difficulty": 2,
+        "explanation": "地球岩石圈不是一个整体，而是由六个主要板块拼合而成。",
+        "knowledge_point": "板块数量",
+        "options": [],
+        "question": "地球的岩石圈并不是一个整体，而是由（ ）大板块拼合而成的。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
+      },
+      {
         "answer": "地壳",
-        "explanation": "地壳是地球固体圈层的最外层。"
+        "difficulty": 1,
+        "explanation": "地壳位于地球固体圈层的最外面，是三层中最薄的一层。",
+        "knowledge_point": "地球最外层",
+        "options": [],
+        "question": "地球结构中，位于最外面一层、厚度最薄的是（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "侵蚀作用",
-        "question": "雨水降落在地面上，流走时带走颗粒细小的泥沙，这种现象叫（ ）。",
-        "options": [],
         "answer": "侵蚀",
-        "explanation": "雨水运动导致的对地表物质的破坏和搬运作用叫侵蚀。"
+        "difficulty": 2,
+        "explanation": "雨水径流带走地表细小泥沙，属于外力剥离并搬运地表物质的侵蚀作用。",
+        "knowledge_point": "侵蚀作用",
+        "options": [],
+        "question": "雨水降落在地面上，流走时带走颗粒细小的泥沙，这种现象叫（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "沉积作用",
-        "question": "当河流流速减慢时，河水携带的泥沙会沉落下来，这种现象叫（ ）。",
-        "options": [],
         "answer": "沉积",
-        "explanation": "搬运能力减弱时物质会堆积下来，即沉积。"
+        "difficulty": 2,
+        "explanation": "河水流速减慢时，搬运泥沙的能力减弱，泥沙沉落并堆积，这种现象叫沉积。",
+        "knowledge_point": "沉积作用",
+        "options": [],
+        "question": "当河流流速减慢时，河水携带的泥沙会沉落下来，这种现象叫（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "平原的典型特点是地势低平、起伏较小。",
+        "knowledge_point": "典型地形地貌的特征与成因",
+        "options": [
+          "地势很高，顶部平坦",
+          "地势低平，起伏较小",
+          "四周低、中间高",
+          "山峰尖锐，起伏很大"
+        ],
+        "question": "下列哪项最符合平原的特征？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "山地",
+        "difficulty": 1,
+        "explanation": "山地通常地势较高、起伏较大，常有较明显的山峰和山谷。",
+        "knowledge_point": "典型地形地貌的特征与成因",
+        "options": [],
+        "question": "地势较高、起伏较大，常有山峰和山谷的地形通常称为______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 25
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "河流能够冲刷和切割地面，长期作用可形成河谷或峡谷。",
+        "knowledge_point": "典型地形地貌的特征与成因",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "河流长期冲刷地面，可能形成河谷或峡谷。",
+        "score": 1,
+        "type": "true_false",
+        "id": 26
+      },
+      {
+        "answer": "风把沙粒搬运到一定地点后堆积起来，逐渐形成沙丘。",
+        "difficulty": 2,
+        "explanation": "风能够搬运沙粒；当风力减弱或遇到阻挡时，沙粒会沉积下来，长期堆积可形成沙丘。",
+        "knowledge_point": "典型地形地貌的特征与成因",
+        "options": [],
+        "question": "沙丘通常是怎样形成的？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "地势低平、起伏小；可能由河流搬运并堆积泥沙形成。",
+        "difficulty": 2,
+        "explanation": "平原的表面通常较平坦。河水流速减慢时，携带的泥沙容易沉积，长期堆积可能形成平原。",
+        "knowledge_point": "典型地形地貌的特征与成因",
+        "options": [],
+        "question": "写出平原的一项主要特征，并说出一种可能的形成原因。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "地下水长期溶蚀石灰岩等可溶岩石，能够形成溶洞等喀斯特地貌；风力堆积则常见于沙丘形成。",
+        "knowledge_point": "典型地形地貌的特征与成因",
+        "options": [
+          "流水堆积沙粒",
+          "地下水长期溶蚀可溶岩石",
+          "火山喷发后岩浆冷却",
+          "海浪搬运贝壳"
+        ],
+        "question": "溶洞等喀斯特地貌常与哪种作用有关？",
+        "score": 2,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "地壳、地幔、地核。",
+        "difficulty": 1,
+        "explanation": "地球内部从外向内依次分为地壳、地幔和地核。",
+        "knowledge_point": "地球内部圈层结构",
+        "options": [],
+        "question": "地球内部从外向内依次由哪三层组成？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "地壳。",
+        "difficulty": 1,
+        "explanation": "地壳位于地球最外层；地幔在地壳之下，地核在地球中心。",
+        "knowledge_point": "地球内部圈层结构",
+        "options": [],
+        "question": "地球内部最外面的一层叫什么？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "地幔主要由高温、高压下的固态岩石构成。",
+        "difficulty": 2,
+        "explanation": "地幔位于地壳和地核之间，主要由高温、高压下的固态岩石构成，不是整层液态岩浆。",
+        "knowledge_point": "地球内部圈层结构",
+        "options": [
+          "地幔全部由液态岩浆组成。",
+          "地幔主要由高温、高压下的固态岩石构成。",
+          "地幔是地球最外层，位于地表。",
+          "地幔位于地核以内，是地球中心部分。"
+        ],
+        "question": "关于地幔，下面哪种说法正确？",
+        "score": 1,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "大陆地壳通常较厚，海洋地壳通常较薄。",
+        "difficulty": 2,
+        "explanation": "地壳厚度并不均匀，大陆地壳和海洋地壳的厚度不同，大陆地壳通常更厚。",
+        "knowledge_point": "地球内部圈层结构",
+        "options": [],
+        "question": "比较大陆地壳和海洋地壳，哪一种通常较厚？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "判断：地核位于地球内部的中心。（对）地球由外向内依次是地壳、地幔和地核，因此地核位于最里面、接近地球中心。",
+        "knowledge_point": "地球内部圈层结构",
+        "options": [],
+        "question": "判断：地核位于地球内部的中心。",
+        "score": 1,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "蛋壳像地壳，蛋白像地幔，蛋黄像地核。",
+        "difficulty": 2,
+        "explanation": "熟鸡蛋可以帮助记忆圈层由外向内的顺序：蛋壳、蛋白、蛋黄对应地壳、地幔、地核。这个比喻只说明位置关系，并不表示两者材料相同。",
+        "knowledge_point": "地球内部圈层结构",
+        "options": [],
+        "question": "用熟鸡蛋类比地球内部圈层时，蛋壳、蛋白、蛋黄分别可以对应哪一层？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "岩层突然断裂或错动，释放出能量，引起地面震动。",
+        "difficulty": 1,
+        "explanation": "地壳运动会使岩层受到挤压、拉伸等作用。当岩层承受不住而突然断裂或错动时，产生的能量会向周围传播，引起地震。",
+        "knowledge_point": "地震与火山的成因",
+        "options": [],
+        "question": "地震通常是怎样形成的？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 36
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "震源是地下岩层发生破裂或错动的位置；震中是震源正上方的地面位置，两者不相同。",
+        "knowledge_point": "地震与火山的成因",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "震源是地下发生地震的地方，震中是震源正上方的地面位置。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "火山喷发与地下岩浆活动有关。岩浆沿着地壳中的裂缝或通道上升，并喷出地表时，会发生火山喷发。",
+        "knowledge_point": "地震与火山的成因",
+        "options": [
+          "A. 地表的雨水不断冲刷岩石",
+          "B. 地下岩浆沿通道上升并喷出地表",
+          "C. 海水涨潮后冲上陆地"
+        ],
+        "question": "火山喷发通常与什么有关？",
+        "score": 1,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "地震",
+        "difficulty": 1,
+        "explanation": "岩层突然断裂或错动会释放能量，引起地面震动，这种现象叫地震。",
+        "knowledge_point": "地震与火山的成因",
+        "options": [],
+        "question": "岩层在地下突然断裂或错动，引起地面震动，这种现象叫作____。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 39
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "地震和火山活动都与地球内部的活动有关，但成因不同：岩层突然断裂或错动会引起地震，岩浆上升并喷出地表会引起火山喷发。",
+        "knowledge_point": "地震与火山的成因",
+        "options": [
+          "A. 地震一定由火山喷发引起",
+          "B. 火山喷发就是地下岩层发生地震",
+          "C. 两者都与地球内部活动有关，但直接成因不同"
+        ],
+        "question": "关于地震和火山喷发，下面哪种说法正确？",
+        "score": 2,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "岩层突然断裂或错动会引起地震；岩浆沿地壳裂缝或通道上升并喷出地表会引起火山喷发。它们都与地球内部活动有关，但直接成因不同。",
+        "difficulty": 2,
+        "explanation": "回答时要说清两种现象的直接成因，并指出它们的共同点：都与地球内部活动有关。",
+        "knowledge_point": "地震与火山的成因",
+        "options": [],
+        "question": "简要说说地震和火山喷发分别是怎样形成的，它们有什么共同点？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "侵蚀",
+        "difficulty": 1,
+        "explanation": "风把地表的沙粒吹起并搬运到别处，属于风对地表物质的侵蚀作用。",
+        "knowledge_point": "风与水对外力的侵蚀与沉积作用",
+        "options": [
+          "侵蚀",
+          "沉积",
+          "蒸发",
+          "凝结"
+        ],
+        "question": "风把裸露地面上的沙粒吹走并带到别处，这主要属于什么作用？",
+        "score": 1,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "沉积",
+        "difficulty": 1,
+        "explanation": "河水流速减慢时，搬运沙泥的能力下降，沙泥便会堆积下来，这叫沉积。",
+        "knowledge_point": "风与水对外力的侵蚀与沉积作用",
+        "options": [
+          "侵蚀",
+          "沉积",
+          "融化",
+          "蒸发"
+        ],
+        "question": "河水流到较平缓的地方，流速减慢，沙泥逐渐堆积下来。这种现象属于什么作用？",
+        "score": 1,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "侵蚀会磨蚀、搬运地表物质；沉积则是被搬运的物质堆积下来。",
+        "knowledge_point": "风与水对外力的侵蚀与沉积作用",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断：侵蚀是地表物质被磨蚀、搬运，沉积是这些物质在别处堆积。",
+        "score": 1,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "流水",
+        "difficulty": 1,
+        "explanation": "流水可以冲刷地表、搬运沙土，也能在流速减慢时使沙土沉积。",
+        "knowledge_point": "风与水对外力的侵蚀与沉积作用",
+        "options": [],
+        "question": "能够冲刷地表并搬运泥沙，流速减慢时又能使泥沙堆积的自然力量是____。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "侵蚀",
+        "difficulty": 2,
+        "explanation": "雨水汇成水流，冲刷并带走坡地上的泥土，使地表物质被磨蚀和搬运，这是侵蚀。",
+        "knowledge_point": "风与水对外力的侵蚀与沉积作用",
+        "options": [],
+        "question": "山坡上的雨水汇成水流，把泥土冲到坡下。泥土被冲走的过程叫____作用。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "风力或水流减弱，搬运能力下降，被搬运的沙土等物质便会沉积、堆积下来。",
+        "difficulty": 2,
+        "explanation": "风和流水的搬运能力会随风力、流速变化。力量减弱时，原先搬运的物质更容易停下来并堆积。",
+        "knowledge_point": "风与水对外力的侵蚀与沉积作用",
+        "options": [],
+        "question": "风或流水把沙土搬运到别处后，通常在什么情况下会发生沉积？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "地壳、地幔、地核",
+        "difficulty": 1,
+        "explanation": "从地球表面向中心，主要结构依次是地壳、地幔和地核。",
+        "knowledge_point": "地球内部结构",
+        "options": [],
+        "question": "地球内部由外向内主要分为______、______和______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 48
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "地幔位于地壳下面、地核外面，因此在地壳与地核之间。",
+        "knowledge_point": "地球内部结构",
+        "options": [
+          "A. 地壳",
+          "B. 地幔",
+          "C. 地核"
+        ],
+        "question": "地球内部哪一层位于地壳与地核之间？",
+        "score": 2,
+        "type": "choice",
+        "id": 49
+      },
+      {
+        "answer": "外核和内核",
+        "difficulty": 2,
+        "explanation": "地核是地球的中心部分，可以分为外核和内核。",
+        "knowledge_point": "地球内部结构",
+        "options": [],
+        "question": "地核可以分为哪两部分？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 50
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "地球内部结构图通常是示意图，帮助人们理解各层的位置，并不一定按真实厚度比例绘制。",
+        "knowledge_point": "地球内部结构",
+        "options": [],
+        "question": "地球内部结构示意图中的各层厚度一定按真实比例绘制。",
+        "score": 2,
+        "type": "true_false",
+        "id": 51
+      },
+      {
+        "answer": "地壳 → 地幔 → 地核",
+        "difficulty": 2,
+        "explanation": "从地球外部向中心，先经过地壳，再经过地幔，最后到达地核。",
+        "knowledge_point": "地球内部结构",
+        "options": [],
+        "question": "把地壳、地幔、地核按从外向内的顺序排列。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "房屋、桥梁和道路等设施损坏，人员受伤或被困",
+        "difficulty": 1,
+        "explanation": "地震会使地面震动，导致建筑物和基础设施受损，也可能使人受伤或被困。",
+        "knowledge_point": "地震的危害",
+        "options": [],
+        "question": "写出一种地震可能造成的直接危害。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "地震会造成地面和建筑物剧烈晃动，灯具、柜子等物品可能倾倒或坠落，因此应远离这些危险物并保护头颈。",
+        "knowledge_point": "地震的危害",
+        "options": [
+          "A. 天空出现彩虹",
+          "B. 河水自动变成淡水",
+          "C. 家具倾倒、物品坠落"
+        ],
+        "question": "地震时，哪种情况可能直接伤害人？",
+        "score": 2,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "火灾",
+        "difficulty": 2,
+        "explanation": "地震可能损坏电线、燃气管道等设施，从而引发火灾等次生灾害。山体滑坡和泥石流也可能是地震引发的次生灾害。",
+        "knowledge_point": "地震的危害",
+        "options": [],
+        "question": "地震损坏电线或燃气管道后，可能引发的一种次生灾害是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 55
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "地震时乘电梯可能因停电或电梯故障而被困。应就近采取保护措施，待震动停止后，在确认路线安全的情况下走楼梯有序撤离。",
+        "knowledge_point": "地震的危害",
+        "options": [],
+        "question": "地震发生时，乘电梯快速下楼是安全的做法。",
+        "score": 2,
+        "type": "true_false",
+        "id": 56
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "高楼可能倒塌或掉落碎片，广告牌和电线也可能坠落，因此户外避险应远离这些物体，寻找空旷且安全的地方。",
+        "knowledge_point": "地震的危害",
+        "options": [
+          "A. 靠近高楼和广告牌",
+          "B. 远离建筑物、广告牌和电线，到空旷处避险",
+          "C. 躲在玻璃窗边观察"
+        ],
+        "question": "在户外遇到地震时，下面哪种做法较安全？",
+        "score": 2,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "风能够推动帆船前进，帆船利用风力航行。",
+        "knowledge_point": "风的作用",
+        "options": [
+          "A. 推动帆船前进",
+          "B. 让石头立刻变成水",
+          "C. 使白天变成黑夜",
+          "D. 让地球停止转动"
+        ],
+        "question": "下列哪一项是风的作用？",
+        "score": 2,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "搬运",
+        "difficulty": 1,
+        "explanation": "风把沙粒从一处吹到另一处，这体现了风的搬运作用。",
+        "knowledge_point": "风的作用",
+        "options": [],
+        "question": "风把沙粒从沙漠的一处吹到另一处，这体现了风的（　　）作用。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 59
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "风能帮助植物种子或花粉传播到较远的地方。",
+        "knowledge_point": "风的作用",
+        "options": [],
+        "question": "风可以帮助一些植物传播种子或花粉。",
+        "score": 2,
+        "type": "true_false",
+        "id": 60
+      },
+      {
+        "answer": "风力发电",
+        "difficulty": 2,
+        "explanation": "风吹动风力发电机的叶片，使发电机运转，从而把风能转化为电能。",
+        "knowledge_point": "风的作用",
+        "options": [],
+        "question": "风吹动风力发电机的叶片，使机器运转并产生电能，这种利用风的方式叫作（　　）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "沙土被吹起并搬运，堆积在地表某处",
+        "difficulty": 2,
+        "explanation": "风能吹起并搬运沙土，风力减弱时，沙土会在地面堆积，长期作用可能形成沙丘等地貌。",
+        "knowledge_point": "风的作用",
+        "options": [],
+        "question": "简要说明风怎样使沙土在地表形成堆积。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "岩层运动",
+        "difficulty": 1,
+        "explanation": "地球内部的力量使岩层移动、弯曲或断裂等，这些变化统称为岩层运动。",
+        "knowledge_point": "岩层运动",
+        "options": [],
+        "question": "地球内部力量使岩层发生移动、弯曲或断裂等变化，这种过程叫作____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 63
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "岩层运动通常非常缓慢，短时间内不容易观察到，但它会持续发生。",
+        "knowledge_point": "岩层运动",
+        "options": [
+          "A. 岩层运动每天都会明显改变地表",
+          "B. 岩层运动通常缓慢而持续",
+          "C. 岩层运动只发生在海洋中",
+          "D. 岩层运动已经停止"
+        ],
+        "question": "关于岩层运动，下列说法正确的是哪一项？",
+        "score": 2,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "岩层受到挤压时可能发生弯曲或断裂；长期运动还会形成不同的地表形态。",
+        "knowledge_point": "岩层运动",
+        "options": [],
+        "question": "岩层受到挤压时，可能发生弯曲或断裂。",
+        "score": 2,
+        "type": "true_false",
+        "id": 65
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "岩层或板块突然错动可能引发地震；山脉、裂谷等地貌也可能与长期的岩层运动有关。",
+        "knowledge_point": "岩层运动",
+        "options": [
+          "A. 云的形成",
+          "B. 昼夜交替",
+          "C. 地震的发生",
+          "D. 月亮绕地球运动"
+        ],
+        "question": "岩层突然发生错动时，可能引发什么现象？",
+        "score": 2,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "很长时间",
+        "difficulty": 2,
+        "explanation": "岩层运动通常很缓慢，许多地表变化要经过很长时间才逐渐形成。",
+        "knowledge_point": "岩层运动",
+        "options": [],
+        "question": "许多由岩层运动造成的地表变化，需要经过____才逐渐形成。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 67
+      },
+      {
+        "answer": "根",
+        "difficulty": 1,
+        "explanation": "植物的根长在土壤中，能抓住土粒，使土壤不容易被水流或风带走。",
+        "knowledge_point": "植物对侵蚀的影响",
+        "options": [],
+        "question": "植物的____能像网一样抓住土壤。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 68
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "叶片和地面覆盖物能减轻雨滴对土壤的直接冲击，也能帮助减慢地表径流。",
+        "knowledge_point": "植物对侵蚀的影响",
+        "options": [
+          "A. 让雨滴更猛烈地打在土壤上",
+          "B. 遮挡雨滴并帮助减慢地表径流",
+          "C. 把土壤变成岩石",
+          "D. 让土壤更容易被风吹走"
+        ],
+        "question": "植物的叶片和地面覆盖物怎样帮助减少雨水侵蚀？",
+        "score": 2,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "植物通常能减缓侵蚀，但不一定能完全阻止。强降雨、陡坡或植被稀少时，土壤仍可能被冲走。",
+        "knowledge_point": "植物对侵蚀的影响",
+        "options": [],
+        "question": "只要有植物生长，土壤就绝不会被雨水冲走。",
+        "score": 2,
+        "type": "true_false",
+        "id": 70
+      },
+      {
+        "answer": "裸露地面",
+        "difficulty": 2,
+        "explanation": "裸露地面缺少根系固土，也没有枝叶遮挡雨滴，雨水更容易带走土粒。",
+        "knowledge_point": "植物对侵蚀的影响",
+        "options": [],
+        "question": "在坡度和降雨相同的情况下，通常是有植物覆盖的地面还是____更容易发生土壤侵蚀？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 71
+      },
+      {
+        "answer": "B",
+        "difficulty": 3,
+        "explanation": "草的根系能抓住土壤，地面上的草叶也能遮挡雨滴，因此种草有助于减缓侵蚀，但不能保证完全没有土壤流失。",
+        "knowledge_point": "植物对侵蚀的影响",
+        "options": [
+          "A. 因为草会让雨水完全消失",
+          "B. 因为草根能固土，草叶能缓冲雨滴和径流",
+          "C. 因为草能把坡地变平",
+          "D. 因为草能阻止所有雨水流动"
+        ],
+        "question": "山坡上种草后，土壤通常比较不容易被雨水冲走，主要原因是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "平原",
+        "difficulty": 1,
+        "explanation": "平原的地势通常较低，地面平坦或起伏很小。",
+        "knowledge_point": "地形地貌识别",
+        "options": [
+          "高原",
+          "平原",
+          "山地",
+          "盆地"
+        ],
+        "question": "地势较低、地面宽广而平坦的地形是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "山地",
+        "difficulty": 1,
+        "explanation": "山地一般海拔较高，地面起伏明显，坡度较陡。",
+        "knowledge_point": "地形地貌识别",
+        "options": [
+          "平原",
+          "丘陵",
+          "山地",
+          "盆地"
+        ],
+        "question": "海拔较高，山峰和山谷相间，地面起伏很大的地形是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "丘陵",
+        "difficulty": 2,
+        "explanation": "丘陵由连绵起伏的低矮山丘组成，海拔较低，坡度较缓，起伏通常小于山地。",
+        "knowledge_point": "地形地貌识别",
+        "options": [
+          "山地",
+          "丘陵",
+          "高原",
+          "平原"
+        ],
+        "question": "一片地区有许多低矮的小山丘，地面起伏较缓，这种地形是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "盆地",
+        "difficulty": 2,
+        "explanation": "盆地的特点是四周地势较高，中间地势较低，看起来像一个盆子。",
+        "knowledge_point": "地形地貌识别",
+        "options": [
+          "盆地",
+          "高原",
+          "平原",
+          "山地"
+        ],
+        "question": "一个地方四周高、中间低，像一个大盆子，这种地形是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "高原",
+        "difficulty": 2,
+        "explanation": "高原与平原都可能比较平坦，但高原的海拔较高，平原的海拔通常较低。",
+        "knowledge_point": "地形地貌识别",
+        "options": [
+          "平原",
+          "高原",
+          "丘陵",
+          "盆地"
+        ],
+        "question": "小明观察到一片地面比较平坦的区域，发现它的海拔很高。它最可能属于哪种地形？",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "地壳、地幔、地核",
+        "difficulty": 1,
+        "explanation": "从地球表面向中心，内部圈层依次是地壳、地幔和地核。",
+        "knowledge_point": "地球内部圈层",
+        "options": [],
+        "question": "填空：地球内部由外向内依次是____、____、____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 78
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "地壳是地球内部最外面的圈层，地幔位于地壳之下，地核在地球中心附近。",
+        "knowledge_point": "地球内部圈层",
+        "options": [],
+        "question": "地壳是地球内部最外面的圈层。",
+        "score": 5,
+        "type": "true_false",
+        "id": 79
+      },
+      {
+        "answer": "地壳",
+        "difficulty": 1,
+        "explanation": "地壳位于地球内部圈层的最外侧，是我们生活的地表所在的圈层。",
+        "knowledge_point": "地球内部圈层",
+        "options": [],
+        "question": "地球内部最外面的圈层叫什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 80
+      },
+      {
+        "answer": "地核",
+        "difficulty": 2,
+        "explanation": "地核位于地球内部的中心区域，是由外向内排列的最后一个主要圈层。",
+        "knowledge_point": "地球内部圈层",
+        "options": [],
+        "question": "地球内部位于中心区域的圈层是什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 81
+      },
+      {
+        "answer": "外核和内核",
+        "difficulty": 2,
+        "explanation": "地核还可以分为外核和内核，二者都属于地核。",
+        "knowledge_point": "地球内部圈层",
+        "options": [],
+        "question": "地核通常可以进一步分成哪两部分？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "沉积岩",
+        "difficulty": 2,
+        "explanation": "岩石碎屑等物质经过搬运和沉积，再经压实等作用，可以形成沉积岩。",
+        "knowledge_point": "岩石成因",
+        "options": [
+          "岩浆岩",
+          "沉积岩",
+          "变质岩",
+          "矿物晶体"
+        ],
+        "question": "岩石碎屑经过搬运、沉积和压实等作用，可能形成（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "变质岩",
+        "difficulty": 2,
+        "explanation": "原有岩石在高温、高压等作用下发生变化，形成变质岩。",
+        "knowledge_point": "岩石成因",
+        "options": [
+          "沉积岩",
+          "岩浆岩",
+          "变质岩",
+          "土壤"
+        ],
+        "question": "原有岩石在高温、高压等作用下发生变化，形成（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "岩浆冷却、凝固后形成岩浆岩。",
+        "knowledge_point": "岩石成因",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "岩浆冷却凝固可以形成岩浆岩。",
+        "score": 5,
+        "type": "true_false",
+        "id": 85
+      },
+      {
+        "answer": "沉积岩",
+        "difficulty": 2,
+        "explanation": "沉积岩由沉积物经过沉积、压实等作用形成。",
+        "knowledge_point": "岩石成因",
+        "options": [],
+        "question": "由沉积物经过沉积、压实等作用形成的岩石叫作______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "高温、高压",
+        "difficulty": 2,
+        "explanation": "变质岩是原有岩石在高温、高压等作用下发生变化形成的。",
+        "knowledge_point": "岩石成因",
+        "options": [],
+        "question": "原有岩石在______、______等作用下发生变化，可以形成变质岩。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 87
+      },
+      {
+        "answer": "岩层受到挤压等作用，积累的力使岩层突然断裂或错动，释放能量并引起地面震动。",
+        "difficulty": 1,
+        "explanation": "地震通常不是岩层缓慢受力时发生的，而是岩层中的力积累到一定程度后，突然断裂或错动，能量释放才引发明显震动。",
+        "knowledge_point": "地震成因",
+        "options": [],
+        "question": "简要说说绝大多数地震是怎样形成的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 88
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "地震发生时的地面震动，通常是岩层突然断裂或错动释放能量造成的，不是全球气候变暖造成的。",
+        "knowledge_point": "地震成因",
+        "options": [],
+        "question": "判断：全球气候变暖是绝大多数地震发生的主要原因。（  ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 89
+      },
+      {
+        "answer": "断裂或错动",
+        "difficulty": 1,
+        "explanation": "岩层受到的力积累到一定程度后，突然断裂或错动，会释放能量，引起地面震动。",
+        "knowledge_point": "地震成因",
+        "options": [],
+        "question": "岩层突然________并释放能量，可能引起地震。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 90
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "当地下岩层受力后突然断裂或错动，积累的能量会迅速释放，使地面发生震动。A描述的是缓慢变化，C、D与岩层活动没有直接关系。",
+        "knowledge_point": "地震成因",
+        "options": [
+          "地下岩层缓慢变暖",
+          "地下岩层突然断裂或错动并释放能量",
+          "天空中出现乌云",
+          "海水每天涨落"
+        ],
+        "question": "下列哪种情况最可能直接引起地面震动，形成地震？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "火山活动",
+        "difficulty": 2,
+        "explanation": "绝大多数地震与岩层断裂、错动有关；火山活动等也可能引起地震，因此说所有地震都只由岩层断裂造成并不准确。",
+        "knowledge_point": "地震成因",
+        "options": [],
+        "question": "除了岩层断裂或错动，________等活动也可能引起地震。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 92
+      },
+      {
+        "answer": "岩浆",
+        "difficulty": 1,
+        "explanation": "熔融岩石在地下称为岩浆；喷出地表后称为熔岩。",
+        "knowledge_point": "火山喷发",
+        "options": [],
+        "question": "地下的熔融岩石通常称为______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "火山灰、气体和岩石碎块",
+        "difficulty": 2,
+        "explanation": "火山喷发物不只有熔岩，还可能包含火山灰、气体和岩石碎块。",
+        "knowledge_point": "火山喷发",
+        "options": [],
+        "question": "除熔岩外，火山喷发时还可能喷出哪些物质？请写出两种。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 94
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "岩浆喷出地表后，通常称为熔岩。",
+        "knowledge_point": "火山喷发",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "岩浆喷出地表后通常称为熔岩。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 95
+      },
+      {
+        "answer": "火山灰长期风化后可能使土壤较肥沃。",
+        "difficulty": 2,
+        "explanation": "火山喷发会带来破坏，但火山灰中的矿物质经过长期风化，也可能使周围土壤变得较肥沃。",
+        "knowledge_point": "火山喷发",
+        "options": [],
+        "question": "火山喷发会带来危害，但火山灰长期风化后也可能使周围土壤较______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 96
+      },
+      {
+        "answer": "听从预警和疏散安排，远离火山口、熔岩流及火山灰浓重的区域。",
+        "difficulty": 2,
+        "explanation": "火山喷发可能带来高温熔岩、火山灰和有害气体等危险。遇到预警时，应听从当地安排，尽快前往安全区域，不自行靠近火山活动区域。",
+        "knowledge_point": "火山喷发",
+        "options": [],
+        "question": "如果居住地附近出现火山喷发预警，应采取什么安全做法？请写出一项。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 97
+      },
+      {
+        "answer": "吹蚀和磨蚀",
+        "difficulty": 1,
+        "explanation": "风可以吹起地表的松散颗粒，也可以携带沙粒磨蚀岩石表面，这些都属于风的侵蚀作用。",
+        "knowledge_point": "风的侵蚀作用",
+        "options": [],
+        "question": "风携带沙粒对岩石表面进行磨损，这种作用叫作风的______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 98
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "植被和其他覆盖物能够固定土壤、减弱风直接吹蚀地表，因此通常能减少风蚀。",
+        "knowledge_point": "风的侵蚀作用",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "地表植被较多时，土壤通常不容易被风吹走。",
+        "score": 5,
+        "type": "true_false",
+        "id": 99
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "颗粒越轻、越小，越容易被风吹起和搬运；较大、较重的颗粒较难被风搬运。",
+        "knowledge_point": "风的侵蚀作用",
+        "options": [
+          "颗粒越大越重，越容易被风搬运",
+          "地面越潮湿，越容易被风吹起",
+          "颗粒较小较轻，通常更容易被风吹起",
+          "有植物覆盖时，风蚀一定更强"
+        ],
+        "question": "在其他条件相近时，哪种地表颗粒通常更容易被风吹起？",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "吹蚀、磨蚀和搬运",
+        "difficulty": 2,
+        "explanation": "风能吹走松散颗粒，携带沙粒磨损岩石，并把颗粒从一个地方搬到另一个地方。这些作用会改变地表。",
+        "knowledge_point": "风的侵蚀作用",
+        "options": [],
+        "question": "写出风对地表进行侵蚀时可能发生的两种作用。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "先被风吹起并搬运，后在风力减弱时沉积",
+        "difficulty": 3,
+        "explanation": "风力较强时，风能吹起并搬运松散颗粒；风力减弱后，风携带颗粒的能力下降，颗粒便可能落下形成沉积。",
+        "knowledge_point": "风的侵蚀作用",
+        "options": [
+          "先被风吹起并搬运，后在风力减弱时沉积",
+          "先沉积，随后风力增强将颗粒固定",
+          "颗粒始终留在原地，不受风影响",
+          "风力越弱，颗粒越容易被吹起"
+        ],
+        "question": "一阵风把沙粒从裸露地面吹向附近地面，风停后沙粒落下。这个过程最合理的描述是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "水土流失",
+        "difficulty": 2,
+        "explanation": "雨水冲刷地表，会把土壤和泥沙带入河流，这种土壤被侵蚀、搬运的现象称为水土流失。",
+        "knowledge_point": "黄河水的变化",
+        "options": [],
+        "question": "雨水冲刷地表，把泥土带进河流，这种现象叫作______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 103
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "植被能够减缓雨水对地表的直接冲刷，植物根系也有助于固定土壤，因此植树种草可以减少水土流失。",
+        "knowledge_point": "黄河水的变化",
+        "options": [],
+        "question": "植树种草有助于减少黄土被雨水冲走，从而减少进入黄河的泥沙。",
+        "score": 5,
+        "type": "true_false",
+        "id": 104
+      },
+      {
+        "answer": "植树种草",
+        "difficulty": 2,
+        "explanation": "植被能覆盖地表、减缓雨水冲刷，并帮助固定土壤，是减少水土流失的一种措施。",
+        "knowledge_point": "黄河水的变化",
+        "options": [],
+        "question": "在坡地上种植树木和草，可以减少水土流失。这种措施叫作______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "植被少、土壤疏松",
+        "difficulty": 3,
+        "explanation": "植被覆盖较少时，地表缺少保护；土壤疏松时更容易被雨水冲走，泥沙便可能汇入黄河。",
+        "knowledge_point": "黄河水的变化",
+        "options": [
+          "植被少、土壤疏松",
+          "植被茂密、土壤不易被冲刷",
+          "气候温暖、河水清澈",
+          "河面宽阔、鱼类较多"
+        ],
+        "question": "下列哪种情况最容易使黄土被雨水冲走，增加河流中的泥沙？",
+        "score": 5,
+        "type": "choice",
+        "id": 106
+      },
+      {
+        "answer": "泥沙会减少",
+        "difficulty": 3,
+        "explanation": "淤地坝能拦截部分水流带来的泥沙，减轻泥沙向下游输送；实际效果还会受到降雨、水量和维护情况等因素影响。",
+        "knowledge_point": "黄河水的变化",
+        "options": [],
+        "question": "在沟谷中修建淤地坝，通常能拦住一部分泥沙。这样一来，进入下游河流的泥沙会______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "降雨试验中，雨水可能冲刷并搬运土壤；观察径流中的泥沙可以帮助判断水土流失情况。",
+        "knowledge_point": "降雨试验",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "降雨试验中的径流即使带有很多泥沙，也不能说明土壤受到冲刷。",
+        "score": 5,
+        "type": "true_false",
+        "id": 108
+      },
+      {
+        "answer": "植物",
+        "difficulty": 1,
+        "explanation": "植物覆盖能减缓雨滴对土壤的冲击，植物根系也有助于固定土壤，因此通常可以减少水土流失。",
+        "knowledge_point": "降雨试验",
+        "options": [],
+        "question": "在降雨试验中，有____覆盖的土壤通常比裸露土壤流失的泥沙少。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 109
+      },
+      {
+        "answer": "喷水量",
+        "difficulty": 2,
+        "explanation": "比较两种土地表面的水土流失情况时，应尽量保持喷水量相同，避免实验结果受到喷水量差异的影响。",
+        "knowledge_point": "降雨试验",
+        "options": [],
+        "question": "比较裸露土壤和有植物覆盖的土壤时，为了公平，喷水时间和____应尽量相同。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 110
+      },
+      {
+        "answer": "有植物覆盖的土壤流出的水通常较清、泥沙较少；裸露土壤流出的水通常更浑浊、泥沙较多。",
+        "difficulty": 2,
+        "explanation": "在其他条件相近时，植物能减缓雨水冲刷并帮助固定土壤，所以覆盖植被的地表通常水土流失较少。",
+        "knowledge_point": "降雨试验",
+        "options": [],
+        "question": "降雨试验中，比较裸露土壤和有植物覆盖的土壤，通常会观察到什么差异？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "观察流出的水量和水中泥沙的多少；泥沙越多、水越浑浊，通常说明土壤被冲刷得越严重。",
+        "difficulty": 2,
+        "explanation": "径流的水量和浑浊程度可以作为观察和比较水土流失情况的现象依据，但比较时还应保证其他实验条件尽量一致。",
+        "knowledge_point": "降雨试验",
+        "options": [],
+        "question": "在降雨试验中，可以通过观察哪些现象来比较水土流失的程度？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "干旱少雨",
+        "difficulty": 1,
+        "explanation": "雅丹地貌常见于干旱少雨、风力作用较强的地区。",
+        "knowledge_point": "雅丹地貌",
+        "options": [],
+        "question": "雅丹地貌常见于气候较为（ ）的地区。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "风长期吹蚀地表岩石，是形成雅丹地貌的重要原因。",
+        "knowledge_point": "雅丹地貌",
+        "options": [],
+        "question": "雅丹地貌的形成与风的长期侵蚀作用有关。",
+        "score": 5,
+        "type": "true_false",
+        "id": 114
+      },
+      {
+        "answer": "较软的岩石",
+        "difficulty": 2,
+        "explanation": "不同岩石的软硬程度不同，较软的部分更容易被风侵蚀，逐渐形成沟槽。",
+        "knowledge_point": "雅丹地貌",
+        "options": [],
+        "question": "在软硬不同的岩层中，通常（ ）的部分更容易被风侵蚀。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "沟槽和土丘相间",
+        "difficulty": 2,
+        "explanation": "风蚀会使地表形成高低起伏的形态，常见沟槽与土丘相间排列。",
+        "knowledge_point": "雅丹地貌",
+        "options": [
+          "沟槽和土丘相间",
+          "圆形湖泊遍布",
+          "冰雪覆盖的山峰",
+          "平坦的海底"
+        ],
+        "question": "下列哪种形态更符合雅丹地貌的常见特点？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 116
+      },
+      {
+        "answer": "风力侵蚀",
+        "difficulty": 2,
+        "explanation": "风力侵蚀是风吹动沙粒、磨损并带走地表物质的过程，是塑造雅丹地貌的重要作用。",
+        "knowledge_point": "雅丹地貌",
+        "options": [],
+        "question": "风吹动沙粒，对岩石表面进行磨损并带走地表物质，这种作用叫作（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "高原",
+        "difficulty": 2,
+        "explanation": "高原海拔较高，地面起伏较小，顶部比较平坦开阔。",
+        "knowledge_point": "地形特征",
+        "options": [
+          "平原",
+          "高原",
+          "盆地",
+          "丘陵"
+        ],
+        "question": "海拔较高、地面比较平坦开阔的地形通常是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 118
+      },
+      {
+        "answer": "平原",
+        "difficulty": 1,
+        "explanation": "平原的主要特征是海拔较低、地面平坦，起伏较小。",
+        "knowledge_point": "地形特征",
+        "options": [
+          "山地",
+          "平原",
+          "高原",
+          "盆地"
+        ],
+        "question": "地势低平、起伏很小的地形通常称为（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 119
+      },
+      {
+        "answer": "山地",
+        "difficulty": 2,
+        "explanation": "山地通常海拔较高，地面起伏明显，山峰和山谷较多。",
+        "knowledge_point": "地形特征",
+        "options": [
+          "平原",
+          "盆地",
+          "山地",
+          "高原"
+        ],
+        "question": "地势起伏较大，常有高山和山谷的地形是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 120
+      },
+      {
+        "answer": "丘陵",
+        "difficulty": 2,
+        "explanation": "丘陵一般海拔较低，地面有起伏，但坡度较缓、山顶较圆。",
+        "knowledge_point": "地形特征",
+        "options": [
+          "丘陵",
+          "高原",
+          "平原",
+          "盆地"
+        ],
+        "question": "海拔较低、起伏较缓，常呈连绵小山状的地形是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 121
+      },
+      {
+        "answer": "高原",
+        "difficulty": 3,
+        "explanation": "高原与平原都比较平坦，但高原的海拔较高；平原一般海拔较低。",
+        "knowledge_point": "地形特征",
+        "options": [
+          "平原",
+          "高原",
+          "山地",
+          "丘陵"
+        ],
+        "question": "小明看到一片地面较平坦的区域，但它的海拔明显较高。这片区域最可能是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 122
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "地震时乘坐电梯可能因停电、故障或建筑受损而被困，应避免使用电梯。",
+        "knowledge_point": "地震自救",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "地震发生时，可以乘坐电梯快速下楼。",
+        "score": 5,
+        "type": "true_false",
+        "id": 123
+      },
+      {
+        "answer": "头部和颈部",
+        "difficulty": 1,
+        "explanation": "避险时要用书包、手臂等遮挡头部和颈部，减少坠落物造成伤害的风险。",
+        "knowledge_point": "地震自救",
+        "options": [],
+        "question": "地震时躲避在桌下，要优先保护________和________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "震动停止后，应听从老师指挥，有序从楼梯撤离。拥挤奔跑容易摔倒，电梯也可能发生故障。",
+        "knowledge_point": "地震自救",
+        "options": [
+          "听从老师指挥，排队走楼梯撤离",
+          "大家争先恐后冲向电梯",
+          "留在窗边观察情况",
+          "跑回座位拿东西"
+        ],
+        "question": "震动停止后，教室里的同学应该怎样做？",
+        "score": 5,
+        "type": "choice",
+        "id": 125
+      },
+      {
+        "answer": "远离窗户、玻璃和高大柜子，立即蹲下或趴下，躲到结实桌子旁或下方，并用书包或手臂保护头部和颈部。",
+        "difficulty": 2,
+        "explanation": "窗户、玻璃和高大柜子附近可能有坠落或破碎物。就近遮挡并保护头颈，能降低受伤风险。",
+        "knowledge_point": "地震自救",
+        "options": [],
+        "question": "地震发生时，你在教室里且离窗户很近。写出两项保护自己的做法。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "不一定。震动停止后应先留在安全位置，听从老师或现场工作人员指挥，确认撤离路线安全后有序行动；如果身处室外的开阔安全处，应远离建筑物、围墙和电线等危险物，不要贸然返回建筑物。",
+        "difficulty": 3,
+        "explanation": "地震停止后仍可能发生余震，建筑物和周围设施也可能受损。应根据所在位置和现场指挥采取行动，而不是一律立即跑回室内。",
+        "knowledge_point": "地震自救",
+        "options": [],
+        "question": "地震一停，所有人都应该马上跑回室内吗？请说明理由。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "当岩层受力超过其承受能力时可能发生破裂；断裂面两侧岩层若有相对移动，就形成断层。",
+        "knowledge_point": "岩层断裂",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "岩层受到很大的力时可能发生断裂。",
+        "score": 5,
+        "type": "true_false",
+        "id": 128
+      },
+      {
+        "answer": "断层",
+        "difficulty": 2,
+        "explanation": "断裂面两侧的岩层发生相对移动，这种构造叫作断层。",
+        "knowledge_point": "岩层断裂",
+        "options": [],
+        "question": "岩层断裂后，断裂面两侧的岩层发生相对移动，形成了______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 129
+      },
+      {
+        "answer": "破裂",
+        "difficulty": 1,
+        "explanation": "岩层断裂的关键是岩层发生破裂；岩层弯曲但没有破裂，不属于断裂。",
+        "knowledge_point": "岩层断裂",
+        "options": [],
+        "question": "岩层断裂是指岩层发生______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 130
+      },
+      {
+        "answer": "岩层断裂后，断裂面两侧岩层发生了相对移动",
+        "difficulty": 2,
+        "explanation": "断层的判定要看断裂面两侧的岩层是否发生相对移动，而不只是看到岩层有裂缝。",
+        "knowledge_point": "岩层断裂",
+        "options": [],
+        "question": "什么情况下，岩层断裂会形成断层？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 131
+      },
+      {
+        "answer": "岩层受力发生破裂，断裂面两侧岩层相对移动",
+        "difficulty": 3,
+        "explanation": "地壳运动使岩层受到挤压、拉伸或剪切；岩层破裂后，如果断裂面两侧发生相对移动，就形成断层。",
+        "knowledge_point": "岩层断裂",
+        "options": [],
+        "question": "简要说明断层是怎样形成的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
+      },
+      {
+        "answer": "火山口",
+        "difficulty": 2,
+        "explanation": "长白山天池位于长白山火山口内，属于火山口湖。",
+        "knowledge_point": "长白山天池",
+        "options": [],
+        "question": "长白山天池位于长白山的（ ）内。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 133
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "火山口地势低洼，雨水、积雪融水和地下水等可以汇入并积存，形成湖泊。",
+        "knowledge_point": "长白山天池",
+        "options": [],
+        "question": "火山活动停止后，火山口中汇入的水可以积存下来形成湖泊。",
+        "score": 5,
+        "type": "true_false",
+        "id": 134
+      },
+      {
+        "answer": "雨水、积雪融水和地下水",
+        "difficulty": 3,
+        "explanation": "雨水、积雪融水和地下水等都可以补给天池的湖水，不应只把湖水来源归结为降雨。",
+        "knowledge_point": "长白山天池",
+        "options": [],
+        "question": "请写出至少两种可以补给长白山天池湖水的水源。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 135
+      },
+      {
+        "answer": "B",
+        "difficulty": 3,
+        "explanation": "天池位于火山口低洼处，四周山体较高，雨水和融雪水等能汇入湖中。",
+        "knowledge_point": "长白山天池",
+        "options": [
+          "A. 湖底比四周高",
+          "B. 天池位于四周较高、中间低洼的火山口内",
+          "C. 天池由人工挖掘而成",
+          "D. 天池是海水湖"
+        ],
+        "question": "下列哪项最能说明长白山天池为什么能汇集湖水？",
+        "score": 5,
+        "type": "choice",
+        "id": 136
+      },
+      {
+        "answer": "因为火山活动形成了低洼的火山口，雨水、积雪融水和地下水等汇入并积存其中，形成了湖泊。",
+        "difficulty": 4,
+        "explanation": "回答要包含两个要点：火山活动形成火山口；水汇入低洼处并积存形成湖泊。",
+        "knowledge_point": "长白山天池",
+        "options": [],
+        "question": "用一句话说明长白山天池是怎样形成的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "地壳、地幔、地核",
+        "difficulty": 1,
+        "explanation": "地球内部的三个主要圈层从外到内依次是地壳、地幔和地核。",
+        "knowledge_point": "地球内部圈层数量",
+        "options": [],
+        "question": "从地表向地球内部，三个主要圈层依次是（ ）、（ ）、（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 138
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "按主要结构划分，地球内部共有地壳、地幔、地核三个圈层。",
+        "knowledge_point": "地球内部圈层数量",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "地球内部按主要结构划分为地壳、地幔和地核三层。",
+        "score": 5,
+        "type": "true_false",
+        "id": 139
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "地球内部主要分为三层，不是四层。",
+        "knowledge_point": "地球内部圈层数量",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "地球内部按主要结构划分为四层。",
+        "score": 5,
+        "type": "true_false",
+        "id": 140
+      },
+      {
+        "answer": "地核",
+        "difficulty": 2,
+        "explanation": "地核还可以进一步分为外核和内核，但在主要圈层划分中，地核合为一层。",
+        "knowledge_point": "地球内部圈层数量",
+        "options": [],
+        "question": "地球内部主要圈层中，哪一层还可以进一步分为外核和内核？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 141
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "地球内部按主要结构分为地壳、地幔、地核，共三层；大气层不属于地球内部圈层。",
+        "knowledge_point": "地球内部圈层数量",
+        "options": [
+          "A. 地壳、地幔、地核和大气层",
+          "B. 地壳、地幔、地核",
+          "C. 地壳、海洋、地核"
+        ],
+        "question": "下面哪一项正确列出了地球内部的三个主要圈层？",
+        "score": 5,
+        "type": "choice",
+        "id": 142
+      },
+      {
+        "answer": "六",
+        "difficulty": 1,
+        "explanation": "地球岩石圈由六个主要板块拼合而成，通常称为六大板块。",
+        "knowledge_point": "板块数量",
+        "options": [],
+        "question": "地球岩石圈通常被划分为（ ）大板块。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 143
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "六大板块是组成地球岩石圈的六个主要板块。",
+        "knowledge_point": "板块数量",
+        "options": [],
+        "question": "判断：地球岩石圈由六个主要板块拼合而成。",
+        "score": 5,
+        "type": "true_false",
+        "id": 144
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "地球岩石圈通常划分为六大板块；大陆数量与板块数量不是一回事。",
+        "knowledge_point": "板块数量",
+        "options": [
+          "A. 四大板块",
+          "B. 六大板块",
+          "C. 七大板块",
+          "D. 八大板块"
+        ],
+        "question": "地球岩石圈通常由几个主要板块拼合而成？",
+        "score": 5,
+        "type": "choice",
+        "id": 145
+      },
+      {
+        "answer": "大陆和海洋",
+        "difficulty": 3,
+        "explanation": "板块不是只包含大陆；有些板块包含大陆和海洋，有些主要是海洋部分。",
+        "knowledge_point": "板块数量",
+        "options": [],
+        "question": "六大板块包含地球表面的哪些部分？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 146
+      },
+      {
+        "answer": "不一定",
+        "difficulty": 3,
+        "explanation": "板块边界由板块的分布决定，不一定与大陆边界重合；板块也延伸到海洋底部。",
+        "knowledge_point": "板块数量",
+        "options": [],
+        "question": "板块边界一定与大陆边界重合吗？请简要回答。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 147
+      },
+      {
+        "answer": "地壳",
+        "difficulty": 1,
+        "explanation": "地球固体圈层由外向内依次是地壳、地幔和地核。",
+        "knowledge_point": "地球最外层",
+        "options": [],
+        "question": "地球固体圈层中，位于地幔外侧的是（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 148
+      },
+      {
+        "answer": "地壳",
+        "difficulty": 1,
+        "explanation": "我们生活的地表位于地壳上，地壳是地球固体部分的最外层。",
+        "knowledge_point": "地球最外层",
+        "options": [],
+        "question": "我们生活的地表位于地球固体圈层的（ ）上。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 149
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "地壳位于地球固体圈层最外侧，地幔在地壳下面。",
+        "knowledge_point": "地球最外层",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "地壳是地球固体圈层中最外面的一层。",
+        "score": 5,
+        "type": "true_false",
+        "id": 150
+      },
+      {
+        "answer": "地壳",
+        "difficulty": 2,
+        "explanation": "地球由外向内依次是地壳、地幔、地核，因此最外层与地幔相邻的是地壳。",
+        "knowledge_point": "地球最外层",
+        "options": [],
+        "question": "按从外向内的顺序填空：地球固体圈层是（ ）、地幔、地核。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 151
+      },
+      {
+        "answer": "地壳",
+        "difficulty": 2,
+        "explanation": "地壳是最外层，地幔位于地壳下面，地核位于更内部。",
+        "knowledge_point": "地球最外层",
+        "options": [
+          "地壳",
+          "地幔",
+          "地核",
+          "地心"
+        ],
+        "question": "地球固体圈层中，哪一层最靠近地表？",
+        "score": 5,
+        "type": "choice",
+        "id": 152
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "流水能冲刷地面并搬运泥沙，因此流水可以造成侵蚀。",
+        "knowledge_point": "侵蚀作用",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "流水冲走地表泥沙是一种侵蚀现象。",
+        "score": 2,
+        "type": "true_false",
+        "id": 153
+      },
+      {
+        "answer": "海浪冲刷并带走海岸边的沙土",
+        "difficulty": 2,
+        "explanation": "海浪对海岸物质进行冲刷和搬运，会造成侵蚀。",
+        "knowledge_point": "侵蚀作用",
+        "options": [
+          "植物根系使岩石裂缝变大",
+          "海浪冲刷并带走海岸边的沙土",
+          "泥土中的水分蒸发"
+        ],
+        "question": "下列哪种现象属于侵蚀作用？",
+        "score": 3,
+        "type": "choice",
+        "id": 154
+      },
+      {
+        "answer": "流水",
+        "difficulty": 2,
+        "explanation": "河水流动时能够冲刷河床和河岸，并将泥沙搬运到其他地方。",
+        "knowledge_point": "侵蚀作用",
+        "options": [],
+        "question": "河水冲刷河岸并带走泥沙，主要是（ ）对地表造成了侵蚀。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 155
+      },
+      {
+        "answer": "有植被覆盖的坡地",
+        "difficulty": 3,
+        "explanation": "植被的根和地上部分能帮助固定土壤、减缓雨水径流，因此通常比裸露坡地不容易被雨水侵蚀。",
+        "knowledge_point": "侵蚀作用",
+        "options": [
+          "有植被覆盖的坡地",
+          "没有植被的裸露坡地"
+        ],
+        "question": "下雨时，哪一种坡地通常较不容易被雨水侵蚀？",
+        "score": 4,
+        "type": "choice",
+        "id": 156
+      },
+      {
+        "answer": "流水和风都能侵蚀地表，并搬运泥沙或沙粒。",
+        "difficulty": 3,
+        "explanation": "流水可以冲刷、搬运泥沙；风可以吹起并搬运松散的沙粒和尘土。二者都可能改变地表。",
+        "knowledge_point": "侵蚀作用",
+        "options": [],
+        "question": "请举出两种能造成侵蚀的外力，并分别简要说明它们怎样搬运地表物质。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 157
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "沉积是被搬运的物质沉落并堆积的过程，河流、风和冰川等都可能搬运物质并造成沉积。",
+        "knowledge_point": "沉积作用",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "沉积作用只会发生在河流中。",
+        "score": 5,
+        "type": "true_false",
+        "id": 158
+      },
+      {
+        "answer": "河流流速减慢，搬运能力减弱",
+        "difficulty": 2,
+        "explanation": "河流变慢时，水流搬运泥沙的能力降低，泥沙容易沉落下来并堆积。",
+        "knowledge_point": "沉积作用",
+        "options": [],
+        "question": "河水流速减慢时，泥沙容易沉积下来，主要是因为（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 159
+      },
+      {
+        "answer": "沉积",
+        "difficulty": 2,
+        "explanation": "风把沙粒搬运到力量较弱的地方后，沙粒沉落并堆积，这也属于沉积作用。",
+        "knowledge_point": "沉积作用",
+        "options": [
+          "侵蚀",
+          "沉积",
+          "蒸发",
+          "融化"
+        ],
+        "question": "风把沙粒搬运到力量较弱的地方，沙粒在那里堆积起来。这种现象属于（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 160
+      },
+      {
+        "answer": "先被侵蚀或风化，再被搬运，最后可能发生沉积",
+        "difficulty": 3,
+        "explanation": "岩石和土壤可先被风化或侵蚀，碎屑被水、风等搬运；当搬运力量减弱时，碎屑便可能沉落堆积。",
+        "knowledge_point": "沉积作用",
+        "options": [],
+        "question": "请按常见过程补全：岩石或土壤碎屑先被（ ），再被（ ），最后可能发生（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 161
+      },
+      {
+        "answer": "沉积",
+        "difficulty": 2,
+        "explanation": "河流进入湖泊或大海后，水流通常减慢，搬运的泥沙容易沉落并堆积，形成沉积。",
+        "knowledge_point": "沉积作用",
+        "options": [],
+        "question": "河流携带泥沙流入湖泊后，水流变慢，泥沙在湖底堆积。这一过程叫（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 162
       }
     ]
   },
@@ -664,14 +2426,15 @@
       "tips": "观察地形图时，颜色越深（偏棕红）海拔越高，蓝色代表海洋。"
     },
     {
-      "point": "地球内部圈层结构",
-      "core_concept": "地球从外到内由地壳、地幔和地核组成。地壳厚度不均，地幔多由岩浆组成，地核温度极高。",
-      "key_formula": "三大类岩石：岩浆岩（冷却）、沉积岩（层状、多化石）、变质岩（高温高压）。",
       "common_mistakes": [
-        "错误认为地幔是固态岩石",
-        "认为地壳厚度在海洋和陆地是一样的"
+        "把地幔误认为由液态岩浆组成；地幔主要由高温、高压下的固态岩石构成，部分区域可能发生熔融。",
+        "认为海洋地壳和大陆地壳厚度相同；大陆地壳通常较厚，海洋地壳通常较薄。",
+        "把地球内部圈层与岩石分类混为一谈；岩浆岩、沉积岩和变质岩是岩石类型，不是地球内部圈层。"
       ],
-      "tips": "记忆口诀：壳、幔、核，像颗煮熟的鸡蛋。"
+      "core_concept": "地球内部由外向内可分为地壳、地幔和地核。地壳是最外层，厚薄不均；地幔位于地壳和地核之间，是地球内部较厚的一层，主要由高温、高压下的固态岩石构成；地核位于中心，温度很高。地核还可分为外核和内核。",
+      "key_formula": "由外向内：地壳 → 地幔 → 地核。可用熟鸡蛋作简单类比：蛋壳像地壳，蛋白像地幔，蛋黄像地核。",
+      "point": "地球内部圈层结构",
+      "tips": "记住“壳、幔、核”，并按由外向内的顺序排列。鸡蛋类比只帮助理解圈层位置，不表示地球各层的材料或厚度与鸡蛋完全相同。地幔不是一整层液态岩浆；地壳在大陆和海洋下厚度不同。"
     },
     {
       "point": "地震与火山产生的原因",
@@ -692,6 +2455,291 @@
         "分不清什么是风化，什么是侵蚀"
       ],
       "tips": "风化是让大岩石变碎；侵蚀是让碎物被带走并改变地形。"
+    },
+    {
+      "common_mistakes": [
+        "把地形的外形特征和形成原因混为一谈。",
+        "认为所有山地、平原或峡谷都由同一种作用形成。",
+        "忽略流水、风和冰川等自然力量会长期改变地表。"
+      ],
+      "core_concept": "地形地貌是地球表面各种形态的总称。常见地形包括山地、高原、平原、丘陵和盆地；常见地貌还包括河谷、峡谷、沙丘和喀斯特地貌。它们的外形不同，形成原因也各有特点。",
+      "key_formula": "地形地貌的形成常与地壳运动、流水、风、冰川和火山活动等有关；不同作用长期进行，会塑造出不同的地表形态。",
+      "point": "典型地形地貌的特征与成因",
+      "tips": "观察地貌时，可以先看高低、平坦程度和起伏大小，再思考可能起作用的自然力量。流水常见作用有冲刷、搬运和堆积；风常见作用有搬运和堆积。形成同一种地貌也可能有多种原因共同参与。"
+    },
+    {
+      "common_mistakes": [
+        "认为地震都是火山喷发引起的。",
+        "认为火山每次喷发都会有大量岩浆流到地面；火山活动的表现并不完全相同。",
+        "把地震的震源和地面上震动最强的位置混为一谈。"
+      ],
+      "core_concept": "地球内部不断变化，岩石和地壳会受到挤压、拉伸等作用。当地下岩层突然断裂或错动时，会产生地震；地下岩浆沿着地壳裂缝上升并喷出地表时，会发生火山喷发。地震和火山活动都与地球内部的活动有关。",
+      "key_formula": "岩层突然断裂或错动 → 地震；岩浆上升并喷出地表 → 火山喷发。",
+      "point": "地震与火山的成因",
+      "tips": "可以把地壳想成一层不太平整的薄壳：地壳运动会使岩层受力，岩层突然断裂、错动会引发地震；如果地下岩浆找到通道上升并喷出地表，就会形成火山喷发。地震的震源在地下，震中是震源正上方的地面位置。"
+    },
+    {
+      "common_mistakes": [
+        "把侵蚀和沉积混为一谈：侵蚀是岩石、土壤被风或水磨蚀、搬运；沉积是被搬运的物质停下来并堆积。",
+        "认为只有强风或急流才会改变地表；缓慢、长期的作用也能使地貌发生变化。",
+        "认为被搬运的沙土会消失；它们常在别处沉积。"
+      ],
+      "core_concept": "风和流水会磨蚀地表，并搬运岩石、沙土等物质，这种作用叫侵蚀；当风力或水流减弱，搬运能力下降时，物质会堆积下来，这叫沉积。侵蚀与沉积会不断改变地表形态。",
+      "key_formula": "风或流水磨蚀、搬运地表物质 → 侵蚀；风力或水流减弱、物质堆积 → 沉积。",
+      "point": "风与水对外力的侵蚀与沉积作用",
+      "tips": "观察地表变化时，可以依次想一想：什么力量在作用？物质从哪里被磨蚀或搬走？它们被搬到哪里？在哪里停下来堆积？例如，河水冲刷河岸属于侵蚀，河流变缓后沙泥堆积属于沉积。"
+    },
+    {
+      "common_mistakes": [
+        "把地壳误认为地球最厚或最里面的一层。",
+        "认为地幔是地球中心，或忽略地核还可分为外核和内核。",
+        "把地球内部结构图当作实际大小的比例图。"
+      ],
+      "core_concept": "地球由外向内大致分为地壳、地幔和地核。地壳是最外层，地幔位于地壳与地核之间，地核是地球的中心部分。地核又分为外核和内核。科学家通过地震波等证据研究地球内部；常见结构示意图通常不是按真实厚度比例绘制的。",
+      "key_formula": "由外向内：地壳 → 地幔 → 地核（外核、内核）",
+      "point": "地球内部结构",
+      "tips": "记忆顺序可以从脚下往地心想：先是薄薄的地壳，再到地幔，最后到地核。看结构示意图时，注意图中各层的相对位置，不要把示意图的宽度当成真实厚度。"
+    },
+    {
+      "common_mistakes": [
+        "认为地震只会造成房屋倒塌，忽略火灾、滑坡等次生灾害。",
+        "以为躲在家具旁形成的“三角地带”一定安全；地震时应优先采取正确的避险动作，并听从老师或应急人员指挥。",
+        "地震发生时盲目奔跑、乘坐电梯或靠近窗户和高大物体。"
+      ],
+      "core_concept": "地震会使地面剧烈震动，可能造成房屋、桥梁和道路损坏，引发人员受伤、被困，还可能引起火灾、山体滑坡等次生灾害。了解危害并采取正确的避险措施，可以减少伤害。",
+      "key_formula": "无",
+      "point": "地震的危害",
+      "tips": "记住“先躲避、护头颈，震后再有序撤离”。在学校听从老师指挥；在户外远离建筑物、广告牌和电线；不要把任何一种躲避位置说成绝对安全。"
+    },
+    {
+      "common_mistakes": [
+        "认为风只能吹动物体，不能改变地表。",
+        "认为风沙只会带来破坏，忽略风能帮助植物传播种子。",
+        "把风的搬运作用和侵蚀作用混为一谈：侵蚀是磨蚀、带走地表物质，搬运是将物质从一处带到另一处。"
+      ],
+      "core_concept": "风是空气流动形成的。风能吹动地面上的沙土和其他轻小物体，具有侵蚀、搬运和堆积作用；它也能传播花粉和种子、推动帆船前进、带动风力发电机。风力过大时，还可能造成沙尘、损坏房屋或吹倒树木。",
+      "key_formula": "风的作用可概括为：侵蚀与搬运地表物质、堆积形成地貌、传播花粉和种子、推动物体或带动设备；风力过大也可能造成危害。",
+      "point": "风的作用",
+      "tips": "观察风的作用时，可以留意风吹动了什么、物体从哪里移动到哪里，以及风是否让地表发生变化。风的作用有利也有弊，影响大小与风力、持续时间和周围环境有关。"
+    },
+    {
+      "common_mistakes": [
+        "把岩层运动和地表上能直接看到的快速变化混为一谈。",
+        "认为岩层运动只会形成山脉；实际上，它还可能造成地震、火山活动和岩层弯曲或断裂。",
+        "误以为板块运动完全停止了；板块至今仍在缓慢运动。"
+      ],
+      "core_concept": "地球表面的岩层并非静止不动。地球内部的力量会使岩层和板块缓慢移动、挤压、拉伸或错动。经过很长时间，这些运动会改变地表形态；有时，岩层突然错动还会引发地震。",
+      "key_formula": "无",
+      "point": "岩层运动",
+      "tips": "可以用两块橡皮泥演示：缓慢推挤时，橡皮泥会隆起或弯曲；继续施力，也可能断开或错动。观察时要区分缓慢、长期的地质变化和地震等突然发生的现象。"
+    },
+    {
+      "common_mistakes": [
+        "认为只有植物的根能减少侵蚀，忽略叶片和地面覆盖物对雨滴、地表径流的缓冲作用。",
+        "认为植物能完全阻止侵蚀；实际上，植物通常是减缓侵蚀，效果还受降雨、坡度和植被覆盖程度影响。",
+        "把风蚀和水蚀混为一谈；植物能通过覆盖地面、固定土壤，减轻风和水对土壤的搬运。"
+      ],
+      "core_concept": "植物能减缓土壤侵蚀。根系像网一样抓住土壤，减少土粒被雨水或风带走；叶片和枯枝落叶能遮挡雨滴、覆盖地面，减缓地表径流。植被越完整，通常越有利于保护土壤。",
+      "key_formula": "植物覆盖地面、根系固土、枝叶缓冲雨滴和径流 → 土壤被雨水或风带走的可能性降低",
+      "point": "植物对侵蚀的影响",
+      "tips": "观察坡地是否有植物覆盖，并比较有植被和裸露地面的雨水流动情况。思考根、叶片和地面覆盖物分别如何发挥作用；注意说“减缓或减少侵蚀”，不要说“完全阻止侵蚀”。"
+    },
+    {
+      "common_mistakes": [
+        "把高原和平原混淆：两者地面都可能比较平坦，但高原海拔较高，平原海拔较低。",
+        "把山地和丘陵混淆：山地海拔较高、坡度较陡；丘陵海拔较低，起伏较小。",
+        "只看地势高低、不看地表形态来判断地形。"
+      ],
+      "core_concept": "地形是地表各种形态的总称。常见地形包括平原、高原、山地、丘陵和盆地；识别时要结合海拔高低、地面起伏和周围地势。",
+      "key_formula": "平原：海拔较低、地面平坦；高原：海拔较高、地面较平坦；山地：海拔较高、起伏大、坡度较陡；丘陵：海拔较低、起伏较小；盆地：四周高、中间低。",
+      "point": "地形地貌识别",
+      "tips": "先观察地面是平坦还是起伏，再判断海拔高低，最后看周围地势是否呈现“四周高、中间低”。例如，地势高而较平坦的区域多为高原；四周较高、中部较低的区域多为盆地。"
+    },
+    {
+      "common_mistakes": [
+        "把地幔和地核的位置弄反；从外向内的顺序是地壳、地幔、地核。",
+        "认为地球内部像一个空心球，或把地表的海洋、大气当作内部圈层。",
+        "把地球内部的高温物质都简单地说成液态；地核分为外核和内核，状态并不相同。"
+      ],
+      "core_concept": "地球内部由外向内分为地壳、地幔和地核。地壳是最外层，地幔位于中间，地核在中心；地球内部温度和压力总体上随深度增加。地核又分为外核和内核。",
+      "key_formula": "由外向内：地壳 → 地幔 → 地核；地核包括外核和内核。",
+      "point": "地球内部圈层",
+      "tips": "可以把地球想象成由不同层组成的球体，记住“外壳—中间层—中心核”的顺序。注意：地幔不是地壳，地核也不是地心的另一个圈层；地心是地球的中心位置。"
+    },
+    {
+      "common_mistakes": [
+        "把岩浆岩、沉积岩和变质岩的形成过程混为一谈。",
+        "认为岩石只会由岩浆冷却形成，忽略沉积作用和变质作用。",
+        "认为岩石经过变化后就一定变成另一种类型；岩石变化需要相应的条件和过程。"
+      ],
+      "core_concept": "岩石按成因通常分为岩浆岩、沉积岩和变质岩。岩浆冷却凝固形成岩浆岩；岩石碎屑等物质经过搬运、沉积和压实等作用形成沉积岩；原有岩石在高温、高压等作用下发生变化，形成变质岩。",
+      "key_formula": "岩浆冷却凝固 → 岩浆岩；碎屑沉积、压实等 → 沉积岩；高温、高压作用 → 变质岩。",
+      "point": "岩石成因",
+      "tips": "记忆时抓住三类岩石的形成关键词：岩浆岩看“冷却凝固”，沉积岩看“沉积压实”，变质岩看“高温高压下变化”。岩石形成和转化往往需要很长时间。"
+    },
+    {
+      "common_mistakes": [
+        "认为地震大多是由天气变化、月球引力或人类活动直接引起的。",
+        "认为所有地震都由同一种原因造成；地震也可能由火山活动等引起。",
+        "把地震的成因和地震发生时的自我保护方法混为一谈。"
+      ],
+      "core_concept": "地球内部的岩层会受到挤压等作用。当岩层中的力积累到一定程度，岩层可能突然断裂或错动，并释放能量，引起地面震动，这就是地震。绝大多数地震与岩层断裂、错动有关，火山活动等也可能引起地震。",
+      "key_formula": "岩层受力并积累能量 → 突然断裂或错动 → 能量释放 → 地面震动（地震）",
+      "point": "地震成因",
+      "tips": "记住“受力积能、断裂错动、释放能量、地面震动”这一过程。回答地震成因时，可说“绝大多数地震是岩层突然断裂或错动引起的”；不要把某一次地震的具体原因与地震的一般成因混为一谈。"
+    },
+    {
+      "common_mistakes": [
+        "把地下的岩浆和喷出地表后的熔岩混为一谈：地下称岩浆，喷出地表后称熔岩。",
+        "认为所有火山都会频繁喷发；有些火山长期没有喷发活动。",
+        "认为火山喷发只有危害；火山活动也能形成新的陆地和肥沃的火山灰土壤。"
+      ],
+      "core_concept": "火山是地壳中岩浆、气体和火山灰等喷出物到达地表的通道或形成的山体。地下的熔融岩石称为岩浆；岩浆喷出地表后称为熔岩。火山喷发时还可能喷出火山灰、气体和岩石碎块。",
+      "key_formula": "地下的熔融岩石：岩浆；喷出地表后的熔融岩石：熔岩。",
+      "point": "火山喷发",
+      "tips": "记住“岩浆在地下，熔岩在地表”；火山喷发物不只有熔岩，还可能包括火山灰、气体和岩石碎块。"
+    },
+    {
+      "common_mistakes": [
+        "把风的侵蚀和风的沉积混为一谈：侵蚀是风对地表的吹蚀、磨蚀和搬运，沉积是风力减弱后颗粒落下。",
+        "认为风只能搬运沙粒；实际上，风可以搬运不同大小的颗粒，但通常越轻、越小的颗粒越容易被搬运。",
+        "认为风蚀只会改变岩石形状，不会改变地表；长期风蚀会使地表降低或形成特殊地貌。"
+      ],
+      "core_concept": "风的侵蚀作用是风携带沙粒等物质，对地表进行吹蚀、磨蚀和搬运的过程。风力大小、地表是否裸露以及颗粒的大小和重量，都会影响风蚀强弱。",
+      "key_formula": "风携带颗粒吹蚀、磨蚀地表并搬运物质；风力减弱时，颗粒可能沉积。",
+      "point": "风的侵蚀作用",
+      "tips": "观察风蚀时，可以关注岩石表面是否有磨痕、颗粒是否被搬走以及地表是否裸露。风蚀通常需要较长时间；植被和其他覆盖物能保护地表，减弱风对土壤的侵蚀。"
+    },
+    {
+      "common_mistakes": [
+        "认为黄河水一直都是黄色的；实际上水色会随水量、流速、河段和季节变化。",
+        "把黄河含沙量大只归因于黄土高原；黄土高原的水土流失是重要原因，河流沿途的侵蚀和汇流也会影响含沙量。",
+        "认为水土保持措施能立刻让黄河变清；植树种草、修建淤地坝等需要长期发挥作用。"
+      ],
+      "core_concept": "黄河水的颜色和含沙量会发生变化。黄河中游流经黄土高原，那里部分地区土质疏松、植被覆盖较少，雨水冲刷容易带走泥土，使大量泥沙进入河流。人们通过植树种草、修建淤地坝等措施减少水土流失，黄河水的含沙情况也会随之改善。",
+      "key_formula": "黄河含沙量变化与水土流失有关：植被少、土壤易被冲刷时，入河泥沙较多；水土保持得好时，入河泥沙会减少。",
+      "point": "黄河水的变化",
+      "tips": "可用“降雨冲刷—泥土流失—泥沙入河”记忆含沙量增加的过程；讨论黄河水变化时，要注意区分不同河段和不同时期。"
+    },
+    {
+      "common_mistakes": [
+        "把降雨试验中的泥水误认为地下水枯竭；泥水通常说明雨水冲刷并搬运了土壤。",
+        "认为所有地表的水土流失程度相同；坡度、土壤状况和植被覆盖都会影响结果。",
+        "实验时一次改变多个条件，导致无法判断哪个因素造成了差异。"
+      ],
+      "core_concept": "降雨试验通过模拟降雨，观察雨水落在不同土地表面后的径流和泥沙情况，帮助认识降雨对土壤的侵蚀与搬运作用。土壤表面有植物覆盖时，植物能减缓雨滴冲击、帮助固定土壤，因此通常能减少水土流失。",
+      "key_formula": "比较水土流失程度：观察径流量和径流中泥沙的多少；径流越浑浊、泥沙越多，通常表示土壤被冲刷得越严重。",
+      "point": "降雨试验",
+      "tips": "实验时尽量保持喷水高度、喷水时间、喷水量、斜面坡度和土壤量一致，只改变要研究的条件。用容器接住流出的水，比较水量和浑浊程度；注意安全，避免让水流到地面造成滑倒。"
+    },
+    {
+      "common_mistakes": [
+        "不要把雅丹地貌误认为由流水或冰川塑造的地貌。",
+        "雅丹地貌的形成不只是风吹，还与岩石软硬差异及长期侵蚀有关。",
+        "雅丹地貌常见于干旱、少雨地区，但并非所有荒漠地貌都是雅丹地貌。"
+      ],
+      "core_concept": "雅丹地貌是干旱地区常见的一种风蚀地貌。地表岩层受到风的长期吹蚀和磨损，逐渐形成沟槽、土丘等形态；岩石软硬不一时，较软的部分更容易被侵蚀，地貌形态也会更加明显。",
+      "key_formula": "长期风蚀 + 岩层软硬差异 → 沟槽与土丘等雅丹地貌",
+      "point": "雅丹地貌",
+      "tips": "认识雅丹地貌时，可以观察它是否呈现沟槽和土丘相间的形态，并联系当地干旱少雨、风力作用强的环境来理解。"
+    },
+    {
+      "common_mistakes": [
+        "不要把高原和盆地混淆：高原整体海拔较高、地面较平坦；盆地四周高、中间低。",
+        "山地和丘陵都有起伏，但山地通常海拔较高、坡度较陡；丘陵相对较低、坡度较缓。"
+      ],
+      "core_concept": "地形是地球表面高低起伏的形态。常见地形有平原、高原、山地、丘陵和盆地，它们可以根据海拔高低、地面起伏和四周地势等特征来辨认。",
+      "key_formula": "无",
+      "point": "地形特征",
+      "tips": "辨认地形时，可以抓住关键词：平原——低而平坦；高原——海拔较高、顶部较平；山地——海拔较高、起伏大；丘陵——海拔较低、起伏较缓；盆地——四周高、中间低。"
+    },
+    {
+      "common_mistakes": [
+        "地震时跳窗或乘坐电梯逃生。",
+        "躲避时只顾找地方，没有保护头部和颈部。",
+        "震动停止后立即拥挤着冲出教室。"
+      ],
+      "core_concept": "地震自救的要点是先就近避险、保护头部和颈部，震动停止后再听从老师或现场工作人员指挥，有序撤离到安全地点。",
+      "key_formula": "震时：伏地、遮挡、抓牢；震后：听指挥、有序撤离、远离危险物。",
+      "point": "地震自救",
+      "tips": "在室内时，迅速蹲下或趴下，躲到结实桌子等遮挡物旁或下方，用书包、手臂保护头部和颈部，并抓牢桌腿。远离窗户、玻璃和高大柜子。震动停止后，按照老师或现场工作人员的指挥，有序走楼梯撤离，不乘电梯；到开阔安全处后留意余震。"
+    },
+    {
+      "common_mistakes": [
+        "把岩层断裂和岩层弯曲混为一谈：断裂是岩层发生破裂，弯曲则是岩层连续变形。",
+        "认为岩层断裂一定会形成深谷；断层两侧岩层相对运动，可能形成断崖、山地或谷地等地形。",
+        "把板块挤压形成高山与岩层断裂的成因混为一谈；挤压既可能使岩层褶皱隆起，也可能使岩层断裂并错动。"
+      ],
+      "core_concept": "地壳运动会使岩层受到挤压、拉伸或剪切。当作用力超过岩层承受能力时，岩层会破裂；破裂面两侧的岩层若发生相对移动，就形成断层。断层运动可能造成地表的高低变化，也可能引发地震。",
+      "key_formula": "岩层受力超过承受能力 → 发生断裂；断裂两侧岩层相对移动 → 形成断层",
+      "point": "岩层断裂",
+      "tips": "可以用叠放的纸板或软垫模拟岩层：慢慢推挤时观察弯曲，继续施力时观察破裂和错动。模型只能帮助理解现象，不能完全代表真实的地壳运动。"
+    },
+    {
+      "common_mistakes": [
+        "把长白山天池说成由风力侵蚀或人工挖掘形成。",
+        "认为天池只是普通的山间湖泊，忽略了它与火山活动的关系。",
+        "把天池的湖水来源简单地说成只有降雨。"
+      ],
+      "core_concept": "长白山天池位于长白山主峰火山口内，是火山活动形成的火山口湖。火山活动形成了低洼的火山口，之后雨水、积雪融水和地下水等汇入其中，形成并补给湖水。",
+      "key_formula": "火山活动形成火山口 + 雨水、融雪和地下水汇入 → 火山口湖（长白山天池）",
+      "point": "长白山天池",
+      "tips": "记住“火山口里有湖水”：先有火山活动形成的火山口，再有水汇入和积存。观察地形时，可以留意天池四周较高、中间低洼的火山口地形。"
+    },
+    {
+      "common_mistakes": [
+        "把地球内部圈层和大气层混为一谈。",
+        "只说“地壳、地幔、地核”，却把圈层数量数错。",
+        "误以为地核是一个整体，不知道还可细分为外核和内核。"
+      ],
+      "core_concept": "按主要结构划分，地球内部有地壳、地幔、地核三个圈层。地核还可以进一步分为外核和内核；这种细分不改变主要圈层为三层的说法。",
+      "key_formula": "地球内部主要圈层数量：3层（地壳、地幔、地核）",
+      "point": "地球内部圈层数量",
+      "tips": "记住“壳、幔、核”三个字，依次表示地壳、地幔和地核。题目问主要结构时，答案是三层；如果问地核的组成，再回答外核和内核。"
+    },
+    {
+      "common_mistakes": [
+        "把“六大板块”误认为地球表面只有六块岩石。",
+        "认为板块边界就是大陆边界；实际上板块也包括海洋底部。",
+        "把板块数量与大陆数量混淆。"
+      ],
+      "core_concept": "地球的岩石圈不是完整的一整块，而是由六个主要板块拼合而成，通常称为六大板块。板块包括大陆部分和海洋部分，板块边界不一定与大陆边界重合。",
+      "key_formula": "岩石圈由六大板块拼合而成。",
+      "point": "板块数量",
+      "tips": "记住“岩石圈、六大板块”，不要把板块数和大陆数混淆。"
+    },
+    {
+      "common_mistakes": [
+        "把地幔误认为地球最外层；地幔位于地壳下面。",
+        "把地球内部结构和地球表面的陆地、水域混为一谈。",
+        "认为地壳各处厚度相同；实际上地壳厚度并不均匀。"
+      ],
+      "core_concept": "地球由外向内可分为地壳、地幔和地核。地壳是地球固体部分的最外层，也是三层中最薄的一层；我们生活的地表就在地壳上。",
+      "key_formula": "由外向内：地壳 → 地幔 → 地核",
+      "point": "地球最外层",
+      "tips": "记忆顺序时可从外向内念“壳、幔、核”。地壳像包在地球外面的薄层，但各处厚薄不一样。"
+    },
+    {
+      "common_mistakes": [
+        "把侵蚀和风化混为一谈：风化使岩石逐渐破碎，侵蚀则会使地表物质被剥离、搬运。",
+        "认为只有流水会造成侵蚀；风、冰川和海浪等也能侵蚀地表。",
+        "认为侵蚀只会搬运大块岩石；细小的泥沙也能被水流或风带走。"
+      ],
+      "core_concept": "侵蚀是流水、风、冰川或海浪等外力对地表物质进行冲刷、磨蚀、剥离并搬运的作用。它会改变地表形态，例如雨水径流带走泥沙、海浪冲刷海岸。",
+      "key_formula": "侵蚀作用：外力（如流水、风、冰川、海浪）对地表物质进行剥离、磨蚀和搬运。",
+      "point": "侵蚀作用",
+      "tips": "观察侵蚀时，可以留意地表物质是否被冲走、磨掉或搬运到别处。雨水径流、河水、强风和海浪都可能造成侵蚀；植被覆盖、地面坡度和水流大小等因素会影响侵蚀程度。"
+    },
+    {
+      "common_mistakes": [
+        "把沉积和侵蚀混为一谈：侵蚀是岩石、土壤等被破坏或带走，沉积是被搬运的物质沉落、堆积。",
+        "认为只有河流才会发生沉积；风、冰川和海浪等搬运的物质也可能沉积。",
+        "误以为沉积后物质会消失；它们只是从一个地方移动到另一个地方并堆积起来。"
+      ],
+      "core_concept": "沉积作用是被水、风、冰川等搬运的泥沙、碎石等物质，由于搬运力量减弱而沉落、堆积的过程。例如，河水流速变慢时，携带的泥沙可能沉到河床或河口。",
+      "key_formula": "搬运力量减弱 → 搬运物沉落 → 发生沉积",
+      "point": "沉积作用",
+      "tips": "观察沉积时，可以关注搬运物从哪里来、由什么力量搬运，以及在哪里因为力量减弱而堆积。河流变缓、进入湖泊或大海时，常容易发生沉积。"
     }
   ]
 }

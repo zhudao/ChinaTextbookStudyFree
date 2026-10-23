@@ -4,326 +4,796 @@
   "unit_number": 1,
   "unit_test": {
     "title": "第1单元「我们周围的物体」基础巩固卷",
-    "total_score": 100,
+    "total_score": 203,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "眼睛能帮助我们观察物体的颜色、形状和大小等特征。",
         "knowledge_point": "观察物体的特征",
+        "options": [],
         "question": "我们可以用眼睛观察物体的颜色。",
-        "options": [],
-        "answer": "对",
-        "explanation": "眼是视觉器官，主要功能就是观察颜色、形状等。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "通常情况下，干净的水无色、无味、透明。",
         "knowledge_point": "水的特征",
+        "options": [],
         "question": "水是一种没有颜色、没有味道、透明的液体。",
-        "options": [],
-        "answer": "对",
-        "explanation": "无色、无味、透明是水的典型物理特征。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 2,
+        "explanation": "小石子不会溶解在水中，搅拌后仍能看见，也可能沉在杯底。",
         "knowledge_point": "物质在水中的溶解现象",
+        "options": [],
         "question": "小石子放入水中，经过搅拌可以完全化在水里。",
-        "options": [],
-        "answer": "错",
-        "explanation": "小石子在水中是不溶解的，无论如何搅拌都不会消失。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "空气的特征",
-        "question": "空气虽然看不见，但是它确实存在于我们周围。",
-        "options": [],
         "answer": "对",
-        "explanation": "空气占据空间，真实存在于我们的周围。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "物体的形状与空间填充",
-        "question": "同样多的正方体积木，换一种摆放方式，占用的空间就会变大。",
-        "options": [],
-        "answer": "错",
-        "explanation": "物体本身占据的空间大小（体积）不随摆放方式改变而改变。"
-      },
-      {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "空气虽然看不见，但存在于我们周围，也能占据空间。",
+        "knowledge_point": "空气的特征",
+        "options": [],
+        "question": "空气虽然看不见，但是它确实存在于我们周围。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "物体本身占据的空间大小不会因为摆放方式改变。摆放方式可能改变整体排列的形状，但不会让积木本身变多或变少。",
+        "knowledge_point": "物体的形状与空间填充",
+        "options": [],
+        "question": "同样多的正方体积木，换一种摆放方式，占用的空间就会变大。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "球形",
+        "difficulty": 1,
+        "explanation": "球形描述物体的形状；红色是颜色，粗糙是表面特征，很重描述的是轻重。",
         "knowledge_point": "观察物体的特征",
-        "question": "下列属于物体形状特征的是（）。",
         "options": [
           "红色",
           "球形",
           "粗糙",
           "很重"
         ],
-        "answer": "球形",
-        "explanation": "球形描述的是几何形状，红色是颜色，粗糙是表面纹理，重是质量。"
+        "question": "下列属于物体形状特征的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "鼻",
         "difficulty": 1,
+        "explanation": "鼻子能帮助我们感知气味。观察不熟悉的物体时，不要直接凑近闻。",
         "knowledge_point": "观察物体的特征",
-        "question": "我们要观察物体的气味，应该使用感官（）。",
         "options": [
           "眼",
           "耳",
           "舌",
           "鼻"
         ],
-        "answer": "鼻",
-        "explanation": "鼻子是嗅觉器官，专门用来感知气味。"
+        "question": "我们要观察物体的气味，应该使用感官（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "向下降",
         "difficulty": 2,
+        "explanation": "两端放入不同轻重的物体时，较重的一端会向下倾斜。",
         "knowledge_point": "比较物体的轻重",
-        "question": "在简易天平的两端放入物体，重的一端会（）。",
         "options": [
           "向上升",
           "向下降",
           "保持水平",
           "来回摆动"
         ],
-        "answer": "向下降",
-        "explanation": "由于重力作用，较重的物体会使天平托盘向下沉。"
+        "question": "在简易天平的两端放入物体，重的一端会（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "正方体积木",
         "difficulty": 2,
+        "explanation": "正方体积木的表面平整，形状规则，能够紧密排列。乒乓球和玻璃珠是球形，石块形状不规则，堆放时容易留下空隙。",
         "knowledge_point": "物体的形状与空间填充",
-        "question": "要把小盒子装满且不留缝隙，最适合装入的是（）。",
         "options": [
           "乒乓球",
           "小石块",
           "正方体积木",
           "玻璃珠"
         ],
-        "answer": "正方体积木",
-        "explanation": "正方体是规则几何体，可以无缝堆叠，而圆形的乒乓球和不规则石块会有缝隙。"
+        "question": "要把小盒子装满且尽量不留缝隙，最适合装入的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "颜色",
         "difficulty": 2,
+        "explanation": "红色、绿色和黄色都是颜色，因此分类标准是颜色。",
         "knowledge_point": "根据特征给物体分类",
-        "question": "我们可以根据（）将物体分为红色的、绿色的和黄色的。",
         "options": [
           "形状",
           "大小",
           "颜色",
           "轻重"
         ],
-        "answer": "颜色",
-        "explanation": "红、绿、黄描述的都是颜色分类标准。"
+        "question": "我们可以根据（）将物体分为红色的、绿色的和黄色的。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "都会流动",
         "difficulty": 2,
+        "explanation": "水和洗发液都是液体，都能流动；它们的颜色、气味或透明度可能不同。",
         "knowledge_point": "水的特征",
-        "question": "水和洗发液的相同点是（）。",
         "options": [
           "颜色",
           "气味",
           "都会流动",
           "透明度"
         ],
-        "answer": "都会流动",
-        "explanation": "水和洗发液都是液体，共同特征是具有流动性。"
+        "question": "水和洗发液的相同点是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "食盐",
         "difficulty": 2,
+        "explanation": "食盐放入水中搅拌后会均匀分散，肉眼看不见，这种现象叫溶解。沙子、木屑和铁钉不会像食盐那样溶解。",
         "knowledge_point": "物质在水中的溶解现象",
-        "question": "下列物质放入水中，能够溶解的是（）。",
         "options": [
           "沙子",
           "木屑",
           "食盐",
           "铁钉"
         ],
-        "answer": "食盐",
-        "explanation": "食盐放入水中搅拌后会均匀分散，肉眼看不见，即溶解。"
+        "question": "下列物质放入水中，能够溶解的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "有颜色",
         "difficulty": 2,
+        "explanation": "空气通常是无色的，因此“有颜色”不是空气的特征。",
         "knowledge_point": "空气的特征",
-        "question": "关于空气的特征，描述错误的是（）。",
         "options": [
           "没有气味",
           "没有固定形状",
           "有颜色",
           "可以流动"
         ],
-        "answer": "有颜色",
-        "explanation": "空气是无色的，观察描述中“有颜色”是错误的。"
+        "question": "关于空气的特征，描述错误的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "粗糙度",
         "difficulty": 2,
+        "explanation": "用手触摸可以感受物体表面是光滑还是粗糙。",
         "knowledge_point": "观察物体的特征",
-        "question": "用手摸一摸丝绸和地毯，这是在观察物体的（）。",
         "options": [
           "粗糙度",
           "颜色",
           "气味",
           "形状"
         ],
-        "answer": "粗糙度",
-        "explanation": "触觉可以感知物体表面的光滑或粗糙程度。"
+        "question": "用手摸一摸丝绸和地毯，这是在观察物体的（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "形状",
         "difficulty": 1,
+        "explanation": "圆、方、尖描述的是物体的形状，所以是按形状分类。",
         "knowledge_point": "根据特征给物体分类",
-        "question": "把圆圆的珠子、方方的红砖和尖尖的积木放一起，分类标准是（）。",
         "options": [
           "轻重",
           "形状",
           "颜色",
           "厚薄"
         ],
-        "answer": "形状",
-        "explanation": "描述中强调了圆、方、尖，属于形状特征。"
+        "question": "把圆圆的珠子、方方的红砖和尖尖的积木放在一起观察，按什么特征分类？",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "塑料袋",
         "difficulty": 2,
+        "explanation": "打开的塑料袋可以兜进空气，扎紧袋口后，袋子会鼓起来。",
         "knowledge_point": "空气的特征",
-        "question": "我们可以用（）来收集空气。",
         "options": [
           "渔网",
           "塑料袋",
           "筷子",
           "放大镜"
         ],
-        "answer": "塑料袋",
-        "explanation": "塑料袋密封性好，可以兜住空气并扎紧口袋进行观察。"
+        "question": "我们可以用（）来收集空气。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "丙",
         "difficulty": 3,
+        "explanation": "甲比乙轻，乙比丙轻，因此轻重顺序是甲、乙、丙，丙最重。",
         "knowledge_point": "比较物体的轻重",
-        "question": "甲物体比乙物体轻，乙物体比丙物体轻，最重的是（）。",
         "options": [
           "甲",
           "乙",
           "丙",
           "一样重"
         ],
-        "answer": "丙",
-        "explanation": "逻辑关系：甲 < 乙 < 丙，所以丙最重。"
+        "question": "甲物体比乙物体轻，乙物体比丙物体轻，最重的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "褐色",
         "difficulty": 2,
+        "explanation": "红糖中的颜色会随着红糖一起分散到水中，使水呈现褐色。",
         "knowledge_point": "物质在水中的溶解现象",
-        "question": "红糖溶解在水中后，水的颜色会变（）。",
         "options": [
           "红色",
           "褐色",
           "蓝色",
           "不变色"
         ],
-        "answer": "褐色",
-        "explanation": "红糖溶解后，色素会均匀分布在水中，使水呈现红褐色。"
+        "question": "红糖溶解在水中后，水的颜色会变（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
+        "answer": "无法确定",
         "difficulty": 2,
+        "explanation": "题目没有提供大球和小球的实际质量或所用质量单位的数量，不能确定要填多少。比较轻重需要观察、掂量或借助工具测量。",
         "knowledge_point": "比较物体的轻重",
+        "options": [],
         "question": "用一个大球和一个小球放在简易天平上，两端平衡一共需要（）个质量单位。",
-        "options": [],
-        "answer": "10",
-        "explanation": "假设具体情境中的质量数据，此题考察对数量的概念，填入示例基准数10（符合一年级数数范围）。"
-      },
-      {
-        "id": 20,
+        "score": 5,
         "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "观察物体的特征",
-        "question": "我们每个人都有（）只眼睛用来观察彩色世界。",
-        "options": [],
+        "id": 19
+      },
+      {
         "answer": "2",
-        "explanation": "常识题，人类拥有2只眼睛作为主要观测器官。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
-        "knowledge_point": "水的特征",
-        "question": "水是会（___）的，所以它没有固定的形状。",
+        "explanation": "通常说人有两只眼睛，可以用眼睛观察物体。",
+        "knowledge_point": "观察物体的特征",
         "options": [],
+        "question": "我们每个人通常有（）只眼睛用来观察彩色世界。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
+      },
+      {
         "answer": "流动",
-        "explanation": "流动性是液体的重要特征。"
+        "difficulty": 1,
+        "explanation": "水能够流动，因此没有固定的形状，会随着容器形状改变。",
+        "knowledge_point": "水的特征",
+        "options": [],
+        "question": "水是会（___）的，所以它没有固定的形状。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "物质在水中的溶解现象",
-        "question": "食盐放入水中“消失”了，这种现象叫作（___）。",
-        "options": [],
         "answer": "溶解",
-        "explanation": "溶解是指物质均匀、稳定地分散在液体中。"
+        "difficulty": 2,
+        "explanation": "食盐放入水中后均匀分散，肉眼看不见，这种现象叫作溶解。食盐并没有消失，仍然在水中。",
+        "knowledge_point": "物质在水中的溶解现象",
+        "options": [],
+        "question": "食盐放入水中“消失”了，这种现象叫作（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "空气的特征",
-        "question": "我们周围到处都充满了（___）。",
-        "options": [],
         "answer": "空气",
-        "explanation": "空气无处不在，占据空间。"
+        "difficulty": 2,
+        "explanation": "空气存在于我们周围，占据空间。",
+        "knowledge_point": "空气的特征",
+        "options": [],
+        "question": "我们周围到处都充满了（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“红色”说的是颜色，可以用眼睛观察；圆圆的说的是形状。",
+        "knowledge_point": "观察并描述物体的特征",
+        "options": [
+          "圆圆的",
+          "红色的",
+          "方方的"
+        ],
+        "question": "下面哪一项是在描述苹果的颜色？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "眼睛可以帮助我们观察物体的颜色和形状。",
+        "knowledge_point": "观察并描述物体的特征",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "我们可以用眼睛观察物体的颜色和形状。",
+        "score": 1,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "软硬",
+        "difficulty": 1,
+        "explanation": "确认安全后，可以用手轻轻触摸物体，感受它是软还是硬。",
+        "knowledge_point": "观察并描述物体的特征",
+        "options": [],
+        "question": "确认安全后，可以用手轻轻摸一摸，感受物体是软还是____。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "圆形、黄色（或其他符合观察的描述）",
+        "difficulty": 2,
+        "explanation": "圆形描述形状，黄色描述颜色。观察到的特征可以用不同词语分别说清楚。",
+        "knowledge_point": "观察并描述物体的特征",
+        "options": [],
+        "question": "一个黄色的乒乓球通常是什么形状？请再说出它的一种颜色特征。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "闻气味时，不要把鼻子直接凑到物体旁边。应先确认物体安全，再轻轻扇动气味到鼻子附近；不能随便闻不认识的物体。",
+        "knowledge_point": "观察并描述物体的特征",
+        "options": [
+          "把鼻子凑到物体上闻",
+          "先确认安全，再用手轻轻扇动气味",
+          "尝一尝是什么味道"
+        ],
+        "question": "闻一个已经确认安全的物体时，哪种做法比较合适？",
+        "score": 2,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "示例：这个盒子是长方形的，摸起来比较硬，表面很光滑。",
+        "difficulty": 2,
+        "explanation": "回答可以包含形状和触摸感受等具体特征。触摸前要确认物体安全；答案不唯一，只要描述合理即可。",
+        "knowledge_point": "观察并描述物体的特征",
+        "options": [],
+        "question": "观察一个确认安全的小盒子，请写出它的一种形状特征和一种触摸后感受到的特征。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "大铁球",
+        "difficulty": 1,
+        "explanation": "物体的大小不能单独决定轻重。不同材料的物体，即使较小，也可能更重；这里大铁球和小棉球相比，大铁球更重。",
+        "knowledge_point": "比较物体的轻重",
+        "options": [],
+        "question": "一个大铁球和一个小棉球放在天平两端，大铁球一端下降。较重的是（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "物体大不一定重，物体小也不一定轻，不能只看大小来判断。",
+        "knowledge_point": "比较物体的轻重",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "物体越大就一定越重。判断对错。",
+        "score": 5,
+        "type": "true_false",
+        "id": 31
+      },
+      {
+        "answer": "先预测，再掂一掂，最后用天平称量",
+        "difficulty": 2,
+        "explanation": "先猜一猜轻重，再用手掂量；如果需要更准确地比较，可以用天平称量。",
+        "knowledge_point": "比较物体的轻重",
+        "options": [],
+        "question": "比较两个物体轻重时，可以先（），再（），最后用工具（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "球形物体",
+        "difficulty": 1,
+        "explanation": "球形物体相互堆放时，接触的地方较少，物体之间容易留下空隙。",
+        "knowledge_point": "物体的形状与空间填充",
+        "options": [],
+        "question": "球形物体堆放在一起时，物体之间容易留下（）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "正方体表面平整、形状规则，通常能像小方块一样紧密排列，减少空隙。",
+        "knowledge_point": "物体的形状与空间填充",
+        "options": [],
+        "question": "正方体积木通常比玻璃珠更容易紧密地装进盒子里。",
+        "score": 2,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "玻璃珠堆在一起时，珠子之间容易留下空隙。",
+        "difficulty": 2,
+        "explanation": "玻璃珠是球形的，堆放时相互之间容易留下空隙；正方体积木的平面可以紧挨着排列。",
+        "knowledge_point": "物体的形状与空间填充",
+        "options": [
+          "玻璃珠堆在一起时，珠子之间容易留下空隙。",
+          "正方体积木堆在一起时，积木之间总会留下很大的空隙。",
+          "球形物体可以像正方体积木一样紧密排列。",
+          "把玻璃珠换个摆放方向，它们占据的空间就会变少。"
+        ],
+        "question": "把玻璃珠和正方体积木分别装进盒子里，哪种说法正确？",
+        "score": 3,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "不会",
+        "difficulty": 2,
+        "explanation": "只是改变同一批积木的摆放方式，积木的数量没有变化，所以积木本身占据的空间大小不会改变。",
+        "knowledge_point": "物体的形状与空间填充",
+        "options": [],
+        "question": "同样多的积木，摆成一排或堆成几层，积木本身占据的空间大小会改变吗？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 36
+      },
+      {
+        "answer": "大小",
+        "difficulty": 1,
+        "explanation": "“大”和“小”表示物体的大小，题目是按大小分组。",
+        "knowledge_point": "根据特征给物体分类",
+        "options": [
+          "颜色",
+          "大小",
+          "形状",
+          "轻重"
+        ],
+        "question": "把积木分成大积木和小积木，使用的分类标准是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 37
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "一次分类应先确定一种标准，并按同一标准观察和分组。",
+        "knowledge_point": "根据特征给物体分类",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "把物体分组前，先确定一种分类标准，会让分类更清楚。",
+        "score": 5,
+        "type": "true_false",
+        "id": 38
+      },
+      {
+        "answer": "形状",
+        "difficulty": 1,
+        "explanation": "圆形和方形是两种形状，因此应按形状进行分类。",
+        "knowledge_point": "根据特征给物体分类",
+        "options": [],
+        "question": "把圆形纸片和方形纸片分成两组，是根据物体的____分类。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 39
+      },
+      {
+        "answer": "轻重",
+        "difficulty": 2,
+        "explanation": "“较轻”和“较重”表示物体的轻重。颜色、形状和大小都不是这次分类依据。",
+        "knowledge_point": "根据特征给物体分类",
+        "options": [],
+        "question": "有几件玩具，要把较轻的放一组、较重的放一组。这次分类使用的标准是____。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 40
+      },
+      {
+        "answer": "无色、透明、没有气味；水能流动，没有固定形状。",
+        "difficulty": 1,
+        "explanation": "这是常见的水的特征。通过看、轻轻扇闻和观察水在容器中的样子，可以发现这些特点。",
+        "knowledge_point": "水的特征观察与对比",
+        "options": [],
+        "question": "请说出水的两种常见特征。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "水倒进不同形状的容器后，会呈现容器内部的形状，说明水没有固定形状。",
+        "knowledge_point": "水的特征观察与对比",
+        "options": [
+          "A. 水永远是圆形的",
+          "B. 水会随着容器形状改变",
+          "C. 水不能流动"
+        ],
+        "question": "把水倒进方形杯子里，水的形状会怎样？",
+        "score": 1,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "透明",
+        "difficulty": 1,
+        "explanation": "透过清水通常能看见后面的物体，这说明水是透明的。透明不等于看不见水，而是能透过水看见物体。",
+        "knowledge_point": "水的特征观察与对比",
+        "options": [],
+        "question": "隔着清水能看见杯子后面的图案，说明清水通常是______的。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 43
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "水通常没有固定形状。倒入不同容器后，水的形状会发生变化。",
+        "knowledge_point": "水的特征观察与对比",
+        "options": [],
+        "question": "水倒入不同形状的容器后，形状可能会不同。",
+        "score": 1,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "把同样多的水分别倒进两个不同形状的透明容器里，观察水的形状是否不同。",
+        "difficulty": 2,
+        "explanation": "保持水量相同，只改变容器形状，更容易看出水会随着容器改变形状。",
+        "knowledge_point": "水的特征观察与对比",
+        "options": [],
+        "question": "怎样做一个简单的观察，来比较水在不同容器中的形状？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "科学观察可以看、闻和比较，但不能品尝实验材料。遇到不明液体，更不能靠品尝来辨认。",
+        "knowledge_point": "水的特征观察与对比",
+        "options": [
+          "A. 用嘴尝一尝",
+          "B. 看一看，并在安全时轻轻扇闻",
+          "C. 把液体洒到桌上"
+        ],
+        "question": "观察一杯确定为清水的水时，哪种做法更安全？",
+        "score": 1,
+        "type": "choice",
+        "id": 46
+      },
+      {
+        "answer": "白糖",
+        "difficulty": 1,
+        "explanation": "白糖放入水中搅拌后会均匀分散，肉眼看不见，说明它能溶解在水中。",
+        "knowledge_point": "物质在水中的溶解现象",
+        "options": [
+          "白糖",
+          "小石子",
+          "沙子",
+          "铁钉"
+        ],
+        "question": "下列哪种物质放入水中搅拌后，通常能溶解？",
+        "score": 5,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "食盐仍在水中，只是肉眼看不见",
+        "difficulty": 2,
+        "explanation": "食盐溶解后仍然在水中，只是肉眼看不见，也不会变成其他物质。",
+        "knowledge_point": "物质在水中的溶解现象",
+        "options": [
+          "食盐消失了，水里什么也没有",
+          "食盐仍在水中，只是肉眼看不见",
+          "食盐变成了小石子",
+          "水变成了沙子"
+        ],
+        "question": "把少量食盐放入水中，搅拌至看不见后，哪种说法正确？",
+        "score": 5,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "空气就在我们周围。它通常看不见，但可以用塑料袋接住，使袋子鼓起来，说明空气真实存在。",
+        "knowledge_point": "认识空气及其特征",
+        "options": [
+          "A. 看不见就不存在",
+          "B. 空气就在我们周围",
+          "C. 空气只在水里"
+        ],
+        "question": "关于空气，下面哪种说法正确？",
+        "score": 1,
+        "type": "choice",
+        "id": 49
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "空气通常没有颜色、没有气味，我们一般看不见它。",
+        "knowledge_point": "认识空气及其特征",
+        "options": [],
+        "question": "空气通常看不见，也没有颜色和气味。",
+        "score": 1,
+        "type": "true_false",
+        "id": 50
+      },
+      {
+        "answer": "空气",
+        "difficulty": 1,
+        "explanation": "空气就在我们周围，虽然通常看不见，却真实存在。",
+        "knowledge_point": "认识空气及其特征",
+        "options": [],
+        "question": "我们周围到处都有______。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "空气占据空间",
+        "difficulty": 2,
+        "explanation": "把袋子撑开后扎紧，袋子会鼓起来，是因为里面装进了空气，说明空气占据了袋内的空间。",
+        "knowledge_point": "认识空气及其特征",
+        "options": [],
+        "question": "塑料袋接住空气后会鼓起来，这说明了什么？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "空气流动",
+        "difficulty": 2,
+        "explanation": "空气流动起来就形成了风。风能使树叶、纸条或旗子飘动。",
+        "knowledge_point": "认识空气及其特征",
+        "options": [],
+        "question": "风是怎样形成的？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "风就是流动的空气。空气流动时能推动轻小的物体，因此纸条可能会飘动。",
+        "knowledge_point": "认识空气及其特征",
+        "options": [
+          "A. 空气在流动",
+          "B. 空气消失了",
+          "C. 纸条变成了空气"
+        ],
+        "question": "打开窗户后，桌上的轻纸条飘动了，可能是因为：",
+        "score": 2,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "圆形",
+        "difficulty": 1,
+        "explanation": "圆形描述的是物体的形状；光滑描述表面特征，红色描述颜色。",
+        "knowledge_point": "观察物体的特征",
+        "options": [
+          "红色",
+          "圆形",
+          "光滑",
+          "有香味"
+        ],
+        "question": "下列哪一项描述的是物体的形状？（　）",
+        "score": 5,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "没有固定的形状",
+        "difficulty": 1,
+        "explanation": "水倒入不同形状的容器中，会随着容器形状改变。",
+        "knowledge_point": "水的特征",
+        "options": [
+          "有固定的形状",
+          "没有固定的形状",
+          "不会流动",
+          "有固定的颜色"
+        ],
+        "question": "水倒入不同形状的容器后，水的形状会（）。",
+        "score": 3,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "透明的水能让我们透过水看见后面的物体。",
+        "knowledge_point": "水的特征",
+        "options": [],
+        "question": "透过一杯清水能看见后面的物体，说明水是透明的。",
+        "score": 3,
+        "type": "true_false",
+        "id": 57
+      },
+      {
+        "answer": "颜色",
+        "difficulty": 1,
+        "explanation": "干净的水通常没有颜色；水能流动，但“颜色”不是它能流动的原因。",
+        "knowledge_point": "水的特征",
+        "options": [],
+        "question": "水可以从一个杯子倒入另一个杯子，这是水会（___）的表现。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "会流动",
+        "difficulty": 1,
+        "explanation": "空气可以从一个地方流向另一个地方，例如风就是流动的空气。",
+        "knowledge_point": "空气的特征",
+        "options": [],
+        "question": "风是流动的空气。（填“会流动”或“不会流动”）",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "会",
+        "difficulty": 2,
+        "explanation": "空瓶子看起来是空的，其实里面有空气。把瓶口浸入水中并轻轻倾斜，瓶里的空气会跑出来，水就能进入瓶中。",
+        "knowledge_point": "空气的特征",
+        "options": [],
+        "question": "把一个空瓶子的瓶口浸入水中并轻轻倾斜，瓶里会冒出气泡吗？（填“会”或“不会”）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 60
       }
     ]
   },
@@ -654,41 +1124,48 @@
   },
   "knowledge_summary": [
     {
+      "common_mistakes": [
+        "把形状和颜色混为一谈，例如把“红色”说成形状。",
+        "闻气味时把鼻子直接凑到物体旁边；应先请成人确认安全，再用手轻轻扇动气味到鼻子附近。",
+        "只用一种感官观察，或用“好看”“奇怪”等不具体的词描述。",
+        "随意触摸或闻不认识的物体，可能不安全。"
+      ],
+      "core_concept": "观察物体时，可以在安全的前提下运用多种感官：用眼睛观察颜色、形状和大小；用鼻子辨别气味；用手感受软硬、光滑或粗糙。把观察到的特点说清楚，能帮助我们更准确地认识物体。不要品尝陌生物体，也不要直接触摸或闻不认识的物体。",
+      "key_formula": "眼看：颜色、形状、大小；鼻闻：气味；手摸：软硬、光滑或粗糙（确认安全后再触摸）。",
       "point": "观察并描述物体的特征",
-      "core_concept": "运用五官感官从多个维度认知物体。",
-      "key_formula": "眼看形色大小，鼻闻气味，手摸软硬粗糙。",
-      "common_mistakes": [
-        "混淆形状与颜色",
-        "观察气味时直接凑近闻"
-      ],
-      "tips": "描述要具体，如“圆圆的”而不是“好看”。"
+      "tips": "描述时说出具体特征，例如“这个球是圆形的、红色的，摸起来比较光滑”，不要只说“好看”或“很奇怪”。观察前先确认物体安全；闻气味时用手轻轻扇动，不要把鼻子直接凑近。"
     },
     {
+      "common_mistakes": [
+        "认为物体越大就一定越重。",
+        "只凭眼睛判断轻重，不进行掂量或称量。",
+        "把天平下降的一端误认为较轻的一端。"
+      ],
+      "core_concept": "物体有轻有重，大小不能直接决定轻重。可以先预测，再用手掂一掂，或用天平等工具测量、比较。",
+      "key_formula": "预测 → 掂量 → 称量",
       "point": "比较物体的轻重",
-      "core_concept": "质量是物体的基本特征，可用感官掂量或工具测量。",
-      "key_formula": "预测->掂量->称量。",
-      "common_mistakes": [
-        "认为大的物体一定重"
-      ],
-      "tips": "天平倾斜的一端代表该物体更重。"
+      "tips": "使用简易天平时，下降的一端放着较重的物体；若天平平衡，说明两端物体一样重，或在当前测量精度下轻重相同。"
     },
     {
+      "common_mistakes": [
+        "认为改变物体的摆放方式会改变物体本身占据空间的大小。",
+        "认为球形或形状不规则的物体也能像正方体一样紧密排列。"
+      ],
+      "core_concept": "物体的形状会影响它们拼合和堆放的方式。形状规则、表面平整的物体，如正方体积木，通常可以紧密排列；球形或形状不规则的物体之间容易留下空隙。改变物体的摆放方式不会改变物体本身的多少。",
+      "key_formula": "规则、平整的物体更容易紧密排列；球形或形状不规则的物体容易留下空隙。",
       "point": "物体的形状与空间填充",
-      "core_concept": "物体的形状决定了其拼合和占据空间的方式。",
-      "key_formula": "规则物体平铺无缝隙，非规则或球形有缝隙。",
-      "common_mistakes": [
-        "认为改变形状会改变物体原来的多少"
-      ],
-      "tips": "整齐摆放能多装东西。"
+      "tips": "装盒子时，可以把形状相同、表面平整的物体整齐排列，减少空隙。比较装入多少时，要尽量保持物体和容器相同，再观察排列方式的影响。"
     },
     {
-      "point": "根据特征给物体分类",
-      "core_concept": "分类是整理信息的科学方法。",
-      "key_formula": "同一分类过程只能使用一种标准。",
       "common_mistakes": [
-        "标准不统一导致分类混乱"
+        "分类前没有先确定分类标准，导致分类依据不一致。",
+        "把不同特征混在一起分类，例如一会儿看颜色、一会儿看形状。",
+        "只关注物体的名称，没有观察物体的实际特征。"
       ],
-      "tips": "先确定标准（如分类依据），再进行挑选。"
+      "core_concept": "物体有许多特征，例如颜色、形状、大小、轻重和材料。分类就是先选定一种特征作为标准，再把符合这一标准的物体放在一起。使用同一种标准，分类结果才清楚、有条理。",
+      "key_formula": "先确定一种分类标准，再按这一标准把物体分组。",
+      "point": "根据特征给物体分类",
+      "tips": "分类前先问自己“我按什么来分？”，再逐个观察物体是否符合标准。同一次分类只使用一种标准；如果想换标准，可以重新分类。"
     },
     {
       "point": "水的特征与溶解",
@@ -709,6 +1186,72 @@
         "认为空瓶子里面什么都没有"
       ],
       "tips": "通过塑料袋鼓起来或者风吹脸庞来证明空气存在。"
+    },
+    {
+      "common_mistakes": [
+        "认为水总是无色、透明的，忽略水里可能有杂质或颜色。",
+        "把水的形状说成固定不变；水会随着容器形状改变。",
+        "只比较水的样子，不注意气味、流动和容器等观察条件。"
+      ],
+      "core_concept": "水通常是无色、透明、没有气味的液体，能流动，没有固定形状。观察水时，可以借助透明容器，看一看、闻一闻，并将水与其他液体或物体比较。观察时不要品尝，也不要随意闻不明液体。",
+      "key_formula": "观察并比较：看颜色和透明程度，闻气味（只轻轻扇闻安全的水），观察流动和形状。",
+      "point": "水的特征观察与对比",
+      "tips": "把同样多的水分别倒入不同形状的透明容器中，观察水的形状怎样变化；还可以把水与牛奶、油等安全样品隔着容器比较颜色、透明程度和流动情况。不要品尝任何实验样品。"
+    },
+    {
+      "common_mistakes": [
+        "把物质看不见了误认为它不见了；食盐溶解后仍在水中。",
+        "认为搅拌能让所有物质都溶解；沙子、小石子等通常不会溶解在水中。",
+        "把物质沉到杯底或浮在水面当作溶解；这说明它还没有均匀分散在水中。"
+      ],
+      "core_concept": "有些物质放入水中后，会均匀地分散在水里，肉眼看不见，也不容易再分开，这种现象叫溶解。食盐、白糖等能溶解在水中；沙子、小石子等不能溶解在水中。溶解后，物质仍然在水里。",
+      "key_formula": "物质放入水中并均匀分散、肉眼看不见 → 可能发生了溶解",
+      "point": "物质在水中的溶解现象",
+      "tips": "可以把少量食盐、白糖、沙子分别放入清水中，轻轻搅拌并观察。注意使用干净的容器，不要品尝实验材料。"
+    },
+    {
+      "common_mistakes": [
+        "认为空气看不见，所以不存在。",
+        "认为空气没有颜色就没有特征。",
+        "认为只有吹风时才有空气。"
+      ],
+      "core_concept": "空气是我们周围的一种气体。空气通常看不见、摸不着，也没有颜色和气味，但它真实存在，并且占据空间。风是空气流动形成的。",
+      "key_formula": "空气占据空间；空气流动形成风。",
+      "point": "认识空气及其特征",
+      "tips": "可用塑料袋接住空气，再把袋口扎紧，感受袋子鼓起来，说明空气占据空间；观察飘动的纸条或树叶，知道空气流动会形成风。不要把未知气体放进袋中，也不要随意闻或尝不明物质。"
+    },
+    {
+      "common_mistakes": [
+        "只用眼睛观察，忽略耳、鼻、舌和手等感官。",
+        "把物体的颜色、形状、气味和表面粗糙程度混为一谈。",
+        "观察不熟悉的物体时直接用嘴尝，或把物体凑近鼻子深闻。"
+      ],
+      "core_concept": "观察物体时，可以运用眼、耳、鼻、舌和手等感官，了解物体的颜色、形状、声音、气味、味道以及表面的光滑或粗糙等特征。观察时要注意安全：不随意品尝，也不直接闻不认识的物体。",
+      "key_formula": "观察物体特征：选择合适的感官 → 仔细观察 → 描述发现。眼看颜色和形状，耳听声音，鼻闻气味，舌尝味道（仅限安全、允许的物品），手摸表面特征。",
+      "point": "观察物体的特征",
+      "tips": "观察时可以从多个方面描述同一个物体，例如“红色、圆形、表面光滑”。对于不熟悉的物体，不要用嘴尝，也不要直接凑近闻；可以先用眼睛观察，必要时请老师或家长帮助。"
+    },
+    {
+      "common_mistakes": [
+        "把水的特征误认为所有液体都相同；不同液体的颜色、气味可能不同。",
+        "认为水总是呈现固定形状；水会随着容器形状改变。",
+        "把透明理解为看不见；透明是指能透过水看见物体。"
+      ],
+      "core_concept": "水通常是无色、无味、透明的液体，能够流动，没有固定的形状，会随着容器形状改变。",
+      "key_formula": "水的常见特征：无色、无味、透明、会流动、没有固定形状。",
+      "point": "水的特征",
+      "tips": "观察水时，可以看看水的颜色和透明度，闻一闻气味，并把水倒入不同形状的容器，观察它会不会流动、形状是否改变。不要品尝不明液体。"
+    },
+    {
+      "common_mistakes": [
+        "看不见空气，不等于空气不存在。",
+        "空气没有固定形状，会随着容器的形状改变。",
+        "空气无色、通常没有气味，但并不是没有质量，也不是不能占据空间。"
+      ],
+      "core_concept": "空气存在于我们周围。它通常是无色、无味、看不见的，没有固定形状，可以流动，也能占据空间。",
+      "key_formula": "",
+      "point": "空气的特征",
+      "tips": "可以用塑料袋兜空气，再轻轻挤压袋子，感受空气占据空间并能流动。观察时不要把塑料袋套在头上，也不要对着别人挤压袋子。"
     }
   ]
 }

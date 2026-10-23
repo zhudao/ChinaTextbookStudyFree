@@ -4,351 +4,1258 @@
   "unit_number": 4,
   "unit_test": {
     "title": "第四单元基础过关测试",
-    "total_score": 100,
+    "total_score": 347,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "答案是“对”。“我”字的规范笔顺是撇、横、竖钩、提、撇、点，右上方的点是最后一笔。",
         "knowledge_point": "方位点画书写规则",
-        "question": "“我”字的最后一笔是“点”，这个点在右上方向，所以应该最后写。",
         "options": [],
-        "answer": "对",
-        "explanation": "根据笔顺规则，点在右上或字里时，通常后写。“我”字末笔是右上角的点。"
+        "question": "“我”字右上方的点是最后一笔。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "答案是“对”。端午节吃粽子与纪念诗人屈原有关，是流传下来的传统说法；题目中的“据说”也表明这是传统说法。",
         "knowledge_point": "端午民俗与背景认知",
-        "question": "端午节人们吃粽子，据说是为了纪念伟大的诗人屈原。",
         "options": [],
-        "answer": "对",
-        "explanation": "端午节吃粽子、赛龙舟等习俗都是为了纪念爱国诗人屈原。"
+        "question": "端午节人们吃粽子，据说是为了纪念诗人屈原。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "长句子停顿朗读",
-        "question": "朗读长句子时，只要中间不换气，就不需要停顿。",
-        "options": [],
         "answer": "错",
-        "explanation": "长句子需要根据意思进行自然停顿，这样才能准确表达句意。"
-      },
-      {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 1,
-        "knowledge_point": "方位点画书写规则",
-        "question": "“主”字的第一笔是点，因为点在正上方，所以要先写。",
-        "options": [],
-        "answer": "对",
-        "explanation": "点在正上方或左上方时，通常先写。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
+        "explanation": "答案是“错”。长句子朗读时，可以在意思自然分开的地方稍停，不必等到需要换气才停；停顿要帮助听者听清句意，也不能随意把词语拆开。",
         "knowledge_point": "长句子停顿朗读",
-        "question": "“粽子是用青青的箬竹叶包的”这句话中，“青青的”后面可以稍微停顿。",
         "options": [],
-        "answer": "对",
-        "explanation": "为了突出箬竹叶的特点，在修饰词后适当停顿是合理的词组停顿方式。"
+        "question": "朗读长句子时，只能在需要换气的地方停顿。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "答案是“错”。“主”字的规范笔顺是点、横、横、竖、横，第一笔是点，不是先写第一横。",
+        "knowledge_point": "方位点画书写规则",
+        "options": [],
+        "question": "“主”字先写第一横，再写点。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "答案是“错”。“青青的箬竹叶”是连在一起的词语，在“青青的”后停顿会把说明箬竹叶的词语分开。朗读时可以在“粽子是用”后稍停，再连贯读“青青的箬竹叶包的”。",
+        "knowledge_point": "长句子停顿朗读",
+        "options": [],
+        "question": "朗读“粽子是用青青的箬竹叶包的”时，在“青青的”后停顿，能让“青青的箬竹叶”读得更连贯。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "吃月饼",
+        "difficulty": 1,
+        "explanation": "答案是“吃月饼”。端午节常见习俗有吃粽子、赛龙舟和挂艾草；吃月饼常与中秋节联系起来，所以它不是题目所问的端午节常见习俗。",
         "knowledge_point": "端午民俗与背景认知",
-        "question": "下列哪一项不是端午节的传统习俗？",
         "options": [
           "吃粽子",
           "赛龙舟",
           "挂艾草",
           "吃月饼"
         ],
-        "answer": "吃月饼",
-        "explanation": "吃月饼是中秋节的习俗，不是端午节的。"
+        "question": "下列哪一项不是端午节常见的习俗？",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "点、竖、横折钩、点",
         "difficulty": 1,
+        "explanation": "答案是“点、竖、横折钩、点”。“门”字共四笔，依次是点、竖、横折钩、点；其他笔顺都与这一规范顺序不符。",
         "knowledge_point": "方位点画书写规则",
-        "question": "下列汉字中，最后一笔是“点”的是：",
         "options": [
-          "门",
-          "书",
-          "主",
-          "方"
+          "点、点、竖、横折钩",
+          "点、竖、横折钩、点",
+          "竖、点、横折钩、点",
+          "点、横折钩、竖、点"
         ],
-        "answer": "书",
-        "explanation": "“书”字的末笔是右上角的点；“门”和“主”的首笔是点，“方”的末笔是撇。"
+        "question": "“门”字的规范笔顺是哪一种？",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "外婆 / 给我们煮了好多种味道的粽子。",
         "difficulty": 2,
+        "explanation": "答案是“外婆 / 给我们煮了好多种味道的粽子。”题目要求只停顿一处，并在“外婆”后停顿，表示先说做事的人，再连贯地说她做了什么。“好多种味道的粽子”也要连贯读。",
         "knowledge_point": "长句子停顿朗读",
-        "question": "下列长句子朗读停顿最合适的一项是：",
         "options": [
-          "外婆/给/我们/煮了/好多种/味道的/粽子。",
-          "外婆给/我们煮了/好多种味道的/粽子。",
-          "外婆/给我们/煮了/好多种味道的/粽子。",
-          "外婆/给我们煮了/好多种/味道/的/粽子。"
+          "外婆 / 给 / 我们 / 煮了 / 好多种 / 味道的 / 粽子。",
+          "外婆 / 给我们煮了好多种味道的粽子。",
+          "外婆给 / 我们煮了好多种味道的粽子。",
+          "外婆 / 给我们煮了好多种 / 味道的 / 粽子。"
         ],
-        "answer": "外婆/给我们/煮了/好多种味道的/粽子。",
-        "explanation": "根据主语、状语、谓语、宾语的结构，这样停顿最为自然。"
+        "question": "朗读“外婆给我们煮了好多种味道的粽子。”只停顿一处，并且停顿位置必须在“外婆”后，哪种读法符合要求？",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "小猫",
         "difficulty": 3,
+        "explanation": "答案是“小猫”。短文说小猫跳到椅子上，接着写“它”伸爪去够桌上的毛线球。“它”承接前一句的小猫，所以去够毛线球的是小猫；短文没有说小猫够到了毛线球。",
         "knowledge_point": "理解阅读",
-        "question": "阅读：粽子是用青青的箬竹叶包的，里面裹着白白的糯米，中间有一颗红红的枣。这段话主要描写了粽子的：",
         "options": [
-          "味道",
-          "外形和成分",
-          "做法",
-          "来历"
+          "小狗",
+          "小猫",
+          "小鸟",
+          "小兔"
         ],
-        "answer": "外形和成分",
-        "explanation": "句子提到了叶、米、枣，是在交代粽子的材料和外观。"
+        "question": "阅读短文：小猫跳到椅子上。它伸出爪子，去够桌上的毛线球。这里的“它”指谁？",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "笑嘻嘻",
         "difficulty": 1,
+        "explanation": "答案是“笑嘻嘻”。题干明确说大家脸上露出笑容，空格要写出带笑的样子。“开心”主要说心情；“白白”和“红红”不符合带笑的样子这一线索。",
         "knowledge_point": "字词义辨析",
-        "question": "奶奶过生日，全家人都（ ）了。",
         "options": [
           "开心",
           "笑嘻嘻",
           "白白",
           "红红"
         ],
-        "answer": "笑嘻嘻",
-        "explanation": "描写家人的神态，笑嘻嘻最为生动贴切。"
+        "question": "奶奶过生日，全家人脸上都露出笑容，大家都（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "低头思故乡",
         "difficulty": 2,
+        "explanation": "答案是“低头思故乡”。《静夜思》中“举头望明月”后面紧接着“低头思故乡”，按诗句原文即可确定。",
         "knowledge_point": "古诗原文",
-        "question": "《静夜思》中，“举头望明月”的下一句是：",
         "options": [
           "低头思故乡",
           "疑是地上霜",
           "春眠不觉晓",
           "谁知盘中餐"
         ],
-        "answer": "低头思故乡",
-        "explanation": "出自李白的《静夜思》：举头望明月，低头思故乡。"
+        "question": "《静夜思》中，“举头望明月”的下一句是：",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "xīng",
         "difficulty": 1,
+        "explanation": "答案是 xīng。句中的词语是“兴奋”，读作 xīng fèn，所以“兴”的读音是 xīng。",
         "knowledge_point": "多音字读音选择",
-        "question": "“望着窗外，我兴（ ）奋地叫了起来。”括号里应填：",
         "options": [
           "xīng",
           "xìng",
           "xīn",
           "xìn"
         ],
-        "answer": "xīng",
-        "explanation": "兴奋（xīng fèn）表示振奋。高兴时读作第四声。"
+        "question": "“听到好消息，我兴奋地告诉了妈妈。”句中“兴”的读音是：",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "一头桥",
         "difficulty": 1,
+        "explanation": "“粽子”可以说“一堆粽子”，“枣”可以说“一颗枣”，“山”可以说“一座山”。给出的四个词语中，桥不说“一头桥”，所以搭配不恰当的是“一头桥”。",
         "knowledge_point": "量词搭配",
-        "question": "选出搭配不当的一项：",
         "options": [
           "一堆粽子",
           "一颗枣",
           "一头桥",
           "一座山"
         ],
-        "answer": "一头桥",
-        "explanation": "桥的量词应该是“座”或“条”，不能用“头”。"
+        "question": "下面哪个词语的量词搭配不恰当？",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "知道",
         "difficulty": 2,
+        "explanation": "答案是“知道”。在诗句“夜来风雨声，花落知多少”中，“知”表示知道、明白；“知识”是学到的内容，“开会”与句意无关。",
         "knowledge_point": "词义辨析",
-        "question": "“夜来风雨声，花落知多少。”诗中的“知”意思是：",
         "options": [
           "知道",
-          "不知道",
           "知识",
+          "知了",
           "开会"
         ],
-        "answer": "知道",
-        "explanation": "这里的“知多少”意为“知道有多少”。"
-      },
-      {
-        "id": 15,
+        "question": "读诗句：“夜来风雨声，花落知多少。”这里的“知”最接近哪个意思？",
+        "score": 5,
         "type": "choice",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "句式转换",
-        "question": "“彩虹不是天上的桥吗？”这句话的意思是：",
-        "options": [
-          "彩虹不是桥。",
-          "彩虹是天上的桥。",
-          "彩虹像一座桥。",
-          "彩虹在哪里？"
-        ],
+        "id": 14
+      },
+      {
         "answer": "彩虹是天上的桥。",
-        "explanation": "反问句表达肯定的语气。"
+        "difficulty": 2,
+        "explanation": "题目要求把带肯定语气的“彩虹不是天上的桥吗？”改成肯定陈述句。按这个句式转换练习的要求，去掉“不是……吗”的问句形式，表达为“彩虹是天上的桥。”句子末尾用句号。",
+        "knowledge_point": "句式转换",
+        "options": [
+          "彩虹不是天上的桥。",
+          "彩虹是天上的桥。",
+          "彩虹是天上的桥吗？",
+          "天上有一座真正的桥。"
+        ],
+        "question": "把“彩虹不是天上的桥吗？”改成肯定陈述句，选一项。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "古诗原文",
-        "question": "床前明月光，（ ）是地上霜。",
-        "options": [],
         "answer": "疑",
-        "explanation": "考查《静夜思》名句积累。"
-      },
-      {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "字词积累",
-        "question": "妈妈包的粽子真好（ ）。",
-        "options": [],
-        "answer": "吃",
-        "explanation": "考查生活场景中的动词搭配。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
-        "knowledge_point": "方位点画书写规则",
-        "question": "“成”字右上角的“点”应该第几笔写？（用汉字填）",
+        "explanation": "答案是“疑”。《静夜思》原句是“床前明月光，疑是地上霜”，空格在“是”字之前，因此填“疑”。",
+        "knowledge_point": "古诗原文",
         "options": [],
-        "answer": "六",
-        "explanation": "“成”字笔顺：横、撇、横折钩、斜钩、撇、点。末笔是点。"
+        "question": "按《静夜思》原句填一个字：床前明月光，____是地上霜。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 19,
-        "type": "matching",
+        "answer": "吃",
+        "difficulty": 1,
+        "explanation": "答案是“吃”。食物味道好可以说“好吃”，所以句子应读作“妈妈包的粽子真好吃”。“好看”说外表，“好听”说声音，“好玩”说事情有趣，都不符合这里的意思。",
+        "knowledge_point": "字词积累",
+        "options": [
+          "看",
+          "听",
+          "吃",
+          "玩"
+        ],
+        "question": "妈妈包的粽子真好（　）。选择合适的字。",
         "score": 5,
+        "type": "choice",
+        "id": 17
+      },
+      {
+        "answer": "后",
         "difficulty": 2,
+        "explanation": "答案是“后”。“我”字的规范笔顺中，右上方的点排在最后一笔，所以要后写。",
+        "knowledge_point": "方位点画书写规则",
+        "options": [],
+        "question": "按“我”字的规范笔顺，右上方的点要（先、后）写？请从“先、后”中填一个词。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "yǒng",
+        "difficulty": 1,
+        "explanation": "“勇”读yǒng，声母是y，韵母是ong，声调是第三声。",
         "knowledge_point": "字音配对",
-        "question": "请将生字与对应的拼音连线：",
+        "options": [
+          "yǒng",
+          "yòng",
+          "yǔn",
+          "yōng"
+        ],
+        "question": "“勇”的正确读音是哪一个？",
+        "score": 1,
+        "type": "choice",
+        "id": 19
+      },
+      {
+        "answer": "白白的糯米",
+        "difficulty": 1,
+        "explanation": "糯米通常呈白色，所以“白白的糯米”搭配恰当。“青青的”说青绿色，“红红的”说红色，“圆圆的”说形状，都不符合题目所问的糯米颜色。",
+        "knowledge_point": "叠词搭配",
+        "options": [
+          "白白的糯米",
+          "青青的糯米",
+          "圆圆的糯米",
+          "红红的糯米"
+        ],
+        "question": "选出颜色和事物搭配恰当的一项。",
+        "score": 5,
+        "type": "choice",
+        "id": 20
+      },
+      {
+        "answer": "快乐—开心",
+        "difficulty": 2,
+        "explanation": "正确配对是：十分—非常、快乐—开心、从此—从这以后、到处—处处。题目所问的“快乐”表示心情愉快，与“开心”意思相近。",
+        "knowledge_point": "近义词连线",
+        "options": [
+          "十分—处处",
+          "快乐—开心",
+          "从此—非常",
+          "到处—从这以后"
+        ],
+        "question": "旧题改编：下面哪一对词语意思最接近？",
+        "score": 5,
+        "type": "choice",
+        "id": 21
+      },
+      {
+        "answer": "天上的云朵像美丽的棉花糖。",
+        "difficulty": 2,
+        "explanation": "答案是“天上的云朵像美丽的棉花糖。”题目要求使用给出的全部词语，并先说天上的事物，再说它像什么。“天上的云朵”说出事物，“像美丽的棉花糖”接着说明它像什么；其余选项没有按题目要求把同一组词语排列成通顺的句子。",
+        "knowledge_point": "句子结构",
+        "options": [
+          "天上的云朵像美丽的棉花糖。",
+          "云朵天上的美丽的像棉花糖。",
+          "天上的云朵美丽的像棉花糖。",
+          "天上的像云朵棉花糖美丽的。"
+        ],
+        "question": "按“先说天上的事物，再说它像什么”的意思，使用下面全部词语排成一句通顺的话，哪一个正确？词语：天上的、云朵、像、美丽的、棉花糖。",
+        "score": 5,
+        "type": "choice",
+        "id": 22
+      },
+      {
+        "answer": "挂艾草",
+        "difficulty": 1,
+        "explanation": "答案是“挂艾草”。题目说奶奶把艾草挂在门边，对应端午节常见的挂艾草习俗。赏月常与中秋节联系起来，贴春联和包饺子常与春节联系起来。",
+        "knowledge_point": "端午民俗与背景认知",
+        "options": [
+          "挂艾草",
+          "赏月",
+          "贴春联",
+          "包饺子"
+        ],
+        "question": "端午节时，奶奶把艾草挂在门边。她做的是哪一种习俗？",
+        "score": 5,
+        "type": "choice",
+        "id": 23
+      },
+      {
+        "answer": "星星 / 在夜空中闪闪发亮。",
+        "difficulty": 2,
+        "explanation": "答案是“星星 / 在夜空中闪闪发亮。”题目要求只在“星星”后停顿一处。先说句子写的对象“星星”，再连贯地说它在哪里、怎么样。",
+        "knowledge_point": "长句子停顿朗读",
+        "options": [
+          "星星在 / 夜空中闪闪发亮。",
+          "星星 / 在夜空中闪闪发亮。",
+          "星星 / 在夜空中 / 闪闪发亮。",
+          "星星在夜空 / 中闪闪发亮。"
+        ],
+        "question": "朗读“星星在夜空中闪闪发亮。”只停顿一处，并在“星星”后停顿，哪种读法符合要求？",
+        "score": 5,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "小鸟 / 飞过了高高的树枝。",
+        "difficulty": 3,
+        "explanation": "答案是“小鸟 / 飞过了高高的树枝。”题目要求只在句子说的“谁”后面标一处停顿。“小鸟”是句子说的对象，后面说它做了什么；“高高的树枝”要连贯读。",
+        "knowledge_point": "长句子停顿朗读",
+        "options": [],
+        "question": "用“/”标出一处停顿：只在句子说的“谁”后面标。小鸟飞过了高高的树枝。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "答案是“对”。题目明确要求朗读时在逗号处稍停；“小雨停了”后有逗号，因此按标点稍停，接着读“小朋友们走出家门”，能按句子分开的意思连贯朗读。",
+        "knowledge_point": "长句子停顿朗读",
+        "options": [],
+        "question": "朗读“小雨停了，小朋友们走出家门”时，在“了”后按逗号稍停，再接着读后半句，符合标点停顿的要求。",
+        "score": 2,
+        "type": "true_false",
+        "id": 26
+      },
+      {
+        "answer": "撇、横、竖钩、提、撇、点",
+        "difficulty": 2,
+        "explanation": "答案是“撇、横、竖钩、提、撇、点”。“我”字按这六笔依次书写，右上方的点是末笔；先写点的顺序不符合它的规范笔顺。",
+        "knowledge_point": "方位点画书写规则",
+        "options": [
+          "点、撇、横、竖钩、提、撇",
+          "撇、横、竖钩、提、撇、点",
+          "撇、点、横、竖钩、提、撇",
+          "横、撇、竖钩、提、点、撇"
+        ],
+        "question": "小林要写“我”字。哪一种是它的规范笔顺？",
+        "score": 5,
+        "type": "choice",
+        "id": 27
+      },
+      {
+        "answer": "“我”的点最后写，“主”的点第一笔写。",
+        "difficulty": 2,
+        "explanation": "答案是““我”的点最后写，“主”的点第一笔写。”按这两个字的规范笔顺，“我”以右上方的点收笔，“主”以点起笔；这只说明这两个例字的写法，不能直接推断其他汉字。",
+        "knowledge_point": "方位点画书写规则",
+        "options": [
+          "“我”的点最后写，“主”的点第一笔写。",
+          "“我”和“主”的点都第一笔写。",
+          "“我”和“主”的点都最后写。",
+          "“我”的点第一笔写，“主”的点最后写。"
+        ],
+        "question": "“我”的点在右上方，“主”的点在上方。按这两个字的规范笔顺，哪句话正确？",
+        "score": 5,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "赛龙舟",
+        "difficulty": 1,
+        "explanation": "答案是“赛龙舟”。题目描述人们在河上比赛龙舟，这正是赛龙舟；吃粽子是饮食习俗，挂艾草是把艾草挂起来，赏月常与中秋节联系起来。",
+        "knowledge_point": "端午民俗与背景认知",
+        "options": [
+          "吃粽子",
+          "挂艾草",
+          "赛龙舟",
+          "赏月"
+        ],
+        "question": "端午节时，小明看到人们在河上比赛龙舟。这是哪一种习俗？",
+        "score": 3,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "五月初五",
+        "difficulty": 1,
+        "explanation": "答案是“五月初五”。题目问端午节在农历几月几日；本课所学是农历五月初五，所以应选“五月初五”。",
+        "knowledge_point": "端午民俗与背景认知",
+        "options": [
+          "五月初五",
+          "八月十五",
+          "正月初一",
+          "九月初九"
+        ],
+        "question": "端午节在农历几月几日？",
+        "score": 3,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "挂艾草",
+        "difficulty": 1,
+        "explanation": "答案是“挂艾草”。题目要求从端午节常见习俗中找出把植物挂起来的活动。艾草是植物，挂艾草符合条件；吃粽子是饮食活动，赛龙舟是比赛活动。",
+        "knowledge_point": "端午民俗与背景认知",
+        "options": [
+          "吃粽子",
+          "赛龙舟",
+          "挂艾草",
+          "赏月"
+        ],
+        "question": "端午节常见的几种习俗中，哪一种是把植物挂起来？",
+        "score": 3,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "操场上",
+        "difficulty": 1,
+        "explanation": "答案是“操场上”。短文写明小明和同学在操场上踢球，地点就是操场上。",
+        "knowledge_point": "理解阅读",
+        "options": [
+          "教室里",
+          "操场上",
+          "图书馆里",
+          "厨房里"
+        ],
+        "question": "阅读短文：下课了，小明和同学在操场上踢球。上课铃响后，他们回到教室。小明在哪里踢球？",
+        "score": 5,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "关上窗户",
+        "difficulty": 2,
+        "explanation": "答案是“关上窗户”。短文先写风把桌上的纸吹到地上，再写乐乐关上窗户。两件事按短文顺序发生，乐乐随后做的是关窗户。",
+        "knowledge_point": "理解阅读",
+        "options": [
+          "关上窗户",
+          "打开书包",
+          "拿出水杯",
+          "擦黑板"
+        ],
+        "question": "阅读短文：风吹进屋里，把桌上的纸吹到了地上。乐乐捡起纸，随后关上窗户。乐乐捡起纸后做了什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "答案是“对”。短文先说妈妈把围巾放进抽屉，后说她把抽屉关上。围巾在抽屉里，抽屉关上后，围巾就在关着的抽屉里。",
+        "knowledge_point": "理解阅读",
+        "options": [],
+        "question": "阅读短文：妈妈把围巾放进抽屉，然后关上抽屉。判断：抽屉关上后，围巾还在抽屉里。",
+        "score": 5,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "妹妹",
+        "difficulty": 2,
+        "explanation": "答案是“妹妹”。短文先说姐姐把两把小伞放在门边，接着写妹妹拿起其中一把出门。拿伞出门的人是妹妹。",
+        "knowledge_point": "理解阅读",
+        "options": [],
+        "question": "阅读短文：姐姐把两把小伞放在门边。下雨时，妹妹拿起其中一把出门。谁拿伞出门？请从“姐姐、妹妹”中只填一个词。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "带着伞",
+        "difficulty": 3,
+        "explanation": "答案是“带着伞”。短文写小雨出门时拿了一把伞，回家时伞还在手里，因此可以判断他回家时带着伞。短文没有说明他有没有淋湿，不能据此作出判断。",
+        "knowledge_point": "理解阅读",
+        "options": [
+          "带着伞",
+          "拿着书",
+          "穿着雨衣",
+          "抱着花"
+        ],
+        "question": "阅读短文：小雨出门时拿了一把伞。放学回家时，他手里还拿着这把伞。根据这两条线索，可以判断小雨回家时怎样？",
+        "score": 5,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "开心",
+        "difficulty": 1,
+        "explanation": "答案是“开心”。题干说小明收到喜欢的生日卡片，心里很愉快，空格要表达他的心情。“笑嘻嘻”写带笑的样子；“热闹”形容人多、活动多的场面；“红红”写颜色。",
+        "knowledge_point": "字词义辨析",
+        "options": [
+          "红红",
+          "热闹",
+          "开心",
+          "笑嘻嘻"
+        ],
+        "question": "收到自己喜欢的生日卡片，小明心里很愉快，他觉得很（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 37
+      },
+      {
+        "answer": "热闹",
+        "difficulty": 2,
+        "explanation": "答案是“热闹”。题干说街上有许多人逛摊、看表演，还有锣鼓声，说明人多、活动多，适合用“热闹”形容。“安静”与这些线索相反；“开心”说心情；“红红”写颜色。",
+        "knowledge_point": "字词义辨析",
+        "options": [
+          "安静",
+          "开心",
+          "热闹",
+          "红红"
+        ],
+        "question": "街上有许多人逛摊、看表演，锣鼓声响，场面真（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "答案是“错”。“笑嘻嘻”写爷爷带着笑的样子；只知道爷爷笑着说话，不能确定他心里一定很开心。判断心情还需要更多句子线索。",
+        "knowledge_point": "字词义辨析",
+        "options": [],
+        "question": "只看到“爷爷笑嘻嘻地和我们说话”，就能确定爷爷心里一定很开心。判断对错。",
+        "score": 5,
+        "type": "true_false",
+        "id": 39
+      },
+      {
+        "answer": "开心",
+        "difficulty": 2,
+        "explanation": "答案是“开心”。题目限定从“开心、热闹”中选词。妹妹收到喜欢的礼物后高兴地说“我真喜欢”，说明她心里愉快，所以填“开心”。“热闹”常形容人多、活动多的场面。",
+        "knowledge_point": "字词义辨析",
+        "options": [],
+        "question": "只用“开心、热闹”中的一个词填空：妹妹收到喜欢的礼物后，高兴地说“我真喜欢”，她心里很（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "热闹",
+        "difficulty": 3,
+        "explanation": "答案是“热闹”。题目要求用“热闹、开心”中的一个词形容人多、活动多的场面。庙会上有许多人看表演、买东西，还有许多摊位，说明人多、活动多，所以可以说街上真热闹。“开心”说心情，不适合形容这里的场面。",
+        "knowledge_point": "字词义辨析",
+        "options": [],
+        "question": "只用“热闹、开心”中的一个词填空：庙会上有许多人看表演、买东西，还有许多摊位。要形容人多、活动多的场面，可以说：街上真（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "低头思故乡",
+        "difficulty": 2,
+        "explanation": "答案是“低头思故乡”。《静夜思》中，“举头望明月”之后的下一句是“低头思故乡”；“举头望明月，床前明月光”不是诗句的原文顺序。",
+        "knowledge_point": "古诗原文",
+        "options": [
+          "低头思故乡",
+          "举头望明月",
+          "床前明月光",
+          "疑是地上霜"
+        ],
+        "question": "小林读到“举头望明月”，接下来应读哪一句？",
+        "score": 5,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "答案是“错”。《静夜思》的原句是“举头望明月”，其中用的是“望”，不是“看”，所以“举头看明月”不是原句。",
+        "knowledge_point": "古诗原文",
+        "options": [],
+        "question": "判断：“举头看明月”是《静夜思》的原句。答案只写“对”或“错”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 43
+      },
+      {
+        "answer": "望",
+        "difficulty": 2,
+        "explanation": "答案是“望”。《静夜思》原句是“举头望明月”，“举头”和“明月”之间的字是“望”。",
+        "knowledge_point": "古诗原文",
+        "options": [],
+        "question": "按《静夜思》原句填一个字：举头____明月。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 44
+      },
+      {
+        "answer": "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+        "difficulty": 3,
+        "explanation": "答案是“床前明月光，疑是地上霜。举头望明月，低头思故乡。”《静夜思》四句按原文依次是“床前明月光”“疑是地上霜”“举头望明月”“低头思故乡”，只有这一组选项顺序正确。",
+        "knowledge_point": "古诗原文",
+        "options": [
+          "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+          "床前明月光，举头望明月。疑是地上霜，低头思故乡。",
+          "疑是地上霜，床前明月光。低头思故乡，举头望明月。",
+          "举头望明月，床前明月光。低头思故乡，疑是地上霜。"
+        ],
+        "question": "哪一组把《静夜思》四句按原文顺序排好了？",
+        "score": 5,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "xìng",
+        "difficulty": 1,
+        "explanation": "答案是 xìng。“高兴”读 gāo xìng，所以“高兴”中的“兴”读第四声 xìng。",
+        "knowledge_point": "多音字读音选择",
+        "options": [
+          "xīng",
+          "xìng",
+          "xīn",
+          "xìn"
+        ],
+        "question": "“全家人一起过节，大家都很高兴。”句中“兴”的读音是：",
+        "score": 5,
+        "type": "choice",
+        "id": 46
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "答案是对。“兴奋”读 xīng fèn，第一字“兴”读第一声 xīng。",
+        "knowledge_point": "多音字读音选择",
+        "options": [],
+        "question": "判断：“兴奋”中的“兴”读第一声。",
+        "score": 5,
+        "type": "true_false",
+        "id": 47
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "答案是错。“高兴”读 gāo xìng，其中“兴”读第四声 xìng，不读第一声 xīng。",
+        "knowledge_point": "多音字读音选择",
+        "options": [],
+        "question": "判断：“高兴”中的“兴”读第一声。",
+        "score": 5,
+        "type": "true_false",
+        "id": 48
+      },
+      {
+        "answer": "xìng",
+        "difficulty": 2,
+        "explanation": "答案是 xìng。题目限定在“高兴”这个词中，“高兴”读 gāo xìng，因此“兴”读第四声 xìng。",
+        "knowledge_point": "多音字读音选择",
+        "options": [],
+        "question": "从 xīng、xìng 中选一个，填写“高兴”里的“兴”的读音：____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "“高兴”里的“兴”",
+        "difficulty": 3,
+        "explanation": "答案是“高兴”里的“兴”。“兴奋”中的“兴”读 xīng，“高兴”中的“兴”读 xìng；xìng 是第四声，所以读第四声的是“高兴”里的“兴”。",
+        "knowledge_point": "多音字读音选择",
+        "options": [
+          "“兴奋”里的“兴”",
+          "“高兴”里的“兴”",
+          "两个词里的“兴”都读第一声",
+          "两个词里的“兴”都读第四声"
+        ],
+        "question": "“兴奋”中的“兴”读第一声，“高兴”中的“兴”读第四声。哪个词里的“兴”读第四声？",
+        "score": 5,
+        "type": "choice",
+        "id": 50
+      },
+      {
+        "answer": "位",
+        "difficulty": 1,
+        "explanation": "题目要求从“位、只”中选一个字填在“奶奶”前。称呼奶奶常说“一位奶奶”；“只”常用于动物，不适合这里。因此填“位”。",
+        "knowledge_point": "量词搭配",
+        "options": [],
+        "question": "从“位、只”中选一个字填空：“一（　）奶奶”。只填一个字。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "只",
+        "difficulty": 1,
+        "explanation": "题目说的是猫，常见搭配是“一只猫”。因此空格里填“只”。",
+        "knowledge_point": "量词搭配",
+        "options": [],
+        "question": "“一（　）猫”应填哪个量词字？只填一个字。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "“一张桌子”搭配恰当，桌子可以用量词“张”；“一头山”搭配不恰当，山常说“一座山”。两种说法并不是都恰当，因此答案是“错”。",
+        "knowledge_point": "量词搭配",
+        "options": [],
+        "question": "判断：“一张桌子”和“一头山”这两个量词搭配都恰当。答案只填“对”或“错”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 53
+      },
+      {
+        "answer": "一匹马和一条鱼",
+        "difficulty": 2,
+        "explanation": "马常说“一匹马”，鱼常说“一条鱼”，这组搭配都恰当。“颗”常用于小而圆的东西，“张”常用于纸等，“间”常用于房屋；选项中其他组合至少有一处量词不合适。因此选择“一匹马和一条鱼”。",
+        "knowledge_point": "量词搭配",
+        "options": [
+          "一颗马和一条鱼",
+          "一匹马和一条鱼",
+          "一匹马和一间鱼",
+          "一张马和一条鱼"
+        ],
+        "question": "给“马”和“鱼”各选一个常见量词，哪一组搭配都恰当？",
+        "score": 5,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "条",
+        "difficulty": 2,
+        "explanation": "题目要求从“条、只、颗、张”中选择一个字填在“河”前。河常说“一条河”；“只”常用于动物，“颗”常用于小而圆的东西，“张”常用于纸等，都不适合这里。因此填“条”。",
+        "knowledge_point": "量词搭配",
+        "options": [],
+        "question": "从“条、只、颗、张”中选一个字填空：“一（　）河”。只填一个字。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 55
+      },
+      {
+        "answer": "会叫的昆虫",
+        "difficulty": 1,
+        "explanation": "答案是“会叫的昆虫”。句子说树上有一只知了，正在叫，因此“知了”指昆虫；这里不是“知道了”的意思。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "学到的内容",
+          "明白、了解",
+          "会叫的昆虫",
+          "能认出字"
+        ],
+        "question": "读句子：“树上有一只知了，它正在叫。”这里的“知了”指什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "答案是“错”。“我知道今天要带水杯”中的“知道”表示明白、了解；“书里有有趣的知识”中的“知识”指学到的内容，两者意思不同。",
+        "knowledge_point": "词义辨析",
+        "options": [],
+        "question": "判断：“我知道今天要带水杯”中的“知道”，和“书里有有趣的知识”中的“知识”，意思相同。",
+        "score": 5,
+        "type": "true_false",
+        "id": 57
+      },
+      {
+        "answer": "明白、了解",
+        "difficulty": 2,
+        "explanation": "答案是“明白、了解”。“我知道这个字怎么读”表示我明白这个字的读法；“学到的内容”是“知识”的意思，“会叫的昆虫”是“知了”的意思。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "学到的内容",
+          "能认出字",
+          "明白、了解",
+          "会叫的昆虫"
+        ],
+        "question": "小雨说：“我知道这个字怎么读。”这里的“知道”最接近哪个意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "知识",
+        "difficulty": 2,
+        "explanation": "答案是“知识”。题目限定从“知道、知识”中选词；读书能让我们学到内容，这些内容叫“知识”。“知道”表示明白、了解，不能说学到很多“知道”。",
+        "knowledge_point": "词义辨析",
+        "options": [],
+        "question": "从“知道、知识”中选一个词填空：读书能让我们学到很多（　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "知了",
+        "difficulty": 2,
+        "explanation": "答案是“知了”。题目限定从“知了、知道、知识”中选词；句子说树上有一只会叫的昆虫，因此应填昆虫名称“知了”。“知道”表示明白、了解，“知识”指学到的内容。",
+        "knowledge_point": "词义辨析",
+        "options": [],
+        "question": "从“知了、知道、知识”中选一个词填空：树上有一只会叫的（　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "妹妹喜欢唱歌吗？",
+        "difficulty": 2,
+        "explanation": "题目要求询问妹妹是否喜欢唱歌。保留“妹妹喜欢唱歌”这件事，在句末加“吗”，并用问号，改成“妹妹喜欢唱歌吗？”",
+        "knowledge_point": "句式转换",
+        "options": [
+          "妹妹不喜欢唱歌。",
+          "妹妹喜欢唱歌吗？",
+          "妹妹喜欢跳舞。",
+          "谁喜欢唱歌？"
+        ],
+        "question": "把陈述句“妹妹喜欢唱歌。”改成询问妹妹是否喜欢唱歌的句子，选一项。",
+        "score": 5,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "题目给出的原句是“小狗在院子里跑吗？”，按句式转换练习改成陈述句，应说“小狗在院子里跑。”判断句却改成了“小狗不在院子里跑。”多了“不”，改变了原句表达的事情，所以判断为错。",
+        "knowledge_point": "句式转换",
+        "options": [],
+        "question": "判断：把“小狗在院子里跑吗？”改成陈述句，写成“小狗不在院子里跑。”是正确的。",
+        "score": 5,
+        "type": "true_false",
+        "id": 62
+      },
+      {
+        "answer": "哥哥在家。",
+        "difficulty": 2,
+        "explanation": "题目明确说明哥哥确实在家，并要求练习改成陈述句。去掉问句末尾的“吗”，用句号收尾，得到“哥哥在家。”这项转换保留了“哥哥在家”这件事。",
+        "knowledge_point": "句式转换",
+        "options": [],
+        "question": "哥哥确实在家。把“哥哥在家吗？”改成陈述句，只写句子，最多5个汉字，标点不计入字数。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "妹妹喜欢看书吗？",
+        "difficulty": 2,
+        "explanation": "题目要求把“妹妹喜欢看书。”改成询问妹妹是否喜欢看书的问句。保留“妹妹喜欢看书”这件事，在句末加“吗”，并用问号，所以答案是“妹妹喜欢看书吗？”",
+        "knowledge_point": "句式转换",
+        "options": [],
+        "question": "把“妹妹喜欢看书。”改成问句，询问妹妹是否喜欢看书。只写句子，最多8个汉字，标点不计入字数。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 64
+      },
+      {
+        "answer": "妹妹是爱看书的孩子吗？",
+        "difficulty": 2,
+        "explanation": "题目要求把陈述句改成询问“是不是”的问句。保留“妹妹是爱看书的孩子”这件事，在句末加“吗”，并用问号，得到“妹妹是爱看书的孩子吗？”",
+        "knowledge_point": "句式转换",
+        "options": [
+          "妹妹是爱看书的孩子。",
+          "妹妹不是爱看书的孩子。",
+          "妹妹是爱看书的孩子吗？",
+          "谁是爱看书的孩子？"
+        ],
+        "question": "把“妹妹是爱看书的孩子。”改成询问“是不是”的问句，选一项。",
+        "score": 5,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "房间",
+        "difficulty": 1,
+        "explanation": "答案是“房间”。“房间”指屋子里的空间，句子说妹妹在屋里读书，所以“房间”合适。“方间”“房见”“房尖”都不是这里应使用的词语。",
+        "knowledge_point": "字词积累",
+        "options": [
+          "方间",
+          "房间",
+          "房见",
+          "房尖"
+        ],
+        "question": "妹妹在（　）里读书。选择合适的词语。",
+        "score": 2,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "听到",
+        "difficulty": 1,
+        "explanation": "答案是“听到”。题干说明小鸟发出的是叫声，声音要用耳朵接收，所以说“听到小鸟叫”。“看到”是用眼睛发现事物，“摸到”是用手接触，“闻到”是用鼻子闻气味。",
+        "knowledge_point": "字词积累",
+        "options": [
+          "看到",
+          "摸到",
+          "闻到",
+          "听到"
+        ],
+        "question": "窗外传来小鸟的叫声，我（　）了。选择合适的词语。",
+        "score": 2,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "答案是“对”。“听故事”中的“听”表示用耳朵接收故事的声音；题目说弟弟在听故事，因此“听”的用法正确。",
+        "knowledge_point": "字词积累",
+        "options": [],
+        "question": "判断：“弟弟在听故事”中的“听”表示用耳朵接收声音。",
+        "score": 2,
+        "type": "true_false",
+        "id": 68
+      },
+      {
+        "answer": "看",
+        "difficulty": 2,
+        "explanation": "答案是“看”。题目限定从“写、看”中选字，并说明是用眼睛接触书本上的字；用眼睛接触文字应说“看书本上的字”，所以填“看”。",
+        "knowledge_point": "字词积累",
+        "options": [],
+        "question": "从“写、看”中选一个字填空：我用眼睛（　）书本上的字。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 69
+      },
+      {
+        "answer": "看书",
+        "difficulty": 2,
+        "explanation": "答案是“看书”。题干给出的线索是“用眼睛看书上的字”，对应的词语是“看书”。“听书”表示用耳朵听书的声音，不符合题干的用眼线索。",
+        "knowledge_point": "字词积累",
+        "options": [
+          "听书",
+          "看书",
+          "写书",
+          "吃书"
+        ],
+        "question": "小明用眼睛看书上的字。他在（　）。选择合适的词语。",
+        "score": 2,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "肉",
+        "difficulty": 1,
+        "explanation": "“肉”读ròu，声母是r，韵母是ou，声调是第四声。",
+        "knowledge_point": "字音配对",
+        "options": [
+          "勇",
+          "肉",
+          "裙",
+          "窗"
+        ],
+        "question": "哪个汉字读ròu？",
+        "score": 1,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "答案是“对”。“裙”读qún，声调是第二声，所以“裙”读qún这句话正确。",
+        "knowledge_point": "字音配对",
+        "options": [],
+        "question": "判断：“裙”读qún。答案只写“对”或“错”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 72
+      },
+      {
+        "answer": "qún",
+        "difficulty": 2,
+        "explanation": "“裙”读qún，声母是q，韵母是ün，声调是第二声；qǔn、qùn和qūn的声调与它不同。",
+        "knowledge_point": "字音配对",
+        "options": [
+          "qǔn",
+          "qún",
+          "qùn",
+          "qūn"
+        ],
+        "question": "“裙”的正确读音是哪一个？",
+        "score": 1,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "勇",
+        "difficulty": 2,
+        "explanation": "答案是“勇”。“勇”读yǒng，是第三声；“窗”读chuāng，是第一声；“裙”读qún，是第二声；“肉”读ròu，是第四声。逐个比较声调，只有“勇”读第三声。",
+        "knowledge_point": "字音配对",
         "options": [
           "勇",
           "窗",
           "裙",
-          "肉",
-          "qún",
-          "yǒng",
-          "ròu",
-          "chuāng"
+          "肉"
         ],
-        "answer": "A-2,B-4,C-1,D-3",
-        "explanation": "考查第四单元重点生词读音。"
+        "question": "“勇、窗、裙、肉”中，只有一个字读第三声。这个字是哪个？",
+        "score": 1,
+        "type": "choice",
+        "id": 74
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "叠词搭配",
-        "question": "请将颜色/形状与事物连线：",
+        "answer": "窗",
+        "difficulty": 2,
+        "explanation": "答案是“窗”。“窗”读chuāng，声调是第一声；“裙”读qún，是第二声；“勇”读yǒng，是第三声；“肉”读ròu，是第四声。根据题干，排除第二、第三、第四声后，剩下第一声的“窗”。",
+        "knowledge_point": "字音配对",
         "options": [
-          "白白的",
+          "裙",
+          "勇",
+          "窗",
+          "肉"
+        ],
+        "question": "四个字中，“裙”读第二声，“勇”读第三声，“肉”读第四声。剩下读第一声的字是哪个？",
+        "score": 1,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "青",
+        "difficulty": 1,
+        "explanation": "题目说明叶子呈青绿色，所以可以说“青青的叶子”。括号里填一个字“青”，组成“青青的”。",
+        "knowledge_point": "叠词搭配",
+        "options": [],
+        "question": "叶子呈青绿色，可以说“（　）的叶子”。从“青、白、红”中选一个字填写。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 76
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "“青青的”表示青绿色，描写的是颜色；“圆圆的”描写形状。题目只说月亮是圆圆的，因此不能据此说它是“青青的”。",
+        "knowledge_point": "叠词搭配",
+        "options": [],
+        "question": "判断：题目说月亮是圆圆的，就可以说“青青的月亮”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 77
+      },
+      {
+        "answer": "圆圆的皮球",
+        "difficulty": 2,
+        "explanation": "题目说明皮球的样子像圆形，“圆圆的”正好描写圆形，所以“圆圆的皮球”搭配恰当。其余选项中的叠词与题目给出的皮球样子不相符。",
+        "knowledge_point": "叠词搭配",
+        "options": [
+          "青青的皮球",
+          "圆圆的皮球",
+          "红红的皮球",
+          "白白的皮球"
+        ],
+        "question": "一个皮球的样子像圆形。选出最能描写它形状的一项。",
+        "score": 3,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "白白的",
+        "difficulty": 2,
+        "explanation": "题目明确说小碗里的米粒呈白色，因此用表示白色的“白白的”描写最合适。“圆圆的”说形状，不符合题目要求描写颜色。",
+        "knowledge_point": "叠词搭配",
+        "options": [
           "红红的",
           "圆圆的",
-          "青青的",
-          "枣",
-          "糯米",
-          "箬竹叶",
-          "月亮"
+          "白白的",
+          "青青的"
         ],
-        "answer": "A-2,B-1,C-4,D-3",
-        "explanation": "根据《端午粽》课文内容及生活常识连线。"
+        "question": "小碗里的米粒呈白色。选一个叠词描写米粒的颜色。",
+        "score": 3,
+        "type": "choice",
+        "id": 79
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "近义词连线",
-        "question": "请为下列词语找到意思最接近的伙伴：",
+        "answer": "青青的叶子；白白的米粒",
+        "difficulty": 3,
+        "explanation": "题目给出两条条件：叶子呈青绿色，米粒呈白色。“青青的”表示青绿色，应搭配叶子；“白白的”表示白色，应搭配米粒。因此答案是“青青的叶子；白白的米粒”。",
+        "knowledge_point": "叠词搭配",
         "options": [
-          "非常",
-          "快乐",
-          "从此",
-          "到处",
-          "从这以后",
-          "十分",
+          "青青的叶子；白白的米粒",
+          "白白的叶子；青青的米粒",
+          "圆圆的叶子；红红的米粒",
+          "红红的叶子；圆圆的米粒"
+        ],
+        "question": "叶子呈青绿色，米粒呈白色。选出两组都搭配恰当的一项。",
+        "score": 4,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "不同",
+        "difficulty": 1,
+        "explanation": "答案是“不同”。“快乐”和“开心”写法不同，但都表示心情愉快，所以它们是意思相近的词语。",
+        "knowledge_point": "近义词连线",
+        "options": [],
+        "question": "“快乐”和“开心”的字形是（　　）。（限填“相同”或“不同”）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 81
+      },
+      {
+        "answer": "非常",
+        "difficulty": 1,
+        "explanation": "答案是“非常”。“十分”和“非常”都表示程度很高，因此在“这朵花十分漂亮”中，“非常”可以替换“十分”，句意相近。",
+        "knowledge_point": "近义词连线",
+        "options": [
           "处处",
+          "非常",
+          "从此",
           "开心"
         ],
-        "answer": "A-2,B-4,C-1,D-3",
-        "explanation": "考查小学一年级基础近义词认知。"
+        "question": "“这朵花十分漂亮。”句子中的“十分”可以换成哪个意思相近的词？",
+        "score": 1,
+        "type": "choice",
+        "id": 82
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "从这以后",
         "difficulty": 2,
-        "knowledge_point": "句子结构",
-        "question": "将词语排成一句连贯的话：",
+        "explanation": "答案是“从这以后”。“从此”表示从这个时候开始。题目说小明学会整理书包后每天自己整理，因此“从这以后”与“从此”意思相近。",
+        "knowledge_point": "近义词连线",
         "options": [
-          "天上的",
-          "像",
-          "美丽的",
-          "云朵",
-          "棉花糖"
+          "快乐",
+          "处处",
+          "从这以后",
+          "十分"
         ],
-        "answer": "天上的,云朵,像,美丽的,棉花糖",
-        "explanation": "考查比喻句的语序组合。"
+        "question": "小明学会整理书包后，每天都自己整理。“从此”每天整理书包中的“从此”，意思最接近哪个词语？",
+        "score": 1,
+        "type": "choice",
+        "id": 83
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "端午民俗与背景认知",
-        "question": "将词语排成一句话，介绍端午：",
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "答案是“错”。“到处”表示各个地方，“快乐”表示心情愉快，两者意思不同，不是一对近义词。",
+        "knowledge_point": "近义词连线",
+        "options": [],
+        "question": "“到处”和“快乐”是一对意思相近的词语。对还是错？",
+        "score": 1,
+        "type": "true_false",
+        "id": 84
+      },
+      {
+        "answer": "处处",
+        "difficulty": 2,
+        "explanation": "答案是“处处”。句子说公园里的花分布在各个地方；“到处”和“处处”都表示各个地方，意思相近。",
+        "knowledge_point": "近义词连线",
         "options": [
-          "端午节",
-          "都要",
-          "外婆",
-          "粽子",
-          "包",
-          "每年"
+          "开心",
+          "处处",
+          "从此",
+          "十分"
         ],
-        "answer": "每年,端午节,外婆,都要,包,粽子",
-        "explanation": "考查时间状语在句首的表达方式。"
+        "question": "“公园里到处都是花。”哪个词可以替换“到处”，表达的意思最接近？",
+        "score": 1,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "小猫追皮球。",
+        "difficulty": 1,
+        "explanation": "答案是“小猫追皮球。”给定的三个词依次说清了谁（小猫）、做什么（追）和追什么（皮球），组成了通顺、完整的话。",
+        "knowledge_point": "句子结构",
+        "options": [],
+        "question": "只用“追、小猫、皮球”组成一句通顺的话，并在末尾加句号：__________。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "答案是“对”。“弟弟”说的是谁，“浇花”说的是他做什么。先说谁，再说做什么，词序通顺，意思完整。",
+        "knowledge_point": "句子结构",
+        "options": [],
+        "question": "判断：“弟弟浇花”先说谁，再说他做什么，是一句通顺完整的话。",
+        "score": 3,
+        "type": "true_false",
+        "id": 87
+      },
+      {
+        "answer": "姐姐吃苹果。",
+        "difficulty": 2,
+        "explanation": "答案是“姐姐吃苹果。”题目要求选择通顺的排列。“姐姐”是做事的人，“吃苹果”说明她做什么；其余选项把人物、动作或对象的位置放错了，读起来不通顺。",
+        "knowledge_point": "句子结构",
+        "options": [
+          "苹果吃姐姐。",
+          "姐姐吃苹果。",
+          "吃苹果姐姐。",
+          "苹果姐姐吃。"
+        ],
+        "question": "词语是“姐姐、吃、苹果”。哪一个排列成了通顺的句子？",
+        "score": 4,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "妹妹画画。",
+        "difficulty": 2,
+        "explanation": "答案是“妹妹画画。”按题目条件，句子必须先说谁，再说做什么。选“妹妹画画”时，先说做事的人“妹妹”，再说她做的事“画画”；“画画妹妹”把动作放在人物前面，不符合条件。",
+        "knowledge_point": "句子结构",
+        "options": [
+          "画画妹妹。",
+          "妹妹画画。",
+          "妹妹妹妹。",
+          "画画画画。"
+        ],
+        "question": "小明把“妹妹、画画”排成了“画画妹妹”。老师要求先说谁，再说做什么。应选哪句话？",
+        "score": 4,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "小狗跑进屋里。",
+        "difficulty": 2,
+        "explanation": "答案是“小狗跑进屋里。”条件说明“小狗”是做事的人，“跑进屋里”说明它做什么、到哪里。先说谁，再说做什么和到哪里，句意清楚完整。",
+        "knowledge_point": "句子结构",
+        "options": [
+          "屋里跑进小狗。",
+          "小狗跑进屋里。",
+          "跑进屋里小狗。",
+          "小狗屋里跑进。"
+        ],
+        "question": "根据条件“谁：小狗；做什么、到哪里：跑进屋里”，哪句话把意思说清楚了？",
+        "score": 4,
+        "type": "choice",
+        "id": 90
       }
     ]
   },
@@ -705,34 +1612,167 @@
   },
   "knowledge_summary": [
     {
+      "common_mistakes": [
+        "不要一字一停，也不要把词语拆开读，例如不宜把“妹妹”拆成“妹 / 妹”。",
+        "停顿不只是为了换气；要在意思自然分开的地方稍停，不要随意打断句子。",
+        "“高高的树枝”“香喷喷的米饭”等连在一起的词语要连贯朗读。"
+      ],
+      "core_concept": "朗读较长的句子时，先读懂句意，再在意思自然分开的地方稍作停顿，让句子清楚、连贯。例：“小猫 / 躲在椅子下面。”这里先说“小猫”，再说它在哪里。",
+      "key_formula": "先找句子说的谁或什么，再找后面说了什么；在意思自然分开的地方稍停，不拆开词语。例：“弟弟 / 抱着一个大皮球。”",
       "point": "长句子停顿朗读",
-      "core_concept": "在读较长的句子时，要根据句子的意思、结构进行自然的间歇。一是要避开在词语中间断开，二是根据主语、谓语等成分适度停顿。这不仅是为了换气，更是为了让听者清意思，读出节律美。",
-      "key_formula": "长句停顿看意思，词语之间不拆开，主谓之间可稍歇。",
-      "common_mistakes": [
-        "在一句话的最后一个字读完前就换气",
-        "遇到修饰语（如“青青的”）时随处乱停，导致词语断裂"
-      ],
-      "tips": "可以先在句子里找找“谁”、“做了什么”，在这些大模块之间画斜线练读。"
+      "tips": "先完整读一遍，想想句子说的谁或什么、后面说了什么；再按题目要求在自然的意思边界稍停。检查有没有把词语拆开，最后连贯地读一遍。"
     },
     {
+      "common_mistakes": [
+        "把“我”字右上方的点误认为先写；“我”字的规范笔顺中，点是最后一笔。",
+        "把“门”字的第二笔写成点；“门”的规范笔顺是点、竖、横折钩、点。",
+        "只凭点在字中的位置推断所有汉字的笔顺；不熟悉的字应学习它的规范笔顺。"
+      ],
+      "core_concept": "汉字要按规范笔顺书写。本课例字中，“主”第一笔是点；“我”最后一笔是右上方的点；“门”按点、竖、横折钩、点的顺序写。观察点的位置可以帮助记忆，但不能代替学习具体汉字的规范笔顺。",
+      "key_formula": "按例字记笔顺：“主”先写点；“我”最后写右上方的点；“门”写点、竖、横折钩、点。",
       "point": "方位点画书写规则",
-      "core_concept": "汉字中的“点”位置不同，书写顺序也不同。当点在字的正上方（如“主”、“方”）或左上方（如“门”）时，先写点；当点在字的右上方（如“我”、“书”、“成”）或字里时，通常放在最后写。",
-      "key_formula": "点在左上先，点在右上后。",
-      "common_mistakes": [
-        "写“我”字时先点再写提",
-        "写“门”字时先写左竖再点"
-      ],
-      "tips": "记口诀“上左先点，右上后点”，写字时可以用红笔标出点，提醒自己顺序。"
+      "tips": "先看例字中点的位置，再回想这个字的完整笔顺；可以边说笔画名称边书空。遇到不熟悉的字，请老师示范或查规范笔顺。"
     },
     {
-      "point": "端午民俗与背景认知",
-      "core_concept": "端午节是每年的农历五月初五，是中华民族重要的传统节日。它的主要习俗包括吃粽子、赛龙舟、挂艾草。核心文化含义是纪念战国时期楚国的爱国诗人屈原。了解这些内容能增强对家乡和民族文化的感情。",
-      "key_formula": "五月初五端午节，粽子咸甜寄屈原。",
       "common_mistakes": [
-        "混淆端午节和中秋节（吃月饼）的习俗",
-        "分不清农历（阴历）和阳历（公历）的日期"
+        "把端午节常见的吃粽子和中秋节常见的吃月饼混为一谈。",
+        "把吃粽子、赛龙舟和挂艾草当成同一种活动；它们分别是饮食、比赛和挂植物的习俗。"
       ],
-      "tips": "通过节气歌或节日歌谣来记忆，联想家里的生活习惯更容易记住。"
+      "core_concept": "端午节是我国的传统节日。端午节常见的习俗有吃粽子、赛龙舟和挂艾草。关于端午节吃粽子与纪念诗人屈原有关，是流传下来的传统说法。端午节在农历五月初五。",
+      "key_formula": "端午节：农历五月初五；常见习俗有吃粽子、赛龙舟、挂艾草。月饼常与中秋节联系起来。",
+      "point": "端午民俗与背景认知",
+      "tips": "先找题目里的节日、日期或活动线索，再用学过的知识核对。看到河上比赛龙舟，想到赛龙舟；看到把艾草挂起来，想到挂艾草。判断传统说法时，留意“据说”“流传下来”等词。"
+    },
+    {
+      "common_mistakes": [
+        "只看短文中的一个词就作答，没有读完整段并核对问题。",
+        "把短文没有说的内容当成事实，只凭生活经验猜答案。",
+        "把人物做事的先后顺序弄反，或忽略“它”等词指的是谁。",
+        "把两个句子里的线索分开看，没联系它们理解事情。"
+      ],
+      "core_concept": "理解短文时，先读清楚写了谁、在哪里、做了什么，再根据问题回到短文找线索。短文直接写出的内容可以直接回答；需要联系线索作判断时，也要让答案得到短文支持，不能只凭猜想。",
+      "key_formula": "读问题，找线索；回原文，核答案。看先后顺序要按句子顺序；联系线索作判断时，不添短文没写的内容。",
+      "point": "理解阅读",
+      "tips": "先完整读一遍短文，再圈出人物、地点和动作。遇到“它”“她”等词，回看前文确认指谁。答完后再找一遍依据，检查有没有把猜想当成短文内容。"
+    },
+    {
+      "common_mistakes": [
+        "把“开心”和“笑嘻嘻”当成完全相同：“开心”常说心情愉快；“笑嘻嘻”写带着笑的样子。",
+        "把“热闹”用来直接说一个人的心情；它常形容人多、活动多的场面。",
+        "只看句子里出现的事物，不判断空格要表达心情、样子还是场面。"
+      ],
+      "core_concept": "辨析词语，要看词语的意思和句子给出的线索。“开心”常表示心情愉快；“笑嘻嘻”写带着笑的样子；“热闹”常形容人多、活动多的场面。例如，可以说“心里很开心”“笑嘻嘻地说话”“街上很热闹”。",
+      "key_formula": "先读完整句子，判断空格要表达心情、样子还是场面；再根据词义和句子线索选词，最后把词放回句子读一读。",
+      "point": "字词义辨析",
+      "tips": "找句子里的提示：说的是心里怎样、脸上什么样，还是周围的场面？“笑嘻嘻”写带笑的样子，但不能只凭这个词断定人物的心情。"
+    },
+    {
+      "common_mistakes": [
+        "把“疑是地上霜”的“疑”误写成“凝”。",
+        "把“举头望明月”里的“望”漏掉，或换成“看”。",
+        "记住了单句，却把四句的先后顺序弄错。"
+      ],
+      "core_concept": "李白《静夜思》共有四句，学习时要认准每句的字词，也要记住诗句的先后顺序。例：读到“举头望明月”，下一句接“低头思故乡”。",
+      "key_formula": "记诗句的方法：读清题目给出的诗句，接着回想下一句；补字时看清空格位置和要填的字数，再把整句读一遍核对。例：“举头望明月”后接“低头思故乡”。",
+      "point": "古诗原文",
+      "tips": "先分句读熟，再按顺序连起来读。容易写错的地方：原句是“疑是地上霜”，不是“凝是地上霜”；原句是“举头望明月”，不要漏掉“望”或换成“看”。"
+    },
+    {
+      "common_mistakes": [
+        "把“兴奋”的“兴”读成 xìng，或把“高兴”的“兴”读成 xīng。",
+        "只看单个“兴”字，不看它所在的词语；多音字要放在词语中辨读。"
+      ],
+      "core_concept": "“兴”是多音字，在不同词语中读音不同：“兴奋”读 xīng fèn，“高兴”读 gāo xìng。先看完整词语，再判断“兴”的读音。",
+      "key_formula": "辨读方法：先读完整词语，再判断多音字的读音。例：“兴奋”中的“兴”读 xīng；“高兴”中的“兴”读 xìng。",
+      "point": "多音字读音选择",
+      "tips": "读词语时把前后字连起来看，别只凭“兴”字单独猜读音。特别留意“兴奋”和“高兴”中“兴”的读音不同。"
+    },
+    {
+      "common_mistakes": [
+        "只看数词，不看后面的名词，就随意选择量词。",
+        "把常用于动物的“只”用在桥、河等名词前。",
+        "以为一个名词只能搭配一种量词；有些名词可以有不止一种常见说法，要看具体语境。"
+      ],
+      "core_concept": "量词常放在数词和名词之间，用来说明人或物的数量。常见结构是“数词＋量词＋名词”，例如“一位老师”“一本书”“一条河”。不同名词常搭配不同量词；同一个名词在不同说法中也可能有不止一种常见搭配。",
+      "key_formula": "常见结构：数词＋量词＋名词。例子：“一位奶奶”“一只猫”“一座山”。",
+      "point": "量词搭配",
+      "tips": "先看说的是谁或什么，再想它常用哪个量词，最后把整个词语连起来读一读。具体例子：称呼奶奶常说“一位奶奶”，猫常说“一只猫”，河常说“一条河”。易错点：①“只”常用于动物，不适合所有名词；②“颗”常用于枣等小而圆的东西，不适合马；③“堆”表示聚在一起的一批东西，不表示一个单独的粽子。"
+    },
+    {
+      "common_mistakes": [
+        "把“知道”和“知识”混为一谈：“知道”表示明白、了解；“知识”是学到的内容。",
+        "把句子里的“知了”理解成“知道了”；“知了”也可以指一种会叫的昆虫。",
+        "只看“知”字猜意思，不联系整句话。"
+      ],
+      "core_concept": "辨词义时，要读完整句话，联系前后内容，判断词语在句子里表示什么。“知道”表示明白、了解；“知识”指学到的内容；“知了”在合适的句子里指一种会叫的昆虫。",
+      "key_formula": "方法：读完整句子，找出要辨的词，联系前后内容，再把合适的意思放回句子里读一读。例：“我知道今天要带水杯”中的“知道”表示明白、了解。",
+      "point": "词义辨析",
+      "tips": "先看句子在说什么，再判断词语表示的是明白一件事、学到的内容，还是一种昆虫。不要只凭一个字猜意思。"
+    },
+    {
+      "common_mistakes": [
+        "把问句和陈述句的标点混用：问句末尾用问号，陈述句末尾用句号。",
+        "把“吗”留在陈述句里，或改成问句时漏掉句末的“吗”。",
+        "只改标点，没有按要求改变句子的说法；或者改动了句子中的人和事情。"
+      ],
+      "core_concept": "句式转换就是按要求换一种说法。把陈述句改成询问“是不是”的问句时，可以在句末加“吗”，并用问号；把这种问句改成陈述句时，去掉“吗”，并用句号。练习形式转换时，要保留句子中的人和事情，不随意改变意思。",
+      "key_formula": "方法：先读清要改成什么句式，再保留原句中的人和事情，按要求调整句末说法和标点。例：陈述句“爸爸回家。”可改成问句“爸爸回家吗？”；问句“妈妈做饭吗？”可改成陈述句“妈妈做饭。”",
+      "point": "句式转换",
+      "tips": "先找出句子里说的是谁、做什么；再看题目要求改成问句还是陈述句；最后检查“吗”和句末标点。易错点：问句末尾用问号，陈述句末尾用句号；改写时不要把“爸爸”换成“妈妈”，也不要把“回家”换成别的事情。"
+    },
+    {
+      "common_mistakes": [
+        "把意思相近的词混用，选词时没有先看句子说的是什么事情。",
+        "把“听”和“看”混淆：听声音用耳朵，看字或图用眼睛。",
+        "把“房间”误写成“方间”，或把表示动作的字填进不合句意的位置。"
+      ],
+      "core_concept": "字词积累包括认读常见字、理解词语意思，并在合适的句子中使用词语。把字放进熟悉的词语和生活情境里，结合句意判断用法。例如，“房间”指屋里的房间；“听故事”是用耳朵接收故事的声音。",
+      "key_formula": "认字看读音和字形；选词先看句意；用词要和事情相合。例：“听见铃声”说的是耳朵接收声音，“看书”说的是眼睛看文字。",
+      "point": "字词积累",
+      "tips": "遇到一个字，先读一读，再想想它常和哪些字组成词语。遇到选词题，先找句子里的人和事情，再判断哪个词语合适：声音用“听”，书上的字用“看”，食物味道好可以说“好吃”。"
+    },
+    {
+      "common_mistakes": [
+        "把“勇”读成yòng；正确读音是yǒng，第三声。",
+        "把“窗”读成chuāng以外的相近音；正确读音是chuāng，第一声。",
+        "把“裙”读成qǔn；正确读音是qún，第二声。",
+        "把“肉”读成rǒu；正确读音是ròu，第四声。"
+      ],
+      "core_concept": "字音配对，就是把汉字和正确的拼音对应起来。比如：“勇”读yǒng，“窗”读chuāng，“裙”读qún，“肉”读ròu。要同时看清声母、韵母和声调。",
+      "key_formula": "先看汉字，再核对拼音的声母、韵母和声调。",
+      "point": "字音配对",
+      "tips": "读一个字时，可以先读声母和韵母，再看声调符号；也可以把几个字的读音放在一起比较。注意：ǒ是第三声，ò是第四声；ún是第二声，ūn是第一声。"
+    },
+    {
+      "common_mistakes": [
+        "把表示颜色的叠词和颜色不相符的事物搭配，如把“青青的”配给白色的糯米。",
+        "把表示形状的“圆圆的”当成颜色词，或只看事物名称、不看题目给出的样子。"
+      ],
+      "core_concept": "叠词可以描写事物的颜色或形状。搭配时要看题目给出的样子：颜色要相符，形状也要相符。例如，白色的米粒可以说“白白的米粒”，青绿色的叶子可以说“青青的叶子”；圆圆的东西可以说“圆圆的”。",
+      "key_formula": "先看叠词描写颜色还是形状，再对照事物的样子选择。",
+      "point": "叠词搭配",
+      "tips": "先读叠词，想一想它说的是颜色还是形状；再看题目告诉你的事物是什么样子。注意“红红的”说颜色，“圆圆的”说形状；不要只凭事物名称猜，要根据题目给出的条件判断。"
+    },
+    {
+      "common_mistakes": [
+        "把意思相近误认为字形相同；例如“快乐”和“开心”字形不同，但意思相近。",
+        "只根据词语中的一个字配对，不比较整个词的意思；应读懂词语后再判断。"
+      ],
+      "core_concept": "近义词是意思相近的词语。例如，“快乐”和“开心”都表示心情愉快；“到处”和“处处”都表示各个地方。近义词字形可以不同，也不一定在每句话里都能随意替换。",
+      "key_formula": "读懂词语的意思，再比较；意思相近的词可以配成一对。",
+      "point": "近义词连线",
+      "tips": "先说说词语表示什么，再找意思相近的伙伴。可以用简单句子帮助理解。注意比较整个词的意思，不要只看某个字。"
+    },
+    {
+      "common_mistakes": [
+        "把表示人物或事物的词放在动作后面，造成词序不通。",
+        "把动作和动作对象的位置放错，导致句意不清。",
+        "只说谁或什么，没有说清楚发生了什么。"
+      ],
+      "core_concept": "句子里的词语要按意思排列，组成通顺、完整的话。可以先找句子说的是谁或什么，再找它做什么；需要时再说动作的对象或地点。例子：“小鸟唱歌”先说谁，再说做什么；“唱歌小鸟”词序不通。",
+      "key_formula": "先找“谁或什么”，再找“做什么”，需要时补上“做什么对象”或“在哪里”，按意思组成通顺、完整的句子。",
+      "point": "句子结构",
+      "tips": "排词语时，先找表示人物或事物的词，再找表示动作的词。接着检查动作对象或地点是否说清楚。最后读一读，看看句子是否通顺、意思是否完整。"
     }
   ]
 }

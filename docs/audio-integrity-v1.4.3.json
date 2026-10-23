@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "audio_files": 249852,
+  "original_files": 130633,
+  "mp3_files": 119219,
+  "bytes": 8678038430,
+  "unique_referenced_audio": 102082,
+  "complete_narration_texts": 111675,
+  "missing_narration": 0,
+  "new_edge_clips": 2461,
+  "edge_workers": 4,
+  "edge_requests_per_second": 2,
+  "unique_audio_contents": 198350,
+  "full_decode_by_matching_sha256_certificate": 104579,
+  "full_decode_this_run": 93771,
+  "decode_failures": 0,
+  "known_gpt_replacements_sha256_verified": 4685,
+  "elapsed_seconds": 450.64,
+  "new_edge_clips_by_language": {
+    "English": 2405,
+    "Chinese": 56
+  },
+  "notation_speech_repairs": 15
+}

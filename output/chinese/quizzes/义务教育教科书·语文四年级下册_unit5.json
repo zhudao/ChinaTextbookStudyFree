@@ -4,264 +4,262 @@
   "unit_number": 5,
   "unit_test": {
     "title": "第五单元基础巩固测验",
-    "total_score": 100,
+    "total_score": 576,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“浙江”的“浙”是左右结构，左边是三点水，右边是“折”。",
         "knowledge_point": "字形辨析",
+        "options": [],
         "question": "“浙”江的“浙”字，左边是一个三点水。",
-        "options": [],
-        "answer": "对",
-        "explanation": "“浙江”的“浙”字是左中右结构，左边是三点水。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "移步换景就是随着观察位置的移动，描写不同位置看到的景物。",
         "knowledge_point": "景物描写顺序",
+        "options": [],
         "question": "按照游览路线来描写景物叫做“移步换景”。",
-        "options": [],
-        "answer": "对",
-        "explanation": "移步换景就是随着观察位置的移动，描写不同位置看到的景物。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "修辞手法识别",
-        "question": "“这些石钟乳形状各异，像是天上的云朵。”这句话运用了拟人的修辞。",
-        "options": [],
         "answer": "错",
-        "explanation": "这句话运用了比喻，把石钟乳比作云朵。"
+        "difficulty": 1,
+        "explanation": "这句话把石钟乳比作云朵，运用了比喻，不是拟人。",
+        "knowledge_point": "修辞手法识别",
+        "options": [],
+        "question": "“这些石钟乳形状各异，像是天上的云朵。”这句话运用了拟人的修辞。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“突兀”形容山峰时，常指山势高耸、突出，也可以写出山峰突然出现在眼前的样子。",
         "knowledge_point": "词语释义",
+        "options": [],
         "question": "“突兀”在描述山峰时，通常是指山峰高耸、突然出现的样子。",
-        "options": [],
-        "answer": "对",
-        "explanation": "突兀形容山高耸，在游记中常用来描写奇特的山势。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "课文理解",
-        "question": "《记金华的双龙洞》是叶圣陶先生写的游记。",
-        "options": [],
-        "answer": "对",
-        "explanation": "《记金华的双龙洞》作者确为叶圣陶。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "《记金华的双龙洞》是叶圣陶写的一篇游记，记录了他游览双龙洞的经历。",
+        "knowledge_point": "课文理解",
+        "options": [],
+        "question": "《记金华的双龙洞》是叶圣陶先生写的游记。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "系好鞋带",
         "difficulty": 1,
+        "explanation": "“系绳子”和“系好鞋带”中的“系”表示打结、拴住，读jì；“关系”“联系”“系统”中的“系”读xì。",
         "knowledge_point": "多音字读音",
-        "question": "下面词语中，“系”字的读音与“系绳子”相同的是？",
         "options": [
           "关系",
           "联系",
           "系好鞋带",
           "系统"
         ],
-        "answer": "系好鞋带",
-        "explanation": "在“系绳子”、“系鞋带”中读jì，在“关系”、“联系”中读xì。"
+        "question": "下面词语中，“系”字的读音与“系绳子”相同的是？",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "！",
         "difficulty": 1,
+        "explanation": "“真多啊”表达了强烈的感叹语气，应使用感叹号。",
         "knowledge_point": "标点符号",
-        "question": "“这里的石钟乳真多啊（）有的像老人，有的像卧龙。”括号里最合适的标点是？",
         "options": [
           "。",
           "！",
           "？",
           "——"
         ],
-        "answer": "！",
-        "explanation": "“真多啊”表达了强烈的感叹语气，应使用感叹号。"
+        "question": "“这里的石钟乳真多啊（）有的像老人，有的像卧龙。”括号里最合适的标点是？",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "溪流的变化",
         "difficulty": 2,
+        "explanation": "“宽、窄、缓、急”写出了溪流宽窄和流速不断变化，因此这段话主要写溪流的变化。",
         "knowledge_point": "段落理解",
-        "question": "阅读：‘一路迎着溪流。随着山势，溪流时而宽，时而窄，时而缓，时而急，溪声也时时变换调子。’这段话主要写了什么？",
         "options": [
           "溪流的颜色",
           "溪流的变化",
           "溪边的野花",
           "山势的高低"
         ],
-        "answer": "溪流的变化",
-        "explanation": "通过“宽、窄、缓、急”四个词体现了溪流在不同山势下的变化。"
+        "question": "阅读：“一路迎着溪流。随着山势，溪流时而宽，时而窄，时而缓，时而急，溪声也时时变换调子。”这段话主要写了什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "哪怕",
         "difficulty": 1,
+        "explanation": "“哪怕……也……”表示假设某种情况，结果仍然不变。句子强调船里空间很小，连多一个人都容不下。",
         "knowledge_point": "关联词语",
-        "question": "填入括号最恰当的是：（）在船里并排仰卧，刚合适，再没法容下一人。",
         "options": [
           "虽然",
           "由于",
           "所以",
           "哪怕"
         ],
-        "answer": "哪怕",
-        "explanation": "此处表示假设或极端的限定，语境为描写孔隙的窄小。"
+        "question": "填入括号最恰当的是：（）在船里并排仰卧，刚合适，再没法容下一人。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "跳出海面的吃力感",
         "difficulty": 1,
+        "explanation": "“负着重荷”运用了拟人的写法，把太阳升起写得像在努力负重前行，表现出太阳上升时缓慢、吃力而有力量的样子。",
         "knowledge_point": "景物特点",
-        "question": "《海上日出》中，太阳负着重荷上升，这里的“重荷”指的是？",
         "options": [
           "沉重的行李",
           "沉重的负担",
           "跳出海面的吃力感",
           "云层的重量"
         ],
-        "answer": "跳出海面的吃力感",
-        "explanation": "这是一种拟人化的写法，表现太阳升起时的缓慢、有力。"
+        "question": "《海上日出》中，太阳负着重荷上升，这里的“重荷”指的是？",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "转过石角，我们便来到了孔隙口。",
         "difficulty": 2,
+        "explanation": "这个句子交代了从原来位置到孔隙口的变化，连接了前后的地点描写，起到过渡作用。",
         "knowledge_point": "过渡句辨析",
-        "question": "下列哪个句子最适合作为进入景点的过渡句？",
         "options": [
           "这里的风景真美丽。",
           "我们吃完饭就开始休息了。",
           "转过石角，我们便来到了孔隙口。",
           "今天的天气阳光明媚。"
         ],
-        "answer": "转过石角，我们便来到了孔隙口。",
-        "explanation": "这个句子明确交待了地点的转换，起到了承上启下的连接作用。"
+        "question": "下列哪个句子最适合作为进入景点的过渡句？",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "清新的",
         "difficulty": 2,
+        "explanation": "“清新”常用来形容空气新鲜、洁净；“宽阔”常形容道路或场地，“狭窄”常形容空间或通道，“突兀”常形容高耸或突然出现的事物。",
         "knowledge_point": "词语搭配",
-        "question": "寻找能与“空气”最恰当搭配的描写词语：",
         "options": [
           "宽阔的",
           "清新的",
           "狭窄的",
           "突兀的"
         ],
-        "answer": "清新的",
-        "explanation": "清新通常用来形容空气，指新鲜。宽阔形容空间，狭窄形容通道。"
+        "question": "寻找能与“空气”最恰当搭配的描写词语：",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "项目、方面",
         "difficulty": 1,
+        "explanation": "“变化多端”指变化的方面、方式很多，“端”在这里是项目、方面的意思。",
         "knowledge_point": "字词含义",
-        "question": "“变化多端”的“端”在这里的意思是？",
         "options": [
           "项目、方面",
           "端正",
           "用手托住",
           "尽头"
         ],
-        "answer": "项目、方面",
-        "explanation": "在该成语中指变化的方式、方面非常多。"
+        "question": "“变化多端”的“端”在这里的意思是？",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "校门—教学楼—操场—花园",
         "difficulty": 3,
+        "explanation": "按照进校后从校门到教学楼、操场，再到花园的路线依次写，符合移步换景的顺序。",
         "knowledge_point": "移步换景规律",
-        "question": "习作《我的校园》如果按移步换景写，正确的顺序是？",
         "options": [
-          "教学楼—草操场—校门—花园",
+          "教学楼—操场—校门—花园",
           "校门—教学楼—操场—花园",
           "操场—校门—花园—教学楼",
           "花园—操场—校门—教学楼"
         ],
-        "answer": "校门—教学楼—操场—花园",
-        "explanation": "按照进校的游览路径顺序写作是最符合移步换景逻辑的。"
+        "question": "习作《我的校园》如果按移步换景写，正确的顺序是？",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "绚烂",
         "difficulty": 1,
+        "explanation": "“灿烂”和“绚烂”都可以形容光彩鲜明、耀眼，意思相近。",
         "knowledge_point": "近义词选择",
-        "question": "选出与“灿烂”意思最相近的词语：",
         "options": [
           "绚烂",
           "昏暗",
           "微弱",
           "平淡"
         ],
-        "answer": "绚烂",
-        "explanation": "灿烂和绚烂都用来形容光彩非常鲜艳、夺目。"
+        "question": "选出与“灿烂”意思最相近的词语：",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "景物特点填空",
-        "question": "在《记金华的双龙洞》中，作者通过“孔隙”时是（___）进出的。",
-        "options": [],
         "answer": "仰卧",
-        "explanation": "课文中明确描写作者是仰卧在小船底进出的。"
+        "difficulty": 1,
+        "explanation": "课文中写作者仰卧在小船里，随着水流进出孔隙。",
+        "knowledge_point": "景物特点填空",
+        "options": [],
+        "question": "在《记金华的双龙洞》中，作者通过“孔隙”时是（___）进出的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "重点景物填空",
-        "question": "《海上日出》作者主要描写了晴天和（___）时日出的景象。",
-        "options": [],
         "answer": "多云",
-        "explanation": "全文分为晴天日出和多云时日出两个主要场景描述。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "文学常识",
-        "question": "《海上日出》的作者是文学家（___）。",
+        "difficulty": 2,
+        "explanation": "课文描写了晴天和有云时海上日出的不同景象。",
+        "knowledge_point": "重点景物填空",
         "options": [],
-        "answer": "巴金",
-        "explanation": "《海上日出》是巴金先生的名篇。"
+        "question": "《海上日出》作者主要描写了晴天和（___）时日出的景象。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 19,
-        "type": "matching",
-        "score": 5,
+        "answer": "巴金",
         "difficulty": 1,
+        "explanation": "《海上日出》是巴金创作的散文名篇。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "《海上日出》的作者是文学家（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "蜿蜒的小溪；突兀的岩石；漆黑的内洞；明艳的野花。",
+        "difficulty": 1,
+        "explanation": "“蜿蜒”形容小溪弯弯曲曲；“突兀”形容岩石高耸突出；“漆黑”形容内洞非常黑；“明艳”形容野花鲜明艳丽。",
         "knowledge_point": "词义匹配",
-        "question": "请将下列形容词与它们修饰的对象连线。",
         "options": [
           "蜿蜒的",
           "突兀的",
@@ -272,56 +270,55 @@
           "小溪",
           "内洞"
         ],
-        "answer": "A-3,B-1,C-4,D-2",
-        "explanation": "蜿蜒的小溪，突兀的岩石，漆黑的内洞，明艳的野花。"
+        "question": "请将下列形容词与它们修饰的对象连线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "内洞",
         "difficulty": 2,
+        "explanation": "溪水汇入外洞口，仰卧通过孔隙，石钟乳在内洞，映山红可在路上看到。因此，石钟乳所在的地点是内洞。",
         "knowledge_point": "景物及其所在地",
-        "question": "请将游览内容与对应的地点连线。",
         "options": [
-          "溪水入洞",
-          "仰卧入洞",
-          "石钟乳",
-          "映山红",
-          "内洞",
-          "外洞口",
           "路上",
-          "孔隙"
+          "孔隙",
+          "内洞",
+          "外洞口"
         ],
-        "answer": "A-2,B-4,C-1,D-3",
-        "explanation": "溪流汇入外洞口；仰卧过孔隙；内洞有石钟乳；路上可见映山红。"
+        "question": "游览过程中，石钟乳通常在哪里看到？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-4，B-5，C-6，D-7",
         "difficulty": 2,
+        "explanation": "“冲破黑暗”“跳出海面”“躲进云层”都是恰当的动词搭配；“由于原因”中的“由于”是表示原因的词，不是描写太阳升起的动词。原题选项中的“由于”也不能与“原因”组成自然、完整的搭配，因此将题目修正为从动词短语中选择恰当搭配。",
         "knowledge_point": "动词搭配",
-        "question": "请将描写太阳升起的动词与对应状态连线。",
         "options": [
-          "冲破",
-          "跳出",
-          "躲进",
-          "由于",
-          "海面",
-          "云层",
-          "原因",
-          "黑暗"
+          "A. 冲破",
+          "B. 跳出",
+          "C. 躲进",
+          "D. 由于",
+          "1. 原因",
+          "2. 云层",
+          "3. 黑暗",
+          "4. 黑暗",
+          "5. 海面",
+          "6. 云层",
+          "7. 原因"
         ],
-        "answer": "A-4,B-1,C-2,D-3",
-        "explanation": "冲破黑暗，跳出海面，躲进云层。由于-原因属于逻辑连词配对。"
+        "question": "请将描写太阳升起的动词与对应词语连线：冲破、跳出、躲进；黑暗、海面、云层。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "洞顶，悬挂着许多五颜六色的石钟乳。",
         "difficulty": 2,
+        "explanation": "“许多五颜六色的石钟乳”是动作“悬挂着”的事物，“洞顶”说明地点。排列后句意通顺、完整。",
         "knowledge_point": "句子结构",
-        "question": "将下列词语排列成一句描写溶洞的话：",
         "options": [
           "五颜六色的",
           "许多",
@@ -329,16 +326,16 @@
           "悬挂着",
           "石钟乳"
         ],
-        "answer": "洞顶,悬挂着,许多,五颜六色的,石钟乳",
-        "explanation": "按照主谓宾及定语顺序排列：地点+动词+数量+定语+名词。"
+        "question": "将下列词语排列成一句描写溶洞的话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "我们,沿着,溪流,进入,外洞",
         "difficulty": 3,
+        "explanation": "按照“人物＋路线＋动作＋到达地点”的顺序排列，交代了我们沿着溪流进入外洞的游览路线。",
         "knowledge_point": "游记过渡句表达",
-        "question": "将下列词语排成顺畅的过渡句：",
         "options": [
           "进入",
           "沿着",
@@ -346,8 +343,1771 @@
           "溪流",
           "外洞"
         ],
-        "answer": "我们,沿着,溪流,进入,外洞",
-        "explanation": "这是一个标准的游记过渡句，交代了主语、路径和到达的地点。"
+        "question": "将下列词语排成顺畅的过渡句：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "移步换景按照观察者脚步移动、观察位置变化的顺序来写，能让读者跟随作者依次看到不同景物。",
+        "knowledge_point": "移步换景的游览顺序",
+        "options": [
+          "一直站在原地描写四周景物",
+          "随着脚步移动，按观察位置变化的顺序描写景物",
+          "只描写最喜欢的一处景物",
+          "按照景物的大小顺序描写"
+        ],
+        "question": "下面哪一项最符合“移步换景”的写法？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "移步换景要让读者知道观察位置如何变化，因此常用表示地点转换的词语交代游览路线。",
+        "knowledge_point": "移步换景的游览顺序",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "移步换景时，写清楚“走到哪里”“来到哪里”等位置变化，有助于读者了解游览顺序。",
+        "score": 1,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "走到",
+        "difficulty": 1,
+        "explanation": "“走到”表示观察位置发生了变化，能自然引出新地点看到的景物。",
+        "knowledge_point": "移步换景的游览顺序",
+        "options": [],
+        "question": "填空：我先在公园门口看了看，然后（　　）湖边，发现湖面上有几只小船。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "小明的观察位置依次是校门口、花坛旁、大树下。",
+        "difficulty": 2,
+        "explanation": "句子依次写了“走进校门”“来到花坛旁”“再往前走到大树下”，这些词语交代了观察位置的变化。",
+        "knowledge_point": "移步换景的游览顺序",
+        "options": [],
+        "question": "读一读：走进校门，我看见两排高大的梧桐树；来到花坛旁，我闻到阵阵花香；再往前走到大树下，我听见小鸟在枝头唱歌。小明的观察位置依次是哪些地方？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "示例：我从公园大门走进园内，首先看见两旁整齐的冬青。沿着小路往前走，我来到池塘边，看到鱼儿在水中游来游去。绕过池塘，我走到假山旁，只见山石高低错落，瀑布从石缝间流下来。",
+        "difficulty": 3,
+        "explanation": "示例按公园大门、小路、池塘边、假山旁的路线依次描写，使用了表示位置变化的词语，并写出了不同景物的特点。",
+        "knowledge_point": "移步换景的游览顺序",
+        "options": [],
+        "question": "请用“走进……”“来到……”“绕过……”等词语，写一段话，按游览顺序介绍公园里的三处景物。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "位置变换 → 新景物 → 景物特征",
+        "difficulty": 2,
+        "explanation": "写每一处景物时，可以先交代来到什么位置，再写在那里看到的新景物，最后补充景物的特点。",
+        "knowledge_point": "移步换景的游览顺序",
+        "options": [],
+        "question": "填空：移步换景的一般写作顺序是“（　　）+新景物+景物特征”。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“告别湖边”交代离开旧景点，“沿着石阶向上走”写出行进过程，“来到瀑布脚下”引出新景点，衔接自然。",
+        "knowledge_point": "游记过渡句的衔接",
+        "options": [
+          "A. 湖水很清，天空很蓝。",
+          "B. 告别湖边，我们沿着石阶向上走，来到瀑布脚下。",
+          "C. 瀑布真壮观啊！",
+          "D. 我最喜欢湖水。"
+        ],
+        "question": "下面哪句话最适合作为从“湖边”转到“瀑布”的过渡句？",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "过渡句可以交代从一个景点到另一个景点的行进过程，让游览顺序更清楚。",
+        "knowledge_point": "游记过渡句的衔接",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "游记中的过渡句可以帮助读者了解作者从一个景点怎样走到另一个景点。",
+        "score": 1,
+        "type": "true_false",
+        "id": 31
+      },
+      {
+        "answer": "沿着",
+        "difficulty": 1,
+        "explanation": "“沿着山路前行”写出了行进的路线，与后面的“来到山顶”衔接自然。",
+        "knowledge_point": "游记过渡句的衔接",
+        "options": [],
+        "question": "填空：告别山脚下的古树，我们（____）山路前行，终于来到了山顶。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "走出花园，我们循着阵阵花香穿过小桥，来到了池塘边。",
+        "difficulty": 2,
+        "explanation": "句子交代了离开花园、穿过小桥的过程，并自然引出池塘这一新景点。也可以使用其他表达，只要游览顺序清楚、衔接自然即可。",
+        "knowledge_point": "游记过渡句的衔接",
+        "options": [],
+        "question": "请用一句话把“花园”和“池塘”这两个景点连接起来。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "“我们走到山洞里”直接跳到新景点，没有写怎样离开旧景点或怎样前往。其他选项都交代了行进路线或沿途线索，衔接更自然。",
+        "knowledge_point": "游记过渡句的衔接",
+        "options": [
+          "A. 告别古塔，我们沿着小路向山坡走去。",
+          "B. 顺着溪水的方向前行，不一会儿，我们看到了山洞。",
+          "C. 我们走到山洞里。",
+          "D. 离开草地后，我们穿过树林，来到了古塔前。"
+        ],
+        "question": "下面哪句话从一个景点转到下一个景点时显得比较生硬？",
+        "score": 1,
+        "type": "choice",
+        "id": 34
+      },
+      {
+        "answer": "答案示例：我们离开山顶，沿着弯弯的石阶向下走，听见溪水声越来越响，最后来到了清凉的溪边。",
+        "difficulty": 2,
+        "explanation": "答案交代了离开原景点、下山的动作、沿途听见的溪水声以及到达新景点的过程。只要能把“山顶”和“溪边”自然连接起来即可。",
+        "knowledge_point": "游记过渡句的衔接",
+        "options": [],
+        "question": "请写一句过渡句，把“山顶”和“溪边”连接起来。句中要写出行进过程或沿途线索。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "这段话把大部分篇幅用来描写湖水，写出了颜色、波纹和光影；柳树和小船只简单提到，详略安排合理，重点突出。",
+        "knowledge_point": "场景细节的详略安排",
+        "options": [
+          "A. 每种景物都用差不多的篇幅描写",
+          "B. 重点描写湖水，其他景物简单带过",
+          "C. 详细记录从家里到公园的路程"
+        ],
+        "question": "要写公园里的美景，最能突出重点的写法是哪一种？",
+        "score": 2,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "描写时应根据表达重点安排篇幅。次要景物可以简要介绍，不必每样都详细描写。",
+        "knowledge_point": "场景细节的详略安排",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "描写美景时，所有景物都写得一样详细，文章就一定更有重点。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "重点",
+        "difficulty": 1,
+        "explanation": "详写通常用在最有特色、最想让读者记住的景物上，这样能突出描写中心。",
+        "knowledge_point": "场景细节的详略安排",
+        "options": [],
+        "question": "描写一处景色时，最有特色、最想让读者记住的景物应作为描写的（　　）对象。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "详写：古树的枝干又粗又弯，树皮上布满深浅不一的纹路；枝叶在风中轻轻摇晃，阳光从叶缝间洒下来。略写：古树旁有一片草地，远处还能看见几座小亭子。",
+        "difficulty": 2,
+        "explanation": "古树是这段描写想突出的重点，因此可以写它的外形、动态和光影；草地、亭子等其他景物则简要交代。答案不唯一，能体现一处详写、其他略写即可。",
+        "knowledge_point": "场景细节的详略安排",
+        "options": [],
+        "question": "请以“公园里的古树”为重点，写一两句话进行详细描写，再用一句话简单提到草地和小亭子。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "题目要求突出瀑布，选项B抓住水流的形状、声音和水花等细节展开描写。其余选项不是重点描写瀑布，或把篇幅用在了游览经过上。",
+        "knowledge_point": "场景细节的详略安排",
+        "options": [
+          "A. 我们先坐车到景区，又排队买票，走了很久才到瀑布。",
+          "B. 瀑布从高处奔流而下，像一条银白的绸带。水声轰鸣，溅起的水花在阳光下闪闪发亮。",
+          "C. 瀑布旁有树，山上有花，路边还有几块石头，每样都写一句。"
+        ],
+        "question": "这段话要重点描写瀑布，哪种写法最合适？",
+        "score": 2,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "略写",
+        "difficulty": 2,
+        "explanation": "题目已经确定湖中的荷花是重点，荷花应当详写；天空和岸边的小路属于次要景物，可以简单带过。",
+        "knowledge_point": "场景细节的详略安排",
+        "options": [],
+        "question": "准备写夏日湖景，重点介绍湖中的荷花。天空和岸边的小路应该（　　）写。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 41
+      },
+      {
+        "answer": "末",
+        "difficulty": 1,
+        "explanation": "“末”表示尽头或最后，常见词语有“末尾”。“末”上面的横画比下面的横画长；“未”上面的横画较短。",
+        "knowledge_point": "字形辨析",
+        "options": [],
+        "question": "“期（　）”表示一段时间的最后部分，应填哪个字？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 42
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“休息”的“休”是左右结构，左边是单人旁，右边是“木”。“体”左边是“亻”，右边是“本”。",
+        "knowledge_point": "字形辨析",
+        "options": [
+          "A. 体息",
+          "B. 休息",
+          "C. 休自"
+        ],
+        "question": "下列词语中，字形正确的一项是：",
+        "score": 2,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "“辨”和“辩”都含有“辛”的部分，但中间部分不同；“辨别”表示分清、识别，写作“辨”。",
+        "knowledge_point": "字形辨析",
+        "options": [],
+        "question": "“辨别方向”的“辨”字，中间部分是“刀”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "辨",
+        "difficulty": 2,
+        "explanation": "“辨认”是分辨、认清的意思，应该用“辨”；“辩论”是用语言说明观点，应该用“辩”。",
+        "knowledge_point": "字形辨析",
+        "options": [],
+        "question": "根据意思填字：仔细（　）认字迹。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 45
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“拔河”的“拔”是提手旁，表示用手拉；“拨动”的“拨”也是提手旁，但词语中的用字不同。A项应为“拔草”，C项应为“拨电话”。",
+        "knowledge_point": "字形辨析",
+        "options": [
+          "A. 拨草",
+          "B. 拔河",
+          "C. 拔电话"
+        ],
+        "question": "下列词语中字形全部正确的一项是：",
+        "score": 2,
+        "type": "choice",
+        "id": 46
+      },
+      {
+        "answer": "由近及远",
+        "difficulty": 1,
+        "explanation": "“脚边”是近处，“远处”是远处，因此描写顺序是由近及远。",
+        "knowledge_point": "景物描写顺序",
+        "options": [],
+        "question": "“先看脚边的小草，再望向远处的山峰。”这句话按照什么顺序描写景物？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "“走到桥边”“来到湖心亭”写出了观察位置的变化，并依次描写不同地点看到的景物，属于移步换景。",
+        "knowledge_point": "景物描写顺序",
+        "options": [
+          "A. 按时间顺序",
+          "B. 按由远及近的顺序",
+          "C. 按游览路线移步换景",
+          "D. 按整体到局部的顺序"
+        ],
+        "question": "小明先走到桥边看流水，又来到湖心亭看荷花。这段描写适合采用哪种顺序？",
+        "score": 2,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "时间",
+        "difficulty": 1,
+        "explanation": "从清晨到中午再到傍晚，写出了景物随时间变化的过程。",
+        "knowledge_point": "景物描写顺序",
+        "options": [],
+        "question": "“清晨，树林里雾气蒙蒙；中午，阳光洒满林间；傍晚，树影渐渐拉长。”这段描写主要按照____顺序展开。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 49
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "定点观察是在一个固定位置观察景物，可以按照方位、远近等顺序来写，使描写条理清楚。",
+        "knowledge_point": "景物描写顺序",
+        "options": [],
+        "question": "站在一处观察景物时，可以按照方位或由远及近的顺序描写。",
+        "score": 2,
+        "type": "true_false",
+        "id": 50
+      },
+      {
+        "answer": "我先看见近处的花坛，五颜六色的花朵挨挨挤挤。抬头望去，远处的教学楼在阳光下显得格外明亮。",
+        "difficulty": 3,
+        "explanation": "示例先写近处花坛，再写远处教学楼，按照由近及远的顺序描写。只要描写具体、顺序清楚，也可以有不同答案。",
+        "knowledge_point": "景物描写顺序",
+        "options": [],
+        "question": "请用两句话描写校园里的两处景物，并按由近及远的顺序来写。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "句子把“弯弯的月亮”比作“小船”，是把一种事物比作另一种事物，运用了比喻。",
+        "knowledge_point": "修辞手法识别",
+        "options": [
+          "比喻",
+          "拟人",
+          "排比",
+          "夸张"
+        ],
+        "question": "“弯弯的月亮挂在夜空中，像一只小船。”这句话主要运用了哪种修辞手法？",
+        "score": 2,
+        "type": "choice",
+        "id": 52
+      },
+      {
+        "answer": "拟人",
+        "difficulty": 1,
+        "explanation": "句子把小草当作人来写，让小草有了“探出头来”这一人的动作，运用了拟人。",
+        "knowledge_point": "修辞手法识别",
+        "options": [],
+        "question": "“春风轻轻一吹，小草便从泥土里探出头来。”这句话运用了什么修辞手法？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "排比",
+        "difficulty": 2,
+        "explanation": "三个分句结构相似，都写了“这里的……”，连续排列，增强了表达的节奏感，运用了排比。",
+        "knowledge_point": "修辞手法识别",
+        "options": [],
+        "question": "“这里的花儿红，这里的草儿绿，这里的天空蓝。”这句话主要运用了什么修辞手法？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "夸张",
+        "difficulty": 2,
+        "explanation": "“震耳欲聋”是为了突出声音特别大，并不是说耳朵真的被震聋了，运用了夸张。",
+        "knowledge_point": "修辞手法识别",
+        "options": [],
+        "question": "“操场上传来的欢呼声震耳欲聋。”这句话运用了哪种修辞手法？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 55
+      },
+      {
+        "answer": "月亮像一位害羞的小姑娘，躲进了云层后面。",
+        "difficulty": 2,
+        "explanation": "“月亮像一位害羞的小姑娘”把月亮比作小姑娘，是比喻；“躲进”带有人的动作，也赋予月亮人的特点，是拟人。答案同时使用两种修辞。",
+        "knowledge_point": "修辞手法识别",
+        "options": [],
+        "question": "请用一句话同时运用比喻和拟人，描写月亮。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 56
+      },
+      {
+        "answer": "清楚，明白",
+        "difficulty": 1,
+        "explanation": "“清晰”常用来形容声音、图像、字迹等清楚、不模糊。句中形容字迹，可以解释为清楚、明白。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "“他的字迹十分清晰”中的“清晰”是什么意思？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 57
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "句子说阳光照在湖面上，湖面闪着光，“波光粼粼”形容水面明净、波浪闪动的样子。",
+        "knowledge_point": "词语释义",
+        "options": [
+          "A. 水面结了厚厚的冰",
+          "B. 水面闪着明亮的光",
+          "C. 水面非常平静，一点波纹也没有",
+          "D. 水面变得浑浊"
+        ],
+        "question": "“阳光照在湖面上，波光粼粼。”句中的“波光粼粼”最恰当的意思是（ ）。",
+        "score": 2,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "题目表述正确：理解句中词语时，可以尝试用近义词替换，并结合上下文检查替换后句意是否通顺、是否符合原意。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "判断：理解句子中的词语时，可以用近义词替换，并检查替换后句意是否通顺、符合上下文。",
+        "score": 2,
+        "type": "true_false",
+        "id": 59
+      },
+      {
+        "answer": "轻视；看不起",
+        "difficulty": 2,
+        "explanation": "“轻蔑”表示轻视、看不起。文中人物说话时带着不屑的态度，因此这个词语符合句意。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "“他用轻蔑的目光看着对手”中的“轻蔑”可以解释为________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "“欣然”表示愉快、高兴的样子。联系句子可知，大家高兴地接受了邀请，因此选C。",
+        "knowledge_point": "词语释义",
+        "options": [
+          "A. 勉强地",
+          "B. 犹豫地",
+          "C. 愉快地",
+          "D. 生气地"
+        ],
+        "question": "“听到邀请后，大家欣然接受了。”句中的“欣然”是什么意思？（ ）",
+        "score": 2,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "示例：课文记叙了作者游览金华双龙洞的经过，描写了沿途和洞内的景物。",
+        "difficulty": 1,
+        "explanation": "概括课文主要内容时，要抓住游览对象和主要经历，不必逐一复述所有细节。",
+        "knowledge_point": "课文理解",
+        "options": [],
+        "question": "用一两句话概括《记金华的双龙洞》的主要内容。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "按游览顺序",
+        "difficulty": 1,
+        "explanation": "这篇课文按照作者游览双龙洞的先后顺序来写，读者可以跟随作者的脚步了解各处景物。",
+        "knowledge_point": "课文理解",
+        "options": [],
+        "question": "《记金华的双龙洞》主要是按照什么顺序描写游览经过的？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "示例：外洞宽敞；孔隙窄小，作者乘小船进入内洞；内洞有双龙和石钟乳、石笋。",
+        "difficulty": 2,
+        "explanation": "回答时要依据课文内容，抓住外洞、孔隙和内洞各自的特点；表达可以不同，但应符合课文描写。",
+        "knowledge_point": "课文理解",
+        "options": [],
+        "question": "根据课文内容，说一说外洞、孔隙和内洞各有什么特点。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 64
+      },
+      {
+        "answer": "示例：作者乘小船从孔隙进入内洞时，身体贴近船身，头不能抬起，表现出孔隙十分窄小，也让人感受到进洞时的紧张。",
+        "difficulty": 3,
+        "explanation": "课文通过作者进入孔隙时的动作和感受，具体写出孔隙的狭小。回答应结合相关描写说明理由。",
+        "knowledge_point": "课文理解",
+        "options": [],
+        "question": "作者是怎样写出孔隙窄小的？请结合课文内容说明。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 65
+      },
+      {
+        "answer": "示例：我最感兴趣的是孔隙，因为作者写乘小船进入时不能抬头、不能容身，描写具体，让我仿佛也经历了一次紧张又特别的探险。",
+        "difficulty": 2,
+        "explanation": "这是开放性题目。答案只要写清感兴趣的地方，并结合课文内容说明原因即可。",
+        "knowledge_point": "课文理解",
+        "options": [],
+        "question": "课文中哪一处描写最让你感兴趣？为什么？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "“好奇”中的“好”读hào，表示喜爱；“好人”“好事”中的“好”读hǎo。",
+        "knowledge_point": "多音字读音",
+        "options": [
+          "A. 好奇",
+          "B. 好人",
+          "C. 好事",
+          "D. 好看"
+        ],
+        "question": "下面词语中，“好”字读hào的是哪一项？",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "投奔",
+        "difficulty": 1,
+        "explanation": "“投奔”中的“奔”读bèn；“奔跑、奔向、奔走”中的“奔”都读bēn。判断多音字的读音，要结合具体词语。",
+        "knowledge_point": "多音字读音",
+        "options": [
+          "奔跑",
+          "奔向",
+          "奔走",
+          "投奔"
+        ],
+        "question": "下面哪个词语中的“奔”读bèn？",
+        "score": 5,
+        "type": "choice",
+        "id": 68
+      },
+      {
+        "answer": "行走：xíng；银行：háng",
+        "difficulty": 2,
+        "explanation": "“行走”表示走路，“行”读xíng；“银行”是金融机构，“行”读háng。",
+        "knowledge_point": "多音字读音",
+        "options": [],
+        "question": "请分别写出“行走”和“银行”中“行”的读音。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 69
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“盛开”中的“盛”读shèng，表示兴盛、旺盛；“盛饭”中的“盛”读chéng，表示把东西放进容器里。",
+        "knowledge_point": "多音字读音",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "“盛饭”和“花朵盛开”中的“盛”读音相同。（对 / 错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 70
+      },
+      {
+        "answer": "藏",
+        "difficulty": 2,
+        "explanation": "“宝藏”中的“藏”读zàng；“躲藏”中的“藏”读cáng。读音不同，词义和语境也不同。",
+        "knowledge_point": "多音字读音",
+        "options": [],
+        "question": "“宝zàng”和“躲cáng”分别应该填入同一个什么字？",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 71
+      },
+      {
+        "answer": "？",
+        "difficulty": 1,
+        "explanation": "句子是在询问明天是否下雨，句末应使用问号。",
+        "knowledge_point": "标点符号",
+        "options": [
+          "。",
+          "，",
+          "？",
+          "！"
+        ],
+        "question": "“明天我们还要去公园吗（）”括号里应填什么标点？",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "、",
+        "difficulty": 1,
+        "explanation": "“苹果、梨、桃子”是并列列举的水果名称，词语之间通常用顿号。",
+        "knowledge_point": "标点符号",
+        "options": [
+          "，",
+          "、",
+          "。",
+          "："
+        ],
+        "question": "“篮子里有苹果（）梨（）桃子。”两处括号里都应填什么标点？",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "：",
+        "difficulty": 2,
+        "explanation": "“老师提醒大家”提示后面要说的话，提示语后应使用冒号。",
+        "knowledge_point": "标点符号",
+        "options": [
+          "，",
+          "。",
+          "：",
+          "？"
+        ],
+        "question": "“老师提醒大家（）‘过马路时要注意安全。’”提示语后面应填什么标点？",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "，",
+        "difficulty": 1,
+        "explanation": "“放学以后”表示句中的时间状语，后面稍作停顿，使用逗号。",
+        "knowledge_point": "标点符号",
+        "options": [
+          "。",
+          "？",
+          "，",
+          "！"
+        ],
+        "question": "“放学以后（）我们一起去图书馆。”括号里应填什么标点？",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "。？",
+        "difficulty": 2,
+        "explanation": "第一句“我最喜欢春天”意思完整、语气平和，用句号；第二句是在询问对方最喜欢哪个季节，用问号。",
+        "knowledge_point": "标点符号",
+        "options": [
+          "。？",
+          "？？",
+          "，。",
+          "？！"
+        ],
+        "question": "“我最喜欢春天（）你最喜欢哪个季节（）”两处括号里依次应填什么标点？",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "这段话主要写了小猫玩毛线球的情景。",
+        "difficulty": 2,
+        "explanation": "段落围绕小猫玩毛线球展开，“滚、扑、抱住”写出了它玩耍的动作，因此可以概括为小猫玩毛线球的情景。",
+        "knowledge_point": "段落理解",
+        "options": [],
+        "question": "阅读：“小猫发现了一个毛线球。它先用爪子轻轻一拨，毛线球滚了起来。小猫追上去扑了一下，又抱住毛线球，玩得可开心了。”请用一句话概括这段话的主要内容。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 77
+      },
+      {
+        "answer": "雨后的公园景色",
+        "difficulty": 1,
+        "explanation": "这段话写了雨后公园里的花草、树叶和空气，主要描绘雨后的公园景色。",
+        "knowledge_point": "段落理解",
+        "options": [
+          "雨前的天气",
+          "雨后的公园景色",
+          "公园里的人们",
+          "小鸟怎样找食物"
+        ],
+        "question": "阅读：“雨停了，公园里的花朵挂着水珠，树叶显得格外鲜亮。泥土散发着清新的气味，小鸟在枝头欢快地叫着。”这段话主要写了什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "段落开头写准备春游，后面写出发、乘车和游览，都是围绕春游展开的。",
+        "knowledge_point": "段落理解",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断：如果一段话先写“今天我们去春游”，接着写出发、乘车和游览的经过，那么这段话主要写的是春游这件事。",
+        "score": 5,
+        "type": "true_false",
+        "id": 79
+      },
+      {
+        "answer": "树叶的变化",
+        "difficulty": 2,
+        "explanation": "“由绿变黄”说明颜色发生变化，“慢慢飘落”说明树叶的状态和位置发生变化，整段主要写树叶的变化。",
+        "knowledge_point": "段落理解",
+        "options": [
+          "树叶的变化",
+          "秋天的天气",
+          "小朋友在扫地",
+          "大树的种类"
+        ],
+        "question": "阅读：“秋风吹来，树叶由绿变黄，一片片慢慢飘落到地上。地面渐渐铺上了一层金色。”这段话主要写了什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "认真观察；种植小苗；给小苗浇水（答案不唯一，意思相近即可）",
+        "difficulty": 2,
+        "explanation": "“按顺序”提示事情有先后。段落先写翻松泥土，再写放入小苗，最后写浇水，因此横线处依次填“认真观察、种植小苗、给小苗浇水”较合适。",
+        "knowledge_point": "段落理解",
+        "options": [],
+        "question": "阅读：“劳动课上，同学们先____，再把小苗放进土坑里，最后____。大家忙得满头大汗，心里却十分高兴。”根据上下文，在两处横线上填入合适的内容，使段落内容连贯。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 81
+      },
+      {
+        "answer": "因为……所以……",
+        "difficulty": 1,
+        "explanation": "前后分句表示原因和结果：因为下雨是原因，所以比赛改期是结果。",
+        "knowledge_point": "关联词语",
+        "options": [
+          "虽然……但是……",
+          "因为……所以……",
+          "如果……就……",
+          "不但……而且……"
+        ],
+        "question": "（）今天下雨，（）运动会改期了。",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "虽然……但是……",
+        "difficulty": 1,
+        "explanation": "“天气很冷”和“同学们仍认真锻炼”之间意思相反，表示转折。",
+        "knowledge_point": "关联词语",
+        "options": [
+          "因为……所以……",
+          "如果……就……",
+          "虽然……但是……",
+          "既……又……"
+        ],
+        "question": "（）天气很冷，（）同学们仍然认真锻炼。",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "如果……就……",
+        "difficulty": 2,
+        "explanation": "前一分句提出条件，后一分句说明条件成立后的结果，适合用“如果……就……”。",
+        "knowledge_point": "关联词语",
+        "options": [
+          "如果……就……",
+          "虽然……但是……",
+          "不但……而且……",
+          "不是……而是……"
+        ],
+        "question": "（）明天不下雨，我们（）去公园观察植物。",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "即使……也……",
+        "difficulty": 2,
+        "explanation": "“遇到困难”是假设的情况，“坚持完成任务”表示在这种情况下结果仍不改变。",
+        "knowledge_point": "关联词语",
+        "options": [
+          "因为……所以……",
+          "即使……也……",
+          "一边……一边……",
+          "或者……或者……"
+        ],
+        "question": "（）遇到困难，我们（）要想办法坚持完成任务。",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "不但……而且……",
+        "difficulty": 2,
+        "explanation": "两个分句都在说这本书的优点，后一个分句进一步补充优点，表示递进。",
+        "knowledge_point": "关联词语",
+        "options": [
+          "不是……而是……",
+          "如果……就……",
+          "不但……而且……",
+          "虽然……但是……"
+        ],
+        "question": "这本书（）内容有趣，（）让我学到了许多新知识。",
+        "score": 5,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "“红得很”“鲜艳”都直接写出了花的颜色特点。",
+        "knowledge_point": "景物特点",
+        "options": [
+          "颜色鲜艳",
+          "声音响亮",
+          "形状细长",
+          "变化迅速"
+        ],
+        "question": "“花朵红得很鲜艳，像一团团火焰。”这句话主要写出了花的什么特点？",
+        "score": 5,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "高大挺拔",
+        "difficulty": 1,
+        "explanation": "“高高地伸向天空”说明树很高，“笔直”说明树干挺直，因此可以概括为“高大挺拔”。",
+        "knowledge_point": "景物特点",
+        "options": [],
+        "question": "树干笔直地立着，树枝高高地伸向天空。请用一个词语概括这棵树的特点。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 88
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "“叮咚作响”写的是溪水发出的声音，“清脆悦耳”概括了这种声音的特点。",
+        "knowledge_point": "景物特点",
+        "options": [],
+        "question": "“溪水从石缝间流过，叮咚作响，声音清脆悦耳。”这段描写表现了溪水的声音特点。判断正误。",
+        "score": 5,
+        "type": "true_false",
+        "id": 89
+      },
+      {
+        "answer": "颜色、形状、声音、动作或变化",
+        "difficulty": 2,
+        "explanation": "观察这些方面，能帮助我们从具体描写中找出景物的特点。",
+        "knowledge_point": "景物特点",
+        "options": [],
+        "question": "读写景的句子时，可以从景物的____、____、____以及动作或变化等方面寻找特点。（任填三项）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 90
+      },
+      {
+        "answer": "稻田的颜色金黄；稻穗沉甸甸，表现出稻谷丰收、颗粒饱满的样子。",
+        "difficulty": 2,
+        "explanation": "“一片金黄”写出了稻田的颜色，“稻穗沉甸甸地低着头”写出了稻穗饱满、沉重的样子。回答时要把特点和具体词句联系起来。",
+        "knowledge_point": "景物特点",
+        "options": [],
+        "question": "“秋天到了，稻田一片金黄，稻穗沉甸甸地低着头。”这句话写出了稻田和稻穗的哪些特点？请结合词句回答。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 91
+      },
+      {
+        "answer": "后来，我们又沿着小路走进了竹林。",
+        "difficulty": 2,
+        "explanation": "前文写在山脚下看溪水，后文写竹林中的景象，这句话交代了游览地点的变化，衔接自然。",
+        "knowledge_point": "过渡句辨析",
+        "options": [
+          "溪水清清的，像一面明亮的镜子。",
+          "后来，我们又沿着小路走进了竹林。",
+          "竹叶在风中轻轻摇动。",
+          "这真是一条美丽的小路。"
+        ],
+        "question": "前文写我们在山脚下看溪水，后文写竹林里的景象。下列哪句话最适合作为两段之间的过渡句？",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "过渡句常常承接上文，并引出下文，使前后内容衔接自然、连贯。",
+        "knowledge_point": "过渡句辨析",
+        "options": [],
+        "question": "判断：过渡句常常承接上文，并引出下文。",
+        "score": 5,
+        "type": "true_false",
+        "id": 93
+      },
+      {
+        "answer": "承上启下",
+        "difficulty": 1,
+        "explanation": "“承上启下”就是承接上文、开启下文，是过渡句常见的作用。",
+        "knowledge_point": "过渡句辨析",
+        "options": [],
+        "question": "过渡句常常起到________的作用。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 94
+      },
+      {
+        "answer": "吃过午饭，我们收拾好东西，继续向山顶出发。",
+        "difficulty": 2,
+        "explanation": "句子交代了时间和行动的变化，把午饭前的活动与接下来的登山内容连接起来。",
+        "knowledge_point": "过渡句辨析",
+        "options": [],
+        "question": "早上，我们在山脚下观察花草。________。不一会儿，大家就看到了山顶的亭子。请补写一句过渡句。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 95
+      },
+      {
+        "answer": "“天色渐渐暗了”",
+        "difficulty": 2,
+        "explanation": "前文写白天在公园游玩，后文写傍晚回家；这句话交代时间由白天转向傍晚，使内容衔接自然。",
+        "knowledge_point": "过渡句辨析",
+        "options": [],
+        "question": "阅读句子：白天，我们在公园里尽情游玩。天色渐渐暗了，我们才依依不舍地回家。文中哪句话起到了连接前后内容的作用？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 96
+      },
+      {
+        "answer": "茂密的",
+        "difficulty": 1,
+        "explanation": "树木长得多而密，可以说“茂密的树林”。“香甜”常形容味道，“笔直”常形容道路或树干，“安静”常形容环境或人。",
+        "knowledge_point": "词语搭配",
+        "options": [
+          "香甜的",
+          "茂密的",
+          "笔直的",
+          "安静的"
+        ],
+        "question": "下面哪个词语最适合填入“（　）的树林”？",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "认真地",
+        "difficulty": 1,
+        "explanation": "“认真”表示专心、用心，常用来修饰“听讲”，因此说“认真地听讲”。",
+        "knowledge_point": "词语搭配",
+        "options": [
+          "甜甜地",
+          "认真地",
+          "笔直地",
+          "茂密地"
+        ],
+        "question": "下面哪个词语最适合填入“（　）听讲”？",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "一场",
+        "difficulty": 2,
+        "explanation": "“大雨”常用量词“场”来表示，如“一场大雨”。“本”常用于书，“只”常用于动物，“条”常用于绳子、道路等。",
+        "knowledge_point": "词语搭配",
+        "options": [
+          "一本",
+          "一只",
+          "一场",
+          "一条"
+        ],
+        "question": "“（　）大雨”中，最恰当的量词是：",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "阳光明媚",
+        "difficulty": 2,
+        "explanation": "“明媚”常与“阳光”搭配，形容阳光明亮柔和。“阳光茂密”“阳光笔直”“阳光香甜”都不符合通常的表达习惯。",
+        "knowledge_point": "词语搭配",
+        "options": [
+          "阳光明媚",
+          "阳光茂密",
+          "阳光笔直",
+          "阳光香甜"
+        ],
+        "question": "下面哪个词语搭配最恰当？",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "刷牙",
+        "difficulty": 1,
+        "explanation": "“刷牙”是常见、恰当的动宾搭配；“洗书”“吃衣服”“喝桌子”都不符合词语的通常含义和用法。",
+        "knowledge_point": "词语搭配",
+        "options": [
+          "刷牙",
+          "洗书",
+          "吃衣服",
+          "喝桌子"
+        ],
+        "question": "下面哪个动词与名词搭配最恰当？",
+        "score": 5,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "明亮",
+        "difficulty": 1,
+        "explanation": "“明媚的阳光”指阳光明亮、柔和。“明”在这里表示明亮。",
+        "knowledge_point": "字词含义",
+        "options": [
+          "明亮",
+          "明白",
+          "公开",
+          "次日"
+        ],
+        "question": "“春天的阳光明媚”中，“明”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "景色",
+        "difficulty": 1,
+        "explanation": "“风景优美”说的是自然景色美丽，所以“景”指景色。",
+        "knowledge_point": "字词含义",
+        "options": [
+          "景色",
+          "情况",
+          "仰慕",
+          "姓氏"
+        ],
+        "question": "“这里的风景优美”中，“景”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "已经",
+        "difficulty": 1,
+        "explanation": "“我已完成作业”表示作业完成了，“已”表示已经。",
+        "knowledge_point": "字词含义",
+        "options": [
+          "已经",
+          "自己",
+          "停止",
+          "以后"
+        ],
+        "question": "“我已完成作业”中，“已”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "表示声音很大",
+        "difficulty": 2,
+        "explanation": "句子说大家听到一声巨响后都停下了脚步，因此“响”表示声音很大。",
+        "knowledge_point": "字词含义",
+        "options": [
+          "表示回声",
+          "表示声音很大",
+          "表示消息传开",
+          "表示答应"
+        ],
+        "question": "“大家听到一声巨响，都停下了脚步”中，“响”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "安静",
+        "difficulty": 2,
+        "explanation": "夜晚没有吵闹的声音，说明周围很安静。“静”在这里表示没有声音、不吵闹。",
+        "knowledge_point": "字词含义",
+        "options": [
+          "停止不动",
+          "安静",
+          "不改变",
+          "冷静"
+        ],
+        "question": "“夜深了，村子里一片宁静”中，“静”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 106
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "移步换景通常按照观察者位置移动的先后顺序描写景物。",
+        "knowledge_point": "移步换景规律",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "移步换景通常要按照观察者位置移动的先后顺序来写。",
+        "score": 2,
+        "type": "true_false",
+        "id": 107
+      },
+      {
+        "answer": "地点",
+        "difficulty": 1,
+        "explanation": "随着观察地点发生变化，作者依次描写不同位置的景物，这就是移步换景的基本特点。",
+        "knowledge_point": "移步换景规律",
+        "options": [],
+        "question": "移步换景是随着观察者的______移动，依次描写不同景物。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 108
+      },
+      {
+        "answer": "校门到教学楼：我走进校门，右边的花坛里开着五颜六色的花。来到教学楼前，高高的楼房映入眼帘，走廊里传来同学们朗朗的读书声。",
+        "difficulty": 2,
+        "explanation": "答案先写校门处的花坛，再写走到教学楼后的景物和声音，交代了地点变化并按移动顺序描写。",
+        "knowledge_point": "移步换景规律",
+        "options": [],
+        "question": "用移步换景的方法，写一两句话描写从校门走到教学楼时看到或听到的景物。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "移步换景；例如：我沿着小路向前走，来到池塘边。池水清澈，几条小鱼在荷叶下游来游去。",
+        "difficulty": 2,
+        "explanation": "“沿着小路向前走，来到池塘边”交代了位置移动；后面描写池塘边的景物，体现了移步换景。",
+        "knowledge_point": "移步换景规律",
+        "options": [],
+        "question": "读句子：“我沿着小路向前走，来到池塘边。池水清澈，几条小鱼在荷叶下游来游去。”这句话运用了什么写景方法？请从句中找出一句体现位置变化的话。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "先确定游览路线，再按到达地点的先后顺序描写，并写出每处景物的特点。",
+        "difficulty": 2,
+        "explanation": "移步换景需要路线清楚、顺序连贯，还要具体描写不同地点的景物，不能只罗列景物名称。",
+        "knowledge_point": "移步换景规律",
+        "options": [],
+        "question": "运用移步换景的方法写一处景物，写作前要先做什么？写作时还要注意什么？",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "快乐",
+        "difficulty": 1,
+        "explanation": "“高兴”和“快乐”都表示心情愉快，意思相近。",
+        "knowledge_point": "近义词选择",
+        "options": [
+          "悲伤",
+          "快乐",
+          "生气",
+          "紧张"
+        ],
+        "question": "选出与“高兴”意思最相近的词语：",
+        "score": 5,
+        "type": "choice",
+        "id": 112
+      },
+      {
+        "answer": "马上",
+        "difficulty": 1,
+        "explanation": "“立刻”和“马上”都表示紧接着就要做，意思相近。",
+        "knowledge_point": "近义词选择",
+        "options": [
+          "从前",
+          "慢慢",
+          "马上",
+          "最后"
+        ],
+        "question": "选出与“立刻”意思最相近的词语：",
+        "score": 5,
+        "type": "choice",
+        "id": 113
+      },
+      {
+        "answer": "美丽",
+        "difficulty": 2,
+        "explanation": "“漂亮”和“美丽”都表示好看，意思相近。",
+        "knowledge_point": "近义词选择",
+        "options": [
+          "丑陋",
+          "整齐",
+          "美丽",
+          "普通"
+        ],
+        "question": "选出与“漂亮”意思最相近的词语：",
+        "score": 5,
+        "type": "choice",
+        "id": 114
+      },
+      {
+        "answer": "急忙",
+        "difficulty": 2,
+        "explanation": "“赶紧”和“急忙”都表示迅速、连忙地行动，放在句中意思相近。",
+        "knowledge_point": "近义词选择",
+        "options": [
+          "慢慢",
+          "急忙",
+          "安静",
+          "仔细"
+        ],
+        "question": "“上课铃响了，同学们赶紧回到教室。”选出与句中“赶紧”意思最相近的词语：",
+        "score": 5,
+        "type": "choice",
+        "id": 115
+      },
+      {
+        "answer": "仔细",
+        "difficulty": 2,
+        "explanation": "“认真”和“仔细”都表示做事专心、细心。在“认真检查”这个语境中，两词意思相近。",
+        "knowledge_point": "近义词选择",
+        "options": [
+          "粗心",
+          "随便",
+          "仔细",
+          "迅速"
+        ],
+        "question": "“请认真检查作业。”选出与句中“认真”意思最相近的词语：",
+        "score": 5,
+        "type": "choice",
+        "id": 116
+      },
+      {
+        "answer": "宽",
+        "difficulty": 1,
+        "explanation": "课文描写外洞时说“洞口像桥洞似的，很宽”，所以外洞的特点是宽。",
+        "knowledge_point": "景物特点填空",
+        "options": [],
+        "question": "在《记金华的双龙洞》中，外洞的特点可以用一个字概括为（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "粉红",
+        "difficulty": 1,
+        "explanation": "《海上日出》中，太阳将要升起时，天空出现了一片灿烂的粉红色彩霞。",
+        "knowledge_point": "景物特点填空",
+        "options": [],
+        "question": "《海上日出》中，太阳将要升起时，天空出现了灿烂的（___）色彩霞。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "清可见底",
+        "difficulty": 2,
+        "explanation": "“清可见底”说明漓江水很清，能看见水底，是水的特点。",
+        "knowledge_point": "景物特点填空",
+        "options": [],
+        "question": "《桂林山水》中，描写漓江水清澈、能看见水底的特点，可以填（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "奇",
+        "difficulty": 2,
+        "explanation": "《桂林山水》用“奇”概括桂林山的特点，并通过拔地而起、形态各异等描写具体表现。",
+        "knowledge_point": "景物特点填空",
+        "options": [],
+        "question": "《桂林山水》中，桂林的山拔地而起、形态各异，特点可以用一个字概括为（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "绿色",
+        "difficulty": 1,
+        "explanation": "《记金华的双龙洞》写洞内石钟乳和石笋颜色各异，其中提到有的颜色是绿色。",
+        "knowledge_point": "景物特点填空",
+        "options": [],
+        "question": "《记金华的双龙洞》中，洞内的石钟乳和石笋颜色多样，有的呈（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "太阳",
+        "difficulty": 1,
+        "explanation": "太阳是课文描写日出过程的核心景物。",
+        "knowledge_point": "重点景物填空",
+        "options": [],
+        "question": "《海上日出》主要描写的中心景物是（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "云",
+        "difficulty": 1,
+        "explanation": "有云时，作者描写了云彩在太阳光照下呈现的景象。",
+        "knowledge_point": "重点景物填空",
+        "options": [],
+        "question": "课文描写有云时的日出，写到了天空中的（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "海面",
+        "difficulty": 2,
+        "explanation": "日出发生在海上，课文的景物描写也呈现了海面与太阳的关系。",
+        "knowledge_point": "重点景物填空",
+        "options": [],
+        "question": "读《海上日出》时，可以关注太阳升起时它与（___）之间的景象。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "红",
+        "difficulty": 2,
+        "explanation": "太阳升起前后，课文写到天空颜色逐渐发生变化，出现红色。",
+        "knowledge_point": "重点景物填空",
+        "options": [],
+        "question": "日出过程中，天空先出现了（___）色的光。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "升起",
+        "difficulty": 2,
+        "explanation": "课文按日出的过程描写太阳由海面附近逐渐出现并上升的变化。",
+        "knowledge_point": "重点景物填空",
+        "options": [],
+        "question": "太阳从海面附近逐渐（___）时，海上日出的景象不断变化。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "老舍",
+        "difficulty": 1,
+        "explanation": "《猫》是作家老舍写的一篇文章，描写了猫的性格特点。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "课文《猫》的作者是（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "叶圣陶",
+        "difficulty": 1,
+        "explanation": "《爬山虎的脚》是叶圣陶写的一篇观察细致的文章。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "《爬山虎的脚》的作者是（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "丰子恺",
+        "difficulty": 2,
+        "explanation": "《白鹅》是丰子恺先生描写白鹅的文章。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "课文《白鹅》的作者是（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "《观潮》是赵宗成、朱明元写的课文，介绍了钱塘江大潮的壮观景象。",
+        "knowledge_point": "文学常识",
+        "options": [
+          "A. 赵宗成、朱明元",
+          "B. 巴金",
+          "C. 老舍",
+          "D. 叶圣陶"
+        ],
+        "question": "课文《观潮》的作者是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 130
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "《麻雀》是俄国作家屠格涅夫的作品，课文讲述了老麻雀保护小麻雀的故事。",
+        "knowledge_point": "文学常识",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "《麻雀》的作者是俄国作家屠格涅夫。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 131
+      },
+      {
+        "answer": "清澈的小溪",
+        "difficulty": 1,
+        "explanation": "“清澈”表示清而透明，常用来形容溪水、湖水等。",
+        "knowledge_point": "词义匹配",
+        "options": [
+          "清澈的",
+          "小溪",
+          "浓密的",
+          "天空",
+          "晴朗的",
+          "树林"
+        ],
+        "question": "从选项中选出合适的词语，组成一个恰当的短语：____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 132
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“寂静”表示安静、没有声音，用来形容山谷很恰当。“鲜甜”通常形容水果或食物的味道。",
+        "knowledge_point": "词义匹配",
+        "options": [
+          "寂静的果子",
+          "寂静的山谷",
+          "鲜甜的山谷"
+        ],
+        "question": "“寂静”可以和哪个词语搭配？",
+        "score": 2,
+        "type": "choice",
+        "id": 133
+      },
+      {
+        "answer": "明亮",
+        "difficulty": 2,
+        "explanation": "“明亮”表示光线充足、亮堂，能恰当地形容教室；“弯曲”不能形容教室的光线。",
+        "knowledge_point": "词义匹配",
+        "options": [
+          "明亮",
+          "弯曲",
+          "潮湿"
+        ],
+        "question": "在“____的教室”中，填入最恰当的词语。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 134
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "“茂密”表示草木长得多而密，用来形容树林十分恰当。",
+        "knowledge_point": "词义匹配",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "“茂密的树林”是恰当的词语搭配。",
+        "score": 2,
+        "type": "true_false",
+        "id": 135
+      },
+      {
+        "answer": "飘香",
+        "difficulty": 2,
+        "explanation": "花朵常散发香气，所以“飘香的花朵”搭配恰当。“飘香”表示香气飘散开来。",
+        "knowledge_point": "词义匹配",
+        "options": [
+          "飘香",
+          "陡峭",
+          "漆黑"
+        ],
+        "question": "“____的花朵”中，填入表示花朵散发香气的词语。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 136
+      },
+      {
+        "answer": "内洞",
+        "difficulty": 1,
+        "explanation": "石钟乳是内洞中可见的景物。",
+        "knowledge_point": "景物及其所在地",
+        "options": [],
+        "question": "石钟乳所在的地点是______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 137
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "游览途中可以看到映山红，地点是路上。",
+        "knowledge_point": "景物及其所在地",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "游览路上可以看到映山红。",
+        "score": 1,
+        "type": "true_false",
+        "id": 138
+      },
+      {
+        "answer": "孔隙",
+        "difficulty": 2,
+        "explanation": "经过孔隙时，游客需要仰卧进入。",
+        "knowledge_point": "景物及其所在地",
+        "options": [],
+        "question": "仰卧入洞发生在______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 139
+      },
+      {
+        "answer": "外洞口",
+        "difficulty": 2,
+        "explanation": "溪水汇入外洞口，可据此把溪水入洞和外洞口对应起来。",
+        "knowledge_point": "景物及其所在地",
+        "options": [],
+        "question": "溪水汇入的地点是______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 140
+      },
+      {
+        "answer": "路上—映山红；孔隙—仰卧入洞；外洞口—溪水入洞；内洞—石钟乳。",
+        "difficulty": 3,
+        "explanation": "按游览路线整理：路上看到映山红，经过孔隙时仰卧入洞，溪水汇入外洞口，内洞有石钟乳。",
+        "knowledge_point": "景物及其所在地",
+        "options": [],
+        "question": "请按“地点—景物或游览内容”的形式，写出路上、孔隙、外洞口和内洞各自对应的内容。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 141
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“提出问题”是常见且自然的动词搭配。“打开问题”搭配不当，通常说“解决问题”；“穿帽子”通常说“戴帽子”。",
+        "knowledge_point": "动词搭配",
+        "options": [
+          "A. 打开问题",
+          "B. 提出问题",
+          "C. 穿帽子"
+        ],
+        "question": "下面哪个动词搭配最恰当？",
+        "score": 2,
+        "type": "choice",
+        "id": 142
+      },
+      {
+        "answer": "爱护",
+        "difficulty": 1,
+        "explanation": "“爱护花草”是常见搭配，表示珍惜并保护花草。",
+        "knowledge_point": "动词搭配",
+        "options": [],
+        "question": "请在横线上填入合适的动词：我们要（　　）校园里的花草。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 143
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "“养成习惯”是常见搭配；“制造习惯”搭配不当，可以说“养成好习惯”或“改掉坏习惯”。",
+        "knowledge_point": "动词搭配",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断正误：“制造一个好习惯”是恰当的动词搭配。",
+        "score": 2,
+        "type": "true_false",
+        "id": 144
+      },
+      {
+        "answer": "解决问题",
+        "difficulty": 2,
+        "explanation": "“解决”常与“问题”搭配，表示想办法使问题得到处理或消除。",
+        "knowledge_point": "动词搭配",
+        "options": [],
+        "question": "用“解决”和“问题”组成一个恰当的动词短语。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 145
+      },
+      {
+        "answer": "发出",
+        "difficulty": 2,
+        "explanation": "“发出声音”是常见搭配。“发明声音”不恰当；“发明”通常与新产品、新方法等搭配。",
+        "knowledge_point": "动词搭配",
+        "options": [
+          "发出",
+          "发明",
+          "发扬"
+        ],
+        "question": "请从选项中选择合适的词填空：小鸟在树枝上（　　）清脆的叫声。",
+        "score": 2,
+        "type": "choice",
+        "id": 146
+      },
+      {
+        "answer": "小鸟在树枝上唱歌。",
+        "difficulty": 1,
+        "explanation": "“小鸟”是句子中的主要事物，“唱歌”是动作，“在树枝上”说明地点。",
+        "knowledge_point": "句子结构",
+        "options": [
+          "唱歌",
+          "小鸟",
+          "在树枝上"
+        ],
+        "question": "将下列词语排列成一句通顺的话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 147
+      },
+      {
+        "answer": "妹妹认真地读故事书。",
+        "difficulty": 2,
+        "explanation": "“妹妹”是做动作的人，“读”是动作，“故事书”是读的对象；“认真地”修饰“读”，应放在动作前。",
+        "knowledge_point": "句子结构",
+        "options": [
+          "认真地",
+          "故事书",
+          "妹妹",
+          "读"
+        ],
+        "question": "将下列词语排列成一句通顺的话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 148
+      },
+      {
+        "answer": "公园里盛开着许多美丽的花朵。",
+        "difficulty": 2,
+        "explanation": "“公园里”表示地点，“盛开着”表示动作和状态，“许多美丽的花朵”是盛开的事物。数量词和形容词放在名词“花朵”前。",
+        "knowledge_point": "句子结构",
+        "options": [
+          "美丽的",
+          "公园里",
+          "花朵",
+          "盛开着",
+          "许多"
+        ],
+        "question": "将下列词语排列成一句描写公园的话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 149
+      },
+      {
+        "answer": "明天我们去博物馆参观。",
+        "difficulty": 2,
+        "explanation": "“明天”表示时间，“我们”是做动作的人，“去博物馆参观”说明要做什么。按时间、人物、行动排列，句子意思完整。",
+        "knowledge_point": "句子结构",
+        "options": [
+          "参观",
+          "我们",
+          "明天",
+          "去博物馆"
+        ],
+        "question": "将下列词语排列成一句通顺的话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 150
+      },
+      {
+        "answer": "小河边有一棵高大的柳树。",
+        "difficulty": 3,
+        "explanation": "“小河边”交代地点，“有”引出事物，“一棵高大的柳树”说明有什么。数量词“一棵”和形容词“高大的”都放在名词“柳树”前。",
+        "knowledge_point": "句子结构",
+        "options": [
+          "柳树",
+          "有",
+          "小河边",
+          "高大的",
+          "一棵"
+        ],
+        "question": "将下列词语排列成一句描写景物的话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 151
+      },
+      {
+        "answer": "我们离开古老的城门，沿着石板路继续向前，来到了热闹的集市。",
+        "difficulty": 2,
+        "explanation": "句子写清了离开的地点、行走的路线和到达的地点，游览顺序明确，能自然连接前后内容。",
+        "knowledge_point": "游记过渡句表达",
+        "options": [],
+        "question": "请用“离开……沿着……来到……”写一句过渡句，连接“参观古老的城门”和“游览热闹的集市”。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 152
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“穿过竹林，走上石桥，我们来到了瀑布旁”写出了行走路线和到达地点，衔接自然。A缺少地点变化信息，C的地点顺序和前后连接不够清楚。",
+        "knowledge_point": "游记过渡句表达",
+        "options": [
+          "A. 那里很美，景色令人难忘。",
+          "B. 穿过竹林，走上石桥，我们来到了瀑布旁。",
+          "C. 瀑布水流很大，竹林里有很多竹子。"
+        ],
+        "question": "前文写“我们参观了山脚下的竹林”，接下来要写“瀑布旁的景色”。哪句话最适合作为过渡句？",
+        "score": 5,
+        "type": "choice",
+        "id": 153
+      },
+      {
+        "answer": "先写山脚下的花园，再写半山腰的凉亭，最后写山顶的观景台。过渡句示例：离开山脚下的花园，我们沿着山路向上走，来到了半山腰的凉亭。",
+        "difficulty": 3,
+        "explanation": "游记通常按照实际游览路线或地点顺序来写。示例交代了离开的地点、行走路线和到达的地点，使转换清楚。",
+        "knowledge_point": "游记过渡句表达",
+        "options": [],
+        "question": "游览顺序是：山脚下的花园、半山腰的凉亭、山顶的观景台。请写出这三个地点的合理顺序，并为从花园到凉亭的转换写一句过渡句。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 154
+      },
+      {
+        "answer": "我们沿着湖边的小路向前走，不一会儿就来到了岸边的荷花池。",
+        "difficulty": 2,
+        "explanation": "“沿着湖边的小路向前走”说明路线，“来到了岸边的荷花池”交代到达地点，语句通顺，过渡自然。",
+        "knowledge_point": "游记过渡句表达",
+        "options": [],
+        "question": "把“沿着湖边的小路向前走”和“来到岸边的荷花池”连成一句完整、自然的过渡句。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 155
+      },
+      {
+        "answer": "穿过山洞后，我们又沿着小路走了一段，终于来到了山顶。",
+        "difficulty": 3,
+        "explanation": "句子先写穿过山洞，再写沿小路前行，最后写到达山顶，游览顺序合理；“又”“终于”让前后衔接更加自然。",
+        "knowledge_point": "游记过渡句表达",
+        "options": [],
+        "question": "前文写“我们刚刚穿过山洞”，后文要写“山顶的景色”。请补写一句过渡句，说明怎样从山洞走到山顶。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 156
       }
     ]
   },
@@ -702,34 +2462,289 @@
   },
   "knowledge_summary": [
     {
+      "common_mistakes": [
+        "忘记写表示位置转换的词语，导致读者不知道景物在哪。",
+        "空间跨度太大，中间没有衔接，游览路线显得不连贯。",
+        "只按地点罗列景物，没有写出景物的特点。"
+      ],
+      "core_concept": "移步换景是指观察者随着脚步移动，观察位置不断变化，并按照游览路线依次描写途中看到的景物。写作时要交代观察位置怎样改变，再写新位置看到的景物及其特点，让读者仿佛跟着作者一起游览。",
+      "key_formula": "位置变换 + 新景物 + 景物特征",
       "point": "移步换景的游览顺序",
-      "core_concept": "移步换景是指在描写一个地方时，观察者不是停留在固定的位置，而是随着脚步的移动变换观察点，将所见的景物依次写下来。在写作中，必须明确交代观察位置的改变。",
-      "key_formula": "位置变换+新景物+景物特征",
-      "common_mistakes": [
-        "忘记写表示位置转换的词语，导致读者不知道景物在哪",
-        "空间跨度太大，中间没有衔接"
-      ],
-      "tips": "可以先画一张游览路线草图，确定哪些地方需要停下来详细看。"
+      "tips": "写作前可以画一张游览路线草图，按先后顺序标出观察地点；每到一个地点，选择有特点的景物来写，并用“走到……”“穿过……”“来到……”等词语衔接。"
     },
     {
+      "common_mistakes": [
+        "从一个景点直接跳到另一个景点，没有交代游览路线，读者不清楚作者如何到达。",
+        "反复使用“接着”“然后”等词，表达显得单调。",
+        "只写“我们到了下一个景点”，没有结合路上的动作或景物来衔接。"
+      ],
+      "core_concept": "游记中的过渡句连接不同景点，交代游览顺序和行进过程，让文章读起来连贯、清楚。过渡句可以写离开原景点、行进的动作、沿途看到的景物，或到达新景点。",
+      "key_formula": "（离开旧景点或沿途线索）+（行进动作）+（到达新景点）",
       "point": "游记过渡句的衔接",
-      "core_concept": "过渡句是连接两个景点的桥梁。它可以提示游览的顺序，如“走完路，就来到了洞口”，使文章脉络清晰，读者能听清作者的行踪。",
-      "key_formula": "（离开旧景点）+（动作）+（到达新景点）",
-      "common_mistakes": [
-        "过渡生硬，直接就开始写下一个景",
-        "每一段的开头都用同样的连接词，如'接着'、'又'，语言单调"
-      ],
-      "tips": "尝试用泉水、阳光或路标作为线索来连接不同的景点。"
+      "tips": "写完一个景点后，想一想：我接下来往哪里走？途中看见了什么？怎样自然地引出下一个景点？把这些内容写进过渡句中，并尝试变换表达方式。"
     },
     {
-      "point": "场景细节的详略安排",
-      "core_concept": "在描写一处美景时，不能像流水账一样面面俱到。要挑选印象最深的一两个景物进行详细描写（如外貌、颜色、动态、感受），其他的则可以简单带过。",
-      "key_formula": "重点景物（详）+ 次要景物（略）= 层次感",
       "common_mistakes": [
-        "重点不突出，所有的景物都只写一两句话",
-        "把不重要的生活细节（如坐车、买票）写得太长"
+        "重点不突出，所有景物都只写一两句话，读者难以留下深刻印象。",
+        "把坐车、买票等与景色关系不大的经过写得太长，挤占描写景物的篇幅。",
+        "虽然选了重点景物，却没有写出它的颜色、形状、动态或带给自己的感受。"
       ],
-      "tips": "把最想推荐给别人的那个景点作为“主咖”，给它最多的文字。"
+      "core_concept": "描写一处美景时，要根据表达目的安排笔墨：挑选最有特色、最想让读者记住的一两个景物，重点描写它们的外形、颜色、变化、动态以及自己的感受；其他景物则简要提及。这样文章有重点、有层次，也不会像流水账一样面面俱到。",
+      "key_formula": "重点景物（详写：外形、颜色、动态、感受）+ 次要景物（略写）= 层次分明、重点突出",
+      "point": "场景细节的详略安排",
+      "tips": "先想一想：这处景色里，最想推荐给别人看的是什么？把它当作“主角”，多写几笔；其他景物简要交代即可。写完后检查：读者能不能一眼看出你最想介绍的景物？"
+    },
+    {
+      "common_mistakes": [
+        "把形近字的偏旁看错，或只凭读音判断字形。",
+        "混淆字形相近但意思不同的字，如“未”和“末”。"
+      ],
+      "core_concept": "字形辨析就是仔细观察汉字的结构、偏旁和关键笔画，分清形状相近的字，并结合词语的意思确认用字。",
+      "key_formula": "观察结构和偏旁 → 比较关键笔画 → 联系词义辨别",
+      "point": "字形辨析",
+      "tips": "遇到形近字，可以把它们并排比较，圈出不同的偏旁或笔画，并用熟悉的词语帮助记忆。"
+    },
+    {
+      "common_mistakes": [
+        "只罗列景物名称，没有交代观察位置或描写顺序。",
+        "在一段描写中随意转换观察位置，读者难以分清景物方位。",
+        "把“移步换景”和“定点观察”混为一谈。"
+      ],
+      "core_concept": "景物描写顺序，是按照一定的次序把看到的景物写清楚。常见的顺序有：按照游览路线变化来写的“移步换景”；站在一个固定位置，按方位或由远及近、由整体到局部等顺序来写；按照时间变化来写。写作时要交代清楚观察位置或时间，并用恰当的顺序词连接景物。",
+      "key_formula": "交代观察位置或时间 → 按选定顺序描写景物 → 用方位词、顺序词或过渡句连接。",
+      "point": "景物描写顺序",
+      "tips": "先想一想“我在哪里看、看到了什么、先看哪里再看哪里”，再选择合适的顺序。游览路线中的地点变化要写得连贯；定点观察时不要突然改变位置；描写时间变化时可以写清晨、正午、傍晚等时间提示。"
+    },
+    {
+      "common_mistakes": [
+        "把句子中出现“像”就一概判断为比喻，要结合句意看是不是把一种事物比作另一种事物。",
+        "把生动的描写都当成拟人；拟人通常要看事物是否被赋予了人的动作、情感或特点。",
+        "只关注修辞词语，忽略整句话表达的意思。"
+      ],
+      "core_concept": "修辞手法是为了让表达更生动、形象或有气势而使用的方法。小学阶段常见的有比喻、拟人、排比和夸张。识别时要结合句意：比喻是把一种事物比作另一种事物；拟人是把事物当作人来写；排比是把结构相似、意思相关的词语或句子连续排列；夸张是故意把事物的特点说得特别突出。",
+      "key_formula": "比喻：把甲比作乙；拟人：事物像人一样有动作或情感；排比：结构相似的词句连续出现；夸张：故意夸大或缩小。",
+      "point": "修辞手法识别",
+      "tips": "先读懂句意，再找关键特征。看到“像、仿佛、好似”等词时，检查句子是否真的把甲比作乙；看到事物做出人的动作、说话或表现出人的情感时，考虑拟人；看到三个或更多结构相似的短语或分句时，考虑排比；看到明显不符合实际、用来突出特点的表达时，考虑夸张。"
+    },
+    {
+      "common_mistakes": [
+        "只用一个近义词代替词语，忽略它在句子中的具体意思。",
+        "不联系上下文理解多义词，导致解释与句意不符。",
+        "把词语的字面意思和它在句子中的实际含义混为一谈。"
+      ],
+      "core_concept": "词语释义，就是说明词语的意思。理解词语时，可以先看词语本身，再联系句子和上下文，判断它在这里表达什么；还可以用近义词替换、拆分词语或联系生活经验来帮助理解。解释时要简洁、准确，并符合句子意思。",
+      "key_formula": "词语释义＝结合词语特点＋联系上下文＋用简洁的话解释句中含义",
+      "point": "词语释义",
+      "tips": "先把句子读完整；圈出词语并观察它修饰或说明什么；尝试用近义词替换；最后检查替换后句意是否通顺、解释是否准确。"
+    },
+    {
+      "common_mistakes": [
+        "只复述课文内容，没有抓住主要内容和写作顺序。",
+        "把作者看到的景物与作者的感受混为一谈。",
+        "回答问题时缺少依据，或没有结合课文中的关键词句。"
+      ],
+      "core_concept": "课文理解是通过阅读课文，弄清写了什么、按什么顺序写、重点是什么，以及作者表达了怎样的感受。回答时要联系课文内容，找出相关语句作为依据。",
+      "key_formula": "课文理解＝抓主要内容＋理清写作顺序＋关注关键词句＋联系上下文作答",
+      "point": "课文理解",
+      "tips": "阅读游记时，可以留意作者的游览路线，以及每到一处看到什么、有什么感受。概括主要内容时，尽量用简洁的话说清对象、主要经历或特点。"
+    },
+    {
+      "common_mistakes": [
+        "只根据字形判断读音，不结合词语和语境。",
+        "把同一个多音字在不同词语中的读音混为一谈。",
+        "遇到不熟悉的词时，不查字典或请教老师，就随意猜读音。"
+      ],
+      "core_concept": "多音字是指一个字有两个或两个以上的读音。读音常随词语和语境变化，学习时要把字放在具体词语中辨认。",
+      "key_formula": "判断多音字读音：看词语和语境 → 联系词义 → 选择合适的读音。",
+      "point": "多音字读音",
+      "tips": "把多音字和常见词语成组记忆，例如“系绳子”读jì，“关系”读xì。遇到拿不准的读音，可以查字典，并用词语或句子练习。"
+    },
+    {
+      "common_mistakes": [
+        "把逗号和句号混用：一句话还没说完时通常用逗号，意思完整时用句号。",
+        "只看句子内容，不听语气：疑问句用问号，表达强烈感情的句子常用感叹号。",
+        "引号、冒号和逗号的位置用错：标点要根据说话内容和句子结构来确定。"
+      ],
+      "core_concept": "标点符号帮助我们表示停顿、语气和句子结构，使句子意思清楚。常见标点有句号、逗号、问号、感叹号、顿号、冒号、引号和破折号等。",
+      "key_formula": "意思完整、语气平和用句号；句中短暂停顿用逗号；提出问题用问号；表达强烈感情用感叹号；列举同类词语之间用顿号；提示下文用冒号；引用或突出说话内容用引号。",
+      "point": "标点符号",
+      "tips": "先读一读句子，判断句意是否完整，再体会句子的语气和停顿。遇到人物说话时，留意提示语与说话内容的关系；列举词语时，注意区分顿号和逗号。"
+    },
+    {
+      "common_mistakes": [
+        "只关注段落中的个别词语，忽略整段内容。",
+        "把段落里提到的事物当作主要内容，却没有概括它写了什么。",
+        "概括时加入原文没有的信息，或说得过于宽泛。"
+      ],
+      "core_concept": "段落理解是读懂一段话写了什么、怎样写，以及表达了什么。阅读时要先找出段落中的主要对象，再联系关键词句和上下文，概括段落的主要内容。",
+      "key_formula": "段落主要内容＝主要对象＋关键变化、特点或事情。",
+      "point": "段落理解",
+      "tips": "可以试着用“这段话主要写了……”来概括。概括后检查：是否抓住主要对象？是否包含最重要的特点或变化？是否简洁且符合原文？"
+    },
+    {
+      "common_mistakes": [
+        "只看句子前半部分选关联词，不联系后半句判断逻辑关系。",
+        "把“虽然……但是……”的转折关系和“因为……所以……”的因果关系混淆。",
+        "把“即使……也……”的假设关系与“如果……就……”的条件关系混淆。",
+        "关联词语常常成对使用，漏掉其中一个会使句意不完整。"
+      ],
+      "core_concept": "关联词语用来连接词语或分句，帮助表达句子之间的关系。常见关系有并列、递进、转折、因果、条件、假设和选择等。判断时要先读懂句意，再根据前后分句的关系选择合适的关联词。",
+      "key_formula": "常见搭配：因为……所以……（因果）；虽然……但是……（转折）；如果……就……（条件）；即使……也……（假设）；不但……而且……（递进）；不是……而是……（并列、对照）；或者……或者……（选择）。",
+      "point": "关联词语",
+      "tips": "先找出句子中的分句，再用自己的话说清它们之间是什么关系；最后检查关联词搭配是否恰当、句意是否通顺。"
+    },
+    {
+      "common_mistakes": [
+        "只说景物“美”或“好看”，没有指出具体特点。",
+        "把景物特点和作者的感受混为一谈。",
+        "只摘抄描写词句，没有结合上下文说明景物怎样。",
+        "忽略颜色、形状、声音、变化等细节。"
+      ],
+      "core_concept": "景物特点是景物自身呈现出的样子或状态，例如颜色鲜艳、形态奇特、声音悦耳、变化迅速等。阅读时，可以从描写景物的词语、句子和景物的变化中，找出它的特点。",
+      "key_formula": "找出描写景物的词句 → 关注颜色、形状、声音、动作和变化 → 用具体词语概括特点 → 结合原文说明理由",
+      "point": "景物特点",
+      "tips": "回答时可以用“景物具有……的特点，因为文中写到……”这样的句式。"
+    },
+    {
+      "common_mistakes": [
+        "把所有表示地点变化的句子都当作过渡句，忽略它是否连接了前后内容。",
+        "只看句子里有没有“后来”“接着”等词，不结合上下文判断作用。",
+        "把过渡句和单纯的总结句、描写句混淆。"
+      ],
+      "core_concept": "过渡句是连接上下文的句子，常常承接前面的内容，并引出后面的内容，让文章读起来更连贯。辨析时要结合前后文，看它是否起到了承上启下或自然转换话题、地点、时间的作用。",
+      "key_formula": "过渡句的作用：承接上文 + 引出下文。判断方法：联系前后文，看内容是否发生转换、衔接是否自然。",
+      "point": "过渡句辨析",
+      "tips": "做题时先读过渡句前后的内容，再判断它连接了什么。若句子只描写一个事物或只总结上文，通常不一定是过渡句；若它既照应前文，又引出新的内容，往往具有过渡作用。"
+    },
+    {
+      "common_mistakes": [
+        "只看词语是否常见，不判断它们在意思和用法上是否合适。",
+        "忽略词语的习惯用法，例如说“清新的空气”，不说“宽阔的空气”。"
+      ],
+      "core_concept": "词语搭配是把意思相合、用法恰当的词语组合在一起，使表达准确、自然。搭配时要留意词语的含义以及它通常修饰或说明的对象。",
+      "key_formula": "搭配恰当＝意思相合＋用法自然",
+      "point": "词语搭配",
+      "tips": "判断词语搭配时，可以把词语连起来读一读，想想意思是否合理、平时是否这样说。比如“清新的空气”“茂密的树林”“认真地听讲”“一场大雨”。"
+    },
+    {
+      "common_mistakes": [
+        "只根据一个字最常见的意思解释词语，忽略它在具体语境中的含义。",
+        "把词语拆开逐字理解，导致整体意思不准确。",
+        "遇到多义字时，没有结合句子前后内容判断。"
+      ],
+      "core_concept": "理解字词含义，就是结合词语和句子的具体语境，判断字或词在这里表达的意思。一个字可能有多个意思，同一个词也要根据上下文来理解。",
+      "key_formula": "字词在句中的意思＝字词本义＋具体语境；理解时先读上下文，再选择最合适的解释。",
+      "point": "字词含义",
+      "tips": "先读包含目标字词的句子，再留意前后内容和词语搭配；如果一个字有多种解释，可把不同解释代入句子，选出最符合语境的一项。"
+    },
+    {
+      "common_mistakes": [
+        "只罗列景物，没有交代观察地点或行走路线。",
+        "描写顺序与实际游览路线不一致，容易让读者感到混乱。",
+        "每到一处只写景物名称，缺少具体特点和感受。"
+      ],
+      "core_concept": "“移步换景”是随着观察者的位置移动，依次描写沿途不同景物的写作方法。写作时通常按照游览或行走的先后顺序安排内容，并在每个地点抓住景物特点进行描写。",
+      "key_formula": "交代路线或观察点 → 按移动顺序描写景物 → 写出各处特点与感受",
+      "point": "移步换景规律",
+      "tips": "动笔前可以先列出“从哪里出发—经过哪里—最后到哪里”的路线图；写作时用“走进、沿着、来到、转过”等词语自然衔接。注意移步换景不是单纯按顺序列出景物，还要写清每处景物的特点。"
+    },
+    {
+      "common_mistakes": [
+        "只看词语中是否有相同的字，不结合词义判断。",
+        "把意思相反的词误认为近义词。",
+        "忽略词语在句子中的具体语境。"
+      ],
+      "core_concept": "近义词是意思相近的词语。判断和选择近义词时，要理解词语的意思，并结合具体语境辨析。",
+      "key_formula": "先理解原词的意思，再比较候选词的含义；意思相近且符合语境的词语就是近义词。",
+      "point": "近义词选择",
+      "tips": "可以把候选词分别放回句子中读一读，看看句意是否基本不变。注意近义词的意思只是相近，不一定完全相同。"
+    },
+    {
+      "common_mistakes": [
+        "只写出景物名称，没有写出景物的具体特点。",
+        "把作者的感受当成景物特点，或用词过于笼统，如“很美”“很好看”。",
+        "填写时忽略课文中的关键描写，导致答案与原文不符。"
+      ],
+      "core_concept": "景物特点是景物在形状、颜色、声音、位置、变化等方面呈现出的特征。阅读时可以从描写景物的词语和句子中提取信息，也可以留意作者的观察顺序和感受。",
+      "key_formula": "景物特点＝景物对象＋具体特征（形状、颜色、声音、位置、变化等）",
+      "point": "景物特点填空",
+      "tips": "读题时先找出景物对象；回到相关语句，关注形容词、动词和表示声音、颜色、形状、位置的词；尽量使用原文中的关键词，填写后检查是否符合句意。"
+    },
+    {
+      "common_mistakes": [
+        "把课文中的景物与景物变化混为一谈。",
+        "填空时只写笼统词语，未抓住课文里的具体景物。",
+        "忽略不同天气或时间下景物的变化。"
+      ],
+      "core_concept": "《海上日出》重点描写了日出时海面、天空、太阳和云彩等景物，以及它们随日出过程发生的变化。晴朗天气与有云天气下，日出的景象各有特点。",
+      "key_formula": "按“天气情况＋日出过程＋景物变化”梳理重点景物。",
+      "point": "重点景物填空",
+      "tips": "可以边读边圈画太阳、天空、云彩和海面等景物，再按日出前、日出时、日出后的顺序整理特点。"
+    },
+    {
+      "common_mistakes": [
+        "把作者与作品的主人公、编者或插图作者混淆。",
+        "只记作品名称，不注意作品与作者的对应关系。",
+        "不同版本教材选文可能不同，答题时应以题目中给出的作品为准。"
+      ],
+      "core_concept": "文学常识包括作家、作品及其体裁、主要内容等基础知识。学习时可以把作品名称和作者联系起来记忆，并结合课文内容加深印象。",
+      "key_formula": "作品名称 ↔ 作者；记忆时结合课文内容和作者特点。",
+      "point": "文学常识",
+      "tips": "复习时先读准作品名称和作者姓名，再用一句话回忆作品写了什么。遇到不熟悉的作品，可以从课文标题、内容和作者信息入手。"
+    },
+    {
+      "common_mistakes": [
+        "只看单个词的字面意思，不结合它修饰的对象判断搭配。",
+        "把意思相近的词误认为可以修饰同一个对象。",
+        "忽略词语带来的画面感，如“蜿蜒”常用来形容弯弯曲曲的事物。"
+      ],
+      "core_concept": "词义匹配是根据词语的意思，找出与它搭配恰当的对象。判断时可以先理解词语，再想想它通常描述什么事物，最后把词语放进短语或句子中读一读。",
+      "key_formula": "词义匹配：理解词义＋联系对象特点＋读一读验证",
+      "point": "词义匹配",
+      "tips": "先说出形容词的意思，再观察对象有什么特点。例如，“蜿蜒”表示弯弯曲曲，“漆黑”表示非常黑；把搭配读出来，看看是否自然、合理。"
+    },
+    {
+      "common_mistakes": [
+        "把游览路线上的景物和洞内景物混淆。",
+        "只记住景物名称，没有说清楚它所在的位置。"
+      ],
+      "core_concept": "学习按游览顺序辨认景物及其所在地，能把看到的景物与相应地点对应起来。",
+      "key_formula": "景物 + 所在地，例如：石钟乳—内洞。",
+      "point": "景物及其所在地",
+      "tips": "可以先梳理游览顺序，再逐一回想每个地点看到的景物：路上看映山红，经过孔隙时仰卧入洞，溪水汇入外洞口，内洞里有石钟乳。"
+    },
+    {
+      "common_mistakes": [
+        "只看单个词的意思，忽略动词和后面词语是否搭配自然。",
+        "把意思相关的词随意组合，例如说“打开问题”，而不说“提出问题”。",
+        "混淆近义动词的搭配对象，例如说“穿帽子”，通常应说“戴帽子”。"
+      ],
+      "core_concept": "动词搭配，就是动词和它所支配的词语按照习惯、意义合理地组合。恰当的动词搭配能让表达准确、通顺。",
+      "key_formula": "动词 + 合适的对象或补充成分，例如：冲破黑暗、跳出海面、提出问题、保护环境。",
+      "point": "动词搭配",
+      "tips": "选择动词时，先弄清楚句子想表达的动作，再看动作作用于谁或什么，最后读一读整个短语是否自然。可以积累常见搭配，如“养成习惯”“爱护花草”“解决问题”“发出声音”。"
+    },
+    {
+      "common_mistakes": [
+        "把词语简单按原顺序拼接，忽略谁在什么地方做什么。",
+        "把数量词、形容词放到所修饰的名词后面。",
+        "把地点状语误认为句子的主语。"
+      ],
+      "core_concept": "句子通常围绕“谁（什么）怎么样（做什么）”展开。排列词语时，先找出主要的人或事物以及它的动作、状态，再安排地点、时间、数量和修饰语等成分。修饰语一般放在被修饰的词语前面。",
+      "key_formula": "常见语序：时间、地点 + 主语 + 动作（谓语） + 对象（宾语）；数量词、形容词通常放在名词前。语序会因表达需要有所变化。",
+      "point": "句子结构",
+      "tips": "排列词语时，可以先圈出主要事物和动作，再把数量、形容词放到所修饰的名词前，最后读一读，检查句意是否完整、通顺。"
+    },
+    {
+      "common_mistakes": [
+        "过渡句只写“然后”“接着”，没有交代从哪里到哪里。",
+        "地点转换太突然，读者不清楚行走的路线。",
+        "连接词使用不当，句子前后不连贯。"
+      ],
+      "core_concept": "游记中的过渡句用来连接不同地点或游览内容，常交代人物、行走路线和到达的地点，使游览顺序清楚、内容衔接自然。",
+      "key_formula": "人物 + 表示路线或动作的词语 + 到达的地点；也可以补充沿途看到的景物。",
+      "point": "游记过渡句表达",
+      "tips": "写完后检查：人物是谁？从哪里出发？怎样走？到了哪里？前后地点顺序是否合理？"
     }
   ]
 }

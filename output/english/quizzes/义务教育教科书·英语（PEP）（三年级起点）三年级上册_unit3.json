@@ -4,275 +4,273 @@
   "unit_number": 3,
   "unit_test": {
     "title": "Unit 3 Look at me! 单元基础达标测",
-    "total_score": 100,
+    "total_score": 132,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "身体部位词汇识记",
-        "question": "'eye' 的中文意思是 '眼睛'。",
-        "options": [],
         "answer": "对",
-        "explanation": "eye 是身体器官中的眼睛。"
+        "difficulty": 1,
+        "explanation": "eye 的意思是“眼睛”。",
+        "knowledge_point": "身体部位词汇识记",
+        "options": [],
+        "question": "'eye' 的中文意思是“眼睛”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "身体部位词汇识记",
-        "question": "'leg' 的中文意思是 '胳膊'。",
-        "options": [],
         "answer": "错",
-        "explanation": "leg 是腿，胳膊是 arm。"
-      },
-      {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 1,
-        "knowledge_point": "健康状况询问与回应",
-        "question": "询问别人身体状况时，可以说 'How are you?'。",
+        "explanation": "leg 是“腿”；“胳膊”是 arm。",
+        "knowledge_point": "身体部位词汇识记",
         "options": [],
-        "answer": "对",
-        "explanation": "How are you? 是询问健康或近况的标准表达。"
+        "question": "'leg' 的中文意思是“胳膊”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“How are you?”可以用来询问对方的健康或近况。",
+        "knowledge_point": "健康状况询问与回应",
+        "options": [],
+        "question": "询问别人身体状况时，可以说 “How are you?”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Touch your nose. 的意思是“摸摸你的鼻子”，不是“拍拍你的手”。",
         "knowledge_point": "身体动作指令表达",
-        "question": "'Touch your nose.' 的意思是 '拍拍你的手'。",
         "options": [],
-        "answer": "错",
-        "explanation": "Touch your nose 是摸摸你的鼻子。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
+        "question": "'Touch your nose.' 的意思是“拍拍你的手”。",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "字母Ee至Ii的音形辨析",
-        "question": "字母 'f' 的后面一个字母是 'g'。",
-        "options": [],
-        "answer": "对",
-        "explanation": "字母表的顺序是 ...e, f, g, h, i。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "字母表中 f 的后面是 g。",
+        "knowledge_point": "字母Ee至Ii的音形辨析",
+        "options": [],
+        "question": "字母 'f' 的后面一个字母是 'g'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "Very well, thanks.",
+        "difficulty": 1,
+        "explanation": "“Very well, thanks.”是对“How are you?”的自然回应，意思是“很好，谢谢”。",
         "knowledge_point": "健康状况询问与回应",
-        "question": "— How are you? — ________",
         "options": [
           "Good morning.",
           "Nice to meet you.",
           "Very well, thanks.",
           "My name is Mike."
         ],
-        "answer": "Very well, thanks.",
-        "explanation": "对于 How are you? 的回答通常是 I'm fine 或 Very well。"
+        "question": "— How are you? — ________",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "Look at my face.",
         "difficulty": 1,
+        "explanation": "face 的意思是“脸”，所以应说 Look at my face.（看我的脸。）",
         "knowledge_point": "身体部位词汇识记",
-        "question": "你想让别人看你的脸，你应该说：",
         "options": [
           "Look at my leg.",
           "Look at my face.",
           "Look at my foot.",
           "Look at my hand."
         ],
-        "answer": "Look at my face.",
-        "explanation": "face 意思是脸。"
+        "question": "你想让别人看你的脸，你应该说：",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "闭上眼睛",
         "difficulty": 1,
+        "explanation": "Close 是“关闭、合上”的意思，Close your eyes. 就是“闭上眼睛”。",
         "knowledge_point": "身体动作指令表达",
-        "question": "当你听到指令 'Close your eyes.' 时，你应该：",
         "options": [
           "睁开眼睛",
           "揉揉眼睛",
           "闭上眼睛",
           "指指眼睛"
         ],
-        "answer": "闭上眼睛",
-        "explanation": "close 有关闭的意思，这里指闭眼。"
+        "question": "当你听到指令“Close your eyes.”时，你应该：",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "Let's go to school!",
         "difficulty": 2,
+        "explanation": "“Let's...”可以用来邀请别人一起做某事。“Let's go to school!”意为“我们一起去上学吧！”。",
         "knowledge_point": "健康状况询问与回应",
-        "question": "Sarah 想邀请 Chen Jie 一起去上学，她可以说：",
         "options": [
           "Let's go to school!",
           "Great!",
           "Good morning.",
           "This is Chen Jie."
         ],
-        "answer": "Let's go to school!",
-        "explanation": "Let's... 用于提议一起做某事。"
+        "question": "Sarah 想邀请 Chen Jie 一起去上学，她可以说：",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "e",
         "difficulty": 1,
+        "explanation": "elephant 以字母 e 开头。",
         "knowledge_point": "字母Ee至Ii的音形辨析",
-        "question": "单词 'elephant' 的首字母是：",
         "options": [
           "f",
           "e",
           "g",
           "h"
         ],
-        "answer": "e",
-        "explanation": "elephant 以字母 e 开头。"
+        "question": "单词 'elephant' 的首字母是：",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "ears",
         "difficulty": 2,
+        "explanation": "人通常有两只耳朵，英语用复数 ears；其他选项都是单数。",
         "knowledge_point": "身体部位词汇识记",
-        "question": "你有两个什么？ (选复数含义)",
         "options": [
           "mouth",
           "nose",
           "face",
           "ears"
         ],
-        "answer": "ears",
-        "explanation": "通常人有两个耳朵 (ears)，嘴巴、鼻子、脸只有一个。"
+        "question": "你有两个什么？（选复数含义）",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "How are you?",
         "difficulty": 2,
+        "explanation": "对方说“I'm fine, thank you.”后，可以礼貌地回问“How are you?”。",
         "knowledge_point": "健康状况询问与回应",
-        "question": "对方说 'I'm fine, thank you.' 之后，你可以礼貌地回问：",
         "options": [
           "Bye.",
           "How are you?",
           "How old are you?",
           "Happy birthday."
         ],
-        "answer": "How are you?",
-        "explanation": "礼貌回问对方的近况。"
+        "question": "对方说 “I'm fine, thank you.” 之后，你可以礼貌地回问：",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "arm",
         "difficulty": 1,
+        "explanation": "hand（手）和 arm（胳膊）都属于身体部位词。",
         "knowledge_point": "身体部位词汇识记",
-        "question": "与单词 'hand' 属于同一类的是：",
         "options": [
           "green",
           "book",
           "arm",
           "ruler"
         ],
-        "answer": "arm",
-        "explanation": "hand 手和 arm 胳膊都是身体部位词。"
+        "question": "与单词 'hand' 属于同一类的是：",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "ink",
         "difficulty": 1,
+        "explanation": "ink 中的 i 通常读短音 /ɪ/；ice cream 中 i 读字母名称音 /aɪ/。green、red、blue 的首字母分别不是 i。",
         "knowledge_point": "字母Ee至Ii的音形辨析",
-        "question": "哪个单词中的字母 'i' 发音与 'ice cream' 不同？(考查首字母单词记忆)",
         "options": [
           "ink",
           "green",
           "red",
           "blue"
         ],
-        "answer": "ink",
-        "explanation": "本单元学习的 i 对应单词有 ice cream 和 ink。"
+        "question": "哪个单词中的字母 'i' 发音与 'ice cream' 的首字母 i 不同？",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "Shake your eye.",
         "difficulty": 3,
+        "explanation": "Shake your eye. 不是常见且恰当的身体动作指令；shake your body（摇晃身体）更自然。其余指令分别是拍手、挥动手臂和张开嘴巴。",
         "knowledge_point": "身体动作指令表达",
-        "question": "选出指令与动作不相符的一项：",
         "options": [
           "Clap your hands.",
           "Wave your arms.",
           "Open your mouth.",
           "Shake your eye."
         ],
-        "answer": "Shake your eye.",
-        "explanation": "眼睛不能 shake (摇晃)，通常是 shake your body。"
+        "question": "选出指令与动作不相符的一项：",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "身体部位词汇识记",
-        "question": "I have a big ________. (嘴巴)",
-        "options": [],
         "answer": "mouth",
-        "explanation": "嘴巴的英文单词是 mouth。"
+        "difficulty": 1,
+        "explanation": "“嘴巴”的英文是 mouth。",
+        "knowledge_point": "身体部位词汇识记",
+        "options": [],
+        "question": "I have a big ________.（嘴巴）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "健康状况询问与回应",
-        "question": "How ________ you?",
-        "options": [],
         "answer": "are",
-        "explanation": "问侯语 How are you? 固定搭配。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "身体部位词汇识记",
-        "question": "Look at my ________. (头)",
-        "options": [],
-        "answer": "head",
-        "explanation": "头的英文单词是 head。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "身体动作指令表达",
-        "question": "________ your body. (扭动/摇晃)",
+        "explanation": "固定表达是“How are you?”；主语you搭配are。",
+        "knowledge_point": "健康状况询问与回应",
         "options": [],
-        "answer": "shake",
-        "explanation": "Shake your body 是指摇晃身体。"
+        "question": "How ________ you?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "head",
         "difficulty": 1,
+        "explanation": "“头”的英文是 head。",
         "knowledge_point": "身体部位词汇识记",
-        "question": "请将下列英语单词与对应的中文意思配对。",
+        "options": [],
+        "question": "Look at my ________.（头）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "shake",
+        "difficulty": 2,
+        "explanation": "Shake your body. 意为“摇晃你的身体”。",
+        "knowledge_point": "身体动作指令表达",
+        "options": [],
+        "question": "________ your body.（摇晃）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-4,B-1,C-2,D-3",
+        "difficulty": 1,
+        "explanation": "ear—耳朵，nose—鼻子，hand—手，leg—腿。",
+        "knowledge_point": "身体部位词汇识记",
         "options": [
           "ear",
           "nose",
@@ -283,16 +281,16 @@
           "腿",
           "耳朵"
         ],
-        "answer": "A-4,B-1,C-2,D-3",
-        "explanation": "ear-耳朵, nose-鼻子, hand-手, leg-腿。"
+        "question": "请将下列英语单词与对应的中文意思配对。A. ear　B. nose　C. hand　D. leg；1. 鼻子　2. 手　3. 腿　4. 耳朵",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-4,B-1,C-2,D-3",
         "difficulty": 1,
+        "explanation": "egg 的首字母是 e，意思是“鸡蛋”；fish 的首字母是 f，意思是“鱼”；gift 的首字母是 g，意思是“礼物”；hippo 的首字母是 h，意思是“河马”。",
         "knowledge_point": "字母与单词配对",
-        "question": "请将下列首字母与对应的单词配对。",
         "options": [
           "egg",
           "fish",
@@ -303,39 +301,196 @@
           "河马",
           "鸡蛋"
         ],
-        "answer": "A-4,B-1,C-2,D-3",
-        "explanation": "egg-鸡蛋, fish-鱼, gift-礼物, hippo-河马。"
+        "question": "请将下列首字母与对应的单词配对。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Very,well,thanks",
         "difficulty": 2,
+        "explanation": "正确语序为“Very well, thanks.”，意思是“很好，谢谢”。",
         "knowledge_point": "健康状况询问与回应",
-        "question": "连词成句：[well",
         "options": [
           "Very",
           "well",
           "thanks"
         ],
-        "answer": "Very,well,thanks",
-        "explanation": "Very well, thanks. 是对问候的回答。"
+        "question": "连词成句：Very / well / thanks",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Let's,go,to,school",
         "difficulty": 2,
+        "explanation": "“Let's go to school.”意为“我们一起去上学吧。”",
         "knowledge_point": "健康状况询问与回应",
-        "question": "连词成句：",
         "options": [
           "Let's",
           "go",
           "to",
           "school"
         ],
-        "answer": "Let's,go,to,school",
-        "explanation": "Let's go to school. 意为让我们一起去上学吧。"
+        "question": "连词成句：Let's / go / to / school",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "Touch your ears.",
+        "difficulty": 2,
+        "explanation": "Touch your ears. 意为“摸摸你的耳朵”。指令的结构是动词 + your + 身体部位。",
+        "knowledge_point": "身体动作指令表达",
+        "options": [],
+        "question": "根据中文写出英语指令：摸摸你的耳朵。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "拍拍手",
+        "difficulty": 1,
+        "explanation": "Clap your hands. 意为“拍拍手”。Clap 表示“拍”，your hands 表示“你的手”。",
+        "knowledge_point": "身体动作指令表达",
+        "options": [
+          "闭上眼睛",
+          "拍拍手",
+          "摸摸鼻子",
+          "摇晃身体"
+        ],
+        "question": "“Clap your hands.”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "G",
+        "difficulty": 1,
+        "explanation": "大写 G 的小写形式是 g。",
+        "knowledge_point": "字母Ee至Ii的音形辨析",
+        "options": [
+          "e",
+          "f",
+          "g",
+          "h"
+        ],
+        "question": "字母 G 的小写形式是：",
+        "score": 2,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "F",
+        "difficulty": 1,
+        "explanation": "E、F、G、H、I 按字母表顺序排列，G 前面是 F。",
+        "knowledge_point": "字母Ee至Ii的音形辨析",
+        "options": [],
+        "question": "在字母序列 E、F、G、H、I 中，G 前面的字母是 ____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "H",
+        "difficulty": 1,
+        "explanation": "H 的字母名称读作 /eɪtʃ/，首音与单词 hat 的首字母 h 相对应。",
+        "knowledge_point": "字母Ee至Ii的音形辨析",
+        "options": [
+          "E",
+          "F",
+          "H",
+          "I"
+        ],
+        "question": "单词 'hat' 的首字母是：",
+        "score": 2,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "A-2,B-4,C-1,D-3",
+        "difficulty": 1,
+        "explanation": "apple 的首字母是 a，意思是“苹果”；book 的首字母是 b，意思是“书”；cat 的首字母是 c，意思是“猫”；dog 的首字母是 d，意思是“狗”。",
+        "knowledge_point": "字母与单词配对",
+        "options": [
+          "apple",
+          "book",
+          "cat",
+          "dog",
+          "书",
+          "狗",
+          "苹果",
+          "猫"
+        ],
+        "question": "请把英文单词与对应的中文意思配对：A. apple  B. book  C. cat  D. dog；1. 猫  2. 苹果  3. 狗  4. 书。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "A-3,B-1,C-4,D-2",
+        "difficulty": 1,
+        "explanation": "sun 的首字母是 s，意思是“太阳”；tree 的首字母是 t，意思是“树”；pen 的首字母是 p，意思是“钢笔”；red 的首字母是 r，意思是“红色”。",
+        "knowledge_point": "字母与单词配对",
+        "options": [
+          "sun",
+          "tree",
+          "pen",
+          "red",
+          "红色",
+          "太阳",
+          "钢笔",
+          "树"
+        ],
+        "question": "请把英文单词与对应的中文意思配对：A. sun  B. tree  C. pen  D. red；1. 树  2. 钢笔  3. 太阳  4. 红色。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "A-3,B-1,C-4,D-2",
+        "difficulty": 1,
+        "explanation": "fish 的首字母是 f；hand 的首字母是 h；apple 的首字母是 a；milk 的首字母是 m。",
+        "knowledge_point": "字母与单词配对",
+        "options": [
+          "A. f",
+          "B. h",
+          "C. a",
+          "D. m",
+          "1. hand",
+          "2. milk",
+          "3. fish",
+          "4. apple"
+        ],
+        "question": "请把首字母和单词配对：A. f  B. h  C. a  D. m；1. hand  2. milk  3. fish  4. apple。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "true",
+        "difficulty": 1,
+        "explanation": "book 的第一个字母是 b，所以字母 b 与单词 book 的首字母相对应。",
+        "knowledge_point": "字母与单词配对",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "字母 b 可以和单词 book 的首字母配对。",
+        "score": 2,
+        "type": "true_false",
+        "id": 32
+      },
+      {
+        "answer": "cat",
+        "difficulty": 1,
+        "explanation": "“猫”的英文单词是 cat，cat 的首字母是 c。",
+        "knowledge_point": "字母与单词配对",
+        "options": [],
+        "question": "英文单词“猫”是____，它的首字母是 c。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 33
       }
     ]
   },
@@ -716,6 +871,61 @@
         "b、d、p、q 与 g 的形状容易混淆"
       ],
       "tips": "练习字母书写时，要注意在四线三格中的位置。"
+    },
+    {
+      "common_mistakes": [
+        "不要把“How are you?”误解为只询问身体健康；它也可以询问近况。",
+        "回答“How are you?”时，不能只说“Thanks.”；可以说“I'm fine, thank you.”或“Very well, thanks.”",
+        "“How are you?”中的be动词要用are，不能用is或am。"
+      ],
+      "core_concept": "用“How are you?”询问对方的健康或近况，并用“I'm fine, thank you.”、“Very well, thanks.”等表达回应。回应后也可以礼貌地问“How are you?”",
+      "key_formula": "— How are you? — I'm fine, thank you. / Very well, thanks. — How are you?",
+      "point": "健康状况询问与回应",
+      "tips": "可以把对话记成：先问“How are you?”，再回答“I'm fine, thank you.”，然后回问“How are you?”。注意“How are you?”里的you搭配are。"
+    },
+    {
+      "common_mistakes": [
+        "leg 是“腿”，arm 是“胳膊”。",
+        "ear 是“耳朵”，通常有两只，所以常用复数 ears。",
+        "不要把身体部位单词与颜色、学习用品等词汇混淆。"
+      ],
+      "core_concept": "学习并识记常见身体部位的英语单词，能将单词与中文意思对应，并在简单句子中使用。",
+      "key_formula": "Look at my + 身体部位；I have a/an + 身体部位。",
+      "point": "身体部位词汇识记",
+      "tips": "可以边指身体部位边朗读单词，帮助记忆：head（头）、face（脸）、eye（眼睛）、ear（耳朵）、nose（鼻子）、mouth（嘴巴）、arm（胳膊）、hand（手）、leg（腿）、foot（脚）。注意：两只耳朵说 two ears。"
+    },
+    {
+      "common_mistakes": [
+        "把 touch（摸）和 clap（拍手）混淆。",
+        "把 close your eyes（闭上眼睛）和 open your eyes（睁开眼睛）混淆。",
+        "忘记指令中身体部位前常用 your。"
+      ],
+      "core_concept": "身体动作指令通常由“动词 + your + 身体部位”组成，用来告诉别人做什么动作。听懂动词和身体部位，就能做出相应动作。",
+      "key_formula": "动词 + your + 身体部位，例如：Touch your nose.（摸摸你的鼻子。）",
+      "point": "身体动作指令表达",
+      "tips": "先找出指令中的动作词，再确认身体部位。常见动作词有 touch（摸）、close（闭上）、open（张开）、clap（拍）、wave（挥动）和 shake（摇晃）。"
+    },
+    {
+      "common_mistakes": [
+        "容易混淆大写字母 E、F、G、H、I 的外形和顺序。",
+        "只记住字母名称，忽略字母在单词中的常见发音。",
+        "把字母 I 的名称音 /aɪ/ 和它在 ink 中的短音 /ɪ/ 混为一谈。"
+      ],
+      "core_concept": "认识并按顺序读写字母 E、F、G、H、I 的大小写；能在简单单词中辨认它们，并注意字母名称与字母在单词中的发音不同。",
+      "key_formula": "字母顺序：E, F, G, H, I；小写：e, f, g, h, i。字母名称分别为 /iː/, /ef/, /dʒiː/, /eɪtʃ/, /aɪ/。",
+      "point": "字母Ee至Ii的音形辨析",
+      "tips": "记顺序时可分段朗读“E, F, G, H, I”；看单词时先找首字母，再结合单词读音辨认。注意区分字母名称和字母在单词中的发音，例如 I 的名称音与 ink 中 i 的发音不同。"
+    },
+    {
+      "common_mistakes": [
+        "把首字母和单词的末尾字母混淆；配对时要看单词开头的字母。",
+        "只看单词的字母，不理解单词意思，可能会和中文释义配错。",
+        "注意区分容易混淆的字母，如 b 和 d。"
+      ],
+      "core_concept": "字母与单词配对时，先看单词的首字母，再根据单词意思找到对应的图片或中文释义。认识常见字母和单词，有助于积累英语词汇。",
+      "key_formula": "首字母相同 + 单词意思对应 = 正确配对",
+      "point": "字母与单词配对",
+      "tips": "可以用“看首字母、读一读、想词义”的步骤配对。例如，egg 的首字母是 e，意思是“鸡蛋”；fish 的首字母是 f，意思是“鱼”。"
     }
   ]
 }

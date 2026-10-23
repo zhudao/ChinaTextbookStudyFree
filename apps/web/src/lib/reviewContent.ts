@@ -7,6 +7,36 @@ export type FetchLesson = (
   init?: RequestInit,
 ) => Promise<Response>;
 
+function validateLesson(lesson: Lesson, id: string): void {
+  if (
+    lesson.id !== id ||
+    !Array.isArray(lesson.questions) ||
+    lesson.questions.some(
+      (q) =>
+        !q ||
+        !Number.isInteger(q.id) ||
+        ![
+          "choice",
+          "true_false",
+          "fill_blank",
+          "calculation",
+          "word_problem",
+          "fill_blank_text",
+          "word_order",
+          "matching",
+        ].includes(q.type) ||
+        typeof q.question !== "string" ||
+        typeof q.answer !== "string" ||
+        !Array.isArray(q.options) ||
+        q.options.some((option) => typeof option !== "string"),
+    ) ||
+    new Set(lesson.questions.map((q) => q.id)).size !==
+      lesson.questions.length
+  ) {
+    throw new Error("Invalid lesson content");
+  }
+}
+
 /** Historical snapshots must never drive grading after published content changes. */
 export async function loadReviewLessons(
   entries: Pick<SrsMistakeEntry, "lessonId">[],
@@ -61,32 +91,26 @@ export async function loadReviewLessons(
         if (!response.ok)
           throw new Error(`Lesson unavailable: ${response.status}`);
         const lesson: Lesson = await response.json();
-        if (
-          lesson.id !== id ||
-          !Array.isArray(lesson.questions) ||
-          lesson.questions.some(
-            (q) =>
-              !q ||
-              !Number.isInteger(q.id) ||
-              ![
-                "choice",
-                "true_false",
-                "fill_blank",
-                "calculation",
-                "word_problem",
-                "fill_blank_text",
-                "word_order",
-                "matching",
-              ].includes(q.type) ||
-              typeof q.question !== "string" ||
-              typeof q.answer !== "string" ||
-              !Array.isArray(q.options) ||
-              q.options.some((option) => typeof option !== "string"),
-          ) ||
-          new Set(lesson.questions.map((q) => q.id)).size !==
-            lesson.questions.length
-        ) {
-          throw new Error("Invalid lesson content");
+        validateLesson(lesson, id);
+        if (lesson.legacyPracticeLessonId) {
+          const practiceId = lesson.legacyPracticeLessonId;
+          const unitPrefix = id.replace(/kp\d+$/, "kp");
+          if (!/^.+-u\d+-kp\d+$/.test(practiceId) ||
+              !practiceId.startsWith(unitPrefix) || practiceId === id)
+            throw new Error("Invalid legacy practice id");
+          const practiceResponse = await fetchLesson(
+            `/data/books/${book}/lessons/${practiceId}.json?review=${Date.now()}`,
+            { cache: "no-store", signal: controller.signal },
+          );
+          if (!practiceResponse.ok) throw new Error("Legacy practice unavailable");
+          const practice: Lesson = await practiceResponse.json();
+          validateLesson(practice, practiceId);
+          if (practice.restoresLessonId !== id)
+            throw new Error("Legacy practice does not match its source lesson");
+          const questions = [...lesson.questions, ...practice.questions];
+          if (new Set(questions.map(q => q.id)).size !== questions.length)
+            throw new Error("Duplicate legacy question ids");
+          return [id, { ...lesson, questions }] as const;
         }
         return [id, lesson] as const;
       } finally {

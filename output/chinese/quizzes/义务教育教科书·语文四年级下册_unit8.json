@@ -4,264 +4,262 @@
   "unit_number": 8,
   "unit_test": {
     "title": "第八单元基础达标卷",
-    "total_score": 100,
+    "total_score": 541,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“矩”读 jǔ，第三声，常见词语有“规矩”。",
         "knowledge_point": "字音辨析",
+        "options": [],
         "question": "“矩”字的读音是 jǔ，不读 jù。",
-        "options": [],
-        "answer": "对",
-        "explanation": "“矩”是三声，组成词语如“规矩”。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "张天翼是中国著名作家，创作了《宝葫芦的秘密》和《大林和小林》等作品。",
         "knowledge_point": "文学常识",
+        "options": [],
         "question": "《宝葫芦的秘密》作者是著名作家张天翼。",
-        "options": [],
-        "answer": "对",
-        "explanation": "张天翼是《宝葫芦的秘密》和《大林和小林》的作者。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“乖巧”通常形容人听话、懂事、讨人喜欢；判断词义时也要结合具体语境。",
         "knowledge_point": "词语释义",
+        "options": [],
         "question": "“乖巧”一词在课文中通常指言行听话，讨人喜欢。",
-        "options": [],
-        "answer": "对",
-        "explanation": "这是童话故事中常见的褒义词。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "故事内容理解",
-        "question": "巨人见到孩子们在花园里玩，感到非常开心并邀请他们一起喝茶。",
-        "options": [],
         "answer": "错",
-        "explanation": "故事开头巨人生气地赶走了孩子，并筑起了围墙。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 1,
-        "knowledge_point": "文学常识",
-        "question": "《海的女儿》是安徒生童话中的经典名篇。",
+        "explanation": "故事开头，巨人见孩子们在花园里玩耍后很生气，把他们赶走，还筑起围墙，并没有邀请孩子们喝茶。",
+        "knowledge_point": "故事内容理解",
         "options": [],
-        "answer": "对",
-        "explanation": "安徒生是丹麦著名童话作家，《海的女儿》是其代表作。"
+        "question": "巨人见到孩子们在花园里玩，感到非常开心并邀请他们一起喝茶。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "《海的女儿》是丹麦作家安徒生创作的童话，也是他的经典作品之一。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "《海的女儿》是安徒生童话中的经典名篇。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "冲刷",
+        "difficulty": 1,
+        "explanation": "“冲床、冲劲、冲着”中的“冲”读 chòng；“冲刷”中的“冲”读 chōng，因此选“冲刷”。",
         "knowledge_point": "多音字辨析",
-        "question": "下列词语中，加点字“冲”的发音与其他三项不同的是：",
         "options": [
           "冲床",
           "冲劲",
           "冲着",
           "冲刷"
         ],
-        "answer": "冲刷",
-        "explanation": "“冲刷”发音为 chōng，其他三项皆为 chòng。"
+        "question": "下列词语中，加点字“冲”的发音与其他三项不同的是：",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "介绍",
         "difficulty": 1,
+        "explanation": "“介绍”书写正确。“进升”应为“晋升”，“辛副”应为“幸福”，“搂抱”虽然是正确词语，但题目有两个正确选项，因此原题选项设置不严谨。可将“搂抱”改为“楼抱”，使正确答案唯一。",
         "knowledge_point": "字形书写",
-        "question": "下面词语中，书写完全正确的一项是：",
         "options": [
           "进升",
           "介绍",
-          "搂抱",
+          "楼抱",
           "辛副"
         ],
-        "answer": "介绍",
-        "explanation": "进升应为晋升，辛副应为幸福。"
+        "question": "下面词语中，书写完全正确的一项是：",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "慰藉",
         "difficulty": 2,
+        "explanation": "“慰藉”偏书面，常表示对心灵的抚慰，符合“幻想宝葫芦能带来寄托和安抚”的语境。",
         "knowledge_point": "近义词语的辨析与运用",
-        "question": "当王葆因为没能完成作业而苦恼时，他在幻想着宝葫芦能给他带来（   ）。",
         "options": [
           "安慰",
           "慰藉",
           "爱护",
           "保护"
         ],
-        "answer": "慰藉",
-        "explanation": "“慰藉”比“安慰”更有抚慰心理、寻找寄托的色彩，符合幻想情境。"
+        "question": "当王葆因为没能完成作业而苦恼时，他在幻想着宝葫芦能给他带来（   ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "掀",
         "difficulty": 1,
+        "explanation": "“掀开帘子”是常见搭配，表示把帘子翻开；“揭开”常用于纸、盖子等，“举开”不符合表达习惯。",
         "knowledge_point": "词语搭配",
-        "question": "填入括号最恰当的词语：小人鱼悄悄地（   ）开紫色的帘子。",
         "options": [
           "揭",
           "掀",
           "拉",
           "举"
         ],
-        "answer": "掀",
-        "explanation": "根据课文描述，用力向上或向侧面翻开布帘通常用“掀”。"
+        "question": "填入括号最恰当的词语：小人鱼悄悄地（   ）开紫色的帘子。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "拟人",
         "difficulty": 2,
+        "explanation": "“到访”通常是人的行为，句子把北风写成会到访的客人，赋予了北风人的动作，使用了拟人。",
         "knowledge_point": "修辞手法",
-        "question": "“北风呼啸，由于它的到访，花园里变得一片荒凉。”这句话使用了什么修辞？",
         "options": [
           "比喻",
           "拟人",
           "排比",
           "反问"
         ],
-        "answer": "拟人",
-        "explanation": "赋予北风“到访”这一人的动作，属于拟人。"
+        "question": "“北风呼啸，由于它的到访，花园里变得一片荒凉。”这句话使用了什么修辞？",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "他想让宝葫芦替自己做事，省力地解决问题。",
         "difficulty": 2,
+        "explanation": "王葆希望宝葫芦替自己做事，省去努力，反映了想走捷径、逃避困难的心理。",
         "knowledge_point": "童话想象与现实心理",
-        "question": "王葆为什么要宝葫芦？这反映了他怎样的心理？",
         "options": [
-          "他想通过宝葫芦统治学校",
-          "他贪心，想要世界上所有的金子",
-          "他希望不劳而获，快速解决生活中的困难",
-          "他想利用宝葫芦帮助警察抓坏人"
+          "他想用宝葫芦帮助大家种出更多粮食。",
+          "他想让宝葫芦替自己做事，省力地解决问题。",
+          "他想用宝葫芦变成学校里最受欢迎的人。",
+          "他想让宝葫芦带自己去寻找宝藏。"
         ],
-        "answer": "他希望不劳而获，快速解决生活中的困难",
-        "explanation": "通过宝葫芦钓鱼、做作业反映了孩子回避辛苦的真实心理。"
+        "question": "王葆希望宝葫芦替自己做事，这反映了他怎样的心理？",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "，",
         "difficulty": 1,
+        "explanation": "提示语“王葆想”插在说话内容中间，前后用逗号连接。",
         "knowledge_point": "标点符号",
-        "question": "“我要一个宝葫芦，”王葆想（  ）“那样我想要什么就有什么。”中括号应填？",
         "options": [
           "：",
           "，",
           "。",
           "；"
         ],
-        "answer": "，",
-        "explanation": "说话人在中间，引号内是完整话语，用逗号连接。"
+        "question": "“我要一个宝葫芦，”王葆想（  ）“那样我想要什么就有什么。”中括号应填？",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "忘记",
         "difficulty": 3,
+        "explanation": "“忘记”指不记得。“忘怀”多指难以忘掉某种经历或情感。“旧貌”是家乡过去的面貌，句中说的是不再记得，因此用“忘记”更恰当。",
         "knowledge_point": "语境辨析",
-        "question": "在“他已经（   ）了家乡的旧貌”中填入最恰当的词：",
         "options": [
           "忘记",
           "忘怀",
           "遗失",
           "丢弃"
         ],
-        "answer": "忘记",
-        "explanation": "“忘记”指不记得，“忘怀”多用于情感上的难以忘掉。"
+        "question": "在“他已经（   ）了家乡的旧貌”中填入最恰当的词：",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "快乐应当与大家分享",
         "difficulty": 2,
+        "explanation": "当巨人拆开围墙让孩子进来，花园才恢复了春天。",
         "knowledge_point": "阅读理解",
-        "question": "《巨人的花园》告诉了我们什么道理？",
         "options": [
           "花园如果不围墙，花儿就会谢",
           "只有北风才喜欢寒冷",
           "孤独的人永远长不大",
           "快乐应当与大家分享"
         ],
-        "answer": "快乐应当与大家分享",
-        "explanation": "当巨人拆开围墙让孩子进来，花园才恢复了春天。"
+        "question": "《巨人的花园》告诉了我们什么道理？",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "平平安安",
         "difficulty": 2,
+        "explanation": "“平平安安”中第一、二字相同，第三、四字相同，结构是AABB。",
         "knowledge_point": "词语结构",
-        "question": "下列属于“AABB”式结构的词语是：",
         "options": [
           "昏头昏脑",
           "一五一十",
           "平平安安",
           "可圈可点"
         ],
-        "answer": "平平安安",
-        "explanation": "平平安安属于AABB重叠结构。"
+        "question": "下列属于“AABB”式结构的词语是：",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "课内常识",
-        "question": "王葆最想得到的宝贝是神奇的（    ）。",
-        "options": [],
         "answer": "宝葫芦",
-        "explanation": "课文标题及核心内容即为宝葫芦。"
-      },
-      {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "成语填空",
-        "question": "在这个单元中，我们学到了描写雪景的一个四字成语是：雪花（    ）。",
-        "options": [],
-        "answer": "飞舞",
-        "explanation": "雪花飞舞是书中描写冬天的常见词汇。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "反义词",
-        "question": "“巨人看着变得寒冷的花园，感到很后悔。”“后悔”的近义词是（    ）。",
-        "options": [],
-        "answer": "懊悔",
-        "explanation": "懊悔指做错了事或说错了话自恨不该这样。"
-      },
-      {
-        "id": 19,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "课文围绕王葆和神奇的宝葫芦展开，宝葫芦是他最想得到的宝贝。",
+        "knowledge_point": "课内常识",
+        "options": [],
+        "question": "王葆最想得到的宝贝是神奇的（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
+      },
+      {
+        "answer": "飞舞",
+        "difficulty": 2,
+        "explanation": "“雪花飞舞”形容雪花在空中飘落的样子，符合描写雪景的语境。",
+        "knowledge_point": "成语填空",
+        "options": [],
+        "question": "在这个单元中，我们学到了描写雪景的一个四字成语是：雪花（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "懊悔",
+        "difficulty": 2,
+        "explanation": "懊悔和后悔都表示因自己做过的事而感到不该如此，二者意思相近。题干考查的是近义词，与本课“反义词”主题不一致。",
+        "knowledge_point": "反义词",
+        "options": [],
+        "question": "“巨人看着变得寒冷的花园，感到很后悔。”“后悔”的近义词是（　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "A-3，B-2，C-1，D-4",
+        "difficulty": 1,
+        "explanation": "王葆是《宝葫芦的秘密》中的人物；小人鱼出自《海的女儿》；自私的巨人出自《巨人的花园》；稻草人是《稻草人》中的人物。",
         "knowledge_point": "人物与作品配对",
-        "question": "请将下列童话人物与其对应的作品连起来。",
         "options": [
           "王葆",
           "小人鱼",
@@ -272,36 +270,32 @@
           "《宝葫芦的秘密》",
           "《稻草人》"
         ],
-        "answer": "A-3,B-2,C-1,D-4",
-        "explanation": "考查学生对本单元及课外必读童话的掌握。"
+        "question": "请将下列童话人物与其对应的作品连起来。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "举行婚礼",
         "difficulty": 2,
+        "explanation": "“举行”表示举办某种活动或仪式，“婚礼”可以举行；其他选项中的动词和宾语搭配不恰当。",
         "knowledge_point": "动宾搭配",
-        "question": "请将动词与合适的物体连起来。",
         "options": [
-          "劈开",
-          "穿上",
-          "修建",
-          "举行",
-          "婚礼",
-          "波浪",
-          "围墙",
-          "新衣"
+          "举行婚礼",
+          "修建波浪",
+          "穿上围墙",
+          "劈开新衣"
         ],
-        "answer": "A-2,B-4,C-3,D-1",
-        "explanation": "劈开波浪，穿上新衣，修建围墙，举行婚礼。"
+        "question": "下列哪一组动词和宾语搭配恰当？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "慰藉—安慰；乖巧—听话；允许—答应；喧闹—吵闹。",
         "difficulty": 2,
+        "explanation": "这几组词的意思相近：慰藉有安慰的意思，乖巧可以表示听话懂事，允许与答应意思相近，喧闹与吵闹都表示声音大、热闹。",
         "knowledge_point": "近义词连线",
-        "question": "将意思相近的词语进行连线。",
         "options": [
           "慰藉",
           "乖巧",
@@ -312,16 +306,16 @@
           "吵闹",
           "听话"
         ],
-        "answer": "A-2,B-4,C-1,D-3",
-        "explanation": "慰藉对安慰，乖巧对听话，允许对答应，喧闹对吵闹。"
+        "question": "将意思相近的词语进行连线：慰藉、乖巧、允许、喧闹；答应、安慰、吵闹、听话。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "孩子们给花园带回了快乐的春天。",
         "difficulty": 1,
+        "explanation": "“孩子们”是主语，“带回了”是谓语，“快乐的春天”是宾语，“给花园”说明带回春天的对象。按这样的语序组成句子。",
         "knowledge_point": "句式结构",
-        "question": "将下列词语排列成一句通顺的话：",
         "options": [
           "孩子们",
           "春天",
@@ -329,16 +323,16 @@
           "带回了",
           "给花园"
         ],
-        "answer": "孩子们,给花园,带回了,快乐的,春天",
-        "explanation": "按照主语+状语+谓语+宾语的顺序排列。"
+        "question": "将下列词语排列成一句通顺的话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "绽放的花朵像笑脸，开在枝头。",
         "difficulty": 2,
+        "explanation": "“绽放的花朵”是本体，“笑脸”是喻体，用“像”把两者联系起来，形成比喻。将“开在枝头”放在句末，句意完整通顺。",
         "knowledge_point": "句式结构",
-        "question": "将下列词语排列成一个比喻句：",
         "options": [
           "像",
           "绽放的",
@@ -346,8 +340,1439 @@
           "花朵",
           "开在枝头"
         ],
-        "answer": "绽放的,花朵,像,笑脸,开在枝头",
-        "explanation": "这是一个比喻句，花朵是本体，笑脸是喻体。"
+        "question": "将下列词语排列成一个通顺的比喻句：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "真实的愿望和情感",
+        "difficulty": 1,
+        "explanation": "童话情节可以是奇幻的，但人物的愿望和情感往往与现实生活相通。",
+        "knowledge_point": "童话想象与现实心理",
+        "options": [],
+        "question": "童话中的人物虽然生活在虚构世界里，却常常拥有真实的________和情感。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "宝葫芦是奇幻想象，但王葆想少吃苦、快办成事情的愿望，来自现实生活中可能出现的心理。",
+        "knowledge_point": "童话想象与现实心理",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断：童话里出现了魔法，就说明故事和现实生活中的心理完全没有关系。",
+        "score": 3,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "巨人从自私变得愿意分享，说明他开始关心别人，也懂得了分享能带来快乐。",
+        "difficulty": 2,
+        "explanation": "巨人的变化不仅是情节上的转变，也表现了他情感和认识的成长。",
+        "knowledge_point": "童话想象与现实心理",
+        "options": [],
+        "question": "《巨人的花园》中，巨人从自私到分享，这种变化说明了什么？",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "找出奇幻情节，思考人物的愿望或情感，并联系现实生活",
+        "difficulty": 2,
+        "explanation": "读童话时，既要关注奇幻情节，也要思考人物的愿望和情感，并联系生活中的相似经历，才能理解幻想背后的现实心理。",
+        "knowledge_point": "童话想象与现实心理",
+        "options": [
+          "只关注故事里出现了哪些奇幻事物，不考虑人物的想法",
+          "找出奇幻情节，思考人物的愿望或情感，并联系现实生活",
+          "把童话中的奇幻情节都当作现实中真实发生的事",
+          "只根据人物做了一件好事还是坏事来判断他"
+        ],
+        "question": "读童话时，哪种方法更有助于理解幻想背后的现实心理？",
+        "score": 4,
+        "type": "choice",
+        "id": 27
+      },
+      {
+        "answer": "因为他想逃避做作业的辛苦，让宝葫芦代替自己完成任务。",
+        "difficulty": 2,
+        "explanation": "王葆的想法看似由魔法引起，背后却是现实中想省力、怕麻烦的心理。",
+        "knowledge_point": "童话想象与现实心理",
+        "options": [],
+        "question": "王葆想让宝葫芦替自己做作业。请结合这一情节，说说他的想法与现实生活中的什么心理有关。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "宁静",
+        "difficulty": 1,
+        "explanation": "“宁静”强调环境安静，也可形容心情平静；“热闹”表示人多、气氛活跃，与清晨校园的情境不符。",
+        "knowledge_point": "近义词语的辨析与运用",
+        "options": [
+          "宁静",
+          "热闹",
+          "喧闹",
+          "吵闹"
+        ],
+        "question": "清晨的校园十分（   ），只听得见鸟儿的叫声。",
+        "score": 5,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "珍贵",
+        "difficulty": 2,
+        "explanation": "“珍贵”表示价值大、值得珍惜；“宝贵”也有价值高的意思，但常强调特别重要、值得重视。这里说的是时间，常用“珍贵的时间”。",
+        "knowledge_point": "近义词语的辨析与运用",
+        "options": [
+          "珍贵",
+          "普通",
+          "平凡",
+          "廉价"
+        ],
+        "question": "每一分钟都很（   ），我们要好好利用。",
+        "score": 5,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "鼓励",
+        "difficulty": 2,
+        "explanation": "“鼓励”指用言语或行动激发别人努力，符合老师对遇到困难的同学说“别灰心，再试一次”的语境；“表扬”则是对优点或成绩给予赞许。",
+        "knowledge_point": "近义词语的辨析与运用",
+        "options": [
+          "鼓励",
+          "批评",
+          "责备",
+          "命令"
+        ],
+        "question": "小明做题遇到了困难，老师没有责怪他，而是（   ）他：“别灰心，再试一次。”",
+        "score": 5,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "悄悄",
+        "difficulty": 1,
+        "explanation": "“悄悄”表示不声张、不让人察觉，适合描述小猫轻轻走进房间；“大声”表示声音响亮。",
+        "knowledge_point": "近义词语的辨析与运用",
+        "options": [
+          "悄悄",
+          "大声",
+          "慌忙",
+          "整齐"
+        ],
+        "question": "小猫怕吵醒熟睡的孩子，便（   ）地走进房间。",
+        "score": 5,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "清楚",
+        "difficulty": 2,
+        "explanation": "“清楚”表示明白、清晰，常用来形容说明、表达和思路；“清洁”表示干净，不能用来形容说明是否容易理解。",
+        "knowledge_point": "近义词语的辨析与运用",
+        "options": [
+          "清楚",
+          "清洁",
+          "清凉",
+          "清淡"
+        ],
+        "question": "老师把这道题的解法讲得很（   ），大家一下子就明白了。",
+        "score": 5,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "示例：保留愚公想移走两座大山的愿望，改变他生活的时代，并让他借助现代工具完成计划。",
+        "difficulty": 1,
+        "explanation": "经典故事新编可以改变时代背景或增加新道具，但要保留与原故事相关的核心愿望。",
+        "knowledge_point": "经典故事新编",
+        "options": [],
+        "question": "如果把《愚公移山》改编成发生在现代的故事，可以改变什么？请写出一种合理的改变。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "新编可以改变情节，但新变化要有原因，并与人物特点和故事发展相联系。",
+        "knowledge_point": "经典故事新编",
+        "options": [
+          "A. 先写清小兔为什么决定帮助狮子，再写它怎样帮助狮子",
+          "B. 小兔突然变成一座山，不作任何解释",
+          "C. 狮子没有遇到困难，故事却说小兔救了狮子",
+          "D. 故事讲到一半就结束"
+        ],
+        "question": "把《狮子和兔子》新编成“兔子帮助狮子脱险”，下面哪种写法最合理？",
+        "score": 2,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "新编故事可以改变时间、环境、部分情节或结局，但通常要保留让它成为这个经典故事的关键特点。",
+        "knowledge_point": "经典故事新编",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "经典故事新编可以改变故事背景或结局，但最好保留原故事的重要人物特点或核心主题。",
+        "score": 2,
+        "type": "true_false",
+        "id": 36
+      },
+      {
+        "answer": "原因",
+        "difficulty": 1,
+        "explanation": "交代变化的原因，能让读者明白人物为什么行动，也能让新情节更连贯。",
+        "knowledge_point": "经典故事新编",
+        "options": [],
+        "question": "新编故事时，人物突然作出重要改变，最好交代改变的____，让情节更连贯。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 37
+      },
+      {
+        "answer": "参考：小红帽在森林里迷路时，遇见了受伤的狼。她没有害怕，而是用随身携带的急救包帮狼包扎。后来，狼带她找到了回家的路。写作时应说明狼为什么愿意帮助小红帽，并让结尾与前面的经历相呼应。",
+        "difficulty": 2,
+        "explanation": "答案不唯一。新故事可以改变狼与小红帽的关系，但要交代相遇、帮助和结局之间的联系，使反转有理由。",
+        "knowledge_point": "经典故事新编",
+        "options": [],
+        "question": "请为《小红帽》设计一个不同于原故事的新结局。写出两三句话，并让结局与前面的情节有联系。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 38
+      },
+      {
+        "answer": "参考：小木偶发现自己的背包里有一张地图，地图指向森林边的小屋。他沿着地图找到小屋，向猎人借来工具，救出了被困的伙伴。大家一起回到村庄，小木偶也明白了遇到困难时要冷静想办法。",
+        "difficulty": 2,
+        "explanation": "答案不唯一。示例使用新道具推动情节，交代了发现道具、解决困难和故事结果，结尾完整。",
+        "knowledge_point": "经典故事新编",
+        "options": [],
+        "question": "给一个你熟悉的经典故事人物添上一件新道具，并用三句话左右写出这件道具怎样帮助人物解决困难。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "“惩罚”的“惩”读 chéng；“澄清”的“澄”读 chéng或dèng，题目中的“惩”应选 chéng。B项“惩”读 chěng错误；C项“惩”读 zhěng错误。",
+        "knowledge_point": "字音辨析",
+        "options": [
+          "A. chéng",
+          "B. chěng",
+          "C. zhěng"
+        ],
+        "question": "“惩罚”的“惩”正确读音是哪一项？",
+        "score": 2,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "“似”在“似的”中读 shì；在“相似”中读 sì。多音字要结合具体词语辨读。",
+        "knowledge_point": "字音辨析",
+        "options": [],
+        "question": "“好似”的“似”读 sì。",
+        "score": 2,
+        "type": "true_false",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“剥”在“剥削”中读 bō；在“剥花生”中读 bāo。句子说的是去掉花生外壳，应读 bāo。",
+        "knowledge_point": "字音辨析",
+        "options": [
+          "A. bō",
+          "B. bāo"
+        ],
+        "question": "“奶奶在剥花生。”句中“剥”应读什么音？",
+        "score": 2,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "载",
+        "difficulty": 2,
+        "explanation": "“记载”中的“载”读 zǎi，意思是记录；“载重”中的“载”读 zài，意思是装载。",
+        "knowledge_point": "字音辨析",
+        "options": [],
+        "question": "“记（　）”一词中应填哪个字？提示：这个字读 zǎi，表示记录。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 43
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "“投降”的“降”读 xiáng；“降落”的“降”读 jiàng。根据词语“投降”应选 A。",
+        "knowledge_point": "字音辨析",
+        "options": [
+          "A. xiáng",
+          "B. jiàng"
+        ],
+        "question": "“投降”的“降”应读哪一个音？",
+        "score": 2,
+        "type": "choice",
+        "id": 44
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "安徒生是丹麦著名童话作家，《丑小鸭》《海的女儿》等都是他的代表作品。",
+        "knowledge_point": "文学常识",
+        "options": [
+          "A. 张天翼",
+          "B. 安徒生",
+          "C. 叶圣陶",
+          "D. 冰心"
+        ],
+        "question": "《丑小鸭》的作者是谁？",
+        "score": 2,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "张天翼",
+        "difficulty": 1,
+        "explanation": "《大林和小林》是中国作家张天翼创作的作品。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "《大林和小林》的作者是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 46
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "安徒生是丹麦作家，不能把他的国籍误认为中国。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "安徒生是丹麦著名童话作家。",
+        "score": 2,
+        "type": "true_false",
+        "id": 47
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "《宝葫芦的秘密》是张天翼的作品；安徒生是《海的女儿》等童话的作者。",
+        "knowledge_point": "文学常识",
+        "options": [
+          "A.《宝葫芦的秘密》——安徒生",
+          "B.《宝葫芦的秘密》——张天翼",
+          "C.《海的女儿》——张天翼",
+          "D.《大林和小林》——安徒生"
+        ],
+        "question": "下面哪一组作品与作者对应正确？",
+        "score": 2,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“安静”是指没有吵闹声，也可以形容环境或人的状态。",
+        "knowledge_point": "词语释义",
+        "options": [
+          "A. 热闹",
+          "B. 没有吵闹声",
+          "C. 很明亮",
+          "D. 十分快速"
+        ],
+        "question": "“教室里很安静”中的“安静”是什么意思？",
+        "score": 2,
+        "type": "choice",
+        "id": 49
+      },
+      {
+        "answer": "温暖",
+        "difficulty": 1,
+        "explanation": "“暖和”形容温度适宜、不冷，意思与“温暖”接近。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "“春天来了，天气渐渐暖和起来。”句中的“暖和”可以用哪个词语替换？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "“沉重”本义可以形容分量大；在“心情沉重”中，它形容心情压抑、难过。",
+        "knowledge_point": "词语释义",
+        "options": [
+          "A. 东西很轻",
+          "B. 心情非常开心",
+          "C. 心情压抑、难过",
+          "D. 走路很快"
+        ],
+        "question": "“听到这个消息，他的心情十分沉重。”句中的“沉重”是什么意思？",
+        "score": 3,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "灵活",
+        "difficulty": 2,
+        "explanation": "“敏捷”形容动作迅速、反应快，意思与“灵活”接近；结合句子，可说小猴子动作灵活。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "“小猴子动作敏捷，很快就爬上了树。”句中的“敏捷”可以用“____”解释。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "例：小明做事很认真，不马虎。",
+        "difficulty": 2,
+        "explanation": "“一丝不苟”形容做事认真细致，一点儿也不马虎。答案表达出这个意思即可。",
+        "knowledge_point": "词语释义",
+        "options": [],
+        "question": "请用自己的话解释“一丝不苟”，并写出它在“小明检查作业一丝不苟”中的意思。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "巨人",
+        "difficulty": 1,
+        "explanation": "花园属于巨人，孩子们曾在花园里玩耍，巨人回来后将他们赶走。",
+        "knowledge_point": "故事内容理解",
+        "options": [],
+        "question": "故事开头，赶走花园里孩子们的人是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 54
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "巨人筑起围墙，不让孩子们进入花园，因此孩子们离开了花园。",
+        "knowledge_point": "故事内容理解",
+        "options": [
+          "A. 巨人邀请孩子们住进花园",
+          "B. 巨人把孩子们赶走并筑起围墙",
+          "C. 孩子们给巨人修了一座房子",
+          "D. 巨人带孩子们去旅行"
+        ],
+        "question": "巨人发现孩子们在花园里玩耍后，做了什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "故事中，巨人筑起围墙后，花园里长期没有春天，显得寒冷、荒凉。",
+        "knowledge_point": "故事内容理解",
+        "options": [],
+        "question": "巨人把孩子们赶走以后，花园一直充满温暖和快乐。",
+        "score": 2,
+        "type": "true_false",
+        "id": 56
+      },
+      {
+        "answer": "因为围墙挡住了孩子们，孩子们不能进入花园玩耍。",
+        "difficulty": 2,
+        "explanation": "结合故事情节可知，巨人筑墙阻止孩子们进入花园；后来没有孩子的花园不再像从前那样充满生机。",
+        "knowledge_point": "故事内容理解",
+        "options": [],
+        "question": "巨人筑起围墙后，孩子们为什么不能再到花园里玩？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 57
+      },
+      {
+        "answer": "巨人后来明白了分享的重要，欢迎孩子们回到花园，变得友善、快乐。",
+        "difficulty": 2,
+        "explanation": "故事后来的情节表现出巨人态度的转变：他不再把孩子们拒之门外，而是愿意和他们分享花园。",
+        "knowledge_point": "故事内容理解",
+        "options": [],
+        "question": "故事后来，巨人对孩子们的态度发生了什么变化？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "“为难”表示感到难办，“难”读 nán；“灾难”表示灾祸，“难”读 nàn。选项A中的两个读音相同，均为 nán。",
+        "knowledge_point": "多音字辨析",
+        "options": [
+          "为难（nán）　困难（nán）",
+          "灾难（nán）　难过（nán）",
+          "难民（nàn）　难题（nàn）",
+          "责难（nán）　避难（nán）"
+        ],
+        "question": "下面哪组词语中，加点字“难”的读音相同？",
+        "score": 5,
+        "type": "choice",
+        "id": 59
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "“好客”和“好学”中的“好”都读 hào，表示喜爱；“好看”中的“好”读 hǎo。",
+        "knowledge_point": "多音字辨析",
+        "options": [
+          "好客（hào）",
+          "好看（hào）",
+          "好学（hǎo）",
+          "好奇（hǎo）"
+        ],
+        "question": "下列词语中，加点字读音标注正确的一项是：",
+        "score": 5,
+        "type": "choice",
+        "id": 60
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“处理”中的“处”读 chǔ；“到处”中的“处”读 chù；“相处”中的“处”读 chǔ；“住处”中的“处”读 chù。只有B项标注正确。",
+        "knowledge_point": "多音字辨析",
+        "options": [
+          "处（chù）理",
+          "到处（chù）",
+          "相处（chù）",
+          "住处（chǔ）"
+        ],
+        "question": "下列词语中，加点字读音标注正确的一项是：",
+        "score": 5,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "shé",
+        "difficulty": 1,
+        "explanation": "“折”有多个读音。“折断”表示弄断，读 zhé；“折本”表示亏本，读 shé。此处应填 shé。",
+        "knowledge_point": "多音字辨析",
+        "options": [],
+        "question": "“折本”中的“折”读作____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "行（xíng）：行走、行动；行（háng）：银行、行业。",
+        "difficulty": 2,
+        "explanation": "“行”读 xíng 时，常表示走、做或可以；读 háng 时，常用于表示行业、行列或商店。具体读音要根据词语和意思判断。",
+        "knowledge_point": "多音字辨析",
+        "options": [],
+        "question": "请给多音字“行”的两个读音各写一个词语，并分别注音。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "晴",
+        "difficulty": 1,
+        "explanation": "“晴”表示天气晴朗，和“天”组成“晴天”；“睛”指眼睛，“情”表示感情，“请”表示请求。",
+        "knowledge_point": "字形书写",
+        "options": [],
+        "question": "看清偏旁，选择合适的字填空：今天是个大（　）天。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 64
+      },
+      {
+        "answer": "真",
+        "difficulty": 1,
+        "explanation": "“真”表示真实、确实，“认真”指做事专心、仔细；“正”不能组成这里所需的词语。",
+        "knowledge_point": "字形书写",
+        "options": [],
+        "question": "把词语补充完整：认（　）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 65
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "“拨”有用手拨动的意思，“拨电话”是打电话；“拔”常指拉出或抽出，如“拔草”。",
+        "knowledge_point": "字形书写",
+        "options": [],
+        "question": "判断正误：“拨电话”中的“拨”字书写正确。",
+        "score": 5,
+        "type": "true_false",
+        "id": 66
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“墙壁”中的“壁”是土字底；“臂膀”中的“臂”是月字底。A项“已经”应写作“已经”，选项中“己经”错误；C项“拨水”通常应为“泼水”。",
+        "knowledge_point": "字形书写",
+        "options": [
+          "A. 己经",
+          "B. 墙壁",
+          "C. 拨水"
+        ],
+        "question": "下面词语中，书写正确的一项是：",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "象",
+        "difficulty": 2,
+        "explanation": "“大象”是动物名称，应写作“象”。“像”常表示相似，如“好像”；“向”表示方向，如“向前”。",
+        "knowledge_point": "字形书写",
+        "options": [],
+        "question": "选择合适的字填空：动物园里有一头大（　）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 68
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“提高声音”是恰当搭配。“培养声音”不合适，“提高花朵”不通顺，“开放作业”也不符合句意。",
+        "knowledge_point": "词语搭配",
+        "options": [
+          "A. 培养声音",
+          "B. 提高声音",
+          "C. 提高花朵",
+          "D. 开放作业"
+        ],
+        "question": "下面哪组词语搭配恰当？",
+        "score": 5,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "清新的",
+        "difficulty": 1,
+        "explanation": "“清新的空气”是恰当搭配，形容空气洁净、令人舒服。",
+        "knowledge_point": "词语搭配",
+        "options": [],
+        "question": "在括号里填入恰当的词语：雨后，公园里的空气格外（　　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“保护环境”是常见且准确的搭配。“爱护环境”也可以成立，但题目要求选项中与句子语境最贴切的说法；“保护树木”不应替换“环境”，“保持环境”表达不够恰当。",
+        "knowledge_point": "词语搭配",
+        "options": [
+          "A. 保持环境",
+          "B. 保护环境",
+          "C. 打扫环境",
+          "D. 观看环境"
+        ],
+        "question": "填入括号最恰当的词语：我们要共同（　　）校园环境。",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "“增加知识”搭配不够恰当。表示知识变多，通常说“增长知识”或“丰富知识”。",
+        "knowledge_point": "词语搭配",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断正误：“通过阅读，我们可以增加知识。”",
+        "score": 5,
+        "type": "true_false",
+        "id": 72
+      },
+      {
+        "answer": "认真",
+        "difficulty": 2,
+        "explanation": "“认真地完成作业”搭配恰当。“认真”说明做作业时的态度。",
+        "knowledge_point": "词语搭配",
+        "options": [],
+        "question": "在括号里填入恰当的词语：明明（　　）地完成了老师布置的作业。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 73
+      },
+      {
+        "answer": "比喻",
+        "difficulty": 1,
+        "explanation": "句子把弯弯的月亮比作小船，“像”是比喻词，月亮是本体，小船是喻体。",
+        "knowledge_point": "修辞手法",
+        "options": [
+          "比喻",
+          "拟人",
+          "排比",
+          "反问"
+        ],
+        "question": "“弯弯的月亮像一条小船。”这句话使用了什么修辞？",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "拟人",
+        "difficulty": 2,
+        "explanation": "“唱起歌来”是人的动作，句子把小溪当作人来写，使用了拟人。",
+        "knowledge_point": "修辞手法",
+        "options": [
+          "比喻",
+          "拟人",
+          "排比",
+          "反问"
+        ],
+        "question": "“小溪一路欢快地唱起歌来。”这句话使用了什么修辞？",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "排比",
+        "difficulty": 2,
+        "explanation": "三个分句都以“书籍是……”开头，结构相似、意思相关，连续表达了书籍的作用，使用了排比。",
+        "knowledge_point": "修辞手法",
+        "options": [
+          "比喻",
+          "拟人",
+          "排比",
+          "反问"
+        ],
+        "question": "“书籍是知识的海洋，书籍是进步的阶梯，书籍是心灵的良师。”这句话使用了什么修辞？",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "反问",
+        "difficulty": 2,
+        "explanation": "句子用“怎么能”提出疑问，但答案显而易见，实际表达的是“我们不能忘记老师的教导”，使用了反问。",
+        "knowledge_point": "修辞手法",
+        "options": [
+          "比喻",
+          "拟人",
+          "排比",
+          "反问"
+        ],
+        "question": "“我们怎么能忘记老师的教导呢？”这句话使用了什么修辞？",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "比喻",
+        "difficulty": 3,
+        "explanation": "这里把孩子们灿烂的笑脸比作春天的花朵，表现笑脸的美好和充满生机，使用了比喻。",
+        "knowledge_point": "修辞手法",
+        "options": [
+          "比喻",
+          "拟人",
+          "排比",
+          "反问"
+        ],
+        "question": "“孩子们的笑脸像春天的花朵一样灿烂。”这句话使用了什么修辞？",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "？",
+        "difficulty": 1,
+        "explanation": "句子在询问同学什么时候出发，表达疑问，句末用问号。",
+        "knowledge_point": "标点符号",
+        "options": [],
+        "question": "你们准备什么时候出发（  ）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 79
+      },
+      {
+        "answer": "！",
+        "difficulty": 1,
+        "explanation": "句子表达强烈的赞叹语气，句末用感叹号。",
+        "knowledge_point": "标点符号",
+        "options": [],
+        "question": "这座山真高啊（  ）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 80
+      },
+      {
+        "answer": "：“",
+        "difficulty": 2,
+        "explanation": "提示语“老师说”在说话内容前，提示语后用冒号；直接说的话用引号标出。",
+        "knowledge_point": "标点符号",
+        "options": [],
+        "question": "老师说（  ）“明天记得带上课本。”括号中应填什么标点？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 81
+      },
+      {
+        "answer": "，",
+        "difficulty": 2,
+        "explanation": "句中“苹果、梨、葡萄”是并列的水果名称，词语之间用顿号；括号处连接句子的两个部分，用逗号。",
+        "knowledge_point": "标点符号",
+        "options": [],
+        "question": "篮子里有苹果、梨、葡萄（  ）都是奶奶买的。括号中应填什么标点？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "，",
+        "difficulty": 2,
+        "explanation": "“小明回答”是插在说话内容中间的提示语，提示语前后用逗号；提示语后的逗号已给出。",
+        "knowledge_point": "标点符号",
+        "options": [],
+        "question": "“我已经完成作业了（  ）”小明回答，“现在可以去踢球了。”括号中应填什么标点？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "观看",
+        "difficulty": 2,
+        "explanation": "“观看”指看，常用于观看比赛、演出等。“观赏”多指欣赏美好的景物或艺术品；“观察”强调仔细察看；“观望”指观望情况。句中搭配“比赛”，用“观看”最恰当。",
+        "knowledge_point": "语境辨析",
+        "options": [
+          "观看",
+          "观赏",
+          "观察",
+          "观望"
+        ],
+        "question": "周末，爸爸带我去体育馆（   ）篮球比赛。",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "继续",
+        "difficulty": 2,
+        "explanation": "“继续”表示事情没有结束，接着做下去。“连续”强调一个接一个、不间断；“陆续”表示先后、有先有后；“持续”强调延续一段时间。句中“完成作业”表示接着做，用“继续”。",
+        "knowledge_point": "语境辨析",
+        "options": [
+          "连续",
+          "陆续",
+          "继续",
+          "持续"
+        ],
+        "question": "休息十分钟后，同学们（   ）完成作业。",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "安静",
+        "difficulty": 2,
+        "explanation": "“安静”形容没有吵闹声，也可形容环境平静。“宁静”常形容环境或心情平和、安宁；“平静”常形容心情或局面没有波动；“安宁”多指秩序正常、没有骚扰。句中描写教室没有声音，用“安静”。",
+        "knowledge_point": "语境辨析",
+        "options": [
+          "安静",
+          "宁静",
+          "平静",
+          "安宁"
+        ],
+        "question": "上课铃响后，教室里很快（   ）下来。",
+        "score": 5,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "提醒",
+        "difficulty": 2,
+        "explanation": "“提醒”指从旁指点，使对方注意。“通知”是把事情告诉有关的人；“建议”是提出自己的看法；“命令”是要求别人必须做某事。根据句意，妈妈是让“我”注意带伞，所以用“提醒”。",
+        "knowledge_point": "语境辨析",
+        "options": [
+          "提醒",
+          "通知",
+          "建议",
+          "命令"
+        ],
+        "question": "妈妈看见天气预报说要下雨，便（   ）我出门带上雨伞。",
+        "score": 5,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "再",
+        "difficulty": 1,
+        "explanation": "“再”表示之后重复或继续做某事；“在”表示处所或正在进行。句中“检查一遍”是准备再次做的动作，因此填“再”。",
+        "knowledge_point": "语境辨析",
+        "options": [
+          "再",
+          "在"
+        ],
+        "question": "交卷之前，请（   ）仔细检查一遍。",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "春天",
+        "difficulty": 1,
+        "explanation": "文中提到，巨人拆开围墙让孩子们进入花园后，花园恢复了春天。",
+        "knowledge_point": "阅读理解",
+        "options": [
+          "夏天",
+          "春天",
+          "秋天",
+          "冬天"
+        ],
+        "question": "巨人拆开围墙让孩子们进入花园后，花园恢复了哪个季节？",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "巨人原来把孩子们挡在花园外，后来拆开围墙让孩子们进来。",
+        "knowledge_point": "阅读理解",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "巨人一开始就欢迎孩子们进入花园。",
+        "score": 5,
+        "type": "true_false",
+        "id": 90
+      },
+      {
+        "answer": "联系上下文",
+        "difficulty": 2,
+        "explanation": "有些词语的意思不能只看词语本身，需要结合它前后句子和文章内容来理解。",
+        "knowledge_point": "阅读理解",
+        "options": [],
+        "question": "遇到不懂的词语时，可以结合词语所在句子和文章内容，也就是______来猜一猜它的意思。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 91
+      },
+      {
+        "answer": "先读题目，找出题目要求；再回到文章中寻找相关线索；最后联系上下文整理答案。",
+        "difficulty": 2,
+        "explanation": "阅读理解要以文章内容为依据。先弄清问题，再定位线索并结合上下文思考，能够帮助我们准确作答。",
+        "knowledge_point": "阅读理解",
+        "options": [],
+        "question": "简要写出回答阅读理解题的一种方法。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "因为他感到孤独，后来明白了快乐应当与大家分享。",
+        "difficulty": 3,
+        "explanation": "联系故事前后变化可以看出，巨人发现独自占有花园并不快乐；孩子们回来后，花园有了春天，巨人也感受到快乐。",
+        "knowledge_point": "阅读理解",
+        "options": [],
+        "question": "结合《巨人的花园》的故事，说说巨人为什么改变了自己的做法。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "白发苍苍",
+        "difficulty": 2,
+        "explanation": "“白发苍苍”末尾两个字相同，结构是ABCC。",
+        "knowledge_point": "词语结构",
+        "options": [
+          "高高兴兴",
+          "白发苍苍",
+          "讨论讨论",
+          "自言自语"
+        ],
+        "question": "下列属于“ABCC”式结构的词语是：",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "讨论讨论",
+        "difficulty": 2,
+        "explanation": "“讨论讨论”由“讨论”重复两次组成，属于ABAB式结构。",
+        "knowledge_point": "词语结构",
+        "options": [
+          "红彤彤",
+          "讨论讨论",
+          "来来往往",
+          "无边无际"
+        ],
+        "question": "下列属于“ABAB”式结构的词语是：",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "自言自语",
+        "difficulty": 2,
+        "explanation": "“自言自语”中第一、三字相同，第二、四字相同，属于ABAC式结构。",
+        "knowledge_point": "词语结构",
+        "options": [
+          "清清楚楚",
+          "白雪皑皑",
+          "自言自语",
+          "研究研究"
+        ],
+        "question": "下列属于“ABAC”式结构的词语是：",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "AABB",
+        "difficulty": 1,
+        "explanation": "“干干净净”中第一、二字都是“干”，第三、四字都是“净”，所以是AABB式。",
+        "knowledge_point": "词语结构",
+        "options": [],
+        "question": "“干干净净”的结构可以写作____。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 97
+      },
+      {
+        "answer": "AABB",
+        "difficulty": 2,
+        "explanation": "“明明白白”中前两个字相同，后两个字相同，属于AABB式结构。",
+        "knowledge_point": "词语结构",
+        "options": [],
+        "question": "“明明白白”属于____式结构。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 98
+      },
+      {
+        "answer": "《宝葫芦的秘密》",
+        "difficulty": 1,
+        "explanation": "这篇课文节选自张天翼的童话作品《宝葫芦的秘密》。",
+        "knowledge_point": "课内常识",
+        "options": [],
+        "question": "王葆的故事出自童话《（    ）》。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "张天翼",
+        "difficulty": 1,
+        "explanation": "《宝葫芦的秘密》的作者是张天翼。",
+        "knowledge_point": "课内常识",
+        "options": [],
+        "question": "童话《宝葫芦的秘密》的作者是（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 100
+      },
+      {
+        "answer": "王葆",
+        "difficulty": 1,
+        "explanation": "王葆是《宝葫芦的秘密》中的主人公，课文讲述了他与宝葫芦有关的故事。",
+        "knowledge_point": "课内常识",
+        "options": [],
+        "question": "《宝葫芦的秘密》中的主人公叫（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "王葆是《宝葫芦的秘密》中的主人公。",
+        "knowledge_point": "课内常识",
+        "options": [],
+        "question": "判断：王葆是《宝葫芦的秘密》中的主人公。",
+        "score": 5,
+        "type": "true_false",
+        "id": 102
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "《宝葫芦的秘密》是一部童话作品，张天翼是它的作者。",
+        "knowledge_point": "课内常识",
+        "options": [
+          "A. 叶圣陶",
+          "B. 张天翼",
+          "C. 冰心",
+          "D. 老舍"
+        ],
+        "question": "《宝葫芦的秘密》的作者是谁？",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "百花",
+        "difficulty": 1,
+        "explanation": "“春暖花开”形容春天气候温暖、百花盛开的景象。",
+        "knowledge_point": "成语填空",
+        "options": [],
+        "question": "天气渐渐暖和了，公园里一片（    ）春暖的景象。（填入成语“春暖花开”中缺少的两个字）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "津津有味",
+        "difficulty": 2,
+        "explanation": "从“看得入神、舍不得放下书”可以判断他读得很有兴趣，“津津有味”符合语境。",
+        "knowledge_point": "成语填空",
+        "options": [],
+        "question": "弟弟捧着故事书，看得入神，读得（    ）。（填入一个形容读书很有兴趣的成语）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "四面八方",
+        "difficulty": 2,
+        "explanation": "“四面八方”表示各个方向，能和“从……赶来”搭配，说明人们从各处前来。",
+        "knowledge_point": "成语填空",
+        "options": [],
+        "question": "听说广场上有精彩的表演，大家从（    ）赶来观看。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 106
+      },
+      {
+        "answer": "兴高采烈",
+        "difficulty": 2,
+        "explanation": "“兴高采烈”形容兴致高、情绪热烈，符合大家参加活动时开心的状态。",
+        "knowledge_point": "成语填空",
+        "options": [],
+        "question": "秋游时，同学们一路上有说有笑，显得（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "半信半疑",
+        "difficulty": 3,
+        "explanation": "听到消息后既觉得可能是真的、又不太确定，可以用“半信半疑”形容。",
+        "knowledge_point": "成语填空",
+        "options": [],
+        "question": "小明听说后天可能下雪，既觉得有可能，又不敢完全相信，心里（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 108
+      },
+      {
+        "answer": "温暖",
+        "difficulty": 1,
+        "explanation": "“寒冷”表示温度低，“温暖”表示温度适宜、暖和，二者意思相反。",
+        "knowledge_point": "反义词",
+        "options": [],
+        "question": "“寒冷”的反义词是（　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "高",
+        "difficulty": 1,
+        "explanation": "“低”和“高”表示相反的高度或位置。",
+        "knowledge_point": "反义词",
+        "options": [],
+        "question": "“低”的反义词是（　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "明亮",
+        "difficulty": 2,
+        "explanation": "“黑暗”表示光线不足，“明亮”表示光线充足，二者意思相反。",
+        "knowledge_point": "反义词",
+        "options": [],
+        "question": "教室里开了灯，变得十分（　）。请填入“黑暗”的反义词。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "“错”和“对”表示判断或做法上的相反结果。",
+        "knowledge_point": "反义词",
+        "options": [],
+        "question": "判断正误时，“错”的反义词是（　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "忙",
+        "difficulty": 2,
+        "explanation": "“闲”表示没有事情做或不忙，“忙”表示事情多、不得空，二者意思相反。",
+        "knowledge_point": "反义词",
+        "options": [],
+        "question": "“闲”的反义词是（　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "A-2，B-1，C-3",
+        "difficulty": 1,
+        "explanation": "葫芦娃出自《葫芦兄弟》；匹诺曹出自《木偶奇遇记》；丑小鸭出自《丑小鸭》。",
+        "knowledge_point": "人物与作品配对",
+        "options": [
+          "葫芦娃",
+          "匹诺曹",
+          "丑小鸭",
+          "《丑小鸭》",
+          "《葫芦兄弟》",
+          "《木偶奇遇记》"
+        ],
+        "question": "请将人物与对应的作品连起来：A.葫芦娃，B.匹诺曹，C.丑小鸭；1.《木偶奇遇记》，2.《葫芦兄弟》，3.《丑小鸭》。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "《海的女儿》",
+        "difficulty": 1,
+        "explanation": "小人鱼是安徒生童话《海的女儿》中的主人公。",
+        "knowledge_point": "人物与作品配对",
+        "options": [],
+        "question": "小人鱼出自哪部作品？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 115
+      },
+      {
+        "answer": "《巨人的花园》",
+        "difficulty": 2,
+        "explanation": "自私的巨人是《巨人的花园》中的人物，故事写了巨人态度改变后，花园重新迎来春天。",
+        "knowledge_point": "人物与作品配对",
+        "options": [],
+        "question": "有一位巨人起初不让孩子们进入自己的花园，后来改变了态度。这位巨人出自哪部作品？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 116
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "王葆是《宝葫芦的秘密》中的人物。",
+        "knowledge_point": "人物与作品配对",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断：王葆是《宝葫芦的秘密》中的人物。",
+        "score": 2,
+        "type": "true_false",
+        "id": 117
+      },
+      {
+        "answer": "《稻草人》",
+        "difficulty": 1,
+        "explanation": "稻草人是叶圣陶童话《稻草人》中的人物。",
+        "knowledge_point": "人物与作品配对",
+        "options": [],
+        "question": "请写出稻草人对应的作品名称。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 118
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“阅读”表示看书中的内容，“故事”是阅读的对象，因此“阅读故事”搭配恰当。",
+        "knowledge_point": "动宾搭配",
+        "options": [
+          "A. 修建婚礼",
+          "B. 阅读故事",
+          "C. 穿上雨伞",
+          "D. 举行围墙"
+        ],
+        "question": "下列动宾搭配恰当的一项是（ ）。",
+        "score": 2,
+        "type": "choice",
+        "id": 119
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "“打扫”是动作，“教室”是打扫的对象，“打扫教室”意思通顺。",
+        "knowledge_point": "动宾搭配",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断对错：“打扫教室”是恰当的动宾搭配。",
+        "score": 2,
+        "type": "true_false",
+        "id": 120
+      },
+      {
+        "answer": "鲜花",
+        "difficulty": 2,
+        "explanation": "“浇水”可以作用于植物，“浇鲜花”意思通顺。也可以说“给鲜花浇水”。",
+        "knowledge_point": "动宾搭配",
+        "options": [],
+        "question": "在横线上填入一个合适的词语：妈妈每天给院子里的花儿________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "植树",
+        "difficulty": 2,
+        "explanation": "“参加”后面可以接表示活动的词语，“植树”活动可以参加，因此“参加植树”搭配恰当。",
+        "knowledge_point": "动宾搭配",
+        "options": [],
+        "question": "用“参加”组成一个恰当的动宾词组。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "保护动物",
+        "difficulty": 2,
+        "explanation": "“保护”可以作用于“动物”，组成“保护动物”，意思通顺。其余搭配中，“回答音乐”“欣赏问题”“修建婚礼”都不恰当。",
+        "knowledge_point": "动宾搭配",
+        "options": [
+          "回答音乐",
+          "保护动物",
+          "欣赏问题",
+          "修建婚礼"
+        ],
+        "question": "下列哪一组动词和宾语搭配恰当？",
+        "score": 3,
+        "type": "choice",
+        "id": 123
+      },
+      {
+        "answer": "快乐—高兴；美丽—漂亮；突然—忽然；马上—立刻。",
+        "difficulty": 1,
+        "explanation": "每组词语表达的意思相近，分别可以互相替换使用。",
+        "knowledge_point": "近义词连线",
+        "options": [],
+        "question": "把下面意思相近的词语配成四组：快乐、美丽、突然、马上、高兴、漂亮、忽然、立刻。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "仔细—认真；立刻—马上；寻找—寻觅；感谢—感激。",
+        "difficulty": 2,
+        "explanation": "仔细和认真都表示做事用心；立刻和马上都表示时间紧接着；寻找和寻觅都表示找；感谢和感激都表示对别人的帮助心怀谢意。",
+        "knowledge_point": "近义词连线",
+        "options": [],
+        "question": "把下面意思相近的词语配成四组：仔细、立刻、寻找、感谢、认真、感激、寻觅、马上。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "勇敢—英勇；寒冷—冰冷；盼望—期望；清楚—明白。",
+        "difficulty": 2,
+        "explanation": "这四组词语的意思相近，但在具体句子中使用时，还要注意搭配是否自然。",
+        "knowledge_point": "近义词连线",
+        "options": [],
+        "question": "把下面意思相近的词语配成四组：勇敢、寒冷、盼望、清楚、英勇、明白、期望、冰冷。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "1. 高兴；2. 认真。",
+        "difficulty": 2,
+        "explanation": "“开心”和“快乐”意思相近；“细心”和“认真”都能表示做事仔细、用心。",
+        "knowledge_point": "近义词连线",
+        "options": [],
+        "question": "在括号里填入与加点词意思相近的词语：1. 听到好消息，大家都很开心。（　　）2. 他做事很细心。（　　）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "吵闹",
+        "difficulty": 1,
+        "explanation": "“喧闹”和“吵闹”都表示声音大、热闹，意思相近；“安静”意思相反，“整齐”和“喧闹”意思不同，“明亮”也不是近义词。",
+        "knowledge_point": "近义词连线",
+        "options": [
+          "安静",
+          "吵闹",
+          "整齐",
+          "明亮"
+        ],
+        "question": "选择与“喧闹”意思最接近的词语：课间的走廊十分喧闹。",
+        "score": 5,
+        "type": "choice",
+        "id": 128
+      },
+      {
+        "answer": "小鸟在树枝上唱歌。",
+        "difficulty": 1,
+        "explanation": "“小鸟”是主语，“唱歌”是谓语，“在树枝上”表示地点。按照“主语＋地点状语＋谓语”的顺序，句子通顺完整。",
+        "knowledge_point": "句式结构",
+        "options": [
+          "唱歌",
+          "小鸟",
+          "在树枝上"
+        ],
+        "question": "将下列词语排列成一句通顺的话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "明天我们去公园放风筝。",
+        "difficulty": 2,
+        "explanation": "“明天”表示时间，“我们”是主语，“去公园放风筝”说明要做的事情。按“时间＋主语＋动作及地点”的顺序排列。",
+        "knowledge_point": "句式结构",
+        "options": [
+          "放风筝",
+          "明天",
+          "我们",
+          "去公园"
+        ],
+        "question": "将下列词语排列成一句通顺的话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "月亮像一只银色的小船。",
+        "difficulty": 2,
+        "explanation": "“月亮”是本体，“一只银色的小船”是喻体，用“像”来连接，句子表达了月亮的形状像小船。",
+        "knowledge_point": "句式结构",
+        "options": [
+          "小船",
+          "月亮",
+          "银色的",
+          "像",
+          "一只"
+        ],
+        "question": "将下列词语排列成一个通顺的比喻句：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 131
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“妹妹”是主语，“认真地”修饰动作，“读书”是谓语。句子意思完整，语序自然。",
+        "knowledge_point": "句式结构",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断正误：“妹妹认真地读书。”这句话的语序通顺、意思完整。",
+        "score": 5,
+        "type": "true_false",
+        "id": 132
       }
     ]
   },
@@ -702,34 +2127,241 @@
   },
   "knowledge_summary": [
     {
+      "common_mistakes": [
+        "误以为童话中的奇幻情节只是在讲魔法，忽略了人物真实的愿望和情感。",
+        "分析人物时脱离生活，只复述故事情节，不联系现实心理。",
+        "认为人物一开始的想法就是正确的，忽略人物在故事中的变化。"
+      ],
+      "core_concept": "童话虽然写的是虚构世界，但人物的愿望、烦恼和情感常常来自真实生活。阅读时，既要关注奇幻情节，也要思考人物为什么这样做、经历了什么变化，以及这些内容与现实生活有什么联系。例如，王葆希望宝葫芦替自己办事，表现了想省力、逃避困难的心理；巨人从自私到愿意分享，体现了情感和认识的成长。",
+      "key_formula": "幻想情节 + 人物真实的愿望与情感 = 有意义的童话",
       "point": "童话想象与现实心理",
-      "core_concept": "童话虽是虚构，但人物通常拥有真实儿童的心理逻辑。如《宝葫芦的秘密》中，王葆想不费力地获得成功，本质上是对学业与生活压力的现实逃避；《巨人的花园》中，巨人的情感变化（从自私到分享）寓意了成人社交心理的成长。理解童话不仅要看奇幻部分，更要看这些奇想背后的生活原点。",
-      "key_formula": "幻想情节 + 儿童心理 = 有意义的童话",
-      "common_mistakes": [
-        "误以为童话里所有的奇幻现象都没有根据",
-        "分析人物时脱离实际生活，只谈魔法不谈情感"
-      ],
-      "tips": "读童话时，想一想如果我是主角，在现实中是不是也会有类似的愿望？"
+      "tips": "读童话时，可以问自己：人物想要什么？他为什么会这样想？这种愿望或情感在现实生活中是否也会出现？故事结尾人物有没有变化？"
     },
     {
+      "common_mistakes": [
+        "混淆口语词与书面语词的使用场景。",
+        "不区分词语的感情色彩和程度深浅，随意替换。",
+        "只看词语本身，不结合句子中的具体语境判断。"
+      ],
+      "core_concept": "辨析近义词，要联系语境比较词义的细微差别，包括意思侧重点、程度深浅、感情色彩和语体风格。比如“安慰”常用于日常交谈，表示使人心情好一些；“慰藉”偏书面，常指心灵上的安抚或寄托。选择时可以把词语放进句子里读一读，看哪一个更符合表达需要。",
+      "key_formula": "辨清词义与用法 + 联系具体语境 = 选出合适的近义词",
       "point": "近义词语的辨析与运用",
-      "core_concept": "区分近义词需观察三个维度：程度深浅、感情色彩、语体风格。例如“安慰”多用于口语和日常动作，指安慰他人情绪；“慰藉”则偏重于书面语，带有灵魂上的抚慰和心灵寄托的意味，通常在内心独白或文学描写中使用。通过带入句子反复朗读，感受词语的厚度。",
-      "key_formula": "词语+语境=最优选择",
-      "common_mistakes": [
-        "混淆口语词与书面语词的使用场景",
-        "不区分感情褒贬而随意替换"
-      ],
-      "tips": "记词时不仅要记意思，还要记它常跟哪个词“搭伙”出现。"
+      "tips": "记住词语的基本意思，也留意它常用于什么场合、带有什么感情色彩，以及常和哪些词搭配。"
     },
     {
-      "point": "经典故事新编",
-      "core_concept": "故事新编是在尊重原著核心人物特征的基础上，通过改变时间背景、性格侧面或关键转折点进行的创造性写作。常见手法包括：反转结局（如狼保护了小红帽）、改变环境（把古代神话搬到现代都市）、引入新道具（给愚公一辆挖掘机）。重点在于逻辑自洽，而非胡编乱造。",
-      "key_formula": "旧人物 + 新设定 = 新故事",
       "common_mistakes": [
-        "完全推翻原著精髓，写得不知所云",
-        "逻辑不严密，导致故事无法收尾"
+        "完全推翻原故事的核心人物特点或主题，让新故事失去与原作的联系。",
+        "只把故事搬到新地点，却没有设计新的情节。",
+        "新添的情节缺少原因和结果，或出现无法解释的矛盾。",
+        "只顾着制造反转，没有交代人物为什么这样做，导致结尾仓促。"
       ],
-      "tips": "尝试问自己“如果……会怎样？”，这就是新编的开始。"
+      "core_concept": "经典故事新编，是在保留原故事中重要人物特点、关系或核心主题的基础上，改变背景、人物某些表现、关键事件或结局，创作出一个既新鲜又讲得通的故事。可以把古代故事搬到现代，也可以为人物增加新本领或新道具，还可以设计不同的选择和结局。新编时要让变化有理由，情节有前后联系，并给故事一个完整的收尾。",
+      "key_formula": "保留故事核心 + 加入合理变化 + 安排连贯情节 = 经典故事新编",
+      "point": "经典故事新编",
+      "tips": "先想一想：“如果故事发生在今天，会怎样？”或“如果人物作出另一种选择，会怎样？”然后确定要保留什么、改变什么。写作时按“开端—经过—结果”安排情节，说明变化的原因，并检查新情节是否符合人物特点、前后是否连贯。"
+    },
+    {
+      "common_mistakes": [
+        "把形近字的读音混淆。",
+        "只看字形猜读音，不结合词语和语境辨认。",
+        "忽略多音字在不同词语中的读音变化。"
+      ],
+      "core_concept": "字音辨析是根据汉字的字形、词语和语境，判断汉字正确读音的学习内容。遇到不确定的字，可以结合常用词语记忆，并注意多音字在不同语境中的读音。",
+      "key_formula": "辨读音：看字形、组词语、辨语境。",
+      "point": "字音辨析",
+      "tips": "读词语时，把目标字放回词语中朗读；遇到多音字，分别用不同读音组词，再结合句意判断。"
+    },
+    {
+      "common_mistakes": [
+        "不要把作品的作者和主人公混淆。",
+        "注意区分中国作家与外国作家，以及他们的国籍。",
+        "记住作品名称与作者的对应关系，避免张冠李戴。"
+      ],
+      "core_concept": "文学常识包括作家、作品、国籍、体裁及作品内容等基础知识。学习时可以把作家和代表作品联系起来记忆，并结合故事内容加深印象。",
+      "key_formula": "作家—代表作品—国籍（或作品体裁）",
+      "point": "文学常识",
+      "tips": "可以制作“作家—作品”卡片：一面写作家，一面写代表作品；阅读作品时留意作者信息，并用一句话概括作品内容。"
+    },
+    {
+      "common_mistakes": [
+        "把词语的字面意思当作它在句子中的实际意思。",
+        "只记一个意思，不结合上下文判断。",
+        "用意思相近但不够准确的词语解释。"
+      ],
+      "core_concept": "词语释义，就是说明词语的意思。理解词语时，可以先看词语中的关键字，再联系句子和课文内容，判断它在具体语境中的含义。",
+      "key_formula": "词语释义＝结合词语本身和上下文，说明它在句子中的意思。",
+      "point": "词语释义",
+      "tips": "解释词语时尽量简洁、准确；可以用近义词或简短的话解释，但要确保符合句子语境。"
+    },
+    {
+      "common_mistakes": [
+        "把人物的想法和实际行动混为一谈，例如误以为巨人一开始就欢迎孩子们。",
+        "只记住故事中的单个情节，忽略情节之间的因果关系。",
+        "把故事结尾人物的变化误当作故事开头的态度。"
+      ],
+      "core_concept": "理解故事内容，就是从故事中找出人物、时间、地点、事件及其发展变化，并根据情节判断人物的行为、想法和故事表达的意思。",
+      "key_formula": "梳理故事：人物是谁 → 在哪里、做了什么 → 事情怎样发展 → 结果如何 → 人物有什么变化",
+      "point": "故事内容理解",
+      "tips": "阅读后试着用“起初……后来……最后……”复述故事，并用故事中的情节说明自己的判断。"
+    },
+    {
+      "common_mistakes": [
+        "只根据字形判断读音，忽略字在不同词语中的意思和用法。",
+        "把多音字的某一个读音当作固定读音，放进词语后不再辨析。",
+        "遇到不熟悉的词语时，凭感觉选择读音。"
+      ],
+      "core_concept": "多音字是一个字有两个或两个以上读音的字。辨析时要结合词语的意思和具体用法，判断它在这个词语中应该读什么音。",
+      "key_formula": "辨多音字：看词语，辨意思，定读音。",
+      "point": "多音字辨析",
+      "tips": "先把词语读熟，再联系词语的意思判断字音。可以把同一个字的不同读音分别组词记忆；不确定时查字典，并留意词语中的习惯读音。"
+    },
+    {
+      "common_mistakes": [
+        "把形近字、同音字混淆，导致用字错误。",
+        "书写时偏旁、部件的位置和比例不当。",
+        "忽略笔画的长短、方向或顺序，造成字形不规范。"
+      ],
+      "core_concept": "字形书写要求认清汉字的部件和结构，正确安排偏旁位置，按规范笔顺书写，使字形端正、匀称、清楚。写词语时还要结合词义辨别形近字和同音字。",
+      "key_formula": "先辨字义，再看部件；按规范笔顺书写，做到结构匀称、字形端正。",
+      "point": "字形书写",
+      "tips": "遇到容易混淆的字，可把它放进词语或句子中理解，再观察偏旁和关键笔画；书写前先看清结构，书写后检查部件、笔画和字形是否规范。"
+    },
+    {
+      "common_mistakes": [
+        "只看词语意思相近，就认为可以随意搭配。",
+        "忽略词语的使用对象和表达习惯，例如“提高水平”不能说成“增加水平”。"
+      ],
+      "core_concept": "词语搭配是把意思相合、用法合适的词组合在一起，使表达准确、自然。常见搭配有“动词＋名词”，如“打开窗户”；“形容词＋名词”，如“清新的空气”；“副词＋动词”，如“认真学习”。",
+      "key_formula": "先理解句意，再判断词语的意思、使用对象和表达习惯是否合适。",
+      "point": "词语搭配",
+      "tips": "做题时可以把选出的词放回句子里读一读：意思通顺、符合生活经验和语言习惯的搭配通常更恰当。遇到近义词，要留意它们的使用对象和具体含义。"
+    },
+    {
+      "common_mistakes": [
+        "看到句子里有生动的词语，就误以为一定用了修辞；要看词语之间的关系和表达方式。",
+        "把比喻和拟人混淆：比喻是把一种事物比作另一种事物，拟人是赋予事物人的动作、情感或特点。",
+        "判断排比时只看句子较长，没有注意是否有三个或三个以上结构相似、意思相关的分句。"
+      ],
+      "core_concept": "修辞手法是为了让表达更生动、形象、有感染力而采用的方法。小学阶段常见的有比喻、拟人、排比和反问等。判断时要关注句子的表达特点：是否把事物比作另一种事物，是否把事物当作人来写，是否用结构相似的短语或句子连续表达，或是否用疑问形式加强肯定或否定语气。",
+      "key_formula": "比喻：本体＋比喻词＋喻体；拟人：事物＋人的动作、情感或特点；排比：三个或三个以上结构相似、意思相关的部分；反问：用疑问形式表达明确的肯定或否定意思。",
+      "point": "修辞手法",
+      "tips": "判断修辞时，可以先找句中的关键词，再问自己：有没有把事物比作另一种事物？有没有让事物像人一样行动或说话？有没有三个以上相似结构连续出现？句子是不是在提问，却不需要回答？回答这些问题后，再结合上下文判断。"
+    },
+    {
+      "common_mistakes": [
+        "把逗号和句号混用；句子表达完整意思时，通常用句号收尾。",
+        "提示语在说话内容中间时，容易漏掉提示语后的逗号。",
+        "冒号和引号常搭配使用，但冒号一般放在提示语后，引出说话内容。"
+      ],
+      "core_concept": "标点符号能表示停顿、语气和句子之间的关系。常用标点有句号、逗号、问号、感叹号、冒号、引号、顿号和分号等。选择标点时，要根据句子的意思、语气以及提示语的位置来判断。",
+      "key_formula": "提示语在前：提示语：“说话内容。”；提示语在中间：“说话内容，”提示语，“接着说的话。”；提示语在后：“说话内容。”提示语。",
+      "point": "标点符号",
+      "tips": "先读懂句意，再判断句子的语气和停顿；直接说的话要用引号标出。提示语在说话内容前时，提示语后常用冒号；提示语插在说话内容中间时，提示语前后通常用逗号。"
+    },
+    {
+      "common_mistakes": [
+        "只看词语的大致意思，不结合句子表达的对象和情感来选择。",
+        "把意思相近的词当作可以随意替换，忽略它们的搭配和语气差别。"
+      ],
+      "core_concept": "语境辨析是根据句子的意思、表达对象和上下文，判断哪个词语最合适。遇到意思相近的词，要仔细比较它们的含义、用法和感情色彩。",
+      "key_formula": "联系语境 → 判断表达对象和意思 → 比较近义词的用法 → 选出最恰当的词",
+      "point": "语境辨析",
+      "tips": "可以把备选词语分别放进句子里读一读，再想想句子要表达什么。比如“忘记”侧重不记得；“忘怀”常用于难以忘掉的经历、情感或恩情。"
+    },
+    {
+      "common_mistakes": [
+        "只看文章中的个别词句就作答，没有联系上下文。",
+        "遇到没有直接写出的答案时，只凭个人想象，不根据线索推断。",
+        "回答时遗漏题目要求的关键信息，或没有用完整、清楚的句子表达。"
+      ],
+      "core_concept": "阅读理解是通过阅读文章，提取信息、理解内容、分析人物与事件，并根据文中的线索进行合理推断。",
+      "key_formula": "读题明确要求 → 回文定位线索 → 联系上下文理解 → 整理信息作答",
+      "point": "阅读理解",
+      "tips": "可以在题目中圈出关键词，再在文章中标出对应线索。回答“为什么”时，写出原因；回答“告诉我们什么道理”时，联系故事结尾和人物变化，用简洁的话概括。"
+    },
+    {
+      "common_mistakes": [
+        "只看词语字数，不看字词的排列和重复规律。",
+        "把“AABB”与“ABAB”等重叠形式混淆。",
+        "认为所有四字词语都是一种结构。"
+      ],
+      "core_concept": "词语结构是词语中各部分的组合或重复方式。观察字词是否重复、重复的位置以及词语内部的组合规律，可以辨认常见结构，如AABB、ABAB、ABCC和ABAC等。",
+      "key_formula": "AABB：前两个字相同，后两个字相同，如“平平安安”；ABAB：前后两组分别重复，如“讨论讨论”；ABCC：末两个字相同，如“白发苍苍”；ABAC：第一个和第三个字相同，如“自言自语”。",
+      "point": "词语结构",
+      "tips": "遇到陌生词语，可以从左到右逐字比较：第一、二字是否相同，第三、四字是否相同，或是第一、三字、第二、四字是否相同。不要只凭词语意思或字数判断结构。"
+    },
+    {
+      "common_mistakes": [
+        "把课内常识只当作死记课文标题，忽略人物、情节和作品信息之间的联系。",
+        "回答时混淆人物姓名、作品名称和关键物品。"
+      ],
+      "core_concept": "课内常识是对课文中重要人物、作品、情节和事物的了解。学习时要联系课文内容记忆，并能准确说出关键信息。",
+      "key_formula": "回忆课文内容 → 找出人物、作品或关键事物 → 用准确的词语作答",
+      "point": "课内常识",
+      "tips": "遇到课内常识题，先回想课文讲了什么，再辨认题目问的是人物、作品还是关键事物；填空时注意答案完整、准确。"
+    },
+    {
+      "common_mistakes": [
+        "只凭单个字猜成语，忽略整句话的意思。",
+        "把意思相近的成语混用，或写错其中的字。",
+        "没有根据句子中的提示判断成语所描写的情境。"
+      ],
+      "core_concept": "成语填空要结合成语的固定搭配和句子语境，补出恰当的字或词，使句子意思通顺、成语使用准确。",
+      "key_formula": "读懂句意和提示 → 判断所需成语或字词 → 检查固定搭配与书写。",
+      "point": "成语填空",
+      "tips": "先读完整句话，找出人物、情境或事物特点等提示；再回忆符合语境的成语。填好后通读句子，确认意思连贯、成语搭配正确，并注意每个字的书写。"
+    },
+    {
+      "common_mistakes": [
+        "把近义词和反义词混淆：近义词意思相近，反义词意思相反。",
+        "判断反义词时只看字面是否不同，没有结合词语在句子中的意思。",
+        "并非所有词语都有唯一、固定的反义词，应根据语境选择合适的词。"
+      ],
+      "core_concept": "反义词是意思相反或相对的词语。例如“寒冷”和“温暖”、“高”和“低”。寻找反义词时，要先弄清词语在句子中的意思，再选择与它意义相反或相对的词。",
+      "key_formula": "先理解词义，再找与它意思相反或相对的词。",
+      "point": "反义词",
+      "tips": "可以把词语放回句子里理解，再尝试用“相反的意思”替换它，看看是否合适。注意有些词语要根据上下文确定反义词。"
+    },
+    {
+      "common_mistakes": [
+        "把人物和作品名称相近误当作人物与作品的对应关系。",
+        "混淆不同童话中的人物，建议结合人物经历或作品内容记忆。"
+      ],
+      "core_concept": "人物与作品配对，就是根据人物出自哪篇作品，把人物和作品名称对应起来。",
+      "key_formula": "人物 → 出自的作品",
+      "point": "人物与作品配对",
+      "tips": "先读清人物和作品名称，再回忆人物经历或故事情节；不确定时，可以用作品内容反向核对人物。"
+    },
+    {
+      "common_mistakes": [
+        "把意思相关的词误认为搭配恰当，如“修建婚礼”。",
+        "只看单个词的意思，忽略动词和宾语组合后是否通顺。"
+      ],
+      "core_concept": "动宾搭配是动词和表示动作对象的宾语组合在一起，表达一个完整、通顺的意思。",
+      "key_formula": "动词 + 宾语（动作 + 动作对象）",
+      "point": "动宾搭配",
+      "tips": "例如，“修建”可以和“围墙”搭配，“举行”可以和“婚礼”搭配。积累常见词语搭配，并把词语放进句子中读一读，有助于判断是否恰当。"
+    },
+    {
+      "common_mistakes": [
+        "把意思相关但并不相近的词语配成一组。",
+        "忽略词语在具体语境中的意思，认为近义词在所有句子中都能互换。"
+      ],
+      "core_concept": "近义词是意思相近的词语。给词语连线时，可以比较它们表达的意思，也可以把词语放进句子里，看看能否表达相近的意思。近义词的意思不一定完全相同，使用时还要注意语境。",
+      "key_formula": "比较词义 → 判断是否相近 → 按词语顺序连线",
+      "point": "近义词连线",
+      "tips": "先读懂每个词的意思，再从选项中寻找意思最接近的一项。连好后可以逐组读一读，检查是否意思相近、搭配自然。"
+    },
+    {
+      "common_mistakes": [
+        "只把词语拼接起来，没有检查句子是否通顺、意思是否完整。",
+        "把句子成分的顺序弄乱，或遗漏时间、地点等词语。",
+        "判断比喻句时，只看见“像”字，没有确认是否真的用一种事物来比另一种事物。"
+      ],
+      "core_concept": "句式结构是词语在句子中的排列方式。句子通常包含“谁（什么）做什么”或“谁（什么）怎么样”等内容；还可以加入时间、地点、修饰语等，使表达更具体。比喻句用熟悉的事物来描写另一种事物，让表达更生动。",
+      "key_formula": "常见句式：时间／地点＋主语＋（修饰语）＋谓语＋宾语。排列词语时，先找主语和谓语，再确定宾语及时间、地点等词语的位置；比喻句常见结构：本体＋像＋喻体＋特点或动作。",
+      "point": "句式结构",
+      "tips": "先找出句子要说的人或事（主语），再找它做了什么、怎么样（谓语），最后安排动作涉及的对象（宾语）以及时间、地点等信息。排好后读一遍，检查意思是否完整、语序是否自然。"
     }
   ]
 }

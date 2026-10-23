@@ -5,6 +5,8 @@ import hashlib
 import json
 import os
 import re
+import subprocess
+import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -37,6 +39,8 @@ def main():
     parser.add_argument('--destination', type=Path, default=ROOT/'deploy-output/site')
     parser.add_argument('--previous-site', type=Path, help='Verified previous snapshot; preserve timestamps only for identical media.')
     args = parser.parse_args()
+    subprocess.run([sys.executable, str(ROOT / 'scripts/checks/content-retention.py'),
+                    '--public', str(args.source)], check=True)
     args.destination.mkdir(parents=True, exist_ok=False)
     counts = Counter()
     media_overrides = {}

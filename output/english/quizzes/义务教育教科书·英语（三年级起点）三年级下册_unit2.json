@@ -4,275 +4,273 @@
   "unit_number": 2,
   "unit_test": {
     "title": "Unit 2 My family 单元达标测试卷",
-    "total_score": 100,
+    "total_score": 108,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "father 是父亲，母亲是 mother。",
         "knowledge_point": "家庭成员称谓认读",
+        "options": [],
         "question": "'father' 对应的是母亲。",
-        "options": [],
-        "answer": "错",
-        "explanation": "father代表父亲，母亲是mother。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "grandma 是 grandmother 的常见口语说法，都表示祖母。",
         "knowledge_point": "家庭成员称谓认读",
+        "options": [],
         "question": "'grandmother' 和 'grandma' 意思相同。",
-        "options": [],
-        "answer": "对",
-        "explanation": "grandma是grandmother的口语化表达形式。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“Who's that man?”意为“那个男人是谁？”，可以用来询问男性的身份。",
         "knowledge_point": "询问并确认人物身份",
-        "question": "当你想询问那个男人是谁，可以说 'Who's that man?'",
         "options": [],
-        "answer": "对",
-        "explanation": "Who's that man? 用于询问那个男人的身份。"
+        "question": "当你想询问那个男人是谁，可以说“Who's that man?”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "red 和 leg 都是闭音节，字母 e 都发短音 /e/。",
         "knowledge_point": "元音字母e在闭音节中的发音",
-        "question": "单词 'red' 和 'leg' 中字母e的发音是一样的。",
         "options": [],
-        "answer": "对",
-        "explanation": "两个单词中字母e都在闭音节中发/e/的音。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
+        "question": "单词 red 和 leg 中字母 e 的发音是一样的。",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "家庭成员称谓认读",
-        "question": "Sarah是女孩，她可以是别人的 'brother'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "女孩对应的称谓是sister（姐妹），brother是指兄弟。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "Sarah 是女孩，可以称为 sister；brother 指兄弟。",
         "knowledge_point": "家庭成员称谓认读",
-        "question": "My father's father is my ______.",
+        "options": [],
+        "question": "Sarah是女孩，她可以是别人的 'brother'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "grandfather",
+        "difficulty": 1,
+        "explanation": "爸爸的爸爸是祖父，英文是 grandfather，也可以说 grandpa。",
+        "knowledge_point": "家庭成员称谓认读",
         "options": [
           "grandfather",
           "grandmother",
           "mother",
           "father"
         ],
-        "answer": "grandfather",
-        "explanation": "爸爸的爸爸是祖父（爷爷）。"
+        "question": "My father's father is my ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "She",
         "difficulty": 1,
+        "explanation": "woman指女性，回答时用She；完整回答是“She is my mother.”。",
         "knowledge_point": "询问并确认人物身份",
-        "question": "—Who's that woman? —______ is my mother.",
         "options": [
           "He",
           "She",
           "It",
           "I"
         ],
-        "answer": "She",
-        "explanation": "woman是女性，人称代词应用She。"
+        "question": "—Who's that woman? —______ is my mother.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "He's my father.",
         "difficulty": 1,
+        "explanation": "问题询问一位男性的身份，回答用“He's...”介绍男性。",
         "knowledge_point": "询问并确认人物身份",
-        "question": "—Who's that man? —______",
         "options": [
           "She's my teacher.",
           "He's my father.",
           "It's a pen.",
           "I'm a boy."
         ],
-        "answer": "He's my father.",
-        "explanation": "对那位男士身份的正确回答应使用He's..."
+        "question": "—Who's that man? —______",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "he",
         "difficulty": 2,
+        "explanation": "ten、pen 和 red 中的 e 发短音 /e/；he 中的 e 发 /iː/，所以选 he。",
         "knowledge_point": "元音字母e在闭音节中的发音",
-        "question": "选出下列单词中字母e发音不同的一项：",
         "options": [
           "ten",
           "pen",
           "he",
           "red"
         ],
-        "answer": "he",
-        "explanation": "ten, pen, red中e发短音/e/，而he中e发长音/i:/。"
+        "question": "选出下列单词中字母 e 发音不同的一项：",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "这是我的姐姐/妹妹。",
         "difficulty": 1,
+        "explanation": "sister 表示姐妹，可指姐姐或妹妹。",
         "knowledge_point": "家庭成员称谓认读",
-        "question": "'This is my sister.' 的中文意思是：",
         "options": [
           "这是我的哥哥。",
           "这是我的弟弟。",
           "这是我的姐姐/妹妹。",
           "这是我的父亲。"
         ],
-        "answer": "这是我的姐姐/妹妹。",
-        "explanation": "sister指姐姐或妹妹。"
+        "question": "'This is my sister.' 的中文意思是：",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "grandma",
         "difficulty": 1,
+        "explanation": "爸爸的妈妈是祖母，英文可以说 grandma 或 grandmother。",
         "knowledge_point": "家庭成员称谓认读",
-        "question": "My father's mother is my ______.",
         "options": [
           "grandpa",
           "dad",
           "grandma",
           "brother"
         ],
-        "answer": "grandma",
-        "explanation": "爸爸的妈妈是奶奶。"
+        "question": "My father's mother is my ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "Who's that boy?",
         "difficulty": 2,
+        "explanation": "照片里是小男孩，询问他的身份要说“Who's that boy?”。",
         "knowledge_point": "询问并确认人物身份",
-        "question": "当你想知道照片里的小男孩是谁，你应该问：",
         "options": [
           "Who's that man?",
           "Who's that woman?",
           "Who's that boy?",
           "Who's that girl?"
         ],
-        "answer": "Who's that boy?",
-        "explanation": "男孩应用boy。"
+        "question": "当你想知道照片里的小男孩是谁，你应该问：",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "No, she isn't.",
         "difficulty": 2,
+        "explanation": "“Is she...?”的否定回答是“No, she isn't.”，答句中的代词应与问句中的she一致。",
         "knowledge_point": "询问并确认人物身份",
-        "question": "—Is she your mother? —______",
         "options": [
           "Yes, he is.",
           "No, she isn't.",
           "Yes, I am.",
           "No, he isn't."
         ],
-        "answer": "No, she isn't.",
-        "explanation": "由she引导的一般疑问句，否定回答用No, she isn't."
+        "question": "—Is she your mother? —______",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "boy",
         "difficulty": 1,
+        "explanation": "回答中的“He”以及“brother”指男性，因此空格应填boy。",
         "knowledge_point": "询问并确认人物身份",
-        "question": "Who's that ______? He's my brother.",
         "options": [
           "boy",
           "girl",
           "woman",
           "mom"
         ],
-        "answer": "boy",
-        "explanation": "根据回答He可知对应的是男性，brother（兄弟）对应boy。"
+        "question": "Who's that ______? He's my brother.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "mother",
         "difficulty": 2,
+        "explanation": "“妈妈”可以用 mother 表示，也可以说 mom。",
         "knowledge_point": "家庭成员称谓认读",
-        "question": "This is my ______ (妈妈).",
         "options": [
           "dad",
           "mother",
           "father",
           "brother"
         ],
-        "answer": "mother",
-        "explanation": "妈妈的英文单词是mother。"
+        "question": "This is my ______ (妈妈).",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "家庭成员称谓认读",
-        "question": "—Who's that man? —He is my ___ (父亲).",
-        "options": [],
         "answer": "father",
-        "explanation": "父亲的单词是father。"
+        "difficulty": 1,
+        "explanation": "father 表示父亲；句子中的 He 指男性。",
+        "knowledge_point": "家庭成员称谓认读",
+        "options": [],
+        "question": "—Who's that man? —He is my ___ (父亲).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "家庭成员称谓认读",
-        "question": "This is my ___ (姐姐).",
-        "options": [],
         "answer": "sister",
-        "explanation": "姐姐/妹妹的单词是sister。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "询问并确认人物身份",
-        "question": "___ is that woman? She is my teacher.",
-        "options": [],
-        "answer": "who",
-        "explanation": "询问身份用特殊疑问词who。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "元音字母e在闭音节中的发音",
-        "question": "I have ___ (十) pens.",
-        "options": [],
-        "answer": "ten",
-        "explanation": "数字10对应的单词是ten。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "姐姐或妹妹都可以用 sister 表示。",
         "knowledge_point": "家庭成员称谓认读",
-        "question": "给下列单词选择正确的中文意思。",
+        "options": [],
+        "question": "This is my ___ (姐姐).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "Who",
+        "difficulty": 2,
+        "explanation": "用疑问词Who询问人物身份。句首的Who首字母大写。",
+        "knowledge_point": "询问并确认人物身份",
+        "options": [],
+        "question": "___ is that woman? She is my teacher.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "ten",
+        "difficulty": 2,
+        "explanation": "数字“十”用英语表示为 ten，字母 e 在其中发短音 /e/。",
+        "knowledge_point": "元音字母e在闭音节中的发音",
+        "options": [],
+        "question": "I have ___ (十) pens.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-3,B-4,C-2,D-1",
+        "difficulty": 1,
+        "explanation": "mother-母亲，brother-兄弟，grandpa-祖父，dad-爸爸。",
+        "knowledge_point": "家庭成员称谓认读",
         "options": [
           "mother",
           "brother",
@@ -283,62 +281,96 @@
           "母亲",
           "兄弟"
         ],
-        "answer": "A-3,B-4,C-2,D-1",
-        "explanation": "mother-母亲, brother-兄弟, grandpa-祖父, dad-爸爸。"
+        "question": "给下列单词选择正确的中文意思。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "那个男人",
         "difficulty": 2,
+        "explanation": "that man意为“那个男人”，所以应选B。",
         "knowledge_point": "询问并确认人物身份",
-        "question": "英汉短语配对。",
         "options": [
-          "my family",
-          "that man",
-          "my friend",
-          "that woman",
-          "那个女人",
-          "那是我的朋友",
           "我的家庭",
-          "那个男人"
+          "那个男人",
+          "我的朋友",
+          "那个女人"
         ],
-        "answer": "A-3,B-4,C-2,D-1",
-        "explanation": "my family-我的家庭, that man-那个男人, my friend-我的朋友, that woman-那个女人。"
+        "question": "“that man”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Who’s that woman?",
         "difficulty": 2,
+        "explanation": "询问那位女性是谁，用“Who’s that woman?”。Who用于询问人物身份，that woman表示“那位女性”。",
         "knowledge_point": "询问并确认人物身份",
-        "question": "连词成句：[woman, that, Who, is, ?]",
         "options": [
-          "woman",
-          "that",
-          "Who",
-          "is",
-          "?"
+          "Who’s that woman?",
+          "What’s that woman?",
+          "Who that’s woman?",
+          "Is that woman who?"
         ],
-        "answer": "Who,is,that,woman,?",
-        "explanation": "句意为：那个女人是谁？"
+        "question": "看见远处一位女性，想问“那位女性是谁？”，应选择哪一句？",
+        "score": 5,
+        "type": "choice",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "He is my father.",
         "difficulty": 3,
+        "explanation": "“Who's that man?”意为“那位男士是谁？”根据上下文，正确回答是“He is my father.”，即“他是我的父亲”。",
         "knowledge_point": "询问并确认人物身份",
-        "question": "连词成句：[father, my, He, is, .]",
         "options": [
-          "father",
-          "my",
-          "He",
-          "is",
-          "."
+          "She is my mother.",
+          "He is my brother.",
+          "He is my father.",
+          "She is my sister."
         ],
-        "answer": "He,is,my,father,.",
-        "explanation": "句意为：他是我的父亲。"
+        "question": "看图回答：Who's that man?",
+        "score": 5,
+        "type": "choice",
+        "id": 23
+      },
+      {
+        "answer": "bed",
+        "difficulty": 1,
+        "explanation": "bed 中 e 后面有辅音字母 d 收尾，e 在闭音节中发短音 /e/。",
+        "knowledge_point": "元音字母e在闭音节中的发音",
+        "options": [],
+        "question": "看音标 /bed/，写出这个单词：___。",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 24
+      },
+      {
+        "answer": "pen",
+        "difficulty": 1,
+        "explanation": "pen 中 e 发短音 /e/，与题目所给发音相符。",
+        "knowledge_point": "元音字母e在闭音节中的发音",
+        "options": [
+          "pen",
+          "Pete",
+          "he",
+          "me"
+        ],
+        "question": "选出字母 e 发短音 /e/ 的单词。",
+        "score": 3,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "leg 中 e 后面有辅音字母 g 收尾，符合闭音节的常见结构，e 发短音 /e/。",
+        "knowledge_point": "元音字母e在闭音节中的发音",
+        "options": [],
+        "question": "在单词 leg 中，字母 e 发短音 /e/。",
+        "score": 2,
+        "type": "true_false",
+        "id": 26
       }
     ]
   },
@@ -713,6 +745,40 @@
         "分不清闭音节中e的发音"
       ],
       "tips": "记住口诀单词：Ten red pens on the leg."
+    },
+    {
+      "common_mistakes": [
+        "把 father（父亲）和 mother（母亲）混淆。",
+        "把 brother（兄弟）和 sister（姐妹）混淆。",
+        "忘记 grandpa/grandfather 表示祖父，grandma/grandmother 表示祖母。"
+      ],
+      "core_concept": "认读常见家庭成员称谓，并理解这些词所表示的家庭关系。",
+      "key_formula": "father/dad = 父亲；mother/mom = 母亲；brother = 兄弟；sister = 姐妹；grandfather/grandpa = 祖父；grandmother/grandma = 祖母。",
+      "point": "家庭成员称谓认读",
+      "tips": "记忆时可按关系分类：父母是 father/dad 和 mother/mom；兄弟姐妹是 brother 和 sister；祖父母是 grandfather/grandpa 和 grandmother/grandma。"
+    },
+    {
+      "common_mistakes": [
+        "询问人物身份时用who，不用what。",
+        "回答男性身份用He；回答女性身份用She。",
+        "Is she...? 应用Yes, she is.或No, she isn't.回答，代词要保持一致。",
+        "that表示“那位／那个”，询问较远处的人时常用Who's that...?。"
+      ],
+      "core_concept": "询问人物身份可以说“Who's that + 人物称呼?”，意为“那位……是谁？”回答时根据人物性别使用“He's...”或“She's...”。也可以用“Is he/she...?”确认身份，并用“Yes, he/she is.”或“No, he/she isn't.”回答。",
+      "key_formula": "Who's that + man/woman/boy/girl? — He's/She's + 身份或称呼.；Is he/she + 身份或称呼? — Yes, he/she is. / No, he/she isn't.",
+      "point": "询问并确认人物身份",
+      "tips": "先根据题目中的人物判断是man、woman、boy还是girl；回答时注意He对应男性，She对应女性。确认身份时，问句和答句中的he或she要保持一致。"
+    },
+    {
+      "common_mistakes": [
+        "不要把字母名称 e（/iː/）和字母在单词中的发音混淆。",
+        "闭音节中，元音字母后面通常有辅音字母，使元音发短音；本课中 e 通常发 /e/，如 bed、pen。",
+        "不是所有含 e 的单词都符合这个发音规律，例如 he 中的 e 发 /iː/。"
+      ],
+      "core_concept": "闭音节中，元音字母 e 通常发短音 /e/，发音类似汉语拼音“诶”但更短、更轻。常见例词有 pen、red、leg、ten。",
+      "key_formula": "闭音节：元音字母后有辅音字母收尾；本课常见规律：e + 辅音字母收尾 → e 通常发 /e/。",
+      "point": "元音字母e在闭音节中的发音",
+      "tips": "朗读时先找元音字母 e，再看它后面是否有辅音字母收尾。可以把 pen、bed、red、leg、ten 放在一起练习，注意短促地发 /e/。"
     }
   ]
 }

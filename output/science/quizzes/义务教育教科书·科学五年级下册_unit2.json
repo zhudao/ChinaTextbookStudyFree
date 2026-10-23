@@ -4,326 +4,2068 @@
   "unit_number": 2,
   "unit_test": {
     "title": "第二单元《船的研究》单元练习卷",
-    "total_score": 100,
+    "total_score": 620,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "独木舟由树干挖空制成，是人类早期使用的船只之一。",
         "knowledge_point": "船的历史与动力",
+        "options": [],
         "question": "独木舟是人类历史上最早出现的船只之一。",
-        "options": [],
-        "answer": "对",
-        "explanation": "独木舟由树干挖空制成，是人类最早的航海工具之一。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "船底较宽的船通常不容易左右倾斜，稳定性相对更高；船身窄并不意味着更稳定。",
         "knowledge_point": "船的稳定性",
+        "options": [],
         "question": "船身越窄，船在行驶过程中的稳定性就越高。",
-        "options": [],
-        "answer": "错",
-        "explanation": "船身宽大的船排开水量大，重心低，稳定性相对更高。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "橡皮泥做成船形后，能排开更多水，受到的浮力增大，因此可能由沉变浮。",
         "knowledge_point": "浮力原理",
+        "options": [],
         "question": "改变橡皮泥的形状可以使它在水中由沉变浮。",
-        "options": [],
-        "answer": "对",
-        "explanation": "将橡皮泥做成船形增大排开水的体积，浮力增大，从而能浮在水面。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "通过偏转船舵可以改变水流对舵面的作用力，从而改变航向。",
         "knowledge_point": "动力系统与方向",
+        "options": [],
         "question": "船舵是控制船只航行方向的重要装置。",
-        "options": [],
-        "answer": "对",
-        "explanation": "通过偏转船舵可以改变水流对舵面的作用力，从而改变航向。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "工程设计流程",
-        "question": "在制作小船时，应先进行制作，如果发现问题再进行设计修改。",
-        "options": [],
-        "answer": "错",
-        "explanation": "工程流程应先设计，后制作，测试后再优化。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "工程设计应先明确需求并设计方案，再进行制作。制作后还要测试、评价，并根据结果改进。",
+        "knowledge_point": "工程设计流程",
+        "options": [],
+        "question": "在制作小船时，应先进行制作，如果发现问题再进行设计修改。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "尖形",
         "difficulty": 1,
+        "explanation": "船首设计得较尖，水流更容易从两侧绕过，通常能减小船行驶时受到的水的阻力。",
         "knowledge_point": "阻力与形状",
-        "question": "为了减小船在行驶中的阻力，船首通常设计成什么形状？",
         "options": [
           "方形",
           "尖形",
           "圆头形",
           "不规则型"
         ],
-        "answer": "尖形",
-        "explanation": "流线型或尖形的船首可以有效破开水流，减小摩擦阻力。"
+        "question": "为了减小船在行驶中的阻力，船首通常设计成什么形状？",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "排开的水量变大了",
         "difficulty": 1,
+        "explanation": "钢铁做成船形后，船体中空，能排开更多水，因此受到的浮力增大。钢铁材料本身并没有因此变轻或改变密度。",
         "knowledge_point": "沉的材料造船",
-        "question": "钢铁制造的轮船能浮在水面上，是因为它排开的水量怎么变化？",
         "options": [
           "排开的水量变大了",
           "排开的水量变小了",
           "排开的水量不变",
           "钢铁本身密度变小了"
         ],
-        "answer": "排开的水量变大了",
-        "explanation": "做成船型后排开水的体积大大增加，获得的浮力大于重力。"
+        "question": "钢铁制造的轮船能浮在水面上，是因为它排开的水量怎么变化？",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "底面积越大，载重量通常越大",
         "difficulty": 1,
+        "explanation": "在其他条件相同的情况下，较大的底面积通常有助于船体排开更多的水、容纳更多货物，因此载重量通常较大。",
         "knowledge_point": "载重量因素",
-        "question": "在研究载重量与船只体积的关系时，下列说法正确的是？",
         "options": [
           "底面积越大，载重量通常越大",
           "船的高度对载重量没有影响",
           "船只越重，载重量越大",
           "船只颜色越深，载重量越大"
         ],
-        "answer": "底面积越大，载重量通常越大",
-        "explanation": "底面积大通常意味着船舱体积大，排开水量多，载重能力强。"
+        "question": "在研究载重量与船只体积的关系时，下列说法正确的是？",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "人力-自然动力-机械动力",
         "difficulty": 2,
+        "explanation": "早期船只靠人划桨或摇橹；后来利用风力推动帆船；之后出现蒸汽机、内燃机等机械动力。",
         "knowledge_point": "动力演变",
-        "question": "在船的发展史上，下列动力出现的先后顺序是？",
         "options": [
           "人力-自然动力-机械动力",
           "自然动力-人力-机械动力",
           "人力-机械动力-自然动力",
           "机械动力-人力-自然动力"
         ],
-        "answer": "人力-自然动力-机械动力",
-        "explanation": "最初是手摇独木舟，再利用风帆，之后发明了蒸汽机和内燃机动力。"
+        "question": "在船的发展史上，下列动力出现的先后顺序是？",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "均匀分布，重心居中",
         "difficulty": 1,
+        "explanation": "均匀分布货物可以减少船身一侧过重造成的倾斜；重心较居中，船通常更平稳。",
         "knowledge_point": "载重稳定性",
-        "question": "放置重物时，为了保持船的平稳，应该怎么做？",
         "options": [
           "全部放在船头",
           "全部放在船的一侧",
           "均匀分布，重心居中",
           "随意堆放"
         ],
-        "answer": "均匀分布，重心居中",
-        "explanation": "均匀分布货物可以防止侧翻，保持重心稳定有利于航行。"
+        "question": "放置重物时，为了保持船的平稳，应该怎么做？",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "核潜艇",
         "difficulty": 2,
+        "explanation": "核潜艇利用核反应堆产生动力，属于现代机械动力船。",
         "knowledge_point": "船的历史",
-        "question": "下列哪种船只属于典型的现代机械动力船？",
         "options": [
           "帆船",
           "独木舟",
           "核潜艇",
           "摇橹木船"
         ],
-        "answer": "核潜艇",
-        "explanation": "核潜艇利用核反应堆产生动力，属于现代高度发达的机械动力系统。"
+        "question": "下列哪种船只属于典型的现代机械动力船？",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "稳定性好",
         "difficulty": 1,
+        "explanation": "双体船有两个分开的船体，能增加船横向的稳定性，因此不容易倾斜或侧翻。",
         "knowledge_point": "材料选择",
-        "question": "双体船的主要优点是什么？",
         "options": [
           "美观",
           "稳定性好",
           "阻力更大",
           "排水量更小"
         ],
-        "answer": "稳定性好",
-        "explanation": "双体船底部分开，横向稳定性极高，不容易侧翻。"
+        "question": "双体船的主要优点是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "向左偏转",
         "difficulty": 2,
+        "explanation": "按题目所描述的小船，向左调整船舵可以帮助修正偏右的航向。调整后还要观察实际效果，避免转向过度。",
         "knowledge_point": "动力控制",
-        "question": "当你发现电力螺旋桨小船航向偏右时，应如何调整船舵？",
         "options": [
           "向左偏转",
           "向右偏转",
           "保持不动",
           "拔掉船舵"
         ],
-        "answer": "向左偏转",
-        "explanation": "舵的方向决定航迹弯曲方向，偏右需通过向左移舵修正。"
+        "question": "当你发现电力螺旋桨小船航向偏右时，应如何调整船舵？",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "任务需求和标准",
         "difficulty": 1,
+        "explanation": "工程设计的第一步是明确任务目标和评价标准，例如小船需要承载多少物品、行驶多远。",
         "knowledge_point": "工程方案",
-        "question": "在设计小船时，首先需要考虑的是什么？",
         "options": [
           "船的外观",
           "任务需求和标准",
           "使用的材料价格",
           "船的速度"
         ],
-        "answer": "任务需求和标准",
-        "explanation": "工程设计的第一步是明确任务目标（如承重多少、行驶多远）。"
+        "question": "在设计小船时，首先需要考虑的是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "增大船体体积",
         "difficulty": 2,
+        "explanation": "如果船体大小是载重量不足的原因，增大船体体积可以使船排开更多水，从而获得更大的浮力。改进后还要用相同条件重新测试，确认载重量是否达标。",
         "knowledge_point": "测试与改进",
-        "question": "小船在测试中载重量未达标，以下改进最有效的是？",
         "options": [
           "增加动力输出",
           "增大船体体积",
           "给船涂上油漆",
           "更换更轻的船舵"
         ],
-        "answer": "增大船体体积",
-        "explanation": "根据排水量原理，体积越大排水量越大，浮力也就越大，从而载重量增加。"
+        "question": "小船在测试中载重量未达标，以下改进最有效的是？",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "制作成本",
         "difficulty": 3,
+        "explanation": "铝箔纸属于制作材料，多用一张就会增加材料使用量，从而增加制作成本。工程设计应在满足性能要求的前提下合理使用材料。",
         "knowledge_point": "成本控制",
-        "question": "在模拟造船工程中，如果多用一张铝箔纸会增加什么？",
         "options": [
           "美观度",
           "制作成本",
           "推进速度",
           "航行方向"
         ],
-        "answer": "制作成本",
-        "explanation": "工程思维要求在满足性能的情况下最小化资源投入和成本。"
+        "question": "在模拟造船工程中，如果多用一张铝箔纸会增加什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "改变自身重力",
         "difficulty": 2,
+        "explanation": "潜艇通过压载舱充水或排水，改变自身总重量，从而改变重力与浮力的关系，实现下潜或上浮。",
         "knowledge_point": "潜艇原理",
-        "question": "潜水艇是通过改变什么来实现上浮和下沉的？",
         "options": [
           "改变自身重力",
           "改变水的密度",
           "改变自身形状",
           "改变水的浮力"
         ],
-        "answer": "改变自身重力",
-        "explanation": "潜艇通过压载舱充水或排水改变自身重力，从而实现起伏。"
+        "question": "潜水艇是通过改变什么来实现上浮和下沉的？",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "人力",
         "difficulty": 2,
+        "explanation": "人摇动橹柄，把力传给橹叶；橹叶拨水后，水对橹产生向前的反作用力，推动船前进。",
         "knowledge_point": "摇橹原理",
-        "question": "摇橹船产生的动力来源于什么？",
         "options": [
           "风力",
           "重力",
           "水的推力",
           "人力"
         ],
-        "answer": "人力",
-        "explanation": "摇橹是利用杠杆原理，靠人力驱动桨叶产生推力。"
+        "question": "摇橹船产生的动力来源于什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "载重量测量",
-        "question": "我们在测试铝箔船的载重量时，如果此时放入（___）个垫圈正好使船沉没，则该船的载重量应记录为上一个垫圈数。",
-        "options": [],
         "answer": "10",
-        "explanation": "载重量记录为船能承载而不沉没的最大数值，通常通过逐个增加垫圈测试。"
-      },
-      {
-        "id": 20,
+        "difficulty": 2,
+        "explanation": "载重量记录为船能承载而不沉没的最大数量。若放入第10个垫圈时船沉没，那么沉没前最后能承载的是9个。",
+        "knowledge_point": "载重量测量",
+        "options": [],
+        "question": "我们在测试铝箔船的载重量时，如果此时放入（___）个垫圈正好使船沉没，则该船的载重量应记录为上一个垫圈数。",
+        "score": 5,
         "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "工程设计",
-        "question": "在一项造船任务中，通常需要经历三轮以上的测试迭代，某小组设计了（___）个方案进行初步筛选比较。",
-        "options": [],
+        "id": 19
+      },
+      {
         "answer": "3",
-        "explanation": "工程实践鼓励提出多个初步方案（常见3个）进行优劣分析。"
+        "difficulty": 2,
+        "explanation": "工程设计通常鼓励先提出多个初步方案，再根据任务要求比较优缺点。题目所述小组提出3个方案进行初步筛选。",
+        "knowledge_point": "工程设计",
+        "options": [],
+        "question": "在一项造船任务中，某小组提出了多个方案进行初步筛选比较。若小组设计了3个方案，那么他们设计了（___）个方案。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "阻力因素",
-        "question": "船在水中运动时，由于水的粘滞性，船头会受到水的（___）。",
-        "options": [],
         "answer": "阻力",
-        "explanation": "物体在流体中运动受到阻碍运动的力称为阻力。"
-      },
-      {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "浮力原理",
-        "question": "物体排开水的重力等于该物体在水中受到的（___）。",
-        "options": [],
-        "answer": "浮力",
-        "explanation": "阿基米德原理：浮力等于排开液体的重力。"
-      },
-      {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "动力设备",
-        "question": "利用电池和马达连接的、可以拨动水流转动的动力装置叫（___）。",
+        "explanation": "物体在水中运动时，水会阻碍它的运动，这种阻碍运动的力叫阻力。",
+        "knowledge_point": "阻力因素",
         "options": [],
+        "question": "船在水中运动时，由于水的粘滞性，船头会受到水的（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
+      },
+      {
+        "answer": "浮力",
+        "difficulty": 1,
+        "explanation": "浮力等于物体排开液体的重力，因此物体排开水的重力等于它在水中受到的浮力。",
+        "knowledge_point": "浮力原理",
+        "options": [],
+        "question": "物体排开水的重力等于该物体在水中受到的（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
         "answer": "螺旋桨",
-        "explanation": "螺旋桨通过旋转将马达的扭矩转化为水的推力。"
+        "difficulty": 2,
+        "explanation": "螺旋桨由马达带动旋转，拨动水流并产生推动装置前进的推力。",
+        "knowledge_point": "动力设备",
+        "options": [],
+        "question": "利用电池和马达连接的、可以拨动水流转动的动力装置叫（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "独木舟",
+        "difficulty": 1,
+        "explanation": "早期人们会把树干挖空制成独木舟，主要靠划桨前进，是较早出现的船只之一。",
+        "knowledge_point": "船的历史、动力演变与结构优化",
+        "options": [
+          "独木舟",
+          "蒸汽船",
+          "柴油机船",
+          "集装箱船"
+        ],
+        "question": "下面哪一种船较早出现，通常由挖空的树干制成？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "人力",
+        "difficulty": 1,
+        "explanation": "划桨是利用人的力量推动船前进，属于人力动力。",
+        "knowledge_point": "船的历史、动力演变与结构优化",
+        "options": [],
+        "question": "早期人们用船桨划船，船主要依靠什么动力前进？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "帆借助风力推动船航行，因此帆船的动力来自风。",
+        "knowledge_point": "船的历史、动力演变与结构优化",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "帆船利用风力航行。",
+        "score": 1,
+        "type": "true_false",
+        "id": 26
+      },
+      {
+        "answer": "蒸汽",
+        "difficulty": 2,
+        "explanation": "蒸汽机推动船舶航行，标志着船的动力从人力、风力等逐步发展到机器动力。",
+        "knowledge_point": "船的历史、动力演变与结构优化",
+        "options": [],
+        "question": "蒸汽船主要使用________机提供动力。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "船身较宽，把货物放低并均匀摆放",
+        "difficulty": 2,
+        "explanation": "船身较宽有助于保持稳定；把重物放低并均匀摆放，可以减少船体摇晃和倾覆的可能。",
+        "knowledge_point": "船的历史、动力演变与结构优化",
+        "options": [
+          "船身做得很窄，把货物都放在一侧",
+          "船身较宽，把货物放低并均匀摆放",
+          "在船底开孔，让水进入船内",
+          "把货物堆在船的一端并尽量垒高"
+        ],
+        "question": "小明要给一艘载货小船装货，怎样做更有利于小船在水面上保持稳定？",
+        "score": 2,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "船体做成中空的船形，可以排开较多的水并获得浮力；船身较宽或把重物放低、均匀摆放，也有助于保持稳定。",
+        "difficulty": 2,
+        "explanation": "船能浮起与浮力有关。中空船体能排开更多水，从而获得支撑船和货物的浮力；合理的船形和载货方式还能提升稳定性。",
+        "knowledge_point": "船的历史、动力演变与结构优化",
+        "options": [],
+        "question": "简要说明中空船体有什么作用，并写出一种有助于船保持稳定的设计或载货方法。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "中空、底部较宽的船形",
+        "difficulty": 1,
+        "explanation": "橡皮泥捏成中空、底部较宽的船形后，能排开较多的水，受到的浮力增大，因此比捏成实心球更容易浮在水面上。",
+        "knowledge_point": "用沉的材料造船与浮力原理",
+        "options": [
+          "实心球形",
+          "中空、底部较宽的船形",
+          "细长实心条形",
+          "分成小块后直接放入水中"
+        ],
+        "question": "用同样多的橡皮泥做船，哪种形状更容易浮在水面上？",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "物体受到水向上的浮力。船排开的水越多，通常受到的浮力也越大；当浮力能托住船和货物的总重量时，船就能漂浮。",
+        "knowledge_point": "用沉的材料造船与浮力原理",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "船受到的浮力与它排开的水有关。",
+        "score": 1,
+        "type": "true_false",
+        "id": 31
+      },
+      {
+        "answer": "排开",
+        "difficulty": 1,
+        "explanation": "船漂浮时会排开一部分水。排开的水越多，水对船的浮力通常越大。",
+        "knowledge_point": "用沉的材料造船与浮力原理",
+        "options": [],
+        "question": "船在水中会____一部分水，水对船产生向上的浮力。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "增加载重后，船浸入水中的部分变多，排开的水增加，浮力也随之增大，直到浮力与船和货物的总重量平衡。",
+        "difficulty": 2,
+        "explanation": "漂浮的船增加货物后会下沉一些，排开更多水，从而获得更大的浮力。若货物继续增加，超过船能排水所提供的浮力，船就会下沉。",
+        "knowledge_point": "用沉的材料造船与浮力原理",
+        "options": [],
+        "question": "一只小船原来漂浮在水面上，放入几枚硬币后船下沉了一些，但仍然漂浮。为什么？",
+        "score": 2,
+        "type": "calculation",
+        "id": 33
+      },
+      {
+        "answer": "船的形状和大小会影响它能排开的水量。做成中空、底部较宽的船形，通常能排开更多水，获得更大的浮力，所以沉的材料也能造出会浮的船。",
+        "difficulty": 2,
+        "explanation": "是否漂浮不能只看材料本身，还要看整个船的形状、体积和排水情况。船形结构可以让材料在不增加材料用量的情况下排开更多水。",
+        "knowledge_point": "用沉的材料造船与浮力原理",
+        "options": [],
+        "question": "简要说说：为什么用原本会下沉的材料，也能造出漂浮的船？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "大约30枚硬币",
+        "difficulty": 2,
+        "explanation": "船漂浮时，浮力与船和所载硬币的总重量相等。实验中放入硬币时，船会逐渐下沉、排开更多水；超过最大载重后，浮力不足以托住总重量，船就会下沉。",
+        "knowledge_point": "用沉的材料造船与浮力原理",
+        "options": [],
+        "question": "用同样大小的橡皮泥做成小船，逐枚放入硬币。若放到约30枚时小船开始进水下沉，那么它最多能承载多少枚硬币？",
+        "score": 2,
+        "type": "calculation",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "船体能排开较多的水时，通常能获得更大的浮力，因此在其他条件相近时，有可能承载更多货物。",
+        "knowledge_point": "增加船的载重量及其影响因素",
+        "options": [
+          "船涂了什么颜色",
+          "船能排开水的多少",
+          "船上是否有旗子",
+          "船名有几个字"
+        ],
+        "question": "在其他条件相近时，哪项最可能帮助一艘船装载更多货物？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "船的结构和形状会影响它能排开多少水，因此改变形状可能改变载重量。",
+        "knowledge_point": "增加船的载重量及其影响因素",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "把船体设计得更宽、更能容纳货物，可能增加它的载重量。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "空船质量",
+        "difficulty": 2,
+        "explanation": "载重量指船能够额外承载的货物等质量，不包括船本身的质量。因此用满载时的总质量减去空船质量。",
+        "knowledge_point": "增加船的载重量及其影响因素",
+        "options": [],
+        "question": "船的载重量等于装载后的总质量减去船的________。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "18千克",
+        "difficulty": 2,
+        "explanation": "载重量＝装载后的总质量－空船质量＝30－12＝18（千克）。",
+        "knowledge_point": "增加船的载重量及其影响因素",
+        "options": [],
+        "question": "一艘空船质量是12千克，装货后总质量是30千克。这艘船装载的货物质量是多少？",
+        "score": 2,
+        "type": "calculation",
+        "id": 39
+      },
+      {
+        "answer": "用相同材料和相同大小的纸，分别做成不同形状的船；每次用相同份量逐步加货，并记录船开始进水或下沉前能承载的货物量。",
+        "difficulty": 3,
+        "explanation": "保持材料、大小和加货方式相同，只改变船的形状，能够较公平地比较形状对载重量的影响。",
+        "knowledge_point": "增加船的载重量及其影响因素",
+        "options": [],
+        "question": "想比较两种船形哪一种载重量更大，可以怎样设计实验？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "将货物均匀放置在船内，并留出安全余量。",
+        "difficulty": 2,
+        "explanation": "货物集中在一侧容易使船倾斜甚至进水；超过最大承载能力也会导致船下沉。均匀装载并留有余量更安全。",
+        "knowledge_point": "增加船的载重量及其影响因素",
+        "options": [],
+        "question": "装货时，怎样做能减少船倾斜或进水的风险？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "发动机提供动力，螺旋桨转动后推动水流，使船前进；船舵主要用来控制方向。",
+        "knowledge_point": "船的动力系统与方向控制装置",
+        "options": [
+          "船舵",
+          "发动机和螺旋桨",
+          "船锚",
+          "船灯"
+        ],
+        "question": "在常见的机动船上，通常由什么装置提供动力并推动船前进？",
+        "score": 1,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "船舵",
+        "difficulty": 1,
+        "explanation": "船舵是常见的方向控制装置。操纵船舵可以改变水流对船尾的作用，帮助船改变航向。",
+        "knowledge_point": "船的动力系统与方向控制装置",
+        "options": [],
+        "question": "船上通常用来控制航行方向的装置叫作什么？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 43
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "帆船利用风吹动帆获得前进的动力；它不一定需要发动机才能航行。",
+        "knowledge_point": "船的动力系统与方向控制装置",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "帆船可以利用风力作为前进的动力。",
+        "score": 1,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "船舵负责控制方向，船锚用于停泊或固定船只，救生圈用于水上救援；这些都不是船前进的主要动力来源。",
+        "knowledge_point": "船的动力系统与方向控制装置",
+        "options": [
+          "船舵",
+          "船锚",
+          "发动机",
+          "救生圈"
+        ],
+        "question": "下列哪一种通常不是船前进的动力来源？",
+        "score": 1,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "螺旋桨",
+        "difficulty": 2,
+        "explanation": "螺旋桨转动时推动水流，水流的反作用力帮助船向前运动。不同船也可能采用其他推进方式。",
+        "knowledge_point": "船的动力系统与方向控制装置",
+        "options": [],
+        "question": "常见机动船上，转动后能够推动水流、帮助船前进的装置叫作什么？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "船需要动力才能前进，需要方向控制装置才能转向或调整航向。两者作用不同，不能相互混淆。",
+        "knowledge_point": "船的动力系统与方向控制装置",
+        "options": [
+          "船锚负责推动船前进，发动机负责控制方向",
+          "船舵负责提供动力，螺旋桨负责停泊",
+          "动力系统帮助船前进，方向控制装置帮助船改变航向",
+          "救生圈既提供动力又控制方向"
+        ],
+        "question": "关于船的动力系统和方向控制装置，下列说法正确的是哪一项？",
+        "score": 1,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "明确任务与限制 → 设计 → 制作 → 测试并记录 → 改进并再测试。",
+        "difficulty": 1,
+        "explanation": "工程设计通常按这样的流程开展。测试结果能帮助我们判断设计是否达到目标，并为改进提供依据。",
+        "knowledge_point": "工程设计流程：设计、制作与测试小船",
+        "options": [],
+        "question": "请按合理顺序排列设计、制作与测试小船的步骤。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 48
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "测试时记录小船能否漂浮、是否稳定以及承载情况，可以依据证据判断设计效果。",
+        "knowledge_point": "工程设计流程：设计、制作与测试小船",
+        "options": [
+          "A. 只凭外观判断小船好不好",
+          "B. 把小船放入水中测试并记录观察结果",
+          "C. 不测试，直接宣布设计成功",
+          "D. 每次测试都改变不同条件，不作记录"
+        ],
+        "question": "哪种做法最能帮助我们判断小船设计是否有效？",
+        "score": 2,
+        "type": "choice",
+        "id": 49
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "测试能发现小船的实际表现和设计中的问题，改进后再次测试可以比较效果。",
+        "knowledge_point": "工程设计流程：设计、制作与测试小船",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "小船第一次测试没有达到目标时，可以根据测试结果改进设计，再进行测试。",
+        "score": 1,
+        "type": "true_false",
+        "id": 50
+      },
+      {
+        "answer": "设计图",
+        "difficulty": 1,
+        "explanation": "设计图能表示小船的大致形状和结构，为制作提供参考。",
+        "knowledge_point": "工程设计流程：设计、制作与测试小船",
+        "options": [],
+        "question": "制作小船前，可以先画一张________，表示小船的形状和结构。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 51
+      },
+      {
+        "answer": "先检查船身是否平稳、物品是否放在船的中间，并用相同条件重新测试。若船身倾斜，可调整物品位置或改进船体形状，再观察是否更稳定。",
+        "difficulty": 2,
+        "explanation": "先依据测试现象分析可能原因，再提出有针对性的改进，并在相同条件下再次测试，才能比较改进前后的效果。",
+        "knowledge_point": "工程设计流程：设计、制作与测试小船",
+        "options": [],
+        "question": "测试时，小船一放入水中就向一侧倾斜。请说出一种可能的原因和一种改进方法。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "应尽量只改变一个重要条件，并保持测试方法相同。",
+        "difficulty": 2,
+        "explanation": "如果同时改变多个条件，就难以判断是哪一项变化影响了结果。采用相同测试方法，有助于公平比较改进前后的表现。",
+        "knowledge_point": "工程设计流程：设计、制作与测试小船",
+        "options": [],
+        "question": "为了判断小船改进后是否更稳定，测试时应怎样控制条件？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "人力",
+        "difficulty": 1,
+        "explanation": "早期人们常用手划桨或摇橹，使船获得前进的动力，这属于人力。",
+        "knowledge_point": "船的历史与动力",
+        "options": [],
+        "question": "用手划桨或摇橹使船前进，船的动力主要来自____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "帆能够借助风力推动船前进；船桨主要利用人力，发动机则提供机械动力。",
+        "knowledge_point": "船的历史与动力",
+        "options": [
+          "A. 船桨",
+          "B. 帆",
+          "C. 锚",
+          "D. 船舱"
+        ],
+        "question": "帆船主要利用什么动力前进？",
+        "score": 2,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "蒸汽机等机械动力的应用推动了船舶的发展，使船不再只依靠人力或风力。",
+        "knowledge_point": "船的历史与动力",
+        "options": [],
+        "question": "机械动力出现后，船只可以在没有风或风力较弱时继续航行。",
+        "score": 2,
+        "type": "true_false",
+        "id": 56
+      },
+      {
+        "answer": "螺旋桨",
+        "difficulty": 2,
+        "explanation": "发动机带动螺旋桨转动，螺旋桨推动水流，从而使船向前航行。",
+        "knowledge_point": "船的历史与动力",
+        "options": [],
+        "question": "许多现代船只由发动机带动____转动来推动船前进。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 57
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "人力、风力和机械动力都曾被用于推动船前进，体现了船的动力不断发展。船的材料和动力是不同的方面。",
+        "knowledge_point": "船的历史与动力",
+        "options": [
+          "A. 船的动力从人力、风力逐渐发展到机械动力",
+          "B. 所有船只都必须靠风才能前进",
+          "C. 船只的材料决定了它只能使用一种动力",
+          "D. 有了发动机后，人力和风力就完全不能用于船只"
+        ],
+        "question": "下面哪项最能概括船的动力发展？",
+        "score": 2,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "船底较宽时，船受到侧向扰动后通常较不容易倾覆。",
+        "knowledge_point": "船的稳定性",
+        "options": [],
+        "question": "在其他条件相近时，船底较宽的船通常比船底较窄的船更稳定。",
+        "score": 2,
+        "type": "true_false",
+        "id": 59
+      },
+      {
+        "answer": "低",
+        "difficulty": 1,
+        "explanation": "把重物放在船舱底部，能让船的重心较低，通常有助于减少倾斜和倾覆。",
+        "knowledge_point": "船的稳定性",
+        "options": [],
+        "question": "为了让船更稳定，货物应尽量放在船舱的____处。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 60
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "货物均匀分布在船舱底部，能减少船体一侧过重和重心过高的情况，因此通常更稳定。",
+        "knowledge_point": "船的稳定性",
+        "options": [
+          "A. 把货物堆在船的一侧高处",
+          "B. 把货物均匀放在船舱底部",
+          "C. 把货物全部放在船头"
+        ],
+        "question": "怎样装载货物通常能让船更稳定？",
+        "score": 2,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "船底较宽，重物放得较低",
+        "difficulty": 2,
+        "explanation": "宽船底有助于船体保持平衡；重物放低可使重心较低，减少倾覆的可能。",
+        "knowledge_point": "船的稳定性",
+        "options": [],
+        "question": "请写出两种能提高船稳定性的方法。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "若材料、加重物和加重方法相同，只改变船底宽窄，观察船能承受多少垫圈后倾斜或进水，比较结果才较公平。",
+        "knowledge_point": "船的稳定性",
+        "options": [
+          "A. 使用不同材料制作，并随意放置垫圈",
+          "B. 用相同材料制作不同宽度的小船，再逐个放入相同垫圈并观察",
+          "C. 只看小船的颜色来判断稳定性"
+        ],
+        "question": "想比较船底宽窄对稳定性的影响，哪种做法更公平？",
+        "score": 2,
+        "type": "choice",
+        "id": 63
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "浸在水中的物体会受到水向上的托力，这个力就是浮力；物体下沉时也受到浮力。",
+        "knowledge_point": "浮力原理",
+        "options": [],
+        "question": "物体在水中下沉时，也会受到水对它的浮力。",
+        "score": 2,
+        "type": "true_false",
+        "id": 64
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "浮力的方向竖直向上，与重力方向相反。",
+        "knowledge_point": "浮力原理",
+        "options": [
+          "A. 竖直向下",
+          "B. 水平方向",
+          "C. 竖直向上"
+        ],
+        "question": "水对浸在其中的物体产生的浮力，方向通常是（ ）。",
+        "score": 2,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "排开液体的重力",
+        "difficulty": 2,
+        "explanation": "浮力等于物体排开液体的重力，这是理解浮力大小的基本关系。",
+        "knowledge_point": "浮力原理",
+        "options": [],
+        "question": "根据浮力原理，物体受到的浮力等于它（___）的重力。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "捏成船形后，橡皮泥能排开更多水，受到的浮力增大，因而可能浮起来。",
+        "difficulty": 2,
+        "explanation": "船形能使橡皮泥排开更多水。排开的水越多，其重力越大，橡皮泥受到的浮力也越大；当浮力足以托住橡皮泥时，它就能浮在水面。",
+        "knowledge_point": "浮力原理",
+        "options": [],
+        "question": "一团橡皮泥放入水中会下沉。把它捏成船形后，它可能浮在水面。请用浮力原理解释原因。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 67
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "发动机能够提供汽车行驶所需的动力；方向盘主要用于控制行驶方向。",
+        "knowledge_point": "动力系统与方向",
+        "options": [
+          "A. 发动机",
+          "B. 方向盘",
+          "C. 后视镜",
+          "D. 车灯"
+        ],
+        "question": "汽车行驶时，通常由哪个部件提供动力？",
+        "score": 2,
+        "type": "choice",
+        "id": 68
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "方向盘用于改变汽车行驶方向，发动机等动力系统提供汽车行驶所需的动力。",
+        "knowledge_point": "动力系统与方向",
+        "options": [],
+        "question": "汽车的方向盘是提供行驶动力的装置。",
+        "score": 2,
+        "type": "true_false",
+        "id": 69
+      },
+      {
+        "answer": "车把",
+        "difficulty": 1,
+        "explanation": "骑自行车时，转动车把可以带动前轮转向，从而改变自行车的行驶方向。",
+        "knowledge_point": "动力系统与方向",
+        "options": [],
+        "question": "骑自行车时，通常通过转动______来改变行驶方向。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "风帆借助风力推动船只前进，属于船的动力来源之一；船舵用于改变航向。",
+        "knowledge_point": "动力系统与方向",
+        "options": [
+          "A. 船舵",
+          "B. 风帆",
+          "C. 船窗",
+          "D. 船灯"
+        ],
+        "question": "帆船利用哪个部分借助风力获得前进的动力？",
+        "score": 2,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "发动机提供动力，方向盘控制行驶方向。",
+        "difficulty": 2,
+        "explanation": "汽车的发动机提供行驶所需的动力，方向盘则帮助驾驶员改变车轮朝向，控制汽车的行驶方向。",
+        "knowledge_point": "动力系统与方向",
+        "options": [],
+        "question": "分别说说汽车的发动机和方向盘各有什么作用。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 72
+      },
+      {
+        "answer": "提出方案并画设计稿",
+        "difficulty": 1,
+        "explanation": "明确问题和需求后，应先思考解决办法并进行设计，再开始制作。",
+        "knowledge_point": "工程设计流程",
+        "options": [],
+        "question": "明确要解决的问题后，动手制作之前通常应先________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 73
+      },
+      {
+        "answer": "测试",
+        "difficulty": 1,
+        "explanation": "制作完成后，通过测试可以了解作品是否达到预期要求，并发现需要改进的地方。",
+        "knowledge_point": "工程设计流程",
+        "options": [],
+        "question": "小组制作好一座纸桥后，放上不同重量的物品，观察它能承受多少重量。这一步属于工程设计流程中的________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 74
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "完整的工程实践包括设计、制作、测试、评价和完善。发现问题后应根据测试结果改进作品。",
+        "knowledge_point": "工程设计流程",
+        "options": [
+          "设计、制作、测试、评价、完善",
+          "制作、展示、结束",
+          "购买材料、制作、结束",
+          "测试、制作、设计、结束"
+        ],
+        "question": "下列哪一项最符合完整的工程设计流程？",
+        "score": 2,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "先比较方案是否满足需求，再考虑材料成本和安全等条件",
+        "difficulty": 2,
+        "explanation": "评价工程方案时，既要看作品能否满足使用需求，也要考虑成本、安全等限制，不能只追求性能。",
+        "knowledge_point": "工程设计流程",
+        "options": [],
+        "question": "小组要制作一个能装水的容器，设计时除了考虑它是否漏水，还应考虑哪些条件？请写出至少两项。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 76
+      },
+      {
+        "answer": "先记录测试中发现的问题，再调整设计或制作方法，完成修改后重新测试，看看作品是否有所改进。",
+        "difficulty": 3,
+        "explanation": "工程设计是不断改进的过程。依据测试结果发现问题、作出修改并再次测试，才能判断改进是否有效。",
+        "knowledge_point": "工程设计流程",
+        "options": [],
+        "question": "纸桥测试时中间下陷，说明它可能不够牢固。写出接下来可以进行的两步。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 77
+      },
+      {
+        "answer": "阻力",
+        "difficulty": 1,
+        "explanation": "水或空气会阻碍物体运动，这种阻碍运动的力叫阻力。",
+        "knowledge_point": "阻力与形状",
+        "options": [],
+        "question": "物体在水中或空气中运动时，受到的阻碍运动的力叫作____。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 78
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "流线型形状能让水流或气流较顺畅地绕过物体，通常可以减小物体运动时受到的阻力。",
+        "knowledge_point": "阻力与形状",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "物体做成流线型，通常有助于减小它在水中或空气中运动时受到的阻力。",
+        "score": 5,
+        "type": "true_false",
+        "id": 79
+      },
+      {
+        "answer": "尖形",
+        "difficulty": 2,
+        "explanation": "尖形的船首有助于分开水流，使水流从船身两侧绕过，通常可以减小水的阻力。",
+        "knowledge_point": "阻力与形状",
+        "options": [
+          "平直方形",
+          "尖形",
+          "凹凸不平形",
+          "宽大的平头形"
+        ],
+        "question": "同样大小的船，其他条件相同时，哪种船首形状通常更有利于减小水的阻力？",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "形状",
+        "difficulty": 2,
+        "explanation": "其他条件相同时，改变物体的形状会影响水流或气流绕过物体的方式，因此会影响阻力大小。",
+        "knowledge_point": "阻力与形状",
+        "options": [],
+        "question": "研究物体形状与阻力的关系时，如果保持材料和大小相同，只改变物体的____，观察到的阻力变化就能帮助我们分析它们之间的关系。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 81
+      },
+      {
+        "answer": "同样大小、材料相同的物体，做成流线型时受到的阻力通常较小。",
+        "difficulty": 3,
+        "explanation": "流线型能让水流或气流较平顺地绕过物体，减少对运动的阻碍。比较时还要确保材料、大小和运动方式等条件相同。",
+        "knowledge_point": "阻力与形状",
+        "options": [],
+        "question": "用一句话说明流线型的形状为什么常被用于船、汽车或飞机。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "船形",
+        "difficulty": 1,
+        "explanation": "把铝箔做成底部较宽、内部中空的船形，可以让它排开更多水，获得更大的浮力。",
+        "knowledge_point": "沉的材料造船",
+        "options": [],
+        "question": "同一张铝箔做成中空的________，比揉成紧实的小团更容易浮在水面上。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "铝箔的材料没有改变，但做成船形后能排开更多水，受到的浮力也会增大。",
+        "knowledge_point": "沉的材料造船",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "铝箔做成船后能浮起来，说明铝箔材料本身变轻了。",
+        "score": 5,
+        "type": "true_false",
+        "id": 84
+      },
+      {
+        "answer": "排开的水的重量",
+        "difficulty": 2,
+        "explanation": "物体在水中受到的浮力大小，等于它排开的水的重量。船形增大后可以排开更多水，浮力也随之增大。",
+        "knowledge_point": "沉的材料造船",
+        "options": [],
+        "question": "物体在水中受到的浮力大小等于它________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "能浮起或漂浮",
+        "difficulty": 2,
+        "explanation": "当浮力大于重力时，物体会向上运动；当浮力与重力相等时，物体可以保持漂浮。",
+        "knowledge_point": "沉的材料造船",
+        "options": [],
+        "question": "当铝箔船受到的浮力大于或等于它的重力时，它会怎样？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "铝箔船能承载更多物品，说明它在下沉前能排开更多水，并获得更大的浮力。保持铝箔大小相同，才能公平比较船形的影响。",
+        "knowledge_point": "沉的材料造船",
+        "options": [
+          "两张铝箔大小相同，一张揉成团，另一张折成船形，比较它们最多能承载多少个相同的垫圈",
+          "用不同大小的铝箔做成两条船，再比较哪条船承载的垫圈更多",
+          "只观察铝箔的颜色，不做水中实验",
+          "把铝箔船放在桌上，比较它们的重量"
+        ],
+        "question": "想比较铝箔的形状对承载能力的影响，下面哪种实验方法更合适？",
+        "score": 5,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "在其他条件相同的情况下，船体体积较大通常能排开更多的水，因此载重量通常也较大。",
+        "knowledge_point": "载重量因素",
+        "options": [],
+        "question": "判断题：在其他条件相同的情况下，船体体积越大，通常能排开更多的水，载重量也通常越大。（　）答案：正确",
+        "score": 5,
+        "type": "true_false",
+        "id": 88
+      },
+      {
+        "answer": "船体大小（或体积）",
+        "difficulty": 1,
+        "explanation": "船体大小是影响载重量的因素之一；其他条件相同，船体通常越大，载重量通常越大。",
+        "knowledge_point": "载重量因素",
+        "options": [],
+        "question": "在其他条件相同的情况下，影响船载重量的因素之一是船体的______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 89
+      },
+      {
+        "answer": "20千克",
+        "difficulty": 2,
+        "explanation": "货物质量为：14×1.5＝21（千克）。船开始进水时，货物质量需少于21千克，因此最多可装20千克。",
+        "knowledge_point": "载重量因素",
+        "options": [],
+        "question": "一只小船每增加1千克货物，吃水深度增加1.5厘米。当货物质量达到14千克时，小船开始进水。若按整千克装载，为避免进水，最多能装多少千克货物？",
+        "score": 5,
+        "type": "calculation",
+        "id": 90
+      },
+      {
+        "answer": "保持不变",
+        "difficulty": 2,
+        "explanation": "要研究船体底面积对载重量的影响，应只改变底面积，其他条件尽量保持相同，才能较公平地比较结果。",
+        "knowledge_point": "载重量因素",
+        "options": [],
+        "question": "比较不同底面积的纸船载重量时，纸的材料和厚度应尽量______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 91
+      },
+      {
+        "answer": "船体大小（或船的体积）会影响载重量。",
+        "difficulty": 2,
+        "explanation": "控制其他条件并只改变船体大小后，若测得载重量不同，就可以判断船体大小对载重量有影响。",
+        "knowledge_point": "载重量因素",
+        "options": [],
+        "question": "小明用相同材料制作大小不同的船，测量每只船能装多少个相同的垫圈。这个实验主要想研究什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "风力",
+        "difficulty": 1,
+        "explanation": "帆船张起船帆后，借助风力前进，风力属于自然动力。",
+        "knowledge_point": "动力演变",
+        "options": [],
+        "question": "帆船主要借助什么自然力量航行？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "划桨和摇橹都需要人提供力量，因此属于人力动力。",
+        "knowledge_point": "动力演变",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "划桨和摇橹都属于人力动力。",
+        "score": 5,
+        "type": "true_false",
+        "id": 94
+      },
+      {
+        "answer": "蒸汽机",
+        "difficulty": 2,
+        "explanation": "蒸汽机被用于船只后，船可以依靠机械动力航行。",
+        "knowledge_point": "动力演变",
+        "options": [],
+        "question": "早期使用机械动力的船只中，有些船安装了什么机器来提供动力？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 95
+      },
+      {
+        "answer": "机械动力",
+        "difficulty": 2,
+        "explanation": "内燃机是机器，利用燃料提供动力，因此由内燃机驱动的船属于使用机械动力的船。",
+        "knowledge_point": "动力演变",
+        "options": [
+          "人力",
+          "自然动力",
+          "机械动力",
+          "风力"
+        ],
+        "question": "由内燃机驱动的船，使用的是哪一类动力？",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "速度更快、航行距离更远、运载能力更强",
+        "difficulty": 3,
+        "explanation": "机械动力让船不必只依靠人力或风力，通常能持续提供较强动力，因此有助于提高航速、扩大航行范围和增加运载能力。",
+        "knowledge_point": "动力演变",
+        "options": [],
+        "question": "与早期主要靠人划行的船相比，机械动力船通常有哪些优点？请写出至少两点。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 97
+      },
+      {
+        "answer": "低",
+        "difficulty": 1,
+        "explanation": "较重的货物放在低处，可以降低船和货物整体的重心，通常有助于提高稳定性。",
+        "knowledge_point": "载重稳定性",
+        "options": [],
+        "question": "为了让船装货后更平稳，较重的货物通常应放在较____的位置。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 98
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "如果货物集中在船的一侧，该侧会更重，船可能向这一侧倾斜，严重时会翻倒。",
+        "knowledge_point": "载重稳定性",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "把货物都放在船的一侧，可能使船向这一侧倾斜。",
+        "score": 5,
+        "type": "true_false",
+        "id": 99
+      },
+      {
+        "answer": "左右平衡",
+        "difficulty": 2,
+        "explanation": "左右两侧货物分布尽量平衡，可以减少船体向一侧倾斜的情况。",
+        "knowledge_point": "载重稳定性",
+        "options": [],
+        "question": "装载货物时，船的两侧应尽量保持____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 100
+      },
+      {
+        "answer": "放在船底附近并尽量居中，左右均匀摆放，不要堆得过高。",
+        "difficulty": 2,
+        "explanation": "重物放低并尽量靠近船体中部，可以降低整体重心；左右均匀摆放有助于避免船身向一侧倾斜。",
+        "knowledge_point": "载重稳定性",
+        "options": [],
+        "question": "有几块相同的小积木要装到纸船上，怎样摆放更有利于保持纸船平稳？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "超过安全载重量会使船下沉更多，也可能影响稳定性，增加倾斜或翻倒的风险。",
+        "difficulty": 2,
+        "explanation": "船能承载的重量有一定范围。即使货物摆放均匀，装得过多仍可能使船下沉过深，甚至失去稳定。",
+        "knowledge_point": "载重稳定性",
+        "options": [],
+        "question": "为什么船上的货物不能装得过多？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 102
+      },
+      {
+        "answer": "独木舟",
+        "difficulty": 1,
+        "explanation": "独木舟通常由一段树干加工而成，是较为简单的早期船只之一。",
+        "knowledge_point": "船的历史",
+        "options": [
+          "独木舟",
+          "蒸汽船",
+          "核潜艇",
+          "现代货轮"
+        ],
+        "question": "哪种船通常是把一段树干加工成船身？",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "风力",
+        "difficulty": 1,
+        "explanation": "帆船张起船帆，借助风推动船只航行。",
+        "knowledge_point": "船的历史",
+        "options": [
+          "风力",
+          "核能",
+          "太阳光直接推动船身",
+          "蒸汽"
+        ],
+        "question": "传统帆船主要借助什么力量航行？",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "从帆船到机械动力船，反映了人们制造船只和利用动力的技术进步。",
+        "knowledge_point": "船的历史",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "船的发展体现了人类造船技术和动力技术的进步。",
+        "score": 5,
+        "type": "true_false",
+        "id": 105
+      },
+      {
+        "answer": "帆船",
+        "difficulty": 2,
+        "explanation": "帆船利用风力航行，在历史上曾广泛用于运输、捕鱼和远航。",
+        "knowledge_point": "船的历史",
+        "options": [],
+        "question": "利用风力航行、船上装有船帆的船叫作____。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 106
+      },
+      {
+        "answer": "动力",
+        "difficulty": 2,
+        "explanation": "比较船的动力，可以看出船是依靠人力、风力还是机械装置等力量航行。",
+        "knowledge_point": "船的历史",
+        "options": [],
+        "question": "比较独木舟、帆船和现代机械动力船时，可以从船的材料、用途和____等方面进行观察。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "塑料",
+        "difficulty": 1,
+        "explanation": "雨衣需要挡住雨水，塑料通常不容易吸水，适合制作防水雨衣。",
+        "knowledge_point": "材料选择",
+        "options": [
+          "棉布",
+          "纸",
+          "塑料",
+          "海绵"
+        ],
+        "question": "制作雨衣，下面哪种材料通常更合适？",
+        "score": 5,
+        "type": "choice",
+        "id": 108
+      },
+      {
+        "answer": "透明玻璃",
+        "difficulty": 1,
+        "explanation": "窗户需要让光线透过，也方便人们看清窗外。透明玻璃具有良好的透光性。",
+        "knowledge_point": "材料选择",
+        "options": [
+          "透明玻璃",
+          "木板",
+          "厚纸板",
+          "不透明塑料板"
+        ],
+        "question": "制作普通窗户时，哪种材料最适合用来透光？",
+        "score": 5,
+        "type": "choice",
+        "id": 109
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "棉布容易吸水，适合制作吸水毛巾；若要制作防水用品，则通常需要选择不易吸水的材料。",
+        "knowledge_point": "材料选择",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "棉布容易吸水，因此可以用来制作毛巾。",
+        "score": 5,
+        "type": "true_false",
+        "id": 110
+      },
+      {
+        "answer": "轻",
+        "difficulty": 1,
+        "explanation": "制作书包时，选择较轻的材料能减轻背负重量，同时材料还应有一定的强度和耐用性。",
+        "knowledge_point": "材料选择",
+        "options": [],
+        "question": "制作书包时，通常希望材料既结实又比较____。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 111
+      },
+      {
+        "answer": "防水",
+        "difficulty": 2,
+        "explanation": "船体要长期接触水，因此制作船体的材料需要不易让水渗入，也要有足够的强度。",
+        "knowledge_point": "材料选择",
+        "options": [],
+        "question": "制作船体时，材料除了要有足够的强度，还应具有较好的____性能。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 112
+      },
+      {
+        "answer": "电动机带动螺旋桨转动，螺旋桨推动水流，使小船前进。",
+        "difficulty": 1,
+        "explanation": "电动机提供动力，螺旋桨转动并推动水流，从而带动小船前进。",
+        "knowledge_point": "动力控制",
+        "options": [],
+        "question": "电力螺旋桨小船前进的动力是怎样产生的？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "一般情况下，在其他条件相近时，减小动力会使小船行驶得更慢。",
+        "knowledge_point": "动力控制",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "在其他条件相近时，减小电动机的动力，小船通常会行驶得更慢。",
+        "score": 5,
+        "type": "true_false",
+        "id": 114
+      },
+      {
+        "answer": "观察",
+        "difficulty": 1,
+        "explanation": "先观察小船的运动状态，才能判断是否需要调整以及如何调整。",
+        "knowledge_point": "动力控制",
+        "options": [],
+        "question": "调整动力或船舵前，应该先（　　）小船的运动情况。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 115
+      },
+      {
+        "answer": "调小动力",
+        "difficulty": 2,
+        "explanation": "小船速度太快时，可先适当减小动力，再观察速度变化；调整幅度不宜过大。",
+        "knowledge_point": "动力控制",
+        "options": [
+          "调小动力",
+          "调大动力",
+          "拔掉船舵",
+          "把船推向岸边"
+        ],
+        "question": "小船行驶速度太快，想让它慢一些，最合适的做法是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 116
+      },
+      {
+        "answer": "每次只改变一个因素，并观察船速或航向的变化。",
+        "difficulty": 2,
+        "explanation": "一次只调整动力或船舵中的一个因素，更容易判断哪种调整带来了变化，也能避免调整过度。",
+        "knowledge_point": "动力控制",
+        "options": [],
+        "question": "试航时，为了判断调整是否有效，操作上要注意什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "先明确作品要完成的任务和评价标准，才能判断设计方案是否合适。",
+        "knowledge_point": "工程方案",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "设计工程作品时，应先弄清楚任务需求和评价标准。",
+        "score": 5,
+        "type": "true_false",
+        "id": 118
+      },
+      {
+        "answer": "测试",
+        "difficulty": 1,
+        "explanation": "制作完成后要通过测试了解作品是否达到任务要求。",
+        "knowledge_point": "工程方案",
+        "options": [],
+        "question": "工程作品制作完成后，通常要进行______，检查它是否符合要求。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 119
+      },
+      {
+        "answer": "先明确小船要完成的任务和评价标准，再提出、比较设计想法，选择材料并制定方案，制作后进行测试和改进。",
+        "difficulty": 2,
+        "explanation": "工程设计需要围绕任务需求和标准展开，并通过测试发现问题、改进方案。",
+        "knowledge_point": "工程方案",
+        "options": [],
+        "question": "请简要写出设计一艘小船的大致步骤。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "比较方案应关注能否满足任务要求、材料是否合适以及结构是否可行，而不是只选外观最漂亮的方案。",
+        "knowledge_point": "工程方案",
+        "options": [
+          "选自己最喜欢的颜色",
+          "比较各方案是否符合需求和标准",
+          "选择图画得最复杂的方案",
+          "不测试，直接制作"
+        ],
+        "question": "小组提出了几种小船设计方案，怎样选择更合理？",
+        "score": 5,
+        "type": "choice",
+        "id": 121
+      },
+      {
+        "answer": "先检查船底是否平稳、材料连接是否牢固，并根据测试中发现的问题调整船体结构后再次测试。",
+        "difficulty": 2,
+        "explanation": "改进应依据测试结果，找出未达到标准的原因，再调整设计并重新测试。",
+        "knowledge_point": "工程方案",
+        "options": [],
+        "question": "测试时发现小船装上物品后容易侧翻，你可以怎样改进方案？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "先确定明确的测试标准",
+        "difficulty": 1,
+        "explanation": "有了明确标准，才能判断作品是否达到目标，也方便比较改进前后的表现。",
+        "knowledge_point": "测试与改进",
+        "options": [],
+        "question": "测试作品前，应该先确定什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "尽量保持测试条件相同，才能更公平地比较改进前后的结果。",
+        "knowledge_point": "测试与改进",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "比较改进前后的作品时，尽量保持测试条件相同，这样比较更公平。",
+        "score": 5,
+        "type": "true_false",
+        "id": 124
+      },
+      {
+        "answer": "记录每次测试的结果，比较改进前后的表现，并分析差异可能由什么原因造成。",
+        "difficulty": 2,
+        "explanation": "记录和比较结果有助于发现问题、分析原因，也能判断改进是否有效。",
+        "knowledge_point": "测试与改进",
+        "options": [],
+        "question": "为什么测试时要记录结果？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "先检查船体大小、形状或结构是否影响载重量，再有针对性地调整一个方面，并在相同条件下重新测试。",
+        "difficulty": 3,
+        "explanation": "改进应针对测试中发现的问题和可能的原因。一次改变一个方面，并在相同条件下复测，便于判断改动是否有效。",
+        "knowledge_point": "测试与改进",
+        "options": [],
+        "question": "一座纸桥承受的积木数量没有达到目标。请写出一种合理的改进和验证方法。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "分析测试结果，找出可能的原因",
+        "difficulty": 2,
+        "explanation": "测试未达到目标后，先记录并分析测试结果，找出作品未达标的原因，再有针对性地改进。",
+        "knowledge_point": "测试与改进",
+        "options": [
+          "立即更换所有材料，再重新制作",
+          "分析测试结果，找出可能的原因",
+          "不再测试，直接宣布作品成功",
+          "只装饰作品，让它看起来更漂亮"
+        ],
+        "question": "作品测试没有达到目标，下一步最合适的做法是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 127
+      },
+      {
+        "answer": "先估算需要的材料，再按要求制作。",
+        "difficulty": 2,
+        "explanation": "制作前估算材料有助于合理规划用量，减少浪费，也便于控制成本。",
+        "knowledge_point": "成本控制",
+        "options": [],
+        "question": "为了减少造船时材料浪费，制作前可以先____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "成本控制不是一味少用材料。如果材料太少导致作品不能完成任务，就没有满足设计要求。",
+        "knowledge_point": "成本控制",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "成本控制就是不管作品能不能完成任务，都尽量少用材料。",
+        "score": 5,
+        "type": "true_false",
+        "id": 129
+      },
+      {
+        "answer": "使用铝箔较少且能承载任务要求重量的方案。",
+        "difficulty": 3,
+        "explanation": "两个方案都能达到承载要求时，使用材料较少的方案成本较低，更符合合理控制成本的原则。",
+        "knowledge_point": "成本控制",
+        "options": [],
+        "question": "两艘铝箔小船都能承载规定的重量，其中一艘用铝箔较少。选择哪一艘更有利于控制成本？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "4元",
+        "difficulty": 3,
+        "explanation": "总成本＝铝箔数量×每张价格＝2×2＝4元。",
+        "knowledge_point": "成本控制",
+        "options": [],
+        "question": "每张铝箔纸2元，做一艘小船用了2张，一共花了多少元？",
+        "score": 5,
+        "type": "calculation",
+        "id": 131
+      },
+      {
+        "answer": "先清点可用材料并规划裁剪，尽量利用边角料；制作后记录实际用量，并检查小船是否达到承载要求。",
+        "difficulty": 4,
+        "explanation": "合理规划和利用材料能够减少浪费；记录实际用量便于核算成本；检查承载效果则能确认节省材料的同时仍满足设计要求。",
+        "knowledge_point": "成本控制",
+        "options": [],
+        "question": "你要制作一艘能承载规定重量的铝箔小船。写出两种既能控制材料成本、又能保证小船完成任务的方法。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
+      },
+      {
+        "answer": "压载舱",
+        "difficulty": 1,
+        "explanation": "压载舱可以进水或排水，是潜艇调节自身重量的重要部分。",
+        "knowledge_point": "潜艇原理",
+        "options": [],
+        "question": "潜艇通过向________进水或排水来调节自身重量。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 133
+      },
+      {
+        "answer": "下沉",
+        "difficulty": 1,
+        "explanation": "压载舱进水后，潜艇整体变重；当重力大于浮力时，潜艇会下沉。",
+        "knowledge_point": "潜艇原理",
+        "options": [
+          "上浮",
+          "下沉",
+          "停留在水面",
+          "水平方向加速"
+        ],
+        "question": "潜艇压载舱进水、整体变重后，通常会怎样运动？",
+        "score": 5,
+        "type": "choice",
+        "id": 134
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "压缩空气可以把压载舱中的水排出，使潜艇整体变轻，进而上浮。",
+        "knowledge_point": "潜艇原理",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "潜艇利用压缩空气排出压载舱中的水，可以使潜艇上浮。",
+        "score": 5,
+        "type": "true_false",
+        "id": 135
+      },
+      {
+        "answer": "重力等于浮力",
+        "difficulty": 2,
+        "explanation": "当重力和浮力大小相等时，潜艇可保持在水下的一定深度，不继续上浮或下沉。",
+        "knowledge_point": "潜艇原理",
+        "options": [],
+        "question": "潜艇停留在水下某一深度时，重力和浮力的关系是________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 136
+      },
+      {
+        "answer": "排出压载舱中的水，使潜艇变轻，浮力大于重力，潜艇便会上浮。",
+        "difficulty": 3,
+        "explanation": "潜艇上浮时需要使自身重力小于浮力。用压缩空气排出压载舱中的水，可以减轻潜艇整体重量；浮力大于重力时，潜艇上浮。",
+        "knowledge_point": "潜艇原理",
+        "options": [],
+        "question": "请简要说明潜艇怎样才能从水下上浮。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "向后",
+        "difficulty": 1,
+        "explanation": "摇橹时，橹叶向后拨水，水对橹产生向前的反作用力，船因此前进。",
+        "knowledge_point": "摇橹原理",
+        "options": [],
+        "question": "摇橹船前进时，橹叶通常向____拨水。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 138
+      },
+      {
+        "answer": "支点",
+        "difficulty": 2,
+        "explanation": "橹绕支点转动，人的力通过橹传到橹叶，使橹叶能够拨水。",
+        "knowledge_point": "摇橹原理",
+        "options": [
+          "支点",
+          "轮轴",
+          "斜面",
+          "滑轮"
+        ],
+        "question": "摇橹时，橹主要绕什么位置转动？",
+        "score": 5,
+        "type": "choice",
+        "id": 139
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "橹向后拨水，水会对橹产生向前的反作用力，这个力推动船前进。",
+        "knowledge_point": "摇橹原理",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "橹向后拨水时，水对橹的作用力方向向前。",
+        "score": 5,
+        "type": "true_false",
+        "id": 140
+      },
+      {
+        "answer": "水对橹产生向前的反作用力，推动船前进。",
+        "difficulty": 3,
+        "explanation": "橹叶向后拨水，水对橹产生向前的反作用力；这个力传给船，使船前进。",
+        "knowledge_point": "摇橹原理",
+        "options": [],
+        "question": "橹叶向后拨水后，船为什么会向前行？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 141
+      },
+      {
+        "answer": "人对橹柄施力，使橹绕支点转动；橹叶向后拨水，水对橹产生向前的反作用力，推动船前进。",
+        "difficulty": 3,
+        "explanation": "完整描述应包括人力驱动、橹绕支点转动、橹向后拨水，以及水对橹的向前反作用力推动船前进。",
+        "knowledge_point": "摇橹原理",
+        "options": [],
+        "question": "请用自己的话说明摇橹船前进的原理。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 142
+      },
+      {
+        "answer": "8个垫圈",
+        "difficulty": 1,
+        "explanation": "船在放入8个垫圈后仍未沉没，说明它此时还能承载8个垫圈。",
+        "knowledge_point": "载重量测量",
+        "options": [],
+        "question": "一艘铝箔船放入8个垫圈后仍能平稳漂浮，它至少能承载多少个垫圈？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 143
+      },
+      {
+        "answer": "9个垫圈",
+        "difficulty": 2,
+        "explanation": "船在放入第10个垫圈时沉没，因此沉没前最后能承载的是9个垫圈。",
+        "knowledge_point": "载重量测量",
+        "options": [],
+        "question": "测试时，放入9个垫圈后船仍漂浮，放入第10个垫圈后船沉没。这艘船的载重量是多少？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 144
+      },
+      {
+        "answer": "均匀放置（或分散放置）",
+        "difficulty": 1,
+        "explanation": "将垫圈均匀分散在船里，可以减少重量集中在一处造成的倾斜或提前沉没。",
+        "knowledge_point": "载重量测量",
+        "options": [],
+        "question": "放入垫圈时，应尽量将它们（___）在船里，使船保持平稳。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 145
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "载重量不是船沉没时的垫圈数，而是沉没前仍能承载的最大垫圈数。",
+        "knowledge_point": "载重量测量",
+        "options": [],
+        "question": "判断：如果铝箔船放入第7个垫圈时沉没，就应把7个垫圈记录为载重量。",
+        "score": 5,
+        "type": "true_false",
+        "id": 146
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "逐个增加相同的垫圈，并记录沉没前船能承载的最大数量，操作清楚且便于比较。",
+        "knowledge_point": "载重量测量",
+        "options": [
+          "A. 每次使用大小不同的物品，并一次全部放进船里",
+          "B. 使用相同垫圈逐个轻放，直到船沉没，并记录沉没前的数量",
+          "C. 只观察船的外形，不放入任何物品",
+          "D. 每次测试都改变垫圈的放置位置和增加数量"
+        ],
+        "question": "哪种方法更适合测量铝箔船的载重量？",
+        "score": 5,
+        "type": "choice",
+        "id": 147
+      },
+      {
+        "answer": "明确问题和设计要求",
+        "difficulty": 1,
+        "explanation": "开始设计前，应先弄清楚要解决的问题以及成品需要满足的条件，这样才能有目的地提出方案。",
+        "knowledge_point": "工程设计",
+        "options": [],
+        "question": "工程设计开始时，通常要先弄清楚要解决的（___）和需要满足的要求。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 148
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "比较方案时要依据任务要求，考虑方案是否有效、材料是否合适、制作是否可行等，而不是只凭喜好决定。",
+        "knowledge_point": "工程设计",
+        "options": [
+          "A. 哪个方案看起来最漂亮",
+          "B. 哪个方案是自己最先想到的",
+          "C. 哪个方案更符合要求且容易实现",
+          "D. 哪个方案的名字最长"
+        ],
+        "question": "选择工程设计方案时，下面哪种做法更合理？",
+        "score": 5,
+        "type": "choice",
+        "id": 149
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "测试可以帮助发现设计中的不足。工程师会根据测试结果修改方案，再进行测试。",
+        "knowledge_point": "工程设计",
+        "options": [],
+        "question": "如果测试发现作品没有达到设计要求，就应根据发现的问题进行改进。",
+        "score": 5,
+        "type": "true_false",
+        "id": 150
+      },
+      {
+        "answer": "记录",
+        "difficulty": 2,
+        "explanation": "记录测试方法和结果，有助于判断方案是否有效，也便于比较改进前后的表现。",
+        "knowledge_point": "工程设计",
+        "options": [],
+        "question": "测试作品时，把测试方法和结果（___）下来，有助于比较和改进方案。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 151
+      },
+      {
+        "answer": "先画设计图并准备材料，再制作模型；之后按照要求测试，记录结果，针对不足进行修改并再次测试。",
+        "difficulty": 3,
+        "explanation": "工程设计是一个不断完善的过程。先按方案制作，再测试是否达到要求；如果没有达到，就根据测试发现的问题改进，并再次测试。",
+        "knowledge_point": "工程设计",
+        "options": [],
+        "question": "小组要设计一个能装载物品的小船。请按合理顺序简要写出从设计到改进的做法。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 152
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "阻力会阻碍物体运动，方向通常与物体相对于周围介质的运动方向相反。",
+        "knowledge_point": "阻力因素",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "物体在空气中向前运动时，空气阻力通常与物体运动方向相反。",
+        "score": 5,
+        "type": "true_false",
+        "id": 153
+      },
+      {
+        "answer": "空气阻力",
+        "difficulty": 1,
+        "explanation": "物体从空中下落时会受到空气的阻碍，这种阻力叫空气阻力。",
+        "knowledge_point": "阻力因素",
+        "options": [],
+        "question": "降落伞张开后，受到的主要阻力是（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 154
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "物体迎风面积较大时，空气阻力往往较大；相同条件下，宽大的伞面比收拢的伞面受到的空气阻力更大。",
+        "knowledge_point": "阻力因素",
+        "options": [
+          "A. 收拢的伞面",
+          "B. 张开的伞面",
+          "C. 两者一定相同"
+        ],
+        "question": "其他条件相同时，降落伞的哪种状态通常受到的空气阻力更大？",
+        "score": 5,
+        "type": "choice",
+        "id": 155
+      },
+      {
+        "answer": "运动速度",
+        "difficulty": 2,
+        "explanation": "在其他条件相同时，物体运动得越快，通常受到的流体阻力越大。",
+        "knowledge_point": "阻力因素",
+        "options": [],
+        "question": "在同一种空气中，物体的形状和大小相同时，影响空气阻力大小的因素之一是物体的（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 156
+      },
+      {
+        "answer": "减小阻力",
+        "difficulty": 2,
+        "explanation": "流线型的外形能让空气或水较顺畅地绕过物体，因此通常可以减小流体阻力。",
+        "knowledge_point": "阻力因素",
+        "options": [],
+        "question": "汽车、飞机常采用流线型外形，主要是为了（___）？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 157
+      },
+      {
+        "answer": "电能",
+        "difficulty": 1,
+        "explanation": "电池储存并提供电能，电能经过马达转化为机械运动。",
+        "knowledge_point": "动力设备",
+        "options": [],
+        "question": "电动动力设备中的电池主要提供（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 158
+      },
+      {
+        "answer": "马达",
+        "difficulty": 1,
+        "explanation": "马达把电能转化为机械能，并带动螺旋桨等部件转动。",
+        "knowledge_point": "动力设备",
+        "options": [],
+        "question": "在电池驱动的装置中，把电能转化为转动的部件通常是（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 159
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "螺旋桨转动会推动水流，水流产生的反作用力可以推动船向前。",
+        "knowledge_point": "动力设备",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "船上的螺旋桨转动并推动水流，可以帮助船前进。（　）",
+        "score": 5,
+        "type": "true_false",
+        "id": 160
+      },
+      {
+        "answer": "电池、马达、螺旋桨",
+        "difficulty": 2,
+        "explanation": "电池提供电能，马达驱动螺旋桨旋转，螺旋桨拨动水流产生推力。",
+        "knowledge_point": "动力设备",
+        "options": [],
+        "question": "一套简单的电动船动力装置通常包括电池、（___）和（___）；电池与这两个部件共同组成装置。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 161
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "电池提供电能，马达将电能转化为机械运动，再带动螺旋桨拨水产生推力。",
+        "knowledge_point": "动力设备",
+        "options": [
+          "A. 电池直接拨动水流",
+          "B. 电池供电，马达带动螺旋桨拨水",
+          "C. 螺旋桨把水变成电能",
+          "D. 水流先让电池转动"
+        ],
+        "question": "电动船前进时，动力传递的正确顺序是哪个？",
+        "score": 5,
+        "type": "choice",
+        "id": 162
       }
     ]
   },
@@ -664,14 +2406,15 @@
       "tips": "独木舟是起点，稳定性差；增加船的宽度可以提高稳定性。"
     },
     {
-      "point": "沉的材料造船",
-      "core_concept": "铝箔、钢铁等沉的材料制成船型后，因排开水量增加而获得浮力。",
-      "key_formula": "物体沉浮状态取决于重力与浮力的关系。",
       "common_mistakes": [
-        "混淆体积与排开水的体积",
-        "认为浮力只与物体重量有关"
+        "混淆物体本身的体积和它排开的水的体积。",
+        "认为浮力只与物体的重量有关，而忽略排开水的多少。",
+        "认为钢铁或铝箔做成船后，材料本身变轻或密度变小了。"
       ],
-      "tips": "把下沉材料做成中空形状，它是变浮的关键手段。"
+      "core_concept": "钢铁、铝箔等材料单独放入水中可能会下沉；把它们做成底部较宽、内部中空的船形后，整体能排开更多水，受到的浮力也增大。当浮力能够托住船的重力时，船就能浮在水面上。材料本身并没有改变。",
+      "key_formula": "物体受到的浮力等于它排开的水的重量。浮力大于或等于重力时，物体可以浮起或漂浮；浮力小于重力时，物体会下沉。",
+      "point": "沉的材料造船",
+      "tips": "可以用相同大小的铝箔分别揉成团和折成船形，再放入水中比较。往铝箔船里逐个放入垫圈或硬币，观察船能承载多少。实验时保持铝箔大小相同，轻放物品并注意不要让水从船边漫入。"
     },
     {
       "point": "增加船的载重量",
@@ -694,14 +2437,289 @@
       "tips": "船舵安装在船尾，能使水流产生侧向推力来转向。"
     },
     {
-      "point": "工程设计流程",
-      "core_concept": "设计-制作-测试-评价-完善是完整的工程实践过程。",
-      "key_formula": "性能与成本的平衡是评价工程好坏的关键。",
       "common_mistakes": [
-        "不做方案直接动手制作",
-        "忽略材料成本约束"
+        "不做方案就直接动手制作。",
+        "忽略材料成本等限制条件。",
+        "测试后只指出问题，却不根据结果改进作品。",
+        "认为一次制作成功就不需要评价或完善。"
       ],
-      "tips": "画好设计稿再动手，标注主要材料和关键尺寸。"
+      "core_concept": "工程设计通常按照“明确问题与需求—提出方案—设计并制作—测试—评价—完善”的过程进行。工程师会根据测试结果改进作品，必要时重复测试和修改。设计时还要考虑材料、成本、安全和实际用途等条件。",
+      "key_formula": "工程方案的选择要综合考虑性能、成本、安全和实际需求；不能只看某一个方面。",
+      "point": "工程设计流程",
+      "tips": "动手前先画设计稿，标出主要材料、关键尺寸和连接方式；制作后进行测试，记录结果，再根据发现的问题修改和完善。"
+    },
+    {
+      "common_mistakes": [
+        "认为船只都是靠发动机航行；早期船只主要靠人力或风力。",
+        "认为船越大、材料越厚就一定越安全；船的结构还要考虑浮力、稳定性和用途。",
+        "把船体材料的变化和动力方式的变化混为一谈；它们是船舶发展的不同方面。"
+      ],
+      "core_concept": "船从独木舟、木帆船发展到蒸汽船和现代动力船，船体材料与动力方式不断变化。船的结构设计会根据用途和环境进行优化，使船能浮在水面、保持稳定并有效航行。",
+      "key_formula": "观察船的演变：船体材料与形状 + 动力方式 + 结构特点；比较结构优化时，可关注浮力、稳定性、载重能力和航行效率。",
+      "point": "船的历史、动力演变与结构优化",
+      "tips": "可以按时间顺序梳理船的发展：早期人力船、帆船、蒸汽船、现代动力船。观察船时，分别看船体用什么材料、靠什么动力、船身有什么结构。船体做成中空形状，有助于排开水并获得浮力；船身较宽、重物放低且摆放均匀，通常更有利于稳定。不同用途的船会采用不同设计。"
+    },
+    {
+      "common_mistakes": [
+        "以为沉的材料一定不能造船，忽略了船的形状和整体排水量。",
+        "认为浮力只由材料决定，忽略物体排开的水量。",
+        "把船装满货物后仍能浮起当作必然，忽略载重过大可能导致船下沉。"
+      ],
+      "core_concept": "沉的材料也能造船。把材料做成中空、底部较宽的船形后，船能排开较多的水；水对船产生向上的浮力。当浮力能够托住船和货物的总重量时，船就能浮在水面上。",
+      "key_formula": "物体受到的浮力大小等于它排开的水的重量；船漂浮时，浮力与船及所载货物的总重量相等。",
+      "point": "用沉的材料造船与浮力原理",
+      "tips": "可以用橡皮泥做实验：先把橡皮泥捏成实心球放入水中，再把它改捏成中空的船形放入水中，比较两次结果。逐步增加船上的硬币，观察载重增加到什么程度时船会下沉。实验时保持橡皮泥用量相同，观察形状和排水量的变化。"
+    },
+    {
+      "common_mistakes": [
+        "认为船越大，载重量就一定越大；还要考虑船的形状、材料和装载方式。",
+        "认为船不下沉就可以无限装货；船所能承受的最大载重量是有限的。",
+        "把船的自重和船上货物的重量混为一谈。"
+      ],
+      "core_concept": "船能装多少货物，与船排开水的多少有关。船浸入水中时会排开一部分水，水对船有向上的浮力。通常，船体较宽、较深，或采用能围成较大空间的结构时，能排开更多的水，载重量也可能增加。船的材料、结构、重量以及货物的分布都会影响载重量。",
+      "key_formula": "船的载重量 = 船装载货物后的总质量 − 空船质量",
+      "point": "增加船的载重量及其影响因素",
+      "tips": "做纸船或小船载重实验时，使用相同材料和相同大小的船体，逐个或按相同份量添加货物；每次记录载重量，并观察船体是否倾斜、进水或下沉。一次只改变一个因素，才能比较不同形状或结构的影响。"
+    },
+    {
+      "common_mistakes": [
+        "把提供动力的装置和控制方向的装置混为一谈。",
+        "认为所有船都用发动机提供动力；帆船可以利用风力，划船可以利用人力。",
+        "认为船舵能让船立刻转向；船舵改变水流对船尾的作用，船身会随之改变方向。"
+      ],
+      "core_concept": "船要前进，需要动力；要按需要改变航行方向，需要方向控制装置。动力系统让船获得前进的力量，方向控制装置帮助船转向或保持航向。",
+      "key_formula": "船的动力来源（如风力、人力、电力或燃料驱动的发动机）→推动船前进；方向控制装置（如船舵）→改变船的航行方向。",
+      "point": "船的动力系统与方向控制装置",
+      "tips": "观察船时，可以分别思考两个问题：是什么让船前进？是什么帮助船改变方向？螺旋桨常与发动机配合，把动力转化为推动船前进的水流；船舵通常位于船尾附近，用来控制航向。不同船的设计会有差异。"
+    },
+    {
+      "common_mistakes": [
+        "把设计图当成已经完成的船，忽略制作和测试。",
+        "只测试一次就下结论，没有记录结果或改进方案。",
+        "发现小船不稳定时只增加材料，不分析问题原因。"
+      ],
+      "core_concept": "设计、制作与测试小船是一个反复改进的工程设计过程：先明确任务和限制，提出想法并画出设计图，再选材料、制作小船，通过测试收集证据，最后根据结果改进设计并再次测试。",
+      "key_formula": "没有固定公式；可用“明确任务与限制 → 设计 → 制作 → 测试并记录 → 改进并再测试”表示流程。",
+      "point": "工程设计流程：设计、制作与测试小船",
+      "tips": "设计时先想清楚小船要完成什么任务，以及材料、大小等限制；制作时尽量按图进行；测试时采用相同条件，观察小船是否漂浮、是否稳定、能承载多少物品，并记录结果。改进时一次重点调整一处，比较改进前后的表现。"
+    },
+    {
+      "common_mistakes": [
+        "把船的动力和船的材料混为一谈；木船、铁船都可以使用不同动力。",
+        "认为船只动力的发展完全取代了旧动力；在一些场合，风力和人力仍会被使用。"
+      ],
+      "core_concept": "人类造船技术不断发展，船的动力也从人力、风力逐渐发展到蒸汽机和柴油机等机械动力。不同动力适用于不同的船只和航行条件。",
+      "key_formula": "本课无须公式。",
+      "point": "船的历史与动力",
+      "tips": "可以按“船的样子怎样变化、船靠什么前进”两条线索学习。观察船桨、帆、螺旋桨等部件，思考它们分别怎样推动船前进。"
+    },
+    {
+      "common_mistakes": [
+        "认为船越窄越稳定；通常船底较宽的船更不容易倾覆。",
+        "只看船的外形，不考虑重物摆放位置；重物放在高处或一侧会使船更容易倾斜。",
+        "把稳定性理解成船完全不会摇晃；稳定性指船受到扰动后不容易倾覆，或倾斜后能恢复平衡。"
+      ],
+      "core_concept": "船的稳定性是指船在水面上保持平衡、不容易倾覆的能力。船底较宽、船身较低，通常更稳定；把货物均匀放置，并尽量放在船舱底部，也有助于保持平衡。",
+      "key_formula": "无固定公式；可记为：船底较宽、重物较低且分布均匀 → 通常更稳定。",
+      "point": "船的稳定性",
+      "tips": "可以用相同材料制作不同形状的小船，在船上逐个放相同的垫圈或硬币，观察船何时倾斜或进水。比较时要保持材料和加重方法相同，才能更公平地判断哪种船更稳定。"
+    },
+    {
+      "common_mistakes": [
+        "把浮力理解为只有物体漂在水面时才有；浸在液体中的物体，无论下沉、悬浮还是上浮，都会受到浮力。",
+        "认为物体越重，受到的浮力一定越大；浮力大小还与物体排开液体的体积和液体种类有关。",
+        "认为改变物体形状会改变材料本身的密度；改变形状主要可能改变排开液体的体积，从而影响浮力。"
+      ],
+      "core_concept": "物体浸入水或其他液体时，液体会对物体产生向上的托力，这种力叫浮力。物体排开液体的重力等于它在液体中受到的浮力。物体能否浮起，还要比较浮力和重力：浮力大于重力时物体上浮，浮力小于重力时物体下沉，二力相等时物体可能悬浮或漂浮。",
+      "key_formula": "浮力＝物体排开液体的重力。小学阶段可理解为：排开的液体越多，通常受到的浮力越大；同样大小的物体在不同液体中受到的浮力也可能不同。",
+      "point": "浮力原理",
+      "tips": "观察浮沉时，可分别想一想物体受到的向上浮力和向下重力。比较不同形状或不同液体中的浮力时，尽量只改变一个条件，并观察物体排开液体的多少。"
+    },
+    {
+      "common_mistakes": [
+        "把动力系统和方向控制装置混为一谈：动力系统提供运动所需的动力，方向控制装置改变运动方向。",
+        "认为有动力就一定能控制方向；船、汽车等还需要舵、车把或方向盘等装置来改变方向。"
+      ],
+      "core_concept": "动力系统使物体运动或改变运动状态，方向控制装置则帮助物体改变运动方向。不同交通工具的动力来源和方向控制方式可能不同。",
+      "key_formula": "动力系统提供动力；方向控制装置改变方向。",
+      "point": "动力系统与方向",
+      "tips": "观察交通工具时，可以分别思考两个问题：它靠什么获得动力？它通过什么装置改变方向？例如，船可以靠发动机或风帆获得动力，通过船舵改变航向；汽车靠发动机提供动力，通过方向盘控制方向。"
+    },
+    {
+      "common_mistakes": [
+        "认为物体表面越大，受到的阻力一定越小；实际还要看物体形状和运动方向。",
+        "认为尖形物体在所有情况下都能减小阻力；效果与物体运动的介质及形状有关。",
+        "把阻力和摩擦力完全等同；阻力是阻碍物体运动的力，水和空气都能产生阻力。"
+      ],
+      "core_concept": "物体在水中或空气中运动时，周围的水或空气会对它产生阻碍运动的力，这种力叫阻力。物体的形状会影响阻力大小：通常，流线型的形状能让水流或气流较顺畅地绕过物体，从而减小阻力。",
+      "key_formula": "本课不涉及计算公式。",
+      "point": "阻力与形状",
+      "tips": "观察船、汽车、飞机等物体的外形，想一想它们怎样让水流或气流顺畅通过。比较阻力时，要尽量保持材料、大小和运动方式相同，只改变形状。"
+    },
+    {
+      "common_mistakes": [
+        "把船本身的重量当成载重量；船越重，能额外承载的货物不一定越多。",
+        "认为船的颜色等无关因素会影响载重量。",
+        "比较船的载重量时，同时改变多个条件，导致无法判断哪个因素起作用。"
+      ],
+      "core_concept": "船的载重量受船体大小、形状和材料等因素影响。在材料和形状等条件相同时，船体通常越大、能排开的水越多，承载货物的能力通常越强。研究某个因素的影响时，应尽量保持其他条件相同。",
+      "key_formula": "载重量＝船满载时所能承载的总质量－船自身的质量",
+      "point": "载重量因素",
+      "tips": "比较不同船的载重量时，先明确比较的是货物质量还是船与货物的总质量；做实验时控制船体材料、形状等条件，只改变要研究的因素，并记录船开始进水或下沉前所装货物的质量。"
+    },
+    {
+      "common_mistakes": [
+        "不要把自然动力和人力的先后顺序弄反：早期船只先靠人力划行，后来广泛利用风力等自然动力。",
+        "机械动力出现后，人力和风力并没有立即消失；不同船只会根据用途和条件选择动力。"
+      ],
+      "core_concept": "船的动力经历了从人力到自然动力，再到机械动力的发展。人力包括划桨、摇橹；自然动力主要包括风力；机械动力包括蒸汽机、内燃机等提供的动力。动力的变化让船能够航行得更远、更快，也能运载更多货物和乘客。",
+      "key_formula": "船动力演变：人力 → 自然动力（如风力）→ 机械动力（如蒸汽机、内燃机）",
+      "point": "动力演变",
+      "tips": "记住顺序“先靠人，再借自然力，最后用机器”。举例时可以分别联系划桨船、帆船和蒸汽船或机动船。"
+    },
+    {
+      "common_mistakes": [
+        "把货物集中堆在船头、船尾或一侧，容易使船倾斜。",
+        "认为船只要不超载就一定稳定；货物摆放位置和分布也会影响稳定性。",
+        "只关注重物总量，忽视重物放得过高会使船更容易摇晃或倾覆。"
+      ],
+      "core_concept": "船的载重稳定性是指船装载货物后仍能保持平稳、不易倾斜或翻倒的能力。装载时要让货物尽量均匀分布、左右平衡，并把较重的物品放在较低的位置。船的载重量也不能超过安全范围。",
+      "key_formula": "本课不涉及固定计算公式；判断要点：货物分布均匀、左右平衡、重物放低、载荷不过量。",
+      "point": "载重稳定性",
+      "tips": "可以用纸船或小船模型做实验：逐渐增加小物块，观察船的下沉和倾斜情况；再改变物块的位置，比较哪种摆放方式更平稳。实验时每次只改变一个因素，更容易看出原因。"
+    },
+    {
+      "common_mistakes": [
+        "把船的发展简单理解为木船变成铁船；船的动力方式也经历了重要变化。",
+        "认为船帆只是装饰。早期帆船借助风力航行。",
+        "混淆船的材料、动力和用途：它们是认识船只发展的不同角度。"
+      ],
+      "core_concept": "船的发展与人们的生活和技术进步有关。人类早期使用独木舟等简单船只，后来发明了利用风力的帆船，再逐渐发展出以机械为动力的船。现代船只种类很多，材料、动力和用途也各不相同。",
+      "key_formula": "船的发展线索：简单船只 → 帆船（利用风力）→ 机械动力船（利用发动机等动力装置）",
+      "point": "船的历史",
+      "tips": "认识船的历史时，可以从三个方面比较：船用什么材料制成、靠什么动力航行、主要有什么用途。发展顺序能帮助我们理解技术变化，但不表示早期船只完全消失；今天仍有人使用帆船、独木舟等船只。"
+    },
+    {
+      "common_mistakes": [
+        "只凭材料的外观或名称作判断，不考虑用途和环境。",
+        "认为越硬、越厚的材料就一定越合适。",
+        "忽略材料的安全性、耐用性和对环境的影响。"
+      ],
+      "core_concept": "选择材料时，要根据物品的用途和使用环境，比较材料的特点，如轻重、软硬、韧性、吸水性、透明度、耐热性和防水性等，再选出合适的材料。有时还要综合考虑安全、成本和环保。",
+      "key_formula": "合适的材料 = 符合用途与环境要求的材料",
+      "point": "材料选择",
+      "tips": "先想清楚物品要做什么、在哪里使用，再找出需要的材料特点，最后比较不同材料。比如雨伞需要防水，窗户需要透明，船体需要坚固且能浮在水面上。"
+    },
+    {
+      "common_mistakes": [
+        "把船舵转动的方向和船头实际转弯的方向混为一谈。",
+        "发现航向偏差后，调整幅度过大，导致船头转向另一侧。",
+        "只关注船舵，忽略动力大小、船体阻力等也会影响行驶状态。"
+      ],
+      "core_concept": "动力控制是通过调节动力装置的工作状态，并配合方向控制部件，使物体按需要运动。以电力螺旋桨小船为例，电动机带动螺旋桨转动，螺旋桨推动水流使船前进；船舵用于改变船的行进方向。",
+      "key_formula": "在动力装置正常工作、环境条件相近时：动力增大，船通常行驶得更快；动力减小，船通常行驶得更慢。转向时，应根据实际航向小幅调整船舵并观察结果。",
+      "point": "动力控制",
+      "tips": "操作电动小船时，可先在安全、开阔的水面低速试航；一次只改变一个因素，如动力大小或船舵角度；每次调整后观察船速和航向，再决定是否继续调整。"
+    },
+    {
+      "common_mistakes": [
+        "只关注作品外观，忽略任务需求和评价标准。",
+        "没有先制订方案就直接制作，导致材料浪费或作品不符合要求。",
+        "测试后只看结果，不根据发现的问题改进设计。"
+      ],
+      "core_concept": "工程方案是为了解决问题、满足任务需求而制订的设计计划。通常要先明确需求和标准，再提出想法、选择材料并绘制或描述设计方案，制作后通过测试发现问题并改进。",
+      "key_formula": "明确需求与标准 → 提出并比较想法 → 制订设计方案 → 制作与测试 → 根据结果改进",
+      "point": "工程方案",
+      "tips": "制订方案时可以画草图并标注材料、结构和关键尺寸；比较想法时要围绕需求和标准，而不是只凭喜好；测试和改进是工程设计的重要环节。"
+    },
+    {
+      "common_mistakes": [
+        "只凭猜测改进，不先观察测试结果、寻找问题原因。",
+        "一次同时改变多个条件，导致难以判断哪项改动有效。",
+        "只测试一次就下结论，忽略测试中的偶然因素。",
+        "改进后不再测试，无法确认效果是否真的变好。"
+      ],
+      "core_concept": "测试与改进是不断发现问题、分析原因、调整方案并再次验证的过程。先按照相同的标准测试，记录结果并找出不足；再针对原因作出改进，尽量一次只改变一个条件；最后重复测试，比较改进前后的结果。如果效果仍不理想，就继续调整。",
+      "key_formula": "测试与改进：明确标准 → 测试并记录 → 分析问题 → 针对性改进 → 再次测试与比较",
+      "point": "测试与改进",
+      "tips": "测试前先确定公平、清楚的评价标准，并尽量保持测试条件相同。记录改进前后的数据；每次优先改变一个因素，这样更容易判断改进是否有效。例如，小船载重量不足时，可检查船体大小和形状，再针对性调整船体，并用相同的物品重新测试。"
+    },
+    {
+      "common_mistakes": [
+        "只关注作品是否漂亮或功能是否强大，忽略材料和制作成本。",
+        "认为成本越低越好，而不考虑作品是否能满足设计要求。",
+        "制作后才计算材料用量，没有提前规划和记录。"
+      ],
+      "core_concept": "成本控制是指在满足设计要求和基本性能的前提下，合理规划、使用和管理材料等资源，避免浪费，并尽量降低制作成本。以模拟造船为例，可以先确定需要的铝箔数量，再通过测试比较不同方案，在保证小船能够承载一定重量或稳定航行的情况下，选择材料使用更合理的方案。",
+      "key_formula": "总成本＝各项材料的数量×对应单价之和",
+      "point": "成本控制",
+      "tips": "制作前列出材料清单并估算用量；尽量利用材料边角料；记录每次制作和测试的材料使用情况；比较方案时同时考虑性能与成本。"
+    },
+    {
+      "common_mistakes": [
+        "把潜艇上浮、下沉说成改变水的密度或潜艇形状。",
+        "认为压载舱充水后潜艇变重是因为水的浮力消失。",
+        "忽略潜艇上浮、下沉时，浮力和重力大小关系的变化。"
+      ],
+      "core_concept": "潜艇主要通过压载舱调节自身的重力与浮力关系来改变深度。下潜时，压载舱进水，潜艇整体变重，重力大于浮力；上浮时，压缩空气把压载舱中的水排出，潜艇整体变轻，浮力大于重力。重力和浮力相等时，潜艇可以停留在一定深度。",
+      "key_formula": "重力大于浮力→下沉；重力小于浮力→上浮；重力等于浮力→悬浮或停留在一定深度。",
+      "point": "潜艇原理",
+      "tips": "记住“进水下沉、排水上浮、平衡悬停”。判断运动方向时，比较重力和浮力的大小。"
+    },
+    {
+      "common_mistakes": [
+        "把船的动力来源误认为风力或重力；摇橹船主要靠人力。",
+        "认为橹只是在水中搅动；橹向后拨水时，水会给橹和船向前的反作用力。",
+        "忽略橹的杠杆作用；橹绕支点转动，人的力通过橹传到水中。"
+      ],
+      "core_concept": "摇橹时，船上的人对橹柄施力，使橹绕支点转动，橹叶向后拨水。水对橹产生向前的反作用力，这个力传给船，使船前进。人力是动力来源，橹起到杠杆和传力的作用。",
+      "key_formula": "橹向后拨水，水对橹的反作用力向前；反作用力推动船前进。",
+      "point": "摇橹原理",
+      "tips": "观察摇橹船时，可以依次找出施力的人、绕支点转动的橹，以及橹叶拨水的方向。记住：橹向后拨水，船向前行。"
+    },
+    {
+      "common_mistakes": [
+        "把船沉没时放入的垫圈数当作载重量；载重量应记录为沉没前能承载的最大数量。",
+        "不同次测试使用的垫圈大小或放置方法不一致，导致结果难以比较。",
+        "垫圈放置不均匀，或一次放入多个，影响测量的准确性。"
+      ],
+      "core_concept": "载重量是船在不沉没的情况下能够承载的最大重量。测试铝箔船时，可使用大小相同的垫圈逐个增加载荷，观察船何时沉没。",
+      "key_formula": "载重量（以垫圈数表示）＝船沉没前能承载的最大垫圈数＝沉没时垫圈数－1（每次增加1个垫圈时）",
+      "point": "载重量测量",
+      "tips": "垫圈要轻放并尽量均匀分布；每次只增加一个，直到船沉没。若沉没时船上有10个垫圈，则载重量记录为9个垫圈。"
+    },
+    {
+      "common_mistakes": [
+        "把工程设计误认为只画一张图或只做一个成品。",
+        "没有先明确要解决的问题和设计要求，就急着制作。",
+        "测试后只看成品是否成功，不记录问题、不改进方案。"
+      ],
+      "core_concept": "工程设计是为了解决实际问题，按照明确的要求，经历提出想法、设计方案、制作模型或产品、测试、改进等步骤的过程。工程师常常需要比较多个方案，并根据测试结果不断修改设计。",
+      "key_formula": "明确问题与要求 → 提出并比较方案 → 制作 → 测试 → 改进",
+      "point": "工程设计",
+      "tips": "设计时先弄清楚要解决什么问题、有哪些限制和要求；测试时用相同的方法检查方案是否达到要求；发现问题后记录证据，再有针对性地改进。"
+    },
+    {
+      "common_mistakes": [
+        "把阻力和推动物体运动的力混为一谈。",
+        "认为只有水和空气会产生阻力；物体接触地面或其他表面时也可能受到阻碍运动的力。",
+        "认为物体形状、运动速度和周围介质不会影响阻力大小。"
+      ],
+      "core_concept": "阻力是物体运动时受到的、阻碍其运动的力。物体在水、空气等流体中运动时会受到流体阻力；物体与地面或其他表面接触并运动时，也可能受到摩擦阻力。阻力大小会受到物体形状、运动速度和周围介质等因素影响。",
+      "key_formula": "本课不要求计算公式。可以用“运动方向与阻力方向相反”来判断阻力方向。",
+      "point": "阻力因素",
+      "tips": "判断阻力时，可以先找出物体的运动方向，再看什么力在阻碍它运动。比较阻力大小时，要尽量只改变一个因素，其他条件保持相同。"
+    },
+    {
+      "common_mistakes": [
+        "把螺旋桨当作完整的动力设备；螺旋桨是动力装置中的工作部件，马达提供动力。",
+        "认为电池本身能直接推动水流；电池提供电能，马达把电能转化为机械能，带动螺旋桨转动。",
+        "忽视螺旋桨转动方向与水流方向的关系。"
+      ],
+      "core_concept": "动力设备能把一种形式的能量转化为机械运动，从而完成工作。以电池、马达和螺旋桨组成的水上装置为例，电池提供电能，马达带动螺旋桨旋转，螺旋桨拨动水流产生推力，使装置前进。",
+      "key_formula": "电池提供电能 → 马达转动 → 螺旋桨拨动水流 → 产生推力",
+      "point": "动力设备",
+      "tips": "观察动力设备时，可以按“能量从哪里来—由什么部件转化—哪个部件直接做功—产生什么效果”来分析。制作或使用电动装置时，注意避免电池正负极短路，并在水边使用时防止电路进水。"
     }
   ]
 }

@@ -5,7 +5,9 @@ on:
       - 'apps/web/**'
       - 'packages/core/**'
       - 'scripts/checks/**'
-      - 'output/math/quizzes/**'
+      - 'output/**/quizzes/**'
+      - 'output/**/outlines/**'
+      - 'release/content-baseline-v1.4.0.json'
       - 'package*.json'
       - '.github/workflows/web-experience.yml'
   workflow_dispatch:
@@ -29,6 +31,8 @@ jobs:
       - name: Learning quality and canonical pilot content
         run: |
           npx tsx apps/web/scripts/build-data.ts
+          python3 scripts/checks/content-retention.py
+          npx tsx scripts/checks/content-grading.ts
           npm run check:learning-quality
       - name: Narration and offline transport
         run: |

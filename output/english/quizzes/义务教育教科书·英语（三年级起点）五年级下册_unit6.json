@@ -4,339 +4,1819 @@
   "unit_number": 6,
   "unit_test": {
     "title": "Unit 6 Work quietly! 单元水平测试",
-    "total_score": 100,
+    "total_score": 531,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "Keep your desk clean 意为“保持你的课桌整洁”。Keep clean 表示“保持整洁”。",
         "knowledge_point": "动词词组意义",
+        "options": [],
         "question": "“Keep your desk clean”的意思是“保持桌面整洁”。",
-        "options": [],
-        "answer": "对",
-        "explanation": "Keep clean意为保持整洁，your desk意为你的课桌。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "在图书馆应保持安静，可以说“Talk quietly.”，不能大声说话。",
         "knowledge_point": "公共场所准则",
+        "options": [],
         "question": "在图书馆我们要“Talk loudly”。",
-        "options": [],
-        "answer": "错",
-        "explanation": "在图书馆应保持安静，应为Talk quietly。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "现在进行时一般疑问句的结构是“Is/Are + 主语 + 动词-ing形式？”。句中Is放在主语he前，drinking是drink的-ing形式，因此句子正确。",
         "knowledge_point": "现在进行时结构",
+        "options": [],
         "question": "“Is he drinking water?”是一个正确的现在进行时疑问句。",
-        "options": [],
-        "answer": "对",
-        "explanation": "现在进行时疑问句结构为：Is/Are + 主语 + 动词ing形式。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "词义理解",
-        "question": "“Take turns”的意思是“各走各的”。",
-        "options": [],
         "answer": "错",
-        "explanation": "Take turns的意思是“轮流”。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
+        "difficulty": 2,
+        "explanation": "“Take turns”表示“轮流”，例如大家轮流回答问题，不是“各走各的”。",
         "knowledge_point": "词义理解",
-        "question": "“Keep to the right”的意思是“靠右行”。",
         "options": [],
-        "answer": "对",
-        "explanation": "Keep to the right是常用的交通规则或行为准则，指靠右。 "
+        "question": "“Take turns”的意思是“各走各的”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“Keep to the right”表示“靠右行”，常用于提示行走或行车时靠右。",
+        "knowledge_point": "词义理解",
+        "options": [],
+        "question": "“Keep to the right”的意思是“靠右行”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "Yes, they are.",
+        "difficulty": 1,
+        "explanation": "问句中的主语是they，be动词是are。肯定简短回答为“Yes, they are.”",
         "knowledge_point": "现在进行时一般疑问句",
-        "question": "— Are they eating lunch? — ________",
         "options": [
           "Yes, they are.",
           "No, they are.",
           "Yes, they do.",
           "No, they do."
         ],
-        "answer": "Yes, they are.",
-        "explanation": "含有are的疑问句，肯定回答用Yes, 主语 + are."
+        "question": "— Are they eating lunch? — ________",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "eating",
         "difficulty": 1,
+        "explanation": "Look!提示动作正在发生。现在进行时结构为be动词+动词-ing，panda是单数，所以用is eating。",
         "knowledge_point": "现在进行时",
-        "question": "Look! The panda is ________ bamboo.",
         "options": [
           "eat",
           "eats",
           "eating",
           "ate"
         ],
-        "answer": "eating",
-        "explanation": "Look是现在进行时的标志词，需用be + 动词ing。"
+        "question": "Look! The panda is ________ bamboo.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "quiet",
         "difficulty": 2,
+        "explanation": "Keep + 形容词表示保持某种状态，keep quiet表示保持安静。",
         "knowledge_point": "代词辨析",
-        "question": "Shh! Keep ________. The baby is sleeping.",
         "options": [
           "quiet",
           "quietly",
           "talking",
           "noise"
         ],
-        "answer": "quiet",
-        "explanation": "Keep + 形容词表示保持某种状态，keep quiet表示保持安静。"
+        "question": "Shh! Keep ________. The baby is sleeping.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "she",
         "difficulty": 1,
+        "explanation": "句意是“她正在听音乐吗？”she表示“她”，作主语时用主格；she与系动词is搭配。",
         "knowledge_point": "人称代词语境",
-        "question": "Is ________ listening to music?",
         "options": [
           "you",
           "they",
           "she",
           "I"
         ],
-        "answer": "she",
-        "explanation": "系动词是Is，主语应为单数第三人称。"
+        "question": "Is ________ listening to music?",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "whose",
         "difficulty": 2,
+        "explanation": "whose 中 wh 发 /h/ 音；what、where 和 when 中 wh 通常发 /w/ 音。",
         "knowledge_point": "wh发音规律",
-        "question": "Which word has a different sound for 'wh'?",
         "options": [
           "what",
           "where",
           "whose",
           "when"
         ],
-        "answer": "whose",
-        "explanation": "whose中wh发/h/音，其他三个单词中wh发/w/音。"
+        "question": "Which word has a different sound for 'wh'?",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "take",
         "difficulty": 1,
+        "explanation": "take turns是固定搭配，意为“轮流”。should后接动词原形，因此填take。",
         "knowledge_point": "常用搭配",
-        "question": "We should ________ turns when we play games.",
         "options": [
           "take",
           "making",
           "do",
           "taking"
         ],
-        "answer": "take",
-        "explanation": "情态动词should后接动词原形，take turns是固定搭配。"
+        "question": "We should ________ turns when we play games.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "to",
         "difficulty": 2,
+        "explanation": "Keep to the right 是固定表达，意为“靠右行”。",
         "knowledge_point": "介词搭配",
-        "question": "Keep ________ the right when you walk upstairs.",
         "options": [
           "on",
           "to",
           "at",
           "in"
         ],
-        "answer": "to",
-        "explanation": "Keep to the right是固定用法，意为靠右行。"
+        "question": "Keep ________ the right when you walk upstairs.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "doing",
         "difficulty": 1,
+        "explanation": "现在进行时疑问句“What is ... doing?”询问某人正在做什么。do 加 -ing 后是 doing。",
         "knowledge_point": "动词ing规则",
-        "question": "What is Tom ________ now?",
         "options": [
           "do",
           "does",
           "doing",
           "done"
         ],
-        "answer": "doing",
-        "explanation": "What is ... doing? 询问正在做什么。"
+        "question": "What is Tom ________ now?",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "No, she isn't",
         "difficulty": 2,
+        "explanation": "根据后一句“She is drawing.”可知她没有在读书。问句主语是she，否定回答用“No, she isn't.”",
         "knowledge_point": "现在进行时否定回答",
-        "question": "— Is she reading a book? — ________. She is drawing.",
         "options": [
           "Yes, she is",
           "No, she isn't",
           "No, she is",
           "Yes, she isn't"
         ],
-        "answer": "No, she isn't",
-        "explanation": "根据后一句She is drawing可知，前一句是否定回答。"
+        "question": "— Is she reading a book? — ________. She is drawing.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "theirs",
         "difficulty": 3,
+        "explanation": "空格处独立表示“他们的书”，后面没有名词，应使用名词性物主代词 theirs。They are reading 是现在进行时，结构为 are + reading。",
         "knowledge_point": "名词性物主代词与进行时结合",
-        "question": "The books are ________. They are reading at the table.",
         "options": [
           "their",
           "them",
           "theirs",
           "they"
         ],
-        "answer": "theirs",
-        "explanation": "此处需要名词性物主代词作表语，theirs意为“他们的书”。"
+        "question": "The books are ________. They are reading at the table.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "现在进行时疑问词",
-        "question": "Are you ________ (listen) to music?",
-        "options": [],
         "answer": "listening",
-        "explanation": "be动词are引导的进行时，listen需变现在分词形式。"
+        "difficulty": 1,
+        "explanation": "现在进行时的一般疑问句结构是“Are + 主语 + 动词-ing...?”。listen的-ing形式是listening。",
+        "knowledge_point": "现在进行时疑问词",
+        "options": [],
+        "question": "Are you ________ (listen) to music?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
+        "answer": "quietly",
         "difficulty": 2,
+        "explanation": "library提示要安静，talk quietly意为小声说话。",
         "knowledge_point": "动词词组",
+        "options": [],
         "question": "Please talk ________ in the library.",
-        "options": [],
-        "answer": "quietly",
-        "explanation": "library提示要安静，talk quietly意为小声说话。"
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
+        "answer": "quietly",
         "difficulty": 1,
+        "explanation": "quietly 意为“安静地”，修饰动词 work，表示安静地工作。",
         "knowledge_point": "行为准则",
+        "options": [],
         "question": "Work ________! Don't make any noise.",
-        "options": [],
-        "answer": "quietly",
-        "explanation": "Work quietly是本单元核心短语，意为安静。 "
-      },
-      {
-        "id": 19,
+        "score": 5,
         "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "代词",
-        "question": "Is ________ (he) washing his clothes?",
-        "options": [],
-        "answer": "he",
-        "explanation": "句子缺主语，且be动词是is，故填he。"
+        "id": 18
       },
       {
-        "id": 20,
-        "type": "matching",
+        "answer": "he",
+        "difficulty": 2,
+        "explanation": "空格处是句子的主语，应使用人称代词主格。he作主语，与is搭配正确。",
+        "knowledge_point": "代词",
+        "options": [],
+        "question": "Is ________ (he) washing his clothes?",
         "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "保持整洁",
         "difficulty": 1,
+        "explanation": "“keep clean”表示“保持整洁”，注意不要与“keep quiet”（保持安静）混淆。",
         "knowledge_point": "词汇翻译",
-        "question": "请将下列英语短语与对应的中文意思匹配。",
         "options": [
-          "keep clean",
-          "take turns",
-          "keep quiet",
-          "show me",
           "保持安静",
           "保持整洁",
-          "给我看看",
-          "轮流"
+          "轮流",
+          "给我看看"
         ],
-        "answer": "A-2,B-4,C-1,D-3",
-        "explanation": "keep clean-保持整洁；take turns-轮流；keep quiet-保持安静；show me-给我看看。"
+        "question": "短语“keep clean”的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "dance—dancing；read—reading；run—running",
         "difficulty": 2,
+        "explanation": "dance以不发音的e结尾，去e后加-ing；read直接加-ing；run双写末尾的n后加-ing。",
         "knowledge_point": "动词ing形式对应",
-        "question": "将动词原形与-ing形式匹配。",
-        "options": [
-          "dance",
-          "read",
-          "running",
-          "dancing",
-          "跑",
-          "跳舞",
-          "阅读",
-          "run"
-        ],
-        "answer": "A-2,B-3,C-1,D-4",
-        "explanation": "此题考查单词对应关系，dance对应dancing，read对应阅读，running对应run。"
+        "options": [],
+        "question": "写出下列动词的-ing形式：dance，read，run。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Keep your desk clean.",
         "difficulty": 2,
+        "explanation": "肯定祈使句以动词原形 Keep 开头，your desk 是“你的桌子”，clean 表示“整洁的”。",
         "knowledge_point": "行为准则",
-        "question": "将下列单词连成句子：",
         "options": [
           "Keep",
           "desk",
           "your",
           "clean"
         ],
-        "answer": "Keep,your,desk,clean",
-        "explanation": "祈使句。保持你的桌面整洁。"
+        "question": "将下列单词连成句子：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Are they playing together?",
         "difficulty": 3,
+        "explanation": "把be动词Are放在主语they前，playing是动词-ing形式，句末加问号。",
         "knowledge_point": "现在进行时一般疑问句",
-        "question": "将下列单词连成句子：",
         "options": [
           "Are",
           "they",
           "playing",
           "together"
         ],
-        "answer": "Are,they,playing,together",
-        "explanation": "疑问句。他们正在一起玩吗？"
+        "question": "将下列单词连成句子：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "Is Tom playing football?",
+        "difficulty": 1,
+        "explanation": "原句主语 Tom 是第三人称单数，用 is。把 is 移到主语 Tom 前面，playing 保持 -ing 形式。",
+        "knowledge_point": "现在进行时的一般疑问句",
+        "options": [],
+        "question": "把句子改成一般疑问句：Tom is playing football.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "A. Are",
+        "difficulty": 1,
+        "explanation": "主语 they 是复数，be 动词用 are。一般疑问句中 are 放在主语前。",
+        "knowledge_point": "现在进行时的一般疑问句",
+        "options": [
+          "A. Are",
+          "B. Is",
+          "C. Am"
+        ],
+        "question": "选择正确的词填空：___ they watching TV?",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "No, she isn’t.",
+        "difficulty": 2,
+        "explanation": "问句主语是第三人称单数 she，所以简短回答使用 is；否定形式为 is not，缩写为 isn’t。",
+        "knowledge_point": "现在进行时的一般疑问句",
+        "options": [],
+        "question": "回答问句：Is Lily drawing a picture?（否定回答）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "Are you doing your homework?",
+        "difficulty": 2,
+        "explanation": "原句主语是 you，be 动词用 are。将 are 放到主语 you 前面，doing 保持 -ing 形式。",
+        "knowledge_point": "现在进行时的一般疑问句",
+        "options": [],
+        "question": "把句子改成一般疑问句：You are doing your homework.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "现在进行时的一般疑问句通常把 am、is 或 are 放在主语前面。",
+        "knowledge_point": "现在进行时的一般疑问句",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：现在进行时的一般疑问句中，be 动词通常放在主语前面。",
+        "score": 1,
+        "type": "true_false",
+        "id": 28
+      },
+      {
+        "answer": "Is the cat sleeping under the table?",
+        "difficulty": 2,
+        "explanation": "the cat 是单数名词，用 is。把 is 移到主语前，sleeping 保持动词-ing形式，句末加问号。",
+        "knowledge_point": "现在进行时的一般疑问句",
+        "options": [],
+        "question": "把句子改成一般疑问句：The cat is sleeping under the table.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "表示“请保持安静”可说“Please keep quiet.” 祈使句使用动词原形 keep。",
+        "knowledge_point": "公共场所的行为准则与祈使句",
+        "options": [
+          "Please keeps quiet.",
+          "Please keep quiet.",
+          "Please keeping quiet.",
+          "Please to keep quiet."
+        ],
+        "question": "在图书馆提醒大家“请保持安静”，哪句话正确？",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "Don’t run in the hallway.",
+        "difficulty": 1,
+        "explanation": "否定祈使句用“Don’t + 动词原形”。run 是动词原形，意思是“奔跑”。",
+        "knowledge_point": "公共场所的行为准则与祈使句",
+        "options": [],
+        "question": "用英语写一句规则：不要在走廊里奔跑。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "否定祈使句应使用“Don’t + 动词原形”，因此应说“Don’t eat”。",
+        "knowledge_point": "公共场所的行为准则与祈使句",
+        "options": [
+          "Don’t eats in class.",
+          "Don’t eat in class.",
+          "Doesn’t eat in class.",
+          "Not eat in class."
+        ],
+        "question": "“不要在课堂上吃东西。”哪种表达正确？",
+        "score": 1,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "Don’t",
+        "difficulty": 1,
+        "explanation": "表达“不要触摸”时使用“Don’t + 动词原形”，完整句子为“Don’t touch the paintings.”",
+        "knowledge_point": "公共场所的行为准则与祈使句",
+        "options": [],
+        "question": "补全句子：____ touch the paintings in the museum.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 33
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“Wait in line, please.” 使用动词原形 wait，表达了礼貌请求或规则，意思是“请排队等候”。",
+        "knowledge_point": "公共场所的行为准则与祈使句",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“Wait in line, please.” 是一个祈使句。",
+        "score": 1,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "Keep the park clean.（答案含义正确即可。）",
+        "difficulty": 2,
+        "explanation": "祈使句以动词原形开头。Keep the park clean. 意为“保持公园整洁”，是一条适合公共场所的行为准则。",
+        "knowledge_point": "公共场所的行为准则与祈使句",
+        "options": [],
+        "question": "请用英语写一句提醒大家爱护公园环境的规则。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "/w/",
+        "difficulty": 1,
+        "explanation": "在 what 中，字母组合 wh 通常发 /w/。",
+        "knowledge_point": "字母组合wh的发音规律",
+        "options": [
+          "/w/",
+          "/h/",
+          "/m/",
+          "/t/"
+        ],
+        "question": "单词 what 中，字母组合 wh 通常发什么音？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "when 是 wh 通常发 /w/ 的常见单词。",
+        "knowledge_point": "字母组合wh的发音规律",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：when 中的 wh 发 /w/。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "who",
+        "difficulty": 1,
+        "explanation": "who 中的 wh 发 /h/，是需要单独记忆的常见词。",
+        "knowledge_point": "字母组合wh的发音规律",
+        "options": [],
+        "question": "填入一个单词：表示“谁”，且 wh 发 /h/ 的英文单词是 ______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "/w/",
+        "difficulty": 2,
+        "explanation": "white 中的 wh 通常发 /w/，读音开头与 window 中的 w 相同。",
+        "knowledge_point": "字母组合wh的发音规律",
+        "options": [],
+        "question": "white 中的 wh 发什么音？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "wh 发 /h/。",
+        "difficulty": 2,
+        "explanation": "whose 属于 wh 发 /h/ 的常见词，不能按通常规律读成 /w/。",
+        "knowledge_point": "字母组合wh的发音规律",
+        "options": [
+          "wh 通常发 /w/。",
+          "wh 发 /h/。"
+        ],
+        "question": "whose 中的 wh 发什么音？",
+        "score": 1,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "where",
+        "difficulty": 2,
+        "explanation": "where 的 wh 通常发 /w/，意思是“在哪里”。",
+        "knowledge_point": "字母组合wh的发音规律",
+        "options": [],
+        "question": "根据“wh 通常发 /w/”的规律，写出表示“在哪里”的单词：______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 41
+      },
+      {
+        "answer": "起床",
+        "difficulty": 1,
+        "explanation": "Get up 是常见动词词组，意思是“起床”。",
+        "knowledge_point": "动词词组意义",
+        "options": [],
+        "question": "填空：I ______ at seven every morning.（我每天早上七点起床。）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 42
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "Look after 意为“照顾”，句子意思是“我帮助照顾我的小妹妹”。",
+        "knowledge_point": "动词词组意义",
+        "options": [
+          "A. look after",
+          "B. look at",
+          "C. look for"
+        ],
+        "question": "选择合适的词组填空：I help my mother ______ my little sister.（我帮妈妈照顾我的小妹妹。）",
+        "score": 2,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "穿上",
+        "difficulty": 2,
+        "explanation": "Put on 表示“穿上”衣物。句意是“天气很冷，请穿上你的外套”。",
+        "knowledge_point": "动词词组意义",
+        "options": [],
+        "question": "“Put on your coat, please.”中的 put on 是什么意思？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 44
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "Turn off 意为“关闭”，符合“离开房间前关灯”的语境。",
+        "knowledge_point": "动词词组意义",
+        "options": [
+          "A. turn on",
+          "B. turn off",
+          "C. get up"
+        ],
+        "question": "选择合适的词组填空：Please ______ the light before you leave the room.（离开房间前请关灯。）",
+        "score": 2,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "找；寻找",
+        "difficulty": 2,
+        "explanation": "Look for 意为“寻找”。句意是“汤姆正在找他的书包”。",
+        "knowledge_point": "动词词组意义",
+        "options": [],
+        "question": "填空：Tom is looking ______ his schoolbag.（汤姆正在找他的书包。）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“Don’t litter.”的意思是“不要乱扔垃圾”，符合公园里的行为准则。",
+        "knowledge_point": "公共场所准则",
+        "options": [
+          "A. Run in the park.",
+          "B. Don’t litter.",
+          "C. Talk loudly."
+        ],
+        "question": "在公园里，哪句话表示“不要乱扔垃圾”？",
+        "score": 2,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "在走廊奔跑不安全，应慢慢走，不要跑。",
+        "knowledge_point": "公共场所准则",
+        "options": [],
+        "question": "在学校走廊里可以奔跑。",
+        "score": 2,
+        "type": "true_false",
+        "id": 48
+      },
+      {
+        "answer": "quietly",
+        "difficulty": 2,
+        "explanation": "图书馆需要保持安静，因此应轻声说话：“Talk quietly.”",
+        "knowledge_point": "公共场所准则",
+        "options": [],
+        "question": "在图书馆要轻声说话：Talk ________.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 49
+      },
+      {
+        "answer": "Don’t",
+        "difficulty": 2,
+        "explanation": "否定祈使句用“Don’t + 动词原形”，所以应填“Don’t”。",
+        "knowledge_point": "公共场所准则",
+        "options": [],
+        "question": "公园里不要摘花：________ pick the flowers.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "Keep the classroom clean.",
+        "difficulty": 2,
+        "explanation": "“Keep ... clean.”表示“保持……整洁”。在公共场所要爱护环境、保持整洁。",
+        "knowledge_point": "公共场所准则",
+        "options": [],
+        "question": "请用英语写一句规则，表示“保持教室整洁”。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "am reading",
+        "difficulty": 1,
+        "explanation": "主语I与am搭配；现在进行时的主要动词要用-ing形式，read变为reading。",
+        "knowledge_point": "现在进行时结构",
+        "options": [],
+        "question": "填空：I ________ a book now.（read）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "主语She是第三人称单数，因此用is；现在进行时中play要变为playing。",
+        "knowledge_point": "现在进行时结构",
+        "options": [
+          "A. She are playing football.",
+          "B. She is playing football.",
+          "C. She playing football."
+        ],
+        "question": "选出正确的现在进行时句子。",
+        "score": 2,
+        "type": "choice",
+        "id": 53
+      },
+      {
+        "answer": "are not sleeping",
+        "difficulty": 2,
+        "explanation": "主语The children是复数，用are；否定句在are后加not；sleep变为sleeping。",
+        "knowledge_point": "现在进行时结构",
+        "options": [],
+        "question": "填空：The children ________ now.（sleep，写出否定形式）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 54
+      },
+      {
+        "answer": "Are they watching TV?",
+        "difficulty": 2,
+        "explanation": "将肯定句变为一般疑问句时，把be动词Are移到主语they前，watching TV放在后面，句末加问号。",
+        "knowledge_point": "现在进行时结构",
+        "options": [],
+        "question": "把“They are watching TV.”改为一般疑问句。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 55
+      },
+      {
+        "answer": "running",
+        "difficulty": 2,
+        "explanation": "run是短元音加辅音结尾的动词，变为-ing形式时双写末尾的n，再加-ing，写作running。",
+        "knowledge_point": "现在进行时结构",
+        "options": [],
+        "question": "填空：Look! The dog is ________ in the park.（run）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 56
+      },
+      {
+        "answer": "轮流",
+        "difficulty": 1,
+        "explanation": "“Take turns”是固定短语，意思是“轮流”。",
+        "knowledge_point": "词义理解",
+        "options": [],
+        "question": "“Take turns”的意思是______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 57
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“Keep quiet”表示“保持安静”，常用于提醒人们不要大声说话。",
+        "knowledge_point": "词义理解",
+        "options": [
+          "保持整洁",
+          "保持安静",
+          "保持靠右"
+        ],
+        "question": "“Keep quiet”是什么意思？",
+        "score": 2,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "穿过马路",
+        "difficulty": 2,
+        "explanation": "“Cross the road”表示“穿过马路”。",
+        "knowledge_point": "词义理解",
+        "options": [],
+        "question": "“Cross the road”的意思是______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 59
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "“Wait in line”表示“排队等候”，不是“插队”。",
+        "knowledge_point": "词义理解",
+        "options": [],
+        "question": "“Wait in line”的意思是“插队”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 60
+      },
+      {
+        "answer": "Is she reading a book?",
+        "difficulty": 1,
+        "explanation": "主语she搭配be动词is。构成一般疑问句时，将Is放在主语前，read变为reading。",
+        "knowledge_point": "现在进行时一般疑问句",
+        "options": [],
+        "question": "将句子“She is reading a book.”改为一般疑问句。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "Yes, I am.",
+        "difficulty": 2,
+        "explanation": "问句以Are you开头，肯定回答时主语通常改为I，并使用am。",
+        "knowledge_point": "现在进行时一般疑问句",
+        "options": [
+          "Yes, I am.",
+          "Yes, I are.",
+          "Yes, you are.",
+          "Yes, I do."
+        ],
+        "question": "— Are you drawing a picture? — ________",
+        "score": 5,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "Are the boys running?",
+        "difficulty": 2,
+        "explanation": "the boys是复数主语，使用Are；一般疑问句中Are放在主语前，run变为running。",
+        "knowledge_point": "现在进行时一般疑问句",
+        "options": [],
+        "question": "用run的正确形式完成句子：______ the boys ______ in the playground?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "No, he isn't.",
+        "difficulty": 2,
+        "explanation": "问句中的主语是he，be动词是is。否定简短回答为“No, he is not.”，常缩写为“No, he isn't.”",
+        "knowledge_point": "现在进行时一般疑问句",
+        "options": [
+          "No, he isn't.",
+          "No, he aren't.",
+          "No, he doesn't.",
+          "Yes, he isn't."
+        ],
+        "question": "— Is Tom sleeping now? — ________（否定回答）",
+        "score": 5,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "They are playing football now.",
+        "difficulty": 1,
+        "explanation": "句中的 now 表示动作正在进行。主语 They 是复数，be 动词用 are；play 加 -ing 变为 playing。",
+        "knowledge_point": "现在进行时",
+        "options": [
+          "They are playing football now.",
+          "They is playing football now.",
+          "They playing football now.",
+          "They are play football now."
+        ],
+        "question": "选出正确的句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "My sister is reading a book.",
+        "difficulty": 1,
+        "explanation": "Listen! 提示动作正在发生。My sister 是单数，be 动词用 is；read 加 -ing 变为 reading。",
+        "knowledge_point": "现在进行时",
+        "options": [
+          "My sister read a book.",
+          "My sister is reading a book.",
+          "My sister are reading a book.",
+          "My sister is read a book."
+        ],
+        "question": "Listen! My sister ________ a book.",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "False",
+        "difficulty": 1,
+        "explanation": "现在进行时的一般疑问句要将be动词提到主语前，应为“Is Tom doing his homework?”",
+        "knowledge_point": "现在进行时",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“Tom is doing his homework.”变成一般疑问句是“Is Tom doing his homework?”",
+        "score": 5,
+        "type": "true_false",
+        "id": 67
+      },
+      {
+        "answer": "running",
+        "difficulty": 2,
+        "explanation": "run是重读闭音节动词，变为现在分词时要双写末尾辅音字母n，再加-ing。",
+        "knowledge_point": "现在进行时",
+        "options": [],
+        "question": "The boy is ________ (run) in the park now.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 68
+      },
+      {
+        "answer": "They are not swimming now.",
+        "difficulty": 2,
+        "explanation": "主语They对应are；现在进行时的否定句在be动词后加not，swim的-ing形式为swimming。",
+        "knowledge_point": "现在进行时",
+        "options": [],
+        "question": "把句子改为否定句：They are swimming now.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 69
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "句子缺少主语，且代词指代“我”，因此使用主格I。Me是宾格，不能在这里作主语。",
+        "knowledge_point": "代词辨析",
+        "options": [
+          "A. Me",
+          "B. I",
+          "C. My",
+          "D. Mine"
+        ],
+        "question": "______ am in Grade Five.",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "him",
+        "difficulty": 1,
+        "explanation": "空格位于动词help后，作动词的宾语，应用宾格him。",
+        "knowledge_point": "代词辨析",
+        "options": [],
+        "question": "Tom is my friend. I often help ______ with his homework.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 71
+      },
+      {
+        "answer": "hers",
+        "difficulty": 2,
+        "explanation": "空格后没有名词，且句意是“这个书包是她的”，应使用名词性物主代词hers。Her后通常需要接名词。",
+        "knowledge_point": "代词辨析",
+        "options": [],
+        "question": "This schoolbag is not mine. It is ________.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 72
+      },
+      {
+        "answer": "ours",
+        "difficulty": 2,
+        "explanation": "空格后有名词classroom，应使用形容词性物主代词our，表示“我们的教室”。",
+        "knowledge_point": "代词辨析",
+        "options": [],
+        "question": "We clean ________ classroom every Friday.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 73
+      },
+      {
+        "answer": "himself",
+        "difficulty": 2,
+        "explanation": "主语是He，宾语指回主语本人，因此使用反身代词himself，表示“他自己”。",
+        "knowledge_point": "代词辨析",
+        "options": [],
+        "question": "He can make the model plane by ________.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 74
+      },
+      {
+        "answer": "I",
+        "difficulty": 1,
+        "explanation": "说话人介绍自己，应用I表示“我”。I作主语时与am搭配。",
+        "knowledge_point": "人称代词语境",
+        "options": [
+          "I",
+          "He",
+          "They",
+          "We"
+        ],
+        "question": "________ am a student.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "They",
+        "difficulty": 1,
+        "explanation": "句中说的是Tom和Jack两个人，应使用They表示“他们”；They与are搭配。",
+        "knowledge_point": "人称代词语境",
+        "options": [
+          "He",
+          "She",
+          "It",
+          "They"
+        ],
+        "question": "Tom and Jack are friends. ________ are in the same class.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "It",
+        "difficulty": 1,
+        "explanation": "语境中的主语是一只猫，谈论动物时常用it；it与is搭配。",
+        "knowledge_point": "人称代词语境",
+        "options": [
+          "He",
+          "It",
+          "We",
+          "You"
+        ],
+        "question": "Look at the cat. ________ is under the table.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "We",
+        "difficulty": 1,
+        "explanation": "说话人和朋友一起去公园，包含说话人在内的多个人用We表示“我们”；We与go搭配。",
+        "knowledge_point": "人称代词语境",
+        "options": [
+          "They",
+          "We",
+          "He",
+          "It"
+        ],
+        "question": "My friends and I ________ to the park on Sundays.",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "you",
+        "difficulty": 1,
+        "explanation": "句子在询问听话人是否会游泳，用you表示“你”；一般疑问句中you与Do搭配。",
+        "knowledge_point": "人称代词语境",
+        "options": [
+          "he",
+          "you",
+          "she",
+          "it"
+        ],
+        "question": "Do ________ like swimming?",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "who",
+        "difficulty": 1,
+        "explanation": "who 中 wh 发 /h/ 音，读音开头与 /h/ 相同；其余三个单词中的 wh 通常发 /w/ 音。",
+        "knowledge_point": "wh发音规律",
+        "options": [
+          "what",
+          "when",
+          "who",
+          "where"
+        ],
+        "question": "Which word begins with the /h/ sound?",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "w",
+        "difficulty": 1,
+        "explanation": "when 中 wh 通常发 /w/ 音，所以它的首音是 /w/。",
+        "knowledge_point": "wh发音规律",
+        "options": [],
+        "question": "In the word “when,” wh usually sounds like ____.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 81
+      },
+      {
+        "answer": "True",
+        "difficulty": 2,
+        "explanation": "whole 中的 wh 发 /h/ 音，w 不单独发音。",
+        "knowledge_point": "wh发音规律",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "In the word “whole,” wh sounds like /h/. ",
+        "score": 5,
+        "type": "true_false",
+        "id": 82
+      },
+      {
+        "answer": "which",
+        "difficulty": 2,
+        "explanation": "which 中 wh 通常发 /w/ 音，与 what、when、where 的开头读音相同。",
+        "knowledge_point": "wh发音规律",
+        "options": [],
+        "question": "Which word begins with the same wh sound as “what”: “whose” or “which”?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "whose",
+        "difficulty": 2,
+        "explanation": "whose 中 wh 发 /h/ 音；white 中 wh 通常发 /w/ 音。两词的 wh 发音不同。",
+        "knowledge_point": "wh发音规律",
+        "options": [
+          "white",
+          "whose",
+          "wheel",
+          "whale"
+        ],
+        "question": "Which word has the /h/ sound at the beginning?",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "do",
+        "difficulty": 1,
+        "explanation": "do homework是常用搭配，意为“做作业”。主语是I，句子表示日常习惯，使用动词原形do。",
+        "knowledge_point": "常用搭配",
+        "options": [
+          "make",
+          "do",
+          "take",
+          "have"
+        ],
+        "question": "I usually ________ my homework after school.",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "listens to",
+        "difficulty": 2,
+        "explanation": "listen to music意为“听音乐”。主语My sister是第三人称单数，一般现在时中listen要加-s；listen后还要加介词to。",
+        "knowledge_point": "常用搭配",
+        "options": [
+          "listen",
+          "listens",
+          "listens to",
+          "listening"
+        ],
+        "question": "My sister often ________ music in the evening.",
+        "score": 5,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "after",
+        "difficulty": 1,
+        "explanation": "look after是固定搭配，意为“照顾”。",
+        "knowledge_point": "常用搭配",
+        "options": [
+          "at",
+          "after",
+          "for",
+          "to"
+        ],
+        "question": "Can you look ________ my cat while I am away?",
+        "score": 5,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "be good at意为“擅长”，后面常接名词或动词-ing形式。",
+        "knowledge_point": "常用搭配",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "question": "Amy is good ________ drawing pictures.",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "make",
+        "difficulty": 2,
+        "explanation": "make a cake是常用搭配，意为“做蛋糕”。情态动词can后接动词原形。",
+        "knowledge_point": "常用搭配",
+        "options": [
+          "do",
+          "make",
+          "take",
+          "have"
+        ],
+        "question": "We can ________ a cake for Dad's birthday.",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "to",
+        "difficulty": 1,
+        "explanation": "listen to 是固定搭配，意为“听……”。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "at",
+          "to",
+          "for",
+          "with"
+        ],
+        "question": "Please listen ________ the teacher.",
+        "score": 5,
+        "type": "choice",
+        "id": 90
+      },
+      {
+        "answer": "for",
+        "difficulty": 1,
+        "explanation": "wait for 是固定搭配，意为“等待……”。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "of",
+          "on",
+          "for",
+          "at"
+        ],
+        "question": "We are waiting ________ the school bus.",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "at",
+        "difficulty": 2,
+        "explanation": "be good at 是固定搭配，表示“擅长……”。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "in",
+          "at",
+          "to",
+          "for"
+        ],
+        "question": "Amy is good ________ drawing pictures.",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "of",
+        "difficulty": 2,
+        "explanation": "be afraid of 是固定搭配，意为“害怕……”。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "with",
+          "to",
+          "of",
+          "about"
+        ],
+        "question": "The little boy is afraid ________ dogs.",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "at",
+        "difficulty": 2,
+        "explanation": "look at 是固定搭配，意为“看……”。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "for",
+          "at",
+          "to",
+          "in"
+        ],
+        "question": "Look ________ the beautiful flowers in the garden.",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "making",
+        "difficulty": 1,
+        "explanation": "make 以不发音的 e 结尾，去掉 e 再加 -ing，变成 making。",
+        "knowledge_point": "动词ing规则",
+        "options": [
+          "makeing",
+          "making",
+          "makking",
+          "makes"
+        ],
+        "question": "选择 make 的正确 -ing 形式：",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "running",
+        "difficulty": 1,
+        "explanation": "run 以短元音字母 u 和一个辅音字母 n 结尾，通常双写 n 再加 -ing。",
+        "knowledge_point": "动词ing规则",
+        "options": [
+          "runing",
+          "running",
+          "runeing",
+          "runs"
+        ],
+        "question": "选择 run 的正确 -ing 形式：",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "reading",
+        "difficulty": 1,
+        "explanation": "read 不以不发音的 e 结尾，直接加 -ing，变成 reading。",
+        "knowledge_point": "动词ing规则",
+        "options": [
+          "readed",
+          "reading",
+          "readting",
+          "readding"
+        ],
+        "question": "选择 read 的正确 -ing 形式：",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "writing",
+        "difficulty": 1,
+        "explanation": "write 以不发音的 e 结尾，去掉 e 后加 -ing，变成 writing。",
+        "knowledge_point": "动词ing规则",
+        "options": [
+          "writeing",
+          "writting",
+          "writing",
+          "writed"
+        ],
+        "question": "She is ________ a letter. (write)",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 98
+      },
+      {
+        "answer": "swimming",
+        "difficulty": 2,
+        "explanation": "swim 以短元音字母 i 和一个辅音字母 m 结尾，通常双写 m 再加 -ing。",
+        "knowledge_point": "动词ing规则",
+        "options": [],
+        "question": "The children are ________ in the pool. (swim)",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 99
+      },
+      {
+        "answer": "No, they aren't.",
+        "difficulty": 1,
+        "explanation": "问句主语是they，否定回答中用they和aren't。",
+        "knowledge_point": "现在进行时否定回答",
+        "options": [],
+        "question": "— Are they playing football? — ________. They are playing basketball.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 100
+      },
+      {
+        "answer": "No, he isn't.",
+        "difficulty": 2,
+        "explanation": "问句中的Tom可用he代替；he对应的be动词是is，否定回答为“No, he isn't.”",
+        "knowledge_point": "现在进行时否定回答",
+        "options": [],
+        "question": "— Is Tom sleeping? — ________. He is watching TV.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 101
+      },
+      {
+        "answer": "No, we aren't.",
+        "difficulty": 2,
+        "explanation": "问句主语是we，否定回答用aren't。",
+        "knowledge_point": "现在进行时否定回答",
+        "options": [],
+        "question": "— Are we having an English lesson now? — ________. We are having a music lesson.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 102
+      },
+      {
+        "answer": "No, I am not.",
+        "difficulty": 1,
+        "explanation": "问句主语是you，回答时应从答话者的角度改为I。I的否定回答用“No, I am not.”",
+        "knowledge_point": "现在进行时否定回答",
+        "options": [],
+        "question": "— Are you doing your homework? — ________. I am reading a storybook.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 103
+      },
+      {
+        "answer": "No, the boys aren't.",
+        "difficulty": 3,
+        "explanation": "the boys是复数，否定回答用aren't。回答中可以重复名词短语the boys。",
+        "knowledge_point": "现在进行时否定回答",
+        "options": [],
+        "question": "Complete the answer: — Are the boys running? — No, ________. They are walking.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "ours",
+        "difficulty": 2,
+        "explanation": "空格后没有名词，需用名词性物主代词 ours，表示“我们的”。We are playing 是现在进行时。",
+        "knowledge_point": "名词性物主代词与进行时结合",
+        "options": [
+          "our",
+          "ours",
+          "us",
+          "we"
+        ],
+        "question": "These balls are ________. We are playing with them now.",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "hers",
+        "difficulty": 2,
+        "explanation": "空格处代替“她的画”，后面没有名词，所以用名词性物主代词 hers。She is painting 表示她正在画画。",
+        "knowledge_point": "名词性物主代词与进行时结合",
+        "options": [
+          "her",
+          "hers",
+          "she",
+          "him"
+        ],
+        "question": "The picture is ________. She is painting another one now.",
+        "score": 5,
+        "type": "choice",
+        "id": 106
+      },
+      {
+        "answer": "mine",
+        "difficulty": 2,
+        "explanation": "空格后没有名词，表示“我的（雨伞）”，应填名词性物主代词 mine。I am looking for 表示“我正在寻找”。",
+        "knowledge_point": "名词性物主代词与进行时结合",
+        "options": [
+          "my",
+          "mine",
+          "me",
+          "I"
+        ],
+        "question": "That umbrella is ________. I am looking for it now.",
+        "score": 5,
+        "type": "choice",
+        "id": 107
+      },
+      {
+        "answer": "yours",
+        "difficulty": 2,
+        "explanation": "空格处独立表示“你的（帽子）”，后面没有名词，应填名词性物主代词 yours。You are wearing a blue coat 是现在进行时。",
+        "knowledge_point": "名词性物主代词与进行时结合",
+        "options": [
+          "your",
+          "yours",
+          "you",
+          "yourself"
+        ],
+        "question": "The red hat is ________. You are wearing a blue coat today.",
+        "score": 5,
+        "type": "choice",
+        "id": 108
+      },
+      {
+        "answer": "his",
+        "difficulty": 3,
+        "explanation": "空格处表示“他的（书包）”，后面没有名词；his 既可作形容词性物主代词，也可作名词性物主代词。He is carrying 表示“他正在拿着”。",
+        "knowledge_point": "名词性物主代词与进行时结合",
+        "options": [
+          "he",
+          "him",
+          "his",
+          "himself"
+        ],
+        "question": "The black schoolbag is ________. He is carrying it to the classroom.",
+        "score": 5,
+        "type": "choice",
+        "id": 109
+      },
+      {
+        "answer": "What",
+        "difficulty": 1,
+        "explanation": "询问“正在做什么”用What；句子结构为“What + are + 主语 + doing?”。",
+        "knowledge_point": "现在进行时疑问词",
+        "options": [],
+        "question": "________ are you doing? I am drawing a picture.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "答句说明他们正在操场上踢足球，询问地点用Where。",
+        "knowledge_point": "现在进行时疑问词",
+        "options": [],
+        "question": "________ are they playing football? They are playing on the playground.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "主语he是第三人称单数，现在进行时疑问句中be动词用is，语序为“疑问词 + is + 主语 + 动词-ing”。",
+        "knowledge_point": "现在进行时疑问词",
+        "options": [],
+        "question": "What ________ he reading?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "Who is singing in the classroom?",
+        "difficulty": 2,
+        "explanation": "询问“谁”正在唱歌，用Who开头；who在这里作主语，后接is和动词-ing，不需要再加其他主语。",
+        "knowledge_point": "现在进行时疑问词",
+        "options": [],
+        "question": "连词成句：singing / Who / in the classroom / is",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "Why are you laughing?",
+        "difficulty": 2,
+        "explanation": "询问原因用Why。特殊疑问句结构为“Why + are + you + laughing?”。",
+        "knowledge_point": "现在进行时疑问词",
+        "options": [],
+        "question": "根据提示写出问句：你为什么在笑？（Why / you / laugh）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "get up",
+        "difficulty": 1,
+        "explanation": "get up意为“起床”。句意是“我每天早上七点起床”。",
+        "knowledge_point": "动词词组",
+        "options": [],
+        "question": "I ________ at seven o’clock every morning.（起床）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "turn off",
+        "difficulty": 2,
+        "explanation": "turn off意为“关闭”，这里指睡觉前关灯。",
+        "knowledge_point": "动词词组",
+        "options": [],
+        "question": "Please ________ the light before you go to bed.（关掉）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "look for",
+        "difficulty": 2,
+        "explanation": "look for意为“寻找”。句中说找不到铅笔，因此要用look for。",
+        "knowledge_point": "动词词组",
+        "options": [],
+        "question": "I can’t find my pencil. I will ________ it.（寻找）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "put on",
+        "difficulty": 2,
+        "explanation": "put on意为“穿上”，表示穿衣服的动作。",
+        "knowledge_point": "动词词组",
+        "options": [],
+        "question": "It’s cold outside. Please ________ your coat.（穿上）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "looks after",
+        "difficulty": 3,
+        "explanation": "look after意为“照顾”。主语是第三人称单数My sister，所以一般现在时中look要加-s，填looks after。",
+        "knowledge_point": "动词词组",
+        "options": [],
+        "question": "My sister ________ our little dog when we are away.（照顾）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "Don't run in the classroom.",
+        "difficulty": 1,
+        "explanation": "表达“不要……”时，用 Don't 加动词原形。run 是动词原形。",
+        "knowledge_point": "行为准则",
+        "options": [],
+        "question": "将下列单词连成句子：Don't / run / in / the / classroom.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "Please listen carefully.",
+        "difficulty": 1,
+        "explanation": "Please 可用于使祈使句语气更礼貌；carefully 是副词，表示“认真地”。",
+        "knowledge_point": "行为准则",
+        "options": [],
+        "question": "用英语表达“请认真听。”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "Don't",
+        "difficulty": 1,
+        "explanation": "否定祈使句用 Don't 开头，后接动词原形 touch。",
+        "knowledge_point": "行为准则",
+        "options": [],
+        "question": "________ touch the hot stove.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "Walk slowly.",
+        "difficulty": 2,
+        "explanation": "slowly 意为“慢慢地”，修饰动词 walk，说明走路的方式。",
+        "knowledge_point": "行为准则",
+        "options": [],
+        "question": "用英语表达“慢慢走。”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "She",
+        "difficulty": 1,
+        "explanation": "空格处是句子的主语，应使用主格she。句首单词首字母大写。",
+        "knowledge_point": "代词",
+        "options": [],
+        "question": "________ is my sister. (she)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "him",
+        "difficulty": 2,
+        "explanation": "空格位于动词like之后，作宾语，应使用宾格him。",
+        "knowledge_point": "代词",
+        "options": [],
+        "question": "I like ________ (he) very much.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "her",
+        "difficulty": 2,
+        "explanation": "空格后有名词bag，表示“她的包”，应使用形容词性物主代词her。",
+        "knowledge_point": "代词",
+        "options": [],
+        "question": "This is ________ bag. (she)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "mine",
+        "difficulty": 2,
+        "explanation": "空格后没有名词，表示“这本书是我的”，应使用名词性物主代词mine。",
+        "knowledge_point": "代词",
+        "options": [],
+        "question": "This book is ________. (I)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "They",
+        "difficulty": 2,
+        "explanation": "句子需要主语，后面的are提示主语应为复数。they是复数人称代词主格，句首首字母大写。",
+        "knowledge_point": "代词",
+        "options": [],
+        "question": "________ are my friends. (they)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "保持安静",
+        "difficulty": 1,
+        "explanation": "keep quiet 的意思是“保持安静”。",
+        "knowledge_point": "词汇翻译",
+        "options": [],
+        "question": "请将 keep quiet 翻译成中文。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "轮流",
+        "difficulty": 1,
+        "explanation": "take turns 表示“轮流”，例如轮流做某件事。",
+        "knowledge_point": "词汇翻译",
+        "options": [],
+        "question": "take turns 的中文意思是________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "show me 的意思是“给我看看”，所以题干翻译正确。",
+        "knowledge_point": "词汇翻译",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "“show me”的意思是“给我看看”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 131
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "keep clean 表示“保持整洁”，因此应选择 B。",
+        "knowledge_point": "词汇翻译",
+        "options": [
+          "A. 轮流",
+          "B. 保持整洁",
+          "C. 给我看看",
+          "D. 保持安静"
+        ],
+        "question": "keep clean 的中文意思是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 132
+      },
+      {
+        "answer": "给我看看",
+        "difficulty": 2,
+        "explanation": "show me 由 show（展示、给……看）和 me（我）组成，短语意思是“给我看看”。",
+        "knowledge_point": "词汇翻译",
+        "options": [],
+        "question": "请将 show me 翻译成中文。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 133
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "play直接加-ing，变成playing；其他选项的拼写不正确。",
+        "knowledge_point": "动词ing形式对应",
+        "options": [
+          "playying",
+          "playing",
+          "plaing",
+          "playeing"
+        ],
+        "question": "play的-ing形式是哪一个？",
+        "score": 5,
+        "type": "choice",
+        "id": 134
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "read不需要去掉字母，也不需要双写，直接加-ing，写作reading。",
+        "knowledge_point": "动词ing形式对应",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断正误：read的-ing形式是reading。",
+        "score": 5,
+        "type": "true_false",
+        "id": 135
+      },
+      {
+        "answer": "making",
+        "difficulty": 2,
+        "explanation": "make以不发音的e结尾，去掉e再加-ing，变成making。",
+        "knowledge_point": "动词ing形式对应",
+        "options": [],
+        "question": "make的-ing形式是________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 136
+      },
+      {
+        "answer": "swimming",
+        "difficulty": 2,
+        "explanation": "swim是重读闭音节短动词，末尾是辅音字母m，双写m后加-ing，变成swimming。",
+        "knowledge_point": "动词ing形式对应",
+        "options": [],
+        "question": "swim的-ing形式是________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 137
+      },
+      {
+        "answer": "dancing",
+        "difficulty": 2,
+        "explanation": "dance去掉词尾不发音的e，再加-ing，写作dancing。",
+        "knowledge_point": "动词ing形式对应",
+        "options": [],
+        "question": "把dance变成-ing形式：dance → ________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 138
       }
     ]
   },
@@ -682,14 +2162,15 @@
   },
   "knowledge_summary": [
     {
-      "point": "现在进行时一般疑问句",
-      "core_concept": "用来确认某人是否正在进行某项活动。",
-      "key_formula": "Be (Am/Is/Are) + 主语 + 动词-ing + 其他?",
       "common_mistakes": [
-        "回答时be动词和主语不一致，如：Are you...? Yes, I am. 错写成 Yes, I are.",
-        "忘记将动词变成ing形式。"
+        "回答时be动词与主语不一致，如将“Yes, I am.”误写成“Yes, I are.”",
+        "忘记将动词变为-ing形式。",
+        "把一般疑问句写成陈述语序，如误写成“They are playing?”。"
       ],
-      "tips": "回答时注意‘人称对调’，问you答I/we，问he/she/they则原样回。"
+      "core_concept": "现在进行时的一般疑问句用来询问某人此刻是否正在做某事。回答时用Yes或No，并使用与主语相匹配的be动词。",
+      "key_formula": "Am/Is/Are + 主语 + 动词-ing + 其他？\n肯定回答：Yes, + 主语 + am/is/are.\n否定回答：No, + 主语 + am/is/are + not.",
+      "point": "现在进行时一般疑问句",
+      "tips": "将陈述句中的am/is/are移到主语前，再把主要动词变为-ing形式。简短回答时，问you通常答I或we；问he、she、they等则用相应主语回答，并注意be动词搭配。"
     },
     {
       "point": "公共场所准则（祈使句）",
@@ -710,6 +2191,246 @@
         "不能区分which和who的首音。"
       ],
       "tips": "记住特例：who, whose, whom, whole里的wh都发/h/。"
+    },
+    {
+      "common_mistakes": [
+        "把 be 动词放在主语后面，而不是句首。",
+        "主语是 he、she、it 或单数名词时，误用 are；应使用 is。",
+        "主语是 you、we、they 或复数名词时，误用 is；应使用 are。",
+        "忘记在动词后加 -ing。",
+        "用 Yes, I am 回答 Are you...?，或用 Yes, he is 回答 Is he...? 时，be 动词与主语不一致。"
+      ],
+      "core_concept": "现在进行时的一般疑问句用来询问某人或某物此刻是否正在做某事。把 be 动词 am、is、are 移到主语前面，句末加问号；主要动词仍使用“动词-ing”形式。",
+      "key_formula": "Am/Is/Are + 主语 + 动词-ing + 其他？\n简短回答：Yes, 主语 + am/is/are. 或 No, 主语 + am/is/are + not.",
+      "point": "现在进行时的一般疑问句",
+      "tips": "先找句中的 be 动词，再把它移到主语前面。根据主语选择 be 动词：I 用 am；he、she、it 或单数名词用 is；you、we、they 或复数名词用 are。肯定回答和否定回答中的 be 动词要与问句主语一致。例如：Are you reading? — Yes, I am. Is Lucy singing? — No, she isn’t."
+    },
+    {
+      "common_mistakes": [
+        "祈使句通常以动词原形开头，不要在动词前加主语 you。",
+        "表示禁止时用“Don’t + 动词原形”，不要把动词变成第三人称单数形式。",
+        "公共场所的规则要表达清楚、礼貌；可用 please 让提醒更友好。"
+      ],
+      "core_concept": "公共场所的行为准则告诉人们哪些行为合适、哪些行为不合适。英语常用祈使句表达规则、提醒和请求：肯定祈使句通常以动词原形开头；否定祈使句常用“Don’t + 动词原形”；加入 please 可以使语气更礼貌。",
+      "key_formula": "肯定祈使句：动词原形 + 其他成分；否定祈使句：Don’t + 动词原形 + 其他成分；礼貌表达：Please + 祈使句，或祈使句 + please。",
+      "point": "公共场所的行为准则与祈使句",
+      "tips": "记住公共场所常见规则表达：Keep quiet.（保持安静。）Don’t run.（不要奔跑。）Keep the classroom clean.（保持教室整洁。）Wait in line, please.（请排队等候。）看到 Don’t，后面的动词仍用原形。"
+    },
+    {
+      "common_mistakes": [
+        "把 wh 一律读成 /w/，忽略少数常见词读 /h/ 的情况。",
+        "看到字母 w 就认为读音一定相同；发音还要结合具体单词记忆。",
+        "把 what 中的 wh 读成 /h/。"
+      ],
+      "core_concept": "字母组合 wh 在单词开头时通常发 /w/，如 what、when、where、which、why、white；在少数常见词中发 /h/，如 who、whose、whom。",
+      "key_formula": "wh + 常见词：通常读 /w/；who、whose、whom 等常见词读 /h/。",
+      "point": "字母组合wh的发音规律",
+      "tips": "先记住 wh 通常读 /w/，再把 who、whose、whom 等读 /h/ 的常见词作为特殊情况单独记忆。练习时可以把 wh 后面的部分遮住，先读出 wh 的发音，再完整朗读单词。"
+    },
+    {
+      "common_mistakes": [
+        "只根据单个动词猜意思，忽略词组中的其他词。",
+        "把词组中的介词或副词漏掉，导致意思理解不完整。"
+      ],
+      "core_concept": "动词词组由动词和其他词（如介词、副词）搭配构成，通常表达一个完整的动作或意思。理解时要把整个词组放在句子中看。",
+      "key_formula": "动词 + 介词/副词 = 动词词组；结合上下文理解整体意思。",
+      "point": "动词词组意义",
+      "tips": "遇到动词词组时，先找出动词，再看它后面的词，最后结合句子判断整个词组的意思。例如，get up 是“起床”，look after 是“照顾”，put on 是“穿上”。"
+    },
+    {
+      "common_mistakes": [
+        "把公共场所的行为准则和在家里的行为混淆。",
+        "只记住英文句子，却忽略具体场合需要遵守的规则。"
+      ],
+      "core_concept": "公共场所准则是指在图书馆、公园、电影院等公共场所，为了安全、整洁和不影响他人而遵守的行为规范。英语中常用祈使句表达规则，如“Be quiet.”（保持安静）、“Don’t run.”（不要跑）。",
+      "key_formula": "肯定祈使句：动词原形开头，如“Keep the park clean.”；否定祈使句：Don’t + 动词原形，如“Don’t litter.”",
+      "point": "公共场所准则",
+      "tips": "先看场所，再判断合适的行为：图书馆要安静，公园要爱护环境，走廊要慢行。看到“Don’t”时，后面的动词用原形。"
+    },
+    {
+      "common_mistakes": [
+        "忘记在动词后加-ing。",
+        "把be动词和主语的顺序写错：疑问句中be动词要放在主语前。",
+        "主语是he、she、it或单数名词时误用are；主语是you或复数名词时误用is。"
+      ],
+      "core_concept": "现在进行时表示说话时正在进行的动作。肯定句中，be动词（am/is/are）放在主语后面，主要动词用-ing形式；否定句在be动词后加not；一般疑问句将be动词放在主语前。",
+      "key_formula": "肯定句：主语 + am/is/are + 动词-ing；否定句：主语 + am/is/are + not + 动词-ing；一般疑问句：Am/Is/Are + 主语 + 动词-ing？",
+      "point": "现在进行时结构",
+      "tips": "先根据主语选择be动词：I用am；he、she、it及单数名词用is；you及复数名词用are。再把主要动词变为-ing形式。常见变化有：一般情况下直接加-ing，如read→reading；以不发音的e结尾时去e再加-ing，如make→making；部分短元音加辅音结尾的动词双写末尾辅音再加-ing，如run→running。"
+    },
+    {
+      "common_mistakes": [
+        "不要只根据英文单词的字面意思猜测整个短语的意思，要结合短语和语境理解。",
+        "注意区分相近表达的意思，例如“take turns”表示“轮流”，不是“各走各的”。"
+      ],
+      "core_concept": "词义理解是根据单词、短语的表达和使用语境，理解它们对应的中文意思。",
+      "key_formula": "结合表达本身和上下文，判断词义。",
+      "point": "词义理解",
+      "tips": "遇到不熟悉的表达时，先看它是否是固定短语，再结合句子或生活场景判断意思。"
+    },
+    {
+      "common_mistakes": [
+        "漏写be动词，如说成“She reading.”",
+        "be动词与主语不一致，如说成“They is playing.”",
+        "忘记给动词加-ing，如说成“He is play.”"
+      ],
+      "core_concept": "现在进行时表示说话时正在进行的动作，常与now、Look!、Listen!等词语连用。",
+      "key_formula": "主语 + am/is/are + 动词-ing",
+      "point": "现在进行时",
+      "tips": "看到Look!、Listen!、now等提示词时，可以先判断动作是否正在发生，再用“be动词 + 动词-ing”。记得根据主语选择am、is或are。"
+    },
+    {
+      "common_mistakes": [
+        "把人称代词的主格和宾格混用：主格通常作主语，宾格通常放在动词或介词后。",
+        "把形容词性物主代词和名词性物主代词混用：形容词性物主代词后面通常要接名词，名词性物主代词可单独使用。",
+        "把反身代词当作普通宾格使用，或忘记反身代词需与句子的主语相对应。"
+      ],
+      "core_concept": "代词可以代替名词或名词短语，避免重复。常见代词包括人称代词、物主代词和反身代词。使用时要根据代词在句中的作用和所指对象来选择。",
+      "key_formula": "人称代词：主格作主语（I、he、she、we、they）；宾格作动词或介词的宾语（me、him、her、us、them）。物主代词：形容词性物主代词 + 名词（my book）；名词性物主代词单独使用（The book is mine）。反身代词表示“某人自己”（myself、yourself、himself等）。",
+      "point": "代词辨析",
+      "tips": "做题时先看空格在句中作什么成分，再判断所指的人或物。空格作主语选主格；作宾语选宾格；后面有名词时常用形容词性物主代词；空格后没有名词且表示“某人的”时，考虑名词性物主代词。"
+    },
+    {
+      "common_mistakes": [
+        "把人称代词和物主代词混淆，如在主语位置使用“her”而不是“she”。",
+        "只看句意，不注意动词形式和人称、单复数是否一致。",
+        "把“I”写成小写，或误以为“I”在句中可以小写。",
+        "把“you”误认为只表示一个人；它既可以表示“你”，也可以表示“你们”。"
+      ],
+      "core_concept": "人称代词可以代替表示人的名词。选择代词时，要结合语境判断说话人、听话人或谈论的人，并注意单复数和性别。主格人称代词常作主语：I（我）、you（你/你们）、he（他）、she（她）、it（它）、we（我们）、they（他们/她们/它们）。",
+      "key_formula": "主格人称代词 + 谓语动词；根据语境判断人称、单复数和性别，并使代词与动词搭配恰当。",
+      "point": "人称代词语境",
+      "tips": "可以用三个问题帮助判断：句子在说谁？是一个人还是多个人？句中的动词形式是否和代词搭配？例如，介绍自己的动作常用“I”；介绍和自己一起的人常用“we”；谈论两个人或多个事物常用“they”。"
+    },
+    {
+      "common_mistakes": [
+        "不要认为所有 wh 单词都发同一个音；whose 中的 wh 通常发 /h/。",
+        "在 what、when、where 等词中，wh 通常发 /w/，不要把字母 h 单独读出来。"
+      ],
+      "core_concept": "wh 常见有两种读音：在 what、when、where、which 等词中，通常发 /w/；在 who、whose、whom、whole 等词中，通常发 /h/。",
+      "key_formula": "wh + 常见疑问词：多数发 /w/；who、whose、whom、whole 中发 /h/。",
+      "point": "wh发音规律",
+      "tips": "记住常见的 /h/ 例外词：who、whose、whom、whole。遇到不熟悉的 wh 单词时，可查词典或听标准发音，因为拼写规律存在例外。"
+    },
+    {
+      "common_mistakes": [
+        "把固定搭配中的动词换成意思相近但不合适的动词。",
+        "忽略句子中的时态、主语或情态动词，导致动词形式错误。",
+        "只记单词意思，不记常用介词或宾语搭配。"
+      ],
+      "core_concept": "常用搭配是英语中经常一起使用的词语组合。学习时要把搭配整体记忆，并注意搭配中的动词、名词和介词。",
+      "key_formula": "常用搭配示例：take turns（轮流）；do homework（做作业）；make a cake（做蛋糕）；look after（照顾）；be good at（擅长）；listen to（听）。",
+      "point": "常用搭配",
+      "tips": "记搭配时可以连同例句一起记；做题时先判断句意，再检查动词形式和固定介词。"
+    },
+    {
+      "common_mistakes": [
+        "不要只按中文逐字翻译来选择介词；英语中许多动词和形容词有固定的介词搭配。",
+        "注意区分意思相近的介词，例如 look at（看）、listen to（听）、wait for（等待）。"
+      ],
+      "core_concept": "介词常与动词或形容词搭配，组成固定表达。学习时应把整个搭配一起记忆，并结合句意选择合适的介词。",
+      "key_formula": "动词/形容词 + 固定介词：look at, listen to, wait for, be good at, be afraid of",
+      "point": "介词搭配",
+      "tips": "可将搭配放进短句中记忆：Look at the picture. Listen to me. We wait for the bus. She is good at drawing."
+    },
+    {
+      "common_mistakes": [
+        "直接在所有动词后加 ing，忽略需要去掉不发音的 e 或双写末尾辅音的情况。",
+        "以不发音的 e 结尾的动词通常要先去掉 e，再加 ing，如 make → making。",
+        "部分短元音加单辅音结尾的动词要双写末尾辅音，再加 ing，如 sit → sitting。"
+      ],
+      "core_concept": "动词加 -ing 常用于构成现在进行时，表示正在发生的动作。常见变化规则有：大多数动词直接加 -ing；以不发音的 e 结尾时，去掉 e 再加 -ing；以“短元音＋一个辅音字母”结尾时，通常双写末尾辅音再加 -ing。",
+      "key_formula": "大多数动词：动词 + ing；以不发音的 e 结尾：去 e + ing；短元音 + 单辅音结尾：双写末尾辅音 + ing。",
+      "point": "动词ing规则",
+      "tips": "记例子：do → doing，read → reading，make → making，write → writing，run → running，swim → swimming。现在进行时常用 am/is/are + 动词-ing，例如：She is reading."
+    },
+    {
+      "common_mistakes": [
+        "否定回答中，主语要与问句主语一致。",
+        "be动词不能省略：不能只回答“No, she not.”",
+        "be动词形式要与主语一致：I用am，he/she/it及单数名词用is，you/we/they及复数名词用are。"
+      ],
+      "core_concept": "现在进行时的一般疑问句用be动词开头，否定回答用“No, + 主语 + be动词 + not.”。口语中常将is not缩写为isn't，将are not缩写为aren't。",
+      "key_formula": "Is/Are + 主语 + 动词-ing...? — No, + 主语 + am not/isn't/aren't.",
+      "point": "现在进行时否定回答",
+      "tips": "先判断问句的主语，再选择对应的主格代词和be动词否定形式。I问句可回答“No, I'm not.”；he、she、it或单数名词用“No, he/she/it isn't.”；you、we、they或复数名词用“No, you/we/they aren't.”"
+    },
+    {
+      "common_mistakes": [
+        "名词性物主代词（mine、yours、his、hers、ours、theirs）可以独立使用，后面不再接名词。",
+        "形容词性物主代词（my、your、his、her、our、their）后面通常要接名词，不能单独代替“谁的东西”。",
+        "现在进行时的结构是“主语 + am/is/are + 动词-ing”；不要漏掉 be 动词。",
+        "进行时说明动作正在发生；名词性物主代词说明某物属于谁，两者在句中承担不同作用。"
+      ],
+      "core_concept": "名词性物主代词用来代替“形容词性物主代词 + 名词”，可作表语或主语等；现在进行时表示此刻正在进行的动作，结构为“主语 + am/is/are + 动词-ing”。两者可以在同一句中分别表达所属关系和正在发生的动作。",
+      "key_formula": "名词性物主代词：mine / yours / his / hers / ours / theirs；现在进行时：主语 + am/is/are + 动词-ing。例：The books are theirs. They are reading.",
+      "point": "名词性物主代词与进行时结合",
+      "tips": "先判断空格处是否需要表示所属关系：若后面没有名词，通常用名词性物主代词；若后面有名词，则用形容词性物主代词。再检查正在发生的动作是否使用了正确的 be 动词和动词-ing形式。"
+    },
+    {
+      "common_mistakes": [
+        "疑问词后忘记使用“be动词 + 主语 + 动词-ing”的语序。",
+        "误把现在进行时的一般疑问句语序用于特殊疑问句，漏掉疑问词。",
+        "动词变为-ing时拼写错误，如把listen写成listening。"
+      ],
+      "core_concept": "现在进行时的特殊疑问句用来询问正在发生的动作或相关信息。常见结构是“疑问词 + be动词 + 主语 + 动词-ing + 其他？”。疑问词作主语时，语序不同，通常用“Who + is + 动词-ing + 其他？”。",
+      "key_formula": "疑问词 + am/is/are + 主语 + 动词-ing + 其他？；询问动作时常用“What + am/is/are + 主语 + doing？”。",
+      "point": "现在进行时疑问词",
+      "tips": "先根据主语选择am、is或are，再将动词变为-ing。常见疑问词有what（什么）、where（在哪里）、who（谁）、why（为什么）。回答时根据问题内容作答，例如：What are you doing? I am reading."
+    },
+    {
+      "common_mistakes": [
+        "把动词词组和单个动词混淆；动词词组通常由动词和其他词搭配组成，如 get up（起床）。",
+        "忽略词组中介词或副词的固定搭配，如 look for（寻找）。",
+        "根据中文逐词翻译，导致搭配错误。"
+      ],
+      "core_concept": "动词词组是由动词和其他词（如副词、介词）搭配而成、表达一个完整意思的词组。五年级常见的有 get up（起床）、look for（寻找）、turn on（打开）、put on（穿上）、look after（照顾）等。",
+      "key_formula": "动词 + 副词或介词 = 动词词组；词组的意思要结合搭配理解。",
+      "point": "动词词组",
+      "tips": "把动词词组放进完整句子里记忆，并留意句意、时态和主语。例如：She looks after her little brother.（她照顾她的弟弟。）"
+    },
+    {
+      "common_mistakes": [
+        "祈使句通常以动词原形开头，不需要加主语。",
+        "表示动作方式时，常用副词修饰动词，例如 work quietly。",
+        "Don't 后面接动词原形，表示“不要……” 。"
+      ],
+      "core_concept": "本课学习用英语表达行为准则和日常要求，主要使用祈使句。肯定句常以动词原形开头，如 Keep your desk clean.；否定句用 Don't + 动词原形，如 Don't make any noise.。也可以用副词说明动作应该怎样做，如 Work quietly.",
+      "key_formula": "肯定祈使句：动词原形 + 其他；否定祈使句：Don't + 动词原形 + 其他；动作方式：动词 + 副词。",
+      "point": "行为准则",
+      "tips": "看到“请做……”或“不要做……”时，可以用祈使句表达。注意 Keep 后面可以接形容词描述保持的状态；Work quietly 中 quietly 是副词，用来说明工作的方式。"
+    },
+    {
+      "common_mistakes": [
+        "主格作主语，如 I、he、she、we、they；宾格作动词或介词的宾语，如 me、him、her、us、them。",
+        "形容词性物主代词后面通常要接名词，如 my book；名词性物主代词后面不接名词，如 The book is mine。",
+        "he、she、it分别指代男性、女性和事物或动物；they可指代复数的人或物。"
+      ],
+      "core_concept": "代词可以代替名词，避免重复。小学阶段常见代词包括人称代词和物主代词。人称代词有主格和宾格：主格常作主语，宾格常作动词或介词的宾语。物主代词表示所属关系，分为形容词性物主代词和名词性物主代词。",
+      "key_formula": "主语位置：主格；动词或介词后：宾格。形容词性物主代词 + 名词；名词性物主代词单独使用。",
+      "point": "代词",
+      "tips": "做题时先找出句子中需要代替的人或物，再判断空格在句中的位置和作用：作主语选主格，作宾语选宾格；表示“谁的”时，注意空格后是否紧跟名词。"
+    },
+    {
+      "common_mistakes": [
+        "不要只按单个单词逐字翻译短语，要结合短语的整体意思。",
+        "注意区分意思相近的短语，如 keep clean 是“保持整洁”，keep quiet 是“保持安静”。"
+      ],
+      "core_concept": "词汇翻译是把英语单词或短语的意思用恰当的中文表达出来。翻译短语时，应理解整体含义，并结合语境选择自然、准确的中文说法。",
+      "key_formula": "英语单词或短语 → 理解整体含义 → 联系语境 → 选择恰当的中文表达",
+      "point": "词汇翻译",
+      "tips": "先读完整短语，再回忆它的意思；遇到不熟悉的短语，可以联系熟悉的词语和句子情境来判断。"
+    },
+    {
+      "common_mistakes": [
+        "直接在动词后加-ing，忘记去掉词尾不发音的e，如dance变dancing。",
+        "把重读闭音节末尾的辅音字母漏写，如run变running。",
+        "将不需要双写的词也双写，如read应为reading。"
+      ],
+      "core_concept": "动词加-ing常用来表示正在进行的动作。多数动词直接加-ing；以不发音的字母e结尾时，通常去掉e再加-ing；以“辅音字母+元音字母+辅音字母”结尾且末尾音节重读的短动词，通常双写最后一个辅音字母再加-ing。",
+      "key_formula": "一般情况：动词原形 + ing；词尾不发音的e：去e + ing；重读闭音节短动词：双写末尾辅音字母 + ing。",
+      "point": "动词ing形式对应",
+      "tips": "记单词时把原形和-ing形式成对记忆，并留意词尾：read直接加-ing；dance、make去掉e再加-ing；run、swim双写末尾辅音字母再加-ing；play直接加-ing。"
     }
   ]
 }

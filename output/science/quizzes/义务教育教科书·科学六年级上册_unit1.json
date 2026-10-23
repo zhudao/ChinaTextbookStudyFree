@@ -4,326 +4,2061 @@
   "unit_number": 1,
   "unit_test": {
     "title": "第一单元《微小世界》单元达标测试卷",
-    "total_score": 100,
+    "total_score": 597,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "凸透镜的特征是中央厚、边缘薄，放大镜通常使用凸透镜。",
         "knowledge_point": "放大镜的特征",
+        "options": [],
         "question": "放大镜的镜片中央厚、边缘薄，这种结构的镜片也叫凸透镜。",
-        "options": [],
-        "answer": "对",
-        "explanation": "凸透镜的物理特征就是中央厚、边缘薄，具有放大物像的功能。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "微生物分布广泛，空气、土壤以及动植物体内都可能有微生物。",
         "knowledge_point": "微生物的分布",
+        "options": [],
         "question": "在空气中、土壤中及动植物体内都生活着微生物。",
-        "options": [],
-        "answer": "对",
-        "explanation": "微生物在地球上分布极其广泛，存在于各种环境中。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "洋葱表皮装片制作",
-        "question": "制作洋葱表皮细胞临时装片时，碘液的作用是为了消毒。",
-        "options": [],
         "answer": "错",
-        "explanation": "碘液的作用是染色，使细胞核等结构观察得更清楚。"
-      },
-      {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "显微镜的发展史",
-        "question": "电子显微镜可以把物像放大到200万倍，能观察到病毒。",
-        "options": [],
-        "answer": "对",
-        "explanation": "电子显微镜放大倍数极高，克服了光学显微镜分辨率的局ings。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 2,
-        "knowledge_point": "组合凸透镜原理",
-        "question": "调节两个凸透镜之间的距离可以改变图像的放大倍数和清晰度。",
+        "explanation": "碘液的作用是染色，使细胞核等结构观察得更清楚。",
+        "knowledge_point": "洋葱表皮装片制作",
         "options": [],
-        "answer": "对",
-        "explanation": "两个透镜的间距会影响光线的折射路径，从而改变放大效果。"
+        "question": "制作洋葱表皮细胞临时装片时，碘液的作用是为了消毒。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "电子显微镜利用电子束成像，放大倍数和分辨能力远高于普通光学显微镜，能够观察病毒等微小结构。不同电子显微镜的具体性能有所差异。",
+        "knowledge_point": "显微镜的发展史",
+        "options": [],
+        "question": "电子显微镜可以把物像放大到200万倍，能观察到病毒。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "两个透镜的间距会影响光线经过它们时的传播路径，因此可能改变最终图像的放大效果和清晰度。具体变化还与透镜焦距和物体位置等因素有关。",
+        "knowledge_point": "组合凸透镜原理",
+        "options": [],
+        "question": "调节两个凸透镜之间的距离可以改变图像的放大倍数和清晰度。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "装满水的圆柱形透明杯子",
+        "difficulty": 1,
+        "explanation": "从侧面看，圆柱形杯子装水后，杯壁和水共同形成有一定弧度的透明结构，可能使物体看起来放大。",
         "knowledge_point": "放大镜特征",
-        "question": "下列物体中，具有放大功能的是（）。",
         "options": [
           "空酒瓶",
           "装满水的圆柱形透明杯子",
           "一块透明的平板玻璃",
           "一个近视眼镜片"
         ],
-        "answer": "装满水的圆柱形透明杯子",
-        "explanation": "装满水的杯子符合中央厚、边缘薄的特点，相当于一个凸透镜。"
+        "question": "下列物体中，通常具有放大功能的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "细胞",
         "difficulty": 2,
+        "explanation": "洋葱表皮由许多细胞组成，显微镜下看到的一个个小房间状结构就是细胞。",
         "knowledge_point": "洋葱表皮细胞结构",
-        "question": "在显微镜下观察洋葱表皮，看到的小房间似的结构是（）。",
         "options": [
           "细胞",
           "液泡",
           "叶绿体",
           "细菌"
         ],
-        "answer": "细胞",
-        "explanation": "洋葱表皮是由一个个细胞组成的，显微镜下可见明显的细胞壁界限。"
+        "question": "在显微镜下观察洋葱表皮，看到的小房间似的结构是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "罗伯特·胡克",
         "difficulty": 1,
+        "explanation": "1665年，罗伯特·胡克用显微镜观察软木薄片，看到许多小室，并把它们称为“细胞”。",
         "knowledge_point": "微生物发现史",
-        "question": "第一个发现细胞的科学家是（）。",
         "options": [
           "列文虎克",
           "罗伯特·胡克",
           "巴斯德",
           "达尔文"
         ],
-        "answer": "罗伯特·胡克",
-        "explanation": "1665年罗伯特·胡克用显微镜观察到软木塞上的小孔并命名为细胞。"
+        "question": "第一个发现细胞的科学家是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "在载玻片上放少量脱脂棉纤维",
         "difficulty": 2,
+        "explanation": "脱脂棉纤维能增加水中微小生物游动时受到的阻力，使它们移动得慢一些，方便观察。",
         "knowledge_point": "微生物观察技巧",
-        "question": "在观察水中的微小生物时，为了限制其运动速度，我们可以（）。",
         "options": [
           "加入大量的清水",
           "用吸水纸吸干水分",
           "在载玻片上放少量脱脂棉纤维",
           "把微生物晒干"
         ],
-        "answer": "在载玻片上放少量脱脂棉纤维",
-        "explanation": "放置棉纤维可以增加阻力，从而减缓水生微小生物的运动速度。"
+        "question": "在观察水中的微小生物时，为了限制其运动速度，我们可以（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "干稻草上的蝗虫",
         "difficulty": 1,
+        "explanation": "蝗虫是昆虫，身体较大，通常可用肉眼看见，不属于微生物。草履虫、喇叭虫和变形虫都是微小生物。",
         "knowledge_point": "微生物的多样性",
-        "question": "下列不属于水中微小生物的是（）。",
         "options": [
           "水滴中的草履虫",
           "池塘里的喇叭虫",
           "溪水里的变形虫",
           "干稻草上的蝗虫"
         ],
-        "answer": "干稻草上的蝗虫",
-        "explanation": "蝗虫是昆虫，肉眼可见，不属于微小生物范畴。"
+        "question": "下列不属于水中微小生物的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "400倍",
         "difficulty": 3,
+        "explanation": "显微镜总放大倍数等于目镜倍数乘以物镜倍数：10×40=400。",
         "knowledge_point": "放大倍数计算",
-        "question": "显微镜目镜为10x，物镜为40x，则该显微镜的放大倍数是（）。",
         "options": [
           "10倍",
           "40倍",
           "50倍",
           "400倍"
         ],
-        "answer": "400倍",
-        "explanation": "显微镜总放大倍数 = 目镜倍数 × 物镜倍数。10x40=400。"
+        "question": "显微镜目镜为10倍，物镜为40倍，则该显微镜的放大倍数是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "细胞",
         "difficulty": 2,
+        "explanation": "细胞是生物体基本的结构和功能单位，生长发育、繁殖、遗传等生命活动都与细胞有关。",
         "knowledge_point": "细胞功能",
-        "question": "生物体生长发育、繁殖、遗传等生命活动的基础是（）。",
         "options": [
           "神经系统",
           "血液循环",
           "细胞",
           "器官"
         ],
-        "answer": "细胞",
-        "explanation": "细胞是生物体基本的结构和功能单位。"
+        "question": "生物体生长发育、繁殖、遗传等生命活动的基础是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "镜片中央更厚、凸度更大的",
         "difficulty": 1,
+        "explanation": "在其他条件相近时，凸透镜的凸度越大，放大倍数通常越大。镜片面积大并不意味着放大倍数一定大。",
         "knowledge_point": "放大镜特征",
-        "question": "下列物体中，放大倍数最大的是（）。",
         "options": [
           "镜片厚、凸度小的",
           "镜片薄、凸度大的",
           "镜片中央更厚、凸度更大的",
           "面积很大的镜片"
         ],
-        "answer": "镜片中央更厚、凸度更大的",
-        "explanation": "放大镜的放大倍数取决于镜片的凸度，凸度越大（球形程度越高），放大倍数越大。"
+        "question": "下列放大镜中，通常放大倍数最大的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "以上均是",
         "difficulty": 2,
+        "explanation": "酵母菌可用于面团发酵，某些微生物可用于生产抗生素，污水处理也会利用微生物分解有机物。",
         "knowledge_point": "微生物的益处",
-        "question": "利用微生物可以（）。",
         "options": [
           "制作面包和馒头",
           "生产抗生素",
           "净化污水",
           "以上均是"
         ],
-        "answer": "以上均是",
-        "explanation": "酵母菌发酵、青霉素提炼以及污水处理菌群都是微生物应用的例子。"
+        "question": "利用微生物可以（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "调节旋钮",
         "difficulty": 2,
+        "explanation": "转动调节旋钮可以改变镜筒或载物台的位置，从而调节焦距，使物像清晰。",
         "knowledge_point": "显微镜构造",
-        "question": "显微镜调节清晰度的主要部件是（）。",
         "options": [
           "目镜",
           "载物台",
           "反光镜",
           "调节旋钮"
         ],
-        "answer": "调节旋钮",
-        "explanation": "通过旋转调节旋钮升降镜筒或载物台，可以调整物像的清晰度。"
+        "question": "显微镜调节清晰度的主要部件是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "细胞壁",
         "difficulty": 2,
+        "explanation": "植物细胞具有细胞壁，红细胞属于动物细胞，没有细胞壁。细胞核、细胞膜和细胞质不是植物细胞独有的结构。",
         "knowledge_point": "植物细胞结构",
-        "question": "洋葱表皮细胞与红细胞相比，特有的结构是（）。",
         "options": [
           "细胞核",
           "细胞膜",
           "细胞壁",
           "细胞质"
         ],
-        "answer": "细胞壁",
-        "explanation": "植物细胞具有细胞壁，而动物细胞（如红细胞）没有。"
+        "question": "洋葱表皮细胞与红细胞相比，特有的结构是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "亮白色",
         "difficulty": 1,
+        "explanation": "对光成功后，光线通过反光镜、通光孔和目镜进入眼睛，视野应明亮、均匀。",
         "knowledge_point": "显微镜操作",
-        "question": "对光时，我们需要转动反光镜，使通过目镜看到的视野呈现（）。",
         "options": [
           "黑色",
           "红色",
           "彩色",
           "亮白色"
         ],
-        "answer": "亮白色",
-        "explanation": "亮白色的视野表示光线已经均匀进入通光孔和目镜。"
+        "question": "对光时，我们需要转动反光镜，使通过目镜看到的视野呈现（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "数量变少，体积变大",
         "difficulty": 3,
+        "explanation": "放大倍数越大，观察区域越小，看到的细胞个体越大，但范围内的细胞数量越少。",
         "knowledge_point": "观察范围变化",
-        "question": "使用显微镜时，当放大倍数增大，在视野中看到的细胞（）。",
         "options": [
           "数量变多，体积变大",
           "数量变少，体积变大",
           "数量变多，体积变小",
           "数量变少，体积变小"
         ],
-        "answer": "数量变少，体积变大",
-        "explanation": "放大倍数越大，观察区域越小，看到的细胞个体越大，但范围内的细胞数量越少。"
+        "question": "使用显微镜时，当放大倍数增大，在视野中看到的细胞（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
+        "answer": "大于1",
         "difficulty": 2,
+        "explanation": "具有放大作用的透明凸透镜能使物体看起来比原来大，因而其放大倍数大于1。",
         "knowledge_point": "放大镜特征",
-        "question": "球形的透明玻璃容器不仅有一定的透明度，还具有（）倍放大图像的功能。",
         "options": [],
-        "answer": "1",
-        "explanation": "凡是具有中央厚、边缘薄特征的透明物体都具有放大功能（即放大倍数大于1）。在此题环境下指其具备基本放大功能。注：考虑到题目约束，选取核心常数或逻辑值。"
-      },
-      {
-        "id": 20,
+        "question": "有放大作用的放大镜，其放大倍数通常（）1。",
+        "score": 5,
         "type": "fill_blank",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "微生物大小",
-        "question": "普通的单细胞生物如草履虫，其身体长度通常在（）微米左右。",
-        "options": [],
+        "id": 19
+      },
+      {
         "answer": "200",
-        "explanation": "大草履虫的体长约为150-300微米，常见取值200左右。"
+        "difficulty": 3,
+        "explanation": "大草履虫的体长约为150—300微米，常见取值约为200微米。不同草履虫的大小会有差异。",
+        "knowledge_point": "微生物大小",
+        "options": [],
+        "question": "普通的单细胞生物如草履虫，其身体长度通常在（）微米左右。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "放大镜术语",
-        "question": "放大镜的镜片呈现中央厚、边缘薄的特点，学名叫做（）。",
-        "options": [],
         "answer": "凸透镜",
-        "explanation": "凸透镜是科学术语，代表这种特定形状的透镜。"
+        "difficulty": 1,
+        "explanation": "答案：凸透镜。凸透镜的镜片中央厚、边缘薄，放大镜通常使用凸透镜。",
+        "knowledge_point": "放大镜术语",
+        "options": [],
+        "question": "放大镜的镜片呈现中央厚、边缘薄的特点，学名叫做（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "装片制作",
-        "question": "制作装片时，为了让细胞形态不重叠，需要将显微镜下的观察材料（）。",
-        "options": [],
         "answer": "展开",
-        "explanation": "洋葱表皮若叠在一起无法看清单个细胞，必须用镊子充分展开。"
+        "difficulty": 2,
+        "explanation": "洋葱表皮等材料若叠在一起，细胞容易相互遮挡，不利于观察；用镊子轻轻展开可使材料较平整。",
+        "knowledge_point": "装片制作",
+        "options": [],
+        "question": "制作装片时，为了让细胞形态不重叠，需要将显微镜下的观察材料（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "微生物应用",
-        "question": "在馒头或面包的制作过程中，我们要加入（）菌使面团变得蓬松。",
-        "options": [],
         "answer": "酵母",
-        "explanation": "酵母菌通过发酵产生二氧化碳，使面团产生空隙变得松软。"
+        "difficulty": 2,
+        "explanation": "酵母菌发酵时会产生二氧化碳，气体在面团中形成许多小气泡，使面团变得蓬松。",
+        "knowledge_point": "微生物应用",
+        "options": [],
+        "question": "在馒头或面包的制作过程中，我们要加入（）菌使面团变得蓬松。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "中间厚、边缘薄",
+        "difficulty": 1,
+        "explanation": "放大镜的镜片通常是凸透镜，中央比边缘厚。",
+        "knowledge_point": "放大镜的特征与功能",
+        "options": [],
+        "question": "放大镜镜片的典型形状是怎样的？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "放大镜能使较小物体的细节显得更明显，便于观察；它不会改变物体本身的大小。",
+        "knowledge_point": "放大镜的特征与功能",
+        "options": [
+          "A. 让物体本身变大",
+          "B. 帮助观察较小物体的细节",
+          "C. 让物体发出光",
+          "D. 测量物体的质量"
+        ],
+        "question": "放大镜的主要用途是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "正立、放大的虚像",
+        "difficulty": 2,
+        "explanation": "当小物体位于凸透镜焦点以内时，放大镜形成正立、放大的虚像。",
+        "knowledge_point": "放大镜的特征与功能",
+        "options": [],
+        "question": "用放大镜观察焦点以内的小物体，通常看到什么样的像？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "放大镜不会让物体本身变大，而是让我们看到放大的像，因此细节更容易辨认。",
+        "knowledge_point": "放大镜的特征与功能",
+        "options": [],
+        "question": "判断：用放大镜观察一片叶子后，叶子本身真的变大了。",
+        "score": 1,
+        "type": "true_false",
+        "id": 27
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "缓慢调整放大镜与物体之间的距离，可以找到图像较清晰的位置。",
+        "knowledge_point": "放大镜的特征与功能",
+        "options": [
+          "A. 用镜片用力按压物体",
+          "B. 缓慢移动放大镜或物体，直到图像清晰",
+          "C. 把放大镜放在物体上并遮住光线",
+          "D. 透过镜片直视太阳"
+        ],
+        "question": "用放大镜观察小字时，怎样做更容易看清？",
+        "score": 2,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "凸透镜；中间厚、边缘薄；观察较小物体的细节",
+        "difficulty": 3,
+        "explanation": "放大镜通常由凸透镜制成，镜片中间厚、边缘薄，可帮助观察小物体的细节。使用时还要注意安全，不能通过放大镜直视太阳。",
+        "knowledge_point": "放大镜的特征与功能",
+        "options": [],
+        "question": "完成填空：放大镜通常是一种____，它的镜片____，主要用来____。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "显微镜通常有物镜和目镜两个主要凸透镜。物镜靠近物体，目镜靠近眼睛。",
+        "knowledge_point": "组合凸透镜与显微镜原理",
+        "options": [
+          "A. 只有一个凸透镜",
+          "B. 物镜和目镜",
+          "C. 两面平面镜",
+          "D. 一个凸透镜和一个凹透镜"
+        ],
+        "question": "普通光学显微镜主要由哪两个透镜组成？",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "观察时，物镜靠近被观察物体，目镜靠近观察者的眼睛。",
+        "knowledge_point": "组合凸透镜与显微镜原理",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "显微镜的物镜靠近被观察的物体，目镜靠近眼睛。",
+        "score": 1,
+        "type": "true_false",
+        "id": 31
+      },
+      {
+        "answer": "40",
+        "difficulty": 2,
+        "explanation": "总放大倍数等于物镜放大倍数乘以目镜放大倍数：4×10＝40。",
+        "knowledge_point": "组合凸透镜与显微镜原理",
+        "options": [],
+        "question": "物镜放大4倍，目镜放大10倍，显微镜的总放大倍数是多少倍？",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "目镜",
+        "difficulty": 1,
+        "explanation": "目镜是靠近眼睛的透镜；物镜则靠近被观察的物体。",
+        "knowledge_point": "组合凸透镜与显微镜原理",
+        "options": [],
+        "question": "显微镜中，靠近眼睛的透镜叫作____。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "物镜先对物体成像，目镜再对这个像进行放大，因此物镜的作用是先形成一个放大的像。",
+        "knowledge_point": "组合凸透镜与显微镜原理",
+        "options": [
+          "A. 把物体照亮",
+          "B. 先形成物体的像",
+          "C. 把光线完全挡住",
+          "D. 代替目镜观察"
+        ],
+        "question": "在显微镜中，物镜的主要作用是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 34
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "题目判断正确。显微镜通常由物镜和目镜两个凸透镜组成，物镜先放大被观察物体形成的像，目镜再进一步放大，因此两个凸透镜组合能帮助观察微小物体。",
+        "knowledge_point": "组合凸透镜与显微镜原理",
+        "options": [],
+        "question": "判断：显微镜的物镜和目镜都是凸透镜，它们组合起来能帮助我们观察微小物体。（　　）",
+        "score": 1,
+        "type": "true_false",
+        "id": 35
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "擦净载玻片和盖玻片后，在载玻片中央滴一滴清水，再放置洋葱内表皮。清水能保持材料湿润并帮助制成临时装片。",
+        "knowledge_point": "洋葱表皮细胞装片制作与观察",
+        "options": [
+          "滴清水",
+          "滴碘液",
+          "盖上盖玻片",
+          "擦拭玻片"
+        ],
+        "question": "制作洋葱表皮细胞临时装片时，擦拭干净玻片后，通常首先进行哪一步？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "薄而透明的内表皮",
+        "difficulty": 1,
+        "explanation": "洋葱鳞片叶内表面有一层薄膜，取材薄且透明，容易制成清晰的临时装片；外层材料通常较厚，不适合观察单层细胞。",
+        "knowledge_point": "洋葱表皮细胞装片制作与观察",
+        "options": [],
+        "question": "制作洋葱表皮细胞装片时，应从洋葱鳞片叶的哪一面撕取材料？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 37
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "盖盖玻片时先让盖玻片的一侧接触水滴，再缓慢放下，可以减少空气被封入材料下方形成气泡。",
+        "knowledge_point": "洋葱表皮细胞装片制作与观察",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "盖盖玻片时，让盖玻片一侧先接触水滴，再缓慢放下，有助于减少气泡。",
+        "score": 1,
+        "type": "true_false",
+        "id": 38
+      },
+      {
+        "answer": "细胞壁",
+        "difficulty": 2,
+        "explanation": "洋葱表皮细胞外侧有较明显的细胞壁，常呈较规则的长方形或多边形。观察时不要把细胞壁与细胞膜混淆。",
+        "knowledge_point": "洋葱表皮细胞装片制作与观察",
+        "options": [],
+        "question": "在显微镜下观察洋葱表皮细胞，细胞外侧较明显、使细胞形状较规则的结构是____。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "观察时应先用低倍物镜寻找物像，再调节焦距使物像清晰。直接使用高倍物镜，视野较小，较难找到目标；调焦时也要防止物镜碰到玻片。",
+        "knowledge_point": "洋葱表皮细胞装片制作与观察",
+        "options": [
+          "直接换高倍物镜并快速转动粗准焦螺旋",
+          "先用低倍物镜找到物像并调清",
+          "取下盖玻片后再观察",
+          "用手推动玻片寻找物像"
+        ],
+        "question": "观察洋葱表皮细胞时，比较合适的做法是哪一项？",
+        "score": 1,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "气泡",
+        "difficulty": 2,
+        "explanation": "盖片时若没有让盖玻片一侧先接触液滴，空气容易被封在玻片与材料之间，形成气泡。气泡可能影响观察，常可见边缘较亮、形状不规则的圈状影像。",
+        "knowledge_point": "洋葱表皮细胞装片制作与观察",
+        "options": [],
+        "question": "盖盖玻片时动作太快，容易把空气封在材料下方，形成____。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "不同生物的细胞，以及同一生物体内不同部位的细胞，都可能在形状、大小和结构上有所不同。",
+        "difficulty": 1,
+        "explanation": "细胞并非只有一种固定样子，生物种类和细胞承担的功能不同，都可能带来差异。",
+        "knowledge_point": "生物细胞的多样性",
+        "options": [],
+        "question": "生物的细胞都长得一模一样吗？请简要说明。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 42
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "不同细胞的形状可能不同，这种差异常与细胞承担的功能有关；并不是所有细胞都完全相同。",
+        "knowledge_point": "生物细胞的多样性",
+        "options": [
+          "A. 所有细胞形状都相同",
+          "B. 不同细胞可能有不同形状，且常与功能有关",
+          "C. 细胞形状不同就一定不是细胞"
+        ],
+        "question": "关于不同细胞的形状，下列说法正确的是：",
+        "score": 2,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "同一个生物体内，不同部位的细胞可能承担不同工作，因此形状或结构也可能存在差异。",
+        "knowledge_point": "生物细胞的多样性",
+        "options": [],
+        "question": "同一生物体内的细胞也可能形状不同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "功能",
+        "difficulty": 1,
+        "explanation": "细胞的形状和结构特点常与它承担的功能相适应，但观察外形不能单独确定细胞的全部功能。",
+        "knowledge_point": "生物细胞的多样性",
+        "options": [],
+        "question": "细胞的形状和结构特点，常与它承担的____有关。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 45
+      },
+      {
+        "answer": "形状、大小、结构",
+        "difficulty": 2,
+        "explanation": "比较细胞时，可从形状、大小和可观察到的结构等方面着手；观察与比较能帮助我们发现细胞的多样性。",
+        "knowledge_point": "生物细胞的多样性",
+        "options": [],
+        "question": "观察并比较两种细胞时，可以从哪三个方面描述它们的差异？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "多样；不能",
+        "difficulty": 2,
+        "explanation": "生物细胞在外形和结构上具有多样性，但不能仅凭细胞外形就判断它的全部功能，还需结合观察和其他证据。",
+        "knowledge_point": "生物细胞的多样性",
+        "options": [],
+        "question": "生物细胞的形状和结构具有____性；只凭外形____判断细胞的全部功能。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "显微镜",
+        "difficulty": 1,
+        "explanation": "许多水中微小生物肉眼看不清，显微镜能放大物体，帮助我们观察其形态和运动。",
+        "knowledge_point": "水中微小生物的观察与控制",
+        "options": [
+          "放大镜",
+          "显微镜",
+          "望远镜",
+          "温度计"
+        ],
+        "question": "观察一滴水中肉眼看不清的微小生物，最适合使用哪种工具？",
+        "score": 1,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "水看起来清澈，只能说明其中较大的杂质较少，不能据此判断是否含有微小生物。",
+        "knowledge_point": "水中微小生物的观察与控制",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "水看起来清澈，就能确定里面没有微小生物。",
+        "score": 1,
+        "type": "true_false",
+        "id": 49
+      },
+      {
+        "answer": "低倍",
+        "difficulty": 1,
+        "explanation": "先用低倍镜观察，视野较大，比较容易找到目标；找到后再按需要换高倍镜仔细观察。",
+        "knowledge_point": "水中微小生物的观察与控制",
+        "options": [],
+        "question": "使用显微镜观察水样时，通常先用____物镜寻找目标。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "用干净容器取少量水样，不品尝、不用嘴吸取；观察后按教师指导处理样品，清洗器材并洗手。",
+        "difficulty": 2,
+        "explanation": "自然水样可能含有有害微生物。安全取样、避免入口以及观察后清洁，能减少接触和传播风险。",
+        "knowledge_point": "水中微小生物的观察与控制",
+        "options": [],
+        "question": "写出观察自然水样时的两项安全做法。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "不直接取用自然水样饮用，而是通过保护水源、规范净水消毒及检测来保障饮水安全。煮沸可杀灭许多微生物，但不等于能去除所有污染物。",
+        "knowledge_point": "水中微小生物的观察与控制",
+        "options": [
+          "保护水源，并采用规范的净水、消毒和检测措施",
+          "只要水没有颜色和气味就直接饮用",
+          "用普通滤网过滤一次就能保证可以饮用",
+          "观察后把显微镜载玻片上的水样喝掉"
+        ],
+        "question": "哪种做法最能帮助保障饮水安全？",
+        "score": 1,
+        "type": "choice",
+        "id": 52
+      },
+      {
+        "answer": "取样时使用干净容器，先用低倍镜找到目标，再按需要换高倍镜观察；观察后按指导处理样品并清洁器材、洗手。",
+        "difficulty": 3,
+        "explanation": "完整的观察方案既要包含显微镜观察的合理顺序，也要考虑样品可能带来的卫生风险和实验后的清洁处理。",
+        "knowledge_point": "水中微小生物的观察与控制",
+        "options": [],
+        "question": "小明要观察池塘水样。请按先后写出一套包含取样、显微镜观察和观察后处理的安全流程。",
+        "score": 3,
+        "type": "calculation",
+        "id": 53
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "微生物种类很多，有些会使人患病，有些能帮助制作酸奶、面包等食品，因此不能说微生物全都有害。",
+        "knowledge_point": "微生物与人类健康的关系",
+        "options": [
+          "微生物全都对人体有害",
+          "有些微生物有益，有些可能有害",
+          "微生物都能用肉眼看见",
+          "微生物只生活在食物里"
+        ],
+        "question": "关于微生物与人类健康的关系，下面哪种说法正确？",
+        "score": 2,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "制作酸奶时，特定的有益细菌能使牛奶发酵。制作和保存过程需要符合卫生要求。",
+        "knowledge_point": "微生物与人类健康的关系",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "制作酸奶时会利用有益微生物。",
+        "score": 2,
+        "type": "true_false",
+        "id": 55
+      },
+      {
+        "answer": "洗手",
+        "difficulty": 1,
+        "explanation": "用肥皂或洗手液认真洗手，可以帮助清除手上的污物和部分微生物，降低病原微生物传播的机会。",
+        "knowledge_point": "微生物与人类健康的关系",
+        "options": [],
+        "question": "饭前便后，用肥皂或洗手液认真________，有助于减少病原微生物传播。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 56
+      },
+      {
+        "answer": "生熟分开",
+        "difficulty": 2,
+        "explanation": "生肉等食物可能带有病原微生物。生熟分开可以减少这些微生物污染熟食的机会，食物还应充分加热。",
+        "knowledge_point": "微生物与人类健康的关系",
+        "options": [],
+        "question": "为了避免生食中的微生物污染熟食，处理食物时应做到________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 57
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "抗生素主要用于治疗某些细菌感染，应遵照医生或药师指导使用；病毒感染不能靠抗生素治疗。",
+        "knowledge_point": "微生物与人类健康的关系",
+        "options": [
+          "感冒后不论原因都自行服用抗生素",
+          "抗生素可以杀死所有微生物",
+          "抗生素不能治疗病毒感染，应遵医嘱使用",
+          "症状一减轻就可以自行停用所有药物"
+        ],
+        "question": "关于抗生素，下面哪项说法正确？",
+        "score": 3,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "有益微生物",
+        "difficulty": 2,
+        "explanation": "制作面包时，酵母菌等有益微生物能帮助面团发酵，使面团变得蓬松。",
+        "knowledge_point": "微生物与人类健康的关系",
+        "options": [],
+        "question": "制作面包时，帮助面团发酵的酵母菌属于________。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "凸透镜",
+        "difficulty": 1,
+        "explanation": "放大镜的镜片中央厚、边缘薄，属于凸透镜。",
+        "knowledge_point": "放大镜的特征",
+        "options": [],
+        "question": "放大镜通常使用________镜片。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 60
+      },
+      {
+        "answer": "中央厚，边缘薄",
+        "difficulty": 1,
+        "explanation": "这是凸透镜的外形特征，可通过侧面观察镜片来辨认。",
+        "knowledge_point": "放大镜的特征",
+        "options": [],
+        "question": "凸透镜的形状特点是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 61
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "凸透镜中央厚、边缘薄；凹透镜则中央薄、边缘厚。",
+        "knowledge_point": "放大镜的特征",
+        "options": [
+          "A. 中央薄、边缘厚",
+          "B. 中央厚、边缘薄",
+          "C. 中央和边缘一样厚"
+        ],
+        "question": "下列哪项最符合放大镜镜片的形状特点？",
+        "score": 2,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "放大镜可帮助我们观察较小物体的细节，但不能用于直视太阳。",
+        "knowledge_point": "放大镜的特征",
+        "options": [],
+        "question": "使用放大镜，可以帮助我们看清小物体的细节。",
+        "score": 2,
+        "type": "true_false",
+        "id": 63
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "放大镜通常由凸透镜制成，中央厚、边缘薄；凹透镜的形状特点与之相反。",
+        "knowledge_point": "放大镜的特征",
+        "options": [
+          "A. 凹透镜，中央厚、边缘薄",
+          "B. 凸透镜，中央厚、边缘薄",
+          "C. 平面镜，中央和边缘一样厚"
+        ],
+        "question": "关于放大镜，下列说法正确的是哪一项？",
+        "score": 2,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "微生物也广泛存在于水中，并非只生活在脏乱的地方。",
+        "knowledge_point": "微生物的分布",
+        "options": [
+          "A. 只有垃圾堆里",
+          "B. 空气、水、土壤和生物体内外",
+          "C. 只有森林里",
+          "D. 只有食物表面"
+        ],
+        "question": "下列哪种说法最能说明微生物分布广泛？",
+        "score": 2,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "水",
+        "difficulty": 1,
+        "explanation": "除了空气和土壤，水中也可能生活着许多微生物。",
+        "knowledge_point": "微生物的分布",
+        "options": [],
+        "question": "微生物除了能生活在空气和土壤中，也能生活在____中。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 66
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "微生物既可能生活在生物体内，也可能生活在生物体表；不同微生物的生活环境不同。",
+        "knowledge_point": "微生物的分布",
+        "options": [],
+        "question": "微生物只能生活在动植物体内，不能生活在体表。",
+        "score": 2,
+        "type": "true_false",
+        "id": 67
+      },
+      {
+        "answer": "沙土",
+        "difficulty": 2,
+        "explanation": "土壤中含有多种微生物，沙土也是土壤环境的一种。",
+        "knowledge_point": "微生物的分布",
+        "options": [],
+        "question": "小明在花园里取了一些土壤，放进培养容器中观察。土壤属于微生物可能生活的____环境。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 68
+      },
+      {
+        "answer": "不一定。微生物分布在多种环境中，有些会使人患病，有些则能帮助发酵或分解物质，不能只根据它生活的地方判断是否有害。",
+        "difficulty": 2,
+        "explanation": "微生物种类很多，对人类的作用不同；判断其有无害处，要看具体种类和作用。",
+        "knowledge_point": "微生物的分布",
+        "options": [],
+        "question": "微生物生活在食物上，就一定对人有害吗？请说明理由。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 69
+      },
+      {
+        "answer": "擦拭",
+        "difficulty": 1,
+        "explanation": "制作装片前，应先把载玻片和盖玻片擦拭干净，避免灰尘影响观察。",
+        "knowledge_point": "洋葱表皮装片制作",
+        "options": [],
+        "question": "制作临时装片前，首先要用干净的纱布将载玻片和盖玻片________干净。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "在载玻片中央滴一滴清水，再将撕下的洋葱内表皮放入水滴中并展平。",
+        "knowledge_point": "洋葱表皮装片制作",
+        "options": [
+          "A. 在载玻片中央滴一滴碘液",
+          "B. 在载玻片中央滴一滴清水",
+          "C. 先把洋葱表皮放在干燥载玻片上"
+        ],
+        "question": "取下洋葱内表皮后，通常应先在载玻片中央做什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "防止表皮干燥，并使其能够平展在液滴中。",
+        "difficulty": 2,
+        "explanation": "水滴可为标本提供湿润环境，帮助洋葱表皮舒展，减少褶皱。",
+        "knowledge_point": "洋葱表皮装片制作",
+        "options": [],
+        "question": "制作洋葱表皮临时装片时，为什么要在载玻片上滴一滴清水？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 72
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "盖盖玻片时，让一侧先接触水滴，再缓慢放下，有助于把空气排出，减少气泡。",
+        "knowledge_point": "洋葱表皮装片制作",
+        "options": [
+          "A. 让盖玻片一侧先接触水滴，再缓慢放下",
+          "B. 将盖玻片从高处直接压到标本上",
+          "C. 先把盖玻片放好，再滴清水"
+        ],
+        "question": "盖盖玻片时，哪种做法更有助于减少气泡？",
+        "score": 2,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "染色",
+        "difficulty": 1,
+        "explanation": "碘液可以给标本染色，使一些细胞结构更容易观察。",
+        "knowledge_point": "洋葱表皮装片制作",
+        "options": [],
+        "question": "制作洋葱表皮临时装片时，碘液主要用于________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 74
+      },
+      {
+        "answer": "荷兰",
+        "difficulty": 1,
+        "explanation": "17世纪末，荷兰科学家列文虎克改进了单透镜显微镜，并用它观察到微小生物。",
+        "knowledge_point": "显微镜的发展史",
+        "options": [],
+        "question": "17世纪，科学家列文虎克在今天的哪个国家改进显微镜并观察微小生物？填：____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 75
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "光学显微镜主要利用可见光和透镜成像；电子显微镜则利用电子束成像。",
+        "knowledge_point": "显微镜的发展史",
+        "options": [
+          "A. 光学显微镜利用光和透镜成像",
+          "B. 光学显微镜利用电子束成像",
+          "C. 电子显微镜利用普通透镜直接观察物体"
+        ],
+        "question": "关于光学显微镜和电子显微镜，下列说法正确的是哪一项？",
+        "score": 2,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "1931",
+        "difficulty": 2,
+        "explanation": "德国科学家恩斯特·鲁斯卡与马克斯·克诺尔研制出了早期电子显微镜。电子显微镜的出现，进一步拓展了人类观察微观世界的能力。",
+        "knowledge_point": "显微镜的发展史",
+        "options": [],
+        "question": "科学家鲁斯卡和克诺尔研制出早期电子显微镜的年份是____年。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 77
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "放大倍数表示物像看起来比实物大多少；分辨率表示显微镜分辨相邻细小结构的能力。放大倍数高并不必然意味着看得更清楚。",
+        "knowledge_point": "显微镜的发展史",
+        "options": [],
+        "question": "显微镜的放大倍数越高，就一定能看清物体越多的细节。",
+        "score": 2,
+        "type": "true_false",
+        "id": 78
+      },
+      {
+        "answer": "光学显微镜",
+        "difficulty": 1,
+        "explanation": "光学显微镜利用可见光和透镜观察物体，是显微镜发展史上的重要类型；电子显微镜则在之后出现，使用电子束成像。",
+        "knowledge_point": "显微镜的发展史",
+        "options": [
+          "A. 光学显微镜",
+          "B. 电子显微镜",
+          "C. 天文望远镜"
+        ],
+        "question": "哪一种显微镜利用可见光和透镜来观察微小物体？",
+        "score": 2,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "凸",
+        "difficulty": 1,
+        "explanation": "凸透镜中间厚、边缘薄，能使通过它的光线发生折射。",
+        "knowledge_point": "组合凸透镜原理",
+        "options": [],
+        "question": "组合凸透镜是由两个或多个____透镜依次组成的。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 80
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "透镜之间的距离只是影响成像效果的因素之一，透镜焦距、物体位置和观察位置等也会影响最终图像。",
+        "knowledge_point": "组合凸透镜原理",
+        "options": [],
+        "question": "两个凸透镜组合后，图像效果只由透镜之间的距离决定。",
+        "score": 2,
+        "type": "true_false",
+        "id": 81
+      },
+      {
+        "answer": "折射",
+        "difficulty": 2,
+        "explanation": "光线通过凸透镜时会发生折射，方向随之改变。组合透镜中的每个透镜都会继续影响光线传播。",
+        "knowledge_point": "组合凸透镜原理",
+        "options": [],
+        "question": "光线通过凸透镜时会发生____，传播方向因此改变。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 82
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "一次只改变一个条件，能较清楚地观察该条件对图像的影响。若同时改变多个条件，就难以判断变化由什么引起。",
+        "knowledge_point": "组合凸透镜原理",
+        "options": [
+          "A. 同时改变物体、透镜和观察屏的位置",
+          "B. 固定其他条件，只缓慢改变两个透镜的间距",
+          "C. 不观察图像，直接猜测结果",
+          "D. 每次使用不同的物体和透镜"
+        ],
+        "question": "探究两个凸透镜的间距是否会影响图像清晰度时，哪种做法更合适？",
+        "score": 2,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "透镜的焦距、透镜之间的距离、物体位置和观察位置等。",
+        "difficulty": 3,
+        "explanation": "这些条件都会影响光线经过组合透镜后的传播情况，因此可能影响最终图像的大小和清晰度。",
+        "knowledge_point": "组合凸透镜原理",
+        "options": [],
+        "question": "请写出两个或两个以上可能影响组合凸透镜成像效果的条件。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "凸透镜",
+        "difficulty": 1,
+        "explanation": "放大镜通常是中央厚、边缘薄的透明凸透镜。",
+        "knowledge_point": "放大镜特征",
+        "options": [],
+        "question": "放大镜通常是一种透明的（）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 85
+      },
+      {
+        "answer": "中央厚、边缘薄",
+        "difficulty": 1,
+        "explanation": "凸透镜的中间部分比边缘厚，这是放大镜常见的形状特征。",
+        "knowledge_point": "放大镜特征",
+        "options": [],
+        "question": "放大镜镜片的形状特点是（）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 86
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "镜片面积大小并不能单独决定放大倍数；在其他条件相近时，凸度越大，放大倍数通常越大。",
+        "knowledge_point": "放大镜特征",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "镜片面积越大，放大镜的放大倍数就一定越大。（）",
+        "score": 5,
+        "type": "true_false",
+        "id": 87
+      },
+      {
+        "answer": "细胞壁",
+        "difficulty": 1,
+        "explanation": "细胞壁位于细胞外侧，能支持和保护细胞，因此显微镜下细胞的边界通常比较明显。",
+        "knowledge_point": "洋葱表皮细胞结构",
+        "options": [
+          "细胞壁",
+          "细胞核",
+          "液泡",
+          "细胞质"
+        ],
+        "question": "洋葱表皮细胞外侧、能支持和保护细胞的结构是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "细胞核通常位于细胞内部；染色后，观察起来往往更清楚。",
+        "knowledge_point": "洋葱表皮细胞结构",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "制作洋葱表皮临时装片时，使用碘液染色有助于观察细胞核。（判断对错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 89
+      },
+      {
+        "answer": "细胞核",
+        "difficulty": 1,
+        "explanation": "细胞核是细胞的重要结构，通常位于细胞内部。染色后，它可能呈现较深的颜色。",
+        "knowledge_point": "洋葱表皮细胞结构",
+        "options": [],
+        "question": "洋葱表皮细胞内部，染色后较容易观察到的圆形或椭圆形结构可能是________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 90
+      },
+      {
+        "answer": "细胞壁、细胞膜、细胞质、细胞核、液泡",
+        "difficulty": 2,
+        "explanation": "这些是小学阶段学习洋葱表皮细胞时常认识的基本结构。叶绿体不是洋葱鳞片叶表皮细胞通常具有的结构。",
+        "knowledge_point": "洋葱表皮细胞结构",
+        "options": [],
+        "question": "写出洋葱表皮细胞的五种基本结构。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 91
+      },
+      {
+        "answer": "长方形或多边形，排列较紧密；能看到细胞壁形成的边界。",
+        "difficulty": 2,
+        "explanation": "洋葱表皮由许多细胞组成，细胞通常排列紧密，外形常呈长方形或多边形，细胞壁使边界较清楚。",
+        "knowledge_point": "洋葱表皮细胞结构",
+        "options": [],
+        "question": "在显微镜下观察洋葱表皮细胞，写出它们常见的外形和排列特点。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "列文虎克",
+        "difficulty": 1,
+        "explanation": "列文虎克改进了显微镜，并观察到细菌、原生生物等肉眼看不见的微小生物。",
+        "knowledge_point": "微生物发现史",
+        "options": [
+          "列文虎克",
+          "罗伯特·胡克",
+          "巴斯德",
+          "达尔文"
+        ],
+        "question": "最早观察到多种微小生物的科学家是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "胡克观察的是软木薄片。他看到的是软木中已经形成的小室，并用“细胞”这个名称描述它们。",
+        "knowledge_point": "微生物发现史",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "罗伯特·胡克观察软木薄片后，把看到的小室称为“细胞”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 94
+      },
+      {
+        "answer": "巴斯德",
+        "difficulty": 2,
+        "explanation": "巴斯德通过实验研究微生物的作用，对发酵和疾病等问题的认识作出了重要贡献。",
+        "knowledge_point": "微生物发现史",
+        "options": [],
+        "question": "通过实验研究微生物与发酵等现象关系的科学家是________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 95
+      },
+      {
+        "answer": "细胞",
+        "difficulty": 1,
+        "explanation": "罗伯特·胡克用“细胞”命名他在软木薄片中观察到的小室。",
+        "knowledge_point": "微生物发现史",
+        "options": [],
+        "question": "罗伯特·胡克把在软木薄片中看到的小室称为________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 96
+      },
+      {
+        "answer": "显微镜",
+        "difficulty": 2,
+        "explanation": "显微镜能放大细小物体，帮助人们观察肉眼看不见的细胞和微生物。",
+        "knowledge_point": "微生物发现史",
+        "options": [],
+        "question": "人们借助________观察肉眼看不见的微小生物。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 97
+      },
+      {
+        "answer": "低倍",
+        "difficulty": 1,
+        "explanation": "先用低倍物镜寻找标本，视野较大，更容易找到观察对象；找到后再视需要换用高倍镜。",
+        "knowledge_point": "微生物观察技巧",
+        "options": [],
+        "question": "使用显微镜观察标本时，通常先用（ ）物镜寻找观察对象。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 98
+      },
+      {
+        "answer": "目镜放大倍数×物镜放大倍数",
+        "difficulty": 2,
+        "explanation": "显微镜的总放大倍数由目镜和物镜的放大倍数相乘得到。",
+        "knowledge_point": "微生物观察技巧",
+        "options": [],
+        "question": "显微镜的放大倍数＝（ ）×（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "盖玻片应轻轻盖在标本上，挤压可能使水样流出或损坏标本；从一侧慢慢放下也有助于减少气泡。",
+        "knowledge_point": "微生物观察技巧",
+        "options": [],
+        "question": "制作水样临时装片时，应当用力按压盖玻片，确保它紧贴载玻片。（判断对错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 100
+      },
+      {
+        "answer": "300倍",
+        "difficulty": 2,
+        "explanation": "总放大倍数＝目镜放大倍数×物镜放大倍数＝10×30＝300倍。",
+        "knowledge_point": "微生物观察技巧",
+        "options": [],
+        "question": "目镜放大10倍、物镜放大30倍，显微镜的总放大倍数是多少？",
+        "score": 5,
+        "type": "calculation",
+        "id": 101
+      },
+      {
+        "answer": "盖玻片",
+        "difficulty": 1,
+        "explanation": "盖玻片应轻轻盖在液滴上，便于形成薄而平整的临时装片，方便显微镜观察。",
+        "knowledge_point": "微生物观察技巧",
+        "options": [],
+        "question": "制作水样临时装片时，滴好水样后轻轻盖上的薄玻璃片叫（ ）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 102
+      },
+      {
+        "answer": "细菌、霉菌、酵母菌、草履虫",
+        "difficulty": 1,
+        "explanation": "这些生物都属于微生物或通常需要借助放大工具观察的微小生物；蝴蝶体形较大，肉眼可见，不属于微生物。",
+        "knowledge_point": "微生物的多样性",
+        "options": [
+          "细菌、霉菌、酵母菌、草履虫",
+          "蝴蝶、蚯蚓、青蛙、草履虫",
+          "松树、草莓、细菌、兔子",
+          "蜻蜓、蜜蜂、蝗虫、酵母菌"
+        ],
+        "question": "下列生物中，都是微生物的一组是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "微生物的种类很多，细菌、真菌以及草履虫、变形虫等都属于不同类型的微生物。",
+        "knowledge_point": "微生物的多样性",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "微生物包括多种不同类型，不只是细菌。",
+        "score": 5,
+        "type": "true_false",
+        "id": 104
+      },
+      {
+        "answer": "土壤",
+        "difficulty": 1,
+        "explanation": "微生物分布广泛，除了水中，也能生活在土壤、空气以及其他生物体内或体表。",
+        "knowledge_point": "微生物的多样性",
+        "options": [],
+        "question": "微生物可以生活在水中，也可以生活在________等环境中。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "酵母菌",
+        "difficulty": 2,
+        "explanation": "酵母菌是一种真菌，常用于发酵食品。它与细菌、霉菌等都是微生物中的不同成员。",
+        "knowledge_point": "微生物的多样性",
+        "options": [],
+        "question": "制作面包时常用来帮助面团发酵的一种微生物是________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 106
+      },
+      {
+        "answer": "微生物种类多样，有细菌、霉菌、酵母菌、草履虫等；它们生活在水、土壤等多种环境中，有的对人类有益，有的可能致病。",
+        "difficulty": 2,
+        "explanation": "回答应体现微生物种类不止一种，并可从生活环境或作用不同等方面说明其多样性。",
+        "knowledge_point": "微生物的多样性",
+        "options": [],
+        "question": "请举出两种微生物，并说说微生物的生活环境或作用有什么不同。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "120倍",
+        "difficulty": 2,
+        "explanation": "总放大倍数=目镜倍数×物镜倍数，15×8=120。",
+        "knowledge_point": "放大倍数计算",
+        "options": [],
+        "question": "显微镜目镜为15倍，物镜为8倍，总放大倍数是多少？",
+        "score": 5,
+        "type": "calculation",
+        "id": 108
+      },
+      {
+        "answer": "6倍",
+        "difficulty": 2,
+        "explanation": "总放大倍数=目镜倍数×物镜倍数，2×3=6。",
+        "knowledge_point": "放大倍数计算",
+        "options": [],
+        "question": "目镜为2倍、物镜为3倍的显微镜，总放大倍数是____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "显微镜的总放大倍数用目镜倍数乘以物镜倍数计算，不是把两者相加。",
+        "knowledge_point": "放大倍数计算",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "显微镜的总放大倍数等于目镜倍数与物镜倍数的乘积。",
+        "score": 3,
+        "type": "true_false",
+        "id": 110
+      },
+      {
+        "answer": "10倍",
+        "difficulty": 3,
+        "explanation": "物镜倍数=总放大倍数÷目镜倍数，100÷10=10。",
+        "knowledge_point": "放大倍数计算",
+        "options": [],
+        "question": "一台显微镜总放大倍数为100倍，目镜为10倍，物镜为____倍。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "300倍",
+        "difficulty": 2,
+        "explanation": "总放大倍数=目镜倍数×物镜倍数，10×30=300。",
+        "knowledge_point": "放大倍数计算",
+        "options": [
+          "40倍",
+          "300倍",
+          "100倍",
+          "13倍"
+        ],
+        "question": "目镜为10倍、物镜为30倍时，显微镜的总放大倍数是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 112
+      },
+      {
+        "answer": "×",
+        "difficulty": 1,
+        "explanation": "细胞是生物体基本的结构和功能单位；器官由不同组织构成，不是最基本的单位。",
+        "knowledge_point": "细胞功能",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "器官是生物体基本的结构和功能单位。",
+        "score": 5,
+        "type": "true_false",
+        "id": 113
+      },
+      {
+        "answer": "不同",
+        "difficulty": 1,
+        "explanation": "不同类型的细胞常有不同的形态和功能，这有助于它们完成各自的任务。",
+        "knowledge_point": "细胞功能",
+        "options": [],
+        "question": "不同类型的细胞，形态和功能可能是______的。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 114
+      },
+      {
+        "answer": "细胞",
+        "difficulty": 1,
+        "explanation": "植物和动物都是生物，细胞是生物体基本的结构和功能单位。",
+        "knowledge_point": "细胞功能",
+        "options": [],
+        "question": "植物和动物的身体都由______构成。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "根毛细胞具有细长的突起，能够增大与土壤的接触面积，有利于吸收水分和无机盐。",
+        "knowledge_point": "细胞功能",
+        "options": [
+          "帮助植物制造种子",
+          "帮助植物传播花粉",
+          "帮助植物吸收水分和无机盐",
+          "帮助植物运输氧气"
+        ],
+        "question": "植物根部的根毛细胞有许多细长的突起，这种特点主要有利于（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 116
+      },
+      {
+        "answer": "细胞能够生长和分裂，细胞数量增加、体积增大，能促进生物体的生长发育。",
+        "difficulty": 2,
+        "explanation": "细胞分裂能增加细胞数量，细胞生长能使细胞体积增大；这些过程共同参与生物体的生长发育。",
+        "knowledge_point": "细胞功能",
+        "options": [],
+        "question": "简要说明细胞怎样参与生物体的生长发育。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "酵母菌",
+        "difficulty": 1,
+        "explanation": "酵母菌能够使面团发酵，产生的气体使面团变得膨松。",
+        "knowledge_point": "微生物的益处",
+        "options": [],
+        "question": "制作面包和馒头时，常利用（ ）帮助面团发酵。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "某些微生物可用于生产抗生素，帮助人们治疗由细菌等引起的感染。",
+        "knowledge_point": "微生物的益处",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "有些微生物可以用于生产抗生素。",
+        "score": 5,
+        "type": "true_false",
+        "id": 119
+      },
+      {
+        "answer": "分解",
+        "difficulty": 2,
+        "explanation": "污水处理中的一些微生物能够分解污水中的部分有机物，从而帮助净化污水。",
+        "knowledge_point": "微生物的益处",
+        "options": [],
+        "question": "污水处理中，一些微生物可以（ ）污水中的部分有机物。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "有些微生物对人有益，有些微生物可能使人生病或使食物变质。",
+        "difficulty": 2,
+        "explanation": "微生物种类很多，对人类的影响不同，不能把所有微生物都说成有益或有害。",
+        "knowledge_point": "微生物的益处",
+        "options": [],
+        "question": "微生物都是有害的。请判断并说明理由。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "酵母菌发酵制作面食属于食品生产；利用微生物生产抗生素属于药物生产。",
+        "knowledge_point": "微生物的益处",
+        "options": [
+          "酵母菌帮助面团发酵",
+          "微生物使食物变质",
+          "微生物使人生病",
+          "蚊子传播疾病"
+        ],
+        "question": "下列哪一项是利用微生物的益处？",
+        "score": 5,
+        "type": "choice",
+        "id": 122
+      },
+      {
+        "answer": "物镜",
+        "difficulty": 1,
+        "explanation": "物镜位于靠近玻片标本的一端，目镜位于靠近眼睛的一端；两者共同放大物像。",
+        "knowledge_point": "显微镜构造",
+        "options": [
+          "目镜",
+          "物镜",
+          "镜座",
+          "压片夹"
+        ],
+        "question": "显微镜上靠近玻片标本的镜头是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 123
+      },
+      {
+        "answer": "反光镜",
+        "difficulty": 1,
+        "explanation": "反光镜可以把光线反射到玻片标本上，帮助我们看清标本。",
+        "knowledge_point": "显微镜构造",
+        "options": [
+          "镜臂",
+          "反光镜",
+          "目镜",
+          "转换器"
+        ],
+        "question": "显微镜中主要用于调节光线、照亮玻片标本的部件是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 124
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "载物台用于放置玻片标本，压片夹可将玻片固定在载物台上。",
+        "knowledge_point": "显微镜构造",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "载物台用来放置玻片标本，压片夹可以固定玻片。",
+        "score": 5,
+        "type": "true_false",
+        "id": 125
+      },
+      {
+        "answer": "目镜",
+        "difficulty": 2,
+        "explanation": "观察时眼睛对着目镜；目镜和物镜共同放大物像。",
+        "knowledge_point": "显微镜构造",
+        "options": [],
+        "question": "观察显微镜时，眼睛对着________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 126
+      },
+      {
+        "answer": "100倍",
+        "difficulty": 2,
+        "explanation": "显微镜总放大倍数等于目镜放大倍数乘以物镜放大倍数：10 × 10 = 100。",
+        "knowledge_point": "显微镜构造",
+        "options": [],
+        "question": "目镜是10倍、物镜是10倍时，显微镜的总放大倍数是________。",
+        "score": 5,
+        "type": "calculation",
+        "id": 127
+      },
+      {
+        "answer": "支持和保护细胞",
+        "difficulty": 1,
+        "explanation": "细胞壁位于植物细胞的外层，能支持和保护细胞，使细胞保持一定形态。",
+        "knowledge_point": "植物细胞结构",
+        "options": [],
+        "question": "植物细胞外层的细胞壁主要有什么作用？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "细胞膜",
+        "difficulty": 1,
+        "explanation": "细胞膜能控制物质进出细胞，是细胞与外界进行物质交换的重要界面。",
+        "knowledge_point": "植物细胞结构",
+        "options": [],
+        "question": "植物细胞中，能够控制物质进出的结构是________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 129
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "叶绿体是许多绿色植物细胞进行光合作用的场所，但并非所有植物细胞都有叶绿体，例如洋葱鳞片叶表皮细胞通常没有。",
+        "knowledge_point": "植物细胞结构",
+        "options": [],
+        "question": "判断：所有植物细胞中都含有叶绿体。（对或错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 130
+      },
+      {
+        "answer": "细胞核",
+        "difficulty": 2,
+        "explanation": "细胞核内含有遗传信息，并对细胞的生命活动起重要作用。",
+        "knowledge_point": "植物细胞结构",
+        "options": [
+          "细胞壁",
+          "细胞膜",
+          "细胞核",
+          "液泡"
+        ],
+        "question": "植物细胞中，含有遗传信息并对细胞生命活动起重要作用的结构是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 131
+      },
+      {
+        "answer": "细胞壁、细胞膜、细胞质、细胞核",
+        "difficulty": 2,
+        "explanation": "植物细胞的基本结构包括细胞壁、细胞膜、细胞质和细胞核。许多植物细胞还具有液泡；绿色植物的叶肉细胞通常有叶绿体，但叶绿体并不是所有植物细胞都有。",
+        "knowledge_point": "植物细胞结构",
+        "options": [],
+        "question": "写出植物细胞的四种基本结构。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
+      },
+      {
+        "answer": "低倍物镜",
+        "difficulty": 1,
+        "explanation": "观察标本时通常先用低倍物镜，视野较大，比较容易找到标本。",
+        "knowledge_point": "显微镜操作",
+        "options": [
+          "低倍物镜",
+          "高倍物镜",
+          "目镜",
+          "反光镜"
+        ],
+        "question": "观察玻片标本时，通常应先选用哪种物镜？",
+        "score": 5,
+        "type": "choice",
+        "id": 133
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "调节粗准焦螺旋时要从侧面观察，避免物镜下降过多而碰到玻片。",
+        "knowledge_point": "显微镜操作",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "调节显微镜时，可以不看物镜与玻片的距离，让物镜直接下降到玻片上。",
+        "score": 5,
+        "type": "true_false",
+        "id": 134
+      },
+      {
+        "answer": "×",
+        "difficulty": 1,
+        "explanation": "总倍数等于目镜倍数乘以物镜倍数。10×目镜与4×物镜组合，总倍数为40×。",
+        "knowledge_point": "显微镜操作",
+        "options": [],
+        "question": "目镜是10×、物镜是4×时，显微镜的总倍数是（　　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 135
+      },
+      {
+        "answer": "右",
+        "difficulty": 2,
+        "explanation": "显微镜下物像移动方向与玻片移动方向相同。要让偏左的物像移向视野中央，应将玻片向左移动。",
+        "knowledge_point": "显微镜操作",
+        "options": [],
+        "question": "观察时发现物像偏左，要使物像移到视野中央，应将玻片向（　　）移动。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 136
+      },
+      {
+        "answer": "低倍物镜",
+        "difficulty": 2,
+        "explanation": "使用低倍物镜容易找到标本。找到标本后，可再转换到高倍物镜仔细观察。",
+        "knowledge_point": "显微镜操作",
+        "options": [],
+        "question": "使用显微镜观察时，通常先用（　　）物镜找到标本。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "放大倍数增大时，视野范围缩小，单个物体看起来更大，因此通常能看到的物体数量变少。",
+        "knowledge_point": "观察范围变化",
+        "options": [
+          "放大倍数越大，视野越大，物体越小",
+          "放大倍数越大，视野越小，物体越大",
+          "放大倍数越大，视野和物体大小都不变",
+          "放大倍数越大，视野越小，物体越小"
+        ],
+        "question": "使用显微镜观察同一标本，放大倍数增大后，通常会出现什么变化？",
+        "score": 5,
+        "type": "choice",
+        "id": 138
+      },
+      {
+        "answer": "目镜放大倍数×物镜放大倍数",
+        "difficulty": 2,
+        "explanation": "显微镜的总放大倍数由目镜和物镜的放大倍数相乘得到。例如，目镜是10倍、物镜是4倍时，总放大倍数是40倍。",
+        "knowledge_point": "观察范围变化",
+        "options": [],
+        "question": "显微镜的总放大倍数等于目镜放大倍数与物镜放大倍数的______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 139
+      },
+      {
+        "answer": "40倍",
+        "difficulty": 2,
+        "explanation": "总放大倍数＝目镜放大倍数×物镜放大倍数，即10×4＝40倍。",
+        "knowledge_point": "观察范围变化",
+        "options": [],
+        "question": "显微镜的目镜是10倍，物镜是4倍，总放大倍数是多少？",
+        "score": 5,
+        "type": "calculation",
+        "id": 140
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "显微镜放大倍数增大时，视野中的观察区域变小，因此通常能看到的细胞数量会减少。",
+        "knowledge_point": "观察范围变化",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "同一张细胞标本在显微镜下观察，放大倍数增大后，视野中通常能看到的细胞数量会减少。",
+        "score": 5,
+        "type": "true_false",
+        "id": 141
+      },
+      {
+        "answer": "视野",
+        "difficulty": 1,
+        "explanation": "显微镜中能观察到的范围称为视野。放大倍数增大时，视野通常变小。",
+        "knowledge_point": "观察范围变化",
+        "options": [],
+        "question": "显微镜中能够观察到的范围叫作______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 142
+      },
+      {
+        "answer": "微米",
+        "difficulty": 1,
+        "explanation": "微米是表示微小长度的常用单位，微生物的大小常用微米表示。",
+        "knowledge_point": "微生物大小",
+        "options": [],
+        "question": "表示微生物大小时，常用的长度单位是（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 143
+      },
+      {
+        "answer": "1000",
+        "difficulty": 2,
+        "explanation": "1毫米等于1000微米，因此毫米换算成微米时要乘以1000。",
+        "knowledge_point": "微生物大小",
+        "options": [],
+        "question": "1毫米等于（）微米。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 144
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "许多微生物非常微小，肉眼难以看清，通常需要借助显微镜观察。",
+        "knowledge_point": "微生物大小",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "许多微生物很小，通常需要借助显微镜才能观察清楚。",
+        "score": 5,
+        "type": "true_false",
+        "id": 145
+      },
+      {
+        "answer": "细菌",
+        "difficulty": 2,
+        "explanation": "细菌通常只有几个微米甚至更小，草履虫通常有数百微米长，所以细菌一般比草履虫小得多。",
+        "knowledge_point": "微生物大小",
+        "options": [],
+        "question": "细菌和草履虫相比，通常体型更小的是（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 146
+      },
+      {
+        "answer": "0.2",
+        "difficulty": 3,
+        "explanation": "1毫米等于1000微米，所以200微米＝200÷1000毫米＝0.2毫米。",
+        "knowledge_point": "微生物大小",
+        "options": [],
+        "question": "一只草履虫长约200微米，换算成毫米约为多少毫米？",
+        "score": 5,
+        "type": "calculation",
+        "id": 147
+      },
+      {
+        "answer": "焦点",
+        "difficulty": 1,
+        "explanation": "答案：焦点。平行光通过凸透镜后会聚到的点叫焦点。",
+        "knowledge_point": "放大镜术语",
+        "options": [],
+        "question": "平行光通过凸透镜后会聚到的点叫做（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 148
+      },
+      {
+        "answer": "焦距",
+        "difficulty": 1,
+        "explanation": "答案：焦距。焦距是凸透镜中心到焦点的距离。",
+        "knowledge_point": "放大镜术语",
+        "options": [],
+        "question": "凸透镜中心到焦点的距离叫做（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 149
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "答案：A。凸透镜的特点是中央厚、边缘薄；中央薄、边缘厚的是凹透镜。",
+        "knowledge_point": "放大镜术语",
+        "options": [
+          "A. 中央厚、边缘薄",
+          "B. 中央薄、边缘厚",
+          "C. 中央和边缘一样厚"
+        ],
+        "question": "下面哪一项描述的是凸透镜的形状特点？",
+        "score": 5,
+        "type": "choice",
+        "id": 150
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "答案：正确。凸透镜能使光线会聚，平行光经过凸透镜后会聚到焦点。",
+        "knowledge_point": "放大镜术语",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "凸透镜能使平行光会聚到焦点。",
+        "score": 5,
+        "type": "true_false",
+        "id": 151
+      },
+      {
+        "answer": "焦距",
+        "difficulty": 2,
+        "explanation": "答案：焦距。焦点是光线会聚的位置；从凸透镜中心到焦点的这段距离才叫焦距。",
+        "knowledge_point": "放大镜术语",
+        "options": [],
+        "question": "小明找到凸透镜使太阳光会聚的点，并测量这个点到镜片中心的距离。他测量的是凸透镜的（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 152
+      },
+      {
+        "answer": "盖玻片",
+        "difficulty": 1,
+        "explanation": "将观察材料放在载玻片上的液滴中后，用盖玻片覆盖，制成临时装片。",
+        "knowledge_point": "装片制作",
+        "options": [],
+        "question": "制作临时装片时，覆盖在观察材料上方的薄玻璃片叫作（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 153
+      },
+      {
+        "answer": "先让盖玻片的一边接触液滴，再缓慢放下",
+        "difficulty": 2,
+        "explanation": "斜着缓慢盖上盖玻片，有助于让液体逐渐铺开，减少空气被封在里面形成气泡。",
+        "knowledge_point": "装片制作",
+        "options": [],
+        "question": "盖盖玻片时，怎样操作比较容易减少气泡？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 154
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "观察材料应放在载玻片上的液滴中，并尽量展平；直接叠放或压紧都不利于观察。",
+        "knowledge_point": "装片制作",
+        "options": [
+          "A. 把材料折叠后放在载玻片上",
+          "B. 把材料放入液滴中并轻轻展平",
+          "C. 把材料放在盖玻片上再直接盖住"
+        ],
+        "question": "制作临时装片时，下面哪种做法更合适？",
+        "score": 5,
+        "type": "choice",
+        "id": 155
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "材料过厚时，容易出现重叠或遮挡，影响显微镜下的观察。",
+        "knowledge_point": "装片制作",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "制作装片时，观察材料越厚越好。",
+        "score": 5,
+        "type": "true_false",
+        "id": 156
+      },
+      {
+        "answer": "吸水纸",
+        "difficulty": 1,
+        "explanation": "盖好盖玻片后，可以用吸水纸吸去装片边缘多余的液体。",
+        "knowledge_point": "装片制作",
+        "options": [],
+        "question": "盖好盖玻片后，可用（）吸去边缘多余的液体。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 157
+      },
+      {
+        "answer": "乳酸菌",
+        "difficulty": 2,
+        "explanation": "制作酸奶时，乳酸菌利用牛奶中的营养物质进行发酵，使牛奶产生酸味并凝固成酸奶。",
+        "knowledge_point": "微生物应用",
+        "options": [],
+        "question": "制作酸奶常利用（）进行发酵。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 158
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "泡菜制作常利用乳酸菌发酵。酵母菌常用于面团发酵，霉菌则参与某些食品的制作。",
+        "knowledge_point": "微生物应用",
+        "options": [
+          "A. 乳酸菌",
+          "B. 酵母菌",
+          "C. 蚊子"
+        ],
+        "question": "制作泡菜常利用哪种微生物？",
+        "score": 5,
+        "type": "choice",
+        "id": 159
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "酵母菌发酵产生的二氧化碳会形成气泡，使面团内部变得疏松。",
+        "knowledge_point": "微生物应用",
+        "options": [],
+        "question": "酵母菌发酵产生的二氧化碳能使面团变得蓬松。（对或错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 160
+      },
+      {
+        "answer": "发酵",
+        "difficulty": 2,
+        "explanation": "人们利用微生物使食物发生有益变化的过程常称为发酵，例如制作酸奶和泡菜。",
+        "knowledge_point": "微生物应用",
+        "options": [],
+        "question": "制作酸奶和泡菜时，常利用微生物进行（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 161
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "微生物的作用不全是有害的。酵母菌和乳酸菌等可以帮助人们制作食品；另一些微生物可能使食物腐败或引起疾病。",
+        "knowledge_point": "微生物应用",
+        "options": [],
+        "question": "所有微生物都会使食物变质，不能被人们利用。（对或错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 162
       }
     ]
   },
@@ -664,14 +2399,14 @@
       "tips": "近视镜片是凹透镜，不能放大；老花镜片是凸透镜，可以放大。"
     },
     {
-      "point": "显微镜操作",
-      "core_concept": "光学显微镜成倒立缩小的像",
-      "key_formula": "总倍数=目镜倍数×物镜倍数",
       "common_mistakes": [
-        "调节时物镜直接撞在玻片上",
-        "移动玻片的方向与物像位置搞反"
+        "调节时物镜直接撞在玻片上。",
+        "移动玻片的方向与物像位置搞反。"
       ],
-      "tips": "物像在哪个方向，玻片就往哪个方向移。"
+      "core_concept": "使用光学显微镜观察时，先对光，再放置玻片标本并调节焦距。观察到的物像是倒立的；物像移动的方向与玻片移动的方向相同。",
+      "key_formula": "总倍数 = 目镜倍数 × 物镜倍数",
+      "point": "显微镜操作",
+      "tips": "物像偏向哪个方向，就将玻片向哪个方向移动；调焦时从侧面观察物镜与玻片，避免碰撞。"
     },
     {
       "point": "细胞与载玻片制作",
@@ -692,6 +2427,294 @@
         "把微小的昆虫（如蚜虫）当成微生物"
       ],
       "tips": "草履虫、水蚤是课堂常见的观察对象，需利用棉纤维控制运动。"
+    },
+    {
+      "common_mistakes": [
+        "认为放大镜能把任何物体都放大；实际上，它主要用于观察较小的物体或细节。",
+        "认为放大镜的镜片越厚，看到的像就一定越大、越清楚；像的大小和清晰程度还与镜片、物体和眼睛之间的距离有关。",
+        "把放大镜形成的像当成物体实际变大了；物体本身没有变，变化的是观察到的像。"
+      ],
+      "core_concept": "放大镜是一种中间厚、边缘薄的透明凸透镜，能够帮助我们观察较小物体的细节。观察时，物体应在凸透镜焦点以内，看到的通常是正立、放大的虚像。",
+      "key_formula": "凸透镜的主要特征：中间厚、边缘薄；当物体位于焦点以内时，可看到正立、放大的虚像。",
+      "point": "放大镜的特征与功能",
+      "tips": "观察时可先将放大镜靠近眼睛，再缓慢移动物体或放大镜，直到图像清晰。使用放大镜聚集阳光时，焦点处光线集中、温度较高，不能对着眼睛观察，也不能长时间照射可燃物。"
+    },
+    {
+      "common_mistakes": [
+        "把凸透镜看成只能放大物体；物体离透镜较远时，也可能形成缩小的像。",
+        "认为显微镜只有一个透镜；显微镜通常由靠近物体的物镜和靠近眼睛的目镜组成。",
+        "把显微镜的总放大倍数误认为物镜与目镜放大倍数之和；应将两者相乘。"
+      ],
+      "core_concept": "凸透镜能使光线会聚。物体放在凸透镜焦点以内时，透过透镜观察到的是正立、放大的虚像。把两个凸透镜组合起来，可以进一步放大观察物体。光学显微镜主要由物镜和目镜组成：物镜靠近被观察物体，先形成一个放大的像；目镜再把这个像放大，供眼睛观察。",
+      "key_formula": "显微镜总放大倍数＝物镜放大倍数×目镜放大倍数",
+      "point": "组合凸透镜与显微镜原理",
+      "tips": "观察时，先用较低倍数的物镜寻找并对准目标，再慢慢调节焦距；不要让物镜碰到玻片。物镜和目镜的放大倍数相乘，可估算显微镜的总放大倍数。例如，物镜放大4倍、目镜放大10倍，总放大倍数为40倍。"
+    },
+    {
+      "common_mistakes": [
+        "撕取洋葱内表皮时取到外层厚皮，或材料过厚、重叠。",
+        "先滴碘液再盖盖玻片，或盖片时动作过快，产生气泡。",
+        "使用显微镜时直接用高倍镜找物像，或观察时镜筒碰到玻片。",
+        "把细胞壁、细胞核和液泡等结构混淆；普通光学显微镜下通常看不到清晰的叶绿体。"
+      ],
+      "core_concept": "制作洋葱表皮细胞临时装片，通常要经过擦拭载玻片和盖玻片、滴清水、撕取薄而透明的内表皮、展平材料、染色、盖盖玻片等步骤。将装片放在显微镜下，先用低倍物镜寻找并调清物像，再观察细胞形态和结构。洋葱表皮细胞通常呈较规则的长方形或多边形，可观察到细胞壁、细胞质、细胞核和液泡等结构。",
+      "key_formula": "制作顺序：擦片 → 滴清水 → 取材并展平 → 染色 → 盖盖玻片。观察顺序：低倍镜找像 → 调焦看清 → 必要时换高倍镜观察。",
+      "point": "洋葱表皮细胞装片制作与观察",
+      "tips": "撕取洋葱鳞片叶内表面的一层薄膜，尽量薄且完整；用镊子把它在水滴中展平。盖盖玻片时让一侧先接触水滴，再缓慢放下，减少气泡。染液可从盖玻片一侧滴入，并在另一侧用吸水纸吸引，使染液通过材料。显微镜观察应先用低倍镜，转动粗准焦螺旋时注意避免物镜碰到玻片。"
+    },
+    {
+      "common_mistakes": [
+        "把细胞大小不同误认为细胞种类不同的唯一原因。",
+        "认为所有生物的细胞形状和结构都完全相同。",
+        "把细胞的形状与它的功能割裂开来。"
+      ],
+      "core_concept": "生物的细胞并不都一样。不同生物以及同一生物体内不同部位的细胞，在形状、大小和结构上可能各有差异；这些差异常与细胞承担的功能有关。观察和比较细胞，有助于认识生物的多样性。",
+      "key_formula": "细胞的形状、大小和结构特点，常与它承担的功能相适应。",
+      "point": "生物细胞的多样性",
+      "tips": "观察细胞时，可以从形状、大小、排列方式和可见结构等方面比较。比较不同细胞时要注意观察条件和尺度；不能只凭外形就判断细胞的全部功能。"
+    },
+    {
+      "common_mistakes": [
+        "把水中所有微小生物都当作细菌；水中还可能有藻类、原生动物等。",
+        "认为清澈、无异味的水一定没有微生物。",
+        "用嘴直接吸取样品，或品尝观察用的水。",
+        "认为过滤或煮沸能让任何水样都适合饮用。"
+      ],
+      "core_concept": "自然水体中可能生活着肉眼看不见或不易看清的微小生物。借助显微镜观察，可以发现它们的形态和运动；减少水体污染、采用适当的净水和消毒方法，有助于控制有害微生物。",
+      "key_formula": "观察流程：安全取样 → 制作临时装片 → 显微镜观察 → 记录现象 → 清洁器材并洗手。",
+      "point": "水中微小生物的观察与控制",
+      "tips": "取样时使用干净容器，不要触碰或饮用样品。显微镜观察应先用低倍镜找到目标，再按需要换高倍镜；调焦时动作轻缓，避免压坏玻片。观察后按教师指导处理样品，清洗器材并洗手。饮用水安全应由规范的净水、消毒和检测来保障，不能仅凭肉眼判断。"
+    },
+    {
+      "common_mistakes": [
+        "把所有微生物都当成有害的，忽略有些微生物能帮助人类制作食物或维持健康。",
+        "认为食物只要闻起来没有异味就一定安全；有些致病微生物无法凭肉眼或气味判断。",
+        "把抗生素当作治疗所有感染的药物；抗生素不能治疗由病毒引起的疾病，也不应自行随意使用。"
+      ],
+      "core_concept": "微生物包括细菌、真菌等个体很小、通常需要借助显微镜观察的生物。它们与人类健康的关系既有有害的一面，也有有益的一面：有些微生物会引起疾病或使食物变质；有些则能帮助制作酸奶、面包等食品，或参与人体内的正常活动。了解微生物的特点，并做好清洁、食品卫生和疾病预防，有助于保护健康。",
+      "key_formula": "保护健康：勤洗手 + 饮食卫生 + 适当消毒 + 生病时科学就医",
+      "point": "微生物与人类健康的关系",
+      "tips": "处理食物前后和如厕后要用肥皂或洗手液认真洗手；食物要充分加热，生熟分开，变质食物不要食用；咳嗽、打喷嚏时遮住口鼻。生病时应听从医生或药师建议，不自行使用抗生素。记住：微生物并非全都有害，关键是认识其作用并采取合适的卫生措施。"
+    },
+    {
+      "common_mistakes": [
+        "认为放大镜只要能放大物体，镜片就一定是平的。",
+        "把凸透镜和凹透镜混淆：凸透镜中央厚、边缘薄；凹透镜中央薄、边缘厚。",
+        "误以为放大倍数只由镜片大小决定。"
+      ],
+      "core_concept": "放大镜通常由凸透镜制成。凸透镜中央厚、边缘薄，能使近处物体看起来更大；放大镜的镜片大小、厚度和焦距等会影响观察效果。",
+      "key_formula": "无",
+      "point": "放大镜的特征",
+      "tips": "观察放大镜时，可以从侧面看看镜片的形状，再用它观察文字或叶片细节。不要用放大镜直视太阳，以免伤害眼睛。"
+    },
+    {
+      "common_mistakes": [
+        "认为微生物只生活在脏乱或腐败的地方。",
+        "认为所有微生物都对人类有害。",
+        "忽略水、空气、土壤以及动植物体内外都可能有微生物。"
+      ],
+      "core_concept": "微生物个体通常很小，分布却十分广泛。空气、水、土壤中，以及动植物的体内和体表，都可能生活着微生物。",
+      "key_formula": "微生物分布广泛：空气、水、土壤、动植物体内和体表等环境中都可能存在。",
+      "point": "微生物的分布",
+      "tips": "理解微生物分布时，可以从身边不同环境举例：空气中的霉菌孢子、水中的微生物、土壤中的细菌，以及人体或其他生物体内外的微生物。微生物是否有害，不能只凭它生活在哪里来判断。"
+    },
+    {
+      "common_mistakes": [
+        "撕取的洋葱表皮太厚或带有果肉，细胞容易重叠，不便观察。",
+        "盖盖玻片时直接压下，容易产生气泡。",
+        "滴加碘液过多或操作不当，可能冲动或弄皱表皮。"
+      ],
+      "core_concept": "制作洋葱表皮临时装片，需依次完成擦拭载玻片和盖玻片、滴水、取表皮、展平、盖片和染色等步骤，使表皮细胞能在显微镜下清晰观察。",
+      "key_formula": "擦片→滴水→取表皮→展平→盖片→染色",
+      "point": "洋葱表皮装片制作",
+      "tips": "用镊子撕取洋葱鳞片叶内侧薄而透明的表皮，并将其平展在水滴中。盖盖玻片时，让一侧先接触水滴，再缓慢放下，以减少气泡。需要染色时，可在盖玻片一侧滴加碘液，并在另一侧用吸水纸吸引，使染液通过标本。"
+    },
+    {
+      "common_mistakes": [
+        "把放大倍数和分辨率混为一谈：放得更大，不一定能看清更多细节。",
+        "认为显微镜的发展完全由某一个人独自完成；不同科学家在不同时期不断改进了显微镜。"
+      ],
+      "core_concept": "显微镜从早期的简单透镜装置，逐步发展为光学显微镜、电子显微镜等多种类型。显微镜的发展让人们能够观察越来越小的物体和细节，拓展了对微观世界的认识。",
+      "key_formula": "无",
+      "point": "显微镜的发展史",
+      "tips": "记住发展脉络：早期透镜装置出现后，光学显微镜不断改进；20世纪电子显微镜问世，能够观察更微小的结构。观察能力不仅与放大倍数有关，也与分辨率有关。"
+    },
+    {
+      "common_mistakes": [
+        "认为凸透镜的组合放大倍数只由透镜数量决定，忽略透镜焦距和间距。",
+        "认为只要两个凸透镜靠近，图像就一定更清晰、更大。",
+        "忽略观察位置和调焦操作对图像清晰度的影响。"
+      ],
+      "core_concept": "凸透镜能使光线会聚。把两个凸透镜组合使用时，光线先后经过两个透镜，后一个透镜会继续改变前一个透镜形成的光路，因此可以改变最终图像的大小和清晰程度。调节透镜间距或观察位置，可能使图像更清晰或放大效果发生变化；实际效果还与透镜的焦距、物体的位置等有关。",
+      "key_formula": "小学阶段不要求使用公式计算；可记住：调整透镜间距和观察位置，观察图像大小与清晰度的变化。",
+      "point": "组合凸透镜原理",
+      "tips": "实验时固定物体和其中一个透镜，缓慢移动另一个透镜或观察屏，每次只改变一个条件，并记录图像大小和清晰度。不要直视强烈阳光或用凸透镜聚焦阳光。"
+    },
+    {
+      "common_mistakes": [
+        "认为只有玻璃制成的物体才能当放大镜；透明水滴、装水的透明容器等也可能有放大作用。",
+        "认为镜片越大，放大倍数就一定越大；放大倍数主要与镜片的凸度有关。",
+        "把近视眼镜片当作放大镜；近视眼镜片通常是凹透镜，不能像凸透镜那样放大物体。"
+      ],
+      "core_concept": "放大镜是一种中央较厚、边缘较薄的透明凸透镜。它能使近处的物体看起来更大。透明物体只要具有类似凸透镜的形状，也可能有放大作用。",
+      "key_formula": "放大镜的放大倍数与镜片的凸度有关：在其他条件相近时，凸度越大，放大倍数通常越大。",
+      "point": "放大镜特征",
+      "tips": "观察透明物体时，可把它放在文字或小物体上方进行比较。镜片中央比边缘厚、两面凸起明显的物体，通常更像放大镜；不要仅凭物体大小或是否由玻璃制成来判断。"
+    },
+    {
+      "common_mistakes": [
+        "把细胞壁和细胞膜混为一谈：细胞壁位于细胞外侧，细胞膜紧贴细胞壁内侧。",
+        "认为洋葱表皮细胞有叶绿体；洋葱鳞片叶的表皮细胞通常没有叶绿体。",
+        "把细胞核、液泡等细胞内部结构误认为显微镜下看到的“小房间”边界。"
+      ],
+      "core_concept": "洋葱鳞片叶内表皮由许多细胞组成。显微镜下，细胞通常呈规则的长方形或多边形，彼此排列紧密；细胞壁使细胞边界较明显。细胞内部还可观察到细胞膜、细胞质、细胞核和较大的液泡等结构。",
+      "key_formula": "洋葱表皮细胞的基本结构：细胞壁、细胞膜、细胞质、细胞核、液泡。",
+      "point": "洋葱表皮细胞结构",
+      "tips": "观察时可将洋葱鳞片叶内侧的一层薄表皮制成临时装片，并用碘液染色帮助看清细胞核。先用低倍物镜找到细胞，再用高倍物镜仔细观察。洋葱鳞片叶表皮细胞一般没有叶绿体；不要把洋葱鳞片叶与绿色叶片的细胞混淆。"
+    },
+    {
+      "common_mistakes": [
+        "把罗伯特·胡克和列文虎克混淆：胡克观察软木并命名“细胞”，列文虎克观察到了多种微小生物。",
+        "认为显微镜下看到的细胞和微生物都是胡克发现的。",
+        "把微生物发现史上的观察与后来证明微生物作用的研究混为一谈。"
+      ],
+      "core_concept": "显微镜的发明和改进，使人们能够观察肉眼看不见的细小结构和生物。胡克观察软木薄片并命名“细胞”；列文虎克观察到细菌、原生生物等微小生物；巴斯德通过实验研究微生物与发酵、疾病等现象的关系。",
+      "key_formula": "微生物发现史：显微镜观察 → 发现细胞与微小生物 → 实验研究微生物的作用",
+      "point": "微生物发现史",
+      "tips": "记住三位科学家的主要贡献：罗伯特·胡克——观察软木并命名“细胞”；列文虎克——观察到多种微小生物；巴斯德——用实验研究微生物的作用。"
+    },
+    {
+      "common_mistakes": [
+        "把显微镜的放大倍数和视野大小混为一谈。",
+        "用力挤压盖玻片，导致水滴流出或标本受损。",
+        "把水中微小生物运动太快误认为看不清就没有生物。",
+        "观察后忘记清洁和整理显微镜。"
+      ],
+      "core_concept": "观察微生物时，要选择合适的材料并正确制作临时装片，再通过显微镜从低倍到高倍仔细观察。遇到运动较快的水生微小生物，可在载玻片上放少量脱脂棉纤维，帮助减慢它们的移动。",
+      "key_formula": "显微镜放大倍数＝目镜放大倍数×物镜放大倍数",
+      "point": "微生物观察技巧",
+      "tips": "先确认标本是否处在视野中，再调焦；换高倍镜后视野通常会变暗、变小，要慢慢调节。制作装片时动作轻缓，盖玻片从一侧放下，更容易减少气泡。"
+    },
+    {
+      "common_mistakes": [
+        "把微生物等同于细菌；其实微生物还包括许多真菌、原生生物等。",
+        "认为所有微生物都会让人患病；许多微生物对自然环境和人类生活有益。",
+        "误以为微生物都只能生活在水中；它们也可以生活在土壤、空气和其他生物体内。"
+      ],
+      "core_concept": "微生物是通常需要借助显微镜等工具才能观察到的微小生物。它们种类多样，生活环境广泛，常见的有细菌、霉菌、酵母菌和草履虫等。不同微生物的形态、生活方式和作用各不相同。",
+      "key_formula": "微生物种类多样：细菌、真菌（如霉菌、酵母菌）、原生生物（如草履虫、变形虫）等。",
+      "point": "微生物的多样性",
+      "tips": "观察微生物时，可以从形态、生活环境和作用等方面比较；不要仅凭是否有害来判断它是不是微生物。观察水中微小生物时，应使用合适的放大工具，并注意实验卫生。"
+    },
+    {
+      "common_mistakes": [
+        "把目镜和物镜的倍数相加，而不是相乘。",
+        "漏写“倍”，或将放大倍数与物体的实际大小混淆。",
+        "计算时乘法出错。"
+      ],
+      "core_concept": "显微镜的总放大倍数等于目镜放大倍数乘以物镜放大倍数。",
+      "key_formula": "显微镜总放大倍数 = 目镜放大倍数 × 物镜放大倍数",
+      "point": "放大倍数计算",
+      "tips": "看清题目给出的目镜和物镜倍数，使用乘法计算；计算后检查结果，并写上“倍”。"
+    },
+    {
+      "common_mistakes": [
+        "把器官或系统误认为生命活动的基本单位；它们由细胞构成。",
+        "认为所有细胞的形状和功能都相同；不同细胞会适应各自的功能。",
+        "认为细胞只负责生长；细胞还参与营养、呼吸、排泄和繁殖等生命活动。"
+      ],
+      "core_concept": "细胞是生物体基本的结构和功能单位。生物体的生长、发育、繁殖和遗传等生命活动，都与细胞有关。不同类型的细胞形态可能不同，承担的功能也不同。",
+      "key_formula": "生物体由细胞构成；细胞是生物体基本的结构和功能单位。",
+      "point": "细胞功能",
+      "tips": "判断细胞功能时，可先看它的形态特点，再联系它所处的位置和承担的任务。记住：细胞是基本单位，组织、器官和系统由更小的结构逐级组成。"
+    },
+    {
+      "common_mistakes": [
+        "把所有微生物都当成有害生物；许多微生物对人类和环境有益。",
+        "认为发酵只会使食物变质；酵母菌等微生物可用于制作面包、馒头等食品。",
+        "把污水净化理解为微生物直接消灭所有污染物；微生物能分解污水中的部分有机物，帮助净化。"
+      ],
+      "core_concept": "微生物种类繁多，有些会使人生病或使食物变质，也有许多能为人类和环境服务。人们利用微生物制作食品、生产药物、分解有机物和帮助处理污水。",
+      "key_formula": "益处举例：酵母菌发酵制作食品；某些微生物用于生产抗生素；污水处理中的微生物可分解部分有机物。",
+      "point": "微生物的益处",
+      "tips": "记住“食品、药物、环境”三类益处，并能说出对应例子。注意微生物并非都对人有益，也并非都对人有害。"
+    },
+    {
+      "common_mistakes": [
+        "把反光镜当作调节清晰度的部件；反光镜主要用于调节光线。",
+        "观察时直接用高倍物镜寻找物体；通常先用低倍物镜找到并对准物体。",
+        "使用粗准焦螺旋观察高倍物镜下的物像；高倍观察时应使用细准焦螺旋微调。"
+      ],
+      "core_concept": "显微镜由目镜、物镜、镜筒、转换器、载物台、压片夹、反光镜或光源、调节旋钮、镜臂和镜座等部分组成。目镜和物镜共同放大物像；载物台承放玻片标本；压片夹固定玻片；反光镜或光源提供照明；调节旋钮用于调节焦距、使物像清晰。",
+      "key_formula": "显微镜总放大倍数 = 目镜放大倍数 × 物镜放大倍数",
+      "point": "显微镜构造",
+      "tips": "调节清晰度时，先用粗准焦螺旋进行较大幅度调节，再用细准焦螺旋微调；换用高倍物镜后要谨慎操作，避免物镜碰到玻片。"
+    },
+    {
+      "common_mistakes": [
+        "认为所有植物细胞都有叶绿体；并非如此，例如洋葱鳞片叶的表皮细胞通常没有叶绿体。",
+        "混淆细胞壁和细胞膜：细胞壁在细胞膜外侧，主要起支持和保护作用；细胞膜控制物质进出。",
+        "认为细胞各部分彼此独立；细胞核、细胞质、细胞膜等共同维持细胞的生命活动。"
+      ],
+      "core_concept": "植物细胞是构成植物体的基本单位。典型植物细胞包括细胞壁、细胞膜、细胞质和细胞核；许多植物细胞还具有叶绿体和液泡。不同种类、不同部位的植物细胞结构可能有所不同。",
+      "key_formula": "植物细胞的基本结构：细胞壁、细胞膜、细胞质、细胞核；许多植物细胞还具有叶绿体和液泡。",
+      "point": "植物细胞结构",
+      "tips": "记忆各结构时，可抓住功能关键词：细胞壁“支持保护”，细胞膜“控制进出”，细胞质“生命活动场所”，细胞核“遗传与调控”，叶绿体“光合作用”，液泡“储存细胞液”。比较细胞时，注意题目问的是“植物细胞通常具有”还是“所有植物细胞都有”。"
+    },
+    {
+      "common_mistakes": [
+        "把放大倍数增大误认为视野范围也会增大。",
+        "只注意到物体变大，忽略视野中的观察范围会变小。",
+        "比较视野中物体数量时，没有考虑观察区域的变化。"
+      ],
+      "core_concept": "观察范围会随观察工具的放大倍数或观察距离而变化。用显微镜观察时，放大倍数增大，单个物体看起来更大，但视野范围变小，视野中能看到的物体数量通常变少；放大倍数减小则相反。使用肉眼观察时，观察距离变近，物体看起来变大，但能看到的周围范围通常变小。",
+      "key_formula": "显微镜放大倍数＝目镜放大倍数×物镜放大倍数。",
+      "point": "观察范围变化",
+      "tips": "比较观察范围时，先想清楚观察工具和条件有没有改变，再判断物体大小、视野范围和视野中物体数量的变化。显微镜下要特别记住：放大倍数越大，视野越小，物体越大，看到的数量通常越少。"
+    },
+    {
+      "common_mistakes": [
+        "把微米和毫米混淆；1毫米等于1000微米。",
+        "认为所有微生物大小相同；微生物种类不同，大小差异很大。",
+        "认为看不见就没有大小；微生物虽然很小，但仍有可以测量的长度或直径。"
+      ],
+      "core_concept": "微生物通常非常微小，许多要借助显微镜才能观察。它们的大小因种类而异，常用微米（μm）表示；1微米等于0.001毫米。",
+      "key_formula": "1毫米＝1000微米；1微米＝0.001毫米。",
+      "point": "微生物大小",
+      "tips": "比较微生物大小时，要看具体种类和测量对象。草履虫是单细胞生物，常见体长约为200微米；细菌通常比草履虫小得多。"
+    },
+    {
+      "common_mistakes": [
+        "把凸透镜和凹透镜混淆：凸透镜中央厚、边缘薄。",
+        "认为放大镜能把所有物体都放大；放大镜主要用于观察较小的物体。",
+        "混淆焦点和焦距：焦点是光线会聚的位置，焦距是凸透镜中心到焦点的距离。"
+      ],
+      "core_concept": "放大镜的镜片是凸透镜。凸透镜能使光线会聚；平行光经过凸透镜后会聚到焦点，镜片中心到焦点的距离叫焦距。观察物体时，放大镜能帮助我们看清较小物体的细节。",
+      "key_formula": "焦距＝凸透镜中心到焦点的距离",
+      "point": "放大镜术语",
+      "tips": "记住“中间厚、边缘薄”是凸透镜的外形特点；“焦点”是光会聚的位置，“焦距”则是一段距离。"
+    },
+    {
+      "common_mistakes": [
+        "材料没有展平，细胞相互重叠，不容易看清。",
+        "盖盖玻片时动作太快或直接按压，容易产生气泡或压坏材料。",
+        "材料放得过厚或滴液过多，可能影响观察。"
+      ],
+      "core_concept": "装片是把观察材料制成适合放在显微镜下观察的临时玻片。制作时通常要让材料薄而平整，滴加适量液体，再盖上盖玻片，尽量避免气泡。",
+      "key_formula": "制作临时装片的一般步骤：擦拭载玻片和盖玻片 → 滴液 → 放置并展平材料 → 盖盖玻片 → 吸去多余液体。",
+      "point": "装片制作",
+      "tips": "操作时轻拿轻放；材料要薄、平、尽量不重叠；盖片要缓慢；观察前检查是否有气泡或材料皱折。"
+    },
+    {
+      "common_mistakes": [
+        "把酵母菌产生的二氧化碳误认为是面团本身产生的气体。",
+        "认为所有微生物都会使食物变质；有些微生物也能帮助人类制作食品。",
+        "把发酵和食物腐败混为一谈：发酵常用于制作食品，腐败则会使食物变质。"
+      ],
+      "core_concept": "微生物虽然非常微小，却能参与许多生产和生活过程。人们利用微生物发酵制作食品，例如用酵母菌使面团膨松，用乳酸菌制作酸奶和泡菜；也利用某些微生物生产药物、处理污水或分解废弃物。微生物的作用有益有害，使用时要注意卫生和适宜条件。",
+      "key_formula": "酵母菌发酵：面团中的糖类 → 二氧化碳等物质；二氧化碳形成的小气泡使面团膨松。",
+      "point": "微生物应用",
+      "tips": "记住常见实例及对应微生物：酵母菌用于面包、馒头发酵；乳酸菌用于酸奶、泡菜制作。发酵通常需要合适的温度和时间，具体条件因食品而异。"
     }
   ]
 }

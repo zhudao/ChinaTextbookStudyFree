@@ -4,275 +4,273 @@
   "unit_number": 5,
   "unit_test": {
     "title": "Unit 5 单元诊断性测评",
-    "total_score": 100,
+    "total_score": 578,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "soup 的中文意思是汤，面条是 noodles。",
         "knowledge_point": "食物词汇词义",
+        "options": [],
         "question": "'soup' 的中文意思是 '面条'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "soup的中文意思是汤。面条是noodles。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "bowl 的意思是“碗”。",
         "knowledge_point": "餐具词汇词义",
+        "options": [],
         "question": "'bowl' 指的是碗。",
-        "options": [],
-        "answer": "对",
-        "explanation": "bowl意为碗，是本单元核心名词。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "餐具词汇词义",
-        "question": "'knife' 的中文意思是 '叉子'。",
-        "options": [],
         "answer": "错",
-        "explanation": "knife是小刀，叉子是fork。"
-      },
-      {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "语音规律",
-        "question": "在 me, we, he 单词中，字母 e 的发音相同。",
-        "options": [],
-        "answer": "对",
-        "explanation": "这些单词中的e都发长元音/i:/。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "固定表达",
-        "question": "'Help yourself' 的意思是 '请自便，随便吃'。",
-        "options": [],
-        "answer": "对",
-        "explanation": "Help yourself是招待客人用餐时的常用语。"
-      },
-      {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "knife 的意思是“小刀”，fork 才是“叉子”。",
+        "knowledge_point": "餐具词汇词义",
+        "options": [],
+        "question": "'knife' 的中文意思是 '叉子'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "me、we、he 中的字母 e 都发长音 /iː/。",
+        "knowledge_point": "语音规律",
+        "options": [],
+        "question": "在 me, we, he 单词中，字母 e 的发音相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "“Help yourself.”是招待客人时常用的表达，意思是“请自便；请随便吃（或用）”。",
+        "knowledge_point": "固定表达",
+        "options": [],
+        "question": "“Help yourself” 的意思是“请自便，随便吃”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "a spoon",
+        "difficulty": 1,
+        "explanation": "喝汤通常用勺子，spoon 的意思是“勺子”。",
         "knowledge_point": "餐具词汇辨析",
-        "question": "I can use ___ for soup.",
         "options": [
           "a fork",
           "a knife",
           "a spoon",
           "chopsticks"
         ],
-        "answer": "a spoon",
-        "explanation": "喝汤通常用勺子(spoon)。"
+        "question": "I can use ___ for soup.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "I'd like",
         "difficulty": 1,
+        "explanation": "回答“What would you like?”表示点餐时想要什么，常用“I’d like …, please.”，所以选“I’d like”。",
         "knowledge_point": "点餐句式",
-        "question": "—What would you like? —___ some beef, please.",
         "options": [
           "I",
           "I'd like",
           "I like",
           "I'm"
         ],
-        "answer": "I'd like",
-        "explanation": "回答What would you like?常用I'd like...表示我想吃/要..."
+        "question": "—What would you like? —___ some beef, please.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "vegetables",
         "difficulty": 1,
+        "explanation": "some 后面可以接可数名词复数。vegetable 的复数形式是在词尾加 -s，即 vegetables。",
         "knowledge_point": "名词复数",
-        "question": "I'd like some ___.",
         "options": [
           "vegetable",
           "vegetables",
           "vegetabls",
           "vagetables"
         ],
-        "answer": "vegetables",
-        "explanation": "表示蔬菜时通常用复数形式vegetables。"
+        "question": "I'd like some ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "ready",
         "difficulty": 1,
+        "explanation": "ready表示“准备好的”。Dinner is ready意思是“晚餐准备好了”，符合Let's eat（我们吃饭吧）的语境。",
         "knowledge_point": "词义理解",
-        "question": "Dinner is ___! Let's eat.",
         "options": [
           "red",
           "rice",
           "ready",
           "really"
         ],
-        "answer": "ready",
-        "explanation": "Dinner is ready意思是晚餐准备好了。"
+        "question": "Dinner is ___! Let's eat.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "knife",
         "difficulty": 2,
+        "explanation": "cut 意为“切”，切牛肉要用 knife（刀）。",
         "knowledge_point": "餐具用法搭配",
-        "question": "Use the ___ to cut the beef.",
         "options": [
           "spoon",
           "bowl",
           "fork",
           "knife"
         ],
-        "answer": "knife",
-        "explanation": "切牛肉需要用小刀(knife)。"
+        "question": "Use the ___ to cut the beef.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "Help yourself",
         "difficulty": 2,
+        "explanation": "Help yourself意为“请自便”，常用于请对方自行取用食物或物品；对方回答“Thanks”符合情境。",
         "knowledge_point": "礼貌用语",
-        "question": "—___? —Thanks.",
         "options": [
           "Help you",
           "Help yourself",
           "Are you fine",
           "What is it"
         ],
-        "answer": "Help yourself",
-        "explanation": "Help yourself(请自便)后接Thanks符合交际情景。"
+        "question": "—___? —Thanks.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "me",
         "difficulty": 2,
+        "explanation": "动词 pass 后接人称代词宾格形式 me。",
         "knowledge_point": "介词搭配",
-        "question": "Pass ___ the bowl.",
         "options": [
           "I",
           "me",
           "my",
           "mine"
         ],
-        "answer": "me",
-        "explanation": "动词pass后接人称代词宾格形式me。"
+        "question": "Pass ___ the bowl.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "bread",
         "difficulty": 2,
+        "explanation": "hungry 表示“饿了”，饿了通常想吃食物。bread 是“面包”，符合句意。",
         "knowledge_point": "句意理解",
-        "question": "I am hungry. I'd like some ___.",
         "options": [
           "water",
           "milk",
           "juice",
           "bread"
         ],
-        "answer": "bread",
-        "explanation": "饿了(hungry)通常选择固体食物如面包(bread)。"
+        "question": "I am hungry. I'd like some ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "No, thanks",
         "difficulty": 3,
+        "explanation": "后面说“I'm full”（我饱了），所以应礼貌拒绝对方提供的汤，选“No, thanks.”",
         "knowledge_point": "情景交际",
-        "question": "Would you like some soup? —___, I'm full.",
         "options": [
           "No, thanks",
           "Yes, please",
           "Thanks",
           "Sure"
         ],
-        "answer": "No, thanks",
-        "explanation": "后面说I'm full(我饱了)，所以前面应礼貌拒绝。"
+        "question": "Would you like some soup? —___, I'm full.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "us",
         "difficulty": 3,
+        "explanation": "Let 后面接人称代词宾格。us 指说话人和其他人，所以应选 us。",
         "knowledge_point": "代词指代",
-        "question": "Everything is ready. Let ___ have dinner.",
         "options": [
           "we",
           "our",
           "us",
           "is"
         ],
-        "answer": "us",
-        "explanation": "Let us(Let's)引导建议句，后接动词原形。"
+        "question": "Everything is ready. Let ___ have dinner.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "食物词汇拼写",
-        "question": "I would like some chicken and ___ (汤).",
-        "options": [],
         "answer": "soup",
-        "explanation": "汤的英文单词是soup。"
+        "difficulty": 1,
+        "explanation": "“汤”的英文是 soup。完整句子是：I would like some chicken and soup.",
+        "knowledge_point": "食物词汇拼写",
+        "options": [],
+        "question": "I would like some chicken and ___ (汤).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "词汇拼写",
-        "question": "I can use ___ (筷子) for noodles.",
-        "options": [],
         "answer": "chopsticks",
-        "explanation": "筷子的英文是chopsticks，常用复数。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "助动词",
-        "question": "___ you like some beef?",
-        "options": [],
-        "answer": "would",
-        "explanation": "Would you like...是询问对方意愿的固定格式。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "冠词/名词",
-        "question": "Please pass me ___ (一个) fork.",
-        "options": [],
-        "answer": "a",
-        "explanation": "fork是辅音音素开头，用不定冠词a。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "筷子的英文是 chopsticks，通常以复数形式使用；句中 use 后填写 chopsticks。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "I can use ___ (筷子) for noodles.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "would",
+        "difficulty": 2,
+        "explanation": "Would you like…? 是礼貌询问对方意愿或提供食物时常用的表达，空格填would。",
+        "knowledge_point": "助动词",
+        "options": [],
+        "question": "___ you like some beef?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "a",
+        "difficulty": 2,
+        "explanation": "fork 是单数可数名词，且开头是辅音音素，因此用 a。",
+        "knowledge_point": "冠词/名词",
+        "options": [],
+        "question": "Please pass me ___ (一个) fork.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-3，B-4，C-2，D-1",
+        "difficulty": 1,
+        "explanation": "beef 是牛肉，vegetables 是蔬菜，chicken 是鸡肉，noodles 是面条。",
         "knowledge_point": "词义匹配",
-        "question": "将下列英文单词与对应的中文意思连线。",
         "options": [
           "beef",
           "vegetables",
@@ -283,59 +281,1738 @@
           "牛肉",
           "蔬菜"
         ],
-        "answer": "A-3,B-4,C-2,D-1",
-        "explanation": "beef-牛肉，vegetables-蔬菜，chicken-鸡肉，noodles-面条。"
+        "question": "将下列英文单词与对应的中文意思连线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "勺子",
         "difficulty": 2,
+        "explanation": "spoon 的意思是“勺子”，常用来舀汤或舀饭。",
         "knowledge_point": "餐具匹配",
-        "question": "将下列餐具英文与中文意思连线。",
         "options": [
-          "spoon",
-          "bowl",
-          "fork",
-          "knife",
-          "碗",
           "叉子",
           "勺子",
+          "碗",
           "小刀"
         ],
-        "answer": "A-3,B-1,C-2,D-4",
-        "explanation": "spoon-勺子，bowl-碗，fork-叉子，knife-小刀。"
+        "question": "“spoon”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "What would you like?",
         "difficulty": 2,
+        "explanation": "这是特殊疑问句，结构为“疑问词 + 情态动词 + 主语 + 动词”。句首 What 首字母大写，句末用问号。",
         "knowledge_point": "句子结构",
-        "question": "将下列单词连成句子：[like, what, you, would]",
         "options": [
           "like",
           "what",
           "you",
           "would"
         ],
-        "answer": "what,would,you,like",
-        "explanation": "特殊疑问句结构：疑问词+情态动词+主语+动词。"
+        "question": "将下列单词连成句子：[like, what, you, would]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Please help yourself.",
         "difficulty": 2,
+        "explanation": "祈使句以动词原形help开头；Please放在句首表示客气。help yourself意为“请自便”。",
         "knowledge_point": "祈使句",
-        "question": "将下列单词连成句子：[yourself, help, Please]",
         "options": [
           "yourself",
           "help",
           "Please"
         ],
-        "answer": "Please,help,yourself",
-        "explanation": "Please位于句首表示客气地请求或建议。"
+        "question": "将下列单词连成句子：[yourself, help, Please]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "rice 是“米饭”，是食物词汇；spoon（勺子）、fork（叉子）和chopsticks（筷子）都是餐具。",
+        "knowledge_point": "食物与餐具词汇",
+        "options": [
+          "spoon",
+          "rice",
+          "fork",
+          "chopsticks"
+        ],
+        "question": "Which word is food?",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "叉子",
+        "difficulty": 1,
+        "explanation": "fork 的意思是“叉子”，是一种餐具。",
+        "knowledge_point": "食物与餐具词汇",
+        "options": [],
+        "question": "The English word “fork” means ________.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“I eat soup with a spoon.”的意思是“我用勺子喝汤”，句意正确。",
+        "knowledge_point": "食物与餐具词汇",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“I eat soup with a spoon.” means “我用勺子喝汤。”",
+        "score": 1,
+        "type": "true_false",
+        "id": 26
+      },
+      {
+        "answer": "chopsticks",
+        "difficulty": 2,
+        "explanation": "noodles 是“面条”，通常用 chopsticks（筷子）吃。",
+        "knowledge_point": "食物与餐具词汇",
+        "options": [],
+        "question": "We eat noodles with ________.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "bread 是“面包”，通常作不可数名词；表达“一些面包”用 some bread，不说 a bread。",
+        "knowledge_point": "食物与餐具词汇",
+        "options": [
+          "a bread",
+          "some bread",
+          "a spoon bread",
+          "two bread"
+        ],
+        "question": "Choose the correct phrase for “一些面包”。",
+        "score": 1,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "A spoon is a kind of food.",
+        "difficulty": 2,
+        "explanation": "这句话不正确。spoon 是餐具“勺子”，不是食物。",
+        "knowledge_point": "食物与餐具词汇",
+        "options": [
+          "A spoon is a kind of food.",
+          "A spoon is a kind of tableware."
+        ],
+        "question": "Choose the correct sentence.",
+        "score": 1,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“May I have ...?”表示“我可以要……吗？”，加上please会更礼貌。",
+        "knowledge_point": "点餐与就餐礼貌表达",
+        "options": [
+          "Give me a sandwich.",
+          "May I have a sandwich, please?",
+          "I sandwich, please."
+        ],
+        "question": "在餐厅想要一个三明治，哪句话最礼貌？",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "Yes, please.",
+        "difficulty": 1,
+        "explanation": "服务员问“要一些水吗？”，如果想要，可以礼貌地回答“Yes, please.”",
+        "knowledge_point": "点餐与就餐礼貌表达",
+        "options": [],
+        "question": "补全对话：—Would you like some water? —__________.（想要）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "No, thank you.",
+        "difficulty": 1,
+        "explanation": "不需要更多食物时，可以说“No, thank you.”，既清楚又有礼貌。",
+        "knowledge_point": "点餐与就餐礼貌表达",
+        "options": [
+          "No, thank you.",
+          "No, give me nothing.",
+          "I don't thank you."
+        ],
+        "question": "服务员问“Anything else?”，你不需要其他东西。应该怎么回答？",
+        "score": 1,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "please",
+        "difficulty": 1,
+        "explanation": "在“I'd like some juice, please.”中，please让请求听起来更礼貌。",
+        "knowledge_point": "点餐与就餐礼貌表达",
+        "options": [],
+        "question": "填入礼貌用语：I'd like some juice, ________.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 33
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“Here you are.”表示“给你”，收到食物或饮料时可以回答“Thank you.”",
+        "knowledge_point": "点餐与就餐礼貌表达",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "服务员把餐点递给你时，说“Thank you.”是礼貌的。",
+        "score": 1,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "I'd like a salad, please.",
+        "difficulty": 2,
+        "explanation": "“I'd like ...”表示“我想要……”，在餐厅点餐时很常用；句末加please更礼貌。",
+        "knowledge_point": "点餐与就餐礼貌表达",
+        "options": [],
+        "question": "你想点一份沙拉。请用“I'd like...”写一句礼貌的英语。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "不发音",
+        "difficulty": 1,
+        "explanation": "cape 末尾的 e 不发音，但会使前面的 a 读字母音 /eɪ/。",
+        "knowledge_point": "字母e在单词结尾的发音规律",
+        "options": [
+          "读 /iː/",
+          "读 /æ/",
+          "不发音",
+          "读 /ɛ/"
+        ],
+        "question": "单词 cape 末尾的字母 e 通常怎样发音？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "he、she、we 是常见例词，末尾的 e 发长音 /iː/。",
+        "knowledge_point": "字母e在单词结尾的发音规律",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断正误：在单词 she 中，词尾 e 发 /iː/。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "不发音",
+        "difficulty": 1,
+        "explanation": "make 的词尾 e 通常不发音；它使前面的 a 读字母音 /eɪ/。",
+        "knowledge_point": "字母e在单词结尾的发音规律",
+        "options": [],
+        "question": "填空：单词 make 中，最后一个字母 e 通常________。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "/iː/",
+        "difficulty": 2,
+        "explanation": "we 是常见例词，词尾 e 发 /iː/，与 bike、home 等词中不发音的词尾 e 不同。",
+        "knowledge_point": "字母e在单词结尾的发音规律",
+        "options": [],
+        "question": "单词 we 中，词尾 e 通常发什么音？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "kite",
+        "difficulty": 2,
+        "explanation": "kit 加上词尾 e 变成 kite，末尾 e 不发音，并使 i 读字母音 /aɪ/。",
+        "knowledge_point": "字母e在单词结尾的发音规律",
+        "options": [],
+        "question": "给单词 kit 加上一个不发音的词尾字母，使 i 读字母音，组成表示“风筝”的单词：________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "不发音",
+        "difficulty": 2,
+        "explanation": "home 的词尾 e 通常不发音；在这个单词中，词尾 e 也帮助前面的 o 读字母音 /oʊ/。",
+        "knowledge_point": "字母e在单词结尾的发音规律",
+        "options": [
+          "读 /iː/",
+          "读 /eɪ/",
+          "不发音",
+          "读 /ɒ/"
+        ],
+        "question": "单词 home 中，末尾的 e 通常怎样发音？",
+        "score": 1,
+        "type": "choice",
+        "id": 41
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "rice 的中文意思是米饭。",
+        "knowledge_point": "食物词汇词义",
+        "options": [
+          "A. 米饭",
+          "B. 面包",
+          "C. 鸡蛋",
+          "D. 苹果"
+        ],
+        "question": "'rice' 的中文意思是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "面包",
+        "difficulty": 1,
+        "explanation": "bread 的中文意思是面包。",
+        "knowledge_point": "食物词汇词义",
+        "options": [],
+        "question": "'bread' 的中文意思是________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 43
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "egg 的意思是鸡蛋，苹果是 apple。",
+        "knowledge_point": "食物词汇词义",
+        "options": [],
+        "question": "'egg' 的中文意思是 '苹果'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "noodles",
+        "difficulty": 2,
+        "explanation": "“面条”用英语说 noodles。",
+        "knowledge_point": "食物词汇词义",
+        "options": [],
+        "question": "“面条”用英语怎么说？________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "apple 的中文意思是苹果；汤是 soup。",
+        "knowledge_point": "食物词汇词义",
+        "options": [
+          "A. 汤",
+          "B. 苹果",
+          "C. 米饭",
+          "D. 面条"
+        ],
+        "question": "'apple' 的中文意思是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 46
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "plate 的意思是“盘子”，其余选项分别是碗、勺子和小刀。",
+        "knowledge_point": "餐具词汇词义",
+        "options": [
+          "A. bowl",
+          "B. plate",
+          "C. spoon",
+          "D. knife"
+        ],
+        "question": "“盘子”用英语怎么说？",
+        "score": 2,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "勺子",
+        "difficulty": 1,
+        "explanation": "spoon 是“勺子”的意思。",
+        "knowledge_point": "餐具词汇词义",
+        "options": [],
+        "question": "'spoon' 的中文意思是 ______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 48
+      },
+      {
+        "answer": "fork",
+        "difficulty": 1,
+        "explanation": "fork 意为“叉子”。",
+        "knowledge_point": "餐具词汇词义",
+        "options": [],
+        "question": "“叉子”用英语怎么说？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "bowl 意为“碗”，常用来盛汤或其他食物。",
+        "knowledge_point": "餐具词汇词义",
+        "options": [
+          "A. bowl",
+          "B. fork",
+          "C. knife",
+          "D. plate"
+        ],
+        "question": "Which word means “碗”?（哪个单词的意思是“碗”？）",
+        "score": 2,
+        "type": "choice",
+        "id": 50
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "cat 中的 a 通常发短音 /æ/，与 bag、map 中的 a 发音相同。",
+        "knowledge_point": "语音规律",
+        "options": [
+          "A. cake",
+          "B. bag",
+          "C. name",
+          "D. make"
+        ],
+        "question": "下面哪个单词中的字母 a 与 cat 中的 a 发音相同？",
+        "score": 2,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "sun、bus、cup 中的 u 通常都发短音 /ʌ/。",
+        "knowledge_point": "语音规律",
+        "options": [],
+        "question": "sun, bus, cup 中的字母 u 发音相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 52
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "在 ship 中，字母组合 sh 通常发 /ʃ/；shop 中的 sh 发音相同。",
+        "knowledge_point": "语音规律",
+        "options": [
+          "A. shop",
+          "B. sip",
+          "C. cap",
+          "D. tip"
+        ],
+        "question": "下面哪个单词中的 sh 与 ship 中的 sh 发音相同？",
+        "score": 2,
+        "type": "choice",
+        "id": 53
+      },
+      {
+        "answer": "长音 /iː/",
+        "difficulty": 1,
+        "explanation": "在 he 中，字母 e 发长音 /iː/，we、me 中也有相同的发音。",
+        "knowledge_point": "语音规律",
+        "options": [],
+        "question": "he 中的字母 e 通常发什么音？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "在 cake 中，词尾不发音的 e 使前面的 a 通常发字母名称音 /eɪ/；cat 中的 a 发短音 /æ/。",
+        "knowledge_point": "语音规律",
+        "options": [
+          "A. cat",
+          "B. cake",
+          "C. bag",
+          "D. map"
+        ],
+        "question": "下面哪个单词中的字母 a 通常发 /eɪ/？",
+        "score": 2,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "Have a seat.",
+        "difficulty": 1,
+        "explanation": "“Have a seat.”是请别人坐下时的常用表达，意思是“请坐”。",
+        "knowledge_point": "固定表达",
+        "options": [],
+        "question": "请用英语说“请坐”：__________.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 56
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“Good morning.”用于上午见面时问候，意思是“早上好”。",
+        "knowledge_point": "固定表达",
+        "options": [
+          "A. Good night.",
+          "B. Good morning.",
+          "C. Goodbye."
+        ],
+        "question": "早上见到老师，你可以说：",
+        "score": 2,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "Thank you.",
+        "difficulty": 1,
+        "explanation": "收到礼物后表示感谢，可以说“Thank you.”，意思是“谢谢你”。",
+        "knowledge_point": "固定表达",
+        "options": [],
+        "question": "朋友送给你一支铅笔，你可以说“__________.”来表示感谢。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 58
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "“See you later.”常用于告别，意思是“回头见；待会儿见”。",
+        "knowledge_point": "固定表达",
+        "options": [
+          "A. See you later.",
+          "B. Sit down, please.",
+          "C. Help yourself."
+        ],
+        "question": "你要和同学分别，并希望之后再见，可以说：",
+        "score": 2,
+        "type": "choice",
+        "id": 59
+      },
+      {
+        "answer": "Come in, please.",
+        "difficulty": 2,
+        "explanation": "有人敲门时，请对方进来可以说“Come in, please.”，意思是“请进”。",
+        "knowledge_point": "固定表达",
+        "options": [],
+        "question": "有人敲门，你打开门后可以说“__________.”，表示“请进”。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 60
+      },
+      {
+        "answer": "a knife",
+        "difficulty": 1,
+        "explanation": "knife 是“刀”，通常用来切食物。",
+        "knowledge_point": "餐具词汇辨析",
+        "options": [
+          "a spoon",
+          "a knife",
+          "a fork",
+          "chopsticks"
+        ],
+        "question": "I can use ___ to cut meat.",
+        "score": 5,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "chopsticks",
+        "difficulty": 1,
+        "explanation": "chopsticks 是“筷子”，常用于夹取食物。",
+        "knowledge_point": "餐具词汇辨析",
+        "options": [
+          "a knife",
+          "a spoon",
+          "chopsticks",
+          "a fork"
+        ],
+        "question": "In China, many people use ___ to pick up food.",
+        "score": 5,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "fork",
+        "difficulty": 1,
+        "explanation": "fork 的意思是“叉子”，句意是“我用叉子吃蛋糕”。",
+        "knowledge_point": "餐具词汇辨析",
+        "options": [],
+        "question": "I eat cake with a ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "勺子",
+        "difficulty": 1,
+        "explanation": "spoon 是“勺子”，常用来舀汤或吃其他食物。",
+        "knowledge_point": "餐具词汇辨析",
+        "options": [],
+        "question": "spoon 的中文意思是“___”。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 64
+      },
+      {
+        "answer": "False",
+        "difficulty": 1,
+        "explanation": "knife 是“刀”，不是“筷子”；“筷子”是 chopsticks。",
+        "knowledge_point": "餐具词汇辨析",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "A knife means “筷子”.",
+        "score": 5,
+        "type": "true_false",
+        "id": 65
+      },
+      {
+        "answer": "I'd like",
+        "difficulty": 1,
+        "explanation": "点餐时用“I’d like …, please.”礼貌地表达想要什么。",
+        "knowledge_point": "点餐句式",
+        "options": [
+          "I'd like",
+          "I like",
+          "I am",
+          "I do"
+        ],
+        "question": "—What would you like? —___ some rice, please.",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "What would you like?",
+        "difficulty": 1,
+        "explanation": "“What would you like?”意为“你想要什么？”，可用于点餐时询问对方。",
+        "knowledge_point": "点餐句式",
+        "options": [
+          "What would you like?",
+          "How are you?",
+          "What is this?",
+          "Where are you?"
+        ],
+        "question": "点餐时，想询问“你想要什么？”，应该说：",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "False",
+        "difficulty": 1,
+        "explanation": "“I like beef.”表示“我喜欢牛肉”，说的是平时的喜好；点餐表达“我想要牛肉”通常说“I’d like some beef, please.”",
+        "knowledge_point": "点餐句式",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“I like some beef, please.”是点餐时表达“我想要一些牛肉”的常用句式。",
+        "score": 5,
+        "type": "true_false",
+        "id": 68
+      },
+      {
+        "answer": "I'd like some juice, please.",
+        "difficulty": 2,
+        "explanation": "点餐时先用“I’d like”表达想要，再说食物或饮料，句末加“please”更礼貌。",
+        "knowledge_point": "点餐句式",
+        "options": [],
+        "question": "用“I’d like”补全句子：我想要一些果汁。___ some juice, please.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 69
+      },
+      {
+        "answer": "What would you like?",
+        "difficulty": 2,
+        "explanation": "“What would you like?”是询问对方想要什么的点餐句式。",
+        "knowledge_point": "点餐句式",
+        "options": [],
+        "question": "根据答句补全问句：—___ —I’d like some bread, please.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "boxes",
+        "difficulty": 1,
+        "explanation": "box 以 x 结尾，复数通常加 -es，写作 boxes。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "boxs",
+          "boxes",
+          "boxies",
+          "box"
+        ],
+        "question": "There are three ___ on the desk.",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "babies",
+        "difficulty": 1,
+        "explanation": "baby 以辅音字母 b 加 y 结尾，变 y 为 i 再加 -es，写作 babies。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "babys",
+          "babyes",
+          "babies",
+          "baby"
+        ],
+        "question": "The two ___ are sleeping.",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "boys",
+        "difficulty": 1,
+        "explanation": "boy 中 y 前是元音字母 o，所以直接在词尾加 -s，写作 boys。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "boies",
+          "boys",
+          "boyes",
+          "boy"
+        ],
+        "question": "The ___ are playing football.",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "children",
+        "difficulty": 2,
+        "explanation": "child 的复数形式是不规则变化 children，不能直接写成 childs。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "child"
+        ],
+        "question": "Many ___ are reading in the library.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "dishes",
+        "difficulty": 1,
+        "explanation": "dish 以 sh 结尾，复数加 -es，写作 dishes。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "dishs",
+          "dishes",
+          "dishies",
+          "dish"
+        ],
+        "question": "We need clean ___ for dinner.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "thirsty",
+        "difficulty": 1,
+        "explanation": "thirsty表示“口渴的”。喝水可以解渴，所以这里应选thirsty。",
+        "knowledge_point": "词义理解",
+        "options": [
+          "hungry",
+          "thirsty",
+          "tired",
+          "cold"
+        ],
+        "question": "Tom wants some water. He is ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "图书馆",
+        "difficulty": 1,
+        "explanation": "library的意思是“图书馆”。句意是“我在图书馆读书”。",
+        "knowledge_point": "词义理解",
+        "options": [],
+        "question": "根据句意写出画线单词的中文意思：I read books in the library.（library：____）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 77
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "句子说女孩把湿衣服挂到太阳下。dry表示“干的”，与湿衣服需要晒干的情境相符。",
+        "knowledge_point": "词义理解",
+        "options": [
+          "干的",
+          "高的",
+          "新的",
+          "慢的"
+        ],
+        "question": "The girl puts her wet clothes in the sun. They will become dry. 句中dry最可能是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "false",
+        "difficulty": 2,
+        "explanation": "句中cold表示“冷的”。因为天气冷，男孩穿上了外套，所以“cold的意思是热的”是错误的。",
+        "knowledge_point": "词义理解",
+        "options": [],
+        "question": "判断正误：It is cold today, so Jack puts on his coat. 句中的cold意思是“热的”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 79
+      },
+      {
+        "answer": "书店",
+        "difficulty": 2,
+        "explanation": "bookshop由book（书）和shop（商店）组成，意思是“书店”。结合句意，妈妈在那里买了一本书。",
+        "knowledge_point": "词义理解",
+        "options": [],
+        "question": "根据句意写出bookshop的中文意思：Mum buys a book at the bookshop.（bookshop：____）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 80
+      },
+      {
+        "answer": "spoon",
+        "difficulty": 1,
+        "explanation": "eat soup 意为“喝汤”，通常用 spoon（勺子）。",
+        "knowledge_point": "餐具用法搭配",
+        "options": [
+          "spoon",
+          "knife",
+          "fork",
+          "bowl"
+        ],
+        "question": "I eat soup with a ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "fork",
+        "difficulty": 1,
+        "explanation": "叉子用来叉取食物，所以吃意大利面可以用 fork。",
+        "knowledge_point": "餐具用法搭配",
+        "options": [
+          "bowl",
+          "fork",
+          "spoon",
+          "knife"
+        ],
+        "question": "Use a ___ to pick up the noodles.",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "bowl",
+        "difficulty": 1,
+        "explanation": "bowl 是“碗”，可以用来盛汤。",
+        "knowledge_point": "餐具用法搭配",
+        "options": [
+          "fork",
+          "knife",
+          "bowl",
+          "spoon"
+        ],
+        "question": "Put the soup in a ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "true",
+        "difficulty": 1,
+        "explanation": "spoon 意为“勺子”，可以用来吃冰淇淋。",
+        "knowledge_point": "餐具用法搭配",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "We can use a spoon to eat ice cream.",
+        "score": 5,
+        "type": "true_false",
+        "id": 84
+      },
+      {
+        "answer": "fork",
+        "difficulty": 2,
+        "explanation": "fork 是“叉子”，用来叉取食物；句中需要填写餐具名称。",
+        "knowledge_point": "餐具用法搭配",
+        "options": [],
+        "question": "Use a ___ to eat a piece of cake.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "Can you help me, please?",
+        "difficulty": 2,
+        "explanation": "需要别人帮忙时，可以礼貌地说“Can you help me, please?”，意思是“请问你能帮帮我吗？”",
+        "knowledge_point": "礼貌用语",
+        "options": [
+          "question"
+        ],
+        "question": "你想请同学帮你拿书，可以说：________.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 86
+      },
+      {
+        "answer": "Thank you.",
+        "difficulty": 1,
+        "explanation": "别人送你一支铅笔时，应当说“Thank you.”表达感谢。",
+        "knowledge_point": "礼貌用语",
+        "options": [
+          "question"
+        ],
+        "question": "你的朋友送给你一支铅笔，你应该说“________.”",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 87
+      },
+      {
+        "answer": "You’re welcome.",
+        "difficulty": 2,
+        "explanation": "“You’re welcome.”意为“不客气”，可以用来回应别人的感谢。",
+        "knowledge_point": "礼貌用语",
+        "options": [
+          "You’re welcome.",
+          "I’m sorry.",
+          "Good morning.",
+          "Help yourself."
+        ],
+        "question": "—Thank you for your help. —________",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "Sorry.",
+        "difficulty": 1,
+        "explanation": "不小心碰到别人时，应说“Sorry.”表示道歉。",
+        "knowledge_point": "礼貌用语",
+        "options": [
+          "question"
+        ],
+        "question": "你不小心碰到了同学，可以说“________.”",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 89
+      },
+      {
+        "answer": "True",
+        "difficulty": 2,
+        "explanation": "“That’s OK.”可以用来回应别人的道歉，意思是“没关系”。",
+        "knowledge_point": "礼貌用语",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "别人对你说“Sorry.”，你可以回答“That’s OK.”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 90
+      },
+      {
+        "answer": "to",
+        "difficulty": 1,
+        "explanation": "表示“把某物递给某人”时，常用 pass something to someone。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "to",
+          "at",
+          "in",
+          "on"
+        ],
+        "question": "Please pass the book ___ Tom.",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "be good at 意为“擅长……”，后面可接名词或动名词。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "at",
+          "to",
+          "for",
+          "with"
+        ],
+        "question": "Amy is good ___ drawing.",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "to",
+        "difficulty": 1,
+        "explanation": "listen to 是固定搭配，意为“听……”。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "to",
+          "in",
+          "on",
+          "for"
+        ],
+        "question": "We listen ___ music after school.",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "in",
+        "difficulty": 2,
+        "explanation": "表示在某一年，通常使用介词 in。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "question": "My sister was born ___ 2016.",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "on",
+        "difficulty": 2,
+        "explanation": "具体的星期几前通常用 on，因此说 on Monday。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "at",
+          "in",
+          "on",
+          "to"
+        ],
+        "question": "Our English class is ___ Monday.",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "thirsty 表示“渴了”，渴了可以喝水，所以这句话的意思是“我渴了。我想喝点水。”",
+        "knowledge_point": "句意理解",
+        "options": [
+          "A. 我饿了。我想吃点水。",
+          "B. 我渴了。我想喝点水。",
+          "C. 我累了。我想喝点水。",
+          "D. 我冷了。我想吃点水。"
+        ],
+        "question": "“I am thirsty. I'd like some water.”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "句子说“今天是星期一”，所以问“今天是星期几？”应回答“星期一”。",
+        "knowledge_point": "句意理解",
+        "options": [
+          "A. It is sunny.",
+          "B. It is June.",
+          "C. It is Monday.",
+          "D. It is seven."
+        ],
+        "question": "Today is Monday. What day is it today?",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "T",
+        "difficulty": 1,
+        "explanation": "句子表示“猫在桌子下面”，与题目陈述的意思相同，因此判断为正确。",
+        "knowledge_point": "句意理解",
+        "options": [
+          "T",
+          "F"
+        ],
+        "question": "“The cat is under the table.” 的意思是“猫在桌子下面”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 98
+      },
+      {
+        "answer": "is",
+        "difficulty": 2,
+        "explanation": "句意是“她的生日在五月”。表示月份时用介词 in；主语 Her birthday 是单数，因此用 is。",
+        "knowledge_point": "句意理解",
+        "options": [],
+        "question": "Her birthday ___ in May.（她的生日在五月。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 99
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "Mike 周末去了公园，并且在那里踢了足球，所以他说“我在公园踢了足球”符合短文内容。",
+        "knowledge_point": "句意理解",
+        "options": [
+          "A. Mike stayed at home.",
+          "B. Mike played football in the park.",
+          "C. Mike went to school on Sunday.",
+          "D. Mike played basketball at school."
+        ],
+        "question": "Mike went to the park on Sunday. He played football with his friends. What did Mike do on Sunday?",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "对方说“Thank you.”（谢谢），合适的回应是“You're welcome.”（不客气）。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "Good morning.",
+          "You're welcome.",
+          "I'm sorry.",
+          "Goodbye."
+        ],
+        "question": "“Thank you very much.” —“___”",
+        "score": 5,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "Yes, please",
+        "difficulty": 2,
+        "explanation": "对方询问是否需要帮助，应礼貌接受并说“Yes, please.”。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "Yes, please",
+          "No, I'm not",
+          "Good night",
+          "You're welcome"
+        ],
+        "question": "Can I help you? —___",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "That's OK",
+        "difficulty": 2,
+        "explanation": "对方为迟到道歉，可用“That's OK.”表示没关系。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "That's OK",
+          "Here you are",
+          "See you",
+          "Good job"
+        ],
+        "question": "“I'm sorry I'm late.” —“___”",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "Good evening",
+        "difficulty": 2,
+        "explanation": "晚上见面时可以说“Good evening.”；“Good night”通常用于晚上告别或睡前道晚安。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Good night"
+        ],
+        "question": "你晚上遇见老师，应该说：",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "See you",
+        "difficulty": 1,
+        "explanation": "“See you.”是常见的告别用语，意思是“再见”。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "See you",
+          "Thank you",
+          "I'm fine",
+          "Excuse me"
+        ],
+        "question": "同学要回家了，你可以对他说：“___”",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "She",
+        "difficulty": 1,
+        "explanation": "句子中的 She 指代前面的 Amy；代词作主语时用主格。",
+        "knowledge_point": "代词指代",
+        "options": [
+          "He",
+          "She",
+          "They",
+          "It"
+        ],
+        "question": "Amy is my sister. ___ is nine years old.",
+        "score": 5,
+        "type": "choice",
+        "id": 106
+      },
+      {
+        "answer": "them",
+        "difficulty": 2,
+        "explanation": "动词 help 后使用人称代词宾格。them 指代前面的 the boys。",
+        "knowledge_point": "代词指代",
+        "options": [
+          "they",
+          "their",
+          "them",
+          "theirs"
+        ],
+        "question": "The boys are carrying boxes. Please help ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 107
+      },
+      {
+        "answer": "her",
+        "difficulty": 2,
+        "explanation": "介词 to 后使用宾格代词。her 指代前面的 Miss Green。",
+        "knowledge_point": "代词指代",
+        "options": [
+          "she",
+          "her",
+          "hers",
+          "he"
+        ],
+        "question": "Miss Green is our teacher. We listen to ___ carefully.",
+        "score": 5,
+        "type": "choice",
+        "id": 108
+      },
+      {
+        "answer": "its",
+        "difficulty": 3,
+        "explanation": "空格后有名词 tail，因此用形容词性物主代词 its。its 指代前面的 the cat。",
+        "knowledge_point": "代词指代",
+        "options": [
+          "it",
+          "its",
+          "they",
+          "their"
+        ],
+        "question": "The cat is washing ___ tail.",
+        "score": 5,
+        "type": "choice",
+        "id": 109
+      },
+      {
+        "answer": "They",
+        "difficulty": 2,
+        "explanation": "They 指代前面的 Ben and I。两个人是复数，且代词在句中作主语，因此用主格 They。",
+        "knowledge_point": "代词指代",
+        "options": [
+          "We",
+          "They",
+          "Them",
+          "Our"
+        ],
+        "question": "Ben and I are good friends. ___ play football after school.",
+        "score": 5,
+        "type": "choice",
+        "id": 110
+      },
+      {
+        "answer": "rice",
+        "difficulty": 1,
+        "explanation": "“米饭”的英文是 rice，拼写为 r-i-c-e。",
+        "knowledge_point": "食物词汇拼写",
+        "options": [],
+        "question": "I eat ___ (米饭) for lunch.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "bread",
+        "difficulty": 1,
+        "explanation": "“面包”的英文是 bread，拼写为 b-r-e-a-d。",
+        "knowledge_point": "食物词汇拼写",
+        "options": [],
+        "question": "I like ___ (面包) for breakfast.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "milk",
+        "difficulty": 1,
+        "explanation": "“牛奶”的英文是 milk，拼写为 m-i-l-k。",
+        "knowledge_point": "食物词汇拼写",
+        "options": [],
+        "question": "Please give me a glass of ___ (牛奶).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "fish",
+        "difficulty": 1,
+        "explanation": "“鱼肉”的英文是 fish，拼写为 f-i-s-h。",
+        "knowledge_point": "食物词汇拼写",
+        "options": [],
+        "question": "My dad cooked ___ (鱼肉) for dinner.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "egg",
+        "difficulty": 1,
+        "explanation": "“鸡蛋”的英文是 egg，拼写为 e-g-g，注意结尾有两个 g。",
+        "knowledge_point": "食物词汇拼写",
+        "options": [],
+        "question": "I have an ___ (鸡蛋) for breakfast.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "library",
+        "difficulty": 1,
+        "explanation": "“图书馆”的英文是 library，按字母顺序拼写为 l-i-b-r-a-r-y。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "We read books in the ___ (图书馆).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "breakfast",
+        "difficulty": 1,
+        "explanation": "“早餐”的英文是 breakfast，句意为“我早上吃早餐”。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "I have ___ (早餐) in the morning.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "window",
+        "difficulty": 1,
+        "explanation": "“窗户”的英文是 window，拼写时注意中间的字母 d。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "Please open the ___ (窗户).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "beautiful",
+        "difficulty": 2,
+        "explanation": "“美丽的”是 beautiful，拼写为 b-e-a-u-t-i-f-u-l，注意开头是 beau-。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "The garden is very ___ (美丽的).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "together",
+        "difficulty": 2,
+        "explanation": "“一起”的英文是 together，拼写时注意词尾是 -ther。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "We play ___ (一起) after school.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "Does",
+        "difficulty": 2,
+        "explanation": "Tom是第三人称单数，构成一般疑问句用Does；助动词后面的动词用原形like。",
+        "knowledge_point": "助动词",
+        "options": [],
+        "question": "___ Tom like apples?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "doesn't",
+        "difficulty": 2,
+        "explanation": "My sister是第三人称单数，否定句用does not，也可缩写为doesn't；doesn't后用动词原形play。",
+        "knowledge_point": "助动词",
+        "options": [],
+        "question": "My sister ___ ___ (not) play football.（填入一个缩写词）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "can",
+        "difficulty": 1,
+        "explanation": "can表示能力，can后面的动词用原形swim。",
+        "knowledge_point": "助动词",
+        "options": [],
+        "question": "A fish ___ swim.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "Do you like bananas?",
+        "difficulty": 2,
+        "explanation": "一般现在时中，主语you的实义动词疑问句用Do开头，后接动词原形like。",
+        "knowledge_point": "助动词",
+        "options": [],
+        "question": "把句子改成一般疑问句：You like bananas.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "Yes, she does.",
+        "difficulty": 2,
+        "explanation": "问句使用Does开头，肯定简答用Yes, 主语 + does。",
+        "knowledge_point": "助动词",
+        "options": [],
+        "question": "—Does Amy read books? —Yes, she ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "an",
+        "difficulty": 2,
+        "explanation": "apple 是单数可数名词，开头是元音音素，因此用 an。",
+        "knowledge_point": "冠词/名词",
+        "options": [],
+        "question": "I have ___ apple.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "the",
+        "difficulty": 2,
+        "explanation": "前一句已经提到一只猫，后一句再次说这只猫时，双方知道指的是哪只，因此用 the。",
+        "knowledge_point": "冠词/名词",
+        "options": [],
+        "question": "I see a cat. ___ cat is black.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "books",
+        "difficulty": 2,
+        "explanation": "three 表示三个，后面的可数名词要用复数形式；book 的复数通常加 -s。",
+        "knowledge_point": "冠词/名词",
+        "options": [],
+        "question": "There are three ___ (book) on the desk.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "an",
+        "difficulty": 3,
+        "explanation": "hour 的 h 不发音，单词开头是元音音素，因此用 an。",
+        "knowledge_point": "冠词/名词",
+        "options": [],
+        "question": "It takes ___ hour to get there.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "boxes",
+        "difficulty": 3,
+        "explanation": "box 以 x 结尾，变复数时通常加 -es，写作 boxes。",
+        "knowledge_point": "冠词/名词",
+        "options": [],
+        "question": "We have two ___ (box) in the classroom.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "牛肉",
+        "difficulty": 1,
+        "explanation": "beef 的意思是“牛肉”。",
+        "knowledge_point": "词义匹配",
+        "options": [],
+        "question": "beef 的中文意思是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 131
+      },
+      {
+        "answer": "vegetables",
+        "difficulty": 1,
+        "explanation": "“蔬菜”用英语表示为 vegetables。",
+        "knowledge_point": "词义匹配",
+        "options": [],
+        "question": "“蔬菜”的英文是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 132
+      },
+      {
+        "answer": "鸡肉",
+        "difficulty": 1,
+        "explanation": "chicken 在食物语境中表示“鸡肉”。",
+        "knowledge_point": "词义匹配",
+        "options": [
+          "牛肉",
+          "鸡肉",
+          "面条"
+        ],
+        "question": "chicken 的意思是（　　）。",
+        "score": 2,
+        "type": "choice",
+        "id": 133
+      },
+      {
+        "answer": "noodles",
+        "difficulty": 1,
+        "explanation": "“面条”的英文是 noodles。",
+        "knowledge_point": "词义匹配",
+        "options": [],
+        "question": "面条是________。（写出英文单词）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 134
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "beef 的意思是“牛肉”，不是“鸡肉”，所以判断为错。",
+        "knowledge_point": "词义匹配",
+        "options": [],
+        "question": "判断对错：beef 的意思是“鸡肉”。（　　）",
+        "score": 2,
+        "type": "true_false",
+        "id": 135
+      },
+      {
+        "answer": "plate—盘子",
+        "difficulty": 1,
+        "explanation": "plate 是“盘子”，常用来盛放食物。",
+        "knowledge_point": "餐具匹配",
+        "options": [],
+        "question": "plate 的中文意思是______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 136
+      },
+      {
+        "answer": "筷子",
+        "difficulty": 1,
+        "explanation": "chopsticks 是“筷子”，通常用来夹取食物。",
+        "knowledge_point": "餐具匹配",
+        "options": [],
+        "question": "chopsticks 的中文意思是______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "fork",
+        "difficulty": 1,
+        "explanation": "叉子的英文是 fork。",
+        "knowledge_point": "餐具匹配",
+        "options": [],
+        "question": "“叉子”用英文怎么说？______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 138
+      },
+      {
+        "answer": "spoon",
+        "difficulty": 2,
+        "explanation": "用来舀汤或食物的餐具是勺子，英文是 spoon。",
+        "knowledge_point": "餐具匹配",
+        "options": [
+          "spoon",
+          "fork",
+          "knife"
+        ],
+        "question": "Which utensil do you use to eat soup?（吃汤时通常使用哪种餐具？）",
+        "score": 3,
+        "type": "choice",
+        "id": 139
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "bowl 的意思是“碗”，所以句子的说法正确。",
+        "knowledge_point": "餐具匹配",
+        "options": [],
+        "question": "判断正误：A bowl is a 碗。",
+        "score": 3,
+        "type": "true_false",
+        "id": 140
+      },
+      {
+        "answer": "I play football after school.",
+        "difficulty": 1,
+        "explanation": "这是陈述句，按照“主语 + 动词 + 其他”的顺序排列：I（主语）+ play（动词）+ football after school（其他）。",
+        "knowledge_point": "句子结构",
+        "options": [],
+        "question": "将下列单词连成句子：[after, play, school, I, football]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 141
+      },
+      {
+        "answer": "Does she like apples?",
+        "difficulty": 2,
+        "explanation": "一般疑问句以 Does 开头，后面接主语 she 和动词原形 like；句末用问号。",
+        "knowledge_point": "句子结构",
+        "options": [],
+        "question": "将下列单词连成句子：[like, she, Does, apples]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 142
+      },
+      {
+        "answer": "Where is my bag?",
+        "difficulty": 2,
+        "explanation": "Where 是疑问词，放在句首；接着是 is 和主语 my bag。句末用问号。",
+        "knowledge_point": "句子结构",
+        "options": [],
+        "question": "将下列单词连成句子：[my, Where, bag, is]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 143
+      },
+      {
+        "answer": "Can you swim?",
+        "difficulty": 2,
+        "explanation": "含情态动词 Can 的一般疑问句，结构是“Can + 主语 + 动词原形”。",
+        "knowledge_point": "句子结构",
+        "options": [],
+        "question": "将下列单词连成句子：[swim, Can, you]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 144
+      },
+      {
+        "answer": "Tom has a new bike.",
+        "difficulty": 2,
+        "explanation": "这是陈述句，主语 Tom 放在句首，谓语 has 接在主语后，再加其他成分 a new bike。",
+        "knowledge_point": "句子结构",
+        "options": [],
+        "question": "将下列单词连成句子：[new, Tom, a, has, bike]",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 145
+      },
+      {
+        "answer": "Open the door, please.",
+        "difficulty": 1,
+        "explanation": "这是请求对方开门的祈使句。动词用原形open，please放在句末表示客气。",
+        "knowledge_point": "祈使句",
+        "options": [],
+        "question": "用“open, the door, please”组成一个客气的祈使句。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 146
+      },
+      {
+        "answer": "Don't run in the classroom.",
+        "difficulty": 2,
+        "explanation": "祈使句的否定形式是Don't + 动词原形。run保持原形，表示“不要在教室里跑”。",
+        "knowledge_point": "祈使句",
+        "options": [],
+        "question": "把句子改成否定祈使句：Run in the classroom.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 147
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "祈使句表示请求或命令，动词用原形。Please sit down. 是正确表达；A缺少Don't，C中的sits不符合祈使句结构。",
+        "knowledge_point": "祈使句",
+        "options": [
+          "A. Please sits down.",
+          "B. Please sit down.",
+          "C. Don't sits down."
+        ],
+        "question": "下列哪个句子是正确的祈使句？",
+        "score": 5,
+        "type": "choice",
+        "id": 148
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "肯定祈使句通常以动词原形开头，并省略主语you。",
+        "knowledge_point": "祈使句",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：祈使句通常省略主语you，动词用原形。",
+        "score": 5,
+        "type": "true_false",
+        "id": 149
+      },
+      {
+        "answer": "Don't",
+        "difficulty": 2,
+        "explanation": "祈使句的否定形式为Don't + 动词原形，因此空格处填Don't。",
+        "knowledge_point": "祈使句",
+        "options": [],
+        "question": "填空：______ touch the hot stove.（不要碰热炉子。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 150
       }
     ]
   },
@@ -718,6 +2395,278 @@
         "无法区分bed中的e与me中的e"
       ],
       "tips": "记住口诀：'我'me,'他'he,'她'she,'我们'we，结尾字母e，火车鸣笛/i:/ /i:/ /i:/。"
+    },
+    {
+      "common_mistakes": [
+        "把可数名词和不可数名词混淆，例如说“a rice”；要说“some rice”或“a bowl of rice”。",
+        "把餐具名称和食物名称混淆，例如 spoon 是“勺子”，不是“汤”。"
+      ],
+      "core_concept": "认识常见食物与餐具的英语词汇，并能在简单句子中询问和表达喜欢吃什么、用什么餐具。",
+      "key_formula": "What would you like? — I'd like some + 食物. / What do you eat with? — I eat it with a spoon/fork/chopsticks.",
+      "point": "食物与餐具词汇",
+      "tips": "记忆词汇时可以把食物和常用餐具配对：soup—spoon（汤—勺子），noodles—chopsticks（面条—筷子），cake—fork（蛋糕—叉子）。注意 rice、bread、milk 等通常作不可数名词，表示一些时可用 some。"
+    },
+    {
+      "common_mistakes": [
+        "点餐时直接说“Give me...”显得不够礼貌，可用“May I have...?”或“I'd like...”。",
+        "服务员问“Anything else?”时，若不需要其他东西，可以回答“No, thank you.”",
+        "吃完或接受服务时，别忘了说“Thank you.”"
+      ],
+      "core_concept": "学习在餐厅点餐和就餐时使用简单、礼貌的英语表达，听懂常见提问，并用完整句子回应。",
+      "key_formula": "点餐：May I have + 食物/饮料, please? 或 I'd like + 食物/饮料, please.；回应：Yes, please. / No, thank you.；致谢：Thank you.",
+      "point": "点餐与就餐礼貌表达",
+      "tips": "点餐时说please，接受或拒绝服务时分别说Yes, please.或No, thank you.；听到“Here you are.”可以回答“Thank you.”；遇到不懂的菜单词，可以礼貌地问“What is this?”"
+    },
+    {
+      "common_mistakes": [
+        "看到词尾字母 e 就认为它一定发音；多数情况下，词尾 e 不发音。",
+        "把“词尾 e 通常不发音”误认为所有单词都适用；如 he、she、we 中的 e 发 /iː/。",
+        "把词尾不发音的 e 当成完全没有作用；它有时会让前面的元音读字母音，如 cap→cape。"
+      ],
+      "core_concept": "英语单词末尾的 e 有不同读法。许多常见单词中的词尾 e 不发音；在一些“元音字母 + 辅音字母 + e”的单词中，词尾 e 不发音，却会使前面的元音读字母音，例如 cap /kæp/ 与 cape /keɪp/。但在 he、she、we 等词中，词尾 e 发 /iː/。要结合单词整体和例词判断，不能只看最后一个字母。",
+      "key_formula": "常见规律：元音字母 + 辅音字母 + 不发音的 e，前面的元音常读字母音（如 cap→cape、kit→kite）；he、she、we 等词的词尾 e 则读 /iː/。",
+      "point": "字母e在单词结尾的发音规律",
+      "tips": "先听或读完整单词，再观察词尾 e：若是 he、she、we 这类常见词，e 通常读 /iː/；若是 make、bike、home 等词，e 通常不发音，但常会影响前面的元音。可把有无词尾 e 的单词配对记忆，如 cap/cape、kit/kite。"
+    },
+    {
+      "common_mistakes": [
+        "把 soup（汤）和 noodles（面条）混淆。",
+        "把 bread（面包）和 rice（米饭）混淆。",
+        "记单词时只记中文意思，不注意单词拼写。"
+      ],
+      "core_concept": "认识并理解常见食物词汇的意思，能根据词义辨认食物，并记住相应的英文单词。",
+      "key_formula": "食物中文名称 ↔ 对应的英文单词",
+      "point": "食物词汇词义",
+      "tips": "可以把食物图片、中文名称和英文单词配对记忆；复习时先看中文想英文，再看英文说中文。"
+    },
+    {
+      "common_mistakes": [
+        "把 knife（小刀）和 fork（叉子）弄混。",
+        "把 bowl（碗）和 plate（盘子）弄混。",
+        "记单词时只记中文意思，不注意单词拼写。"
+      ],
+      "core_concept": "认识常见餐具的英文名称，理解它们的中文意思，并能根据词义选择或拼写相应单词。",
+      "key_formula": "餐具英文词汇：bowl—碗；plate—盘子；spoon—勺子；fork—叉子；knife—小刀。",
+      "point": "餐具词汇词义",
+      "tips": "可以把餐具词汇和日常用餐情境联系起来记忆：用 bowl 盛汤，用 spoon 喝汤；用 fork 叉食物，用 knife 切食物。"
+    },
+    {
+      "common_mistakes": [
+        "不要只看单词中的某个字母来判断发音，还要结合字母所在的位置和单词整体来读。",
+        "看到字母 e 不要一律读成同一个音；它在不同单词中的发音可能不同。"
+      ],
+      "core_concept": "学习常见字母及字母组合的发音规律，并通过比较、朗读和归类，发现拼写与发音之间的联系。",
+      "key_formula": "观察拼写 → 找出相同字母或字母组合 → 听辨并比较发音 → 归纳规律。",
+      "point": "语音规律",
+      "tips": "可以把含有相同字母或字母组合的单词放在一起读一读，再比较它们的发音。遇到不确定的单词时，先尝试运用已学规律，再通过听读或查词典确认。"
+    },
+    {
+      "common_mistakes": [
+        "不要只按单词字面意思翻译固定表达，应结合使用场景理解。",
+        "回答时要注意固定表达中的介词和代词，例如“help yourself to...”表示请自取某物。"
+      ],
+      "core_concept": "固定表达是英语中常见、约定俗成的词语组合，通常在特定场景中使用。理解时要联系上下文，掌握它们的整体意思和常见用法。",
+      "key_formula": "固定表达 = 常见词语组合 + 约定俗成的整体含义",
+      "point": "固定表达",
+      "tips": "把固定表达放在具体情景中记忆，并尝试用简短对话练习。例如：A: Would you like some cake? B: Yes, please. A: Help yourself!"
+    },
+    {
+      "common_mistakes": [
+        "把 fork（叉子）和 spoon（勺子）混淆。",
+        "把 knife（刀）和 chopsticks（筷子）混淆。",
+        "不根据餐具的用途判断词义。"
+      ],
+      "core_concept": "认识常见餐具词汇，并根据餐具的形状和用途正确辨析：spoon 是勺子，fork 是叉子，knife 是刀，chopsticks 是筷子。",
+      "key_formula": "用餐具的常见搭配或用途判断：soup—spoon；cut food—knife；pick up food—fork 或 chopsticks。",
+      "point": "餐具词汇辨析",
+      "tips": "记忆时可以把单词和动作联系起来：用 spoon 舀汤，用 fork 叉食物，用 knife 切食物，用 chopsticks 夹食物。"
+    },
+    {
+      "common_mistakes": [
+        "回答“What would you like?”时，常用“I’d like …, please.”，不要只说“I like …”。“I like …”表示平时喜欢某种食物，不是正在点餐。",
+        "食物名称前是否加“some”要根据食物表达习惯；例如可以说“some beef”或“some juice”。"
+      ],
+      "core_concept": "点餐时，可以用“What would you like?”询问对方想要什么，用“I’d like …, please.”礼貌地表达自己想点的食物或饮料。",
+      "key_formula": "What would you like? — I’d like + 食物或饮料, please.",
+      "point": "点餐句式",
+      "tips": "“I’d like”是“I would like”的缩写，意为“我想要”。例如：What would you like? — I’d like some soup, please."
+    },
+    {
+      "common_mistakes": [
+        "只给可数名词加复数词尾；不可数名词通常没有复数形式。",
+        "以 s、x、ch、sh 结尾的名词，复数通常加 -es。",
+        "以辅音字母加 y 结尾的名词，通常把 y 改成 i 再加 -es；以元音字母加 y 结尾的名词，通常直接加 -s。",
+        "有些名词的复数形式不规则，需要特别记忆，如 child—children、man—men。"
+      ],
+      "core_concept": "名词复数表示两个或两个以上的人或事物。大多数可数名词在词尾加 -s；以 s、x、ch、sh 结尾的名词通常加 -es。名词以辅音字母加 y 结尾时，通常变 y 为 i 再加 -es；以元音字母加 y 结尾时，直接加 -s。少数名词有不规则复数形式。",
+      "key_formula": "可数名词复数：一般情况 +s；以 s、x、ch、sh 结尾 +es；辅音字母+y，变 y 为 i 加 es；元音字母+y，直接加 s；不规则变化需单独记忆。",
+      "point": "名词复数",
+      "tips": "先判断名词是否可数、是否表示一个以上，再观察词尾并选择变化规则。做题时可以留意 some、many、two 等词，它们常提示后面的可数名词需要用复数形式。"
+    },
+    {
+      "common_mistakes": [
+        "只看单个单词，不结合句子前后意思判断词义。",
+        "把拼写相近或词性相同的词误认为意思相同。",
+        "忽略常见搭配，导致选出的词不符合语境。"
+      ],
+      "core_concept": "理解词义时，要把单词放进句子中，结合上下文、语法和常见搭配来判断哪个意思最合适。",
+      "key_formula": "词义判断 = 单词本身的意思 + 句子上下文 + 语法和搭配",
+      "point": "词义理解",
+      "tips": "遇到选词题，可以先排除意思明显不合适的选项，再通过上下文和搭配判断。平时可把新单词放进简单句中记忆。"
+    },
+    {
+      "common_mistakes": [
+        "把 fork（叉子）和 knife（刀）混淆：叉子用来叉取食物，刀用来切食物。",
+        "把 spoon（勺子）和 bowl（碗）混淆：勺子用来舀或喝，碗用来盛食物。",
+        "忽略句子中的动作词，如 cut（切）、eat（吃）、drink（喝）和 serve（盛、分）。"
+      ],
+      "core_concept": "根据用餐时的动作和食物，选择合适的餐具。knife 用来切食物，fork 用来叉取食物，spoon 用来舀汤或吃较软的食物，bowl 用来盛汤或其他食物。",
+      "key_formula": "动作或用途 + 合适的餐具：cut → knife；pick up food → fork；eat soup → spoon；hold soup/food → bowl。",
+      "point": "餐具用法搭配",
+      "tips": "先找句子里的动作词，再判断需要哪种餐具。例如，cut 提示用 knife；eat soup 提示用 spoon；如果句子说盛放汤或食物，通常选择 bowl。"
+    },
+    {
+      "common_mistakes": [
+        "把“Help yourself”误认为“请帮帮你自己”；在提供食物或物品让对方自取时，它表示“请自便”。",
+        "忘记根据情境选择礼貌表达，例如请求帮助时说“Can you help me, please?”，接受帮助时说“Thank you.”。"
+      ],
+      "core_concept": "礼貌用语能让交流更友好。常见表达包括：请求帮助时说“Can you help me, please?”；提供东西时说“Here you are.”或“Help yourself.”；接受帮助或礼物时说“Thank you.”；回应感谢时说“You’re welcome.”；做错事时说“Sorry.”，回应道歉时说“That’s OK.”。",
+      "key_formula": "礼貌表达要符合交流情境：请求用“Can you ..., please?”；感谢用“Thank you.”，回应感谢用“You’re welcome.”；道歉用“Sorry.”，回应道歉用“That’s OK.”。",
+      "point": "礼貌用语",
+      "tips": "先看清对话发生了什么，再选择合适的表达。请求时加please更礼貌；别人给你东西或帮助时说Thank you；别人感谢你时说You’re welcome。"
+    },
+    {
+      "common_mistakes": [
+        "把动词后的人称代词误用成主格，如把 pass me 写成 pass I。",
+        "只记住某个介词的单一意思，忽略介词会随动词、形容词或固定表达改变。",
+        "混淆常见时间介词：at 常用于具体时刻，on 常用于星期和日期，in 常用于月份、年份和较长时间段。"
+      ],
+      "core_concept": "介词常与动词、形容词或名词搭配，表示对象、时间、地点等关系。英语里有些搭配需要整体记忆，例如 pass something to someone（把某物递给某人）、be good at（擅长）、listen to（听）。介词后若接人称代词，通常使用宾格，如 me、him、her、us、them。",
+      "key_formula": "常见搭配：pass + 物品 + to + 人；listen/look + to；be good + at；be interested + in；at + 具体时刻，on + 星期或日期，in + 月份或年份。",
+      "point": "介词搭配",
+      "tips": "把常见搭配放在短语中记忆并多造句，如 listen to music、good at drawing、interested in animals。完成句子后读一遍，检查搭配是否自然，以及介词后的代词形式是否正确。"
+    },
+    {
+      "common_mistakes": [
+        "只看句子中的单个词，忽略整句话的意思。",
+        "遇到生词就猜答案，没有结合上下文。",
+        "混淆表达相近需求的词语，如 hungry（饿）和 thirsty（渴）。"
+      ],
+      "core_concept": "句意理解就是读懂句子表达的整体意思，再根据句中线索选择合适的信息或回答。可以先找出人物、动作、时间、地点和感受等关键词，再结合上下文判断。",
+      "key_formula": "读句子 → 找关键词 → 联系上下文 → 判断句意 → 选择合适答案",
+      "point": "句意理解",
+      "tips": "做题时可以先把句子大意说出来，再排除与句意不相符的选项。注意 hungry（饿）、thirsty（渴）、tired（累）等描述感受的词，以及表示时间、地点和动作的词。"
+    },
+    {
+      "common_mistakes": [
+        "把礼貌拒绝说成生硬的“No”。",
+        "只看问句，不结合前后对话判断合适的回答。",
+        "回答问候或道别时，忽略对方说话的时间和场合。"
+      ],
+      "core_concept": "情景交际要根据对话场合、说话人的意图和上下文，选择礼貌、自然的表达。常见情景包括问候、感谢、道歉、邀请、请求、提供帮助和告别。",
+      "key_formula": "先判断情景和对方意图，再结合上下文选择合适的礼貌表达；接受或拒绝时，要回应清楚。",
+      "point": "情景交际",
+      "tips": "看到问句中的关键词，如Would you like...?、Can I help you?、Thank you、I'm sorry，先判断对方是在提供、请求、感谢还是道歉，再选符合场景的回答。拒绝时可说“No, thanks.”；接受时可说“Yes, please.”；对感谢可说“You're welcome.”；对道歉可说“That's OK.”"
+    },
+    {
+      "common_mistakes": [
+        "主格代词（如 he、we）通常作主语；宾格代词（如 him、us）常跟在动词或介词后。",
+        "形容词性物主代词（如 my、her）后面要接名词，不能单独代替名词。",
+        "代词要与它所指的人或事物在单复数、性别和人称上保持一致。"
+      ],
+      "core_concept": "代词可以代替前面提到的人或事物，避免重复。读句子时，先找出代词指的是谁或什么，再根据它在句子中的位置选择合适的形式。",
+      "key_formula": "主语位置用主格：I、he、she、we、they；动词或介词后常用宾格：me、him、her、us、them；名词前用形容词性物主代词：my、his、her、our、their。",
+      "point": "代词指代",
+      "tips": "做题时可以先把代词换回它所指的人或事物，检查句意是否通顺；再看代词在句中的位置，判断应使用主格、宾格还是物主代词。"
+    },
+    {
+      "common_mistakes": [
+        "把 soup 拼成 soop，注意 soup 中间是 ou。",
+        "把 chicken 拼成 chiken，注意 chicken 中有两个 c，且结尾是 -en。",
+        "写食物单词时漏掉或调换字母。"
+      ],
+      "core_concept": "学习常见食物的英文单词拼写，并能根据中文提示或句意写出相应词汇。",
+      "key_formula": "根据中文或句意确定食物名称，再逐字母核对英文拼写。",
+      "point": "食物词汇拼写",
+      "tips": "记忆单词时可以边读边拼，并把单词放进简单句子中练习。例如：soup（汤），chicken（鸡肉），rice（米饭）。"
+    },
+    {
+      "common_mistakes": [
+        "把发音相近的单词拼错，或漏写、调换字母。",
+        "忘记词尾的字母，如复数词尾的 -s。",
+        "抄写或填空时没有检查单词是否符合句意。"
+      ],
+      "core_concept": "词汇拼写是按照单词的字母顺序正确写出单词。学习时可以结合单词的读音、字母组合和含义来记忆，并在句子中检查拼写是否正确。",
+      "key_formula": "理解词义 → 回忆字母顺序 → 拼写单词 → 结合句意检查",
+      "point": "词汇拼写",
+      "tips": "记单词时可以边读边写，特别留意容易漏写或混淆的字母。完成填空后，再读一遍句子，检查单词拼写、单复数和句意。"
+    },
+    {
+      "common_mistakes": [
+        "把助动词和实义动词混淆：助动词帮助构成疑问句、否定句或表达时态、语气，通常不单独表示具体动作。",
+        "一般现在时中，主语是第三人称单数时，实义动词常加-s；但在does后，动词要用原形。",
+        "使用be动词、情态动词或助动词构成否定句和疑问句时，不要重复添加助动词。"
+      ],
+      "core_concept": "助动词是帮助主要动词表达语法意义的词。小学阶段常见的有be动词（am、is、are）、do/does、can、will、would等。它们可以帮助构成否定句和疑问句，也可以表达能力、将来或礼貌请求等意思。",
+      "key_formula": "一般疑问句：助动词 + 主语 + 动词原形（或其他谓语）？；否定句：主语 + 助动词 + not + 动词原形（或其他谓语）。例如：Do you like milk?；She does not like milk.；Can he swim?",
+      "point": "助动词",
+      "tips": "先找句子的主语和主要动词，再判断需要哪种助动词。看到does或can、will、would等情态助动词时，后面的动词通常用原形。回答一般疑问句时，注意助动词与问句保持一致，如Do you…? —Yes, I do."
+    },
+    {
+      "common_mistakes": [
+        "不定冠词 a/an 的选择看后面单词的发音，不只看首字母。",
+        "可数名词单数通常不能单独使用，前面一般需要冠词或其他限定词。",
+        "名词变复数时，通常在词尾加 -s 或 -es，但有些名词的复数形式不规则。"
+      ],
+      "core_concept": "冠词放在名词前，帮助说明名词指的是哪一个或哪一类。a 和 an 表示“一个”，用于第一次提到的单数可数名词；the 表示“这个、那个”，用于双方都知道或前文已经提到的人或事物。名词表示人、事物、地点等，可数名词有单数和复数形式。",
+      "key_formula": "单数可数名词：a/an/the + 名词；复数名词：名词复数；a 用在辅音音素前，an 用在元音音素前。",
+      "point": "冠词/名词",
+      "tips": "先判断名词是不是单数可数名词，再根据发音选择 a 或 an。若所指对象明确或前文已提到，通常用 the。名词复数一般加 -s；以 s、x、ch、sh 结尾时常加 -es。"
+    },
+    {
+      "common_mistakes": [
+        "把 chicken 只理解为“鸡”，在食物语境中它也常表示“鸡肉”。",
+        "混淆 beef（牛肉）和 chicken（鸡肉）。",
+        "vegetables 表示“蔬菜”，通常用复数形式。"
+      ],
+      "core_concept": "词义匹配就是根据英文单词的意思，找出对应的中文词语。可以结合熟悉的食物词汇记忆：beef 是牛肉，vegetables 是蔬菜，chicken 是鸡肉，noodles 是面条。",
+      "key_formula": "英文单词 → 对应的中文意思",
+      "point": "词义匹配",
+      "tips": "把单词和熟悉的食物联系起来记忆，也可以大声朗读英文单词及中文意思，加深印象。"
+    },
+    {
+      "common_mistakes": [
+        "把 spoon 和 fork 的意思弄混：spoon 是勺子，fork 是叉子。",
+        "把 bowl 和 plate 弄混：bowl 是碗，plate 是盘子。",
+        "knife 指小刀，不是叉子或勺子。"
+      ],
+      "core_concept": "学习常见餐具的英文名称，并能将英文单词与对应的中文意思匹配。",
+      "key_formula": "spoon—勺子；bowl—碗；fork—叉子；knife—小刀；plate—盘子；chopsticks—筷子。",
+      "point": "餐具匹配",
+      "tips": "可以结合餐具的外形和用途记忆：用 spoon 舀汤，用 fork 叉食物，用 knife 切食物；bowl 盛汤或饭，plate 放食物，chopsticks 夹食物。"
+    },
+    {
+      "common_mistakes": [
+        "陈述句中容易漏掉主语，或把主语和动词的位置颠倒。",
+        "一般疑问句通常把助动词或情态动词放在主语前；不要照搬陈述句语序。",
+        "特殊疑问句中，疑问词通常放在句首，后面再接助动词或情态动词。",
+        "句首单词首字母要大写，句末要根据语气使用句号或问号。"
+      ],
+      "core_concept": "英语句子中的词要按照一定顺序排列。常见陈述句的基本结构是“主语 + 谓语 + 其他”；一般疑问句通常是“助动词/情态动词 + 主语 + 动词 + 其他”；特殊疑问句通常是“疑问词 + 助动词/情态动词 + 主语 + 动词 + 其他”。",
+      "key_formula": "陈述句：主语 + 动词 + 其他。一般疑问句：Do/Does/Can + 主语 + 动词 + 其他？特殊疑问句：疑问词 + do/does/can + 主语 + 动词 + 其他？",
+      "point": "句子结构",
+      "tips": "先找句子要表达的是“陈述”还是“提问”，再确定主语和动词的位置。整理单词后，检查句首大写、句末标点，以及动词形式是否正确。"
+    },
+    {
+      "common_mistakes": [
+        "祈使句通常省略主语you，动词使用原形。",
+        "否定祈使句要在动词原形前加Don't。",
+        "表示客气时，Please可以放在句首或句末。"
+      ],
+      "core_concept": "祈使句用来表示命令、请求、建议或提醒，通常以动词原形开头，省略主语you。句末常用句号；表示强烈命令时也可用感叹号。",
+      "key_formula": "肯定句：动词原形（+其他）；否定句：Don't + 动词原形（+其他）；客气表达：Please + 动词原形（+其他）或动词原形（+其他）+ please。",
+      "point": "祈使句",
+      "tips": "看到句子是在让某人做或不要做某事时，可以判断它是祈使句。先找动词原形；若是否定要求，注意Don't放在动词原形前。"
     }
   ]
 }

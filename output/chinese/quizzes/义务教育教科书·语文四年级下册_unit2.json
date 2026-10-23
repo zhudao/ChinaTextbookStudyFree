@@ -4,264 +4,262 @@
   "unit_number": 2,
   "unit_test": {
     "title": "第二单元 基础达标与科技探索",
-    "total_score": 100,
+    "total_score": 388,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“琥珀”的“琥”读作 hǔ，声母是 h，韵母是 u，第三声。",
         "knowledge_point": "字音辨析",
+        "options": [],
         "question": "“琥珀”中的“琥”字读作 hǔ。",
-        "options": [],
-        "answer": "对",
-        "explanation": "琥珀二字在生字表中均为三声，读音正确。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "纳米是长度单位，1纳米等于十亿分之一米，比毫米小得多。",
         "knowledge_point": "纳米技术的概念与应用",
+        "options": [],
         "question": "纳米是一个长度单位，比毫米还要小得多。",
-        "options": [],
-        "answer": "对",
-        "explanation": "纳米是非常小的长度单位，一纳米等于十亿分之一米。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "琥珀的形成经历了漫长的地质过程，通常需要很长时间，不能说只需要几百年。",
         "knowledge_point": "科普说明文的科学推测",
+        "options": [],
         "question": "琥珀的形成只需要几百年的时间。",
-        "options": [],
-        "answer": "错",
-        "explanation": "琥珀的形成需要经过几万年、甚至上千万年的漫长过程。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "字词义辨析",
-        "question": "“松脂”是一种像油一样的液体，是从松树上流出来的。",
-        "options": [],
         "answer": "对",
-        "explanation": "松脂由松树产生，是形成琥珀的原材料。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "科普说明文的科学推测",
-        "question": "《琥珀》一文中，小苍蝇落在大松树上的情节纯属文学想象，没有任何科学依据。",
-        "options": [],
-        "answer": "错",
-        "explanation": "文中的描述是根据琥珀中保存的标本形态进行科学推测的。"
-      },
-      {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "松脂是松树分泌的黏稠液体，是形成琥珀的原材料。",
+        "knowledge_point": "字词义辨析",
+        "options": [],
+        "question": "“松脂”是一种像油一样的液体，是从松树上流出来的。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "琥珀中保存的虫子及其相对位置是推测故事情节的证据。课文对过程的描写有文学表达，但并非完全没有科学依据。",
+        "knowledge_point": "科普说明文的科学推测",
+        "options": [],
+        "question": "《琥珀》一文中，小苍蝇落在大松树上的情节纯属文学想象，没有任何科学依据。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "怒吼、澎湃",
+        "difficulty": 1,
+        "explanation": "“推测”应写作“推测”，“预放”应写作“预防”，因此只有“怒吼、澎湃”这一项书写完全正确。",
         "knowledge_point": "字词辨析",
-        "question": "下列词语中，书写完全正确的一项是：",
         "options": [
           "怒吼、澎湃",
           "推侧、详细",
           "预放、迟钝",
           "末期、毫末"
         ],
-        "answer": "怒吼、澎湃",
-        "explanation": "推测应为“测”，预防应为“防”。"
+        "question": "下列词语中，书写完全正确的一项是：",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "擦拭",
         "difficulty": 1,
+        "explanation": "“拂拭”指轻轻擦去尘土或污迹，与“擦拭”意思相近；“打击”“抚摸”“洗涤”意思不同。",
         "knowledge_point": "字词辨析",
-        "question": "文中的“拂拭”一词，可以用以下哪个词替换而不改变句意？",
         "options": [
           "打击",
           "擦拭",
           "抚摸",
           "洗涤"
         ],
-        "answer": "擦拭",
-        "explanation": "拂拭指轻轻擦去尘土，与擦拭意思相近。"
+        "question": "文中的“拂拭”一词，可以用以下哪个词替换而不改变句意？",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "恐龙身上长出了羽毛",
         "difficulty": 2,
+        "explanation": "羽毛化石等证据帮助科学家研究恐龙与鸟类的关系，并推测部分恐龙可能经历了向鸟类演化的过程。",
         "knowledge_point": "科普说明文的科学推测",
-        "question": "在《飞向蓝天的恐龙》中，恐龙演化成鸟类的重要前提是：",
         "options": [
           "恐龙学会了吃虫子",
           "恐龙身上长出了羽毛",
           "恐龙体态变得庞大",
           "恐龙学会了游泳"
         ],
-        "answer": "恐龙身上长出了羽毛",
-        "explanation": "羽毛的出现是恐龙向鸟类演化并具备飞行能力的关键特征。"
+        "question": "在《飞向蓝天的恐龙》中，哪项特征为科学家研究恐龙与鸟类的关系提供了重要线索？",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "4厘米",
         "difficulty": 1,
+        "explanation": "题目引用的对比说法中，乒乓球直径约为4厘米，用这个熟悉的大小帮助读者感受纳米之小。",
         "knowledge_point": "纳米技术的概念与应用",
-        "question": "下图中如果将地球比作一个乒乓球，那么乒乓球的大小大约是多少厘米？",
         "options": [
           "1厘米",
           "4厘米",
           "10厘米",
           "100厘米"
         ],
-        "answer": "4厘米",
-        "explanation": "课文中用“假如把直径为1纳米的小球放到乒乓球上，相当于把乒乓球放在地球上”作对比，乒乓球直径约4厘米。"
+        "question": "课文用乒乓球和地球作比较。按照题目所说的比喻，乒乓球的直径大约是多少？",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "询问家长或查字典资料",
         "difficulty": 2,
+        "explanation": "遇到专业名词，应通过查阅资料或向他人请教来准确理解，不能只凭猜测。",
         "knowledge_point": "阅读策略：提问并解决问题",
-        "question": "阅读时遇到“纳米涂层”这个词不明白，最合适的解决办法是：",
         "options": [
           "跳过去不理会",
           "询问家长或查字典资料",
-          "自己根据偏旁瞎猜提示",
+          "自己根据偏旁瞎猜",
           "大声朗读三遍词语"
         ],
-        "answer": "询问家长或查字典资料",
-        "explanation": "遇到专业名词应通过查阅资料或向人请教来准确理解。"
+        "question": "阅读时遇到“纳米涂层”这个词不明白，最合适的解决办法是：",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "喜出望外",
         "difficulty": 1,
+        "explanation": "“欣喜若狂”和“喜出望外”都表示非常高兴；其他选项分别表示害怕、沮丧或没有忧愁。",
         "knowledge_point": "近义词辨析",
-        "question": "与“欣喜若狂”意思最接近的词语是：",
         "options": [
           "面如土色",
           "喜出望外",
           "垂头丧气",
           "无忧无虑"
         ],
-        "answer": "喜出望外",
-        "explanation": "两个词都形容极度高兴、出乎意料的喜悦。"
+        "question": "与“欣喜若狂”意思最接近的词语是：",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "看到两个小东西的挣扎形态",
         "difficulty": 2,
+        "explanation": "琥珀里苍蝇和蜘蛛的形态、位置等是可以观察到的证据，人们据此推测它们被松脂包裹前可能发生的事情。",
         "knowledge_point": "科普说明文的科学推测",
-        "question": "在那块透明的琥珀里，我们可以“看到”什么从而推测出很久以前的故事？",
         "options": [
           "看到人类的脚印",
           "看到两个小东西的挣扎形态",
           "看到大海的颜色",
           "看到科学家留下的记号"
         ],
-        "answer": "看到两个小东西的挣扎形态",
-        "explanation": "琥珀中苍蝇和蜘蛛的相对位置让科学家推测当时发生了什么。"
+        "question": "在那块透明的琥珀里，我们可以“看到”什么，从而推测很久以前可能发生的事情？",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "“大约”体现了科学说明文的准确性",
         "difficulty": 3,
+        "explanation": "说明文语言要求准确。这里的时间是根据相关证据推算的，“大约”表示估计，保留它能避免把推算结果说成完全确定的事实。",
         "knowledge_point": "阅读理解",
-        "question": "“地球上的第一种恐龙大约出现在两亿四千万年前。”这句话中“大约”不能删去的原因是：",
         "options": [
           "删去后句子就不通顺了",
           "删去后显得文字太简短",
           "“大约”体现了科学说明文的准确性",
           "作者不知道确切的时间"
         ],
-        "answer": "“大约”体现了科学说明文的准确性",
-        "explanation": "说明文语言要求准确，时间是根据考古推算的，不能完全肯定。"
+        "question": "“地球上的第一种恐龙大约出现在两亿四千万年前。”这句话中“大约”不能删去的原因是：",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "制作美味的罐头",
         "difficulty": 2,
+        "explanation": "题目列出的纳米技术应用涉及医疗和材料等方面；制作美味的罐头不是这里提到的应用。",
         "knowledge_point": "纳米技术的概念与应用",
-        "question": "关于纳米技术的应用，下列哪项在课文中没有提到？",
         "options": [
           "杀死癌细胞",
           "预防疾病",
           "制造隐形战机",
           "制作美味的罐头"
         ],
-        "answer": "制作美味的罐头",
-        "explanation": "课文介绍了医疗和材料应用，未提及罐头制作。"
+        "question": "关于纳米技术的应用，下列哪项在课文中没有提到？",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "拟人",
         "difficulty": 2,
+        "explanation": "句子赋予小白菊“胆怯”和“抬起头”这些人的情感和动作，是把花当作人来写，因此运用了拟人。",
         "knowledge_point": "修辞方法识别",
-        "question": "“不再胆怯的小白菊，慢慢地抬起它们的头。”这句话运用的修辞手法是：",
         "options": [
           "比喻",
           "夸张",
           "拟人",
           "反问"
         ],
-        "answer": "拟人",
-        "explanation": "赋予小白菊“胆怯”和“抬头”的人格化特征。"
+        "question": "“不再胆怯的小白菊，慢慢地抬起它们的头。”这句话运用的修辞手法是：",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "字词积累",
-        "question": "在《琥珀》中，包裹住小虫子的黄色液体叫（___）。",
-        "options": [],
         "answer": "松脂",
-        "explanation": "松脂是形成琥珀的原始物质。"
+        "difficulty": 1,
+        "explanation": "松脂是松树分泌的黏稠液体，包裹小虫后经过漫长变化可能形成琥珀。",
+        "knowledge_point": "字词积累",
+        "options": [],
+        "question": "在《琥珀》中，包裹住小虫子的黄色液体叫（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "文学常识",
-        "question": "《飞向蓝天的恐龙》主要介绍了恐龙向（___）演化的过程。",
-        "options": [],
         "answer": "鸟类",
-        "explanation": "本课中心内容是介绍鸟类起源于恐龙。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "纳米技术的概念与应用",
-        "question": "1纳米等于十亿分（___）米。",
-        "options": [],
-        "answer": "之一",
-        "explanation": "考察对纳米概念中数值比例的记忆。"
-      },
-      {
-        "id": 19,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "课文介绍了某些恐龙向鸟类演化的过程。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "《飞向蓝天的恐龙》主要介绍了恐龙向（___）演化的过程。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "之一",
+        "difficulty": 2,
+        "explanation": "1纳米等于十亿分之一米，括号中应填“之一”。",
+        "knowledge_point": "纳米技术的概念与应用",
+        "options": [],
+        "question": "1纳米等于十亿分（___）米。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "A-2,B-1,C-4,D-3",
+        "difficulty": 1,
+        "explanation": "科学家工作需要严谨，战士通常勇敢，蜜蜂勤劳，蝴蝶美丽。",
         "knowledge_point": "词语配对",
-        "question": "请将下列形容词与对应的职业进行连线。",
         "options": [
           "严谨的",
           "勇敢的",
@@ -272,16 +270,16 @@
           "蝴蝶",
           "蜜蜂"
         ],
-        "answer": "A-2,B-1,C-4,D-3",
-        "explanation": "科学家需要严谨，战士需要勇敢，蜜蜂很勤劳，蝴蝶很美丽。"
+        "question": "请将下列形容词与对应的职业或事物进行配对：A.严谨的，B.勇敢的，C.勤劳的，D.美丽的；1.战士，2.科学家，3.蝴蝶，4.蜜蜂。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-1，B-3，C-4，D-2",
         "difficulty": 2,
+        "explanation": "A、1出自杨万里的《宿新市徐公店》；B、3和C、4出自范成大的《四时田园杂兴》（其二十五）；D、2出自《宿新市徐公店》。",
         "knowledge_point": "古诗常识",
-        "question": "请将诗句的前后半句连接起来。",
         "options": [
           "儿童急走追黄蝶",
           "日长篱落无人过",
@@ -292,53 +290,47 @@
           "惟有蜻蜓蛱蝶飞",
           "麦花雪白菜花稀"
         ],
-        "answer": "A-1,B-3,C-4,D-2",
-        "explanation": "考察课外及课内古诗掌握情况。A-1和D-2出自《宿新市徐公店》，B-3和C-4出自《四时田园杂兴》。"
+        "question": "请将诗句的前后半句连接起来：A.儿童急走追黄蝶；B.日长篱落无人过；C.梅子金黄杏子肥；D.篱落疏疏一径深。1.飞入菜花无处寻；2.惟有蜻蜓蛱蝶飞；3.麦花雪白菜花稀；4.树头新绿未成阴。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-3，B-1，C-2，D-4",
         "difficulty": 2,
+        "explanation": "琥珀是由古代树脂形成的化石；纳米是长度单位；恐龙是曾生活在地球上的动物；月球是地球的天然卫星。",
         "knowledge_point": "科学常识",
-        "question": "请将下列科技概念与其对应特征相连。",
         "options": [
           "琥珀",
           "纳米",
           "恐龙",
           "月球",
-          "极小的单位",
-          "古老的生物",
-          "透明的化石",
-          "地球的卫星"
+          "极小的长度单位",
+          "古代动物",
+          "由古代树脂形成的化石",
+          "地球的天然卫星"
         ],
-        "answer": "A-3,B-1,C-2,D-4",
-        "explanation": "琥珀是化石，纳米是单位，恐龙是生物，月球是卫星。"
+        "question": "请将下列科学概念与对应特征相连：A.琥珀，B.纳米，C.恐龙，D.月球；1.极小的长度单位，2.古代动物，3.由古代树脂形成的化石，4.地球的天然卫星。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "纳米技术是一种新型的高新技术。",
         "difficulty": 2,
+        "explanation": "“纳米技术”是说话的对象，“是一种新型的高新技术”说明它是什么；“一种新型的”修饰“高新技术”。",
         "knowledge_point": "句式结构",
-        "question": "将下列词语排列成一句顺畅的话。",
-        "options": [
-          "是",
-          "一种",
-          "纳米技术",
-          "高新技术",
-          "新型的"
-        ],
-        "answer": "纳米技术,是,一种,新型的,高新技术",
-        "explanation": "主系表结构：纳米技术是高新技术。"
+        "options": [],
+        "question": "将下列词语排列成一句顺畅的话：是、一种、纳米技术、高新技术、新型的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "松脂球,长时间,掩埋在,地壳运动,深处",
         "difficulty": 3,
+        "explanation": "松脂包裹住小生物后形成松脂球；经过漫长时间和地壳运动，松脂球被埋到地下深处，后来才可能形成琥珀。",
         "knowledge_point": "科普说明文的科学推测",
-        "question": "请排序说明琥珀形成的关键条件。",
         "options": [
           "长时间",
           "松脂球",
@@ -346,8 +338,897 @@
           "掩埋在",
           "深处"
         ],
-        "answer": "松脂球,长时间,掩埋在,地壳运动,深处",
-        "explanation": "描述松脂球在漫长时间里由于地壳变动掩埋在地下深处的过程。"
+        "question": "请按合理顺序排列词语，简要说明松脂球被埋藏的过程。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "已知事实（证据）",
+        "difficulty": 1,
+        "explanation": "科学推测必须从观察到的事实或发现的证据出发，再结合科学知识进行合理解释，不能凭空编造。",
+        "knowledge_point": "科普说明文的科学推测",
+        "options": [],
+        "question": "科学推测要以已经发现的________为依据，再结合科学知识作出合理解释。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "纳米是长度单位；纳米技术是在纳米尺度上研究和应用物质的技术。",
+        "difficulty": 2,
+        "explanation": "纳米表示长度，不是技术名称；纳米技术则是利用纳米尺度开展研究和应用的技术。",
+        "knowledge_point": "纳米技术的概念与应用",
+        "options": [],
+        "question": "用一句话分别说明“纳米”和“纳米技术”是什么。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 25
+      },
+      {
+        "answer": "列数字",
+        "difficulty": 1,
+        "explanation": "“十亿分之一米”用具体数字说明纳米的长度，属于列数字的说明方法。",
+        "knowledge_point": "纳米技术的概念与应用",
+        "options": [
+          "作比较",
+          "列数字",
+          "打比方",
+          "举例子"
+        ],
+        "question": "“1纳米等于十亿分之一米”主要运用了哪种说明方法？",
+        "score": 5,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "及时标记疑问，能帮助读者在读完后继续查找答案，也不容易忘记自己哪里没读懂。",
+        "knowledge_point": "阅读策略：提问并解决问题",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "阅读时遇到不懂的地方，可以先做上标记，再想办法解决。",
+        "score": 5,
+        "type": "true_false",
+        "id": 27
+      },
+      {
+        "answer": "联系上下文",
+        "difficulty": 1,
+        "explanation": "有些词语的意思可以从它前后句子的内容中推测，这种方法叫联系上下文。",
+        "knowledge_point": "阅读策略：提问并解决问题",
+        "options": [],
+        "question": "读文章时遇到一个词不懂，可以先根据它前后句子的内容来理解，这种方法叫（　　　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "内容问题：这种机器人能做什么？；写法问题：作者用了哪些例子介绍机器人？；启示问题：机器人能帮助人们解决哪些困难？",
+        "difficulty": 2,
+        "explanation": "提问可以从文章讲了什么、作者怎样介绍以及文章带来的思考等角度展开。答案合理即可。",
+        "knowledge_point": "阅读策略：提问并解决问题",
+        "options": [],
+        "question": "读一篇介绍救援机器人的科技文章，请分别提出一个关于内容、写法和启示的问题。",
+        "score": 10,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "先查阅可靠的百科手册或科技资料；如果仍不明白，再向老师或长辈请教，并回到文章中核对答案。",
+        "difficulty": 2,
+        "explanation": "解决问题时要选择合适、可靠的方法；查阅资料或请教他人后，还要核实答案是否能解释文章中的疑问。",
+        "knowledge_point": "阅读策略：提问并解决问题",
+        "options": [],
+        "question": "你在文章中读到“卫星如何把图像传回地面”，但不明白。请写出一种解决办法，并说明怎样确认问题已经解决。",
+        "score": 10,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "示例：未解的问题是“这种材料为什么能防水？”我会先标记这个问题，联系文章上下文寻找线索；如果还不明白，就查阅可靠资料或请教老师。找到答案后回到文章核对，并做上已解决的标记。",
+        "difficulty": 3,
+        "explanation": "完整的阅读策略包括发现并标记问题、选择合适的方法寻找答案，以及核实并记录结果。能清楚写出这几个步骤即可。",
+        "knowledge_point": "阅读策略：提问并解决问题",
+        "options": [],
+        "question": "假设你读一篇介绍新型防水材料的文章，发现自己有一个疑问。请举例写出你的问题，并说明你会怎样一步步解决它。",
+        "score": 10,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“朝阳”中的“朝”读 zhāo；“朝代”中的“朝”读 cháo。",
+        "knowledge_point": "字音辨析",
+        "options": [
+          "A. 朝阳（cháo）",
+          "B. 朝阳（zhāo）",
+          "C. 朝阳（zháo）",
+          "D. 朝阳（zhào）"
+        ],
+        "question": "“朝阳”一词中，“朝”字的正确读音是（　）。",
+        "score": 2,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“稍微”的“稍”读 shāo；“稍息”的“稍”读 shào。",
+        "knowledge_point": "字音辨析",
+        "options": [
+          "A. 稍微（shào）",
+          "B. 稍微（shāo）",
+          "C. 稍微（sāo）",
+          "D. 稍微（xiāo）"
+        ],
+        "question": "“稍微”一词中，“稍”字应读作（　）。",
+        "score": 2,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "“教室”中的“教”读 jiào，不读 jiāo；“教书”中的“教”读 jiāo。",
+        "knowledge_point": "字音辨析",
+        "options": [],
+        "question": "“教室”中的“教”字读作 jiāo。",
+        "score": 2,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“似的”中的“似”读 shì；“似乎”中的“似”读 sì。",
+        "knowledge_point": "字音辨析",
+        "options": [
+          "A. 似的（sì）",
+          "B. 似的（shì）",
+          "C. 似的（sǐ）",
+          "D. 似的（shí）"
+        ],
+        "question": "“好像什么似的”中的“似”字读作（　）。",
+        "score": 2,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "sì",
+        "difficulty": 1,
+        "explanation": "“相似”表示彼此相像，“似”在这个词中读 sì。",
+        "knowledge_point": "字音辨析",
+        "options": [],
+        "question": "“相似”中的“似”读作____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 36
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“透过”表示穿过某种遮挡而看到；“透”在这里不是“透明”的意思。",
+        "knowledge_point": "字词义辨析",
+        "options": [
+          "A. 看得清楚",
+          "B. 穿过",
+          "C. 达到饱和",
+          "D. 泄露"
+        ],
+        "question": "“阳光透过窗户照进屋里”中的“透过”是什么意思？",
+        "score": 2,
+        "type": "choice",
+        "id": 37
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "“安静”强调没有吵闹声；“平静”常形容心情或水面没有波动。句子说教室里没有声音，用“安静”更恰当。",
+        "knowledge_point": "字词义辨析",
+        "options": [
+          "A. 平静",
+          "B. 安详",
+          "C. 安静",
+          "D. 宁静"
+        ],
+        "question": "“下课后，同学们都离开了，教室里十分（　）。”括号里最恰当的词语是：",
+        "score": 2,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "明亮",
+        "difficulty": 1,
+        "explanation": "“明亮”指光线充足、亮堂，符合窗户和教室的语境。",
+        "knowledge_point": "字词义辨析",
+        "options": [],
+        "question": "清晨，阳光照进教室，屋子里变得十分（　）。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 39
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“温和”可以形容人的态度不严厉，也可以形容气候不冷不热；句中说老师说话的态度，用“温和”表示亲切和气。",
+        "knowledge_point": "字词义辨析",
+        "options": [
+          "A. 温度不高",
+          "B. 态度亲切和气",
+          "C. 心情激动",
+          "D. 声音响亮"
+        ],
+        "question": "“老师温和地对小明说：‘别着急，慢慢来。’”句中“温和”的意思是：",
+        "score": 2,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "这条小路很僻静，几乎没有行人。",
+        "difficulty": 2,
+        "explanation": "“僻静”指偏僻而清静，适合形容人少、清静的小路。答案能体现词语在具体语境中的恰当用法。",
+        "knowledge_point": "字词义辨析",
+        "options": [],
+        "question": "用“僻静”写一个意思恰当的句子。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“观”有观看、观察的意思。“观察”是仔细察看，符合句意；“关查”“官察”“观查”都是错误写法。",
+        "knowledge_point": "字词辨析",
+        "options": [
+          "A. 关查",
+          "B. 观察",
+          "C. 官察",
+          "D. 观查"
+        ],
+        "question": "下列词语中，书写正确的一项是：",
+        "score": 5,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "安静",
+        "difficulty": 1,
+        "explanation": "“安静”表示没有声音、不吵闹，符合教室里同学认真读书的情境。“热闹”与句意相反。",
+        "knowledge_point": "字词辨析",
+        "options": [
+          "热闹",
+          "安静",
+          "吵闹",
+          "喧哗"
+        ],
+        "question": "同学们正在认真读书，教室里十分（　　）。",
+        "score": 5,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "洁净",
+        "difficulty": 1,
+        "explanation": "“干净”和“洁净”都表示没有尘土、污垢，在“把教室打扫得很……”的语境中，二者意思相近。",
+        "knowledge_point": "字词辨析",
+        "options": [],
+        "question": "“干净”可以换成“____”，句意基本不变。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 44
+      },
+      {
+        "answer": "测",
+        "difficulty": 1,
+        "explanation": "“推测”指根据已知情况猜想、判断，必须写作“推测”，不能把“测”写成形近字“侧”。",
+        "knowledge_point": "字词辨析",
+        "options": [],
+        "question": "请把错别字改正确：推侧 → 推____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "仔细",
+        "difficulty": 1,
+        "explanation": "“认真”和“仔细”都表示做事专心、用心，放在句中都能体现检查作业时不马虎。",
+        "knowledge_point": "近义词辨析",
+        "options": [
+          "仔细",
+          "热闹",
+          "突然",
+          "勇敢"
+        ],
+        "question": "“小明检查作业时十分____，没有漏掉一道题。”横线处最适合填：",
+        "score": 5,
+        "type": "choice",
+        "id": 46
+      },
+      {
+        "answer": "美丽",
+        "difficulty": 1,
+        "explanation": "“漂亮”和“美丽”意思相近，都可以形容花园景色好看；“安静”形容没有声音，“宽阔”形容面积大。",
+        "knowledge_point": "近义词辨析",
+        "options": [
+          "安静",
+          "美丽",
+          "宽阔",
+          "匆忙"
+        ],
+        "question": "“春天的花园真漂亮。”句中“漂亮”可以换成哪个词，意思最接近？",
+        "score": 5,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "“马上”和“立刻”都表示很快、立即，放在“回家”前意思相近。",
+        "knowledge_point": "近义词辨析",
+        "options": [
+          "错误",
+          "正确"
+        ],
+        "question": "“马上”和“立刻”在“听到消息后，他马上回家了”中意思相近。（判断正误）",
+        "score": 5,
+        "type": "true_false",
+        "id": 48
+      },
+      {
+        "answer": "难过",
+        "difficulty": 2,
+        "explanation": "“伤心”和“难过”都表示心里不愉快或悲伤，放在句中意思相近。",
+        "knowledge_point": "近义词辨析",
+        "options": [],
+        "question": "“听说好朋友要转学，他心里很伤心。”句中“伤心”的近义词可以填：____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "愉快",
+        "difficulty": 2,
+        "explanation": "“高兴”和“愉快”都表示心情快乐；“高兴”还可以表示满意或愿意，选择时要结合具体语境。",
+        "knowledge_point": "近义词辨析",
+        "options": [],
+        "question": "小伙伴们在公园里玩得很高兴，大家度过了一个____的下午。（填一个与“高兴”意思相近、放入句中合适的词语）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 50
+      },
+      {
+        "answer": "先找到写小明帮助老人的相关句子，再根据句子说明他是怎样做的。",
+        "difficulty": 2,
+        "explanation": "回答具体事件问题时，要先在文中定位相关内容，再依据文章中的动作或语言作答，不能只凭想象。",
+        "knowledge_point": "阅读理解",
+        "options": [],
+        "question": "读文章后，如果题目问“小明是怎样帮助老人的”，你应该怎样寻找答案？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "阅读理解的答案应以文章内容为依据。即使自己的想法听起来合理，也不能代替文本提供的信息。",
+        "knowledge_point": "阅读理解",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "回答阅读理解题时，只要答案符合自己的生活经验，就可以不看文章。",
+        "score": 5,
+        "type": "true_false",
+        "id": 52
+      },
+      {
+        "answer": "上下文",
+        "difficulty": 1,
+        "explanation": "遇到不理解的词语，可以先读读它前后的内容，联系上下文推想词义。",
+        "knowledge_point": "阅读理解",
+        "options": [],
+        "question": "理解文章中一个不熟悉的词语时，可以联系它所在的________来推想意思。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 53
+      },
+      {
+        "answer": "先找出事情的起因、经过和结果，再用简洁的话概括主要内容。",
+        "difficulty": 3,
+        "explanation": "概括记叙类文章时，可以关注事情怎样开始、经过了什么、最后结果如何，并删去次要细节。",
+        "knowledge_point": "阅读理解",
+        "options": [],
+        "question": "概括一篇写事情的短文时，可以抓住哪些内容？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "乙。",
+        "difficulty": 2,
+        "explanation": "乙写出了小草从石缝中生长这一关键事实，并点明它顽强的特点，比只说“小草长出来了”更能概括文章表达的内容。",
+        "knowledge_point": "阅读理解",
+        "options": [],
+        "question": "短文写一株小草从石缝中长出来。概括短文时，下面哪句话更合适？甲：小草长出来了。乙：一株小草从石缝中顽强地长了出来。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 55
+      },
+      {
+        "answer": "比喻",
+        "difficulty": 1,
+        "explanation": "句子把弯弯的月亮比作小船，月亮是本体，小船是喻体，运用了比喻。",
+        "knowledge_point": "修辞方法识别",
+        "options": [
+          "比喻",
+          "拟人",
+          "夸张",
+          "反问"
+        ],
+        "question": "“弯弯的月亮像一只小船。”这句话运用了哪种修辞手法？",
+        "score": 5,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "拟人",
+        "difficulty": 1,
+        "explanation": "句子写风“唱起了歌”，把风写成会唱歌的人，运用了拟人。",
+        "knowledge_point": "修辞方法识别",
+        "options": [
+          "夸张",
+          "比喻",
+          "反问",
+          "拟人"
+        ],
+        "question": "“风儿在树林里唱起了动听的歌。”这句话运用了哪种修辞手法？",
+        "score": 5,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "夸张",
+        "difficulty": 2,
+        "explanation": "“震得耳朵都快聋了”是故意夸大声音的响亮程度，并非真的耳聋，运用了夸张。",
+        "knowledge_point": "修辞方法识别",
+        "options": [
+          "比喻",
+          "夸张",
+          "拟人",
+          "反问"
+        ],
+        "question": "“教室里安静极了，连一根针掉在地上的声音都听得见。”这句话主要运用了哪种修辞手法？",
+        "score": 5,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "反问",
+        "difficulty": 2,
+        "explanation": "句子用疑问的形式表达“我们不能忘记老师的教导”这一明确意思，答案包含在句意中，运用了反问。",
+        "knowledge_point": "修辞方法识别",
+        "options": [
+          "拟人",
+          "夸张",
+          "比喻",
+          "反问"
+        ],
+        "question": "“难道我们能忘记老师的教导吗？”这句话运用了哪种修辞手法？",
+        "score": 5,
+        "type": "choice",
+        "id": 59
+      },
+      {
+        "answer": "拟人",
+        "difficulty": 3,
+        "explanation": "“像”在这里表示花朵的形状如笑脸，是比喻；“绽开笑脸”又把花写成会笑的人，运用了拟人。题目问“绽开笑脸”这一表达的修辞手法，因此答案是拟人。",
+        "knowledge_point": "修辞方法识别",
+        "options": [
+          "拟人",
+          "夸张",
+          "反问",
+          "排比"
+        ],
+        "question": "“花儿迎着春风，绽开了笑脸。”其中“绽开了笑脸”运用了哪种修辞手法？",
+        "score": 5,
+        "type": "choice",
+        "id": 60
+      },
+      {
+        "answer": "琥珀",
+        "difficulty": 1,
+        "explanation": "琥珀是古代树脂经过漫长时间形成的化石，常能保存远古生物的痕迹。",
+        "knowledge_point": "字词积累",
+        "options": [],
+        "question": "古代树脂经过漫长时间形成的化石叫（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "树脂",
+        "difficulty": 1,
+        "explanation": "树脂是一些树木分泌的黏稠液体，松脂就是树脂的一种。",
+        "knowledge_point": "字词积累",
+        "options": [],
+        "question": "松脂属于（___）的一种。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "黏稠",
+        "difficulty": 2,
+        "explanation": "“黏稠”形容液体又黏又浓，不容易流动。",
+        "knowledge_point": "字词积累",
+        "options": [],
+        "question": "形容液体又黏又浓、不容易流动，可以用词语（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "挣扎",
+        "difficulty": 2,
+        "explanation": "“挣扎”指用力支撑或摆脱困境。句中小虫被松脂包住，仍在用力活动，因此用“挣扎”恰当。",
+        "knowledge_point": "字词积累",
+        "options": [],
+        "question": "小虫被松脂包住后，还在不停地（___），想要摆脱困境。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 64
+      },
+      {
+        "answer": "推测",
+        "difficulty": 2,
+        "explanation": "“推测”是根据已有的情况想象或判断未知的事情。科学家可以依据琥珀中的情形推测它形成时发生的故事。",
+        "knowledge_point": "字词积累",
+        "options": [],
+        "question": "科学家根据琥珀中的痕迹，合理地（___）它形成时发生的事情。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 65
+      },
+      {
+        "answer": "科普说明文",
+        "difficulty": 1,
+        "explanation": "课文通过介绍科学发现和相关研究，向读者说明恐龙与鸟类之间的关系，属于科普说明文。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "《飞向蓝天的恐龙》是一篇介绍科学知识的（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "某些恐龙与鸟类之间可能存在演化关系。",
+        "difficulty": 2,
+        "explanation": "课文围绕恐龙与鸟类的关系展开，介绍科学家发现的证据及研究过程。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "《飞向蓝天的恐龙》主要向读者介绍了什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 67
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "课文介绍的是某些恐龙向鸟类演化的过程，并没有说所有恐龙都变成了鸟。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "判断：课文认为所有恐龙都演化成了鸟类。（___）",
+        "score": 5,
+        "type": "true_false",
+        "id": 68
+      },
+      {
+        "answer": "科学家通过研究恐龙化石等证据，发现了恐龙与鸟类之间可能存在演化关系。",
+        "difficulty": 2,
+        "explanation": "课文介绍了科学家从化石等证据出发进行研究，并由此获得关于鸟类起源的重要线索。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "科学家是怎样发现恐龙与鸟类可能有关联的？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 69
+      },
+      {
+        "answer": "通过有条理地介绍证据和研究过程，说明科学家对鸟类起源的探索。",
+        "difficulty": 2,
+        "explanation": "科普说明文常借助事实、证据和说明方法介绍科学知识；本课展现了科学家探索恐龙与鸟类关系的过程。",
+        "knowledge_point": "文学常识",
+        "options": [],
+        "question": "从《飞向蓝天的恐龙》中，我们可以了解到科普说明文怎样介绍科学知识？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "A-3,B-1,C-4,D-2",
+        "difficulty": 1,
+        "explanation": "香甜可以形容苹果的味道，碧绿可以形容荷叶的颜色，清脆可以形容鸟叫声，宽阔可以形容马路。",
+        "knowledge_point": "词语配对",
+        "options": [
+          "香甜的",
+          "碧绿的",
+          "清脆的",
+          "宽阔的",
+          "马路",
+          "鸟叫声",
+          "苹果",
+          "荷叶"
+        ],
+        "question": "请将下列形容词与合适的事物配对：A.香甜的，B.碧绿的，C.清脆的，D.宽阔的；1.鸟叫声，2.荷叶，3.苹果，4.马路。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 71
+      },
+      {
+        "answer": "A-3,B-1,C-4,D-2",
+        "difficulty": 1,
+        "explanation": "踢通常和足球搭配，读通常和课文搭配，种通常和树苗搭配，写通常和汉字搭配。",
+        "knowledge_point": "词语配对",
+        "options": [
+          "踢",
+          "读",
+          "种",
+          "写",
+          "树苗",
+          "足球",
+          "汉字",
+          "课文"
+        ],
+        "question": "请将下列动词与合适的词语配对：A.踢，B.读，C.种，D.写；1.足球，2.课文，3.树苗，4.汉字。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 72
+      },
+      {
+        "answer": "A-2,B-4,C-1,D-3",
+        "difficulty": 2,
+        "explanation": "一轮常用来形容明月，一阵常用来形容掌声，一片常用来形容树叶，一条常用来形容小河。",
+        "knowledge_point": "词语配对",
+        "options": [
+          "一轮",
+          "一阵",
+          "一片",
+          "一条",
+          "掌声",
+          "小河",
+          "树叶",
+          "明月"
+        ],
+        "question": "请将下列数量词与合适的词语配对：A.一轮，B.一阵，C.一片，D.一条；1.树叶，2.明月，3.小河，4.掌声。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 73
+      },
+      {
+        "answer": "A-2,B-4,C-1,D-3",
+        "difficulty": 2,
+        "explanation": "遵守常与纪律搭配，保护常与环境搭配，欣赏常与风景搭配，解决常与问题搭配。",
+        "knowledge_point": "词语配对",
+        "options": [
+          "遵守",
+          "保护",
+          "欣赏",
+          "解决",
+          "风景",
+          "问题",
+          "纪律",
+          "环境"
+        ],
+        "question": "请将下列动词与合适的词语配对：A.遵守，B.保护，C.欣赏，D.解决；1.纪律，2.环境，3.风景，4.问题。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 74
+      },
+      {
+        "answer": "A-2,B-4,C-1,D-3",
+        "difficulty": 2,
+        "explanation": "欢快可以形容歌声，茂密可以形容树林，猛烈可以形容暴风雨，平静可以形容湖面。",
+        "knowledge_point": "词语配对",
+        "options": [
+          "欢快的",
+          "茂密的",
+          "猛烈的",
+          "平静的",
+          "湖面",
+          "树林",
+          "歌声",
+          "暴风雨"
+        ],
+        "question": "请将下列形容词与合适的事物配对：A.欢快的，B.茂密的，C.猛烈的，D.平静的；1.歌声，2.湖面，3.暴风雨，4.树林。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 75
+      },
+      {
+        "answer": "杨万里",
+        "difficulty": 1,
+        "explanation": "《宿新市徐公店》是宋代诗人杨万里的作品。诗中描写了篱笆、小路、儿童追黄蝶等景象。",
+        "knowledge_point": "古诗常识",
+        "options": [],
+        "question": "《宿新市徐公店》的作者是宋代诗人____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 76
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "《四时田园杂兴》（其二十五）是宋代范成大的作品，描绘初夏田园景色和农事生活。",
+        "knowledge_point": "古诗常识",
+        "options": [
+          "范成大",
+          "杨万里",
+          "李白",
+          "杜甫"
+        ],
+        "question": "《四时田园杂兴》（其二十五）的作者是（ ）。",
+        "score": 2,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "“儿童急走追黄蝶，飞入菜花无处寻”出自《宿新市徐公店》，写孩子追赶蝴蝶，蝴蝶飞进黄色菜花中就找不到了。",
+        "knowledge_point": "古诗常识",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "“儿童急走追黄蝶，飞入菜花无处寻”描写了儿童追赶黄蝴蝶的情景。这一说法正确吗？",
+        "score": 2,
+        "type": "true_false",
+        "id": 78
+      },
+      {
+        "answer": "麦花雪白菜花稀",
+        "difficulty": 2,
+        "explanation": "《四时田园杂兴》（其二十五）中，“梅子金黄杏子肥”后接“麦花雪白菜花稀”，写出初夏果实、麦花和菜花的景象。",
+        "knowledge_point": "古诗常识",
+        "options": [],
+        "question": "请补全诗句：“梅子金黄杏子肥，____。”",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 79
+      },
+      {
+        "answer": "宋代",
+        "difficulty": 2,
+        "explanation": "杨万里和范成大都是宋代诗人，题目所涉及的两首诗也都创作于宋代。",
+        "knowledge_point": "古诗常识",
+        "options": [],
+        "question": "杨万里和范成大都是____代诗人。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 80
+      },
+      {
+        "answer": "长度",
+        "difficulty": 1,
+        "explanation": "纳米是长度单位，1纳米等于十亿分之一米。",
+        "knowledge_point": "科学常识",
+        "options": [],
+        "question": "纳米是表示________的单位。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 81
+      },
+      {
+        "answer": "地球的天然卫星",
+        "difficulty": 1,
+        "explanation": "月球绕着地球运行，是地球的天然卫星。",
+        "knowledge_point": "科学常识",
+        "options": [],
+        "question": "月球是________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "琥珀常由古代树脂经过漫长时间形成，属于化石的一种。",
+        "knowledge_point": "科学常识",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "琥珀可以由古代树脂经过漫长时间形成。",
+        "score": 2,
+        "type": "true_false",
+        "id": 83
+      },
+      {
+        "answer": "古代动物",
+        "difficulty": 1,
+        "explanation": "恐龙是曾生活在地球上的动物，不是长度单位或天体。",
+        "knowledge_point": "科学常识",
+        "options": [],
+        "question": "恐龙属于曾经生活在地球上的________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "纳米是长度单位，不是物质；月球是天体，恐龙是动物。琥珀则是由古代树脂形成的化石。",
+        "knowledge_point": "科学常识",
+        "options": [
+          "琥珀",
+          "纳米",
+          "恐龙",
+          "月球"
+        ],
+        "question": "下面哪一项是长度单位？A.琥珀　B.恐龙　C.纳米　D.月球",
+        "score": 2,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "小鸟在树枝上快乐地唱歌。",
+        "difficulty": 1,
+        "explanation": "“小鸟”是句子的主语，“唱歌”是它做的事；“在树枝上”说明地点，“快乐地”说明唱歌时的状态。",
+        "knowledge_point": "句式结构",
+        "options": [],
+        "question": "将下列词语排列成一句通顺的话：快乐地、小鸟、唱歌、在树枝上。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "明天我们去公园参观。",
+        "difficulty": 2,
+        "explanation": "“我们”是主语，“去公园参观”说明要做什么；“明天”表示时间，通常放在句子前面。",
+        "knowledge_point": "句式结构",
+        "options": [],
+        "question": "将下列词语排列成一句通顺的话：去公园参观、我们、明天。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 87
+      },
+      {
+        "answer": "这朵花真美丽！",
+        "difficulty": 1,
+        "explanation": "“这朵花”是说话的对象，“真美丽”说明它怎么样；表达赞叹时可用感叹号。",
+        "knowledge_point": "句式结构",
+        "options": [],
+        "question": "将下列词语排列成一句完整的话，并加上标点：真美丽、这朵花。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 88
+      },
+      {
+        "answer": "我们应该爱护校园里的花草。",
+        "difficulty": 2,
+        "explanation": "“我们”是主语，“应该爱护”表示态度和动作，“校园里的”修饰“花草”。",
+        "knowledge_point": "句式结构",
+        "options": [],
+        "question": "将下列词语排列成一句通顺的话：校园里的、我们、花草、应该爱护。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 89
+      },
+      {
+        "answer": "雨后的空气格外清新。",
+        "difficulty": 2,
+        "explanation": "“雨后的空气”是句子的主语，“格外清新”说明空气怎么样；“雨后的”修饰“空气”。",
+        "knowledge_point": "句式结构",
+        "options": [],
+        "question": "将下列词语排列成一句通顺的话：格外清新、空气、雨后的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 90
       }
     ]
   },
@@ -702,34 +1583,170 @@
   },
   "knowledge_summary": [
     {
+      "common_mistakes": [
+        "把科学推测当成毫无根据的编故事。",
+        "把推测的内容当作已经完全证实的事实。",
+        "只凭一个线索下结论，不注意结合多种证据和科学知识。"
+      ],
+      "core_concept": "科学推测是根据已经发现的事实和相关科学知识，对过去发生的事情或尚未完全了解的现象作出合乎情理的解释。它不是凭空想象，也不一定等同于已经证实的事实。《琥珀》中，人们根据琥珀里虫子的形态和位置，推测它们被松脂包裹的过程；《飞向蓝天的恐龙》中，科学家根据化石等证据，推测恐龙与鸟类的演化关系。",
+      "key_formula": "已知事实（证据）＋科学知识与合理联想＝科学推测",
       "point": "科普说明文的科学推测",
-      "core_concept": "学生需理解“推测”并非凭空想象，而是依据现有的证据进行合乎情理的解释。例如在《琥珀》中，依据“透明球体中两只虫子”的事实，推测出“松脂滴落”的瞬间过程；在《飞向蓝天的恐龙》中，依据“羽毛化石”的发现，推测出恐龙演化为鸟类的进化链条。",
-      "key_formula": "已知事实 + 逻辑联想 = 科学推测",
-      "common_mistakes": [
-        "将推测等同于瞎编故事",
-        "混淆推测与绝对事实的界限"
-      ],
-      "tips": "寻找文中的关键词如“推测、估计、大约、可能”，体会科学语言的严谨性。"
+      "tips": "阅读时可以问自己：文中观察到了什么？作者根据哪些证据作出推测？这个推测是否合乎科学道理？注意“可能”“推测”等词所表达的不确定性。"
     },
     {
+      "common_mistakes": [
+        "把纳米误认为一种技术；纳米是长度单位，纳米技术是在纳米尺度上研究和应用物质的技术。",
+        "把纳米技术理解成能让物体真的消失；隐形相关应用是通过材料等技术减少被探测的可能。",
+        "只关注纳米的“小”，忽略纳米技术在医疗和材料等领域的应用。"
+      ],
+      "core_concept": "纳米是长度单位，1纳米等于十亿分之一米。纳米技术是在纳米尺度上对物质进行研究、制造和应用的技术。学习时可以留意说明文如何用“列数字”说明纳米极小，用“作比较”帮助读者形成直观认识，并从医疗和材料等例子体会纳米技术的应用。",
+      "key_formula": "1纳米 = 10⁻⁹米 = 十亿分之一米",
       "point": "纳米技术的概念与应用",
-      "core_concept": "学习说明文的常用方法，尤其是“作比较”和“列数字”。通过“长度单位”角度定义纳米（十亿分之一米），通过“隐形战机、癌症治疗”展示纳米技术的未来应用。重点在于体会纳米之“小”和纳米技术之“强”。",
-      "key_formula": "纳米 = 10^-9 米 (极微小尺度的操控技术)",
-      "common_mistakes": [
-        "误认为纳米是一门学科而不是长度单位",
-        "对纳米技术能让物体消失（隐形）产生魔幻化的误解"
-      ],
-      "tips": "可以用“头发丝、乒乓球、地球”的对比图示来帮助感性认知纳米的大小。"
+      "tips": "读说明文时，圈出具体数字和比较对象，想一想它们分别怎样说明事物的特点。理解应用例子时，注意纳米技术是借助材料或技术发挥作用，并不意味着物体会凭空消失。"
     },
     {
-      "point": "阅读策略：提问并解决问题",
-      "core_concept": "在阅读科技类文章时，保持好奇心，主动记录不懂的问题。提问可以从内容（是什么）、写法（怎么写）、启示（为什么）三个维度展开。解决办法包括：联系上下文理解词义、查阅百科手册、借助互联网搜索、向老师或长辈请教。",
-      "key_formula": "标记疑问 -> 选取方法(查/阅/问) -> 尝试解决",
       "common_mistakes": [
-        "读不懂的地方直接跳过，不标记问题",
-        "提问只停留在表面字词，不涉及文章逻辑"
+        "读不懂的地方直接跳过，不标记问题。",
+        "提问只停留在表面字词，不关注文章内容、写法和启示。",
+        "没有根据问题选择合适的解决办法，或没有确认问题是否解决。"
       ],
-      "tips": "在文章旁边做批注，用不同符号标记“未解之谜”和“已解之谜”。"
+      "core_concept": "阅读科技类文章时，要保持好奇心，主动发现并记录疑问。可以从三个角度提问：内容上，问“是什么”；写法上，问“作者是怎么写的”；启示上，问“为什么这样做”或“这给了我们什么启发”。遇到问题后，可以联系上下文、查阅百科手册或可靠资料，也可以向老师和长辈请教；找到答案后，再回到文章中确认。",
+      "key_formula": "发现疑问并标记 → 选择合适的方法（联系上下文、查资料、请教他人）→ 回到文章核实并记录答案",
+      "point": "阅读策略：提问并解决问题",
+      "tips": "读到疑惑时及时在旁边做批注，可用“？”标出未解决的问题，用“✓”标出已经找到答案的问题。提问时不妨分别关注文章讲了什么、作者怎样说明，以及文章带来了什么启发。"
+    },
+    {
+      "common_mistakes": [
+        "把声母、韵母相同的字误认为读音相同。",
+        "忽略声调差异，或把多音字在不同词语中的读音混淆。",
+        "读轻声词语时，仍按原调读出。"
+      ],
+      "core_concept": "字音辨析就是根据字的声母、韵母和声调，准确区分形近字、同音字及多音字的读音。遇到不熟悉的字，可以结合词语语境，并查字典确认读音。",
+      "key_formula": "读音＝声母＋韵母＋声调；辨音时要逐项核对，不能只看字形或只听声母、韵母。",
+      "point": "字音辨析",
+      "tips": "读字时先读准声母和韵母，再确认声调；把字放进词语中辨认。遇到多音字，可用不同词语组词比较，并及时查字典。"
+    },
+    {
+      "common_mistakes": [
+        "只根据字词的一个字或字面意思猜词义，不结合上下文判断。",
+        "把意思相近的词当作完全相同，忽略它们在搭配和语气上的差别。",
+        "遇到多义词时，只记一种意思，没有联系句子选择合适的解释。"
+      ],
+      "core_concept": "字词义辨析，就是根据字词的本义、引申义和具体语境，判断它在句子中的准确意思，并比较近义词之间的细微差别。",
+      "key_formula": "辨析字词义：先看词语本身，再读上下文；联系搭配和语境，选出最恰当的解释。",
+      "point": "字词义辨析",
+      "tips": "做题时先圈出要辨析的词语，读完整句话；再用备选意思替换原词，看看是否符合上下文和常见搭配。"
+    },
+    {
+      "common_mistakes": [
+        "把形近字混淆，造成错别字，如把“推测”写成“推侧”。",
+        "只看单个字的字形，不结合词语的意思和使用场景判断。",
+        "辨析近义词时忽略词语之间的细微差别，替换后句意不通顺。"
+      ],
+      "core_concept": "字词辨析是通过观察字形、理解字义和结合语境，判断字词是否书写正确、意思是否相近、使用是否恰当。",
+      "key_formula": "辨析字词：看字形，辨字义，结合语境再判断。",
+      "point": "字词辨析",
+      "tips": "遇到形近字，可比较偏旁和关键笔画，再用词语的意思验证；辨析近义词时，可把候选词放回句子中读一读，检查句意是否通顺、是否符合语境。"
+    },
+    {
+      "common_mistakes": [
+        "只看词语的某个字相同，就认为它们是近义词。",
+        "忽略词语的感情色彩和适用对象，导致把意思相近但用法不同的词语混用。",
+        "不结合句子语境辨析，选出意思相近但放进句子里不合适的词语。"
+      ],
+      "core_concept": "近义词是意思相近的词语，但它们的含义、感情色彩、适用范围或搭配对象可能不同。辨析时要联系语境，比较词义的轻重、范围和用法。",
+      "key_formula": "辨析近义词：先理解词义，再比较词义轻重、适用范围、感情色彩和搭配，最后放回语境检验。",
+      "point": "近义词辨析",
+      "tips": "可以把备选词语分别放进句子里读一读，看看意思是否通顺、搭配是否恰当。遇到不确定的词语，可结合上下文或查词典确认。"
+    },
+    {
+      "common_mistakes": [
+        "只读一遍文章就急着选择，没有找出与问题相关的内容。",
+        "凭生活经验或个人想法作答，忽略文章提供的信息。",
+        "没有留意“大约、可能、通常”等词语表达的范围和准确程度。",
+        "回答不完整，遗漏题目要求说明的原因或依据。"
+      ],
+      "core_concept": "阅读理解是通过阅读文章，提取信息、理解词句、概括内容，并根据文本证据回答问题。",
+      "key_formula": "读懂题目 → 定位相关内容 → 联系上下文理解 → 结合文本证据作答",
+      "point": "阅读理解",
+      "tips": "答题后检查：是否回答了题目所问？是否有文章依据？是否表达完整、清楚？"
+    },
+    {
+      "common_mistakes": [
+        "把描写生动都判断成比喻；比喻通常要有本体和喻体，并用“像、仿佛”等词或相似关系来连接。",
+        "把拟人和比喻混淆；拟人是把人的动作、情感或特点赋予事物。",
+        "只凭句子里有没有“像”来判断修辞，还要看它是否真的表达比喻关系。"
+      ],
+      "core_concept": "修辞方法能让语言表达得更生动、有感染力。小学阶段常见的修辞方法有比喻、拟人、夸张和反问。",
+      "key_formula": "比喻：把一种事物比作另一种相似的事物；拟人：把事物当作人来写；夸张：故意扩大或缩小事物的特点；反问：用疑问的形式表达明确的意思，通常答案就在句意中。",
+      "point": "修辞方法识别",
+      "tips": "读句子时，先找出关键表达，再问自己：有没有把事物比作另一种事物？有没有赋予事物人的特点？有没有明显扩大或缩小？是不是用疑问形式表达肯定或否定？据此判断修辞方法。"
+    },
+    {
+      "common_mistakes": [
+        "把“松脂”和“松香”混为一谈：松脂是树木分泌的黏稠液体，松香是加工后得到的固体。",
+        "写词语时容易出现同音字或形近字错误，要结合词义辨认。",
+        "理解词语不能只记字面意思，还要联系句子或课文内容。"
+      ],
+      "core_concept": "字词积累是通过认读、理解和运用词语，逐步丰富词汇。学习时要注意字形、读音和词义，并能联系语境选择恰当的词语。",
+      "key_formula": "认字形、准读音、懂词义、会运用。",
+      "point": "字词积累",
+      "tips": "遇到不熟悉的词，可以先联系上下文猜测意思，再查字典核对；还可以用组词、造句和比较近义词的方法加深记忆。"
+    },
+    {
+      "common_mistakes": [
+        "不要把“鸟类起源于恐龙”误解为所有恐龙都演化成了鸟类。",
+        "课文介绍的是科学家关于鸟类起源的一种重要发现和研究过程，不宜把推测说成已经完全确定的全部历史。",
+        "文学常识题要结合课文内容作答，不要把作者、题目和主要内容混淆。"
+      ],
+      "core_concept": "《飞向蓝天的恐龙》是一篇科普说明文，介绍科学家发现的证据以及鸟类可能起源于某些恐龙的研究过程，展现了科学探索的意义。",
+      "key_formula": "抓住“研究对象＋关键证据＋发现结论”：恐龙化石特征 → 科学家研究 → 揭示鸟类起源的线索。",
+      "point": "文学常识",
+      "tips": "先看课题，明确课文讨论的是恐龙与鸟类的关系；再从文中找科学家发现的化石证据和研究结论。概括内容时可用“介绍了……发现和研究，揭示了……”这样的句式。"
+    },
+    {
+      "common_mistakes": [
+        "只看词语表面意思，不考虑它们之间的搭配关系。",
+        "把意思相近的词语误认为可以随意搭配。",
+        "连线后没有检查搭配是否通顺、合理。"
+      ],
+      "core_concept": "词语配对是根据词语的意思、特点或习惯用法，把能够合理搭配的词语连在一起。配对后可以读一读，检查表达是否通顺、合乎常理。",
+      "key_formula": "理解词义 + 找到联系 + 检查搭配 = 正确配对",
+      "point": "词语配对",
+      "tips": "先读懂每个词语，再思考它们在意思、特点或用途上有什么联系。完成配对后，把词语连起来读一读，看看是否自然、合理。"
+    },
+    {
+      "common_mistakes": [
+        "把作者、朝代或诗题记混。",
+        "只会背诗句，却不理解诗句描写的季节、景物和情境。",
+        "连接诗句时忽略诗句出处，误把不同诗作中的句子配在一起。"
+      ],
+      "core_concept": "古诗常识包括认识诗题、作者和朝代，了解诗句的大意及描写的景物，也能根据上下句和诗作内容判断诗句出处。学习时应把诗句、作者、诗题和画面联系起来记忆。",
+      "key_formula": "记忆古诗：诗题—作者—朝代—诗句—诗意",
+      "point": "古诗常识",
+      "tips": "背诵时先读懂诗意，再观察诗中描写的季节、人物和景物；记作者与诗题时，可把作者、朝代和代表诗句一起记。做连线题时，先找熟悉的诗句，再核对整首诗的内容。"
+    },
+    {
+      "common_mistakes": [
+        "把琥珀说成普通的透明石头，忽略它是由古代树脂形成的化石。",
+        "误以为纳米是一种物质；纳米是表示长度的单位。",
+        "把月球说成行星；月球是地球的天然卫星。"
+      ],
+      "core_concept": "科学常识帮助我们认识自然现象、生命和科技概念。了解一些基本概念，能帮助我们准确地观察和描述周围的世界。",
+      "key_formula": "1纳米 = 十亿分之一米。",
+      "point": "科学常识",
+      "tips": "记忆时可以抓住关键词：琥珀—树脂化石，纳米—长度单位，恐龙—古代动物，月球—地球的卫星。"
+    },
+    {
+      "common_mistakes": [
+        "只把词语排在一起，没有检查句子是否通顺、意思是否完整。",
+        "把表示时间、地点或修饰作用的词语放错位置。",
+        "遗漏句末标点，或没有根据语气选择合适的标点。"
+      ],
+      "core_concept": "句式结构是词语在句子中的排列方式。常见结构有“谁（什么）＋做什么”“谁（什么）＋是什么”“谁（什么）＋怎么样”等。排列词语时，要先找出句子的主要意思，再把修饰词放到合适的位置，使句意清楚、通顺、完整。",
+      "key_formula": "常见句式：谁（什么）＋做什么；谁（什么）＋是什么；谁（什么）＋怎么样。排列词语时，可先确定主语和谓语，再补充修饰成分。",
+      "point": "句式结构",
+      "tips": "读一读整理后的句子，检查它是否通顺、意思是否完整。比如，“纳米技术是高新技术”中，“纳米技术”是说话的对象，“是”连接对象和说明，“一种新型的”修饰“高新技术”。"
     }
   ]
 }

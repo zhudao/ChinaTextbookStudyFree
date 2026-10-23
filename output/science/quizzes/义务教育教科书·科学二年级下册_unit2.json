@@ -4,151 +4,150 @@
   "unit_number": 2,
   "unit_test": {
     "title": "第二单元《我们自己》基础达标卷",
-    "total_score": 100,
+    "total_score": 181,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "观察人体外形，可以大致分为头、颈、躯干和四肢四个部分。",
         "knowledge_point": "观察身体的外部结构与对称性",
+        "options": [],
         "question": "人的身体外部结构大致可以分为头、颈、躯干和四肢四个部分。",
-        "options": [],
-        "answer": "对",
-        "explanation": "科学观察发现，人体外形由头、颈、躯干、四肢四部分组成。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "耳朵帮助我们听到声音，也能让我们分辨声音的高低和强弱。",
         "knowledge_point": "通过五种感官发现信息",
+        "options": [],
         "question": "我们通过耳朵可以听到声音，辨别声音的高低和强弱。",
-        "options": [],
-        "answer": "对",
-        "explanation": "听觉器官是耳朵，能接收声音信号。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "测身高时应脱鞋，身体自然站直，这样测量结果更准确。厚底鞋会让测出的身高变高。",
         "knowledge_point": "观察身体的生长变化",
+        "options": [],
         "question": "测量身高时，我们应该穿着厚底鞋来增加高度。",
-        "options": [],
-        "answer": "错",
-        "explanation": "测量身高应脱去鞋帽，确保数据的真实性。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 2,
+        "explanation": "味道需要通过味觉来感知，眼睛只能观察液体的颜色、多少等外观信息。",
         "knowledge_point": "综合运用感官进行观察与比较",
+        "options": [],
         "question": "如果我们只用眼睛观察，就能知道杯子里的液体是酸的还是甜的。",
-        "options": [],
-        "answer": "错",
-        "explanation": "味道需要通过味觉器官（舌头）来感知，眼睛只能看到颜色。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "通过五种感官发现信息",
-        "question": "鼻子的作用是闻气味，它也是我们的呼吸器官之一。",
-        "options": [],
-        "answer": "对",
-        "explanation": "鼻子是嗅觉器官，具有分辨气味的功能。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "鼻子帮助我们闻气味，也参与呼吸。",
+        "knowledge_point": "通过五种感官发现信息",
+        "options": [],
+        "question": "鼻子的作用是闻气味，它也是我们的呼吸器官之一。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "左右对称",
+        "difficulty": 1,
+        "explanation": "人的身体左右两边有许多相似的结构，例如两只眼睛和两只手臂，因此外形表现出左右大致对称的特点。",
         "knowledge_point": "观察身体的外部结构与对称性",
-        "question": "我们的身体外部形态表现出明显的（___）特征。",
         "options": [
           "上下对称",
           "左右对称",
           "前后对称",
           "完全不对称"
         ],
-        "answer": "左右对称",
-        "explanation": "从外形看，人的左右两边结构是非常相似的。"
+        "question": "我们的身体外部形态表现出明显的（___）特征。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "眼睛",
         "difficulty": 1,
+        "explanation": "眼睛帮助我们观察颜色、形状和大小。",
         "knowledge_point": "通过五种感官发现信息",
-        "question": "观察物体的颜色、形状、大小，主要利用的感官是（___）。",
         "options": [
           "眼睛",
           "鼻子",
           "舌头",
           "耳朵"
         ],
-        "answer": "眼睛",
-        "explanation": "眼睛是视觉器官，负责感知物体的视觉特征。"
+        "question": "观察物体的颜色、形状、大小，主要利用的感官是（___）。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "用嗅觉闻",
         "difficulty": 1,
+        "explanation": "在确认液体安全、并按老师或成人指导操作时，可以闻气味来辨别醋和水；不要尝不明液体。",
         "knowledge_point": "通过五种感官发现信息",
-        "question": "想要辨别两杯液体哪个是醋，哪个是水，最简单的方法是（___）。",
         "options": [
           "用听觉听",
           "用嗅觉闻",
           "用皮肤摸",
           "用眼睛看"
         ],
-        "answer": "用嗅觉闻",
-        "explanation": "醋有明显的酸味，可以通过鼻子闻出来。"
+        "question": "在老师或成人指导下，想辨别一杯醋和一杯水，哪种方法更合适？（___）",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "反应速度",
         "difficulty": 2,
+        "explanation": "翻拍手时要留意对方的动作，并迅速做出拍打或躲避的反应。",
         "knowledge_point": "综合运用感官进行观察与比较",
-        "question": "在“翻拍手”游戏中，我们主要训练的是（___）。",
         "options": [
           "记忆力",
           "反应速度",
           "观察力",
           "逻辑能力"
         ],
-        "answer": "反应速度",
-        "explanation": "翻拍手游戏需要根据对方动作迅速做出避让或拍打，是反应能力的体现。"
+        "question": "在“翻拍手”游戏中，我们主要训练的是（___）。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "以上都是",
         "difficulty": 1,
+        "explanation": "衣服变得不合身、体重增加等都可能提示身体发生了变化。不过，指甲变长不一定能说明身体整体在生长，观察时最好结合身高、体重和体形等信息。",
         "knowledge_point": "观察身体的生长变化",
-        "question": "下列哪项现象能证明我们正在生长？（___）",
         "options": [
           "衣服变短了",
           "指甲变长了",
           "体重增加了",
           "以上都是"
         ],
-        "answer": "以上都是",
-        "explanation": "身高、体重的增加以及身体局部（如指甲、头发）的变化都是生长表现。"
+        "question": "下列现象中，哪一项可能提示我们的身体发生了变化？（___）",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
         "type": "choice",
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "人体反应速度的测试与提升",
-        "question": "在“抓尺子”实验中，抓住尺子的位置越靠下，说明反应（___）。",
+        "question": "在“抓尺子”实验中，从尺子开始下落到被抓住，尺子下落的距离越短，说明反应（___）。",
         "options": [
           "越快",
           "越慢",
@@ -156,106 +155,106 @@
           "没变化"
         ],
         "answer": "越快",
-        "explanation": "位置越靠下，说明尺子下落的时间越短，反应越迅速。"
+        "explanation": "其他条件相同时，尺子下落的距离越短，说明从尺子下落到抓住它所用的时间越短，反应越快。",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "手（皮肤）",
         "difficulty": 1,
+        "explanation": "皮肤能帮助我们感受物体的粗糙或光滑、软或硬。触摸前要确认物体安全。",
         "knowledge_point": "通过五种感官发现信息",
-        "question": "我们要了解物体的粗糙程度，应该使用（___）。",
         "options": [
           "手（皮肤）",
           "眼睛",
           "鼻子",
           "耳朵"
         ],
-        "answer": "手（皮肤）",
-        "explanation": "皮肤是触觉器官，可以感知冷热、粗糙、软硬。"
+        "question": "想了解一个安全物体表面的粗糙程度，应该使用（___）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "远离噪音环境",
         "difficulty": 2,
+        "explanation": "强噪音可能损伤听力。保护耳朵要尽量远离噪音，不对着别人耳朵大喊，也不要长时间大音量使用耳机。",
         "knowledge_point": "身体信息的记录、推测与健康保护",
-        "question": "为了保护我们的听力，下列哪种做法是正确的？（___）",
         "options": [
           "经常挖耳朵",
           "长时间戴耳机听歌",
           "远离噪音环境",
           "对着同学耳朵大吼"
         ],
-        "answer": "远离噪音环境",
-        "explanation": "强噪音会伤害耳膜，保护听力应远离高噪声环境。"
+        "question": "为了保护我们的听力，下列哪种做法是正确的？（___）",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "视觉",
         "difficulty": 3,
+        "explanation": "闭上眼睛后无法用眼睛看东西，因此视觉不起作用；此时可以尝试用触觉辨别物品。",
         "knowledge_point": "综合运用感官进行观察与比较",
-        "question": "当我们闭上眼睛，只通过触摸来分辨桔子和苹果时，（___）不起作用。",
         "options": [
           "视觉",
           "触觉",
           "嗅觉",
           "听觉"
         ],
-        "answer": "视觉",
-        "explanation": "闭上眼睛即关闭了视觉通道。"
+        "question": "当我们闭上眼睛，只通过触摸来分辨橘子和苹果时，（___）不起作用。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "衣服颜色",
         "difficulty": 2,
+        "explanation": "身高、体重和腿长都可以帮助我们观察身体的生长变化；衣服颜色是衣物的特征，不是身体的测量项目。",
         "knowledge_point": "观察身体的生长变化",
-        "question": "测量我们的体形变化，不属于测量范围的是（___）。",
         "options": [
           "身高",
           "体重",
           "腿长",
           "衣服颜色"
         ],
-        "answer": "衣服颜色",
-        "explanation": "衣服颜色是个人的外在装饰，不属于身体生长变化的生物特征。"
+        "question": "观察身体的生长变化时，下列哪一项不属于身体测量项目？（___）",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "触觉",
         "difficulty": 2,
+        "explanation": "盲文由凸起的点组成，可以用手指感受这些凸点来阅读。",
         "knowledge_point": "通过五种感官发现信息",
-        "question": "盲人通过（___）阅读盲文。",
         "options": [
           "听觉",
           "触觉",
           "嗅觉",
           "味觉"
         ],
-        "answer": "触觉",
-        "explanation": "盲文是凸起的点状文字，靠手指皮肤的触觉来感知。"
+        "question": "盲人通过（___）阅读盲文。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "心脏和肺",
         "difficulty": 1,
+        "explanation": "躯干包括胸部和腹部，胸腔内有心脏和肺等重要器官。",
         "knowledge_point": "观察身体的外部结构与对称性",
-        "question": "人体躯干部分最重要的保护对象是（___）。",
         "options": [
           "心脏和肺",
           "指甲",
           "头发",
           "皮肤表面"
         ],
-        "answer": "心脏和肺",
-        "explanation": "胸腔和腹腔内包含了心脏、肺、胃等维持生命的重要器官。"
+        "question": "人体躯干内部有重要器官，其中包括（___）。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
         "type": "choice",
         "score": 5,
         "difficulty": 2,
@@ -268,43 +267,43 @@
           "消失"
         ],
         "answer": "提高",
-        "explanation": "反复练习可以提高神经系统的协调能力，缩短反应时间。"
+        "explanation": "反复练习可以提高神经系统的协调能力，缩短反应时间。",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "通过五种感官发现信息",
-        "question": "正常人的感官系统共有（___）大感官。",
-        "options": [],
         "answer": "5",
-        "explanation": "人有眼、耳、鼻、舌、皮肤五大感官。"
+        "difficulty": 1,
+        "explanation": "常说的五种感官是视觉、听觉、嗅觉、味觉和触觉。",
+        "knowledge_point": "通过五种感官发现信息",
+        "options": [],
+        "question": "我们常说有（___）种感官。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 19
       },
       {
-        "id": 20,
-        "type": "fill_blank",
-        "score": 5,
+        "answer": "5",
         "difficulty": 1,
+        "explanation": "通常一只手有五个手指，包括大拇指和其他四指。",
         "knowledge_point": "观察身体的外部结构与对称性",
-        "question": "人的一只手有（___）个手指。",
         "options": [],
-        "answer": "5",
-        "explanation": "正常情况下人的一只手有五指。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
+        "question": "人的一只手通常有（___）个手指。",
         "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "通过五种感官发现信息",
-        "question": "我们常用（___）来辨别事物的颜色。",
-        "options": [],
-        "answer": "眼睛",
-        "explanation": "眼睛产生视觉，感知色彩。"
+        "type": "fill_blank",
+        "id": 20
       },
       {
-        "id": 22,
+        "answer": "眼睛",
+        "difficulty": 1,
+        "explanation": "眼睛帮助我们产生视觉，从而看到物体的颜色。",
+        "knowledge_point": "通过五种感官发现信息",
+        "options": [],
+        "question": "我们常用（___）来辨别事物的颜色。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
+      },
+      {
         "type": "fill_blank_text",
         "score": 5,
         "difficulty": 1,
@@ -312,18 +311,243 @@
         "question": "我们说话、吃饭都要用到（___）。",
         "options": [],
         "answer": "嘴巴",
-        "explanation": "嘴巴是重要的面部结构，涉及消化和语言。"
+        "explanation": "嘴巴是重要的面部结构，涉及消化和语言。",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "观察身体的生长变化",
-        "question": "通过对比小时候的照片和现在的自己，我们发现身体在（___）。",
-        "options": [],
         "answer": "生长",
-        "explanation": "体型变大、身高增长统称为生长。"
+        "difficulty": 2,
+        "explanation": "比较小时候和现在的照片，可以发现身体的身高、体形等发生了变化，这些变化能帮助我们认识身体的生长。",
+        "knowledge_point": "观察身体的生长变化",
+        "options": [],
+        "question": "通过对比小时候的照片和现在的自己，我们发现身体在（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "眼睛",
+        "difficulty": 1,
+        "explanation": "人的头部左右两侧各有一只眼睛，它们是身体外部可以观察到的结构。",
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "options": [],
+        "question": "人的头部通常有两只（___），分别在左右两侧。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "人的身体左右两边有很多相似之处，但不可能完全一样，所以应说左右大致对称。",
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "options": [],
+        "question": "人的身体左右两边完全一样。",
+        "score": 2,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "舌头",
+        "difficulty": 1,
+        "explanation": "舌头帮助我们尝出食物的味道；吃饭时嘴巴的其他部分也会参与咀嚼和吞咽。",
+        "knowledge_point": "通过五种感官发现信息",
+        "options": [],
+        "question": "我们主要用（___）尝出食物的味道。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "鼻子",
+        "difficulty": 1,
+        "explanation": "鼻子可以帮助我们闻气味。观察陌生物品时不要把鼻子凑近直接闻，应先确认安全。",
+        "knowledge_point": "综合运用感官进行观察与比较",
+        "options": [],
+        "question": "观察花朵的香味，主要要用到（___）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "听觉",
+        "difficulty": 1,
+        "explanation": "听声音要用耳朵，耳朵帮助我们感知声音的大小和高低等特点。",
+        "knowledge_point": "综合运用感官进行观察与比较",
+        "options": [
+          "视觉",
+          "听觉",
+          "嗅觉",
+          "味觉"
+        ],
+        "question": "听一听铃铛发出的声音，主要运用的是（___）。",
+        "score": 2,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "示例：苹果和橘子都可以用眼睛观察颜色和形状；苹果通常较光滑，橘子表皮通常有小凹凸。",
+        "difficulty": 3,
+        "explanation": "比较时可以先分别观察两种水果，再说出它们相同或不同的地方。答案不唯一，描述合理即可；不要品尝不明来源的水果。",
+        "knowledge_point": "综合运用感官进行观察与比较",
+        "options": [],
+        "question": "观察苹果和橘子，写出一个相同点和一个不同点。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "越快",
+        "difficulty": 2,
+        "explanation": "尺子下落得越少就被抓住，说明看到尺子落下后，手更快地作出了动作。",
+        "knowledge_point": "人体反应速度的测试与提升",
+        "options": [
+          "越快",
+          "越慢",
+          "中等",
+          "没有变化"
+        ],
+        "question": "在“抓尺子”实验中，抓住尺子的位置越靠上，通常说明反应（___）。",
+        "score": 5,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "提高",
+        "difficulty": 2,
+        "explanation": "多次练习能帮助我们熟悉测试并更快作出动作，但测试结果也可能受到注意力和疲劳等因素影响。",
+        "knowledge_point": "人体反应速度的测试与提升",
+        "options": [
+          "提高",
+          "下降",
+          "不变",
+          "消失"
+        ],
+        "question": "经过多次练习，我们抓尺子的能力通常会（___）。",
+        "score": 5,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "反应速度",
+        "difficulty": 1,
+        "explanation": "从发现信号到作出动作所需时间的长短，可以用来描述反应速度。",
+        "knowledge_point": "人体反应速度的测试与提升",
+        "options": [],
+        "question": "人发现信号后作出动作的快慢，叫作人的（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "相同",
+        "difficulty": 2,
+        "explanation": "每次测试保持姿势和方法相同，比较结果才更公平。",
+        "knowledge_point": "人体反应速度的测试与提升",
+        "options": [],
+        "question": "比较练习前后的抓尺子成绩时，测试姿势和方法应尽量保持（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "尺子落下距离越短就被抓住，通常说明反应越快；抓得越靠下则通常说明尺子下落距离较长。",
+        "knowledge_point": "人体反应速度的测试与提升",
+        "options": [],
+        "question": "判断对错：在抓尺子实验中，抓住的位置越靠下，通常说明反应越快。",
+        "score": 5,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "注意力",
+        "difficulty": 2,
+        "explanation": "测试时集中注意力，有助于及时发现尺子开始下落并作出动作。",
+        "knowledge_point": "人体反应速度的测试与提升",
+        "options": [],
+        "question": "抓尺子时，集中（___）有助于及时发现尺子下落。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "身高",
+        "difficulty": 1,
+        "explanation": "身高是身体生长变化的一项内容。测量时脱鞋、站直，并做好记录，方便以后比较。",
+        "knowledge_point": "观察身体的生长变化",
+        "options": [],
+        "question": "想知道自己长高了没有，可以测量自己的（___）。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 36
+      },
+      {
+        "answer": "比较",
+        "difficulty": 2,
+        "explanation": "把不同时间测得的身高和体重记录进行比较，可以帮助我们了解身体发生了哪些变化。测量条件相近时，比较更有意义。",
+        "knowledge_point": "观察身体的生长变化",
+        "options": [],
+        "question": "要了解身体是否发生了生长变化，可以把不同时期的测量记录进行（___）。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 37
+      },
+      {
+        "answer": "日期、测量项目和测量结果",
+        "difficulty": 1,
+        "explanation": "写清楚日期、测量的项目和结果，才能知道记录的是什么，也便于之后比较身体变化。",
+        "knowledge_point": "身体信息的记录、推测与健康保护",
+        "options": [],
+        "question": "记录身高或体重时，应写清楚________、测量项目和测量结果。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "一次测量只能反映当时的情况。要了解变化，可以在不同日期按相近的方法多次记录并比较。",
+        "knowledge_point": "身体信息的记录、推测与健康保护",
+        "options": [],
+        "question": "只要测量一次身高，就能知道自己的身高以后都不会变化。对还是错？",
+        "score": 5,
+        "type": "true_false",
+        "id": 39
+      },
+      {
+        "answer": "告诉家长或老师，必要时请医生检查",
+        "difficulty": 1,
+        "explanation": "身体不舒服时，应及时告诉可信赖的成年人，由家长或老师帮助判断是否需要就医，不能只靠自己猜测。",
+        "knowledge_point": "身体信息的记录、推测与健康保护",
+        "options": [],
+        "question": "如果发现自己身体不舒服，应该先________。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "示例：日期：10月1日；项目：身高；结果：120厘米。",
+        "difficulty": 2,
+        "explanation": "答案应包含日期、身体测量项目和结果。记录要如实、清楚；不同日期的记录可以用来比较变化。",
+        "knowledge_point": "身体信息的记录、推测与健康保护",
+        "options": [],
+        "question": "请举例写出一条完整的身体测量记录，包含日期、测量项目和结果。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "不应该",
+        "difficulty": 2,
+        "explanation": "身高或体重只是身体信息的一部分，不能单独说明一个人是否健康。推测健康状况要综合观察，并在需要时向家长、老师或医生求助。",
+        "knowledge_point": "身体信息的记录、推测与健康保护",
+        "options": [],
+        "question": "看到同学的身高和体重记录后，能不能只凭这两项信息就断定他是否健康？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 42
       }
     ]
   },
@@ -692,6 +916,72 @@
         "测量数据不规范导致结果偏差"
       ],
       "tips": "定期建立身体发育记录袋，记录生长足迹。"
+    },
+    {
+      "common_mistakes": [
+        "把身体外部结构只说成头和四肢，漏掉颈和躯干。",
+        "认为左右两边完全一样。实际上左右两边大致对称，但也有差别。",
+        "把身体外部结构和身体内部器官混为一谈。"
+      ],
+      "core_concept": "观察身体时，可以从外部结构和左右对称性两方面认识。人的身体外部大致分为头、颈、躯干和四肢；左右两边有许多相似的结构，但不是完全相同。",
+      "key_formula": "身体外部结构：头、颈、躯干、四肢；对称性：左右大致相似。",
+      "point": "观察身体的外部结构与对称性",
+      "tips": "可以对着镜子观察，也可以伸开双臂比较左右两边的耳朵、眼睛、手臂和腿。观察时说“大致对称”更准确，因为人的左右两边并非完全一样。"
+    },
+    {
+      "common_mistakes": [
+        "把感官和身体器官混为一谈：眼睛、耳朵、鼻子、舌头和皮肤是感官器官，视觉、听觉、嗅觉、味觉和触觉是感官。",
+        "认为只靠一种感官就能了解所有信息；不同感官可以帮助我们发现不同特点。",
+        "观察未知物品或液体时随意闻、尝或触摸。应先确认安全，并在成人指导下观察。"
+      ],
+      "core_concept": "我们可以通过五种感官发现周围事物的信息：用眼睛看颜色、形状和大小；用耳朵听声音；用鼻子闻气味；用舌头尝味道；用皮肤感受冷热、软硬和粗糙程度。多种感官一起观察，通常能发现更多信息。",
+      "key_formula": "眼睛—看（视觉）；耳朵—听（听觉）；鼻子—闻（嗅觉）；舌头—尝（味觉）；皮肤—摸（触觉）。",
+      "point": "通过五种感官发现信息",
+      "tips": "观察时先看、听，再在确认安全后闻或触摸；不要尝不明物品。描述发现时，可以说清楚用了什么感官，以及发现了什么信息。"
+    },
+    {
+      "common_mistakes": [
+        "只用一种感官观察，忽略其他感官能提供的信息。",
+        "把猜测当成观察结果；应先观察，再描述证据。",
+        "随意品尝或触摸不明物品。观察时要注意安全。"
+      ],
+      "core_concept": "观察事物时，可以综合运用眼、耳、鼻、舌和皮肤等感官，了解事物的颜色、形状、声音、气味、味道和触感；还可以依据观察结果比较它们的相同点和不同点。",
+      "key_formula": "多种感官观察 → 记录发现 → 比较相同点和不同点",
+      "point": "综合运用感官进行观察与比较",
+      "tips": "观察时先说清楚自己用了哪种感官、发现了什么，再进行比较。不要直接闻或品尝不明物品；触摸物品前也要确认安全。"
+    },
+    {
+      "common_mistakes": [
+        "把抓住尺子的位置高低看反：抓得越靠下，通常表示尺子下落距离越短，反应越快。",
+        "认为一次测试就能准确比较反应速度；测试时应尽量保持姿势和方法相同，并多测几次。",
+        "认为练习一定会让每次成绩都变好；注意力、疲劳等也会影响测试结果。"
+      ],
+      "core_concept": "反应速度是人发现信号后作出动作所需时间的长短。可以用“抓尺子”实验来测试：尺子下落后，抓住的位置越靠上，通常说明反应越快；位置越靠下，通常说明反应越慢。保持方法一致并反复练习，可以比较练习前后的表现。",
+      "key_formula": "抓尺子的反应速度：抓住位置越靠上 → 尺子下落距离越短 → 反应越快；抓住位置越靠下 → 尺子下落距离越长 → 反应越慢。",
+      "point": "人体反应速度的测试与提升",
+      "tips": "测试时请同伴垂直拿住尺子，被测试者将拇指和食指放在尺子下端附近但不接触尺子。看到尺子落下后立即抓住，记录抓住的位置。每人用相同姿势和方法测试多次，也可以练习后再测并比较结果。注意尺子不要靠近眼睛，实验中不推挤、不抛掷物品。"
+    },
+    {
+      "common_mistakes": [
+        "只凭衣服变短判断身高增长；衣服缩水或款式变化也可能让衣服变短。",
+        "把指甲、头发变长和身高、体重增长混为一谈；观察生长时应重点比较身体的身高、体重和体形变化。",
+        "测量时姿势、工具或条件不一致，导致前后数据难以比较。"
+      ],
+      "core_concept": "人的身体会随着时间生长变化。我们可以通过观察、测量和比较不同时间的记录，了解身高、体重和体形等方面的变化。",
+      "key_formula": "身体生长变化 = 在相近条件下，比较不同时期的身高、体重和体形等记录",
+      "point": "观察身体的生长变化",
+      "tips": "测身高时脱鞋，身体自然站直；称体重时使用合适的体重秤。尽量在相同或相近条件下测量并记录，也可以比较不同时期的照片、衣物和健康记录。测量结果因人而异，不要用身高或体重给同学排名或取笑别人。"
+    },
+    {
+      "common_mistakes": [
+        "把一次测量或观察结果当成身体一直不变的情况。",
+        "只凭身高、体重等单一信息推测健康状况。",
+        "认为身体信息可以随意告诉别人或发布到网上。"
+      ],
+      "core_concept": "通过观察和简单测量记录身体信息，可以了解身体变化；根据记录只能作出初步推测，不能代替医生的检查。保护身体健康，也要注意个人信息安全。",
+      "key_formula": "记录身体信息：观察或测量 → 如实记下结果和日期 → 比较变化 → 谨慎推测",
+      "point": "身体信息的记录、推测与健康保护",
+      "tips": "记录时写清日期、项目和结果；尽量用相同的方法测量，比较才更有意义。"
     }
   ]
 }

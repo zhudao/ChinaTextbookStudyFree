@@ -4,315 +4,305 @@
   "unit_number": 4,
   "unit_test": {
     "title": "Unit 4 Placement Test",
-    "total_score": 100,
+    "total_score": 594,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "under 表示“在……下面”，desk 表示“课桌”，所以 under the desk 是“在课桌下面”。",
         "knowledge_point": "方位介词辨析",
+        "options": [],
         "question": "'under the desk' 的中文意思是'在桌子下面'。",
-        "options": [],
-        "answer": "对",
-        "explanation": "under表示在...下面，desk是课桌。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "词汇辨析",
-        "question": "单词 'desk' 指的是我们坐的椅子。",
-        "options": [],
         "answer": "错",
-        "explanation": "desk是书桌，chair才是椅子。"
+        "difficulty": 1,
+        "explanation": "desk是书桌，chair才是椅子。",
+        "knowledge_point": "词汇辨析",
+        "options": [],
+        "question": "单词 'desk' 指的是我们坐的椅子。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "在常见英语发音中，dog和box里的字母o都发短元音/ɒ/（不同口音中具体音值可能略有差异）。",
         "knowledge_point": "语音知识",
-        "question": "单词 'dog' 和 'box' 中字母 'o' 的发音相同。",
         "options": [],
-        "answer": "对",
-        "explanation": "dog和box中的o都发短元音/ɒ/。"
+        "question": "单词“dog”和“box”中，字母“o”的发音相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "Can I use...? 是请求许可使用某物的礼貌用语。",
         "knowledge_point": "交际用语",
+        "options": [],
         "question": "向别人借东西时，可以说：'Can I use your pencil?'",
-        "options": [],
-        "answer": "对",
-        "explanation": "Can I use...? 是请求许可使用某物的礼貌用语。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "习惯表达",
-        "question": "当你想祝别人玩得开心时，可以说：'Have a good time!'",
-        "options": [],
-        "answer": "对",
-        "explanation": "Have a good time意为玩得开心。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "Have a good time! 常用来祝别人玩得开心。",
+        "knowledge_point": "习惯表达",
+        "options": [],
+        "question": "当你想祝别人玩得开心时，可以说：'Have a good time!'",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "in",
         "difficulty": 1,
+        "explanation": "in 表示“在……里面”，所以句子是：It's in the box.",
         "knowledge_point": "物体方位",
-        "question": "Where is the ball? It's ___ the box. (在盒子里面)",
         "options": [
           "in",
           "on",
           "under",
           "at"
         ],
-        "answer": "in",
-        "explanation": "in表示在...里面。"
+        "question": "Where is the ball? It's ___ the box.（在盒子里面）",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "Where",
         "difficulty": 1,
+        "explanation": "答句说尺子在书下面，回答的是位置，所以用 Where（在哪里）。",
         "knowledge_point": "疑问词辨析",
-        "question": "— ___ is my ruler? — It's under the book.",
         "options": [
           "What",
           "Who",
           "Where",
           "How"
         ],
-        "answer": "Where",
-        "explanation": "询问位置用疑问词Where。"
+        "question": "— ___ is my ruler? — It's under the book.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "under",
         "difficulty": 1,
+        "explanation": "under 表示“在……下面”。句中括号提示的是位置，因此选 under。注意：under 是介词，不是指示代词。",
         "knowledge_point": "指示代词",
-        "question": "Look! The cat is ___ the chair. (在椅子下面)",
         "options": [
           "on",
           "in",
           "under",
           "to"
         ],
-        "answer": "under",
-        "explanation": "under表示在...正下方。"
+        "question": "Look! The cat is ___ the chair. (在椅子下面)",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "Yes, it is.",
         "difficulty": 1,
+        "explanation": "问句是“Is it...?”，肯定回答用“Yes, it is.”",
         "knowledge_point": "确认位置",
-        "question": "— Is it in your bag? — ___",
         "options": [
           "Yes, it is.",
           "No, it is.",
           "Yes, it isn't.",
           "No, I don't."
         ],
-        "answer": "Yes, it is.",
-        "explanation": "Is it...? 的肯定回答是Yes, it is."
+        "question": "— Is it in your bag? — ___",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "my",
         "difficulty": 2,
+        "explanation": "此处需要形容词性物主代词 my 来修饰名词 pencil box。",
         "knowledge_point": "代词搭配",
-        "question": "Where is ___ pencil box?",
         "options": [
-          "i",
+          "I",
           "you",
           "my",
           "me"
         ],
-        "answer": "my",
-        "explanation": "此处需要形容词性物主代词my来修饰名词pencil box。"
+        "question": "Where is ___ pencil box?",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "under",
         "difficulty": 2,
+        "explanation": "句意是“把你的脚放在椅子下面”。under 表示“在……下面”。",
         "knowledge_point": "介词辨析",
-        "question": "Put your foot ___ your chair.",
         "options": [
           "under",
           "to",
           "at",
           "by"
         ],
-        "answer": "under",
-        "explanation": "PEP教材Let's do部分指令：Put your foot under your chair."
+        "question": "Put your foot ___ your chair.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "Haha!",
         "difficulty": 2,
+        "explanation": "“Silly me!”表示说话人觉得自己做了傻事，常带有轻松、开玩笑的语气。回答“Haha!”符合这一情境。",
         "knowledge_point": "常用搭配",
-        "question": "— Silly me! — ___",
         "options": [
           "Thanks.",
           "Goodbye.",
           "Haha!",
           "Great!"
         ],
-        "answer": "Haha!",
-        "explanation": "当别人说'我真傻'时，通常是幽默的互动，对应答语常用Haha。"
+        "question": "— Silly me! — ___",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "请问/打扰一下",
         "difficulty": 2,
+        "explanation": "Excuse me 常用于礼貌地打扰别人或向别人提问。",
         "knowledge_point": "词汇理解",
-        "question": "'Excuse me' 的正确中文意思是：",
         "options": [
           "对不起",
           "请问/打扰一下",
           "没关系",
           "谢谢你"
         ],
-        "answer": "请问/打扰一下",
-        "explanation": "Excuse me常用语客气的打扰或询问。"
+        "question": "'Excuse me' 的正确中文意思是：",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "car",
         "difficulty": 2,
+        "explanation": "car是“小汽车”。cap是“帽子”，cat是“猫”，can是“罐头；能”。",
         "knowledge_point": "物品名称",
-        "question": "I have a new ___. (小汽车)",
         "options": [
           "cap",
           "cat",
           "car",
           "can"
         ],
-        "answer": "car",
-        "explanation": "car是小汽车，注意与cap(帽子)区分。"
+        "question": "I have a new ___.（小汽车）",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "Where is my bag?",
         "difficulty": 3,
+        "explanation": "找不到书包时，可以询问“我的书包在哪里？”单个物品用“Where is...?”提问。",
         "knowledge_point": "情景交际",
-        "question": "当你找不到书包时，你会说：",
         "options": [
           "Where is my bag?",
           "Where is my book?",
           "It's in the bag.",
           "Is it a bag?"
         ],
-        "answer": "Where is my bag?",
-        "explanation": "寻找物品的疑问句式为Where is...?"
+        "question": "当你找不到书包时，你会说：",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "方位词应用",
-        "question": "The book is ___ the desk. (在书桌上面)",
-        "options": [],
         "answer": "on",
-        "explanation": "在...表面上用on。"
+        "difficulty": 1,
+        "explanation": "on 表示物品在某个表面上。书放在书桌表面，因此用 on。",
+        "knowledge_point": "方位词应用",
+        "options": [],
+        "question": "The book is ___ the desk. (在书桌上面)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "疑问句回答",
-        "question": "— Is it in the box? — No, it ___.",
-        "options": [],
         "answer": "isn't",
-        "explanation": "Is it...? 的否定回答是No, it isn't."
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "词汇拼写",
-        "question": "Put your hand ___ your desk. (在...下面)",
-        "options": [],
-        "answer": "under",
-        "explanation": "under意为在...下面。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "词汇辨析",
-        "question": "Where is my ___? (帽子)",
-        "options": [],
-        "answer": "cap",
-        "explanation": "帽子在教材本单元中为cap。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "问句以 Is 开头，否定回答用 No, it isn't。",
+        "knowledge_point": "疑问句回答",
+        "options": [],
+        "question": "— Is it in the box? — No, it ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "under",
+        "difficulty": 2,
+        "explanation": "under意为“在……下面”，符合句意。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "Put your hand ___ your desk. (在……下面)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "cap",
+        "difficulty": 2,
+        "explanation": "cap表示帽子，句子是在询问帽子在哪里。",
+        "knowledge_point": "词汇辨析",
+        "options": [],
+        "question": "Where is my ___? (帽子)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "地图",
+        "difficulty": 1,
+        "explanation": "“地图”的英语是 map。辨认单词意思后，再核对中文选项即可。",
         "knowledge_point": "英汉配对",
-        "question": "请将下列单词与其对应的中文意思连线。",
         "options": [
-          "map",
-          "toy",
-          "box",
-          "desk",
+          "玩具",
           "盒子",
-          "书桌",
           "地图",
-          "玩具"
+          "书桌"
         ],
-        "answer": "A-3,B-4,C-1,D-2",
-        "explanation": "map-地图, toy-玩具, box-盒子, desk-书桌。"
+        "question": "单词 map 的中文意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "在玩具盒里",
         "difficulty": 2,
+        "explanation": "“in the toy box”表示“在玩具盒里”，in 表示“在……里面”。",
         "knowledge_point": "短语配对",
-        "question": "请将下列方位词组与其对应的中文连线。",
         "options": [
-          "in the toy box",
-          "on the book",
-          "under the chair",
-          "on your head",
-          "在椅子下面",
-          "在你的头上",
+          "在玩具盒上面",
+          "在玩具盒下面",
           "在玩具盒里",
-          "在书上面"
+          "在玩具盒旁边"
         ],
-        "answer": "A-3,B-4,C-1,D-2",
-        "explanation": "in-在里, on-在上, under-在下。"
+        "question": "“in the toy box”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Where,is,my,car,?",
         "difficulty": 2,
+        "explanation": "询问地点用Where。句子语序是Where + is + 主语my car，句末用问号。",
         "knowledge_point": "特殊疑问句",
-        "question": "连词成句：",
         "options": [
           "Where",
           "my",
@@ -320,16 +310,16 @@
           "car",
           "?"
         ],
-        "answer": "Where,is,my,car,?",
-        "explanation": "特殊疑问句结构：Where + is + 物体?"
+        "question": "连词成句：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Is it under the desk?",
         "difficulty": 3,
+        "explanation": "含有be动词is的一般疑问句，把Is放在主语it前面，其他部分按原顺序排列，句末加问号。",
         "knowledge_point": "一般疑问句",
-        "question": "连词成句：",
         "options": [
           "it",
           "Is",
@@ -338,8 +328,1740 @@
           "the",
           "?"
         ],
-        "answer": "Is,it,under,the,desk,?",
-        "explanation": "一般疑问句Is打头，后接it和介词短语。"
+        "question": "连词成句：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "in",
+        "difficulty": 1,
+        "explanation": "书包里的东西在书包内部，所以用 in。",
+        "knowledge_point": "方位介词的辨析与应用",
+        "options": [
+          "in",
+          "on",
+          "under",
+          "behind"
+        ],
+        "question": "The pencil is ___ the bag.（铅笔在书包里。）",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "书在桌子的表面上，所以用 on。",
+        "knowledge_point": "方位介词的辨析与应用",
+        "options": [
+          "behind",
+          "on",
+          "in",
+          "under"
+        ],
+        "question": "The book is ___ the desk.（书在桌子上。）",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "under",
+        "difficulty": 1,
+        "explanation": "猫在椅子的下方，所以用 under。",
+        "knowledge_point": "方位介词的辨析与应用",
+        "options": [
+          "next to",
+          "behind",
+          "under",
+          "in"
+        ],
+        "question": "The cat is ___ the chair.（猫在椅子下面。）",
+        "score": 1,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "behind",
+        "difficulty": 2,
+        "explanation": "球在门的后面，所以用 behind。",
+        "knowledge_point": "方位介词的辨析与应用",
+        "options": [
+          "on",
+          "behind",
+          "under",
+          "in"
+        ],
+        "question": "The ball is ___ the door.（球在门后面。）",
+        "score": 1,
+        "type": "choice",
+        "id": 27
+      },
+      {
+        "answer": "next to",
+        "difficulty": 2,
+        "explanation": "next to 表示“在……旁边”，句子描述的是狗在盒子旁边。",
+        "knowledge_point": "方位介词的辨析与应用",
+        "options": [
+          "in",
+          "under",
+          "next to",
+          "behind"
+        ],
+        "question": "The dog is ___ the box.（狗在盒子旁边。）",
+        "score": 1,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "under",
+        "difficulty": 2,
+        "explanation": "under 表示“在……下面”。完整句子是 The ball is under the table.（球在桌子下面。）",
+        "knowledge_point": "方位介词的辨析与应用",
+        "options": [],
+        "question": "填空：The ball is ___ the table.（球在桌子下面。）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "询问单数物品在哪里，用“Where is ...?”，所以选B。",
+        "knowledge_point": "询问位置及其一般疑问句回答",
+        "options": [
+          "A. Where the book is?",
+          "B. Where is the book?",
+          "C. What is the book?"
+        ],
+        "question": "“书在哪里？”用英语怎么说？",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "Yes, it is.",
+        "difficulty": 1,
+        "explanation": "问题是“Is the pen in the pencil case?”，肯定回答用“Yes, it is.”",
+        "knowledge_point": "询问位置及其一般疑问句回答",
+        "options": [],
+        "question": "The pen is in the pencil case. 请回答：Is the pen in the pencil case?",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "No, it isn’t.",
+        "difficulty": 2,
+        "explanation": "铅笔在桌子上，不在桌子下面，所以回答“No, it isn’t.”。",
+        "knowledge_point": "询问位置及其一般疑问句回答",
+        "options": [],
+        "question": "The pencil is on the desk. 请根据句意回答：Is the pencil under the desk?",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "Where is the cat?",
+        "difficulty": 2,
+        "explanation": "询问猫在哪里，用“Where is the cat?”；单数名词the cat前用is。",
+        "knowledge_point": "询问位置及其一般疑问句回答",
+        "options": [],
+        "question": "连词成句：the cat / is / where",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "“在桌子上”用“on the desk”。",
+        "knowledge_point": "询问位置及其一般疑问句回答",
+        "options": [],
+        "question": "The book is ___ the desk.（书在桌子上。）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 34
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "一般疑问句“Is it under the chair?”的肯定回答是“Yes, it is.”，所以选B。",
+        "knowledge_point": "询问位置及其一般疑问句回答",
+        "options": [
+          "A. Yes, it isn’t.",
+          "B. Yes, it is.",
+          "C. It under the chair."
+        ],
+        "question": "“Is it under the chair?” 的正确肯定回答是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "hot",
+        "difficulty": 1,
+        "explanation": "hot 中的 o 后面有辅音字母 t，构成常见的闭音节，o 通常发短音。",
+        "knowledge_point": "元音字母o在闭音节中的发音",
+        "options": [
+          "hot",
+          "home",
+          "go",
+          "nose"
+        ],
+        "question": "下面哪个单词中的字母 o 通常发短音？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "dog 是常见的闭音节单词，o 后面有辅音字母 g，通常发短音。",
+        "knowledge_point": "元音字母o在闭音节中的发音",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "单词 dog 中的 o 通常发短音。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "box",
+        "difficulty": 1,
+        "explanation": "box 中的 o 后面有辅音字母 x，o 通常发短音；box 是符合本课规律的常见例词。",
+        "knowledge_point": "元音字母o在闭音节中的发音",
+        "options": [],
+        "question": "补全单词：b__x（提示：盒子）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "hot",
+        "difficulty": 1,
+        "explanation": "hot 中 o 后面有辅音字母 t，是常见的闭音节短音 o。home 中 o 通常发 /oʊ/，不属于本课要找的短音。",
+        "knowledge_point": "元音字母o在闭音节中的发音",
+        "options": [],
+        "question": "在 hot 和 home 中，哪个单词的 o 通常发短音？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "dog",
+        "difficulty": 2,
+        "explanation": "dog 以辅音音素 /g/ 收尾，o 被后面的辅音封闭，通常发短音。",
+        "knowledge_point": "元音字母o在闭音节中的发音",
+        "options": [],
+        "question": "看图或根据提示写出单词：d__g（提示：狗）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 40
+      },
+      {
+        "answer": "fox 中的 o 通常发短音；nose 中的 o 通常发 /oʊ/。",
+        "difficulty": 2,
+        "explanation": "fox 的 o 后有辅音字母 x，是常见闭音节短音 o；nose 中 o 后接辅音字母后还有不发音的 e，常见规律是 o 发字母名称音 /oʊ/。",
+        "knowledge_point": "元音字母o在闭音节中的发音",
+        "options": [],
+        "question": "比较 fox 和 nose：哪个单词中的 o 通常发短音？另一个单词中的 o 通常发什么音？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "in 表示“在……里面”，所以“在盒子里”是 in the box。",
+        "knowledge_point": "方位介词辨析",
+        "options": [
+          "A. on the box",
+          "B. in the box",
+          "C. behind the box"
+        ],
+        "question": "“在盒子里面”用英语怎么说？",
+        "score": 2,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "under",
+        "difficulty": 1,
+        "explanation": "under 表示“在……下面”。",
+        "knowledge_point": "方位介词辨析",
+        "options": [],
+        "question": "The ball is ___ the chair. 球在椅子下面。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 43
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "on 表示“在……上面”，behind 表示“在……后面”，两者意思不同。",
+        "knowledge_point": "方位介词辨析",
+        "options": [],
+        "question": "'behind the door' 的意思是“在门上面”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "next to",
+        "difficulty": 2,
+        "explanation": "next to 表示“在……旁边”，所以句子说书包在椅子旁边。",
+        "knowledge_point": "方位介词辨析",
+        "options": [],
+        "question": "The schoolbag is ___ the chair. 书包在椅子旁边。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 45
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "on 表示物品在某个表面上，因此“书在桌子上”是 The book is on the desk.",
+        "knowledge_point": "方位介词辨析",
+        "options": [
+          "A. The book is in the desk.",
+          "B. The book is on the desk.",
+          "C. The book is under the desk."
+        ],
+        "question": "哪句话表示“书在桌子上”？",
+        "score": 2,
+        "type": "choice",
+        "id": 46
+      },
+      {
+        "answer": "chair",
+        "difficulty": 1,
+        "explanation": "chair表示椅子，desk表示书桌。",
+        "knowledge_point": "词汇辨析",
+        "options": [
+          "desk",
+          "chair",
+          "cap",
+          "book"
+        ],
+        "question": "Which word means “椅子”?",
+        "score": 2,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "书桌",
+        "difficulty": 1,
+        "explanation": "desk的意思是书桌，不是椅子。",
+        "knowledge_point": "词汇辨析",
+        "options": [],
+        "question": "desk的中文意思是____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 48
+      },
+      {
+        "answer": "book",
+        "difficulty": 2,
+        "explanation": "book表示书。句意是“这是我的书”。",
+        "knowledge_point": "词汇辨析",
+        "options": [],
+        "question": "This is my ___. (书)",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "cap是帽子，chair是椅子，两者表示不同的物品。",
+        "knowledge_point": "词汇辨析",
+        "options": [],
+        "question": "cap和chair都表示椅子。",
+        "score": 2,
+        "type": "true_false",
+        "id": 50
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "在单词cat中，字母a发短元音/æ/。",
+        "knowledge_point": "语音知识",
+        "options": [],
+        "question": "单词“cat”中的字母“a”发短元音/æ/。",
+        "score": 2,
+        "type": "true_false",
+        "id": 51
+      },
+      {
+        "answer": "/e/",
+        "difficulty": 1,
+        "explanation": "单词pen中的字母e发短元音/e/。",
+        "knowledge_point": "语音知识",
+        "options": [],
+        "question": "单词“pen”中，字母“e”通常发____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "A. /ɪ/",
+        "difficulty": 1,
+        "explanation": "在单词sit中，字母i发短元音/ɪ/；bite中的i通常发字母名称音/aɪ/。",
+        "knowledge_point": "语音知识",
+        "options": [
+          "A. /ɪ/",
+          "B. /aɪ/",
+          "C. /eɪ/"
+        ],
+        "question": "单词“sit”中，字母“i”通常发什么音？",
+        "score": 2,
+        "type": "choice",
+        "id": 53
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "fish和shop中的sh都表示相同的辅音音素/ʃ/。",
+        "knowledge_point": "语音知识",
+        "options": [],
+        "question": "单词“fish”和“shop”中的字母组合“sh”发音相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 54
+      },
+      {
+        "answer": "/k/",
+        "difficulty": 2,
+        "explanation": "在单词cake中，字母c通常发/k/；本题只需判断这个单词开头的c音。",
+        "knowledge_point": "语音知识",
+        "options": [],
+        "question": "单词“cake”开头的字母“c”通常发____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 55
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "Can I borrow your ruler? 意为“我可以借你的尺子吗？”，适合借东西时使用。",
+        "knowledge_point": "交际用语",
+        "options": [
+          "A. Can I borrow your ruler?",
+          "B. Thank you for your ruler.",
+          "C. I’m sorry, ruler."
+        ],
+        "question": "你想借同学的尺子，应该怎么说？",
+        "score": 2,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "Yes, you can.",
+        "difficulty": 2,
+        "explanation": "对方询问是否可以使用蜡笔，表示同意时可以说 Yes, you can.。",
+        "knowledge_point": "交际用语",
+        "options": [],
+        "question": "同学问：“Can I use your crayons?” 你愿意借给他，可以回答：“__________”",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 57
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "别人帮助你后，应说 Thank you.；You’re welcome. 是对感谢的回应。",
+        "knowledge_point": "交际用语",
+        "options": [
+          "A. I’m sorry.",
+          "B. You’re welcome.",
+          "C. Good night."
+        ],
+        "question": "别人对你说“Thank you.”，你可以回答：",
+        "score": 2,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "I’m sorry. 是表达道歉的常用语。",
+        "knowledge_point": "交际用语",
+        "options": [],
+        "question": "不小心碰到别人时，可以说：“I’m sorry.”",
+        "score": 2,
+        "type": "true_false",
+        "id": 59
+      },
+      {
+        "answer": "Can you help me?",
+        "difficulty": 3,
+        "explanation": "Can you help me? 意为“你能帮帮我吗？”，可用于礼貌地请求帮助。",
+        "knowledge_point": "交际用语",
+        "options": [],
+        "question": "请用英语写一句话，礼貌地请求别人帮助你。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "How are you? 是常见问候语，常用 I'm fine, thank you. 回答。",
+        "knowledge_point": "习惯表达",
+        "options": [
+          "A. Goodbye!",
+          "B. I'm fine, thank you.",
+          "C. Good night!"
+        ],
+        "question": "别人问你“How are you?”，你可以怎样回答？",
+        "score": 2,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "You're welcome. 意为“不客气”，常用来回应感谢。",
+        "knowledge_point": "习惯表达",
+        "options": [
+          "A. I'm sorry.",
+          "B. You're welcome.",
+          "C. Have a good time!"
+        ],
+        "question": "别人对你说“Thank you!”，你可以回答什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "I'm sorry. 是表示道歉的常见表达；听到道歉时，可以说 That's OK.。",
+        "knowledge_point": "习惯表达",
+        "options": [],
+        "question": "别人不小心碰到你并说“I'm sorry.”，你可以回答“That's OK.”",
+        "score": 2,
+        "type": "true_false",
+        "id": 63
+      },
+      {
+        "answer": "good",
+        "difficulty": 2,
+        "explanation": "Have a good time! 是祝别人玩得开心的常用表达，空格处填 good。",
+        "knowledge_point": "习惯表达",
+        "options": [],
+        "question": "补全句子：Have a ____ time!（祝你玩得开心！）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 64
+      },
+      {
+        "answer": "Thank you.",
+        "difficulty": 2,
+        "explanation": "听到“Have a good time!”时，可以用“Thank you.”表示感谢。",
+        "knowledge_point": "习惯表达",
+        "options": [],
+        "question": "补全对话：A: Have a good time! B: ____",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 65
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "on 表示“在……上面”，所以应选 on。",
+        "knowledge_point": "物体方位",
+        "options": [
+          "in",
+          "on",
+          "under",
+          "behind"
+        ],
+        "question": "The book is ___ the desk.（书在桌子上面。）",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "under",
+        "difficulty": 1,
+        "explanation": "under 表示“在……下面”，所以句子是：The cat is under the chair.",
+        "knowledge_point": "物体方位",
+        "options": [
+          "on",
+          "in",
+          "under",
+          "behind"
+        ],
+        "question": "The cat is ___ the chair.（猫在椅子下面。）",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "behind",
+        "difficulty": 2,
+        "explanation": "behind 表示“在……后面”，所以应填 behind。",
+        "knowledge_point": "物体方位",
+        "options": [
+          "behind",
+          "under",
+          "on",
+          "in"
+        ],
+        "question": "The boy is ___ the door.（男孩在门后面。）",
+        "score": 5,
+        "type": "choice",
+        "id": 68
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "“在桌子上面”用 on，完整句子是 The pencil is on the table.",
+        "knowledge_point": "物体方位",
+        "options": [],
+        "question": "填入合适的方位词：The pencil is ___ the table.（铅笔在桌子上面。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 69
+      },
+      {
+        "answer": "under",
+        "difficulty": 2,
+        "explanation": "under 表示“在……下面”，句子意为“球在床下面”。",
+        "knowledge_point": "物体方位",
+        "options": [],
+        "question": "填入合适的方位词：The ball is ___ the bed.（球在床下面。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 70
+      },
+      {
+        "answer": "What",
+        "difficulty": 1,
+        "explanation": "答句给出的是物品名称“苹果”，询问物品是什么用 What。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Who",
+          "What",
+          "Where",
+          "How"
+        ],
+        "question": "— ___ is this? — It's an apple.",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "Who",
+        "difficulty": 1,
+        "explanation": "答句介绍的是一位人物，询问“她是谁”用 Who。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "How",
+          "Where",
+          "Who",
+          "What"
+        ],
+        "question": "— ___ is she? — She is my sister.",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "How",
+        "difficulty": 1,
+        "explanation": "答句描述身体状况，询问“你好吗”用 How。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "What",
+          "How",
+          "Who",
+          "Where"
+        ],
+        "question": "— ___ are you? — I'm fine, thank you.",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "Where",
+        "difficulty": 2,
+        "explanation": "答句说孩子在公园，回答的是地点，所以用 Where。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Who",
+          "Where",
+          "How",
+          "What"
+        ],
+        "question": "— ___ are the children? — They are in the park.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "How",
+        "difficulty": 2,
+        "explanation": "询问上学的方式时用 How；答句说明她乘公共汽车上学。",
+        "knowledge_point": "疑问词辨析",
+        "options": [
+          "Who",
+          "What",
+          "How",
+          "Where"
+        ],
+        "question": "— ___ does she go to school? — She goes to school by bus.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "This",
+        "difficulty": 1,
+        "explanation": "句子指离说话人近的一本书，且只有一本，所以用 this；this 后搭配 is。",
+        "knowledge_point": "指示代词",
+        "options": [
+          "This",
+          "These",
+          "Those",
+          "They"
+        ],
+        "question": "___ is my book. (这本书是我的。)",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "Those",
+        "difficulty": 1,
+        "explanation": "句子指较远处的苹果，而且苹果不止一个，因此用 those。",
+        "knowledge_point": "指示代词",
+        "options": [
+          "This",
+          "That",
+          "These",
+          "Those"
+        ],
+        "question": "___ apples over there are red.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "These",
+        "difficulty": 1,
+        "explanation": "These 表示“这些”，指近处的多个物品；复数主语后用 are。",
+        "knowledge_point": "指示代词",
+        "options": [
+          "This",
+          "That",
+          "These",
+          "Those"
+        ],
+        "question": "___ are my pencils here.",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "That",
+        "difficulty": 1,
+        "explanation": "that 表示“那个”，用于指较远处的一个人或物；单数主语搭配 is。",
+        "knowledge_point": "指示代词",
+        "options": [
+          "That",
+          "Those"
+        ],
+        "question": "___ is a bird in the tree over there.",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "Those",
+        "difficulty": 1,
+        "explanation": "Those 表示“那些”，指较远处的多个物品。句中 are 和 shoes 也提示应选复数形式。",
+        "knowledge_point": "指示代词",
+        "options": [
+          "This",
+          "That",
+          "These",
+          "Those"
+        ],
+        "question": "___ shoes over there are new.",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "No, it isn’t.",
+        "difficulty": 1,
+        "explanation": "“Is it...?”的否定回答是“No, it isn’t.”，不能说“No, it is.”",
+        "knowledge_point": "确认位置",
+        "options": [
+          "Yes, it is.",
+          "No, it isn’t.",
+          "Yes, it isn’t.",
+          "No, it don’t."
+        ],
+        "question": "— Is it on the desk?（它不在书桌上。）— ___",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "Is it under the chair?",
+        "difficulty": 2,
+        "explanation": "询问“它在椅子下面吗？”可说“Is it under the chair?”，问句以Is开头。",
+        "knowledge_point": "确认位置",
+        "options": [
+          "It is under the chair?",
+          "Is it under the chair?",
+          "Are it under the chair?",
+          "Do it under the chair?"
+        ],
+        "question": "选择正确的问句：它在椅子下面吗？",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "“on the box”表示“在盒子上面”。",
+        "knowledge_point": "确认位置",
+        "options": [],
+        "question": "The ball is ___ the box.（球在盒子上面。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 83
+      },
+      {
+        "answer": "Yes, it is.",
+        "difficulty": 1,
+        "explanation": "问句“Is it in the box?”的肯定回答是“Yes, it is.”",
+        "knowledge_point": "确认位置",
+        "options": [],
+        "question": "补全对话：— Is it in the box? — ___",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "No, it isn’t. It is under the table.",
+        "difficulty": 2,
+        "explanation": "问句询问物品是否在桌子上；题目说明它在桌子下面，所以先否定回答，再说出实际位置。",
+        "knowledge_point": "确认位置",
+        "options": [],
+        "question": "根据提示补全对话：— Is it on the table? — ___（不在桌子上；它在桌子下面。）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "She",
+        "difficulty": 1,
+        "explanation": "句子缺少主语，且表示“她”，应使用主格代词 She。",
+        "knowledge_point": "代词搭配",
+        "options": [
+          "Her",
+          "She",
+          "Hers",
+          "Him"
+        ],
+        "question": "___ is my sister.",
+        "score": 5,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "them",
+        "difficulty": 2,
+        "explanation": "代词位于动词 like 后面作宾语，应使用宾格 them。",
+        "knowledge_point": "代词搭配",
+        "options": [
+          "they",
+          "their",
+          "them",
+          "theirs"
+        ],
+        "question": "I like ___ very much.",
+        "score": 5,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "hers",
+        "difficulty": 2,
+        "explanation": "空格后没有名词，句子要表达“这本书是她的”，所以用单独表示所属关系的名词性物主代词 hers。",
+        "knowledge_point": "代词搭配",
+        "options": [
+          "her",
+          "she",
+          "hers",
+          "him"
+        ],
+        "question": "This book is ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "our",
+        "difficulty": 1,
+        "explanation": "空格后有名词 classroom，需要用形容词性物主代词 our 修饰它。",
+        "knowledge_point": "代词搭配",
+        "options": [
+          "we",
+          "us",
+          "our",
+          "ours"
+        ],
+        "question": "This is ___ classroom.",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "him",
+        "difficulty": 2,
+        "explanation": "介词 to 后面的人称代词要用宾格；he 的宾格形式是 him。",
+        "knowledge_point": "代词搭配",
+        "options": [
+          "he",
+          "his",
+          "him",
+          "her"
+        ],
+        "question": "Please give the ball to ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 90
+      },
+      {
+        "answer": "in",
+        "difficulty": 1,
+        "explanation": "球在盒子里面，用 in 表示“在……里面”。",
+        "knowledge_point": "介词辨析",
+        "options": [
+          "in",
+          "on",
+          "under",
+          "near"
+        ],
+        "question": "The ball is ___ the box.（球在盒子里面。）",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "书放在桌子的表面上，用 on 表示“在……上面”。",
+        "knowledge_point": "介词辨析",
+        "options": [
+          "under",
+          "on",
+          "in",
+          "to"
+        ],
+        "question": "The book is ___ the desk.（书在桌子上。）",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "near",
+        "difficulty": 2,
+        "explanation": "near 表示“在……附近”，所以句子表示“猫在门附近”。",
+        "knowledge_point": "介词辨析",
+        "options": [
+          "near",
+          "in",
+          "under",
+          "on"
+        ],
+        "question": "The cat is ___ the door.（猫在门附近。）",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "in",
+        "difficulty": 1,
+        "explanation": "in 表示“在……里面”，句意为“铅笔在铅笔盒里”。",
+        "knowledge_point": "介词辨析",
+        "options": [],
+        "question": "The pencil is ___ the pencil case.（填入合适的介词）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 94
+      },
+      {
+        "answer": "on",
+        "difficulty": 2,
+        "explanation": "on 表示“在……上面”，且这里指杯子放在桌面上。",
+        "knowledge_point": "介词辨析",
+        "options": [],
+        "question": "The cup is ___ the table.（杯子在桌子上。填入合适的介词）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 95
+      },
+      {
+        "answer": "Good morning!",
+        "difficulty": 1,
+        "explanation": "早上见面时，常用“Good morning!”互相问候。",
+        "knowledge_point": "常用搭配",
+        "options": [
+          "Good night!",
+          "Good morning!",
+          "Goodbye!",
+          "Thank you!"
+        ],
+        "question": "早上见到老师，你可以说：— ___",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "Thank you.",
+        "difficulty": 1,
+        "explanation": "别人帮助你或给你东西时，可以用“Thank you.”表示感谢。",
+        "knowledge_point": "常用搭配",
+        "options": [
+          "Thank you.",
+          "Good night.",
+          "I’m fine.",
+          "See you."
+        ],
+        "question": "朋友借给你一支铅笔，你应该说：— ___",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "You’re welcome.",
+        "difficulty": 2,
+        "explanation": "对别人说“Thank you.”后，常用“You’re welcome.”回应，意思是“不客气”。",
+        "knowledge_point": "常用搭配",
+        "options": [
+          "I’m sorry.",
+          "You’re welcome.",
+          "Good morning.",
+          "Goodbye."
+        ],
+        "question": "— Thank you! — ___",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "Goodbye.",
+        "difficulty": 1,
+        "explanation": "“Goodbye.”是告别时常用的表达。",
+        "knowledge_point": "常用搭配",
+        "options": [
+          "Hello.",
+          "Goodbye.",
+          "Please.",
+          "Thanks."
+        ],
+        "question": "和同学分别时，你可以说：— ___",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "I’m fine, thank you.",
+        "difficulty": 2,
+        "explanation": "别人问“How are you?”时，常用“I’m fine, thank you.”回答，表示“我很好，谢谢”。",
+        "knowledge_point": "常用搭配",
+        "options": [
+          "I’m fine, thank you.",
+          "Good night.",
+          "You’re welcome.",
+          "See you."
+        ],
+        "question": "— How are you? — ___",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "苹果",
+        "difficulty": 1,
+        "explanation": "Apple 的意思是“苹果”，是一种水果。",
+        "knowledge_point": "词汇理解",
+        "options": [
+          "香蕉",
+          "苹果",
+          "橙子",
+          "梨"
+        ],
+        "question": "'Apple' 的中文意思是：",
+        "score": 5,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "书",
+        "difficulty": 1,
+        "explanation": "Book 是“书”的意思。",
+        "knowledge_point": "词汇理解",
+        "options": [
+          "桌子",
+          "书",
+          "椅子",
+          "铅笔"
+        ],
+        "question": "'Book' 的中文意思是：",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "谢谢你",
+        "difficulty": 2,
+        "explanation": "Thank you 是表达感谢的常用语，意思是“谢谢你”。",
+        "knowledge_point": "词汇理解",
+        "options": [
+          "请问",
+          "再见",
+          "谢谢你",
+          "对不起"
+        ],
+        "question": "'Thank you' 的意思是：",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "红色的",
+        "difficulty": 2,
+        "explanation": "Red 是表示颜色的词，意思是“红色的”。",
+        "knowledge_point": "词汇理解",
+        "options": [
+          "蓝色的",
+          "绿色的",
+          "黄色的",
+          "红色的"
+        ],
+        "question": "'Red' 的中文意思是：",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "狗",
+        "difficulty": 1,
+        "explanation": "Dog 的意思是“狗”。",
+        "knowledge_point": "词汇理解",
+        "options": [
+          "猫",
+          "狗",
+          "鸟",
+          "鱼"
+        ],
+        "question": "'Dog' 的中文意思是：",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "book",
+        "difficulty": 1,
+        "explanation": "book表示“书”，句意是“这是一本书”。",
+        "knowledge_point": "物品名称",
+        "options": [
+          "book",
+          "desk",
+          "bag",
+          "pen"
+        ],
+        "question": "This is a ___.（书）",
+        "score": 5,
+        "type": "choice",
+        "id": 106
+      },
+      {
+        "answer": "apple",
+        "difficulty": 1,
+        "explanation": "apple表示“苹果”。",
+        "knowledge_point": "物品名称",
+        "options": [
+          "ruler",
+          "apple",
+          "chair",
+          "ball"
+        ],
+        "question": "Which word means “苹果”?",
+        "score": 5,
+        "type": "choice",
+        "id": 107
+      },
+      {
+        "answer": "T",
+        "difficulty": 1,
+        "explanation": "pen是“钢笔；笔”，所以句子“我有一支笔”表达正确。",
+        "knowledge_point": "物品名称",
+        "options": [
+          "T",
+          "F"
+        ],
+        "question": "“I have a pen.”的意思是“我有一支笔”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 108
+      },
+      {
+        "answer": "bag",
+        "difficulty": 2,
+        "explanation": "bag表示“包”，句意是“我的包是蓝色的”。",
+        "knowledge_point": "物品名称",
+        "options": [],
+        "question": "My ___ is blue.（包）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 109
+      },
+      {
+        "answer": "desk",
+        "difficulty": 2,
+        "explanation": "desk表示“书桌”，句意是“书桌上有一本书”。",
+        "knowledge_point": "物品名称",
+        "options": [],
+        "question": "There is a book on the ___.（书桌）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "Good morning.",
+        "difficulty": 1,
+        "explanation": "早上见到老师时，可以用“Good morning.”表示“早上好”。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "Good morning.",
+          "Good night.",
+          "Goodbye.",
+          "Thank you."
+        ],
+        "question": "早上在学校见到老师，你应该说：",
+        "score": 5,
+        "type": "choice",
+        "id": 111
+      },
+      {
+        "answer": "Thank you.",
+        "difficulty": 1,
+        "explanation": "别人帮助了你，应该说“Thank you.”表示感谢。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "Thank you.",
+          "I'm sorry.",
+          "Good morning.",
+          "What's this?"
+        ],
+        "question": "同学帮你捡起了铅笔，你应该说：",
+        "score": 5,
+        "type": "choice",
+        "id": 112
+      },
+      {
+        "answer": "It's under the chair.",
+        "difficulty": 2,
+        "explanation": "问题询问球在哪里，回答可以用“It's under the chair.”表示“它在椅子下面”。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "It's under the chair.",
+          "It's a chair.",
+          "I'm fine.",
+          "Nice to meet you."
+        ],
+        "question": "朋友问你“Where is the ball?”，你看到球在椅子下面，可以回答：",
+        "score": 5,
+        "type": "choice",
+        "id": 113
+      },
+      {
+        "answer": "Goodbye.",
+        "difficulty": 1,
+        "explanation": "离开时可以说“Goodbye.”表示“再见”。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "Goodbye.",
+          "Hello.",
+          "I'm happy.",
+          "Open the door."
+        ],
+        "question": "放学后和老师告别，你可以说：",
+        "score": 5,
+        "type": "choice",
+        "id": 114
+      },
+      {
+        "answer": "I'm fine, thank you.",
+        "difficulty": 2,
+        "explanation": "别人问“How are you?”时，可以用“I'm fine, thank you.”回答，表示“我很好，谢谢”。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "I'm fine, thank you.",
+          "It's on the desk.",
+          "Good night.",
+          "My name is Tom."
+        ],
+        "question": "别人问你“How are you?”，你感觉很好，应该回答：",
+        "score": 5,
+        "type": "choice",
+        "id": 115
+      },
+      {
+        "answer": "in",
+        "difficulty": 1,
+        "explanation": "in 表示在某个空间或物品里面。铅笔在铅笔盒里，因此用 in。",
+        "knowledge_point": "方位词应用",
+        "options": [],
+        "question": "The pencil is ___ the pencil case. (在铅笔盒里面)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "under",
+        "difficulty": 1,
+        "explanation": "under 表示在某物的下方。猫在椅子下面，因此用 under。",
+        "knowledge_point": "方位词应用",
+        "options": [],
+        "question": "The cat is ___ the chair. (在椅子下面)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "behind",
+        "difficulty": 2,
+        "explanation": "behind 表示在某物的后面。球在箱子后面，因此用 behind。",
+        "knowledge_point": "方位词应用",
+        "options": [],
+        "question": "The ball is ___ the box. (在箱子后面)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "next to",
+        "difficulty": 2,
+        "explanation": "next to 表示紧挨着或在旁边。狗在桌子旁边，因此用 next to。",
+        "knowledge_point": "方位词应用",
+        "options": [],
+        "question": "The dog is ___ the table. (在桌子旁边)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "are",
+        "difficulty": 2,
+        "explanation": "两个或多个物品作主语时用 are。书在桌子下面，所以完整句子是 The books are under the desk.",
+        "knowledge_point": "方位词应用",
+        "options": [],
+        "question": "The books ___ under the desk. (书在书桌下面)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "Yes, I am.",
+        "difficulty": 1,
+        "explanation": "问句以 Are 开头，回答也用 are；对方问“你”时，答句用 I am。",
+        "knowledge_point": "疑问句回答",
+        "options": [],
+        "question": "— Are you happy? — ___",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "No, he isn't.",
+        "difficulty": 1,
+        "explanation": "问句以 Is 开头，否定回答用 No, he isn't。",
+        "knowledge_point": "疑问句回答",
+        "options": [],
+        "question": "— Is Tom at home? — ___",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "Yes, they are.",
+        "difficulty": 2,
+        "explanation": "问句以 Are 开头，肯定回答用 Yes, they are。",
+        "knowledge_point": "疑问句回答",
+        "options": [],
+        "question": "— Are the cats under the chair? — ___",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "do",
+        "difficulty": 2,
+        "explanation": "问句以 Do 开头，肯定回答也用 do：Yes, I do。",
+        "knowledge_point": "疑问句回答",
+        "options": [],
+        "question": "— Do you like apples? — Yes, I ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "doesn't",
+        "difficulty": 2,
+        "explanation": "问句以 Does 开头，否定回答用 doesn't：No, she doesn't。",
+        "knowledge_point": "疑问句回答",
+        "options": [],
+        "question": "— Does Lily have a dog? — No, she ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "book",
+        "difficulty": 1,
+        "explanation": "book意为“书”，拼写为b-o-o-k。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "I read a ___. (书)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "school",
+        "difficulty": 1,
+        "explanation": "school意为“学校”，拼写为s-c-h-o-o-l。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "We go to ___. (学校)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "apple",
+        "difficulty": 1,
+        "explanation": "apple意为“苹果”，拼写为a-p-p-l-e。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "I have an ___. (苹果)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "friend",
+        "difficulty": 2,
+        "explanation": "friend意为“朋友”，注意字母顺序是f-r-i-e-n-d。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "Tom is my ___. (朋友)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "window",
+        "difficulty": 2,
+        "explanation": "window意为“窗户”，拼写为w-i-n-d-o-w。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "Please open the ___. (窗户)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "玩具",
+        "difficulty": 1,
+        "explanation": "Toy 的意思是“玩具”，所以应选 B。",
+        "knowledge_point": "英汉配对",
+        "options": [
+          "地图",
+          "玩具",
+          "盒子",
+          "书桌"
+        ],
+        "question": "英语单词 toy 的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 131
+      },
+      {
+        "answer": "红色",
+        "difficulty": 1,
+        "explanation": "red 的意思是“红色”，所以应选“红色”。",
+        "knowledge_point": "英汉配对",
+        "options": [
+          "蓝色",
+          "红色",
+          "绿色",
+          "黄色"
+        ],
+        "question": "单词 red 的中文意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 132
+      },
+      {
+        "answer": "妈妈",
+        "difficulty": 2,
+        "explanation": "mother 的意思是“妈妈”。读清单词含义，再从选项中选择对应的中文意思。",
+        "knowledge_point": "英汉配对",
+        "options": [
+          "妈妈",
+          "爸爸",
+          "姐妹",
+          "兄弟"
+        ],
+        "question": "单词 mother 的中文意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 133
+      },
+      {
+        "answer": "1. school；2. fish；3. chair；4. milk",
+        "difficulty": 1,
+        "explanation": "学校对应 school，鱼对应 fish，椅子对应 chair，牛奶对应 milk。",
+        "knowledge_point": "英汉配对",
+        "options": [],
+        "question": "根据中文写出对应的英语单词：1. 学校：____；2. 鱼：____；3. 椅子：____；4. 牛奶：____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 134
+      },
+      {
+        "answer": "星星",
+        "difficulty": 2,
+        "explanation": "star 的意思是“星星”。",
+        "knowledge_point": "英汉配对",
+        "options": [
+          "太阳",
+          "月亮",
+          "星星",
+          "树"
+        ],
+        "question": "单词 star 的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 135
+      },
+      {
+        "answer": "在书桌上",
+        "difficulty": 1,
+        "explanation": "“on the desk”表示“在书桌上”，因此选 B。",
+        "knowledge_point": "短语配对",
+        "options": [
+          "在书桌下面",
+          "在书桌上",
+          "在书桌里面",
+          "在书桌旁边"
+        ],
+        "question": "短语“on the desk”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 136
+      },
+      {
+        "answer": "在墙上",
+        "difficulty": 2,
+        "explanation": "“on the wall”表示“在墙上”，所以正确选项是C。",
+        "knowledge_point": "短语配对",
+        "options": [
+          "在教室里",
+          "在桌子下面",
+          "在墙上",
+          "在桌子上"
+        ],
+        "question": "短语“on the wall”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 137
+      },
+      {
+        "answer": "在书桌下面",
+        "difficulty": 2,
+        "explanation": "“under the desk”表示“在书桌下面”，所以选项B正确。",
+        "knowledge_point": "短语配对",
+        "options": [
+          "在书桌上",
+          "在书桌下面",
+          "在书桌里",
+          "在书桌旁边"
+        ],
+        "question": "短语“under the desk”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 138
+      },
+      {
+        "answer": "在猫下面",
+        "difficulty": 1,
+        "explanation": "under 表示“在……下面”，所以 under the cat 是“在猫下面”。",
+        "knowledge_point": "短语配对",
+        "options": [
+          "在猫里面",
+          "在猫上面",
+          "在猫下面"
+        ],
+        "question": "短语 under the cat 的意思是：______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 139
+      },
+      {
+        "answer": "on the table",
+        "difficulty": 2,
+        "explanation": "“在桌子上”用 on the table 表示。on 表示“在……上面”，the table 表示“桌子”。",
+        "knowledge_point": "短语配对",
+        "options": [],
+        "question": "请用英文写出“在桌子上”：______。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 140
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "询问“什么”用What，所以问句是“What is this?”",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "A. Where",
+          "B. What",
+          "C. Who"
+        ],
+        "question": "想问“这是什么？”，应该用哪个特殊疑问词？",
+        "score": 5,
+        "type": "choice",
+        "id": 141
+      },
+      {
+        "answer": "Who",
+        "difficulty": 1,
+        "explanation": "询问“谁”用Who。句子是“Who is she?”",
+        "knowledge_point": "特殊疑问句",
+        "options": [],
+        "question": "填入合适的特殊疑问词：____ is she?（她是谁？）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 142
+      },
+      {
+        "answer": "False",
+        "difficulty": 2,
+        "explanation": "询问地点时，特殊疑问词Where放在句首，正确说法是“Where is the book?”",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：询问“书在哪里？”可以说“Where the book is?”",
+        "score": 5,
+        "type": "true_false",
+        "id": 143
+      },
+      {
+        "answer": "When",
+        "difficulty": 2,
+        "explanation": "询问时间用When，句子是“When is your birthday?”",
+        "knowledge_point": "特殊疑问句",
+        "options": [],
+        "question": "填入合适的特殊疑问词：____ is your birthday?（你的生日是什么时候？）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 144
+      },
+      {
+        "answer": "How are you?",
+        "difficulty": 2,
+        "explanation": "询问“你好吗？”用How开头，语序是How + are + you，句末用问号。",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "you",
+          "?",
+          "How",
+          "are"
+        ],
+        "question": "连词成句：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 145
+      },
+      {
+        "answer": "Is he your friend?",
+        "difficulty": 1,
+        "explanation": "句中有be动词is，把Is放在主语he前面；your friend放在后面，句末加问号。",
+        "knowledge_point": "一般疑问句",
+        "options": [],
+        "question": "把句子改成一般疑问句：He is your friend.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 146
+      },
+      {
+        "answer": "Do you like bananas?",
+        "difficulty": 2,
+        "explanation": "句子中的like是实义动词，主语you前用Do；Do后面的动词用原形like。",
+        "knowledge_point": "一般疑问句",
+        "options": [],
+        "question": "把句子改成一般疑问句：You like bananas.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 147
+      },
+      {
+        "answer": "Does she play football?",
+        "difficulty": 2,
+        "explanation": "主语she是第三人称单数，使用Does开头；Does后面的动词play用原形。",
+        "knowledge_point": "一般疑问句",
+        "options": [],
+        "question": "把句子改成一般疑问句：She plays football.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 148
+      },
+      {
+        "answer": "Yes, it is.",
+        "difficulty": 1,
+        "explanation": "问句以Is开头，肯定回答用Yes，后面用主语it和be动词is。",
+        "knowledge_point": "一般疑问句",
+        "options": [],
+        "question": "回答：Is it a cat?（肯定回答）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 149
+      },
+      {
+        "answer": "Do they have a dog?",
+        "difficulty": 3,
+        "explanation": "have是实义动词，主语they前用Do；把Do放在句首，后接主语和动词原形，句末加问号。",
+        "knowledge_point": "一般疑问句",
+        "options": [
+          "they",
+          "Do",
+          "a",
+          "have",
+          "dog",
+          "?"
+        ],
+        "question": "连词成句：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 150
       }
     ]
   },
@@ -715,6 +2437,276 @@
         "无法区分 body 和 go 中的 o 发音"
       ],
       "tips": "口诀：小狗 dog，坐盒子 box，全身 body，爱桔子 orange。"
+    },
+    {
+      "common_mistakes": [
+        "混淆 in 和 on：in 表示在某个空间或范围里面；on 表示在表面上。",
+        "混淆 under 和 behind：under 表示在下方；behind 表示在后面。",
+        "使用方位介词时忘记根据物品之间的实际位置选择介词。"
+      ],
+      "core_concept": "方位介词用来说明人或物的位置关系。常见的方位介词有 in（在……里面）、on（在……上面）、under（在……下面）、behind（在……后面）和 next to（在……旁边）。",
+      "key_formula": "主语 + be动词（am/is/are）+ 方位介词 + 地点或物品。例：The cat is under the chair.（猫在椅子下面。）",
+      "point": "方位介词的辨析与应用",
+      "tips": "可以想象一个小球和盒子的位置来记忆：球在盒子里面是 in the box；在盒子上面是 on the box；在盒子下面是 under the box。练习时先判断“里面、表面、下方、后方还是旁边”，再选介词。"
+    },
+    {
+      "common_mistakes": [
+        "问某物在哪里用“Where is ...?”，不能把where和is的位置颠倒。",
+        "回答单数物品的位置时，常用“It’s ...”或“It is ...”，不要漏掉be动词。",
+        "回答“Is it ...?”时，肯定回答用“Yes, it is.”，否定回答用“No, it isn’t.”；不要用“Yes, it isn’t.”。",
+        "表示位置时，注意区分in（在……里面）、on（在……上面）和under（在……下面）。"
+      ],
+      "core_concept": "询问单个物品的位置，常用“Where is + 单数物品?”，意思是“……在哪里？”回答时可以说“It’s + 方位词 + 地点”，例如“It’s on the desk.”也可以用一般疑问句“Is it + 方位词 + 地点?”确认位置，肯定回答是“Yes, it is.”，否定回答是“No, it isn’t.”",
+      "key_formula": "Where is + 单数物品? — It’s + 方位词 + 地点.\nIs it + 方位词 + 地点? — Yes, it is. / No, it isn’t.",
+      "point": "询问位置及其一般疑问句回答",
+      "tips": "先看物品是单数还是复数：本课练习单数物品，用is。问位置时记住句型“Where is ...?”；确认位置时把be动词is放在主语it前面，组成“Is it ...?”。回答时用“Yes, it is.”或“No, it isn’t.”。"
+    },
+    {
+      "common_mistakes": [
+        "把字母 o 的字母名称读音 /oʊ/ 和它在闭音节中的短音 /ɒ/（美式英语中常读作 /ɑː/）混淆。",
+        "只看单词里有没有字母 o，没有注意 o 后面是否由辅音字母封闭音节。",
+        "把所有含 o 的单词都套用同一种发音规则；英语中有不少不符合常见规律的单词。"
+      ],
+      "core_concept": "闭音节通常以辅音音素结尾，元音字母被后面的辅音“关住”。在常见的单音节闭音节词中，字母 o 通常发短音，例如 hot、dog、box 中的 o。美式英语中这个短音常读作 /ɑː/，英式英语中常读作 /ɒ/。具体音色会因口音而不同。",
+      "key_formula": "常见规律：o + 一个或多个辅音音素结尾 → o 通常发短音 /ɒ/（美式英语中常为 /ɑː/），如 hot、dog、box。",
+      "point": "元音字母o在闭音节中的发音",
+      "tips": "练习时可以把单词分成两组朗读：hot、dog、box、fox；再和 nose、home、go 对比。前一组是常见的闭音节短音，后一组的 o 通常发字母名称音 /oʊ/。本课重点是识别常见规律，不必记复杂音标。"
+    },
+    {
+      "common_mistakes": [
+        "混淆 in 和 on：in 表示在里面，on 表示在……上面。",
+        "把 under 和 behind 混淆：under 表示在下面，behind 表示在后面。",
+        "表达方位时忘记在名词前加 the 或其他限定词。"
+      ],
+      "core_concept": "方位介词用来说明人或物所在的位置。常见的有 in（在里面）、on（在……上面）、under（在……下面）、behind（在……后面）和 next to（在……旁边）。",
+      "key_formula": "人或物 + be动词 + 方位介词 + 地点名词。例：The cat is under the chair.（猫在椅子下面。）",
+      "point": "方位介词辨析",
+      "tips": "可以想象一个物品和一个盒子的位置来记忆：在盒子里是 in，在盒子上是 on，在盒子下是 under，在盒子后是 behind，在盒子旁是 next to。"
+    },
+    {
+      "common_mistakes": [
+        "把desk（书桌）和chair（椅子）混淆。",
+        "把cap（帽子）和其他衣物词汇混淆。",
+        "只记住单词意思，却忽略单词在句子中的用法。"
+      ],
+      "core_concept": "词汇辨析就是分清意思相近或容易混淆的单词，并根据句意选择合适的词。学习时可以把单词和对应的物品、图片或情境联系起来。",
+      "key_formula": "先理解句意，再判断所需词义，最后选择合适的单词。",
+      "point": "词汇辨析",
+      "tips": "用“英文单词—中文意思—生活中的物品”一起记忆。做题时先看句子和括号中的提示，再检查所填单词是否符合句意。"
+    },
+    {
+      "common_mistakes": [
+        "把字母名称和字母在单词中的发音混为一谈，例如字母A的名称和单词cat中的a音不同。",
+        "只看字母就判断发音，忽略字母组合和单词中的实际读音。",
+        "英语字母与语音并非总是一一对应，同一个字母在不同单词中可能发不同的音。"
+      ],
+      "core_concept": "语音知识帮助我们认识英语字母和字母组合在单词中的发音。学习时要注意区分字母名称与字母音，并通过听、读和比较单词来发现相同或不同的发音。",
+      "key_formula": "听单词中的目标音 → 找出对应的字母或字母组合 → 与其他单词比较发音",
+      "point": "语音知识",
+      "tips": "朗读单词时先听清目标音，再观察对应字母。可以把含有相同发音的单词放在一起练习；遇到不确定的读音时，可以请老师示范或查词典。"
+    },
+    {
+      "common_mistakes": [
+        "请求别人做某事时，注意使用礼貌表达。",
+        "回答请求时，Yes, you can. 表示允许；Sorry, you can’t. 表示不允许。",
+        "借东西时要说清楚想借什么，并记得归还。"
+      ],
+      "core_concept": "交际用语是日常交流中用来表达请求、询问、感谢、道歉和回应的常用句子。说话时要根据场景选择合适的表达，并保持礼貌。",
+      "key_formula": "请求许可：Can I + 动词原形 ...?；回应：Yes, you can. / Sorry, you can’t.；询问或提出请求：Can you ...?；感谢：Thank you.；回应感谢：You’re welcome.",
+      "point": "交际用语",
+      "tips": "可以用角色扮演练习常见场景：借文具、请求帮助、表达感谢和道歉。先判断自己要表达什么，再选择合适的句子。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 Have a good time! 误解为“祝你有一个好时间”，它常用来祝别人玩得开心。",
+        "表达感谢后，常用 You're welcome. 回应；表示道歉后，常用 That's OK. 或 Never mind. 回应。",
+        "询问对方近况时，How are you? 常用来问候，不是询问具体做什么。"
+      ],
+      "core_concept": "习惯表达是在特定情境中常用的英语短语。学习时要联系情境理解意思，并选择自然、合适的回应。",
+      "key_formula": "问候：How are you? — I'm fine, thank you.；感谢：Thank you. — You're welcome.；道歉：I'm sorry. — That's OK.；祝愿：Have a good time!",
+      "point": "习惯表达",
+      "tips": "记住表达出现的情境，再练习成对使用：听到 Thank you.，可以回答 You're welcome.；听到 Have a good time!，可以回答 Thank you.。"
+    },
+    {
+      "common_mistakes": [
+        "混淆 in（在……里面）、on（在……上面）和 under（在……下面）。",
+        "描述物体位置时，注意使用 is，例如：The ball is under the chair."
+      ],
+      "core_concept": "用简单的方位词描述一个物体相对于另一个物体的位置。常见方位词有 in（在……里面）、on（在……上面）、under（在……下面）和 behind（在……后面）。",
+      "key_formula": "物体 + is + 方位词 + the + 参照物。例：The book is on the desk.（书在桌子上。）",
+      "point": "物体方位",
+      "tips": "看到“在……里面”用 in；看到“在……上面”用 on；看到“在……下面”用 under。先找出物体和参照物，再选择合适的方位词。"
+    },
+    {
+      "common_mistakes": [
+        "把 Where（在哪里）和 What（什么）混淆。",
+        "询问人物时误用 What 或 Where；询问“谁”要用 Who。",
+        "询问方式或身体状况时误用 How 以外的疑问词。"
+      ],
+      "core_concept": "疑问词放在句首，用来询问不同的信息。Where 询问地点，What 询问事物，Who 询问人物，How 询问方式、状态或情况。",
+      "key_formula": "疑问词 + be动词/助动词/情态动词 + 主语 + 其他？",
+      "point": "疑问词辨析",
+      "tips": "先看答句提供了什么信息：地点选 Where，物品或事情选 What，人物选 Who，方式或状态选 How。"
+    },
+    {
+      "common_mistakes": [
+        "把 this 和 these、that 和 those 搭配混淆：this、that 后接单数名词，these、those 后接复数名词。",
+        "忽略指示代词与 be 动词的搭配：this/that is，these/those are。",
+        "把表示位置的介词（如 under）误当成指示代词。"
+      ],
+      "core_concept": "指示代词用来指明某人或某物。this（这个）和 these（这些）通常指离说话人较近的人或物；that（那个）和 those（那些）通常指离说话人较远的人或物。this、that 指一个，these、those 指多个。",
+      "key_formula": "近处：this + 单数名词 / these + 复数名词；远处：that + 单数名词 / those + 复数名词。单独使用时：This/That is ...；These/Those are ...。",
+      "point": "指示代词",
+      "tips": "先判断所指的人或物是近还是远，再判断是一个还是多个。this、that 常与 is 搭配，these、those 常与 are 搭配。"
+    },
+    {
+      "common_mistakes": [
+        "肯定回答不能说“Yes, it isn’t.”，否定回答不能说“No, it is.”",
+        "回答时要根据问句中的主语选择相应的代词，如it。",
+        "确认位置时，注意区分in（在……里面）、on（在……上面）和under（在……下面）。"
+      ],
+      "core_concept": "用“Is it + 方位短语？”询问某个物品的位置，并用“Yes, it is.”或“No, it isn’t.”作简短回答。",
+      "key_formula": "— Is it + 方位短语? — Yes, it is. / No, it isn’t.",
+      "point": "确认位置",
+      "tips": "先听清问句中的物品和方位，再根据实际情况选择肯定或否定回答。描述位置时，可用in the bag（在包里）、on the desk（在书桌上）、under the chair（在椅子下面）等短语。"
+    },
+    {
+      "common_mistakes": [
+        "把主格代词（I、you、he、she、we、they）和宾格代词（me、him、her、us、them）混用。",
+        "把形容词性物主代词（my、your、his、her、our、their）单独当作名词使用；它们通常要放在名词前面。",
+        "把名词性物主代词（mine、yours、his、hers、ours、theirs）后面再接名词。",
+        "忘记根据句子中的人物和数量选择相应的代词。"
+      ],
+      "core_concept": "代词可以代替或指明人和物。选择代词时，要看它在句子中的位置和作用：主语位置常用主格；动词或介词后常用宾格；名词前表示“谁的”常用形容词性物主代词；独立表示“谁的东西”时常用名词性物主代词。",
+      "key_formula": "主语 + 主格代词；动词/介词 + 宾格代词；形容词性物主代词 + 名词；名词性物主代词（单独使用）",
+      "point": "代词搭配",
+      "tips": "做题时先找到空格的位置：空格在句首或动作发出者的位置，想一想是否需要主格；在动词或介词后，想一想是否需要宾格；空格后紧跟名词，通常选形容词性物主代词；空格后没有名词、表示“……的”，通常选名词性物主代词。"
+    },
+    {
+      "common_mistakes": [
+        "把 in（在……里面）、on（在……上面）和 under（在……下面）混淆。",
+        "在短语 Put your foot under your chair. 中，under 表示位置，不表示方向或目的地。"
+      ],
+      "core_concept": "介词常用来说明人或物的位置、方向等。三年级常见位置介词有 in（在……里面）、on（在……上面）、under（在……下面）和 near（在……附近）。",
+      "key_formula": "人或物 + be动词 + 介词 + 地点；表示位置的指令：Put + 物品 + 介词 + 地点。",
+      "point": "介词辨析",
+      "tips": "先观察物品的位置关系：在里面用 in，在表面上用 on，在下方用 under，在附近用 near。再把介词放到句子中读一读，检查意思是否合理。"
+    },
+    {
+      "common_mistakes": [
+        "不要只看单词意思，还要看整个对话情境。",
+        "有些词语常常一起使用，不能随意替换其中的词。"
+      ],
+      "core_concept": "常用搭配是英语中经常一起出现的词或短语。记住常见搭配，并结合情境选择合适的表达，可以让对话更自然。",
+      "key_formula": "结合情境 + 选择常见搭配",
+      "point": "常用搭配",
+      "tips": "把常用搭配放进短句和对话里记忆；做题时先判断说话人的情绪和情境，再选择合适的回应。"
+    },
+    {
+      "common_mistakes": [
+        "把“Excuse me”和“Sorry”都只理解为“对不起”，忽略它们的使用场景不同。",
+        "只记住单词的一个意思，忽略词语要结合语境理解。"
+      ],
+      "core_concept": "理解英语词汇和常用表达的中文意思，并根据具体情境选择合适的解释。",
+      "key_formula": "词汇理解：英文表达 + 使用情境 → 合适的中文意思",
+      "point": "词汇理解",
+      "tips": "遇到不熟悉的词或短语，可以先看说话的情境，再判断它的意思。注意区分相近表达：Excuse me 常用于打扰或询问；Sorry 常用于表达歉意。"
+    },
+    {
+      "common_mistakes": [
+        "把 car（小汽车）和 cap（帽子）混淆；读词时注意末尾字母。",
+        "物品名称前常用 a 或 an：如 a book、an apple。"
+      ],
+      "core_concept": "学习常见物品的英文名称，并能根据图片或中文提示认读、选择合适的单词。",
+      "key_formula": "a/an + 物品名称；如 a bag（一只包）、an egg（一个鸡蛋）。",
+      "point": "物品名称",
+      "tips": "先看清中文提示，再辨认单词的拼写和首字母；朗读时注意听音辨词。"
+    },
+    {
+      "common_mistakes": [
+        "问单个物品在哪里时用“Where is...?”，不要误用“Where are...?”。",
+        "回答物品的位置时，常用“It’s in/on/under...”描述。",
+        "根据情景选择合适的表达，不能只看句子里是否出现了相同的单词。"
+      ],
+      "core_concept": "情景交际是根据日常生活中的具体情境，选择合适的英语表达。三年级常见情境包括询问物品位置、问候、感谢和道别等。",
+      "key_formula": "询问单个物品的位置：Where is + 单数物品？回答：It’s + in/on/under + 地点。",
+      "point": "情景交际",
+      "tips": "先判断情境中要表达什么，再寻找与之匹配的句子。询问某个物品在哪里时，可以说“Where is my...?”；回答时可以说“It’s on the desk.”等。"
+    },
+    {
+      "common_mistakes": [
+        "混淆 on 和 in：on 表示在物体表面上，in 表示在里面。",
+        "混淆 under 和 behind：under 表示在下方，behind 表示在后面。",
+        "描述物品位置时，忘记使用 be 动词，如 is 或 are。"
+      ],
+      "core_concept": "方位词用来说明人或物的位置。常见方位词有 in（在……里面）、on（在……上面）、under（在……下面）、behind（在……后面）和 next to（在……旁边）。描述位置时，通常使用“主语 + be 动词 + 方位词短语”的句型。",
+      "key_formula": "主语 + am/is/are + 方位词 + 地点或物品",
+      "point": "方位词应用",
+      "tips": "先观察两个物品的位置关系，再选择合适的方位词；单数主语通常用 is，复数主语通常用 are。"
+    },
+    {
+      "common_mistakes": [
+        "回答一般疑问句时，注意问句中的 be 动词或助动词要与答句保持一致。",
+        "肯定回答用 Yes，否定回答用 No；否定回答中的 be 动词或助动词后要加 not。",
+        "回答含有 it 的问句时，通常用 it 回答，不要误用 this 或 that。"
+      ],
+      "core_concept": "一般疑问句通常可以用 Yes 或 No 回答。问句以 be 动词开头时，回答也要用相同的 be 动词；问句以 do 或 does 开头时，回答要用相应的 do 或 does。肯定回答用“Yes, 主语 + 动词”，否定回答用“No, 主语 + 动词 + not”。",
+      "key_formula": "Is it...? — Yes, it is. / No, it isn't.；Are you...? — Yes, I am. / No, I'm not.；Do you...? — Yes, I do. / No, I don't.",
+      "point": "疑问句回答",
+      "tips": "先看问句的第一个词：Is 用 is 回答，Are 用 are 回答，Do 用 do 回答，Does 用 does 回答。否定时在相应动词后加 not；口语中常用 isn't、aren't、don't 和 doesn't。"
+    },
+    {
+      "common_mistakes": [
+        "不要把意思相近的词混淆，例如 under（在……下面）和 on（在……上面）。",
+        "注意单词中字母的顺序，拼写时可以逐个字母检查。",
+        "句子开头的单词首字母要大写。"
+      ],
+      "core_concept": "词汇拼写就是根据单词的读音、字母顺序和意思，正确写出英语单词。学习时可以把单词和意思、读音或简单句子联系起来记忆。",
+      "key_formula": "根据中文意思和句子线索确定所需单词，再检查字母顺序。",
+      "point": "词汇拼写",
+      "tips": "记单词时可以边读边写，并把容易混淆的字母组合标出来；完成句子后，再检查拼写和句意是否相符。"
+    },
+    {
+      "common_mistakes": [
+        "把拼写相近或熟悉的单词误认为同一个意思。",
+        "配对时只看中文选项的位置，没有核对单词含义。"
+      ],
+      "core_concept": "英汉配对就是根据英语单词的意思，找到对应的中文词语。做题时先读清英语单词，再回忆或辨认它的中文意思，最后检查每个选项是否匹配。",
+      "key_formula": "英语单词 ↔ 对应的中文意思",
+      "point": "英汉配对",
+      "tips": "先读英语单词并说出意思，再从中文选项中寻找对应词语。遇到不确定的单词，可以结合熟悉的生活物品来记忆。"
+    },
+    {
+      "common_mistakes": [
+        "把 in、on、under 的意思混淆：in 表示“在……里面”，on 表示“在……上面”，under 表示“在……下面”。",
+        "只看单个单词，不看整个短语；配对时要把方位词和后面的物品一起理解。"
+      ],
+      "core_concept": "短语配对时，要理解英文短语的整体意思，再找到对应的中文。方位短语通常由方位词和物品组成，例如 in the box（在盒子里）。",
+      "key_formula": "方位词 + the/your + 物品 = 表示位置的短语",
+      "point": "短语配对",
+      "tips": "先认出方位词，再看短语中提到的物品，最后把整个短语翻译成中文。"
+    },
+    {
+      "common_mistakes": [
+        "特殊疑问词后面通常要用一般疑问句的语序，如“Where is my car?”，不能说“Where my car is?”",
+        "句末要用问号。",
+        "回答特殊疑问句时，通常不能只回答“Yes”或“No”，而要提供所问的信息。"
+      ],
+      "core_concept": "特殊疑问句用来询问具体信息，常用特殊疑问词包括what（什么）、who（谁）、where（哪里）、when（什么时候）和how（怎样）。",
+      "key_formula": "特殊疑问词 + be动词/助动词/情态动词 + 主语 + 其他？",
+      "point": "特殊疑问句",
+      "tips": "先根据要问的内容选择特殊疑问词，再把它放在句首；接着使用一般疑问句的语序，最后别忘了加问号。"
+    },
+    {
+      "common_mistakes": [
+        "一般疑问句末尾要用问号。",
+        "不要漏掉句首的助动词或be动词。",
+        "回答一般疑问句时，Yes或No后面的代词和be动词要对应。"
+      ],
+      "core_concept": "一般疑问句是可以用Yes或No回答的问句。通常把be动词（am、is、are）或助动词（如do、does）放在句首，再接其他部分，句末加问号。",
+      "key_formula": "Be动词 + 主语 + 其他部分？\n助动词Do/Does + 主语 + 动词原形 + 其他部分？",
+      "point": "一般疑问句",
+      "tips": "先找句子里的be动词或实义动词：有am、is、are时，把它移到主语前；有实义动词时，根据主语选择Do或Does。记得首字母大写，句末加问号。"
     }
   ]
 }

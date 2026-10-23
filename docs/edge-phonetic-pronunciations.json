@@ -1,0 +1,92 @@
+[
+  {
+    "hash": "94a759fd37735430753c7b6b80684306d80ea16e",
+    "source_text": "ü",
+    "spoken_text": "迂",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "5d9958a6ef487540fdfb25dd1e35588862c7e5aa",
+    "source_text": "ū",
+    "spoken_text": "乌",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "3f3f9d1ec56f10691c0a6c1f815fc2469861be18",
+    "source_text": "ú",
+    "spoken_text": "无",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "5cf3d2cdc8820b4d523ad732fb2f38ce2ea48f07",
+    "source_text": "ǔ",
+    "spoken_text": "五",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "8f8ad0af2793b518dcbc6352a5f2ad9bdd9cf869",
+    "source_text": "ù",
+    "spoken_text": "物",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "c964bafed061e2903cb84fe3eb3cb2f7b9ad7c32",
+    "source_text": "ˇ",
+    "spoken_text": "第三声，上声。",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "303679dac108ac755f6fd63d6d566bd0b03feb90",
+    "source_text": "ˋ",
+    "spoken_text": "第四声，去声。",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "8f2f57b6685895aa9ca02036d27adf1566fa0d19",
+    "source_text": "ˉ",
+    "spoken_text": "第一声，阴平。",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "acd89f10f16eb862bbaa56836890751f27b2119a",
+    "source_text": "ˊ",
+    "spoken_text": "第二声，阳平。",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "47a915cd4d0a287553ba8872cac7c0854c76b505",
+    "source_text": "/ɪ/",
+    "spoken_text": "The short i sound, as in sit.",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "e9bc318eb9f9eaf2970ee294a26bac8e499948dd",
+    "source_text": "/ɑː/",
+    "spoken_text": "The long ah sound, as in father.",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "cf4b0d9715b7c2e05c343d03cd3886c2bba271be",
+    "source_text": "/ɔː/",
+    "spoken_text": "The aw sound, as in saw.",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "76931606fcac587258084a06bc6a54b416e8868b",
+    "source_text": "/æ/",
+    "spoken_text": "The a sound, as in cat.",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "9e784507da3ba5a180993e7e670880ed85b89c26",
+    "source_text": "/ð/",
+    "spoken_text": "The voiced th sound, as in this.",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  },
+  {
+    "hash": "f3868581d5ca8e4613bc226289cebf1e43205da8",
+    "source_text": "/θ/",
+    "spoken_text": "The unvoiced th sound, as in thin.",
+    "reason": "Edge returns no audio for isolated phonetic/tone symbols; speak the equivalent Mandarin syllable or an explicit phonetic label and example."
+  }
+]

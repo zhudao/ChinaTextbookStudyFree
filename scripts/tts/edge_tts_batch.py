@@ -66,6 +66,20 @@ SPEAKER_MAP = {
 DEFAULT_VOICE_ZH = "zh-CN-XiaoxiaoNeural"
 DEFAULT_VOICE_EN = "en-US-AnaNeural"
 
+# The service returns an empty stream for these isolated notation glyphs.
+# Keep the original text hash/path and speak its sound or an explicit label.
+PHONETIC_SPEECH = {
+    "ü": "迂", "ū": "乌", "ú": "无", "ǔ": "五", "ù": "物",
+    "ˇ": "第三声，上声。", "ˋ": "第四声，去声。",
+    "ˉ": "第一声，阴平。", "ˊ": "第二声，阳平。",
+    "/ɪ/": "The short i sound, as in sit.",
+    "/ɑː/": "The long ah sound, as in father.",
+    "/ɔː/": "The aw sound, as in saw.",
+    "/æ/": "The a sound, as in cat.",
+    "/ð/": "The voiced th sound, as in this.",
+    "/θ/": "The unvoiced th sound, as in thin.",
+}
+
 
 class RequestLimiter:
     """Space synthesis attempts across workers, including retries and cooldowns."""
@@ -135,7 +149,7 @@ async def synth_one(
                 limiter.retries += 1
         try:
             communicate = edge_tts.Communicate(
-                text=text, voice=voice, rate=rate, volume=volume, pitch=pitch
+                text=PHONETIC_SPEECH.get(text, text), voice=voice, rate=rate, volume=volume, pitch=pitch
             )
             audio = bytearray()
             async for chunk in communicate.stream():

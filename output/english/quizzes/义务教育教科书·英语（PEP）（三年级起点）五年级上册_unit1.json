@@ -4,340 +4,407 @@
   "unit_number": 1,
   "unit_test": {
     "title": "Unit 1 单元基础达标测",
-    "total_score": 100,
+    "total_score": 118,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "funny 是形容词，意为有趣的、滑稽的。",
         "knowledge_point": "性格与外貌特征词汇",
+        "options": [],
         "question": "'funny' 的意思是'有趣的；滑稽的'。",
-        "options": [],
-        "answer": "对",
-        "explanation": "funny 是形容词，意为有趣的，滑稽的。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "性格与外貌特征词汇",
-        "question": "'strict' 的意思是'温和的'。",
-        "options": [],
         "answer": "错",
-        "explanation": "strict 的意思是严格的，温和的是 kind。"
+        "difficulty": 1,
+        "explanation": "strict 意为严格的；kind 才有亲切的、友善的意思。",
+        "knowledge_point": "性格与外貌特征词汇",
+        "options": [],
+        "question": "'strict' 的意思是'温和的'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "“Is he...?”的肯定回答是“Yes, he is.”，主语和 be 动词与问句保持一致。",
         "knowledge_point": "确认特征的一般疑问句",
-        "question": "当回答 'Is he polite?' 时，可以用 'Yes, he is.'",
         "options": [],
-        "answer": "对",
-        "explanation": "Is he...? 的肯定回答是 Yes, he is."
+        "question": "当回答“Is he polite?”时，可以用“Yes, he is.”",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "baby 和 happy 的词尾 y 都发 /i/。",
         "knowledge_point": "语音：字母y在词尾的发音",
+        "options": [],
         "question": "单词 'baby' 和 'happy' 中字母 y 的发音是相同的。",
-        "options": [],
-        "answer": "对",
-        "explanation": "在这些单词中，末尾的 y 都发 /i/ 的音。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "性格与外貌特征词汇",
-        "question": "'hard-working' 的对应词是 'lazy'。",
-        "options": [],
-        "answer": "对",
-        "explanation": "hard-working 是努力的，其反义词是 lazy（懒惰的）。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
-        "difficulty": 1,
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "hard-working 意为勤奋的，lazy 意为懒惰的，二者意思相反。",
         "knowledge_point": "性格与外貌特征词汇",
-        "question": "My sister is very ______. She always says 'hello' to teachers.",
+        "options": [],
+        "question": "'hard-working' 的对应词是 'lazy'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "polite",
+        "difficulty": 1,
+        "explanation": "她总是向老师问好，说明她有礼貌，故选 polite。",
+        "knowledge_point": "性格与外貌特征词汇",
         "options": [
           "polite",
           "strict",
           "shy",
           "old"
         ],
-        "answer": "polite",
-        "explanation": "对老师说你好体现了有礼貌，故选 polite。"
+        "question": "My sister is very ______. She always says 'hello' to teachers.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "Who",
         "difficulty": 1,
+        "explanation": "回答是人名，询问人物身份或“谁”用 Who。",
         "knowledge_point": "询问人物特征的特殊疑问句",
-        "question": "— ______ is your music teacher? — Mr Young.",
         "options": [
           "What",
           "Where",
           "Who",
           "How"
         ],
-        "answer": "Who",
-        "explanation": "回答是人名，询问人物用 Who。"
+        "question": "— ______ is your music teacher? — Mr Young.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "She is very kind.",
         "difficulty": 2,
+        "explanation": "What is she like? 询问她的性格或外貌特征；very kind 描述性格。",
         "knowledge_point": "询问人物特征的特殊疑问句",
-        "question": "— What's she like? — ______",
         "options": [
           "She is 10.",
           "She is very kind.",
           "She is a doctor.",
           "She likes cats."
         ],
-        "answer": "She is very kind.",
-        "explanation": "What is ... like? 用于询问性格或外貌特征。"
+        "question": "— What's she like? — ______",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "clever",
         "difficulty": 1,
+        "explanation": "能解决难题说明他聪明，故选 clever。",
         "knowledge_point": "性格与外貌特征词汇",
-        "question": "Wu Binbin is ______. He can solve difficult math problems.",
         "options": [
           "short",
           "kind",
           "clever",
           "funny"
         ],
-        "answer": "clever",
-        "explanation": "能解数学难题说明聪明，选 clever。"
+        "question": "Wu Binbin is ______. He can solve difficult math problems.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "No, she isn't.",
         "difficulty": 1,
+        "explanation": "否定回答使用“No, 主语 + isn't.”；问句主语是 she，回答也要用 she。",
         "knowledge_point": "确认特征的一般疑问句",
-        "question": "— Is she quiet? — ______",
         "options": [
           "Yes, she isn't.",
           "No, she is.",
           "No, she isn't.",
           "No, he isn't."
         ],
-        "answer": "No, she isn't.",
-        "explanation": "一般疑问句否定回答主谓必须一致且使用否定形式。"
+        "question": "— Is she quiet? — ______",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "quiet",
         "difficulty": 1,
+        "explanation": "She doesn't talk much 表示她在课堂上不太说话，quiet 意为安静的。",
         "knowledge_point": "性格与外貌特征词汇",
-        "question": "Sarah is very _____. She doesn't talk much in class.",
         "options": [
           "helpful",
           "quiet",
           "kind",
           "polite"
         ],
-        "answer": "quiet",
-        "explanation": "不爱说话对应 quiet。"
+        "question": "Sarah is very _____. She doesn't talk much in class.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "he's",
         "difficulty": 2,
+        "explanation": "your father 指男性，回答时用 he；“he is”可以缩写为“he's”。",
         "knowledge_point": "确认特征的一般疑问句",
-        "question": "— Is your father strict? — Yes, ______ very strict.",
         "options": [
           "he's",
           "she's",
           "it's",
           "they're"
         ],
-        "answer": "he's",
-        "explanation": "father 是男性，缩写 he's。"
+        "question": "— Is your father strict? — Yes, ______ very strict.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "old",
         "difficulty": 1,
+        "explanation": "not young 意为不年轻，对应 old（年老的）。",
         "knowledge_point": "性格与外貌特征词汇",
-        "question": "Ms Wang is our new teacher. She is ______, not young.",
         "options": [
           "clever",
           "funny",
           "kind",
           "old"
         ],
-        "answer": "old",
-        "explanation": "not young 的反义词是 old。"
+        "question": "Ms Wang is our new teacher. She is ______, not young.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "candy",
         "difficulty": 1,
+        "explanation": "sunny 和 candy 中的词尾 y 都发 /i/；my、fly 和 sky 中的 y 发 /aɪ/。",
         "knowledge_point": "语音：字母y在词尾的发音",
-        "question": "Which word has the same 'y' sound as 'sunny'?",
         "options": [
           "my",
           "fly",
           "candy",
           "sky"
         ],
-        "answer": "candy",
-        "explanation": "sunny 和 candy 的 y 都发 /i/，其余三个发 /ai/。"
+        "question": "Which word has the same 'y' sound as 'sunny'?",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "What's he like?",
         "difficulty": 3,
+        "explanation": "tall and strong 描述外貌和身材，因此用 What's he like? 提问。",
         "knowledge_point": "询问人物特征的特殊疑问句",
-        "question": "— ______ — He is tall and strong.",
         "options": [
           "Who is he?",
           "What's he like?",
           "How is he?",
           "Is he friendly?"
         ],
-        "answer": "What's he like?",
-        "explanation": "描述外貌身材需要用 What's he like 提问。"
+        "question": "— ______ — He is tall and strong.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "性格与外貌特征词汇",
-        "question": "Oliver is a helpful student. He is very _____-working.",
-        "options": [],
         "answer": "hard",
-        "explanation": "hard-working 是固定词汇，意为勤奋的。"
+        "difficulty": 1,
+        "explanation": "hard-working 是固定搭配，意为勤奋的。",
+        "knowledge_point": "性格与外貌特征词汇",
+        "options": [],
+        "question": "Oliver is a helpful student. He is very _____-working.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
+        "answer": "Who",
         "difficulty": 1,
+        "explanation": "询问谁是英语老师，用 Who；句首首字母大写。",
         "knowledge_point": "询问人物特征的特殊疑问句",
+        "options": [],
         "question": "______ is your English teacher? Mr Smith is.",
-        "options": [],
-        "answer": "who",
-        "explanation": "询问谁是老师用 who。"
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
+        "answer": "isn't",
         "difficulty": 2,
+        "explanation": "“No, he isn't.”是“Is he funny?”的否定回答。注意缩写中有撇号。",
         "knowledge_point": "确认特征的一般疑问句",
+        "options": [],
         "question": "— Is he funny? — No, he ______.",
-        "options": [],
-        "answer": "isnt",
-        "explanation": "is not 的缩写，此处填 isnt 符合小写要求。"
-      },
-      {
-        "id": 19,
+        "score": 5,
         "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "性格与外貌特征词汇",
-        "question": "Our head teacher is very ______. She never gets angry.",
-        "options": [],
+        "id": 18
+      },
+      {
         "answer": "kind",
-        "explanation": "不生气说明很亲切温柔，填 kind。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "性格与外貌特征词汇",
-        "question": "将下列形容词与其对应的汉语意思连线。",
-        "options": [
-          "polite",
-          "clever",
-          "strict",
-          "quiet",
-          "严厉的",
-          "安静的",
-          "聪明的",
-          "有礼貌的"
-        ],
-        "answer": "A-4,B-3,C-1,D-2",
-        "explanation": "polite-有礼貌, clever-聪明, strict-严厉, quiet-安静。"
-      },
-      {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "性格与外貌特征词汇",
-        "question": "将下列单词及其对应词/反义词意思连线。",
-        "options": [
-          "old",
-          "kind",
-          "funny",
-          "thin",
-          "滑稽的",
-          "老的",
-          "瘦的",
-          "亲切的"
-        ],
-        "answer": "A-2,B-4,C-1,D-3",
-        "explanation": "词义一一对应：old-老的, kind-亲切的, funny-滑稽的, thin-瘦的。"
-      },
-      {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "询问人物特征的特殊疑问句",
-        "question": "连词成句：like, he, What, is, ?",
-        "options": [
-          "like",
-          "he",
-          "What",
-          "is",
-          "?"
-        ],
-        "answer": "What,is,he,like,?",
-        "explanation": "句首大写，询问人的特征句型：What is he like?"
+        "explanation": "kind 意为亲切的、友善的；句意提示老师从不生气，适合用 kind 描述。",
+        "knowledge_point": "性格与外貌特征词汇",
+        "options": [],
+        "question": "Our head teacher is very ______. She never gets angry.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "安静的",
         "difficulty": 1,
+        "explanation": "quiet 的意思是“安静的；不爱说话的”，所以应选“安静的”。polite 是“有礼貌的”，clever 是“聪明的”，strict 是“严格的”。",
+        "knowledge_point": "性格与外貌特征词汇",
+        "options": [
+          "有礼貌的",
+          "聪明的",
+          "严格的",
+          "安静的"
+        ],
+        "question": "quiet 的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
+      },
+      {
+        "answer": "kind",
+        "difficulty": 1,
+        "explanation": "kind 的意思是“亲切的、友善的”。句子描述老师总是乐于帮助学生，最适合用 kind。",
+        "knowledge_point": "性格与外貌特征词汇",
+        "options": [
+          "strict",
+          "kind",
+          "quiet",
+          "thin"
+        ],
+        "question": "Our teacher always helps students with a smile. She is _____.（我们的老师总是微笑着帮助学生。她很_____。）",
+        "score": 5,
+        "type": "choice",
+        "id": 21
+      },
+      {
+        "answer": "What is he like?",
+        "difficulty": 2,
+        "explanation": "想询问一个人的性格或外貌特征，用“What + be 动词 + 主语 + like?”。句子“What is he like?”意为“他是什么样的人？”",
+        "knowledge_point": "询问人物特征的特殊疑问句",
+        "options": [
+          "Who is he?",
+          "What is he like?",
+          "What does he like?",
+          "Who he is?"
+        ],
+        "question": "你想知道一位男老师的性格或外貌特征，应该怎样提问？",
+        "score": 5,
+        "type": "choice",
+        "id": 22
+      },
+      {
+        "answer": "Is she kind?",
+        "difficulty": 1,
+        "explanation": "确认特征的一般疑问句结构是“Be 动词 + 主语 + 形容词？”，因此排列为“Is she kind?”。",
         "knowledge_point": "确认特征的一般疑问句",
-        "question": "连词成句：Is, kind, she, ?",
         "options": [
           "Is",
           "kind",
           "she",
           "?"
         ],
-        "answer": "Is,she,kind,?",
-        "explanation": "一般疑问句结构：Be动词+主语+形容词？"
+        "question": "连词成句：Is, kind, she, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "What is your sister like?",
+        "difficulty": 2,
+        "explanation": "询问你姐姐的性格或外貌特征，用“What + is + 人物 + like?”。",
+        "knowledge_point": "询问人物特征的特殊疑问句",
+        "options": [],
+        "question": "连词成句：your, sister, like, What, is, ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "Yes, it is.",
+        "difficulty": 2,
+        "explanation": "问句主语是单数名词“My dog”，回答时可用 it 代替，肯定回答为“Yes, it is.”。",
+        "knowledge_point": "确认特征的一般疑问句",
+        "options": [],
+        "question": "补全对话：— Is your dog friendly? — Yes, ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "A. happy",
+        "difficulty": 1,
+        "explanation": "happy 的词尾 y 发 /i/；其余三个单词中的 y 发 /aɪ/。",
+        "knowledge_point": "语音：字母y在词尾的发音",
+        "options": [
+          "A. happy",
+          "B. my",
+          "C. fly",
+          "D. sky"
+        ],
+        "question": "Which word has a final 'y' pronounced /i/?",
+        "score": 2,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "B. fly",
+        "difficulty": 1,
+        "explanation": "fly 的词尾 y 发 /aɪ/，与 try 中的 y 发音相同。",
+        "knowledge_point": "语音：字母y在词尾的发音",
+        "options": [
+          "A. baby",
+          "B. fly",
+          "C. sunny",
+          "D. candy"
+        ],
+        "question": "Which word has the same final 'y' sound as 'try'?",
+        "score": 2,
+        "type": "choice",
+        "id": 27
+      },
+      {
+        "answer": "i",
+        "difficulty": 1,
+        "explanation": "funny 的词尾 y 发 /i/，与 happy 的词尾 y 发音相同。",
+        "knowledge_point": "语音：字母y在词尾的发音",
+        "options": [],
+        "question": "Fill in the blank: The final 'y' in 'funny' sounds like /____/.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "my 的词尾 y 发 /aɪ/，而 baby 的词尾 y 发 /i/，两者不同。",
+        "knowledge_point": "语音：字母y在词尾的发音",
+        "options": [],
+        "question": "单词 'my' 和 'baby' 中的词尾 y 发音相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 29
       }
     ]
   },
@@ -720,6 +787,51 @@
         "与单音节词末尾发 /ai/ 的 y 混淆 (如 my, fly, sky)"
       ],
       "tips": "数一数单词中有几个音节，两个及以上的 y 通常发 /i/。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 strict（严格的）和 kind（亲切的）混淆。",
+        "hard-working（勤奋的）和 lazy（懒惰的）意思相反。",
+        "quiet 表示安静的、不爱说话的；polite 表示有礼貌的。",
+        "thin 表示瘦的，描述外貌；clever、kind 等描述性格或能力。"
+      ],
+      "core_concept": "用形容词描述人的性格和外貌。性格词包括 funny（有趣的；滑稽的）、strict（严格的）、hard-working（勤奋的）、polite（有礼貌的）、clever（聪明的）、quiet（安静的）、kind（亲切的；友善的）；外貌词包括 old（年老的）、thin（瘦的）。",
+      "key_formula": "主语 + be动词（am/is/are）+ 形容词。例：She is kind.（她很亲切。）也可用 and 连接多个形容词：He is funny and clever.（他既有趣又聪明。）",
+      "point": "性格与外貌特征词汇",
+      "tips": "记单词时可以把词义、例句和反义词一起记：hard-working—lazy，old—young；观察句子中的行为或提示语来判断应填的形容词。"
+    },
+    {
+      "common_mistakes": [
+        "Who 用来询问“谁”，回答通常是人物；What is ... like? 用来询问一个人的性格或外貌特征。",
+        "What is he like? 不能理解为“他喜欢什么”；询问喜好通常说 What does he like?",
+        "What's 是 What is 的缩写；疑问句中注意 be 动词放在主语前。"
+      ],
+      "core_concept": "询问人物时，若想知道“是谁”，用 Who；若想了解某人的性格或外貌特征，用“What + be 动词 + 主语 + like?”。回答时可用 kind、funny 等词描述性格，也可用 tall、strong 等词描述外貌或身材。",
+      "key_formula": "询问人物：Who + be 动词 + ...?；询问人物特征：What + be 动词 + 主语 + like?（如：What is he like? / What's she like?）",
+      "point": "询问人物特征的特殊疑问句",
+      "tips": "先看问题想了解什么：问“谁”选 Who；问性格或外貌选 What ... like? 回答人物特征时，可用“He/She is + 形容词.”。注意问喜好要用“What does ... like?”，不要与“What is ... like?”混淆。"
+    },
+    {
+      "common_mistakes": [
+        "回答时主语和 be 动词要与问句保持一致：Is he...? 对应 he，Is she...? 对应 she。",
+        "肯定回答用 Yes, 主语 + is；否定回答用 No, 主语 + isn't。",
+        "回答中不能把 Yes 和否定形式搭配，也不能把 No 和肯定形式搭配。",
+        "确认特征的一般疑问句要将 be 动词放在主语前面，句末使用问号。"
+      ],
+      "core_concept": "用 be 动词引导的一般疑问句确认某人的特征，常见结构是“Is + 主语 + 形容词？”。肯定回答为“Yes, 主语 + is.”，否定回答为“No, 主语 + isn't.”",
+      "key_formula": "Is + he/she/单数名词 + 形容词? — Yes, he/she/it is. / No, he/she/it isn't.",
+      "point": "确认特征的一般疑问句",
+      "tips": "先看问句中的主语，再选择对应的代词回答；注意问句中 Is 提前，答句中 is 放在主语后。"
+    },
+    {
+      "common_mistakes": [
+        "不要认为词尾的 y 总是发同一个音。",
+        "不要把词尾 y 发 /i/ 和发 /aɪ/ 混淆。"
+      ],
+      "core_concept": "字母 y 出现在单词词尾时，常见两种发音：在 happy、baby、sunny 等词中通常发 /i/；在 my、fly、sky 等词中通常发 /aɪ/。可以通过熟悉的单词和词形来辨认，但也要注意个别单词的读音需要单独记忆。",
+      "key_formula": "词尾 y：常见发音为 /i/ 或 /aɪ/；如 happy、sunny → /i/，my、fly → /aɪ/。",
+      "point": "语音：字母y在词尾的发音",
+      "tips": "先读完整单词，再比较词尾 y 的声音。可把单词分组记忆：happy、baby、sunny 一组；my、fly、sky 一组。"
     }
   ]
 }

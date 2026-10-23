@@ -107,6 +107,14 @@ class BatchTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(self.calls[0]["rate"], "-5%")
         self.assertEqual(self.calls[0]["voice"], "zh-CN-XiaoxiaoNeural")
 
+    async def test_isolated_phonetic_keeps_original_cache_identity(self):
+        entry = item(text="ǔ")
+        with patch.object(batch.edge_tts, "Communicate", self.stream_class()):
+            self.assertEqual(await self.synth(entry), (True, ""))
+        self.assertEqual(self.calls[0]["text"], "五")
+        self.assertTrue((self.root / entry["audio_rel"]).is_file())
+        self.assertEqual(entry["text"], "ǔ")
+
     async def test_existing_file_is_skipped(self):
         path = self.root / item()["audio_rel"]
         path.parent.mkdir()

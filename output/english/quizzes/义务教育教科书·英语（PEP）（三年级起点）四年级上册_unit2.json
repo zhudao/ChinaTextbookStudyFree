@@ -4,275 +4,273 @@
   "unit_number": 2,
   "unit_test": {
     "title": "Unit 2 My schoolbag 单元基础达标测",
-    "total_score": 100,
+    "total_score": 546,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "maths book 指数学书；语文书是 Chinese book。",
         "knowledge_point": "学习用品词汇",
+        "options": [],
         "question": "'maths book' 的中文意思是'语文书'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "maths book指的是数学书，语文书是Chinese book。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "What's in... 用于询问某处有什么物品，是特殊疑问句。",
         "knowledge_point": "句型识别",
+        "options": [],
         "question": "当你想询问书包里有什么时，可以说：'What's in your schoolbag?'",
-        "options": [],
-        "answer": "对",
-        "explanation": "What's in... 句型用于询问某处有什么物品。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "数量大于1时，可数名词通常要用复数。storybook 的复数是 storybooks，所以应说 three storybooks。",
         "knowledge_point": "名词复数",
+        "options": [],
         "question": "在英语中，'three storybook' 这种表达是正确的。",
-        "options": [],
-        "answer": "错",
-        "explanation": "数量大于1时，名词应该变复数，应为three storybooks。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "语音规律",
-        "question": "单词 'like' 和 'kite' 中元音字母 'i' 的发音相同。",
-        "options": [],
         "answer": "对",
-        "explanation": "在开音节结构 i...e 中，i 发双元音 /aɪ/。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 2,
-        "knowledge_point": "方位介词",
-        "question": "'under the desk' 表示在课桌里面。",
+        "explanation": "like 和 kite 都是 i + 辅音字母 + 不发音的 e 结构，其中 i 都发 /aɪ/。",
+        "knowledge_point": "语音规律",
         "options": [],
-        "answer": "错",
-        "explanation": "under表示在...下面，在里面应该用in。"
+        "question": "单词 'like' 和 'kite' 中元音字母 'i' 的发音相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "under 表示“在……下面”；“在课桌里面”应说 in the desk。",
+        "knowledge_point": "方位介词",
+        "options": [],
+        "question": "'under the desk' 表示在课桌里面。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "English",
         "difficulty": 1,
+        "explanation": "English 的开头发音是元音音素，因此前面用 an。句子意思是“我的书包里有一本英语书”。",
         "knowledge_point": "学习用品词汇",
-        "question": "I have an ______ book in my schoolbag.",
         "options": [
           "English",
           "maths",
           "Chinese",
           "storybook"
         ],
-        "answer": "English",
-        "explanation": "因为横线前是不定冠词an，所以后面接的单词必须以元音音素开头。"
+        "question": "I have an ______ book in my schoolbag.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "It",
         "difficulty": 1,
+        "explanation": "问句中的 it 指某个物品或事物，回答时也用 It 指代同一个事物。",
         "knowledge_point": "指代一致",
-        "question": "-What colour is it? -______ is blue.",
         "options": [
           "I",
           "It",
           "He",
           "She"
         ],
-        "answer": "It",
-        "explanation": "问句提问color，且代词用it，回答应用It指代物体。"
+        "question": "-What colour is it? -______ is blue.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "storybook",
         "difficulty": 1,
+        "explanation": "storybook 是“故事书”。故事书里通常有图画和故事，所以符合句意。",
         "knowledge_point": "词义辨析",
-        "question": "We read pictures and stories in a ______.",
         "options": [
           "maths book",
           "pencil box",
           "storybook",
           "ruler"
         ],
-        "answer": "storybook",
-        "explanation": "故事书（storybook）里包含图画和故事。"
+        "question": "We read pictures and stories in a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "on",
         "difficulty": 2,
+        "explanation": "把书放在头上，表示“在……上面”要用介词 on。注意，on 不是不定代词。",
         "knowledge_point": "不定代词",
-        "question": "-Put your book ______ your head. -OK.",
         "options": [
           "at",
           "on",
           "under",
           "near"
         ],
-        "answer": "on",
-        "explanation": "放书在头上，动作方位应为on（在...上面）。"
+        "question": "- Put your book ______ your head. - OK.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "new",
         "difficulty": 1,
+        "explanation": "new 表示“新的”。后句说书包很大，new 与语境相符；句子表达拥有一个新书包。",
         "knowledge_point": "形容词选择",
-        "question": "I have a ______ schoolbag. It's so big!",
         "options": [
           "new",
           "old",
           "small",
           "short"
         ],
-        "answer": "new",
-        "explanation": "语境表达兴奋拥有新书包，且后句描述big（大），new符合逻辑。"
+        "question": "I have a ______ schoolbag. It's so big!",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "Where",
         "difficulty": 2,
+        "explanation": "答语说明铅笔盒在桌子上，是在回答地点，因此用Where提问。",
         "knowledge_point": "疑问词",
-        "question": "-______ is your pencil box? -It's on the desk.",
         "options": [
           "What",
           "Where",
           "Who",
           "How"
         ],
-        "answer": "Where",
-        "explanation": "答语在描述方位（on the desk），提问用Where。"
+        "question": "-______ is your pencil box? -It's on the desk.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "Great!",
         "difficulty": 1,
+        "explanation": "Great! 常用于表达赞叹和称赞，意思是“太棒了！”或“太赞了！”。",
         "knowledge_point": "情景交际",
-        "question": "当你想表达“太棒了！”或“太赞了！”时，应该说：",
         "options": [
           "Excuse me.",
           "Good night.",
           "Great!",
           "Thank you."
         ],
-        "answer": "Great!",
-        "explanation": "Great用于表达赞叹和称赞。"
+        "question": "当你想表达“太棒了！”或“太赞了！”时，应该说：",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "candies",
         "difficulty": 3,
+        "explanation": "根据教材情景，表达书包里的多颗糖果，常用复数 candies。",
         "knowledge_point": "名词辨析",
-        "question": "Please put your ____ in your schoolbag.",
         "options": [
           "candies",
           "candy",
           "a candy",
           "the candy"
         ],
-        "answer": "candies",
-        "explanation": "根据教材情景，表达书包里的多颗糖果，常用复数candies。"
+        "question": "Please put your ____ in your schoolbag.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "four",
         "difficulty": 1,
+        "explanation": "数字顺序是 one（一）、two（二）、three（三）、four（四）、five（五），所以空格填 four。",
         "knowledge_point": "数词词义",
-        "question": "one, two, three, ______ , five.",
         "options": [
           "five",
           "four",
           "six",
           "ten"
         ],
-        "answer": "four",
-        "explanation": "考察数字序列，3和5之间是4。"
+        "question": "one, two, three, ______ , five.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "five",
         "difficulty": 2,
+        "explanation": "five 中的 i 发 /aɪ/；big、six、pig 中的 i 都发 /ɪ/。",
         "knowledge_point": "语音规律",
-        "question": "Which word has a different sound for 'i'?",
         "options": [
           "big",
           "six",
           "five",
           "pig"
         ],
-        "answer": "five",
-        "explanation": "five中的i发/aɪ/，其余三个单词i发/ɪ/。"
+        "question": "Which word has a different sound for 'i'?",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "拼写-书包",
-        "question": "Put your books into your s_________.",
-        "options": [],
         "answer": "schoolbag",
-        "explanation": "本单元主题词汇，书包的英文是schoolbag。"
-      },
-      {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "颜色词汇",
-        "question": "-What color is it? -It is ________ (黄色的).",
-        "options": [],
-        "answer": "yellow",
-        "explanation": "黄色译为yellow。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "询问书包内物品",
-        "question": "What's _____ your pencil box?",
-        "options": [],
-        "answer": "in",
-        "explanation": "询问在...里面，介词用in。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "书籍-数学",
-        "question": "I have one ______ book and two storybooks.",
-        "options": [],
-        "answer": "maths",
-        "explanation": "数学书对应maths book。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "本单元主题词汇，“书包”的英文是 schoolbag。可以拆成 school 和 bag 来记。",
+        "knowledge_point": "拼写-书包",
+        "options": [],
+        "question": "Put your books into your s_________.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
+      },
+      {
+        "answer": "yellow",
+        "difficulty": 2,
+        "explanation": "黄色的英语是 yellow。",
+        "knowledge_point": "颜色词汇",
+        "options": [],
+        "question": "-What color is it? -It is ________ (黄色的).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "in",
+        "difficulty": 2,
+        "explanation": "询问物品在文具盒里面时，使用介词 in。",
+        "knowledge_point": "询问书包内物品",
+        "options": [],
+        "question": "What's _____ your pencil box?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "maths",
+        "difficulty": 3,
+        "explanation": "数学书可以说 maths book。句中 one 后面接单数 book。",
+        "knowledge_point": "书籍-数学",
+        "options": [],
+        "question": "I have one ______ book and two storybooks.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-4，B-1，C-3，D-2",
+        "difficulty": 1,
+        "explanation": "storybook 是故事书，English book 是英语书，schoolbag 是书包，key 是钥匙。",
         "knowledge_point": "核心词汇译义",
-        "question": "将下列英文与中文意思连线。",
         "options": [
           "storybook",
           "English book",
@@ -283,36 +281,32 @@
           "书包",
           "故事书"
         ],
-        "answer": "A-4,B-1,C-3,D-2",
-        "explanation": "A故事书，B英语书，C书包，D钥匙。"
+        "question": "将下列英文与中文意思连线：A. storybook；B. English book；C. schoolbag；D. key。选项中的中文依次编号为1—4。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "It’s blue and white.",
         "difficulty": 2,
+        "explanation": "“What color is it?”是在询问颜色，应回答“It’s blue and white.”。",
         "knowledge_point": "情景交流连线",
-        "question": "将左侧问句与右侧正确答语连线。",
         "options": [
-          "Thank you so much.",
-          "What's in it?",
-          "What color is it?",
-          "Excuse me.",
-          "Yes?",
-          "It's blue and white.",
+          "It’s in the bag.",
+          "It’s blue and white.",
           "Many books.",
-          "You're welcome."
+          "You’re welcome."
         ],
-        "answer": "A-4,B-3,C-2,D-1",
-        "explanation": "感谢对应不客气，问内容对应物品，问颜色对应蓝白，打扰了对应回应。"
+        "question": "A: What color is it?  B: ____",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "I have a new schoolbag.",
         "difficulty": 2,
+        "explanation": "陈述句按“主语 + 谓语 + 其他部分”排列：I（主语）+ have（谓语）+ a new schoolbag（其他部分）。a new schoolbag 中，冠词 a 和形容词 new 放在名词 schoolbag 前。",
         "knowledge_point": "陈述句语序",
-        "question": "连词成句：have, I, new, a, schoolbag",
         "options": [
           "have",
           "I",
@@ -320,16 +314,16 @@
           "a",
           "schoolbag"
         ],
-        "answer": "I,have,a,new,schoolbag",
-        "explanation": "主+谓+宾结构：我有(I have)一个新书包(a new schoolbag)。"
+        "question": "连词成句：have, I, new, a, schoolbag",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "What,is,in,your,schoolbag",
         "difficulty": 3,
+        "explanation": "特殊疑问词 What 放在句首，句型为“What is in + 地点？”意思是“……里有什么？”",
         "knowledge_point": "疑问句语序",
-        "question": "连词成句：in, What, is, schoolbag, your",
         "options": [
           "in",
           "What",
@@ -337,8 +331,1543 @@
           "schoolbag",
           "your"
         ],
-        "answer": "What,is,in,your,schoolbag",
-        "explanation": "特殊疑问句：What is in + 地点？你的书包里有什么？"
+        "question": "连词成句：in, What, is, schoolbag, your",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "pencil 的意思是“铅笔”，所以应选 B。",
+        "knowledge_point": "学习用品及书籍词汇",
+        "options": [
+          "A. ruler",
+          "B. pencil",
+          "C. book"
+        ],
+        "question": "“铅笔”用英语怎么说？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "eraser",
+        "difficulty": 1,
+        "explanation": "eraser 意为“橡皮”，常用来擦掉铅笔写的字。",
+        "knowledge_point": "学习用品及书籍词汇",
+        "options": [],
+        "question": "填入表示“橡皮”的英语单词：I have an ____.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "book 的意思是“书”，这个句子正确。",
+        "knowledge_point": "学习用品及书籍词汇",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：A book is something we can read.（书是可以阅读的东西。）",
+        "score": 1,
+        "type": "true_false",
+        "id": 26
+      },
+      {
+        "answer": "A. notebook",
+        "difficulty": 2,
+        "explanation": "notebook 是“笔记本”；storybook 是“故事书”，ruler 是“尺子”。",
+        "knowledge_point": "学习用品及书籍词汇",
+        "options": [
+          "A. notebook",
+          "B. storybook",
+          "C. ruler"
+        ],
+        "question": "Which word means “笔记本”?",
+        "score": 1,
+        "type": "choice",
+        "id": 27
+      },
+      {
+        "answer": "books",
+        "difficulty": 2,
+        "explanation": "two 表示两个，book 要用复数形式 books。",
+        "knowledge_point": "学习用品及书籍词汇",
+        "options": [],
+        "question": "补全句子：I have two ______.（我有两本书。）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "an eraser",
+        "difficulty": 2,
+        "explanation": "eraser 以元音音素开头，前面用 an；ruler 以辅音音素开头，前面用 a。",
+        "knowledge_point": "学习用品及书籍词汇",
+        "options": [],
+        "question": "写出合适的词组：一块橡皮（____）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "What's in your schoolbag?",
+        "difficulty": 1,
+        "explanation": "询问“你的书包里有什么？”可用 What's in your schoolbag?",
+        "knowledge_point": "询问书包内物品",
+        "options": [],
+        "question": "根据中文写出英文：你的书包里有什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "A book.",
+        "difficulty": 1,
+        "explanation": "问句询问书包里有什么，可以用物品名称回答；一本书说 A book。",
+        "knowledge_point": "询问书包内物品",
+        "options": [],
+        "question": "— What's in your schoolbag? — _____",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "Is there a ruler in your schoolbag?",
+        "difficulty": 2,
+        "explanation": "询问书包里是否有一把尺子，可用 Is there a ruler in your schoolbag?",
+        "knowledge_point": "询问书包内物品",
+        "options": [],
+        "question": "根据中文写出英文：你的书包里有一把尺子吗？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "Yes, there is.",
+        "difficulty": 2,
+        "explanation": "问句以 Is there 开头，肯定回答用 Yes, there is.",
+        "knowledge_point": "询问书包内物品",
+        "options": [],
+        "question": "— Is there a pencil in your schoolbag? — _____",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "pencils",
+        "difficulty": 2,
+        "explanation": "some 后面可以接可数名词复数；pencil 的复数形式是 pencils。",
+        "knowledge_point": "询问书包内物品",
+        "options": [],
+        "question": "What's in your schoolbag? — Some _____.（铅笔）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "/aɪ/",
+        "difficulty": 1,
+        "explanation": "hi以元音字母i结尾，属于开音节，i读字母名称音 /aɪ/。",
+        "knowledge_point": "元音字母i在开音节中的发音",
+        "options": [],
+        "question": "单词 hi 中，字母 i 通常发什么音？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "time",
+        "difficulty": 1,
+        "explanation": "time中i后有一个辅音字母m，末尾e不发音，符合常见的“元音字母+辅音字母+不发音e”结构，i读 /aɪ/。",
+        "knowledge_point": "元音字母i在开音节中的发音",
+        "options": [
+          "sit",
+          "time",
+          "fish",
+          "milk"
+        ],
+        "question": "下列哪个单词中的字母 i 通常读 /aɪ/？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "bike末尾的e不发音，i在“i+一个辅音字母+k+不发音e”的结构中通常读 /aɪ/。",
+        "knowledge_point": "元音字母i在开音节中的发音",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断正误：bike 中的字母 i 通常读 /aɪ/。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "sit",
+        "difficulty": 2,
+        "explanation": "sit是常见的闭音节单词，其中i通常读短音 /ɪ/，与开音节中的 /aɪ/ 不同。",
+        "knowledge_point": "元音字母i在开音节中的发音",
+        "options": [],
+        "question": "在 hi、time、sit 中，哪个单词里的 i 通常不读 /aɪ/？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 38
+      },
+      {
+        "answer": "/aɪ/",
+        "difficulty": 2,
+        "explanation": "like中末尾e不发音，i后只有一个辅音字母k，i通常读 /aɪ/。",
+        "knowledge_point": "元音字母i在开音节中的发音",
+        "options": [],
+        "question": "like 中的字母 i 通常读作什么音？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "i",
+        "difficulty": 2,
+        "explanation": "在常见的“元音字母+辅音字母+不发音e”结构中，元音字母i通常读 /aɪ/，如 time、bike。",
+        "knowledge_point": "元音字母i在开音节中的发音",
+        "options": [],
+        "question": "补全规律：在 time、bike 这类“元音字母 + 一个辅音字母 + 不发音的 e”结构中，字母 ____ 通常读 /aɪ/。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "铅笔",
+        "difficulty": 1,
+        "explanation": "pencil 的意思是“铅笔”，属于常见的学习用品。",
+        "knowledge_point": "学习用品词汇",
+        "options": [],
+        "question": "pencil 的中文意思是________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 41
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "ruler 是“尺子”，A 项正确。pen 是钢笔，schoolbag 是书包。",
+        "knowledge_point": "学习用品词汇",
+        "options": [
+          "尺子",
+          "钢笔",
+          "书包",
+          "数学书"
+        ],
+        "question": "Which word means“尺子”?",
+        "score": 3,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "schoolbag 的意思是“书包”；钢笔是 pen。",
+        "knowledge_point": "学习用品词汇",
+        "options": [],
+        "question": "'schoolbag' 的中文意思是'书包'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 43
+      },
+      {
+        "answer": "a",
+        "difficulty": 2,
+        "explanation": "maths 以辅音音素开头，所以前面用 a。完整句子是“I have a maths book.”",
+        "knowledge_point": "学习用品词汇",
+        "options": [],
+        "question": "I have ______ maths book.（填 a 或 an）",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 44
+      },
+      {
+        "answer": "一般疑问句",
+        "difficulty": 1,
+        "explanation": "句子以 Are 开头，后面接主语 you，符合“Be动词 + 主语”的一般疑问句语序。",
+        "knowledge_point": "句型识别",
+        "options": [],
+        "question": "'Are you ready?' 属于哪种句型？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "特殊疑问句",
+        "difficulty": 1,
+        "explanation": "句子以 Where 开头，询问地点，属于特殊疑问句。",
+        "knowledge_point": "句型识别",
+        "options": [],
+        "question": "'Where is my book?' 属于哪种句型？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "Open 是动词原形，句子以动词开头，是请求或指令，因此属于祈使句。",
+        "knowledge_point": "句型识别",
+        "options": [
+          "A. She has a new pencil.",
+          "B. Is this your pencil?",
+          "C. Open your book, please.",
+          "D. What is your name?"
+        ],
+        "question": "下面哪一句是祈使句？",
+        "score": 2,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "How many",
+        "difficulty": 2,
+        "explanation": "How many 用于询问可数物品的数量；后面接名词复数 pencils。",
+        "knowledge_point": "句型识别",
+        "options": [],
+        "question": "补全句子：'_____ pencils do you have?'（你有多少支铅笔？）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 48
+      },
+      {
+        "answer": "This is my classroom.（答案不唯一）",
+        "difficulty": 2,
+        "explanation": "这是陈述句，用主语 This 和谓语 is 陈述教室的信息；句末使用句号。",
+        "knowledge_point": "句型识别",
+        "options": [],
+        "question": "用 This、is、my、classroom 组成一个陈述句，并加上正确标点。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "books",
+        "difficulty": 1,
+        "explanation": "book 是一般情况，变复数时在词尾加 -s。",
+        "knowledge_point": "名词复数",
+        "options": [],
+        "question": "把 book 变成复数：two ______.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "boxes",
+        "difficulty": 2,
+        "explanation": "以 x 结尾的名词变复数，通常在词尾加 -es，因此 box 变成 boxes。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "boxs",
+          "boxes",
+          "boxies",
+          "box"
+        ],
+        "question": "box 的复数形式是哪一个？",
+        "score": 2,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "babies",
+        "difficulty": 2,
+        "explanation": "baby 以辅音字母 b 加 y 结尾，变复数时把 y 改成 i，再加 -es。",
+        "knowledge_point": "名词复数",
+        "options": [],
+        "question": "把 baby 变成复数：two ______.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "children",
+        "difficulty": 2,
+        "explanation": "child 的复数形式是不规则变化，不能按一般规则写成 childs，需要记住 child—children。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "child"
+        ],
+        "question": "child 的复数形式是哪一个？",
+        "score": 2,
+        "type": "choice",
+        "id": 53
+      },
+      {
+        "answer": "feet",
+        "difficulty": 3,
+        "explanation": "foot 的复数形式是不规则变化，为 feet。句中有 two，所以要用复数：two feet。",
+        "knowledge_point": "名词复数",
+        "options": [],
+        "question": "补全句子：I have two ______.（foot）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 54
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "bike 中 i 后有辅音字母 k 和不发音的 e，i 常发 /aɪ/，与 time 中的 i 发音相同。",
+        "knowledge_point": "语音规律",
+        "options": [],
+        "question": "单词 'bike' 和 'time' 中字母 'i' 的发音相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 55
+      },
+      {
+        "answer": "sit",
+        "difficulty": 2,
+        "explanation": "sit 中的 i 发 /ɪ/；其余三个单词中的 i 都发 /aɪ/。",
+        "knowledge_point": "语音规律",
+        "options": [
+          "sit",
+          "five",
+          "nine",
+          "kite"
+        ],
+        "question": "Which word has the /ɪ/ sound for 'i'?",
+        "score": 5,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "a",
+        "difficulty": 1,
+        "explanation": "fish 的 i 发短元音 /ɪ/，像 big 中的 i；like 中的 i 发 /aɪ/。",
+        "knowledge_point": "语音规律",
+        "options": [],
+        "question": "fish 中的字母 i 发音更接近（  ）。A. big 中的 i  B. like 中的 i",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 57
+      },
+      {
+        "answer": " /aɪ/",
+        "difficulty": 2,
+        "explanation": "在常见的 i + 辅音字母 + 不发音的 e 结构中，i 通常发 /aɪ/，如 kite。",
+        "knowledge_point": "语音规律",
+        "options": [],
+        "question": "在单词 'kite' 中，字母 i 通常发音为 ______。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "on 表示“在……上面”，所以“球在椅子上”是 The ball is on the chair.",
+        "knowledge_point": "方位介词",
+        "options": [
+          "A. The ball is in the chair.",
+          "B. The ball is on the chair.",
+          "C. The ball is under the chair."
+        ],
+        "question": "“球在椅子上。”用英语怎么说？",
+        "score": 2,
+        "type": "choice",
+        "id": 59
+      },
+      {
+        "answer": "under",
+        "difficulty": 1,
+        "explanation": "under 表示“在……下面”。句意是猫在桌子下面。",
+        "knowledge_point": "方位介词",
+        "options": [],
+        "question": "The cat is ____ the table.（猫在桌子下面。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 60
+      },
+      {
+        "answer": "in",
+        "difficulty": 2,
+        "explanation": "in 表示“在……里面”，表示球在盒子内部。",
+        "knowledge_point": "方位介词",
+        "options": [],
+        "question": "The ball is ____ the box.（球在盒子里。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 61
+      },
+      {
+        "answer": "The dog is behind the door.",
+        "difficulty": 2,
+        "explanation": "behind 表示“在……后面”，句型为“主语 + is + 方位介词短语”。",
+        "knowledge_point": "方位介词",
+        "options": [],
+        "question": "把句子中的词语连成句子：the dog / behind the door / is",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "next to",
+        "difficulty": 2,
+        "explanation": "next to 表示“在……旁边”。整句意思是“我的书包在椅子旁边”。",
+        "knowledge_point": "方位介词",
+        "options": [],
+        "question": "My schoolbag is ____ the chair.（我的书包在椅子旁边。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 63
+      },
+      {
+        "answer": "They",
+        "difficulty": 1,
+        "explanation": "问句中的 these 指两个或两个以上的物品，因此回答时用 They 指代这些物品。",
+        "knowledge_point": "指代一致",
+        "options": [
+          "It",
+          "They",
+          "He",
+          "She"
+        ],
+        "question": "-What are these? -______ are apples.",
+        "score": 5,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "She",
+        "difficulty": 1,
+        "explanation": "句子中的 my mother 指一位女性，因此用 She 指代她。",
+        "knowledge_point": "指代一致",
+        "options": [
+          "He",
+          "She",
+          "It",
+          "They"
+        ],
+        "question": "My mother is a teacher. ______ is kind.",
+        "score": 5,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "They",
+        "difficulty": 2,
+        "explanation": "Tom and Ben 是两个人，属于复数，所以用 They 指代。",
+        "knowledge_point": "指代一致",
+        "options": [
+          "He",
+          "She",
+          "It",
+          "They"
+        ],
+        "question": "Tom and Ben are friends. ______ play together.",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "The dog is one animal, so it is referred to as “it.” The sentence is correct.",
+        "knowledge_point": "指代一致",
+        "options": [],
+        "question": "判断正误：The dog is small. It has a short tail.",
+        "score": 5,
+        "type": "true_false",
+        "id": 67
+      },
+      {
+        "answer": "they",
+        "difficulty": 2,
+        "explanation": "The boys 是多个男孩，后面的代词应使用 they，而不是 he。",
+        "knowledge_point": "指代一致",
+        "options": [],
+        "question": "The boys are playing football. ______ are happy.（填入合适的代词）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 68
+      },
+      {
+        "answer": "apple",
+        "difficulty": 1,
+        "explanation": "apple 是“苹果”，是可以吃的水果，符合句意。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "apple",
+          "chair",
+          "crayon",
+          "clock"
+        ],
+        "question": "I am hungry. I want to eat an ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "bed",
+        "difficulty": 1,
+        "explanation": "bed 是“床”。晚上睡觉通常会躺在床上。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "desk",
+          "bed",
+          "door",
+          "bag"
+        ],
+        "question": "I sleep in my ______ at night.",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "rainy",
+        "difficulty": 2,
+        "explanation": "rainy 意为“下雨的”。句子说人们要带雨伞，说明天气可能在下雨。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "sunny",
+          "rainy",
+          "cold",
+          "warm"
+        ],
+        "question": "It is ______ today. People are carrying umbrellas.",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "library",
+        "difficulty": 2,
+        "explanation": "library 是“图书馆”，可以在里面借书。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "library",
+          "classroom",
+          "kitchen",
+          "playground"
+        ],
+        "question": "We can borrow books from the ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "small",
+        "difficulty": 2,
+        "explanation": "small 意为“小的”。句子说盒子装不下这本大书，因此盒子应该很小。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "big",
+          "small",
+          "long",
+          "new"
+        ],
+        "question": "The box is too ______ for this big book. The book cannot fit inside.",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "something",
+        "difficulty": 1,
+        "explanation": "肯定句中表示“某样东西”，常用 something。句意：我想吃点东西。",
+        "knowledge_point": "不定代词",
+        "options": [
+          "something",
+          "anything",
+          "nothing",
+          "everything"
+        ],
+        "question": "I am hungry. I want to eat ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "any",
+        "difficulty": 2,
+        "explanation": "这是一般疑问句，询问是否有苹果，通常用 any。句意：你有苹果吗？",
+        "knowledge_point": "不定代词",
+        "options": [
+          "some",
+          "any",
+          "every",
+          "no"
+        ],
+        "question": "Do you have ______ apples?",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "Everyone",
+        "difficulty": 2,
+        "explanation": "Everyone 表示“每个人”，常看作单数；主语为第三人称单数，因此用 likes。句意：班上的每个人都喜欢这只小猫。",
+        "knowledge_point": "不定代词",
+        "options": [
+          "Everyone",
+          "Anything",
+          "Nothing",
+          "Some"
+        ],
+        "question": "______ in our class likes the little cat.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "anything",
+        "difficulty": 2,
+        "explanation": "否定句中常用 anything 表示“任何东西”。句意：盒子里没有任何东西。",
+        "knowledge_point": "不定代词",
+        "options": [
+          "something",
+          "anything",
+          "everything",
+          "someone"
+        ],
+        "question": "There isn't ______ in the box.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "nothing",
+        "difficulty": 1,
+        "explanation": "Nothing 表示“没有东西”。句意：桌上什么也没有。",
+        "knowledge_point": "不定代词",
+        "options": [],
+        "question": "There is ______ on the desk.（桌上什么也没有。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 78
+      },
+      {
+        "answer": "big",
+        "difficulty": 1,
+        "explanation": "big 表示“大”。后一句说大象很大，因此用 big 描述大象最合适。",
+        "knowledge_point": "形容词选择",
+        "options": [
+          "big",
+          "small",
+          "short",
+          "young"
+        ],
+        "question": "The elephant is very ______. It is much bigger than a cat.",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "cold",
+        "difficulty": 1,
+        "explanation": "cold 表示“冷的”。句子说天气寒冷，所以穿上外套是合理的。",
+        "knowledge_point": "形容词选择",
+        "options": [
+          "hot",
+          "cold",
+          "tall",
+          "new"
+        ],
+        "question": "It's ______ today. Please put on your coat.",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "clean",
+        "difficulty": 2,
+        "explanation": "clean 表示“干净的”。桌子上没有灰尘，说明桌子很干净。",
+        "knowledge_point": "形容词选择",
+        "options": [
+          "dirty",
+          "clean",
+          "hungry",
+          "young"
+        ],
+        "question": "There is no dust on the desk. It is ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "hungry",
+        "difficulty": 2,
+        "explanation": "hungry 表示“饿的”。想吃午饭说明这个人饿了。",
+        "knowledge_point": "形容词选择",
+        "options": [
+          "thirsty",
+          "happy",
+          "hungry",
+          "strong"
+        ],
+        "question": "I want to eat my lunch now. I am ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "long",
+        "difficulty": 2,
+        "explanation": "long 表示“长的”。句子说这条蛇比尺子长，因此用 long 描述蛇。",
+        "knowledge_point": "形容词选择",
+        "options": [
+          "short",
+          "long",
+          "old",
+          "small"
+        ],
+        "question": "The snake is ______. It is longer than the ruler.",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "Who",
+        "difficulty": 1,
+        "explanation": "答语是一个人的姓名，说明问题询问的是人物，因此用Who。",
+        "knowledge_point": "疑问词",
+        "options": [
+          "Who",
+          "Where",
+          "When",
+          "What"
+        ],
+        "question": "-______ is that girl? -She is Amy.",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "What",
+        "difficulty": 1,
+        "explanation": "答语说的是喜欢的水果，问题询问“喜欢什么”，所以用What。",
+        "knowledge_point": "疑问词",
+        "options": [
+          "When",
+          "What",
+          "Who",
+          "Where"
+        ],
+        "question": "-______ do you like? -I like apples.",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "When",
+        "difficulty": 2,
+        "explanation": "答语中的“at seven”表示时间，因此用When询问什么时候。",
+        "knowledge_point": "疑问词",
+        "options": [
+          "How",
+          "Who",
+          "When",
+          "Where"
+        ],
+        "question": "-______ do you get up? -At seven.",
+        "score": 5,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "How old",
+        "difficulty": 2,
+        "explanation": "答语说明年龄是十岁，询问年龄要用How old。",
+        "knowledge_point": "疑问词",
+        "options": [
+          "How old",
+          "What",
+          "Where",
+          "Who"
+        ],
+        "question": "-______ are you? -I'm ten years old.",
+        "score": 5,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "How",
+        "difficulty": 2,
+        "explanation": "答语说明去学校的方式是乘公共汽车，询问方式用How。",
+        "knowledge_point": "疑问词",
+        "options": [
+          "Where",
+          "Who",
+          "How",
+          "When"
+        ],
+        "question": "-______ do you go to school? -By bus.",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "Thank you.",
+        "difficulty": 1,
+        "explanation": "别人帮助了你，你可以说 Thank you. 来表示感谢。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "Thank you.",
+          "Good night.",
+          "I'm sorry.",
+          "Hello."
+        ],
+        "question": "同学帮你捡起了掉在地上的书，你应该说：",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "I'm sorry.",
+        "difficulty": 1,
+        "explanation": "不小心碰到别人时，可以说 I'm sorry. 表示道歉。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "Good morning.",
+          "I'm sorry.",
+          "You're welcome.",
+          "See you."
+        ],
+        "question": "你不小心碰到了同学，应该说：",
+        "score": 5,
+        "type": "choice",
+        "id": 90
+      },
+      {
+        "answer": "Good morning.",
+        "difficulty": 1,
+        "explanation": "早上见到老师时，可以用 Good morning. 问候。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "Good night.",
+          "Good morning.",
+          "Thank you.",
+          "I'm fine."
+        ],
+        "question": "早上在学校遇见老师，你可以说：",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "You're welcome.",
+        "difficulty": 1,
+        "explanation": "别人对你说 Thank you. 时，可以回答 You're welcome.，意思是“不客气”。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "You're welcome.",
+          "I'm sorry.",
+          "Good afternoon.",
+          "Excuse me."
+        ],
+        "question": "别人对你说“Thank you.”，你可以回答：",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "Excuse me.",
+        "difficulty": 1,
+        "explanation": "想礼貌地打断别人或引起别人的注意时，可以说 Excuse me.。",
+        "knowledge_point": "情景交际",
+        "options": [
+          "Good night.",
+          "Great!",
+          "Excuse me.",
+          "Thank you."
+        ],
+        "question": "你想礼貌地问老师一个问题，可以先说：",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "an",
+        "difficulty": 1,
+        "explanation": "apple 是以元音音素开头的可数名词单数，前面用 an。",
+        "knowledge_point": "名词辨析",
+        "options": [
+          "a",
+          "an",
+          "some",
+          "many"
+        ],
+        "question": "I have ____ apple in my lunch box.",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "milk 是不可数名词",
+        "difficulty": 2,
+        "explanation": "句子中 milk 表示牛奶，通常作不可数名词，不加 a/an，也通常不变复数。因此 milk 是不可数名词。",
+        "knowledge_point": "名词辨析",
+        "options": [
+          "book 是可数名词",
+          "milk 是不可数名词",
+          "apples 是可数名词复数",
+          "candy 一定是可数名词"
+        ],
+        "question": "Which sentence correctly uses an uncountable noun?（哪句话正确使用了不可数名词？）",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "boxes",
+        "difficulty": 2,
+        "explanation": "box 以 x 结尾，变复数时通常加 -es，写作 boxes。",
+        "knowledge_point": "名词辨析",
+        "options": [
+          "boxs",
+          "boxes",
+          "boxies",
+          "a box"
+        ],
+        "question": "There are three ____ under the desk.",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "feet",
+        "difficulty": 3,
+        "explanation": "foot 的复数形式是不规则变化 feet。句中 two 表示两个，因此用复数。",
+        "knowledge_point": "名词辨析",
+        "options": [
+          "foots",
+          "foot",
+          "feet",
+          "a feet"
+        ],
+        "question": "The elephant has four ____ .",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "不可数名词",
+        "difficulty": 2,
+        "explanation": "句子中的 water 表示“水”，通常是不可数名词，不加 a/an，也通常不变复数。",
+        "knowledge_point": "名词辨析",
+        "options": [
+          "可数名词",
+          "不可数名词",
+          "可数名词复数",
+          "专有名词"
+        ],
+        "question": "判断句中 water 的类别：We drink water every day.",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "three",
+        "difficulty": 1,
+        "explanation": "Three 表示数字3，two 表示数字2。",
+        "knowledge_point": "数词词义",
+        "options": [
+          "three",
+          "four",
+          "five",
+          "six"
+        ],
+        "question": "Which word means 数字3?",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "eight",
+        "difficulty": 1,
+        "explanation": "seven（七）之后是 eight（八），再之后是 nine（九）。",
+        "knowledge_point": "数词词义",
+        "options": [
+          "six",
+          "seven",
+          "eight",
+          "nine"
+        ],
+        "question": "seven, ______, nine.",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "two",
+        "difficulty": 1,
+        "explanation": "Two 表示数字2。图中有两只猫，所以应填 two。",
+        "knowledge_point": "数词词义",
+        "options": [],
+        "question": "There are ______ cats: 🐈 🐈",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "five",
+        "difficulty": 1,
+        "explanation": "Four 表示4，five 表示5，因此数字4的英文是 five。",
+        "knowledge_point": "数词词义",
+        "options": [],
+        "question": "数字5用英语怎么说？______",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 102
+      },
+      {
+        "answer": "ten",
+        "difficulty": 2,
+        "explanation": "从1数到10，最后一个数词是 ten，表示数字10。",
+        "knowledge_point": "数词词义",
+        "options": [
+          "eight",
+          "nine",
+          "ten",
+          "seven"
+        ],
+        "question": "Which word means 数字10?",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "schoolbag",
+        "difficulty": 1,
+        "explanation": "图片中的书包用英文说是 schoolbag。",
+        "knowledge_point": "拼写-书包",
+        "options": [],
+        "question": "I have a new __________.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "schoolbag",
+        "difficulty": 1,
+        "explanation": "“书包”由 school 和 bag 组成，合写为 schoolbag。",
+        "knowledge_point": "拼写-书包",
+        "options": [],
+        "question": "Spell the word: 书包 = __________.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "schoolbag",
+        "difficulty": 2,
+        "explanation": "句子表示“这是我的书包”，所以空格处填 schoolbag。",
+        "knowledge_point": "拼写-书包",
+        "options": [],
+        "question": "This is my s_________.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 106
+      },
+      {
+        "answer": "schoolbag",
+        "difficulty": 2,
+        "explanation": "schoolbag 拼写为 s-c-h-o-o-l-b-a-g，注意 school 与 bag 连写。",
+        "knowledge_point": "拼写-书包",
+        "options": [],
+        "question": "Complete the word: s c h o o l b a __.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "schoolbag",
+        "difficulty": 2,
+        "explanation": "“我把铅笔盒放进书包里”中的“书包”是 schoolbag。",
+        "knowledge_point": "拼写-书包",
+        "options": [],
+        "question": "I put my pencil case in my __________.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 108
+      },
+      {
+        "answer": "red",
+        "difficulty": 1,
+        "explanation": "红色的英语是 red。",
+        "knowledge_point": "颜色词汇",
+        "options": [],
+        "question": "The apple is ________.（红色的）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "blue",
+        "difficulty": 1,
+        "explanation": "蓝色的英语是 blue。",
+        "knowledge_point": "颜色词汇",
+        "options": [],
+        "question": "My bag is ________.（蓝色的）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "green",
+        "difficulty": 1,
+        "explanation": "绿色的英语是 green。",
+        "knowledge_point": "颜色词汇",
+        "options": [],
+        "question": "Grass is ________.（绿色的）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "black",
+        "difficulty": 1,
+        "explanation": "黑色的英语是 black。",
+        "knowledge_point": "颜色词汇",
+        "options": [],
+        "question": "A black cat is ________.（黑色的）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "white",
+        "difficulty": 1,
+        "explanation": "白色的英语是 white。",
+        "knowledge_point": "颜色词汇",
+        "options": [],
+        "question": "Snow is ________.（白色的）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "maths",
+        "difficulty": 1,
+        "explanation": "“数学书”可以说 a maths book。",
+        "knowledge_point": "书籍-数学",
+        "options": [],
+        "question": "I have a ______ book.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "maths book",
+        "difficulty": 2,
+        "explanation": "maths 表示“数学”，book 表示“书”，合起来是 maths book。",
+        "knowledge_point": "书籍-数学",
+        "options": [],
+        "question": "A ______ is a book for learning numbers and sums.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "maths book 的意思是“数学书”。",
+        "knowledge_point": "书籍-数学",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“Maths book” means “数学书”.",
+        "score": 5,
+        "type": "true_false",
+        "id": 116
+      },
+      {
+        "answer": "books",
+        "difficulty": 2,
+        "explanation": "two 表示“两本”，后面的可数名词 book 要用复数 books。",
+        "knowledge_point": "书籍-数学",
+        "options": [],
+        "question": "I have two maths ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "maths",
+        "difficulty": 2,
+        "explanation": "在英式英语中，“数学”常写作 maths，所以“数学书”是 maths book。",
+        "knowledge_point": "书籍-数学",
+        "options": [
+          "maths",
+          "music",
+          "story"
+        ],
+        "question": "Which word completes “a ______ book” to mean “一本数学书”?",
+        "score": 5,
+        "type": "choice",
+        "id": 118
+      },
+      {
+        "answer": "故事书",
+        "difficulty": 1,
+        "explanation": "storybook 的意思是“故事书”。",
+        "knowledge_point": "核心词汇译义",
+        "options": [],
+        "question": "storybook 的中文意思是______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 119
+      },
+      {
+        "answer": "English book",
+        "difficulty": 1,
+        "explanation": "“英语书”用英语说是 English book。",
+        "knowledge_point": "核心词汇译义",
+        "options": [],
+        "question": "“英语书”的英文是______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 120
+      },
+      {
+        "answer": "书包",
+        "difficulty": 1,
+        "explanation": "schoolbag 的意思是“书包”。",
+        "knowledge_point": "核心词汇译义",
+        "options": [
+          "A. 钥匙",
+          "B. 书包",
+          "C. 故事书",
+          "D. 英语书"
+        ],
+        "question": "schoolbag 的中文意思是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 121
+      },
+      {
+        "answer": "key",
+        "difficulty": 1,
+        "explanation": "“钥匙”用英语说是 key。",
+        "knowledge_point": "核心词汇译义",
+        "options": [
+          "A. storybook",
+          "B. English book",
+          "C. schoolbag",
+          "D. key"
+        ],
+        "question": "哪个英文单词的意思是“钥匙”？",
+        "score": 1,
+        "type": "choice",
+        "id": 122
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "English book 表示“英语书”，storybook 表示“故事书”，两者意思不同。",
+        "knowledge_point": "核心词汇译义",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断正误：English book 的意思是“英语书”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 123
+      },
+      {
+        "answer": "I’m fine, thank you.",
+        "difficulty": 1,
+        "explanation": "“How are you?”是在询问近况，合适的回答是“I’m fine, thank you.”",
+        "knowledge_point": "情景交流连线",
+        "options": [
+          "I’m ten.",
+          "I’m fine, thank you.",
+          "My name is Lily.",
+          "It’s a book."
+        ],
+        "question": "你遇见朋友，问：“How are you?” 哪个回答最合适？",
+        "score": 5,
+        "type": "choice",
+        "id": 124
+      },
+      {
+        "answer": "On the desk.",
+        "difficulty": 2,
+        "explanation": "“Where is my pencil?”是在问铅笔在哪里；“On the desk.”是合适的回答。",
+        "knowledge_point": "情景交流连线",
+        "options": [
+          "Sure.",
+          "On the desk.",
+          "Yes, please.",
+          "It’s blue."
+        ],
+        "question": "A: Where is my pencil? 选择合适的答语。",
+        "score": 5,
+        "type": "choice",
+        "id": 125
+      },
+      {
+        "answer": "A. I’m sorry. — That’s OK.",
+        "difficulty": 2,
+        "explanation": "“I’m sorry.”表示道歉，合适的回应是“That’s OK.”；“You’re welcome.”回应感谢，“See you.”用于告别。",
+        "knowledge_point": "情景交流连线",
+        "options": [
+          "A. I’m sorry. — That’s OK.",
+          "A. I’m sorry. — You’re welcome.",
+          "A. I’m sorry. — See you.",
+          "A. I’m sorry. — What colour is it?"
+        ],
+        "question": "别人说“I’m sorry.”时，哪句话是合适的回应？",
+        "score": 5,
+        "type": "choice",
+        "id": 126
+      },
+      {
+        "answer": "I have three pencils.",
+        "difficulty": 3,
+        "explanation": "“How many”询问数量，问句中的 pencils 指铅笔，因此回答“I have three pencils.”最合适。",
+        "knowledge_point": "情景交流连线",
+        "options": [
+          "I have three pencils.",
+          "It’s sunny.",
+          "I’d like an apple.",
+          "They are blue."
+        ],
+        "question": "A: How many pencils do you have? 选择合适的答语。",
+        "score": 5,
+        "type": "choice",
+        "id": 127
+      },
+      {
+        "answer": "It’s ten yuan.",
+        "difficulty": 3,
+        "explanation": "“How much is it?”是在询问价格，合适的回答是“It’s ten yuan.”，意思是“十元”。",
+        "knowledge_point": "情景交流连线",
+        "options": [
+          "Of course.",
+          "It’s ten yuan.",
+          "Size M, please.",
+          "Thank you."
+        ],
+        "question": "在服装店里，店员指着一件衣服问：“How much is it?” 哪个回答最合适？",
+        "score": 5,
+        "type": "choice",
+        "id": 128
+      },
+      {
+        "answer": "She likes apples.",
+        "difficulty": 1,
+        "explanation": "She 是主语，likes 是谓语，apples 是宾语，按“主语 + 谓语 + 宾语”的顺序排列。句首首字母大写，句末加句号。",
+        "knowledge_point": "陈述句语序",
+        "options": [],
+        "question": "连词成句：apples, likes, She",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "The cat is small.",
+        "difficulty": 1,
+        "explanation": "The cat 是主语，is 是谓语，small 补充说明猫的样子。句子的顺序是“主语 + 谓语 + 其他部分”。",
+        "knowledge_point": "陈述句语序",
+        "options": [],
+        "question": "连词成句：small, is, The cat",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "Tom reads a book.",
+        "difficulty": 2,
+        "explanation": "Tom 是主语，reads 是谓语，a book 是宾语。陈述句中主语通常放在谓语前。",
+        "knowledge_point": "陈述句语序",
+        "options": [],
+        "question": "连词成句：a book, reads, Tom",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 131
+      },
+      {
+        "answer": "We play football after school.",
+        "difficulty": 2,
+        "explanation": "We 是主语，play 是谓语，football 是宾语，after school 表示时间，放在句子后面。",
+        "knowledge_point": "陈述句语序",
+        "options": [],
+        "question": "连词成句：after school, football, We, play",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
+      },
+      {
+        "answer": "My brother has a red kite.",
+        "difficulty": 2,
+        "explanation": "My brother 是主语，has 是谓语，a red kite 是宾语。名词短语中，冠词 a、形容词 red 和名词 kite 按此顺序排列。",
+        "knowledge_point": "陈述句语序",
+        "options": [],
+        "question": "连词成句：a, has, kite, My brother, red",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 133
+      },
+      {
+        "answer": "Is, she, your, sister",
+        "difficulty": 2,
+        "explanation": "含 be 动词的一般疑问句要把 Is 放在主语 she 前面，句末加问号。",
+        "knowledge_point": "疑问句语序",
+        "options": [],
+        "question": "连词成句：she, Is, your, sister",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 134
+      },
+      {
+        "answer": "Where, are, my, shoes",
+        "difficulty": 2,
+        "explanation": "特殊疑问词 Where 放在句首，be 动词 are 放在主语 my shoes 前。",
+        "knowledge_point": "疑问句语序",
+        "options": [],
+        "question": "连词成句：are, Where, my, shoes",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 135
+      },
+      {
+        "answer": "Do, you, like, milk",
+        "difficulty": 2,
+        "explanation": "含行为动词 like 的一般疑问句，在主语 you 前用助动词 Do。",
+        "knowledge_point": "疑问句语序",
+        "options": [],
+        "question": "连词成句：you, Do, like, milk",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 136
+      },
+      {
+        "answer": "Who, is, in, the, room",
+        "difficulty": 3,
+        "explanation": "Who 在句中询问“谁”并作主语，因此直接接谓语 is，不需要把主语另行放到 is 后面。",
+        "knowledge_point": "疑问句语序",
+        "options": [],
+        "question": "连词成句：is, Who, in, the, room",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "Does, Tom, play, football",
+        "difficulty": 3,
+        "explanation": "主语 Tom 是第三人称单数，行为动词 play 的一般疑问句要用 Does 放在主语前；用了 Does，play 保持原形。",
+        "knowledge_point": "疑问句语序",
+        "options": [],
+        "question": "连词成句：play, Does, Tom, football",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 138
       }
     ]
   },
@@ -710,6 +2239,257 @@
         "不理解e在结尾不发音的规律"
       ],
       "tips": "记住口诀：'有e发大音，没e发短音'。"
+    },
+    {
+      "common_mistakes": [
+        "把单词拼写相近的物品混淆，如 book（书）和 notebook（笔记本）。",
+        "忘记名词单复数：one pencil, two pencils。",
+        "把 a 和 an 用错：a book, an eraser。"
+      ],
+      "core_concept": "学习用品及书籍词汇用于谈论课堂和阅读时常见的物品。学习时要掌握单词的意思、拼写和常见搭配，并注意单数与复数形式。",
+      "key_formula": "What’s this? — It’s a/an + 单数物品。What are these? — They’re + 复数物品。",
+      "point": "学习用品及书籍词汇",
+      "tips": "可按用途记忆词汇：书写用品（pen, pencil, crayon）、课堂用品（ruler, eraser, schoolbag）、书籍与纸张（book, notebook, storybook, paper）。看到单个物品可用 a/an；看到多个物品时，通常在名词后加 -s。"
+    },
+    {
+      "common_mistakes": [
+        "询问物品在书包或文具盒里时，常用介词 in，不能漏掉。",
+        "What's 是 What is 的缩写；回答时要根据物品的单复数选择 There is 或 There are。",
+        "询问具体物品时，记得在问句中使用 a/an 或复数形式。"
+      ],
+      "core_concept": "询问书包内有什么，常用句型：What's in your schoolbag?（你的书包里有什么？）询问书包内是否有某物，可以说：Is there a/an ... in your schoolbag?（你的书包里有……吗？）",
+      "key_formula": "What's in your schoolbag? — A/an ... / Some ...；Is there a/an ... in your schoolbag? — Yes, there is. / No, there isn't.",
+      "point": "询问书包内物品",
+      "tips": "schoolbag 表示“书包”，pencil box 表示“文具盒”。询问里面有什么时，What's 后接 in；回答多个物品时，名词通常用复数，如 books、pencils。"
+    },
+    {
+      "common_mistakes": [
+        "把开音节理解为“以元音字母结尾的音节”这一种情况；实际上，以不发音的e结尾、且前面只有一个辅音字母的音节也常是开音节。",
+        "把字母i在开音节中的发音读成短音 /ɪ/，例如把 time 中的i读成 sit 中的i。",
+        "忽略单词的音节划分，直接根据字母i判断发音。"
+      ],
+      "core_concept": "在许多开音节中，元音字母i读字母名称音 /aɪ/，类似字母I的读音。常见情况包括以i结尾的音节，如 hi、ti-ger 的第一个音节ti；以及“元音字母+辅音字母+不发音的e”结构，如 time、bike 中的i。",
+      "key_formula": "开音节中的 i 通常读 /aɪ/：i（音节末尾），或 i + 一个辅音字母 + 不发音的 e，例如 hi、time、bike。",
+      "point": "元音字母i在开音节中的发音",
+      "tips": "记忆时可以把 i 的字母名称音 /aɪ/ 和开音节联系起来。练习朗读时先比较 hi、time、bike，再与 sit、fish 对照，听出 /aɪ/ 和 /ɪ/ 的区别。"
+    },
+    {
+      "common_mistakes": [
+        "把 maths book（数学书）和 Chinese book（语文书）混淆。",
+        "使用 a 或 an 时只看单词的第一个字母，忽略单词开头的发音。",
+        "把 pencil case（铅笔盒）和 schoolbag（书包）混淆。"
+      ],
+      "core_concept": "学习用品词汇用于描述上学时常见的书本、文具和收纳用品。学习词汇时要记住英文拼写、中文意思，并在句子中正确使用。",
+      "key_formula": "I have a/an + 学习用品.（我有……。）以元音音素开头的单词前通常用 an，如 an English book；其他情况通常用 a，如 a maths book。",
+      "point": "学习用品词汇",
+      "tips": "可以把单词和实物或图片配对记忆，再用“I have a/an …”造句。常见词汇：book（书）、English book（英语书）、maths book（数学书）、Chinese book（语文书）、pencil（铅笔）、pen（钢笔）、ruler（尺子）、schoolbag（书包）。"
+    },
+    {
+      "common_mistakes": [
+        "把陈述句的语序误用于一般疑问句。",
+        "忘记在疑问句末尾使用问号。",
+        "混淆询问物品、位置和数量的句型。"
+      ],
+      "core_concept": "根据交际目的和句子结构识别句型。常见句型包括陈述句、一般疑问句、特殊疑问句和祈使句。",
+      "key_formula": "陈述句：主语 + 谓语；一般疑问句：Be动词/助动词 + 主语 + 其他？；特殊疑问句：疑问词 + 一般疑问句语序？；祈使句：动词原形开头。",
+      "point": "句型识别",
+      "tips": "看到 What、Where、How many 等疑问词时，通常是在提问；看到 Be动词或助动词开头的问句，通常是一般疑问句；以动词原形开头的句子可能是祈使句。"
+    },
+    {
+      "common_mistakes": [
+        "数量大于1时，通常要把可数名词变成复数。",
+        "以 s、x、ch、sh 结尾的名词，复数通常加 -es。",
+        "以辅音字母加 y 结尾的名词，通常先把 y 改成 i，再加 -es；以元音字母加 y 结尾的名词，直接加 -s。",
+        "有些名词的复数形式不规则，需要单独记忆，如 child—children、man—men。"
+      ],
+      "core_concept": "名词复数表示两个或两个以上的人或事物。大多数可数名词在词尾加 -s；部分名词要根据词尾变化规则或不规则形式来构成复数。",
+      "key_formula": "一般情况：名词 + s；以 s、x、ch、sh 结尾：名词 + es；辅音字母 + y 结尾：改 y 为 i，再加 es；元音字母 + y 结尾：直接加 s。",
+      "point": "名词复数",
+      "tips": "先看名词是可数名词还是不可数名词，再观察单词结尾，选择合适的复数变化规则。可结合数量词检查：one 后通常用单数，two、three、many 等后通常用复数。"
+    },
+    {
+      "common_mistakes": [
+        "把字母名称和字母在单词中的发音混为一谈。",
+        "看到字母 i 就认为它一定发 /ɪ/；在 i...e 结构中，i 常发字母名称音 /aɪ/。",
+        "只根据拼写判断发音，忽略单词中的音节结构。"
+      ],
+      "core_concept": "英语元音字母在不同单词结构中可能有不同发音。四年级常见规律之一是：在“元音字母 + 辅音字母 + 不发音的 e”结构中，前面的元音字母常发字母名称音。字母 i 常发 /aɪ/，如 like、kite、five。以辅音字母结尾的常见短单词中，i 常发短元音 /ɪ/，如 big、six、pig。",
+      "key_formula": "i + 辅音字母 + 不发音的 e：i 常发 /aɪ/，如 like、kite、five；辅音字母结尾的短单词：i 常发 /ɪ/，如 big、six、pig。",
+      "point": "语音规律",
+      "tips": "读单词时先观察 i 后面是否有不发音的 e，再结合整词朗读判断。like、kite、five 中的 i 发 /aɪ/；big、six、pig 中的 i 发 /ɪ/。记住这是常见规律，遇到新词还需结合听音和词典确认。"
+    },
+    {
+      "common_mistakes": [
+        "把 under（在……下面）和 in（在……里面）混淆。",
+        "混淆 in front of（在……前面）和 behind（在……后面）。",
+        "忘记方位介词常放在 be 动词后，说明人或物的位置。"
+      ],
+      "core_concept": "方位介词用来说明人或物的位置。常见的有：in（在……里面）、on（在……上面）、under（在……下面）、behind（在……后面）、in front of（在……前面）、next to（在……旁边）。",
+      "key_formula": "人或物 + be 动词（am/is/are）+ 方位介词短语。例：The cat is under the chair.",
+      "point": "方位介词",
+      "tips": "记忆时可以把物品和位置联系起来：东西被包围时常用 in；东西在表面上用 on；东西低于另一物用 under。描述单数通常用 is，描述复数通常用 are。"
+    },
+    {
+      "common_mistakes": [
+        "把人称代词和所指对象弄混，如用 he 或 she 指代物品。",
+        "主语是复数时仍使用 it 或单数动词。",
+        "句子前后指向的人或物不一致。"
+      ],
+      "core_concept": "指代一致，就是代词要和它所指的人或物相对应。使用代词时，要注意人称、单复数以及性别（指人时）。例如，it 指一个物品或动物，they 指两个或两个以上的人或物；he 常指男性，she 常指女性。",
+      "key_formula": "单个人或物：he / she / it；两人或多个物：they。代词和它指代的人或物在人称、单复数等方面保持一致。",
+      "point": "指代一致",
+      "tips": "做题时先找出代词所指的人或物，再判断是一个还是多个；如果指人，还要看句意。最后检查句子里的代词和动词是否搭配正确。"
+    },
+    {
+      "common_mistakes": [
+        "只看句子中的单个词，不结合整句意思判断。",
+        "把意思相近或同一类别的单词混淆。",
+        "不注意单词的搭配，例如 read a storybook。"
+      ],
+      "core_concept": "词义辨析就是根据单词本身的意思和句子语境，判断哪个词最符合句意。做题时先读懂整句，再逐一比较选项。",
+      "key_formula": "读懂句意 → 判断所需词义 → 比较选项 → 检查搭配",
+      "point": "词义辨析",
+      "tips": "遇到选择题时，可以先想一想句子描述的是什么事物，再排除意思不符的选项。选好后，把答案放回句子中读一遍，确认意思通顺、搭配自然。"
+    },
+    {
+      "common_mistakes": [
+        "把不定代词和表示方位的介词混淆。本课原有题目中的 on 是介词，表示“在……上面”，不是不定代词。",
+        "some 和 any 都可表示“一些”，但常见用法不同：some 多用于肯定句，any 多用于否定句和一般疑问句。",
+        "把 everyone、everybody 当作复数使用。它们通常作单数，后面的动词用单数形式。"
+      ],
+      "core_concept": "不定代词是表示不确定的人或事物的代词，如 someone（某人）、anything（任何东西）、everyone（每个人）、nothing（没有东西）。它们不具体说明是谁或是什么。",
+      "key_formula": "some + 可数名词复数或不可数名词；any + 可数名词复数或不可数名词。复合不定代词（如 someone、anything、nothing）通常看作单数，作主语时动词用单数形式。",
+      "point": "不定代词",
+      "tips": "四年级常见不定代词包括 some、any、no、every 及其构成的 someone、anything、nothing、everyone 等。注意：some 常用于肯定句；any 常用于否定句和一般疑问句；但在表示邀请或希望得到肯定答复的疑问句中，也常用 some。"
+    },
+    {
+      "common_mistakes": [
+        "只看单个单词的意思，忽略句子上下文。",
+        "混淆形容词和名词；形容词常用来描述人或事物的特征。",
+        "看到形容词就随意选择，没有检查它是否符合常识和语境。"
+      ],
+      "core_concept": "形容词可以描述人或事物的特征，如大小、新旧、颜色和感觉等。选择形容词时，要结合句子意思和上下文，判断哪个词最合适。",
+      "key_formula": "形容词 + 名词；be动词 + 形容词（如 a big bag；The bag is big.）",
+      "point": "形容词选择",
+      "tips": "做题时先读完整句子，注意上下文提示词，再把选项逐一代入句中检查意思是否通顺、符合常识。"
+    },
+    {
+      "common_mistakes": [
+        "看到疑问词就不看答语内容，容易选错。",
+        "Where问地点，Who问人物，What问事物或做什么，When问时间，How常问方式或情况。",
+        "疑问词放在句首，句末通常加问号。"
+      ],
+      "core_concept": "疑问词用来询问不同的信息。常见疑问词有：what（什么）、where（哪里）、who（谁）、when（什么时候）、how（怎样；如何）、how old（多大）。回答问题时，要根据答语提供的信息选择合适的疑问词。",
+      "key_formula": "疑问词 + 一般疑问句语序 + 其他内容？例如：Where is your book? / What do you like?",
+      "point": "疑问词",
+      "tips": "先看答语：地点用Where，人物用Who，事物或活动用What，时间用When，年龄用How old，方式或状态常用How。"
+    },
+    {
+      "common_mistakes": [
+        "不要只看中文意思，还要判断对话发生的情景。",
+        "Excuse me. 常用于引起注意或礼貌打扰，不表示感谢。",
+        "Good night. 用于晚上道别或睡前祝福，不是白天问候。",
+        "Great! 表示赞叹或称赞；Thank you. 表示感谢。"
+      ],
+      "core_concept": "情景交际是根据具体场合选择恰当的英语表达。要留意说话人的目的、时间和对话内容，例如问候、道谢、道歉、告别或表达赞叹。",
+      "key_formula": "先判断情景和说话目的，再选择符合习惯的英语表达。",
+      "point": "情景交际",
+      "tips": "看到对话时，先想一想：对方是在问候、感谢、道歉、请求帮助，还是表达感受？再选择对应的常用表达。"
+    },
+    {
+      "common_mistakes": [
+        "可数名词单数通常不能单独出现，前面需要冠词、指示词等限定词。",
+        "不可数名词通常没有复数形式，也不与 a/an 连用。",
+        "有些名词变复数时要改变拼写，例如 candy 变 candies。"
+      ],
+      "core_concept": "名词用来表示人、事物、地点或名称。辨析名词时，要看它表示的事物是否可数，以及句子表达的是一个还是多个，并选择合适的单复数形式。",
+      "key_formula": "可数名词单数：a/an + 名词；可数名词复数：名词 + 复数词尾或不规则变化；不可数名词：通常不加 a/an，也通常不变复数。",
+      "point": "名词辨析",
+      "tips": "先找句子中的数量信息和限定词，再判断名词是可数还是不可数。可数名词单数常见形式有 a book、an apple；多个可数名词常用复数形式，如 books、apples。candy 表示糖果时常作不可数名词，也可指一颗或一块糖果；表示多颗糖果时，常用 candies。"
+    },
+    {
+      "common_mistakes": [
+        "把数字的英文单词拼写混淆，例如把 four 写成 five。",
+        "只记数字顺序，却不理解数词表示的数量。"
+      ],
+      "core_concept": "数词表示数量或顺序。本课重点认识并正确拼写常见基数词，如 one（一）、two（二）、three（三）、four（四）、five（五）、six（六）、seven（七）、eight（八）、nine（九）、ten（十）。",
+      "key_formula": "基数词表示“多少”：one book（一册书）；按顺序数数时，常见顺序为 one, two, three, four, five, six, seven, eight, nine, ten。",
+      "point": "数词词义",
+      "tips": "用实物或手指边数边说，帮助记住数词的含义和顺序；注意 four、five、eight 等单词的拼写。"
+    },
+    {
+      "common_mistakes": [
+        "把 schoolbag 写成 schoolbag，中间不要漏写字母。",
+        "注意 schoolbag 由 school 和 bag 组成，合写为一个单词。"
+      ],
+      "core_concept": "本课学习“书包”的英文拼写：schoolbag。",
+      "key_formula": "书包 = schoolbag",
+      "point": "拼写-书包",
+      "tips": "可以把 schoolbag 拆成 school（学校）和 bag（包）来记忆，两个部分合起来写作一个单词。"
+    },
+    {
+      "common_mistakes": [
+        "把颜色词和中文颜色名混淆，例如把黄色写成 yellow 时漏掉字母 l。",
+        "询问物品颜色时，注意使用句型“What color is it?”，回答可用“It is + 颜色词.”。"
+      ],
+      "core_concept": "掌握常见颜色的英语表达，并能用“What color is it?”询问颜色，用“It is + 颜色词.”回答。",
+      "key_formula": "What color is it? — It is + 颜色词.",
+      "point": "颜色词汇",
+      "tips": "可把颜色词和身边物品联系起来练习：a red apple（一个红苹果）、a blue bag（一个蓝色书包）。常见颜色有 red（红色）、blue（蓝色）、yellow（黄色）、green（绿色）、black（黑色）、white（白色）。"
+    },
+    {
+      "common_mistakes": [
+        "把 maths book 和 math book 混淆；两种说法都可以表示“数学书”，英式英语常用 maths book，美式英语常用 math book。",
+        "忘记名词前的数量词与单复数搭配，例如 one book、two books。"
+      ],
+      "core_concept": "本课学习用英语说“数学书”，并在简单句中使用书籍名称和数量表达。",
+      "key_formula": "数量词 + 书籍名称；例如：one maths book，two storybooks。",
+      "point": "书籍-数学",
+      "tips": "maths 是 math 的英式英语写法。介绍一本数学书可以说 a maths book 或 one maths book；介绍多本书时，记得将可数名词 book 变为 books。"
+    },
+    {
+      "common_mistakes": [
+        "把 storybook（故事书）和 English book（英语书）混淆。",
+        "把 schoolbag（书包）和 key（钥匙）混淆。",
+        "记单词时只记英文或中文，不能准确说出对应意思。"
+      ],
+      "core_concept": "学习并准确理解常见英语词汇的中文意思，能看到英文说出中文，也能根据中文认出英文。",
+      "key_formula": "英文单词 ↔ 中文意思",
+      "point": "核心词汇译义",
+      "tips": "可以把单词写在卡片一面、中文意思写在另一面，先看英文说中文，再看中文回忆英文。遇到容易混淆的词，可把单词与具体物品联系起来记忆。"
+    },
+    {
+      "common_mistakes": [
+        "只看单个单词，不结合对话情景判断答语。",
+        "把感谢与道歉的回应混淆。",
+        "连线时没有检查每个选项是否都使用且搭配合理。"
+      ],
+      "core_concept": "情景交流连线要求根据问句或表达的交际功能，匹配语义和场合都合适的答语。先判断说话者在做什么，再寻找自然、礼貌的回应。",
+      "key_formula": "问句或表达的交际意图 → 判断场景 → 选择合适答语",
+      "point": "情景交流连线",
+      "tips": "先辨认交际意图：问颜色、问物品内容、表达感谢或引起注意；再逐项排除不合场景的答语。完成后通读配对，确认每组对话自然、礼貌。"
+    },
+    {
+      "common_mistakes": [
+        "把形容词放在名词后面，例如说成 a schoolbag new。",
+        "忘记陈述句通常以句号结尾。",
+        "把句子中的单词顺序打乱，导致意思不清楚。"
+      ],
+      "core_concept": "陈述句是用来说明事实或表达想法的句子。英语陈述句通常按“主语 + 谓语 + 其他部分”的顺序排列；名词前的冠词和形容词通常放在一起，顺序为“冠词 + 形容词 + 名词”。句首单词首字母要大写，句末通常用句号。",
+      "key_formula": "主语 + 谓语 + 其他部分；冠词 + 形容词 + 名词。",
+      "point": "陈述句语序",
+      "tips": "连词成句时，先找“谁或什么”作为主语，再找表示动作或状态的词作为谓语，接着排列其他部分。最后检查形容词是否放在名词前，并注意句首大写、句末加句号。"
+    },
+    {
+      "common_mistakes": [
+        "把疑问词放到句尾；疑问词通常放在句首。",
+        "忘记把 be 动词或助动词放在主语前。",
+        "误把以 what 开头、询问主语的句子也改成倒装语序。"
+      ],
+      "core_concept": "英语疑问句的语序要根据疑问词在句子中所作的成分来判断。一般疑问句通常把 be 动词、情态动词或助动词放在主语前；特殊疑问句通常以疑问词开头，再接一般疑问句语序。但当疑问词本身作主语时，通常不倒装。",
+      "key_formula": "一般疑问句：Be/助动词/情态动词 + 主语 + 其他？；特殊疑问句：疑问词 + be/助动词/情态动词 + 主语 + 其他？；疑问词作主语：疑问词 + 谓语 + 其他？",
+      "point": "疑问句语序",
+      "tips": "先判断要问什么；再找句中的 be 动词或助动词；需要时将它移到主语前。注意 What is in your schoolbag? 意为“你的书包里有什么？”，What 在这里作主语，因此不需要再把主语 your schoolbag 提到 is 前面。"
     }
   ]
 }

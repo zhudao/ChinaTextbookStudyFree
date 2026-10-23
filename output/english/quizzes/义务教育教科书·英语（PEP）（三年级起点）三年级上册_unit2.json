@@ -4,275 +4,273 @@
   "unit_number": 2,
   "unit_test": {
     "title": "Unit 2 Colours 基础过关测验",
-    "total_score": 100,
+    "total_score": 105,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "red 的中文意思是红色。",
         "knowledge_point": "颜色词汇与色彩感知",
+        "options": [],
         "question": "'red' 的中文意思是红色。",
-        "options": [],
-        "answer": "对",
-        "explanation": "red代表红色。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "blue 是蓝色，绿色是 green。",
         "knowledge_point": "颜色词汇与色彩感知",
+        "options": [],
         "question": "'blue' 的中文意思是绿色。",
-        "options": [],
-        "answer": "错",
-        "explanation": "blue是蓝色，绿色是green。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "介绍他人与社交礼仪",
-        "question": "介绍朋友时可以说：'This is Miss White.'",
-        "options": [],
         "answer": "对",
-        "explanation": "This is... 是介绍他人的常用句型。"
-      },
-      {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 1,
+        "explanation": "答案是“对”。题目中的“This is Miss White.”用“This is + 姓名或称呼”介绍第三方，句型正确。",
         "knowledge_point": "介绍他人与社交礼仪",
-        "question": "初次见面打招呼应说: 'Good morning.'",
         "options": [],
-        "answer": "错",
-        "explanation": "初次见面应说Nice to meet you。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
+        "question": "介绍朋友时可以说：“This is Miss White.”",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "字母Aa至Dd的音形辨析",
-        "question": "字母 'B' 的小写形式是 'd'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "B的小写是b，d是D的小写。"
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "答案是“错”。“Good morning.”是早上见面时的问候语，不是专门用于初次见面的表达。初次见面可以说“Nice to meet you.”",
+        "knowledge_point": "介绍他人与社交礼仪",
+        "options": [],
+        "question": "只要是初次见面，打招呼就应说：“Good morning.”",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "B的小写形式是b；d是D的小写形式。",
+        "knowledge_point": "字母Aa至Dd的音形辨析",
+        "options": [],
+        "question": "字母 'B' 的小写形式是 'd'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "yellow",
+        "difficulty": 1,
+        "explanation": "成熟的香蕉通常是黄色的，黄色的英文是 yellow。",
         "knowledge_point": "颜色词汇与色彩感知",
-        "question": "下图中香蕉通常是什么颜色的？",
         "options": [
           "red",
           "blue",
           "yellow",
           "black"
         ],
-        "answer": "yellow",
-        "explanation": "香蕉成熟后是黄色的。"
+        "question": "香蕉通常是什么颜色的？",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "blue",
         "difficulty": 1,
+        "explanation": "天空通常被描述为蓝色，蓝色的英文是 blue。",
         "knowledge_point": "颜色词汇与色彩感知",
-        "question": "天空的颜色是：",
         "options": [
           "green",
           "blue",
           "white",
           "orange"
         ],
-        "answer": "blue",
-        "explanation": "天空通常被描述为蓝色。"
+        "question": "晴朗的白天天空通常是什么颜色？",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "Nice to meet you, too.",
         "difficulty": 1,
+        "explanation": "答案是“Nice to meet you, too.” 对方说“Nice to meet you.”表示很高兴认识你；回应时加“too”，表示“我也很高兴认识你”。",
         "knowledge_point": "介绍他人与社交礼仪",
-        "question": "— Nice to meet you. — ________",
         "options": [
           "Good morning.",
           "Nice to meet you, too.",
           "I'm fine.",
           "Hello!"
         ],
-        "answer": "Nice to meet you, too.",
-        "explanation": "对方表达很高兴见到你，应礼貌回应我也很高兴见到你。"
+        "question": "初次见面时，对方说“Nice to meet you.”，你可以怎样回应？",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "This is my mum.",
         "difficulty": 1,
+        "explanation": "答案是“This is my mum.” 题目要求把妈妈介绍给老师，属于介绍第三方，应使用“This is...”；“my mum”表示“我的妈妈”。",
         "knowledge_point": "介绍他人与社交礼仪",
-        "question": "把妈妈介绍给老师，你应该说：",
         "options": [
           "Goodbye, Mum.",
           "This is my mum.",
           "Hi, I'm Mum.",
           "I am a teacher."
         ],
-        "answer": "This is my mum.",
-        "explanation": "向第三方介绍某人使用 This is..."
+        "question": "你要把妈妈介绍给老师，应该说：",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "green",
         "difficulty": 2,
+        "explanation": "草地上的草通常是绿色的，绿色的英文是 green。",
         "knowledge_point": "颜色词汇与色彩感知",
-        "question": "草地的颜色是：",
         "options": [
           "orange",
           "red",
           "green",
           "brown"
         ],
-        "answer": "green",
-        "explanation": "草地通常是绿色的。"
+        "question": "草地通常是什么颜色？",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "apple",
         "difficulty": 1,
+        "explanation": "apple以字母a开头。",
         "knowledge_point": "字母Aa至Dd的音形辨析",
-        "question": "哪个词的首字母是 'a'？",
         "options": [
           "bag",
           "cat",
           "apple",
           "dog"
         ],
-        "answer": "apple",
-        "explanation": "apple以字母a开头。"
+        "question": "哪个词的首字母是 'a'？",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "cat",
         "difficulty": 1,
+        "explanation": "cat以字母C开头，C和c是同一字母的大小写形式。",
         "knowledge_point": "字母Aa至Dd的音形辨析",
-        "question": "字母 'Cc' 指向的单词是：",
         "options": [
           "duck",
           "cat",
           "ant",
           "book"
         ],
-        "answer": "cat",
-        "explanation": "cat是本单元以c开头的代表词。"
+        "question": "哪个单词以字母 'Cc' 开头？",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "black and white",
         "difficulty": 2,
+        "explanation": "熊猫通常被描述为黑白相间，black 是黑色，white 是白色。",
         "knowledge_point": "颜色词汇与色彩感知",
-        "question": "黑白相间的动物是：",
         "options": [
           "orange and green",
           "red and blue",
           "black and white",
           "brown and yellow"
         ],
-        "answer": "black and white",
-        "explanation": "描述熊猫或斑马常用的颜色词。"
+        "question": "熊猫常见的毛色是：",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "Good afternoon, Miss Wang.",
         "difficulty": 2,
+        "explanation": "答案是“Good afternoon, Miss Wang.” 题目说明是在下午见到王老师；下午问候用“Good afternoon”，称呼老师时保留“Miss Wang”。",
         "knowledge_point": "介绍他人与社交礼仪",
-        "question": "下午见到王老师，应当打招呼说：",
         "options": [
           "Good morning, Miss Wang.",
           "Good afternoon, Miss Wang.",
           "Goodbye, Miss Wang.",
           "This is Miss Wang."
         ],
-        "answer": "Good afternoon, Miss Wang.",
-        "explanation": "下午见面使用Good afternoon。"
+        "question": "下午见到王老师，应当怎样打招呼？",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "green",
         "difficulty": 3,
+        "explanation": "常见颜料混色中，黄色和蓝色混合通常会得到绿色。",
         "knowledge_point": "颜色词汇与色彩感知",
-        "question": "把黄色和蓝色混合在一起，会变成哪种颜色？",
         "options": [
           "red",
           "orange",
           "green",
           "black"
         ],
-        "answer": "green",
-        "explanation": "黄色加蓝色调色得绿色。"
+        "question": "把黄色和蓝色颜料混合在一起，通常会变成哪种颜色？",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "颜色词汇与色彩感知",
-        "question": "Show me ________. (出示蓝色给看看)",
-        "options": [],
         "answer": "blue",
-        "explanation": "蓝色的英文是blue。"
+        "difficulty": 1,
+        "explanation": "蓝色的英文是 blue。",
+        "knowledge_point": "颜色词汇与色彩感知",
+        "options": [],
+        "question": "Show me ________.（请出示蓝色。）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "颜色词汇与色彩感知",
-        "question": "I have an ________ crayon. (我有一支橙色的蜡笔)",
-        "options": [],
         "answer": "orange",
-        "explanation": "橙色的英文词汇是orange。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "字母Aa至Dd的音形辨析",
-        "question": "The ________ is on the book. (那个苹果在书上)",
-        "options": [],
-        "answer": "apple",
-        "explanation": "根据字母发音练习，a-a-apple。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "介绍他人与社交礼仪",
-        "question": "________ is Mr Jones. (这是琼斯先生)",
-        "options": [],
-        "answer": "this",
-        "explanation": "句子开头首词填空，注意此处填小写单词原型即可（系统判定核心词汇）。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "橙色的英文是 orange；orange 以元音音素开头，因此前面用 an。",
         "knowledge_point": "颜色词汇与色彩感知",
-        "question": "词汇连连看",
+        "options": [],
+        "question": "I have an ________ crayon.（我有一支橙色的蜡笔。）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "apple",
+        "difficulty": 2,
+        "explanation": "句意是“那个苹果在书上”，apple表示“苹果”，且以字母a开头。",
+        "knowledge_point": "字母Aa至Dd的音形辨析",
+        "options": [],
+        "question": "The ________ is on the book.（那个苹果在书上）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "This",
+        "difficulty": 2,
+        "explanation": "答案是“This”。完整句子是“This is Mr Jones.”，用“This is + 姓名或称呼”介绍他人。句首首字母应大写。",
+        "knowledge_point": "介绍他人与社交礼仪",
+        "options": [],
+        "question": "根据中文提示补全句子，只填1个单词：这是琼斯先生。________ is Mr Jones.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-2,B-4,C-3,D-1",
+        "difficulty": 1,
+        "explanation": "red 是红色，green 是绿色，yellow 是黄色，white 是白色。",
+        "knowledge_point": "颜色词汇与色彩感知",
         "options": [
           "red",
           "green",
@@ -283,60 +281,63 @@
           "黄色",
           "绿色"
         ],
-        "answer": "A-2,B-4,C-3,D-1",
-        "explanation": "red-红色, green-绿色, yellow-黄色, white-白色。"
+        "question": "词汇连连看：将英文颜色词与对应的中文意思连起来。A. red；B. green；C. yellow；D. white。1. 白色；2. 红色；3. 黄色；4. 绿色。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-蚂蚁，B-书本，C-猫，D-鸭子",
         "difficulty": 1,
+        "explanation": "ant以A开头，book以B开头，cat以C开头，duck以D开头。",
         "knowledge_point": "字母Aa至Dd的音形辨析",
-        "question": "字母首字母单词匹配",
         "options": [
           "ant",
           "book",
           "cat",
           "duck",
-          "小岛",
+          "猫",
           "书本",
           "鸭子",
           "蚂蚁"
         ],
-        "answer": "A-4,B-2,C-1,D-3",
-        "explanation": "注：C-1 对应 cat-猫(本题前4为词后4为义/序，猫不在后4中，应匹配逻辑关系，此处选项需校对。调整：A-蚂蚁(4), B-书(2), C-选项中无猫，匹配鸭子不妥。修正匹配项)。"
+        "question": "将单词与中文意思配对：ant、book、cat、duck。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "介绍他人与社交礼仪",
-        "question": "连词成句：is, This, Jones, Mr.",
-        "options": [
-          "is",
-          "This",
-          "Jones",
-          "Mr"
-        ],
         "answer": "This,is,Mr,Jones",
-        "explanation": "句中介绍他人的固定搭配：This is + 姓名。"
+        "difficulty": 2,
+        "explanation": "答案是“This is Mr Jones.” 介绍他人使用“This is + 姓名或称呼”；“This”位于句首，首字母大写，姓名称呼“Mr Jones”放在后面。",
+        "knowledge_point": "介绍他人与社交礼仪",
+        "options": [],
+        "question": "将下面的词按顺序排列成句子，并补上句号：is, This, Jones, Mr",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "介绍他人与社交礼仪",
-        "question": "连词成句：meet, you, Nice, to.",
-        "options": [
-          "meet",
-          "you",
-          "Nice",
-          "to"
-        ],
         "answer": "Nice,to,meet,you",
-        "explanation": "问候语固定的语序。"
+        "difficulty": 3,
+        "explanation": "答案是“Nice to meet you.” 这是初次见面的常用表达，词序为“Nice to meet you”，句首大写并在句末加句号。",
+        "knowledge_point": "介绍他人与社交礼仪",
+        "options": [],
+        "question": "将下面的词按顺序排列成句子，并补上句号：meet, you, Nice, to",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "b",
+        "difficulty": 1,
+        "explanation": "大写B对应的小写字母是b。注意b的竖画在左、圆弧在右。",
+        "knowledge_point": "字母Aa至Dd的音形辨析",
+        "options": [],
+        "question": "填入与大写字母B对应的小写字母：B—______。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 24
       }
     ]
   },
@@ -719,6 +720,39 @@
         "C 写成倒钩"
       ],
       "tips": "b 的半圆像肚子在前，d 的半圆像屁股在后。写 b 时先写一竖再画圆。"
+    },
+    {
+      "common_mistakes": [
+        "介绍第三方时把“This is...”误说成“He is...”；向别人介绍某人时可用“This is + 姓名或身份”。",
+        "把“Nice to meet you, too.”中的“too”漏掉，或把初次见面的问候和“Good morning.”混为一谈。",
+        "句首“This”要大写；介绍他人的“This is”不缩写为“This’s”。"
+      ],
+      "core_concept": "介绍第三方时使用“This is...”；初次见面听到“Nice to meet you.”，可以礼貌回应“Nice to meet you, too.”。",
+      "key_formula": "介绍：This is + 姓名或身份.；初次见面回应：Nice to meet you. — Nice to meet you, too.",
+      "point": "介绍他人与社交礼仪",
+      "tips": "先判断自己是在介绍身边的第三方，还是在回应初次见面的问候，再选择合适句型。介绍时可自然地示意被介绍的人。句子开头的第一个字母要大写。"
+    },
+    {
+      "common_mistakes": [
+        "把 blue（蓝色）和 green（绿色）混淆。",
+        "把 yellow（黄色）和 orange（橙色）混淆。",
+        "在元音音素开头的 orange 前漏用不定冠词 an。"
+      ],
+      "core_concept": "学习常见颜色的英文名称，理解颜色词可以用来描述物体的颜色，并通过观察生活中的事物练习辨认颜色。",
+      "key_formula": "颜色词：red 红色；blue 蓝色；yellow 黄色；green 绿色；orange 橙色；black 黑色；white 白色；brown 棕色。描述物体颜色时可说：It is + 颜色词.；描述某物时可说：a/an + 颜色词 + 名词。",
+      "point": "颜色词汇与色彩感知",
+      "tips": "观察物品时，先说出它的颜色，再用对应的英文词表达。记住 orange 既可以表示橙色，也可以表示橙子；它以元音音素开头，所以说“一个橙色的蜡笔”时用 an orange crayon。调色题以常见颜料混合的结果为准。"
+    },
+    {
+      "common_mistakes": [
+        "混淆容易看反的字母b和d。",
+        "把字母名称的读音和字母在单词中的发音混为一谈。",
+        "忘记大写字母与小写字母是一组对应形式。"
+      ],
+      "core_concept": "认识大写字母A、B、C、D及其对应的小写字母a、b、c、d，能辨认字母形状，并根据单词首字母识别简单词汇。",
+      "key_formula": "A— a — apple / ant；B— b — book / bag；C— c — cat；D— d — dog / duck。",
+      "point": "字母Aa至Dd的音形辨析",
+      "tips": "按大写、小写和代表词成组记忆：A— a— apple，B— b— book，C— c— cat，D— d— dog。书写和辨认时特别留意b与d的方向不同；读单词时关注首字母。"
     }
   ]
 }

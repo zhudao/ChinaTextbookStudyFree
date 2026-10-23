@@ -4,340 +4,369 @@
   "unit_number": 1,
   "unit_test": {
     "title": "Unit 1 Standard Test",
-    "total_score": 100,
+    "total_score": 115,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "公共场所词汇识别",
-        "question": "'hospital' 的中文意思是 '医院'。",
-        "options": [],
         "answer": "对",
-        "explanation": "hospital是指医院，是本单元核心场所词汇。"
+        "difficulty": 1,
+        "explanation": "hospital的中文意思是“医院”。",
+        "knowledge_point": "公共场所词汇识别",
+        "options": [],
+        "question": "'hospital' 的中文意思是“医院”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "next to 表示紧邻、在……旁边；behind 才表示在……后面。",
         "knowledge_point": "特定地点的方位描述",
-        "question": "'next to' 表示在...后面。",
         "options": [],
-        "answer": "错",
-        "explanation": "next to 表示紧邻、在...旁边，而 behind 才是后面。"
+        "question": "'next to' 表示在……后面。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "turn left 是固定短语，表示“左转”。",
         "knowledge_point": "指路指令与方位短语",
+        "options": [],
         "question": "'turn left' 是左转的意思。",
-        "options": [],
-        "answer": "对",
-        "explanation": "turn left 是固定短语，表示左转。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "Where is the ...? 是询问某个地点在哪里的常用句型。",
         "knowledge_point": "询问地点与路线的句型",
-        "question": "询问 '书店在哪？' 可以说 'Where is the bookstore?'",
         "options": [],
-        "answer": "对",
-        "explanation": "Where is the... 是询问地点位置的标准句型。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
+        "question": "询问“书店在哪？”可以说“Where is the bookstore?”",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "指路指令与方位短语",
-        "question": "'Go straight' 意为向右转。",
-        "options": [],
-        "answer": "错",
-        "explanation": "Go straight 表示直行。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "Go straight 表示“直行”；“向右转”是 turn right。",
+        "knowledge_point": "指路指令与方位短语",
+        "options": [],
+        "question": "'Go straight' 意为向右转。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "bookstore",
         "difficulty": 1,
+        "explanation": "bookstore表示“书店”，想买书可以去书店。",
         "knowledge_point": "公共场所词汇识别",
-        "question": "I want to buy some books. I can go to the ______.",
         "options": [
           "hospital",
           "cinema",
           "bookstore",
           "museum"
         ],
-        "answer": "bookstore",
-        "explanation": "买书应该去书店(bookstore)。"
+        "question": "I want to buy some books. I can go to the ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "next to",
         "difficulty": 1,
+        "explanation": "side by side 表示并排、相邻，因此用 next to。",
         "knowledge_point": "特定地点的方位描述",
-        "question": "The post office is ______ the cinema. They are side by side.",
         "options": [
           "next to",
           "on",
           "at",
           "in"
         ],
-        "answer": "next to",
-        "explanation": "side by side 描述的是相邻关系，用 next to。"
+        "question": "The post office is ______ the cinema. They are side by side.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "Where",
         "difficulty": 2,
+        "explanation": "询问地点位置用 Where，句子意为“科学博物馆在哪里？”。",
         "knowledge_point": "询问地点与路线的句型",
-        "question": "______ is the science museum?",
         "options": [
           "What",
           "Where",
           "Who",
           "When"
         ],
-        "answer": "Where",
-        "explanation": "询问地点位置用疑问词 Where。"
+        "question": "______ is the science museum?",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "at",
         "difficulty": 1,
+        "explanation": "表示在某个地点转弯时，常用 turn left/right at + 地点。",
         "knowledge_point": "指路指令与方位短语",
-        "question": "Turn left ______ the bookstore.",
         "options": [
           "on",
           "in",
           "at",
           "to"
         ],
-        "answer": "at",
-        "explanation": "在某个地点转弯通常使用介词 at。"
+        "question": "Turn left ______ the bookstore.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "can",
         "difficulty": 2,
+        "explanation": "How can I get to ...? 用来询问“我怎样才能到……？”，can 后接动词原形 get。",
         "knowledge_point": "询问地点与路线的句型",
-        "question": "How ______ I get to the museum?",
         "options": [
           "am",
           "does",
           "do",
           "can"
         ],
-        "answer": "can",
-        "explanation": "How can I get there? 是询问路线的标准句型。"
+        "question": "How ______ I get to the museum?",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "restaurant",
         "difficulty": 1,
+        "explanation": "restaurant表示“餐馆”，饿了可以去餐馆吃饭。",
         "knowledge_point": "公共场所词汇识别",
-        "question": "I'm hungry. Is there a ______ near here?",
         "options": [
           "restaurant",
           "school",
           "park",
           "zoo"
         ],
-        "answer": "restaurant",
-        "explanation": "饿了需要去餐馆(restaurant)。"
+        "question": "I'm hungry. Is there a ______ near here?",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "next",
         "difficulty": 2,
+        "explanation": "固定搭配是 next to，句子中 to 已经给出，因此空格填 next。",
         "knowledge_point": "特定地点的方位描述",
-        "question": "The park is ______ to the library.",
         "options": [
           "near",
           "next",
           "behind",
           "front"
         ],
-        "answer": "next",
-        "explanation": "固定搭配 next to。"
+        "question": "The park is ______ to the library.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "museum",
         "difficulty": 1,
+        "explanation": "science museum表示“科学博物馆”，可以在里面看到科学展品或机器人。",
         "knowledge_point": "公共场所词汇识别",
-        "question": "You can see many robots in the science ______.",
         "options": [
           "office",
           "museum",
           "cinema",
           "hospital"
         ],
-        "answer": "museum",
-        "explanation": "科学博物馆(science museum)里有机器人。"
+        "question": "You can see many robots in the science ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "crossing",
         "difficulty": 3,
+        "explanation": "crossing 是“十字路口、交叉口”；at the first crossing 表示“在第一个十字路口”。",
         "knowledge_point": "指路指令与方位短语",
-        "question": "Turn right at the first ______.",
         "options": [
           "cross",
           "crossing",
           "crossed",
           "crosses"
         ],
-        "answer": "crossing",
-        "explanation": "at the crossing意为在十字路口。"
+        "question": "Turn right at the first ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "there is",
         "difficulty": 2,
+        "explanation": "Is there ...? 的肯定回答是 Yes, there is.，用 there is 呼应问句。",
         "knowledge_point": "询问地点与路线的句型",
-        "question": "Is there a cinema near here? Yes, ______.",
         "options": [
           "there is",
           "it is",
           "this is",
           "there are"
         ],
-        "answer": "there is",
-        "explanation": "Is there 引导的一般疑问句，肯定回答用 Yes, there is。"
+        "question": "Is there a cinema near here? Yes, ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "公共场所词汇识别",
-        "question": "You can send letters in the ______ office.",
-        "options": [],
         "answer": "post",
-        "explanation": "post office 指邮局。"
+        "difficulty": 1,
+        "explanation": "post office表示“邮局”，send letters意为“寄信”。",
+        "knowledge_point": "公共场所词汇识别",
+        "options": [],
+        "question": "You can send letters in the ______ office.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "指路指令与方位短语",
-        "question": "Go ______ and you can find it.",
-        "options": [],
         "answer": "straight",
-        "explanation": "go straight 直行。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "特定地点的方位描述",
-        "question": "The hospital is ______ the bookstore. (在...后面)",
-        "options": [],
-        "answer": "behind",
-        "explanation": "behind 表示在...后面。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
-        "knowledge_point": "公共场所词汇识别",
-        "question": "We can see a film in the ______.",
-        "options": [],
-        "answer": "cinema",
-        "explanation": "cinema 指电影院。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "公共场所词汇识别",
-        "question": "Match the words with Chinese meanings.",
-        "options": [
-          "museum",
-          "bookstore",
-          "hospital",
-          "cinema",
-          "书店",
-          "电影院",
-          "博物馆",
-          "医院"
-        ],
-        "answer": "A-3,B-1,C-4,D-2",
-        "explanation": "museum-博物馆, bookstore-书店, hospital-医院, cinema-电影院。"
-      },
-      {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
-        "difficulty": 2,
+        "explanation": "go straight 是“直行”的意思。",
         "knowledge_point": "指路指令与方位短语",
-        "question": "Match the phrases with Chinese meanings.",
-        "options": [
-          "turn left",
-          "go straight",
-          "next to",
-          "far from",
-          "直行",
-          "离...近",
-          "左转",
-          "在旁边"
-        ],
-        "answer": "A-3,B-1,C-4,D-2",
-        "explanation": "turn left-左转, go straight-直行, next to-在旁边, far from-离...远(此处D对应逻辑余项)。"
+        "options": [],
+        "question": "Go ______ and you can find it.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "behind",
         "difficulty": 2,
+        "explanation": "behind 表示“在……后面”，符合括号中的提示。",
+        "knowledge_point": "特定地点的方位描述",
+        "options": [],
+        "question": "The hospital is ______ the bookstore. (在……后面)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "cinema",
+        "difficulty": 1,
+        "explanation": "cinema表示“电影院”，see a film意为“看电影”。",
+        "knowledge_point": "公共场所词汇识别",
+        "options": [],
+        "question": "We can see a film in the ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "博物馆",
+        "difficulty": 1,
+        "explanation": "museum 的意思是“博物馆”，通常可以参观展品。注意不要与表示“电影院”的 cinema 混淆。",
+        "knowledge_point": "公共场所词汇识别",
+        "options": [
+          "博物馆",
+          "书店",
+          "医院",
+          "电影院"
+        ],
+        "question": "museum 是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
+      },
+      {
+        "answer": "在……旁边",
+        "difficulty": 2,
+        "explanation": "“next to”表示“在……旁边”，用来说明两个地点紧挨着。",
+        "knowledge_point": "指路指令与方位短语",
+        "options": [
+          "离……远",
+          "直行",
+          "在……旁边",
+          "左转"
+        ],
+        "question": "What does “next to” mean?",
+        "score": 5,
+        "type": "choice",
+        "id": 21
+      },
+      {
+        "answer": "Where,is,the,museum",
+        "difficulty": 2,
+        "explanation": "疑问句语序为疑问词 Where + be 动词 is + 地点 the museum。",
         "knowledge_point": "询问地点与路线的句型",
-        "question": "Arrange the words to make a sentence.",
         "options": [
           "is",
           "Where",
           "museum",
           "the"
         ],
-        "answer": "Where,is,the,museum",
-        "explanation": "疑问词+系动词+地点，询问博物馆在哪。"
+        "question": "Arrange the words to make a sentence.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Turn left at the bookstore.",
         "difficulty": 3,
+        "explanation": "祈使句以动词原形开头。Turn left at the bookstore. 意为“在书店左转”。",
         "knowledge_point": "指路指令与方位短语",
-        "question": "Arrange the words to make a sentence.",
         "options": [
-          "left",
-          "Turn",
-          "the",
-          "bookstore",
-          "at"
+          "Turn left at the bookstore.",
+          "Go straight at the bookstore.",
+          "Turn right next to the bookstore.",
+          "The bookstore is far from here."
         ],
-        "answer": "Turn,left,at,the,bookstore",
-        "explanation": "祈使句型：动词短语+地点状语。"
+        "question": "Which sentence means “在书店左转”？",
+        "score": 5,
+        "type": "choice",
+        "id": 23
+      },
+      {
+        "answer": "in front of",
+        "difficulty": 1,
+        "explanation": "in front of 表示“在……前面”，用于描述学校在公园前方。",
+        "knowledge_point": "特定地点的方位描述",
+        "options": [],
+        "question": "The school is ______ ______ ______ the park. (在……前面)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "near",
+        "difficulty": 2,
+        "explanation": "near 表示“在……附近”。句子说明图书馆离公园不远，但没有说两者紧挨着，因此用 near。",
+        "knowledge_point": "特定地点的方位描述",
+        "options": [
+          "behind",
+          "near",
+          "in front of",
+          "next"
+        ],
+        "question": "The library is ______ the park. It is not far away, but they are not side by side.",
+        "score": 5,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "Turn left at the hospital.",
+        "difficulty": 2,
+        "explanation": "指路时可以用“Turn left at ...”表示“在……处左转”。",
+        "knowledge_point": "询问地点与路线的句型",
+        "options": [],
+        "question": "把“在医院处左转。”翻译成英语。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 26
       }
     ]
   },
@@ -722,6 +751,52 @@
         "把 crossing (名词路口) 和 cross (动词穿过) 混淆"
       ],
       "tips": "指路时要简明扼要，动词开头不加主语。"
+    },
+    {
+      "common_mistakes": [
+        "不要混淆相似场所词汇，如museum（博物馆）和cinema（电影院）。",
+        "post office是固定搭配，表示“邮局”；science museum表示“科学博物馆”。",
+        "根据场所的用途判断词义：买书去bookstore，看电影去cinema，吃饭去restaurant。"
+      ],
+      "core_concept": "识别常见公共场所的英文名称，并根据场所用途理解和运用词汇。",
+      "key_formula": "场所名称 = 英文词汇；可结合“去某处做什么”来判断场所：buy books → bookstore，see a film → cinema，send letters → post office。",
+      "point": "公共场所词汇识别",
+      "tips": "把地点词汇和常见活动一起记忆：hospital—看病，bookstore—买书，restaurant—吃饭，museum—参观展品，post office—寄信，cinema—看电影。"
+    },
+    {
+      "common_mistakes": [
+        "混淆 next to（紧挨着）和 behind（在后面）。",
+        "next to 是固定搭配，不能只用 next 表示“紧挨着”。",
+        "near 表示“在……附近”，不一定紧挨着；in front of 表示“在……前面”。",
+        "描述地点位置时，方位词后通常接地点名称，如 behind the library。"
+      ],
+      "core_concept": "描述一个地点相对于另一个地点的位置，常用 next to（紧挨着）、near（在附近）、behind（在后面）和 in front of（在前面）。常见句型是“The + 地点 + is + 方位表达 + the + 地点.”",
+      "key_formula": "The + 地点A + is + 方位表达 + the + 地点B.",
+      "point": "特定地点的方位描述",
+      "tips": "先判断题目描述的是相邻、附近、前面还是后面，再选择对应表达。注意 next to 必须搭配使用；in front of 后面接地点名称。"
+    },
+    {
+      "common_mistakes": [
+        "用 Where 询问地点，不要与询问人物的 Who、询问时间的 When 混淆。",
+        "询问路线常用“How can I get to ...?”，其中 can 后面接动词原形。",
+        "There be 句型回答时要保持一致：Is there...? 用 Yes, there is. 或 No, there isn't.",
+        "指路时常用祈使句，如 Go straight.、Turn left.、Turn right."
+      ],
+      "core_concept": "询问地点时常用“Where is/are ...?”；询问附近是否有某处可用“Is there a/an ... near here?”；询问如何到达某地可用“How can I get to ...?”。回答路线时可以用 Go straight.（直走）、Turn left/right.（左转/右转）、You can ...（你可以……）等表达。",
+      "key_formula": "询问地点：Where is/are + 地点？；询问路线：How can I get to + 地点？；询问附近是否有某处：Is there a/an + 地点 + near here？；回答路线：Go straight. / Turn left. / Turn right.",
+      "point": "询问地点与路线的句型",
+      "tips": "询问单数地点通常说“Where is the ...?”，询问复数地点说“Where are the ...?”。回答“Is there ...?”时，肯定回答用“Yes, there is.”，否定回答用“No, there isn't.”。问路时注意 can 后接动词原形 get。"
+    },
+    {
+      "common_mistakes": [
+        "把 go straight（直行）和 turn right（右转）混淆。",
+        "turn left 或 turn right 后接具体地点时，常用 at，如 Turn left at the bookstore.",
+        "next to 表示“紧挨着、在……旁边”；far from 表示“离……远”。"
+      ],
+      "core_concept": "指路时可以用祈使句给出行动指令，如 Go straight.（直行。）和 Turn left.（左转。）方位短语可以说明地点之间的关系，如 next to（在……旁边）和 far from（离……远）。",
+      "key_formula": "Go straight. / Turn left or right (at + 地点). / 地点 + is + 方位短语 + 地点。",
+      "point": "指路指令与方位短语",
+      "tips": "指路指令通常以动词原形开头。描述转弯地点时可说 turn left/right at + 地点；描述两个地点的位置关系时，可使用 next to、far from 等短语。"
     }
   ]
 }

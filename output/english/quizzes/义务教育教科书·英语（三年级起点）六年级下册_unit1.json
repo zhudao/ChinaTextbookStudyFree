@@ -4,275 +4,273 @@
   "unit_number": 1,
   "unit_test": {
     "title": "Unit 1 单元基础达标测",
-    "total_score": 100,
+    "total_score": 519,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "形容词比较级构成规则",
-        "question": "形容词 'tall' 的比较级形式是 'taller'。",
-        "options": [],
         "answer": "对",
-        "explanation": "形容词比较级的规则变化是在词尾加-er。"
-      },
-      {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 1,
+        "explanation": "tall 是短形容词，一般在词尾加 -er，构成 taller。",
         "knowledge_point": "形容词比较级构成规则",
-        "question": "'heavy' 的比较级是 'heavyer'。",
         "options": [],
-        "answer": "错",
-        "explanation": "以辅音字母加y结尾的形容词，变y为i再加-er，应该是heavier。"
+        "question": "形容词 tall 的比较级形式是 taller。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "heavy 以辅音字母加 y 结尾，要把 y 变成 i 再加 -er，正确形式是 heavier。",
+        "knowledge_point": "形容词比较级构成规则",
+        "options": [],
+        "question": "heavy 的比较级是 heavyer。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "kilogram 是质量单位，中文是千克，也常说公斤。",
         "knowledge_point": "度量衡单位",
-        "question": "'kilogram' 翻译成中文是 '千克/公斤'。",
         "options": [],
-        "answer": "对",
-        "explanation": "kilogram是质量单位千克。"
+        "question": "'kilogram' 翻译成中文是“千克/公斤”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "than后可以接宾格me，也可以接主格I；使用主格时，后面常省略与前文相同的谓语，完整形式可理解为“You are taller than I am.”。",
         "knowledge_point": "比较级句型",
-        "question": "句子 'You are taller than I.' 是错误的，than后面只能接me。",
         "options": [],
-        "answer": "错",
-        "explanation": "than后面接主格I或宾格me皆可，在口语中常用me。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
+        "question": "句子“You are taller than I.”是错误的，than后面只能接me。",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "形容词意义",
-        "question": "'shorter' 只能用来表示 '更矮'，不能表示 '更短'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "short既可以指身高矮，也可以指长度短。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "short 可以描述身高，也可以描述长度。例如 a short boy 表示一个个子矮的男孩，a short ruler 表示一把短尺子。",
+        "knowledge_point": "形容词意义",
+        "options": [],
+        "question": "'shorter' 只能用来表示 '更矮'，不能表示 '更短'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "longer",
+        "difficulty": 1,
+        "explanation": "比较腿的长度用long的比较级longer；tall和taller通常用于比较身高。",
         "knowledge_point": "比较级词汇",
-        "question": "My legs are ____ than yours.",
         "options": [
           "long",
           "longer",
           "tall",
           "taller"
         ],
-        "answer": "longer",
-        "explanation": "腿的长度比较用longer，身高用taller。"
+        "question": "My legs are ____ than yours.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "How",
         "difficulty": 1,
+        "explanation": "“How tall”是固定搭配，用来询问身高。",
         "knowledge_point": "询问身高",
-        "question": "____ tall are you? - I am 1.65 metres.",
         "options": [
           "What",
           "Who",
           "How",
           "How much"
         ],
-        "answer": "How",
-        "explanation": "How tall是固定搭配，用于询问身高。"
+        "question": "____ tall are you? — I am 1.65 metres.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "bigger",
         "difficulty": 1,
+        "explanation": "big 是重读闭音节单词，末尾是“辅音字母 + 元音字母 + 辅音字母”，构成比较级时要双写词尾字母 g，再加 -er。",
         "knowledge_point": "比较级构成规则",
-        "question": "Which word is the comparative form(比较级) of 'big'?",
         "options": [
           "biggier",
           "biger",
           "bigger",
           "big"
         ],
-        "answer": "bigger",
-        "explanation": "big是重读闭音节单词，双写词尾字母g再加er。"
+        "question": "Which word is the comparative form（比较级）of 'big'?",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "40",
         "difficulty": 2,
+        "explanation": "句子说你的脚比我的大，因此穿的尺码应更大。37和40中，40是较大的尺码；small是形容词，kg是重量单位。",
         "knowledge_point": "形容词辨析",
-        "question": "Your feet are bigger than mine. You wear size ____.",
         "options": [
           "37",
           "40",
           "small",
           "kg"
         ],
-        "answer": "40",
-        "explanation": "脚大所以鞋码数字应较大。37和40中40更大。"
+        "question": "Your feet are bigger than mine. You wear size ____.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "heavy",
         "difficulty": 2,
+        "explanation": "回答用了tons（吨），表示重量，因此用How heavy询问；How tall询问身高，How strong询问力量。",
         "knowledge_point": "询问体重",
-        "question": "How ____ is the dinosaur? - It is 5 tons.",
         "options": [
           "tall",
           "heavy",
           "big",
           "strong"
         ],
-        "answer": "heavy",
-        "explanation": "根据回答中的单位tons（吨）可知是在询问重量。"
+        "question": "How ____ is the dinosaur? — It is 5 tons.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "That dinosaur is taller than me.",
         "difficulty": 1,
+        "explanation": "taller 是 tall 的比较级，taller than 表示“比……高”。其他选项的比较方向或语法不符合原句。",
         "knowledge_point": "句型识别",
-        "question": "选出翻译正确的一项：那只恐龙比我高。",
         "options": [
           "That dinosaur is tall than me.",
           "That dinosaur is taller than me.",
-          "That dinosaur is tallest than me.",
-          "That dinosaur is more taller than me."
+          "That dinosaur is shorter than me.",
+          "I am taller than that dinosaur."
         ],
-        "answer": "That dinosaur is taller than me.",
-        "explanation": "比较级句型为 A + be + adj-er + than + B。"
+        "question": "选出翻译正确的一项：那只恐龙比我高。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "take",
         "difficulty": 2,
+        "explanation": "take ... into 表示“把……带进……”。本句意思是“请把它带进大厅”。",
         "knowledge_point": "固定搭配",
-        "question": "Please ____ it into the hall.",
         "options": [
           "get",
           "take",
           "bring",
           "put"
         ],
-        "answer": "take",
-        "explanation": "take...into 把...带进...。"
+        "question": "Please ____ it into the hall.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "taller",
         "difficulty": 2,
+        "explanation": "1.6米比1.55米高，因此A比B高，填比较级 taller。",
         "knowledge_point": "逻辑理解",
-        "question": "A is 1.6m. B is 1.55m. So A is ____ than B.",
         "options": [
           "shorter",
           "taller",
           "smaller",
           "thin"
         ],
-        "answer": "taller",
-        "explanation": "1.6米大于1.55米，所以A更高。"
+        "question": "A is 1.6m. B is 1.55m. So A is ____ than B.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "size",
         "difficulty": 2,
+        "explanation": "What size 是常用表达，用来询问鞋子的尺码。句意是“你的鞋子多大码？”。",
         "knowledge_point": "句型补全",
-        "question": "What ____ are your shoes?",
         "options": [
           "long",
           "heavy",
           "size",
           "tall"
         ],
-        "answer": "size",
-        "explanation": "What size是固定短语，询问鞋子的号码。"
+        "question": "What ____ are your shoes?",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "heavier",
         "difficulty": 3,
+        "explanation": "大象通常比兔子重。结合常识，heavier（更重的）最合适；smaller、shorter 和 thinner 都不符合通常的比较结果。",
         "knowledge_point": "常识推断",
-        "question": "An elephant is ____ than a rabbit.",
         "options": [
           "smaller",
           "heavier",
           "shorter",
           "thinner"
         ],
-        "answer": "heavier",
-        "explanation": "大象比兔子重。"
+        "question": "An elephant is ____ than a rabbit.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "比较级词汇",
-        "question": "I am 160cm tall. My brother is 165cm. I am ___ than him.",
-        "options": [],
         "answer": "shorter",
-        "explanation": "160cm比165cm矮。"
-      },
-      {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "语法运用",
-        "question": "My bag is 2kg. Your bag is 3kg. Your bag is ___ than mine.",
-        "options": [],
-        "answer": "heavier",
-        "explanation": "3kg比2kg重，heavy的比较级是heavier。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
-        "knowledge_point": "语法结构",
-        "question": "Who is stronger, you ___ your father?",
-        "options": [],
-        "answer": "or",
-        "explanation": "选择性疑问句用or连接两个选项。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
+        "explanation": "160厘米比165厘米矮，描述身高时用short的比较级shorter。",
         "knowledge_point": "比较级词汇",
-        "question": "Your hair is 20cm. My hair is 15cm. Your hair is ___ than mine.",
         "options": [],
-        "answer": "longer",
-        "explanation": "形容头发长短用long，比较级longer。"
+        "question": "I am 160 cm tall. My brother is 165 cm. I am ___ than him.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 20,
-        "type": "matching",
+        "answer": "heavier",
+        "difficulty": 2,
+        "explanation": "3kg比2kg重。heavy以辅音字母加 y 结尾，变比较级时把 y 改成 i 再加 -er，写作 heavier。",
+        "knowledge_point": "语法运用",
+        "options": [],
+        "question": "My bag is 2kg. Your bag is 3kg. Your bag is ___ than mine.",
         "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "or",
         "difficulty": 1,
+        "explanation": "选择性疑问句是在两个选项中让对方选择，通常用 or 连接。",
+        "knowledge_point": "语法结构",
+        "options": [],
+        "question": "Who is stronger, you ___ your father?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "longer",
+        "difficulty": 2,
+        "explanation": "20厘米比15厘米长，比较头发长度用long的比较级longer。",
+        "knowledge_point": "比较级词汇",
+        "options": [],
+        "question": "Your hair is 20 cm. My hair is 15 cm. Your hair is ___ than mine.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-3,B-4,C-2,D-1",
+        "difficulty": 1,
+        "explanation": "how tall询问身高；how heavy询问体重；smaller表示更小的；thinner表示更瘦的。",
         "knowledge_point": "词汇翻译",
-        "question": "将下列短语/单词与对应的中文意思连线。",
         "options": [
           "how tall",
           "how heavy",
@@ -283,16 +281,16 @@
           "多高",
           "多重"
         ],
-        "answer": "A-3,B-4,C-2,D-1",
-        "explanation": "how tall询问身高；how heavy询问体重；smaller更小；thinner更瘦。"
+        "question": "将下列短语/单词与对应的中文意思连线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-4,B-1,C-2,D-3",
         "difficulty": 2,
+        "explanation": "shadow意为影子；dinosaur意为恐龙；stronger意为更强壮的；younger意为更年轻的。",
         "knowledge_point": "词汇翻译",
-        "question": "将下列核心词汇与对应中文意思连线。",
         "options": [
           "shadow",
           "dinosaur",
@@ -303,16 +301,16 @@
           "更年轻的",
           "影子"
         ],
-        "answer": "A-4,B-1,C-2,D-3",
-        "explanation": "shadow影子；dinosaur恐龙；stronger更强壮；younger更年轻。"
+        "question": "将下列核心词汇与对应中文意思连线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "I,am,taller,than,you",
         "difficulty": 2,
+        "explanation": "比较级句式的语序是“主语 + be动词 + 形容词比较级 + than + 比较对象”，所以句子是 I am taller than you.",
         "knowledge_point": "比较级句式",
-        "question": "请将单词排列成句：(than, I, taller, am, you)",
         "options": [
           "than",
           "I",
@@ -320,16 +318,16 @@
           "am",
           "you"
         ],
-        "answer": "I,am,taller,than,you",
-        "explanation": "标准比较级结构：主语+be+形容词比较级+than+对象。"
+        "question": "请将单词排列成句：(than, I, taller, am, you)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "How,tall,are,you,?",
         "difficulty": 3,
+        "explanation": "询问身高的特殊疑问句结构为“How tall + be 动词 + 主语 + ?”。",
         "knowledge_point": "特殊疑问句",
-        "question": "请将单词排列成句：(are, How, you, tall, ?)",
         "options": [
           "are",
           "How",
@@ -337,8 +335,1457 @@
           "tall",
           "?"
         ],
-        "answer": "How,tall,are,you,?",
-        "explanation": "询问身高的特殊疑问句结构：How tall + be + 主语 + ?"
+        "question": "请将单词排列成句：(are, How, you, tall, ?)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "taller",
+        "difficulty": 1,
+        "explanation": "tall 是一般以字母组合结尾的短形容词，比较级通常加 er：tall → taller。",
+        "knowledge_point": "形容词比较级的规则构成",
+        "options": [],
+        "question": "把 tall 变成比较级：tall → ____。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 24
+      },
+      {
+        "answer": "larger",
+        "difficulty": 1,
+        "explanation": "large 以不发音的 e 结尾，只需加 r：large → larger。",
+        "knowledge_point": "形容词比较级的规则构成",
+        "options": [],
+        "question": "把 large 变成比较级：large → ____。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 25
+      },
+      {
+        "answer": "happier",
+        "difficulty": 2,
+        "explanation": "happy 以“辅音字母+y”结尾，变比较级时先把 y 改成 i，再加 er，写作 happier。",
+        "knowledge_point": "形容词比较级的规则构成",
+        "options": [
+          "happier",
+          "happyer",
+          "more happy",
+          "happiest"
+        ],
+        "question": "选择形容词 happy 的正确比较级。",
+        "score": 1,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "hotter",
+        "difficulty": 2,
+        "explanation": "hot 是重读闭音节词，末尾符合“辅音-元音-辅音”结构，需双写末尾的 t 再加 er：hot → hotter。",
+        "knowledge_point": "形容词比较级的规则构成",
+        "options": [],
+        "question": "把 hot 变成比较级：hot → ____。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "more beautiful",
+        "difficulty": 2,
+        "explanation": "beautiful 是较长的形容词，通常在原形前加 more 构成比较级。",
+        "knowledge_point": "形容词比较级的规则构成",
+        "options": [],
+        "question": "beautiful 的比较级是 ____。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 28
+      },
+      {
+        "answer": "than",
+        "difficulty": 1,
+        "explanation": "比较两个人或事物时，常用“比较级 + than”表示“比……更……”。",
+        "knowledge_point": "形容词比较级的规则构成",
+        "options": [],
+        "question": "This book is thicker ____ that one.（比那本书厚）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 29
+      },
+      {
+        "answer": "How long",
+        "difficulty": 1,
+        "explanation": "询问一支铅笔有多长，用“How long is...?”；pencil是单数，所以用is。",
+        "knowledge_point": "测量数据与尺寸的询问与表达",
+        "options": [
+          "How long",
+          "How tall",
+          "How wide",
+          "How heavy"
+        ],
+        "question": "选择合适的词填空：_____ is the pencil? It is 15 centimeters long.",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "It is 12 centimeters wide.",
+        "difficulty": 1,
+        "explanation": "问句询问宽度，用wide；回答时使用“It is + 数字 + 单位 + wide”。",
+        "knowledge_point": "测量数据与尺寸的询问与表达",
+        "options": [],
+        "question": "用英语回答：How wide is the book?（12厘米宽）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "How tall is your brother?",
+        "difficulty": 2,
+        "explanation": "询问人的身高通常用“How tall is...?”；your brother是单数，因此使用is。",
+        "knowledge_point": "测量数据与尺寸的询问与表达",
+        "options": [],
+        "question": "连词成句：tall / your brother / how / is",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "箱子有多重要用“How heavy...?”询问；答句中箱子是单数，用It is。",
+        "knowledge_point": "测量数据与尺寸的询问与表达",
+        "options": [
+          "How long is the box? — It is 5 kilograms.",
+          "How heavy is the box? — It is 5 kilograms.",
+          "How tall are the box? — It is 5 kilograms.",
+          "How wide is the box? — They are 5 kilograms."
+        ],
+        "question": "哪组问答正确？",
+        "score": 1,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "are",
+        "difficulty": 2,
+        "explanation": "问句主语the windows是复数，应使用are；长度单位meters放在数字之后。",
+        "knowledge_point": "测量数据与尺寸的询问与表达",
+        "options": [],
+        "question": "填入适当的词：How long _____ the windows? They are 2 meters long.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 34
+      },
+      {
+        "answer": "It is 3 meters tall.",
+        "difficulty": 2,
+        "explanation": "问句询问树的高度，使用tall；回答用“It is + 数字 + 单位 + tall”。",
+        "knowledge_point": "测量数据与尺寸的询问与表达",
+        "options": [],
+        "question": "用英语回答：How tall is the tree?（3米高）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "taller",
+        "difficulty": 1,
+        "explanation": "句型为“A is + 比较级 + than B”。tall 是短形容词，比较级在词尾加 -er，写作 taller。",
+        "knowledge_point": "A be 比较级 than B 句型运用",
+        "options": [],
+        "question": "用 tall 的适当形式填空：Amy is ____ than Lucy.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 36
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "句子的主语是单数名词 The cat，be 动词用 is。small 的比较级是 smaller。",
+        "knowledge_point": "A be 比较级 than B 句型运用",
+        "options": [],
+        "question": "用适当的 be 动词填空：The cat ____ smaller than the dog.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 37
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "young 的比较级是 younger，表示“更年轻”。句子意思是“李先生比王先生年轻”。",
+        "knowledge_point": "A be 比较级 than B 句型运用",
+        "options": [
+          "A. Mr. Li is young than Mr. Wang.",
+          "B. Mr. Li is younger than Mr. Wang.",
+          "C. Mr. Li younger is than Mr. Wang.",
+          "D. Mr. Li is younger Mr. Wang."
+        ],
+        "question": "选出正确的句子。",
+        "score": 1,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "This book is more interesting than that book.",
+        "difficulty": 2,
+        "explanation": "interesting 是较长的形容词，比较级通常用 more interesting；than 后接比较对象。",
+        "knowledge_point": "A be 比较级 than B 句型运用",
+        "options": [],
+        "question": "连词成句：this book / be / interesting / that book（要求表达“这本书比那本书更有趣”）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "better",
+        "difficulty": 2,
+        "explanation": "good 的比较级是不规则变化 better，不能写成 gooder。",
+        "knowledge_point": "A be 比较级 than B 句型运用",
+        "options": [],
+        "question": "用 good 的适当形式填空：My English is ____ than before.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 40
+      },
+      {
+        "answer": "The elephant is bigger than the horse.",
+        "difficulty": 2,
+        "explanation": "big 以“辅音字母+元音字母+辅音字母”结尾，比较级要双写末尾字母 g 再加 -er，写作 bigger。主语 The elephant 是单数，因此用 is。",
+        "knowledge_point": "A be 比较级 than B 句型运用",
+        "options": [],
+        "question": "根据提示写句子：The elephant / big / the horse（大象比马大）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "nicer",
+        "difficulty": 1,
+        "explanation": "nice 以不发音的 e 结尾，构成比较级时直接加 -r。",
+        "knowledge_point": "形容词比较级构成规则",
+        "options": [],
+        "question": "写出 nice 的比较级：______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 42
+      },
+      {
+        "answer": "bigger",
+        "difficulty": 2,
+        "explanation": "big 以短元音加一个辅音字母结尾，构成比较级时双写末尾的 g，再加 -er。",
+        "knowledge_point": "形容词比较级构成规则",
+        "options": [],
+        "question": "写出 big 的比较级：______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 43
+      },
+      {
+        "answer": "more beautiful",
+        "difficulty": 2,
+        "explanation": "beautiful 是较长的形容词，通常在前面加 more 构成比较级，因此正确形式是 more beautiful。",
+        "knowledge_point": "形容词比较级构成规则",
+        "options": [
+          "more beautiful",
+          "beautifuler",
+          "beautifuller",
+          "most beautiful"
+        ],
+        "question": "选择 beautiful 的正确比较级形式。",
+        "score": 2,
+        "type": "choice",
+        "id": 44
+      },
+      {
+        "answer": "better",
+        "difficulty": 2,
+        "explanation": "good 的比较级是不规则变化 better，不能按一般规则写成 gooder。",
+        "knowledge_point": "形容词比较级构成规则",
+        "options": [],
+        "question": "写出 good 的比较级：______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 45
+      },
+      {
+        "answer": "centimetre",
+        "difficulty": 1,
+        "explanation": "centimetre 表示厘米，是常用的长度单位。",
+        "knowledge_point": "度量衡单位",
+        "options": [],
+        "question": "“厘米”的英文是 ______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 46
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "litre 表示升，是容量单位；gram 是质量单位，metre 是长度单位。",
+        "knowledge_point": "度量衡单位",
+        "options": [
+          "A. litre",
+          "B. gram",
+          "C. metre"
+        ],
+        "question": "哪个英文单位表示“升”？",
+        "score": 2,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "1,000",
+        "difficulty": 2,
+        "explanation": "1 kilogram 等于 1,000 grams。",
+        "knowledge_point": "度量衡单位",
+        "options": [],
+        "question": "1 kilogram = ______ grams。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 48
+      },
+      {
+        "answer": "6 kilometres",
+        "difficulty": 2,
+        "explanation": "1 kilometre = 1,000 metres，因此 6,000 metres = 6 kilometres。",
+        "knowledge_point": "度量衡单位",
+        "options": [],
+        "question": "一条路长 6,000 metres，等于多少 kilometres？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "millilitre",
+        "difficulty": 1,
+        "explanation": "millilitre 表示毫升，是容量单位，常用于表示少量液体。",
+        "knowledge_point": "度量衡单位",
+        "options": [],
+        "question": "“毫升”的英文是 ______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "tall是一般情况下在词尾加-er构成比较级，故为taller；比较时用than连接对象。",
+        "knowledge_point": "比较级句型",
+        "options": [
+          "A. taller",
+          "B. tall",
+          "C. tallest",
+          "D. more tall"
+        ],
+        "question": "My brother is _____ than me.（tall）",
+        "score": 2,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "bigger",
+        "difficulty": 1,
+        "explanation": "big是重读闭音节词，词末只有一个辅音字母g，变比较级时要双写g再加-er。",
+        "knowledge_point": "比较级句型",
+        "options": [],
+        "question": "The elephant is _____ than the dog.（big）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "more beautiful",
+        "difficulty": 2,
+        "explanation": "beautiful是较长的形容词，通常在前面加more构成比较级。",
+        "knowledge_point": "比较级句型",
+        "options": [],
+        "question": "This flower is _____ than that one.（beautiful）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 53
+      },
+      {
+        "answer": "better",
+        "difficulty": 2,
+        "explanation": "good的比较级是不规则变化better，不能写成gooder。",
+        "knowledge_point": "比较级句型",
+        "options": [],
+        "question": "This book is _____ than that one.（good）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 54
+      },
+      {
+        "answer": "The red pencil is shorter than the blue pencil.",
+        "difficulty": 2,
+        "explanation": "比较两支铅笔的长度，short要用比较级shorter，并用than连接比较对象。",
+        "knowledge_point": "比较级句型",
+        "options": [],
+        "question": "用short和than把下面的信息连成一句话：The red pencil is short. The blue pencil is long.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 55
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "big 表示“大”，用来描述球的大小；ball 是名词，表示“球”。",
+        "knowledge_point": "形容词意义",
+        "options": [
+          "A. ball",
+          "B. big",
+          "C. is"
+        ],
+        "question": "在短语 a big ball（一个大球）中，哪个词表示“大”？",
+        "score": 2,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "happy 表示“开心的”，描述人的感受，是形容词。",
+        "knowledge_point": "形容词意义",
+        "options": [
+          "A. happy",
+          "B. school",
+          "C. pencil"
+        ],
+        "question": "哪个词是表示感受的形容词？",
+        "score": 2,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "long",
+        "difficulty": 1,
+        "explanation": "long 表示“长的”，可以用来描述尺子的长度。",
+        "knowledge_point": "形容词意义",
+        "options": [],
+        "question": "填入合适的形容词：This ruler is _____.（这把尺子很长。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 58
+      },
+      {
+        "answer": "small",
+        "difficulty": 2,
+        "explanation": "small 表示“小的”，用来描述猫的大小。句子意为“那只猫很小”。",
+        "knowledge_point": "形容词意义",
+        "options": [],
+        "question": "The cat is _____.（那只猫很小。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 59
+      },
+      {
+        "answer": "矮；短",
+        "difficulty": 2,
+        "explanation": "short 可以描述人的身高，表示“矮的”；也可以描述物品的长度，表示“短的”。",
+        "knowledge_point": "形容词意义",
+        "options": [],
+        "question": "short 可以描述人的身高，表示“_____”；也可以描述物品的长度，表示“_____”。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "taller",
+        "difficulty": 1,
+        "explanation": "比较两个人的身高，用tall的比较级taller。",
+        "knowledge_point": "比较级词汇",
+        "options": [
+          "tall",
+          "taller",
+          "long",
+          "longer"
+        ],
+        "question": "Lucy is ____ than her little sister.",
+        "score": 5,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "shorter",
+        "difficulty": 1,
+        "explanation": "铅笔的长度较短，用short的比较级shorter。",
+        "knowledge_point": "比较级词汇",
+        "options": [],
+        "question": "This pencil is 10 cm. That pencil is 15 cm. This pencil is ___ than that one.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "longer",
+        "difficulty": 2,
+        "explanation": "A路比B路长，比较道路长度用long的比较级longer。",
+        "knowledge_point": "比较级词汇",
+        "options": [
+          "longer",
+          "shorter",
+          "taller",
+          "short"
+        ],
+        "question": "Road A is 5 km. Road B is 3 km. Road A is ____ than Road B.",
+        "score": 5,
+        "type": "choice",
+        "id": 63
+      },
+      {
+        "answer": "How",
+        "difficulty": 1,
+        "explanation": "询问身高用“How tall”，句首的“How”要大写。",
+        "knowledge_point": "询问身高",
+        "options": [
+          "How",
+          "What",
+          "Where",
+          "When"
+        ],
+        "question": "____ tall is your sister?",
+        "score": 5,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "主语“Tom”是第三人称单数，be动词用“is”。",
+        "knowledge_point": "询问身高",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "question": "How tall ____ Tom?",
+        "score": 5,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "询问身高可以说“How tall are you?”，回答可以说“I am 1.5 metres tall.”",
+        "knowledge_point": "询问身高",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“How tall are you?”可以用来询问对方的身高。",
+        "score": 5,
+        "type": "true_false",
+        "id": 66
+      },
+      {
+        "answer": "How tall",
+        "difficulty": 1,
+        "explanation": "“How tall”表示“多高”，用于询问身高。",
+        "knowledge_point": "询问身高",
+        "options": [],
+        "question": "____ ____ are you? — I am 150 centimetres tall.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 67
+      },
+      {
+        "answer": "She is 1.6 metres tall.",
+        "difficulty": 2,
+        "explanation": "回答身高时，主语“She”对应be动词“is”，身高后可以加“tall”。",
+        "knowledge_point": "询问身高",
+        "options": [],
+        "question": "用“She”回答：How tall is Lily? — ____",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 68
+      },
+      {
+        "answer": "happier",
+        "difficulty": 1,
+        "explanation": "happy 以“辅音字母 + y”结尾，构成比较级时把 y 改成 i，再加 -er。",
+        "knowledge_point": "比较级构成规则",
+        "options": [
+          "happyer",
+          "happier",
+          "more happy",
+          "happiest"
+        ],
+        "question": "Which is the comparative form of 'happy'?",
+        "score": 5,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "nicer",
+        "difficulty": 1,
+        "explanation": "nice 以字母 e 结尾，构成比较级时只加 -r。",
+        "knowledge_point": "比较级构成规则",
+        "options": [
+          "niceer",
+          "nicer",
+          "nicier",
+          "more nice"
+        ],
+        "question": "Choose the correct comparative form of 'nice'.",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "taller",
+        "difficulty": 1,
+        "explanation": "tall 是一般的单音节形容词，通常直接在词尾加 -er，变成 taller。",
+        "knowledge_point": "比较级构成规则",
+        "options": [],
+        "question": "Fill in the blank: Tom is ____ than Jack. (tall)",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 71
+      },
+      {
+        "answer": "more beautiful",
+        "difficulty": 2,
+        "explanation": "beautiful 是较长的形容词，通常在它前面加 more 构成比较级：more beautiful。",
+        "knowledge_point": "比较级构成规则",
+        "options": [],
+        "question": "Fill in the blank: This flower is ____ than that one. (beautiful)",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 72
+      },
+      {
+        "answer": "bigger",
+        "difficulty": 2,
+        "explanation": "big 是重读闭音节单词，比较级要双写词尾辅音字母 g，再加 -er，因此是 bigger。",
+        "knowledge_point": "比较级构成规则",
+        "options": [],
+        "question": "Complete the sentence with the comparative form of 'big': My schoolbag is ____ than yours.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 73
+      },
+      {
+        "answer": "taller",
+        "difficulty": 2,
+        "explanation": "句中有 than，表示比较；描述身高时用 tall 的比较级 taller。",
+        "knowledge_point": "形容词辨析",
+        "options": [
+          "tall",
+          "taller",
+          "tallest",
+          "short"
+        ],
+        "question": "Tom is ____ than his brother. He is 150 cm tall, and his brother is 145 cm tall.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "heavy",
+        "difficulty": 1,
+        "explanation": "句意是“这个箱子很重”，描述箱子的重量用形容词 heavy。",
+        "knowledge_point": "形容词辨析",
+        "options": [
+          "heavy",
+          "long",
+          "young",
+          "happy"
+        ],
+        "question": "This box is difficult to carry. It is very ____.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "older",
+        "difficulty": 2,
+        "explanation": "than 提示进行比较；描述年龄时用 old 的比较级 older。",
+        "knowledge_point": "形容词辨析",
+        "options": [
+          "old",
+          "older",
+          "oldest",
+          "young"
+        ],
+        "question": "My sister is ____ than me. She is twelve, and I am ten.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "cold",
+        "difficulty": 1,
+        "explanation": "句意是“天气冷”，描述天气温度用 cold；hot 表示热，不能与句意匹配。",
+        "knowledge_point": "形容词辨析",
+        "options": [
+          "cold",
+          "hot",
+          "short",
+          "strong"
+        ],
+        "question": "Put on your coat. It is ____ outside today.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "better",
+        "difficulty": 2,
+        "explanation": "句中有 than，表示比较。good 的比较级是不规则变化 better，句意是“今天感觉比昨天好”。",
+        "knowledge_point": "形容词辨析",
+        "options": [
+          "good",
+          "better",
+          "best",
+          "well"
+        ],
+        "question": "I feel ____ today than I did yesterday.",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "heavy",
+        "difficulty": 1,
+        "explanation": "询问一个人的体重用“How heavy is...?”，意为“……有多重？”。",
+        "knowledge_point": "询问体重",
+        "options": [],
+        "question": "How ____ is your brother?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 79
+      },
+      {
+        "answer": "How heavy is the box?",
+        "difficulty": 2,
+        "explanation": "询问单数物品的重量用“How heavy is + 单数主语?”。",
+        "knowledge_point": "询问体重",
+        "options": [],
+        "question": "把下列词语连成句子：heavy / is / the box / How",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 80
+      },
+      {
+        "answer": "are",
+        "difficulty": 2,
+        "explanation": "people是复数名词，be动词用are，所以句子是“How heavy are these people?”。",
+        "knowledge_point": "询问体重",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "question": "How heavy ____ these people?",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "It is 8 kilograms.",
+        "difficulty": 2,
+        "explanation": "回答单数物品的重量时，用“It is + 数字 + 重量单位.”。",
+        "knowledge_point": "询问体重",
+        "options": [],
+        "question": "回答：How heavy is the watermelon?（8 kilograms）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "How heavy are the elephants?",
+        "difficulty": 3,
+        "explanation": "elephants是复数，因此用are；询问重量的固定表达是How heavy。",
+        "knowledge_point": "询问体重",
+        "options": [
+          "How heavy are the elephants?",
+          "How tall are the elephants?",
+          "How much heavy are the elephants?",
+          "How heavy is the elephants?"
+        ],
+        "question": "选出询问“这些大象有多重？”的正确句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "句子中有“taller than”，表示把恐龙和我进行比较，因此是比较级陈述句。",
+        "knowledge_point": "句型识别",
+        "options": [
+          "A. 一般疑问句",
+          "B. 比较级陈述句",
+          "C. 特殊疑问句",
+          "D. 祈使句"
+        ],
+        "question": "“The elephant is bigger than the dog.”属于哪种句型？",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "Where does your sister live?",
+        "difficulty": 2,
+        "explanation": "询问地点用 Where；特殊疑问句结构为“疑问词 + 助动词 + 主语 + 动词原形”。主语 your sister 是第三人称单数，所以用 does，后面的 live 用原形。",
+        "knowledge_point": "句型识别",
+        "options": [],
+        "question": "用 Where、does、your sister、live 组成一个询问“你姐姐住在哪里？”的特殊疑问句。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "“Are + 主语 + 其他？”是以 Be 动词开头的一般疑问句，通常用 Yes 或 No 回答。",
+        "knowledge_point": "句型识别",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断正误：“Are you hungry?”是一般疑问句。",
+        "score": 5,
+        "type": "true_false",
+        "id": 86
+      },
+      {
+        "answer": "taller",
+        "difficulty": 2,
+        "explanation": "句中有 than，表示比较两者。tall 的比较级是 taller，因此应填 taller。",
+        "knowledge_point": "句型识别",
+        "options": [],
+        "question": "填空：My brother is ______ (tall) than me.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 87
+      },
+      {
+        "answer": "How many books do you have?",
+        "difficulty": 2,
+        "explanation": "询问可数物品的数量用 How many。一般现在时中，主语 you 对应助动词 do，句式为“How many + 可数名词复数 + do + 主语 + 动词原形？”",
+        "knowledge_point": "句型识别",
+        "options": [],
+        "question": "将下列词语连成句子：many / books / do / you / have / how。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 88
+      },
+      {
+        "answer": "listen to",
+        "difficulty": 1,
+        "explanation": "listen 后面接表示听的对象时，通常要用 to。listen to music 表示“听音乐”。",
+        "knowledge_point": "固定搭配",
+        "options": [],
+        "question": "I like to ____ music after school.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 89
+      },
+      {
+        "answer": "look for",
+        "difficulty": 2,
+        "explanation": "look for 表示“寻找”。句意是“我正在寻找我的铅笔”。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "look at",
+          "look for",
+          "look after",
+          "look like"
+        ],
+        "question": "I can't find my pencil. I am ____ it.",
+        "score": 5,
+        "type": "choice",
+        "id": 90
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "be good at 是固定搭配，表示“擅长……”，后面可以接名词或动词-ing形式。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“She is good at singing.”中的 be good at 表示“擅长”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 91
+      },
+      {
+        "answer": "look after",
+        "difficulty": 2,
+        "explanation": "look after 表示“照顾”。句意是“你能照顾这只小猫吗？”",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "look after",
+          "look for",
+          "look at",
+          "look up"
+        ],
+        "question": "Can you ____ the little cat while I am away?",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "to",
+        "difficulty": 1,
+        "explanation": "say to somebody 是常见搭配，表示“对某人说”。完整句子为：Please say hello to your teacher.（请向你的老师问好。）",
+        "knowledge_point": "固定搭配",
+        "options": [],
+        "question": "Please say hello ____ your teacher.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "because",
+        "difficulty": 2,
+        "explanation": "后半句说明他没去公园的原因，因此用 because 表示“因为”。",
+        "knowledge_point": "逻辑理解",
+        "options": [
+          "because",
+          "but",
+          "or",
+          "so"
+        ],
+        "question": "Tom stayed at home ____ it was raining.",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "but",
+        "difficulty": 2,
+        "explanation": "前半句说天冷，后半句说他们仍然去踢足球，意思发生转折，用 but。",
+        "knowledge_point": "逻辑理解",
+        "options": [
+          "and",
+          "but",
+          "because",
+          "so"
+        ],
+        "question": "It was cold, ____ we still went out to play football.",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "Lucy is taller than Amy.",
+        "difficulty": 2,
+        "explanation": "Lucy 身高145厘米，Amy 身高140厘米，145大于140，所以 Lucy 比 Amy 高。",
+        "knowledge_point": "逻辑理解",
+        "options": [
+          "Lucy is shorter than Amy.",
+          "Lucy is taller than Amy.",
+          "Amy is taller than Lucy.",
+          "Lucy and Amy are the same height."
+        ],
+        "question": "Amy is 140 cm tall. Lucy is 145 cm tall. Which sentence is true?",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "so",
+        "difficulty": 2,
+        "explanation": "前句说Ben很累，后句说他早早睡觉，后句是前句导致的结果，用 so 表示“所以”。",
+        "knowledge_point": "逻辑理解",
+        "options": [
+          "but",
+          "because",
+          "so",
+          "or"
+        ],
+        "question": "Ben was very tired, ____ he went to bed early.",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "doesn't",
+        "difficulty": 2,
+        "explanation": "句子说Mary喜欢苹果，但不喜欢香蕉。主语Mary是第三人称单数，否定句用 doesn't。",
+        "knowledge_point": "逻辑理解",
+        "options": [
+          "don't",
+          "doesn't",
+          "isn't",
+          "aren't"
+        ],
+        "question": "Mary likes apples, but she ____ like bananas.",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "time",
+        "difficulty": 1,
+        "explanation": "What time 用来询问具体时间，句意是“你通常几点起床？”。",
+        "knowledge_point": "句型补全",
+        "options": [
+          "time",
+          "many",
+          "much",
+          "size"
+        ],
+        "question": "What ____ do you usually get up?",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "many",
+        "difficulty": 2,
+        "explanation": "apples 是可数名词复数，询问数量要用 How many。",
+        "knowledge_point": "句型补全",
+        "options": [
+          "much",
+          "many",
+          "old",
+          "long"
+        ],
+        "question": "How ____ apples are there in the basket?",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "does",
+        "difficulty": 2,
+        "explanation": "主语 your brother 是第三人称单数，一般现在时的一般疑问句用 Does 开头；后面的动词用原形。",
+        "knowledge_point": "句型补全",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "question": "____ your brother like playing football?",
+        "score": 5,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "is",
+        "difficulty": 2,
+        "explanation": "主语 the library 是单数，询问地点时可用 Where is ...? 句意是“图书馆在哪里？”。",
+        "knowledge_point": "句型补全",
+        "options": [
+          "are",
+          "am",
+          "is",
+          "do"
+        ],
+        "question": "Where ____ the library?",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "How much",
+        "difficulty": 2,
+        "explanation": "询问某物的价格常用 How much。句意是“这本故事书多少钱？”。",
+        "knowledge_point": "句型补全",
+        "options": [
+          "How many",
+          "How much",
+          "How old",
+          "How long"
+        ],
+        "question": "____ is this storybook?",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "天空乌云密布，出门带伞更合理。A项戴太阳镜适合阳光强烈时，B项吃冰淇淋和句意没有直接关系。",
+        "knowledge_point": "常识推断",
+        "options": [
+          "A. I will wear sunglasses.",
+          "B. I will eat some ice cream.",
+          "C. I will take an umbrella."
+        ],
+        "question": "The sky is full of dark clouds. What should I take before I go out?",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "莉莉口渴时，喝水最合理。阅读时要联系日常生活中的需要与对应做法。",
+        "knowledge_point": "常识推断",
+        "options": [
+          "A. She should go to bed.",
+          "B. She should drink some water.",
+          "C. She should put on her coat."
+        ],
+        "question": "Lily is very thirsty after running. What should she do?",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "cold",
+        "difficulty": 2,
+        "explanation": "外面很冷时，人们通常会穿外套保暖。cold（寒冷的）符合句意和生活常识。",
+        "knowledge_point": "常识推断",
+        "options": [],
+        "question": "It is very ____ outside, so Tom puts on his coat.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 106
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "鱼生活在水中，鱼缸里有水是符合常识的。",
+        "knowledge_point": "常识推断",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "Fish live in water.",
+        "score": 5,
+        "type": "true_false",
+        "id": 107
+      },
+      {
+        "answer": "teeth",
+        "difficulty": 3,
+        "explanation": "刷牙通常使用牙刷来清洁牙齿，所以空格处应填 teeth（牙齿）。",
+        "knowledge_point": "常识推断",
+        "options": [],
+        "question": "We use a toothbrush to clean our ____ every day.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 108
+      },
+      {
+        "answer": "goes",
+        "difficulty": 1,
+        "explanation": "主语 Tom 是第三人称单数，一般现在时中，go 要加 -es，写作 goes。",
+        "knowledge_point": "语法运用",
+        "options": [],
+        "question": "Tom ___ to school by bus every day. (go)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "Does",
+        "difficulty": 2,
+        "explanation": "主语 Lily 是第三人称单数，一般现在时的一般疑问句用 Does 开头；助动词后用动词原形 like。",
+        "knowledge_point": "语法运用",
+        "options": [],
+        "question": "___ Lily like apples?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "主语是复数名词 My friends，be 动词应使用 are。",
+        "knowledge_point": "语法运用",
+        "options": [],
+        "question": "My friends ___ happy today.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "I am",
+        "difficulty": 2,
+        "explanation": "主语 I 与 be 动词 am 搭配；“擅长……”用 be good at，因此填 I am。",
+        "knowledge_point": "语法运用",
+        "options": [],
+        "question": "___ good at drawing.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "children",
+        "difficulty": 2,
+        "explanation": "child 的复数形式是不规则变化 children，不是在词尾直接加 -s。",
+        "knowledge_point": "语法运用",
+        "options": [],
+        "question": "There are three ___ in the park. (child)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "taller",
+        "difficulty": 1,
+        "explanation": "句中有 than，表示比较两个人的身高。tall 的比较级是 taller。",
+        "knowledge_point": "语法结构",
+        "options": [],
+        "question": "Amy is ___ than Lily. (tall)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "Does",
+        "difficulty": 2,
+        "explanation": "主语 Tom 是第三人称单数，一般现在时的一般疑问句要用 Does 开头；用了 Does 后，实义动词用原形 read。",
+        "knowledge_point": "语法结构",
+        "options": [],
+        "question": "___ Tom ___ books every evening? (read)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "plays",
+        "difficulty": 1,
+        "explanation": "一般现在时中，主语 he 是第三人称单数，动词 play 要加 -s，变为 plays。",
+        "knowledge_point": "语法结构",
+        "options": [],
+        "question": "He ___ football after school. (play)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "visited",
+        "difficulty": 1,
+        "explanation": "句中的 yesterday 表示过去时间，visit 的一般过去式是 visited。",
+        "knowledge_point": "语法结构",
+        "options": [],
+        "question": "We ___ our grandparents yesterday. (visit)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "than",
+        "difficulty": 1,
+        "explanation": "比较两个人的年龄时，常用“比较级 + than”结构，表示“比……”。",
+        "knowledge_point": "语法结构",
+        "options": [],
+        "question": "My sister is younger ___ me.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "A-2,B-1,C-3,D-4",
+        "difficulty": 1,
+        "explanation": "longer是更长的；shorter是更短的；older是更年长的；taller是更高的。",
+        "knowledge_point": "词汇翻译",
+        "options": [
+          "longer",
+          "shorter",
+          "older",
+          "taller",
+          "更高的",
+          "更长的",
+          "更年长的",
+          "更短的"
+        ],
+        "question": "将下列单词与对应的中文意思连线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "A-3,B-1,C-4,D-2",
+        "difficulty": 2,
+        "explanation": "both表示两者都；metre表示米；kilogram表示千克；than常用于比较，意为“比”。",
+        "knowledge_point": "词汇翻译",
+        "options": [
+          "both",
+          "metre",
+          "kilogram",
+          "than",
+          "千克",
+          "比",
+          "两者都",
+          "米"
+        ],
+        "question": "将下列词汇与对应的中文意思连线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "A-4,B-2,C-1,D-3",
+        "difficulty": 2,
+        "explanation": "dinosaur意为恐龙；hall意为大厅；size意为尺寸；become意为变得。",
+        "knowledge_point": "词汇翻译",
+        "options": [
+          "dinosaur",
+          "hall",
+          "size",
+          "become",
+          "尺寸",
+          "大厅",
+          "变得",
+          "恐龙"
+        ],
+        "question": "将下列词汇与对应的中文意思连线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "A-2,B-4,C-1,D-3",
+        "difficulty": 2,
+        "explanation": "heavy意为重的；thin意为瘦的；strong意为强壮的；young意为年轻的。",
+        "knowledge_point": "词汇翻译",
+        "options": [
+          "heavy",
+          "thin",
+          "strong",
+          "young",
+          "年轻的",
+          "重的",
+          "强壮的",
+          "瘦的"
+        ],
+        "question": "将下列单词与对应的中文意思连线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "B. older",
+        "difficulty": 1,
+        "explanation": "old 是短形容词，比较级通常在词尾加 -er，变为 older。",
+        "knowledge_point": "比较级句式",
+        "options": [
+          "old",
+          "older",
+          "more old",
+          "oldest"
+        ],
+        "question": "选出正确答案：My sister is ___ than me.",
+        "score": 5,
+        "type": "choice",
+        "id": 123
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "tall 的比较级是 taller；“Tom is taller than Ben.”的结构和意思都正确。",
+        "knowledge_point": "比较级句式",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：Tom is taller than Ben. 的意思是“汤姆比本高”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 124
+      },
+      {
+        "answer": "bigger",
+        "difficulty": 2,
+        "explanation": "big 是重读闭音节单词，变比较级时要双写末尾辅音字母 g，再加 -er：big → bigger。",
+        "knowledge_point": "比较级句式",
+        "options": [],
+        "question": "填空：An elephant is ______ (big) than a dog.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 125
+      },
+      {
+        "answer": "more beautiful",
+        "difficulty": 2,
+        "explanation": "beautiful 是较长的形容词，通常在前面加 more 构成比较级，因此是 more beautiful。",
+        "knowledge_point": "比较级句式",
+        "options": [],
+        "question": "填空：This flower is ______ (beautiful) than that one.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 126
+      },
+      {
+        "answer": "Our classroom is cleaner than theirs.",
+        "difficulty": 3,
+        "explanation": "clean 的比较级是 cleaner。比较“我们的教室”和“他们的教室”时，句式为“主语 + be动词 + 比较级 + than + 比较对象”，因此答案是 Our classroom is cleaner than theirs.",
+        "knowledge_point": "比较级句式",
+        "options": [],
+        "question": "用 clean 的正确形式完成句子：Our classroom is ______ than theirs.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "询问地点用 Where，句意为“你住在哪里？”。",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "What",
+          "Where",
+          "When"
+        ],
+        "question": "选择合适的疑问词：____ do you live?",
+        "score": 5,
+        "type": "choice",
+        "id": 128
+      },
+      {
+        "answer": "What",
+        "difficulty": 1,
+        "explanation": "询问物品或事情用 What，句意为“你的名字是什么？”。",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "Who",
+          "What",
+          "Where"
+        ],
+        "question": "选择合适的疑问词：____ is your name?",
+        "score": 5,
+        "type": "choice",
+        "id": 129
+      },
+      {
+        "answer": "When does Tom get up?",
+        "difficulty": 2,
+        "explanation": "询问时间用 When；主语 Tom 是第三人称单数，因此用 does，后面的动词用原形 get。",
+        "knowledge_point": "特殊疑问句",
+        "options": [],
+        "question": "用 when 改写句子，询问 Tom 起床的时间：Tom gets up at seven.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "Who",
+        "difficulty": 2,
+        "explanation": "询问“谁”用 Who。Who is that boy? 意为“那个男孩是谁？”。",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "Who",
+          "When",
+          "How"
+        ],
+        "question": "选择合适的疑问词：____ is that boy?",
+        "score": 5,
+        "type": "choice",
+        "id": 131
+      },
+      {
+        "answer": "How many apples do you have?",
+        "difficulty": 3,
+        "explanation": "询问可数名词的数量用 How many；主语 you 作一般现在时疑问句时用 do，实义动词 have 用原形。",
+        "knowledge_point": "特殊疑问句",
+        "options": [],
+        "question": "将单词排列成句：(many, apples, How, do, you, have, ?)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
       }
     ]
   },
@@ -679,6 +2126,254 @@
         "将than写成then"
       ],
       "tips": "than是比较级的标志性词汇，看到than必选比较级。"
+    },
+    {
+      "common_mistakes": [
+        "比较两个对象时，通常在形容词比较级前加 than。",
+        "以不发音的字母 e 结尾的形容词只加 r，不要重复加 e。",
+        "以“辅音字母+y”结尾的形容词，先把 y 改成 i，再加 er。",
+        "重读闭音节且末尾只有一个辅音字母的形容词，通常双写末尾辅音字母再加 er。",
+        "较长的形容词通常在前面加 more，不要同时再加 er。"
+      ],
+      "core_concept": "形容词比较级用于比较两个人或事物，表示“一方比另一方……”。规则变化主要看形容词的拼写和音节。",
+      "key_formula": "A + be动词 + 形容词比较级 + than + B.",
+      "point": "形容词比较级的规则构成",
+      "tips": "先看形容词的结尾和音节：一般短词加 er；以 e 结尾加 r；辅音字母+y 结尾改 y 为 i 再加 er；重读闭音节且末尾为“辅音-元音-辅音”时，双写末尾辅音字母再加 er；较长的形容词通常用 more + 原形。比较两者时常用 than。"
+    },
+    {
+      "common_mistakes": [
+        "询问长度时把How long误用成How tall；How tall通常问人的身高或物体的高度。",
+        "表达尺寸时漏掉单位，或把数字和单位顺序说反。",
+        "把物品的长度、宽度和高度混淆。"
+      ],
+      "core_concept": "询问和表达物品或人的测量数据与尺寸，常用How long（多长）、How tall（多高）、How wide（多宽）和How much（重量或价格等，需结合语境）。回答时用“主语 + is/are + 数字 + 单位”表达长度、高度或宽度；询问重量可用“How heavy...?”。",
+      "key_formula": "How long/tall/wide + is + 单数物品？ — It is + 数字 + 单位.；How long/tall/wide + are + 复数物品？ — They are + 数字 + 单位.；How heavy + is + 物品？ — It is + 数字 + 重量单位.",
+      "point": "测量数据与尺寸的询问与表达",
+      "tips": "先判断要问的是长度、高度、宽度还是重量，再选择long、tall、wide或heavy；看见单数主语用is，复数主语用are；回答时不要遗漏单位。"
+    },
+    {
+      "common_mistakes": [
+        "忘记在形容词后加 -er，或把不规则比较级写错。",
+        "在 than 前误用比较级标志 more，或把 than 写成 then。",
+        "比较对象不对应，例如比较一个人和一个年龄、一个物品和一个特征。"
+      ],
+      "core_concept": "“A be 比较级 than B”表示“A比B更……”。A和B是比较对象，be动词要与A的人称和数一致；形容词用比较级，than表示“比”。",
+      "key_formula": "A + am/is/are + 形容词比较级 + than + B.",
+      "point": "A be 比较级 than B 句型运用",
+      "tips": "先找出要比较的两方，再看主语选择 am/is/are，最后把形容词变成比较级，并用 than 引出比较对象。"
+    },
+    {
+      "common_mistakes": [
+        "以辅音字母加 y 结尾时，误在词尾直接加 -er，如把 heavy 写成 heavyer。",
+        "以不发音的 e 结尾时，误重复添加 e，如把 nice 写成 niceer。",
+        "短元音加一个辅音字母结尾时，容易忘记双写末尾辅音字母，如把 big 写成 biger。",
+        "较长的形容词通常用 more 构成比较级，不要一律加 -er。"
+      ],
+      "core_concept": "比较两个事物或人的特征时，常用形容词比较级。多数短形容词在词尾加 -er；拼写变化取决于形容词的词尾。较长的形容词通常在前面加 more。常见不规则变化需要单独记忆。",
+      "key_formula": "A + be + 形容词比较级 + than + B.（A 比 B 更……）",
+      "point": "形容词比较级构成规则",
+      "tips": "先观察形容词的长度和词尾，再选择构成方法。比较两者时通常用 than；注意 heavy 的变化是 heavier，而不是 heavyer。"
+    },
+    {
+      "common_mistakes": [
+        "不要把质量单位和长度、容量单位混淆。",
+        "注意单位的英文拼写及缩写，如 kilogram（kg）、centimetre（cm）、litre（L）。",
+        "同一种量可以用不同单位表示，比较或计算前要先确认单位是否一致。"
+      ],
+      "core_concept": "度量衡单位用来表示长度、质量和容量等。常见英文单位包括 metre（米）、centimetre（厘米）、kilometre（千米）、gram（克）、kilogram（千克）、litre（升）和 millilitre（毫升）。",
+      "key_formula": "1 kilometre = 1,000 metres；1 metre = 100 centimetres；1 kilogram = 1,000 grams；1 litre = 1,000 millilitres。",
+      "point": "度量衡单位",
+      "tips": "先判断测量的是长度、质量还是容量，再选择合适的单位；读题时留意英文单位词及其缩写。"
+    },
+    {
+      "common_mistakes": [
+        "比较级通常由形容词或副词变化构成，不能把比较级和原级混用。",
+        "than表示“比”，比较对象要对应；不能将人和其身体部位等不相称的对象直接比较。",
+        "比较级前通常不加 very；表示“……得多”时可用 much 或 a lot。"
+      ],
+      "core_concept": "比较级用于比较两个人或事物在某方面的差异。常见句型是“A + be动词/实义动词 + 形容词或副词比较级 + than + B”，意思是“A比B更……”。形容词和副词的比较级常见构成：一般在词尾加-er，如 tall—taller；以不发音的字母e结尾加-r，如 nice—nicer；以“辅音字母+y”结尾，变y为i再加-er，如 happy—happier；重读闭音节词末尾只有一个辅音字母时，双写该字母再加-er，如 big—bigger。较长的形容词或副词通常在前面加more，如 beautiful—more beautiful。也有不规则变化，如 good/well—better，bad/badly—worse。比较对象为代词时，than后可用主格或宾格：You are taller than I (am). 和 You are taller than me. 都可以。",
+      "key_formula": "A + be动词/实义动词 + 比较级 + than + B.；表示“和……一样……”用 A + be动词 + as + 原级 + as + B.",
+      "point": "比较级句型",
+      "tips": "先找出句中的比较对象，再判断需要比较的性质或动作；接着把形容词或副词变为正确的比较级，并用than引出另一比较对象。记住常见不规则变化good—better、bad—worse。"
+    },
+    {
+      "common_mistakes": [
+        "把形容词只理解为描述人的词；形容词也可以描述动物、物品和地方。",
+        "认为同一个形容词只能表示一种意思；例如 short 可以表示身高矮，也可以表示长度短。",
+        "混淆形容词和名词：形容词描述人或事物的特征，名词表示人、事物或地方。"
+      ],
+      "core_concept": "形容词用来描述人或事物的特征，例如大小、颜色、长短、身高和感受等。常见形容词有 tall（高的）、short（矮的；短的）、big（大的）、small（小的）、long（长的）、happy（开心的）。",
+      "key_formula": "形容词 + 名词：a tall boy（一个高个子的男孩）；be 动词 + 形容词：The boy is tall.（这个男孩个子高。）",
+      "point": "形容词意义",
+      "tips": "遇到描述大小、颜色、长短、身高或感受的词，可以想一想它是不是形容词。short 要根据所描述的对象来理解：描述人或动物的身高时通常是“矮的”，描述物品的长度或时间时可以是“短的”。"
+    },
+    {
+      "common_mistakes": [
+        "比较腿、头发等物体的长度用long和longer；比较人的身高用tall和taller。",
+        "比较两者时，通常在形容词比较级后用than。",
+        "不要把形容词原级直接用于比较句中。"
+      ],
+      "core_concept": "比较级用于比较两个人或事物的特征。常见形容词的比较级有：long—longer（更长），short—shorter（更短；形容身高时表示更矮），tall—taller（更高）。",
+      "key_formula": "主语 + be动词 + 形容词比较级 + than + 比较对象。",
+      "point": "比较级词汇",
+      "tips": "多数单音节形容词在词尾加-er构成比较级，如long—longer、short—shorter、tall—taller。比较长度用longer或shorter，比较身高用taller或shorter。"
+    },
+    {
+      "common_mistakes": [
+        "询问身高用“How tall...?”，不能说“What tall...?”",
+        "回答身高时用“be动词 + 数字 + 长度单位”，例如“I am 1.65 metres tall.”",
+        "不要把“How tall”与“How much”混淆；“How much”常用于询问价格或不可数名词的数量。"
+      ],
+      "core_concept": "询问某人的身高通常使用“How tall + be动词 + 主语?”。回答时使用“主语 + be动词 + 身高”，身高后可加tall。常见长度单位有centimetres（厘米）和metres（米）。",
+      "key_formula": "How tall + be动词 + 主语? — 主语 + be动词 + 数字 + 长度单位 (tall).",
+      "point": "询问身高",
+      "tips": "例如：How tall are you? — I am 1.65 metres tall. 询问第三人称时注意be动词变化：How tall is your brother? — He is 1.7 metres tall."
+    },
+    {
+      "common_mistakes": [
+        "忘记以辅音字母加 y 结尾的形容词要先把 y 改成 i，再加 -er。",
+        "把以不发音字母 e 结尾的形容词再加 -er，写成两个 e。",
+        "只看单词长短，不注意重读闭音节单词需要双写词尾辅音字母。",
+        "较长的形容词通常用 more 构成比较级，不直接加 -er。"
+      ],
+      "core_concept": "比较级用于比较两个人或事物，常见结构是“主语 + be 动词 + 形容词比较级 + than + 比较对象”。形容词比较级通常在词尾加 -er，或在形容词前加 more。",
+      "key_formula": "一般情况：形容词 + er；以 e 结尾：+ r；辅音字母 + y 结尾：变 y 为 i + er；重读闭音节且末尾为“辅音字母 + 元音字母 + 辅音字母”：双写末尾辅音字母 + er；较长形容词：more + 形容词。",
+      "point": "比较级构成规则",
+      "tips": "先观察形容词的拼写和音节，再选择构成方法。例如：tall → taller，nice → nicer，happy → happier，big → bigger，beautiful → more beautiful。"
+    },
+    {
+      "common_mistakes": [
+        "把表示大小、长短等的形容词和名词混淆，例如把 small（小的）当作 size（尺码）。",
+        "比较两个人或物时，忘记使用形容词比较级，或遗漏 than。",
+        "只看句子中的一个词就选答案，要结合整句意思判断。"
+      ],
+      "core_concept": "形容词用来描述人或事物的特征，如大小、长短、高矮、年龄和感受。做形容词辨析题时，先理解句意，再判断空格需要表示哪一种特征，以及形容词应使用原级还是比较级。",
+      "key_formula": "比较级 + than：表示“比……更……”。常见变化：短形容词通常加 -er，如 small → smaller、tall → taller；以 e 结尾加 -r，如 large → larger；部分词需特殊记忆，如 good → better。",
+      "point": "形容词辨析",
+      "tips": "答题步骤：1. 读懂整句；2. 判断空格描述的是大小、长短、高矮、年龄还是感受等；3. 查看句中是否有 than 等比较提示；4. 检查选项的词义和形式是否合适。"
+    },
+    {
+      "common_mistakes": [
+        "询问重量时误用How tall（多高）或How long（多长）。",
+        "回答重量时混淆kilograms（千克）和meters（米）等单位。",
+        "把How heavy is...?误写为How much heavy...?"
+      ],
+      "core_concept": "询问人或物的重量，常用句型“How heavy is/are ...?”，意思是“……有多重？”。回答时可用“主语 + be动词 + 数字 + 重量单位”，如“It is 5 tons.”（它有5吨重。）",
+      "key_formula": "How heavy is + 单数主语? / How heavy are + 复数主语? — 主语 + be动词 + 数字 + 重量单位.",
+      "point": "询问体重",
+      "tips": "看到回答中的kilograms、grams或tons等重量单位，通常是在回答“How heavy...?”。注意be动词要与主语保持一致：单数用is，复数用are；不要在heavy前加much。"
+    },
+    {
+      "common_mistakes": [
+        "比较级通常由形容词加 -er 构成，或在形容词前加 more；不能同时使用两种形式。",
+        "比较两者时常用“比较级 + than”。",
+        "识别句型时要结合语序和关键词，不能只看单个单词。"
+      ],
+      "core_concept": "句型识别就是根据句子的语序、结构和关键词，判断它属于哪种句型或表达什么含义。小学阶段常见句型包括陈述句、一般疑问句、特殊疑问句，以及含有比较级的句子。",
+      "key_formula": "比较级句型：A + be动词/实义动词 + 形容词或副词比较级 + than + B.；一般疑问句：助动词/情态动词/Be动词 + 主语 + 其他？；特殊疑问句：疑问词 + 一般疑问句语序？",
+      "point": "句型识别",
+      "tips": "先看句子表达的是陈述、提问还是比较：句末是句号且按“主语 + 谓语”排列，通常是陈述句；句首是 Do/Does/Is/Are/Can 等，通常是一般疑问句；句首是 What/Where/When/Who/Why/How 等，通常是特殊疑问句；出现“比较级 + than”时，通常是在比较两者。"
+    },
+    {
+      "common_mistakes": [
+        "不要只根据中文意思选词，还要看动词和介词、副词的固定组合。",
+        "take通常表示把东西从说话者所在处带到别处；bring通常表示把东西带到说话者所在处。",
+        "固定搭配中的介词或副词不能随意替换，例如 look for（寻找）和 look after（照顾）意思不同。"
+      ],
+      "core_concept": "固定搭配是英语中经常一起使用的词语组合。学习时要把搭配和它的意思一起记住，并结合句意判断使用场合。",
+      "key_formula": "动词 + 介词/副词：take ... into（把……带进……）；look for（寻找）；listen to（听）；be good at（擅长）。",
+      "point": "固定搭配",
+      "tips": "可以把固定搭配连同例句一起记忆，例如：Please take your bag into the room.（请把你的包带进房间。）"
+    },
+    {
+      "common_mistakes": [
+        "只看数字的小数位数，不按数值大小比较。",
+        "混淆比较级的含义，例如把 taller（更高）误用为 shorter（更矮）。",
+        "忽略句子中的线索词，如 than（比）和 so（所以）。"
+      ],
+      "core_concept": "逻辑理解是根据句子中的事实和线索，判断信息之间的关系，并选择能使句意成立的答案。做题时先找出已知条件，再判断比较、因果或转折等关系。",
+      "key_formula": "比较身高：数值较大者更高。形容词比较级 + than 表示“比……更……”。",
+      "point": "逻辑理解",
+      "tips": "先圈出关键信息，再判断句子表达的关系；比较数字时看实际数值；最后把选项代入句子，检查意思是否通顺、前后是否一致。"
+    },
+    {
+      "common_mistakes": [
+        "只看空格前后的单词，不结合整句意思判断。",
+        "忽略固定搭配，例如 What time、How many 和 What size。",
+        "疑问词选对了，却没有注意后面的名词或动词形式。"
+      ],
+      "core_concept": "句型补全要先读懂句意，再观察句子结构和关键词，判断空缺部分需要什么疑问词、助动词、动词或其他词语。选择后要把答案放回句子中通读，检查语法和意思是否通顺。",
+      "key_formula": "读句意 → 找关键词和句型 → 判断空缺词性或固定搭配 → 填入并检查",
+      "point": "句型补全",
+      "tips": "常见提示：询问时间用 What time；询问数量，后接可数名词复数时常用 How many；询问价格常用 How much；询问物品尺码可用 What size；一般疑问句回答时要注意助动词与主语一致。"
+    },
+    {
+      "common_mistakes": [
+        "只根据句子的语法选择答案，没有结合生活常识判断。",
+        "忽略比较对象或题目中的关键信息，选出不合常识的答案。",
+        "遇到不熟悉的词时，没有先根据上下文推测词义。"
+      ],
+      "core_concept": "常识推断是结合句子提供的信息、上下文和日常生活经验，推断出最合理答案的阅读与语言理解方法。",
+      "key_formula": "理解句意 + 联系生活常识 + 对比选项 = 最合理答案",
+      "point": "常识推断",
+      "tips": "注意比较级、数量、时间、地点和因果关系等线索。不要只看单词意思，还要判断选项放进句子后是否合乎情理。"
+    },
+    {
+      "common_mistakes": [
+        "比较级前漏用 than，或把 than 和 then 混淆。",
+        "规则变化的比较级拼写错误，如把 heavy 写成 more heavy。",
+        "第三人称单数作主语时，动词忘记加 -s 或 -es。",
+        "be 动词和实义动词混用，例如说 She is likes music。",
+        "疑问句或否定句中，使用 do/does 后仍把实义动词写成第三人称单数形式。"
+      ],
+      "core_concept": "语法运用是根据句子的意思和结构，正确选择词形并安排词序。小学阶段常见内容包括形容词比较级、一般现在时、be 动词、代词和基本疑问句。",
+      "key_formula": "比较级：A + be + 形容词比较级 + than + B。一般现在时：I/You/We/They + 动词原形；He/She/It + 动词-s/-es。一般疑问句：Do/Does + 主语 + 动词原形？",
+      "point": "语法运用",
+      "tips": "先判断句子要表达什么，再找主语和谓语。比较两者时留意 than，并检查形容词比较级的拼写；一般现在时中，主语是 he、she、it 或单数名词时，肯定句的实义动词通常加 -s 或 -es。"
+    },
+    {
+      "common_mistakes": [
+        "比较级中漏掉 than，或误用 more 和形容词的 -er 形式。",
+        "选择性疑问句中的两个选项误用 and；表示二选一时通常用 or。",
+        "用比较级时忘记比较对象，如“我比他高”要说 taller than him。"
+      ],
+      "core_concept": "本课学习常见语法结构：选择性疑问句、形容词比较级、一般现在时和一般过去时的基本句式。理解句子中各部分的关系，并根据语境选择正确的连接词、词形和动词形式。",
+      "key_formula": "选择性疑问句：一般疑问句 + A or B？；比较级：A + be动词 + 形容词比较级 + than + B；一般现在时：主语 + 动词（第三人称单数时动词通常加 -s/-es）；一般过去时：主语 + 动词过去式。",
+      "point": "语法结构",
+      "tips": "先判断句子的意思和时间，再检查结构：问二选一用 or；比较两者时找 than 并确认比较级；一般现在时注意主语是第三人称单数时的动词变化；过去发生的事要用动词过去式。"
+    },
+    {
+      "common_mistakes": [
+        "把 how tall 和 how heavy 的意思混淆：前者询问身高，后者询问体重。",
+        "比较级词汇常带有 -er，翻译时要注意“更……的”这一含义。",
+        "thin 的比较级是 thinner，拼写时要双写 n。"
+      ],
+      "core_concept": "掌握常见英语词汇和短语的中文意思，尤其注意疑问短语及形容词比较级的含义。",
+      "key_formula": "形容词比较级常表示“更……的”，例如 small → smaller（更小的），strong → stronger（更强壮的）。",
+      "point": "词汇翻译",
+      "tips": "记忆词汇时，可以结合词根和词尾理解意思；遇到 how 开头的短语，可先判断它询问的内容，再记住对应中文。"
+    },
+    {
+      "common_mistakes": [
+        "比较级前通常加 -er 或 more，不要把两种形式重复使用，如 more taller。",
+        "比较对象要放在 than 后面。",
+        "使用 than 比较时，要确保比较双方属于同一类事物。"
+      ],
+      "core_concept": "比较级用于比较两个人或事物，常见句式为“主语 + be动词 + 形容词比较级 + than + 比较对象”。短形容词通常加 -er，如 tall → taller；部分形容词要先变形，如 big → bigger；较长的形容词通常在前面加 more，如 beautiful → more beautiful。",
+      "key_formula": "A + be动词 + 形容词比较级 + than + B.（A比B更……）",
+      "point": "比较级句式",
+      "tips": "先找出比较的两方，再确认句子的主语和be动词；最后把形容词变成比较级，并在比较对象前使用 than。"
+    },
+    {
+      "common_mistakes": [
+        "特殊疑问词要放在句首。",
+        "句中已有 be 动词时，不要再添加 do 或 does。",
+        "使用助动词 do 或 does 时，后面的实义动词要用原形。"
+      ],
+      "core_concept": "特殊疑问句用来询问具体信息，通常不能用 yes 或 no 来回答。常见的特殊疑问词有 what（什么）、who（谁）、where（哪里）、when（什么时候）、why（为什么）、which（哪一个）、whose（谁的）、how（怎样、如何）。",
+      "key_formula": "特殊疑问词 + be 动词 + 主语 + 其他？；特殊疑问词 + do/does + 主语 + 动词原形 + 其他？",
+      "point": "特殊疑问句",
+      "tips": "先根据要询问的信息选择疑问词，再判断句中是否有 be 动词或需要使用 do、does。询问年龄常用 How old，询问身高常用 How tall，询问数量常用 How many。"
     }
   ]
 }

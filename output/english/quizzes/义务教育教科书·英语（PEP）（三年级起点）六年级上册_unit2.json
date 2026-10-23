@@ -4,295 +4,289 @@
   "unit_number": 2,
   "unit_test": {
     "title": "Unit 2 Ways to go to school Standard Test",
-    "total_score": 100,
+    "total_score": 537,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "by subway 的意思是“乘地铁”。",
         "knowledge_point": "交通工具词汇",
+        "options": [],
         "question": "'by subway' 的中文意思是'乘地铁'。",
-        "options": [],
-        "answer": "对",
-        "explanation": "by subway表示乘地铁，by为介词后接交通工具。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "on foot 的意思是“步行”；“骑自行车”是 by bike。",
         "knowledge_point": "交通工具词汇",
+        "options": [],
         "question": "'on foot' 的意思是'骑自行车'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "on foot的意思是'步行'。骑自行车是by bike。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "交通信号含义",
-        "question": "红色信号灯代表停止，英文是 'Stop and wait'。",
-        "options": [],
         "answer": "对",
-        "explanation": "Red light means stop and wait."
-      },
-      {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "语法规则",
-        "question": "在英国，人们过马路时靠右侧走。",
-        "options": [],
-        "answer": "错",
-        "explanation": "In the UK, people drive/walk on the left side (左侧)。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "地点词汇",
-        "question": "'hospital' 的中文含义是'图书馆'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "hospital是医院，library是图书馆。"
-      },
-      {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "Red light means stop and wait. 红灯表示停止并等待。",
+        "knowledge_point": "交通信号含义",
+        "options": [],
+        "question": "红色信号灯代表停止，英文是“Stop and wait”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "英国车辆靠左侧行驶；但这属于交通规则，不是英语语法规则。",
+        "knowledge_point": "语法规则",
+        "options": [],
+        "question": "在英国，人们过马路时靠右侧走。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "hospital是医院，library才是图书馆。",
+        "knowledge_point": "地点词汇",
+        "options": [],
+        "question": "'hospital' 的中文含义是'图书馆'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "by",
+        "difficulty": 1,
+        "explanation": "“by + 交通工具”表示出行方式，因此说 by bus。",
         "knowledge_point": "介词搭配",
-        "question": "How do you come to school? I come ___ bus.",
         "options": [
           "on",
           "by",
           "at",
           "in"
         ],
-        "answer": "by",
-        "explanation": "by + 交通工具表示交通方式。"
+        "question": "How do you come to school? I come ___ bus.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "Wait",
         "difficulty": 1,
+        "explanation": "黄灯表示等待。看到黄灯时应停下并等待安全通行。",
         "knowledge_point": "交通安全",
-        "question": "The yellow light means '___'.",
         "options": [
           "Go",
           "Fast",
           "Stop",
           "Wait"
         ],
-        "answer": "Wait",
-        "explanation": "黄灯表示等待（Wait）。"
+        "question": "The yellow light means '___'.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "on foot",
         "difficulty": 1,
+        "explanation": "near 表示“近”，步行去学校符合句意；on foot 意为“步行”。",
         "knowledge_point": "词义辨析",
-        "question": "My home is near. I go to school ___.",
         "options": [
           "on foot",
           "by plane",
           "by ship",
           "by train"
         ],
-        "answer": "on foot",
-        "explanation": "距离近通常选择步行（on foot）。"
+        "question": "My home is near. I go to school ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "How",
         "difficulty": 2,
+        "explanation": "询问交通方式用How，答语By bike表示“骑自行车”。",
         "knowledge_point": "疑问句",
-        "question": "___ do you go to the park? By bike.",
         "options": [
           "Where",
           "What",
           "How",
           "Who"
         ],
-        "answer": "How",
-        "explanation": "对交通方式提问用How。"
+        "question": "___ do you go to the park? By bike.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "often",
         "difficulty": 2,
+        "explanation": "often 是频度副词，表示“经常”。句意是“我经常乘公共汽车，因为它很便宜”。",
         "knowledge_point": "频度副词",
-        "question": "I ___ go by bus because it's cheap.",
         "options": [
           "too",
           "very",
           "often",
           "not"
         ],
-        "answer": "often",
-        "explanation": "often是频度副词，表示经常。"
+        "question": "I ___ go by bus because it's cheap.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "stop",
         "difficulty": 1,
+        "explanation": "红灯时应该停下来，stop at a red light 表示“在红灯处停车/停下”。",
         "knowledge_point": "动词短语",
-        "question": "Please ___ at a red light.",
         "options": [
           "go",
           "stop",
           "slow down",
           "run"
         ],
-        "answer": "stop",
-        "explanation": "红灯停（stop）。"
+        "question": "Please ___ at a red light.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "at",
         "difficulty": 1,
+        "explanation": "表示在信号灯处停下，常用固定搭配 stop at a light。",
         "knowledge_point": "固定搭配",
-        "question": "Slow down and stop ___ a yellow light.",
         "options": [
           "at",
           "on",
           "in",
           "by"
         ],
-        "answer": "at",
-        "explanation": "在红绿灯处使用介词at。"
+        "question": "Slow down and stop ___ a yellow light.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "me",
         "difficulty": 2,
+        "explanation": "tell后面接人作宾语，应用人称代词宾格me。",
         "knowledge_point": "代词",
-        "question": "Tell ___ about your school.",
         "options": [
           "I",
           "my",
           "me",
           "mine"
         ],
-        "answer": "me",
-        "explanation": "tell后接人称代词宾格形式。"
+        "question": "Tell ___ about your school.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "run",
         "difficulty": 2,
+        "explanation": "句意是“不要在马路上奔跑，那很危险”。Don't 后接动词原形，故选 run。",
         "knowledge_point": "交通安全",
-        "question": "Don't ___ on the road. It's dangerous.",
         "options": [
           "walk",
           "run",
           "go",
           "look"
         ],
-        "answer": "run",
-        "explanation": "不能在马路上奔跑。"
+        "question": "Don't ___ on the road. It's dangerous.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "does",
         "difficulty": 3,
+        "explanation": "How 引导的特殊疑问句中，your father 是第三人称单数，询问一般现在时的行为要用 does；does 后的 go 用原形。",
         "knowledge_point": "主谓一致",
-        "question": "How ___ your father go to work?",
         "options": [
           "do",
           "does",
           "is",
           "are"
         ],
-        "answer": "does",
-        "explanation": "your father是单三，助动词用does。"
+        "question": "How ___ your father go to work?",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "词汇拼写",
-        "question": "I go to the USA by ___.",
-        "options": [],
         "answer": "plane",
-        "explanation": "去美国距离远，常选飞机plane。"
+        "difficulty": 1,
+        "explanation": "句意是“我乘___去美国”。去美国通常乘飞机，plane意为“飞机”。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "I go to the USA by ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "疑问词",
-        "question": "___ do you go to Canada? By plane.",
-        "options": [],
         "answer": "how",
-        "explanation": "询问方式用how。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "句型转换",
-        "question": "Don't go at a red light. We must ___.",
-        "options": [],
-        "answer": "stop",
-        "explanation": "红灯必须停下。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "地点词汇",
-        "question": "I want to buy some books in the ___.",
-        "options": [],
-        "answer": "bookstore",
-        "explanation": "买书的地方是书店bookstore。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
-        "knowledge_point": "英汉配对",
-        "question": "请将下列交通工具与其中文意思配对。",
-        "options": [
-          "taxi",
-          "sled",
-          "ferry",
-          "subway",
-          "雪橇",
-          "地铁",
-          "轮渡",
-          "出租车"
-        ],
-        "answer": "A-4,B-1,C-3,D-2",
-        "explanation": "taxi-出租车, sled-雪橇, ferry-轮渡, subway-地铁。"
+        "explanation": "答句 By plane. 表示乘飞机这一出行方式，询问方式用how。",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ do you go to Canada? By plane.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "stop",
         "difficulty": 2,
+        "explanation": "红灯时必须停下。句子表达“我们必须停下”，所以填stop。",
+        "knowledge_point": "句型转换",
+        "options": [],
+        "question": "Don't go at a red light. We must ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "bookstore",
+        "difficulty": 2,
+        "explanation": "买书的地方是书店，英文是bookstore。",
+        "knowledge_point": "地点词汇",
+        "options": [],
+        "question": "I want to buy some books in the ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "出租车",
+        "difficulty": 1,
+        "explanation": "taxi 的意思是“出租车”；sled 是“雪橇”，ferry 是“轮渡”，subway 是“地铁”。",
+        "knowledge_point": "英汉配对",
+        "options": [
+          "出租车",
+          "雪橇",
+          "轮渡",
+          "地铁"
+        ],
+        "question": "单词 taxi 的中文意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
+      },
+      {
+        "answer": "A-3，B-1，C-4，D-2",
+        "difficulty": 2,
+        "explanation": "Stop 的意思是“停下”；Wait 是“等待”；Go 是“走”；Slow down 是“减速”。",
         "knowledge_point": "祈使句配对",
-        "question": "请将指令与中文意思配对。",
         "options": [
           "Stop",
           "Wait",
@@ -303,16 +297,16 @@
           "停下",
           "走"
         ],
-        "answer": "A-3,B-1,C-4,D-2",
-        "explanation": "Stop-停下, Wait-等待, Go-走, Slow down-减速。"
+        "question": "请将指令与中文意思配对：A. Stop　B. Wait　C. Go　D. Slow down；1. 等待　2. 减速　3. 停下　4. 走",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "How,do,you,go,to,school",
         "difficulty": 1,
+        "explanation": "询问“怎样”用 How。一般现在时的特殊疑问句语序为“疑问词 + do + 主语 + 动词原形 + 其他”，所以组成 How do you go to school?",
         "knowledge_point": "特殊疑问句",
-        "question": "连词成句：you, go, How, do, school, to",
         "options": [
           "you",
           "go",
@@ -321,26 +315,1606 @@
           "school",
           "to"
         ],
-        "answer": "How,do,you,go,to,school",
-        "explanation": "特殊疑问句语序：疑问词+助动词+主语+动词+其他。"
+        "question": "连词成句：you, go, How, do, school, to",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "We,must,pay,attention,to,the,traffic,lights.",
         "difficulty": 3,
+        "explanation": "主语 We 放在句首，must 后用动词原形 pay；pay attention to 意为“注意”，后面接 the traffic lights。",
         "knowledge_point": "肯定的肯定句规则",
-        "question": "连词成句：must, We, attention, pay, to, lights",
         "options": [
           "must",
           "We",
           "attention",
           "pay",
           "to",
+          "the",
+          "traffic",
           "lights"
         ],
-        "answer": "We,must,pay,attention,to,lights",
-        "explanation": "We must pay attention to... 我们必须注意..."
+        "question": "连词成句：must, We, attention, pay, to, the, traffic, lights",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“乘公共汽车”通常表达为by bus。",
+        "knowledge_point": "交通工具及出行方式表达",
+        "options": [
+          "on bus",
+          "by bus",
+          "by a bus",
+          "in bus"
+        ],
+        "question": "“乘公共汽车”用英语怎么说？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "How do you go to school?",
+        "difficulty": 1,
+        "explanation": "询问“你怎样去学校？”常用句型“How do you go to school?”",
+        "knowledge_point": "交通工具及出行方式表达",
+        "options": [],
+        "question": "根据中文写出英文：你怎样去学校？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "步行用“on foot”，不能说“by foot”。",
+        "knowledge_point": "交通工具及出行方式表达",
+        "options": [],
+        "question": "We go to the park ___ foot.（填一个词）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "I go to school by bike.",
+        "difficulty": 2,
+        "explanation": "“骑自行车去学校”可说“go to school by bike”；by后直接接交通工具名称，不加冠词。",
+        "knowledge_point": "交通工具及出行方式表达",
+        "options": [],
+        "question": "连词成句：by bike / I / to school / go",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“by train”表示乘火车，是正确搭配。",
+        "knowledge_point": "交通工具及出行方式表达",
+        "options": [],
+        "question": "“乘火车”可以说“by train”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 28
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“步行去公园”可以说“walk to the park”；“by foot”不是规范表达。",
+        "knowledge_point": "交通工具及出行方式表达",
+        "options": [
+          "I go to the park by foot.",
+          "I walk to the park.",
+          "I go to the park on bike.",
+          "I take foot to the park."
+        ],
+        "question": "哪句话表示“我步行去公园”？",
+        "score": 1,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "often",
+        "difficulty": 1,
+        "explanation": "句意是“我经常步行上学”。often表示“经常”，放在行为动词walk前。",
+        "knowledge_point": "频度副词在出行习惯中的应用",
+        "options": [
+          "often",
+          "never",
+          "sometimes"
+        ],
+        "question": "I ___ walk to school. 我经常步行上学。",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "She usually takes the bus to school.",
+        "difficulty": 2,
+        "explanation": "usually放在行为动词takes前；主语She是第三人称单数，所以take要加-s。",
+        "knowledge_point": "频度副词在出行习惯中的应用",
+        "options": [],
+        "question": "用usually和括号中的词语完成句子：She ___ (take the bus to school).",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "表示频率的usually通常放在行为动词go之前，正确语序是“I usually go to school by bike.”",
+        "knowledge_point": "频度副词在出行习惯中的应用",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断正误：I go usually to school by bike.",
+        "score": 1,
+        "type": "true_false",
+        "id": 32
+      },
+      {
+        "answer": "never",
+        "difficulty": 1,
+        "explanation": "never表示“从不”，频率为零。句子表示他从不开车去学校。",
+        "knowledge_point": "频度副词在出行习惯中的应用",
+        "options": [],
+        "question": "He ___ goes to school by car.（他从不开车上学。）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 33
+      },
+      {
+        "answer": "They are sometimes on the subway.",
+        "difficulty": 2,
+        "explanation": "句中有be动词are，频度副词sometimes应放在are之后。",
+        "knowledge_point": "频度副词在出行习惯中的应用",
+        "options": [],
+        "question": "将词语连成句子：sometimes / they / on the subway / are",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "usually",
+        "difficulty": 2,
+        "explanation": "usually表示“通常”，说明大多数时候骑车上学，符合句意。频度副词放在行为动词ride之前。",
+        "knowledge_point": "频度副词在出行习惯中的应用",
+        "options": [
+          "usually",
+          "never",
+          "hardly ever"
+        ],
+        "question": "选出最合适的词：I ride my bike to school on most school days. I ___ ride my bike to school.",
+        "score": 1,
+        "type": "choice",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“Stop”表示“停下”。红色八边形的 STOP 标志提醒车辆在路口停下，确认安全后再继续行驶。",
+        "knowledge_point": "交通标志与安全规则",
+        "options": [
+          "A. Keep moving.",
+          "B. Stop.",
+          "C. Turn left.",
+          "D. Ride a bike."
+        ],
+        "question": "What does a red octagonal STOP sign mean?",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "true",
+        "difficulty": 1,
+        "explanation": "“Walk”信号亮起时，行人可以按规则过街，但仍应先观察车辆，确认安全。",
+        "knowledge_point": "交通标志与安全规则",
+        "options": [],
+        "question": "When the pedestrian signal says “WALK,” you may cross after checking that it is safe.",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "crosswalk",
+        "difficulty": 1,
+        "explanation": "Crosswalk 是“人行横道”，行人应尽量走人行横道过马路。",
+        "knowledge_point": "交通标志与安全规则",
+        "options": [],
+        "question": "Complete the sentence: Use the ______ to cross the street.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "遇到红灯应停下等待。不能因为道路看起来没有车就闯红灯。",
+        "knowledge_point": "交通标志与安全规则",
+        "options": [
+          "A. Run across quickly.",
+          "B. Stop and wait for the green light.",
+          "C. Close your eyes and walk.",
+          "D. Follow a moving car."
+        ],
+        "question": "The traffic light is red. What should you do?",
+        "score": 1,
+        "type": "choice",
+        "id": 39
+      },
+      {
+        "answer": "look",
+        "difficulty": 2,
+        "explanation": "“Look left and right”意为“向左、向右观察”。过马路前应停下观察，确认安全后再通行。",
+        "knowledge_point": "交通标志与安全规则",
+        "options": [],
+        "question": "Complete the safety rule: Stop, ______ left and right, then cross when it is safe.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 40
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“No Entry”表示禁止进入。看到这个标志时，不应从该方向进入。",
+        "knowledge_point": "交通标志与安全规则",
+        "options": [
+          "A. You can enter here.",
+          "B. You must not enter from this direction.",
+          "C. You should cross the road here.",
+          "D. You can park your bike here."
+        ],
+        "question": "What does a “No Entry” sign tell you?",
+        "score": 1,
+        "type": "choice",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "bus 表示“公共汽车”，by bus 表示“乘公共汽车”。",
+        "knowledge_point": "交通工具词汇",
+        "options": [
+          "A. by train",
+          "B. by bus",
+          "C. on foot",
+          "D. by plane"
+        ],
+        "question": "“乘公共汽车”用英语怎么说？",
+        "score": 2,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "by bike 表示“骑自行车”或“乘自行车”。",
+        "knowledge_point": "交通工具词汇",
+        "options": [],
+        "question": "'by bike' 的意思是'骑自行车'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 43
+      },
+      {
+        "answer": "subway",
+        "difficulty": 2,
+        "explanation": "subway 表示“地铁”，by subway 表示“乘地铁”。",
+        "knowledge_point": "交通工具词汇",
+        "options": [],
+        "question": "填入合适的单词：We go to school by ______.（我们乘地铁去上学。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 44
+      },
+      {
+        "answer": "飞机",
+        "difficulty": 2,
+        "explanation": "plane 的意思是“飞机”，by plane 表示“乘飞机”。",
+        "knowledge_point": "交通工具词汇",
+        "options": [],
+        "question": "plane 的中文意思是________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "Green",
+        "difficulty": 1,
+        "explanation": "Green light means go when it is safe. 绿灯表示在安全的情况下通行。",
+        "knowledge_point": "交通信号含义",
+        "options": [],
+        "question": "交通信号灯是绿色时，可以说“_____ light means go”。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 46
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "Yellow light提醒人们减速，并准备停车，而不是加速通过。",
+        "knowledge_point": "交通信号含义",
+        "options": [
+          "A. 加速通过",
+          "B. 减速并准备停车",
+          "C. 停在路中间"
+        ],
+        "question": "What does a yellow traffic light mean?",
+        "score": 2,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“Walk”表示行人可以在确认安全后通行；过马路时仍要留意车辆。",
+        "knowledge_point": "交通信号含义",
+        "options": [],
+        "question": "行人信号显示“Walk”时，行人可以在确认安全后过马路。",
+        "score": 2,
+        "type": "true_false",
+        "id": 48
+      },
+      {
+        "answer": "Stop",
+        "difficulty": 2,
+        "explanation": "STOP标志表示车辆需要停车。看到这个标志应先停下，再观察是否安全。",
+        "knowledge_point": "交通信号含义",
+        "options": [],
+        "question": "看到红色八边形的“STOP”标志，车辆应先_____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 49
+      },
+      {
+        "answer": "红灯停，黄灯慢并准备停，绿灯在安全时通行。",
+        "difficulty": 2,
+        "explanation": "这是常见交通信号的基本规则。通行前还要观察周围情况，确保安全。",
+        "knowledge_point": "交通信号含义",
+        "options": [],
+        "question": "用中文写出红灯、黄灯和绿灯分别表示什么。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 50
+      },
+      {
+        "answer": "She likes apples.",
+        "difficulty": 1,
+        "explanation": "主语 She 是第三人称单数，一般现在时中谓语动词 like 要加 -s，变为 likes。",
+        "knowledge_point": "语法规则",
+        "options": [
+          "She like apples.",
+          "She likes apples.",
+          "She liking apples.",
+          "She is like apples."
+        ],
+        "question": "选出语法正确的句子。",
+        "score": 2,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "goes",
+        "difficulty": 2,
+        "explanation": "主语 Tom 是第三人称单数，且句子表示每天发生的习惯动作，因此用一般现在时，go 变为 goes。",
+        "knowledge_point": "语法规则",
+        "options": [],
+        "question": "Tom ______ to school every day.（go）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "yesterday 表示过去，句子应使用一般过去时：We visited the zoo yesterday.",
+        "knowledge_point": "语法规则",
+        "options": [],
+        "question": "“We visit the zoo yesterday.” 是语法正确的句子。",
+        "score": 2,
+        "type": "true_false",
+        "id": 53
+      },
+      {
+        "answer": "an",
+        "difficulty": 2,
+        "explanation": "hour 的首音是元音音素，因此前面用 an，而不是 a。",
+        "knowledge_point": "语法规则",
+        "options": [],
+        "question": "It is ______ hour long.（填 a 或 an）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "They are playing football now.",
+        "difficulty": 3,
+        "explanation": "now 表示正在发生的动作，使用现在进行时；结构为主语 + be 动词 + 动词-ing。主语 They 对应 are，play 变为 playing。",
+        "knowledge_point": "语法规则",
+        "options": [
+          "They play football now.",
+          "They are playing football now.",
+          "They is playing football now.",
+          "They playing football now."
+        ],
+        "question": "选出语法正确的句子。",
+        "score": 2,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "library",
+        "difficulty": 2,
+        "explanation": "图书馆是读书和借书的地方，英文是library。",
+        "knowledge_point": "地点词汇",
+        "options": [],
+        "question": "We can read and borrow books in the ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 56
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "zoo的意思是动物园，人们可以在那里观看动物。",
+        "knowledge_point": "地点词汇",
+        "options": [],
+        "question": "'zoo' 的中文含义是'动物园'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 57
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "生病时可以去医院看医生，医院的英文是hospital。",
+        "knowledge_point": "地点词汇",
+        "options": [
+          "A. park",
+          "B. hospital",
+          "C. bookstore",
+          "D. school"
+        ],
+        "question": "If you are ill, where can you go to see a doctor?",
+        "score": 3,
+        "type": "choice",
+        "id": 58
+      },
+      {
+        "answer": "park",
+        "difficulty": 2,
+        "explanation": "公园是散步、玩耍的地方，英文是park。",
+        "knowledge_point": "地点词汇",
+        "options": [],
+        "question": "We can walk and play in the ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "to",
+        "difficulty": 1,
+        "explanation": "“listen to”是固定搭配，表示“听……”。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "to",
+          "at",
+          "in",
+          "on"
+        ],
+        "question": "I like listening ___ music after school.",
+        "score": 5,
+        "type": "choice",
+        "id": 60
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "“look at”表示“看……”，是常见固定搭配。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "for",
+          "at",
+          "to",
+          "with"
+        ],
+        "question": "Please look ___ the picture.",
+        "score": 5,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "on",
+        "difficulty": 2,
+        "explanation": "星期前通常用介词 on，因此“在星期天”是 on Sunday。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "at",
+          "in",
+          "on",
+          "by"
+        ],
+        "question": "We often play football ___ Sunday.",
+        "score": 5,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "at",
+        "difficulty": 2,
+        "explanation": "“be good at”表示“擅长……”，介词 at 后的动词要用 -ing 形式。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "in",
+          "at",
+          "to",
+          "for"
+        ],
+        "question": "Amy is good ___ drawing pictures.",
+        "score": 5,
+        "type": "choice",
+        "id": 63
+      },
+      {
+        "answer": "in",
+        "difficulty": 2,
+        "explanation": "年份前通常用介词 in，因此说 in 2026。",
+        "knowledge_point": "介词搭配",
+        "options": [
+          "on",
+          "at",
+          "in",
+          "by"
+        ],
+        "question": "My brother was born ___ 2016.",
+        "score": 5,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "Stop",
+        "difficulty": 1,
+        "explanation": "红灯亮时要停下。Stop at a red light 意为“红灯停”。",
+        "knowledge_point": "交通安全",
+        "options": [
+          "Stop",
+          "Wait",
+          "Go",
+          "Run"
+        ],
+        "question": "What should you do at a red light?",
+        "score": 5,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "zebra crossing",
+        "difficulty": 2,
+        "explanation": "斑马线的英语是 zebra crossing。过马路时应走斑马线。",
+        "knowledge_point": "交通安全",
+        "options": [
+          "zebra crossing",
+          "bus stop",
+          "traffic light",
+          "school gate"
+        ],
+        "question": "We should cross the road at a ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "False",
+        "difficulty": 1,
+        "explanation": "绿灯表示可以在确认安全后通行，不是红灯。红灯时应停下。",
+        "knowledge_point": "交通安全",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "A green light means “Stop.”",
+        "score": 5,
+        "type": "true_false",
+        "id": 67
+      },
+      {
+        "answer": "Don't run on the road.",
+        "difficulty": 2,
+        "explanation": "“不要在马路上跑”可以表达为 Don't run on the road. Don't 后使用动词原形 run。",
+        "knowledge_point": "交通安全",
+        "options": [],
+        "question": "用英语写出“不要在马路上跑。”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 68
+      },
+      {
+        "answer": "cold",
+        "difficulty": 1,
+        "explanation": "hot 表示“热”，cold 表示“冷”，两者意思相反。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "warm",
+          "cold",
+          "cool",
+          "sunny"
+        ],
+        "question": "In winter, it is often very ___. The opposite of “hot” is “___.”",
+        "score": 5,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "看",
+        "difficulty": 1,
+        "explanation": "look at 强调“看”这个动作，后面通常接看的对象；这里要看黑板。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "看",
+          "听",
+          "读",
+          "写"
+        ],
+        "question": "Please ___ the blackboard. The teacher is writing on it.",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "hungry",
+        "difficulty": 2,
+        "explanation": "句子说午饭还没吃，说明“饿了”；thirsty 表示“渴了”。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "tired",
+          "hungry",
+          "thirsty",
+          "happy"
+        ],
+        "question": "I didn’t eat lunch. Now I feel ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "by bike",
+        "difficulty": 2,
+        "explanation": "句中说明她骑自行车去公园，表达交通方式用 by bike。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "by bike",
+          "by bus",
+          "by car",
+          "on foot"
+        ],
+        "question": "Amy rides her bicycle to the park. She goes there ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "library",
+        "difficulty": 2,
+        "explanation": "library 是“图书馆”，人们可以在那里借书；hospital 是“医院”。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "library",
+          "hospital",
+          "cinema",
+          "supermarket"
+        ],
+        "question": "You can borrow books from a ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "Do",
+        "difficulty": 1,
+        "explanation": "主语you的一般现在时一般疑问句用助动词Do开头。",
+        "knowledge_point": "疑问句",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "question": "___ you like English? Yes, I do.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "答语in the library表示地点，询问地点用Where。",
+        "knowledge_point": "疑问句",
+        "options": [
+          "When",
+          "Where",
+          "Who",
+          "Why"
+        ],
+        "question": "___ is your brother? He is in the library.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "Who",
+        "difficulty": 2,
+        "explanation": "答语My mother说明询问的是人物，因此用Who。",
+        "knowledge_point": "疑问句",
+        "options": [
+          "What",
+          "Who",
+          "Where",
+          "How"
+        ],
+        "question": "___ cooks dinner at home? My mother does.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "When",
+        "difficulty": 2,
+        "explanation": "答语At seven o’clock说明时间，询问时间用When。",
+        "knowledge_point": "疑问句",
+        "options": [
+          "Why",
+          "When",
+          "How",
+          "What"
+        ],
+        "question": "___ do you get up? At seven o’clock.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "Does your sister walk to school?",
+        "difficulty": 3,
+        "explanation": "把陈述句改为一般疑问句时，主语your sister是第三人称单数，因此句首用Does；原句中的walk保持原形。",
+        "knowledge_point": "疑问句",
+        "options": [],
+        "question": "将句子改为一般疑问句：Your sister walks to school.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 78
+      },
+      {
+        "answer": "usually",
+        "difficulty": 1,
+        "explanation": "usually 表示“通常”，放在实义动词 have 之前。",
+        "knowledge_point": "频度副词",
+        "options": [
+          "usually",
+          "very",
+          "too",
+          "much"
+        ],
+        "question": "We ___ have lunch at school.",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "is always",
+        "difficulty": 2,
+        "explanation": "含有 be 动词的句子中，频度副词通常放在 be 动词之后，所以应说“My sister is always kind.”",
+        "knowledge_point": "频度副词",
+        "options": [
+          "always is",
+          "is always",
+          "always",
+          "always does"
+        ],
+        "question": "My sister ___ kind to her friends.",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "never",
+        "difficulty": 2,
+        "explanation": "never 表示“从不”。句意是“他从不迟到”。",
+        "knowledge_point": "频度副词",
+        "options": [
+          "always",
+          "often",
+          "sometimes",
+          "never"
+        ],
+        "question": "He is ___ late for school. He always arrives on time.",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "sometimes",
+        "difficulty": 1,
+        "explanation": "sometimes 表示“有时”，表示动作并非总是发生。句意是“我有时在周末看电影”。",
+        "knowledge_point": "频度副词",
+        "options": [
+          "sometimes",
+          "very",
+          "too",
+          "much"
+        ],
+        "question": "I ___ watch a movie at weekends.",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "He often plays football after school.",
+        "difficulty": 2,
+        "explanation": "often 放在实义动词 plays 之前；主语 He 是第三人称单数，因此 play 要加 -s。",
+        "knowledge_point": "频度副词",
+        "options": [],
+        "question": "连词成句：often / He / football / plays / after school",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "get up",
+        "difficulty": 1,
+        "explanation": "get up 是“起床”的意思，句意是“我每天早上七点起床”。",
+        "knowledge_point": "动词短语",
+        "options": [
+          "get up",
+          "look for",
+          "turn on",
+          "put away"
+        ],
+        "question": "I ___ at seven every morning.",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "look for",
+        "difficulty": 2,
+        "explanation": "look for 表示“寻找”。句意是“他正在找他的书包”。",
+        "knowledge_point": "动词短语",
+        "options": [
+          "look after",
+          "look for",
+          "get on",
+          "wake up"
+        ],
+        "question": "Tom can’t find his bag. He is ___ it.",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "Turn off",
+        "difficulty": 2,
+        "explanation": "turn off 表示“关掉”。关灯时可以说 Turn off the light.，也可以说 Turn the light off.",
+        "knowledge_point": "动词短语",
+        "options": [
+          "Turn on",
+          "Turn off",
+          "Look for",
+          "Get up"
+        ],
+        "question": "It’s time to go to bed. Please ___ the light.",
+        "score": 5,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "look after",
+        "difficulty": 2,
+        "explanation": "look after 表示“照顾、照看”，句意是“姐姐每天照看她的小狗”。",
+        "knowledge_point": "动词短语",
+        "options": [
+          "look after",
+          "look at",
+          "get up",
+          "put on"
+        ],
+        "question": "My sister ___ her little dog every day.",
+        "score": 5,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "put it on",
+        "difficulty": 3,
+        "explanation": "put on 表示“穿上”。宾语是代词 it 时，要放在 put 和 on 之间，因此说 put it on。",
+        "knowledge_point": "动词短语",
+        "options": [
+          "put on it",
+          "put it on",
+          "put it away",
+          "put on"
+        ],
+        "question": "It is cold outside. Please ___ before you go out.（put on your coat）",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "after",
+        "difficulty": 1,
+        "explanation": "look after 是固定搭配，意思是“照顾”。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "at",
+          "after",
+          "for",
+          "to"
+        ],
+        "question": "Please look ___ my little brother while I am out.",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "to",
+        "difficulty": 1,
+        "explanation": "listen to 是固定搭配，意思是“听……”。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "at",
+          "on",
+          "to",
+          "for"
+        ],
+        "question": "We should listen ___ the teacher carefully.",
+        "score": 5,
+        "type": "choice",
+        "id": 90
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "be good at 是固定搭配，表示“擅长……”。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "of"
+        ],
+        "question": "Tom is good ___ drawing pictures.",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "for",
+        "difficulty": 1,
+        "explanation": "wait for 是固定搭配，意思是“等待……”。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "for",
+          "to",
+          "with",
+          "about"
+        ],
+        "question": "The children are waiting ___ the bus.",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "get on the bus 是常见搭配，表示“上公共汽车”。",
+        "knowledge_point": "固定搭配",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "by"
+        ],
+        "question": "We get ___ the bus at the next stop.",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "She",
+        "difficulty": 1,
+        "explanation": "句子缺少主语，主语位置用人称代词主格she。句首字母大写。",
+        "knowledge_point": "代词",
+        "options": [
+          "Her",
+          "She",
+          "Hers",
+          "Herself"
+        ],
+        "question": "___ is my sister.",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "his",
+        "difficulty": 2,
+        "explanation": "空格后有名词“pencil”，表示“他的铅笔”，名词前用形容词性物主代词his。",
+        "knowledge_point": "代词",
+        "options": [
+          "he",
+          "him",
+          "his",
+          "himself"
+        ],
+        "question": "Tom is looking for ___ pencil.",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "ours",
+        "difficulty": 2,
+        "explanation": "空格后没有名词，表示“这辆自行车是我们的”，应使用名词性物主代词ours。",
+        "knowledge_point": "代词",
+        "options": [
+          "we",
+          "our",
+          "us",
+          "ours"
+        ],
+        "question": "This bike is ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "them",
+        "difficulty": 2,
+        "explanation": "介词“with”后接宾语，且指代复数的人，使用宾格them。",
+        "knowledge_point": "代词",
+        "options": [
+          "they",
+          "their",
+          "them",
+          "theirs"
+        ],
+        "question": "I often play football with ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "myself",
+        "difficulty": 2,
+        "explanation": "主语I和宾语指同一个人时，宾语用反身代词myself，意为“我自己”。",
+        "knowledge_point": "代词",
+        "options": [
+          "me",
+          "my",
+          "mine",
+          "myself"
+        ],
+        "question": "I made the cake by ___.",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "likes",
+        "difficulty": 2,
+        "explanation": "Tom 是第三人称单数主语。一般现在时肯定句中，实义动词 like 要加 -s。",
+        "knowledge_point": "主谓一致",
+        "options": [
+          "like",
+          "likes",
+          "liking",
+          "is like"
+        ],
+        "question": "Tom ___ reading storybooks.（like）",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "are",
+        "difficulty": 2,
+        "explanation": "主语 The students 是复数，be 动词要用 are。",
+        "knowledge_point": "主谓一致",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "question": "The students ___ in the classroom.（be）",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "doesn't",
+        "difficulty": 3,
+        "explanation": "主语 My sister 是第三人称单数，否定句用 doesn't；doesn't 后的动词用原形 watch。",
+        "knowledge_point": "主谓一致",
+        "options": [
+          "don't",
+          "doesn't",
+          "isn't",
+          "aren't"
+        ],
+        "question": "My sister ___ watch TV on school nights.",
+        "score": 5,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "is",
+        "difficulty": 2,
+        "explanation": "主语 The dog 是第三人称单数，be 动词用 is。",
+        "knowledge_point": "主谓一致",
+        "options": [],
+        "question": "The dog ___ very friendly.（be）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 102
+      },
+      {
+        "answer": "play",
+        "difficulty": 3,
+        "explanation": "主语 Ben and his brother 是复数，肯定句中实义动词用原形 play。",
+        "knowledge_point": "主谓一致",
+        "options": [],
+        "question": "Ben and his brother ___ basketball after school.（play）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 103
+      },
+      {
+        "answer": "library",
+        "difficulty": 1,
+        "explanation": "句意是“我在___读书”。library意为“图书馆”，拼写为l-i-b-r-a-r-y。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "I read books in the ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "breakfast",
+        "difficulty": 1,
+        "explanation": "句意是“我早上吃___”。breakfast意为“早餐”，拼写为b-r-e-a-k-f-a-s-t。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "I have ___ in the morning.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "beautiful",
+        "difficulty": 2,
+        "explanation": "句意是“这朵花很___”。beautiful意为“美丽的”，注意中间的字母顺序为e-a-u。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "The flower is very ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 106
+      },
+      {
+        "answer": "Wednesday",
+        "difficulty": 2,
+        "explanation": "句意是“今天是星期三”。Wednesday的正确拼写是W-e-d-n-e-s-d-a-y，注意d后面接n。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "Today is ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "because",
+        "difficulty": 2,
+        "explanation": "句意是“我喜欢夏天，因为天气暖和”。because意为“因为”，拼写为b-e-c-a-u-s-e。",
+        "knowledge_point": "词汇拼写",
+        "options": [],
+        "question": "I like summer ___ it is warm.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 108
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "答句 In the library. 表示地点，询问地点用where。",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ do you read books after school? In the library.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "When",
+        "difficulty": 1,
+        "explanation": "答句 At seven o’clock. 表示时间，询问时间用when。",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ do you get up? At seven o’clock.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "Who",
+        "difficulty": 1,
+        "explanation": "答句 My sister. 表示人物，询问“谁”用who。",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ helps you with your homework? My sister.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "Why",
+        "difficulty": 1,
+        "explanation": "答句 Because it is raining. 给出了原因，询问原因用why。",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ do you take an umbrella? Because it is raining.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "How many",
+        "difficulty": 2,
+        "explanation": "答句 Five. 表示可数物品的数量；询问可数名词数量用how many。",
+        "knowledge_point": "疑问词",
+        "options": [],
+        "question": "___ apples are there in the basket? Five.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "Does",
+        "difficulty": 2,
+        "explanation": "原句是一般现在时，主语Tom是第三人称单数。改为一般疑问句时用Does开头，动词go保持原形。",
+        "knowledge_point": "句型转换",
+        "options": [],
+        "question": "将句子改为一般疑问句：Tom goes to school by bus. ___ Tom ___ to school by bus?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "She doesn't like apples.",
+        "difficulty": 2,
+        "explanation": "主语She是第三人称单数，否定句用doesn't；助动词后面的likes要改为动词原形like。",
+        "knowledge_point": "句型转换",
+        "options": [],
+        "question": "将句子改为否定句：She likes apples.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "Can they swim?",
+        "difficulty": 2,
+        "explanation": "含有情态动词can的一般疑问句，把can放到主语they前面，其他部分不变。",
+        "knowledge_point": "句型转换",
+        "options": [],
+        "question": "将句子改为一般疑问句：They can swim.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "He is not (isn't) a teacher.",
+        "difficulty": 2,
+        "explanation": "含be动词的否定句直接在be动词is后加not，也可以缩写为isn't。",
+        "knowledge_point": "句型转换",
+        "options": [],
+        "question": "将句子改为否定句：He is a teacher.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "Open the window, please.",
+        "difficulty": 2,
+        "explanation": "祈使句用动词原形开头；please可放在句末，表示礼貌。",
+        "knowledge_point": "句型转换",
+        "options": [],
+        "question": "根据中文提示将句子改为祈使句：请打开窗户。___ the window, please.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "苹果",
+        "difficulty": 1,
+        "explanation": "Apple 的意思是“苹果”。",
+        "knowledge_point": "英汉配对",
+        "options": [
+          "香蕉",
+          "苹果",
+          "橙子",
+          "葡萄"
+        ],
+        "question": "“apple”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 119
+      },
+      {
+        "answer": "星期一",
+        "difficulty": 1,
+        "explanation": "Monday 的意思是“星期一”。",
+        "knowledge_point": "英汉配对",
+        "options": [
+          "星期五",
+          "星期一",
+          "星期日",
+          "星期二"
+        ],
+        "question": "单词 Monday 的中文意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 120
+      },
+      {
+        "answer": "老师",
+        "difficulty": 1,
+        "explanation": "teacher 的意思是“老师”；doctor 是“医生”，farmer 是“农民”，nurse 是“护士”。",
+        "knowledge_point": "英汉配对",
+        "options": [
+          "老师",
+          "医生",
+          "农民",
+          "护士"
+        ],
+        "question": "teacher 的中文意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 121
+      },
+      {
+        "answer": "图书馆",
+        "difficulty": 2,
+        "explanation": "library 的意思是“图书馆”。",
+        "knowledge_point": "英汉配对",
+        "options": [
+          "医院",
+          "图书馆",
+          "博物馆",
+          "电影院"
+        ],
+        "question": "“library”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 122
+      },
+      {
+        "answer": "多云的",
+        "difficulty": 2,
+        "explanation": "cloudy 的意思是“多云的”。",
+        "knowledge_point": "英汉配对",
+        "options": [
+          "晴朗的",
+          "多云的",
+          "有风的",
+          "下雨的"
+        ],
+        "question": "“cloudy”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 123
+      },
+      {
+        "answer": "Open your book.",
+        "difficulty": 1,
+        "explanation": "“打开”是 open，“你的书”是 your book。祈使句用动词原形开头。",
+        "knowledge_point": "祈使句配对",
+        "options": [],
+        "question": "根据中文写出英文指令：打开你的书。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "A-2，B-1",
+        "difficulty": 2,
+        "explanation": "Sit down 是“坐下”；Stand up 是“站起来”。",
+        "knowledge_point": "祈使句配对",
+        "options": [
+          "Sit down",
+          "Stand up",
+          "站起来",
+          "坐下"
+        ],
+        "question": "请将英文指令与中文意思配对：A. Sit down　B. Stand up；1. 站起来　2. 坐下",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“Be quiet.” 是祈使句，意思是“安静些”。",
+        "knowledge_point": "祈使句配对",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：“Be quiet.” 的意思是“安静些”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 126
+      },
+      {
+        "answer": "Don’t run.",
+        "difficulty": 2,
+        "explanation": "表示禁止或提醒不要做某事时，可以用“Don’t + 动词原形”。run 意为“跑”。",
+        "knowledge_point": "祈使句配对",
+        "options": [],
+        "question": "根据中文写出英文指令：不要跑。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "“Turn left.” 表示“向左转”，对应选项 B。",
+        "knowledge_point": "祈使句配对",
+        "options": [
+          "等待",
+          "向左转",
+          "减速"
+        ],
+        "question": "“Turn left.” 的意思是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 128
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "询问地点用 Where。句子结构是“Where + do + you + live?”",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "What",
+          "Where",
+          "When"
+        ],
+        "question": "选择合适的疑问词填空：_____ do you live?",
+        "score": 5,
+        "type": "choice",
+        "id": 129
+      },
+      {
+        "answer": "When does the school bus arrive?",
+        "difficulty": 2,
+        "explanation": "询问时间用 When。主语 the school bus 是第三人称单数，因此用 does；does 后的动词 arrive 使用原形。",
+        "knowledge_point": "特殊疑问句",
+        "options": [],
+        "question": "连词成句：the school bus, arrive, When, does",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "How can I help you?",
+        "difficulty": 2,
+        "explanation": "有情态动词 can 时，将 can 放在主语 I 前，构成“疑问词 + can + 主语 + 动词原形 + 其他？”",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "How can I help you?",
+          "How I can help you?",
+          "How do I can help you?"
+        ],
+        "question": "选择正确的句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 131
+      },
+      {
+        "answer": "Who",
+        "difficulty": 2,
+        "explanation": "Who 在句中作主语，直接接动词 likes，不需要加 do 或 does。",
+        "knowledge_point": "特殊疑问句",
+        "options": [],
+        "question": "填空：_____ likes apples?（谁喜欢苹果？）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 132
+      },
+      {
+        "answer": "What time does your class start?",
+        "difficulty": 2,
+        "explanation": "询问具体时间可以用 What time。主语 your class 是第三人称单数，因此用 does，后面的 start 用动词原形。",
+        "knowledge_point": "特殊疑问句",
+        "options": [],
+        "question": "根据提示词连词成句：your class, start, What time, does",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 133
+      },
+      {
+        "answer": "We must pay attention to the traffic lights.",
+        "difficulty": 3,
+        "explanation": "肯定句按“主语 + 情态动词 + 动词原形 + 其他成分”排列。We 是主语，must 后接动词原形 pay，完整表达为 pay attention to the traffic lights。",
+        "knowledge_point": "肯定的肯定句规则",
+        "options": [
+          "We must pay attention to the traffic lights.",
+          "Must we pay attention to the traffic lights.",
+          "We must pays attention to the traffic lights.",
+          "We pay must attention to the traffic lights."
+        ],
+        "question": "选择正确的肯定句。",
+        "score": 5,
+        "type": "choice",
+        "id": 134
+      },
+      {
+        "answer": "likes",
+        "difficulty": 2,
+        "explanation": "句子是一般现在时，主语 She 是第三人称单数，因此行为动词 like 要加 -s，写作 likes。",
+        "knowledge_point": "肯定的肯定句规则",
+        "options": [],
+        "question": "用括号中动词的正确形式填空：She _____ (like) apples.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 135
+      },
+      {
+        "answer": "They play football after school.",
+        "difficulty": 2,
+        "explanation": "They 是主语，play 是谓语，football 是动作对象，after school 补充时间。肯定句按“主语 + 谓语 + 其他成分”排列。",
+        "knowledge_point": "肯定的肯定句规则",
+        "options": [
+          "They play football after school.",
+          "Play they football after school.",
+          "They football play after school.",
+          "After school football they play."
+        ],
+        "question": "选择语序正确的肯定句。",
+        "score": 5,
+        "type": "choice",
+        "id": 136
+      },
+      {
+        "answer": "He can swim.",
+        "difficulty": 2,
+        "explanation": "肯定句中主语 He 在前，情态动词 can 在后；can 后必须接动词原形 swim。",
+        "knowledge_point": "肯定的肯定句规则",
+        "options": [],
+        "question": "根据提示写出肯定句：He / can / swim",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "主语是第三人称单数 She，一般现在时的行为动词要加 -s，因此 She likes music. 是正确的肯定句。",
+        "knowledge_point": "肯定的肯定句规则",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断正误：She likes music. 是一个肯定句。",
+        "score": 5,
+        "type": "true_false",
+        "id": 138
       }
     ]
   },
@@ -715,6 +2289,257 @@
         "忽视祈使句否定形式以Don't开头"
       ],
       "tips": "记住 'Red, stop; Yellow, wait; Green, go' 的三字经。"
+    },
+    {
+      "common_mistakes": [
+        "把交通工具前的介词混用：通常说 by bus、by train，但说 on foot。",
+        "by 后直接接交通工具名词，不加 a 或 the，如 by bike。",
+        "询问出行方式常用“How do you go to…?”，回答可用“I go … by…”或“I take …”。"
+      ],
+      "core_concept": "学习常见交通工具及出行方式的英文表达，并能询问、说明自己如何去某地。",
+      "key_formula": "How do you go to + 地点? — I go to + 地点 + by + 交通工具. / I go on foot.；也可说 I take a/the + 交通工具.",
+      "point": "交通工具及出行方式表达",
+      "tips": "常见表达：by bus（乘公共汽车）、by car（乘小汽车）、by bike（骑自行车）、by train（乘火车）、by subway（乘地铁）、by plane（乘飞机）、by ship（乘船）、on foot（步行）。例如：How do you go to school? I go to school by bus. 也可以说：I take a bus to school.；步行说 go on foot 或 walk，不说 by foot。"
+    },
+    {
+      "common_mistakes": [
+        "把频度副词放在句尾，如说成“I go usually to school.”",
+        "主语是he、she或it时，忘记在一般现在时动词后加-s或-es。",
+        "把“never”与“not”连用，造成重复否定。"
+      ],
+      "core_concept": "频度副词表示某件事发生的频率，常用于描述出行习惯。常见词有always（总是）、usually（通常）、often（经常）、sometimes（有时）、hardly ever（几乎从不）和never（从不）。",
+      "key_formula": "主语 + 频度副词 + 行为动词 + 出行方式或地点；主语为he、she、it时，行为动词通常加-s或-es。含be动词时，频度副词放在be动词之后：主语 + be动词 + 频度副词 + 其他。",
+      "point": "频度副词在出行习惯中的应用",
+      "tips": "可以按频率由高到低记忆：always、usually、often、sometimes、hardly ever、never。先找出句子的行为动词或be动词，再确定频度副词的位置。注意主语是第三人称单数时的动词变化。"
+    },
+    {
+      "common_mistakes": [
+        "把交通标志的颜色和形状记混，例如把红色圆形标志当作提醒标志。",
+        "只注意车辆，不注意行人信号灯和过街规则。",
+        "认为绿灯亮了就可以立刻通行，没有先观察路况。"
+      ],
+      "core_concept": "认识常见交通标志和信号灯，理解安全出行规则，并能用简单英语描述标志的含义和应采取的行动。",
+      "key_formula": "See the sign or signal → understand the rule → stop, wait, look, or go safely.（看标志或信号 → 明白规则 → 安全地停、等、看或走。）",
+      "point": "交通标志与安全规则",
+      "tips": "记住常见英文表达：stop sign（停车标志）、traffic lights（交通信号灯）、crosswalk（人行横道）、No Entry（禁止进入）、bike lane（自行车道）。过马路时要走人行横道，遵守信号灯，先停下并观察左右来车；即使绿灯亮，也要确认安全后再通行。"
+    },
+    {
+      "common_mistakes": [
+        "把 on foot 误认为骑自行车；它表示步行。",
+        "by 后接交通工具时通常不加冠词，如 by bus、by train。",
+        "说步行时用 on foot，不说 by foot。"
+      ],
+      "core_concept": "学习常见交通工具及表达出行方式的短语，能够理解并使用它们描述如何出行。",
+      "key_formula": "by + 交通工具（通常不加冠词）；on foot = 步行。",
+      "point": "交通工具词汇",
+      "tips": "看到 by 后面的交通工具词，可以理解为“乘……”。注意固定说法 on foot 表示“步行”，而 by bike 表示“骑自行车”。"
+    },
+    {
+      "common_mistakes": [
+        "把红灯和绿灯的含义弄反。",
+        "认为黄灯表示可以加速通过；黄灯通常表示减速并准备停车。",
+        "只看颜色，不注意交通标志和行人信号。"
+      ],
+      "core_concept": "交通信号帮助行人和车辆安全、有序通行。常见信号包括红、黄、绿灯，以及行人信号灯和交通标志。",
+      "key_formula": "Red = stop；Yellow = slow down and prepare to stop；Green = go when it is safe.",
+      "point": "交通信号含义",
+      "tips": "过马路时先观察信号灯和周围交通，遵守行人信号；即使是绿灯，也要确认车辆停稳、道路安全后再通行。"
+    },
+    {
+      "common_mistakes": [
+        "将靠左通行和靠右通行混淆。",
+        "把特定国家的交通规则当作英语语法规则。"
+      ],
+      "core_concept": "英语语法规则帮助我们正确组织词语和句子，包括时态、主谓一致、冠词和介词等。学习时要结合句意观察词形和词序。",
+      "key_formula": "一般现在时：主语 + 动词原形；主语为 he、she、it 或单数名词时，谓语动词通常加 -s 或 -es。",
+      "point": "语法规则",
+      "tips": "读句子时先找主语和动词，再根据主语判断动词形式；检查时态时留意 yesterday、now、every day 等时间提示词。"
+    },
+    {
+      "common_mistakes": [
+        "把 hospital（医院）和 library（图书馆）混淆。",
+        "拼写地点词汇时遗漏字母，例如把 bookstore 拼错。"
+      ],
+      "core_concept": "地点词汇用来表示人们学习、购物、就医、休闲等活动发生的场所。学习常见英文地点名称及其含义，并根据句意选择合适的词。",
+      "key_formula": "地点名称 = 英文单词；结合句中人物活动或提示词判断地点。",
+      "point": "地点词汇",
+      "tips": "记忆地点词汇时，可以把地点和常见活动联系起来：在图书馆读书、在书店买书、在医院看病、在公园散步。注意区分意思相近或容易混淆的单词。"
+    },
+    {
+      "common_mistakes": [
+        "表示乘坐交通工具时，通常用“by + 交通工具”，如 by bus；但说“步行”要用 on foot。",
+        "固定搭配中的介词不能随意替换，如 listen to music、look at the picture。",
+        "表示时间时要注意区别：at 常用于具体时刻，on 常用于星期和日期，in 常用于较长的时间段。"
+      ],
+      "core_concept": "介词常与动词、名词、形容词或其他词语构成固定搭配，也可用于表示时间、地点和方式。学习时要把常见搭配作为整体记忆，并根据句意选择恰当的介词。",
+      "key_formula": "常见搭配：by + 交通工具；listen to + 人或事物；look at + 人或事物；be good at + 名词或动词-ing；时间介词：at + 时刻，on + 星期或日期，in + 月份、季节或年份。",
+      "point": "介词搭配",
+      "tips": "记忆搭配时，可以把介词和前面的动词或形容词连起来读、写；做题时先判断句子表达的是时间、地点、方式还是固定搭配，再检查介词后面的词是否符合用法。"
+    },
+    {
+      "common_mistakes": [
+        "把黄灯理解成可以加速通过；应停下并等待安全通行。",
+        "在道路上奔跑或嬉戏；过马路时只看一边。"
+      ],
+      "core_concept": "学习与交通安全有关的英语词汇和简单表达，了解遵守交通信号、走人行道和安全过马路的重要性。",
+      "key_formula": "祈使句：Don't + 动词原形，表示“不要……”。例如：Don't run on the road.（不要在马路上跑。）",
+      "point": "交通安全",
+      "tips": "记住：Stop at a red light. Wait at a yellow light. Go at a green light. Cross the road at a zebra crossing. Walk, don't run."
+    },
+    {
+      "common_mistakes": [
+        "把意思相近的词混为一谈，忽略它们的使用场景。",
+        "只看单个词，不结合句子中的线索判断词义。",
+        "混淆表达交通方式的短语，如 on foot（步行）和 by bus（乘公交车）。"
+      ],
+      "core_concept": "词义辨析是根据单词或短语的含义、用法及句子语境，选择最恰当的表达。做题时可先读懂整句，再留意关键词和常见搭配。",
+      "key_formula": "读懂句意 → 找出语境线索 → 比较选项含义和用法 → 选出最合适的答案",
+      "point": "词义辨析",
+      "tips": "遇到选择题时，先尝试用中文说出句子大意，再逐一排除意思不符或搭配不当的选项。例如，询问“如何去学校”时，常用 on foot、by bus、by bike 等表达出行方式。"
+    },
+    {
+      "common_mistakes": [
+        "不要混淆疑问词：where问地点，what问事物，how问方式，who问人物，when问时间，why问原因。",
+        "一般疑问句通常用Yes或No回答；特殊疑问句通常需要提供具体信息。",
+        "助动词或be动词已经放在句首时，后面的动词要使用正确形式。"
+      ],
+      "core_concept": "疑问句用于提问。一般疑问句通常以be动词、助动词或情态动词开头；特殊疑问句通常以疑问词开头，再接一般疑问句语序。",
+      "key_formula": "一般疑问句：Be动词/助动词/情态动词 + 主语 + 其他？特殊疑问句：疑问词 + 一般疑问句语序？",
+      "point": "疑问句",
+      "tips": "先判断题目需要询问哪类信息，再选择合适的疑问词；如果是一般疑问句，注意句首使用正确的be动词、助动词或情态动词。"
+    },
+    {
+      "common_mistakes": [
+        "不要把频度副词和程度副词混淆：often（经常）表示事情发生的频率，very（非常）表示程度。",
+        "频度副词通常放在实义动词之前，如：I often read books.",
+        "在含有 be 动词的句子中，频度副词通常放在 be 动词之后，如：She is always happy.",
+        "注意主语是第三人称单数时，实义动词要相应变化，如：He often plays football."
+      ],
+      "core_concept": "频度副词用来表示某个动作或状态发生的频率。常见的有 always（总是）、usually（通常）、often（经常）、sometimes（有时）、never（从不）。",
+      "key_formula": "主语 + 频度副词 + 实义动词 + 其他；主语 + be 动词 + 频度副词 + 其他。",
+      "point": "频度副词",
+      "tips": "记住频度由高到低的大致顺序：always > usually > often > sometimes > never。回答“How often...?”时，可以用频度副词说明某事发生得多不多。"
+    },
+    {
+      "common_mistakes": [
+        "不要只看句子里的单个词，要结合前后文判断短语的意思。",
+        "有些动词短语后面需要接宾语，如 look after someone；有些短语中的小词不能随意省略。"
+      ],
+      "core_concept": "动词短语是由动词和其他词（常见的是介词或副词）组合而成的表达，通常作为一个整体表示动作或状态。例如，get up（起床）、look for（寻找）、turn on（打开）。",
+      "key_formula": "动词 + 副词/介词（或其他词）= 动词短语",
+      "point": "动词短语",
+      "tips": "学习动词短语时，可以把短语和例句一起记忆，并留意短语后面是否要接人或物。例如：I get up at seven.（我七点起床。）We look after the baby.（我们照看宝宝。）"
+    },
+    {
+      "common_mistakes": [
+        "把固定搭配中的介词按中文意思逐字翻译，导致搭配错误。",
+        "只记住单个单词的意思，忽略它和其他词连用时的习惯用法。",
+        "混淆意思相近的介词，例如 at、in 和 on。"
+      ],
+      "core_concept": "固定搭配是英语中习惯上经常一起使用的词语组合，例如 slow down、at a yellow light、be good at。学习时应把搭配作为整体记忆，并在句子中理解和使用。",
+      "key_formula": "常见搭配示例：slow down（减速）；stop at a light（在信号灯处停下）；be good at（擅长）；look after（照顾）；listen to（听）；wait for（等待）。",
+      "point": "固定搭配",
+      "tips": "把搭配放进短句中记忆，如：I am good at English.（我擅长英语。）Listen to the teacher.（听老师讲。）做题时先看空格前后的词，再结合整句意思判断。"
+    },
+    {
+      "common_mistakes": [
+        "在动词或介词后误用主格，如说“Tell I”而不是“Tell me”。",
+        "混淆形容词性物主代词和名词性物主代词，如在名词前用“mine”。",
+        "把反身代词当作普通宾语使用，或在不需要强调时误用反身代词。"
+      ],
+      "core_concept": "代词可以代替名词，避免重复。小学阶段常见的代词包括人称代词、物主代词、反身代词和指示代词。",
+      "key_formula": "人称代词主格通常作主语：I/he/she/we/they；宾格通常作动词或介词的宾语：me/him/her/us/them。形容词性物主代词后接名词：my book；名词性物主代词独立使用：The book is mine。",
+      "point": "代词",
+      "tips": "先看代词在句中的作用：作主语用主格；作动词或介词的宾语用宾格；表示“谁的”时，后面有名词用形容词性物主代词，没有名词用名词性物主代词。表示“自己”时，可用反身代词，如myself、yourself、himself。this/that常指单数，these/those常指复数。"
+    },
+    {
+      "common_mistakes": [
+        "主语是第三人称单数时，漏掉一般现在时动词的 -s 或 -es。",
+        "在含有 does 的一般疑问句中，误把主要动词也变成第三人称单数形式。",
+        "被主语后面的其他名词干扰，导致谓语动词与主语不一致。"
+      ],
+      "core_concept": "主谓一致是指句子的谓语动词要在人称和数上与主语相匹配。一般现在时中，主语是第三人称单数时，肯定句的实义动词通常加 -s 或 -es；其他主语使用动词原形。含有 be 动词或助动词的句子，也要根据主语选择相应形式。",
+      "key_formula": "一般现在时：第三人称单数主语 + 动词-s/-es；I/you/we/they 或复数主语 + 动词原形。含有 does 的疑问句或否定句中，主要动词用原形。be 动词：I-am，he/she/it-is，you/we/they-are。",
+      "point": "主谓一致",
+      "tips": "做题时可以按三步检查：①圈出真正的主语；②判断主语是单数还是复数、是否为第三人称；③选择相应的动词或助动词形式。注意：does 后用动词原形；主语是复数时，不要因为离动词较近的名词是单数就误选单数谓语。"
+    },
+    {
+      "common_mistakes": [
+        "注意单词中字母的顺序，避免漏写或调换字母。",
+        "拼写时结合句意判断词义，并留意单词的常见拼写形式。"
+      ],
+      "core_concept": "词汇拼写是根据词义、读音或上下文写出正确的英文单词。做题时先理解句意，再回忆目标词的字母顺序，并检查是否有遗漏或拼错。",
+      "key_formula": "理解句意 → 判断所需词义 → 写出单词 → 检查字母顺序",
+      "point": "词汇拼写",
+      "tips": "可以把单词按字母或音节分段记忆；完成后再结合句意读一遍，检查拼写是否正确。"
+    },
+    {
+      "common_mistakes": [
+        "不要混淆疑问词：询问人物用who，地点用where，时间用when，原因用why，方式或情况用how。",
+        "询问事物或动作时常用what；询问具体哪一个时用which。",
+        "询问数量时注意搭配：可数名词前用how many，不可数名词前用how much。"
+      ],
+      "core_concept": "疑问词用于提出不同类型的问题。常见疑问词有what（什么）、who（谁）、where（哪里）、when（什么时候）、why（为什么）、which（哪一个）、whose（谁的）和how（怎样、如何）。how还可与形容词或副词搭配，询问年龄、数量、距离、频率等。",
+      "key_formula": "疑问词 + 一般疑问句语序？\n例：Where do you live?（你住在哪里？）\n询问主语时，疑问词本身作主语，后面通常不再使用do/does/did：Who likes music?（谁喜欢音乐？）",
+      "point": "疑问词",
+      "tips": "做题时先看答句提供了什么信息，再选择疑问词；补全问句后，检查句子语序和标点。"
+    },
+    {
+      "common_mistakes": [
+        "改写时只改动要求转换的部分，注意保留原句意思。",
+        "注意主语变化后，be动词或助动词也要相应变化。",
+        "一般疑问句要把助动词或be动词放到主语前；否定句要注意否定词的位置。",
+        "含有can、must等情态动词的句子，转换时通常保留情态动词。"
+      ],
+      "core_concept": "句型转换是按照要求改变句子的表达形式，同时保持原意。小学阶段常见的转换包括肯定句与否定句互换、陈述句与一般疑问句互换，以及肯定句与祈使句互换。",
+      "key_formula": "一般现在时：主语 + do/does + not + 动词原形；一般疑问句：Do/Does + 主语 + 动词原形？含be动词或情态动词时，将be动词或情态动词提前，并在否定句中加not。",
+      "point": "句型转换",
+      "tips": "先找句子的谓语：如果是be动词或情态动词，转换时通常直接调整它的位置或加not；如果是实义动词，一般现在时常借助do/does，过去时常借助did。借助助动词后，原来的实义动词要用原形。"
+    },
+    {
+      "common_mistakes": [
+        "只记住单词的读音，不留意它的中文意思。",
+        "配对时忽略选项顺序，导致字母与编号对应错误。"
+      ],
+      "core_concept": "英汉配对就是根据英语单词的意思，找到对应的中文词语。可以结合熟悉的生活场景和单词记忆来判断。",
+      "key_formula": "英语单词 → 理解词义 → 配对中文意思",
+      "point": "英汉配对",
+      "tips": "先读懂每个英语单词，再逐一排除不符合的中文选项；配对完成后检查每个选项是否只使用一次。"
+    },
+    {
+      "common_mistakes": [
+        "把祈使句误认为疑问句或陈述句。",
+        "忘记祈使句通常以动词原形开头。",
+        "将“Slow down”误解为“停下”，它的意思是“减速”。"
+      ],
+      "core_concept": "祈使句用来表示命令、请求、建议或提醒，通常以动词原形开头，主语 you 常省略。",
+      "key_formula": "动词原形（+其他成分）。例如：Stop.（停下。）Slow down.（减速。）",
+      "point": "祈使句配对",
+      "tips": "配对时先认出句首动词，再联系常见生活场景理解意思。注意区分 Stop（停下）和 Slow down（减速）。"
+    },
+    {
+      "common_mistakes": [
+        "不要把助动词放在主语后面。",
+        "疑问词作主语时，通常不需要再加助动词。",
+        "有 be 动词或情态动词时，直接将它们放到主语前。",
+        "句末要使用问号。"
+      ],
+      "core_concept": "特殊疑问句用疑问词询问具体信息，常见疑问词有 what（什么）、who（谁）、where（哪里）、when（什么时候）、why（为什么）、how（怎样）。",
+      "key_formula": "常见语序：疑问词 + 助动词 + 主语 + 动词原形 + 其他？；含 be 动词或情态动词时：疑问词 + be 动词/情态动词 + 主语 + 其他？疑问词作主语时：疑问词 + 动词 + 其他？",
+      "point": "特殊疑问句",
+      "tips": "先根据要询问的信息选择疑问词，再判断句中是否需要 do/does、be 动词或情态动词，最后检查语序和问号。第三人称单数的一般现在时通常用 does，后面的动词用原形。"
+    },
+    {
+      "common_mistakes": [
+        "肯定句通常按“主语 + 谓语 + 其他成分”的顺序排列。",
+        "情态动词 must 后面要接动词原形，例如 must go、must pay。",
+        "一般现在时中，主语是第三人称单数时，行为动词通常要加 -s 或 -es。",
+        "be 动词不能与行为动词随意连用；例如不能说 He is likes apples。"
+      ],
+      "core_concept": "肯定句用来陈述事实、状态或想法，通常不含 not，也不是提问。常见结构是“主语 + 谓语 + 其他成分”。",
+      "key_formula": "主语 + 谓语 + 其他成分；含情态动词时：主语 + 情态动词 + 动词原形 + 其他成分。",
+      "point": "肯定的肯定句规则",
+      "tips": "连词成句时，先找主语，再找谓语；看到 must、can 等情态动词，就把它放在主语后、动词原形前。"
     }
   ]
 }

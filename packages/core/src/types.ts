@@ -66,6 +66,10 @@ export interface QuizFile {
  * 这是多邻国式的最小学习单位
  */
 export interface Lesson {
+  /** Extra practice retains pre-pilot questions without replacing the visual pilot. */
+  legacyPracticeLessonId?: string;
+  /** Original lesson whose questions this practice lesson preserves. */
+  restoresLessonId?: string;
   id: string; // e.g. "g1up-u3-kp2"
   title: string; // 知识点名
   bookId: string; // "g1up"

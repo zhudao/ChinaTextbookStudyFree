@@ -4,295 +4,293 @@
   "unit_number": 6,
   "unit_test": {
     "title": "Unit 6 Meet my family! 单元达标卷",
-    "total_score": 100,
+    "total_score": 465,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "parents 表示父母，包括 father（父亲）和 mother（母亲）。",
         "knowledge_point": "家庭成员词汇",
+        "options": [],
         "question": "'parents' 的意思是“父母”。",
-        "options": [],
-        "answer": "对",
-        "explanation": "parents 表示父母，包括 father 和 mother。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "doctor 指医生，老师对应的单词是 teacher。",
         "knowledge_point": "职业词汇",
+        "options": [],
         "question": "'doctor' 翻译成中文是“老师”。",
-        "options": [],
-        "answer": "错",
-        "explanation": "doctor 指医生，老师对应的单词是 teacher。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "家庭成员关系",
-        "question": "'aunt' 是你爸爸的妹妹或姐姐。",
-        "options": [],
         "answer": "对",
-        "explanation": "aunt 可指姑妈、姨妈、婶婶或舅妈。"
-      },
-      {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "语法搭配",
-        "question": "当询问人数时，'How many' 后面接的是单数名词。",
-        "options": [],
-        "answer": "错",
-        "explanation": "How many 后必须跟复数名词，例如 How many people。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "职业称谓",
-        "question": "介绍职业时可以说 'My mother is nurse.'。",
-        "options": [],
-        "answer": "错",
-        "explanation": "单数职业名词前通常需要冠词 a 或 an，应为 My mother is a nurse。"
-      },
-      {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "aunt 可指爸爸或妈妈的姐妹，也可指叔叔、舅舅等男性亲属的妻子；爸爸的姐姐或妹妹是其中一种情况。",
+        "knowledge_point": "家庭成员关系",
+        "options": [],
+        "question": "'aunt' 可以指你爸爸的妹妹或姐姐。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "How many 后面接可数名词复数，例如 How many people。",
+        "knowledge_point": "语法搭配",
+        "options": [],
+        "question": "当询问人数时，'How many' 后面接的是单数名词。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "单数职业名词前通常需要冠词 a 或 an，应为“My mother is a nurse.”",
+        "knowledge_point": "职业称谓",
+        "options": [],
+        "question": "介绍职业时可以说 'My mother is nurse.'。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "people",
+        "difficulty": 1,
+        "explanation": "询问人数用“How many people...?”；people是people的复数形式，表示“人们”。",
         "knowledge_point": "家庭人数提问",
-        "question": "How many ______ are there in your family?",
         "options": [
           "people",
           "peoples",
           "person",
           "pupil"
         ],
-        "answer": "people",
-        "explanation": "people 是集合名词，本身表示“人们”，用于 How many 之后。"
+        "question": "How many ______ are there in your family?",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "farmer",
         "difficulty": 1,
+        "explanation": "在农场（farm）工作的人是农民（farmer）。",
         "knowledge_point": "职业词汇辨析",
-        "question": "He works on a farm. He is a ______.",
         "options": [
           "driver",
           "nurse",
           "farmer",
           "doctor"
         ],
-        "answer": "farmer",
-        "explanation": "在农场（farm）工作的人是农民（farmer）。"
+        "question": "He works on a farm. He is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "uncle",
         "difficulty": 1,
+        "explanation": "爸爸的兄弟被称为叔叔或伯伯，英文是 uncle。",
         "knowledge_point": "家庭成员称呼",
-        "question": "My father's brother is my ______.",
         "options": [
           "aunt",
           "uncle",
           "cousin",
           "father"
         ],
-        "answer": "uncle",
-        "explanation": "爸爸的兄弟被称为叔叔或伯伯，英文是 uncle。"
+        "question": "My father's brother is my ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "me",
         "difficulty": 2,
+        "explanation": "本题已有答案为 me。注意：me 是人称代词宾格，不是指示代词；句子表示“我的父母和我一共三个人”。",
         "knowledge_point": "指示代词",
-        "question": "My parents and ______ make three.",
         "options": [
           "I",
           "me",
           "my",
           "mine"
         ],
-        "answer": "me",
-        "explanation": "在此处作宾语，表示包含我在内，常用 me。"
+        "question": "My parents and ______ make three.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "your",
         "difficulty": 1,
+        "explanation": "mother前需要用形容词性物主代词修饰。your mother's job意为“你妈妈的工作”。",
         "knowledge_point": "询问职业",
-        "question": "What's ______ mother's job?",
         "options": [
           "you",
           "your",
           "he",
           "she"
         ],
-        "answer": "your",
-        "explanation": "这里需要形容词性物主代词修饰 mother，意为“你的妈妈”。"
+        "question": "What's ______ mother's job?",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "Yes",
         "difficulty": 2,
+        "explanation": "这是一般疑问句的肯定回答。问句中的 this 指 uncle，回答时用 he；Is 的肯定简答为 Yes, he is.",
         "knowledge_point": "日常交际",
-        "question": "Is this your uncle? ______, he is.",
         "options": [
           "Yes",
           "No",
           "OK",
           "True"
         ],
-        "answer": "Yes",
-        "explanation": "一般疑问句肯定回答，Yes, he is。"
+        "question": "Is this your uncle? ______, he is.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "nurse",
         "difficulty": 1,
+        "explanation": "句子说她在医院工作；选项中 nurse（护士）符合这一线索。",
         "knowledge_point": "职业词汇辨析",
-        "question": "She works in a hospital. She is a ______.",
         "options": [
           "farmer",
           "cook",
           "nurse",
           "driver"
         ],
-        "answer": "nurse",
-        "explanation": "在医院工作且选项中符合的职业是 nurse。"
+        "question": "She works in a hospital. She is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "do",
         "difficulty": 2,
+        "explanation": "主语是 you，一般现在时疑问句中使用助动词 do。",
         "knowledge_point": "语法搭配",
-        "question": "How many sisters ______ you have?",
         "options": [
           "do",
           "does",
           "are",
           "is"
         ],
-        "answer": "do",
-        "explanation": "主语是 you，助动词使用 do。"
+        "question": "How many sisters ______ you have?",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "my",
         "difficulty": 1,
+        "explanation": "aunt 是名词，表示“我的婶婶”，名词前要用形容词性物主代词 my。",
         "knowledge_point": "人称代词",
-        "question": "Introduce my family. This is ______ aunt.",
         "options": [
           "my",
           "I",
           "me",
           "mine"
         ],
-        "answer": "my",
-        "explanation": "我的婶婶，用形容词性物主代词 my。"
+        "question": "Introduce my family. This is ______ aunt.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "cook",
         "difficulty": 3,
+        "explanation": "题目询问爸爸的职业，cook意为“厨师”；tall和strong描述外貌或体格，man表示“男人”，都不是具体职业。",
         "knowledge_point": "询问职业",
-        "question": "What's your father? He's a ______.",
         "options": [
           "tall",
           "strong",
           "cook",
           "man"
         ],
-        "answer": "cook",
-        "explanation": "What's your father? 询问职业，cook 表示厨师。"
+        "question": "What's your father? He's a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "基础词汇",
-        "question": "My father and mother are my ______.",
-        "options": [],
         "answer": "parents",
-        "explanation": "父母两人的合称单词是 parents。"
+        "difficulty": 1,
+        "explanation": "父亲和母亲合称 parents。",
+        "knowledge_point": "基础词汇",
+        "options": [],
+        "question": "My father and mother are my ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "询问人数词组",
-        "question": "How ______ apples are on the table?",
-        "options": [],
         "answer": "many",
-        "explanation": "询问可数名词的数量使用 how many。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "询问职业疑问词",
-        "question": "______ is your uncle's job?",
+        "explanation": "apples 是可数名词复数，询问其数量用 how many。",
+        "knowledge_point": "询问人数词组",
         "options": [],
-        "answer": "what",
-        "explanation": "询问职业使用疑问代词 what。"
-      },
-      {
-        "id": 19,
+        "question": "How ______ apples are on the table?",
+        "score": 5,
         "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "基础职业词汇",
-        "question": "He can drive a car. He is a ______.",
+        "id": 17
+      },
+      {
+        "answer": "what",
+        "difficulty": 2,
+        "explanation": "询问职业使用疑问词 what。句子是“What is your uncle's job?”，意思是“你叔叔的工作是什么？”",
+        "knowledge_point": "询问职业疑问词",
         "options": [],
+        "question": "______ is your uncle's job?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
         "answer": "driver",
-        "explanation": "开车的人是司机 driver。"
+        "difficulty": 1,
+        "explanation": "开车的人是司机，英文是 driver。",
+        "knowledge_point": "基础职业词汇",
+        "options": [],
+        "question": "He can drive a car. He is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-2，B-4，C-3，D-1",
         "difficulty": 1,
+        "explanation": "doctor 是医生，nurse 是护士，farmer 是农民，driver 是司机。",
         "knowledge_point": "职业英汉匹配",
-        "question": "将下列职业单词与正确的中文意思相连。",
         "options": [
-          "doctor",
-          "nurse",
-          "farmer",
-          "driver",
-          "司机",
-          "医生",
-          "农民",
-          "护工"
+          "A. doctor",
+          "B. nurse",
+          "C. farmer",
+          "D. driver",
+          "1. 司机",
+          "2. 医生",
+          "3. 农民",
+          "4. 护士"
         ],
-        "answer": "A-2,B-4,C-3,D-1",
-        "explanation": "doctor医生，nurse护士/护工，farmer农民，driver司机。"
+        "question": "将下列职业单词与正确的中文意思相连。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-3,B-4,C-2,D-1",
         "difficulty": 1,
+        "explanation": "uncle是叔叔，aunt是阿姨，parents是父母，cousin是堂兄弟/表姐妹。",
         "knowledge_point": "家庭成员英汉匹配",
-        "question": "将下列家庭成员单词与正确的中文意思相连。",
         "options": [
           "uncle",
           "aunt",
@@ -303,32 +301,32 @@
           "叔叔",
           "阿姨"
         ],
-        "answer": "A-3,B-4,C-2,D-1",
-        "explanation": "uncle叔叔，aunt阿姨，parents父母，cousin堂/表亲。"
+        "question": "将下列家庭成员单词与正确的中文意思相连：A. uncle；B. aunt；C. parents；D. cousin。1. 堂兄弟/表姐妹；2. 父母；3. 叔叔；4. 阿姨。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Meet,my,family,.",
         "difficulty": 2,
+        "explanation": "这是一个祈使句，动词Meet放在句首，my修饰名词family。句首首字母大写，句末用句号。意为“见见我的家人”。",
         "knowledge_point": "句型排列",
-        "question": "将单词排列成句：Meet,family,my,.",
         "options": [
           "Meet",
           "family",
           "my",
           "."
         ],
-        "answer": "Meet,my,family,.",
-        "explanation": "该句为该单元标题，意为：见见我的家人。"
+        "question": "将单词排列成句：Meet,family,my,.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "What,is,your,father's,job,?",
         "difficulty": 3,
+        "explanation": "询问某人的职业可用“What is + 所有格 + job?”。意为“你父亲的工作是什么？”，疑问词What在句首，句末用问号。",
         "knowledge_point": "句型排列",
-        "question": "将单词排列成句：is,your,job,What,father's,?",
         "options": [
           "is",
           "your",
@@ -337,8 +335,1424 @@
           "father's",
           "?"
         ],
-        "answer": "What,is,your,father's,job,?",
-        "explanation": "询问职业的句型：What is + 物主代词/所有格 + job?"
+        "question": "将单词排列成句：is,your,job,What,father's,?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "grandfather",
+        "difficulty": 1,
+        "explanation": "grandfather 表示“祖父；外祖父”，是家庭成员名称。",
+        "knowledge_point": "家庭成员与职业名称",
+        "options": [
+          "grandfather",
+          "doctor",
+          "teacher",
+          "driver"
+        ],
+        "question": "Which word means “祖父；外祖父”?",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "teacher",
+        "difficulty": 1,
+        "explanation": "teacher 表示“教师”，是职业名称。",
+        "knowledge_point": "家庭成员与职业名称",
+        "options": [
+          "sister",
+          "teacher",
+          "uncle",
+          "grandmother"
+        ],
+        "question": "Which word is a job?",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "a",
+        "difficulty": 2,
+        "explanation": "doctor 以辅音音素开头，单数职业前用 a：a doctor。",
+        "knowledge_point": "家庭成员与职业名称",
+        "options": [],
+        "question": "My mother is ___ doctor.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "What does your father do?",
+        "difficulty": 2,
+        "explanation": "询问某人的职业可以说“What does + 人 + do?”，your father 是第三人称单数，因此用 does。",
+        "knowledge_point": "家庭成员与职业名称",
+        "options": [],
+        "question": "根据回答补全问句：________? — He is a pilot.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "T",
+        "difficulty": 1,
+        "explanation": "sister 表示“姐妹”，属于家庭成员；nurse 表示“护士”，属于职业。",
+        "knowledge_point": "家庭成员与职业名称",
+        "options": [
+          "T",
+          "F"
+        ],
+        "question": "“Sister” is a family member, and “nurse” is a job.",
+        "score": 1,
+        "type": "true_false",
+        "id": 28
+      },
+      {
+        "answer": "an",
+        "difficulty": 2,
+        "explanation": "artist 以元音音素开头，单数职业前用 an：an artist。",
+        "knowledge_point": "家庭成员与职业名称",
+        "options": [],
+        "question": "My aunt is ___ artist.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "“How many people”用来询问人数；“are there”是该句型中的正确语序。",
+        "knowledge_point": "询问家庭人数与职业",
+        "options": [
+          "How much people are there in your family?",
+          "How many people are there in your family?",
+          "How many people is there in your family?",
+          "What people are there in your family?"
+        ],
+        "question": "想问“你家有几口人？”，应该说：",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "There are four people in my family.",
+        "difficulty": 1,
+        "explanation": "询问人数后用“There are ... people in my family.”回答；four表示四。",
+        "knowledge_point": "询问家庭人数与职业",
+        "options": [],
+        "question": "补全对话：—How many people are there in your family? —__________（我家有四口人。）",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "What does your father do?",
+        "difficulty": 2,
+        "explanation": "询问某人的职业可以说“What does ... do?”；your father是第三人称单数，因此用does。",
+        "knowledge_point": "询问家庭人数与职业",
+        "options": [],
+        "question": "根据答句补全问句：—__________? —He is a doctor.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "an",
+        "difficulty": 2,
+        "explanation": "artist以元音音素开头，单数职业名词前用an。",
+        "knowledge_point": "询问家庭人数与职业",
+        "options": [],
+        "question": "填入适当的冠词：My mother is ______ artist.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 33
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "问句中的“your sister”是女性，回答时用She；单数职业teacher前用a。",
+        "knowledge_point": "询问家庭人数与职业",
+        "options": [
+          "She is a teacher.",
+          "He is a teacher.",
+          "She is an teacher.",
+          "She are a teacher."
+        ],
+        "question": "—What does your sister do? —__________",
+        "score": 1,
+        "type": "choice",
+        "id": 34
+      },
+      {
+        "answer": "How many people are there in your family? There are five people in my family. My father is a farmer.",
+        "difficulty": 3,
+        "explanation": "先用“How many people are there in your family?”询问人数，再用“There are ... people in my family.”回答；询问职业也可以直接介绍：“My father is a farmer.”",
+        "knowledge_point": "询问家庭人数与职业",
+        "options": [],
+        "question": "根据提示写三句话：询问“你家有几口人？”，回答“我家有五口人”，并说“我爸爸是一名农民”。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "A. a",
+        "difficulty": 1,
+        "explanation": "cat 中 a 发短元音，cake 中 a 发字母名称音，两词中 a 的发音不同。",
+        "knowledge_point": "五大元音字母发音综合辨析",
+        "options": [
+          "A. a",
+          "B. e",
+          "C. i",
+          "D. o"
+        ],
+        "question": "下面哪组单词中，画线元音字母的发音不同？cat、cake（比较字母 a）",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "False",
+        "difficulty": 1,
+        "explanation": "bed 中 e 发短元音；these 中 e 发字母名称音，两词中 e 的发音不同。",
+        "knowledge_point": "五大元音字母发音综合辨析",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：bed 和 these 中字母 e 的发音相同。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "i",
+        "difficulty": 1,
+        "explanation": "sit 中 i 发短元音；bike 中 i 发字母名称音。题目要求填写 sit 中的元音字母。",
+        "knowledge_point": "五大元音字母发音综合辨析",
+        "options": [],
+        "question": "sit 中发短元音的字母是 ____。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "hot",
+        "difficulty": 2,
+        "explanation": "hot 中 o 发短元音；home 中 o 发字母名称音。两词比较可知，hot 中的 o 发短元音。",
+        "knowledge_point": "五大元音字母发音综合辨析",
+        "options": [],
+        "question": "在 cup、cute、hot、home 四个单词中，哪个单词的元音字母发短元音？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 39
+      },
+      {
+        "answer": "B. cute",
+        "difficulty": 2,
+        "explanation": "cup 中 u 发短元音；cute 中 u 发字母名称音，读音不同。",
+        "knowledge_point": "五大元音字母发音综合辨析",
+        "options": [
+          "A. cup",
+          "B. cute",
+          "C. bus",
+          "D. sun"
+        ],
+        "question": "下面哪个单词中字母 u 的发音与其他三个不同？",
+        "score": 1,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "a: cap；e: bed；i: sit；o: hot；u: cup",
+        "difficulty": 2,
+        "explanation": "这些单词分别展示五个元音字母常见的短元音发音。实际学习时应结合单词读音记忆，不能认为每个元音字母只有一种发音。",
+        "knowledge_point": "五大元音字母发音综合辨析",
+        "options": [],
+        "question": "请为每个元音字母各写一个含有常见短元音发音的单词：a、e、i、o、u。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "mother 的意思是“母亲、妈妈”。",
+        "knowledge_point": "家庭成员词汇",
+        "options": [
+          "A. mother",
+          "B. brother",
+          "C. father"
+        ],
+        "question": "“妈妈”用英语怎么说？",
+        "score": 2,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "brother",
+        "difficulty": 1,
+        "explanation": "brother 表示“兄弟、哥哥或弟弟”。",
+        "knowledge_point": "家庭成员词汇",
+        "options": [],
+        "question": "“兄弟”用英语怎么说？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 43
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "sister 表示姐妹；brother 表示兄弟。",
+        "knowledge_point": "家庭成员词汇",
+        "options": [],
+        "question": "'sister' 的意思是“兄弟”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "grandparents 表示祖父母或外祖父母；grandfather 是祖父或外祖父，grandmother 是祖母或外祖母。",
+        "knowledge_point": "家庭成员词汇",
+        "options": [
+          "A. grandparents",
+          "B. parents",
+          "C. sister"
+        ],
+        "question": "Which word means “祖父母或外祖父母”？",
+        "score": 2,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "family",
+        "difficulty": 2,
+        "explanation": "family 的意思是“家庭”或“家人”。句子 I love my family. 表示“我爱我的家人”。",
+        "knowledge_point": "家庭成员词汇",
+        "options": [],
+        "question": "填空：I love my ______.（我爱我的家人。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 46
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "teacher 的意思是“老师”，所以选 A。",
+        "knowledge_point": "职业词汇",
+        "options": [
+          "A. 老师",
+          "B. 医生",
+          "C. 厨师"
+        ],
+        "question": "“teacher” 的中文意思是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "doctor",
+        "difficulty": 1,
+        "explanation": "“医生”的英文是 doctor。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "请写出“医生”的英文单词：____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 48
+      },
+      {
+        "answer": "护士",
+        "difficulty": 1,
+        "explanation": "nurse 的意思是“护士”。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "nurse 的中文意思是____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 49
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "farmer 指农民；司机的英文是 driver。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "'farmer' 的意思是“司机”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 50
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "driver 表示“司机”，因此应选 A。",
+        "knowledge_point": "职业词汇",
+        "options": [
+          "A. 司机",
+          "B. 农民",
+          "C. 医生"
+        ],
+        "question": "“driver” 的中文意思是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "father",
+        "difficulty": 1,
+        "explanation": "father 是“爸爸、父亲”的意思。",
+        "knowledge_point": "家庭成员关系",
+        "options": [],
+        "question": "爸爸的英语是 ______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "mother 表示妈妈；brother 表示兄弟，sister 表示姐妹。",
+        "knowledge_point": "家庭成员关系",
+        "options": [
+          "A. brother",
+          "B. mother",
+          "C. sister"
+        ],
+        "question": "哪个单词表示“妈妈”？",
+        "score": 2,
+        "type": "choice",
+        "id": 53
+      },
+      {
+        "answer": "cousin",
+        "difficulty": 2,
+        "explanation": "cousin 可以表示堂兄弟姐妹或表兄弟姐妹，不区分男女。",
+        "knowledge_point": "家庭成员关系",
+        "options": [],
+        "question": "堂兄弟姐妹或表兄弟姐妹可以用一个英语单词表示：______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 54
+      },
+      {
+        "answer": "This is my grandmother.",
+        "difficulty": 2,
+        "explanation": "“这是我的祖母（或外祖母）”可以说“This is my grandmother.”。",
+        "knowledge_point": "家庭成员关系",
+        "options": [],
+        "question": "用英语写出：“这是我的祖母（或外祖母）。”",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 55
+      },
+      {
+        "answer": "grandparents",
+        "difficulty": 2,
+        "explanation": "grandparents 是 grandparent 的复数形式，表示祖父母或外祖父母。",
+        "knowledge_point": "家庭成员关系",
+        "options": [],
+        "question": "祖父母或外祖父母合称为 ______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 56
+      },
+      {
+        "answer": "does",
+        "difficulty": 2,
+        "explanation": "主语 Tom 是第三人称单数，所以用 does；does 后面的动词用原形 have。",
+        "knowledge_point": "语法搭配",
+        "options": [
+          "do",
+          "does",
+          "is",
+          "are"
+        ],
+        "question": "How many books ______ Tom have?",
+        "score": 2,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "How much",
+        "difficulty": 2,
+        "explanation": "Milk 是不可数名词，询问它的数量用 How much。",
+        "knowledge_point": "语法搭配",
+        "options": [],
+        "question": "填入合适的词组：________ milk do you want?",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 58
+      },
+      {
+        "answer": "are",
+        "difficulty": 2,
+        "explanation": "Apples 是复数名词，be 动词用 are。",
+        "knowledge_point": "语法搭配",
+        "options": [
+          "is",
+          "are",
+          "do",
+          "does"
+        ],
+        "question": "How many apples ______ there on the table?",
+        "score": 2,
+        "type": "choice",
+        "id": 59
+      },
+      {
+        "answer": "does",
+        "difficulty": 3,
+        "explanation": "主语 your sister 是第三人称单数，因此用 does。does 后面的实义动词要用原形，所以应说 does like，而不是 does likes。",
+        "knowledge_point": "语法搭配",
+        "options": [],
+        "question": "填入合适的词：What ______ your sister like?",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 60
+      },
+      {
+        "answer": "teacher",
+        "difficulty": 1,
+        "explanation": "teacher 的意思是“教师”，可用于介绍职业：I am a teacher.",
+        "knowledge_point": "职业称谓",
+        "options": [],
+        "question": "“教师”用英语怎么说？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "a",
+        "difficulty": 1,
+        "explanation": "nurse 以辅音音素开头，单数职业名词前用 a。",
+        "knowledge_point": "职业称谓",
+        "options": [],
+        "question": "She is ___ nurse.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "doctor",
+        "difficulty": 1,
+        "explanation": "doctor 的意思是“医生”。句意是“我的爸爸是一名医生”。",
+        "knowledge_point": "职业称谓",
+        "options": [],
+        "question": "My father is a ___.（医生）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "cook 是“厨师”；句子的主语是 He，所以 be 动词用 is，并在单数职业名词前加 a。",
+        "knowledge_point": "职业称谓",
+        "options": [
+          "A. He are a cook.",
+          "B. He is a cook.",
+          "C. He am a cook."
+        ],
+        "question": "下面哪句话正确地介绍了他的职业？",
+        "score": 2,
+        "type": "choice",
+        "id": 64
+      },
+      {
+        "answer": "farmer",
+        "difficulty": 2,
+        "explanation": "farmer 的意思是“农民”。They are farmers. 意为“他们是农民”。",
+        "knowledge_point": "职业称谓",
+        "options": [],
+        "question": "They are ___.（农民）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 65
+      },
+      {
+        "answer": "How many people are there in your family?",
+        "difficulty": 1,
+        "explanation": "询问家庭人数常用“How many people are there in your family?”，意思是“你家有多少人？”",
+        "knowledge_point": "家庭人数提问",
+        "options": [],
+        "question": "把下列词语连成正确的问句：many / people / are / how / there / in your family",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "There are four people in my family.",
+        "difficulty": 1,
+        "explanation": "回答人数可以用“There are + 数字 + people.”。four表示四，people表示人。",
+        "knowledge_point": "家庭人数提问",
+        "options": [],
+        "question": "用英语写出“我家有四口人。”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 67
+      },
+      {
+        "answer": "How many people are there in your family?",
+        "difficulty": 2,
+        "explanation": "询问“你家有多少人”要用How many开头，people表示“人”，后接are there in your family。",
+        "knowledge_point": "家庭人数提问",
+        "options": [],
+        "question": "根据中文提示写出问句：你家有多少人？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 68
+      },
+      {
+        "answer": "people",
+        "difficulty": 1,
+        "explanation": "How many后面接可数名词复数。表示“人们”时用people，不用单数person。",
+        "knowledge_point": "家庭人数提问",
+        "options": [],
+        "question": "There are five ______ in my family.（people）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 69
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "问句“How many people are there in your family?”询问家庭人数；“There are three people.”回答有三个人。",
+        "knowledge_point": "家庭人数提问",
+        "options": [
+          "There are three people.",
+          "I have three book.",
+          "She is my mother.",
+          "It is a family."
+        ],
+        "question": "别人问“How many people are there in your family?”，哪句回答最合适？",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "driver",
+        "difficulty": 1,
+        "explanation": "开车工作的人是司机，英语是 driver。",
+        "knowledge_point": "职业词汇辨析",
+        "options": [
+          "driver",
+          "farmer",
+          "nurse",
+          "cook"
+        ],
+        "question": "He drives a bus every day. He is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "cook",
+        "difficulty": 1,
+        "explanation": "在餐馆做饭的人是厨师，英语是 cook。",
+        "knowledge_point": "职业词汇辨析",
+        "options": [
+          "doctor",
+          "cook",
+          "farmer",
+          "driver"
+        ],
+        "question": "She makes food in a restaurant. She is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "doctor",
+        "difficulty": 1,
+        "explanation": "医生帮助病人看病，英语是 doctor。",
+        "knowledge_point": "职业词汇辨析",
+        "options": [
+          "nurse",
+          "driver",
+          "doctor",
+          "farmer"
+        ],
+        "question": "A ______ helps sick people feel better.",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "teacher",
+        "difficulty": 1,
+        "explanation": "在学校教学生的人是教师，英语是 teacher。",
+        "knowledge_point": "职业词汇辨析",
+        "options": [
+          "teacher",
+          "cook",
+          "doctor",
+          "driver"
+        ],
+        "question": "He teaches children at school. He is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "mother",
+        "difficulty": 1,
+        "explanation": "Mother 表示母亲。",
+        "knowledge_point": "家庭成员称呼",
+        "options": [
+          "mother",
+          "sister",
+          "aunt",
+          "grandmother"
+        ],
+        "question": "My father's wife is my ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "grandfather",
+        "difficulty": 1,
+        "explanation": "Grandfather 表示祖父或外祖父，是爸爸或妈妈的父亲。",
+        "knowledge_point": "家庭成员称呼",
+        "options": [
+          "brother",
+          "grandfather",
+          "uncle",
+          "cousin"
+        ],
+        "question": "My mother's father is my ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "sister",
+        "difficulty": 1,
+        "explanation": "Sister 表示姐妹。",
+        "knowledge_point": "家庭成员称呼",
+        "options": [
+          "aunt",
+          "sister",
+          "mother",
+          "cousin"
+        ],
+        "question": "My parents' daughter, who is not me, is my ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "uncle",
+        "difficulty": 1,
+        "explanation": "爸爸的兄弟是叔叔或伯伯，英文称为 uncle。",
+        "knowledge_point": "家庭成员称呼",
+        "options": [],
+        "question": "My father's brother is my ______.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 78
+      },
+      {
+        "answer": "cousin",
+        "difficulty": 2,
+        "explanation": "Cousin 表示堂兄弟姐妹或表兄弟姐妹。阿姨的孩子是我的 cousin。",
+        "knowledge_point": "家庭成员称呼",
+        "options": [],
+        "question": "My aunt's child is my ______.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 79
+      },
+      {
+        "answer": "This",
+        "difficulty": 1,
+        "explanation": "book 是单数，且由“in my hand”可知书在近处，所以用 This。",
+        "knowledge_point": "指示代词",
+        "options": [],
+        "question": "______ is my book. (这本书在我手里。)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 80
+      },
+      {
+        "answer": "Those",
+        "difficulty": 1,
+        "explanation": "shoes 是复数，且“over there”表示在远处，所以用 Those。",
+        "knowledge_point": "指示代词",
+        "options": [],
+        "question": "______ shoes over there are new.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 81
+      },
+      {
+        "answer": "These",
+        "difficulty": 2,
+        "explanation": "apples 是复数，near us 表示在我们附近，所以用 These。",
+        "knowledge_point": "指示代词",
+        "options": [
+          "This",
+          "That",
+          "These",
+          "Those"
+        ],
+        "question": "______ apples near us are sweet.",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "That",
+        "difficulty": 2,
+        "explanation": "bird 是单数，in the tree over there 表示在远处，所以用 That。",
+        "knowledge_point": "指示代词",
+        "options": [],
+        "question": "______ bird in the tree over there is small.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "These",
+        "difficulty": 2,
+        "explanation": "句意为“这些是我的铅笔”。pencils 是复数，are 也提示主语应为复数；结合 near me，选择表示近处多个事物的 These。",
+        "knowledge_point": "指示代词",
+        "options": [
+          "This",
+          "That",
+          "These",
+          "Those"
+        ],
+        "question": "______ are my pencils near me.",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "does",
+        "difficulty": 1,
+        "explanation": "询问第三人称单数的职业，常用“What does ... do?”，助动词does后面的动词用原形。",
+        "knowledge_point": "询问职业",
+        "options": [
+          "do",
+          "does",
+          "is",
+          "are"
+        ],
+        "question": "What ______ your sister do?",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "She is a teacher.",
+        "difficulty": 2,
+        "explanation": "回答女性的职业时，可以用“She is a/an + 职业名称。”teacher以辅音音素开头，所以前面用a。",
+        "knowledge_point": "询问职业",
+        "options": [],
+        "question": "How can you answer “What does your mother do?” if she is a teacher?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "an",
+        "difficulty": 2,
+        "explanation": "engineer以元音音素开头，职业名称前用an。",
+        "knowledge_point": "询问职业",
+        "options": [],
+        "question": "My uncle is ______ engineer.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 87
+      },
+      {
+        "answer": "What does your father do?",
+        "difficulty": 2,
+        "explanation": "询问某人的职业可以说“What does + 人 + do?”，这里your father是第三人称单数，因此用does。",
+        "knowledge_point": "询问职业",
+        "options": [],
+        "question": "连词成句：your / father / does / what / do",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 88
+      },
+      {
+        "answer": "Good morning",
+        "difficulty": 1,
+        "explanation": "上午见面时通常用 Good morning. 表示问候。",
+        "knowledge_point": "日常交际",
+        "options": [
+          "Good morning",
+          "Good night",
+          "Goodbye",
+          "Thank you"
+        ],
+        "question": "你早上遇见老师，可以说：______.",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "Thank you",
+        "difficulty": 1,
+        "explanation": "别人帮助你或给你东西时，可以礼貌地说 Thank you. 表示感谢。",
+        "knowledge_point": "日常交际",
+        "options": [
+          "I'm sorry",
+          "Thank you",
+          "Goodbye",
+          "Excuse me"
+        ],
+        "question": "同学帮你捡起了书，你应该说：______.",
+        "score": 5,
+        "type": "choice",
+        "id": 90
+      },
+      {
+        "answer": "I'm sorry",
+        "difficulty": 2,
+        "explanation": "不小心撞到别人时，应说 I'm sorry. 表示道歉。对方可以回答 That's OK.",
+        "knowledge_point": "日常交际",
+        "options": [
+          "Nice to meet you",
+          "I'm sorry",
+          "See you",
+          "You're welcome"
+        ],
+        "question": "你不小心碰到了同学，应该说：______.",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "Nice to meet you, too.",
+        "difficulty": 2,
+        "explanation": "对方说 Nice to meet you.（很高兴认识你。）时，可以回答 Nice to meet you, too.（我也很高兴认识你。）",
+        "knowledge_point": "日常交际",
+        "options": [
+          "Nice to meet you, too.",
+          "Good night.",
+          "I'm sorry.",
+          "Here you are."
+        ],
+        "question": "A: Nice to meet you.  B: ______",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "See you",
+        "difficulty": 2,
+        "explanation": "朋友分别时可以说 See you.，意思是“再见；回头见”。",
+        "knowledge_point": "日常交际",
+        "options": [
+          "How are you?",
+          "See you",
+          "Good morning",
+          "Thank you"
+        ],
+        "question": "放学后和朋友分别，你可以说：______.",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "She",
+        "difficulty": 1,
+        "explanation": "空格处是句子的主语，表示“她是我的老师”，所以用主格 She。",
+        "knowledge_point": "人称代词",
+        "options": [
+          "She",
+          "Her",
+          "Hers",
+          "Herself"
+        ],
+        "question": "______ is my English teacher.",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "them",
+        "difficulty": 1,
+        "explanation": "在动词 help 后作宾语，要用宾格；they 的宾格是 them。",
+        "knowledge_point": "人称代词",
+        "options": [
+          "they",
+          "them",
+          "their",
+          "theirs"
+        ],
+        "question": "I can help ______ with the boxes.",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "our",
+        "difficulty": 1,
+        "explanation": "books 是名词，空格处表示“我们的”，名词前用形容词性物主代词 our。",
+        "knowledge_point": "人称代词",
+        "options": [
+          "we",
+          "us",
+          "our",
+          "ours"
+        ],
+        "question": "These are ______ books.",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "mine",
+        "difficulty": 1,
+        "explanation": "空格后没有名词，表示“这支铅笔是我的”，要用可以单独使用的名词性物主代词 mine。",
+        "knowledge_point": "人称代词",
+        "options": [
+          "my",
+          "me",
+          "I",
+          "mine"
+        ],
+        "question": "This pencil is ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "him",
+        "difficulty": 1,
+        "explanation": "介词 with 后面用宾格；he 的宾格是 him。",
+        "knowledge_point": "人称代词",
+        "options": [
+          "he",
+          "his",
+          "him",
+          "he's"
+        ],
+        "question": "Tom is playing with ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "sister",
+        "difficulty": 1,
+        "explanation": "句意是“莉莉是我的姐妹”。sister 表示姐妹中的一位女性。",
+        "knowledge_point": "基础词汇",
+        "options": [],
+        "question": "Lily is my ______. She is a girl in my family.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "book",
+        "difficulty": 1,
+        "explanation": "句意是“我读一本书”。book 表示“书”。",
+        "knowledge_point": "基础词汇",
+        "options": [],
+        "question": "I read a ______ every evening.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 100
+      },
+      {
+        "answer": "teacher",
+        "difficulty": 1,
+        "explanation": "在学校教学生的人是 teacher，意为“老师”。",
+        "knowledge_point": "基础词汇",
+        "options": [],
+        "question": "A ______ teaches students at school.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "apple",
+        "difficulty": 1,
+        "explanation": "句意是“我喜欢吃苹果”。apple 是“苹果”。",
+        "knowledge_point": "基础词汇",
+        "options": [],
+        "question": "I like to eat an ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 102
+      },
+      {
+        "answer": "run",
+        "difficulty": 1,
+        "explanation": "句意是“孩子们在公园里跑步”。run 表示“跑”。",
+        "knowledge_point": "基础词汇",
+        "options": [],
+        "question": "The children ______ in the park.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 103
+      },
+      {
+        "answer": "many",
+        "difficulty": 1,
+        "explanation": "students 是可数名词复数，询问学生人数用 How many。",
+        "knowledge_point": "询问人数词组",
+        "options": [],
+        "question": "How ______ students are in your class?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "many",
+        "difficulty": 1,
+        "explanation": "How many 后接可数名词复数，询问有多少本书。",
+        "knowledge_point": "询问人数词组",
+        "options": [],
+        "question": "______ ______ books do you have?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "How many",
+        "difficulty": 2,
+        "explanation": "people 表示人数，是可数名词复数，因此用 How many 提问。",
+        "knowledge_point": "询问人数词组",
+        "options": [],
+        "question": "______ ______ people are there in the room?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 106
+      },
+      {
+        "answer": "How much",
+        "difficulty": 2,
+        "explanation": "water 是不可数名词，询问水的数量用 How much。",
+        "knowledge_point": "询问人数词组",
+        "options": [],
+        "question": "______ ______ water is there in the bottle?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "many",
+        "difficulty": 2,
+        "explanation": "bananas 是可数名词复数，因此用 How many 询问数量。",
+        "knowledge_point": "询问人数词组",
+        "options": [],
+        "question": "How ______ bananas does Tom have?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 108
+      },
+      {
+        "answer": "What",
+        "difficulty": 1,
+        "explanation": "询问某人的职业，句首用“What”。",
+        "knowledge_point": "询问职业疑问词",
+        "options": [],
+        "question": "______ does your mother do?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "What",
+        "difficulty": 1,
+        "explanation": "询问爸爸的工作是什么，用“What is your father's job?”",
+        "knowledge_point": "询问职业疑问词",
+        "options": [],
+        "question": "______ is your father's job?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "What",
+        "difficulty": 2,
+        "explanation": "问句“What do your parents do?”是在询问父母的职业。parents 是复数，所以用 do。",
+        "knowledge_point": "询问职业疑问词",
+        "options": [],
+        "question": "______ do your parents do?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "What",
+        "difficulty": 2,
+        "explanation": "询问一位老师的职业，可以说“What is her job?”",
+        "knowledge_point": "询问职业疑问词",
+        "options": [],
+        "question": "______ is her job? She is a teacher.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "What",
+        "difficulty": 2,
+        "explanation": "询问一个人的工作，可以用“What does he do?”",
+        "knowledge_point": "询问职业疑问词",
+        "options": [],
+        "question": "______ does your brother do?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "teacher",
+        "difficulty": 1,
+        "explanation": "教学生的人是教师，英文是 teacher。",
+        "knowledge_point": "基础职业词汇",
+        "options": [],
+        "question": "She teaches children at school. She is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "doctor",
+        "difficulty": 1,
+        "explanation": "给病人看病的医生是 doctor。",
+        "knowledge_point": "基础职业词汇",
+        "options": [],
+        "question": "He helps sick people in a hospital. He is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "farmer",
+        "difficulty": 1,
+        "explanation": "在农场种植作物或饲养动物的人是 farmer，意为“农民”。",
+        "knowledge_point": "基础职业词汇",
+        "options": [],
+        "question": "A person who works on a farm is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "cook",
+        "difficulty": 1,
+        "explanation": "做饭的人是 cook，意为“厨师”。",
+        "knowledge_point": "基础职业词汇",
+        "options": [],
+        "question": "She makes food in a restaurant. She is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "nurse",
+        "difficulty": 2,
+        "explanation": "护士照顾病人，英文是 nurse。注意不要和 doctor（医生）混淆。",
+        "knowledge_point": "基础职业词汇",
+        "options": [],
+        "question": "A ______ takes care of patients in a hospital.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "医生",
+        "difficulty": 1,
+        "explanation": "doctor 的中文意思是“医生”。",
+        "knowledge_point": "职业英汉匹配",
+        "options": [],
+        "question": "doctor 的中文意思是______。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "nurse 的意思是“护士”。",
+        "knowledge_point": "职业英汉匹配",
+        "options": [
+          "A. 农民",
+          "B. 护士",
+          "C. 司机",
+          "D. 教师"
+        ],
+        "question": "nurse 的中文意思是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 120
+      },
+      {
+        "answer": "farmer",
+        "difficulty": 1,
+        "explanation": "“农民”用英语表示为 farmer。",
+        "knowledge_point": "职业英汉匹配",
+        "options": [],
+        "question": "“农民”的英文单词是______。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "driver 的意思是“司机”，所以这个说法正确。",
+        "knowledge_point": "职业英汉匹配",
+        "options": [],
+        "question": "driver 的意思是“司机”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 122
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "teacher 是教师，cook 是厨师。",
+        "knowledge_point": "职业英汉匹配",
+        "options": [
+          "A. cook—厨师",
+          "B. cook—医生",
+          "C. cook—农民",
+          "D. cook—司机"
+        ],
+        "question": "下面哪一项英汉匹配正确？",
+        "score": 1,
+        "type": "choice",
+        "id": 123
+      },
+      {
+        "answer": "父母",
+        "difficulty": 1,
+        "explanation": "parents表示父母；parent表示父亲或母亲中的一位。",
+        "knowledge_point": "家庭成员英汉匹配",
+        "options": [],
+        "question": "parents的中文意思是______。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 124
+      },
+      {
+        "answer": "aunt",
+        "difficulty": 1,
+        "explanation": "阿姨对应的英语单词是aunt。",
+        "knowledge_point": "家庭成员英汉匹配",
+        "options": [],
+        "question": "“阿姨”用英语怎么说？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "堂兄弟/表姐妹；堂亲或表亲",
+        "difficulty": 2,
+        "explanation": "cousin可以指堂兄弟姐妹或表兄弟姐妹，不特指某一种性别。",
+        "knowledge_point": "家庭成员英汉匹配",
+        "options": [],
+        "question": "cousin的中文意思是什么？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "uncle",
+        "difficulty": 2,
+        "explanation": "uncle表示叔叔、伯伯等男性长辈；aunt表示阿姨、姑姑等女性长辈。",
+        "knowledge_point": "家庭成员英汉匹配",
+        "options": [
+          "uncle",
+          "aunt",
+          "parents",
+          "cousin"
+        ],
+        "question": "“叔叔”对应哪个英文单词？",
+        "score": 1,
+        "type": "choice",
+        "id": 127
+      },
+      {
+        "answer": "aunt",
+        "difficulty": 2,
+        "explanation": "aunt表示阿姨、姑姑等女性长辈；uncle通常表示叔叔、伯伯等男性长辈。",
+        "knowledge_point": "家庭成员英汉匹配",
+        "options": [],
+        "question": "Fill in the blank: My father's sister is my ______.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "She,is,a,teacher,.",
+        "difficulty": 2,
+        "explanation": "这是陈述句，语序为主语She + be动词is + 其他成分a teacher。句首大写，句末用句号。",
+        "knowledge_point": "句型排列",
+        "options": [
+          "teacher",
+          "She",
+          ".",
+          "is",
+          "a"
+        ],
+        "question": "将单词排列成句：teacher,She,.,is,a",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "Is,he,a,doctor,?",
+        "difficulty": 3,
+        "explanation": "这是含有be动词的一般疑问句，语序为Is + 主语he + 其他成分。句首大写，句末用问号。",
+        "knowledge_point": "句型排列",
+        "options": [
+          "he",
+          "?",
+          "doctor",
+          "Is",
+          "a"
+        ],
+        "question": "将单词排列成句：he,?,doctor,Is,a",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "This,is,my,mother,.",
+        "difficulty": 2,
+        "explanation": "这是陈述句，This作主语，is作be动词，my修饰名词mother。意为“这是我的妈妈”。",
+        "knowledge_point": "句型排列",
+        "options": [
+          "my",
+          "mother",
+          ".",
+          "This",
+          "is"
+        ],
+        "question": "将单词排列成句：my,mother,.,This,is",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 131
+      },
+      {
+        "answer": "What,is,her,mother's,job,?",
+        "difficulty": 3,
+        "explanation": "询问某人的职业可用“What is + 所有格 + job?”。her mother's表示“她妈妈的”，句末用问号。",
+        "knowledge_point": "句型排列",
+        "options": [
+          "job",
+          "What",
+          "mother's",
+          "?",
+          "is",
+          "her"
+        ],
+        "question": "将单词排列成句：job,What,mother's,?,is,her",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
       }
     ]
   },
@@ -713,6 +2127,246 @@
         "漏掉 there be 结构中的 are"
       ],
       "tips": "看到 How many，就要下意识检查名词是否加了 -s。"
+    },
+    {
+      "common_mistakes": [
+        "把 family members（家庭成员）和 jobs（职业）混为一谈；如 mother 是家庭成员，teacher 是职业。",
+        "表示某人职业时，单数职业名词前通常要加 a 或 an，如 a doctor、an artist。",
+        "询问职业常用“What does he/she do?”，回答可用“He/She is a/an …”。"
+      ],
+      "core_concept": "学习常见家庭成员和职业名称，并能用简单句介绍家庭成员的职业。",
+      "key_formula": "What does he/she do? — He/She is a/an + 职业。",
+      "point": "家庭成员与职业名称",
+      "tips": "先认清家庭成员词汇，再记忆常见职业。介绍职业时注意单复数和冠词：a teacher、a nurse、an artist；问职业时，he/she 后用 does，回答时用 is。"
+    },
+    {
+      "common_mistakes": [
+        "询问家庭有几口人时，通常用“How many people are there in your family?”，不要说“How many people your family?”",
+        "回答人数时用“There are ... people in my family.”，不要遗漏are。",
+        "询问职业可以用“What does your ... do?”，回答时用“He/She is a/an ...”，注意职业前冠词的使用。",
+        "“How many”用于询问数量；“What”用于询问职业或具体信息。"
+      ],
+      "core_concept": "学习询问家庭人数和家人的职业，并能用简单句回答。",
+      "key_formula": "询问人数：How many people are there in your family? — There are ... people in my family.；询问职业：What does your ... do? — He/She is a/an ...。",
+      "point": "询问家庭人数与职业",
+      "tips": "回答家庭人数时，先说“There are...”，再说人数和people。询问某位家人的职业时，用“What does your father/mother/... do?”；回答时根据人物选择He或She，并在职业单数名词前加a或an，例如“He is a teacher.”、“She is an artist.”"
+    },
+    {
+      "common_mistakes": [
+        "把元音字母和元音音素混为一谈：字母 a、e、i、o、u 的发音会随单词变化。",
+        "只根据字母本身判断发音，忽略字母所在的音节和单词读音。",
+        "看到不发音的字母 e，就把它读出来；在许多常见单音节词中，词尾 e 不发音，常会影响前面的元音字母读音。"
+      ],
+      "core_concept": "英语五大元音字母是 a、e、i、o、u。同一个元音字母在不同单词中可能发不同的元音音素。小学阶段常见的情况包括短元音，如 cat 中 a 的发音、bed 中 e 的发音、sit 中 i 的发音、hot 中 o 的发音、cup 中 u 的发音；也包括常见的字母名称音，如 cake 中 a、these 中 e、bike 中 i、home 中 o、cute 中 u。判断时要结合单词整体读音，不要只看字母。",
+      "key_formula": "五大元音字母：a、e、i、o、u。辨音方法：先找元音字母，再听或读出单词，比较该字母在单词中的实际发音；常见对比：短元音与字母名称音（如 cap/cape、bit/bite）。",
+      "point": "五大元音字母发音综合辨析",
+      "tips": "做题时先把单词读出来，再比较目标元音字母的发音。遇到词尾不发音的 e，可观察它是否使前面的元音字母读字母名称音，例如 cap/cape、kit/kite；但这只是常见规律，遇到不熟悉的词仍应结合读音练习。"
+    },
+    {
+      "common_mistakes": [
+        "注意区分单数和复数：parent 是父亲或母亲中的一位，parents 是父母。",
+        "grandparents 表示祖父母或外祖父母，通常指两位长辈；grandfather 和 grandmother 分别表示祖父或外祖父、祖母或外祖母。",
+        "sister 是姐妹，brother 是兄弟；不要把 family（家庭、家人）和其中某一位家庭成员混淆。"
+      ],
+      "core_concept": "学习常见家庭成员的英文名称，并能根据单词理解家庭关系、在简单句子中介绍家人。",
+      "key_formula": "This is my + 家庭成员.（这是我的……。）\nI have a + 单数家庭成员.（我有一位……。）\nI have two + 复数家庭成员.（我有两位……。）",
+      "point": "家庭成员词汇",
+      "tips": "可以按关系记忆词汇：父母是 parents，祖父母是 grandparents；男性家庭成员常见词有 father、brother、grandfather，女性家庭成员常见词有 mother、sister、grandmother。练习时可用 This is my ... 介绍家人。"
+    },
+    {
+      "common_mistakes": [
+        "把职业单词与相似或常见职业混淆，如 doctor（医生）和 teacher（老师）。",
+        "注意职业单词的拼写；有些单词容易漏写或调换字母。"
+      ],
+      "core_concept": "职业词汇用于描述人们的工作。学习时要掌握常见职业的英文名称、中文含义和基本拼写。",
+      "key_formula": "职业名称：英文单词 ↔ 中文职业含义",
+      "point": "职业词汇",
+      "tips": "可以把职业单词和人物或工作场景联系起来记忆，例如 doctor 与医院、farmer 与农田。复习时尝试先看中文说英文，再看英文说中文。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 aunt 只理解为爸爸的姐妹；它也可以指妈妈的姐妹，以及叔叔、舅舅、姑父、姨父等人的妻子。",
+        "英语中 cousin 不区分表兄弟姐妹，也不区分男女。",
+        "grandparents 表示祖父母或外祖父母；parents 表示父母。"
+      ],
+      "core_concept": "用英语称呼家庭成员时，有些词能表示多种亲属关系。例如，aunt 可指姑妈、姨妈等；uncle 可指叔叔、舅舅等；cousin 可指堂表兄弟姐妹。可以结合家庭关系和句子语境理解。",
+      "key_formula": "This is my + 家庭成员.（这是我的……。）\\nHe/She is my + 家庭成员.（他/她是我的……。）\\n复数形式：parent → parents，grandparent → grandparents。",
+      "point": "家庭成员关系",
+      "tips": "记忆时可以按核心家庭、祖辈和其他亲属分类；介绍家人时可说“This is my sister.”或“He is my uncle.”。注意 aunt 和 uncle 的中文对应范围较广，应根据具体关系理解。"
+    },
+    {
+      "common_mistakes": [
+        "How many 后接可数名词复数；How much 后接不可数名词。",
+        "主语是 he、she、it 或单数名词时，通常用 does；主语是 I、you、we、they 或复数名词时，用 do。",
+        "be 动词和助动词 do/does 不要在同一个一般现在时疑问句中重复使用。"
+      ],
+      "core_concept": "英语中，词语之间常有固定的语法搭配。询问可数名词的数量时用 How many，后接名词复数；询问不可数事物的数量时用 How much。一般现在时中，含实义动词的疑问句要根据主语选择 do 或 does。",
+      "key_formula": "How many + 可数名词复数 + do/does + 主语 + 动词原形？\nHow much + 不可数名词 + do/does + 主语 + 动词原形？",
+      "point": "语法搭配",
+      "tips": "先判断名词是可数还是不可数，再选择 How many 或 How much；接着看主语，选择 do 或 does。用了 does 后，后面的实义动词要用原形。"
+    },
+    {
+      "common_mistakes": [
+        "单数职业名词前漏用 a 或 an，例如应说 a teacher、an artist。",
+        "混淆职业名称的拼写和意思，例如 doctor（医生）与 driver（司机）。",
+        "介绍职业时误用 be 动词；主语是 he/she 时通常用 is，主语是 I 时用 am。"
+      ],
+      "core_concept": "职业称谓用于说明某人从事的工作。常见职业有 teacher（教师）、doctor（医生）、nurse（护士）、farmer（农民）、driver（司机）、cook（厨师）和 worker（工人）。介绍某人的职业时，可以用“主语 + be 动词 + a/an + 职业名称”。",
+      "key_formula": "I am a/an + 职业名称.；He/She is a/an + 职业名称.；They are + 职业名称复数。",
+      "point": "职业称谓",
+      "tips": "记职业单词时可以结合人物和工作来记；造句时先确定主语，再选择 am、is 或 are，最后检查单数职业名词前是否有 a 或 an。"
+    },
+    {
+      "common_mistakes": [
+        "在“How many”后误用单数名词person；应使用people。",
+        "把people误写成peoples来表示普通的“人们”；小学阶段通常用people。",
+        "回答家庭人数时只说人数，不说明“家里有……”的完整句型。"
+      ],
+      "core_concept": "询问家庭里有多少人，常用“How many people are there in your family?” 意思是“你家有多少人？”回答时可用“There are + 数字 + people.”，如“There are four people.”（有四个人。）",
+      "key_formula": "How many people are there in your family? — There are + 数字 + people.",
+      "point": "家庭人数提问",
+      "tips": "先找出“How many”后面的名词，再判断它是否需要复数；people本身表示“人们”，不要再加-s。回答时记得用There are，并按人数选用正确的数字。"
+    },
+    {
+      "common_mistakes": [
+        "把工作地点和职业弄混，例如认为在医院工作的每个人都是医生；还要结合题目给出的线索判断。",
+        "混淆拼写或意思相近的职业词，如 farmer（农民）、driver（司机）、nurse（护士）和 cook（厨师）。"
+      ],
+      "core_concept": "根据人物的工作内容或工作地点，辨认相应的职业英语词汇。",
+      "key_formula": "He/She works in/on/at + 地点. He/She is a/an + 职业.",
+      "point": "职业词汇辨析",
+      "tips": "先找句子中的工作地点或工作内容，再从选项中找对应职业。注意 a 和 an 的用法：辅音音素开头的职业前通常用 a，元音音素开头的职业前通常用 an。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 aunt（姑姑、姨妈等）和 uncle（叔叔、伯伯等）混淆。",
+        "cousin 指堂兄弟姐妹或表兄弟姐妹，不是叔叔、阿姨。",
+        "parents 表示父母，parent 表示父亲或母亲中的一位。"
+      ],
+      "core_concept": "用英语称呼家庭成员：father 是父亲，mother 是母亲，brother 是兄弟，sister 是姐妹，grandfather 是祖父或外祖父，grandmother 是祖母或外祖母，uncle 是叔叔、伯伯、舅舅等，aunt 是姑姑、阿姨等，cousin 是堂兄弟姐妹或表兄弟姐妹。",
+      "key_formula": "家庭成员称呼词汇：father + mother = parents；brother = 兄弟；sister = 姐妹；uncle = 叔叔、伯伯、舅舅等；aunt = 姑姑、阿姨、舅妈等；cousin = 堂兄弟姐妹或表兄弟姐妹。",
+      "point": "家庭成员称呼",
+      "tips": "可以从人物关系记词：父母是 parents；父亲的兄弟是 uncle；父亲或母亲的姐妹是 aunt；叔叔、伯伯、姑姑、舅舅、姨妈的孩子通常称为 cousin。"
+    },
+    {
+      "common_mistakes": [
+        "把指示代词和人称代词混淆。this、that、these、those 用来指人或物；I、me、my 等表示人称或所属。",
+        "忘记根据数量和远近选择形式：this 指较近的一个，that 指较远的一个；these 指较近的多个，those 指较远的多个。",
+        "把 these 和 those 用在单数名词前，或把 this 和 that 用在复数名词前。"
+      ],
+      "core_concept": "指示代词用来指明某个人或物。this（这个）和 these（这些）通常指较近的人或物；that（那个）和 those（那些）通常指较远的人或物。this、that 后接单数名词或不可数名词；these、those 后接复数名词。它们也可以单独使用，如 This is my book.（这是我的书。）",
+      "key_formula": "近处：this + 单数／不可数名词，these + 复数名词；远处：that + 单数／不可数名词，those + 复数名词。",
+      "point": "指示代词",
+      "tips": "做题时先判断所指的人或物是一个还是多个，再判断距离远近。代词单独作主语时，注意谓语动词：This is...，That is...，These are...，Those are...。"
+    },
+    {
+      "common_mistakes": [
+        "询问职业时，常用“What does ... do?”或“What is ...’s job?”",
+        "回答职业时，通常用“He/She is a/an + 职业名称.”",
+        "注意职业名称前的冠词：以元音音素开头的职业通常用an，如an engineer；其他常用a，如a teacher。"
+      ],
+      "core_concept": "询问某人职业的常见表达有“What does he/she do?”和“What is his/her job?”；也可以用“What’s your father/mother?”询问对方父母的职业。回答时说“He/She is a/an ...”或“My ... is a/an ...”。",
+      "key_formula": "What does + 人 + do? / What is + 形容词性物主代词 + job? — 主语 + be + a/an + 职业.",
+      "point": "询问职业",
+      "tips": "先认出问句中的人物，再用对应的he、she或my等词回答。询问职业时，What’s your father? 中的What’s是What is的缩写，回答要说职业，不是描述外貌或性格。"
+    },
+    {
+      "common_mistakes": [
+        "回答一般疑问句时，Yes 或 No 后面的主语和 be 动词要与问句保持一致。",
+        "日常交际中要根据情境选择合适的表达，注意问候、感谢、道歉和告别等用语。",
+        "初次见面常说 Nice to meet you.；告别时可说 Goodbye. 或 See you."
+      ],
+      "core_concept": "日常交际英语用于问候、介绍、询问、感谢、道歉和告别。根据对话情境选择恰当表达，并用完整、礼貌的句子回应。",
+      "key_formula": "一般疑问句的简短回答：Yes, 主语 + be 动词. / No, 主语 + be 动词 + not. 例如：Is this your uncle? — Yes, he is.",
+      "point": "日常交际",
+      "tips": "先看清对话发生的情境，再判断该说什么。回答一般疑问句时，注意人称和 be 动词对应：Is he...? — Yes, he is.；Are you...? — Yes, I am."
+    },
+    {
+      "common_mistakes": [
+        "把 I、me 和 my 混用：I 常作主语，me 常作宾语，my 后面通常接名词。",
+        "把 he 和 him、she 和 her 混用：作主语时用 he、she，作宾语时用 him、her。",
+        "把形容词性物主代词 my、your 等单独使用；它们后面通常需要接名词。"
+      ],
+      "core_concept": "人称代词用来代替表示人的名词。根据在句子中的作用，人称代词可分为主格和宾格；表示所属关系的词包括形容词性物主代词和名词性物主代词。",
+      "key_formula": "主格：I、you、he、she、it、we、they；宾格：me、you、him、her、it、us、them。形容词性物主代词：my、your、his、her、its、our、their；名词性物主代词：mine、yours、his、hers、ours、theirs。",
+      "point": "人称代词",
+      "tips": "做题时先看空格在句子中的位置和作用：动作的执行者通常用主格；动词或介词后通常用宾格；空格后有名词时，表示所属通常用形容词性物主代词；空格后没有名词、且表示“某人的东西”时，可用名词性物主代词。"
+    },
+    {
+      "common_mistakes": [
+        "把表示父母的 parents 和表示亲戚的 relatives 混淆。",
+        "单词前后缺少空格或拼写错误。",
+        "忘记根据句意选择合适的词。"
+      ],
+      "core_concept": "基础词汇是日常交流中常见、常用的单词。学习时可以结合人物关系、物品和生活场景理解词义，并注意拼写。",
+      "key_formula": "根据句意判断词义 → 选择合适的单词 → 检查拼写和语法",
+      "point": "基础词汇",
+      "tips": "读懂句子中的关键词，再结合生活经验判断空缺所需的词；完成后检查单词拼写和句意是否通顺。"
+    },
+    {
+      "common_mistakes": [
+        "询问可数名词的数量用“How many…?”；询问不可数名词的数量用“How much…?”。",
+        "many 后接可数名词复数；不要在名词前漏掉 many。"
+      ],
+      "core_concept": "询问“有多少……”时，若后面是可数名词复数，用“How many + 可数名词复数 + …?”。若后面是不可数名词，用“How much + 不可数名词 + …?”。",
+      "key_formula": "How many + 可数名词复数 + are there…? / How many + 可数名词复数 + do/does + 主语 + have?；How much + 不可数名词 + is there…?",
+      "point": "询问人数词组",
+      "tips": "先判断要询问的名词是否可数，再选择 how many 或 how much。people、students、children 等表示人数的词通常用 how many。回答时可说“There are…”或直接给出数量。"
+    },
+    {
+      "common_mistakes": [
+        "询问某人的职业时，用 what，不用 who。",
+        "What 后面要搭配 be 动词，如 What is your job?",
+        "询问职业也可以用 What does someone do?，其中 does 后的动词用原形 do。"
+      ],
+      "core_concept": "询问职业时，常用 What is/are ...'s job? 或 What does ... do?。回答时可以说职业名称，例如 He is a doctor.。",
+      "key_formula": "What is/are + 某人的 + job?；What does/do + 某人 + do?",
+      "point": "询问职业疑问词",
+      "tips": "单数人物常用 What is ...'s job? 或 What does ... do?；复数人物常用 What are ...'s jobs? 或 What do ... do?。"
+    },
+    {
+      "common_mistakes": [
+        "不要把职业名称和工作动作混淆，例如 drive 是“开车”，driver 是“司机”。",
+        "注意职业名词的拼写，例如 teacher、doctor、worker。",
+        "句子中描述某人职业时，常用 a 或 an，如 a teacher、an actor。"
+      ],
+      "core_concept": "学习常见职业的英文名称，并能根据人物的工作内容辨认职业。",
+      "key_formula": "He/She is a/an + 职业名称.；描述工作内容时，可用 He/She + 动词短语.",
+      "point": "基础职业词汇",
+      "tips": "把职业词汇和对应的工作联系起来记忆：teach—teacher（教书的人），drive—driver（开车的人），farm—farmer（种地的人）。看到工作描述时，先找出关键动作，再判断职业。"
+    },
+    {
+      "common_mistakes": [
+        "把 nurse 误认为医生；nurse 的意思是护士。",
+        "混淆 farmer（农民）和 driver（司机）的意思。",
+        "看到职业单词时只记发音，不记中文意思。"
+      ],
+      "core_concept": "职业英汉匹配就是根据职业单词的意思，找出对应的中文职业名称。",
+      "key_formula": "doctor—医生；nurse—护士；farmer—农民；driver—司机；teacher—教师；cook—厨师。",
+      "point": "职业英汉匹配",
+      "tips": "可以把英文职业词和生活中的人物联系起来记忆：doctor 在医院看病，nurse 照顾病人，farmer 种植庄稼，driver 开车，teacher 教书，cook 做饭。"
+    },
+    {
+      "common_mistakes": [
+        "把uncle和aunt的中文意思混淆。",
+        "把parents误认为单数；parents表示父母，parent表示父亲或母亲。",
+        "cousin表示堂亲或表亲，不单指堂兄弟。"
+      ],
+      "core_concept": "认识常见家庭成员的英语单词，并能将它们与中文意思正确匹配。",
+      "key_formula": "英语单词 ↔ 中文意思：uncle—叔叔；aunt—阿姨；parents—父母；cousin—堂兄弟/表姐妹。",
+      "point": "家庭成员英汉匹配",
+      "tips": "可以按性别或家庭关系记忆：uncle通常指叔叔、伯伯、舅舅等男性长辈；aunt通常指阿姨、姑姑、婶婶等女性长辈；cousin指叔伯、姑舅等亲属的子女。"
+    },
+    {
+      "common_mistakes": [
+        "排列句子时忘记句首单词首字母要大写。",
+        "把问句的问号放在句子中间或遗漏问号。",
+        "忽略英语句子的基本语序，或把形容词放在名词后面。"
+      ],
+      "core_concept": "句型排列是将打乱顺序的单词按照英语语法规则组成完整句子。先找句首和句子的类型，再确定主语、谓语及其他成分的位置，最后检查大小写和标点。",
+      "key_formula": "陈述句：主语 + 谓语 + 其他成分。一般疑问句：Be动词 + 主语 + 其他成分？特殊疑问句：疑问词 + 一般疑问句语序？",
+      "point": "句型排列",
+      "tips": "可先寻找大写的疑问词或句首线索，再把剩余单词按“谁—做什么—其他信息”的顺序排列。遇到What is...的问句，注意疑问词在前，is紧跟其后；所有格或物主代词通常放在名词前。"
     }
   ]
 }

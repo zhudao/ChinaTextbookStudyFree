@@ -12,7 +12,7 @@ import urllib.request
 import zipfile
 from pathlib import Path, PurePosixPath
 
-DEFAULT_TAG = 'v1.4.2-edge-audio'
+DEFAULT_TAG = 'v1.4.3-content-restored'
 DESTINATIONS = {
     'audio.tar.gz': 'apps/web/public',
     'data.zip': 'apps/web/public/data',

@@ -4,275 +4,273 @@
   "unit_number": 4,
   "unit_test": {
     "title": "Unit 4 Grade 6 PEP - Basic Evaluation",
-    "total_score": 100,
+    "total_score": 565,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "描述过去某处存在某人或某物时，There be 句型使用过去时 was 或 were。",
         "knowledge_point": "There be 句型时态",
+        "options": [],
         "question": "描述过去的客观存在，我们使用 There was 或 There were。",
-        "options": [],
-        "answer": "对",
-        "explanation": "There be句型根据描述的时间决定时态，过去用was/were。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "Grass 的意思是“草”或“草地”；glass 才是“玻璃”。",
         "knowledge_point": "词汇变化",
+        "options": [],
         "question": "'grass' 的意思是‘玻璃’。",
-        "options": [],
-        "answer": "错",
-        "explanation": "Grass是草地，玻璃是glass。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "could not（couldn’t）是 can not（can’t）的过去式形式之一，表示过去没有某种能力。",
         "knowledge_point": "个人能力表达",
+        "options": [],
         "question": "I could not ride a bike before. 这里的 could not 代表过去的能力。",
-        "options": [],
-        "answer": "对",
-        "explanation": "could是can的过去式，表示过去的能力。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "big是重读闭音节单词，末尾只有一个辅音字母g，变最高级时要双写g再加-est，写作biggest。",
         "knowledge_point": "形容词最高级",
-        "question": "the biggest 表示‘最大的’，双写了字母g。",
         "options": [],
-        "answer": "对",
-        "explanation": "big是重读闭音节单词，最高级需双写末尾辅音字母再加est。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
+        "question": "the biggest 表示“最大的”，双写了字母g。",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "标志词识别",
-        "question": "ago 是描述‘现在’的时间标志词。",
-        "options": [],
-        "answer": "错",
-        "explanation": "ago意为‘以前’，是过去时的标志。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "ago 意为“以前”，常用于表示过去的时间，如 two days ago（两天前）。",
+        "knowledge_point": "标志词识别",
+        "options": [],
+        "question": "ago 是描述“现在”的时间标志词。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "was",
+        "difficulty": 1,
+        "explanation": "library 是单数名词，ten years ago 表示过去，所以用 was。",
         "knowledge_point": "There be 句型搭配",
-        "question": "There _____ no library in my school ten years ago.",
         "options": [
           "is",
           "was",
           "are",
           "were"
         ],
-        "answer": "was",
-        "explanation": "library是单数，ten years ago表示过去，用was。"
+        "question": "There _____ no library in my school ten years ago.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "like",
         "difficulty": 1,
+        "explanation": "didn't 后面接动词原形，所以用 like。",
         "knowledge_point": "个人爱好对比",
-        "question": "I didn't _____ like eggs before.",
         "options": [
           "liked",
           "like",
           "likes",
           "liking"
         ],
-        "answer": "like",
-        "explanation": "didn't 后面接动词原形。"
+        "question": "I didn't _____ like eggs before.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "hottest",
         "difficulty": 2,
+        "explanation": "hot是重读闭音节单词，变最高级时双写末尾的t再加-est；空格前已有the，因此填hottest。",
         "knowledge_point": "形容词最高级",
-        "question": "The sun is the ______ star in our system.",
         "options": [
           "hot",
           "hotter",
           "hottest",
           "the hottest"
         ],
-        "answer": "hottest",
-        "explanation": "形容词最高级前已有the，后面直接填hottest。"
+        "question": "The sun is the ______ star in our system.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "large",
         "difficulty": 1,
+        "explanation": "but 表示转折，前面说学校过去很小，后面应表示现在变大了，因此选 large。",
         "knowledge_point": "词义辨析",
-        "question": "My school was small ten years ago, but now it is ______.",
         "options": [
           "old",
           "quiet",
           "small",
           "large"
         ],
-        "answer": "large",
-        "explanation": "句子用but转折，small的对比词应选large。"
+        "question": "My school was small ten years ago, but now it is ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "much",
         "difficulty": 1,
+        "explanation": "How much 可询问程度或变化的量，句意为“你改变了多少？”。",
         "knowledge_point": "特殊疑问句",
-        "question": "How ______ did you change?",
         "options": [
           "many",
           "much",
           "old",
           "often"
         ],
-        "answer": "much",
-        "explanation": "How much 询问程度，表示“改变了多少”。"
+        "question": "How ______ did you change?",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "did",
         "difficulty": 2,
+        "explanation": "last night表示过去，疑问句借用助动词did。did后面的实义动词用原形do。",
         "knowledge_point": "助动词辨析",
-        "question": "What ______ you do last night?",
         "options": [
           "do",
           "did",
           "does",
           "done"
         ],
-        "answer": "did",
-        "explanation": "last night表示过去，疑问句借用助动词did。"
+        "question": "What ______ you do last night?",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "am",
         "difficulty": 1,
+        "explanation": "Now表示现在；主语I与be动词am搭配。",
         "knowledge_point": "时态对比",
-        "question": "Now I ______ active in class.",
         "options": [
           "was",
           "be",
           "is",
           "am"
         ],
-        "answer": "am",
-        "explanation": "Now描述现在，I后面的人称代词用am。"
+        "question": "Now I ______ active in class.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "tallest",
         "difficulty": 2,
+        "explanation": "句中比较范围是班级里的所有女生，属于三者或三者以上的比较，用最高级 tallest；最高级前通常加 the。",
         "knowledge_point": "形容词等级",
-        "question": "Who is the ______ girl in your class?",
         "options": [
           "tallest",
           "taller",
           "tall",
           "talling"
         ],
-        "answer": "tallest",
-        "explanation": "班级三者以上对比用最高级tallest。"
+        "question": "Who is the ______ girl in your class?",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "tall",
         "difficulty": 3,
+        "explanation": "Before 和 Now 表示前后变化；short（矮的）与 tall（高的）相对，因此现在应是 tall。",
         "knowledge_point": "语境理解",
-        "question": "Before, I was short. Now, I am ______.",
         "options": [
           "thin",
           "tall",
           "quiet",
           "short"
         ],
-        "answer": "tall",
-        "explanation": "身高前后的对比，矮（short）对应高（tall）。"
+        "question": "Before, I was short. Now, I am ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "sky",
         "difficulty": 2,
+        "explanation": "星星通常出现在天空中，sky意为“天空”。",
         "knowledge_point": "名词辨析",
-        "question": "People can see many stars in the ______ at night.",
         "options": [
           "gym",
           "dining hall",
           "sky",
           "grass"
         ],
-        "answer": "sky",
-        "explanation": "星星通常出现在天空（sky）中。"
+        "question": "People can see many stars in the ______ at night.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "地点名词",
-        "question": "You can play basketball in the ____.",
-        "options": [],
         "answer": "gym",
-        "explanation": "gym健身房/体育馆。"
+        "difficulty": 1,
+        "explanation": "gym 意为“体育馆、健身房”。人们可以在体育馆打篮球。",
+        "knowledge_point": "地点名词",
+        "options": [],
+        "question": "You can play basketball in the ____.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "时间介词",
-        "question": "Thirty years _____ , there were no computers in our class.",
-        "options": [],
         "answer": "ago",
-        "explanation": "ago意为…以前。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "形容词最高级",
-        "question": "Winter is the _____ season of the year in China.",
-        "options": [],
-        "answer": "coldest",
-        "explanation": "冬天是一年中最冷的季节。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "动词时态",
-        "question": "I ____ thin two years ago. (用be动词填空)",
-        "options": [],
-        "answer": "was",
-        "explanation": "ago用过去时，I搭配was。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "ago 放在表示时间长度的词语之后，表示“……以前”。Thirty years ago 意为“三十年前”，句子使用一般过去时 were。",
+        "knowledge_point": "时间介词",
+        "options": [],
+        "question": "Thirty years _____ , there were no computers in our class.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "coldest",
+        "difficulty": 2,
+        "explanation": "cold是短形容词，最高级通常在词尾加-est，写作coldest。",
+        "knowledge_point": "形容词最高级",
+        "options": [],
+        "question": "Winter is the _____ season of the year in China.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "was",
+        "difficulty": 3,
+        "explanation": "two years ago表示“两年前”，提示一般过去时；I对应的be动词过去式是was。",
+        "knowledge_point": "动词时态",
+        "options": [],
+        "question": "I ____ thin two years ago. (用be动词填空)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-3，B-1，C-4，D-2",
+        "difficulty": 1,
+        "explanation": "grass的意思是“草地”，star是“星星”，dream是“梦想”，internet是“互联网”。",
         "knowledge_point": "词汇配对",
-        "question": "请将下列单词与对应的中文意思连线。",
         "options": [
           "grass",
           "star",
@@ -283,60 +281,1706 @@
           "草地",
           "梦想"
         ],
-        "answer": "A-3,B-1,C-4,D-2",
-        "explanation": "grass草地，star星星，dream梦想，internet互联网。"
+        "question": "请将下列单词与对应的中文意思连线：A. grass，B. star，C. dream，D. internet；1. 星星，2. 互联网，3. 草地，4. 梦想。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "查阅、查找",
         "difficulty": 1,
+        "explanation": "look up 在这里表示“查阅、查找”，不是“看起来”。",
         "knowledge_point": "动作短语配对",
-        "question": "请将短语与中文意思连线。",
         "options": [
-          "look up",
-          "tell a story",
-          "go cycling",
-          "ice-skate",
+          "查阅、查找",
           "讲故事",
           "去骑行",
-          "滑冰",
-          "查阅"
+          "滑冰"
         ],
-        "answer": "A-4,B-1,C-2,D-3",
-        "explanation": "look up查阅，tell a story讲故事，go cycling骑行，ice-skate滑冰。"
+        "question": "短语 look up 的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "There was no library.",
         "difficulty": 2,
+        "explanation": "正确语序是 There was no library.，表示“以前没有图书馆”。There was 后接单数名词 library。",
         "knowledge_point": "时态对比句型",
-        "question": "连词成句：(was, no, library, There)",
         "options": [
-          "was",
-          "no",
-          "library",
-          "There"
+          "There was no library.",
+          "There no was library.",
+          "Was there library no."
         ],
-        "answer": "There,was,no,library",
-        "explanation": "There was no... 句型表示以前没有某物。"
+        "question": "连词成句：(was, no, library, There)",
+        "score": 5,
+        "type": "choice",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "I am active now.",
         "difficulty": 2,
+        "explanation": "主语 I 后用 am，active 表示状态，now 表示现在。句子按“主语 + be 动词 + 状态 + 时间”的顺序排列。",
         "knowledge_point": "现在时表状态",
-        "question": "连词成句：(I, active, now, am)",
         "options": [
           "I",
           "active",
           "now",
           "am"
         ],
-        "answer": "I,am,active,now",
-        "explanation": "主系表结构描述现在的状态。"
+        "question": "连词成句：(I, active, now, am)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "There is",
+        "difficulty": 1,
+        "explanation": "句子中的 now 表示现在；a book 是单数，所以用 There is。",
+        "knowledge_point": "There be 句型的时态对比",
+        "options": [
+          "There is",
+          "There are",
+          "There was",
+          "There were"
+        ],
+        "question": "选择合适的词填空：_____ a book on the desk now.",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "There were",
+        "difficulty": 1,
+        "explanation": "last Sunday 表示过去；three birds 是复数，所以用 There were。",
+        "knowledge_point": "There be 句型的时态对比",
+        "options": [
+          "There is",
+          "There are",
+          "There was",
+          "There were"
+        ],
+        "question": "选择合适的词填空：_____ three birds in the tree last Sunday.",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "There was",
+        "difficulty": 1,
+        "explanation": "yesterday 表示过去；water 是不可数名词，按单数看待，因此用 There was。",
+        "knowledge_point": "There be 句型的时态对比",
+        "options": [
+          "There is",
+          "There are",
+          "There was",
+          "There were"
+        ],
+        "question": "选择合适的词填空：_____ some water in the bottle yesterday.",
+        "score": 1,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "two apples 是复数，yesterday 表示过去，因此 There were two apples... 正确。",
+        "knowledge_point": "There be 句型的时态对比",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：There were two apples in the bag yesterday.",
+        "score": 1,
+        "type": "true_false",
+        "id": 27
+      },
+      {
+        "answer": "There are",
+        "difficulty": 2,
+        "explanation": "every day 表示经常发生的情况，用一般现在时；many children 是复数，所以用 There are。",
+        "knowledge_point": "There be 句型的时态对比",
+        "options": [],
+        "question": "填空：_____ many children in the park every day.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 28
+      },
+      {
+        "answer": "There was a small shop near my school ten years ago.",
+        "difficulty": 2,
+        "explanation": "ten years ago 表示过去；a small shop 是单数，所以用 There was。改写时保留地点和时间信息。",
+        "knowledge_point": "There be 句型的时态对比",
+        "options": [],
+        "question": "用 There be 句型翻译：十年前，我学校附近有一家小商店。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "比较两个人跑得快不快，用比较级 faster；than 表示“比”。",
+        "knowledge_point": "个人能力与爱好的对比表达",
+        "options": [
+          "fast",
+          "faster",
+          "fastest",
+          "more fast"
+        ],
+        "question": "Tom runs ______ than me.",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "be good at 后面可以接动词-ing，be good at drawing 表示“擅长画画”。",
+        "knowledge_point": "个人能力与爱好的对比表达",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“Amy is good at drawing.”表示“Amy擅长画画”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 31
+      },
+      {
+        "answer": "better",
+        "difficulty": 2,
+        "explanation": "good 的比较级是不规则变化 better，不能写成 gooder。",
+        "knowledge_point": "个人能力与爱好的对比表达",
+        "options": [],
+        "question": "My sister sings ______ than I do.（good）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "as tall as",
+        "difficulty": 2,
+        "explanation": "表示两个人一样高，用 as + 形容词原级 + as；tall 用原形。",
+        "knowledge_point": "个人能力与爱好的对比表达",
+        "options": [],
+        "question": "Lily is ______ ______ ______ her brother. They are both 150 cm tall.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 33
+      },
+      {
+        "answer": "than",
+        "difficulty": 1,
+        "explanation": "比较两个人的身高时，比较级 taller 后面用 than，表示“比……更高”。",
+        "knowledge_point": "个人能力与爱好的对比表达",
+        "options": [],
+        "question": "Jack is taller ______ me.",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "I am better at swimming than Ben.",
+        "difficulty": 3,
+        "explanation": "表达“我比Ben更擅长游泳”时，用 be good at 表达擅长，并将 good 变为比较级 better；than 后接比较对象 Ben。",
+        "knowledge_point": "个人能力与爱好的对比表达",
+        "options": [],
+        "question": "连词成句：am / I / swimming / better / at / than / Ben",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "the tallest",
+        "difficulty": 1,
+        "explanation": "三个人中比身高，表示“最高的”要用最高级。tall 的最高级是 tallest，前面通常加 the。",
+        "knowledge_point": "形容词最高级的初步感知与应用",
+        "options": [],
+        "question": "Lily is _____ girl in her class.（tall）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 36
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "beautiful 是较长的形容词，通常在前面加 most 构成最高级：the most beautiful。",
+        "knowledge_point": "形容词最高级的初步感知与应用",
+        "options": [
+          "A. beautifulest",
+          "B. the most beautiful",
+          "C. more beautiful"
+        ],
+        "question": "选出正确答案：This is _____ flower in the garden.",
+        "score": 2,
+        "type": "choice",
+        "id": 37
+      },
+      {
+        "answer": "the biggest",
+        "difficulty": 2,
+        "explanation": "big 是重读闭音节的短形容词，变最高级时要双写末尾辅音字母 g，再加 -est：biggest；前面加 the。",
+        "knowledge_point": "形容词最高级的初步感知与应用",
+        "options": [],
+        "question": "The blue ball is _____ of the three balls.（big）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 38
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "good 的最高级是不规则变化 best，常见表达是 the best。",
+        "knowledge_point": "形容词最高级的初步感知与应用",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“good”的最高级是“the best”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 39
+      },
+      {
+        "answer": "the fastest",
+        "difficulty": 2,
+        "explanation": "fast 是短形容词，最高级加 -est；句子中用 the fastest 表示“最快的”。",
+        "knowledge_point": "形容词最高级的初步感知与应用",
+        "options": [],
+        "question": "Mike runs _____ in his family.（fast）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "the longest",
+        "difficulty": 2,
+        "explanation": "long 以字母 e 结尾，变最高级时直接加 -st，成为 longest；前面加 the。",
+        "knowledge_point": "形容词最高级的初步感知与应用",
+        "options": [],
+        "question": "The Changjiang River is _____ river in China.（long）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "was",
+        "difficulty": 1,
+        "explanation": "yesterday 表示过去；a cat 是单数，因此用 was。",
+        "knowledge_point": "There be 句型时态",
+        "options": [],
+        "question": "There ___ a cat in the garden yesterday.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 42
+      },
+      {
+        "answer": "were",
+        "difficulty": 1,
+        "explanation": "last Sunday 表示过去；three children 是复数，因此用 were。",
+        "knowledge_point": "There be 句型时态",
+        "options": [],
+        "question": "There ___ three children in the park last Sunday.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 43
+      },
+      {
+        "answer": "There were two apples on the table last night.",
+        "difficulty": 2,
+        "explanation": "two apples 是复数，描述昨晚的情况用过去时 were。",
+        "knowledge_point": "There be 句型时态",
+        "options": [],
+        "question": "将句子改为描述昨晚的情况：There are two apples on the table.",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 44
+      },
+      {
+        "answer": "Was",
+        "difficulty": 2,
+        "explanation": "变一般疑问句时，将 was 提到句首；a library 是单数，仍用 was。",
+        "knowledge_point": "There be 句型时态",
+        "options": [],
+        "question": "___ there a library near your school ten years ago?",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 45
+      },
+      {
+        "answer": "There weren't any birds in the tree yesterday.",
+        "difficulty": 2,
+        "explanation": "birds 是复数，过去时用 were；否定句在 were 后加 not。any 常用于否定句。",
+        "knowledge_point": "There be 句型时态",
+        "options": [],
+        "question": "根据提示改写句子：There are some birds in the tree.（yesterday，否定句）",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "apples",
+        "difficulty": 1,
+        "explanation": "“three”表示三个，apple 要用复数形式 apples。",
+        "knowledge_point": "词汇变化",
+        "options": [],
+        "question": "There are three _____ on the table.（apple）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 47
+      },
+      {
+        "answer": "went",
+        "difficulty": 2,
+        "explanation": "句中 yesterday 表示过去的时间，go 的过去式是不规则变化 went。",
+        "knowledge_point": "词汇变化",
+        "options": [],
+        "question": "We _____ to the park yesterday.（go）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 48
+      },
+      {
+        "answer": "bigger",
+        "difficulty": 2,
+        "explanation": "句子在比较两只猫，big 的比较级是 bigger，需双写 g 再加 -er。",
+        "knowledge_point": "词汇变化",
+        "options": [],
+        "question": "This cat is _____ than that one.（big）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 49
+      },
+      {
+        "answer": "studies",
+        "difficulty": 2,
+        "explanation": "主语 Lily 是第三人称单数，动词用一般现在时第三人称单数形式。study 以辅音字母+y结尾，变 y 为 i 再加 -es。",
+        "knowledge_point": "词汇变化",
+        "options": [],
+        "question": "Lily _____ English every day.（study）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "children",
+        "difficulty": 2,
+        "explanation": "child 的复数是不规则变化 children，不是在词尾直接加 -s。",
+        "knowledge_point": "词汇变化",
+        "options": [],
+        "question": "The _____ are playing in the garden.（child）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 51
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "句子说她现在会游泳，因此用 can；can 后接动词原形 swim。",
+        "knowledge_point": "个人能力表达",
+        "options": [
+          "A. She can swims.",
+          "B. She can swim.",
+          "C. She could swimming."
+        ],
+        "question": "选择正确的句子：她会游泳。",
+        "score": 2,
+        "type": "choice",
+        "id": 52
+      },
+      {
+        "answer": "could",
+        "difficulty": 1,
+        "explanation": "when I was six 表示过去的时间，所以用 could 表示过去具备的能力。",
+        "knowledge_point": "个人能力表达",
+        "options": [],
+        "question": "I ______ ride a bike when I was six.（我六岁时会骑自行车。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 53
+      },
+      {
+        "answer": "No, he can’t.",
+        "difficulty": 2,
+        "explanation": "问句询问现在是否会弹钢琴，否定回答用 No, he can’t.。",
+        "knowledge_point": "个人能力表达",
+        "options": [],
+        "question": "根据情境回答：Can Tom play the piano?（Tom 不会。）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 54
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "couldn’t 表示过去不会，后面接动词原形 speak。",
+        "knowledge_point": "个人能力表达",
+        "options": [
+          "A. He couldn’t speak English last year.",
+          "B. He couldn’t spoke English last year.",
+          "C. He doesn’t could speak English last year."
+        ],
+        "question": "选择正确的句子：他去年不会说英语。",
+        "score": 2,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "can; couldn’t",
+        "difficulty": 2,
+        "explanation": "第一句说现在会，使用 can；第二句说过去不会，使用 couldn’t。两个词后面的动词都用原形。",
+        "knowledge_point": "个人能力表达",
+        "options": [],
+        "question": "用 can 或 couldn’t 填空：I ______ draw now, but I ______ draw when I was three.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 56
+      },
+      {
+        "answer": "largest",
+        "difficulty": 2,
+        "explanation": "large以不发音的e结尾，变最高级时直接加-st，写作largest。",
+        "knowledge_point": "形容词最高级",
+        "options": [
+          "large",
+          "larger",
+          "largest",
+          "the largest"
+        ],
+        "question": "The blue whale is the ______ animal in the world.",
+        "score": 5,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "happiest",
+        "difficulty": 2,
+        "explanation": "happy以辅音字母加y结尾，变最高级时把y变成i，再加-est，写作happiest。",
+        "knowledge_point": "形容词最高级",
+        "options": [],
+        "question": "Lily is the _____ girl in her family. (happy)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "best",
+        "difficulty": 3,
+        "explanation": "good的最高级是不规则变化best。句中有of the three，表示在三个人中比较，因此用最高级。",
+        "knowledge_point": "形容词最高级",
+        "options": [
+          "good",
+          "better",
+          "best",
+          "the goodest"
+        ],
+        "question": "Tom is the ______ player of the three.",
+        "score": 5,
+        "type": "choice",
+        "id": 59
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "yesterday 意为“昨天”，表示过去的时间，常提示一般过去时。",
+        "knowledge_point": "标志词识别",
+        "options": [
+          "yesterday",
+          "tomorrow",
+          "now",
+          "every day"
+        ],
+        "question": "下面哪个词通常表示过去的时间？",
+        "score": 2,
+        "type": "choice",
+        "id": 60
+      },
+      {
+        "answer": "usually",
+        "difficulty": 1,
+        "explanation": "usually 意为“通常”，表示经常发生的习惯或情况。",
+        "knowledge_point": "标志词识别",
+        "options": [],
+        "question": "I ______ get up at seven.（我通常七点起床。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 61
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "Look! 意为“看！”，常用来提示说话者正在看到某个动作发生，因此常与现在进行时连用。",
+        "knowledge_point": "标志词识别",
+        "options": [
+          "Look! The boy is running.",
+          "Look! The boy ran yesterday.",
+          "Look! The boy runs every day.",
+          "Look! The boy will run tomorrow."
+        ],
+        "question": "哪句话中的标志词最能提示动作正在发生？",
+        "score": 2,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "last Sunday",
+        "difficulty": 2,
+        "explanation": "last Sunday 意为“上周日”，表示过去的时间，常提示一般过去时。",
+        "knowledge_point": "标志词识别",
+        "options": [],
+        "question": "We visited our grandparents ______.（我们上周日拜访了爷爷奶奶。）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 63
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "every day 意为“每天”，表示经常发生或重复的动作，通常提示一般现在时，不表示过去。",
+        "knowledge_point": "标志词识别",
+        "options": [],
+        "question": "every day 通常表示每天重复发生的事情，不是过去时间标志词。",
+        "score": 2,
+        "type": "true_false",
+        "id": 64
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "flowers 是复数名词，句子描述现在的情况，所以用 are。",
+        "knowledge_point": "There be 句型搭配",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "were"
+        ],
+        "question": "There _____ some flowers in the garden now.",
+        "score": 5,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "were",
+        "difficulty": 2,
+        "explanation": "two bridges 是复数，last year 表示过去，所以用 were。",
+        "knowledge_point": "There be 句型搭配",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "were"
+        ],
+        "question": "There _____ two bridges near the village last year.",
+        "score": 5,
+        "type": "choice",
+        "id": 66
+      },
+      {
+        "answer": "is",
+        "difficulty": 2,
+        "explanation": "milk 是不可数名词，句子描述现在的情况，所以用 is。",
+        "knowledge_point": "There be 句型搭配",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "were"
+        ],
+        "question": "There _____ a little milk in the glass.",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "There were three pictures on the wall yesterday.",
+        "difficulty": 2,
+        "explanation": "three pictures 是复数，yesterday 表示过去，因此用 There were。改为一般疑问句时，将 were 提到句首。",
+        "knowledge_point": "There be 句型搭配",
+        "options": [],
+        "question": "把句子改为一般疑问句：There were three pictures on the wall yesterday.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 68
+      },
+      {
+        "answer": "was",
+        "difficulty": 2,
+        "explanation": "a big tree 是单数，five years ago 表示过去，所以用 was。",
+        "knowledge_point": "There be 句型搭配",
+        "options": [],
+        "question": "There _____ a big tree in front of the house five years ago.（填入适当的 be 动词）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 69
+      },
+      {
+        "answer": "likes",
+        "difficulty": 1,
+        "explanation": "句子描述现在的喜好，主语是第三人称单数 Amy，所以 like 要加 -s。",
+        "knowledge_point": "个人爱好对比",
+        "options": [
+          "like",
+          "likes",
+          "liked",
+          "liking"
+        ],
+        "question": "Amy _____ playing badminton now, but she didn't like it before.",
+        "score": 5,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "didn't use to",
+        "difficulty": 2,
+        "explanation": "didn't 后接动词原形。didn't use to 表示过去没有某种习惯或喜好。",
+        "knowledge_point": "个人爱好对比",
+        "options": [
+          "doesn't used to",
+          "didn't use to",
+          "didn't used to",
+          "don't use to"
+        ],
+        "question": "Tom _____ like drawing, but now he draws every day.",
+        "score": 5,
+        "type": "choice",
+        "id": 71
+      },
+      {
+        "answer": "swimming",
+        "difficulty": 1,
+        "explanation": "like 后面可以接动词-ing形式，因此填 swimming。",
+        "knowledge_point": "个人爱好对比",
+        "options": [],
+        "question": "I like _____ (swim) now, but I didn't like it before.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 72
+      },
+      {
+        "answer": "but",
+        "difficulty": 1,
+        "explanation": "前后两部分表示过去和现在的不同，用 but（但是）连接。",
+        "knowledge_point": "个人爱好对比",
+        "options": [],
+        "question": "I didn't like milk before, _____ I like it now.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 73
+      },
+      {
+        "answer": "She likes reading now, but she didn't like it before.",
+        "difficulty": 2,
+        "explanation": "She 是第三人称单数，描述现在的喜好时用 likes；描述过去的否定喜好时用 didn't like，didn't 后用动词原形。",
+        "knowledge_point": "个人爱好对比",
+        "options": [],
+        "question": "根据提示写句子：she / like reading now / but / not like it before",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 74
+      },
+      {
+        "answer": "hot",
+        "difficulty": 1,
+        "explanation": "句意是“夏天很热，但冬天很冷”。cold 和 hot 意思相反，符合 but 表示的转折关系。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "warm",
+          "hot",
+          "cool",
+          "wet"
+        ],
+        "question": "It is cold in winter, but it is ______ in summer.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "happy",
+        "difficulty": 1,
+        "explanation": "句意是“听到好消息后，莉莉很高兴”。happy 表示“高兴的”，符合语境。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "sad",
+          "happy",
+          "tired",
+          "hungry"
+        ],
+        "question": "Lily heard the good news and felt very ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "borrow",
+        "difficulty": 2,
+        "explanation": "句意是“我可以从你那里借一本书吗？”borrow 表示“向别人借入”，符合 from you 的语境；lend 表示“借出”。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "buy",
+          "borrow",
+          "lend",
+          "bring"
+        ],
+        "question": "May I ______ a book from you?",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "fast",
+        "difficulty": 2,
+        "explanation": "句意是“兔子跑得快，乌龟跑得慢”。slow 表示“慢的”，fast 表示“快的”，前后形成对比。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "fast",
+          "slow",
+          "high",
+          "long"
+        ],
+        "question": "The rabbit runs ______, but the turtle runs slowly.",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "clean",
+        "difficulty": 2,
+        "explanation": "句意是“请保持教室干净，不要把垃圾扔在地上”。clean 表示“干净的”，与不要乱扔垃圾的要求相符。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "dirty",
+          "clean",
+          "busy",
+          "strong"
+        ],
+        "question": "Please keep our classroom ______. Don't throw rubbish on the floor.",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "询问地点用 Where。一般过去时的特殊疑问句语序为疑问词 + did + 主语 + 动词原形。",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "When",
+          "Where",
+          "Who",
+          "Why"
+        ],
+        "question": "______ did you play football yesterday? — In the park.",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "When",
+        "difficulty": 1,
+        "explanation": "询问时间用 When。回答“在七点钟”说明问的是几点做某事。",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "What",
+          "When",
+          "Where",
+          "Who"
+        ],
+        "question": "______ do you get up? — At seven o'clock.",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "Why",
+        "difficulty": 2,
+        "explanation": "询问原因用 Why，常用 because 引导的句子回答。",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "Who",
+          "Why",
+          "When",
+          "Where"
+        ],
+        "question": "______ are you happy? — Because I got a present.",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "How many",
+        "difficulty": 2,
+        "explanation": "询问可数名词的数量用 How many，后接可数名词复数 apples。",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "How much",
+          "How many",
+          "How old",
+          "How often"
+        ],
+        "question": "______ apples are there in the basket?",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "Who",
+        "difficulty": 2,
+        "explanation": "句中 Who 是主语，询问“谁做了这件事”，因此直接接谓语动词，不需要再用 did。",
+        "knowledge_point": "特殊疑问句",
+        "options": [
+          "Who",
+          "What",
+          "Where",
+          "When"
+        ],
+        "question": "______ opened the window?",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "does",
+        "difficulty": 1,
+        "explanation": "主语Tom是第三人称单数，句子表示一般现在时，因此用does；does后面的动词用原形like。",
+        "knowledge_point": "助动词辨析",
+        "options": [
+          "do",
+          "does",
+          "did",
+          "is"
+        ],
+        "question": "______ Tom like apples?",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "don't",
+        "difficulty": 1,
+        "explanation": "主语I在一般现在时的否定句中使用don't，后面的动词用原形play。",
+        "knowledge_point": "助动词辨析",
+        "options": [
+          "don't",
+          "doesn't",
+          "didn't",
+          "isn't"
+        ],
+        "question": "I ______ play computer games on school nights.",
+        "score": 5,
+        "type": "choice",
+        "id": 86
+      },
+      {
+        "answer": "Did",
+        "difficulty": 2,
+        "explanation": "yesterday表示过去，疑问句用Did开头，主语后面的实义动词用原形visit。",
+        "knowledge_point": "助动词辨析",
+        "options": [
+          "Do",
+          "Does",
+          "Did",
+          "Are"
+        ],
+        "question": "______ your parents visit the museum yesterday?",
+        "score": 5,
+        "type": "choice",
+        "id": 87
+      },
+      {
+        "answer": "doesn't",
+        "difficulty": 2,
+        "explanation": "主语She是第三人称单数，一般现在时否定句用doesn't；doesn't后面接动词原形watch。",
+        "knowledge_point": "助动词辨析",
+        "options": [
+          "don't",
+          "doesn't",
+          "didn't",
+          "wasn't"
+        ],
+        "question": "She ______ watch TV before finishing her homework.",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "didn't",
+        "difficulty": 2,
+        "explanation": "last Sunday表示过去，否定句使用didn't；didn't后面的实义动词用原形go。",
+        "knowledge_point": "助动词辨析",
+        "options": [
+          "don't",
+          "doesn't",
+          "didn't",
+          "isn't"
+        ],
+        "question": "We ______ go to the park last Sunday because it rained.",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "plays",
+        "difficulty": 1,
+        "explanation": "every day表示经常发生的动作，用一般现在时；主语Tom是第三人称单数，play要加-s。",
+        "knowledge_point": "时态对比",
+        "options": [
+          "play",
+          "plays",
+          "played",
+          "playing"
+        ],
+        "question": "Tom ______ basketball every day.",
+        "score": 5,
+        "type": "choice",
+        "id": 90
+      },
+      {
+        "answer": "went",
+        "difficulty": 1,
+        "explanation": "yesterday表示过去，句子用一般过去时；go的过去式是不规则变化went。",
+        "knowledge_point": "时态对比",
+        "options": [
+          "go",
+          "goes",
+          "went",
+          "going"
+        ],
+        "question": "We ______ to the zoo yesterday.",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "were",
+        "difficulty": 2,
+        "explanation": "last Sunday表示过去；主语They是复数，be动词过去式用were。",
+        "knowledge_point": "时态对比",
+        "options": [
+          "are",
+          "was",
+          "were",
+          "is"
+        ],
+        "question": "They ______ at home last Sunday.",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "had",
+        "difficulty": 2,
+        "explanation": "last night表示过去，句子用一般过去时；have的过去式是had。",
+        "knowledge_point": "时态对比",
+        "options": [
+          "has",
+          "have",
+          "had",
+          "having"
+        ],
+        "question": "She ______ a big dinner last night.",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "doesn't",
+        "difficulty": 2,
+        "explanation": "usually表示通常发生的事情，用一般现在时；主语My brother是第三人称单数，否定句用doesn't，后面的动词保持原形like。",
+        "knowledge_point": "时态对比",
+        "options": [
+          "don't",
+          "doesn't",
+          "didn't",
+          "isn't"
+        ],
+        "question": "My brother usually ______ like carrots.",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "bigger",
+        "difficulty": 1,
+        "explanation": "句中比较两只狗，且有 than 提示，应用比较级。big 是重读闭音节短形容词，双写末尾字母 g 再加 -er，变为 bigger。",
+        "knowledge_point": "形容词等级",
+        "options": [
+          "big",
+          "bigger",
+          "biggest",
+          "more big"
+        ],
+        "question": "My dog is ______ than your dog.",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "the tallest",
+        "difficulty": 2,
+        "explanation": "三名学生进行比较，应用最高级。tall 的最高级是 tallest，最高级前加 the。",
+        "knowledge_point": "形容词等级",
+        "options": [
+          "tall",
+          "taller",
+          "the tallest",
+          "the taller"
+        ],
+        "question": "Tom is ______ of the three boys.",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "happier",
+        "difficulty": 2,
+        "explanation": "句意是“今天比昨天更开心”，是在两者之间比较，要用比较级。happy 以辅音字母加 y 结尾，变 y 为 i 再加 -er，写作 happier。",
+        "knowledge_point": "形容词等级",
+        "options": [
+          "happy",
+          "happier",
+          "happiest",
+          "more happy"
+        ],
+        "question": "Lily looks ______ today than yesterday.",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "better",
+        "difficulty": 2,
+        "explanation": "good 的比较级是不规则变化 better。句中有 than，表示两本书之间的比较。",
+        "knowledge_point": "形容词等级",
+        "options": [
+          "good",
+          "better",
+          "best",
+          "well"
+        ],
+        "question": "This book is ______ than that one.",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "as tall as",
+        "difficulty": 2,
+        "explanation": "句意是“和姐姐一样高”，使用原级比较结构 as + 形容词原形 + as，因此填 as tall as。",
+        "knowledge_point": "形容词等级",
+        "options": [
+          "as tall as",
+          "taller than",
+          "the tallest",
+          "more tall than"
+        ],
+        "question": "I am ______ my sister. We are both 150 cm tall.",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "hungry",
+        "difficulty": 2,
+        "explanation": "句子说午饭时间还没吃东西，因此感到饿（hungry）最符合语境。",
+        "knowledge_point": "语境理解",
+        "options": [
+          "hungry",
+          "sleepy",
+          "thirsty",
+          "happy"
+        ],
+        "question": "It is lunchtime, and I haven't eaten anything today. I am ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "umbrella",
+        "difficulty": 2,
+        "explanation": "天在下雨，出门时带伞可以挡雨，因此应选 umbrella。",
+        "knowledge_point": "语境理解",
+        "options": [
+          "sunglasses",
+          "umbrella",
+          "basketball",
+          "storybook"
+        ],
+        "question": "It is raining outside. Take your ______ before you leave.",
+        "score": 5,
+        "type": "choice",
+        "id": 101
+      },
+      {
+        "answer": "Because",
+        "difficulty": 3,
+        "explanation": "后半句说明了迟到的原因，所以用 Because（因为）连接原因和结果。",
+        "knowledge_point": "语境理解",
+        "options": [
+          "But",
+          "Because",
+          "Or",
+          "So"
+        ],
+        "question": "______ I missed the bus, I was late for school.",
+        "score": 5,
+        "type": "choice",
+        "id": 102
+      },
+      {
+        "answer": "cold",
+        "difficulty": 3,
+        "explanation": "后句说穿上了外套，说明当时觉得冷，因此空格填 cold。",
+        "knowledge_point": "语境理解",
+        "options": [
+          "hot",
+          "cold",
+          "hungry",
+          "busy"
+        ],
+        "question": "I put on my coat because I felt ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 103
+      },
+      {
+        "answer": "but",
+        "difficulty": 3,
+        "explanation": "句意是“我喜欢足球，但我不会踢”，前后内容形成转折，因此用 but。",
+        "knowledge_point": "语境理解",
+        "options": [
+          "and",
+          "because",
+          "but",
+          "so"
+        ],
+        "question": "I like football, ______ I can't play it well.",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "library",
+        "difficulty": 1,
+        "explanation": "在图书馆，人们可以借书或读书；library意为“图书馆”。",
+        "knowledge_point": "名词辨析",
+        "options": [
+          "library",
+          "kitchen",
+          "farm",
+          "playground"
+        ],
+        "question": "We can borrow books from the ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "teeth",
+        "difficulty": 2,
+        "explanation": "tooth意为“牙齿”，其复数形式是不规则变化teeth。many后接可数名词复数。",
+        "knowledge_point": "名词辨析",
+        "options": [
+          "tooth",
+          "teeth",
+          "tooths",
+          "toothes"
+        ],
+        "question": "Brush your ______ twice a day to keep them clean.",
+        "score": 5,
+        "type": "choice",
+        "id": 106
+      },
+      {
+        "answer": "a glass of milk",
+        "difficulty": 2,
+        "explanation": "句意是“我早餐想要一杯牛奶”。milk 是不可数名词，不能直接说 a milk、two milks 或 many milk；表示“一杯牛奶”应说 a glass of milk。",
+        "knowledge_point": "名词辨析",
+        "options": [
+          "a glass of milk",
+          "a glass of water",
+          "a glass of juice",
+          "a glass of tea"
+        ],
+        "question": "I would like ______ for breakfast.",
+        "score": 5,
+        "type": "choice",
+        "id": 107
+      },
+      {
+        "answer": "children",
+        "difficulty": 2,
+        "explanation": "child意为“孩子”，复数形式为children；句中的three表示三个，所以要用复数。",
+        "knowledge_point": "名词辨析",
+        "options": [
+          "child",
+          "childs",
+          "children",
+          "childes"
+        ],
+        "question": "There are three ______ playing in the park.",
+        "score": 5,
+        "type": "choice",
+        "id": 108
+      },
+      {
+        "answer": "clock",
+        "difficulty": 1,
+        "explanation": "clock意为“钟”，可以告诉人们时间；door意为“门”，bed意为“床”，window意为“窗户”。",
+        "knowledge_point": "名词辨析",
+        "options": [
+          "clock",
+          "door",
+          "bed",
+          "window"
+        ],
+        "question": "Look at the ______ on the wall. It tells us the time.",
+        "score": 5,
+        "type": "choice",
+        "id": 109
+      },
+      {
+        "answer": "library",
+        "difficulty": 1,
+        "explanation": "library 意为“图书馆”，是借书和读书的地方。",
+        "knowledge_point": "地点名词",
+        "options": [],
+        "question": "You can borrow books from the ____.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "hospital",
+        "difficulty": 1,
+        "explanation": "hospital 意为“医院”。人们可以去医院看医生。",
+        "knowledge_point": "地点名词",
+        "options": [],
+        "question": "If you are ill, you can see a doctor in the ____.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "park",
+        "difficulty": 1,
+        "explanation": "park 意为“公园”，人们常在公园散步或玩耍。",
+        "knowledge_point": "地点名词",
+        "options": [],
+        "question": "Children can run and play in the ____.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "cinema",
+        "difficulty": 2,
+        "explanation": "cinema 意为“电影院”。人们通常去电影院看电影。",
+        "knowledge_point": "地点名词",
+        "options": [],
+        "question": "We can watch a film at the ____.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 113
+      },
+      {
+        "answer": "school",
+        "difficulty": 1,
+        "explanation": "school 意为“学校”。学生通常在学校学习。",
+        "knowledge_point": "地点名词",
+        "options": [],
+        "question": "Students go to ____ to learn and study.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "seven o’clock 是具体时刻，具体时刻前通常用 at。",
+        "knowledge_point": "时间介词",
+        "options": [],
+        "question": "We have English class _____ eight o’clock.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "Tuesday 是星期几，星期前通常用 on。",
+        "knowledge_point": "时间介词",
+        "options": [],
+        "question": "My family visits Grandma _____ Sunday.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 116
+      },
+      {
+        "answer": "in",
+        "difficulty": 1,
+        "explanation": "August 是月份，月份前通常用 in。",
+        "knowledge_point": "时间介词",
+        "options": [],
+        "question": "School starts _____ September.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "in",
+        "difficulty": 2,
+        "explanation": "单独表示“早上”时用 in，in the morning 意为“在早上”。",
+        "knowledge_point": "时间介词",
+        "options": [],
+        "question": "I usually read a book _____ the morning.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "on",
+        "difficulty": 2,
+        "explanation": "当 morning 前有具体的星期（Monday）修饰时，通常用 on：on Monday morning。",
+        "knowledge_point": "时间介词",
+        "options": [],
+        "question": "We will have a class party _____ Friday afternoon.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "goes",
+        "difficulty": 2,
+        "explanation": "every Sunday表示经常发生的动作，用一般现在时。主语My brother是第三人称单数，所以go要加-es，变为goes。",
+        "knowledge_point": "动词时态",
+        "options": [],
+        "question": "My brother ____ to the park every Sunday. (用go的正确形式填空)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "are playing",
+        "difficulty": 2,
+        "explanation": "Look表示正在发生的动作，使用现在进行时。主语The children是复数，用are；play加-ing变为playing。",
+        "knowledge_point": "动词时态",
+        "options": [],
+        "question": "Look! The children ____ football. (用play的正确形式填空)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "visited",
+        "difficulty": 2,
+        "explanation": "last weekend表示过去的时间，使用一般过去时。visit是规则动词，过去式直接加-ed，变为visited。",
+        "knowledge_point": "动词时态",
+        "options": [],
+        "question": "We ____ our grandparents last weekend. (用visit的正确形式填空)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "will read",
+        "difficulty": 2,
+        "explanation": "tomorrow表示将来的时间，使用一般将来时will + 动词原形，因此填will read。",
+        "knowledge_point": "动词时态",
+        "options": [],
+        "question": "She ____ a storybook tomorrow. (用read的正确形式填空)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "doesn't like",
+        "difficulty": 3,
+        "explanation": "句子描述平时的喜好，用一般现在时。主语Tom是第三人称单数，否定句用doesn't；doesn't后面的实义动词要用原形like。",
+        "knowledge_point": "动词时态",
+        "options": [],
+        "question": "Tom ____ milk. He likes juice. (用like的正确形式填空)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "A-2，B-4，C-1，D-3",
+        "difficulty": 1,
+        "explanation": "apple是“苹果”，book是“书”，water是“水”，sun是“太阳”。",
+        "knowledge_point": "词汇配对",
+        "options": [
+          "apple",
+          "book",
+          "water",
+          "sun",
+          "水",
+          "太阳",
+          "苹果",
+          "书"
+        ],
+        "question": "请将下列单词与对应的中文意思连线：A. apple，B. book，C. water，D. sun；1. 苹果，2. 水，3. 书，4. 太阳。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "A-3，B-1，C-4，D-2",
+        "difficulty": 1,
+        "explanation": "school是“学校”，teacher是“老师”，friend是“朋友”，family是“家庭”。",
+        "knowledge_point": "词汇配对",
+        "options": [
+          "school",
+          "teacher",
+          "friend",
+          "family",
+          "老师",
+          "家庭",
+          "学校",
+          "朋友"
+        ],
+        "question": "请将下列单词与对应的中文意思连线：A. school，B. teacher，C. friend，D. family；1. 老师，2. 朋友，3. 学校，4. 家庭。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "A-4，B-2，C-1，D-3",
+        "difficulty": 2,
+        "explanation": "Monday是“星期一”，summer是“夏天”，winter是“冬天”，today是“今天”。",
+        "knowledge_point": "词汇配对",
+        "options": [
+          "Monday",
+          "summer",
+          "winter",
+          "today",
+          "冬天",
+          "今天",
+          "夏天",
+          "星期一"
+        ],
+        "question": "请将下列单词与对应的中文意思连线：A. Monday，B. summer，C. winter，D. today；1. 星期一，2. 夏天，3. 今天，4. 冬天。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "A-2，B-4，C-3，D-1",
+        "difficulty": 2,
+        "explanation": "beautiful是“美丽的”，happy是“快乐的”，hungry是“饥饿的”，tired是“疲倦的”。",
+        "knowledge_point": "词汇配对",
+        "options": [
+          "beautiful",
+          "happy",
+          "hungry",
+          "tired",
+          "快乐的",
+          "疲倦的",
+          "饥饿的",
+          "美丽的"
+        ],
+        "question": "请将下列单词与对应的中文意思连线：A. beautiful，B. happy，C. hungry，D. tired；1. 美丽的，2. 快乐的，3. 饥饿的，4. 疲倦的。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "A-3，B-1，C-4，D-2",
+        "difficulty": 2,
+        "explanation": "library是“图书馆”，hospital是“医院”，market是“市场”，station是“车站”。",
+        "knowledge_point": "词汇配对",
+        "options": [
+          "library",
+          "hospital",
+          "market",
+          "station",
+          "医院",
+          "车站",
+          "图书馆",
+          "市场"
+        ],
+        "question": "请将下列单词与对应的中文意思连线：A. library，B. hospital，C. market，D. station；1. 医院，2. 市场，3. 图书馆，4. 车站。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "去骑行",
+        "difficulty": 1,
+        "explanation": "go cycling 表示去骑自行车，也可译为“骑行”。",
+        "knowledge_point": "动作短语配对",
+        "options": [],
+        "question": "go cycling 的意思是________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "讲故事",
+        "difficulty": 1,
+        "explanation": "tell a story 是“讲故事”的意思。",
+        "knowledge_point": "动作短语配对",
+        "options": [],
+        "question": "tell a story 的意思是________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 131
+      },
+      {
+        "answer": "ice-skate",
+        "difficulty": 1,
+        "explanation": "“滑冰”对应的英文短语是 ice-skate。",
+        "knowledge_point": "动作短语配对",
+        "options": [],
+        "question": "“滑冰”用英语可以说________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 132
+      },
+      {
+        "answer": "look up",
+        "difficulty": 2,
+        "explanation": "look up 可表示在书籍或其他资料中“查阅、查找”信息。",
+        "knowledge_point": "动作短语配对",
+        "options": [],
+        "question": "“查阅、查找”对应的英文短语是________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 133
+      },
+      {
+        "answer": "tell a story",
+        "difficulty": 2,
+        "explanation": "讲述一个故事可以说 tell a story。",
+        "knowledge_point": "动作短语配对",
+        "options": [],
+        "question": "请用英语写出“讲故事”：________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 134
+      },
+      {
+        "answer": "There were",
+        "difficulty": 1,
+        "explanation": "many books 是复数，描述过去存在时用 There were。",
+        "knowledge_point": "时态对比句型",
+        "options": [],
+        "question": "填空：There ___ many books in the old classroom before.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 135
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "now 表示现在；a park 是单数，因此用 is。",
+        "knowledge_point": "时态对比句型",
+        "options": [],
+        "question": "填空：There was a small shop here before, but now there ___ a park.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 136
+      },
+      {
+        "answer": "went",
+        "difficulty": 2,
+        "explanation": "yesterday 表示过去，go 的过去式是 went。",
+        "knowledge_point": "时态对比句型",
+        "options": [],
+        "question": "填空：I usually walk to school, but yesterday I ___ by bus.（go）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 137
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "last year 表示过去，描述那时的状态用 was；now 表示现在，主语 I 对应 am。",
+        "knowledge_point": "时态对比句型",
+        "options": [
+          "A. I was ten last year, but now I am eleven.",
+          "B. I am ten last year, but now I was eleven.",
+          "C. I were ten last year, but now I is eleven."
+        ],
+        "question": "选择正确的句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 138
+      },
+      {
+        "answer": "They played football yesterday, but they are playing basketball now.",
+        "difficulty": 3,
+        "explanation": "yesterday 表示过去，play 用过去式 played；now 表示正在进行的现在，使用 are playing。",
+        "knowledge_point": "时态对比句型",
+        "options": [],
+        "question": "用括号中动词的正确形式完成句子：They ___ (play) football yesterday, but they ___ (play) basketball now.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 139
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "主语 She 是第三人称单数，描述她现在的状态时用 is。",
+        "knowledge_point": "现在时表状态",
+        "options": [],
+        "question": "填空：She ___ happy today.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 140
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "主语 The children 是复数，be 动词用 are。",
+        "knowledge_point": "现在时表状态",
+        "options": [],
+        "question": "填空：The children ___ quiet now.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 141
+      },
+      {
+        "answer": "He is tired.",
+        "difficulty": 2,
+        "explanation": "主语 He 后用 is，tired 表示现在的状态。句子采用“主语 + be 动词 + 形容词”的结构。",
+        "knowledge_point": "现在时表状态",
+        "options": [
+          "He",
+          "tired",
+          "is"
+        ],
+        "question": "连词成句：(He, tired, is)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 142
+      },
+      {
+        "answer": "are",
+        "difficulty": 2,
+        "explanation": "主语 You 后用 are。表示“你现在准备好了”应说 You are ready now.",
+        "knowledge_point": "现在时表状态",
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "question": "选择正确的词填空：You ___ ready now.",
+        "score": 5,
+        "type": "choice",
+        "id": 143
+      },
+      {
+        "answer": "is",
+        "difficulty": 2,
+        "explanation": "主语 My dog 是单数名词，相当于 it，因此用 is。形容词 hungry 描述小狗现在的状态。",
+        "knowledge_point": "现在时表状态",
+        "options": [],
+        "question": "填空：My dog ___ hungry.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 144
       }
     ]
   },
@@ -710,6 +2354,274 @@
         "现在时中第三人称单数漏掉s/es"
       ],
       "tips": "描述过去时别忘了动词要变身，描述现在时注意主谓一致。"
+    },
+    {
+      "common_mistakes": [
+        "There be 句型中 be 动词要与后面的名词及其数量相一致：单数或不可数名词用 is，复数名词用 are。",
+        "一般过去时要把 is/are 改为 was/were，不能仍用 is/are。",
+        "There be 句型的一般疑问句要把 be 动词提到 there 前面。"
+      ],
+      "core_concept": "There be 句型表示“某处有某人或某物”。它的时态通过 be 动词体现：一般现在时用 there is/are；一般过去时用 there was/were。be 动词通常与紧跟其后的名词保持单复数一致。",
+      "key_formula": "一般现在时：There is + 单数名词/不可数名词 + 地点；There are + 复数名词 + 地点。一般过去时：There was + 单数名词/不可数名词 + 地点；There were + 复数名词 + 地点。否定句：在 be 动词后加 not。一般疑问句：Is/Are/Was/Were + there + 名词 + 地点？",
+      "point": "There be 句型的时态对比",
+      "tips": "先看句子描述的是现在还是过去，再看 be 动词后面名词的单复数：现在用 is/are，过去用 was/were；单数或不可数名词配 is/was，复数名词配 are/were。常见时间提示有 now、today（现在），yesterday、last week、two days ago（过去）。"
+    },
+    {
+      "common_mistakes": [
+        "比较两个人的能力时，比较级前要加 than，如 taller than。",
+        "形容词比较级不要和 more 重复使用，如不能说 more taller。",
+        "描述某人擅长做某事时，用 be good at + 名词或动词-ing形式。",
+        "表示“和……一样……”时，用 as + 形容词原级 + as。"
+      ],
+      "core_concept": "本课学习比较个人能力与爱好的常用表达。可以用比较级比较两人的能力或特点，用 as...as 表示两人相同，也可以用 be good at 描述擅长的活动或兴趣。",
+      "key_formula": "比较级：A + be动词 + 形容词比较级 + than + B；相同：A + be动词 + as + 形容词原级 + as + B；擅长：主语 + be动词 + good at + 名词/动词-ing。",
+      "point": "个人能力与爱好的对比表达",
+      "tips": "常见比较级形式：tall → taller，fast → faster，good → better，interesting → more interesting。注意根据主语选择 am、is 或 are；比较两个人时，than 后的人称代词通常用宾格，如 than me、than him。"
+    },
+    {
+      "common_mistakes": [
+        "把最高级和比较级混淆：最高级通常用于三者或三者以上之间的比较。",
+        "忘记在最高级前加 the。",
+        "短词最高级词尾漏写 -est，或长词前漏写 most。",
+        "不规则变化记错，例如 good 的最高级是 best。"
+      ],
+      "core_concept": "形容词最高级用于表示三者或三者以上的人或事物中“最……”。常见形式是在形容词后加 -est，或在形容词前加 most；句中常在最高级前加 the。",
+      "key_formula": "A + be + the + 形容词最高级 + 范围（如 in the class / of the three）。短词常用 -est；较长的形容词常用 most；good → best。",
+      "point": "形容词最高级的初步感知与应用",
+      "tips": "可先观察比较范围：若是在三者或三者以上中选出最突出的对象，通常使用最高级。比如 tall → tallest，beautiful → most beautiful。"
+    },
+    {
+      "common_mistakes": [
+        "There be 句型中，be 动词要和后面的名词保持单复数一致。",
+        "描述过去的存在时，单数或不可数名词前用 was，复数名词前用 were；不要只看句子的主语 There。",
+        "疑问句把 was 或 were 放在句首；否定句在 was 或 were 后加 not。"
+      ],
+      "core_concept": "There be 句型用来表示某处存在某人或某物。be 动词的时态由事情发生的时间决定，数的形式通常由 be 后面最近的名词决定。一般现在时中，单数或不可数名词用 is，复数名词用 are；一般过去时中，单数或不可数名词用 was，复数名词用 were。疑问句将 be 动词提前，否定句在 be 动词后加 not。",
+      "key_formula": "一般过去时：There was + 单数名词/不可数名词 + 地点；There were + 复数名词 + 地点。疑问句：Was/Were there ...? 否定句：There was not (wasn't)/were not (weren't) ...。",
+      "point": "There be 句型时态",
+      "tips": "先找表示时间的词，如 yesterday、last week、two days ago，判断是否描述过去；再看 be 后面的名词是单数、不可数还是复数，选择 is/are 或 was/were。"
+    },
+    {
+      "common_mistakes": [
+        "把拼写相近的单词混淆，如 grass（草）和 glass（玻璃）。",
+        "只记单词原形，忽略名词复数、动词过去式和形容词比较级等变化。",
+        "变形时漏写或多写字母，例如把 study 的过去式写成 studyed。"
+      ],
+      "core_concept": "词汇变化是指单词根据语法和表达需要改变形式。常见变化有名词单复数、动词时态、形容词比较级和最高级等。学习时要注意变化规则，也要记住不规则变化和容易混淆的拼写。",
+      "key_formula": "名词复数：一般加 -s；以 s、x、ch、sh 结尾通常加 -es；辅音字母+y结尾，变 y 为 i 再加 -es。动词过去式：一般加 -ed；以辅音字母+y结尾，变 y 为 i 再加 -ed；部分动词变化不规则，需单独记忆。",
+      "point": "词汇变化",
+      "tips": "先看句子中的时间词和数量词，再判断单词需要什么形式；遇到不规则变化或拼写相近的词，结合例句记忆。"
+    },
+    {
+      "common_mistakes": [
+        "把 can 和 could 混用：can 通常表示现在的能力，could 常表示过去的能力。",
+        "在 can 或 could 后面给动词加 -s 或 -ed。情态动词后要用动词原形。",
+        "把否定句写成 can not 或 could not 时，误把后面的动词变形。"
+      ],
+      "core_concept": "本课学习用 can 和 could 表达个人能力。can 表示现在会做某事，could 表示过去会做某事；can’t（cannot）和 couldn’t（could not）分别表示现在或过去不会做某事。",
+      "key_formula": "肯定句：主语 + can/could + 动词原形。否定句：主语 + can’t/couldn’t + 动词原形。一般疑问句：Can/Could + 主语 + 动词原形？",
+      "point": "个人能力表达",
+      "tips": "can 和 could 后面的动词都用原形。一般疑问句把 can 或 could 放在句首，肯定回答可用 Yes, 主语 can/could.，否定回答可用 No, 主语 can’t/couldn’t.。"
+    },
+    {
+      "common_mistakes": [
+        "最高级前通常要加the，但形容词性物主代词等限定词已出现时，不再加the。",
+        "以不发音的e结尾的形容词，通常直接加st，如largest。",
+        "重读闭音节结尾且末尾只有一个辅音字母的形容词，通常双写该辅音字母再加est，如big—biggest。",
+        "以辅音字母加y结尾的形容词，通常变y为i再加est，如happy—happiest。"
+      ],
+      "core_concept": "形容词最高级用于三者或三者以上的人或事物之间进行比较，表示“最……”。",
+      "key_formula": "主语 + be动词 + the + 形容词最高级 + 比较范围。",
+      "point": "形容词最高级",
+      "tips": "常见标志有in、of以及“one of the”等。短形容词通常加-est；较长的形容词通常在前面加most，如the most beautiful。部分形容词有不规则变化，如good—best，bad—worst。"
+    },
+    {
+      "common_mistakes": [
+        "看到时间词就直接判断时态，忽略它在句子中的具体意思。",
+        "把 ago（以前）和 now（现在）混淆。",
+        "认为 every day 和 yesterday 一样，都表示过去时间。"
+      ],
+      "core_concept": "标志词是句子中提示时间、频率或动作状态的词语。识别标志词可以帮助判断句子常用的时态，但还要结合句意和动词形式。",
+      "key_formula": "常见标志词：yesterday、last...、...ago → 常提示过去；now、Look!、Listen! → 常提示正在发生；every day、usually、often、always → 常提示经常发生的动作。",
+      "point": "标志词识别",
+      "tips": "先圈出标志词，再理解它表示过去、现在正在发生，还是经常发生。例如：two days ago（两天前）提示过去；now（现在）可能提示正在发生；usually（通常）提示习惯。"
+    },
+    {
+      "common_mistakes": [
+        "There be 句型中，be 动词要与后面的名词在数上保持一致，不与 There 保持一致。",
+        "看到 yesterday、last year、ago 等表示过去的时间词，要用 was 或 were。",
+        "有多个名词时，通常根据紧跟 be 动词的名词确定 be 动词的形式。"
+      ],
+      "core_concept": "There be 句型表示“某处有某人或某物”。be 动词根据后面紧跟的名词以及句子的时态变化：一般现在时中，单数名词或不可数名词用 is，复数名词用 are；一般过去时中，单数名词或不可数名词用 was，复数名词用 were。",
+      "key_formula": "一般现在时：There is + 单数名词/不可数名词；There are + 复数名词。一般过去时：There was + 单数名词/不可数名词；There were + 复数名词。",
+      "point": "There be 句型搭配",
+      "tips": "先找出 There be 后面紧跟的名词，判断它是单数、复数还是不可数；再看句中的时间词，判断用现在时还是过去时。例如：There is a book. There are two books. There was some milk yesterday. There were many students last week."
+    },
+    {
+      "common_mistakes": [
+        "didn't 后面要接动词原形，不能接过去式或第三人称单数形式。",
+        "比较过去和现在的爱好时，要注意句子中的时间词，如 before、now。",
+        "like 后接名词或动词-ing形式，如 like music、like swimming。"
+      ],
+      "core_concept": "谈论个人爱好变化时，可以用过去时描述以前的喜好，用一般现在时描述现在的喜好。例如：I didn't like eggs before, but I like them now.（我以前不喜欢鸡蛋，但现在喜欢了。）",
+      "key_formula": "过去：主语 + didn't + 动词原形；现在：主语 + like/likes + 名词或动词-ing形式。对比时常用 before、now 和 but。",
+      "point": "个人爱好对比",
+      "tips": "先看句子是在说过去还是现在，再选择合适的动词形式。didn't 后始终用动词原形；主语是 he、she 或单数人名时，现在时的 like 通常加 -s。"
+    },
+    {
+      "common_mistakes": [
+        "只看单个单词，不结合句意判断词义。",
+        "忽略 but、and 等连接词透露的逻辑关系。",
+        "把意思相近的词当作完全相同的词，忽略使用场景。"
+      ],
+      "core_concept": "词义辨析是根据句子语境、搭配和逻辑关系，选择最符合句意的词。遇到 but 等表示转折的词时，注意前后意思可能相反；遇到表示并列或补充的内容时，注意前后意思可能相近。",
+      "key_formula": "结合语境 + 判断逻辑关系 + 比较词义与搭配 = 选出合适的词",
+      "point": "词义辨析",
+      "tips": "可先圈出 but、because、and 等关键词，再把每个选项代入句子读一遍。"
+    },
+    {
+      "common_mistakes": [
+        "特殊疑问词后通常要用一般疑问句语序，但如果疑问词本身作主语，则用陈述句语序。",
+        "How many 后接可数名词复数，How much 后接不可数名词，也可询问价格或程度。",
+        "回答特殊疑问句时，通常根据疑问词提供具体信息，而不是只回答 yes 或 no。"
+      ],
+      "core_concept": "特殊疑问句是用疑问词询问具体信息的句子，常见疑问词有 what（什么）、who（谁）、whose（谁的）、which（哪一个）、when（什么时候）、where（在哪里）、why（为什么）、how（怎样）。",
+      "key_formula": "疑问词 + be动词/助动词/情态动词 + 主语 + 其他？若疑问词作主语，则用“疑问词 + 谓语 + 其他？”",
+      "point": "特殊疑问句",
+      "tips": "先根据要询问的信息选择合适的疑问词，再检查语序。询问年龄用 How old，频率用 How often，数量用 How many/How much，原因用 Why，地点用 Where，时间用 When。"
+    },
+    {
+      "common_mistakes": [
+        "一般现在时中，主语是第三人称单数时用does，其他主语通常用do。",
+        "did用于一般过去时，后面的实义动词要用原形，不能用过去式或过去分词。",
+        "be动词通常不需要do、does或did来构成疑问句或否定句。"
+      ],
+      "core_concept": "助动词do、does和did可以帮助实义动词构成一般疑问句和否定句。选择哪一个，主要看句子的时态和主语。",
+      "key_formula": "一般现在时：Do/Does + 主语 + 动词原形？；否定句：主语 + don't/doesn't + 动词原形。一般过去时：Did + 主语 + 动词原形？；否定句：主语 + didn't + 动词原形。",
+      "point": "助动词辨析",
+      "tips": "先看时间：表示过去时常用did；再看主语：一般现在时中，第三人称单数用does，其他常用do。若句中已有be动词，如am、is、are、was、were，通常直接用be动词构成疑问句或否定句。"
+    },
+    {
+      "common_mistakes": [
+        "不要只看主语判断时态，还要留意句中的时间词和语境。",
+        "一般现在时中，主语是第三人称单数时，动词通常加-s或-es；be动词用is。",
+        "一般过去时中，be动词要根据主语用was或were；普通动词通常用过去式。"
+      ],
+      "core_concept": "时态表示动作或状态发生的时间。小学阶段常见的一般现在时表示经常发生的动作或现在的状态；一般过去时表示过去发生的动作或过去的状态。判断时态时，要结合时间词、句意和主语选择合适的动词形式。",
+      "key_formula": "一般现在时：I/you/we/they + 动词原形；he/she/it + 动词-s或-es；be动词：am/is/are。一般过去时：主语 + 动词过去式；be动词：I/he/she/it + was，you/we/they + were。",
+      "point": "时态对比",
+      "tips": "可以先圈出时间词：看到yesterday、last night、two days ago等，通常考虑一般过去时；看到every day、often、usually等，通常考虑一般现在时。注意不规则过去式，如go—went、have—had；be动词也要与主语搭配。"
+    },
+    {
+      "common_mistakes": [
+        "比较两者时误用最高级；比较三者或以上时误用比较级。",
+        "在比较级前漏掉 than，或在最高级前漏掉 the。",
+        "把以 -y 结尾的形容词直接加 -er、-est，例如 happy 应变为 happier、happiest。",
+        "在短形容词后重复使用 more 或 most，例如 more taller。"
+      ],
+      "core_concept": "形容词有原级、比较级和最高级三种形式。原级用于描述某人或某物的特征；比较级常用于两者之间的比较；最高级常用于三者或三者以上的比较。",
+      "key_formula": "比较级：A + be + 形容词比较级 + than + B。最高级：A + be + the + 形容词最高级 + 范围。常见变化：短形容词通常加 -er、-est；以 e 结尾加 -r、-st；辅音字母加 y 结尾，变 y 为 i 再加 -er、-est；部分短形容词双写末尾辅音再加 -er、-est；较长的形容词通常在前面加 more、most。不规则变化：good/well—better—best，bad—worse—worst，many/much—more—most。",
+      "point": "形容词等级",
+      "tips": "先判断句意是在说“一样”“两者比较”还是“范围中最……”，再选择原级、比较级或最高级。遇到 than 常考虑比较级；遇到 in our class、of the three 等范围提示时常考虑最高级。"
+    },
+    {
+      "common_mistakes": [
+        "只看空格附近的单词，忽略整句话提供的线索。",
+        "没有注意表示时间、转折、因果或对比关系的词。",
+        "选出语法上说得通、但不符合语境的答案。"
+      ],
+      "core_concept": "语境理解是结合句子前后信息、人物和场景，以及时间、因果、转折、对比等关系，推断词语或句子的恰当含义。",
+      "key_formula": "理解上下文线索 → 判断句意关系 → 选择符合语境的表达",
+      "point": "语境理解",
+      "tips": "先圈出时间词、连接词和描述状态的词；遇到不熟悉的词时，利用上下文推断；选好答案后通读一遍，确认句意连贯。"
+    },
+    {
+      "common_mistakes": [
+        "把名词和形容词、动词混淆。",
+        "只看单词意思，不结合句子语境判断。",
+        "忘记可数名词复数形式或不可数名词的用法。"
+      ],
+      "core_concept": "名词是表示人、事物、地点或抽象概念的词。做名词辨析题时，要先读懂句意，再根据语境判断所需名词的意思，并留意名词的单复数和可数性。",
+      "key_formula": "读句意 → 判断所指的人、事物或地点 → 选择意思和形式都合适的名词",
+      "point": "名词辨析",
+      "tips": "可以先用中文概括句子的关键信息，再比较选项。遇到many、数词等词时，注意后面通常接可数名词复数；遇到表示地点或用途的语境时，选择与场景相符的名词。"
+    },
+    {
+      "common_mistakes": [
+        "把表示地点的名词和表示人物、物品的名词混淆。",
+        "拼写地点名词时漏写或写错字母。",
+        "句子中地点名词前的介词使用不当，如把 in 和 at 混淆。"
+      ],
+      "core_concept": "地点名词表示人或事物所在的地方，例如 school（学校）、library（图书馆）、park（公园）、hospital（医院）和 gym（体育馆）。学习时要结合场景记忆，并注意它们在句子中的拼写和介词搭配。",
+      "key_formula": "地点名词常用表达：in/at + 地点名词；go to + 地点名词。具体介词要根据句意和常见搭配判断。",
+      "point": "地点名词",
+      "tips": "把地点名词和常做的活动联系起来记忆：read books—library，see a doctor—hospital，watch a film—cinema，play basketball—gym。注意句中常见搭配：in the classroom，at school，go to the park。说一个通常意义上的场所时，地点名词前常需要 the 或其他限定词。"
+    },
+    {
+      "common_mistakes": [
+        "把 ago 和 for 混淆：ago 表示“……以前”，通常用于一般过去时；for 表示一段时间，常与持续性动作连用。",
+        "把 at、on、in 混用：at 常用于具体时刻，on 常用于具体某一天，in 常用于较长的时间段。",
+        "表示“某一天的早上、下午、晚上”时，常用 on，如 on Monday morning；单独说早上、下午、晚上则常用 in。"
+      ],
+      "core_concept": "时间介词用来说明动作发生的时间。常见用法：at 用于具体时刻，如 at seven o’clock；on 用于星期、日期或具体某一天，如 on Monday、on May 1st；in 用于月份、季节、年份及一天中的早上、下午、晚上，如 in July、in 2025、in the morning。ago 放在表示时间长度的词语之后，表示“……以前”，常与一般过去时连用，如 two days ago。",
+      "key_formula": "at + 具体时刻；on + 星期/日期/具体某一天；in + 月份/季节/年份/一天中的早上、下午或晚上；时间段 + ago = ……以前。",
+      "point": "时间介词",
+      "tips": "做题时先圈出时间词：看到钟点考虑 at，看到星期或具体日期考虑 on，看到月份、季节、年份或单独的早上/下午/晚上考虑 in；看到“几天/几年以前”则考虑 ago。注意 on Monday morning 与 in the morning 的区别。"
+    },
+    {
+      "common_mistakes": [
+        "不要只看主语决定动词形式，还要看句子中的时间提示词。",
+        "一般现在时中，主语是 he、she、it 或单数名词时，实义动词通常要加 -s 或 -es。",
+        "一般过去时中，be动词要根据主语选 was 或 were；实义动词通常使用过去式。",
+        "一般将来时常用 will + 动词原形，will 后不要再加 -s，也不要把动词改成过去式。"
+      ],
+      "core_concept": "动词时态表示动作发生的时间。小学阶段常见的时态有一般现在时、现在进行时、一般过去时和一般将来时。判断时态时，可以先找时间提示词，再看主语，最后选择正确的动词形式。",
+      "key_formula": "一般现在时：主语 + 动词原形（第三人称单数加-s/-es）；现在进行时：主语 + am/is/are + 动词-ing；一般过去时：主语 + 动词过去式（be动词用was/were）；一般将来时：主语 + will + 动词原形。",
+      "point": "动词时态",
+      "tips": "常见提示词：every day、usually常用于一般现在时；now、look、listen常用于现在进行时；yesterday、last week、ago常用于一般过去时；tomorrow、next week常用于一般将来时。遇到提示词后，还要核对主语和动词形式是否匹配。"
+    },
+    {
+      "common_mistakes": [
+        "把相近或熟悉的拼写误认为意思相同。",
+        "连线时只看选项顺序，没有核对每个单词的中文意思。"
+      ],
+      "core_concept": "词汇配对是将英语单词与正确的中文意思对应起来。可以先读准单词，再回忆词义，最后逐项检查配对是否正确。",
+      "key_formula": "先认读单词 → 回忆词义 → 配对 → 检查",
+      "point": "词汇配对",
+      "tips": "先配自己最熟悉的词，再处理不确定的词；完成后从英文到中文、再从中文到英文各检查一遍。"
+    },
+    {
+      "common_mistakes": [
+        "把 look up 误解为“看起来”；作为短语动词时，它常表示“查阅、查找”。",
+        "混淆 go cycling（去骑行）和 ice-skate（滑冰）。",
+        "tell a story 表示“讲故事”，不能按单个单词逐字翻译。"
+      ],
+      "core_concept": "动作短语由动词或动词短语表达一个动作。学习时可以把英文短语与中文意思配对，并结合情境记忆。",
+      "key_formula": "英文动作短语 ↔ 对应的中文动作或活动",
+      "point": "动作短语配对",
+      "tips": "把短语和动作画面联系起来记忆：在书中查找信息是 look up；给别人讲故事是 tell a story；骑自行车是 go cycling；穿冰鞋在冰面上滑行是 ice-skate。"
+    },
+    {
+      "common_mistakes": [
+        "一般过去时常与表示过去的时间词连用，如 yesterday、last week、two years ago。",
+        "There was 后接单数名词或不可数名词；There were 后接复数名词。",
+        "对比过去和现在时，要根据时间和句意选择正确时态，不要只看句型。"
+      ],
+      "core_concept": "时态对比句型用来描述过去与现在的情况。过去发生或存在的事情通常用一般过去时；现在的情况通常用一般现在时。常见对比表达包括“过去……，现在……”以及 There was/were ... but now there is/are ...。",
+      "key_formula": "过去：主语 + was/were 或动词过去式；现在：主语 + am/is/are 或动词原形（主语为第三人称单数时加 -s/-es）。对比句常用 but、now 连接。",
+      "point": "时态对比句型",
+      "tips": "先找出表示过去或现在的时间词，再判断句子描述的是过去还是现在；之后检查主语是单数还是复数，选择 was/were、is/are 或相应的动词形式。"
+    },
+    {
+      "common_mistakes": [
+        "不要在主语和形容词之间漏掉 be 动词。",
+        "主语是 he、she、it 或单数名词时用 is；主语是 you 或复数名词时用 are。",
+        "描述此刻的状态时，通常用“主语 + am/is/are + 形容词”等结构。"
+      ],
+      "core_concept": "一般现在时可以用来描述现在的状态。常见结构是“主语 + am/is/are + 表示状态的词或短语”，例如：I am happy.（我很开心。）",
+      "key_formula": "主语 + am/is/are + 表示状态的形容词或短语。I 用 am；he/she/it 和单数名词用 is；you 和复数名词用 are。",
+      "point": "现在时表状态",
+      "tips": "先找主语，再选择合适的 be 动词：I am；he/she/it is；you/we/they are。例：She is tired.（她累了。）The boys are quiet.（男孩们很安静。）"
     }
   ]
 }

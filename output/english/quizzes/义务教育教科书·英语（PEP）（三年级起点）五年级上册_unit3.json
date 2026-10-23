@@ -4,331 +4,321 @@
   "unit_number": 3,
   "unit_test": {
     "title": "Unit 3 What would you like? Standard Test",
-    "total_score": 100,
+    "total_score": 451,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "饮食名词词汇",
-        "question": "单词 'sandwich' 的复数形式是 'sandwiches'。",
-        "options": [],
         "answer": "对",
-        "explanation": "以ch结尾的名词复数需加es。"
+        "difficulty": 1,
+        "explanation": "sandwich以ch结尾，变为复数时加-es，所以复数形式是sandwiches。",
+        "knowledge_point": "饮食名词词汇",
+        "options": [],
+        "question": "单词“sandwich”的复数形式是“sandwiches”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "sweet 意为“甜的”，咸的通常说 salty。",
         "knowledge_point": "味道形容词",
-        "question": "单词 'sweet' 的意思是 '咸的'。",
         "options": [],
-        "answer": "错",
-        "explanation": "sweet意为甜的，salt/salty意为咸的。"
+        "question": "单词“sweet”的意思是“咸的”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "eat 是“吃”，drink 是“喝”。What would you like to eat? 是询问对方想吃什么。",
         "knowledge_point": "饮食意愿表达",
+        "options": [],
         "question": "What would you like to eat? 是询问别人想喝什么。",
-        "options": [],
-        "answer": "错",
-        "explanation": "eat是吃，喝是drink。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "favourite 意为“最喜欢的”，所以这句话表示“我最喜欢的食物是洋葱”。",
         "knowledge_point": "饮食偏好表达",
+        "options": [],
         "question": "My favourite food is onions. 这句话表达的是我最喜欢的食物是洋葱。",
-        "options": [],
-        "answer": "对",
-        "explanation": "favourite意为最喜欢的。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "语音规律",
-        "question": "单词 'cow' 和 'now' 中 'ow' 的发音相同。",
-        "options": [],
-        "answer": "对",
-        "explanation": "两者都发 /aʊ/。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "cow 和 now 中的 ow 都发 /aʊ/，所以这句话正确。",
+        "knowledge_point": "语音规律",
+        "options": [],
+        "question": "单词 'cow' 和 'now' 中 'ow' 的发音相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "salad",
+        "difficulty": 1,
+        "explanation": "Salad意为“沙拉”，句中用some表示一些沙拉；其他选项与句意搭配不如salad合适。",
         "knowledge_point": "饮食名词词汇",
-        "question": "I'd like some _____. They are healthy.",
         "options": [
           "salad",
           "hamburgers",
           "ice cream",
           "coke"
         ],
-        "answer": "salad",
-        "explanation": "salad（沙拉）通常被认为是healthy（健康的）食物。"
+        "question": "I'd like some _____. They are healthy.",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "hot",
         "difficulty": 1,
+        "explanation": "hot 可以表示“热的”。结合“I don't like it”可理解为茶太烫了。",
         "knowledge_point": "味道形容词",
-        "question": "This tea is _____. I don't like it.",
         "options": [
           "hot",
           "fresh",
           "delicious",
           "healthy"
         ],
-        "answer": "hot",
-        "explanation": "tea通常与hot搭配，且在负面语境下可能指太烫了。"
+        "question": "This tea is _____. I don't like it.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "would",
         "difficulty": 2,
+        "explanation": "询问“你想喝什么？”常用句型 What would you like to drink?",
         "knowledge_point": "语法：would like",
-        "question": "What _____ you like to drink?",
         "options": [
           "do",
           "are",
           "would",
           "is"
         ],
-        "answer": "would",
-        "explanation": "固定搭配What would you like...?"
+        "question": "What _____ you like to drink?",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "potatoes",
         "difficulty": 2,
+        "explanation": "potato 的复数形式是 potatoes，词尾加 es。some 后面可以接可数名词复数。",
         "knowledge_point": "名词复数",
-        "question": "I often eat some _____ for lunch.",
         "options": [
           "potatos",
           "potato",
           "potatoes",
           "a potato"
         ],
-        "answer": "potatoes",
-        "explanation": "potato的复数通过加es构造。"
+        "question": "I often eat some _____ for lunch.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "Milk",
         "difficulty": 1,
+        "explanation": "问题询问最喜欢的饮料，Milk（牛奶）是饮料；其他选项都是食物。",
         "knowledge_point": "饮食偏好表达",
-        "question": "—What's your favourite drink? —_____.",
         "options": [
           "Milk",
           "Bread",
           "Cakes",
           "Apples"
         ],
-        "answer": "Milk",
-        "explanation": "问题问的是drink（饮料），选项中只有milk符合。"
+        "question": "—What's your favourite drink? —_____.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "sweet",
         "difficulty": 1,
+        "explanation": "冰淇淋常见的味道是甜的，sweet 意为“甜的”。",
         "knowledge_point": "形容词词义",
-        "question": "Ice cream is very _____. Children like it.",
         "options": [
           "hot",
           "sweet",
           "salty",
           "fresh"
         ],
-        "answer": "sweet",
-        "explanation": "冰淇淋的显著特点是甜（sweet）。"
+        "question": "Ice cream is very _____. Children like it.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "water",
         "difficulty": 3,
+        "explanation": "water 表示水，是不可数名词；some 可修饰不可数名词，因此用 water，不加 -s，也不加 a。",
         "knowledge_point": "特定名词形式",
-        "question": "He would like some _____ to drink.",
         "options": [
           "water",
           "waters",
           "a water",
           "some waters"
         ],
-        "answer": "water",
-        "explanation": "water是不可数名词。且题干已有some。"
+        "question": "He would like some _____ to drink.",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "my",
         "difficulty": 2,
+        "explanation": "这里需要形容词性物主代词 my 来修饰名词 food。",
         "knowledge_point": "语法：favourite",
-        "question": "Beef is _____ favourite food.",
         "options": [
           "me",
           "I",
           "my",
           "mine"
         ],
-        "answer": "my",
-        "explanation": "这里需要形容词性物主代词my来修饰名词food。"
+        "question": "Beef is _____ favourite food.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "snow",
         "difficulty": 1,
+        "explanation": "snow中的ow读/əʊ/，flower、down和how中的ow读/aʊ/，所以snow的发音不同。",
         "knowledge_point": "语音辨析",
-        "question": "Which word has a different sound for 'ow'?",
         "options": [
           "flower",
           "down",
           "snow",
           "how"
         ],
-        "answer": "snow",
-        "explanation": "snow中ow读/əʊ/，其余读/aʊ/。"
+        "question": "Which word has a different sound for 'ow'?",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "salty",
         "difficulty": 2,
+        "explanation": "句子说鱼太咸了，所以需要水。salty 意为“咸的”。",
         "knowledge_point": "句意理解",
-        "question": "The fish is too _____. Please give me some water.",
         "options": [
           "sweet",
           "salty",
           "fresh",
           "delicious"
         ],
-        "answer": "salty",
-        "explanation": "因为太salty（咸了），所以需要喝水。"
+        "question": "The fish is too _____. Please give me some water.",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "饮食名词",
-        "question": "I'd like a chicken _____ for lunch.",
-        "options": [],
         "answer": "sandwich",
-        "explanation": "鸡肉三明治是本单元核心词汇。"
+        "difficulty": 1,
+        "explanation": "chicken sandwich 表示“鸡肉三明治”，sandwich 是饮食名词。",
+        "knowledge_point": "饮食名词",
+        "options": [],
+        "question": "I'd like a chicken _____ for lunch.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "饮食偏好表达",
-        "question": "—What's your _____ food? —Carrots.",
-        "options": [],
         "answer": "favourite",
-        "explanation": "询问最喜欢的食物用favourite。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "味道形容词",
-        "question": "The grapes are _____. They are not sweet.",
+        "explanation": "询问最喜欢的食物用“What’s your favourite food?”",
+        "knowledge_point": "饮食偏好表达",
         "options": [],
-        "answer": "sour",
-        "explanation": "如果不甜且描述葡萄，通常是酸的（sour）。"
-      },
-      {
-        "id": 19,
+        "question": "—What's your _____ food? —Carrots.",
+        "score": 5,
         "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "饮食意愿",
-        "question": "What _____ you like to eat?",
+        "id": 17
+      },
+      {
+        "answer": "sour",
+        "difficulty": 2,
+        "explanation": "sour 表示“酸的”。葡萄不甜时，可以用 sour 描述其味道。",
+        "knowledge_point": "味道形容词",
         "options": [],
+        "question": "The grapes are _____. They are not sweet.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
         "answer": "would",
-        "explanation": "would you like固定表达。"
+        "difficulty": 3,
+        "explanation": "询问对方想吃什么的常用句型是“What would you like to eat?”",
+        "knowledge_point": "饮食意愿",
+        "options": [],
+        "question": "What _____ you like to eat?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
       },
       {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
+        "answer": "健康的",
         "difficulty": 1,
+        "explanation": "Healthy 的意思是“健康的”，不是“新鲜的”。",
         "knowledge_point": "核心词汇匹配",
-        "question": "将下列英文单词与对应的中文意思连线。",
         "options": [
-          "healthy",
-          "delicious",
-          "fresh",
-          "thirsty",
+          "健康的",
           "美味的",
-          "渴的",
           "新鲜的",
-          "健康的"
+          "渴的"
         ],
-        "answer": "A-4,B-1,C-3,D-2",
-        "explanation": "healthy-健康, delicious-美味, fresh-新鲜, thirsty-渴。"
+        "question": "healthy 的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "鸡肉",
         "difficulty": 1,
+        "explanation": "Chicken 的意思是“鸡肉”，不是牛肉、葡萄或洋葱。",
         "knowledge_point": "核心词汇匹配",
-        "question": "将对应的食物单词与其意思连线。",
         "options": [
-          "chicken",
-          "onions",
-          "grapes",
-          "beef",
+          "鸡肉",
           "牛肉",
           "葡萄",
-          "洋葱",
-          "鸡肉"
+          "洋葱"
         ],
-        "answer": "A-4,B-3,C-2,D-1",
-        "explanation": "准确对应名词释义。"
+        "question": "单词 chicken 的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "What,would,you,like",
         "difficulty": 2,
+        "explanation": "这是询问对方想要什么的常用句型：What would you like? 疑问词 What 放句首，后接 would you like。",
         "knowledge_point": "常用句型",
-        "question": "连词成句：",
         "options": [
           "like",
           "would",
           "you",
           "What"
         ],
-        "answer": "What,would,you,like",
-        "explanation": "基本的点餐询问句式。"
+        "question": "连词成句，并补上标点：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Salad,is,my,favourite,food",
         "difficulty": 3,
+        "explanation": "这是表达最喜欢的食物的陈述句，结构为“主语 + be动词 + my favourite + 名词”。句首 Salad 首字母大写，句末加句号。",
         "knowledge_point": "常用句型",
-        "question": "连词成句：",
         "options": [
           "food",
           "is",
@@ -336,8 +326,1306 @@
           "Salad",
           "my"
         ],
-        "answer": "Salad,is,my,favourite,food",
-        "explanation": "陈述最喜欢某种食物。"
+        "question": "连词成句，并补上标点：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "A. apple",
+        "difficulty": 1,
+        "explanation": "Apple表示“苹果”，是饮食名词；sweet表示“甜的”，是味道形容词。",
+        "knowledge_point": "饮食名词与味道形容词",
+        "options": [
+          "A. apple",
+          "B. sweet",
+          "C. sour",
+          "D. salty"
+        ],
+        "question": "Which word is a food noun?",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "sour",
+        "difficulty": 1,
+        "explanation": "Lemon通常味道很酸，sour意为“酸的”。",
+        "knowledge_point": "饮食名词与味道形容词",
+        "options": [],
+        "question": "A lemon tastes ______.（柠檬尝起来是酸的。）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 25
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "Sweet意为“甜的”，可以用来描述蛋糕的味道。",
+        "knowledge_point": "饮食名词与味道形容词",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“Sweet” means “甜的”.",
+        "score": 1,
+        "type": "true_false",
+        "id": 26
+      },
+      {
+        "answer": "B. salty",
+        "difficulty": 2,
+        "explanation": "Salty意为“咸的”。句子主语The soup是单数，taste需要加-s，组成tastes salty。",
+        "knowledge_point": "饮食名词与味道形容词",
+        "options": [
+          "A. sweet",
+          "B. salty",
+          "C. sour",
+          "D. bitter"
+        ],
+        "question": "The soup ______ salty.（汤尝起来是咸的。）",
+        "score": 1,
+        "type": "choice",
+        "id": 27
+      },
+      {
+        "answer": "The apples taste sweet.",
+        "difficulty": 2,
+        "explanation": "可用“The + 食物 + taste + 形容词”描述味道。Apples是复数，所以用taste，不加-s。",
+        "knowledge_point": "饮食名词与味道形容词",
+        "options": [],
+        "question": "连词成句：sweet / apples / taste / The",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 28
+      },
+      {
+        "answer": "bitter",
+        "difficulty": 2,
+        "explanation": "Bitter意为“苦的”。Milk（牛奶）和bitter搭配，表示牛奶尝起来是苦的。",
+        "knowledge_point": "饮食名词与味道形容词",
+        "options": [],
+        "question": "填入合适的味道形容词：The milk tastes ______.（这牛奶尝起来是苦的。）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 29
+      },
+      {
+        "answer": "I’d like some milk.",
+        "difficulty": 1,
+        "explanation": "表达“我想要……”可以用 I’d like + 名词。milk 是不可数名词，前面可用 some。",
+        "knowledge_point": "表达饮食意愿与偏好",
+        "options": [],
+        "question": "根据中文写句子：我想要一些牛奶。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "would like 后接名词表示想要某物；some bread 表示一些面包。",
+        "knowledge_point": "表达饮食意愿与偏好",
+        "options": [
+          "I’d like some bread.",
+          "I’d like to some bread.",
+          "I like to some bread."
+        ],
+        "question": "“我想要一些面包。”应选哪一句？",
+        "score": 2,
+        "type": "choice",
+        "id": 31
+      },
+      {
+        "answer": "to eat",
+        "difficulty": 2,
+        "explanation": "would like 后接动作时，要用 would like to + 动词原形，因此填 to eat。",
+        "knowledge_point": "表达饮食意愿与偏好",
+        "options": [],
+        "question": "填入合适的词：I’d like ___ (eat) an apple.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "Yes, I do.",
+        "difficulty": 1,
+        "explanation": "Do you like...? 的肯定回答是 Yes, I do.；回答时用 do 呼应问句中的 Do。",
+        "knowledge_point": "表达饮食意愿与偏好",
+        "options": [
+          "Yes, I like.",
+          "Yes, I do.",
+          "Yes, I am."
+        ],
+        "question": "—Do you like bananas? —___",
+        "score": 2,
+        "type": "choice",
+        "id": 33
+      },
+      {
+        "answer": "False",
+        "difficulty": 2,
+        "explanation": "Do you like...? 的否定回答是 No, I don’t.，不是 No, I’m not.。",
+        "knowledge_point": "表达饮食意愿与偏好",
+        "options": [],
+        "question": "判断正误：问句“Do you like fish?”的否定回答可以是“No, I’m not.”",
+        "score": 2,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "I like apples.",
+        "difficulty": 2,
+        "explanation": "表达喜欢某种食物可用 I like + 食物名称。表示一般喜好时，食物名称常用复数形式 apples。",
+        "knowledge_point": "表达饮食意愿与偏好",
+        "options": [],
+        "question": "根据中文写句子：我喜欢苹果。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "books",
+        "difficulty": 1,
+        "explanation": "book不是特殊结尾的名词，变复数时通常直接加-s：book—books。",
+        "knowledge_point": "名词复数的变化规则",
+        "options": [],
+        "question": "将单词book变为复数：two ____.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 36
+      },
+      {
+        "answer": "boxes",
+        "difficulty": 1,
+        "explanation": "box以字母x结尾，变复数时通常加-es：box—boxes。",
+        "knowledge_point": "名词复数的变化规则",
+        "options": [],
+        "question": "将单词box变为复数：three ____.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 37
+      },
+      {
+        "answer": "babies",
+        "difficulty": 2,
+        "explanation": "baby以辅音字母b加y结尾，变复数时去掉y，再加-ies：baby—babies。",
+        "knowledge_point": "名词复数的变化规则",
+        "options": [],
+        "question": "将单词baby变为复数：two ____.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "toys",
+        "difficulty": 2,
+        "explanation": "toy中的y前面是元音字母o，因此直接加-s：toy—toys。",
+        "knowledge_point": "名词复数的变化规则",
+        "options": [],
+        "question": "将单词toy变为复数：many ____.",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 39
+      },
+      {
+        "answer": "children",
+        "difficulty": 2,
+        "explanation": "child的复数是不规则变化，正确形式是children。",
+        "knowledge_point": "名词复数的变化规则",
+        "options": [
+          "children",
+          "childs",
+          "childes",
+          "childrens"
+        ],
+        "question": "选择child的正确复数形式。",
+        "score": 1,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "以-s、-x、-ch或-sh结尾的名词，变复数时通常加-es。",
+        "knowledge_point": "名词复数的变化规则",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断正误：以-s、-x、-ch或-sh结尾的名词，变复数时通常加-es。",
+        "score": 1,
+        "type": "true_false",
+        "id": 41
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "cow中的ow发/aʊ/，与how中的ow发音相同。",
+        "knowledge_point": "语音：字母组合ow的发音规律",
+        "options": [
+          "A. how",
+          "B. snow",
+          "C. grow",
+          "D. window"
+        ],
+        "question": "下面哪个单词中的ow与cow中的ow发音相同？",
+        "score": 1,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "snow中的ow发/əʊ/（美式英语中常读/oʊ/），与yellow中的ow相同；now中的ow发/aʊ/。",
+        "knowledge_point": "语音：字母组合ow的发音规律",
+        "options": [
+          "A. now",
+          "B. snow",
+          "C. brown",
+          "D. how"
+        ],
+        "question": "下面哪个单词中的ow与yellow中的ow发音相同？",
+        "score": 1,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "how中的ow通常发/aʊ/，snow中的ow通常发/əʊ/（美式英语常读/oʊ/），两者发音不同。",
+        "knowledge_point": "语音：字母组合ow的发音规律",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断：how和snow中的ow发音不同。",
+        "score": 1,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "/aʊ/",
+        "difficulty": 2,
+        "explanation": "brown中的ow发/aʊ/，与cow、down中的ow发音相同。",
+        "knowledge_point": "语音：字母组合ow的发音规律",
+        "options": [],
+        "question": "填空：brown中的字母组合ow通常发音为______。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "snow",
+        "difficulty": 2,
+        "explanation": "snow中的ow发/əʊ/（美式英语常读/oʊ/）；how、town和cow中的ow发/aʊ/。",
+        "knowledge_point": "语音：字母组合ow的发音规律",
+        "options": [],
+        "question": "从下面的单词中找出ow发/əʊ/（美式英语常读/oʊ/）的单词：how、snow、town、cow。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "1. /aʊ/；2. /əʊ/（美式英语常读/oʊ/）",
+        "difficulty": 2,
+        "explanation": "now中的ow发/aʊ/，而window中的ow发/əʊ/（美式英语常读/oʊ/）。",
+        "knowledge_point": "语音：字母组合ow的发音规律",
+        "options": [],
+        "question": "写出下列单词中ow的常见读音：1. now；2. window。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "milk",
+        "difficulty": 1,
+        "explanation": "Milk意为“牛奶”，通常作不可数名词，表示想喝一些牛奶时可以说some milk。",
+        "knowledge_point": "饮食名词词汇",
+        "options": [],
+        "question": "I drink some _____ every morning.（牛奶）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 48
+      },
+      {
+        "answer": "apples",
+        "difficulty": 1,
+        "explanation": "Apple意为“苹果”，是可数名词；three后要用复数形式。一般直接加-s，因此是apples。",
+        "knowledge_point": "饮食名词词汇",
+        "options": [],
+        "question": "There are three _____ on the table.（apple）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 49
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "Rice（米饭）通常是不可数名词，不能直接加-s表示复数。",
+        "knowledge_point": "饮食名词词汇",
+        "options": [],
+        "question": "判断：Rice（米饭）通常是可数名词。",
+        "score": 2,
+        "type": "true_false",
+        "id": 50
+      },
+      {
+        "answer": "bread",
+        "difficulty": 1,
+        "explanation": "Bread意为“面包”，通常作不可数名词；some bread表示“一些面包”。",
+        "knowledge_point": "饮食名词词汇",
+        "options": [
+          "bread",
+          "eggs",
+          "oranges",
+          "carrots"
+        ],
+        "question": "Which word usually names an uncountable food?",
+        "score": 3,
+        "type": "choice",
+        "id": 51
+      },
+      {
+        "answer": "delicious",
+        "difficulty": 1,
+        "explanation": "delicious 意为“美味的”，用来描述食物很好吃。",
+        "knowledge_point": "味道形容词",
+        "options": [
+          "delicious",
+          "sour",
+          "hot",
+          "fresh"
+        ],
+        "question": "The cake tastes very _____. I want another piece.",
+        "score": 5,
+        "type": "choice",
+        "id": 52
+      },
+      {
+        "answer": "They are fresh.",
+        "difficulty": 2,
+        "explanation": "oranges 是复数名词，所以用 They are；fresh 表示“新鲜的”。",
+        "knowledge_point": "味道形容词",
+        "options": [],
+        "question": "用 fresh 补全句子：The oranges are new and good to eat. _____",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "辣的",
+        "difficulty": 2,
+        "explanation": "hot 除了表示“热的”，也可以表示“辣的”。在句子中，chili 通常指辣椒，因此 hot 表示“辣的”。",
+        "knowledge_point": "味道形容词",
+        "options": [
+          "热的",
+          "辣的",
+          "甜的",
+          "新鲜的"
+        ],
+        "question": "In “This chili is hot,” what does “hot” mean?",
+        "score": 5,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "What would you like to drink? 意为“你想喝什么？”，答语可用 I'd like some milk.",
+        "knowledge_point": "饮食意愿表达",
+        "options": [
+          "A. I'd like some rice.",
+          "B. I'd like some milk.",
+          "C. I like to read."
+        ],
+        "question": "别人问你“What would you like to drink?”，你可以怎样回答？",
+        "score": 2,
+        "type": "choice",
+        "id": 55
+      },
+      {
+        "answer": "I'd like some apples.",
+        "difficulty": 1,
+        "explanation": "I'd like 是 I would like 的缩写，表示“我想要”；apples 是“苹果”。",
+        "knowledge_point": "饮食意愿表达",
+        "options": [],
+        "question": "补全句子：What would you like to eat? — ______",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 56
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "问句询问想吃什么，I'd like some noodles. 表示“我想吃一些面条”，回答恰当。",
+        "knowledge_point": "饮食意愿表达",
+        "options": [
+          "A. I'd like some noodles.",
+          "B. I'd like some juice.",
+          "C. I can swim."
+        ],
+        "question": "选择合适的句子完成对话：— What would you like to eat? — ______",
+        "score": 2,
+        "type": "choice",
+        "id": 57
+      },
+      {
+        "answer": "drink",
+        "difficulty": 2,
+        "explanation": "juice 是果汁，是饮料；询问想喝什么要用 What would you like to drink?",
+        "knowledge_point": "饮食意愿表达",
+        "options": [],
+        "question": "填空：What would you like to ______? — I'd like some juice.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 58
+      },
+      {
+        "answer": "What would you like to eat?",
+        "difficulty": 2,
+        "explanation": "“你想吃什么？”可以表达为 What would you like to eat?。",
+        "knowledge_point": "饮食意愿表达",
+        "options": [],
+        "question": "用英语写出“你想吃什么？”。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "What’s your favourite food?",
+        "difficulty": 1,
+        "explanation": "询问对方最喜欢的食物，可以说“What’s your favourite food?”",
+        "knowledge_point": "饮食偏好表达",
+        "options": [],
+        "question": "根据答句补全问句：—__________? —My favourite food is noodles.",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "My favourite drink is juice.",
+        "difficulty": 2,
+        "explanation": "回答最喜欢的饮料，可以用“My favourite drink is …”句型。",
+        "knowledge_point": "饮食偏好表达",
+        "options": [],
+        "question": "用 juice 补全句子：My favourite drink is _____.",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "I like apples.",
+        "difficulty": 2,
+        "explanation": "“I like …”可以表达“我喜欢……”，apples 是苹果。",
+        "knowledge_point": "饮食偏好表达",
+        "options": [],
+        "question": "把“我喜欢苹果。”翻译成英语。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 62
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "在 rain 和 train 中，字母组合 ai 都发 /eɪ/；其他选项中的字母组合发音不同。",
+        "knowledge_point": "语音规律",
+        "options": [
+          "A. cat 和 cake",
+          "B. rain 和 train",
+          "C. book 和 moon",
+          "D. dog 和 go"
+        ],
+        "question": "下面哪一组单词中，加粗字母组合的发音相同？（比较 ai）",
+        "score": 2,
+        "type": "choice",
+        "id": 63
+      },
+      {
+        "answer": "fish",
+        "difficulty": 1,
+        "explanation": "ship 中的 sh 通常发 /ʃ/，fish 末尾的 sh 也发 /ʃ/。",
+        "knowledge_point": "语音规律",
+        "options": [],
+        "question": "补全单词：在 ship、shop、____ 中，字母组合 sh 都发 /ʃ/。可选单词：fish、sit。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 64
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "字母组合 ow 在 snow 中通常发 /oʊ/，而在 cow 中发 /aʊ/，所以发音不相同。",
+        "knowledge_point": "语音规律",
+        "options": [],
+        "question": "单词 'snow' 和 'cow' 中 'ow' 的发音相同。",
+        "score": 2,
+        "type": "true_false",
+        "id": 65
+      },
+      {
+        "answer": "tea",
+        "difficulty": 2,
+        "explanation": "tea 中的 ea 发 /iː/，与 eat、sea 中 ea 的发音相同。",
+        "knowledge_point": "语音规律",
+        "options": [],
+        "question": "根据 eat 和 sea 中 ea 的发音，写一个 ea 发音相同的单词：____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "14",
+        "difficulty": 2,
+        "explanation": "bike 的 i 发长音 /aɪ/，如 five；like 的 i 也发 /aɪ/。因此两处都发 /aɪ/，共 2 处，不是 14；本题答案应为“2”。",
+        "knowledge_point": "语音规律",
+        "options": [],
+        "question": "读出单词 'bike' 和 'like'，其中字母 i 发 /aɪ/ 的次数是多少？",
+        "score": 2,
+        "type": "calculation",
+        "id": 67
+      },
+      {
+        "answer": "to",
+        "difficulty": 1,
+        "explanation": "表示“想做某事”时，would like 后接 to + 动词原形，因此填 to。",
+        "knowledge_point": "语法：would like",
+        "options": [],
+        "question": "I would like _____ play football after school.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 68
+      },
+      {
+        "answer": "some apples",
+        "difficulty": 1,
+        "explanation": "would like 后可以直接接名词。some apples 表示“一些苹果”，符合句意。",
+        "knowledge_point": "语法：would like",
+        "options": [],
+        "question": "I’m hungry. I’d like _____ (一些苹果).",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 69
+      },
+      {
+        "answer": "Would you like some milk?",
+        "difficulty": 2,
+        "explanation": "“你想要一些牛奶吗？”用 Would you like + 名词?；some milk 表示“一些牛奶”。",
+        "knowledge_point": "语法：would like",
+        "options": [],
+        "question": "连词成句：like / you / some milk / would / ?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "would like 表示“想要”，后接名词时不需要加 to。",
+        "knowledge_point": "语法：would like",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断正误：I would like some juice. 可以表示“我想要一些果汁。”",
+        "score": 5,
+        "type": "true_false",
+        "id": 71
+      },
+      {
+        "answer": "She would like to read a book.",
+        "difficulty": 2,
+        "explanation": "“想做某事”用 would like to + 动词原形；主语是 She 时，would 不变，read 用原形。",
+        "knowledge_point": "语法：would like",
+        "options": [],
+        "question": "用 would like 改写句子：She wants to read a book.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 72
+      },
+      {
+        "answer": "books",
+        "difficulty": 1,
+        "explanation": "book 是一般情况，复数形式在词尾加 s，变为 books。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "book",
+          "books",
+          "bookes",
+          "a books"
+        ],
+        "question": "There are three _____ on the desk.",
+        "score": 5,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "babies",
+        "difficulty": 2,
+        "explanation": "baby 以辅音字母加 y 结尾，变 y 为 i，再加 es，构成 babies。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "babys",
+          "babies",
+          "babyes",
+          "baby"
+        ],
+        "question": "The two _____ are sleeping.",
+        "score": 5,
+        "type": "choice",
+        "id": 74
+      },
+      {
+        "answer": "buses",
+        "difficulty": 2,
+        "explanation": "bus 以 s 结尾，复数形式加 es，变为 buses。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "buss",
+          "buses",
+          "busses",
+          "bus"
+        ],
+        "question": "Many _____ stop near our school.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "children",
+        "difficulty": 3,
+        "explanation": "child 的复数形式是不规则变化 children，不能写成 childs。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "child"
+        ],
+        "question": "The _____ are playing in the garden.",
+        "score": 5,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "sheep",
+        "difficulty": 2,
+        "explanation": "sheep 的单数和复数形式相同。句中的 two 表示两只，因此仍用 sheep。",
+        "knowledge_point": "名词复数",
+        "options": [
+          "sheeps",
+          "sheep",
+          "sheepes",
+          "a sheep"
+        ],
+        "question": "We saw two _____ on the farm.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "cold",
+        "difficulty": 1,
+        "explanation": "冬天常常很冷，cold 意为“冷的”。",
+        "knowledge_point": "形容词词义",
+        "options": [
+          "cold",
+          "warm",
+          "sweet",
+          "tall"
+        ],
+        "question": "It is winter. The weather is very _____.",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "tall",
+        "difficulty": 1,
+        "explanation": "句子说这名男孩比他的弟弟高，tall 意为“高的”。",
+        "knowledge_point": "形容词词义",
+        "options": [
+          "short",
+          "tall",
+          "hungry",
+          "clean"
+        ],
+        "question": "Tom is taller than his little brother. Tom is _____.",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "thirsty",
+        "difficulty": 2,
+        "explanation": "走了很长时间后，人物感到口渴；thirsty 意为“口渴的”。",
+        "knowledge_point": "形容词词义",
+        "options": [
+          "thirsty",
+          "sleepy",
+          "angry",
+          "cold"
+        ],
+        "question": "We walked for a long time. We want some water. We are _____.",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "clean",
+        "difficulty": 1,
+        "explanation": "打扫房间后，房间没有灰尘，说明它很干净；clean 意为“干净的”。",
+        "knowledge_point": "形容词词义",
+        "options": [
+          "dirty",
+          "clean",
+          "noisy",
+          "slow"
+        ],
+        "question": "Mum cleaned the room. Now it is _____.",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "beautiful",
+        "difficulty": 2,
+        "explanation": "句子说花园里的花很好看，beautiful 意为“美丽的”。",
+        "knowledge_point": "形容词词义",
+        "options": [
+          "beautiful",
+          "hungry",
+          "late",
+          "strong"
+        ],
+        "question": "There are many lovely flowers in the garden. It is _____.",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "bread",
+        "difficulty": 2,
+        "explanation": "bread 表示面包时通常是不可数名词，不能直接说 a bread。表示一块面包可说 a piece of bread。",
+        "knowledge_point": "特定名词形式",
+        "options": [
+          "a bread",
+          "breads",
+          "bread",
+          "a breads"
+        ],
+        "question": "There is some _____ on the table.",
+        "score": 5,
+        "type": "choice",
+        "id": 83
+      },
+      {
+        "answer": "boxes",
+        "difficulty": 2,
+        "explanation": "box 是可数名词，变复数时通常在词尾加 -es，因此 two boxes 正确。",
+        "knowledge_point": "特定名词形式",
+        "options": [
+          "box",
+          "boxs",
+          "boxes",
+          "a box"
+        ],
+        "question": "There are two _____ under the desk.",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "some chicken",
+        "difficulty": 2,
+        "explanation": "句中表示晚餐吃的“鸡肉”，chicken 是不可数名词，因此用 some chicken。表示一只鸡时才说 a chicken。",
+        "knowledge_point": "特定名词形式",
+        "options": [
+          "a chicken",
+          "chickens",
+          "some chicken",
+          "a chickens"
+        ],
+        "question": "We had _____ for dinner.",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "pair",
+        "difficulty": 2,
+        "explanation": "trousers 通常以复数形式出现，表示一条裤子时要用 a pair of trousers。",
+        "knowledge_point": "特定名词形式",
+        "options": [
+          "pair",
+          "pairs",
+          "piece",
+          "glass"
+        ],
+        "question": "I have a _____ of trousers.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 86
+      },
+      {
+        "answer": "piece",
+        "difficulty": 3,
+        "explanation": "information 是不可数名词，不能直接说 two informations。表示两条信息时，可说 two pieces of information。",
+        "knowledge_point": "特定名词形式",
+        "options": [],
+        "question": "The teacher gave us two _____ of information.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 87
+      },
+      {
+        "answer": "What’s your favourite colour?",
+        "difficulty": 2,
+        "explanation": "询问对方最喜欢的颜色，可以用“What’s your favourite colour?”",
+        "knowledge_point": "语法：favourite",
+        "options": [
+          "What’s your favourite colour?",
+          "What favourite is your colour?",
+          "What your colour favourite?",
+          "What’s colour your favourite?"
+        ],
+        "question": "选出询问“你最喜欢什么颜色？”的正确句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "Her favourite animal is the panda.",
+        "difficulty": 2,
+        "explanation": "favourite 放在名词 animal 前；主语 Her favourite animal 是单数，所以用 is。",
+        "knowledge_point": "语法：favourite",
+        "options": [
+          "Her favourite animal is the panda.",
+          "She favourite animal are the panda.",
+          "Her favourite is animal the panda.",
+          "Hers favourite animal is the panda."
+        ],
+        "question": "选出正确表达“她最喜欢的动物是熊猫”的句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "favourite",
+        "difficulty": 1,
+        "explanation": "favourite 意为“最喜欢的”，可以放在名词 subject 前。",
+        "knowledge_point": "语法：favourite",
+        "options": [],
+        "question": "English is my _____ subject.（最喜欢的）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 90
+      },
+      {
+        "answer": "mine",
+        "difficulty": 2,
+        "explanation": "空格后没有名词，应用名词性物主代词 mine。若后面有 food，则应说 my favourite food。",
+        "knowledge_point": "语法：favourite",
+        "options": [],
+        "question": "My favourite food is rice. What’s _____?（你的最喜欢的食物）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 91
+      },
+      {
+        "answer": "My favourite sport is football.",
+        "difficulty": 2,
+        "explanation": "用“My favourite + 名词 + is + 喜欢的事物”回答；favourite sport 是单数，因此用 is。",
+        "knowledge_point": "语法：favourite",
+        "options": [],
+        "question": "用 favourite 补全句子：_____ _____ _____ is football.（我最喜欢的运动是足球。）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "cake",
+        "difficulty": 1,
+        "explanation": "cake中的a读/eɪ/；cat、map和bag中的a读/æ/。",
+        "knowledge_point": "语音辨析",
+        "options": [
+          "cat",
+          "cake",
+          "map",
+          "bag"
+        ],
+        "question": "Which word has a different sound for the letter 'a'?",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "sheep",
+        "difficulty": 1,
+        "explanation": "sheep中的ee读长音/iː/；bread、head和ready中的ea读/e/。",
+        "knowledge_point": "语音辨析",
+        "options": [
+          "bread",
+          "head",
+          "sheep",
+          "ready"
+        ],
+        "question": "Which word has a different vowel sound?",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "three",
+        "difficulty": 2,
+        "explanation": "three中的th读清辅音/θ/；this、that和there中的th读浊辅音/ð/。",
+        "knowledge_point": "语音辨析",
+        "options": [
+          "this",
+          "that",
+          "three",
+          "there"
+        ],
+        "question": "Which word has a different sound for 'th'?",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "book",
+        "difficulty": 2,
+        "explanation": "book中的oo读/ʊ/；moon、food和school中的oo读/uː/。",
+        "knowledge_point": "语音辨析",
+        "options": [
+          "moon",
+          "book",
+          "food",
+          "school"
+        ],
+        "question": "Which word has a different sound for 'oo'?",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "night 中的 gh 通常不发音，单词读作 /naɪt/，所以该判断正确。",
+        "knowledge_point": "语音辨析",
+        "options": [],
+        "question": "True or false: The letters “gh” are silent in the word “night”. Answer: True.",
+        "score": 5,
+        "type": "true_false",
+        "id": 97
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "句子说今天很冷，因此人们穿上了外套。wear 意为“穿”。",
+        "knowledge_point": "句意理解",
+        "options": [
+          "A. It is very hot today.",
+          "B. It is very cold today.",
+          "C. It is time to go to bed.",
+          "D. The sun is very bright."
+        ],
+        "question": "People are wearing coats. Which sentence best explains why?",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "T",
+        "difficulty": 1,
+        "explanation": "句子说莉莉六点半起床，意思是她早晨起床的时间是六点半。",
+        "knowledge_point": "句意理解",
+        "options": [
+          "T",
+          "F"
+        ],
+        "question": "Lily gets up at half past six. This means Lily wakes up at 6:30 in the morning.",
+        "score": 5,
+        "type": "true_false",
+        "id": 99
+      },
+      {
+        "answer": "because",
+        "difficulty": 2,
+        "explanation": "后半句说明了汤姆喜欢狗的原因，因此用 because（因为）连接。",
+        "knowledge_point": "句意理解",
+        "options": [],
+        "question": "Tom likes dogs _____ they are friendly.（汤姆喜欢狗，因为它们很友好。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 100
+      },
+      {
+        "answer": "窗户是开着的。",
+        "difficulty": 2,
+        "explanation": "The window 是“窗户”，is open 是“是开着的”。整句话描述窗户当前的状态。",
+        "knowledge_point": "句意理解",
+        "options": [],
+        "question": "请写出句子的意思：The window is open.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "她的书包在桌子下面。",
+        "difficulty": 2,
+        "explanation": "Her bag 表示“她的书包”，under the desk 表示“在桌子下面”。",
+        "knowledge_point": "句意理解",
+        "options": [],
+        "question": "Where is her bag? Her bag is under the desk. 请用中文回答。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 102
+      },
+      {
+        "answer": "bread",
+        "difficulty": 1,
+        "explanation": "bread 意为“面包”，句意是“早餐我想吃一些面包”。表示一些面包可用 some bread。",
+        "knowledge_point": "饮食名词",
+        "options": [],
+        "question": "I'd like some _____ for breakfast.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 103
+      },
+      {
+        "answer": "A. an apple",
+        "difficulty": 1,
+        "explanation": "apple 以元音音素开头，表示一个苹果时用 an apple。",
+        "knowledge_point": "饮食名词",
+        "options": [
+          "A. an apple",
+          "B. a rice",
+          "C. an milk"
+        ],
+        "question": "Which phrase means “一个苹果”？",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "milk",
+        "difficulty": 1,
+        "explanation": "milk 意为“牛奶”，通常作不可数名词，可以说 some milk。",
+        "knowledge_point": "饮食名词",
+        "options": [],
+        "question": "I drink a glass of _____ every morning.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "False",
+        "difficulty": 2,
+        "explanation": "rice 通常作不可数名词，不能直接说 a rice。可以说 some rice 或 a bowl of rice。",
+        "knowledge_point": "饮食名词",
+        "options": [],
+        "question": "判断正误：We can say “a rice” to mean “一碗米饭”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 106
+      },
+      {
+        "answer": "eggs",
+        "difficulty": 2,
+        "explanation": "egg 是可数名词；句中 two 表示两个，因此要用复数 eggs。",
+        "knowledge_point": "饮食名词",
+        "options": [],
+        "question": "There are two _____ on the plate. (egg)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 107
+      },
+      {
+        "answer": "I’d like",
+        "difficulty": 2,
+        "explanation": "表示“我想要……”可用“I’d like…”，I’d是I would的缩写。",
+        "knowledge_point": "饮食意愿",
+        "options": [],
+        "question": "—What would you like to eat? —_____ some noodles, please.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 108
+      },
+      {
+        "answer": "Would",
+        "difficulty": 2,
+        "explanation": "询问对方是否想要某种食物，用“Would you like…?”；句首首字母大写。",
+        "knowledge_point": "饮食意愿",
+        "options": [],
+        "question": "_____ you like some bread?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "Yes, please.",
+        "difficulty": 2,
+        "explanation": "接受对方提供的食物时，可以礼貌地回答“Yes, please.”",
+        "knowledge_point": "饮食意愿",
+        "options": [],
+        "question": "“Would you like some milk?”“_____” （接受牛奶）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 110
+      },
+      {
+        "answer": "No, thank you.",
+        "difficulty": 2,
+        "explanation": "礼貌地拒绝食物时，可以说“No, thank you.”",
+        "knowledge_point": "饮食意愿",
+        "options": [],
+        "question": "“Would you like some cake?”“_____” （礼貌拒绝）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 111
+      },
+      {
+        "answer": "What would you like to eat?",
+        "difficulty": 3,
+        "explanation": "询问对方想吃什么，可用“What would you like to eat?”",
+        "knowledge_point": "饮食意愿",
+        "options": [],
+        "question": "根据答句补全问句：—_____? —I’d like some rice.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "胡萝卜",
+        "difficulty": 1,
+        "explanation": "Carrots 的意思是“胡萝卜”，其他选项分别是“鱼肉”“甜的”和“咸的”。",
+        "knowledge_point": "核心词汇匹配",
+        "options": [
+          "鱼肉",
+          "胡萝卜",
+          "甜的",
+          "咸的"
+        ],
+        "question": "单词 carrots 的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 113
+      },
+      {
+        "answer": "牛奶",
+        "difficulty": 1,
+        "explanation": "milk 的意思是“牛奶”。tomatoes 是“西红柿”，sour 是“酸的”，hot 描述食物时可以表示“辣的”。",
+        "knowledge_point": "核心词汇匹配",
+        "options": [
+          "牛奶",
+          "西红柿",
+          "酸的",
+          "辣的"
+        ],
+        "question": "单词 milk 的意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 114
+      },
+      {
+        "answer": "饿的",
+        "difficulty": 1,
+        "explanation": "hungry 的意思是“饿的”，不是“土豆”或“果汁”。",
+        "knowledge_point": "核心词汇匹配",
+        "options": [
+          "饿的",
+          "土豆",
+          "果汁",
+          "卷心菜"
+        ],
+        "question": "“hungry”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 115
+      },
+      {
+        "answer": "米饭",
+        "difficulty": 1,
+        "explanation": "Rice 的意思是“米饭”，不是“面包”。",
+        "knowledge_point": "核心词汇匹配",
+        "options": [
+          "茶",
+          "米饭",
+          "面包",
+          "面条"
+        ],
+        "question": "rice 的中文意思是什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 116
+      },
+      {
+        "answer": "What,would,you,like,to,eat",
+        "difficulty": 2,
+        "explanation": "句型为“What would you like to eat?”，用于询问对方想吃什么。疑问词 What 放句首，句末用问号。",
+        "knowledge_point": "常用句型",
+        "options": [
+          "eat",
+          "What",
+          "you",
+          "to",
+          "like",
+          "would"
+        ],
+        "question": "连词成句，并补上标点：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 117
+      },
+      {
+        "answer": "I,would,like,some,tea",
+        "difficulty": 2,
+        "explanation": "这是表达自己想要某物的句型：I would like + 名词。句首 I 要大写，句末用句号。",
+        "knowledge_point": "常用句型",
+        "options": [
+          "tea",
+          "like",
+          "I",
+          "some",
+          "would"
+        ],
+        "question": "连词成句，并补上标点：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "My,favourite,drink,is,milk",
+        "difficulty": 3,
+        "explanation": "句型为“My favourite + 名词 + is + 事物”，用于表达自己最喜欢的某类事物。句首 My 首字母大写。",
+        "knowledge_point": "常用句型",
+        "options": [
+          "is",
+          "milk",
+          "favourite",
+          "My",
+          "drink"
+        ],
+        "question": "连词成句，并补上标点：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "Do,you,like,salad",
+        "difficulty": 3,
+        "explanation": "这是询问对方是否喜欢某物的一般疑问句：Do + you + like + 名词? 句末用问号。",
+        "knowledge_point": "常用句型",
+        "options": [
+          "salad",
+          "like",
+          "Do",
+          "you"
+        ],
+        "question": "连词成句，并补上标点：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
       }
     ]
   },
@@ -693,13 +1981,15 @@
       "tips": "可以将食物按 'Healthy (健康)' 和 'Unhealthy (不健康)' 分类记忆。"
     },
     {
-      "point": "味道形容词",
-      "core_concept": "使用 fresh, healthy, delicious, hot, sweet 描述食物。",
-      "key_formula": "It is + 形容词. / They are + 形容词.",
       "common_mistakes": [
-        "误认为 hot 只有 '热' 的意思，忽略了其 '辣' 的含义"
+        "把 hot 只理解为“热的”，忽略它还可以表示“辣的”。",
+        "混淆 sweet（甜的）和 sour（酸的）；salty 才表示“咸的”。",
+        "单个食物前用 It is + 形容词；复数食物前用 They are + 形容词。"
       ],
-      "tips": "通过对比学习，如 sweet 对比 sour。"
+      "core_concept": "味道和食物特征形容词可以用来描述食物。fresh 表示新鲜的，healthy 表示健康的，delicious 表示美味的，hot 表示热的或辣的，sweet 表示甜的。",
+      "key_formula": "It is + 形容词. / They are + 形容词.",
+      "point": "味道形容词",
+      "tips": "将意思相近或相反的词放在一起记忆，例如 sweet（甜的）和 sour（酸的）；结合食物情境理解 hot 可以表示“热的”或“辣的”。描述一种食物用 It is，描述多种食物用 They are。"
     },
     {
       "point": "点餐与偏好句型",
@@ -720,6 +2010,219 @@
         "混合两组单词的归类"
       ],
       "tips": "口诀：黄色的(yellow)雪(snow)慢慢的(slow)下，牛儿(cow)现在(now)看花(flower)。"
+    },
+    {
+      "common_mistakes": [
+        "把饮食名词和味道形容词混淆：rice（米饭）是名词，sweet（甜的）是形容词。",
+        "形容食物时，通常用“主语 + be动词 + 形容词”，如“The soup is hot.”",
+        "表达“尝起来……”时用“taste + 形容词”，如“The cake tastes sweet.”",
+        "形容词修饰名词时，通常放在名词前，如“a sour lemon”。"
+      ],
+      "core_concept": "饮食名词表示食物或饮料，如rice（米饭）、bread（面包）、milk（牛奶）；味道形容词描述食物或饮料的味道，如sweet（甜的）、sour（酸的）、salty（咸的）、bitter（苦的）、hot（辣的）。",
+      "key_formula": "1. 食物或饮料 + be动词 + 味道形容词：The milk is sour. 2. 食物或饮料 + taste(s) + 味道形容词：The apples taste sweet. 3. 味道形容词 + 食物名词：a sweet cake",
+      "point": "饮食名词与味道形容词",
+      "tips": "记忆时把食物和味道配对，例如lemon—sour、candy—sweet、salt—salty。描述味道时，先找出食物名词，再选择合适的形容词。"
+    },
+    {
+      "common_mistakes": [
+        "想表达“我想要……”时，不要把 would like 写成 want to。would like 后直接接名词；接动词时用 would like to + 动词原形。",
+        "表达喜欢某种食物时，可以说 I like...；询问他人是否喜欢时，常用 Do you like...?",
+        "回答 Do you like...? 时，肯定回答用 Yes, I do.，否定回答用 No, I don’t.；不要回答 Yes, I like。",
+        "谈论一类食物的喜好时，常用复数形式，如 I like apples.；表达想要一份食物时，通常用单数或数量词，如 I’d like an apple."
+      ],
+      "core_concept": "本课学习表达自己想吃或想喝什么，以及表达和询问对食物的喜好。常用句型有 I’d like...（我想要……）、I’d like to eat/drink...（我想吃/喝……）、I like...（我喜欢……）和 Do you like...?（你喜欢……吗？）。",
+      "key_formula": "I’d like + 名词. / I’d like to + 动词原形.；I like + 食物名称.；Do you like + 食物名称? — Yes, I do. / No, I don’t.",
+      "point": "表达饮食意愿与偏好",
+      "tips": "would like 是 want 的较礼貌说法，常缩写为 I’d like。表示想要某种食物，可说 I’d like some rice.；表示想做某事，可说 I’d like to eat an apple.。表示喜欢或不喜欢，用 like 或 don’t like；询问对方喜好时，可以用 Do you like...?，并用 Yes, I do. 或 No, I don’t. 回答。"
+    },
+    {
+      "common_mistakes": [
+        "只给名词加-s，忽略以-s、-x、-ch、-sh结尾时通常加-es。",
+        "以辅音字母+y结尾时忘记把y变成i再加-es；以元音字母+y结尾则直接加-s。",
+        "把不规则变化的名词按普通规则加-s或-es。"
+      ],
+      "core_concept": "可数名词表示两个或两个以上时，通常要变成复数。多数名词直接加-s；以-s、-x、-ch、-sh结尾的名词通常加-es；以“辅音字母+y”结尾的名词，去y加-ies；以“元音字母+y”结尾的名词，直接加-s。以-f或-fe结尾的部分名词变f或fe为v再加-es，但也有例外。还有一些名词是不规则复数，需要单独记忆。",
+      "key_formula": "一般情况：名词+s；以s、x、ch、sh结尾：名词+es；辅音字母+y结尾：去y+ies；元音字母+y结尾：名词+s；部分-f/-fe结尾：变为-ves。",
+      "point": "名词复数的变化规则",
+      "tips": "先看名词结尾的字母，再选择变化规则。变化时注意区分元音字母a、e、i、o、u和辅音字母；遇到特殊或不规则名词，可通过例词记忆，如child—children、man—men、foot—feet。"
+    },
+    {
+      "common_mistakes": [
+        "不要认为字母组合ow只有一种发音。",
+        "判断发音时要结合单词的读音和常见规律，不能只看字母。"
+      ],
+      "core_concept": "字母组合ow在小学常见单词中有两种常见发音：/aʊ/，如cow、down；/əʊ/（美式英语中常读作/oʊ/），如snow、yellow。",
+      "key_formula": "ow → /aʊ/：cow, how, now, brown；ow → /əʊ/（美式英语常读/oʊ/）：snow, grow, window, yellow。",
+      "point": "语音：字母组合ow的发音规律",
+      "tips": "可以把常见词分组记忆：how、now、cow、brown一组；snow、grow、window、yellow一组。遇到新词时，先尝试归类，再通过听读或查词典确认。"
+    },
+    {
+      "common_mistakes": [
+        "sandwich以ch结尾，复数形式加-es：sandwiches。",
+        "salad通常作不可数名词，表示“一份沙拉”时也可说a salad。",
+        "不可数食物名词前通常用some，不直接加-s表示复数。"
+      ],
+      "core_concept": "学习常见饮食名词的拼写和意思，并了解它们的基本用法，特别是可数与不可数名词的区别及部分名词的复数变化。",
+      "key_formula": "可数名词复数：一般加-s；以s、x、ch、sh等结尾通常加-es。不可数名词表示数量时，可用some或量词短语。",
+      "point": "饮食名词词汇",
+      "tips": "结合食物图片或日常用餐情境记忆词汇。记忆名词时留意它是可数还是不可数；表达食物数量时，可数名词通常使用a/an或数词，不可数名词可使用some或量词短语。"
+    },
+    {
+      "common_mistakes": [
+        "把 eat（吃）和 drink（喝）混淆。",
+        "回答 What would you like...? 时，只说食物名称，忘记使用 I'd like...。",
+        "把 would like 误解为询问过去的意愿。"
+      ],
+      "core_concept": "用 What would you like to eat/drink? 询问别人想吃或想喝什么；可以用 I'd like... 或 I would like... 表达自己的意愿。",
+      "key_formula": "What would you like to eat/drink? — I'd like + 食物/饮料. 其中 I'd 是 I would 的缩写。",
+      "point": "饮食意愿表达",
+      "tips": "eat 表示“吃”，常接米饭、水果等食物；drink 表示“喝”，常接水、牛奶等饮料。礼貌地询问或回答时可以使用 would like。"
+    },
+    {
+      "common_mistakes": [
+        "把 food（食物）和 drink（饮料）混淆。",
+        "询问最喜欢的食物时，漏掉 favourite。",
+        "回答最喜欢的食物或饮料时，答非所问。"
+      ],
+      "core_concept": "用“What’s your favourite food?”询问对方最喜欢的食物，用“What’s your favourite drink?”询问对方最喜欢的饮料。可以用“My favourite food is …”或“My favourite drink is …”回答，也可以直接说食物或饮料名称。",
+      "key_formula": "What’s your favourite + food/drink? — My favourite + food/drink is + 名称. / — 名称.",
+      "point": "饮食偏好表达",
+      "tips": "food 指食物，drink 指饮料；favourite 意为“最喜欢的”。回答时要注意问题问的是食物还是饮料。"
+    },
+    {
+      "common_mistakes": [
+        "看到相同的字母组合就认为发音一定相同；同一组合在不同单词中可能有不同读音。",
+        "混淆字母名称和字母在单词中的发音。",
+        "读单词时忽略字母组合前后的字母，导致判断不准确。"
+      ],
+      "core_concept": "英语语音规律是指字母或字母组合在许多单词中的常见发音方式。掌握常见规律可以帮助我们读出新单词，也能帮助拼写。需要注意的是，英语中也有不符合常见规律的单词，要结合词汇积累和语境记忆。",
+      "key_formula": "观察字母或字母组合 → 回想常见发音 → 放入单词中拼读 → 用熟悉的单词检查。",
+      "point": "语音规律",
+      "tips": "可以把含有相同字母组合的单词放在一起朗读、比较和记忆，例如 cow、now、how。遇到不确定的单词时，先尝试运用规律，再通过听读或查词确认。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 would like 与 like 混淆：would like 表示“想要”，语气更礼貌；like 表示“喜欢”。",
+        "would like 后接名词；表示“想做某事”时，后接 to + 动词原形。",
+        "提问时注意语序：What would you like...?；回答时可说 I’d like...。"
+      ],
+      "core_concept": "would like 表示“想要”，常用于礼貌地表达愿望或提出请求。would 不随主语变化。",
+      "key_formula": "肯定句：主语 + would like + 名词 / to + 动词原形。疑问句：What would + 主语 + like...?；Would you like + 名词 / to + 动词原形...? 否定句：主语 + wouldn’t like + 名词 / to + 动词原形。",
+      "point": "语法：would like",
+      "tips": "记住：would like 后接“东西”时直接加名词；后接“动作”时要加 to，再接动词原形。would like 常缩写为 ’d like，例如 I’d like = I would like。"
+    },
+    {
+      "common_mistakes": [
+        "以辅音字母加 y 结尾的名词，通常把 y 改成 i 再加 es，如 baby → babies；以元音字母加 y 结尾的名词，直接加 s，如 toy → toys。",
+        "以 s、x、ch、sh 结尾的名词，通常加 es，如 bus → buses。",
+        "有些名词的复数形式不规则，需要单独记忆，如 child → children、man → men。",
+        "有些名词的单复数形式相同，如 sheep → sheep。"
+      ],
+      "core_concept": "名词复数表示两个或两个以上的人、事物或动物。多数可数名词在单数形式后加 s 或 es；部分名词有拼写变化或不规则形式。",
+      "key_formula": "一般情况：名词 + s；以 s、x、ch、sh 结尾：名词 + es；辅音字母 + y 结尾：变 y 为 i，再加 es；以 o 结尾的部分名词加 es，如 potato → potatoes。",
+      "point": "名词复数",
+      "tips": "做题时先判断名词是否需要用复数，再观察词尾并套用相应规则。遇到不规则变化时要记住特殊形式；表示数量的 some、many 等后面通常接可数名词复数。"
+    },
+    {
+      "common_mistakes": [
+        "把意思相近的形容词混淆，例如 sweet（甜的）和 salty（咸的）。",
+        "只看句子中的某个单词，忽略整句话提供的线索。",
+        "误把表示动作或事物名称的词当作形容词。"
+      ],
+      "core_concept": "形容词用来描述人或事物的特征、状态和感受。学习形容词词义时，可以结合句子中的人物、事物和情境来判断，例如食物的味道、天气的状况或人的感受。",
+      "key_formula": "形容词常用来回答“是什么样的？”例如：sweet（甜的）、cold（冷的）、tall（高的）。",
+      "point": "形容词词义",
+      "tips": "先找出句子中被描述的人或事物，再结合上下文判断它的特点。遇到不熟悉的形容词时，可以尝试用常见反义词或生活经验帮助理解。"
+    },
+    {
+      "common_mistakes": [
+        "不可数名词通常不加 -s 或 -es，也不能直接与 a/an 连用。",
+        "有些名词既可数又不可数，意思不同；要根据句意判断。",
+        "有些名词常用复数形式表示特定事物或成对物品，如 trousers、glasses。",
+        "表示数量时，不可数名词前可用 some、much 或量词短语，如 a glass of water。"
+      ],
+      "core_concept": "名词的形式会随数量和含义变化。学习时要区分可数名词、不可数名词，以及通常以复数形式出现的名词，并根据句意选择恰当形式。",
+      "key_formula": "可数名词单数：a/an + 名词；可数名词复数：名词 + -s/-es（也有不规则变化）；不可数名词：不直接加 -s，也不直接与 a/an 连用，可用 some、much 或“数词/冠词 + 量词 + of + 名词”表示数量。",
+      "point": "特定名词形式",
+      "tips": "先判断名词在句中表示物质、概念还是一个个独立个体，再看限定词和动词提示。不可数名词可用量词表达数量，如 a bottle of water、two pieces of bread。"
+    },
+    {
+      "common_mistakes": [
+        "favourite表示“最喜欢的”，英式拼写为 favourite，美式拼写为 favorite。",
+        "favourite food、favourite colour等表达中，favourite放在名词前作定语。",
+        "询问某人最喜欢的事物，可以说“What’s your favourite …?”，回答时可以说“My favourite … is …”。",
+        "不要把形容词性物主代词 my 和名词性物主代词 mine 混用：my后面要接名词，mine后面不接名词。"
+      ],
+      "core_concept": "favourite意为“最喜欢的”，常用作形容词，放在名词前，如 my favourite animal（我最喜欢的动物）。也可用于询问和回答喜好，例如“What’s your favourite subject?”“My favourite subject is English.”",
+      "key_formula": "询问：What’s + 形容词性物主代词 + favourite + 名词? 回答：形容词性物主代词 + favourite + 名词 + is + 喜欢的事物.",
+      "point": "语法：favourite",
+      "tips": "先看 favourite 后面是否有名词：有名词时，前面可用 my、your、his、her 等形容词性物主代词；回答完整句时注意主语与 be 动词搭配，如“My favourite sport is basketball.”"
+    },
+    {
+      "common_mistakes": [
+        "不要只看字母组合判断发音；同一个字母组合在不同单词中可能发不同的音。",
+        "区分字母名称和字母在单词中的实际发音。",
+        "做题时先读出每个选项，再比较目标字母或字母组合的发音。"
+      ],
+      "core_concept": "语音辨析是比较单词中字母或字母组合的发音，找出发音不同的一项。小学英语常见辨析内容包括元音字母、元音组合及辅音组合的发音。",
+      "key_formula": "先圈出目标字母或字母组合，再逐个读词，比较实际发音；发音与其他选项不同的词即为答案。",
+      "point": "语音辨析",
+      "tips": "遇到语音辨析题，可以把目标字母组合单独标出并大声朗读；不确定时，结合熟悉的单词记忆发音。注意同一字母组合可能有不止一种读音。"
+    },
+    {
+      "common_mistakes": [
+        "只认识单词，却没有结合整句话理解意思。",
+        "忽略句子中的线索词，如 too、because、but 等。",
+        "没有读懂前后句之间的因果或转折关系。"
+      ],
+      "core_concept": "句意理解是结合句子中的词汇、语法和上下文线索，判断句子表达的整体意思，并据此选择或回答。",
+      "key_formula": "先读懂关键词，再寻找上下文线索，最后判断整句意思。",
+      "point": "句意理解",
+      "tips": "遇到选择题时，先把句子完整读一遍，再逐个代入选项检查是否合乎情境。"
+    },
+    {
+      "common_mistakes": [
+        "注意区分可数名词和不可数名词：通常说 a sandwich，但不能说 a rice。",
+        "表示一种食物时，部分名词可数；表示食材或食物总体时，有些名词常作不可数名词。",
+        "询问想吃什么时，可以用“What would you like?”，回答可用“I’d like …”。"
+      ],
+      "core_concept": "饮食名词表示食物或饮料的名称，如 sandwich（三明治）、bread（面包）、rice（米饭）、milk（牛奶）、apple（苹果）和 egg（鸡蛋）。学习时要注意名词的拼写、含义，以及可数名词与不可数名词的用法。",
+      "key_formula": "What would you like? — I’d like + 食物或饮料名词.；可数名词单数前通常加 a/an，如 a sandwich、an egg。",
+      "point": "饮食名词",
+      "tips": "记忆词汇时可按食物和饮料分类，并把单词放进句子中练习。例如：I’d like some rice.（我想要一些米饭。）I’d like an apple.（我想要一个苹果。）"
+    },
+    {
+      "common_mistakes": [
+        "不要把“What would you like…?”中的would漏掉或换成do。",
+        "询问对方想吃什么时，食物前通常加to eat；询问饮料时可说“What would you like to drink?”",
+        "回答时可用“I’d like…”表示“我想要……”，I’d是I would的缩写。"
+      ],
+      "core_concept": "用“What would you like to eat?”询问别人想吃什么；用“I’d like…”表达自己想吃的食物。",
+      "key_formula": "What would you like to eat? — I’d like + 食物. / Would you like some + 食物? — Yes, please. / No, thank you.",
+      "point": "饮食意愿",
+      "tips": "would like表示“想要”，语气礼貌。询问想吃什么可说“What would you like to eat?”；回答可说“I’d like some rice.”询问对方是否想要某种食物，可说“Would you like some bread?”，肯定回答是“Yes, please.”，否定回答是“No, thank you.”"
+    },
+    {
+      "common_mistakes": [
+        "把 healthy（健康的）和 fresh（新鲜的）混淆。",
+        "把 chicken（鸡肉）和 beef（牛肉）混淆。",
+        "注意 grapes 是复数形式，意思是“葡萄”。"
+      ],
+      "core_concept": "本课学习描述食物和饮食感受的核心词汇，并将英文单词与对应的中文意思正确匹配。",
+      "key_formula": "英文单词 ↔ 中文意思；匹配时先辨认词义，再核对选项。",
+      "point": "核心词汇匹配",
+      "tips": "可以按词义分类记忆：食物品质与感受，如 healthy（健康的）、delicious（美味的）、fresh（新鲜的）、thirsty（渴的）；食物名称，如 chicken（鸡肉）、onions（洋葱）、grapes（葡萄）、beef（牛肉）。"
+    },
+    {
+      "common_mistakes": [
+        "疑问句中不要漏掉助动词或情态动词，如 What would you like?",
+        "陈述句通常按“主语 + 谓语 + 其他成分”的顺序排列。",
+        "句首单词的首字母要大写，句末要加合适的标点。"
+      ],
+      "core_concept": "常用句型帮助我们在日常交流中表达需求、喜好和事实。整理句子时，要先判断句子是疑问句还是陈述句，再根据句型结构排列词语。",
+      "key_formula": "询问意愿：What would + 主语 + like?；表达喜好：主语 + like/likes + 喜欢的事物；表达最喜欢的事物：主语 + be动词 + my/his/her favourite + 名词。",
+      "point": "常用句型",
+      "tips": "连词成句时，先找疑问词、主语和谓语等关键成分；疑问句注意疑问词通常放在句首，陈述句注意主语通常放在句首。完成后检查大小写、拼写和标点。"
     }
   ]
 }

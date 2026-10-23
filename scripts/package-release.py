@@ -7,6 +7,7 @@ import os
 import re
 import shutil
 import subprocess
+import sys
 import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
@@ -109,6 +110,9 @@ def main():
     out = args.out or ROOT / 'release-assets' / args.tag
     if not (site / 'index.html').is_file():
         raise ValueError('Missing verified static site')
+    subprocess.run([sys.executable, str(ROOT / 'scripts/checks/content-retention.py'),
+                    '--public', str(site), '--report', str(ROOT / 'deploy-output/package-content-retention.json')],
+                   check=True)
     out.mkdir(parents=True, exist_ok=False)
     commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
     manifest = {'schema_version': 2, 'tag': args.tag, 'created_at': datetime.now(timezone.utc).isoformat(),

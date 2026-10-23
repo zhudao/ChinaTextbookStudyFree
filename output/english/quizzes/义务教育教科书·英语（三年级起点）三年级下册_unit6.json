@@ -4,290 +4,285 @@
   "unit_number": 6,
   "unit_test": {
     "title": "Unit 6 How many? Standard Test",
-    "total_score": 100,
+    "total_score": 113,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "数字11-20的认读与拼写",
-        "question": "英文单词 'thirteen' 是数字 13 的意思。",
-        "options": [],
         "answer": "对",
-        "explanation": "thirteen对应数字13。"
-      },
-      {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
         "difficulty": 1,
+        "explanation": "thirteen 表示数字13。",
         "knowledge_point": "数字11-20的认读与拼写",
-        "question": "'fifteen' 是由 five 加 teen 组成的，字母没有变化。",
         "options": [],
-        "answer": "错",
-        "explanation": "fifteen的词根是fif-，由five变来。"
+        "question": "英文单词“thirteen”是数字13的意思。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 3,
-        "type": "true_false",
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "five 变为 fifteen 时，拼写发生变化，fifteen 不是 five 加 teen。",
+        "knowledge_point": "数字11-20的认读与拼写",
+        "options": [],
+        "question": "“fifteen”是由 five 加 teen 组成的，字母没有变化。",
         "score": 2,
+        "type": "true_false",
+        "id": 2
+      },
+      {
+        "answer": "错",
         "difficulty": 2,
+        "explanation": "How many 后面接可数名词复数，应说“How many apples?”。",
         "knowledge_point": "询问数量的句型应用",
+        "options": [],
         "question": "How many 后面直接跟名词单数，如：How many apple?",
-        "options": [],
-        "answer": "错",
-        "explanation": "How many后面必须跟名词的复数形式。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "box 和 dog 中的 o 都发短音，常见读音可记作 /ɒ/（不同英语口音的音值可能略有差别）。",
         "knowledge_point": "五个元音字母短音综合辨析",
-        "question": "单词 'box' 中字母 'o' 的发音与 'dog' 相同。",
         "options": [],
-        "answer": "对",
-        "explanation": "它们都发闭音节的短元音/ɒ/。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
+        "question": "单词“box”中字母 o 的发音与“dog”相同。",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "数字11-20的认读与拼写",
-        "question": "'eleven' 代表数字 11。",
-        "options": [],
-        "answer": "对",
-        "explanation": "eleven译为11。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "eleven 表示数字11。",
         "knowledge_point": "数字11-20的认读与拼写",
-        "question": "What is ten and eight?",
+        "options": [],
+        "question": "“eleven”代表数字11。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "eighteen",
+        "difficulty": 1,
+        "explanation": "10加8等于18，18的英文是 eighteen。",
+        "knowledge_point": "数字11-20的认读与拼写",
         "options": [
           "eighteen",
           "sixteen",
           "twelve",
           "twenty"
         ],
-        "answer": "eighteen",
-        "explanation": "10加8等于18。"
+        "question": "What is ten and eight?",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "birds",
         "difficulty": 2,
+        "explanation": "How many 用来询问可数事物的数量，后面接名词复数 birds。",
         "knowledge_point": "询问数量的句型应用",
-        "question": "How many ______ do you see?",
         "options": [
           "bird",
           "birds",
           "a bird",
           "the bird"
         ],
-        "answer": "birds",
-        "explanation": "How many询问数量，后接名词复数。"
+        "question": "How many ______ do you see?",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "twelve",
         "difficulty": 1,
+        "explanation": "12支蜡笔可以说 twelve crayons。",
         "knowledge_point": "数字11-20的认读与拼写",
-        "question": "I have ______ crayons. (12支)",
         "options": [
           "eleven",
           "twelve",
           "twenty",
           "thirteen"
         ],
-        "answer": "twelve",
-        "explanation": "12的英文单词是twelve。"
+        "question": "I have ______ crayons. (12支)",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "blue",
         "difficulty": 2,
+        "explanation": "duck、fun、under 中的 u 发短音 /ʌ/；blue 中的字母组合 ue 发长音 /uː/，所以 blue 与其他三个不同。",
         "knowledge_point": "五个元音字母短音综合辨析",
-        "question": "下列哪个单词中 'u' 的发音与其他三个不同？",
         "options": [
           "duck",
           "fun",
           "under",
           "blue"
         ],
-        "answer": "blue",
-        "explanation": "duck, fun, under中的u发短音/ʌ/，blue发/u:/。"
+        "question": "下列哪个单词中 u 的发音与其他三个不同？",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "I have sixteen.",
         "difficulty": 2,
+        "explanation": "问题用 have 询问拥有的数量，可以用“I have + 数量”回答。",
         "knowledge_point": "询问数量的句型应用",
-        "question": "—How many balls do you have? —______",
         "options": [
           "I have sixteen.",
           "I see sixteen.",
           "It is sixteen.",
           "Fine, thanks."
         ],
-        "answer": "I have sixteen.",
-        "explanation": "用have提问应用have回答。"
+        "question": "—How many balls do you have? —______",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "20",
         "difficulty": 1,
+        "explanation": "twenty 表示数字20。",
         "knowledge_point": "数字11-20的认读与拼写",
-        "question": "Which number is 'twenty'?",
         "options": [
           "12",
           "20",
           "2",
           "11"
         ],
-        "answer": "20",
-        "explanation": "twenty是20。"
+        "question": "Which number is “twenty”?",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "she",
         "difficulty": 2,
+        "explanation": "help、bed、pen 中的 e 发短音 /e/；she 末尾的 e 不发音，前面的 e 发长音 /iː/。",
         "knowledge_point": "五个元音字母短音综合辨析",
-        "question": "找出划线发音不同的单词：h__e__lp, b__e__d, p__e__n, sh__e__",
         "options": [
           "help",
           "bed",
           "pen",
           "she"
         ],
-        "answer": "she",
-        "explanation": "she中的e发长音/i:/，其他三个发短音/e/。"
+        "question": "找出划线部分发音不同的单词：h__e__lp、b__e__d、p__e__n、sh__e__。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "fourteen",
         "difficulty": 1,
+        "explanation": "14的英文是 fourteen，注意不是 fourty。",
         "knowledge_point": "数字11-20的认读与拼写",
-        "question": "14的英文是：",
         "options": [
           "four",
           "fourteen",
           "forty",
           "fourty"
         ],
-        "answer": "fourteen",
-        "explanation": "14是fourteen。"
+        "question": "14的英文是：",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "eleven",
         "difficulty": 3,
+        "explanation": "表示数量时直接使用基数词 eleven。",
         "knowledge_point": "询问数量的句型应用",
-        "question": "Look at the kites! I see ______.",
         "options": [
           "no. 11",
           "eleven",
           "the eleven",
           "eleven kite"
         ],
-        "answer": "eleven",
-        "explanation": "表示数量直接用基数词。"
+        "question": "Look at the kites! I see ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "fifteen",
         "difficulty": 1,
+        "explanation": "15的正确拼写是 fifteen，注意 five 的拼写在这里发生变化。",
         "knowledge_point": "数字11-20的认读与拼写",
-        "question": "—How many cars do you see? —I see ______ (15).",
         "options": [
           "fifeteen",
           "fiveteen",
           "fifteen",
           "fifty"
         ],
-        "answer": "fifteen",
-        "explanation": "考查15的正确拼写。"
+        "question": "—How many cars do you see? —I see ______ (15).",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "询问数量的句型应用",
-        "question": "How ___ books do you have?",
-        "options": [],
         "answer": "many",
-        "explanation": "询问数量常用How many..."
-      },
-      {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "数字11-20的认读与拼写",
-        "question": "Ten and nine is ___.",
+        "explanation": "How many 是询问可数事物数量的常用表达。",
+        "knowledge_point": "询问数量的句型应用",
         "options": [],
+        "question": "How ___ books do you have?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
+      },
+      {
         "answer": "nineteen",
-        "explanation": "10加9等于19。"
+        "difficulty": 2,
+        "explanation": "10加9等于19，19的英文是 nineteen。",
+        "knowledge_point": "数字11-20的认读与拼写",
+        "options": [],
+        "question": "Ten and nine is ___.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "数字11-20的认读与拼写",
-        "question": "I have ___ apples. (只有1个用单词表示)",
-        "options": [],
         "answer": "one",
-        "explanation": "基数词1即为one。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "五个元音字母短音综合辨析",
-        "question": "The ___ is on the box. (小狗)",
-        "options": [],
-        "answer": "dog",
-        "explanation": "dog符合中o发短音的规律。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "1的英文是 one。",
         "knowledge_point": "数字11-20的认读与拼写",
-        "question": "将下列数字单词与其汉语意思配对：",
-        "options": [
-          "thirteen",
-          "sixteen",
-          "seventeen",
-          "nineteen",
-          "十六",
-          "十七",
-          "十九",
-          "十三"
-        ],
-        "answer": "A-4,B-1,C-2,D-3",
-        "explanation": "thirteen-13, sixteen-16, seventeen-17, nineteen-19。"
+        "options": [],
+        "question": "I have ___ apples. (只有1个，用英文单词表示)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
       },
       {
-        "id": 21,
+        "answer": "dog",
+        "difficulty": 3,
+        "explanation": "dog 的字母 o 发短音，且 dog 表示“小狗”，所以填 dog。",
+        "knowledge_point": "五个元音字母短音综合辨析",
+        "options": [],
+        "question": "The ___ is on the box.（小狗）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "十六",
+        "difficulty": 1,
+        "explanation": "Sixteen 表示十六。",
+        "knowledge_point": "数字11-20的认读与拼写",
+        "options": [
+          "十六",
+          "十三",
+          "十七",
+          "十九"
+        ],
+        "question": "“sixteen”是什么意思？",
+        "score": 5,
+        "type": "choice",
+        "id": 20
+      },
+      {
         "type": "matching",
         "score": 5,
         "difficulty": 2,
@@ -304,15 +299,14 @@
           "太美了"
         ],
         "answer": "A-3,B-4,C-1,D-2",
-        "explanation": "词汇意义配对。"
+        "explanation": "词汇意义配对。",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "how,many,cats,do,you,see",
         "difficulty": 2,
+        "explanation": "询问数量的语序是“How many + 名词复数 + do you + 动词原形?”",
         "knowledge_point": "询问数量的句型应用",
-        "question": "单词排队：many, you, how, see, do, cats",
         "options": [
           "many",
           "you",
@@ -321,24 +315,64 @@
           "do",
           "cats"
         ],
-        "answer": "how,many,cats,do,you,see",
-        "explanation": "How many + 名词复数 + do you + 动词原形？"
+        "question": "单词排队：many, you, how, see, do, cats",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "I,have,nineteen,pens",
         "difficulty": 2,
+        "explanation": "陈述句语序为主语 + 动词 + 数量 + 名词复数。",
         "knowledge_point": "询问数量的句型应用",
-        "question": "单词排队：I, nineteen, have, pens",
         "options": [
           "I",
           "nineteen",
           "have",
           "pens"
         ],
-        "answer": "I,have,nineteen,pens",
-        "explanation": "主语+谓语+数量+名词复数。"
+        "question": "单词排队：I, nineteen, have, pens",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "How many apples do you see?",
+        "difficulty": 2,
+        "explanation": "How many 后接可数名词复数 apples，再接 do you 和动词原形 see。",
+        "knowledge_point": "询问数量的句型应用",
+        "options": [],
+        "question": "用所给词语组成正确的句子：see, how, apples, many, you, do",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "sit",
+        "difficulty": 1,
+        "explanation": "sit 中的 i 发短音 /ɪ/，符合句意“我坐在椅子上”。",
+        "knowledge_point": "五个元音字母短音综合辨析",
+        "options": [],
+        "question": "I ___ on the chair.（坐；提示：i 发短音）",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 25
+      },
+      {
+        "answer": "cat",
+        "difficulty": 2,
+        "explanation": "cat 中的 a 发短音 /æ/，与帽子 hat 中的 a 发音相同。",
+        "knowledge_point": "五个元音字母短音综合辨析",
+        "options": [
+          "cat",
+          "cake",
+          "name",
+          "game"
+        ],
+        "question": "下列哪个单词中 a 发短音？",
+        "score": 5,
+        "type": "choice",
+        "id": 26
       }
     ]
   },
@@ -713,6 +747,39 @@
         "u在不同单词中发音辨析不清"
       ],
       "tips": "短元音发音短促有力，口型要到位。"
+    },
+    {
+      "common_mistakes": [
+        "注意 eleven、twelve 的拼写不是在数字词根后直接加 teen。",
+        "thirteen、fifteen、eighteen 的拼写有变化，尤其要记住 fifteen 不是 fiveteen，eighteen 只有一个 t。",
+        "fourteen 拼作 fourteen，不是 fourty；twenty 表示20，不是2。"
+      ],
+      "core_concept": "能认读并正确拼写数字11至20的英文单词，理解数字单词与阿拉伯数字之间的对应关系。",
+      "key_formula": "11 eleven；12 twelve；13 thirteen；14 fourteen；15 fifteen；16 sixteen；17 seventeen；18 eighteen；19 nineteen；20 twenty。",
+      "point": "数字11-20的认读与拼写",
+      "tips": "按顺序朗读并记忆 eleven 到 twenty；结合数字卡片练习数字与英文单词互相转换。重点单独记忆 eleven、twelve、thirteen、fifteen、eighteen 和 twenty 的拼写。"
+    },
+    {
+      "common_mistakes": [
+        "How many 后接可数名词复数，不能直接接单数名词。",
+        "回答数量时通常用基数词；根据问题中的动词选择合适的回答，如 have 对应 have，see 对应 see。",
+        "询问句中注意语序：How many + 名词复数 + do you + 动词原形？"
+      ],
+      "core_concept": "询问可数事物的数量，常用“How many + 可数名词复数 + do/does + 主语 + 动词原形？”回答时可用“主语 + have/see + 数量 + 名词复数”或直接回答数量。",
+      "key_formula": "How many + 可数名词复数 + do/does + 主语 + 动词原形？\n回答：主语 + 动词 + 基数词 + 可数名词复数。",
+      "point": "询问数量的句型应用",
+      "tips": "先找出要询问的可数事物，再用“How many”开头，并将名词变为复数。问句中的 do/does 后接动词原形；回答时根据问题中的动作选择相应动词，并用基数词表示数量。"
+    },
+    {
+      "common_mistakes": [
+        "把字母名称音和字母在单词中的短音混淆。",
+        "认为同一个元音字母在所有单词中都发相同的音；应结合单词和字母组合辨认。",
+        "忽略字母 e 在单词末尾时常不发音，并可能使前面的元音发长音，如 she。"
+      ],
+      "core_concept": "英语元音字母 a、e、i、o、u 在一些常见单音节词中会发短音。辨认时要听元音在具体单词中的读音，而不是只看字母。常见例子：a—cat，e—bed，i—sit，o—dog，u—cup。不同口音会使部分元音的实际音值有所差别。",
+      "key_formula": "短元音辨认：听单词中元音的读音，并与例词比较。常见对应：a—cat，e—bed，i—sit，o—dog，u—cup。",
+      "point": "五个元音字母短音综合辨析",
+      "tips": "按元音字母分组朗读例词，再比较同一组词的元音读音。做选择题时，先找出题目关注的元音字母，再逐个读词；不要仅凭单词拼写或中文意思判断。"
     }
   ]
 }

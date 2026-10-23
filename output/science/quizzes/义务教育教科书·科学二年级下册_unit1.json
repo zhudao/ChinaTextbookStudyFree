@@ -4,326 +4,487 @@
   "unit_number": 1,
   "unit_test": {
     "title": "第一单元《磁铁》单元达标自主检测卷",
-    "total_score": 100,
+    "total_score": 146,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "磁铁主要吸引铁、钴、镍等磁性材料，不会吸引所有金属。铜、铝等常见金属通常不能被磁铁吸引。",
         "knowledge_point": "磁铁能吸引什么",
+        "options": [],
         "question": "磁铁不仅能吸引铁，还能吸引铜、铝等所有的金属。",
-        "options": [],
-        "answer": "错",
-        "explanation": "磁铁主要吸引铁、钴、镍。铜、铝等金属是不能被磁铁吸引的。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "磁铁不需要接触铁制品也能吸引它。把磁铁放入水中，通常仍能隔着水吸引铁制的大头针。",
         "knowledge_point": "磁铁的非接触吸引与隔物吸铁",
+        "options": [],
         "question": "把磁铁放入水中，它就不能再吸引大头针了。",
-        "options": [],
-        "answer": "错",
-        "explanation": "磁铁在水中仍然具有磁性，可以穿过水吸引铁制品。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "条形磁铁的两端磁力较强，称为磁极；中间部分的磁力较弱。",
         "knowledge_point": "磁铁的两极及其磁力分布",
+        "options": [],
         "question": "条形磁铁的中间部分磁力最强。",
-        "options": [],
-        "answer": "错",
-        "explanation": "条形磁铁的两端磁力最强，称为磁极，中间磁力最弱。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "磁极间的相互作用规律是：同极相斥，异极相吸。",
         "knowledge_point": "磁极间的相互作用规律",
+        "options": [],
         "question": "两块磁铁相互靠近时，相同的磁极会互相排斥。",
-        "options": [],
-        "answer": "对",
-        "explanation": "磁极间的相互作用规律是：同极相斥，异极相吸。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "制作简易水浮式指南针",
-        "question": "我们可以用磁铁的磁极在钢针上沿同一个方向摩擦，使钢针获得磁性。",
-        "options": [],
-        "answer": "对",
-        "explanation": "这是摩擦磁化钢针的正确操作方法，需注意单向摩擦。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "用磁铁同一个磁极沿钢针一个方向反复摩擦，可以使钢针获得磁性；每次摩擦后应拿开磁铁，再从起点开始。",
+        "knowledge_point": "制作简易水浮式指南针",
+        "options": [],
+        "question": "我们可以用磁铁的磁极在钢针上沿同一个方向摩擦，使钢针获得磁性。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "回形针",
         "difficulty": 1,
+        "explanation": "常见回形针通常由铁或含铁材料制成，可以被磁铁吸引。橡皮、木头和纸盒通常不能被磁铁吸引。",
         "knowledge_point": "磁铁能吸引什么",
-        "question": "下列物品中，磁铁能够吸引的是（    ）。",
         "options": [
           "橡皮擦",
           "木筷子",
           "回形针",
           "纸盒"
         ],
-        "answer": "回形针",
-        "explanation": "回形针通常是铁制的，属于磁性物质。"
+        "question": "下列物品中，磁铁能够吸引的是（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "掉在土地里的钥匙",
         "difficulty": 1,
+        "explanation": "如果钥匙由铁或含铁材料制成，磁铁可以吸引它，帮助寻找。不同钥匙的材料可能不同，实际使用时可以用磁铁验证。",
         "knowledge_point": "磁铁能吸引什么",
-        "question": "生活中，我们可以利用磁铁来寻找（    ）。",
         "options": [
           "掉在土地里的钥匙",
           "洒在桌子上的水",
           "飞进屋子的蝴蝶",
           "散落在草地上的木屑"
         ],
-        "answer": "掉在土地里的钥匙",
-        "explanation": "钥匙通常含有铁质成分，可以用磁铁吸引出来。"
+        "question": "生活中，我们可以利用磁铁来寻找（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "很薄的纸",
         "difficulty": 2,
+        "explanation": "磁铁可以隔着很薄的纸吸引铁质物体。隔物的材料和厚度会影响吸引效果，并不是隔着任何物体都一定能吸起来。",
         "knowledge_point": "磁铁的非接触吸引与隔物吸铁",
-        "question": "磁铁隔着（    ）也能吸起铁质物体。",
         "options": [
           "厚木板",
           "很薄的纸",
           "铁板",
           "砖头"
         ],
-        "answer": "很薄的纸",
-        "explanation": "磁铁可以隔着非磁性薄物体吸铁，当物体过厚或隔着强磁性物体时效果会减弱或消失。"
+        "question": "磁铁隔着（    ）也能吸起铁质物体。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "中间",
         "difficulty": 1,
+        "explanation": "条形磁铁的两端磁力较强，中间部分磁力较弱。",
         "knowledge_point": "磁铁的两极及其磁力分布",
-        "question": "条形磁铁的（    ）磁力最弱。",
         "options": [
           "南极",
           "北极",
           "中间",
           "两端"
         ],
-        "answer": "中间",
-        "explanation": "条形磁铁的磁力呈中间弱、两端强的分布特征。"
+        "question": "条形磁铁的（    ）磁力最弱。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "北方",
         "difficulty": 1,
+        "explanation": "指南针中的磁针能自由转动，静止后标有N的一端通常指向北方。红色一端常标作N，但判断时最好看N标记。",
         "knowledge_point": "磁极的指向与指南针原理",
-        "question": "指南针中的红色指针通常指向（    ）。",
         "options": [
           "东方",
           "南方",
           "西方",
           "北方"
         ],
-        "answer": "北方",
-        "explanation": "根据国际惯例和教材，指南针涂红的一端通常表示北极（N），指向北。"
+        "question": "指南针中的红色指针通常指向（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "南",
         "difficulty": 2,
+        "explanation": "磁铁自由转动并静止后，S极通常指向南方，N极通常指向北方。",
         "knowledge_point": "磁极的指向与指南针原理",
-        "question": "当磁铁自由转动静止后，S极总是指向（    ）。",
         "options": [
           "北",
           "东",
           "南",
           "西"
         ],
-        "answer": "南",
-        "explanation": "S代表South（南），静止后指示南方。"
+        "question": "当磁铁自由转动并静止后，S极通常指向（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "互相排斥",
         "difficulty": 2,
+        "explanation": "两个N极是同名磁极，同名磁极互相排斥。",
         "knowledge_point": "磁极间的相互作用规律",
-        "question": "把两块磁铁的北极（N）靠近，它们会（    ）。",
         "options": [
           "互相吸引",
           "互相排斥",
           "没有反应",
           "紧紧粘住"
         ],
-        "answer": "互相排斥",
-        "explanation": "同极相斥，N极与N极属于同极。"
+        "question": "把两块磁铁的北极（N）靠近，它们会（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "地磁场的作用",
         "difficulty": 1,
+        "explanation": "磁铁静止时指南、指北，是受到地磁场作用的结果。",
         "knowledge_point": "磁极间的相互作用规律",
-        "question": "磁铁静止时一端指南一端指北，是因为（    ）。",
         "options": [
           "风的影响",
           "地磁场的作用",
           "重力的原因",
           "温度的影响"
         ],
-        "answer": "地磁场的作用",
-        "explanation": "地球本身是一个巨大的磁体，磁铁受地磁场影响而定向。"
+        "question": "磁铁静止时一端指南一端指北，是因为（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "放在纸片上浮在水面",
         "difficulty": 3,
+        "explanation": "纸片托着钢针浮在水面上，可以让钢针较自由地转动，减少与容器底部的摩擦。",
         "knowledge_point": "制作简易水浮式指南针",
-        "question": "在制作水浮式指南针时，为了让磁化的钢针指向，我们需要把钢针（    ）。",
         "options": [
           "放在纸片上浮在水面",
           "扔进水底",
           "贴在水盆壁上",
           "拿在手中"
         ],
-        "answer": "放在纸片上浮在水面",
-        "explanation": "为了让钢针能自由转动，必须减小摩擦力，水浮法是常用的教学手段。"
+        "question": "在制作水浮式指南针时，为了让磁化的钢针指向，我们需要把钢针（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "磁铁可以吸起回形针",
         "difficulty": 2,
+        "explanation": "常见回形针通常含铁，可以被磁铁吸引。磁铁有多种形状；磁铁断开后，断开的部分仍有磁性，并各自有磁极；磁铁也能吸引镍。",
         "knowledge_point": "磁铁能吸引什么",
-        "question": "关于磁铁，下列说法正确的是（    ）。",
         "options": [
           "磁铁只有条形的",
           "磁铁掉在地上碎了就没有磁极了",
           "磁铁可以吸起回形针",
           "磁铁无法吸引镍"
         ],
-        "answer": "磁铁可以吸起回形针",
-        "explanation": "磁铁形状多样，磁化作用与碎裂与否无关（碎了依旧有两极），且能吸镍。"
+        "question": "关于磁铁，下列说法正确的是（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "司南",
         "difficulty": 2,
+        "explanation": "司南是中国古代利用磁性辨别方向的器具，是指南针的早期形式。",
         "knowledge_point": "磁极的指向与指南针原理",
-        "question": "指南针发源于中国的（    ）。",
         "options": [
           "司南",
           "地动仪",
           "算盘",
           "浑天仪"
         ],
-        "answer": "司南",
-        "explanation": "司南是中国古代利用磁性矿石制成的最早的指南针。"
+        "question": "中国古代用来辨别方向的指南工具是（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "黑板边框",
         "difficulty": 2,
+        "explanation": "一些黑板边框含有铁等能被磁铁吸引的材料，也常用磁铁吸附教学用品。不过具体物品是否能被吸引，要看实际材料。",
         "knowledge_point": "磁铁能吸引什么",
-        "question": "如果在教室里找磁铁制品，我们会发现它们主要出现在（    ）。",
         "options": [
           "黑板边框",
           "塑料椅子",
           "玻璃窗户",
           "红领巾"
         ],
-        "answer": "黑板边框",
-        "explanation": "黑板边框通常含有铁或其他磁性金属，教学中也常用磁铁吸附教具。"
+        "question": "如果在教室里找可能含有磁性材料的物品，下面哪一项最可能被磁铁吸引？（    ）",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "都有两个磁极",
         "difficulty": 3,
+        "explanation": "磁铁断开后，每一段仍然会形成南极和北极，因此每一块都有两个磁极。",
         "knowledge_point": "磁铁的两极及其磁力分布",
-        "question": "一块没有标注南北极的条形磁铁，碎成了三块，这其中的每一块（    ）。",
         "options": [
           "都没有磁极了",
           "只有一个磁极",
           "都有两个磁极",
           "中间那块没磁极"
         ],
-        "answer": "都有两个磁极",
-        "explanation": "任何磁体都同时具有南极和北极，即便断裂也会形成新的磁极对。"
+        "question": "一块没有标注南北极的条形磁铁，碎成了三块，这其中的每一块（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "磁铁的两极及其磁力分布",
-        "question": "普通的条形磁铁一共有（    ）个磁极。",
-        "options": [],
         "answer": "2",
-        "explanation": "磁铁都有南极和北极，总共2个磁极。"
-      },
-      {
-        "id": 20,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "磁极间的相互作用规律",
-        "question": "有两块磁铁，如果它们互相吸引，说明靠近的那两端极性（    ）种。",
-        "options": [],
-        "answer": "0",
-        "explanation": "抱歉，此处逻辑设计修正：题目应问异极吸引，0在此处不合题意，改为：磁铁有（1）个中间部位磁力最弱。修正题目：条形磁铁有（    ）个中间区域磁力最弱。答案：1。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 1,
-        "knowledge_point": "磁极的指向与指南针原理",
-        "question": "磁铁指南的一端叫南极，用字母（    ）表示。",
+        "explanation": "普通条形磁铁有南极和北极两个磁极。",
+        "knowledge_point": "磁铁的两极及其磁力分布",
         "options": [],
-        "answer": "S",
-        "explanation": "S代表South，即南极。"
+        "question": "普通的条形磁铁一共有（    ）个磁极。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 19
       },
       {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
+        "answer": "不同",
         "difficulty": 2,
-        "knowledge_point": "磁铁的非接触吸引与隔物吸铁",
-        "question": "磁铁能吸引铁的性质，我们科学上称之为（    ）。",
+        "explanation": "磁铁互相吸引时，靠近的两端是异名磁极，也就是极性不同。",
+        "knowledge_point": "磁极间的相互作用规律",
         "options": [],
-        "answer": "磁性",
-        "explanation": "磁铁能吸引铁、镍、钴等物质的性质叫磁性。"
+        "question": "有两块磁铁，如果它们互相吸引，说明靠近的那两端极性（    ）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "磁极间的相互作用规律",
-        "question": "磁铁同极相互排斥，异极相互（    ）。",
+        "answer": "S",
+        "difficulty": 1,
+        "explanation": "S是英文South的首字母，用来表示磁铁的南极。",
+        "knowledge_point": "磁极的指向与指南针原理",
         "options": [],
+        "question": "磁铁指南的一端叫南极，用字母（    ）表示。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
+      },
+      {
+        "answer": "磁性",
+        "difficulty": 2,
+        "explanation": "磁铁能够吸引铁等物质的性质叫磁性。",
+        "knowledge_point": "磁铁的非接触吸引与隔物吸铁",
+        "options": [],
+        "question": "磁铁能吸引铁的性质，我们科学上称之为（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
         "answer": "吸引",
-        "explanation": "这是磁极间的基本作用规律：同名磁极相斥，异名磁极相吸。"
+        "difficulty": 1,
+        "explanation": "磁极间的基本规律是：同名磁极相斥，异名磁极相吸。",
+        "knowledge_point": "磁极间的相互作用规律",
+        "options": [],
+        "question": "磁铁同极相互排斥，异极相互（    ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "铁钉",
+        "difficulty": 1,
+        "explanation": "铁钉通常由铁制成，能被磁铁吸引。木块、塑料尺和纸片通常不能被磁铁吸引。",
+        "knowledge_point": "磁铁能吸引什么",
+        "options": [
+          "木块",
+          "铁钉",
+          "塑料尺",
+          "纸片"
+        ],
+        "question": "下列物品中，通常能被磁铁吸引的是（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "磁铁不必碰到铁制物体，靠近时也可能吸引它。",
+        "knowledge_point": "磁铁的非接触吸引与隔物吸铁",
+        "options": [],
+        "question": "磁铁不碰到铁钉，也可能把铁钉吸过来。",
+        "score": 2,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "纸片",
+        "difficulty": 1,
+        "explanation": "纸片不是铁制品，磁铁通常能隔着一张薄纸吸引纸另一侧的铁制回形针。",
+        "knowledge_point": "磁铁的非接触吸引与隔物吸铁",
+        "options": [],
+        "question": "在磁铁和回形针之间放一张薄（    ），磁铁仍可能吸引回形针。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "吸引效果通常会变弱",
+        "difficulty": 2,
+        "explanation": "磁铁与铁制品之间的距离增大，吸引作用通常减弱；距离太远时，可能吸不起来。",
+        "knowledge_point": "磁铁的非接触吸引与隔物吸铁",
+        "options": [],
+        "question": "磁铁和铁制品之间的距离变远时，吸引效果通常会（    ）。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "两端",
+        "difficulty": 1,
+        "explanation": "条形磁铁的磁力在两端较强。把磁铁两端分别靠近回形针，通常会发现两端吸引回形针较多。",
+        "knowledge_point": "磁铁的两极及其磁力分布",
+        "options": [],
+        "question": "用回形针比较条形磁铁各处的磁力，磁力较强的地方通常在磁铁的（    ）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 28
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "条形磁铁的两端是磁极，磁力较强；中间部分磁力较弱。",
+        "knowledge_point": "磁铁的两极及其磁力分布",
+        "options": [
+          "A. 磁力处处一样强",
+          "B. 只有北极有磁力",
+          "C. 两端磁力较强，中间较弱",
+          "D. 中间磁力最强"
+        ],
+        "question": "关于条形磁铁各处的磁力，哪种说法正确？",
+        "score": 5,
+        "type": "choice",
+        "id": 29
+      },
+      {
+        "answer": "N",
+        "difficulty": 1,
+        "explanation": "磁铁指北的一端叫北极，通常用字母N表示。",
+        "knowledge_point": "磁极的指向与指南针原理",
+        "options": [],
+        "question": "磁铁指北的一端叫北极，用字母（    ）表示。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "指南针应水平放置，并等指针静止后再读数；倾斜放置可能影响指针转动和判断。",
+        "knowledge_point": "磁极的指向与指南针原理",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "使用指南针时，把它斜着拿起来也一定能准确判断方向。（    ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 31
+      },
+      {
+        "answer": "磁铁",
+        "difficulty": 1,
+        "explanation": "用磁铁沿钢针一个方向摩擦，可以使钢针获得磁性。",
+        "knowledge_point": "制作简易水浮式指南针",
+        "options": [],
+        "question": "制作简易水浮式指南针时，用来使钢针获得磁性的工具是（    ）。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 32
+      },
+      {
+        "answer": "同一个方向",
+        "difficulty": 2,
+        "explanation": "磁化钢针时要沿同一个方向摩擦，不要来回摩擦。",
+        "knowledge_point": "制作简易水浮式指南针",
+        "options": [],
+        "question": "用磁铁摩擦钢针时，每次都要沿（    ）摩擦。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "把钢针放在轻质纸片或泡沫片上，让它浮在水面并能自由转动；如果碰到容器边缘，就不容易准确转向。",
+        "knowledge_point": "制作简易水浮式指南针",
+        "options": [],
+        "question": "水浮式指南针中的钢针应尽量能在水面自由转动，不要碰到容器边缘。",
+        "score": 2,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "南北",
+        "difficulty": 2,
+        "explanation": "磁化后的钢针能在水面自由转动，静止后两端大致指向南方和北方，可用来辨认方向。",
+        "knowledge_point": "制作简易水浮式指南针",
+        "options": [],
+        "question": "水面上的磁化钢针静止后，两端大致指向（    ）方向。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "互相吸引",
+        "difficulty": 2,
+        "explanation": "S极和N极是异名磁极，异名磁极互相吸引。",
+        "knowledge_point": "磁极间的相互作用规律",
+        "options": [
+          "互相吸引",
+          "互相排斥",
+          "没有反应",
+          "无法判断"
+        ],
+        "question": "把一块磁铁的S极和另一块磁铁的N极靠近，它们会（    ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 36
       }
     ]
   },
@@ -702,6 +863,72 @@
         "忘记减小摩擦力（针不浮起来就无法转动）"
       ],
       "tips": "磁针水平浮在水面是制作简易指南针最简单成功的方法。"
+    },
+    {
+      "common_mistakes": [
+        "误以为磁铁能吸引所有金属；铜、铝等常见金属通常不能被磁铁吸引。",
+        "只看物品外观判断能否被吸引；不同材料制成的物品，结果可能不同。",
+        "认为物品只要含有金属就能被磁铁吸引；磁铁主要吸引铁、钴、镍等材料。"
+      ],
+      "core_concept": "磁铁能吸引铁、钴、镍等磁性材料制成的物品。生活中常见的铁制回形针、铁钉通常能被磁铁吸引；木头、纸、塑料以及铜、铝等材料通常不能被磁铁吸引。判断时可以用磁铁实际试一试。",
+      "key_formula": "判断能否被磁铁吸引：看物品是否含有铁、钴、镍等磁性材料；不能仅凭“是金属”来判断。",
+      "point": "磁铁能吸引什么",
+      "tips": "观察物品时，先猜测它可能由什么材料制成，再用磁铁靠近验证。实验中不要把磁铁放在电子设备、磁卡或医疗器械附近。"
+    },
+    {
+      "common_mistakes": [
+        "误以为磁铁必须碰到铁制物体才能吸引它。",
+        "误以为磁铁隔着任何材料、任何厚度都能吸铁。",
+        "把磁铁吸引铁制品的能力说成只在空气中才有。"
+      ],
+      "core_concept": "磁铁不接触铁制物体也能对它产生吸引作用；磁铁隔着一些物体仍能吸引铁制品，这叫隔物吸铁。隔着的材料、厚度和距离会影响吸引效果。",
+      "key_formula": "磁铁可以隔着一些物体吸引铁制品；隔得越厚、距离越远，吸引效果通常越弱。",
+      "point": "磁铁的非接触吸引与隔物吸铁",
+      "tips": "可以用磁铁隔着纸片、薄木片或水观察它能否吸引回形针。比较时保持磁铁和铁制品不变，只改变中间隔着的材料或厚度。注意并非所有材料、厚度和距离下都能吸起来。"
+    },
+    {
+      "common_mistakes": [
+        "把磁铁两端误认为只有一端有磁力；条形磁铁的两端磁力都较强。",
+        "认为磁铁中间完全没有磁力；更准确地说，中间部分磁力较弱。",
+        "认为磁铁断开后就没有磁极；每一块仍有南极和北极。"
+      ],
+      "core_concept": "条形磁铁有南极和北极两个磁极，磁力在两端较强，在中间较弱。磁铁断开后，每一段仍然都有南极和北极。",
+      "key_formula": "条形磁铁：两端磁力强，中间磁力弱；每块磁铁都有南极和北极。",
+      "point": "磁铁的两极及其磁力分布",
+      "tips": "可以用回形针等小铁物体做实验：把条形磁铁不同部位靠近回形针，观察哪处吸引得更多。注意比较时保持距离和实验材料相同。"
+    },
+    {
+      "common_mistakes": [
+        "把指南针指向的方向与指针本身的磁极混为一谈：指针标有N的一端指向北方，标有S的一端指向南方。",
+        "认为指南针的红色指针都必然指向北方；不同指南针的颜色标记可能不同，应以N、S标记为准。",
+        "把指南针指向北方说成磁铁的N极被地理北方吸引；指南针的N极附近是地球的磁南极。"
+      ],
+      "core_concept": "磁铁能够指示方向。把磁铁悬挂起来，或让它能在水面上自由转动，静止后通常会一端指向南方，另一端指向北方。指向北方的一端叫北极，用N表示；指向南方的一端叫南极，用S表示。指南针利用能自由转动的磁针来辨认方向。使用时应让指南针保持水平并远离磁铁、铁器等物品，以免影响指针。",
+      "key_formula": "磁针静止后：N极指向北方，S极指向南方。",
+      "point": "磁极的指向与指南针原理",
+      "tips": "观察指南针时，先让它水平放置并等指针静止，再根据N、S标记辨认南北；确定南北后，还可以判断东、西方向。红色一端常被标作N极，但颜色可能因指南针而异。"
+    },
+    {
+      "common_mistakes": [
+        "摩擦钢针时来回擦，或中途改变方向。",
+        "把钢针直接放进水里，或让钢针碰到容器边缘，导致它不能自由转动。",
+        "认为指南针一定指向正北；实际上磁针的一端大致指向南方，另一端大致指向北方。"
+      ],
+      "core_concept": "简易水浮式指南针是利用磁化后的钢针在水面上自由转动，最终大致沿南北方向排列来辨认方向的工具。",
+      "key_formula": "单向摩擦磁化钢针 + 让钢针在水面自由转动 ≈ 制作简易指南针",
+      "point": "制作简易水浮式指南针",
+      "tips": "准备钢针、磁铁、轻质纸片或泡沫片和一盆水。用磁铁的同一个磁极沿钢针一个方向摩擦多次，每次摩擦后把磁铁拿开，再从起点开始。把钢针放在纸片或泡沫片上，轻轻放到水面，等它停止转动。钢针两端大致指向南北；可以用已知方向或其他指南针辨认哪端指北。操作时小心钢针，避免扎伤。"
+    },
+    {
+      "common_mistakes": [
+        "不要把“同极相斥、异极相吸”记反。",
+        "磁铁指南、指北是地磁场作用的结果，不是磁极相互作用规律本身。",
+        "磁铁相吸时，靠近的两端是不同的磁极。"
+      ],
+      "core_concept": "两块磁铁靠近时，同名磁极互相排斥，异名磁极互相吸引。也就是说，N极和N极、S极和S极相斥；N极和S极相吸。",
+      "key_formula": "同极相斥，异极相吸。",
+      "point": "磁极间的相互作用规律",
+      "tips": "记忆口诀：同极相斥，异极相吸。看到两块磁铁互相吸引，就知道靠近的两端是异极；看到它们互相排斥，就知道靠近的两端是同极。"
     }
   ]
 }

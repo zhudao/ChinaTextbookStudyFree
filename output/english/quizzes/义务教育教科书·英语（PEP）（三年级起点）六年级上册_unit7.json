@@ -4,275 +4,273 @@
   "unit_number": 7,
   "unit_test": {
     "title": "Unit 7 Cycle Assessment & Basic Skills Test",
-    "total_score": 100,
+    "total_score": 587,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "get to 是固定短语，表示“到达某地”。",
         "knowledge_point": "交通出行句型理解",
-        "question": "在句型 'How can I get to the Fuxi Museum?' 中，get to 意为‘到达’。",
         "options": [],
-        "answer": "对",
-        "explanation": "get to 是固定短语，表示到达某地。"
+        "question": "在句型“How can I get to the Fuxi Museum?”中，get to 意为“到达”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "pilot 意为飞行员，科学家是 scientist。",
         "knowledge_point": "职业词汇理解",
+        "options": [],
         "question": "'pilot' 的意思是‘科学家’。",
-        "options": [],
-        "answer": "错",
-        "explanation": "pilot 意为飞行员，科学家是 scientist。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "Setting 指故事发生的时间和地点或环境；Characters 才是故事中的角色。",
         "knowledge_point": "寓言故事要素",
-        "question": "寓言故事中的 'Setting' 通常指的是故事中的角色。",
         "options": [],
-        "answer": "错",
-        "explanation": "Setting 指的是背景或环境，Characters 指的是角色。"
+        "question": "寓言故事中的 “Setting” 通常指的是故事中的角色。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "连读技巧",
-        "question": "在句子 'Check it out' 中，Check 和 it 之间通常会发生连读。",
-        "options": [],
         "answer": "对",
-        "explanation": "辅音k和元音i相连，通常需要连读。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "词义辨析",
-        "question": "‘Worried’ 的意思是‘生气的’。",
+        "difficulty": 2,
+        "explanation": "Check 以辅音音素 /k/ 结尾，it 以元音音素 /ɪ/ 开头，通常可以自然连读。",
+        "knowledge_point": "连读技巧",
         "options": [],
-        "answer": "错",
-        "explanation": "Worried 是担心的，生气的应该是 angry。"
+        "question": "在句子 'Check it out' 中，Check 和 it 之间通常会发生连读。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "Worried 是“担心的”，生气的应该是 angry。",
+        "knowledge_point": "词义辨析",
+        "options": [],
+        "question": "“Worried”的意思是“生气的”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "do",
+        "difficulty": 1,
+        "explanation": "询问感觉用助动词do配合动词原形feel。",
         "knowledge_point": "近况询问常用语",
-        "question": "How ______ you feel today?",
         "options": [
           "do",
           "are",
           "does",
           "is"
         ],
-        "answer": "do",
-        "explanation": "询问感觉用助动词do配合动词原形feel。"
+        "question": "How ______ you feel today?",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "take",
         "difficulty": 1,
+        "explanation": "should 是情态动词，后面接动词原形，因此选 take。",
         "knowledge_point": "建议引导词",
-        "question": "You should ______ a deep breath and count to ten.",
         "options": [
           "takes",
           "taking",
           "take",
           "took"
         ],
-        "answer": "take",
-        "explanation": "should是情态动词，后面接动词原形。"
+        "question": "You should ______ a deep breath and count to ten.",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "by",
         "difficulty": 1,
+        "explanation": "by + 交通工具表示出行方式，乘公共汽车说 by bus。",
         "knowledge_point": "场所及交通方式配套",
-        "question": "If you want to go to the park, you can go ______ bus.",
         "options": [
           "on",
           "by",
           "with",
           "at"
         ],
-        "answer": "by",
-        "explanation": "by + 交通工具表示出行方式。"
+        "question": "If you want to go to the park, you can go ______ bus.",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "next to",
         "difficulty": 1,
+        "explanation": "next to 表示“在……旁边”。句意是“邮局在医院旁边”。",
         "knowledge_point": "综合问路表达",
-        "question": "Where is the post office? It's ______ the hospital.",
         "options": [
           "next to",
           "under",
           "at",
           "in"
         ],
-        "answer": "next to",
-        "explanation": "next to 表示在...旁边，是常见的方位表达。"
+        "question": "Where is the post office? It's ______ the hospital.",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "help others",
         "difficulty": 2,
+        "explanation": "罗宾汉帮助有困难的人，所以故事告诉我们要帮助他人。",
         "knowledge_point": "寓言故事理解",
-        "question": "The Robin Hood story tells us we should ______.",
         "options": [
           "be mean",
           "stay at home",
           "help others",
           "be angry"
         ],
-        "answer": "help others",
-        "explanation": "罗宾汉的故事寓意是帮助他人。"
+        "question": "The Robin Hood story tells us we should ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "postman",
         "difficulty": 1,
+        "explanation": "job 表示“工作、职业”，问题是在问爸爸的职业。postman（邮递员）是职业名称，其他选项不符合句意。",
         "knowledge_point": "句意选择",
-        "question": "What is your father's job? He is a ______.",
         "options": [
           "country",
           "hobby",
           "postman",
           "word"
         ],
-        "answer": "postman",
-        "explanation": "由job引导的问题应回答职业名称。"
+        "question": "What is your father's job? He is a ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "are",
         "difficulty": 2,
+        "explanation": "主语是you，be动词用are。",
         "knowledge_point": "打算与计划",
-        "question": "What ______ you going to do this weekend?",
         "options": [
           "is",
           "be",
           "are",
           "am"
         ],
-        "answer": "are",
-        "explanation": "主语是you，be动词用are。"
+        "question": "What ______ you going to do this weekend?",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "reading",
         "difficulty": 2,
+        "explanation": "like 后接表示爱好的动作时，常用动词-ing形式，因此 read 变为 reading。",
         "knowledge_point": "爱好表达",
-        "question": "He likes ______ stories and singing.",
         "options": [
           "read",
           "reads",
           "reading",
           "to reads"
         ],
-        "answer": "reading",
-        "explanation": "like doing sth. 表示长期稳定的爱好。"
+        "question": "He likes ______ stories and singing.",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "sad",
         "difficulty": 2,
+        "explanation": "宠物生病了，主人通常会感到难过，所以选 sad。",
         "knowledge_point": "情绪识别",
-        "question": "Your dog is ill. You are very ______.",
         "options": [
           "happy",
           "sad",
           "excited",
           "angry"
         ],
-        "answer": "sad",
-        "explanation": "宠物生病了通常会感到难过。"
+        "question": "Your dog is ill. You are very ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "First, V go to the bookstore.",
         "difficulty": 3,
+        "explanation": "First 是句首的顺序词，后面逗号提示稍作停顿，因此这里的停顿较自然。",
         "knowledge_point": "语音与停顿",
-        "question": "Which sentence has a natural pause (V)?",
         "options": [
           "Wait V for the V green light.",
-          "I want V to go V to the cinema.",
+          "I want V to go V to the V cinema.",
           "First, V go to the bookstore.",
           "Turn V left V at the V light."
         ],
-        "answer": "First, V go to the bookstore.",
-        "explanation": "句子开头的连接词（如First）后通常有自然停顿。"
+        "question": "Which sentence has a natural pause (V)?",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "问候基本功",
-        "question": "How ______ you today? I am fine.",
-        "options": [],
         "answer": "are",
-        "explanation": "主语you配合be动词are进行提问。"
+        "difficulty": 1,
+        "explanation": "主语you配合be动词are进行提问。",
+        "knowledge_point": "问候基本功",
+        "options": [],
+        "question": "How ______ you today? I am fine.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "交通规则",
-        "question": "Don't go at a ______ light.",
-        "options": [],
         "answer": "red",
-        "explanation": "红灯停，不能走。"
-      },
-      {
-        "id": 18,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "职业词汇",
-        "question": "My uncle works on a boat. He is a ______.",
-        "options": [],
-        "answer": "fisherman",
-        "explanation": "在船上工作的人是渔民。"
-      },
-      {
-        "id": 19,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "个人兴趣",
-        "question": "I like swimming and doing ______.",
-        "options": [],
-        "answer": "kung fu",
-        "explanation": "练武术的固定表达是do kung fu。"
-      },
-      {
-        "id": 20,
-        "type": "matching",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "红灯停，不能走。固定表达是“at a red light”。",
+        "knowledge_point": "交通规则",
+        "options": [],
+        "question": "Don't go at a ______ light.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 17
+      },
+      {
+        "answer": "fisherman",
+        "difficulty": 2,
+        "explanation": "在船上工作并捕鱼的人是渔民，英文是 fisherman。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "My uncle works on a boat. He is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 18
+      },
+      {
+        "answer": "kung fu",
+        "difficulty": 2,
+        "explanation": "练武术的固定表达是 do kung fu。",
+        "knowledge_point": "个人兴趣",
+        "options": [],
+        "question": "I like swimming and doing ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 19
+      },
+      {
+        "answer": "A-3,B-4,C-2,D-1",
+        "difficulty": 1,
+        "explanation": "coach 表示“教练”，pilot 表示“飞行员”，factory worker 表示“工厂工人”，writer 表示“作家”。",
         "knowledge_point": "职业英汉配对",
-        "question": "请将单词与其对应的中文意思连线。",
         "options": [
           "coach",
           "pilot",
@@ -283,16 +281,16 @@
           "教练",
           "飞行员"
         ],
-        "answer": "A-3,B-4,C-2,D-1",
-        "explanation": "coach-教练, pilot-飞行员, factory worker-工厂工人, writer-作家。"
+        "question": "请将单词与其对应的中文意思连线：A. coach；B. pilot；C. factory worker；D. writer。1. 作家；2. 工厂工人；3. 教练；4. 飞行员。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
-        "score": 5,
+        "answer": "A-2，B-4，C-1，D-3",
         "difficulty": 2,
+        "explanation": "scared 意为“害怕的”，angry 意为“生气的”，worried 意为“担心的”，excited 意为“兴奋的”。",
         "knowledge_point": "情绪英汉配对",
-        "question": "请将情绪词汇与其对应的中文意思连线。",
         "options": [
           "scared",
           "angry",
@@ -303,40 +301,1807 @@
           "兴奋的",
           "生气的"
         ],
-        "answer": "A-2,B-4,C-1,D-3",
-        "explanation": "scared-害怕, angry-生气, worried-担心, excited-兴奋。"
+        "question": "请将情绪词汇与其对应的中文意思连线。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Wait at the light.",
         "difficulty": 1,
+        "explanation": "祈使句以动词原形 Wait 开头，at the light 表示“在信号灯处”。",
         "knowledge_point": "交通建议",
-        "question": "请将下列单词连成一句话：",
         "options": [
           "Wait",
           "the",
           "at",
           "light"
         ],
-        "answer": "Wait,at,the,light",
-        "explanation": "祈使句以动词原形开头，表示在灯前等待。"
+        "question": "请将下列单词连成一句话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
-        "score": 5,
+        "answer": "Where,are,we,going",
         "difficulty": 3,
+        "explanation": "特殊疑问句的语序是“疑问词 + be 动词 + 主语 + going?”，所以排列为 Where are we going?",
         "knowledge_point": "将来计划",
-        "question": "请将下列单词连成一句话：",
         "options": [
           "are",
           "Where",
           "we",
           "going"
         ],
-        "answer": "Where,are,we,going",
-        "explanation": "特殊疑问句语序：特殊疑问词 + be + 主语 + doing。"
+        "question": "请将下列单词连成一句话：",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "人物是故事中参与事件的角色。The Fox（狐狸）和 the Crow（乌鸦）都是故事人物。",
+        "knowledge_point": "寓言故事要素拆解与理解",
+        "options": [
+          "The forest",
+          "The cheese",
+          "The Fox and the Crow",
+          "One morning"
+        ],
+        "question": "Read the story: “One morning, a Crow found a piece of cheese. A Fox wanted it, so he praised the Crow’s voice. The Crow opened her beak to sing, and the cheese fell. The Fox took it.” Who are the characters?",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "狐狸夸奖乌鸦，是为了让乌鸦张嘴唱歌，好让奶酪掉下来。这是故事中的问题和狐狸的目的。",
+        "knowledge_point": "寓言故事要素拆解与理解",
+        "options": [
+          "He wanted to teach the Crow a song.",
+          "He wanted to get the cheese.",
+          "He wanted to build a nest.",
+          "He wanted to leave the forest."
+        ],
+        "question": "In the story about the Fox and the Crow, why did the Fox praise the Crow?",
+        "score": 1,
+        "type": "choice",
+        "id": 25
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "乌鸦一张嘴唱歌，奶酪就掉了，狐狸最终拿到了奶酪。判断寓言情节时，要关注行为带来的结果。",
+        "knowledge_point": "寓言故事要素拆解与理解",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "In the story about the Fox and the Crow, the cheese fell when the Crow opened her beak.",
+        "score": 1,
+        "type": "true_false",
+        "id": 26
+      },
+      {
+        "answer": "flattery",
+        "difficulty": 2,
+        "explanation": "狐狸利用赞美让乌鸦放松警惕并张嘴唱歌，因此故事提醒我们不要轻信奉承。flattery 意为“奉承、谄媚”。",
+        "knowledge_point": "寓言故事要素拆解与理解",
+        "options": [],
+        "question": "Complete the sentence with one word: The Fox and the Crow teaches us to be careful of ________.（狐狸和乌鸦的故事告诉我们要小心________。）",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 27
+      },
+      {
+        "answer": "The Ant and the Grasshopper",
+        "difficulty": 2,
+        "explanation": "蚂蚁提前储存食物，蚱蜢却只顾玩耍；冬天到来后，蚱蜢没有食物。因此故事强调提前准备的重要性。",
+        "knowledge_point": "寓言故事要素拆解与理解",
+        "options": [
+          "The Ant and the Grasshopper",
+          "The Fox and the Crow",
+          "The Lion and the Mouse",
+          "The Tortoise and the Hare"
+        ],
+        "question": "An Ant stores food for winter, but a Grasshopper spends the summer singing and playing. When winter comes, the Grasshopper has no food. Which lesson best fits this fable?",
+        "score": 1,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "The Tortoise wins the race because he keeps going steadily, while the Hare stops to rest. The story teaches us not to be overconfident and to keep trying.",
+        "difficulty": 3,
+        "explanation": "答案按事件顺序概括：兔子停下休息，乌龟坚持前进，最终乌龟获胜；寓意从两者的行为和结果中得出。只写“乌龟赢了”还没有说明原因和道理。",
+        "knowledge_point": "寓言故事要素拆解与理解",
+        "options": [],
+        "question": "A Hare laughs at a slow Tortoise and challenges him to a race. The Hare runs ahead, then stops to rest. The Tortoise keeps moving and reaches the finish first. In English, briefly explain why the Tortoise wins and what lesson the story teaches.",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "询问对方来自哪里，常用“Where are you from?”，回答可用“I’m from …”。",
+        "knowledge_point": "综合语言功能句型总结",
+        "options": [
+          "What are you from?",
+          "Where are you from?",
+          "Who are you from?",
+          "When are you from?"
+        ],
+        "question": "你想问新同学“你来自哪里？”，应该说：",
+        "score": 1,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "Can you help me?",
+        "difficulty": 1,
+        "explanation": "向别人礼貌地询问能否帮忙，可以用“Can you help me?”。",
+        "knowledge_point": "综合语言功能句型总结",
+        "options": [],
+        "question": "请用英语写出“你能帮帮我吗？”。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "建议一起去公园可以说“Let’s go to the park.”。Let’s后接动词原形。",
+        "knowledge_point": "综合语言功能句型总结",
+        "options": [
+          "Let’s going to the park.",
+          "Let’s go to the park.",
+          "Let’s goes to the park.",
+          "Let’s to go to the park."
+        ],
+        "question": "选择合适的句子表达“我们去公园吧”。",
+        "score": 1,
+        "type": "choice",
+        "id": 32
+      },
+      {
+        "answer": "What does your sister like?",
+        "difficulty": 2,
+        "explanation": "询问第三人称单数“喜欢什么”，用“What does + 主语 + like?”；助动词does后用动词原形like。",
+        "knowledge_point": "综合语言功能句型总结",
+        "options": [],
+        "question": "根据答句补全问句：She likes drawing. ________",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "询问过去某个时间做了什么，应使用一般过去时：“What did you do yesterday?”。did后接动词原形do。",
+        "knowledge_point": "综合语言功能句型总结",
+        "options": [
+          "What did you do yesterday?",
+          "What do you did yesterday?",
+          "What are you do yesterday?",
+          "What does you do yesterday?"
+        ],
+        "question": "你想问朋友“你昨天做了什么？”，选择正确句子。",
+        "score": 1,
+        "type": "choice",
+        "id": 34
+      },
+      {
+        "answer": "Would you like some milk?",
+        "difficulty": 3,
+        "explanation": "提供饮品时可以用“Would you like some …?”，表示礼貌询问。肯定回答可说“Yes, please.”，婉拒可说“No, thank you.”。",
+        "knowledge_point": "综合语言功能句型总结",
+        "options": [],
+        "question": "请用英语写出“你想要一些牛奶吗？”。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "降调",
+        "difficulty": 1,
+        "explanation": "陈述句通常在句尾降调。朗读时声音自然落下，不需要把每个词都读得同样重。",
+        "knowledge_point": "语音语调与连读技巧",
+        "options": [
+          "升调",
+          "降调",
+          "先降后升",
+          "保持完全平调"
+        ],
+        "question": "朗读陈述句 “I like my new book.” 时，句尾通常用什么语调？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "升调",
+        "difficulty": 1,
+        "explanation": "一般疑问句通常用升调，句尾声音略微上扬，例如 “Are you ready?”。",
+        "knowledge_point": "语音语调与连读技巧",
+        "options": [
+          "升调",
+          "降调",
+          "只能平调",
+          "句尾停顿但不发声"
+        ],
+        "question": "朗读一般疑问句 “Do you have a pencil?” 时，句尾通常用什么语调？",
+        "score": 1,
+        "type": "choice",
+        "id": 37
+      },
+      {
+        "answer": "降调",
+        "difficulty": 2,
+        "explanation": "特殊疑问句通常用降调。句子由 where 提问，句尾 “school” 通常自然落下。",
+        "knowledge_point": "语音语调与连读技巧",
+        "options": [
+          "升调",
+          "降调",
+          "每个词都升调",
+          "完全不需要语调变化"
+        ],
+        "question": "朗读 “Where is your school?” 时，句尾通常用什么语调？",
+        "score": 1,
+        "type": "choice",
+        "id": 38
+      },
+      {
+        "answer": "连读",
+        "difficulty": 1,
+        "explanation": "look 以辅音 /k/ 结尾，at 以元音 /æ/ 开头，朗读时常把两词自然衔接起来，这叫连读。",
+        "knowledge_point": "语音语调与连读技巧",
+        "options": [
+          "重读",
+          "连读",
+          "停顿",
+          "降调"
+        ],
+        "question": "朗读词组 “look at” 时，前词末尾的辅音和后词开头的元音自然衔接，这种现象叫什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 39
+      },
+      {
+        "answer": "元音",
+        "difficulty": 2,
+        "explanation": "常见连读发生在前一个词以辅音结尾、后一个词以元音开头时。连读时单词仍然保留，只是衔接更自然。",
+        "knowledge_point": "语音语调与连读技巧",
+        "options": [
+          "辅音",
+          "元音",
+          "标点符号",
+          "句子重音"
+        ],
+        "question": "在常见的辅音加元音连读中，后一个词通常以什么音开头？",
+        "score": 1,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "连读是把相邻的音自然衔接起来，不是把单词吞掉或省略。朗读 “pick it up” 时要让词语连贯，同时仍能听出原来的单词。",
+        "knowledge_point": "语音语调与连读技巧",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "判断正误：英语连读就是把相邻单词中的一个词省略不读。",
+        "score": 1,
+        "type": "true_false",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "How can I get to...? 用来询问“我怎样才能到达……？”，所以应选择“怎样到达”。",
+        "knowledge_point": "交通出行句型理解",
+        "options": [
+          "A. 我什么时候离开博物馆？",
+          "B. 我怎样才能到达博物馆？",
+          "C. 博物馆里有什么？",
+          "D. 博物馆离这里远吗？"
+        ],
+        "question": "“How can I get to the museum?”是什么意思？",
+        "score": 2,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "by bus",
+        "difficulty": 1,
+        "explanation": "表示乘坐公共汽车时，常用 by bus。",
+        "knowledge_point": "交通出行句型理解",
+        "options": [],
+        "question": "补全句子：I go to school ______.（我乘公共汽车去上学。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 43
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“步行”常说 on foot，不说 by foot。",
+        "knowledge_point": "交通出行句型理解",
+        "options": [],
+        "question": "“我步行去公园”可以说“I go to the park on foot.”",
+        "score": 2,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "题目询问怎样到达图书馆，回答需要给出路线指引；Go straight and turn left. 表示“直走，然后向左转”。",
+        "knowledge_point": "交通出行句型理解",
+        "options": [
+          "A. It is a big library.",
+          "B. Go straight and turn left.",
+          "C. I like reading books.",
+          "D. It is Monday."
+        ],
+        "question": "—How can I get to the library? —______",
+        "score": 2,
+        "type": "choice",
+        "id": 45
+      },
+      {
+        "answer": "Turn right.",
+        "difficulty": 2,
+        "explanation": "“向右转”用 Turn right. 表达。",
+        "knowledge_point": "交通出行句型理解",
+        "options": [],
+        "question": "根据中文提示补全句子：______ at the crossing.（在十字路口向右转。）",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 46
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "doctor 的意思是“医生”。",
+        "knowledge_point": "职业词汇理解",
+        "options": [
+          "A. 教师",
+          "B. 医生",
+          "C. 农民",
+          "D. 司机"
+        ],
+        "question": "doctor 的意思是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "teacher",
+        "difficulty": 1,
+        "explanation": "“教师”对应英文 teacher。",
+        "knowledge_point": "职业词汇理解",
+        "options": [],
+        "question": "“教师”用英语怎么说？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 48
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "farmer 的意思是“农民”，通常从事种植或养殖工作。",
+        "knowledge_point": "职业词汇理解",
+        "options": [],
+        "question": "farmer 的意思是“农民”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 49
+      },
+      {
+        "answer": "cook",
+        "difficulty": 2,
+        "explanation": "“厨师”是 cook；driver 是司机。",
+        "knowledge_point": "职业词汇理解",
+        "options": [],
+        "question": "在餐馆里做饭的厨师是 a ______.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "scientist",
+        "difficulty": 2,
+        "explanation": "scientist 的意思是“科学家”，通常从事科学研究。",
+        "knowledge_point": "职业词汇理解",
+        "options": [],
+        "question": "“科学家”用英语怎么说？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 51
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "Characters 是故事中参与事件的人物或动物；故事想告诉读者的道理是 Moral。",
+        "knowledge_point": "寓言故事要素",
+        "options": [
+          "A. 故事发生的地点",
+          "B. 故事中的人物或动物",
+          "C. 故事的寓意",
+          "D. 故事发生的时间"
+        ],
+        "question": "“Characters” 在故事要素中指什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 52
+      },
+      {
+        "answer": "Moral",
+        "difficulty": 1,
+        "explanation": "Moral 指寓言故事表达的道理或教训。",
+        "knowledge_point": "寓言故事要素",
+        "options": [],
+        "question": "寓言故事想告诉读者的道理或教训叫作 ______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "故事发生的地点和环境属于 Setting；Plot 指故事中发生的事件及其发展。",
+        "knowledge_point": "寓言故事要素",
+        "options": [
+          "A. Characters",
+          "B. Setting",
+          "C. Plot",
+          "D. Moral"
+        ],
+        "question": "“一只乌鸦站在树枝上”主要交代了哪个故事要素？",
+        "score": 2,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "狐狸想吃葡萄，但够不到；它离开时说葡萄是酸的。寓意是：得不到的东西，有时会被说成不好。",
+        "difficulty": 2,
+        "explanation": "狐狸是角色，葡萄园是背景，狐狸尝试摘葡萄又放弃是情节；从它的言行可以推断出寓意。",
+        "knowledge_point": "寓言故事要素",
+        "options": [],
+        "question": "一只狐狸在葡萄园里看见一串葡萄，跳了好几次也够不到。它离开时说：“那些葡萄一定是酸的。”请写出故事的主要情节和寓意。",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 55
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "故事发生的事件及其先后发展构成 Plot。角色是 Characters，地点或环境是 Setting，道理是 Moral。",
+        "knowledge_point": "寓言故事要素",
+        "options": [
+          "A. Characters",
+          "B. Setting",
+          "C. Plot",
+          "D. Moral"
+        ],
+        "question": "故事中“发生了什么事”以及事件怎样发展，主要属于哪个要素？",
+        "score": 2,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "pick 末尾是辅音音素 /k/，it 开头是元音音素 /ɪ/，两词通常可以连起来读。",
+        "knowledge_point": "连读技巧",
+        "options": [],
+        "question": "朗读 'Pick it up' 时，pick 和 it 之间通常可以连读。",
+        "score": 2,
+        "type": "true_false",
+        "id": 57
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "take 末尾的辅音音素 /k/ 与 it 开头的元音音素 /ɪ/ 相邻，通常自然衔接。",
+        "knowledge_point": "连读技巧",
+        "options": [],
+        "question": "在 'Take it easy' 中，take 和 it 之间通常可以连读。",
+        "score": 2,
+        "type": "true_false",
+        "id": 58
+      },
+      {
+        "answer": "元音",
+        "difficulty": 1,
+        "explanation": "常见连读情况是前一个词以辅音音素结尾，后一个词以元音音素开头。",
+        "knowledge_point": "连读技巧",
+        "options": [],
+        "question": "连读时，如果前一个词以辅音音素结尾，后一个词通常以____音素开头。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "go 和 home 之间是元音音素 /əʊ/ 与辅音音素 /h/ 相邻，不属于常见的“前词末尾辅音、后词开头元音”连读情况。",
+        "knowledge_point": "连读技巧",
+        "options": [],
+        "question": "在 'Go home' 中，go 和 home 通常属于辅音加元音的连读。",
+        "score": 2,
+        "type": "true_false",
+        "id": 60
+      },
+      {
+        "answer": "C",
+        "difficulty": 3,
+        "explanation": "look 以辅音音素 /k/ 结尾，at 以元音音素 /æ/ 开头，因此两词通常可以自然连读。",
+        "knowledge_point": "连读技巧",
+        "options": [
+          "A. sit down",
+          "B. go home",
+          "C. look at",
+          "D. good boy"
+        ],
+        "question": "下面哪一组词最符合常见的辅音加元音连读条件？",
+        "score": 2,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "Hungry 表示“饿的”，thirsty 表示“渴的”。想喝水说明口渴了。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "A. hungry",
+          "B. thirsty",
+          "C. tired",
+          "D. angry"
+        ],
+        "question": "I want to drink some water. I feel ____.",
+        "score": 2,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "“图书馆”是 library；bookstore 是书店，classroom 是教室，playground 是操场。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "A. library",
+          "B. bookstore",
+          "C. classroom",
+          "D. playground"
+        ],
+        "question": "We can read or borrow books in a ____.",
+        "score": 2,
+        "type": "choice",
+        "id": 63
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "Tall 通常表示人或物“高的”；人“年纪大的”通常说 old。",
+        "knowledge_point": "词义辨析",
+        "options": [],
+        "question": "“Tall”和“old”的意思相同，都表示“年纪大的”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 64
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "The weather is cold 说明天气冷，因此穿上外套是合适的。Hot 是“热的”，sunny 是“晴朗的”，windy 是“有风的”。",
+        "knowledge_point": "词义辨析",
+        "options": [
+          "A. hot",
+          "B. sunny",
+          "C. cold",
+          "D. windy"
+        ],
+        "question": "The weather is ____. Please put on your coat.",
+        "score": 2,
+        "type": "choice",
+        "id": 65
+      },
+      {
+        "answer": "excited",
+        "difficulty": 2,
+        "explanation": "看到期待已久的礼物后感到“兴奋的”，可以用 excited；bored 是“无聊的”，worried 是“担心的”。",
+        "knowledge_point": "词义辨析",
+        "options": [],
+        "question": "填入合适的单词：I got the toy I wanted. I felt very ____.",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 66
+      },
+      {
+        "answer": "How are you?",
+        "difficulty": 1,
+        "explanation": "问候并询问对方近况，常用“How are you?”，答语可以是“I’m fine.”。",
+        "knowledge_point": "近况询问常用语",
+        "options": [
+          "How are you?",
+          "How old are you?",
+          "What are you?",
+          "Where are you?"
+        ],
+        "question": "想问同学“你近来好吗？”，应选择哪一句？",
+        "score": 5,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "feel",
+        "difficulty": 1,
+        "explanation": "助动词do后接动词原形，因此应填feel。",
+        "knowledge_point": "近况询问常用语",
+        "options": [],
+        "question": "How do you ______ today?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 68
+      },
+      {
+        "answer": "I feel happy.",
+        "difficulty": 2,
+        "explanation": "“How do you feel?”询问感受，可以用“I feel + 形容词”回答。",
+        "knowledge_point": "近况询问常用语",
+        "options": [
+          "I feel happy.",
+          "I am six.",
+          "I like apples.",
+          "I go to school."
+        ],
+        "question": "别人问“How do you feel?”，你想回答“我感觉很开心。”应选哪一句？",
+        "score": 5,
+        "type": "choice",
+        "id": 69
+      },
+      {
+        "answer": "How is she?",
+        "difficulty": 2,
+        "explanation": "询问第三人称女性近况时用“How is she?”，be动词is与she搭配。",
+        "knowledge_point": "近况询问常用语",
+        "options": [],
+        "question": "根据提示写出问句：她近来好吗？（she）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "“How are you?”是询问对方近况的常用表达，回答可以是“I’m fine, thank you.”。",
+        "knowledge_point": "近况询问常用语",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“How are you?”可以用来询问对方近况。",
+        "score": 5,
+        "type": "true_false",
+        "id": 71
+      },
+      {
+        "answer": "Why not ask",
+        "difficulty": 1,
+        "explanation": "Why not 后面接动词原形，ask your teacher 意为“问问你的老师”。",
+        "knowledge_point": "建议引导词",
+        "options": [],
+        "question": "用括号中单词的正确形式填空：______ your teacher for help? (ask)",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 72
+      },
+      {
+        "answer": "T",
+        "difficulty": 1,
+        "explanation": "had better 后面接动词原形，句中的 see 使用正确。",
+        "knowledge_point": "建议引导词",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：You’d better see a doctor if you feel ill.",
+        "score": 5,
+        "type": "true_false",
+        "id": 73
+      },
+      {
+        "answer": "Let’s",
+        "difficulty": 2,
+        "explanation": "Let’s 后接动词原形，Let’s read books together 表示“我们一起读书吧”。",
+        "knowledge_point": "建议引导词",
+        "options": [],
+        "question": "______ read books together after school.（我们放学后一起读书吧。）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 74
+      },
+      {
+        "answer": "drink",
+        "difficulty": 2,
+        "explanation": "祈使句表示建议或指示时，通常以动词原形开头，所以用 Drink。",
+        "knowledge_point": "建议引导词",
+        "options": [
+          "Drinks",
+          "Drinking",
+          "Drink",
+          "Drank"
+        ],
+        "question": "It’s hot outside. ______ some water, please.",
+        "score": 5,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "Don’t run",
+        "difficulty": 2,
+        "explanation": "否定祈使句的结构是 Don’t + 动词原形，因此填 Don’t run。",
+        "knowledge_point": "建议引导词",
+        "options": [],
+        "question": "在图书馆里不要跑。______ in the library. (run)",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 76
+      },
+      {
+        "answer": "on foot",
+        "difficulty": 1,
+        "explanation": "步行的固定表达是 on foot，不能说 by foot。",
+        "knowledge_point": "场所及交通方式配套",
+        "options": [
+          "by foot",
+          "on foot",
+          "by bus",
+          "with foot"
+        ],
+        "question": "The school is near my home. I can go there ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 77
+      },
+      {
+        "answer": "by bike",
+        "difficulty": 1,
+        "explanation": "骑自行车可以说 by bike。",
+        "knowledge_point": "场所及交通方式配套",
+        "options": [
+          "by train",
+          "by bike",
+          "by subway",
+          "on foot"
+        ],
+        "question": "Tom rides his bicycle to the park. He goes there ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "How",
+        "difficulty": 2,
+        "explanation": "询问怎样去某地，用 How 开头：How do you go to the library?",
+        "knowledge_point": "场所及交通方式配套",
+        "options": [
+          "Where",
+          "When",
+          "How",
+          "Who"
+        ],
+        "question": "—______ do you go to the library? —I go there by bus.",
+        "score": 5,
+        "type": "choice",
+        "id": 79
+      },
+      {
+        "answer": "by train",
+        "difficulty": 2,
+        "explanation": "乘火车去远处的城市，可以说 go there by train。",
+        "knowledge_point": "场所及交通方式配套",
+        "options": [
+          "on foot",
+          "by bike",
+          "by train",
+          "by boat"
+        ],
+        "question": "The city is far away. We can go there ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 80
+      },
+      {
+        "answer": "by subway",
+        "difficulty": 2,
+        "explanation": "乘地铁去市图书馆可以说 go to the city library by subway。",
+        "knowledge_point": "场所及交通方式配套",
+        "options": [
+          "by subway",
+          "on foot",
+          "by bike",
+          "by ship"
+        ],
+        "question": "Amy lives far from the city library. She can go there ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "Excuse me",
+        "difficulty": 1,
+        "explanation": "Excuse me. 常用于礼貌地引起他人注意或开始问路。",
+        "knowledge_point": "综合问路表达",
+        "options": [],
+        "question": "问路前可以说“__________.”，表示“打扰一下”。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 82
+      },
+      {
+        "answer": "Where is the library?",
+        "difficulty": 2,
+        "explanation": "Where is the ...? 用来询问某个地点在哪里。",
+        "knowledge_point": "综合问路表达",
+        "options": [],
+        "question": "请用英语写出“图书馆在哪里？”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 83
+      },
+      {
+        "answer": "Turn left.",
+        "difficulty": 2,
+        "explanation": "Turn left. 表示“向左转”，是常用的指路表达。",
+        "knowledge_point": "综合问路表达",
+        "options": [
+          "Go straight.",
+          "Turn left.",
+          "Turn right.",
+          "Stop here."
+        ],
+        "question": "“向左转。”用英语怎么说？",
+        "score": 5,
+        "type": "choice",
+        "id": 84
+      },
+      {
+        "answer": "across from",
+        "difficulty": 2,
+        "explanation": "across from 表示“在……对面”。",
+        "knowledge_point": "综合问路表达",
+        "options": [
+          "next to",
+          "across from",
+          "between",
+          "behind"
+        ],
+        "question": "The cinema is ______ the park. It is on the other side of the street.",
+        "score": 5,
+        "type": "choice",
+        "id": 85
+      },
+      {
+        "answer": "Go straight and turn right at the bookstore.",
+        "difficulty": 3,
+        "explanation": "Go straight 表示“直走”，turn right 表示“向右转”，at the bookstore 表示“在书店处”。这些短语按顺序组成清楚的指路语句。",
+        "knowledge_point": "综合问路表达",
+        "options": [],
+        "question": "请根据提示组成一句指路语：直走，然后在书店向右转。（Go straight / turn right / at the bookstore）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "寓言故事常通过角色的经历或行为告诉读者一个道理。",
+        "knowledge_point": "寓言故事理解",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "A fable often teaches us a lesson.",
+        "score": 5,
+        "type": "true_false",
+        "id": 87
+      },
+      {
+        "answer": "the lesson",
+        "difficulty": 1,
+        "explanation": "“寓意”就是故事想告诉我们的道理，也可以用“the lesson”表达。",
+        "knowledge_point": "寓言故事理解",
+        "options": [],
+        "question": "A fable teaches us a ______.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 88
+      },
+      {
+        "answer": "help",
+        "difficulty": 2,
+        "explanation": "句意是“我们应该帮助有困难的人”。should后接动词原形，因此填help。",
+        "knowledge_point": "寓言故事理解",
+        "options": [],
+        "question": "We should ______ people in need.",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 89
+      },
+      {
+        "answer": "He did not listen to advice.",
+        "difficulty": 2,
+        "explanation": "故事中，那个男孩没有听取建议，结果遇到了麻烦。这说明我们应当认真听取有益的建议。",
+        "knowledge_point": "寓言故事理解",
+        "options": [],
+        "question": "A boy ignored his friends’ advice and got into trouble. What did the boy do before he got into trouble?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 90
+      },
+      {
+        "answer": "be kind and helpful",
+        "difficulty": 3,
+        "explanation": "小鸟帮助受伤的兔子，体现了友善和乐于助人。概括寓意时要从角色的行为中总结道理。",
+        "knowledge_point": "寓言故事理解",
+        "options": [
+          "be kind and helpful",
+          "keep everything for yourself",
+          "never talk to anyone",
+          "be afraid of animals"
+        ],
+        "question": "A little bird shares food with a hungry rabbit. What lesson does the story most likely teach?",
+        "score": 5,
+        "type": "choice",
+        "id": 91
+      },
+      {
+        "answer": "library",
+        "difficulty": 1,
+        "explanation": "问句中的 Where 询问地点。图书馆是读书的地方，因此选 library。",
+        "knowledge_point": "句意选择",
+        "options": [
+          "library",
+          "Monday",
+          "teacher",
+          "happy"
+        ],
+        "question": "Where can you read many books? You can read them in the ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 92
+      },
+      {
+        "answer": "rainy",
+        "difficulty": 1,
+        "explanation": "句意是“今天在下雨，所以你应该带一把雨伞”。rainy 表示“下雨的”，与带伞的情境相符。",
+        "knowledge_point": "句意选择",
+        "options": [
+          "sunny",
+          "rainy",
+          "windy",
+          "cloudy"
+        ],
+        "question": "It is ______ today. Take an umbrella with you.",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "by bus",
+        "difficulty": 2,
+        "explanation": "问句中的 How 询问方式。by bus 表示“乘公共汽车”，是表示出行方式的回答。",
+        "knowledge_point": "句意选择",
+        "options": [
+          "at seven",
+          "by bus",
+          "in the park",
+          "my brother"
+        ],
+        "question": "How do you go to school? I go to school ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 94
+      },
+      {
+        "answer": "because",
+        "difficulty": 2,
+        "explanation": "答句说明了喜欢春天的原因，因此用 because（因为）连接原因。",
+        "knowledge_point": "句意选择",
+        "options": [
+          "but",
+          "because",
+          "or",
+          "so"
+        ],
+        "question": "Why do you like spring? ______ it is warm and beautiful.",
+        "score": 5,
+        "type": "choice",
+        "id": 95
+      },
+      {
+        "answer": "water",
+        "difficulty": 2,
+        "explanation": "句意是“运动后我很渴，所以我喝一些水”。water（水）符合“口渴”这一语境。",
+        "knowledge_point": "句意选择",
+        "options": [
+          "water",
+          "bread",
+          "rice",
+          "meat"
+        ],
+        "question": "I am thirsty after playing football. I want to drink some ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "I am going to read a book tonight.",
+        "difficulty": 1,
+        "explanation": "主语是I，be动词用am；be going to后接动词原形read。",
+        "knowledge_point": "打算与计划",
+        "options": [
+          "I am going to read a book tonight.",
+          "I is going to read a book tonight.",
+          "I are going to read a book tonight.",
+          "I am going read a book tonight."
+        ],
+        "question": "Which sentence is correct?",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "Are",
+        "difficulty": 2,
+        "explanation": "一般疑问句要把be动词放在主语前；主语you对应are。",
+        "knowledge_point": "打算与计划",
+        "options": [
+          "Are",
+          "Is",
+          "Am",
+          "Be"
+        ],
+        "question": "______ they going to play football after school?",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 98
+      },
+      {
+        "answer": "is going to",
+        "difficulty": 2,
+        "explanation": "主语Lucy是第三人称单数，be动词用is；be going to后接动词原形visit。",
+        "knowledge_point": "打算与计划",
+        "options": [],
+        "question": "Lucy ______ ______ ______ her aunt tomorrow.（打算去看望）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 99
+      },
+      {
+        "answer": "No, he isn't.",
+        "difficulty": 2,
+        "explanation": "问句主语是he，简短否定回答用“No, he isn't.”。",
+        "knowledge_point": "打算与计划",
+        "options": [
+          "Yes, he is.",
+          "No, he isn't.",
+          "No, he aren't.",
+          "Yes, he isn't."
+        ],
+        "question": "“Is Tom going to swim today?” “______, ______ ______.”",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "are going to",
+        "difficulty": 3,
+        "explanation": "主语we对应are；be going to后接动词原形have。",
+        "knowledge_point": "打算与计划",
+        "options": [],
+        "question": "把句子补完整：We ______ ______ ______ a picnic on Sunday.（打算去野餐）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "She likes swimming.",
+        "difficulty": 1,
+        "explanation": "主语 She 是第三人称单数，like 要变为 likes；表示爱好的动作 swim 用动词-ing形式 swimming。",
+        "knowledge_point": "爱好表达",
+        "options": [],
+        "question": "用 swim 和 like 写一句话，表达“她喜欢游泳”。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 102
+      },
+      {
+        "answer": "T",
+        "difficulty": 1,
+        "explanation": "表达“我喜欢画画”可以说“I like drawing.”，like 后接动词-ing形式。",
+        "knowledge_point": "爱好表达",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "“我喜欢画画”可以说“I like drawing.”。",
+        "score": 5,
+        "type": "true_false",
+        "id": 103
+      },
+      {
+        "answer": "playing",
+        "difficulty": 2,
+        "explanation": "like 后接表示爱好的动作时，常用动词-ing形式，因此 play 要变为 playing。",
+        "knowledge_point": "爱好表达",
+        "options": [],
+        "question": "I like ______ basketball after school.（play）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 104
+      },
+      {
+        "answer": "His hobby is collecting stamps.",
+        "difficulty": 2,
+        "explanation": "“他的爱好是……”可以用“His hobby is ...”表达；collect 表示动作时可用 collecting。",
+        "knowledge_point": "爱好表达",
+        "options": [],
+        "question": "根据提示写句子：他的爱好是集邮。（collect stamps）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "likes",
+        "difficulty": 2,
+        "explanation": "My sister 是第三人称单数，主句中的 like 要加-s，写成 likes。",
+        "knowledge_point": "爱好表达",
+        "options": [],
+        "question": "My sister ______ reading books.（like）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 106
+      },
+      {
+        "answer": "happy",
+        "difficulty": 1,
+        "explanation": "收到生日礼物通常会感到开心，happy 意为“开心的”。",
+        "knowledge_point": "情绪识别",
+        "options": [
+          "angry",
+          "afraid",
+          "happy",
+          "sad"
+        ],
+        "question": "You get a lovely birthday present. You feel ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 107
+      },
+      {
+        "answer": "worried",
+        "difficulty": 2,
+        "explanation": "考试前担心自己能否做好，通常会感到 worried，意思是“担心的”。",
+        "knowledge_point": "情绪识别",
+        "options": [
+          "excited",
+          "worried",
+          "happy",
+          "tired"
+        ],
+        "question": "You have a big test tomorrow, and you are not ready. You feel ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 108
+      },
+      {
+        "answer": "afraid",
+        "difficulty": 2,
+        "explanation": "一个人在黑暗的房间里听到奇怪的声音，可能会感到害怕。afraid 意为“害怕的”。",
+        "knowledge_point": "情绪识别",
+        "options": [
+          "afraid",
+          "proud",
+          "relaxed",
+          "happy"
+        ],
+        "question": "You are alone in a dark room and hear a strange noise. You feel ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 109
+      },
+      {
+        "answer": "angry",
+        "difficulty": 2,
+        "explanation": "别人拿走了你的东西而没有询问，你可能会感到生气。angry 意为“生气的”。",
+        "knowledge_point": "情绪识别",
+        "options": [
+          "sad",
+          "excited",
+          "angry",
+          "sleepy"
+        ],
+        "question": "Someone takes your book without asking. You feel ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 110
+      },
+      {
+        "answer": "excited",
+        "difficulty": 1,
+        "explanation": "马上要去期待已久的旅行，通常会感到兴奋。excited 意为“兴奋的”。",
+        "knowledge_point": "情绪识别",
+        "options": [
+          "tired",
+          "excited",
+          "worried",
+          "angry"
+        ],
+        "question": "You are going on a trip you have been waiting for. You feel ______.",
+        "score": 5,
+        "type": "choice",
+        "id": 111
+      },
+      {
+        "answer": "Then,",
+        "difficulty": 1,
+        "explanation": "Then 表示接下来的步骤，放在句首时常在逗号处稍作停顿。",
+        "knowledge_point": "语音与停顿",
+        "options": [],
+        "question": "Fill in the blank: ______, we wash our hands before lunch.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "逗号处通常稍作停顿，帮助听者分清句子的层次。",
+        "knowledge_point": "语音与停顿",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "True or False: When reading aloud, we usually pause briefly at a comma.",
+        "score": 5,
+        "type": "true_false",
+        "id": 113
+      },
+      {
+        "answer": "I want to read a book.",
+        "difficulty": 2,
+        "explanation": "“want to read a book”是意思紧密相连的部分，不应在“want”和“to”之间随意停顿。选项A没有在紧密相连的词组中间标出停顿；其他选项分别在不自然的位置标出了停顿。",
+        "knowledge_point": "语音与停顿",
+        "options": [
+          "I want to read a book.",
+          "I want / to read a book.",
+          "I want to read / a book.",
+          "I want to / read a book."
+        ],
+        "question": "朗读句子“I want to read a book.”时，哪种停顿方式最自然？符号“/”表示稍作停顿。",
+        "score": 5,
+        "type": "choice",
+        "id": 114
+      },
+      {
+        "answer": "First, / we go to school. / Then, / we have class.",
+        "difficulty": 2,
+        "explanation": "First 和 Then 后的逗号可以提示轻微停顿；两个完整的小句之间也可以稍作停顿。",
+        "knowledge_point": "语音与停顿",
+        "options": [],
+        "question": "Add slashes (/) to show natural pauses: First, we go to school. Then, we have class.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "Turn left at the light.",
+        "difficulty": 2,
+        "explanation": "Turn left 和 at the light 都是紧密相连的词组，通常不在词组内部停顿。",
+        "knowledge_point": "语音与停顿",
+        "options": [
+          "Turn V left at the light.",
+          "Turn left V at the light.",
+          "Turn left at V the light.",
+          "Turn left at the light."
+        ],
+        "question": "Which option reads the instruction most naturally, with no unnecessary pause (V)?",
+        "score": 5,
+        "type": "choice",
+        "id": 116
+      },
+      {
+        "answer": "Hello",
+        "difficulty": 1,
+        "explanation": "Hello是常见的打招呼用语，可用于一天中的不同时间。",
+        "knowledge_point": "问候基本功",
+        "options": [
+          "Goodbye",
+          "Hello",
+          "Sorry",
+          "Thanks"
+        ],
+        "question": "Which word can you use to greet your friend?",
+        "score": 5,
+        "type": "choice",
+        "id": 117
+      },
+      {
+        "answer": "Good morning",
+        "difficulty": 1,
+        "explanation": "上午见面时可以说Good morning，表示“早上好”。",
+        "knowledge_point": "问候基本功",
+        "options": [],
+        "question": "It is 8:00 a.m. You meet your teacher. You can say, “________!”",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 118
+      },
+      {
+        "answer": "Thank you. And you?",
+        "difficulty": 2,
+        "explanation": "别人问“How are you?”时，可以先回答自己的情况，再礼貌地反问对方。",
+        "knowledge_point": "问候基本功",
+        "options": [],
+        "question": "A: How are you?  B: I’m fine, ________. ________?",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "Nice to meet you, too.",
+        "difficulty": 2,
+        "explanation": "对方说“Nice to meet you.”时，常回答“Nice to meet you, too.”，表示“我也很高兴认识你”。",
+        "knowledge_point": "问候基本功",
+        "options": [],
+        "question": "A: Nice to meet you.  B: ________",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "False",
+        "difficulty": 1,
+        "explanation": "Goodbye用于告别，不是问候；见面打招呼可以说Hello或Hi。",
+        "knowledge_point": "问候基本功",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "“Goodbye” is a greeting you use when you meet someone.（判断正误）",
+        "score": 5,
+        "type": "true_false",
+        "id": 121
+      },
+      {
+        "answer": "green",
+        "difficulty": 1,
+        "explanation": "绿灯亮时可以通行。此处需要填表示“绿色”的 green。",
+        "knowledge_point": "交通规则",
+        "options": [],
+        "question": "You can go at a ______ light.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 122
+      },
+      {
+        "answer": "crosswalk",
+        "difficulty": 2,
+        "explanation": "crosswalk 意为“人行横道”。过马路应走人行横道。",
+        "knowledge_point": "交通规则",
+        "options": [],
+        "question": "Cross the street at the ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "mustn't",
+        "difficulty": 2,
+        "explanation": "mustn't 表示“禁止、不能”。交通规则要求不能在马路上玩耍。",
+        "knowledge_point": "交通规则",
+        "options": [],
+        "question": "We ______ play on the street.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 124
+      },
+      {
+        "answer": "helmet",
+        "difficulty": 2,
+        "explanation": "helmet 意为“头盔”。骑自行车时戴头盔能帮助保护头部。",
+        "knowledge_point": "交通规则",
+        "options": [],
+        "question": "Wear a ______ when you ride a bike.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "Stop and wait.",
+        "difficulty": 3,
+        "explanation": "看到红灯时应停下来等待，可以说“Stop and wait.”",
+        "knowledge_point": "交通规则",
+        "options": [],
+        "question": "What should you do at a red light? ______",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 126
+      },
+      {
+        "answer": "teacher",
+        "difficulty": 1,
+        "explanation": "教学生的人是教师，英文是 teacher。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "A person who teaches students is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 127
+      },
+      {
+        "answer": "doctor",
+        "difficulty": 1,
+        "explanation": "医生帮助病人看病，英文是 doctor。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "A person who helps sick people is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "driver",
+        "difficulty": 1,
+        "explanation": "开车运送乘客或货物的人是司机，英文是 driver。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "My father drives a bus. He is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "farmer",
+        "difficulty": 2,
+        "explanation": "在农场种植庄稼或饲养动物的人是农民，英文是 farmer。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "A person who grows crops on a farm is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "cook",
+        "difficulty": 2,
+        "explanation": "做饭的人是厨师，英文是 cook。",
+        "knowledge_point": "职业词汇",
+        "options": [],
+        "question": "She prepares meals in a restaurant. She is a ______.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 131
+      },
+      {
+        "answer": "What do you like doing?",
+        "difficulty": 1,
+        "explanation": "询问对方喜欢做什么，可以说“What do you like doing?”",
+        "knowledge_point": "个人兴趣",
+        "options": [],
+        "question": "补全句子：— ______? — I like reading books.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 132
+      },
+      {
+        "answer": "playing",
+        "difficulty": 1,
+        "explanation": "like 后面表示喜欢某项活动时，动词通常使用-ing形式，因此填 playing。",
+        "knowledge_point": "个人兴趣",
+        "options": [],
+        "question": "I like ______ football after school.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 133
+      },
+      {
+        "answer": "go",
+        "difficulty": 2,
+        "explanation": "“去游泳”常用 go swimming，空格处填 go。",
+        "knowledge_point": "个人兴趣",
+        "options": [],
+        "question": "My sister likes to ______ swimming on Sundays.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 134
+      },
+      {
+        "answer": "She likes dancing.",
+        "difficulty": 2,
+        "explanation": "主语 She 是第三人称单数，所以 like 要变为 likes；表达喜欢跳舞可用 likes dancing。",
+        "knowledge_point": "个人兴趣",
+        "options": [],
+        "question": "用括号中单词的正确形式补全句子：She ______ ______. (like, dance)",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 135
+      },
+      {
+        "answer": "playing basketball",
+        "difficulty": 2,
+        "explanation": "打篮球的常见搭配是 play basketball；接在 like 后表示兴趣时，play 变为 playing。",
+        "knowledge_point": "个人兴趣",
+        "options": [],
+        "question": "看图意补全句子：Tom likes ______ ______.（打篮球）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 136
+      },
+      {
+        "answer": "1. pilot；2. writer；3. coach",
+        "difficulty": 1,
+        "explanation": "pilot 是“飞行员”；writer 是“作家”；coach 是“教练”。",
+        "knowledge_point": "职业英汉配对",
+        "options": [],
+        "question": "根据中文写出英文：1. 飞行员：_____；2. 作家：_____；3. 教练：_____。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 137
+      },
+      {
+        "answer": "factory worker",
+        "difficulty": 1,
+        "explanation": "factory worker 的意思是“工厂工人”。",
+        "knowledge_point": "职业英汉配对",
+        "options": [],
+        "question": "“工厂工人”用英语怎么说？_____",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 138
+      },
+      {
+        "answer": "作家",
+        "difficulty": 1,
+        "explanation": "writer 表示“作家”或“作者”。",
+        "knowledge_point": "职业英汉配对",
+        "options": [],
+        "question": "writer 的中文意思是_____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 139
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "pilot 的意思是“飞行员”，所以选择 B。",
+        "knowledge_point": "职业英汉配对",
+        "options": [
+          "教练",
+          "飞行员",
+          "工厂工人",
+          "作家"
+        ],
+        "question": "pilot 的意思是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 140
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "factory worker 表示“工厂工人”，所以选择 B。",
+        "knowledge_point": "职业英汉配对",
+        "options": [
+          "作家",
+          "工厂工人",
+          "教练",
+          "飞行员"
+        ],
+        "question": "“工厂工人”对应哪个英文职业？",
+        "score": 2,
+        "type": "choice",
+        "id": 141
+      },
+      {
+        "answer": "B. 难过的",
+        "difficulty": 1,
+        "explanation": "sad 的意思是“难过的”；happy 是“开心的”，angry 是“生气的”。",
+        "knowledge_point": "情绪英汉配对",
+        "options": [
+          "A. 开心的",
+          "B. 难过的",
+          "C. 生气的"
+        ],
+        "question": "sad 的中文意思是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 142
+      },
+      {
+        "answer": "A. happy",
+        "difficulty": 1,
+        "explanation": "happy 意为“开心的”。",
+        "knowledge_point": "情绪英汉配对",
+        "options": [
+          "A. happy",
+          "B. scared",
+          "C. worried"
+        ],
+        "question": "“开心的”用英语怎么说？",
+        "score": 1,
+        "type": "choice",
+        "id": 143
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "worried 的意思是“担心的”。例如：I am worried about the test.（我担心这次考试。）",
+        "knowledge_point": "情绪英汉配对",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "判断正误：worried 的意思是“担心的”。",
+        "score": 1,
+        "type": "true_false",
+        "id": 144
+      },
+      {
+        "answer": "excited",
+        "difficulty": 2,
+        "explanation": "收到生日礼物感到兴奋，可以用 excited 表达。句子为：I feel excited.（我感到兴奋。）",
+        "knowledge_point": "情绪英汉配对",
+        "options": [],
+        "question": "填入合适的情绪词：I get a birthday present. I feel ________.（我收到生日礼物，感到很兴奋。）",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 145
+      },
+      {
+        "answer": "害怕的",
+        "difficulty": 2,
+        "explanation": "scared 表示“害怕的”。",
+        "knowledge_point": "情绪英汉配对",
+        "options": [],
+        "question": "scared 的中文意思是________。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 146
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "红灯时应停下等待，所以应选 Wait（等待）。",
+        "knowledge_point": "交通建议",
+        "options": [
+          "A. Run at the red light.",
+          "B. Wait at the red light.",
+          "C. Play at the red light.",
+          "D. Sleep at the red light."
+        ],
+        "question": "红灯亮时，我们应该怎么做？",
+        "score": 5,
+        "type": "choice",
+        "id": 147
+      },
+      {
+        "answer": "You should wear a helmet.",
+        "difficulty": 2,
+        "explanation": "You should 后接动词原形 wear，表示“你应该戴头盔”。",
+        "knowledge_point": "交通建议",
+        "options": [],
+        "question": "用 should 完成句子：骑自行车时，你应该戴头盔。You ______ wear a helmet when you ride a bike.",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 148
+      },
+      {
+        "answer": "Don’t run in the street.",
+        "difficulty": 2,
+        "explanation": "Don’t 后接动词原形 run，用来提醒对方不要在马路上跑。",
+        "knowledge_point": "交通建议",
+        "options": [],
+        "question": "将句子补充完整：Don’t ______ in the street.（不要在马路上跑。）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 149
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "过马路前左右看是安全建议；before crossing 意为“过马路之前”。",
+        "knowledge_point": "交通建议",
+        "options": [
+          "A. Look left and right before crossing.",
+          "B. Close your eyes before crossing.",
+          "C. Run across the street.",
+          "D. Play on the street."
+        ],
+        "question": "Which is a safe way to cross the street?",
+        "score": 5,
+        "type": "choice",
+        "id": 150
+      },
+      {
+        "answer": "Please cross at the crosswalk.",
+        "difficulty": 2,
+        "explanation": "Please 加在祈使句前可以使建议更礼貌；cross at the crosswalk 表示“在斑马线上过马路”。",
+        "knowledge_point": "交通建议",
+        "options": [],
+        "question": "把单词连成一句礼貌的交通建议：Please / cross / at / the / crosswalk",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 151
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "主语是 I，be 动词用 am；表示将来计划时用 am going to + 动词原形。",
+        "knowledge_point": "将来计划",
+        "options": [
+          "A. I is going to visit my grandma.",
+          "B. I am going to visit my grandma.",
+          "C. I are going to visit my grandma."
+        ],
+        "question": "选择正确的句子。",
+        "score": 5,
+        "type": "choice",
+        "id": 152
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "主语 Lily 是第三人称单数，因此用 is；be going to 后接动词原形 play。",
+        "knowledge_point": "将来计划",
+        "options": [],
+        "question": "Lily ___ going to play basketball tomorrow.（填 am、is 或 are）",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 153
+      },
+      {
+        "answer": "They are going to have a picnic this Sunday.",
+        "difficulty": 2,
+        "explanation": "主语 They 搭配 are；表达将来计划时，使用 are going to + 动词原形 have。",
+        "knowledge_point": "将来计划",
+        "options": [],
+        "question": "用括号内的词写一句话：They / have a picnic / this Sunday",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 154
+      },
+      {
+        "answer": "True",
+        "difficulty": 1,
+        "explanation": "主语 He 是第三人称单数，用 is；going to 后的 visit 是动词原形，因此句子正确。",
+        "knowledge_point": "将来计划",
+        "options": [
+          "True",
+          "False"
+        ],
+        "question": "判断正误：He is going to visit the museum tomorrow.",
+        "score": 5,
+        "type": "true_false",
+        "id": 155
+      },
+      {
+        "answer": "Where is Tom going?",
+        "difficulty": 2,
+        "explanation": "询问 Tom 将要去哪里，用 Where + is + 主语 + going? Tom 是单数，所以用 is。",
+        "knowledge_point": "将来计划",
+        "options": [],
+        "question": "根据提示写问句：Tom 将要去哪里？（Where / Tom / go）",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 156
       }
     ]
   },
@@ -711,6 +2476,294 @@
         "be going to 结构中丢掉 be 动词"
       ],
       "tips": "通过‘思维导图’将各单元的核心词汇和句型串联起来，进行整体复习。"
+    },
+    {
+      "common_mistakes": [
+        "只记住故事发生了什么，却没有找出人物为什么这样做。",
+        "把故事主题和故事情节混为一谈；主题通常可以用一句话概括故事告诉我们的道理。",
+        "认为寓言中的动物一定只代表动物，忽略它们可能象征不同的人或性格。"
+      ],
+      "core_concept": "寓言通常通过简短的故事和鲜明的人物，讲述一个道理。阅读时可以拆解故事要素：人物（或动物）、背景、事件经过、结果，以及故事的寓意。理解寓意时，要根据人物的行为和故事结果来推断，而不是只凭想象。",
+      "key_formula": "人物做了什么 → 事情如何发展 → 结果是什么 → 故事告诉我们什么道理",
+      "point": "寓言故事要素拆解与理解",
+      "tips": "读故事时可边读边问：Who is in the story? Where and when does it happen? What problem do they have? What do they do? What happens in the end? What can we learn from the story? 用故事里的具体行为和结果支持自己的答案。"
+    },
+    {
+      "common_mistakes": [
+        "忘记根据主语变化调整be动词或实义动词形式。",
+        "把一般疑问句的语序写成陈述句语序。",
+        "提问时间、地点、人物或原因时，疑问词与答句信息不匹配。",
+        "表达请求或建议时，忽略礼貌用语或句型中的动词原形。"
+      ],
+      "core_concept": "综合语言功能句型用于日常交际，常见功能包括问候与介绍、询问信息、表达喜好与能力、提出请求或建议、谈论计划与经历等。理解交际目的，再选择合适句型，并注意语序、动词形式和礼貌表达。",
+      "key_formula": "常用结构：What/Where/When/Who/Why/How + 一般疑问句语序？；Do/Does/Can/Are/Is + 主语 + 动词或其他成分？；Would you like to + 动词原形？；Let's + 动词原形。回答时根据问题类型给出相应信息。",
+      "point": "综合语言功能句型总结",
+      "tips": "先判断句子的交际目的，再选择句型；写疑问句时检查疑问词、助动词或be动词是否放在主语前；回答时尽量使用完整、对应的信息。"
+    },
+    {
+      "common_mistakes": [
+        "把英语句子读成每个单词一样重、一样长，听起来生硬。",
+        "疑问句不论类型都一律用升调；一般疑问句通常升调，特殊疑问句通常降调。",
+        "连读时把单词完全吞掉，导致听不清原词。",
+        "看到标点就停顿很久，忽略意群和句子意思。"
+      ],
+      "core_concept": "语音语调与连读能帮助我们读得更自然、听得更明白。朗读时要注意句子的升降调、重读和停顿；前一个词以辅音结尾、后一个词以元音开头时，常把两个词连起来读。",
+      "key_formula": "连读常见规律：辅音 + 元音 → 连起来读，如 pick it up 可读得像 /pɪkɪtʌp/。语调提示：陈述句通常降调；一般疑问句通常升调；特殊疑问句通常降调。",
+      "point": "语音语调与连读技巧",
+      "tips": "练习时可以先听示范，再跟读；用斜线标出意群停顿，用下划线标出需要重读的词。读一般疑问句时试着把句尾轻轻扬起，读特殊疑问句和陈述句时让句尾自然落下。遇到辅音接元音的词组，先慢读、再逐渐连贯，不要为了连读而吞音。"
+    },
+    {
+      "common_mistakes": [
+        "把 How can I get to...? 误解为“我怎样到达……？”，其实是在询问到达某地的方式或路线。",
+        "询问交通方式时，常用 by 加交通工具，如 by bus；但 on foot 表示“步行”，不说 by foot。",
+        "回答路线时，注意区分 turn left（向左转）和 turn right（向右转）。"
+      ],
+      "core_concept": "本课学习询问如何到达某地、询问交通方式，以及描述简单路线的常用句型。",
+      "key_formula": "询问路线：How can I get to + 地点? 回答：You can + 交通方式 / 路线指引.；询问交通方式：How do you go to + 地点? 回答：I go by + 交通工具. / I go on foot.",
+      "point": "交通出行句型理解",
+      "tips": "get to 表示“到达”；by bus/train/bike 表示“乘公共汽车/火车/自行车”；on foot 表示“步行”。指路时可以用 Go straight.（直走。）、Turn left/right.（向左/右转。）以及 It’s next to...（它在……旁边。）"
+    },
+    {
+      "common_mistakes": [
+        "把相似或常见职业词混淆，例如把 pilot（飞行员）误认为 scientist（科学家）。",
+        "只看单词拼写，不结合职业的工作内容理解词义。",
+        "忘记有些职业名称的中文意思需要根据上下文判断。"
+      ],
+      "core_concept": "职业词汇用来表示人们从事的工作。学习时可以把英文职业名称和中文意思、工作内容联系起来记忆。",
+      "key_formula": "职业名称（英文）→ 中文意思 → 主要工作",
+      "point": "职业词汇理解",
+      "tips": "记忆职业词汇时，可以想一想这个人在哪里工作、做什么工作。例如，pilot 通常驾驶飞机，teacher 在学校教书，farmer 种植庄稼或饲养动物。"
+    },
+    {
+      "common_mistakes": [
+        "把 Setting（故事背景）误认为 Characters（角色）。",
+        "只复述故事情节，没有指出寓言想告诉读者的道理。",
+        "认为寓言中的人物只能是动物；寓言也可以用人或其他事物作为角色。"
+      ],
+      "core_concept": "寓言故事通常篇幅较短，通过角色经历的事件表达一个道理或教训。阅读时可以关注角色（Characters）、背景（Setting）、情节（Plot）和寓意（Moral）。",
+      "key_formula": "寓言故事要素：Characters（角色）＋ Setting（背景）＋ Plot（情节）＋ Moral（寓意）",
+      "point": "寓言故事要素",
+      "tips": "读完故事后，可以依次思考：谁参加了故事？故事发生在哪里、什么时候？发生了什么事？故事想告诉我们什么道理？寓意有时会直接写出，有时需要根据角色的选择和结果来推断。"
+    },
+    {
+      "common_mistakes": [
+        "把连读理解成在单词之间随意停顿或改变单词发音。",
+        "认为所有相邻单词都必须连读；实际是否连读还受语速、语义和语气影响。",
+        "辅音与元音相连时漏掉前一个单词末尾的辅音。"
+      ],
+      "core_concept": "英语连读是说话时把相邻单词自然衔接起来的现象。常见情况是前一个单词以辅音音素结尾、后一个单词以元音音素开头时，前一个辅音与后一个元音连在一起读，听起来像一个连续的音节。连读不改变单词本身，也不需要在两词之间额外添加声音。",
+      "key_formula": "前词末尾辅音音素 + 后词开头元音音素 → 自然衔接连读；例如 look at 可听起来像 loo-kat。",
+      "point": "连读技巧",
+      "tips": "练习步骤：先划出相邻词，如 pick it；确认前词末尾是辅音音素、后词开头是元音音素；先逐词读准确，再把两词平滑地连起来。注意听音素而不只看字母，因为字母和发音不一定一一对应。"
+    },
+    {
+      "common_mistakes": [
+        "只根据单词拼写或读音猜词义，不结合上下文判断。",
+        "把意思相近的词当作完全相同的词使用。",
+        "忽略形容词、名词等词性差异，导致句子意思不通。"
+      ],
+      "core_concept": "词义辨析就是根据单词本身的含义、词性和句子上下文，判断词语之间的不同，并选出最符合语境的词。",
+      "key_formula": "先读句子找线索，再判断词性和含义，最后把选项代回句子检查。",
+      "point": "词义辨析",
+      "tips": "看到表示情绪的词时，注意区分：worried（担心的）、angry（生气的）、happy（开心的）、sad（难过的）。做题时不要孤立地背词义，要结合句子线索。"
+    },
+    {
+      "common_mistakes": [
+        "询问身体或心情状态时，注意区分“How do you feel?”和“How are you?”的用法。",
+        "助动词do后接动词原形，不要说“How do you feels?”",
+        "回答“How do you feel?”时，可用“I feel + 形容词”或“I’m + 形容词”。"
+      ],
+      "core_concept": "询问某人近况、身体感受或心情时，常用“How are you?”或“How do you feel?”。回答时可描述自己的状态，如“I’m fine.”、“I feel happy.”。也可以询问他人近况：“How is he/she?”",
+      "key_formula": "How are you? — I’m fine, thank you. / How do you feel? — I feel + 形容词. / How is he/she? — He/She is + 形容词.",
+      "point": "近况询问常用语",
+      "tips": "记住：How are you?中的be动词要随主语变化；How do you feel?中的do后面使用动词原形feel。回答时可根据实际情况选择fine、happy、sad、tired等描述状态的词。"
+    },
+    {
+      "common_mistakes": [
+        "should 后面误用动词的第三人称单数、现在分词或过去式。",
+        "把 had better 后面的动词加上 to。",
+        "把祈使句中建议用的动词误写成动词原形以外的形式。"
+      ],
+      "core_concept": "英语中可以用多种结构提出建议：should + 动词原形；You’d better + 动词原形；Why not + 动词原形？；Let’s + 动词原形。也可以用祈使句直接提出建议，如 Drink some water.。",
+      "key_formula": "should / had better / Why not / Let’s + 动词原形；祈使句：动词原形（+ 其他成分）。",
+      "point": "建议引导词",
+      "tips": "记住几个句型后面的动词都用原形：should go、had better go、Why not go、Let’s go。给别人提出建议时，要结合情境选择合适的语气。祈使句以动词原形开头，例如 Take a deep breath.；否定祈使句用 Don’t + 动词原形。"
+    },
+    {
+      "common_mistakes": [
+        "表示乘坐某种交通工具时，通常用 by + 交通工具名称，如 by bus、by train；交通工具前一般不加冠词。",
+        "步行通常说 on foot，不说 by foot。",
+        "询问去某地的交通方式可用 How can I get to ...? 或 How do you go to ...?。",
+        "选择交通方式时，要结合场所和距离：近处可以步行或骑自行车，较远时可以乘公交车、火车等。"
+      ],
+      "core_concept": "谈论去不同场所的交通方式时，能使用常见地点词汇和交通工具词汇，并用恰当的介词表达出行方式。",
+      "key_formula": "How can I get to + 地点? — I can go/get there by + 交通工具.；on foot = 步行",
+      "point": "场所及交通方式配套",
+      "tips": "常见场所：school（学校）、park（公园）、library（图书馆）、zoo（动物园）、hospital（医院）。常见交通方式：by bus（乘公共汽车）、by bike（骑自行车）、by car（乘汽车）、by train（乘火车）、by subway（乘地铁）、on foot（步行）。回答时可以说：I go to the library by bike. 或 I walk to the park.。"
+    },
+    {
+      "common_mistakes": [
+        "混淆 next to（在旁边）、across from（在对面）和 between（在两者之间）。",
+        "问路时只问地点，不说明想去哪里；可以用 How can I get to...? 或 Where is...?",
+        "指路时忘记使用 turn left/right、go straight 等动词短语。"
+      ],
+      "core_concept": "问路和指路时，可以先礼貌地询问地点或路线，再用方位词和动作短语说明位置与走法。常用表达包括：Excuse me.（打扰一下。）Where is the ...?（……在哪里？）How can I get to the ...?（我怎样才能到……？）Go straight.（直走。）Turn left/right.（向左/右转。）It’s next to/across from/between ...（它在……旁边/对面/两者之间。）",
+      "key_formula": "问路：Excuse me. Where is the + 地点? / How can I get to the + 地点?；指路：Go straight. Turn left/right at the + 地点. It’s next to/across from/between ...",
+      "point": "综合问路表达",
+      "tips": "记路线时先找起点和目的地，再按顺序说动作：直走、转弯、到达。描述位置时注意介词含义：next to 是旁边，across from 是对面，between 要搭配两个地点。"
+    },
+    {
+      "common_mistakes": [
+        "只记住故事情节，却没有关注故事想告诉我们的道理。",
+        "把寓意理解成某个角色的具体行为，而不是从故事中总结出的道理。",
+        "回答时没有根据故事内容说明理由。"
+      ],
+      "core_concept": "寓言故事通常通过人物或动物的经历讲述一个道理。理解寓言时，可以先找出主要角色和关键事件，再思考角色的做法带来了什么结果，最后用简短的话概括故事寓意。",
+      "key_formula": "角色做了什么 → 结果是什么 → 故事告诉我们什么道理",
+      "point": "寓言故事理解",
+      "tips": "读故事后可以自问：谁做了什么？结果怎样？我们能学到什么？例如，Robin Hood帮助有困难的人，因此这个故事告诉我们要帮助他人。"
+    },
+    {
+      "common_mistakes": [
+        "只看单个词，不结合整句话的意思选择。",
+        "忽略问句中的关键词，导致回答内容与问题不匹配。",
+        "遇到不熟悉的词时不利用上下文线索判断。"
+      ],
+      "core_concept": "句意选择是根据句子或对话的整体意思，结合关键词和上下文，从选项中选出最合适的答案。作答时先判断句子在问什么，再检查选项在语法和意思上是否都合适。",
+      "key_formula": "读懂句意 → 找关键词 → 判断所需信息 → 对照选项 → 检查答案是否通顺",
+      "point": "句意选择",
+      "tips": "看到 what、where、when、who、how 等疑问词时，先确定问题询问的内容；例如询问工作（job）时，答案通常是职业。选完后把答案放回句子中读一遍，确认意思通顺。"
+    },
+    {
+      "common_mistakes": [
+        "be going to结构中，be动词要根据主语选择am、is或are。",
+        "疑问句中，be动词要放在主语前：Are you going to...?",
+        "be going to后接动词原形，不能用动词的过去式或第三人称单数形式。"
+      ],
+      "core_concept": "用“be going to + 动词原形”表示打算或计划做某事。be动词随主语变化：I用am，he/she/it或单数名词用is，you/we/they或复数名词用are。",
+      "key_formula": "肯定句：主语 + am/is/are going to + 动词原形。疑问句：Am/Is/Are + 主语 + going to + 动词原形？否定句：主语 + am/is/are not going to + 动词原形。",
+      "point": "打算与计划",
+      "tips": "先找句子的主语，再选择正确的be动词；看到be going to后面的动词时，记得使用动词原形。"
+    },
+    {
+      "common_mistakes": [
+        "like 后接动词时，常用动词-ing形式，如 like reading。",
+        "主语是 he、she 或单数人名时，like 要变成 likes；但 like 后的动词仍用-ing形式。",
+        "表达某人的爱好时，要注意用 my、his、her 等物主代词。"
+      ],
+      "core_concept": "可以用“I like + 动词-ing”或“I like + 名词”表达爱好。谈论他人时，主语是 he、she 或单数人名，通常说“He/She likes + 动词-ing/名词”。也可以用“My hobby is + 名词或动词-ing”介绍自己的爱好。",
+      "key_formula": "I like + 动词-ing/名词.；He/She likes + 动词-ing/名词.；My hobby is + 名词/动词-ing.",
+      "point": "爱好表达",
+      "tips": "记住“主语决定 likes，like 后动作常加-ing”。可以把爱好放进完整句子中练习，例如“I like playing football.”或“My brother likes making models.”"
+    },
+    {
+      "common_mistakes": [
+        "只看情绪词，不理解句子描述的情境。",
+        "把相近的情绪混淆，例如 worried（担心）和 sad（难过）。"
+      ],
+      "core_concept": "根据人物遇到的事情、说的话和表现，判断其感受，并选择合适的英语情绪词。",
+      "key_formula": "情境或表现 → 判断感受 → 选择相应的情绪词",
+      "point": "情绪识别",
+      "tips": "先读懂句子里的情境，再想想人物可能有什么感受。常见情绪词有 happy（开心）、sad（难过）、angry（生气）、afraid（害怕）、worried（担心）、excited（兴奋）和 tired（疲倦）。"
+    },
+    {
+      "common_mistakes": [
+        "把句子中的每个单词都读成彼此分开的；",
+        "忽略逗号、句首连接词或意群边界处的停顿；",
+        "在不该停顿的短语中间停顿，使意思不连贯。"
+      ],
+      "core_concept": "朗读英语时，要根据标点、意群和句子结构安排停顿。逗号处通常稍作停顿；句首的连接词或顺序词（如 First、Then）后常可稍作停顿；意义紧密相连的词组中间通常不停顿。停顿要自然，不宜过长。",
+      "key_formula": "自然停顿 ≈ 标点提示 + 意群边界；紧密相连的短语内部通常不停顿。",
+      "point": "语音与停顿",
+      "tips": "朗读前先找逗号和表示顺序的词，再按意思把句子分成小组。读一遍并听听是否把紧密相连的词拆开了。"
+    },
+    {
+      "common_mistakes": [
+        "把“How are you?”误写成“How is you?”。",
+        "回答问候时忘记使用“I am”或“I’m”。",
+        "把问候语“How do you do?”误当作询问近况来回答。"
+      ],
+      "core_concept": "学习常见英语问候语及其恰当回应，并注意主语与be动词的搭配。",
+      "key_formula": "How are you? — I’m fine, thank you. And you?；Hello/Hi, + 称呼；Good morning/afternoon/evening, + 称呼。",
+      "point": "问候基本功",
+      "tips": "根据时间和场合选择问候语。熟悉的人之间常用Hello或Hi；初次见面可以说Nice to meet you；询问近况常说How are you?，回答后可礼貌地反问And you?"
+    },
+    {
+      "common_mistakes": [
+        "不要把 traffic lights（交通信号灯）和 traffic signs（交通标志）混淆。",
+        "英语中常用“at a red light”表示在红灯处；遵守交通规则时常用“must”或“mustn't”。"
+      ],
+      "core_concept": "学习常见交通规则的英语表达，了解红灯停、绿灯行、过马路走人行横道，以及骑车佩戴头盔等安全要求。",
+      "key_formula": "We must + 动词原形；We mustn't + 动词原形。例：We must wait.（我们必须等待。）We mustn't run across the road.（我们不能跑着穿过马路。）",
+      "point": "交通规则",
+      "tips": "可以把规则和日常场景联系起来记忆：看到红灯就停，绿灯亮了再走；过马路走斑马线；骑自行车时戴头盔。"
+    },
+    {
+      "common_mistakes": [
+        "职业名称通常用名词表示，注意拼写和词尾变化。",
+        "不要把工作地点或工作内容误当作职业名称。",
+        "看到 he 或 she 时，可根据句意判断职业，但大多数职业词本身不区分男女。"
+      ],
+      "core_concept": "职业词汇用来描述人们的工作。理解职业的工作内容或工作地点，可以帮助判断对应的英文职业名称。",
+      "key_formula": "人物 + is a/an + 职业；人物 + works as a/an + 职业。",
+      "point": "职业词汇",
+      "tips": "记忆职业词汇时，可以把职业和典型工作联系起来：teaches students—teacher；helps sick people—doctor；drives a bus—driver；catches fish—fisherman。句中职业名称前通常使用 a 或 an，具体取决于单词开头的发音。"
+    },
+    {
+      "common_mistakes": [
+        "表示喜欢某项活动时，like 后面常接动词-ing形式，如 like swimming。",
+        "不要把 do kung fu 误写成 play kung fu；武术常用 do kung fu。",
+        "询问兴趣时，注意区分 What do you like doing?（你喜欢做什么？）和 What does he like doing?（他喜欢做什么？）。"
+      ],
+      "core_concept": "本课学习用英语询问和表达个人兴趣。可以用“What do you like doing?”询问对方喜欢做什么，用“I like ...”表达自己的爱好。like 后接活动时，通常使用动词-ing形式。",
+      "key_formula": "What do you like doing? — I like + 动词-ing.；What does he/she like doing? — He/She likes + 动词-ing.；常见搭配：play football/basketball, go swimming, do kung fu。",
+      "point": "个人兴趣",
+      "tips": "记忆活动搭配时，可以把动词和活动一起记：play football（踢足球）、go swimming（游泳）、do kung fu（练武术）。谈论第三人称单数时，likes 后面的活动仍常用动词-ing形式。"
+    },
+    {
+      "common_mistakes": [
+        "把 coach 只理解为“长途客车”，要结合语境判断；表示职业时通常是“教练”。",
+        "注意 factory worker 是“工厂工人”，不是“工厂”。",
+        "writer 指“作家”或“作者”，不要与 pilot（飞行员）混淆。"
+      ],
+      "core_concept": "学习常见职业名称的英文表达及其中文意思，并能根据英文单词辨认对应职业。",
+      "key_formula": "英文职业名称 ↔ 中文职业名称",
+      "point": "职业英汉配对",
+      "tips": "用词义和职业特征一起记忆：pilot 在飞机上驾驶飞机，是“飞行员”；coach 指指导运动或训练的人，是“教练”；writer 创作文章或书籍，是“作家”；factory worker 在工厂工作，是“工厂工人”。"
+    },
+    {
+      "common_mistakes": [
+        "把 scared（害怕的）和 worried（担心的）混淆。",
+        "把 excited（兴奋的）误解为“紧张的”；它通常表示因期待或开心而兴奋。",
+        "注意区分描述情绪的形容词与描述动作的动词。"
+      ],
+      "core_concept": "学习常见情绪形容词及其中文意思，并能根据简单情境选择合适的情绪词。",
+      "key_formula": "情绪词汇：scared—害怕的；angry—生气的；worried—担心的；excited—兴奋的；happy—开心的；sad—难过的。",
+      "point": "情绪英汉配对",
+      "tips": "记词时可以把情绪词和具体情境联系起来：听到雷声可能感到 scared，考试前可能感到 worried，收到好消息可能感到 excited。"
+    },
+    {
+      "common_mistakes": [
+        "把祈使句的动词误用成第三人称单数形式。",
+        "忘记在祈使句中使用 please 来表达礼貌。",
+        "混淆 traffic lights（交通信号灯）与 traffic light（单个交通信号灯）。",
+        "过马路时只看一个方向；应先看左、再看右，并遵守交通信号。"
+      ],
+      "core_concept": "本课学习用简单英语提出交通安全建议。常见表达有：Wait at the red light.（红灯时等待。）Cross the street at the crosswalk.（在斑马线上过马路。）Look left and right before crossing.（过马路前左右看。）Don’t run in the street.（不要在马路上跑。）You should wear a helmet.（你应该戴头盔。）",
+      "key_formula": "肯定建议：动词原形开头的祈使句，或 You should + 动词原形。否定建议：Don’t + 动词原形。礼貌表达：Please + 祈使句。",
+      "point": "交通建议",
+      "tips": "交通建议中的动词通常用原形。记住常见搭配：wait at the light、cross at the crosswalk、look both ways、wear a helmet。"
+    },
+    {
+      "common_mistakes": [
+        "不要把 be 动词放在主语后面，例如误写成 Where we are going?",
+        "主语是 we 时要用 are，不要用 is。",
+        "表示计划或安排时，常用 be going to + 动词原形；询问去哪里时，可用 be going + 地点。"
+      ],
+      "core_concept": "谈论将来计划时，常用 be going to + 动词原形。询问计划去哪里，可以用 Where + be + 主语 + going?；回答可用“主语 + be + going to + 动词原形”或“主语 + be + going to + 地点”。",
+      "key_formula": "肯定句：主语 + am/is/are + going to + 动词原形。特殊疑问句：疑问词 + am/is/are + 主语 + going (to + 地点/动词原形)?",
+      "point": "将来计划",
+      "tips": "先找主语，再确定 am/is/are；表达准备做某事时，在 going to 后使用动词原形。变成特殊疑问句时，把疑问词放在句首，再将 be 动词放到主语前。"
     }
   ]
 }

@@ -4,326 +4,1909 @@
   "unit_number": 1,
   "unit_test": {
     "title": "第一单元「植物的生长变化」单元评估测试",
-    "total_score": 100,
+    "total_score": 562,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "胚芽发育形成茎和叶，胚根发育形成根。",
         "knowledge_point": "种子的结构",
+        "options": [],
         "question": "蚕豆种子的胚芽发育后形成了植物的根。",
-        "options": [],
-        "answer": "错",
-        "explanation": "胚芽发育形成茎和叶，胚根发育形成根。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "叶片是植物进行光合作用和蒸腾作用的主要器官，因此这句话正确。",
         "knowledge_point": "叶的功能",
+        "options": [],
         "question": "植物的叶具有进行光合作用和蒸腾作用的功能。",
-        "options": [],
-        "answer": "对",
-        "explanation": "叶片是植物进行光合作用制造养料和蒸腾水分的主要器官。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "种子吸收水分后，胚根通常最先突破种皮，并向下生长。",
         "knowledge_point": "种子的萌发",
+        "options": [],
         "question": "种子萌发时，最先突破种皮长出来的是胚根。",
-        "options": [],
-        "answer": "对",
-        "explanation": "吸足水分后，胚根首先发育并突破种皮向下生长形成根。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "植物的根",
-        "question": "植物的根只有固定植株的作用，不能吸收水分。",
-        "options": [],
         "answer": "错",
-        "explanation": "根既能固定植物，也能吸收土壤中的水分和矿物质。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "种子的传播",
-        "question": "凤仙花的果实成熟后会自动爆裂，将种子弹射出去。",
-        "options": [],
-        "answer": "对",
-        "explanation": "凤仙花属于弹射传播（自体传播）的一种。"
-      },
-      {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
         "difficulty": 1,
+        "explanation": "根既能把植物固定在土壤中，也能吸收土壤中的水分和矿物质。",
+        "knowledge_point": "植物的根",
+        "options": [],
+        "question": "植物的根只有固定植株的作用，不能吸收水分。",
+        "score": 2,
+        "type": "true_false",
+        "id": 4
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "凤仙花的果实成熟后会裂开，把种子弹出去，这属于自体弹射传播。",
+        "knowledge_point": "种子的传播",
+        "options": [],
+        "question": "凤仙花的果实成熟后会自动爆裂，将种子弹射出去。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "胚",
+        "difficulty": 1,
+        "explanation": "胚是种子的核心生命部分，在适宜条件下能够发育成新植物体。",
         "knowledge_point": "种子的内部结构",
-        "question": "在种子结构中，能够发育成新植物体的是（）。",
         "options": [
           "种皮",
           "胚",
           "子叶",
           "胚乳"
         ],
-        "answer": "胚",
-        "explanation": "胚包含胚根、胚芽、胚轴和子叶，是种子的核心生命部分，能发育成新植株。"
+        "question": "在种子结构中，能够发育成新植物体的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "获得更多阳光",
         "difficulty": 1,
+        "explanation": "叶片交叉生长有助于减少彼此遮挡，让更多叶片接触阳光，进行光合作用。",
         "knowledge_point": "植物生长所需条件",
-        "question": "凤仙花在生长过程中，叶片交叉生长主要是为了（）。",
         "options": [
           "更加美观",
           "保持平衡",
           "获得更多阳光",
           "防止雨水淋湿"
         ],
-        "answer": "获得更多阳光",
-        "explanation": "叶片交叉生长（叶磨）可以最大限度地接收阳光进行光合作用。"
+        "question": "凤仙花在生长过程中，叶片交叉生长主要是为了（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "运输水分",
         "difficulty": 1,
+        "explanation": "茎内的导管负责将水和无机盐由下向上运输到植物各部分。有色水进入茎后留下红色线条，说明茎能运输水分。",
         "knowledge_point": "茎的运输作用",
-        "question": "我们将植物的茎放入红色水中，纵切发现有红色线条，这说明茎有（）的作用。",
         "options": [
           "固定植物",
           "吸收水分",
           "运输水分",
           "制造养料"
         ],
-        "answer": "运输水分",
-        "explanation": "茎内的导管负责将水和无机盐由下向上运输到植物全身。"
+        "question": "我们将植物的茎放入红色水中，纵切发现有红色线条，这说明茎有（）的作用。",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "完全花",
         "difficulty": 1,
+        "explanation": "花萼、花瓣、雄蕊和雌蕊四部分都具备的花叫完全花。",
         "knowledge_point": "花的结构",
-        "question": "凤仙花由花萼、花瓣、雄蕊和雌蕊四部分组成，它属于（）。",
         "options": [
           "不完全花",
           "完全花",
           "单性花",
           "雌花"
         ],
-        "answer": "完全花",
-        "explanation": "四部分俱全的花被称为完全花。"
+        "question": "凤仙花由花萼、花瓣、雄蕊和雌蕊四部分组成，它属于（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "动物传播",
         "difficulty": 2,
+        "explanation": "苍耳果实上的倒钩容易挂在动物的皮毛上，动物走动时便能带着果实到其他地方。",
         "knowledge_point": "种子的传播方式",
-        "question": "苍耳的果实上长有许多倒钩，它传播种子的方式是（）。",
         "options": [
           "风力传播",
           "水力传播",
           "动物传播",
           "弹射传播"
         ],
-        "answer": "动物传播",
-        "explanation": "倒钩可以挂在动物的皮毛上，随动物活动移动到他处。"
+        "question": "苍耳的果实上长有许多倒钩，它传播种子的方式是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "方便观察",
         "difficulty": 2,
+        "explanation": "把种子放在透明杯壁附近，能较清楚地观察根和芽的生长变化。",
         "knowledge_point": "种子的萌发",
-        "question": "在观察种子萌发实验中，我们把蚕豆种子放在垫有纸巾的杯壁位置是为了（）。",
         "options": [
-          "让种子美观",
+          "让种子更美观",
           "方便观察",
           "给种子保暖",
-          "防止种子受潮"
+          "防止种子吸水"
         ],
-        "answer": "方便观察",
-        "explanation": "靠近透明杯壁可以看到根和芽生长的动态过程。"
+        "question": "观察种子萌发时，把种子放在垫有纸巾的透明杯壁附近，主要是为了（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "子房",
         "difficulty": 3,
+        "explanation": "受精完成后，雌蕊的子房逐渐发育成果实；花瓣、雄蕊等通常会枯萎或脱落。",
         "knowledge_point": "果实的发育",
-        "question": "凤仙花的果实是由（）发育而来的。",
         "options": [
           "花瓣",
           "雄蕊",
           "子房",
           "花药"
         ],
-        "answer": "子房",
-        "explanation": "受精完成后，花瓣、雄蕊枯萎，雌蕊的子房发育成果实。"
+        "question": "凤仙花的果实是由（）发育而来的。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "凤仙花",
         "difficulty": 1,
+        "explanation": "凤仙花有明显的主根和侧根，属于直根系；葱、水稻和玉米的根由许多粗细相近的根组成，属于须根系。",
         "knowledge_point": "植物的根",
-        "question": "下列植物中，拥有直根系的是（）。",
         "options": [
           "葱",
           "凤仙花",
           "水稻",
           "玉米"
         ],
-        "answer": "凤仙花",
-        "explanation": "凤仙花具有主根和侧根之分，属于直根系；葱、水稻、玉米属于须根系。"
+        "question": "下列植物中，拥有直根系的是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "雌蕊柱头",
         "difficulty": 2,
+        "explanation": "花粉落到雌蕊柱头上的过程叫传粉，这是植物形成果实和种子的必要环节之一。",
         "knowledge_point": "传粉过程",
-        "question": "为了让花结出果实，花粉必须落在（）上。",
         "options": [
           "花瓣",
           "花丝",
           "雌蕊柱头",
           "花萼"
         ],
-        "answer": "雌蕊柱头",
-        "explanation": "花粉落到雌蕊柱头上的过程叫传粉，是结果的前提。"
+        "question": "为了让花结出果实，花粉必须落在（）上。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "种子萌发",
         "difficulty": 1,
+        "explanation": "凤仙花从种子开始生长，种子吸收水分后萌发，随后长成幼苗。",
         "knowledge_point": "植物的生长阶段",
-        "question": "凤仙花生命周期的第一个阶段是（）。",
         "options": [
           "幼苗",
           "种子萌发",
           "开花",
           "结果"
         ],
-        "answer": "种子萌发",
-        "explanation": "植物生命周期通常从种子萌发开始。"
+        "question": "凤仙花生命周期的第一个阶段是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "减少水分蒸腾",
         "difficulty": 2,
+        "explanation": "仙人掌生活在干旱环境中，叶退化成刺后，叶片表面积减小，有助于减少水分散失。",
         "knowledge_point": "环境需求",
-        "question": "在缺水的沙漠里，仙人掌的叶退化成刺，这是为了（）。",
         "options": [
           "吸收水分",
           "减少水分蒸腾",
           "进行光合作用",
           "防御敌人"
         ],
-        "answer": "减少水分蒸腾",
-        "explanation": "缩小表面积可以有效减少体内水分通过叶片蒸发。"
+        "question": "在缺水的沙漠里，仙人掌的叶退化成刺，这是为了（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "结果",
         "difficulty": 1,
+        "explanation": "绿色开花植物通常先开花，花经过传粉和受精后形成果实，果实里常有种子。",
         "knowledge_point": "生命周期",
-        "question": "植物的生命周期一般都会经历种子、萌发、生长发育、开花、（）以及衰老和死亡。",
         "options": [
           "生根",
           "长叶",
           "结果",
           "分支"
         ],
-        "answer": "结果",
-        "explanation": "开花之后结果是绿色开花植物的标准生命轨迹。"
+        "question": "植物的生命周期一般都会经历种子、萌发、生长发育、开花、（）以及衰老和死亡。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "防止水分蒸发",
         "difficulty": 3,
+        "explanation": "水面滴油可以减少水分从水面蒸发，使试管内水位的变化更能说明植物根是否吸收了水分。",
         "knowledge_point": "实验对照",
-        "question": "研究植物根能否吸收水分实验中，在水面上滴油是为了（）。",
         "options": [
           "给植物提供营养",
           "防止水分蒸发",
           "增加水的重量",
           "观察更清楚"
         ],
-        "answer": "防止水分蒸发",
-        "explanation": "滴油密封水面是为了确保试管内水分的减少完全是由于根的吸收引起。"
+        "question": "研究植物根能否吸收水分实验中，在水面上滴油是为了（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "子叶的结构",
-        "question": "在观察蚕豆种子时，我们可以看到它通常有（）片子叶。",
-        "options": [],
         "answer": "2",
-        "explanation": "蚕豆属于双子叶植物，有两片肥厚的子叶储存营料。"
-      },
-      {
-        "id": 20,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "雄蕊的结构",
-        "question": "凤仙花的一朵花中，通常有（）枚雄蕊。",
-        "options": [],
-        "answer": "5",
-        "explanation": "根据植物学观察，凤仙花通常具有5枚雄蕊。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "光合作用",
-        "question": "植物在阳光下，利用二氧化碳和水制造养料，并释放（）。",
-        "options": [],
-        "answer": "氧气",
-        "explanation": "光合作用的产物是养料（有机物）和氧气。"
-      },
-      {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "种子的内部结构",
-        "question": "种子中为胚发育提供营养的部分是（）。",
-        "options": [],
-        "answer": "子叶",
-        "explanation": "双子叶植物萌发所需的营养储存在子叶中。"
-      },
-      {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "茎的形态",
-        "question": "凤仙花的茎直立生长于地面，这种茎被称为（）。",
+        "explanation": "蚕豆有两片子叶，属于双子叶植物。子叶内储存着种子萌发时需要的营养物质。",
+        "knowledge_point": "子叶的结构",
         "options": [],
+        "question": "在观察蚕豆种子时，我们可以看到它通常有（）片子叶。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 19
+      },
+      {
+        "answer": "5",
+        "difficulty": 3,
+        "explanation": "凤仙花通常有5枚雄蕊。不同植物的雄蕊数量可能不同。",
+        "knowledge_point": "雄蕊的结构",
+        "options": [],
+        "question": "凤仙花的一朵花中，通常有（）枚雄蕊。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
+      },
+      {
+        "answer": "氧气",
+        "difficulty": 1,
+        "explanation": "光合作用的产物包括有机物（养料）和氧气。",
+        "knowledge_point": "光合作用",
+        "options": [],
+        "question": "植物在阳光下，利用二氧化碳和水制造养料，并释放（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
+      },
+      {
+        "answer": "子叶",
+        "difficulty": 1,
+        "explanation": "菜豆等种子的营养主要储存在子叶中，可在萌发时为胚的发育提供营养。",
+        "knowledge_point": "种子的内部结构",
+        "options": [],
+        "question": "菜豆种子中，主要为胚发育提供营养的部分是（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
         "answer": "直立茎",
-        "explanation": "按生长方式分类，凤仙花的茎属于直立茎。"
+        "difficulty": 2,
+        "explanation": "凤仙花的茎直立向上生长，按生长方式分类属于直立茎。",
+        "knowledge_point": "茎的形态",
+        "options": [],
+        "question": "凤仙花的茎直立生长于地面，这种茎被称为（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "形状、大小、颜色、表面是否光滑以及软硬等。",
+        "difficulty": 1,
+        "explanation": "这些都是可以通过看或轻轻触摸观察到的种子外部特征。",
+        "knowledge_point": "种子的外部特征与结构",
+        "options": [],
+        "question": "观察一粒种子的外部特征时，可以从哪些方面进行描述？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 24
+      },
+      {
+        "answer": "种皮",
+        "difficulty": 1,
+        "explanation": "种皮包在种子外面，主要起保护内部结构的作用。",
+        "knowledge_point": "种子的外部特征与结构",
+        "options": [],
+        "question": "种子外面通常有一层保护内部结构的外衣，叫作________。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 25
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "胚根在种子萌发后通常发育成根；胚芽发育成茎和叶。",
+        "knowledge_point": "种子的外部特征与结构",
+        "options": [
+          "A. 胚芽",
+          "B. 胚根",
+          "C. 种皮",
+          "D. 子叶"
+        ],
+        "question": "种子萌发时，通常最先发育成根的是哪一部分？",
+        "score": 1,
+        "type": "choice",
+        "id": 26
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "胚芽是胚的一部分，种子萌发后会发育成植物的茎和叶。",
+        "knowledge_point": "种子的外部特征与结构",
+        "options": [],
+        "question": "判断：种子萌发后，胚芽可以发育成茎和叶。",
+        "score": 1,
+        "type": "true_false",
+        "id": 27
+      },
+      {
+        "answer": "胚",
+        "difficulty": 2,
+        "explanation": "胚是种子里能够发育成新植物的部分，通常包括胚根、胚芽和子叶。",
+        "knowledge_point": "种子的外部特征与结构",
+        "options": [],
+        "question": "种子内部能够发育成新植物的部分叫作________。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 28
+      },
+      {
+        "answer": "种子的形状、大小、颜色和表面特征可以不同；有些种子还含有胚乳。",
+        "difficulty": 2,
+        "explanation": "不同植物的种子外观常有差异，内部结构也可能存在差别；例如有些种子具有胚乳。",
+        "knowledge_point": "种子的外部特征与结构",
+        "options": [],
+        "question": "小明发现两粒种子的大小和颜色不同，能否据此判断它们一定没有共同的基本结构？为什么？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "种植观察需要持续进行。按照固定的时间和方法记录，才能比较植物在不同日期的变化。",
+        "knowledge_point": "种植活动与生长观察记录",
+        "options": [
+          "只在播种当天观察一次",
+          "隔一段时间观察并记录植物变化",
+          "等植物长大后再回想它的样子",
+          "只记录自己希望植物发生的变化"
+        ],
+        "question": "为了了解一株植物的生长变化，哪种做法更合适？",
+        "score": 2,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "记录日期有助于按照时间顺序比较植物的生长情况，发现它何时发生了变化。",
+        "knowledge_point": "种植活动与生长观察记录",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "观察记录中写明日期，有助于比较植物在不同时间的变化。",
+        "score": 1,
+        "type": "true_false",
+        "id": 31
+      },
+      {
+        "answer": "高度",
+        "difficulty": 1,
+        "explanation": "记录植物高度可以了解它是否长高。测量时尽量使用同一把尺，并从相同位置开始。",
+        "knowledge_point": "种植活动与生长观察记录",
+        "options": [],
+        "question": "观察植物是否长高，可以测量它的（　　）。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 32
+      },
+      {
+        "answer": "增加了3厘米。",
+        "difficulty": 2,
+        "explanation": "生长变化量＝后一次测量值－前一次测量值，6－3＝3（厘米）。",
+        "knowledge_point": "种植活动与生长观察记录",
+        "options": [],
+        "question": "小明第一次测得幼苗高3厘米，一周后测得高6厘米。这一周幼苗长高了多少厘米？",
+        "score": 2,
+        "type": "calculation",
+        "id": 33
+      },
+      {
+        "answer": "观察到的现象是叶片由绿色变黄；“可能是缺水造成的”是对原因的猜测。",
+        "difficulty": 2,
+        "explanation": "叶片颜色变化可以直接看到，是观察到的现象；缺水是否为原因还需要进一步观察或验证，因此属于猜测。",
+        "knowledge_point": "种植活动与生长观察记录",
+        "options": [],
+        "question": "小华记录：“叶片由绿色变黄，可能是缺水造成的。”这句话中，哪一部分是观察到的现象？哪一部分是对原因的猜测？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 34
+      },
+      {
+        "answer": "例如：写上日期；用同一把尺从土面量到幼苗最高处；记录高度和叶片情况；记录浇水或光照情况。答出其中两项即可。",
+        "difficulty": 2,
+        "explanation": "要比较植物生长情况，记录应清楚、真实，测量方法尽量保持一致，也可以记录叶片和生长环境的变化。",
+        "knowledge_point": "种植活动与生长观察记录",
+        "options": [],
+        "question": "请写出两项让幼苗生长观察记录更清楚、可靠的做法。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "根通常从土壤中吸收水分和矿物质，并帮助植物固定在土壤里。",
+        "knowledge_point": "根、茎、叶的生理功能",
+        "options": [
+          "制造养料",
+          "吸收水分和矿物质",
+          "运输养料到叶片",
+          "散失水分"
+        ],
+        "question": "植物主要通过哪个器官从土壤中吸收水分和矿物质？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "茎能支撑植物的地上部分，也能运输水分、矿物质和叶制造的养料。",
+        "knowledge_point": "根、茎、叶的生理功能",
+        "options": [
+          "支撑植物并运输物质",
+          "吸收土壤中的矿物质",
+          "主要负责制造养料",
+          "把植物固定在土壤中"
+        ],
+        "question": "下列哪项最能说明植物茎的作用？",
+        "score": 1,
+        "type": "choice",
+        "id": 37
+      },
+      {
+        "answer": "叶",
+        "difficulty": 1,
+        "explanation": "叶片通常能利用阳光、水和空气中的二氧化碳制造养料，这个过程叫光合作用。",
+        "knowledge_point": "根、茎、叶的生理功能",
+        "options": [],
+        "question": "植物的哪个器官通常是制造养料的主要场所？",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 38
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "叶片会向空气中散失水分，这种现象叫蒸腾作用。",
+        "knowledge_point": "根、茎、叶的生理功能",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "叶片除了制造养料，还能通过蒸腾作用向空气中散失水分。",
+        "score": 1,
+        "type": "true_false",
+        "id": 39
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "带叶枝条插入有色水后，水分沿茎向上运输，茎或叶脉可能出现颜色变化，这说明茎能运输水分。",
+        "knowledge_point": "根、茎、叶的生理功能",
+        "options": [
+          "根会制造养料",
+          "茎能运输水分",
+          "叶能吸收土壤中的水分",
+          "茎能吸收阳光"
+        ],
+        "question": "把带叶枝条插入有色水中，过一段时间发现茎或叶脉出现了颜色。这个现象主要说明什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 40
+      },
+      {
+        "answer": "水分",
+        "difficulty": 2,
+        "explanation": "根从土壤中吸收水分，水分经茎运输到植物各部分；叶片也会通过蒸腾作用散失部分水分。",
+        "knowledge_point": "根、茎、叶的生理功能",
+        "options": [],
+        "question": "根吸收的水分可以通过茎运输到叶。叶片还会通过蒸腾作用散失部分____。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "传粉是花粉从花药传到柱头上。花粉落到柱头后，才可能进一步发生受精。",
+        "knowledge_point": "花、果实和种子的发育与传播",
+        "options": [
+          "A. 花粉从柱头传到花药",
+          "B. 花粉从花药传到柱头",
+          "C. 种子从果实中散出",
+          "D. 花瓣展开"
+        ],
+        "question": "什么是传粉？",
+        "score": 2,
+        "type": "choice",
+        "id": 42
+      },
+      {
+        "answer": "果实",
+        "difficulty": 1,
+        "explanation": "花受精后，子房通常发育成果实；子房里的胚珠通常发育成种子。",
+        "knowledge_point": "花、果实和种子的发育与传播",
+        "options": [],
+        "question": "花受精后，子房通常发育成________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 43
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "通常情况下，胚珠发育成种子，子房发育成果实。",
+        "knowledge_point": "花、果实和种子的发育与传播",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "植物受精后，胚珠通常发育成种子。",
+        "score": 2,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "轻小，容易被风带到远处",
+        "difficulty": 2,
+        "explanation": "蒲公英种子轻小，带有像小伞一样的结构，风吹时容易将它们带走。",
+        "knowledge_point": "花、果实和种子的发育与传播",
+        "options": [],
+        "question": "蒲公英种子带有轻柔的绒毛，容易随风飘散。请根据这一特点，说明它可能怎样传播。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "水",
+        "difficulty": 2,
+        "explanation": "椰子果实外层有纤维，能够漂浮，常借水传播到别处。",
+        "knowledge_point": "花、果实和种子的发育与传播",
+        "options": [
+          "A. 风",
+          "B. 水",
+          "C. 弹射",
+          "D. 只靠自身移动"
+        ],
+        "question": "椰子果实能漂浮在水面上，可能主要借助什么传播？",
+        "score": 2,
+        "type": "choice",
+        "id": 46
+      },
+      {
+        "answer": "果实成熟后裂开，把种子弹射出去",
+        "difficulty": 2,
+        "explanation": "有些植物的果实成熟后会突然裂开，产生力量把种子弹到附近，这是一种借助果实自身力量传播的方式。",
+        "knowledge_point": "花、果实和种子的发育与传播",
+        "options": [],
+        "question": "有些豆荚成熟后会突然裂开。请简要说明这种现象怎样帮助种子传播。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 47
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "种子在适宜条件下萌发，长成幼苗；幼苗继续生长成为成熟植株，之后开花、结果并产生种子。",
+        "knowledge_point": "植物的生命周期与环境需求",
+        "options": [
+          "A. 幼苗→种子→成熟植株→萌发",
+          "B. 种子→萌发→幼苗→成熟植株",
+          "C. 成熟植株→幼苗→种子→萌发",
+          "D. 萌发→成熟植株→种子→幼苗"
+        ],
+        "question": "下面哪一项最符合植物生命周期的先后顺序？",
+        "score": 1,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "许多植物成熟后会开花、结果并产生种子，这些种子在适宜条件下可以萌发，开始新的生命周期。",
+        "knowledge_point": "植物的生命周期与环境需求",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "许多植物长大成熟后会产生种子，这些种子可以长成新的植物。",
+        "score": 1,
+        "type": "true_false",
+        "id": 49
+      },
+      {
+        "answer": "水",
+        "difficulty": 1,
+        "explanation": "种子萌发通常需要水、空气和适宜的温度。种子不一定需要强光才能萌发，但幼苗长大后通常需要适当光照。",
+        "knowledge_point": "植物的生命周期与环境需求",
+        "options": [],
+        "question": "种子萌发时，除了空气和适宜的温度，通常还需要____。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 50
+      },
+      {
+        "answer": "适当的光照有助于幼苗生长。若其他条件相同，长期处在黑暗中的幼苗可能长得细弱或颜色较浅。",
+        "difficulty": 2,
+        "explanation": "光照是植物生长的重要环境条件之一。比较时应让两组植物获得相同的水、空气和温度，只改变光照，观察结果才更能说明光照的影响。",
+        "knowledge_point": "植物的生命周期与环境需求",
+        "options": [],
+        "question": "两株相同的幼苗得到相同的水和温度，一株放在有适当光照的地方，另一株长期放在黑暗处。你预测它们会有什么不同？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 51
+      },
+      {
+        "answer": "水、空气、适宜的温度和光照。",
+        "difficulty": 2,
+        "explanation": "这些条件通常有助于植物生长，但不同植物的需求并不完全一样；例如，有些植物适合较阴凉的环境，有些植物需要较多阳光。",
+        "knowledge_point": "植物的生命周期与环境需求",
+        "options": [],
+        "question": "写出两种植物生长通常需要的环境条件。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 52
+      },
+      {
+        "answer": "把同一种植物的种子分成两组，两组使用相同的土壤、种子数量、浇水量和温度，只让一组得到适当光照，另一组放在黑暗处。定期观察并记录幼苗的发芽和生长情况。",
+        "difficulty": 3,
+        "explanation": "这个设计只改变光照，其他条件尽量保持相同，因此两组观察结果的差异可以帮助判断光照对植物生长的影响。",
+        "knowledge_point": "植物的生命周期与环境需求",
+        "options": [],
+        "question": "想研究光照是否影响幼苗生长，你会怎样设计一个公平的比较？请写出主要做法。",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 53
+      },
+      {
+        "answer": "种皮",
+        "difficulty": 1,
+        "explanation": "种皮包在种子外面，能够保护种子内部的结构。",
+        "knowledge_point": "种子的结构",
+        "options": [],
+        "question": "种子外面具有保护作用的部分叫作______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 54
+      },
+      {
+        "answer": "子叶",
+        "difficulty": 1,
+        "explanation": "蚕豆种子的子叶储存营养，种子萌发时能为幼苗提供养分。",
+        "knowledge_point": "种子的结构",
+        "options": [],
+        "question": "蚕豆种子中储存营养的部分是______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 55
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "胚由胚芽、胚轴、胚根和子叶组成；种皮是胚外面的保护结构，不属于胚。",
+        "knowledge_point": "种子的结构",
+        "options": [
+          "A. 胚芽、胚轴、胚根和子叶",
+          "B. 种皮、胚芽和胚乳",
+          "C. 种皮、胚轴和胚根",
+          "D. 种皮、子叶和胚乳"
+        ],
+        "question": "蚕豆种子的胚包括哪些部分？",
+        "score": 2,
+        "type": "choice",
+        "id": 56
+      },
+      {
+        "answer": "胚根",
+        "difficulty": 2,
+        "explanation": "胚根是胚中将来发育成根的部分。",
+        "knowledge_point": "种子的结构",
+        "options": [],
+        "question": "种子萌发时，胚中将来发育成根的部分是______。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 57
+      },
+      {
+        "answer": "种皮保护种子；胚芽将来发育成茎和叶；胚根将来发育成根；子叶储存并提供萌发所需的营养。",
+        "difficulty": 2,
+        "explanation": "种子的不同结构各有作用：种皮负责保护，胚的部分参与形成幼苗，子叶为萌发提供营养。",
+        "knowledge_point": "种子的结构",
+        "options": [],
+        "question": "写出蚕豆种子中种皮、胚芽、胚根和子叶的作用。",
+        "score": 4,
+        "type": "fill_blank_text",
+        "id": 58
+      },
+      {
+        "answer": "制造养料",
+        "difficulty": 1,
+        "explanation": "植物的叶在阳光下进行光合作用，制造植物生长所需的养料。",
+        "knowledge_point": "叶的功能",
+        "options": [],
+        "question": "植物的叶通过光合作用为植物________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 59
+      },
+      {
+        "answer": "蒸腾作用",
+        "difficulty": 1,
+        "explanation": "植物体内的部分水分通过叶片散失到空气中，这种现象叫蒸腾作用。",
+        "knowledge_point": "叶的功能",
+        "options": [],
+        "question": "植物体内的部分水分通过叶片散失到空气中，这种现象叫作________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "光合作用能帮助植物制造养料；吸收水分是根的主要功能，固定植物的是根。",
+        "knowledge_point": "叶的功能",
+        "options": [
+          "A. 固定植物",
+          "B. 制造养料",
+          "C. 吸收水分"
+        ],
+        "question": "植物的叶进行光合作用，主要是为了什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 61
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "叶在阳光下利用水和空气中的二氧化碳进行光合作用，制造养料，并释放氧气。",
+        "knowledge_point": "叶的功能",
+        "options": [
+          "A. 只吸收土壤中的矿物质",
+          "B. 利用水和二氧化碳制造养料",
+          "C. 把养料变成根"
+        ],
+        "question": "关于叶的光合作用，下列说法正确的是哪一项？",
+        "score": 2,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "蒸腾作用会使植物体内的部分水分通过叶片散失到空气中，但这并不表示植物不需要水。",
+        "knowledge_point": "叶的功能",
+        "options": [],
+        "question": "植物的叶会通过蒸腾作用把部分水分散失到空气中。",
+        "score": 2,
+        "type": "true_false",
+        "id": 63
+      },
+      {
+        "answer": "适宜的温度、充足的水分和充足的空气",
+        "difficulty": 2,
+        "explanation": "种子萌发需要适宜的温度、充足的水分和空气；缺少其中任何一项，都可能影响萌发。",
+        "knowledge_point": "种子的萌发",
+        "options": [],
+        "question": "种子萌发通常需要哪些基本条件？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 64
+      },
+      {
+        "answer": "胚根",
+        "difficulty": 1,
+        "explanation": "种子萌发时，胚根通常先突破种皮，向下生长形成根。",
+        "knowledge_point": "种子的萌发",
+        "options": [],
+        "question": "种子萌发时，最先突破种皮的通常是（）。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 65
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "种子萌发需要充足的空气。种子完全浸在水里时，可能接触不到充足的空气，因此不能保证它顺利萌发。",
+        "knowledge_point": "种子的萌发",
+        "options": [],
+        "question": "判断：把种子完全浸在水里，能保证它获得充足空气并顺利萌发吗？",
+        "score": 3,
+        "type": "true_false",
+        "id": 66
+      },
+      {
+        "answer": "根",
+        "difficulty": 2,
+        "explanation": "胚根通常先长出，并向下生长形成根；胚芽随后发育，逐渐形成茎和叶。",
+        "knowledge_point": "种子的萌发",
+        "options": [
+          "根",
+          "花",
+          "果实",
+          "种皮"
+        ],
+        "question": "种子萌发时，胚根向下生长，逐渐形成（）。",
+        "score": 3,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "水分和矿物质",
+        "difficulty": 1,
+        "explanation": "植物的根能从土壤中吸收水分和矿物质，供植物生长需要。",
+        "knowledge_point": "植物的根",
+        "options": [],
+        "question": "植物的根能从土壤中吸收______和矿物质。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 68
+      },
+      {
+        "answer": "主根和侧根",
+        "difficulty": 2,
+        "explanation": "直根系有一条明显的主根，主根上长出许多侧根。",
+        "knowledge_point": "植物的根",
+        "options": [],
+        "question": "直根系有明显的______和______。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 69
+      },
+      {
+        "answer": "须根系",
+        "difficulty": 1,
+        "explanation": "须根系通常由许多粗细相近的根组成，没有明显的主根。",
+        "knowledge_point": "植物的根",
+        "options": [],
+        "question": "葱的根由许多粗细相近的根组成，这种根系叫作______。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 70
+      },
+      {
+        "answer": "固定植物",
+        "difficulty": 1,
+        "explanation": "根扎在土壤中，能帮助植物稳固地生长，不容易倒伏。",
+        "knowledge_point": "植物的根",
+        "options": [],
+        "question": "根扎在土壤里，能帮助植物稳固地生长，这说明根有______的作用。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 71
+      },
+      {
+        "answer": "A",
+        "difficulty": 1,
+        "explanation": "蒲公英的种子轻小，带有像小伞一样的冠毛，容易随风飘散。",
+        "knowledge_point": "种子的传播",
+        "options": [
+          "A. 风力传播",
+          "B. 水力传播",
+          "C. 动物传播",
+          "D. 自体弹射传播"
+        ],
+        "question": "蒲公英的种子常借助什么传播到远处？",
+        "score": 2,
+        "type": "choice",
+        "id": 72
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "莲的果实和种子能够在水中漂浮，随水流到其他地方，这属于水力传播。",
+        "knowledge_point": "种子的传播",
+        "options": [],
+        "question": "莲的果实可以借助水流传播。",
+        "score": 2,
+        "type": "true_false",
+        "id": 73
+      },
+      {
+        "answer": "钩刺",
+        "difficulty": 2,
+        "explanation": "苍耳果实表面有钩刺，容易挂在动物的皮毛或人的衣物上，被带到别处。",
+        "knowledge_point": "种子的传播",
+        "options": [],
+        "question": "苍耳的果实容易挂在动物的皮毛上，主要是因为它表面有许多______。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 74
+      },
+      {
+        "answer": "C",
+        "difficulty": 2,
+        "explanation": "许多植物的果实被动物吃下后，种子可能随动物移动，并在别处排出；也有种子会粘在动物身上，从而传播。",
+        "knowledge_point": "种子的传播",
+        "options": [
+          "A. 种子都能自己走到远处",
+          "B. 所有种子都靠风传播",
+          "C. 动物可以帮助一些种子传播",
+          "D. 种子离开母株后一定能发芽"
+        ],
+        "question": "下面关于种子传播的说法，正确的是哪一项？",
+        "score": 2,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "水力传播",
+        "difficulty": 3,
+        "explanation": "莲蓬和莲子能够漂浮在水面上，随水流移动，因此莲的种子可以借水传播。",
+        "knowledge_point": "种子的传播",
+        "options": [],
+        "question": "莲的果实和种子能漂浮在水面上，随水流移动。这种传播方式叫什么？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 76
+      },
+      {
+        "answer": "胚根",
+        "difficulty": 1,
+        "explanation": "胚根是胚的一部分，种子萌发时通常先发育成植物的根。",
+        "knowledge_point": "种子的内部结构",
+        "options": [],
+        "question": "种子萌发时，胚中通常先发育成根的部分是（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 77
+      },
+      {
+        "answer": "胚芽",
+        "difficulty": 1,
+        "explanation": "胚芽是胚的一部分，萌发后逐渐发育成植物的茎和叶。",
+        "knowledge_point": "种子的内部结构",
+        "options": [],
+        "question": "胚中将来发育成植物茎和叶的部分是（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 78
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "种皮包在种子外面，主要起保护种子内部结构的作用。",
+        "knowledge_point": "种子的内部结构",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "种皮的主要作用是保护种子内部结构。（）",
+        "score": 5,
+        "type": "true_false",
+        "id": 79
+      },
+      {
+        "answer": "胚乳",
+        "difficulty": 2,
+        "explanation": "玉米种子的营养主要储存在胚乳中；不同种子的营养储存部位可能不同。",
+        "knowledge_point": "种子的内部结构",
+        "options": [],
+        "question": "玉米种子中，主要储存营养的部分是（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 80
+      },
+      {
+        "answer": "水、空气、阳光和适宜的温度",
+        "difficulty": 1,
+        "explanation": "植物生长需要多种条件共同作用，通常包括适量的水、空气、阳光和适宜的温度。",
+        "knowledge_point": "植物生长所需条件",
+        "options": [
+          "水、空气、阳光和适宜的温度",
+          "只有阳光",
+          "只有肥沃的土壤",
+          "只有水和肥料"
+        ],
+        "question": "下列哪一组是植物生长通常需要的基本条件？",
+        "score": 5,
+        "type": "choice",
+        "id": 81
+      },
+      {
+        "answer": "水",
+        "difficulty": 1,
+        "explanation": "植物的根能从土壤中吸收水分。水分不足时，植物可能会萎蔫，生长受到影响。",
+        "knowledge_point": "植物生长所需条件",
+        "options": [],
+        "question": "植物的根主要从土壤中吸收的、对生长十分重要的物质是____。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 82
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "阳光有助于植物制造养分，但植物还需要水、空气和适宜的温度等条件。",
+        "knowledge_point": "植物生长所需条件",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "植物只要有阳光，即使没有水也能正常生长。（判断对错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 83
+      },
+      {
+        "answer": "空气",
+        "difficulty": 2,
+        "explanation": "植物进行光合作用时，需要利用空气中的二氧化碳。植物的根也需要空气，因此土壤不能长期积水、缺少空气。",
+        "knowledge_point": "植物生长所需条件",
+        "options": [],
+        "question": "植物的叶片进行光合作用时，需要利用空气中的二氧化碳。二氧化碳来自____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "适量浇水，放在有适当阳光且温度适宜的地方，并保持周围空气流通。",
+        "difficulty": 2,
+        "explanation": "植物生长需要多种条件。浇水过多可能使土壤缺少空气，放在阴暗或温度不适宜的地方也不利于生长，因此要提供适量水分、光照、空气和适宜温度。",
+        "knowledge_point": "植物生长所需条件",
+        "options": [],
+        "question": "一盆植物叶片有些萎蔫。请写出两种可以帮助它正常生长的做法。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 85
+      },
+      {
+        "answer": "水分和无机盐",
+        "difficulty": 1,
+        "explanation": "根吸收水分和无机盐后，它们主要通过茎内的导管输送到植物各部分。",
+        "knowledge_point": "茎的运输作用",
+        "options": [],
+        "question": "根吸收的水分和无机盐，主要由茎中的导管运输到植物各部分。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "筛管",
+        "difficulty": 2,
+        "explanation": "筛管主要运输叶制造的养料，导管主要运输水分和无机盐。",
+        "knowledge_point": "茎的运输作用",
+        "options": [],
+        "question": "叶制造的养料主要通过茎中的______运输到植物需要的地方。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 87
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "导管的主要作用是运输水分和无机盐；筛管主要运输叶制造的养料。",
+        "knowledge_point": "茎的运输作用",
+        "options": [
+          "运输叶制造的养料",
+          "运输水分和无机盐",
+          "吸收阳光",
+          "固定植物"
+        ],
+        "question": "茎中的导管主要有什么作用？",
+        "score": 5,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "吸收水分和无机盐的主要器官是根；茎主要负责运输。",
+        "knowledge_point": "茎的运输作用",
+        "options": [],
+        "question": "判断：植物的茎主要负责从土壤中吸收水分和无机盐。",
+        "score": 5,
+        "type": "true_false",
+        "id": 89
+      },
+      {
+        "answer": "水和无机盐",
+        "difficulty": 2,
+        "explanation": "植物的根吸收水分和无机盐，茎中的导管再将它们运输到植物各部分。",
+        "knowledge_point": "茎的运输作用",
+        "options": [],
+        "question": "小明把植物的茎插入有色水中，过一段时间后茎内出现了有色线条。这些线条能说明茎运输了什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 90
+      },
+      {
+        "answer": "花萼、花瓣、雄蕊和雌蕊",
+        "difficulty": 1,
+        "explanation": "典型的花由这四部分组成；四部分齐全时，称为完全花。",
+        "knowledge_point": "花的结构",
+        "options": [],
+        "question": "一朵完全花通常由哪四部分组成？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 91
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "雄蕊是花的雄性结构，通常由花药和花丝组成，花药能产生花粉。",
+        "knowledge_point": "花的结构",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "雄蕊的花药能产生花粉。",
+        "score": 5,
+        "type": "true_false",
+        "id": 92
+      },
+      {
+        "answer": "不完全花",
+        "difficulty": 2,
+        "explanation": "判断完全花要看花萼、花瓣、雄蕊、雌蕊是否齐全。题中缺少花瓣，因此属于不完全花。",
+        "knowledge_point": "花的结构",
+        "options": [
+          "完全花",
+          "不完全花",
+          "单性花",
+          "两性花"
+        ],
+        "question": "一朵花有花萼、雄蕊和雌蕊，但没有花瓣，它属于（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 93
+      },
+      {
+        "answer": "雌蕊",
+        "difficulty": 2,
+        "explanation": "雌蕊是花的雌性结构，通常包括柱头、花柱和子房，子房里有胚珠。",
+        "knowledge_point": "花的结构",
+        "options": [],
+        "question": "花中通常包括柱头、花柱和子房的部分叫作什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 94
+      },
+      {
+        "answer": "不完全花",
+        "difficulty": 2,
+        "explanation": "完全花必须同时具备花萼、花瓣、雄蕊和雌蕊。题中的花缺少雄蕊，所以是不完全花。",
+        "knowledge_point": "花的结构",
+        "options": [],
+        "question": "一朵花有花萼、花瓣和雌蕊，但没有雄蕊。它属于什么花？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 95
+      },
+      {
+        "answer": "风力传播",
+        "difficulty": 1,
+        "explanation": "蒲公英的种子轻小，带有像小伞一样的绒毛，容易被风带到远处。",
+        "knowledge_point": "种子的传播方式",
+        "options": [
+          "动物传播",
+          "风力传播",
+          "水力传播",
+          "弹射传播"
+        ],
+        "question": "蒲公英的种子轻小，带有绒毛，常随风飘散。它主要依靠（）传播。",
+        "score": 5,
+        "type": "choice",
+        "id": 96
+      },
+      {
+        "answer": "水力传播",
+        "difficulty": 1,
+        "explanation": "椰子能够漂浮在水面上，随海水或河水漂流，到达其他地方后可能生根发芽。",
+        "knowledge_point": "种子的传播方式",
+        "options": [
+          "弹射传播",
+          "动物传播",
+          "风力传播",
+          "水力传播"
+        ],
+        "question": "椰子可以漂浮在水面上，随水流到别处。它主要依靠（）传播。",
+        "score": 5,
+        "type": "choice",
+        "id": 97
+      },
+      {
+        "answer": "种子被动物吃下后随粪便排出",
+        "difficulty": 2,
+        "explanation": "种子被动物吃下后，若没有被消化，可能随粪便排出并散落到其他地方，属于动物传播。随风飘散属于风力传播，果实在水中漂浮属于水力传播，果实裂开弹出种子属于弹射传播。",
+        "knowledge_point": "种子的传播方式",
+        "options": [
+          "种子被动物吃下后随粪便排出",
+          "种子随风飘散到远处",
+          "果实在水中漂浮并随水流移动",
+          "成熟的果实裂开，把种子弹出去"
+        ],
+        "question": "下面哪种情况属于借助动物传播种子？",
+        "score": 5,
+        "type": "choice",
+        "id": 98
+      },
+      {
+        "answer": "弹射传播",
+        "difficulty": 2,
+        "explanation": "有些果实成熟后会突然裂开，把种子弹到周围，这种传播方式叫弹射传播。",
+        "knowledge_point": "种子的传播方式",
+        "options": [
+          "水力传播",
+          "弹射传播",
+          "风力传播",
+          "动物传播"
+        ],
+        "question": "豌豆荚成熟、变干后会裂开，把种子弹到周围。这种方式属于（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "轻小；风力",
+        "difficulty": 2,
+        "explanation": "轻小的种子比较容易被风带动，因此常能依靠风力传播到远处。",
+        "knowledge_point": "种子的传播方式",
+        "options": [],
+        "question": "许多靠风传播的种子比较（），容易被（）带到远处。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 100
+      },
+      {
+        "answer": "种子",
+        "difficulty": 2,
+        "explanation": "子房里的胚珠在受精后发育成种子，子房发育成果实。",
+        "knowledge_point": "果实的发育",
+        "options": [],
+        "question": "受精后，子房里的胚珠通常发育成什么？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 101
+      },
+      {
+        "answer": "果实",
+        "difficulty": 2,
+        "explanation": "果实由雌蕊的子房发育而来，花瓣通常不会发育成果实。",
+        "knowledge_point": "果实的发育",
+        "options": [],
+        "question": "花完成受精后，雌蕊的子房逐渐发育成（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 102
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "胚珠发育成种子，子房才发育成果实。",
+        "knowledge_point": "果实的发育",
+        "options": [],
+        "question": "判断：受精后，胚珠发育成果实。",
+        "score": 5,
+        "type": "true_false",
+        "id": 103
+      },
+      {
+        "answer": "子房",
+        "difficulty": 3,
+        "explanation": "花谢后，花的基部若逐渐膨大，通常是子房正在发育。持续观察可以看到它慢慢长成果实。",
+        "knowledge_point": "果实的发育",
+        "options": [
+          "花瓣",
+          "子房",
+          "花药",
+          "花丝"
+        ],
+        "question": "花朵凋谢后，花的基部逐渐膨大，最可能是哪个部分正在发育？",
+        "score": 5,
+        "type": "choice",
+        "id": 104
+      },
+      {
+        "answer": "子房发育成果实，胚珠发育成种子。",
+        "difficulty": 3,
+        "explanation": "这是花完成受精后两个主要的发育结果：子房形成果实，子房里的胚珠形成种子。",
+        "knowledge_point": "果实的发育",
+        "options": [],
+        "question": "填空：受精后，（）发育成果实，（）发育成种子。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 105
+      },
+      {
+        "answer": "花药",
+        "difficulty": 1,
+        "explanation": "花粉由雄蕊的花药产生，之后可能被传播到雌蕊柱头上。",
+        "knowledge_point": "传粉过程",
+        "options": [],
+        "question": "花粉主要由花的雄蕊中的____产生。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 106
+      },
+      {
+        "answer": "正确",
+        "difficulty": 2,
+        "explanation": "昆虫能把花粉从一朵花带到另一朵花的柱头上，是常见的传粉方式之一；风和水等也能帮助传粉。",
+        "knowledge_point": "传粉过程",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "昆虫可以帮助植物传粉。",
+        "score": 5,
+        "type": "true_false",
+        "id": 107
+      },
+      {
+        "answer": "风",
+        "difficulty": 2,
+        "explanation": "有些植物的花粉很轻，能够随风飘散并落到雌蕊柱头上。",
+        "knowledge_point": "传粉过程",
+        "options": [],
+        "question": "有些植物不依靠昆虫，花粉可以借助____传播。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 108
+      },
+      {
+        "answer": "传粉是花粉从花药传到雌蕊柱头上的过程；受精是之后发生的过程，二者不是一回事。",
+        "difficulty": 3,
+        "explanation": "花粉到达柱头叫传粉。传粉之后还可能发生受精，不能把两个过程混为一谈。",
+        "knowledge_point": "传粉过程",
+        "options": [],
+        "question": "用一句话说明传粉是什么，并说说它和受精是否相同。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 109
+      },
+      {
+        "answer": "子房",
+        "difficulty": 2,
+        "explanation": "传粉和受精后，花的子房通常逐渐发育成果实，胚珠逐渐发育成种子。",
+        "knowledge_point": "传粉过程",
+        "options": [],
+        "question": "传粉、受精后，花的____通常逐渐发育成果实。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 110
+      },
+      {
+        "answer": "种子萌发、幼苗、植株长大、开花、结果并形成种子",
+        "difficulty": 1,
+        "explanation": "种子萌发后长成幼苗，植株逐渐长大并开花，之后可能形成果实和新的种子。",
+        "knowledge_point": "植物的生长阶段",
+        "options": [
+          "种子萌发、幼苗、植株长大、开花、结果并形成种子",
+          "开花、种子萌发、结果、幼苗",
+          "幼苗、结果、种子萌发、开花",
+          "结果、开花、幼苗、种子萌发"
+        ],
+        "question": "下面哪一项较完整地表示了凤仙花的生长过程？（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 111
+      },
+      {
+        "answer": "幼苗",
+        "difficulty": 1,
+        "explanation": "种子萌发后，植物长出幼嫩的茎和叶，进入幼苗阶段。",
+        "knowledge_point": "植物的生长阶段",
+        "options": [
+          "结果",
+          "幼苗",
+          "开花",
+          "种子"
+        ],
+        "question": "种子萌发后，长出幼嫩的茎和叶，这时植物通常处于（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 112
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "许多开花植物在花凋谢后会形成果实，果实中常含有种子。",
+        "knowledge_point": "植物的生长阶段",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "许多开花植物会在开花后形成果实和种子。",
+        "score": 5,
+        "type": "true_false",
+        "id": 113
+      },
+      {
+        "answer": "花",
+        "difficulty": 1,
+        "explanation": "植物开花后，有些花会逐渐形成果实，果实中可以长出新的种子。",
+        "knowledge_point": "植物的生长阶段",
+        "options": [],
+        "question": "许多植物开花后，会逐渐形成果实。果实通常由植物的____发育而来。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 114
+      },
+      {
+        "answer": "种子、种子萌发、幼苗、开花、结果",
+        "difficulty": 2,
+        "explanation": "植物通常先由种子开始，种子萌发后长成幼苗，植株长大后开花，之后可能结果并产生新的种子。",
+        "knowledge_point": "植物的生长阶段",
+        "options": [],
+        "question": "按生长先后顺序填空：____ → ____ → ____ → ____ → ____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 115
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "植物生长需要水分、空气、适宜的温度和阳光；阳光能帮助绿色植物进行光合作用。",
+        "knowledge_point": "环境需求",
+        "options": [
+          "只需要阳光",
+          "只需要水",
+          "需要水、空气、适宜的温度和阳光等条件",
+          "什么环境都可以"
+        ],
+        "question": "植物要正常生长，通常需要哪些环境条件？",
+        "score": 5,
+        "type": "choice",
+        "id": 116
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "动物需要食物和水，也需要空气及适宜的温度等条件才能生存。",
+        "knowledge_point": "环境需求",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "动物的生存需要食物、水、空气和适宜的环境。",
+        "score": 5,
+        "type": "true_false",
+        "id": 117
+      },
+      {
+        "answer": "水分",
+        "difficulty": 1,
+        "explanation": "水是许多生物生存和生长所必需的条件之一。",
+        "knowledge_point": "环境需求",
+        "options": [],
+        "question": "大多数生物都需要从环境中获得____，才能维持生命活动。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 118
+      },
+      {
+        "answer": "水、空气、适宜的温度",
+        "difficulty": 2,
+        "explanation": "种子发芽通常需要一定的水分、空气和适宜的温度；阳光通常不是种子发芽的必需条件，但幼苗生长需要阳光。",
+        "knowledge_point": "环境需求",
+        "options": [],
+        "question": "请写出种子发芽通常需要的三种环境条件。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "把一盆植物放在有光处，另一盆放在黑暗处；两盆植物的水分、土壤、温度等条件尽量相同，连续观察并记录它们的变化。",
+        "difficulty": 3,
+        "explanation": "比较时尽量只改变光照这一项条件，其他条件保持相同，才能更好地判断光照对植物生长的影响。",
+        "knowledge_point": "环境需求",
+        "options": [],
+        "question": "想知道光照是否会影响植物生长，可以怎样设计一个简单的观察实验？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 120
+      },
+      {
+        "answer": "种子",
+        "difficulty": 1,
+        "explanation": "许多绿色开花植物由种子开始新的生命周期，适宜的条件下种子会萌发。",
+        "knowledge_point": "生命周期",
+        "options": [],
+        "question": "许多绿色开花植物可以从____开始新的生命周期。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 121
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "绿色开花植物通常先开花，随后形成果实，果实中常含有种子。",
+        "knowledge_point": "生命周期",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "绿色开花植物通常先开花，再结果。",
+        "score": 5,
+        "type": "true_false",
+        "id": 122
+      },
+      {
+        "answer": "萌发、生长发育、开花、结果",
+        "difficulty": 2,
+        "explanation": "种子萌发后，植物逐渐生长发育；成熟后开花，之后结果。不同植物的具体情况可能有所不同。",
+        "knowledge_point": "生命周期",
+        "options": [],
+        "question": "按先后顺序填写：种子 → ____ → ____ → ____ → ____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "卵",
+        "difficulty": 2,
+        "explanation": "蝴蝶的生命周期通常包括卵、幼虫、蛹和成虫，成虫产卵后，新的生命周期又开始了。",
+        "knowledge_point": "生命周期",
+        "options": [],
+        "question": "蝴蝶的生命周期包括卵、幼虫、蛹和成虫。成虫产下的____可以发育成新的幼虫。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 124
+      },
+      {
+        "answer": "种子 → 萌发 → 生长发育 → 开花 → 结果 → 种子传播 → 衰老和死亡",
+        "difficulty": 2,
+        "explanation": "生命周期描述生物从开始生命到衰老死亡的过程。植物结果后，种子传播到适宜的地方，可能萌发并开启新的生命周期。",
+        "knowledge_point": "生命周期",
+        "options": [],
+        "question": "请用箭头写出绿色开花植物从种子开始到衰老死亡的大致生命周期。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 125
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "研究光照的影响时，应让两盆植物只有光照条件不同，其他条件尽量相同，这样才能比较光照是否影响生长。",
+        "knowledge_point": "实验对照",
+        "options": [
+          "A. 两盆植物的种类、土壤和浇水量都不同",
+          "B. 两盆相同的植物浇同样多的水，一盆有光照、一盆没有光照",
+          "C. 两盆植物都放在有光照的地方",
+          "D. 一盆植物浇水，另一盆不浇水，同时改变光照"
+        ],
+        "question": "小明想研究光照会不会影响植物生长，哪种做法更合适？",
+        "score": 5,
+        "type": "choice",
+        "id": 126
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "对照实验中，为了判断一个研究条件的影响，通常只改变这个条件，其他条件尽量保持相同。",
+        "knowledge_point": "实验对照",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "设计对照实验时，通常要让实验组和对照组只有一个研究条件不同。",
+        "score": 5,
+        "type": "true_false",
+        "id": 127
+      },
+      {
+        "answer": "相同",
+        "difficulty": 1,
+        "explanation": "两组的其他条件相同，才能尽量保证结果差异是由研究的条件造成的。",
+        "knowledge_point": "实验对照",
+        "options": [],
+        "question": "研究某个条件对实验结果的影响时，除这个条件外，其他条件应尽量保持（____）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 128
+      },
+      {
+        "answer": "遮光",
+        "difficulty": 2,
+        "explanation": "这项实验研究的是光照的影响，因此一组接受光照，另一组需要遮光；两组的植物、水和土壤等其他条件应尽量相同。",
+        "knowledge_point": "实验对照",
+        "options": [],
+        "question": "要研究光照对植物生长的影响，可以让一组植物接受光照，另一组植物进行（____）处理。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "浇水量不同会让植物获得的水分不同，无法判断生长差异究竟是光照还是浇水量造成的。应让两盆植物浇水量相同，只改变光照条件。",
+        "difficulty": 3,
+        "explanation": "对照实验要控制无关条件。若光照和浇水量同时不同，就无法单独判断光照对植物生长的影响。",
+        "knowledge_point": "实验对照",
+        "options": [],
+        "question": "小华研究光照是否影响植物生长：一盆放在窗边并每天浇水，另一盆放在暗处且不浇水。这个实验设计有什么问题？怎样改进？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 130
+      },
+      {
+        "answer": "子叶",
+        "difficulty": 1,
+        "explanation": "子叶是种子胚的一部分。蚕豆的子叶较肥厚，里面储存着种子萌发所需的营养物质。",
+        "knowledge_point": "子叶的结构",
+        "options": [],
+        "question": "蚕豆种子中，能储存营养物质、供萌发时使用的结构叫作（）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 131
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "蚕豆的种皮包在外面；剥去种皮后，可以看到里面的两片子叶以及胚芽、胚根等结构。",
+        "knowledge_point": "子叶的结构",
+        "options": [
+          "A. 种皮",
+          "B. 子叶",
+          "C. 胚根"
+        ],
+        "question": "蚕豆种子中，通常有两片且比较肥厚的结构是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 132
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "蚕豆的两片子叶能储存营养物质，在种子萌发时为幼苗生长提供营养。",
+        "knowledge_point": "子叶的结构",
+        "options": [],
+        "question": "蚕豆的子叶可以储存种子萌发时需要的营养物质。",
+        "score": 5,
+        "type": "true_false",
+        "id": 133
+      },
+      {
+        "answer": "种皮",
+        "difficulty": 2,
+        "explanation": "种皮包在种子的外面，起保护作用；子叶则位于种子内部，是胚的一部分。",
+        "knowledge_point": "子叶的结构",
+        "options": [],
+        "question": "蚕豆种子外面包着一层皮，这层结构叫（）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 134
+      },
+      {
+        "answer": "错误。蚕豆有两片子叶；种皮是包在种子外面的结构。",
+        "difficulty": 2,
+        "explanation": "子叶位于种子内部，蚕豆有两片子叶；种皮位于外部，不能把二者混为一谈。",
+        "knowledge_point": "子叶的结构",
+        "options": [],
+        "question": "小明说：“蚕豆的种皮就是它的子叶。”这句话正确吗？请说明理由。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 135
+      },
+      {
+        "answer": "花药和花丝",
+        "difficulty": 1,
+        "explanation": "雄蕊通常由花药和花丝两部分组成。",
+        "knowledge_point": "雄蕊的结构",
+        "options": [],
+        "question": "雄蕊通常由（）和（）组成。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 136
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "花药位于花丝顶端，里面有花粉；花丝主要起支撑花药的作用。",
+        "knowledge_point": "雄蕊的结构",
+        "options": [
+          "A. 花丝",
+          "B. 花药",
+          "C. 花瓣",
+          "D. 萼片"
+        ],
+        "question": "雄蕊中，通常含有花粉的部分是（）。",
+        "score": 5,
+        "type": "choice",
+        "id": 137
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "花丝通常细长，能够支撑顶端的花药。",
+        "knowledge_point": "雄蕊的结构",
+        "options": [],
+        "question": "花丝的作用之一是支撑花药。",
+        "score": 5,
+        "type": "true_false",
+        "id": 138
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "花药是雄蕊的一部分，通常位于花丝顶端；花瓣不是雄蕊的组成部分。",
+        "knowledge_point": "雄蕊的结构",
+        "options": [],
+        "question": "花瓣和花药都是雄蕊的组成部分。",
+        "score": 5,
+        "type": "true_false",
+        "id": 139
+      },
+      {
+        "answer": "花粉",
+        "difficulty": 2,
+        "explanation": "花药里有花粉，花粉是植物繁殖过程中重要的结构。",
+        "knowledge_point": "雄蕊的结构",
+        "options": [],
+        "question": "花药里通常有（）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 140
+      },
+      {
+        "answer": "二氧化碳和水",
+        "difficulty": 1,
+        "explanation": "植物进行光合作用时，需要吸收二氧化碳和水作为原料。",
+        "knowledge_point": "光合作用",
+        "options": [],
+        "question": "植物进行光合作用需要吸收的两种原料是（）和（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 141
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "光合作用需要光能，植物利用光能制造养料。",
+        "knowledge_point": "光合作用",
+        "options": [
+          "A. 月光",
+          "B. 光能",
+          "C. 土壤"
+        ],
+        "question": "植物进行光合作用需要利用什么？",
+        "score": 5,
+        "type": "choice",
+        "id": 142
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "植物通过光合作用制造有机物，也就是植物生长所需的养料。",
+        "knowledge_point": "光合作用",
+        "options": [],
+        "question": "光合作用能帮助植物制造养料。（）",
+        "score": 5,
+        "type": "true_false",
+        "id": 143
+      },
+      {
+        "answer": "有机物",
+        "difficulty": 2,
+        "explanation": "植物通过光合作用制造的养料属于有机物。",
+        "knowledge_point": "光合作用",
+        "options": [],
+        "question": "植物通过光合作用制造的养料，在科学上通常称为（）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 144
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "光合作用需要光能，原料是二氧化碳和水，产物是有机物和氧气。植物生长还需要土壤中的养分，但土壤不是光合作用的原料。",
+        "knowledge_point": "光合作用",
+        "options": [
+          "A. 二氧化碳和水",
+          "B. 氧气和有机物",
+          "C. 土壤和氧气"
+        ],
+        "question": "下面哪一项是植物进行光合作用的原料？",
+        "score": 5,
+        "type": "choice",
+        "id": 145
+      },
+      {
+        "answer": "沿地面生长",
+        "difficulty": 1,
+        "explanation": "匍匐茎通常贴近地面向四周伸展，草莓的茎是常见例子。",
+        "knowledge_point": "茎的形态",
+        "options": [],
+        "question": "匍匐茎通常怎样生长？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 146
+      },
+      {
+        "answer": "攀缘茎",
+        "difficulty": 2,
+        "explanation": "爬山虎借助吸盘攀附在墙面等物体上生长，属于攀缘茎。",
+        "knowledge_point": "茎的形态",
+        "options": [],
+        "question": "爬山虎的茎借助吸盘攀附在墙面上生长，这种茎属于（）。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 147
+      },
+      {
+        "answer": "缠绕茎",
+        "difficulty": 2,
+        "explanation": "牵牛花的茎会缠绕支架向上生长，属于缠绕茎。",
+        "knowledge_point": "茎的形态",
+        "options": [],
+        "question": "牵牛花的茎缠绕着支架向上生长，这种茎属于（）。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 148
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "匍匐茎是茎的一种形态，虽然贴近地面生长，但不能因此把它当作根。",
+        "knowledge_point": "茎的形态",
+        "options": [],
+        "question": "判断：匍匐茎贴着地面生长，所以它其实是根。（）",
+        "score": 3,
+        "type": "true_false",
+        "id": 149
+      },
+      {
+        "answer": "B",
+        "difficulty": 3,
+        "explanation": "直立茎向上生长；沿地面伸展的是匍匐茎，攀附物体的是攀缘茎，缠绕支撑物的是缠绕茎。",
+        "knowledge_point": "茎的形态",
+        "options": [
+          "A. 沿地面生长的茎是直立茎",
+          "B. 直立向上生长的茎是直立茎",
+          "C. 缠绕支架生长的茎是攀缘茎",
+          "D. 借助吸盘攀附墙面的茎是匍匐茎"
+        ],
+        "question": "下面关于茎的形态的说法，正确的是哪一项？",
+        "score": 4,
+        "type": "choice",
+        "id": 150
       }
     ]
   },
@@ -682,6 +2265,281 @@
         "看到带钩的果实认为是风力传播"
       ],
       "tips": "传播方式看特征：轻有毛靠风，甜美多汁靠动物，硬而弹靠弹射，浮水靠水。"
+    },
+    {
+      "common_mistakes": [
+        "把种皮当成种子的全部结构，忽略内部的胚和子叶。",
+        "认为所有种子的外形、颜色和大小都相同。",
+        "把种子萌发时最先长出的根误认为茎。"
+      ],
+      "core_concept": "种子的外部特征可以通过观察形状、大小、颜色、表面和软硬等来描述。许多常见种子由种皮和胚组成，有些种子还含有胚乳；胚通常包括胚根、胚芽和子叶。种皮包在外面，起保护作用；胚根将来发育成根，胚芽将来发育成茎和叶，子叶常储存或提供种子萌发所需的养料。不同植物的种子外形各异，但结构和作用有共同之处。",
+      "key_formula": "种子的主要结构：种皮（保护）＋胚（胚根、胚芽、子叶）；有些种子还具有胚乳。",
+      "point": "种子的外部特征与结构",
+      "tips": "观察时先看、再摸、最后在成人指导下剥开种皮；不要把种子放入口中。记忆结构作用可用“种皮护，胚生长；胚根成根，胚芽成茎叶，子叶供养料”。"
+    },
+    {
+      "common_mistakes": [
+        "只记录植物长高，不观察叶片、颜色和生长环境等变化。",
+        "测量时使用不同的起点或方法，导致记录不准确。",
+        "忘记写观察日期，难以比较植物前后的变化。",
+        "把观察到的现象和自己的猜测混在一起。"
+      ],
+      "core_concept": "种植活动中，要照顾植物并持续观察，按照固定时间和方法记录它的生长变化。通过比较不同日期的记录，可以了解植物生长需要的条件以及生长过程中的变化。",
+      "key_formula": "生长变化量 = 后一次测量值 − 前一次测量值",
+      "point": "种植活动与生长观察记录",
+      "tips": "观察时可以记录日期、植物的高度、叶片数量和颜色，以及浇水、光照等情况。测量高度时尽量从相同位置开始，使用相同工具和方法。记录要真实、清楚；观察到的现象和对原因的猜测分开写。"
+    },
+    {
+      "common_mistakes": [
+        "把植物吸收水分和养料的主要器官误认为茎或叶。",
+        "认为茎只负责支撑，忽略它运输水分、养料的作用。",
+        "认为叶只会制造养料，忽略叶片还会蒸腾水分、进行气体交换。"
+      ],
+      "core_concept": "根、茎、叶是植物的重要营养器官，各有主要功能，也相互配合：根从土壤中吸收水分和矿物质，并能固定植物；茎支撑植物，运输水分、矿物质和叶制造的养料；叶通过光合作用制造养料，并通过蒸腾作用散失水分。",
+      "key_formula": "根：吸收水分和矿物质、固定植物；茎：支撑、运输；叶：光合作用制造养料、蒸腾水分。",
+      "point": "根、茎、叶的生理功能",
+      "tips": "观察植物时，可结合实验理解各器官的作用：把带叶枝条插入有色水中，过一段时间观察茎或叶脉颜色变化，可帮助认识茎的运输作用；给盆栽套上透明塑料袋，观察袋内水珠，可帮助认识叶片会散失水分。实验中要注意设置对照，并避免把现象说成该器官唯一的功能。"
+    },
+    {
+      "common_mistakes": [
+        "把传粉和受精混为一谈：传粉是花粉传到柱头上，受精是精子细胞与卵细胞结合。",
+        "认为所有植物都靠昆虫传播种子；植物也可以借助风、水或动物传播种子。",
+        "把果实和种子当成同一个部分；果实通常由子房发育而来，种子由胚珠发育而来。"
+      ],
+      "core_concept": "花经过传粉和受精后，花的子房通常发育成果实，胚珠发育成种子。种子成熟后，在适宜条件下可以萌发。植物的果实和种子会借助风、水、动物或果实自身的力量传播到别处，有利于植物繁殖和生长。",
+      "key_formula": "传粉 → 受精 → 子房发育成果实，胚珠发育成种子 → 种子传播与萌发",
+      "point": "花、果实和种子的发育与传播",
+      "tips": "观察不同植物的花、果实和种子，比较它们的形状、大小和特点，再推想它们可能怎样传播。例如，轻小或带翅的种子容易随风飘散；能漂浮的果实可能借水传播；有钩刺或肉质果实的种子常借助动物传播。注意：传播方式是根据特征作出的推测，不一定适用于所有植物。"
+    },
+    {
+      "common_mistakes": [
+        "认为所有植物都需要相同的光照和水量；不同植物的需求可能不同。",
+        "认为植物只要有阳光就能生长，忽略水、空气和适宜温度等条件。",
+        "把植物的生命周期看成只能进行一次；许多植物成熟后会产生种子，开始新的生命周期。"
+      ],
+      "core_concept": "植物会经历种子萌发、幼苗生长、成熟、开花结果并产生种子等阶段。植物的生长和繁殖需要适宜的环境条件，通常包括水、空气、适当的光照和温度；不同植物对这些条件的需求有所不同。",
+      "key_formula": "种子 → 萌发 → 幼苗 → 成熟植株 → 开花、结果并产生种子",
+      "point": "植物的生命周期与环境需求",
+      "tips": "观察植物时，可以记录它在不同阶段的外形变化，并比较不同环境中的生长情况。做比较时尽量只改变一个条件，例如只改变光照，其他条件保持相同，这样更容易判断该条件对植物生长的影响。"
+    },
+    {
+      "common_mistakes": [
+        "把胚芽和胚根的作用弄反：胚芽发育成茎和叶，胚根发育成根。",
+        "认为子叶只是种子外壳的一部分；蚕豆种子的子叶能储存营养。",
+        "把种皮当作胚的一部分；种皮主要起保护作用。"
+      ],
+      "core_concept": "种子一般由种皮和胚组成，有些种子还有胚乳。蚕豆种子由种皮和胚构成，胚包括胚芽、胚轴、胚根和子叶。种皮保护种子；胚芽将来发育成茎和叶，胚根发育成根，胚轴连接胚芽和胚根，子叶储存营养并为种子萌发提供养分。",
+      "key_formula": "蚕豆种子的结构：种皮＋胚（胚芽、胚轴、胚根、子叶）",
+      "point": "种子的结构",
+      "tips": "观察蚕豆种子时，可先观察外部的种皮，再剥开种皮，找到两片子叶和夹在其中的胚。结合植物的生长方向记忆：胚根向下发育成根，胚芽向上发育成茎和叶。"
+    },
+    {
+      "common_mistakes": [
+        "认为叶只负责制造养料，忽略叶还能进行蒸腾作用。",
+        "认为植物吸收的水分都会留在体内，其实一部分水分会通过叶片蒸散到空气中。",
+        "认为植物的光合作用只需要阳光，忽略了水和空气中的二氧化碳等条件。"
+      ],
+      "core_concept": "叶是植物的重要器官。叶片能在阳光下利用水和空气中的二氧化碳制造养料；叶还会通过蒸腾作用散失水分。",
+      "key_formula": "光合作用：水＋二氧化碳＋阳光 → 养料＋氧气",
+      "point": "叶的功能",
+      "tips": "观察植物叶片时，可以想一想：叶片怎样帮助植物获得养料？植物吸收的水分又有一部分去了哪里？注意光合作用和蒸腾作用是不同的过程。"
+    },
+    {
+      "common_mistakes": [
+        "把种子萌发和种子生长混为一谈：萌发是种子开始生长的阶段。",
+        "认为种子只要有水就能萌发；种子还需要适宜的温度和充足的空气。",
+        "认为种子萌发需要阳光和土壤；许多种子在适宜条件下，即使没有阳光和土壤也能先萌发。"
+      ],
+      "core_concept": "种子萌发是种子开始生长的过程。种子吸收水分后，胚逐渐生长，通常胚根先突破种皮，向下生长形成根；胚芽随后生长，逐渐形成茎和叶。种子萌发需要适宜的温度、充足的水分和空气。",
+      "key_formula": "种子萌发的基本条件：适宜的温度 + 充足的水分 + 充足的空气。",
+      "point": "种子的萌发",
+      "tips": "观察时按时间记录种子外形、胚根和胚芽的变化。比较不同条件时，一次只改变一个条件，其他条件尽量保持相同。"
+    },
+    {
+      "common_mistakes": [
+        "认为根只能固定植物，不能吸收水分和矿物质。",
+        "把根和茎混淆：根通常向土壤中生长，茎通常支撑叶、花和果实。",
+        "认为所有植物的根长得都一样；不同植物的根在形态和作用上有差异。"
+      ],
+      "core_concept": "根是植物的重要组成部分。常见的根系有直根系和须根系：直根系有明显的主根和侧根，须根系由许多粗细相近的根组成。根能固定植物，吸收土壤中的水分和矿物质；有些植物的根还能储存营养物质。",
+      "key_formula": "植物的根的主要作用：固定植物、吸收水分和矿物质；有些根还能储存营养。",
+      "point": "植物的根",
+      "tips": "观察植物时，可以比较根的粗细、长短和分枝情况。拔取植物可能损伤植株，观察根系时可选用已经拔出的植物，或在不伤害植物的前提下观察。"
+    },
+    {
+      "common_mistakes": [
+        "认为所有种子都靠风传播；其实种子还可以靠水、动物或果实自身弹射传播。",
+        "把果实的传播方式和种子的传播方式分开记；很多时候是果实带着种子一起传播。",
+        "认为种子只要离开母株就一定能发芽；种子还需要适宜的水分、温度和空气等条件。"
+      ],
+      "core_concept": "植物不能像动物那样主动移动，种子和果实需要借助外力离开母株，传播到其他地方。常见方式有风力传播、水力传播、动物传播，以及果实成熟后自行弹射传播。",
+      "key_formula": "种子传播方式＝风力传播、水力传播、动物传播、自体弹射传播",
+      "point": "种子的传播",
+      "tips": "观察种子或果实的外形，思考它适合怎样移动：轻小、有绒毛或翅的常借风传播；能漂浮的可能借水传播；有钩刺、黏液或肉质果实的常与动物有关；成熟后会裂开或卷曲的可能自行弹射。"
+    },
+    {
+      "common_mistakes": [
+        "把种皮、胚和子叶混为一谈：种皮主要起保护作用，胚能发育成新植物体。",
+        "认为所有种子的营养都储存在子叶中；有些种子的营养主要储存在胚乳中。",
+        "忘记胚由胚根、胚芽、胚轴和子叶组成。"
+      ],
+      "core_concept": "种子内部通常有胚和储存营养的部分，外面由种皮保护。胚是种子的核心部分，能在适宜条件下发育成新植物体。",
+      "key_formula": "胚 = 胚根 + 胚芽 + 胚轴 + 子叶",
+      "point": "种子的内部结构",
+      "tips": "观察浸泡后的菜豆种子，可以看到种皮、两片子叶和胚；观察玉米种子剖面，可以看到胚和胚乳。菜豆等种子的营养主要储存在子叶中，玉米等种子的营养主要储存在胚乳中。"
+    },
+    {
+      "common_mistakes": [
+        "认为植物只要有阳光就能生长，忽略水、空气和适宜的温度等条件。",
+        "认为植物从土壤中获得全部食物；实际上，植物主要通过光合作用制造养分，土壤可提供水分和矿物质。",
+        "认为所有植物都需要完全相同的生长条件；不同植物对光照、水分和温度的需求可能不同。"
+      ],
+      "core_concept": "植物生长通常需要适量的水、空气、阳光和适宜的温度。植物的根可以吸收水分和矿物质，叶片在阳光照射下利用空气中的二氧化碳制造养分。不同植物的具体需求有所不同。",
+      "key_formula": "植物生长的基本条件：适量的水＋空气＋阳光＋适宜的温度。",
+      "point": "植物生长所需条件",
+      "tips": "观察植物时，可以比较水分、光照或温度不同的植株，其他条件尽量保持相同。这样更容易看出某一种条件对植物生长的影响。"
+    },
+    {
+      "common_mistakes": [
+        "把茎的运输作用误认为吸收作用：根主要吸收水分和无机盐，茎负责运输。",
+        "认为茎只运输水分；茎还运输无机盐和叶制造的养料。",
+        "把导管和筛管的作用混淆：导管主要运输水分和无机盐，筛管主要运输叶制造的养料。"
+      ],
+      "core_concept": "茎连接植物的根、叶等部分，内部有运输组织。导管把根吸收的水分和无机盐输送到植物各部分；筛管把叶制造的养料输送到植物需要的地方。将茎插入有色水中一段时间后纵切，看到茎内出现有色线条，可以说明茎能运输水分。",
+      "key_formula": "根吸收水分和无机盐 → 茎中的导管运输 → 植物各部分；叶制造的养料 → 茎中的筛管运输 → 植物各部分",
+      "point": "茎的运输作用",
+      "tips": "观察茎的运输作用时，可将新鲜植物的茎插入有色水中，等待一段时间后再纵切观察。看到颜色沿茎内的线状部分分布，说明水通过茎内的运输组织移动。实验中要注意比较插入有色水前后的变化。"
+    },
+    {
+      "common_mistakes": [
+        "不要把花瓣和花萼混为一谈：花萼通常由萼片组成，常在花的最外层。",
+        "花中只有雄蕊或只有雌蕊，属于单性花；花中同时有雄蕊和雌蕊，不一定就是完全花，还要看花萼和花瓣是否齐全。"
+      ],
+      "core_concept": "一朵典型的花由花萼、花瓣、雄蕊和雌蕊组成。花萼和花瓣主要起保护、吸引传粉者等作用；雄蕊产生花粉；雌蕊接受花粉，子房里有胚珠。四部分都具备的花叫完全花，缺少其中一部分或几部分的花叫不完全花。",
+      "key_formula": "完全花＝花萼＋花瓣＋雄蕊＋雌蕊；缺少其中任一部分＝不完全花。",
+      "point": "花的结构",
+      "tips": "观察花时，可从外向内寻找花萼、花瓣、雄蕊和雌蕊。比较不同花的结构时，注意是否缺少某一部分；判断完全花与不完全花，依据是四部分是否齐全。"
+    },
+    {
+      "common_mistakes": [
+        "把动物传播误认为只有动物吃掉果实这一种方式；种子也可能粘附在动物皮毛上。",
+        "把果实成熟后裂开、将种子弹出的现象误认为风力传播。",
+        "认为每种植物的种子都只靠一种方式传播；有些种子可能有不止一种传播途径。"
+      ],
+      "core_concept": "植物的种子会借助不同方式离开母株，传播到其他地方。常见方式有风力传播、水力传播、动物传播和弹射传播。",
+      "key_formula": "观察种子或果实的特点 → 推测它适合借助什么传播 → 用生活实例验证。",
+      "point": "种子的传播方式",
+      "tips": "观察种子或果实的大小、轻重、形状和表面特点：轻小、有翅或绒毛的种子容易随风飘散；能漂浮的种子可以随水流动；带钩或有黏性的果实可能粘在动物身上；成熟后会裂开的果实可能把种子弹出去。"
+    },
+    {
+      "common_mistakes": [
+        "把果实说成由花瓣或雄蕊发育而来；果实由子房发育而来。",
+        "混淆子房和胚珠：子房发育成果实，胚珠发育成种子。",
+        "认为花朵一凋谢就立即形成成熟果实；果实还要经过一段时间的生长发育。"
+      ],
+      "core_concept": "花完成传粉、受精后，雌蕊的子房逐渐发育成果实，子房里的胚珠发育成种子。花瓣、雄蕊等部分通常会逐渐枯萎、脱落。",
+      "key_formula": "子房 → 果实；胚珠 → 种子",
+      "point": "果实的发育",
+      "tips": "观察植物时，可比较花谢后花的基部是否逐渐膨大，并持续观察它如何长成果实。记忆口诀：子房成果实，胚珠成种子。"
+    },
+    {
+      "common_mistakes": [
+        "把传粉和受精混为一谈：花粉落到柱头上是传粉，之后还要发生受精。",
+        "认为只有昆虫才能传粉；风、水等也能帮助传粉。",
+        "认为花粉落在花瓣或花丝上也能完成传粉；花粉需要落到雌蕊柱头上。"
+      ],
+      "core_concept": "传粉是花粉从雄蕊的花药传到雌蕊柱头上的过程。传粉后，在适宜条件下可能发生受精，花的子房逐渐发育成果实，胚珠逐渐发育成种子。",
+      "key_formula": "花药中的花粉 → 雌蕊柱头（传粉）→ 受精 → 子房发育成果实，胚珠发育成种子",
+      "point": "传粉过程",
+      "tips": "观察花时，可以先找雄蕊的花药和雌蕊的柱头，再沿着“花粉从哪里来、落到哪里去”理解传粉。记住：传粉不等于受精，也不代表每朵花都一定能结果。"
+    },
+    {
+      "common_mistakes": [
+        "把种子萌发和幼苗阶段混为一谈：种子萌发是种子开始生根、发芽，幼苗则是长出幼嫩的茎和叶。",
+        "认为植物长大后只会开花，不会结果；许多开花植物会在花凋谢后形成果实和种子。",
+        "认为所有植物都经历完全相同的生长过程；不同植物的生长方式有所不同。"
+      ],
+      "core_concept": "植物会经历一系列生长阶段。以凤仙花等种子植物为例，通常先由种子萌发，长成幼苗，再逐渐长大、开花，之后形成果实和种子。新的种子散播后，在合适的条件下又可以萌发，开始新的生长过程。",
+      "key_formula": "种子 → 种子萌发 → 幼苗 → 植株长大 → 开花 → 结果并形成种子",
+      "point": "植物的生长阶段",
+      "tips": "观察植物时，可以定期记录它的高度、叶片数量以及是否出现花和果实。比较前后记录，就能发现植物在不同阶段的变化。"
+    },
+    {
+      "common_mistakes": [
+        "把生物的生活环境只理解为它居住的地点，忽略环境还提供水、空气、食物和适宜的温度等条件。",
+        "认为所有生物都需要完全相同的环境条件。",
+        "把仙人掌的刺说成主要用于吸收水分；它的刺主要有助于减少水分散失，也能保护植株。"
+      ],
+      "core_concept": "生物的生存和生长需要一定的环境条件，例如适宜的水分、空气、温度、阳光和食物。不同生物适应不同的环境；环境条件发生变化时，生物可能会受到影响。",
+      "key_formula": "生物生存需要：水分、空气、适宜的温度、食物（或养料）及适宜的生活环境。",
+      "point": "环境需求",
+      "tips": "观察一种生物时，可以依次想一想：它在哪里生活？需要什么水分、空气、阳光、温度和食物？它的哪些特点有助于适应环境？例如，仙人掌的叶退化成刺，有助于减少水分散失。"
+    },
+    {
+      "common_mistakes": [
+        "把生命周期理解成只有生长阶段，忽略了衰老和死亡。",
+        "认为所有生物的生命周期完全相同；不同生物的生命周期会有差异。",
+        "把植物的开花和结果顺序弄反。"
+      ],
+      "core_concept": "生命周期是生物从出生（或由种子萌发）开始，经过生长、发育、繁殖，最终衰老和死亡的过程。不同生物的生命周期长短和具体阶段不同。绿色开花植物通常经历种子、萌发、生长发育、开花、结果、种子传播和衰老死亡等阶段。",
+      "key_formula": "绿色开花植物的生命周期：种子 → 萌发 → 生长发育 → 开花 → 结果 → 种子传播 → 衰老和死亡。",
+      "point": "生命周期",
+      "tips": "学习时可以按时间顺序排列生物经历的阶段，并比较不同生物生命周期的相同点和不同点。例如，植物常由种子开始，昆虫可能经历卵、幼虫、蛹和成虫等阶段。"
+    },
+    {
+      "common_mistakes": [
+        "把实验中改变的条件和观察到的结果混为一谈。",
+        "只设置实验组，不设置条件相同的对照组，难以判断结果是否由研究因素造成。",
+        "同时改变多个条件，无法判断哪一个条件影响了实验结果。"
+      ],
+      "core_concept": "实验对照是通过设置实验组和对照组，让两组只有一个研究条件不同，其他条件尽量保持相同，再比较结果，从而判断这个条件是否会产生影响。",
+      "key_formula": "实验组与对照组：只改变一个研究条件，其他条件保持相同；比较实验结果。",
+      "point": "实验对照",
+      "tips": "设计实验前先想清楚要研究什么；找出唯一需要改变的条件；列出需要保持相同的条件；实验后比较两组结果。"
+    },
+    {
+      "common_mistakes": [
+        "把子叶和种皮混为一谈：种皮包在外面，子叶在种子内部。",
+        "认为所有种子的子叶数量都相同；不同植物的种子，子叶数量可能不同。",
+        "把子叶只当作种子的外壳，忽略它能储存营养物质。"
+      ],
+      "core_concept": "子叶是种子胚的一部分。观察蚕豆种子时，剥去种皮、分开两片子叶，可以看到胚芽和胚根等结构。蚕豆有两片子叶，子叶较肥厚，能储存营养物质，供种子萌发时使用。",
+      "key_formula": "蚕豆种子：2片子叶",
+      "point": "子叶的结构",
+      "tips": "观察时先看种子外部，再轻轻剥去种皮并分开子叶。注意区分种皮、子叶和胚芽、胚根；不要用力掰扯，以免损坏内部结构。"
+    },
+    {
+      "common_mistakes": [
+        "把花丝和花药的作用弄反。",
+        "认为雄蕊只有一个部分；雄蕊通常由花药和花丝组成。",
+        "把雄蕊误认为雌蕊。"
+      ],
+      "core_concept": "雄蕊是花的雄性生殖结构，通常由花药和花丝组成。花丝支撑花药，花药里有花粉。不同植物的雄蕊数量可能不同。",
+      "key_formula": "雄蕊 = 花药 + 花丝",
+      "point": "雄蕊的结构",
+      "tips": "观察花时，可以先找细长的花丝，再看花丝顶端的花药。花药常能看到或摸到花粉；观察后要洗手，不要随意品尝植物。"
+    },
+    {
+      "common_mistakes": [
+        "不要把光合作用说成植物只是在阳光下“吸收阳光”；植物还需要二氧化碳和水。",
+        "植物制造的养料是有机物，不能把氧气当作养料。",
+        "光合作用需要光，但植物也会进行呼吸作用；不要认为植物只在白天呼吸。"
+      ],
+      "core_concept": "光合作用是植物利用光能，把二氧化碳和水转化成养料（有机物），并释放氧气的过程。叶片中的叶绿体能吸收光能，叶片上的气孔可帮助植物与空气进行气体交换。",
+      "key_formula": "二氧化碳 + 水 —（光能、叶绿体）→ 有机物（养料） + 氧气",
+      "point": "光合作用",
+      "tips": "记住光合作用的原料是二氧化碳和水，需要光能，产物是有机物和氧气。可用“吸收二氧化碳、利用水和光，制造养料、释放氧气”来帮助记忆。"
+    },
+    {
+      "common_mistakes": [
+        "不要把茎的形态与茎的颜色、粗细等特征混为一谈。",
+        "匍匐茎沿地面生长，不等于根；攀缘茎借助其他物体向上生长。",
+        "有些植物的茎会随着生长方式变化，观察时要看它通常怎样生长。"
+      ],
+      "core_concept": "茎的形态可以根据生长方式来认识。常见的有直立茎、匍匐茎、攀缘茎和缠绕茎：直立茎向上生长；匍匐茎沿地面生长；攀缘茎依靠卷须、吸盘等结构攀附；缠绕茎则缠绕在其他物体上生长。观察植物时，可以留意茎的生长方向以及它是否依靠其他物体。",
+      "key_formula": "按生长方式观察茎：向上直立→直立茎；沿地面伸展→匍匐茎；借助结构攀附→攀缘茎；缠绕支撑物→缠绕茎。",
+      "point": "茎的形态",
+      "tips": "观察植物时，先看茎朝哪个方向生长，再看它是否沿地面伸展、攀附或缠绕支撑物。注意不要只凭茎的粗细或颜色判断类型。"
     }
   ]
 }

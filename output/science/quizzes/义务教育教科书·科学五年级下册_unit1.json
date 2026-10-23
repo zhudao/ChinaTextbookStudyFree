@@ -4,326 +4,2166 @@
   "unit_number": 1,
   "unit_test": {
     "title": "第一单元「生物与环境」单元测试卷",
-    "total_score": 100,
+    "total_score": 628,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "种子发芽通常需要适量的水分、充足的空气和适宜的温度，不一定需要土壤。",
         "knowledge_point": "种子发芽的条件",
+        "options": [],
         "question": "种子发芽必须要有土壤，没有土壤种子绝对不会发芽。",
-        "options": [],
-        "answer": "错",
-        "explanation": "种子发芽需要适量的水分、充足的空气和适宜的温度，不一定要有土壤。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "绿色植物在光照下进行光合作用，会制造有机物并释放氧气。",
         "knowledge_point": "植物光合作用",
+        "options": [],
         "question": "植物进行光合作用时会释放出氧气。",
-        "options": [],
-        "answer": "对",
-        "explanation": "光合作用是绿色植物利用光能，把二氧化碳和水转化成储存能量的有机物，并释放出氧气的过程。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
-        "difficulty": 2,
-        "knowledge_point": "动物对环境的选择性",
-        "question": "蚯蚓喜欢生活在干燥、明亮的环境中。",
-        "options": [],
         "answer": "错",
-        "explanation": "实验证明蚯蚓喜欢阴暗、潮湿的环境。"
+        "difficulty": 2,
+        "explanation": "蚯蚓通常喜欢阴暗、潮湿的环境，不喜欢干燥、明亮的地方。",
+        "knowledge_point": "动物对环境的选择性",
+        "options": [],
+        "question": "蚯蚓喜欢生活在干燥、明亮的环境中。",
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "箭头表示食物和能量流动的方向，从被吃的生物指向捕食者。",
         "knowledge_point": "食物链",
+        "options": [],
         "question": "在食物链中，箭头符号应该指向捕食者（吃的一方）。",
-        "options": [],
-        "answer": "对",
-        "explanation": "箭头代表能量流动的方向，从被食者指向捕食者。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "生态系统",
-        "question": "池塘里的所有生物与其生活的非生物环境共同构成了一个生态系统。",
-        "options": [],
-        "answer": "对",
-        "explanation": "生态系统是指在一定面积内，生物成分和非生物成分通过物质循环和能量流动互相作用所形成的统一整体。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "池塘中的动物、植物和微生物等生物，与水、空气、阳光等环境因素相互联系，共同构成生态系统。",
+        "knowledge_point": "生态系统",
+        "options": [],
+        "question": "池塘里的所有生物与其生活的非生物环境共同构成了一个生态系统。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "水分",
+        "difficulty": 1,
+        "explanation": "对比实验中，除了研究的变量（水分）不同，其他条件必须保持一致。",
         "knowledge_point": "种子发芽条件",
-        "question": "在研究种子发芽是否需要水分的对比实验中，我们要改变的条件是（ ）。",
         "options": [
           "光照",
           "温度",
           "水分",
           "空气"
         ],
-        "answer": "水分",
-        "explanation": "对比实验中，除了研究的变量（水分）不同，其他条件必须保持一致。"
+        "question": "在研究种子发芽是否需要水分的对比实验中，我们要改变的条件是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "至少3",
         "difficulty": 1,
+        "explanation": "每盒放多粒种子，可以减少个别种子本身状态不同带来的偶然影响，使实验结果更有参考价值。",
         "knowledge_point": "对比实验设计",
-        "question": "为了排除偶然性，种子发芽实验中每个盒子通常放（ ）粒种子。",
         "options": [
           "1",
           "至少3",
           "0",
           "100"
         ],
-        "answer": "至少3",
-        "explanation": "放多粒种子可以避免因种子本身发育不良导致实验失败，增加实验的准确性。"
+        "question": "为了减少偶然因素的影响，种子发芽对比实验中每个盒子通常放（ ）粒种子。",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "有水的方向",
         "difficulty": 2,
+        "explanation": "植物的根具有向水性，会朝着水分较充足的方向生长，以获取生长所需的水。这是根的生长特性，并不是光合作用本身。",
         "knowledge_point": "光合作用",
-        "question": "绿豆芽的根会朝着什么方向生长？（ ）",
         "options": [
           "有水的方向",
           "有光的方向",
           "空气充足的方向",
           "垂直向上"
         ],
-        "answer": "有水的方向",
-        "explanation": "植物的根具有向水性，这是植物为了寻找生长所需水分产生的适应性。"
+        "question": "绿豆芽的根会朝着什么方向生长？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "适应气候和食物变化",
         "difficulty": 1,
+        "explanation": "迁徙是动物在不同季节改变活动地点的行为，常与气候和食物条件的变化有关。",
         "knowledge_point": "动物适应行为",
-        "question": "天鹅每年都要进行长途迁徙，这主要是为了（ ）。",
         "options": [
           "寻找水源",
           "锻炼身体",
           "寻找配偶",
           "适应气候和食物变化"
         ],
-        "answer": "适应气候和食物变化",
-        "explanation": "迁徙是动物因季节更替而产生的适应环境的行为。"
+        "question": "天鹅每年都要进行长途迁徙，这主要是为了（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "草→兔→狼",
         "difficulty": 2,
+        "explanation": "草是生产者，兔吃草，狼吃兔；箭头从被吃者指向捕食者。阳光不是食物链中的生物。",
         "knowledge_point": "食物链",
-        "question": "下列食物链书写规范的是（ ）。",
         "options": [
           "阳光→草→兔→狼",
           "草←兔←狼",
           "草→兔→狼",
           "落叶→蚯蚓"
         ],
-        "answer": "草→兔→狼",
-        "explanation": "食物链必须从生产者开始，不包括阳光，且箭头指向捕食者。"
+        "question": "下列食物链书写规范的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "先增加后减少",
         "difficulty": 2,
+        "explanation": "短期内，狼减少会使羊受到的捕食压力减小，数量可能增加。羊过多时，草可能被大量吃掉，食物不足和栖息地变化等因素又可能使羊的数量下降。实际变化还会受其他因素影响。",
         "knowledge_point": "生态平衡",
-        "question": "如果一个草原上的狼被人类猎杀光了，短期内羊的数量会（ ）。",
         "options": [
           "急剧减少",
           "先增加后减少",
           "保持不变",
           "立刻灭绝"
         ],
-        "answer": "先增加后减少",
-        "explanation": "天敌消失羊会大量繁殖，随后会导致草原退化食物不足，数量再下降。"
+        "question": "如果一个草原上的狼被人类猎杀光了，短期内羊的数量会（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "绿色植物",
         "difficulty": 1,
+        "explanation": "绿色植物能进行光合作用，制造有机物，并释放氧气。",
         "knowledge_point": "生态系统成分",
-        "question": "在生态瓶中，为生物提供氧气的是（ ）。",
         "options": [
           "微生物",
           "小鱼",
           "水和砂石",
           "绿色植物"
         ],
-        "answer": "绿色植物",
-        "explanation": "绿色植物通过光合作用产生氧气。"
+        "question": "在生态瓶中，为生物提供氧气的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "冬眠",
         "difficulty": 2,
+        "explanation": "青蛙在寒冷季节活动减少、躲藏起来，有助于度过不利环境，这种行为叫冬眠。",
         "knowledge_point": "动物适应行为",
-        "question": "青蛙在冬天会躲进地洞不吃不动，这种现象叫（ ）。",
         "options": [
           "迁徙",
           "繁殖",
           "冬眠",
           "换羽"
         ],
-        "answer": "冬眠",
-        "explanation": "冬眠是变温动物适应严寒和食物匮乏的行为。"
+        "question": "青蛙在冬天会躲进地洞不吃不动，这种现象叫（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "研究因素以外的所有条件",
         "difficulty": 1,
+        "explanation": "对比实验通常只改变一个研究因素，其他可能影响实验结果的条件保持相同，才能公平地比较结果。",
         "knowledge_point": "对比实验原则",
-        "question": "在对比实验中，我们要保持相同的条件是（ ）。",
         "options": [
           "所有条件",
           "研究因素以外的所有条件",
           "研究因素本身",
           "随意条件"
         ],
-        "answer": "研究因素以外的所有条件",
-        "explanation": "单一变量原则是对比实验的核心。"
+        "question": "在对比实验中，我们要保持相同的条件是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "水稻",
         "difficulty": 2,
+        "explanation": "生产者能通过光合作用制造有机物。水稻是绿色植物，能进行光合作用。",
         "knowledge_point": "生物关系",
-        "question": "以下属于生产者的是（ ）。",
         "options": [
           "真菌",
           "兔子",
           "水稻",
           "蝗虫"
         ],
-        "answer": "水稻",
-        "explanation": "生产者是能通过光合作用制造有机物的植物。"
+        "question": "以下属于生产者的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "变高",
         "difficulty": 3,
+        "explanation": "生物越多，消耗的氧气和养料越多，对水体及空间的要求相应变高。",
         "knowledge_point": "生态瓶制作",
-        "question": "增加生态瓶中生物的数量，对非生物环境的要求会（ ）。",
         "options": [
           "变低",
           "变高",
           "没有变化",
           "不确定"
         ],
-        "answer": "变高",
-        "explanation": "生物越多，消耗的氧气和养料越多，对水体及空间的要求相应变高。"
+        "question": "增加生态瓶中生物的数量，对非生物环境的要求会（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "必须有",
         "difficulty": 2,
+        "explanation": "种子发芽不一定需要光，但绿豆芽长成幼苗后，需要阳光进行光合作用，制造生长所需的养料。",
         "knowledge_point": "植物生长",
-        "question": "绿豆芽的生长（ ）阳光。",
         "options": [
           "不需要",
           "必须有",
           "有没有都行",
           "只在晚上需要"
         ],
-        "answer": "必须有",
-        "explanation": "种子发芽不一定需要光，但长成幼苗后必须依靠光合作用制造养料。"
+        "question": "绿豆芽的生长（ ）阳光。",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "蒸发水分",
         "difficulty": 3,
+        "explanation": "香蕉常生长在热带，环境温暖湿润。宽大的叶片能促进水分蒸发，也有利于接受阳光。",
         "knowledge_point": "植物对环境选择",
-        "question": "香蕉生长在热带，叶子宽大是为了（ ）。",
         "options": [
           "收集阳光",
           "蒸发水分",
           "抵御寒冷",
           "增加美观"
         ],
-        "answer": "蒸发水分",
-        "explanation": "热带雨林水分充足，宽大的叶片有利于水分散失。"
+        "question": "香蕉生长在热带，叶子宽大是为了（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "食物网计算",
-        "question": "如果一个食物网由“草→兔→鹰”和“草→鼠→鹰”构成，此网中共有（ ）条食物链。",
-        "options": [],
         "answer": "2",
-        "explanation": "草是起点，鹰是终点，共两条路径。"
-      },
-      {
-        "id": 20,
+        "difficulty": 1,
+        "explanation": "从草到鹰有两条不同的完整路径：草→兔→鹰、草→鼠→鹰，因此共有2条食物链。",
+        "knowledge_point": "食物网计算",
+        "options": [],
+        "question": "如果一个食物网由“草→兔→鹰”和“草→鼠→鹰”构成，此网中共有（ ）条食物链。",
+        "score": 5,
         "type": "fill_blank",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "实验周期",
-        "question": "播种绿豆种子后，如果条件适宜，通常在（ ）天左右种子会开始萌发。",
-        "options": [],
+        "id": 19
+      },
+      {
         "answer": "3",
-        "explanation": "在温度适宜水分充足时，绿豆萌发非常快。"
+        "difficulty": 2,
+        "explanation": "温度适宜、水分充足时，绿豆种子通常在播种后约3天开始萌发；具体时间可能因条件而不同。",
+        "knowledge_point": "实验周期",
+        "options": [],
+        "question": "播种绿豆种子后，如果条件适宜，通常在（ ）天左右种子会开始萌发。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
-        "knowledge_point": "光合作用产物",
-        "question": "植物进行光合作用的主要器官是（ ）。",
-        "options": [],
         "answer": "叶",
-        "explanation": "叶片含有叶绿体，是光合作用的主要场所。"
-      },
-      {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
         "difficulty": 2,
-        "knowledge_point": "生态系统概念",
-        "question": "植物在生态系统中充当的角色被称为（ ）。",
+        "explanation": "叶片含有叶绿体，是植物进行光合作用的主要器官。",
+        "knowledge_point": "光合作用产物",
         "options": [],
-        "answer": "生产者",
-        "explanation": "由于植物能制造有机物，因此被称为生产者。"
+        "question": "植物进行光合作用的主要器官是（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "动物适应性",
-        "question": "大雁、燕子等鸟类在迁徙时呈现出的季节性行为属于（ ）。",
+        "answer": "生产者",
+        "difficulty": 2,
+        "explanation": "植物能利用阳光、水和二氧化碳制造有机物，为自己和其他生物提供食物，因此在生态系统中通常充当生产者。",
+        "knowledge_point": "生态系统概念",
         "options": [],
+        "question": "植物在生态系统中充当的角色被称为（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
         "answer": "适应性",
-        "explanation": "生物通过特定的行为来适应外界环境的变化。"
+        "difficulty": 3,
+        "explanation": "迁徙是鸟类面对季节和环境变化时表现出的行为，有助于寻找适宜的生活条件，属于动物的适应性。",
+        "knowledge_point": "动物适应性",
+        "options": [],
+        "question": "大雁、燕子等鸟类在迁徙时呈现出的季节性行为属于（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "要研究水分是否影响种子发芽，应让两组只有水分不同，种子种类、数量、温度和观察时间等条件保持相同。",
+        "knowledge_point": "种子发芽的对比实验设计",
+        "options": [
+          "一组用绿豆，另一组用黄豆，其他条件相同",
+          "两组都用相同的绿豆，一组保持湿润，另一组不加水，其他条件相同",
+          "一组放在温暖处并加水，另一组放在寒冷处且不加水",
+          "两组都用相同的绿豆，但一组观察3天，另一组观察7天"
+        ],
+        "question": "小明想研究水分对种子发芽的影响，下面哪种实验设计比较合理？",
+        "score": 1,
+        "type": "choice",
+        "id": 24
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "如果同时改变水分和温度，即使两组发芽情况不同，也无法判断究竟是水分还是温度造成的。",
+        "knowledge_point": "种子发芽的对比实验设计",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "为了研究温度对种子发芽的影响，可以让实验组既多浇水又放在温暖处，让对照组少浇水并放在寒冷处。",
+        "score": 1,
+        "type": "true_false",
+        "id": 25
+      },
+      {
+        "answer": "一个（或1个）",
+        "difficulty": 1,
+        "explanation": "公平对比实验通常只改变一个研究条件，其他可能影响结果的条件都要尽量保持相同。",
+        "knowledge_point": "种子发芽的对比实验设计",
+        "options": [],
+        "question": "设计种子发芽的对比实验时，通常只改变____个条件。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 26
+      },
+      {
+        "answer": "两组种子的种类、数量、放置温度和观察时间相同；一组有水，另一组无水。",
+        "difficulty": 2,
+        "explanation": "研究水分时，水分是要改变的条件；种子种类、数量、温度和观察时间等应保持一致，才能公平比较。",
+        "knowledge_point": "种子发芽的对比实验设计",
+        "options": [],
+        "question": "请写出一个研究“水分是否影响种子发芽”的对比实验设计，至少说明一个要改变的条件和两个要保持相同的条件。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "B组",
+        "difficulty": 2,
+        "explanation": "两组只在是否有水这一条件上不同，其他条件相同。实验结果显示有水的B组发芽较多，因此这次观察支持“适量水分有利于种子发芽”的判断。",
+        "knowledge_point": "种子发芽的对比实验设计",
+        "options": [
+          "A组",
+          "B组",
+          "两组一样",
+          "无法比较，因为观察时间不同"
+        ],
+        "question": "两组绿豆种子数量相同，放在相同温度下并同时观察。A组不加水，0粒发芽；B组保持湿润，8粒发芽。哪一组发芽较多？",
+        "score": 1,
+        "type": "choice",
+        "id": 28
+      },
+      {
+        "answer": "每组至少有5粒种子；两组使用相同种类和数量的种子，除水分外其他条件相同；每天在相同时间观察并记录发芽粒数。结论：在这次实验条件下，保持湿润的一组发芽较多，说明适量水分有利于种子发芽。",
+        "difficulty": 3,
+        "explanation": "每组使用多粒种子可以减少个别种子差异带来的影响。保持其他条件相同、固定时间观察并记录，能让比较更公平。结论应根据记录来写，并说明适用范围。",
+        "knowledge_point": "种子发芽的对比实验设计",
+        "options": [],
+        "question": "小华要比较有水和无水时种子的发芽情况。请写出一个较完整的实验方案，并说明观察后可以怎样得出结论。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 29
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "两组都放在相同温度和空气条件下，只有一组有水、另一组没有水，因此可以比较有水和无水对种子发芽的影响。",
+        "knowledge_point": "种子发芽实验的数据分析与结论",
+        "options": [
+          "甲组放在温暖处并给水，乙组放在寒冷处且不给水",
+          "甲、乙两组放在相同温度和空气条件下，甲组给适量水，乙组不给水",
+          "甲组用大种子，乙组用小种子，且两组水量不同",
+          "甲组观察三天，乙组观察十天"
+        ],
+        "question": "小明想研究水对种子发芽的影响。下面哪种实验设计最适合进行公平比较？",
+        "score": 2,
+        "type": "choice",
+        "id": 30
+      },
+      {
+        "answer": "发芽率＝发芽的种子数÷供实验的种子总数×100%。",
+        "difficulty": 1,
+        "explanation": "计算发芽率时，要用发芽的种子数除以参加实验的种子总数，再乘100%。",
+        "knowledge_point": "种子发芽实验的数据分析与结论",
+        "options": [],
+        "question": "填写：种子发芽率＝________÷供实验的种子总数×100%。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "80%",
+        "difficulty": 2,
+        "explanation": "发芽率＝16÷20×100%＝80%。",
+        "knowledge_point": "种子发芽实验的数据分析与结论",
+        "options": [],
+        "question": "一组实验用了20粒种子，其中16粒发芽。这组种子的发芽率是多少？",
+        "score": 2,
+        "type": "calculation",
+        "id": 32
+      },
+      {
+        "answer": "在本实验条件下，有水的组发芽率较高，说明水可能有助于种子发芽。因为两组各有20粒种子，其他条件相同，只有水的条件不同，所以这个比较可以支持上述结论。",
+        "difficulty": 2,
+        "explanation": "有水组发芽18粒，无水组发芽4粒；两组种子数量相同，其他条件也相同，主要变化是有无水。结论应依据数据，并限定在本实验条件下。",
+        "knowledge_point": "种子发芽实验的数据分析与结论",
+        "options": [],
+        "question": "小华把两组各20粒种子放在相同温度和空气条件下。甲组有水，发芽18粒；乙组无水，发芽4粒。请根据数据写出一条合适的结论。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 33
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "不同种子可能存在差异，重复实验并比较多次结果，可以减少偶然因素的影响，让结论更可靠。",
+        "knowledge_point": "种子发芽实验的数据分析与结论",
+        "options": [],
+        "question": "同一种条件下重复做几次实验，可以减少偶然因素对实验结论的影响。判断对错。",
+        "score": 2,
+        "type": "true_false",
+        "id": 34
+      },
+      {
+        "answer": "不能。两组同时改变了温度和水两个条件，不能判断发芽数量不同是由哪个条件造成的。应只改变其中一个条件，保持其他条件相同，再进行比较。",
+        "difficulty": 3,
+        "explanation": "要判断某个条件对发芽的影响，通常一次只改变一个条件。若同时改变温度和水，就无法把结果差异归因于其中一个因素。",
+        "knowledge_point": "种子发芽实验的数据分析与结论",
+        "options": [],
+        "question": "一组种子放在温暖处并给水，另一组放在寒冷处且不给水。实验后两组发芽数量不同。能否据此判断温度对发芽的影响？为什么？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 35
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "绿色植物利用光能进行光合作用，制造生长所需的养分。",
+        "knowledge_point": "植物生长对光照的需求与光合作用",
+        "options": [
+          "植物生长完全不需要光照",
+          "光照能为植物进行光合作用提供能量",
+          "光照能代替植物吸收水分",
+          "植物只要有光就不需要其他条件"
+        ],
+        "question": "光照对绿色植物生长的重要作用是什么？",
+        "score": 1,
+        "type": "choice",
+        "id": 36
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "光是光合作用所需的条件之一。植物若长期缺少光照，制造养分的能力会受影响，生长通常会变弱。",
+        "knowledge_point": "植物生长对光照的需求与光合作用",
+        "options": [],
+        "question": "植物长期放在完全黑暗的地方，也能像在适宜光照下那样健康生长。",
+        "score": 1,
+        "type": "true_false",
+        "id": 37
+      },
+      {
+        "answer": "水；二氧化碳；氧气",
+        "difficulty": 2,
+        "explanation": "光合作用利用水和二氧化碳，在光能参与下制造养分，并释放氧气。",
+        "knowledge_point": "植物生长对光照的需求与光合作用",
+        "options": [],
+        "question": "光合作用需要的两种原料是____和____，产生养分的同时还会释放____。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 38
+      },
+      {
+        "answer": "乙组植物长得更好（或更健壮）。",
+        "difficulty": 2,
+        "explanation": "两组植物的浇水量相同，主要区别是光照。乙组有光照，能更好地进行光合作用，因此通常生长得更好。",
+        "knowledge_point": "植物生长对光照的需求与光合作用",
+        "options": [],
+        "question": "甲、乙两株同种植物种在相同的土壤里，每天浇水量相同。甲放在黑暗处，乙放在有适宜光照处。过一段时间，哪株通常会生长得更好？",
+        "score": 2,
+        "type": "calculation",
+        "id": 39
+      },
+      {
+        "answer": "光照（阳光）",
+        "difficulty": 1,
+        "explanation": "要比较光照对植物生长的影响，应只改变光照条件，其他条件尽量保持一致。",
+        "knowledge_point": "植物生长对光照的需求与光合作用",
+        "options": [],
+        "question": "想研究光照是否影响植物生长，实验中最主要改变的条件应是____。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 40
+      },
+      {
+        "answer": "绿色植物利用光能，将水和二氧化碳转化为养分，并释放氧气的过程。",
+        "difficulty": 3,
+        "explanation": "答案应体现光合作用的能量来源、原料以及主要产物；表述意思正确即可。",
+        "knowledge_point": "植物生长对光照的需求与光合作用",
+        "options": [],
+        "question": "用自己的话简要说明什么是光合作用。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 41
+      },
+      {
+        "answer": "黑暗、湿润的一侧",
+        "difficulty": 1,
+        "explanation": "常见实验观察到，蚯蚓较多地移向黑暗、湿润的一侧，说明它们会对光照和湿度作出反应。",
+        "knowledge_point": "动物对环境的选择性（蚯蚓实验）",
+        "options": [],
+        "question": "在常见的蚯蚓环境实验中，蚯蚓通常较多地出现在怎样的一侧？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 42
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "若要研究干燥和湿润环境对蚯蚓的影响，应让两侧除湿度外尽量相同，避免其他条件干扰结论。",
+        "knowledge_point": "动物对环境的选择性（蚯蚓实验）",
+        "options": [
+          "A. 一侧湿润、黑暗，另一侧干燥、明亮",
+          "B. 一侧湿润、另一侧较干燥，两侧光照相同",
+          "C. 两侧都湿润，但一侧放入不同种类的食物",
+          "D. 一侧温暖、湿润，另一侧寒冷、干燥"
+        ],
+        "question": "要研究蚯蚓是否倾向于湿润的环境，下面哪种实验设计更合适？",
+        "score": 2,
+        "type": "choice",
+        "id": 43
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "蚯蚓会对光照、湿度等环境条件作出反应，但这不等于它们像人一样有意识地思考后作出选择。",
+        "knowledge_point": "动物对环境的选择性（蚯蚓实验）",
+        "options": [],
+        "question": "蚯蚓移向黑暗处，说明它像人一样先思考再作决定。",
+        "score": 2,
+        "type": "true_false",
+        "id": 44
+      },
+      {
+        "answer": "光照",
+        "difficulty": 2,
+        "explanation": "两侧湿度相同，只有一侧被遮光，因此实验主要改变的是光照条件。",
+        "knowledge_point": "动物对环境的选择性（蚯蚓实验）",
+        "options": [],
+        "question": "实验盒两侧的土壤湿度相同，只有一侧被遮住。这个实验主要研究蚯蚓对什么条件的反应？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 45
+      },
+      {
+        "answer": "湿润的一侧多3条",
+        "difficulty": 2,
+        "explanation": "湿润侧有7条，较干燥侧有4条，7比4多3，因此湿润侧多3条。",
+        "knowledge_point": "动物对环境的选择性（蚯蚓实验）",
+        "options": [],
+        "question": "观察结束时，湿润的一侧有7条蚯蚓，较干燥的一侧有4条。哪一侧蚯蚓更多？多几条？",
+        "score": 2,
+        "type": "calculation",
+        "id": 46
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "重复实验可以减少偶然因素的影响，让结论更可靠。一次实验的结果可能受到蚯蚓个体差异或操作误差等影响。",
+        "knowledge_point": "动物对环境的选择性（蚯蚓实验）",
+        "options": [
+          "A. 让两侧同时改变多种条件",
+          "B. 在相同条件下重复实验并记录结果",
+          "C. 只观察一条蚯蚓一次",
+          "D. 看到第一条蚯蚓移动就停止实验"
+        ],
+        "question": "为了让蚯蚓实验的结论更可靠，最合适的做法是什么？",
+        "score": 2,
+        "type": "choice",
+        "id": 47
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "冬季气温降低、食物减少时，有些候鸟会迁徙到气候较温暖、食物较充足的地方，这是通过行为应对环境变化。",
+        "knowledge_point": "生物对环境改变的适应行为",
+        "options": [
+          "乌龟的壳很坚硬",
+          "候鸟冬季迁徙到温暖的地方",
+          "仙人掌的叶变成了刺",
+          "鱼的身体呈流线型"
+        ],
+        "question": "下列哪一项属于生物应对环境变化的适应行为？",
+        "score": 1,
+        "type": "choice",
+        "id": 48
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "有些动物在寒冷、食物较少的季节冬眠，活动和能量消耗减少，这有助于它们度过不利时期。",
+        "knowledge_point": "生物对环境改变的适应行为",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "有些动物会在冬季冬眠，以应对寒冷和食物减少的环境。",
+        "score": 1,
+        "type": "true_false",
+        "id": 49
+      },
+      {
+        "answer": "迁徙",
+        "difficulty": 1,
+        "explanation": "候鸟会在季节变化时迁往气候较适宜、食物较充足的地方，这种行为叫迁徙。",
+        "knowledge_point": "生物对环境改变的适应行为",
+        "options": [],
+        "question": "一些候鸟会随着季节变化到温暖地区生活，这种行为叫________。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 50
+      },
+      {
+        "answer": "行为",
+        "difficulty": 1,
+        "explanation": "迁徙、冬眠和寻找水源都是生物采取的行动方式，属于适应环境的行为。",
+        "knowledge_point": "生物对环境改变的适应行为",
+        "options": [],
+        "question": "动物通过迁徙、冬眠等________来应对环境变化。",
+        "score": 1,
+        "type": "fill_blank_text",
+        "id": 51
+      },
+      {
+        "answer": "例如，干旱时，一些动物会到有水的地方寻找水源，这有助于它们获得生存所需的水分。",
+        "difficulty": 2,
+        "explanation": "答案应包含一种环境变化、相应的生物行为，以及该行为的作用。其他合理例子也可以，如天冷时动物躲进洞穴保暖。",
+        "knowledge_point": "生物对环境改变的适应行为",
+        "options": [],
+        "question": "举一个生物通过行为应对环境变化的例子，并说明这种行为有什么作用。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 52
+      },
+      {
+        "answer": "例如，长期干旱可能使水源减少，动物会移动到水源较多的地方；这样能帮助它们找到水，但如果找不到合适的环境，生存可能会受到影响。",
+        "difficulty": 2,
+        "explanation": "回答应体现环境变化可能影响生物，生物可能采取适应行为，但并不是每种生物都一定能适应。",
+        "knowledge_point": "生物对环境改变的适应行为",
+        "options": [],
+        "question": "当地发生长期干旱后，水源减少。说说这可能怎样影响动物，以及动物可能采取什么行为应对。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 53
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "草能利用阳光进行光合作用，是生产者；蝗虫吃草，青蛙吃蝗虫，因此箭头从被吃者指向取食者。",
+        "knowledge_point": "食物链与食物网的构建",
+        "options": [
+          "A. 青蛙 → 蝗虫 → 草",
+          "B. 草 → 蝗虫 → 青蛙",
+          "C. 蝗虫 → 草 → 青蛙",
+          "D. 草 → 青蛙 → 蝗虫"
+        ],
+        "question": "草被蝗虫吃，蝗虫被青蛙吃。下列哪条食物链表示正确？",
+        "score": 1,
+        "type": "choice",
+        "id": 54
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "食物链的箭头表示物质和能量传递的方向，从被吃的生物指向吃它的生物。",
+        "knowledge_point": "食物链与食物网的构建",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "食物链中，箭头应从被吃的生物指向吃它的生物。",
+        "score": 1,
+        "type": "true_false",
+        "id": 55
+      },
+      {
+        "answer": "生产者",
+        "difficulty": 1,
+        "explanation": "在常见食物链中，绿色植物能自己制造养分，属于生产者，通常处在食物链的起点。",
+        "knowledge_point": "食物链与食物网的构建",
+        "options": [],
+        "question": "食物链通常从能自己制造养分的生物开始，这类生物叫作________。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 56
+      },
+      {
+        "answer": "水草 → 小鱼 → 大鱼",
+        "difficulty": 2,
+        "explanation": "水草可以被小鱼取食，小鱼又可以被大鱼捕食。箭头从食物指向取食者，构成完整的食物链。",
+        "knowledge_point": "食物链与食物网的构建",
+        "options": [],
+        "question": "池塘中，小鱼吃水草，大鱼吃小鱼。请用箭头写出一条食物链。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 57
+      },
+      {
+        "answer": "食物网",
+        "difficulty": 2,
+        "explanation": "多条食物链相互交错、彼此连接，形成食物网；其中一种生物可能同时是多条食物链的成员。",
+        "knowledge_point": "食物链与食物网的构建",
+        "options": [],
+        "question": "同一片草地中有“草→兔→鹰”和“草→鼠→鹰”两条食物链。它们连接起来形成的关系网络叫作________。",
+        "score": 1,
+        "type": "fill_blank",
+        "id": 58
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "草是生产者；兔和鼠都吃草，鹰可以捕食兔和鼠。因此应画出草分别通向兔、鼠，再由兔和鼠分别通向鹰的箭头。",
+        "knowledge_point": "食物链与食物网的构建",
+        "options": [
+          "A. 草 → 鹰；鹰 → 兔；鹰 → 鼠",
+          "B. 草 → 兔；草 → 鼠；兔 → 鹰；鼠 → 鹰",
+          "C. 兔 → 草；鼠 → 草；鹰 → 兔；鹰 → 鼠",
+          "D. 草 → 兔 → 鼠 → 鹰"
+        ],
+        "question": "草地里，兔和鼠都吃草，鹰既吃兔也吃鼠。下列哪种连接方式正确？",
+        "score": 2,
+        "type": "choice",
+        "id": 59
+      },
+      {
+        "answer": "生物与它们生活的非生物环境相互作用形成的整体。",
+        "difficulty": 1,
+        "explanation": "生态系统不是单独的生物，也不只是环境，而是一定区域内生物和非生物环境相互作用形成的整体。",
+        "knowledge_point": "生态系统的定义与生态瓶制作",
+        "options": [],
+        "question": "什么是生态系统？",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 60
+      },
+      {
+        "answer": "植物、水、空气、土壤和阳光。",
+        "difficulty": 1,
+        "explanation": "植物属于生物，水、空气、土壤和阳光属于非生物环境因素，它们可以共同构成生态系统的一部分。",
+        "knowledge_point": "生态系统的定义与生态瓶制作",
+        "options": [],
+        "question": "池塘里有水草、鱼、水、空气、泥土和阳光。请写出其中一种生物和两种非生物环境因素。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 61
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "生态瓶要模拟生物与非生物环境的相互作用，适量放入水生植物和少数适合的小动物，并提供适宜的水和光照。",
+        "knowledge_point": "生态系统的定义与生态瓶制作",
+        "options": [
+          "A. 塞满各种动物和植物",
+          "B. 放入适量水生植物和少数适合的小动物",
+          "C. 不放水，只放石头"
+        ],
+        "question": "制作一个水生生态瓶，哪种做法比较合适？",
+        "score": 2,
+        "type": "choice",
+        "id": 62
+      },
+      {
+        "answer": "错误",
+        "difficulty": 1,
+        "explanation": "生态瓶中的生物需要适宜的环境和生存空间，放入过多生物可能造成食物、氧气或空间不足，不利于它们生存。",
+        "knowledge_point": "生态系统的定义与生态瓶制作",
+        "options": [],
+        "question": "判断：生态瓶里的动物放得越多，生态瓶就越稳定。",
+        "score": 2,
+        "type": "true_false",
+        "id": 63
+      },
+      {
+        "answer": "避免温度过高，也避免强光使水温快速升高，从而影响瓶中生物的生存。",
+        "difficulty": 2,
+        "explanation": "阳光直射可能使生态瓶升温过快；适量、稳定的光照更适合观察瓶中生物和植物的变化。",
+        "knowledge_point": "生态系统的定义与生态瓶制作",
+        "options": [],
+        "question": "为什么生态瓶通常不宜放在阳光直射的地方？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 64
+      },
+      {
+        "answer": "水草生长、鱼的活动、水的清澈程度等。",
+        "difficulty": 2,
+        "explanation": "连续观察并记录生态瓶中生物和环境的变化，有助于了解它们之间的相互影响。记录应尽量具体，例如观察日期、现象和变化。",
+        "knowledge_point": "生态系统的定义与生态瓶制作",
+        "options": [],
+        "question": "制作生态瓶后，写出两项可以连续观察并记录的变化。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 65
+      },
+      {
+        "answer": "适量的水分、充足的空气和适宜的温度",
+        "difficulty": 1,
+        "explanation": "这些条件有助于种子开始萌发。不同植物种子适宜的温度可能不同。",
+        "knowledge_point": "种子发芽的条件",
+        "options": [],
+        "question": "填空：种子发芽通常需要________、________和________。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 66
+      },
+      {
+        "answer": "C",
+        "difficulty": 1,
+        "explanation": "水分和适宜的温度是种子发芽通常需要的条件。土壤不是发芽的必要条件。",
+        "knowledge_point": "种子发芽的条件",
+        "options": [
+          "A. 只有土壤",
+          "B. 只有阳光",
+          "C. 适量的水分和适宜的温度",
+          "D. 只有肥料"
+        ],
+        "question": "下列哪一项最符合种子发芽通常需要的条件？",
+        "score": 2,
+        "type": "choice",
+        "id": 67
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "种子发芽需要空气；如果种子一直浸在水中，可能因空气不足而不易发芽。",
+        "knowledge_point": "种子发芽的条件",
+        "options": [],
+        "question": "种子泡在水里越久，得到的水越多，就一定越容易发芽。",
+        "score": 2,
+        "type": "true_false",
+        "id": 68
+      },
+      {
+        "answer": "把几粒相同的种子分别放在湿润的纸巾和干燥的纸巾上，放在相同温度、空气充足的地方，观察并比较发芽情况。",
+        "difficulty": 2,
+        "explanation": "两组种子的主要差别是水分条件，其他条件尽量保持相同，这样便于判断水分是否影响发芽。",
+        "knowledge_point": "种子发芽的条件",
+        "options": [],
+        "question": "小明想探究水分是否影响种子发芽。他可以怎样设计一个简单的比较实验？",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 69
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "种子发芽时主要利用种子自身储存的养分，不一定需要土壤或阳光；但需要适量水分、空气和适宜温度。",
+        "knowledge_point": "种子发芽的条件",
+        "options": [
+          "A. 发芽必须有肥沃的土壤和阳光",
+          "B. 发芽时可以不靠土壤和阳光，但通常需要水分、空气和适宜温度",
+          "C. 发芽只需要水，不需要空气",
+          "D. 只要有土壤，任何种子都能发芽"
+        ],
+        "question": "关于种子发芽，下列说法正确的是哪一项？",
+        "score": 2,
+        "type": "choice",
+        "id": 70
+      },
+      {
+        "answer": "二氧化碳",
+        "difficulty": 1,
+        "explanation": "植物进行光合作用时会吸收二氧化碳，并利用它制造有机物。",
+        "knowledge_point": "植物光合作用",
+        "options": [],
+        "question": "植物光合作用需要从空气中吸收________。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 71
+      },
+      {
+        "answer": "水",
+        "difficulty": 1,
+        "explanation": "水是植物进行光合作用所需的原料之一，植物通常通过根吸收水。",
+        "knowledge_point": "植物光合作用",
+        "options": [],
+        "question": "植物光合作用所需的水，通常由植物的________吸收。",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 72
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "光合作用需要光照，植物利用光能制造有机物；没有光照时，光合作用通常不能正常进行。",
+        "knowledge_point": "植物光合作用",
+        "options": [
+          "A. 土壤的颜色",
+          "B. 光照",
+          "C. 风的大小",
+          "D. 花朵的数量"
+        ],
+        "question": "下列哪一项是植物进行光合作用的重要条件？",
+        "score": 2,
+        "type": "choice",
+        "id": 73
+      },
+      {
+        "answer": "植物通过光合作用制造有机物。",
+        "difficulty": 2,
+        "explanation": "光合作用使植物能够利用水、二氧化碳和光能制造有机物；植物生长所需的养分与这些有机物有关。",
+        "knowledge_point": "植物光合作用",
+        "options": [],
+        "question": "完成句子：植物利用光合作用制造________，为自身生长提供养分。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 74
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "光合作用的主要原料是水和二氧化碳，光照提供所需的能量，过程会产生有机物并释放氧气。",
+        "knowledge_point": "植物光合作用",
+        "options": [
+          "A. 氧气和有机物",
+          "B. 水和二氧化碳",
+          "C. 土壤和氧气",
+          "D. 阳光和有机物"
+        ],
+        "question": "下列哪一组是植物光合作用的主要原料？",
+        "score": 2,
+        "type": "choice",
+        "id": 75
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "在其他条件相近时，蚯蚓通常会更多地出现在阴暗、潮湿的一侧。",
+        "knowledge_point": "动物对环境的选择性",
+        "options": [
+          "A. 干燥、明亮的一侧",
+          "B. 潮湿、阴暗的一侧",
+          "C. 两侧都完全相同，且永远不会移动"
+        ],
+        "question": "把蚯蚓放在一边干燥明亮、另一边潮湿阴暗的盒子中，过一段时间后，蚯蚓通常更可能集中在哪一侧？",
+        "score": 2,
+        "type": "choice",
+        "id": 76
+      },
+      {
+        "answer": "潮湿",
+        "difficulty": 1,
+        "explanation": "潮湿的环境不容易使蜗牛身体失水，因此蜗牛通常更喜欢潮湿的地方。",
+        "knowledge_point": "动物对环境的选择性",
+        "options": [],
+        "question": "蜗牛通常更喜欢干燥还是________的环境？",
+        "score": 2,
+        "type": "fill_blank",
+        "id": 77
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "只改变光照、其他条件保持相同，才能较清楚地判断观察到的差异是否与光照有关。",
+        "knowledge_point": "动物对环境的选择性",
+        "options": [
+          "A. 一边干燥且明亮，另一边潮湿且阴暗",
+          "B. 两边湿度相同，只让一边明亮、另一边阴暗",
+          "C. 一边有食物，另一边没有食物"
+        ],
+        "question": "要探究蚯蚓是否喜欢阴暗的环境，下面哪种实验设计比较合适？",
+        "score": 3,
+        "type": "choice",
+        "id": 78
+      },
+      {
+        "answer": "潮湿、阴暗",
+        "difficulty": 2,
+        "explanation": "蚯蚓通常会趋向潮湿、阴暗的一侧；在实验中应记录观察结果，而不是只凭猜测下结论。",
+        "knowledge_point": "动物对环境的选择性",
+        "options": [],
+        "question": "在其他条件相同的情况下，蚯蚓通常更倾向于待在________、________的地方。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 79
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "观察结果可以说明动物在这次实验条件下更倾向某一侧，但还需要控制条件、重复观察，才能让结论更可靠。",
+        "knowledge_point": "动物对环境的选择性",
+        "options": [],
+        "question": "只观察一次，就能证明一种动物在任何时候都只喜欢一种环境。",
+        "score": 3,
+        "type": "true_false",
+        "id": 80
+      },
+      {
+        "answer": "草→蚱蜢→青蛙",
+        "difficulty": 1,
+        "explanation": "草是生产者，蚱蜢吃草，青蛙吃蚱蜢，因此箭头依次指向吃食物的生物。",
+        "knowledge_point": "食物链",
+        "options": [],
+        "question": "根据“蚱蜢吃草，青蛙吃蚱蜢”，写出一条食物链：________。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 81
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "水稻是植物，属于生产者；蝗虫吃水稻，青蛙吃蝗虫，蛇吃青蛙，鹰吃蛇，箭头应沿食物传递方向排列。",
+        "knowledge_point": "食物链",
+        "options": [
+          "水稻→蝗虫→青蛙→蛇→鹰",
+          "鹰→蛇→青蛙→蝗虫→水稻",
+          "水稻→青蛙→蝗虫→蛇→鹰",
+          "水稻→蝗虫→蛇→青蛙→鹰"
+        ],
+        "question": "水稻被蝗虫吃，蝗虫被青蛙吃，青蛙被蛇吃，蛇又被鹰吃。正确的食物链是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 82
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "阳光是绿色植物制造养分所需的能量来源，但不是生物，通常不写在食物链中。",
+        "knowledge_point": "食物链",
+        "options": [],
+        "question": "食物链通常应该把阳光写在最前面，例如“阳光→草→兔”。",
+        "score": 2,
+        "type": "true_false",
+        "id": 83
+      },
+      {
+        "answer": "草、兔、狼",
+        "difficulty": 2,
+        "explanation": "草是兔的食物，兔是狼的食物。若草的数量减少，兔可能更难获得食物，兔的数量可能减少，狼也可能因猎物减少而受到影响。",
+        "knowledge_point": "食物链",
+        "options": [],
+        "question": "食物链“草→兔→狼”中，如果草大量减少，最先直接受到食物影响的动物是________；这也可能进一步影响________的数量。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 84
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "生态系统不仅包括动物和植物等生物，也包括水、空气、阳光和土壤等非生物成分。",
+        "knowledge_point": "生态系统",
+        "options": [],
+        "question": "生态系统只由生活在其中的动物和植物组成。",
+        "score": 2,
+        "type": "true_false",
+        "id": 85
+      },
+      {
+        "answer": "阳光",
+        "difficulty": 1,
+        "explanation": "阳光不是生物，但它是生态系统中的非生物成分，也是植物进行光合作用的重要条件。",
+        "knowledge_point": "生态系统",
+        "options": [],
+        "question": "水、空气、土壤和____都属于生态系统中的非生物成分。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 86
+      },
+      {
+        "answer": "生产者",
+        "difficulty": 2,
+        "explanation": "绿色植物能够利用阳光制造自身生长所需的养分，在生态系统中属于生产者。",
+        "knowledge_point": "生态系统",
+        "options": [],
+        "question": "在生态系统中，能够制造自身生长所需养分的绿色植物通常属于____。",
+        "score": 2,
+        "type": "fill_blank_text",
+        "id": 87
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "蘑菇能分解生物遗体和排出的废物，帮助物质回到环境中，因此属于分解者。",
+        "knowledge_point": "生态系统",
+        "options": [
+          "A. 生产者",
+          "B. 分解者",
+          "C. 非生物成分",
+          "D. 阳光"
+        ],
+        "question": "蘑菇在生态系统中通常属于哪一类生物成分？",
+        "score": 2,
+        "type": "choice",
+        "id": 88
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "生态瓶中的生物需要空间、食物和适宜的生活条件。鱼太多会增加对氧气和食物的需求，也会增加排泄物，可能使生态瓶失去平衡。",
+        "knowledge_point": "生态系统",
+        "options": [
+          "A. 鱼越多，生态瓶一定越稳定",
+          "B. 鱼过多可能使生态瓶中的资源不足、环境变差",
+          "C. 生态瓶只需要鱼，不需要其他生物",
+          "D. 生态瓶不需要水和光"
+        ],
+        "question": "为什么生态瓶中的鱼不能放得过多？",
+        "score": 2,
+        "type": "choice",
+        "id": 89
+      },
+      {
+        "answer": "水分、空气和适宜的温度",
+        "difficulty": 1,
+        "explanation": "种子通常需要适量水分、充足空气和适宜温度才能发芽。",
+        "knowledge_point": "种子发芽条件",
+        "options": [],
+        "question": "种子发芽通常需要哪些基本条件？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 90
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "许多种子在没有阳光的情况下也能发芽。阳光通常是幼苗生长的重要条件，但不是种子发芽的基本条件。",
+        "knowledge_point": "种子发芽条件",
+        "options": [],
+        "question": "种子发芽一定需要阳光。（  ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 91
+      },
+      {
+        "answer": "空气",
+        "difficulty": 2,
+        "explanation": "种子发芽需要呼吸，充足的空气有助于种子进行呼吸作用。",
+        "knowledge_point": "种子发芽条件",
+        "options": [],
+        "question": "把种子完全浸在水里，长时间不接触空气，可能会影响发芽。这里说明种子发芽需要（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 92
+      },
+      {
+        "answer": "温度",
+        "difficulty": 2,
+        "explanation": "两组种子的水分、空气等条件相同，只有温度不同，因此实验研究的是温度对发芽的影响。",
+        "knowledge_point": "种子发芽条件",
+        "options": [],
+        "question": "两组种子所处环境相同，只有一组放在较温暖处，另一组放在较寒冷处。这个实验研究的是哪种条件对种子发芽的影响？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 93
+      },
+      {
+        "answer": "把两组同种、数量相同的种子放在温度和空气条件相同的地方，一组加适量水保持湿润，另一组不加水，之后比较发芽情况。",
+        "difficulty": 3,
+        "explanation": "实验只改变水分这一条件，并尽量保持种子种类、数量、温度和空气等条件相同，才能公平比较水分对发芽的影响。",
+        "knowledge_point": "种子发芽条件",
+        "options": [],
+        "question": "请简要设计一个研究水分是否影响种子发芽的对比实验。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 94
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "对比实验要公平，通常一次只改变一个条件，其他可能影响结果的条件尽量保持相同。",
+        "knowledge_point": "对比实验设计",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "在对比实验中，同时改变光照和水分，能更清楚地判断是哪一个条件影响了种子发芽。",
+        "score": 5,
+        "type": "true_false",
+        "id": 95
+      },
+      {
+        "answer": "水分",
+        "difficulty": 1,
+        "explanation": "要研究水分是否影响发芽，可以让两组种子接受不同的水分条件，同时保持种子数量、温度和光照等条件相同。",
+        "knowledge_point": "对比实验设计",
+        "options": [],
+        "question": "研究“水分是否影响种子发芽”时，两组种子应只改变（ ）这一条件。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 96
+      },
+      {
+        "answer": "两个杯子中种子数量、温度、光照和种子种类保持相同，只让一组有水、另一组没有水；观察并记录发芽情况。",
+        "difficulty": 2,
+        "explanation": "这个设计只改变水分，其他条件尽量相同，便于比较水分对种子发芽的影响。观察并记录结果有助于得出结论。",
+        "knowledge_point": "对比实验设计",
+        "options": [],
+        "question": "小明想研究水分对绿豆种子发芽的影响。请写出一种公平的对比实验设计。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 97
+      },
+      {
+        "answer": "光照",
+        "difficulty": 2,
+        "explanation": "题目研究光照的影响，因此光照是实验中要改变的条件。两组种子应保持数量、水分、温度等条件相同。",
+        "knowledge_point": "对比实验设计",
+        "options": [],
+        "question": "小红把相同数量的种子分别放在有光和黑暗的地方，并给它们相同的水分和温度。她想研究的条件是（ ）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 98
+      },
+      {
+        "answer": "水分",
+        "difficulty": 2,
+        "explanation": "两组种子种类、数量和放置地点相同，只有一组得到水，另一组没有水，所以两组之间改变的条件是水分。",
+        "knowledge_point": "对比实验设计",
+        "options": [
+          "种子种类",
+          "种子数量",
+          "水分",
+          "放置地点"
+        ],
+        "question": "小华用相同数量的绿豆种子，分别放在同一地点的两个盒子里。一个盒子每天加水，另一个不加水。这个实验中改变的条件是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 99
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "光合作用利用光能，将水和二氧化碳转化成植物生长所需的养分，并释放氧气。",
+        "knowledge_point": "光合作用",
+        "options": [
+          "A. 水和二氧化碳",
+          "B. 养分和氧气",
+          "C. 阳光和水",
+          "D. 土壤和空气"
+        ],
+        "question": "绿色植物进行光合作用后，主要会产生什么？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 100
+      },
+      {
+        "answer": "光",
+        "difficulty": 1,
+        "explanation": "植物需要光能进行光合作用，叶片中的叶绿素能帮助植物利用光能。",
+        "knowledge_point": "光合作用",
+        "options": [],
+        "question": "绿色植物进行光合作用需要利用____能。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 101
+      },
+      {
+        "answer": "二氧化碳",
+        "difficulty": 2,
+        "explanation": "植物进行光合作用时，会从空气中获得二氧化碳，并利用它与水制造养分。",
+        "knowledge_point": "光合作用",
+        "options": [],
+        "question": "光合作用的一种重要原料是水，另一种重要原料是____。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 102
+      },
+      {
+        "answer": "√",
+        "difficulty": 1,
+        "explanation": "光合作用会释放氧气，因此绿色植物能为周围环境补充氧气。",
+        "knowledge_point": "光合作用",
+        "options": [
+          "√",
+          "×"
+        ],
+        "question": "绿色植物进行光合作用时会释放氧气。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 103
+      },
+      {
+        "answer": "养分和氧气",
+        "difficulty": 2,
+        "explanation": "光合作用把水和二氧化碳转化成植物生长所需的养分，同时释放氧气。",
+        "knowledge_point": "光合作用",
+        "options": [],
+        "question": "补全句子：植物利用光能，把水和二氧化碳转化成____，并释放____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 104
+      },
+      {
+        "answer": "迁徙",
+        "difficulty": 1,
+        "explanation": "有些鸟类会随季节改变活动地点，寻找较适宜的气候和食物，这种行为叫迁徙。",
+        "knowledge_point": "动物适应行为",
+        "options": [
+          "冬眠",
+          "迁徙",
+          "换羽",
+          "筑巢"
+        ],
+        "question": "秋天到来时，有些鸟飞往较温暖、食物较充足的地方过冬，这种行为叫（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 105
+      },
+      {
+        "answer": "储存食物",
+        "difficulty": 2,
+        "explanation": "冬季食物可能减少，松鼠提前收集并储存食物，有助于之后获得食物。",
+        "knowledge_point": "动物适应行为",
+        "options": [
+          "储存食物",
+          "迁徙到水里",
+          "停止生长",
+          "换成保护色"
+        ],
+        "question": "松鼠在秋天收集并藏起坚果，主要是为了（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 106
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "迁徙是改变活动地点，冬眠则是在一段时间内活动显著减少，两者是不同的适应行为。",
+        "knowledge_point": "动物适应行为",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "动物迁徙和冬眠是同一种行为。",
+        "score": 5,
+        "type": "true_false",
+        "id": 107
+      },
+      {
+        "answer": "温度",
+        "difficulty": 2,
+        "explanation": "天气变冷时，一些动物会减少活动、躲藏或冬眠。温度变化是影响动物行为的重要环境因素。",
+        "knowledge_point": "动物适应行为",
+        "options": [],
+        "question": "冬天到来后，一些动物会减少活动或冬眠。这种行为主要与环境中的____变化有关。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 108
+      },
+      {
+        "answer": "相对稳定",
+        "difficulty": 1,
+        "explanation": "生态平衡不是所有生物数量完全不变，而是它们的数量和比例在一定范围内变化，生态系统整体保持相对稳定。",
+        "knowledge_point": "生态平衡",
+        "options": [
+          "完全不变",
+          "相对稳定",
+          "所有生物都一样多",
+          "没有任何变化"
+        ],
+        "question": "生态平衡是指生态系统中的生物数量和比例（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 109
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "生态系统中的生物数量会随季节、食物和环境等因素发生变化。只要整体仍保持相对稳定，这些变化并不意味着生态平衡已经被破坏。",
+        "knowledge_point": "生态平衡",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "生态平衡表示生态系统中的生物数量永远不会变化。（判断对错）",
+        "score": 5,
+        "type": "true_false",
+        "id": 110
+      },
+      {
+        "answer": "天敌",
+        "difficulty": 1,
+        "explanation": "捕食者会捕食猎物，在一定程度上限制猎物数量。食物链中生物相互影响，共同参与生态系统的调节。",
+        "knowledge_point": "生态平衡",
+        "options": [],
+        "question": "在食物链中，捕食者可以通过捕食猎物，在一定程度上限制猎物数量。捕食者也常被称为猎物的（ ）。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 111
+      },
+      {
+        "answer": "减少",
+        "difficulty": 2,
+        "explanation": "青蛙数量减少后，捕食蝗虫的压力减小，蝗虫数量可能增加。蝗虫增多可能使植物受到更多啃食，进而影响其他生物和生态系统。实际结果还可能受其他因素影响。",
+        "knowledge_point": "生态平衡",
+        "options": [],
+        "question": "草 → 蝗虫 → 青蛙。如果青蛙数量减少，蝗虫数量短期内可能会（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 112
+      },
+      {
+        "answer": "建立自然保护区",
+        "difficulty": 2,
+        "explanation": "自然保护区可以保护生物及其栖息环境，减少不合理捕猎和开发的影响，有助于维护生物多样性和生态平衡。其他合理的保护措施也可以起到积极作用。",
+        "knowledge_point": "生态平衡",
+        "options": [
+          "建立自然保护区",
+          "大量捕杀捕食者",
+          "随意排放污水",
+          "破坏动物栖息地"
+        ],
+        "question": "以下哪种做法有助于保护生态平衡？",
+        "score": 5,
+        "type": "choice",
+        "id": 113
+      },
+      {
+        "answer": "生产者",
+        "difficulty": 1,
+        "explanation": "绿色植物能够通过光合作用制造有机物，在生态系统中属于生产者。",
+        "knowledge_point": "生态系统成分",
+        "options": [
+          "生产者",
+          "消费者",
+          "分解者",
+          "非生物成分"
+        ],
+        "question": "草地上的绿色小草能够制造有机物，它属于（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 114
+      },
+      {
+        "answer": "水",
+        "difficulty": 1,
+        "explanation": "水不具有生命，属于生态系统中的非生物成分；鱼是生物，属于消费者。",
+        "knowledge_point": "生态系统成分",
+        "options": [
+          "小鱼",
+          "水",
+          "水草",
+          "虾"
+        ],
+        "question": "下面属于生态系统非生物成分的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 115
+      },
+      {
+        "answer": "细菌和真菌",
+        "difficulty": 2,
+        "explanation": "许多细菌和真菌能分解动植物遗体或排泄物，使其中的物质回到环境中，属于分解者。",
+        "knowledge_point": "生态系统成分",
+        "options": [
+          "绿色植物",
+          "兔子",
+          "细菌和真菌",
+          "阳光和空气"
+        ],
+        "question": "森林中，能够分解动植物遗体的生物主要是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 116
+      },
+      {
+        "answer": "生产者",
+        "difficulty": 1,
+        "explanation": "大多数绿色植物能自己制造有机物，因此通常属于生产者。",
+        "knowledge_point": "生态系统成分",
+        "options": [],
+        "question": "绿色植物通常属于生态系统中的________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 117
+      },
+      {
+        "answer": "生产者、消费者、分解者、非生物成分",
+        "difficulty": 2,
+        "explanation": "生态系统既包括生物，也包括非生物环境；生物成分又可分为生产者、消费者和分解者。",
+        "knowledge_point": "生态系统成分",
+        "options": [],
+        "question": "生态系统的成分包括生产者、消费者、分解者和________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 118
+      },
+      {
+        "answer": "研究因素",
+        "difficulty": 1,
+        "explanation": "研究因素是实验中有意改变的条件，其他条件应尽量保持相同。",
+        "knowledge_point": "对比实验原则",
+        "options": [],
+        "question": "对比实验中，有意改变的一个条件叫作（　　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 119
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "如果同时改变多个条件，结果变化可能由其中任何一个条件造成，无法公平判断研究因素的作用。",
+        "knowledge_point": "对比实验原则",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "为了让实验结果更可信，对比实验中可以同时改变两个研究因素。",
+        "score": 5,
+        "type": "true_false",
+        "id": 120
+      },
+      {
+        "answer": "水量",
+        "difficulty": 2,
+        "explanation": "实验要比较光照对植物生长的影响，所以光照是研究因素。两盆植物的水量等其他条件应保持相同。",
+        "knowledge_point": "对比实验原则",
+        "options": [],
+        "question": "小明想研究光照是否影响植物生长，准备两盆相同的植物，一盆放在阳光下，一盆放在阴暗处。除了光照外，两盆植物每天接受的（　　）应保持相同。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 121
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "本实验研究搅拌是否影响糖的溶解速度，所以搅拌情况应不同；水温和糖块大小等条件应相同。",
+        "knowledge_point": "对比实验原则",
+        "options": [
+          "甲杯水温低、乙杯水温高，其他条件相同",
+          "两杯水温相同，甲杯搅拌、乙杯不搅拌",
+          "甲杯放大糖块、乙杯放小糖块，其他条件相同",
+          "两杯的水量和搅拌情况都不同"
+        ],
+        "question": "要研究“搅拌是否影响糖的溶解速度”，下面哪种实验安排比较公平？",
+        "score": 5,
+        "type": "choice",
+        "id": 122
+      },
+      {
+        "answer": "只改变一个条件",
+        "difficulty": 2,
+        "explanation": "对比实验只改变研究因素，其他条件保持相同，才能把实验结果的差异与研究因素联系起来。",
+        "knowledge_point": "对比实验原则",
+        "options": [],
+        "question": "小华想研究不同种类的纸吸水能力是否相同。她使用大小相同的纸片、相同体积的水，并用相同的方法测量。实验中她只改变了纸的（　　）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 123
+      },
+      {
+        "answer": "捕食",
+        "difficulty": 1,
+        "explanation": "青蛙吃害虫，青蛙与害虫之间是捕食关系。",
+        "knowledge_point": "生物关系",
+        "options": [
+          "合作",
+          "捕食",
+          "竞争",
+          "共生"
+        ],
+        "question": "青蛙捕食田里的害虫，青蛙和害虫之间属于哪种关系？",
+        "score": 5,
+        "type": "choice",
+        "id": 124
+      },
+      {
+        "answer": "竞争",
+        "difficulty": 2,
+        "explanation": "两种植物都需要阳光和水分，资源有限时相互争夺，属于竞争关系。",
+        "knowledge_point": "生物关系",
+        "options": [
+          "捕食",
+          "合作",
+          "竞争",
+          "分解"
+        ],
+        "question": "麦田里的杂草和小麦争夺阳光、水分和养料，它们之间主要是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 125
+      },
+      {
+        "answer": "分解者",
+        "difficulty": 2,
+        "explanation": "细菌和许多真菌能分解生物遗体中的有机物，使物质回到环境中，因此属于分解者。",
+        "knowledge_point": "生物关系",
+        "options": [
+          "生产者",
+          "消费者",
+          "分解者",
+          "捕食者"
+        ],
+        "question": "蘑菇能分解枯枝落叶，从中获取营养。蘑菇在生态系统中属于（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 126
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "动物不能像绿色植物那样通过光合作用制造有机物，通常需要通过摄食其他生物获取营养，因此是消费者。",
+        "knowledge_point": "生物关系",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "兔子不能自己制造食物，通常需要吃植物，因此属于消费者。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 127
+      },
+      {
+        "answer": "合作",
+        "difficulty": 2,
+        "explanation": "蜜蜂采蜜时帮助植物传粉，蜜蜂获得食物，植物有机会结出种子，双方都能受益，属于合作关系。",
+        "knowledge_point": "生物关系",
+        "options": [],
+        "question": "蜜蜂采蜜时帮助植物传粉，蜜蜂获得食物，植物有机会结出种子。这种关系可以称为____。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 128
+      },
+      {
+        "answer": "适量",
+        "difficulty": 2,
+        "explanation": "生态瓶中生物太少不利于观察生物之间的联系，太多则可能使食物、氧气和空间不足，因此要放入适量的生物。",
+        "knowledge_point": "生态瓶制作",
+        "options": [],
+        "question": "制作生态瓶时，放入的生物数量应该（填写“过多”“适量”或“越多越好”）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 129
+      },
+      {
+        "answer": "阳光",
+        "difficulty": 2,
+        "explanation": "植物需要适宜的光照进行生长，也能通过光合作用为生态瓶中的生物提供氧气和食物来源。",
+        "knowledge_point": "生态瓶制作",
+        "options": [],
+        "question": "生态瓶中的植物需要适宜的（ ），才能较好地生长。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 130
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "强光暴晒可能使瓶内温度过高，影响水中生物生存，因此生态瓶不宜放在阳光下长时间暴晒。",
+        "knowledge_point": "生态瓶制作",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "生态瓶应放在阳光下长时间暴晒，这样植物才能长得更好。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 131
+      },
+      {
+        "answer": "植物",
+        "difficulty": 3,
+        "explanation": "植物可以为小动物提供食物或栖息场所，也能通过光合作用释放氧气，是生态瓶的重要组成部分。",
+        "knowledge_point": "生态瓶制作",
+        "options": [],
+        "question": "生态瓶中的水生（ ）可以为小动物提供食物或栖息场所。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 132
+      },
+      {
+        "answer": "放入过多动物会增加氧气和食物的消耗，可能使资源不足、水质变差，导致生态瓶中的生物难以生存。",
+        "difficulty": 3,
+        "explanation": "生态瓶的空间和资源有限，生物数量过多会增加对氧气、食物和空间的需求，也可能造成环境变化。",
+        "knowledge_point": "生态瓶制作",
+        "options": [],
+        "question": "为什么制作生态瓶时不能放入过多的小动物？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 133
+      },
+      {
+        "answer": "水、空气和适宜的温度",
+        "difficulty": 2,
+        "explanation": "种子发芽需要吸收水分、呼吸空气，并处在适宜的温度下；阳光通常不是种子发芽的必要条件。",
+        "knowledge_point": "植物生长",
+        "options": [
+          "水、空气和适宜的温度",
+          "阳光、肥料和土壤",
+          "只有阳光",
+          "只有肥料"
+        ],
+        "question": "种子发芽通常需要哪些条件？",
+        "score": 5,
+        "type": "choice",
+        "id": 134
+      },
+      {
+        "answer": "×",
+        "difficulty": 2,
+        "explanation": "种子发芽通常不需要阳光，但幼苗长出叶子后，需要阳光进行光合作用。",
+        "knowledge_point": "植物生长",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "种子发芽和幼苗生长都必须有阳光。",
+        "score": 5,
+        "type": "true_false",
+        "id": 135
+      },
+      {
+        "answer": "根",
+        "difficulty": 1,
+        "explanation": "植物的根通常从土壤中吸收水分和矿物质，也能帮助植物固定在土壤里。",
+        "knowledge_point": "植物生长",
+        "options": [],
+        "question": "植物通常用（ ）吸收土壤中的水分和矿物质。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 136
+      },
+      {
+        "answer": "阳光",
+        "difficulty": 1,
+        "explanation": "幼苗长出叶子后，需要阳光进行光合作用，制造生长所需的养料。",
+        "knowledge_point": "植物生长",
+        "options": [],
+        "question": "幼苗长出叶子后，需要（ ）进行光合作用。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 137
+      },
+      {
+        "answer": "适量的水、空气、适宜的温度和阳光",
+        "difficulty": 2,
+        "explanation": "植物不同生长阶段的需要有所不同。种子发芽需要水、空气和适宜的温度；幼苗生长还需要阳光。水太多可能导致土壤中的空气不足，因此浇水应适量。",
+        "knowledge_point": "植物生长",
+        "options": [],
+        "question": "植物的幼苗要健康生长，通常需要哪些基本条件？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 138
+      },
+      {
+        "answer": "仙人掌",
+        "difficulty": 2,
+        "explanation": "仙人掌的茎能储存水分，叶片退化成刺，可以减少水分散失，因此适合生活在干旱环境中。",
+        "knowledge_point": "植物对环境选择",
+        "options": [
+          "荷花",
+          "仙人掌",
+          "水稻",
+          "睡莲"
+        ],
+        "question": "下列植物中，最适合生活在干旱环境中的是（ ）。",
+        "score": 5,
+        "type": "choice",
+        "id": 139
+      },
+      {
+        "answer": "根系发达",
+        "difficulty": 2,
+        "explanation": "沙漠中水分较少，根系发达的植物能更广泛地吸收土壤中的水分，有利于生存。",
+        "knowledge_point": "植物对环境选择",
+        "options": [
+          "根系发达",
+          "叶片特别柔软",
+          "茎中空且不能储水",
+          "只在水中生长"
+        ],
+        "question": "沙漠植物具有哪种特点，更有利于吸收水分？（ ）",
+        "score": 5,
+        "type": "choice",
+        "id": 140
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "荷花生活在水中或水边，叶片常浮在水面，适应了水生环境。",
+        "knowledge_point": "植物对环境选择",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "荷花适合生活在水中或水边。",
+        "score": 5,
+        "type": "true_false",
+        "id": 141
+      },
+      {
+        "answer": "根",
+        "difficulty": 1,
+        "explanation": "植物通常由根吸收水分和矿物质，再输送到其他部位。",
+        "knowledge_point": "植物对环境选择",
+        "options": [],
+        "question": "植物主要通过（ ）从土壤中吸收水分。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 142
+      },
+      {
+        "answer": "不同的植物适应不同的生活环境",
+        "difficulty": 2,
+        "explanation": "植物的形态特点与其生活环境有关。了解植物适宜的水分、阳光和温度等条件，有助于为它们提供合适的生长环境。",
+        "knowledge_point": "植物对环境选择",
+        "options": [],
+        "question": "用一句话说说植物与生活环境的关系。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 143
+      },
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "草到蛇的路径分别是草→鼠→蛇、草→鼠→鹰→蛇、草→兔→鹰→蛇，共3条。",
+        "knowledge_point": "食物网计算",
+        "options": [],
+        "question": "食物网中有“草→鼠”“草→兔”“鼠→蛇”“鼠→鹰”“兔→鹰”“鹰→蛇”这些关系。从草到蛇共有（ ）条不同的食物链。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 144
+      },
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "从草出发分别可以沿草→兔、草→鼠、草→蝗虫到达三种不同的初级消费者，共有3条以草开头的一步路径。",
+        "knowledge_point": "食物网计算",
+        "options": [],
+        "question": "某食物网中有“草→兔”“草→鼠”“草→蝗虫”“兔→鹰”“鼠→鹰”“蝗虫→青蛙”。从草出发，第一步共有（ ）种不同走法。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 145
+      },
+      {
+        "answer": "3",
+        "difficulty": 2,
+        "explanation": "从草到鹰有三条完整路径：草→兔→鹰、草→鼠→鹰、草→蝗虫→青蛙→鹰。",
+        "knowledge_point": "食物网计算",
+        "options": [],
+        "question": "食物网中有“草→兔”“草→鼠”“草→蝗虫”“兔→鹰”“鼠→鹰”“蝗虫→青蛙”“青蛙→鹰”。从草到鹰共有（ ）条食物链。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 146
+      },
+      {
+        "answer": "错误",
+        "difficulty": 2,
+        "explanation": "箭头表示食物中的能量流向捕食者，因此“草→兔”表示兔吃草，不表示草吃兔。",
+        "knowledge_point": "食物网计算",
+        "options": [],
+        "question": "判断：在“草→兔→鹰”中，箭头表示能量由草流向兔，再由兔流向鹰。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 147
+      },
+      {
+        "answer": "4",
+        "difficulty": 2,
+        "explanation": "从草到鹰的路径有草→兔→鹰、草→鼠→鹰、草→蝗虫→青蛙→鹰；此外草→蝗虫→鸟→鹰也是一条路径，共4条。",
+        "knowledge_point": "食物网计算",
+        "options": [],
+        "question": "一个食物网中有“草→兔”“草→鼠”“草→蝗虫”“兔→鹰”“鼠→鹰”“蝗虫→青蛙”“青蛙→鹰”“蝗虫→鸟”“鸟→鹰”。从草到鹰共有（ ）条不同的食物链。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 148
+      },
+      {
+        "answer": "从实验开始到实验结束所经历的时间跨度。",
+        "difficulty": 1,
+        "explanation": "实验周期描述的是整个实验持续的时间，不是某一次观察所用的时间。",
+        "knowledge_point": "实验周期",
+        "options": [],
+        "question": "什么是实验周期？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 149
+      },
+      {
+        "answer": "B",
+        "difficulty": 1,
+        "explanation": "每天在固定时间观察，能让记录间隔更一致，便于比较种子的变化。",
+        "knowledge_point": "实验周期",
+        "options": [
+          "A. 想起来时观察一次",
+          "B. 每天在固定时间观察并记录",
+          "C. 只在实验开始时观察",
+          "D. 每次观察都更换种子"
+        ],
+        "question": "为了了解绿豆种子的萌发过程，怎样观察和记录比较合适？",
+        "score": 5,
+        "type": "choice",
+        "id": 150
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "实验周期应根据研究问题和预定的结束条件来确定，不同实验的周期可以不同。",
+        "knowledge_point": "实验周期",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "所有观察植物生长的实验都必须持续相同的天数。",
+        "score": 5,
+        "type": "true_false",
+        "id": 151
+      },
+      {
+        "answer": "6",
+        "difficulty": 2,
+        "explanation": "从第1天到第7天相隔6天，因此这段实验周期为6天。",
+        "knowledge_point": "实验周期",
+        "options": [],
+        "question": "小明在第1天开始实验，第7天结束实验。从开始到结束经过了（ ）天。",
+        "score": 5,
+        "type": "calculation",
+        "id": 152
+      },
+      {
+        "answer": "温度和水分",
+        "difficulty": 2,
+        "explanation": "种子萌发会受到环境条件影响。比较实验结果时，应尽量保持温度和水分等条件一致。",
+        "knowledge_point": "实验周期",
+        "options": [],
+        "question": "比较两组种子的萌发时间时，应尽量保持（ ）和（ ）等环境条件相同。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 153
+      },
+      {
+        "answer": "氧气",
+        "difficulty": 1,
+        "explanation": "植物进行光合作用时，会制造养料并释放氧气。",
+        "knowledge_point": "光合作用产物",
+        "options": [],
+        "question": "植物进行光合作用时，除了制造养料，还会释放（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 154
+      },
+      {
+        "answer": "养料（主要是糖类）",
+        "difficulty": 2,
+        "explanation": "光合作用能把水和二氧化碳转化成植物生长所需的养料，主要是糖类。",
+        "knowledge_point": "光合作用产物",
+        "options": [],
+        "question": "光合作用产生的养料主要属于哪一类物质？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 155
+      },
+      {
+        "answer": "×",
+        "difficulty": 2,
+        "explanation": "水和二氧化碳是光合作用的原料；光合作用的产物主要是养料和氧气。",
+        "knowledge_point": "光合作用产物",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "水和二氧化碳是光合作用的产物。（ ）",
+        "score": 5,
+        "type": "true_false",
+        "id": 156
+      },
+      {
+        "answer": "氧气",
+        "difficulty": 2,
+        "explanation": "光合作用产生的氧气会释放到周围环境中。",
+        "knowledge_point": "光合作用产物",
+        "options": [
+          "水蒸气",
+          "氧气",
+          "二氧化碳",
+          "泥土"
+        ],
+        "question": "植物进行光合作用时，会向周围释放哪种气体？",
+        "score": 5,
+        "type": "choice",
+        "id": 157
+      },
+      {
+        "answer": "养料和氧气",
+        "difficulty": 3,
+        "explanation": "光合作用利用水和二氧化碳制造养料，同时释放氧气；两者都是光合作用的产物。",
+        "knowledge_point": "光合作用产物",
+        "options": [
+          "水和二氧化碳",
+          "养料和氧气",
+          "阳光和水",
+          "土壤和氧气"
+        ],
+        "question": "下列哪一组都是光合作用的产物？",
+        "score": 5,
+        "type": "choice",
+        "id": 158
+      },
+      {
+        "answer": "生物与它们周围的非生物环境相互作用、相互影响",
+        "difficulty": 2,
+        "explanation": "生态系统不是单独的生物或环境，而是一定区域内生物和非生物环境共同组成、彼此影响的整体。",
+        "knowledge_point": "生态系统概念",
+        "options": [],
+        "question": "生态系统是一定区域内的（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 159
+      },
+      {
+        "answer": "A",
+        "difficulty": 2,
+        "explanation": "池塘中有鱼、植物等生物，也有水、阳光和泥土等非生物环境，这些因素相互联系，构成一个生态系统。",
+        "knowledge_point": "生态系统概念",
+        "options": [
+          "A. 池塘",
+          "B. 一条鱼",
+          "C. 一块石头",
+          "D. 一片树叶"
+        ],
+        "question": "下面哪一项最能作为一个生态系统的例子？",
+        "score": 5,
+        "type": "choice",
+        "id": 160
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "生态系统既包括生物，也包括水、空气、阳光和土壤等非生物环境。",
+        "knowledge_point": "生态系统概念",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "生态系统只由动物和植物等生物组成。",
+        "score": 5,
+        "type": "true_false",
+        "id": 161
+      },
+      {
+        "answer": "分解者",
+        "difficulty": 2,
+        "explanation": "细菌和许多真菌能分解生物遗体和排泄物，使其中的物质回到环境中，因此通常属于分解者。",
+        "knowledge_point": "生态系统概念",
+        "options": [],
+        "question": "细菌和许多真菌能分解生物遗体，它们通常被称为（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 162
+      },
+      {
+        "answer": "相互联系、相互影响",
+        "difficulty": 3,
+        "explanation": "森林中的树木、昆虫和鸟类等生物会受阳光、水和土壤等环境影响；生物的生长和活动也会影响周围环境，因此生态系统中的各部分彼此联系、相互影响。",
+        "knowledge_point": "生态系统概念",
+        "options": [],
+        "question": "森林里既有生物，也有阳光、水和土壤等环境因素。它们之间的关系可以用“（ ）”来概括。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 163
+      },
+      {
+        "answer": "形态适应",
+        "difficulty": 2,
+        "explanation": "北极熊的厚皮毛是身体结构上的特点，能够帮助它减少热量散失，适应寒冷环境，属于形态适应。",
+        "knowledge_point": "动物适应性",
+        "options": [],
+        "question": "北极熊身上长有厚厚的皮毛，这种身体结构特点属于（ ）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 164
+      },
+      {
+        "answer": "B",
+        "difficulty": 2,
+        "explanation": "刺猬在寒冷、食物较少的季节冬眠，有助于降低活动和能量消耗，是一种行为适应。",
+        "knowledge_point": "动物适应性",
+        "options": [
+          "A. 兔子的耳朵很长",
+          "B. 刺猬在冬季冬眠",
+          "C. 鱼的身体呈流线型",
+          "D. 鸟类有羽毛"
+        ],
+        "question": "下列哪一项属于动物的行为适应？",
+        "score": 5,
+        "type": "choice",
+        "id": 165
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "鱼的鳃能从水中获取氧气，这是鱼类适应水中生活的生理特点。",
+        "knowledge_point": "动物适应性",
+        "options": [
+          "对",
+          "错"
+        ],
+        "question": "鱼的鳃能够帮助鱼从水中获取氧气，这属于动物对环境的适应。",
+        "score": 5,
+        "type": "true_false",
+        "id": 166
+      },
+      {
+        "answer": "流线型",
+        "difficulty": 3,
+        "explanation": "鱼的身体通常呈流线型，可以减小在水中运动时受到的阻力，有利于游动。",
+        "knowledge_point": "动物适应性",
+        "options": [],
+        "question": "鱼的身体通常呈（ ）形，这种特点有助于它在水中游动。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 167
+      },
+      {
+        "answer": "有助于动物在特定环境中生存和繁殖",
+        "difficulty": 3,
+        "explanation": "动物的适应特点与其生活环境有关，能够帮助它更好地生活；不同特点分别可能与获取食物、躲避危险、保暖或繁殖等有关。",
+        "knowledge_point": "动物适应性",
+        "options": [],
+        "question": "动物的形态、行为或生理特点，通常有什么作用？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 168
       }
     ]
   },
@@ -694,14 +2534,312 @@
       "tips": "记住：箭头是指向“进嘴”的方向，代表能量流动。"
     },
     {
-      "point": "生态系统",
-      "core_concept": "群落与其环境相互作用形成的统一整体。",
-      "key_formula": "生态系统 = 生物成分（生产/消费/分解者）+ 非生物成分（水/光/空气等）。",
       "common_mistakes": [
         "认为生态瓶里鱼越多越好",
-        "认为只有活的生物才是生态系统的组成部分"
+        "认为只有活的生物才是生态系统的组成部分",
+        "把食物链中的生物误认为生态系统的全部组成"
       ],
-      "tips": "保持生态系统多样性能增强其自我调节的能力。"
+      "core_concept": "在一定区域内，生物与其生活环境相互联系、相互作用，形成的统一整体叫作生态系统。生物成分包括生产者、消费者和分解者；非生物成分包括阳光、水、空气和土壤等。",
+      "key_formula": "生态系统 = 生物成分（生产者、消费者、分解者）+ 非生物成分（水、光、空气、土壤等）。",
+      "point": "生态系统",
+      "tips": "理解生态系统时，要同时关注生物和非生物环境，以及它们之间的相互作用。生态系统中的生物种类和数量应相对协调；多样性有助于增强其自我调节能力，但生态系统也可能受到干扰而失去平衡。"
+    },
+    {
+      "common_mistakes": [
+        "一次改变多个条件，导致无法判断是哪种条件影响了发芽。",
+        "实验组和对照组的种子数量、种类或大小不同。",
+        "没有保持其他条件相同，或观察时间和记录方法不一致。",
+        "把“种子发芽”与“幼苗长得更高”混为一谈。"
+      ],
+      "core_concept": "设计种子发芽的对比实验时，先提出要研究的问题，再确定只改变一个条件（变量），设置实验组和对照组，并保持种子、温度、时间等其他条件相同。通过重复观察和记录，比较两组种子的发芽情况，从而判断所研究的条件是否会影响种子发芽。",
+      "key_formula": "公平对比实验：只改变一个条件；其他条件保持相同；实验组与对照组进行比较。",
+      "point": "种子发芽的对比实验设计",
+      "tips": "先问“我想研究什么”，把这个因素作为唯一改变的条件；再想清楚哪些条件必须相同。每组尽量使用多粒相同种子，按相同方法观察、记录，并根据实际数据得出结论。"
+    },
+    {
+      "common_mistakes": [
+        "只看一组实验的结果就下结论，没有比较不同条件。",
+        "实验中同时改变多个条件，无法判断哪个条件影响了发芽。",
+        "把种子没有发芽直接说成种子不需要水、空气或适宜温度。",
+        "忽略重复实验和种子差异，认为一次结果就能代表所有种子。"
+      ],
+      "core_concept": "分析种子发芽实验时，要先看清实验条件，比较不同组的数据，再根据重复出现的结果得出结论。公平比较通常只改变一个条件，其他条件保持相同。实验结论应说明在本实验条件下观察到的现象，不宜超出证据范围。",
+      "key_formula": "发芽率＝发芽的种子数÷供实验的种子总数×100%",
+      "point": "种子发芽实验的数据分析与结论",
+      "tips": "先整理每组的种子总数和发芽数；再计算发芽率或比较发芽数量；确认各组是否只改变一个条件；最后用“数据表明……”说明发现，并用“在本实验条件下……”谨慎表达结论。为减少偶然误差，可使用数量相同、状态相近的种子，并重复实验。"
+    },
+    {
+      "common_mistakes": [
+        "认为植物只要有水和土壤就能正常生长，忽略光照的作用。",
+        "把光合作用说成植物“吸收阳光”，却漏掉水和二氧化碳等原料。",
+        "认为植物在黑暗中会立刻死亡；实际上短时间内仍可能存活，但缺少光照会影响生长。"
+      ],
+      "core_concept": "植物生长需要适宜的光照。绿色植物能利用光能，将水和二氧化碳转化为自身生长所需的养分，并释放氧气，这个过程叫光合作用。光照不足时，植物制造养分的能力会受影响，生长可能变慢、变弱。",
+      "key_formula": "水 + 二氧化碳 ——（光能、叶绿体）→ 养分（如糖类） + 氧气",
+      "point": "植物生长对光照的需求与光合作用",
+      "tips": "观察植物对光照的需求时，可选同种、大小相近的植物，保持水分、土壤和温度等条件相同，只改变光照条件，并持续观察叶片颜色和生长情况。光合作用主要在植物绿色部分进行；植物也会呼吸，不能简单认为植物只在有光时才进行生命活动。"
+    },
+    {
+      "common_mistakes": [
+        "把蚯蚓的行为说成有意识地思考和选择；更准确地说，蚯蚓会对环境刺激作出反应。",
+        "只看一条蚯蚓或一次实验就下结论；应重复观察，关注多数蚯蚓的表现。",
+        "实验中同时改变光照和干湿程度，导致无法判断蚯蚓偏向哪种条件。"
+      ],
+      "core_concept": "动物会对周围环境中的光照、温度、湿度等条件作出反应。在蚯蚓实验中，通常观察它们在明亮与黑暗、干燥与湿润环境中的分布，从而了解它们倾向于怎样的环境。实验结果常显示，蚯蚓较多地出现在黑暗、湿润的一侧。",
+      "key_formula": "选择性可通过比较不同环境条件下动物的数量来观察：某条件一侧的动物数较多，说明在本次实验条件下，动物较倾向于该条件。",
+      "point": "动物对环境的选择性（蚯蚓实验）",
+      "tips": "记住实验思路：提出问题—只改变一个条件—保持其他条件相同—观察并记录—重复实验后得出结论。蚯蚓实验常见结论是蚯蚓较倾向于黑暗、湿润的环境；这表示它们会对环境刺激作出反应，不代表它们像人一样有意识地思考。"
+    },
+    {
+      "common_mistakes": [
+        "把适应行为和身体结构变化混为一谈：行为适应是生物做出的行动或活动方式，结构适应是身体形态或构造上的特点。",
+        "认为生物可以有意识地按需要改变自己；适应行为是生物在长期生活中形成、能帮助其生存或繁殖的行为方式。",
+        "认为环境改变后，所有生物都能适应；如果不能适应，生物可能迁移、数量减少，甚至无法生存。"
+      ],
+      "core_concept": "生物对环境改变的适应行为，是生物通过改变活动方式或行为来应对环境变化，从而更好地生存和繁殖。例如，天气变冷时，一些动物会迁徙、冬眠或躲进温暖的地方；干旱时，一些动物会寻找水源、减少活动。不同生物应对环境的方式各不相同。",
+      "key_formula": "环境发生变化 → 生物表现出相应行为 → 有助于生存或繁殖",
+      "point": "生物对环境改变的适应行为",
+      "tips": "举例说明时，先说清环境变化，再描述生物的行为，最后解释这种行为怎样帮助它适应环境。比如：冬季寒冷、食物减少时，有些动物迁徙到温暖且食物较多的地方；这有助于它们度过寒冷季节。"
+    },
+    {
+      "common_mistakes": [
+        "把食物链的箭头理解成“谁吃谁”的反方向；箭头应指向获取食物的一方。",
+        "认为食物网中的每条食物链彼此完全独立；它们常会共享生物。",
+        "把阳光或水当作食物链中的生物成员；它们是生物生存所需的非生物条件。"
+      ],
+      "core_concept": "食物链表示生物之间通过吃与被吃形成的食物关系，通常从生产者开始。食物网是同一环境中多条相互交错的食物链构成的关系网络。",
+      "key_formula": "食物链箭头：被吃的生物 → 吃它的生物；常见结构：生产者 → 初级消费者 → 更高级消费者。",
+      "point": "食物链与食物网的构建",
+      "tips": "构建时先找生产者（如绿色植物），再根据“谁吃谁”依次连接消费者，并让箭头从食物指向吃食物的生物。把同一环境中的多条食物链放在一起，找出共享的生物并连接起来，就能形成食物网。构建完成后，检查每条链是否符合生物实际的取食关系。"
+    },
+    {
+      "common_mistakes": [
+        "把生态系统只理解为动物或植物，忽略非生物环境及生物之间的相互作用。",
+        "认为生态瓶里生物越多越好；生物过多会使空间、食物或氧气不足。",
+        "把生态瓶密封后放在阳光直射处，导致温度过高。"
+      ],
+      "core_concept": "生态系统是一定区域内，生物与它们生活的非生物环境相互作用形成的整体。植物、动物和微生物等生物，与阳光、水、空气、土壤等环境因素共同组成生态系统。生态瓶是用容器模拟小型生态环境的实验装置，可观察其中生物与环境的相互关系。",
+      "key_formula": "生态系统 = 一定区域内的生物 + 非生物环境 + 它们之间的相互作用",
+      "point": "生态系统的定义与生态瓶制作",
+      "tips": "制作生态瓶时，可选用透明、干净的容器，加入少量清洁水、少量底泥和适量水生植物，再放入少数适合的水生小动物。留出空间，不要放入过多生物或食物；盖子可适当透气，或按实验要求处理。将生态瓶放在有适量散射光、温度较稳定的地方，避免阳光直射。观察并记录水的清澈程度、生物活动和植物生长情况。实验结束后，应妥善处理生物，不随意放生外来物种。"
+    },
+    {
+      "common_mistakes": [
+        "认为种子发芽必须有土壤；其实发芽不一定需要土壤。",
+        "把种子发芽和幼苗生长混为一谈；发芽后，幼苗才需要逐渐获得阳光和养分。",
+        "认为种子只要有水就能发芽；种子还需要充足的空气和适宜的温度。"
+      ],
+      "core_concept": "种子发芽通常需要适量的水分、充足的空气和适宜的温度。土壤不是种子发芽的必要条件，但幼苗生长需要适宜的环境和养分。",
+      "key_formula": "种子发芽的基本条件：适量的水分 + 充足的空气 + 适宜的温度",
+      "point": "种子发芽的条件",
+      "tips": "观察种子发芽时，可以把种子放在湿润的纸巾上，保持空气流通和温度适宜。比较实验中一次只改变一个条件，其他条件尽量保持相同。"
+    },
+    {
+      "common_mistakes": [
+        "认为植物只在白天进行呼吸作用；植物昼夜都进行呼吸作用。",
+        "认为光合作用只需要阳光；它还需要水和二氧化碳。",
+        "把光合作用产生的氧气说成二氧化碳。"
+      ],
+      "core_concept": "植物光合作用是绿色植物在光照下，利用叶绿体把水和二氧化碳转化为有机物，并释放氧气的过程。光合作用制造的有机物为植物生长提供养分，其中储存着能量。",
+      "key_formula": "二氧化碳 + 水 —（光照、叶绿体）→ 有机物 + 氧气",
+      "point": "植物光合作用",
+      "tips": "可以用“吸收二氧化碳和水，借助光制造有机物，释放氧气”来记忆光合作用。叶片是植物进行光合作用的重要部位；光照不足时，光合作用通常会减弱。"
+    },
+    {
+      "common_mistakes": [
+        "把动物对环境的选择性理解为动物能有意识地选择环境。",
+        "只关注光照或湿度等单一条件，忽略温度、食物和栖息地等因素。",
+        "根据一次观察就断定某种动物在所有情况下都喜欢同一种环境。"
+      ],
+      "core_concept": "动物对环境有一定的选择性：在有选择的情况下，动物通常会趋向适合自己生存的环境，例如适宜的光照、湿度和温度。这种选择与动物的生活习性和生存需要有关。",
+      "key_formula": "比较动物在不同环境中的分布或数量，判断它更倾向于哪种环境。",
+      "point": "动物对环境的选择性",
+      "tips": "做探究时，每次尽量只改变一个条件，其他条件保持相同；观察一段时间后记录不同区域的动物数量，并重复实验。实验中要温和对待动物，观察后将它们放回适宜的环境。"
+    },
+    {
+      "common_mistakes": [
+        "把阳光写进食物链；阳光是能量来源，不是生物。",
+        "把箭头方向写反；箭头表示食物和能量流动的方向，从被吃的生物指向吃它的生物。",
+        "把食物链写成没有起点和终点的环。"
+      ],
+      "core_concept": "食物链表示生物之间“谁被谁吃”的关系。通常从绿色植物等生产者开始，箭头从被吃的生物指向捕食者，表示食物和能量的传递方向。",
+      "key_formula": "生产者→初级消费者→次级消费者；例如：草→兔→狼。",
+      "point": "食物链",
+      "tips": "先找出能自己制造养分的绿色植物作为起点，再按“被谁吃”依次连接。检查箭头：它应从食物指向吃食物的生物。食物链一般不把阳光、空气和水写作链中的生物，也不把分解者随意接在链条末尾。"
+    },
+    {
+      "common_mistakes": [
+        "认为种子发芽需要阳光；许多种子在没有阳光的情况下也能发芽。",
+        "误以为只要有水就一定能发芽，忽略了适宜的温度和充足的空气。",
+        "对比实验中同时改变多个条件，导致无法判断是哪种条件影响了发芽。"
+      ],
+      "core_concept": "种子发芽通常需要适量的水分、充足的空气和适宜的温度。不同种子发芽所需的温度可能不同。种子发芽一般不需要阳光，但幼苗生长通常需要阳光。",
+      "key_formula": "种子发芽的基本条件：适量水分＋充足空气＋适宜温度。",
+      "point": "种子发芽条件",
+      "tips": "设计对比实验时，只改变一个研究条件，其他条件尽量保持相同。例如，研究水分是否影响发芽时，可将同种、数量相同的种子放在相同温度和空气条件下，一组保持湿润，另一组不加水，再比较发芽情况。"
+    },
+    {
+      "common_mistakes": [
+        "同时改变多个条件，导致无法判断哪一项造成结果变化。",
+        "只观察一次或只用一粒种子，容易受偶然因素影响。",
+        "没有设置对照组，或没有保证两组其他条件相同。"
+      ],
+      "core_concept": "对比实验是通过比较两组或多组实验对象，研究某个条件对结果的影响。设计时通常只改变一个条件，其他可能影响结果的条件尽量保持相同；还要设置对照组，并尽量重复实验、记录结果。",
+      "key_formula": "公平对比：只改变一个条件；其他条件保持相同。",
+      "point": "对比实验设计",
+      "tips": "先确定要研究的问题和结果，再找出可能影响结果的条件。选定一个条件作为变量，设置实验组与对照组，保证其余条件一致；重复实验并认真记录、比较结果。"
+    },
+    {
+      "common_mistakes": [
+        "认为植物只要有阳光就能进行光合作用，忽略水和二氧化碳也是重要条件。",
+        "把光合作用误认为植物只吸收养分、不制造养分。",
+        "认为植物的根朝着有光的方向生长；根通常具有向水性和向地性。"
+      ],
+      "core_concept": "光合作用是绿色植物利用光能，把水和二氧化碳转化成自身生长所需的养分，并释放氧气的过程。叶片中的叶绿素能帮助植物利用光能。",
+      "key_formula": "水＋二氧化碳——（光照、叶绿素）→ 养分（主要是糖类）＋氧气",
+      "point": "光合作用",
+      "tips": "可以把植物想象成用阳光工作的“小工厂”：根吸收水，叶片从空气中获得二氧化碳，叶绿素利用光能制造养分，并释放氧气。学习时可分别记住光合作用的条件、原料和产物。植物的根朝水生长属于向水性，与光合作用的过程不是一回事。"
+    },
+    {
+      "common_mistakes": [
+        "把动物适应行为都理解成动物主动计划的结果；许多行为是动物对季节、温度、食物等变化作出的反应。",
+        "混淆迁徙和冬眠：迁徙是动物改变活动地点，冬眠则是动物在一段时间内活动减少、代谢变慢。",
+        "认为同一种适应行为适用于所有动物；不同动物会用不同方式应对环境变化。"
+      ],
+      "core_concept": "动物会通过行为适应环境变化，以增加生存和繁殖的机会。例如，候鸟迁徙以应对季节和食物变化，青蛙冬眠以度过寒冷且食物较少的时期，松鼠储存食物以应对冬季食物不足。",
+      "key_formula": "环境变化 → 动物作出相应行为 → 提高生存或繁殖的机会",
+      "point": "动物适应行为",
+      "tips": "判断一种行为是否与适应环境有关，可以想一想：环境发生了什么变化？动物做了什么？这种行为怎样帮助它生存或繁殖？"
+    },
+    {
+      "common_mistakes": [
+        "把生态平衡理解成各种生物的数量始终不变。",
+        "认为一种生物数量增加或减少，只会影响它直接捕食或被捕食的对象。",
+        "认为人类只要消灭有害生物，就不会影响其他生物。"
+      ],
+      "core_concept": "生态系统中，生物与生物、生物与环境相互联系、相互影响。各种生物的数量和比例会在一定范围内变化；当这种相互作用总体保持相对稳定时，就形成了生态平衡。生态平衡不是完全不变，而是动态的。",
+      "key_formula": "生态平衡：生物之间相互依存、相互制约，生物与环境相互作用，使生态系统保持相对稳定。",
+      "point": "生态平衡",
+      "tips": "分析生态变化时，可以顺着食物链逐步推想：一种生物变多或变少，会影响它的食物和天敌；再考虑水、空气、土壤和栖息地等环境因素。注意使用“可能”“通常”等表述，因为真实生态系统中的变化还会受到多种因素影响。"
+    },
+    {
+      "common_mistakes": [
+        "把生态系统中的生物成分和非生物成分混为一谈。",
+        "认为生态系统只包括动植物，而忽略微生物以及水、空气、土壤、阳光等非生物成分。",
+        "认为绿色植物只能提供氧气，忽略它们还能制造有机物，为其他生物提供食物。"
+      ],
+      "core_concept": "生态系统由生物成分和非生物成分组成。生物成分包括生产者、消费者和分解者；非生物成分包括阳光、空气、水、土壤等。它们相互联系、相互影响，共同构成生态系统。",
+      "key_formula": "生态系统 = 生物成分（生产者、消费者、分解者）+ 非生物成分",
+      "point": "生态系统成分",
+      "tips": "判断时先看对象是不是生物：植物、动物和微生物属于生物成分；阳光、水、空气和土壤等属于非生物成分。绿色植物通常是生产者，动物通常是消费者，能分解动植物遗体或排泄物的细菌、真菌等属于分解者。"
+    },
+    {
+      "common_mistakes": [
+        "把研究因素也保持相同，导致无法比较它对实验结果的影响。",
+        "同时改变多个条件，难以判断结果变化由哪个因素引起。",
+        "忽略实验材料、环境或操作方法等条件，影响实验结果的公平性。"
+      ],
+      "core_concept": "对比实验是通过比较不同实验组的结果，研究某个因素是否会产生影响。实验中只改变一个研究因素，其他可能影响结果的条件都要保持相同，这样比较才公平。",
+      "key_formula": "公平对比实验：只改变一个研究因素，其他条件保持相同。",
+      "point": "对比实验原则",
+      "tips": "做实验前，先明确要研究的因素；再列出可能影响结果的其他条件，并设法保持它们相同。实验结束后，对照各组结果，判断研究因素是否产生了影响。"
+    },
+    {
+      "common_mistakes": [
+        "不要把消费者和生产者混淆：绿色植物通常是生产者，动物是消费者。",
+        "分解者不是只指真菌，许多细菌也能分解生物遗体和排泄物。",
+        "生物之间的关系不只有捕食，还包括竞争、合作等。"
+      ],
+      "core_concept": "生物关系是生物之间相互联系、相互影响的关系。常见关系包括捕食、竞争和合作；在生态系统中，生物还可按作用分为生产者、消费者和分解者。",
+      "key_formula": "生产者（制造有机物）→消费者（获取有机物）→分解者（分解遗体和排泄物）",
+      "point": "生物关系",
+      "tips": "判断生物关系时，先看它们怎样相互影响：一种生物吃另一种生物是捕食；争夺食物、空间或阳光等资源是竞争；相互帮助、共同获益是合作。判断生态系统中的角色时，可看生物怎样获得营养：植物通常是生产者，动物通常是消费者，细菌和真菌常是分解者。"
+    },
+    {
+      "common_mistakes": [
+        "把生态瓶当作越密闭越好，忽略瓶内生物仍需要适宜的生存条件。",
+        "认为生物数量越多越好；数量过多会使氧气、食物和空间不足。",
+        "只关注动物，忘记植物、阳光、水和空气等条件也很重要。"
+      ],
+      "core_concept": "生态瓶是一个较小的生态系统。制作时要选择合适的容器，加入适量的水、泥沙和水生植物，再放入少量适合共同生活的小动物，并提供适宜的光照和温度。瓶内生物与环境相互影响，需要保持相对平衡。",
+      "key_formula": "生态瓶稳定运行的基本条件：适宜的生物数量 + 足够的水、空气、食物和空间 + 适宜的光照与温度。",
+      "point": "生态瓶制作",
+      "tips": "制作时先放水和少量干净的泥沙，再放入水生植物，最后少量放入小动物；不要把瓶子塞得太满。观察时记录生物数量、活动情况、水的清澈程度和植物变化。"
+    },
+    {
+      "common_mistakes": [
+        "把种子发芽和幼苗生长混为一谈：种子发芽通常不需要阳光，但幼苗生长需要光。",
+        "认为植物只需要阳光；植物生长还需要适量的水、空气和适宜的温度。",
+        "认为植物的根只负责固定植物；根还能吸收水分和矿物质。"
+      ],
+      "core_concept": "植物生长需要适宜的环境条件。种子在有水、空气和适宜温度时可以发芽，通常不需要阳光；幼苗长出叶子后，需要阳光进行光合作用，制造生长所需的养料。植物的根吸收水分和矿物质，茎支撑植物并输送水分和养料，叶片是制造养料的重要部分。",
+      "key_formula": "种子发芽：适量的水 + 空气 + 适宜的温度；幼苗生长：还需要阳光。",
+      "point": "植物生长",
+      "tips": "观察植物生长时，可以保持土壤湿润但不积水，并让幼苗获得适量阳光。若要比较阳光对生长的影响，可让两盆相同植物接受相同的水和温度，只改变光照条件，并连续观察、记录。"
+    },
+    {
+      "common_mistakes": [
+        "认为所有植物都适合生长在同一种环境中。",
+        "把植物的环境适应特点误认为是植物主动选择或改变环境。",
+        "认为叶片宽大只有一个作用，忽视植物生长环境中的光照、水分等因素。"
+      ],
+      "core_concept": "植物的生长需要适宜的水分、阳光、温度和土壤等条件。不同植物适应不同的环境，因此它们的形态特点和生活环境常常相互对应。",
+      "key_formula": "植物的形态特点与生长环境相适应。",
+      "point": "植物对环境选择",
+      "tips": "观察植物时，可以从叶片大小、根的特点、茎的形态等方面入手，再联系它生活环境中的水分、阳光和温度条件，思考这些特点有什么帮助。"
+    },
+    {
+      "common_mistakes": [
+        "把箭头方向看反；箭头表示食物中的能量流向捕食者。",
+        "把食物网中的每一种生物或每一条箭头都当成一条食物链。",
+        "重复计算相同路径，或遗漏从起点到终点的路径。"
+      ],
+      "core_concept": "食物网是多条食物链交织形成的关系网。计算食物链时，沿箭头方向，从同一个起点出发，逐条找出到终点的完整路径；每条不同的完整路径算一条食物链。",
+      "key_formula": "食物链条数＝从起点到终点的不同完整路径数。",
+      "point": "食物网计算",
+      "tips": "先找题目指定的起点和终点，再沿箭头逐条追踪。可以把每条完整路径写下来并编号，最后检查是否有重复或遗漏。"
+    },
+    {
+      "common_mistakes": [
+        "把播种后种子开始萌发的时间，当成植物完成整个生长周期的时间。",
+        "认为所有植物都在相同的天数内萌发或长大；实际时间会受植物种类和环境条件影响。",
+        "没有按固定时间观察和记录，导致难以比较植物的变化。"
+      ],
+      "core_concept": "实验周期是从开始实验到结束实验所经历的时间。观察植物生长时，实验周期要根据要研究的问题确定，并按计划定期观察、记录；种子萌发只是植物生长过程中的一个阶段。",
+      "key_formula": "实验周期＝实验结束时间－实验开始时间",
+      "point": "实验周期",
+      "tips": "开始前写清实验开始时间、观察频率和结束条件；观察时使用相同的时间间隔并记录日期。比较不同种子时，尽量保持温度、水分等条件相同。"
+    },
+    {
+      "common_mistakes": [
+        "把水和二氧化碳当作光合作用的产物；它们是光合作用的原料。",
+        "只记得植物制造了养料，却忽略光合作用还会释放氧气。",
+        "认为光合作用只发生在叶片；叶是主要器官，植物绿色部分也可能进行光合作用。"
+      ],
+      "core_concept": "在有光的条件下，植物利用叶绿体把水和二氧化碳转化成养料（主要是糖类），并释放氧气。养料可供植物生长，也可转化为淀粉等物质储存起来。",
+      "key_formula": "水 + 二氧化碳 —（光、叶绿体）→ 养料（主要是糖类） + 氧气",
+      "point": "光合作用产物",
+      "tips": "记住“原料进、产物出”：水和二氧化碳进入光合作用过程，养料和氧气由此产生。"
+    },
+    {
+      "common_mistakes": [
+        "把生态系统只理解为生物的集合，忽略阳光、水、空气和土壤等非生物因素。",
+        "认为一个地方只要有生物就是完整的生态系统，没有考虑生物与环境之间的联系。"
+      ],
+      "core_concept": "生态系统是指在一定区域内，生物与它们周围的非生物环境相互作用、相互影响而形成的统一整体。池塘、森林和草原都可以是生态系统。",
+      "key_formula": "生态系统＝一定区域内的生物＋非生物环境＋它们之间的相互作用",
+      "point": "生态系统概念",
+      "tips": "判断一个区域是不是生态系统，可以想一想：这里有哪些生物？有哪些非生物环境？它们之间是否有相互联系和影响？植物能制造有机物，通常是生产者；动物不能自己制造食物，通常是消费者；细菌和真菌等能分解生物遗体和排泄物，通常是分解者。"
+    },
+    {
+      "common_mistakes": [
+        "把动物适应性只理解为身体形态上的特点，忽略行为和生理特点。",
+        "认为动物的某一种适应特点在任何环境、任何季节都同样有用。"
+      ],
+      "core_concept": "动物适应性是动物在长期生活过程中形成的、有助于其在特定环境中生存和繁殖的形态、行为或生理特点。不同动物的适应方式与其生活环境和生活习性有关。",
+      "key_formula": "动物适应性包括形态适应、行为适应和生理适应。",
+      "point": "动物适应性",
+      "tips": "观察动物时，可以从外形、行为和生理活动三个方面思考：这些特点与动物生活的环境有什么关系？例如，鸟类迁徙与季节变化和食物条件有关；北极熊厚厚的皮毛有助于保暖；刺猬冬眠有助于度过寒冷、食物较少的季节。"
     }
   ]
 }

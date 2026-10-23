@@ -4,326 +4,428 @@
   "unit_number": 4,
   "unit_test": {
     "title": "第四单元「健康生活」单元诊断卷",
-    "total_score": 100,
+    "total_score": 140,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "人脑通常由大脑、小脑和脑干三部分组成。",
         "knowledge_point": "神经系统的信息传递与脑的保护",
+        "options": [],
         "question": "脑是大脑、小脑和脑干的总称。",
-        "options": [],
-        "answer": "对",
-        "explanation": "人脑包括大脑、小脑和脑干三部分。"
+        "score": 2,
+        "type": "true_false",
+        "id": 1
       },
       {
-        "id": 2,
-        "type": "true_false",
-        "score": 2,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "人体运动需要骨骼、关节和肌肉协同配合。肌肉收缩牵拉骨骼，关节使骨骼之间能够活动。",
         "knowledge_point": "运动系统的协作机制",
+        "options": [],
         "question": "骨骼可以独立完成运动，不需要肌肉参与。",
-        "options": [],
-        "answer": "错",
-        "explanation": "人体的运动需要骨、关节和肌肉的协同配合。"
+        "score": 2,
+        "type": "true_false",
+        "id": 2
       },
       {
-        "id": 3,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 1,
+        "explanation": "经常进行适量锻炼，有助于增强心脏功能；锻炼应循序渐进。",
         "knowledge_point": "血液循环系统的功能与计算",
+        "options": [],
         "question": "经常锻炼身体可以增强心脏的功能。",
-        "options": [],
-        "answer": "对",
-        "explanation": "强健的心脏每次搏动泵出的血液更多，有利于身体健康。"
+        "score": 2,
+        "type": "true_false",
+        "id": 3
       },
       {
-        "id": 4,
-        "type": "true_false",
-        "score": 2,
+        "answer": "对",
         "difficulty": 2,
+        "explanation": "长期精神压力可能影响情绪和身体状态。合理休息、运动、倾诉等有助于调节压力；遇到持续困扰时，可以向家长或老师求助。",
         "knowledge_point": "神经系统的信息传递与脑的保护",
-        "question": "长期的精神压力不仅会影响情绪，还会伤害身体健康。",
         "options": [],
-        "answer": "对",
-        "explanation": "压力管理是维护神经系统和心理健康的重要环节。"
-      },
-      {
-        "id": 5,
-        "type": "true_false",
+        "question": "长期的精神压力不仅会影响情绪，还可能影响身体健康。",
         "score": 2,
-        "difficulty": 1,
-        "knowledge_point": "体质监测与BMI计算",
-        "question": "BMI指数只与体重有关，与身高无关。",
-        "options": [],
-        "answer": "错",
-        "explanation": "BMI的计算公式是重量(kg)除以身高(m)的平方。"
+        "type": "true_false",
+        "id": 4
       },
       {
-        "id": 6,
-        "type": "choice",
-        "score": 5,
+        "answer": "错",
         "difficulty": 1,
+        "explanation": "BMI的计算需要体重和身高，公式是体重（千克）除以身高（米）的平方。",
+        "knowledge_point": "体质监测与BMI计算",
+        "options": [],
+        "question": "BMI指数只与体重有关，与身高无关。",
+        "score": 2,
+        "type": "true_false",
+        "id": 5
+      },
+      {
+        "answer": "肌肉舒张",
+        "difficulty": 1,
+        "explanation": "伸肘时，肱二头肌舒张、肱三头肌收缩，两者配合使前臂伸直。",
         "knowledge_point": "运动系统的协作机制",
-        "question": "在手臂伸直的过程中，上臂肌肉的状态是？",
         "options": [
           "肌肉收缩",
           "肌肉舒张",
           "肌肉消失",
           "没有变化"
         ],
-        "answer": "肌肉舒张",
-        "explanation": "伸肘时，肱二头肌处于舒张状态。"
+        "question": "在手臂伸直的过程中，肱二头肌的状态是？",
+        "score": 5,
+        "type": "choice",
+        "id": 6
       },
       {
-        "id": 7,
-        "type": "choice",
-        "score": 5,
+        "answer": "心脏",
         "difficulty": 1,
+        "explanation": "心脏像泵一样推动血液流动；血液在循环过程中负责把氧气和养料输送到身体各处。",
         "knowledge_point": "血液循环系统的功能与计算",
-        "question": "人体负责搬运氧气和养料的器官是？",
         "options": [
           "脑",
           "心脏",
           "肺",
           "骨骼"
         ],
-        "answer": "心脏",
-        "explanation": "心脏泵出的血液在全身流动，负责物质的输送。"
+        "question": "人体中像“泵”一样推动血液循环的器官是？",
+        "score": 5,
+        "type": "choice",
+        "id": 7
       },
       {
-        "id": 8,
-        "type": "choice",
-        "score": 5,
+        "answer": "感受器→传入神经→神经中枢→传出神经→效应器",
         "difficulty": 2,
+        "explanation": "感受器接收刺激，信息经传入神经到达神经中枢，再经传出神经传到效应器，引起缩手反应。",
         "knowledge_point": "神经系统的信息传递与脑的保护",
-        "question": "当手碰到火迅速缩回，这个信号传递的关键路径是？",
         "options": [
           "感受器→传入神经→神经中枢→传出神经→效应器",
           "感受器→传出神经→神经中枢→传入神经→效应器",
           "效应器→传入神经→神经中枢→传出神经→感受器",
           "感受器→大脑→效应器"
         ],
-        "answer": "感受器→传入神经→神经中枢→传出神经→效应器",
-        "explanation": "反射弧的路径是刺激经感受器传入，中枢处理后再传出指令。"
+        "question": "当手碰到火迅速缩回时，反射信息传递的基本路径是？",
+        "score": 5,
+        "type": "choice",
+        "id": 8
       },
       {
-        "id": 9,
-        "type": "choice",
-        "score": 5,
+        "answer": "长时间连续学习不休息",
         "difficulty": 1,
+        "explanation": "脑需要适当休息。长时间连续学习容易疲劳，学习和活动应注意劳逸结合。",
         "knowledge_point": "神经系统的信息传递与脑的保护",
-        "question": "为了保护脑的健康，下列做法错误的是？",
         "options": [
           "保证充足的睡眠",
           "骑行时佩戴头盔",
           "长时间连续学习不休息",
           "保持心情愉快"
         ],
-        "answer": "长时间连续学习不休息",
-        "explanation": "脑需要适当的休息和劳逸结合来维持正常功能。"
+        "question": "为了保护脑的健康，下列做法不恰当的是？",
+        "score": 5,
+        "type": "choice",
+        "id": 9
       },
       {
-        "id": 10,
-        "type": "choice",
-        "score": 5,
+        "answer": "它们通常是一致的",
         "difficulty": 2,
+        "explanation": "每次心脏跳动通常会引起动脉产生一次搏动，因此心率和脉搏每分钟的次数通常一致。",
         "knowledge_point": "血液循环系统的功能与计算",
-        "question": "心脏跳动次数与脉搏次数的关系是？",
         "options": [
           "它们通常是一致的",
           "脉搏次数更多",
           "心脏跳动次数更多",
           "两者没有关系"
         ],
-        "answer": "它们通常是一致的",
-        "explanation": "每一轮心脏收缩引起的大血管搏动即为脉搏。"
+        "question": "心脏跳动次数与脉搏次数的关系通常是？",
+        "score": 5,
+        "type": "choice",
+        "id": 10
       },
       {
-        "id": 11,
-        "type": "choice",
-        "score": 5,
+        "answer": "骨骼",
         "difficulty": 1,
+        "explanation": "骨骼支撑身体，并能保护脑、心脏等重要器官。",
         "knowledge_point": "运动系统的协作机制",
-        "question": "支撑我们身体，保护内脏器官的构造是？",
         "options": [
           "皮肤",
           "骨骼",
           "血管",
           "神经"
         ],
-        "answer": "骨骼",
-        "explanation": "骨骼具有支撑、保护和运动的作用。"
+        "question": "支撑我们身体、保护内脏器官的构造是？",
+        "score": 5,
+        "type": "choice",
+        "id": 11
       },
       {
-        "id": 12,
-        "type": "choice",
-        "score": 5,
+        "answer": "20",
         "difficulty": 3,
+        "explanation": "BMI = 45 ÷ (1.5 × 1.5) = 45 ÷ 2.25 = 20。",
         "knowledge_point": "体质监测与BMI计算",
-        "question": "某同学身高1.5米，体重45千克，他的BMI数值大约是？",
         "options": [
           "15",
           "20",
           "25",
           "30"
         ],
-        "answer": "20",
-        "explanation": "45除以(1.5x1.5)=45/2.25=20。"
+        "question": "某同学身高1.5米，体重45千克，他的BMI数值大约是？",
+        "score": 5,
+        "type": "choice",
+        "id": 12
       },
       {
-        "id": 13,
-        "type": "choice",
-        "score": 5,
+        "answer": "大脑",
         "difficulty": 2,
+        "explanation": "大脑参与思维、记忆和情绪等高级活动。",
         "knowledge_point": "神经系统的信息传递与脑的保护",
-        "question": "管理人的情绪和智力活动的器官主要位于？",
         "options": [
           "小脑",
           "脊髓",
           "大脑",
           "脑干"
         ],
-        "answer": "大脑",
-        "explanation": "大脑是高级神经活动的枢纽，负责思维、情绪等。"
+        "question": "思维、记忆和情绪等活动主要与脑的哪一部分有关？",
+        "score": 5,
+        "type": "choice",
+        "id": 13
       },
       {
-        "id": 14,
-        "type": "choice",
-        "score": 5,
+        "answer": "以上都是",
         "difficulty": 2,
+        "explanation": "体质监测是综合评价，除了身高和体重，还可以关注肺活量、握力和跑步成绩等指标。",
         "knowledge_point": "体质监测与BMI计算",
-        "question": "评价身体体质健康状况时，除了身高体重，还要看？",
         "options": [
           "肺活量",
           "握力",
           "50米跑成绩",
           "以上都是"
         ],
-        "answer": "以上都是",
-        "explanation": "体质健康监测是综合性的评价。"
+        "question": "评价身体体质健康状况时，除了身高体重，还要看？",
+        "score": 5,
+        "type": "choice",
+        "id": 14
       },
       {
-        "id": 15,
-        "type": "choice",
-        "score": 5,
+        "answer": "神经",
         "difficulty": 1,
+        "explanation": "神经连接神经中枢与身体各部分，能够传递信息。",
         "knowledge_point": "神经系统的信息传递与脑的保护",
-        "question": "联结脑、脊髓和身体各部分的结构是？",
         "options": [
           "血液",
           "神经",
           "骨骼",
           "肌肉"
         ],
-        "answer": "神经",
-        "explanation": "神经遍布全身，传递信息。"
+        "question": "在人体内，能够传递信息、连接神经中枢和身体各部分的结构是？",
+        "score": 5,
+        "type": "choice",
+        "id": 15
       },
       {
-        "id": 16,
-        "type": "choice",
-        "score": 5,
+        "answer": "运动时心率会加快",
         "difficulty": 2,
+        "explanation": "运动时身体需要更多氧气和养料，心脏通常会加快跳动，增加血液供应。",
         "knowledge_point": "血液循环系统的功能与计算",
-        "question": "关于心率，下列说法正确的是？",
         "options": [
           "所有人安静时的心率都一样",
           "运动后心率会减慢",
           "运动时心率会加快",
           "睡觉时心率最快"
         ],
-        "answer": "运动时心率会加快",
-        "explanation": "运动需要更多氧气，心脏会加速跳动以提高供血量。"
+        "question": "关于心率，下列说法正确的是？",
+        "score": 5,
+        "type": "choice",
+        "id": 16
       },
       {
-        "id": 17,
-        "type": "choice",
-        "score": 5,
+        "answer": "关节",
         "difficulty": 2,
+        "explanation": "关节是骨与骨之间能够活动的连接，帮助身体完成屈伸等动作。",
         "knowledge_point": "运动系统的协作机制",
-        "question": "骨与骨之间能活动的连接称为？",
         "options": [
           "肌肉",
           "关节",
           "韧带",
           "皮肤"
         ],
-        "answer": "关节",
-        "explanation": "关节是运动的支点。"
+        "question": "骨与骨之间能够活动的连接称为？",
+        "score": 5,
+        "type": "choice",
+        "id": 17
       },
       {
-        "id": 18,
-        "type": "choice",
-        "score": 5,
+        "answer": "脑",
         "difficulty": 1,
+        "explanation": "眼睛接收红灯的信息，神经把信息传到脑，由脑作出判断并发出停止的指令。",
         "knowledge_point": "神经网络信息传递",
-        "question": "当我们看到红灯停下脚步，这一信号是由哪个器官处理的？",
         "options": [
           "眼睛",
           "脊髓",
           "脑",
           "肌肉"
         ],
-        "answer": "脑",
-        "explanation": "视觉信号传输到大脑，由大脑发出停止指令。"
+        "question": "当我们看到红灯停下脚步，这一信号是由哪个器官处理的？",
+        "score": 5,
+        "type": "choice",
+        "id": 18
       },
       {
-        "id": 19,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 3,
-        "knowledge_point": "血液循环系统的功能与计算",
-        "question": "若心脏每分钟跳动75次，每搏输出量为80毫升，则该人每分钟输出量为（___）毫升。",
-        "options": [],
         "answer": "6000",
-        "explanation": "75乘以80等于6000。"
-      },
-      {
-        "id": 20,
-        "type": "fill_blank",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "神经系统的信息传递与脑的保护",
-        "question": "成年人的脑重量大约为（___）克左右。",
-        "options": [],
-        "answer": "1400",
-        "explanation": "成年人的脑质量平均约为1.4千克即1400克。"
-      },
-      {
-        "id": 21,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 1,
-        "knowledge_point": "运动系统的协作机制",
-        "question": "骨骼、关节和（___）组成了人体的运动系统。",
-        "options": [],
-        "answer": "肌肉",
-        "explanation": "运动系统三大组成部分：骨、关节、肌肉。"
-      },
-      {
-        "id": 22,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
+        "difficulty": 3,
+        "explanation": "每分钟输出量＝每分钟心跳次数×每搏输出量。75×80＝6000，因此每分钟输出量为6000毫升。",
         "knowledge_point": "血液循环系统的功能与计算",
-        "question": "人体内唯一一个像“泵”一样工作的器官是（___）。",
         "options": [],
-        "answer": "心脏",
-        "explanation": "心脏通过收缩和舒张推动血液循环。"
+        "question": "若心脏每分钟跳动75次，每搏输出量为80毫升，则该人每分钟输出量为（___）毫升。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 19
       },
       {
-        "id": 23,
-        "type": "fill_blank_text",
-        "score": 5,
-        "difficulty": 2,
+        "answer": "1400",
+        "difficulty": 1,
+        "explanation": "成年人的脑质量平均约为1.4千克，换算成克约为1400克。不同人的脑质量会有差异。",
         "knowledge_point": "神经系统的信息传递与脑的保护",
-        "question": "（___）被称为人体的“司令部”。",
         "options": [],
+        "question": "成年人的脑质量平均约为（___）克。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 20
+      },
+      {
+        "answer": "肌肉",
+        "difficulty": 1,
+        "explanation": "人体运动系统主要由骨、关节和肌肉组成，三者协同配合完成运动。",
+        "knowledge_point": "运动系统的协作机制",
+        "options": [],
+        "question": "骨骼、关节和（___）组成了人体的运动系统。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 21
+      },
+      {
+        "answer": "心脏",
+        "difficulty": 2,
+        "explanation": "心脏通过收缩和舒张推动血液在血管中流动。",
+        "knowledge_point": "血液循环系统的功能与计算",
+        "options": [],
+        "question": "人体内像“泵”一样推动血液循环的器官是（___）。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 22
+      },
+      {
         "answer": "脑",
-        "explanation": "脑控制着人体的各项生理活动。"
+        "difficulty": 1,
+        "explanation": "脑是人体重要的控制和信息处理中心，因此常被形象地称为人体的“司令部”。",
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "options": [],
+        "question": "（___）常被称为人体的“司令部”。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 23
+      },
+      {
+        "answer": "1.6",
+        "difficulty": 2,
+        "explanation": "身高160厘米 = 1.6米。计算BMI时，身高必须先换算成米。",
+        "knowledge_point": "体质监测与BMI计算",
+        "options": [],
+        "question": "身高160厘米换算成米是多少？",
+        "score": 3,
+        "type": "fill_blank",
+        "id": 24
+      },
+      {
+        "answer": "16",
+        "difficulty": 2,
+        "explanation": "BMI = 36 ÷ (1.5 × 1.5) = 36 ÷ 2.25 = 16。",
+        "knowledge_point": "体质监测与BMI计算",
+        "options": [],
+        "question": "一名同学身高1.5米，体重36千克。他的BMI是多少？",
+        "score": 4,
+        "type": "calculation",
+        "id": 25
+      },
+      {
+        "answer": "体重（千克）除以身高（米）的平方",
+        "difficulty": 1,
+        "explanation": "BMI的计算公式为体重（千克）÷[身高（米）×身高（米）]。",
+        "knowledge_point": "体质监测与BMI计算",
+        "options": [],
+        "question": "请用文字写出BMI的计算方法。",
+        "score": 3,
+        "type": "fill_blank_text",
+        "id": 26
+      },
+      {
+        "answer": "骨骼、关节和肌肉",
+        "difficulty": 2,
+        "explanation": "肌肉收缩时会牵拉骨骼，骨骼在关节处活动，因此三个部分需要配合才能完成运动。",
+        "knowledge_point": "运动系统的协作机制",
+        "options": [],
+        "question": "小明弯曲手臂拿起书本时，骨骼、关节和肌肉分别起什么作用？请填空：骨骼提供（___），关节使骨骼能够（___），肌肉收缩时牵拉骨骼。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 27
+      },
+      {
+        "answer": "神经",
+        "difficulty": 1,
+        "explanation": "感觉器官接收到的信息需要通过神经传到脑或脊髓，脑或脊髓发出的指令也通过神经传递。",
+        "knowledge_point": "神经网络信息传递",
+        "options": [],
+        "question": "人体中负责传递信息和指令的通道是________。",
+        "score": 5,
+        "type": "fill_blank",
+        "id": 28
+      },
+      {
+        "answer": "正确",
+        "difficulty": 1,
+        "explanation": "眼睛接收信息后，神经将信息传到脑；脑作出判断并发出指令，身体再作出反应。",
+        "knowledge_point": "神经网络信息传递",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "question": "看到危险后，信息可以通过神经传到脑，脑再发出指令让身体作出反应。",
+        "score": 5,
+        "type": "true_false",
+        "id": 29
+      },
+      {
+        "answer": "感觉器官；神经；脑（或脊髓）",
+        "difficulty": 2,
+        "explanation": "感觉器官先接收信息，神经负责传递信息，脑或脊髓负责处理信息并发出指令。",
+        "knowledge_point": "神经网络信息传递",
+        "options": [],
+        "question": "补全信息传递过程：外界刺激被________接收，通过________传到________处理。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 30
+      },
+      {
+        "answer": "眼睛接收信息，神经将信息传到脑；脑作出判断并发出指令，指令经神经传到腿部肌肉，使我们停下来。",
+        "difficulty": 2,
+        "explanation": "完整过程包括感觉器官接收信息、神经传递、脑作出判断并发出指令，以及身体作出反应。",
+        "knowledge_point": "神经网络信息传递",
+        "options": [],
+        "question": "小明看到红灯后停下脚步。请按先后顺序描述信息从接收到身体反应的大致过程。",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 31
+      },
+      {
+        "answer": "神经把信息从感觉器官传到脑或脊髓，也把脑或脊髓发出的指令传到身体相应部位。",
+        "difficulty": 2,
+        "explanation": "神经既能传递感觉信息，也能传递脑或脊髓发出的行动指令，是人体信息传递的重要通道。",
+        "knowledge_point": "神经网络信息传递",
+        "options": [],
+        "question": "神经在人体信息传递过程中有什么作用？",
+        "score": 5,
+        "type": "fill_blank_text",
+        "id": 32
       }
     ]
   },
@@ -692,6 +794,64 @@
         "忽视睡眠对脑功能的修复作用"
       ],
       "tips": "保持乐观、充足睡眠和有效的体育锻炼是保护大脑的三大法宝。"
+    },
+    {
+      "common_mistakes": [
+        "把身高直接代入公式，而不是先换算成米。",
+        "忘记将身高平方，误用体重除以身高。",
+        "只根据BMI判断体质健康；BMI只是参考指标，不能代替全面的体质监测。",
+        "把BMI数值当作健康诊断结论。"
+      ],
+      "core_concept": "体质监测通过多项指标了解身体状况，例如身高、体重、肺活量、握力和跑步成绩等。BMI（身体质量指数）是体重与身高相关的参考指标，可用于了解体重与身高是否相称，但不能单独判断一个人的健康状况。",
+      "key_formula": "BMI = 体重（千克）÷ [身高（米）×身高（米）]",
+      "point": "体质监测与BMI计算",
+      "tips": "计算前先检查单位：若身高以厘米表示，应除以100换算成米。例如，身高150厘米、体重45千克，BMI = 45 ÷ (1.5 × 1.5) = 20。体质监测还会参考肺活量、力量和跑步等多项表现。"
+    },
+    {
+      "common_mistakes": [
+        "认为骨骼可以单独使身体运动。",
+        "把关节和肌肉的作用混淆。",
+        "认为肌肉能主动推拉骨骼；实际上肌肉收缩时牵拉骨骼。",
+        "手臂屈伸时，只注意一块肌肉，忽略相关肌肉的协同配合。"
+      ],
+      "core_concept": "人体运动系统主要由骨、关节和肌肉组成。骨骼支撑身体并保护内脏；关节连接骨与骨，使身体能够活动；肌肉收缩并牵拉骨骼，使身体产生运动。骨骼、关节和肌肉需要协同工作，才能完成动作。",
+      "key_formula": "人体运动 = 骨骼提供支撑 + 关节作为活动连接 + 肌肉收缩牵拉骨骼",
+      "point": "运动系统的协作机制",
+      "tips": "观察手臂屈伸时，可以把骨看作被牵动的部分，把关节看作活动连接处，把肌肉看作提供牵拉的部分。手臂屈伸通常需要相关肌肉配合：屈肘时肱二头肌收缩、肱三头肌舒张；伸肘时肱三头肌收缩、肱二头肌舒张。"
+    },
+    {
+      "common_mistakes": [
+        "把心脏误认为负责直接搬运氧气和养料的器官；心脏负责推动血液，血液负责运输。",
+        "把心率和脉搏说成完全相同的概念；它们含义不同，但通常每分钟次数一致。",
+        "计算每分钟输出量时，忘记将每分钟心跳次数乘以每搏输出量。"
+      ],
+      "core_concept": "心脏像泵一样推动血液在血管中循环。血液把氧气和养料输送到身体各处，并带走部分代谢废物。心率是每分钟心脏跳动的次数；脉搏是动脉随心跳产生的搏动，通常每分钟次数与心率一致。运动时身体需要更多氧气和养料，心率通常会加快。",
+      "key_formula": "每分钟心输出量＝每分钟心跳次数（心率）×每搏输出量。",
+      "point": "血液循环系统的功能与计算",
+      "tips": "计算时先确认单位：心率用“次/分钟”，每搏输出量用“毫升/次”，相乘后得到“毫升/分钟”。例如，心率为75次/分钟、每搏输出量为80毫升/次，则每分钟输出量为75×80＝6000毫升/分钟。"
+    },
+    {
+      "common_mistakes": [
+        "把反射时的信息传递顺序弄反：感受器接收刺激后，信息经传入神经到达神经中枢，再由传出神经传到效应器。",
+        "认为所有反射都必须先由大脑作出决定；有些简单反射可由脊髓等神经中枢参与完成。",
+        "把大脑、小脑和脑干的作用混淆：大脑主要负责思维、记忆等活动，小脑主要协调运动、维持身体平衡，脑干与呼吸、心跳等重要生命活动有关。",
+        "认为保护脑只需要避免头部受伤；充足睡眠、适当休息和调节情绪也很重要。"
+      ],
+      "core_concept": "神经系统负责接收、传递和处理信息，并协调身体活动。脑、脊髓和遍布全身的神经共同参与信息传递；脑是人体重要的控制中心。保护脑既要防止头部受到伤害，也要保持良好的作息和情绪状态。",
+      "key_formula": "反射信息传递的基本路径：感受器→传入神经→神经中枢→传出神经→效应器。",
+      "point": "神经系统的信息传递与脑的保护",
+      "tips": "可以用“感受—传入—处理—传出—反应”记忆反射路径。日常生活中要保证充足睡眠，学习时适当休息，保持心情愉快；骑行、运动时做好防护，避免头部受伤。"
+    },
+    {
+      "common_mistakes": [
+        "把眼睛、耳朵等感觉器官当作负责思考和判断的器官。",
+        "认为信息只由大脑传出，而忽略感觉神经和运动神经的作用。",
+        "混淆传递信息的神经与作出判断、发出指令的脑。"
+      ],
+      "core_concept": "人体会通过感觉器官接收外界信息，神经把信息传到脑或脊髓；脑或脊髓作出判断后，再通过神经把指令传给相应的器官或肌肉，使身体作出反应。",
+      "key_formula": "外界刺激 → 感觉器官接收信息 → 神经传递信息 → 脑或脊髓作出判断并发出指令 → 神经传递指令 → 身体作出反应",
+      "point": "神经网络信息传递",
+      "tips": "可以用“看见红灯并停下”来理解：眼睛接收红灯的信息，神经把信息传给脑，脑作出判断后发出指令，指令再经神经传到腿部肌肉，帮助我们停下脚步。"
     }
   ]
 }
