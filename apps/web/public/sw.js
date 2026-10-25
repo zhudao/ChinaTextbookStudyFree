@@ -11,8 +11,8 @@
  */
 
 const VERSION = "v3";
-const SHELL_CACHE = `ctsf-shell-${VERSION}-content-restored-v1.4.3`;
-const DATA_CACHE = `ctsf-data-${VERSION}-content-restored-v1.4.3`;
+const SHELL_CACHE = `ctsf-shell-${VERSION}-five-textbooks-v1.5.0`;
+const DATA_CACHE = `ctsf-data-${VERSION}-five-textbooks-v1.5.0`;
 const STATIC_CACHE = `ctsf-static-${VERSION}`;
 
 const SHELL_PRECACHE = [

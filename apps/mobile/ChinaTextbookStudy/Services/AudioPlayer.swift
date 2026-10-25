@@ -190,10 +190,11 @@ final class AudioPlayer: NSObject, ObservableObject {
         // Drop optional leading slash, swap .opus → .m4a, drop "audio/" prefix
         // because we rebase against `sandboxAudioRoot` which already points at
         // `Application Support/cstf/audio/`.
-        var rel = path
+        var rel = String(path.split(separator: "?", maxSplits: 1).first ?? "")
         if rel.hasPrefix("/") { rel.removeFirst() }
         if rel.hasPrefix("audio/") { rel.removeFirst("audio/".count) }
-        if rel.hasSuffix(".opus") { rel = String(rel.dropLast(".opus".count)) + ".m4a" }
+        if rel.hasSuffix(".opus") { rel = String(rel.dropLast(5)) + ".m4a" }
+        else if rel.hasSuffix(".mp3") { rel = String(rel.dropLast(4)) + ".m4a" }
         let url = DataLoader.shared.sandboxAudioRoot.appendingPathComponent(rel)
         return FileManager.default.fileExists(atPath: url.path) ? url : nil
     }

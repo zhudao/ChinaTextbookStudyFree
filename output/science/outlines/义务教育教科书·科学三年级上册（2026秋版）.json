@@ -1,0 +1,242 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书·科学三年级上册（2026秋版）",
+  "edition": "2026",
+  "editionLabel": "2026秋版",
+  "supersedes": "science-g3up",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "天气",
+      "knowledge_points": [
+        {
+          "name": "我们关心天气",
+          "description": "结合新版教材学习我们关心天气",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识气温计",
+          "description": "结合新版教材学习认识气温计",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "测量气温",
+          "description": "结合新版教材学习测量气温",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "测量降水量",
+          "description": "结合新版教材学习测量降水量",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "观测风",
+          "description": "结合新版教材学习观测风",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "观察云",
+          "description": "结合新版教材学习观察云",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "天气预报",
+          "description": "结合新版教材学习天气预报",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "天气的影响",
+          "description": "结合新版教材学习天气的影响",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "水",
+      "knowledge_points": [
+        {
+          "name": "水到哪里去了",
+          "description": "结合新版教材学习水到哪里去了",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "水珠从哪里来",
+          "description": "结合新版教材学习水珠从哪里来",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "水沸腾了",
+          "description": "结合新版教材学习水沸腾了",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "水结冰了",
+          "description": "结合新版教材学习水结冰了",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "冰熔化了",
+          "description": "结合新版教材学习冰熔化了",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "水能溶解多少物质",
+          "description": "结合新版教材学习水能溶解多少物质",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "加快溶解",
+          "description": "结合新版教材学习加快溶解",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用水分离",
+          "description": "结合新版教材学习用水分离",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "物体的运动",
+      "knowledge_points": [
+        {
+          "name": "运动和位置",
+          "description": "结合新版教材学习运动和位置",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "各种各样的运动",
+          "description": "结合新版教材学习各种各样的运动",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "直线运动和曲线运动",
+          "description": "结合新版教材学习直线运动和曲线运动",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "相同距离比快慢",
+          "description": "结合新版教材学习相同距离比快慢",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "相同时间比快慢",
+          "description": "结合新版教材学习相同时间比快慢",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "运动和能量",
+          "description": "结合新版教材学习运动和能量",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "设计和制作“过山车”",
+          "description": "结合新版教材学习设计和制作“过山车”",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "测试“过山车”",
+          "description": "结合新版教材学习测试“过山车”",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书•英语 三年级上册（2026秋版）",
+  "unit": "The colourful world",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "The colourful world·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "green",
+        "difficulty": 1,
+        "explanation": "题干说明草是绿色的，green表示绿色。",
+        "knowledge_point": "描述颜色与调色",
+        "options": [
+          "black",
+          "green",
+          "red",
+          "white"
+        ],
+        "question": "这片草是绿色的。补全句子：The grass is ____.",
+        "type": "choice",
+        "id": 50001,
+        "score": 10
+      },
+      {
+        "answer": "orange",
+        "difficulty": 1,
+        "explanation": "orange可以表示橙色；duck、bear和flower分别表示鸭子、熊和花，不是颜色词。",
+        "knowledge_point": "描述颜色与调色",
+        "options": [
+          "duck",
+          "flower",
+          "bear",
+          "orange"
+        ],
+        "question": "下面哪个词可以表示一种颜色？",
+        "type": "choice",
+        "id": 50002,
+        "score": 10
+      },
+      {
+        "answer": "It's purple.",
+        "difficulty": 1,
+        "explanation": "purple表示紫色；回答“What colour is it?”可以用“It's purple.”。",
+        "knowledge_point": "描述颜色与调色",
+        "options": [
+          "It's orange.",
+          "It's green.",
+          "It's white.",
+          "It's purple."
+        ],
+        "question": "一朵花是紫色的。有人指着它问“What colour is it?”，应怎样回答？",
+        "type": "choice",
+        "id": 50003,
+        "score": 10
+      },
+      {
+        "answer": "green",
+        "difficulty": 1,
+        "explanation": "按题干给出的规则，蓝色与黄色颜料调成绿色，green表示绿色。",
+        "knowledge_point": "描述颜色与调色",
+        "options": [
+          "pink",
+          "purple",
+          "black",
+          "green"
+        ],
+        "question": "按本单元的颜料调色规则，蓝色与黄色调成绿色。补全句子：Blue and yellow make ____.",
+        "type": "choice",
+        "id": 50004,
+        "score": 10
+      },
+      {
+        "answer": "brown",
+        "difficulty": 1,
+        "explanation": "在“a brown bear”中，brown表示棕色，描述熊的颜色；bear表示熊。",
+        "knowledge_point": "描述颜色与调色",
+        "options": [
+          "flower",
+          "grass",
+          "brown",
+          "bear"
+        ],
+        "question": "在短语“a brown bear”中，哪个词描述颜色？",
+        "type": "choice",
+        "id": 50005,
+        "score": 10
+      },
+      {
+        "answer": "yellow",
+        "difficulty": 2,
+        "explanation": "题干规定红色加黄色颜料调成橙色，因此应向红色颜料中加入黄色颜料。",
+        "knowledge_point": "描述颜色与调色",
+        "options": [
+          "purple",
+          "brown",
+          "green",
+          "yellow"
+        ],
+        "question": "已知本单元的颜料调色规则为：red + yellow → orange。已有红色颜料，要按这条规则调出橙色，还应加入哪种颜色？",
+        "type": "choice",
+        "id": 50006,
+        "score": 10
+      },
+      {
+        "answer": "I like blue.",
+        "difficulty": 1,
+        "explanation": "“I like blue.”词序正确，表示“我喜欢蓝色”。",
+        "knowledge_point": "表达颜色喜好与用途",
+        "options": [
+          "I blue like.",
+          "I like blue.",
+          "I am blue like.",
+          "Like I blue."
+        ],
+        "question": "选择能正确回答“What colour do you like?”的句子。",
+        "type": "choice",
+        "id": 50007,
+        "score": 10
+      },
+      {
+        "answer": "red and pink",
+        "difficulty": 1,
+        "explanation": "绘画安排明确说要画red and pink flowers，即红色和粉色的花。",
+        "knowledge_point": "表达颜色喜好与用途",
+        "options": [
+          "blue and white",
+          "green and yellow",
+          "red and pink",
+          "black and brown"
+        ],
+        "question": "Read: “Let's draw some red and pink flowers.” 根据这项绘画安排，应给花使用哪两种颜色？",
+        "type": "choice",
+        "id": 50008,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“I like red and pink.”语法正确，表示“我喜欢红色和粉色”。",
+        "knowledge_point": "表达颜色喜好与用途",
+        "options": [],
+        "question": "判断：“I like red and pink.”可以表达对颜色的喜好。",
+        "type": "true_false",
+        "id": 50009,
+        "score": 10
+      },
+      {
+        "answer": "Birds are brown.",
+        "difficulty": 2,
+        "explanation": "Birds是复数主语，应使用are；brown放在are后描述颜色。",
+        "knowledge_point": "表达颜色喜好与用途",
+        "options": [
+          "Birds brown are.",
+          "Birds is brown.",
+          "Bird are brown.",
+          "Birds are brown."
+        ],
+        "question": "选择语法正确、表示“鸟是棕色的”的句子。",
+        "type": "choice",
+        "id": 50010,
+        "score": 10
+      },
+      {
+        "answer": "What colours do you like?",
+        "difficulty": 2,
+        "explanation": "回答用“I like...”表达喜欢的颜色，因此应询问“What colours do you like?”。",
+        "knowledge_point": "表达颜色喜好与用途",
+        "options": [
+          "What colours do you like?",
+          "How are you?",
+          "What is your name?",
+          "What colour is it?"
+        ],
+        "question": "选择最适合下面回答的问题： “I like green and yellow.”",
+        "type": "choice",
+        "id": 50011,
+        "score": 10
+      },
+      {
+        "answer": "坐下",
+        "difficulty": 1,
+        "explanation": "指令中的sit down表示“坐下”。",
+        "knowledge_point": "表达颜色喜好与用途",
+        "options": [
+          "转身",
+          "坐下",
+          "上下跳",
+          "触摸地面"
+        ],
+        "question": "颜色游戏中的指令是“Black, black, sit down.”，听到这条指令应做什么？",
+        "type": "choice",
+        "id": 50012,
+        "score": 10
+      },
+      {
+        "answer": "Qq",
+        "difficulty": 1,
+        "explanation": "大写Q对应的小写字母是q，因此正确的大小写组合是Qq。",
+        "knowledge_point": "字母Qq—Uu的音形与发音",
+        "options": [
+          "Rr",
+          "Qq",
+          "Ss",
+          "Tt"
+        ],
+        "question": "哪一项是字母Q的正确大小写组合？",
+        "type": "choice",
+        "id": 50013,
+        "score": 10
+      },
+      {
+        "answer": "red",
+        "difficulty": 1,
+        "explanation": "red以r开头；see、tap和up分别以s、t和u开头。",
+        "knowledge_point": "字母Qq—Uu的音形与发音",
+        "options": [
+          "see",
+          "tap",
+          "up",
+          "red"
+        ],
+        "question": "哪个单词以字母Rr开头？",
+        "type": "choice",
+        "id": 50014,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "quiet的第一个字母是小写q，它对应的大写字母是Q。",
+        "knowledge_point": "字母Qq—Uu的音形与发音",
+        "options": [],
+        "question": "判断：quiet的首字母是q，对应的大写字母是Q。",
+        "type": "true_false",
+        "id": 50015,
+        "score": 10
+      },
+      {
+        "answer": "tub",
+        "difficulty": 2,
+        "explanation": "tap和tub开头的t都发/t/；quiet、run和sit的开头发音与之不同。",
+        "knowledge_point": "字母Qq—Uu的音形与发音",
+        "options": [
+          "quiet",
+          "tub",
+          "sit",
+          "run"
+        ],
+        "question": "tap开头的t发/t/。下面哪个单词的开头也发/t/？",
+        "type": "choice",
+        "id": 50016,
+        "score": 10
+      },
+      {
+        "answer": "up",
+        "difficulty": 1,
+        "explanation": "up以u开头，u对应的大写字母是U。",
+        "knowledge_point": "字母Qq—Uu的音形与发音",
+        "options": [
+          "see",
+          "up",
+          "bus",
+          "red"
+        ],
+        "question": "哪个单词以字母Uu开头？",
+        "type": "choice",
+        "id": 50017,
+        "score": 10
+      },
+      {
+        "answer": "sit",
+        "difficulty": 2,
+        "explanation": "see与sit开头的s都发/s/；其他选项的开头发音不同。",
+        "knowledge_point": "字母Qq—Uu的音形与发音",
+        "options": [
+          "red",
+          "up",
+          "sit",
+          "tap"
+        ],
+        "question": "see开头的s发/s/。下面哪个单词的开头也发/s/？",
+        "type": "choice",
+        "id": 50018,
+        "score": 10
+      },
+      {
+        "answer": "green",
+        "difficulty": 1,
+        "explanation": "短文中的“I am tall and green.”说明向日葵此时是绿色的。",
+        "knowledge_point": "颜色变化与阅读理解",
+        "options": [
+          "pink",
+          "brown",
+          "green",
+          "yellow"
+        ],
+        "question": "Read: “I am a sunflower. I am tall and green.” 这株向日葵此时是什么颜色？",
+        "type": "choice",
+        "id": 50019,
+        "score": 10
+      },
+      {
+        "answer": "yellow and black",
+        "difficulty": 1,
+        "explanation": "They指前句中的Bees，短文明确说蜜蜂是黄色和黑色的。",
+        "knowledge_point": "颜色变化与阅读理解",
+        "options": [
+          "red and white",
+          "blue and purple",
+          "yellow and black",
+          "green and brown"
+        ],
+        "question": "Read: “Bees come. They are yellow and black.” 蜜蜂是什么颜色的？",
+        "type": "choice",
+        "id": 50020,
+        "score": 10
+      },
+      {
+        "answer": "green and brown",
+        "difficulty": 1,
+        "explanation": "短文说明天气冷时，这株向日葵是绿色和棕色的。",
+        "knowledge_point": "颜色变化与阅读理解",
+        "options": [
+          "green and brown",
+          "pink and white",
+          "green and yellow",
+          "yellow and black"
+        ],
+        "question": "Read: “I am a sunflower. Now it is cold. I am green and brown.” 天气冷时，这株向日葵是什么颜色的？",
+        "type": "choice",
+        "id": 50021,
+        "score": 10
+      },
+      {
+        "answer": "yellow",
+        "difficulty": 1,
+        "explanation": "“a big yellow flower”表示“一朵大黄花”，其中yellow说明花的颜色。",
+        "knowledge_point": "颜色变化与阅读理解",
+        "options": [
+          "purple",
+          "yellow",
+          "black",
+          "white"
+        ],
+        "question": "Read: “I am a sunflower. Now I am a big yellow flower.” 花是什么颜色的？",
+        "type": "choice",
+        "id": 50022,
+        "score": 10
+      },
+      {
+        "answer": "blue",
+        "difficulty": 2,
+        "explanation": "给定文本中，blue对应“Use again!”，意思是“再次使用！”。",
+        "knowledge_point": "颜色变化与阅读理解",
+        "options": [
+          "blue",
+          "yellow",
+          "red",
+          "green"
+        ],
+        "question": "Read: Red says “No!” Green says “Go!” Blue says “Use again!” Yellow says “Be careful!” 根据这段文字，哪种颜色表示“再次使用”？",
+        "type": "choice",
+        "id": 50023,
+        "score": 10
+      },
+      {
+        "answer": "向日葵的孩子们",
+        "difficulty": 2,
+        "explanation": "说话者是向日葵，my children指向日葵的孩子们；结尾说明它们继续生长。",
+        "knowledge_point": "颜色变化与阅读理解",
+        "options": [
+          "鸟",
+          "熊",
+          "蜜蜂",
+          "向日葵的孩子们"
+        ],
+        "question": "一株向日葵说：“I am gone. But my children grow.” 这里grow表示“生长”。向日葵不在后，谁继续生长？",
+        "type": "choice",
+        "id": 50024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "The colourful world·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "purple",
+        "difficulty": 2,
+        "explanation": "题干规定红色与蓝色颜料调成紫色，因此缺少的颜色词是purple。",
+        "knowledge_point": "描述颜色与调色",
+        "options": [
+          "green",
+          "brown",
+          "purple",
+          "orange"
+        ],
+        "question": "按本单元的颜料调色规则，红色与蓝色调成紫色。补全句子：Red and blue make ____.",
+        "type": "choice",
+        "id": 59001,
+        "score": 10
+      },
+      {
+        "answer": "green and yellow",
+        "difficulty": 1,
+        "explanation": "说话者用“I like green and yellow.”表示喜欢绿色和黄色。",
+        "knowledge_point": "表达颜色喜好与用途",
+        "options": [
+          "purple and brown",
+          "red and pink",
+          "black and white",
+          "green and yellow"
+        ],
+        "question": "Read: “What colours do you like?” “I like green and yellow.” 说话者喜欢哪些颜色？",
+        "type": "choice",
+        "id": 59002,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "Q的字母名称读音与quiet中qu的发音不同；quiet开头的qu通常发/kw/。",
+        "knowledge_point": "字母Qq—Uu的音形与发音",
+        "options": [],
+        "question": "判断：字母Q的名称读音与quiet中开头qu的发音相同。",
+        "type": "true_false",
+        "id": 59003,
+        "score": 10
+      },
+      {
+        "answer": "green and yellow",
+        "difficulty": 2,
+        "explanation": "Then后面的句子说明，向日葵接下来是绿色和黄色的。",
+        "knowledge_point": "颜色变化与阅读理解",
+        "options": [
+          "red and blue",
+          "green and brown",
+          "green and yellow",
+          "yellow and black"
+        ],
+        "question": "Read: “I am a sunflower. I am tall and green. Then I am green and yellow.” 向日葵由最初的绿色变成了哪些颜色？",
+        "type": "choice",
+        "id": 59004,
+        "score": 10
+      },
+      {
+        "answer": "Bananas are yellow.",
+        "difficulty": 2,
+        "explanation": "Bananas是复数主语，应与are搭配；描述颜色时将yellow放在are后。",
+        "knowledge_point": "表达颜色喜好与用途",
+        "options": [
+          "Banana are yellow.",
+          "Bananas are yellow.",
+          "Bananas is yellow.",
+          "Bananas yellow are."
+        ],
+        "question": "选择语法正确、表示“香蕉是黄色的”的句子。",
+        "type": "choice",
+        "id": 59005,
+        "score": 10
+      },
+      {
+        "answer": "yellow",
+        "difficulty": 2,
+        "explanation": "给定文本中，yellow对应“Be careful!”，意思是“小心！”。",
+        "knowledge_point": "颜色变化与阅读理解",
+        "options": [
+          "green",
+          "yellow",
+          "red",
+          "blue"
+        ],
+        "question": "Read: Red says “No!” Green says “Go!” Blue says “Use again!” Yellow says “Be careful!” 根据这段文字，哪种颜色提醒人们小心？",
+        "type": "choice",
+        "id": 59006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把颜色词和物品名称混淆。",
+        "混淆brown、purple、orange等颜色词的意思。",
+        "把颜料调色规则与其他混色情境混为一谈。"
+      ],
+      "core_concept": "识记常见颜色词，用简单句描述颜色，并按本单元的颜料调色规则判断混合后的颜色。",
+      "key_formula": "What colour is it? — It's + 颜色。颜料调色：red + blue → purple；blue + yellow → green；red + yellow → orange。",
+      "point": "描述颜色与调色",
+      "tips": "先辨认颜色词，再看清题目中的两种颜料；调色规则不能不加区分地用于所有混色情境。"
+    },
+    {
+      "common_mistakes": [
+        "把“I like...”的词序写错。",
+        "混淆询问颜色与询问颜色喜好的句子。",
+        "描述复数物品时误用is。",
+        "没有根据颜色指令做对应动作。"
+      ],
+      "core_concept": "用“What colours do you like?”和“I like...”询问与表达颜色喜好，用简单句描述物品颜色，并理解颜色活动中的指令。",
+      "key_formula": "What colours do you like? — I like + 颜色。单数物品 + is + 颜色；复数物品 + are + 颜色。Black, black, sit down.",
+      "point": "表达颜色喜好与用途",
+      "tips": "表达喜欢用“I like...”；复数主语与are搭配；指令题要根据题干给出的动作作答。"
+    },
+    {
+      "common_mistakes": [
+        "把字母名称的读音和字母在单词中的发音混为一谈。",
+        "误认OCR中的字形，把Tt、Uu等读成其他字母。",
+        "只看字母而不结合单词，误以为同一字母在所有单词中都发同一个音。"
+      ],
+      "core_concept": "认识Qq、Rr、Ss、Tt、Uu的大小写字形，并结合本单元简单词语辨认字母及其发音。",
+      "key_formula": "大小写对应：Q—q、R—r、S—s、T—t、U—u。发音示例：quiet中的qu发/kw/；red中的r发/r/；see中的s发/s/；tap中的t发/t/；up中的u发/ʌ/。",
+      "point": "字母Qq—Uu的音形与发音",
+      "tips": "先辨认字形，再结合完整单词学习发音；不要把Q的名称读音当成quiet开头qu的发音。"
+    },
+    {
+      "common_mistakes": [
+        "不结合时间顺序理解向日葵的颜色变化。",
+        "把向日葵和蜜蜂的颜色混淆。",
+        "把某段文字中颜色的提示含义当成所有场合都适用的规则。"
+      ],
+      "core_concept": "根据提供的简短文本，理解向日葵的颜色变化、故事发展及颜色提示的含义。",
+      "key_formula": "阅读步骤：找主体 → 看顺序 → 找颜色或动作 → 对照选项。文本中的对应关系：red—No；green—Go；blue—Use again；yellow—Be careful。",
+      "point": "颜色变化与阅读理解",
+      "tips": "先确认是谁的颜色，再看Then、Now等词；颜色提示的含义以当前文本为准。"
+    }
+  ]
+}

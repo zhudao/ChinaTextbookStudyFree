@@ -11,6 +11,14 @@ final class CoreTypesTests: XCTestCase {
         XCTAssertFalse(first.id.isEmpty)
         XCTAssertFalse(first.fullName.isEmpty)
         XCTAssertGreaterThan(first.unitsCount, 0)
+        for legacyId in ["g3up", "chinese-g2up", "chinese-g3up", "english-g3up", "science-g3up"] {
+            let revised = try XCTUnwrap(index.books.first { $0.id == legacyId + "-2026" })
+            let legacy = try XCTUnwrap(index.books.first { $0.id == legacyId })
+            XCTAssertEqual(revised.supersedes, legacyId)
+            XCTAssertEqual(revised.editionLabel, "2026秋版")
+            XCTAssertEqual(legacy.supersededBy, revised.id)
+            XCTAssertNil(revised.supersededBy)
+        }
     }
 
     /// QuestionType.rawValue must stay aligned with packages/core/src/types.ts.
@@ -61,4 +69,55 @@ final class CoreTypesTests: XCTestCase {
         XCTAssertEqual(lesson.questions[0].type, .choice)
         XCTAssertEqual(lesson.questions[0].knowledgePoint, "数数")
     }
+    func testRevisedEditionAndLegacyMetadataDecode() throws {
+        let legacy = """
+        {"id":"chinese-g2up","grade":2,"semester":"up","subject":"chinese","gradeName":"二年级","semesterName":"上册","textbookName":"二年级上册","fullName":"语文","unitsCount":8,"lessonsCount":27}
+        """.data(using: .utf8)!
+        var fields = try XCTUnwrap(JSONSerialization.jsonObject(with: legacy) as? [String: Any])
+        XCTAssertNil(try JSONDecoder().decode(Book.self, from: legacy).supersededBy)
+        fields["id"] = "chinese-g2up-2026"
+        fields["supersedes"] = "chinese-g2up"
+        fields["editionLabel"] = "2026秋版"
+        let revised = try JSONDecoder().decode(Book.self, from: JSONSerialization.data(withJSONObject: fields))
+        XCTAssertEqual(revised.supersedes, "chinese-g2up")
+        XCTAssertEqual(revised.editionLabel, "2026秋版")
+    }
+
+    func testActivityPrerequisitesFollowCatalogOrder() throws {
+        let json = """
+        {"textbook":"数学","units":[
+          {"unit_number":1,"title":"第一课","knowledge_points":[{"name":"甲","description":"甲","difficulty":1,"question_types":[]}]},
+          {"unit_number":101,"title":"曹冲称象的故事","label":"综合与实践","knowledge_points":[{"name":"称重","description":"称重","difficulty":1,"question_types":[]}]},
+          {"unit_number":4,"title":"乘法","knowledge_points":[{"name":"乘法","description":"乘法","difficulty":1,"question_types":[]}]},
+          {"unit_number":102,"title":"数字编码","label":"综合与实践","knowledge_points":[{"name":"编码","description":"编码","difficulty":1,"question_types":[]}]}
+        ]}
+        """.data(using: .utf8)!
+        let outline = try JSONDecoder().decode(Outline.self, from: json)
+        let rows = outline.priorLessonMetas(bookId: "g3up-2026", beforeUnit: 4)
+        XCTAssertEqual(rows.map(\.unitNumber), [1, 101])
+        XCTAssertEqual(rows.last?.unitLabel, "综合与实践")
+        XCTAssertEqual(outline.units[1].displayLabel, "综合与实践")
+        XCTAssertEqual(outline.units[2].displayLabel, "第 4 单元")
+        XCTAssertTrue(outline.priorLessonMetas(bookId: "g3up-2026", beforeUnit: 999).isEmpty)
+        XCTAssertFalse(rows.contains { $0.id == "g3up-u101-kp1" })
+    }
+
+    @MainActor
+    func testVersionedWebAudioResolvesToInstalledIOSAudio() throws {
+        let root = DataLoader.shared.sandboxAudioRoot.appendingPathComponent("ff", isDirectory: true)
+        try FileManager.default.createDirectory(at: root, withIntermediateDirectories: true)
+        let file = root.appendingPathComponent("edition-audio-fixture.m4a")
+        let versioned = root.appendingPathComponent("edition-audio-fixture.edge-abc.m4a")
+        defer {
+            try? FileManager.default.removeItem(at: file)
+            try? FileManager.default.removeItem(at: versioned)
+        }
+        try Data([0, 1, 2]).write(to: file)
+        try Data([3, 4, 5]).write(to: versioned)
+        XCTAssertEqual(AudioPlayer.shared.resolve("/audio/ff/edition-audio-fixture.mp3?v=abc"), file)
+        XCTAssertEqual(AudioPlayer.shared.resolve("/audio/ff/edition-audio-fixture.opus?v=def"), file)
+        XCTAssertEqual(AudioPlayer.shared.resolve("audio/ff/edition-audio-fixture.m4a"), file)
+        XCTAssertEqual(AudioPlayer.shared.resolve("/audio/ff/edition-audio-fixture.edge-abc.mp3?v=123"), versioned)
+    }
+
 }

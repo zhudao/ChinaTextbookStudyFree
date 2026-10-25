@@ -1,0 +1,369 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学三年级上册（2026秋版）",
+  "unit": "曹冲称象的故事",
+  "unit_number": 101,
+  "unit_test": {
+    "title": "曹冲称象的故事·配套练习",
+    "total_score": 180,
+    "time_minutes": 18,
+    "questions": [
+      {
+        "answer": "各次称得质量的和",
+        "difficulty": 1,
+        "explanation": "全部石头不重复、不遗漏地分次称量，各次质量相加就是总质量。",
+        "knowledge_point": "等量替换与分次称重",
+        "options": [
+          "各次称得质量的和",
+          "最大一次称得的质量",
+          "石头的块数",
+          "称量次数"
+        ],
+        "question": "把一堆石头不重复、不遗漏地分几次称完，怎样求这堆石头的总质量？",
+        "type": "choice",
+        "id": 1010001,
+        "score": 10
+      },
+      {
+        "answer": "750",
+        "difficulty": 1,
+        "explanation": "200+250+300=750克。",
+        "knowledge_point": "等量替换与分次称重",
+        "options": [],
+        "question": "一堆石头不重复、不遗漏地分三次称完，分别重200克、250克和300克。这堆石头共重多少克？",
+        "type": "calculation",
+        "id": 1010002,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "已知石头总质量与大象质量相等，称出石头总质量就能知道大象的质量。",
+        "knowledge_point": "等量替换与分次称重",
+        "options": [],
+        "question": "如果替换后的石头总质量与原来的大象质量相等，那么称出石头的总质量就能知道大象的质量。",
+        "type": "true_false",
+        "id": 1010003,
+        "score": 10
+      },
+      {
+        "answer": "200",
+        "difficulty": 2,
+        "explanation": "前两次共称120+180=300克，第三次称得500−300=200克。",
+        "knowledge_point": "等量替换与分次称重",
+        "options": [],
+        "question": "一堆石头总质量是500克，不重复、不遗漏地分三次称完。第一次称得120克，第二次称得180克，第三次称得多少克？",
+        "type": "calculation",
+        "id": 1010004,
+        "score": 10
+      },
+      {
+        "answer": "质量相等",
+        "difficulty": 1,
+        "explanation": "要用石头总质量表示大象的质量，二者必须质量相等，不要求颜色、形状或数量相同。",
+        "knowledge_point": "等量替换与分次称重",
+        "options": [
+          "数量相同",
+          "形状相同",
+          "质量相等",
+          "颜色相同"
+        ],
+        "question": "要通过称石头来知道大象的质量，用来替换大象的全部石头与大象必须满足什么条件？",
+        "type": "choice",
+        "id": 1010005,
+        "score": 10
+      },
+      {
+        "answer": "1200",
+        "difficulty": 2,
+        "explanation": "天平平衡，两边物品质量相等。花盆质量为200×6=1200克。",
+        "knowledge_point": "等量替换与分次称重",
+        "options": [],
+        "question": "一架已调平且称量范围足够的天平，左盘放一个花盆，右盘放6袋盐，天平恰好平衡。每袋盐重200克，花盆重多少克？",
+        "type": "calculation",
+        "id": 1010006,
+        "score": 10
+      },
+      {
+        "answer": "克",
+        "difficulty": 1,
+        "explanation": "一粒糖果比较轻，通常用克作质量单位。",
+        "knowledge_point": "克、千克、吨的认识与换算",
+        "options": [
+          "千克",
+          "米",
+          "克",
+          "吨"
+        ],
+        "question": "计量一粒糖果的质量，通常选用哪个单位？",
+        "type": "choice",
+        "id": 1010007,
+        "score": 10
+      },
+      {
+        "answer": "3000",
+        "difficulty": 1,
+        "explanation": "1千克=1000克，3千克=3000克。",
+        "knowledge_point": "克、千克、吨的认识与换算",
+        "options": [],
+        "question": "3千克等于多少克？",
+        "type": "calculation",
+        "id": 1010008,
+        "score": 10
+      },
+      {
+        "answer": "吨",
+        "difficulty": 1,
+        "explanation": "卡车的质量很大，通常用吨作单位更合适。",
+        "knowledge_point": "克、千克、吨的认识与换算",
+        "options": [
+          "千克",
+          "吨",
+          "克",
+          "厘米"
+        ],
+        "question": "计量一辆卡车的质量，下面哪个单位通常更合适？",
+        "type": "choice",
+        "id": 1010009,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "吨与千克之间的关系是1吨=1000千克。",
+        "knowledge_point": "克、千克、吨的认识与换算",
+        "options": [],
+        "question": "1吨等于1000千克。",
+        "type": "true_false",
+        "id": 1010010,
+        "score": 10
+      },
+      {
+        "answer": "2500",
+        "difficulty": 2,
+        "explanation": "2千克=2000克，2000+500=2500克。",
+        "knowledge_point": "克、千克、吨的认识与换算",
+        "options": [],
+        "question": "2千克500克一共是多少克？",
+        "type": "calculation",
+        "id": 1010011,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "1000千克是1吨，3000千克是3吨。",
+        "knowledge_point": "克、千克、吨的认识与换算",
+        "options": [],
+        "question": "3000千克等于多少吨？",
+        "type": "calculation",
+        "id": 1010012,
+        "score": 10
+      },
+      {
+        "answer": "汽车衡",
+        "difficulty": 1,
+        "explanation": "汽车衡适合称量卡车等质量很大的物体。",
+        "knowledge_point": "选择工具估重与实测",
+        "options": [
+          "天平",
+          "汽车衡",
+          "厨房秤",
+          "体重秤"
+        ],
+        "question": "称量一辆质量很大的载货卡车，下面哪种工具更合适？",
+        "type": "choice",
+        "id": 1010013,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "先估计再实测，可以比较两个结果，检验自己的估计。",
+        "knowledge_point": "选择工具估重与实测",
+        "options": [],
+        "question": "称物品前先估计质量，再用合适的秤测量，有助于比较估计和实测结果。",
+        "type": "true_false",
+        "id": 1010014,
+        "score": 10
+      },
+      {
+        "answer": "天平",
+        "difficulty": 1,
+        "explanation": "天平适合称量硬币这类较轻的小物品，其他选项主要用于称量较重物体。",
+        "knowledge_point": "选择工具估重与实测",
+        "options": [
+          "大型货物秤",
+          "汽车衡",
+          "体重秤",
+          "天平"
+        ],
+        "question": "下面的工具均正常可用，其中天平配有适合称硬币的砝码。称一枚硬币的质量，选择哪种工具更合适？",
+        "type": "choice",
+        "id": 1010015,
+        "score": 10
+      },
+      {
+        "answer": "看清秤的单位和刻度，再读数",
+        "difficulty": 1,
+        "explanation": "看清单位和刻度的含义，才能正确记录测量结果。",
+        "knowledge_point": "选择工具估重与实测",
+        "options": [
+          "不看单位，直接记录数字",
+          "根据秤的颜色猜质量",
+          "只看指针是否靠近最大刻度",
+          "看清秤的单位和刻度，再读数"
+        ],
+        "question": "使用指针秤测量物品质量时，怎样读数更可靠？",
+        "type": "choice",
+        "id": 1010016,
+        "score": 10
+      },
+      {
+        "answer": "先估计，再用合适的秤称量并比较",
+        "difficulty": 1,
+        "explanation": "先估计，再实测并比较，既能了解水杯的质量，也能检验估计是否接近测量结果。",
+        "knowledge_point": "选择工具估重与实测",
+        "options": [
+          "不称量，直接把估计当实测值",
+          "只凭物品颜色判断",
+          "用最小称量范围的秤称所有物品",
+          "先估计，再用合适的秤称量并比较"
+        ],
+        "question": "既要了解一个水杯的质量，又要检验自己的估重能力，下面哪种做法最合适？",
+        "type": "choice",
+        "id": 1010017,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "不同的秤有不同的称量范围和精细程度，称量很重与很轻的物体可能需要不同的秤。",
+        "knowledge_point": "选择工具估重与实测",
+        "options": [],
+        "question": "称量很重的物体和很轻的物体，可能需要选择不同的秤。",
+        "type": "true_false",
+        "id": 1010018,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "曹冲称象的故事·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "大象的质量",
+        "difficulty": 1,
+        "explanation": "使用同一艘船，其他载物不变，石头使船回到大象在船上时的水位标线，说明石头总质量等于大象的质量。",
+        "knowledge_point": "等量替换与分次称重",
+        "options": [
+          "一块石头的质量",
+          "船的质量",
+          "船与大象的总质量",
+          "大象的质量"
+        ],
+        "question": "在平静的水中，把大象赶上一艘船，在船舷上标出水面位置。大象下船后放入石头，直到水面再次到达标线。整个过程中使用同一艘船，其他载物不变。此时石头的总质量等于什么？",
+        "type": "choice",
+        "id": 1019001,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 1,
+        "explanation": "1吨=1000千克，2000千克=2吨。",
+        "knowledge_point": "克、千克、吨的认识与换算",
+        "options": [],
+        "question": "2000千克等于多少吨？",
+        "type": "calculation",
+        "id": 1019002,
+        "score": 10
+      },
+      {
+        "answer": "厨房电子秤（适合称几克至几千克的物品）",
+        "difficulty": 1,
+        "explanation": "笔袋约重200克，厨房电子秤的称量范围适合这一质量的小物品。",
+        "knowledge_point": "选择工具估重与实测",
+        "options": [
+          "大型货物秤（只适合称100千克以上的货物）",
+          "汽车衡（用于称汽车）",
+          "厨房电子秤（适合称几克至几千克的物品）",
+          "体重秤（只适合称10千克以上的物体）"
+        ],
+        "question": "要称一个约重200克的笔袋，下面哪种工具最合适？",
+        "type": "choice",
+        "id": 1019003,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "1千克=1000克，1克比1000克轻，所以1克比1千克轻。",
+        "knowledge_point": "克、千克、吨的认识与换算",
+        "options": [],
+        "question": "1克比1千克轻。",
+        "type": "true_false",
+        "id": 1019004,
+        "score": 10
+      },
+      {
+        "answer": "800",
+        "difficulty": 2,
+        "explanation": "物品与4袋盐一样重，质量为200×4=800克。",
+        "knowledge_point": "等量替换与分次称重",
+        "options": [],
+        "question": "每袋盐重200克。一个物品与4袋盐一样重，这个物品重多少克？",
+        "type": "calculation",
+        "id": 1019005,
+        "score": 10
+      },
+      {
+        "answer": "350",
+        "difficulty": 1,
+        "explanation": "秤已调零，显示单位是克，所以显示350表示所称苹果重350克。",
+        "knowledge_point": "选择工具估重与实测",
+        "options": [],
+        "question": "厨房电子秤空盘时已调零。将一个苹果放上秤盘，显示屏上的数值为350，单位为克。这个苹果重多少克？",
+        "type": "calculation",
+        "id": 1019006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "替换时没有保持其他条件不变，例如船没有回到原来的水位标线。",
+        "分次称量时遗漏或重复称量部分物品。",
+        "只记录一次称量结果，忘记求各次结果的和。",
+        "把物体的数量当成物体的总质量。"
+      ],
+      "core_concept": "质量相等的物体可以在比较质量时互相替换；把全部物品不重复、不遗漏地分次称量，总质量等于各次称得质量的和。",
+      "key_formula": "替换物的总质量=原物体的质量；总质量=各次称得质量的和。",
+      "point": "等量替换与分次称重",
+      "tips": "替换时保持其他条件不变；分次称量时不重复、不遗漏，并把各次结果相加。"
+    },
+    {
+      "common_mistakes": [
+        "把克、千克和吨的大小关系弄反。",
+        "把1千克误写成100克，或把1吨误写成100千克。",
+        "没有看清换算涉及哪些单位，就直接乘或除以1000。"
+      ],
+      "core_concept": "克常用于计量较轻物品，千克常用于计量较重物品，吨常用于计量很重或大宗物品。",
+      "key_formula": "1千克=1000克；1吨=1000千克。",
+      "point": "克、千克、吨的认识与换算",
+      "tips": "吨与千克之间、千克与克之间，大单位换成小单位，数值乘1000；小单位换成大单位，数值除以1000。"
+    },
+    {
+      "common_mistakes": [
+        "把估计值当作实际测量结果。",
+        "选择的秤不适合物品的质量大小。",
+        "使用秤时没有看清刻度或单位。"
+      ],
+      "core_concept": "估重是根据经验判断物品的大致质量；实测要选择称量范围和精细程度合适的秤，并正确读数。",
+      "key_formula": "估计值与实测值进行比较，用测量结果检验估计。",
+      "point": "选择工具估重与实测",
+      "tips": "先判断物品大约有多重，再选择合适的秤；使用前检查是否调零，读数时看清单位和刻度。"
+    }
+  ]
+}

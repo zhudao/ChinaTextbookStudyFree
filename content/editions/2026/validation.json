@@ -1,0 +1,63 @@
+{
+  "scope": {
+    "books": 5,
+    "regularLessons": 150,
+    "regularQuestions": 900,
+    "examQuestions": 210,
+    "readings": 118,
+    "narrationTexts": 7479
+  },
+  "coreTests": 231,
+  "iosTests": 207,
+  "gradedQuestions": 21914,
+  "staticPages": 4479,
+  "httpImageChecks": 71,
+  "legacyContent": {
+    "status": "passed",
+    "legacy_files": 2757,
+    "changed_or_missing": []
+  },
+  "installedLegacyContent": {
+    "status": "passed",
+    "legacy_files": 2757,
+    "changed": []
+  },
+  "newNarration": {
+    "status": "passed",
+    "total": 7479,
+    "present": 7479,
+    "missing": 0,
+    "missing_by_subject": {},
+    "missing_items": [],
+    "generated_active_verified": 0,
+    "generated_obsolete": 0,
+    "errors": []
+  },
+  "browser": {
+    "status": "passed",
+    "lesson": "g3up-2026-u1-kp1",
+    "lessonAnswers": "6/6",
+    "lessonSettlement": "3 stars; saved",
+    "legacyHomeReload": "retained g3up",
+    "reading": "english-g3up-2026-p1",
+    "readingPlayback": "completed; daily reading task 1/1",
+    "officialImage": {
+      "loaded": true,
+      "width": 1303,
+      "height": 1842
+    },
+    "consoleErrors": [],
+    "builtImage": "cstf:2026-five-textbooks",
+    "preview": "http://127.0.0.1:18378/book/g3up-2026/"
+  },
+  "existingWarnings": {
+    "legacyNarrationControlCharacters": 9,
+    "legacyControlCharacterFields": 106,
+    "legacyFormulaFields": 57
+  },
+  "publication": "published_and_verified",
+  "site": "https://d3nmsqi4n72idj.cloudfront.net/",
+  "release": "https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.5.0-five-textbooks",
+  "onlineLegacyFilesVerified": 2757,
+  "originalProfileUnchanged": true
+}

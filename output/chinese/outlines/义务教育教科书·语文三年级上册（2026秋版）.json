@@ -1,0 +1,408 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书·语文三年级上册（2026秋版）",
+  "edition": "2026",
+  "editionLabel": "2026秋版",
+  "supersedes": "chinese-g3up",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "第一单元·校园生活",
+      "knowledge_points": [
+        {
+          "name": "大青树下的小学：有新鲜感的词句",
+          "description": "结合新版教材学习大青树下的小学：有新鲜感的词句",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "花的学校：想象画面",
+          "description": "结合新版教材学习花的学校：想象画面",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "不懂就要问：人物与提问",
+          "description": "结合新版教材学习不懂就要问：人物与提问",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地一：成语与朗读表达",
+          "description": "结合新版教材学习语文园地一：成语与朗读表达",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "第二单元·金秋时节",
+      "knowledge_points": [
+        {
+          "name": "古诗三首：望洞庭、山行、夜书所见",
+          "description": "结合新版教材学习古诗三首：望洞庭、山行、夜书所见",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "铺满金色巴掌的水泥道：理解词语",
+          "description": "结合新版教材学习铺满金色巴掌的水泥道：理解词语",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "秋天的雨：围绕意思展开",
+          "description": "结合新版教材学习秋天的雨：围绕意思展开",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "听听，秋的声音：诗歌想象",
+          "description": "结合新版教材学习听听，秋的声音：诗歌想象",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地二：写日记与词语理解",
+          "description": "结合新版教材学习语文园地二：写日记与词语理解",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "第三单元·预测与推想",
+      "knowledge_points": [
+        {
+          "name": "总也倒不了的老屋：根据线索预测",
+          "description": "结合新版教材学习总也倒不了的老屋：根据线索预测",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "犟龟：预测与人物行为",
+          "description": "结合新版教材学习犟龟：预测与人物行为",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "小狗学叫：预测不同结局",
+          "description": "结合新版教材学习小狗学叫：预测不同结局",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地三：修改符号与续写故事",
+          "description": "结合新版教材学习语文园地三：修改符号与续写故事",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "第四单元·童话世界",
+      "knowledge_points": [
+        {
+          "name": "宝葫芦的秘密：感受想象",
+          "description": "结合新版教材学习宝葫芦的秘密：感受想象",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "在牛肚子里旅行：梳理经历",
+          "description": "结合新版教材学习在牛肚子里旅行：梳理经历",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "一块奶酪：人物与故事",
+          "description": "结合新版教材学习一块奶酪：人物与故事",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地四：编写童话与多音字",
+          "description": "结合新版教材学习语文园地四：编写童话与多音字",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "第五单元·留心观察",
+      "knowledge_points": [
+        {
+          "name": "搭船的鸟：观察外形与动作",
+          "description": "结合新版教材学习搭船的鸟：观察外形与动作",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "金色的草地：发现细微变化",
+          "description": "结合新版教材学习金色的草地：发现细微变化",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "习作例文：观察方法与选材",
+          "description": "结合新版教材学习习作例文：观察方法与选材",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "习作：我们眼中的缤纷世界",
+          "description": "结合新版教材学习习作：我们眼中的缤纷世界",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "第六单元·祖国之美",
+      "knowledge_points": [
+        {
+          "name": "富饶的西沙群岛：关键语句",
+          "description": "结合新版教材学习富饶的西沙群岛：关键语句",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "海滨小城：围绕特点描写",
+          "description": "结合新版教材学习海滨小城：围绕特点描写",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "美丽的小兴安岭：季节变化",
+          "description": "结合新版教材学习美丽的小兴安岭：季节变化",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "香港，璀璨的明珠：段落要点",
+          "description": "结合新版教材学习香港，璀璨的明珠：段落要点",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地六：围绕意思写一段话",
+          "description": "结合新版教材学习语文园地六：围绕意思写一段话",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "第七单元·认识自然",
+      "knowledge_points": [
+        {
+          "name": "古诗三首：鹿柴、望天门山、饮湖上初晴后雨",
+          "description": "结合新版教材学习古诗三首：鹿柴、望天门山、饮湖上初晴后雨",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "大自然的声音：体会生动表达",
+          "description": "结合新版教材学习大自然的声音：体会生动表达",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "读不完的大书：观察与感受",
+          "description": "结合新版教材学习读不完的大书：观察与感受",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地七：句式与表达想法",
+          "description": "结合新版教材学习语文园地七：句式与表达想法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "第八单元·美好的品质",
+      "knowledge_points": [
+        {
+          "name": "司马光：文言文初读",
+          "description": "结合新版教材学习司马光：文言文初读",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "一定要争气：人物与努力",
+          "description": "结合新版教材学习一定要争气：人物与努力",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "手术台就是阵地：人物品质",
+          "description": "结合新版教材学习手术台就是阵地：人物品质",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "一个粗瓷大碗：故事与人物",
+          "description": "结合新版教材学习一个粗瓷大碗：故事与人物",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地八：请教与难忘经历",
+          "description": "结合新版教材学习语文园地八：请教与难忘经历",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ],
+  "requiredPassageTitles": [
+    "大青树下的小学",
+    "花的学校",
+    "不懂就要问",
+    "望洞庭",
+    "山行",
+    "夜书所见",
+    "铺满金色巴掌的水泥道",
+    "秋天的雨",
+    "听听，秋的声音",
+    "总也倒不了的老屋",
+    "犟龟",
+    "小狗学叫",
+    "宝葫芦的秘密（节选）",
+    "在牛肚子里旅行",
+    "一块奶酪",
+    "搭船的鸟",
+    "金色的草地",
+    "富饶的西沙群岛",
+    "海滨小城",
+    "美丽的小兴安岭",
+    "香港，璀璨的明珠",
+    "鹿柴",
+    "望天门山",
+    "饮湖上初晴后雨",
+    "大自然的声音",
+    "读不完的大书",
+    "司马光",
+    "一定要争气",
+    "手术台就是阵地",
+    "一个粗瓷大碗",
+    "所见",
+    "我家的小狗",
+    "我爱故乡的杨梅",
+    "早发白帝城",
+    "采莲曲"
+  ]
+}

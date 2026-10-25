@@ -1,0 +1,398 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学三年级上册（2026秋版）",
+  "unit": "线和角",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "线和角·配套练习",
+    "total_score": 180,
+    "time_minutes": 18,
+    "questions": [
+      {
+        "answer": "线段",
+        "difficulty": 1,
+        "explanation": "线段有两个端点，可以量出长度。",
+        "knowledge_point": "线段、射线与直线",
+        "options": [
+          "直线",
+          "角",
+          "线段",
+          "射线"
+        ],
+        "question": "哪一种图形有两个端点，而且可以量出长度？",
+        "type": "choice",
+        "id": 50001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "射线只有一个端点，并向一端无限延伸。",
+        "knowledge_point": "线段、射线与直线",
+        "options": [],
+        "question": "判断：射线有两个端点。",
+        "type": "true_false",
+        "id": 50002,
+        "score": 10
+      },
+      {
+        "answer": "直线",
+        "difficulty": 1,
+        "explanation": "直线没有端点，向两端无限延伸。",
+        "knowledge_point": "线段、射线与直线",
+        "options": [
+          "角",
+          "直线",
+          "射线",
+          "线段"
+        ],
+        "question": "一种图形没有端点，并向两端无限延伸。它是什么？",
+        "type": "choice",
+        "id": 50003,
+        "score": 10
+      },
+      {
+        "answer": "射线AB",
+        "difficulty": 2,
+        "explanation": "射线名称中的第一个字母表示端点，因此从A出发、经过B的射线写作射线AB。",
+        "knowledge_point": "线段、射线与直线",
+        "options": [
+          "射线BA",
+          "直线AB",
+          "射线AB",
+          "线段AB"
+        ],
+        "question": "一条射线从A点出发，经过与A不同的B点。怎样表示这条射线？",
+        "type": "choice",
+        "id": 50004,
+        "score": 10
+      },
+      {
+        "answer": "1",
+        "difficulty": 1,
+        "explanation": "过两个不同点只能画一条直线。",
+        "knowledge_point": "线段、射线与直线",
+        "options": [],
+        "question": "过两个不同的点A、B能画出几条直线？",
+        "type": "calculation",
+        "id": 50005,
+        "score": 10
+      },
+      {
+        "answer": "线段AB、线段AC、线段BC",
+        "difficulty": 2,
+        "explanation": "从三个点中每次选两个点作端点，可以得到线段AB、AC和BC，共3条。",
+        "knowledge_point": "线段、射线与直线",
+        "options": [
+          "直线AB、直线AC、直线BC",
+          "线段AB、线段BC",
+          "射线AB、射线AC、射线BC",
+          "线段AB、线段AC、线段BC"
+        ],
+        "question": "直线上有三个不同的点A、B、C。以其中任意两个点为端点，可以组成哪些线段？请选出完整且正确的一项。",
+        "type": "choice",
+        "id": 50006,
+        "score": 10
+      },
+      {
+        "answer": "线段最短",
+        "difficulty": 1,
+        "explanation": "两点间所有连线中，线段最短。",
+        "knowledge_point": "两点间距离与比较线段",
+        "options": [
+          "弯曲路线最短",
+          "所有路线一样长",
+          "线段最短",
+          "绕路路线最短"
+        ],
+        "question": "关于两个不同点之间的连线，下面哪种说法正确？",
+        "type": "choice",
+        "id": 50007,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "两点间距离是连接这两点的线段的长度，不是任意路线的长度。",
+        "knowledge_point": "两点间距离与比较线段",
+        "options": [],
+        "question": "判断：两点间距离是连接这两点的任意一条路线的长度。",
+        "type": "true_false",
+        "id": 50008,
+        "score": 10
+      },
+      {
+        "answer": "直接沿线段AB走",
+        "difficulty": 2,
+        "explanation": "商店和邮局都不在线段AB上，经过它们都会绕路。两点间线段最短，所以直接沿线段AB走最近。",
+        "knowledge_point": "两点间距离与比较线段",
+        "options": [
+          "经过商店再到B",
+          "三条路线一样长",
+          "经过邮局再到B",
+          "直接沿线段AB走"
+        ],
+        "question": "小明从A地去B地，有三条可通行路线：直接沿线段AB走；沿线段从A走到商店，再沿线段到B；沿线段从A走到邮局，再沿线段到B。商店和邮局都不在线段AB上。哪条路线最短？",
+        "type": "choice",
+        "id": 50009,
+        "score": 10
+      },
+      {
+        "answer": "AB>CD",
+        "difficulty": 2,
+        "explanation": "两条线段的左端点重合，右端点B在D的右侧，说明AB比CD长。",
+        "knowledge_point": "两点间距离与比较线段",
+        "options": [
+          "不能比较",
+          "AB=CD",
+          "AB<CD",
+          "AB>CD"
+        ],
+        "question": "把线段AB和CD都水平放置，A、C是左端点，B、D是右端点。使A与C重合后，B在D的右侧。怎样表示它们的长短关系？",
+        "type": "choice",
+        "id": 50010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "线段的长短由长度决定，与横着放还是斜着放无关。",
+        "knowledge_point": "两点间距离与比较线段",
+        "options": [],
+        "question": "判断：一条线段斜着放，就一定比另一条横着放的线段长。",
+        "type": "true_false",
+        "id": 50011,
+        "score": 10
+      },
+      {
+        "answer": "AC=BD",
+        "difficulty": 3,
+        "explanation": "AC由AB和BC组成，BD由BC和CD组成。两者都有BC，又因为AB=CD，所以AC=BD。",
+        "knowledge_point": "两点间距离与比较线段",
+        "options": [
+          "AC>BD",
+          "AC<BD",
+          "AC=BD",
+          "信息不足"
+        ],
+        "question": "四个不同的点A、B、C、D从左到右依次在同一直线上，且AB=CD。线段AC与BD有什么关系？",
+        "type": "choice",
+        "id": 50012,
+        "score": 10
+      },
+      {
+        "answer": "角",
+        "difficulty": 1,
+        "explanation": "从一个点向不同方向引出两条射线，可以组成一个角。",
+        "knowledge_point": "角与直角、锐角、钝角",
+        "options": [
+          "线段",
+          "角",
+          "直线",
+          "三角形"
+        ],
+        "question": "从一个点引出两条既不重合、也不在同一直线上的射线，得到的图形叫什么？",
+        "type": "choice",
+        "id": 50013,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "组成角的两条射线有一个公共端点，这个点是角的顶点，两条射线是角的边。",
+        "knowledge_point": "角与直角、锐角、钝角",
+        "options": [],
+        "question": "判断：组成一个角的两条射线的公共端点叫作顶点，这两条射线叫作角的边。",
+        "type": "true_false",
+        "id": 50014,
+        "score": 10
+      },
+      {
+        "answer": "锐角",
+        "difficulty": 1,
+        "explanation": "在锐角、直角、钝角中，锐角比直角小。",
+        "knowledge_point": "角与直角、锐角、钝角",
+        "options": [
+          "直角",
+          "钝角",
+          "不能确定",
+          "锐角"
+        ],
+        "question": "一个角属于锐角、直角、钝角中的一种，且它比直角小。它是什么角？",
+        "type": "choice",
+        "id": 50015,
+        "score": 10
+      },
+      {
+        "answer": "直角",
+        "difficulty": 1,
+        "explanation": "顶点重合后，两条边也分别重合，说明这个角与三角尺上的直角一样大。",
+        "knowledge_point": "角与直角、锐角、钝角",
+        "options": [
+          "锐角",
+          "钝角",
+          "直角",
+          "不能确定"
+        ],
+        "question": "小红把一个角的顶点与三角尺上直角的顶点重合，发现这个角的两条边分别与直角的两条边重合。这个角是什么角？",
+        "type": "choice",
+        "id": 50016,
+        "score": 10
+      },
+      {
+        "answer": "角的大小不变",
+        "difficulty": 2,
+        "explanation": "角的大小由两条边的张口大小决定。顶点和两条边的方向不变，只把表示边的线画长，角的大小不变。",
+        "knowledge_point": "角与直角、锐角、钝角",
+        "options": [
+          "角一定变小",
+          "角的大小不变",
+          "角一定变大",
+          "角一定变成直角"
+        ],
+        "question": "画在纸上的一个角，顶点和两条边的方向都不变，只把表示两条边的线画得更长。角的大小怎样变化？",
+        "type": "choice",
+        "id": 50017,
+        "score": 10
+      },
+      {
+        "answer": "钝角",
+        "difficulty": 2,
+        "explanation": "甲比直角大，乙又比甲大，所以乙也比直角大。已知乙属于锐角、直角、钝角中的一种，因此乙是钝角。",
+        "knowledge_point": "角与直角、锐角、钝角",
+        "options": [
+          "直角",
+          "钝角",
+          "锐角",
+          "无法判断"
+        ],
+        "question": "角甲和角乙都属于锐角、直角、钝角中的一种。角甲比直角大，角乙比角甲还大。角乙是什么角？",
+        "type": "choice",
+        "id": 50018,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "线和角·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "直线",
+        "difficulty": 1,
+        "explanation": "把线段向两端无限延伸，得到一条没有端点的直线。",
+        "knowledge_point": "线段、射线与直线",
+        "options": [
+          "射线",
+          "角",
+          "线段",
+          "直线"
+        ],
+        "question": "把一条线段向两端无限延伸，得到什么图形？",
+        "type": "choice",
+        "id": 59001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "射线向一端无限延伸，不能量出它的总长度。",
+        "knowledge_point": "线段、射线与直线",
+        "options": [],
+        "question": "判断：射线虽然可以无限延伸，但仍能用尺子量出它的总长度。",
+        "type": "true_false",
+        "id": 59002,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 1,
+        "explanation": "两点间的距离就是连接这两点的线段的长度。线段MN长7厘米，所以距离是7厘米。",
+        "knowledge_point": "两点间距离与比较线段",
+        "options": [],
+        "question": "线段MN长7厘米。M、N两点间的距离是多少厘米？",
+        "type": "calculation",
+        "id": 59003,
+        "score": 10
+      },
+      {
+        "answer": "AB=CD",
+        "difficulty": 2,
+        "explanation": "将线段AB的长度转移到从C出发、经过D的射线上，另一端恰好落在D，说明两条线段等长。",
+        "knowledge_point": "两点间距离与比较线段",
+        "options": [
+          "AB<CD",
+          "无法比较",
+          "AB=CD",
+          "AB>CD"
+        ],
+        "question": "用圆规取线段AB的长度，保持两脚张开大小不变，把针尖固定在C点，另一脚恰好落在D点。线段AB和CD有什么关系？",
+        "type": "choice",
+        "id": 59004,
+        "score": 10
+      },
+      {
+        "answer": "三角尺上的直角",
+        "difficulty": 1,
+        "explanation": "可以把待判断的角与三角尺上的直角比较，判断它是不是直角。",
+        "knowledge_point": "角与直角、锐角、钝角",
+        "options": [
+          "三角尺上的直角",
+          "尺子上的长度刻度",
+          "线段的端点数",
+          "圆规两脚的长度"
+        ],
+        "question": "要判断一个角是不是直角，下面哪一项可以直接用来与这个角比较？",
+        "type": "choice",
+        "id": 59005,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 1,
+        "explanation": "组成角的两条射线就是角的两条边，所以一个角有2条边。",
+        "knowledge_point": "角与直角、锐角、钝角",
+        "options": [],
+        "question": "一个角有几条边？",
+        "type": "calculation",
+        "id": 59006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把射线误认为有两个端点，或把直线误认为有端点。",
+        "认为射线或直线可以像线段一样量出总长度。",
+        "表示射线时忽略字母顺序；射线AB以A为端点并经过B。"
+      ],
+      "core_concept": "线段有两个端点，可以量出长度；射线有一个端点，向一端无限延伸；直线没有端点，向两端无限延伸。",
+      "key_formula": "线段有2个端点；射线有1个端点；直线有0个端点。",
+      "point": "线段、射线与直线",
+      "tips": "结合端点数和延伸情况区分三种图形。表示射线时，先写端点的字母，再写射线上另一个点的字母。"
+    },
+    {
+      "common_mistakes": [
+        "把任意一条连接两点的路线长度当作两点间距离；距离是连接这两点的线段的长度。",
+        "只凭线段的摆放方向或视觉印象判断长短。",
+        "比较线段时没有对齐一个端点，或没有沿同一方向比较另一个端点。"
+      ],
+      "core_concept": "两点间所有连线中，线段最短。这条线段的长度叫作两点间的距离。比较线段可以用尺子测量，也可以用圆规转移长度后比较。",
+      "key_formula": "AB<CD表示AB比CD短；AB=CD表示两条线段等长；AB>CD表示AB比CD长。",
+      "point": "两点间距离与比较线段",
+      "tips": "比较时，将两条线段的一个端点对齐，使它们沿同一方向放置，再比较另一个端点的位置。用圆规转移长度时，应保持两脚张开大小不变。"
+    },
+    {
+      "common_mistakes": [
+        "根据角的边画得长短判断角的大小；角的大小要看两边的张口大小。",
+        "认为角转动方向后就不再是原来那一类角。",
+        "不限定角的范围，就把所有比直角大的角都叫作钝角。"
+      ],
+      "core_concept": "从一个点引出两条射线可以组成角，公共端点是角的顶点，两条射线是角的边。锐角比直角小；钝角比直角大，但比两个直角拼成的角小。",
+      "key_formula": "锐角<直角<钝角；角的符号是∠。",
+      "point": "角与直角、锐角、钝角",
+      "tips": "将三角尺直角的顶点与待比较角的顶点重合，一条边对齐，再比较另一条边。已知一个角属于锐角、直角、钝角中的一种时，比直角小的是锐角，与直角一样大的是直角，比直角大的是钝角。"
+    }
+  ]
+}

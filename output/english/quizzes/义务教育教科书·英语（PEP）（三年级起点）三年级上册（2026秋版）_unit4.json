@@ -1,0 +1,520 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书•英语 三年级上册（2026秋版）",
+  "unit": "Plants around us",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "Plants around us·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "Yes, I do.",
+        "difficulty": 1,
+        "explanation": "题干明确要求肯定回答；以Do开头的喜好问句用“Yes, I do.”作肯定回答。",
+        "knowledge_point": "水果喜好与一般疑问句",
+        "options": [
+          "No, I am not.",
+          "Yes, I do.",
+          "Yes, I am.",
+          "No, I don't."
+        ],
+        "question": "你喜欢苹果。补全对话：A: Do you like apples? B: ____",
+        "type": "choice",
+        "id": 40001,
+        "score": 10
+      },
+      {
+        "answer": "No, I don't.",
+        "difficulty": 1,
+        "explanation": "题干明确说你不喜欢橙子，因此应作否定回答“No, I don't.”；喜欢葡萄本身不能证明不喜欢橙子。",
+        "knowledge_point": "水果喜好与一般疑问句",
+        "options": [
+          "Yes, I do.",
+          "No, I don't.",
+          "No, I am not.",
+          "Yes, I am."
+        ],
+        "question": "你不喜欢橙子，但喜欢葡萄。补全对话：A: Do you like oranges? B: ____ I like grapes.",
+        "type": "choice",
+        "id": 40002,
+        "score": 10
+      },
+      {
+        "answer": "Do you like bananas?",
+        "difficulty": 1,
+        "explanation": "标准的一般疑问句用“Do you like ...?”；Do后面的like用原形，不加s。",
+        "knowledge_point": "水果喜好与一般疑问句",
+        "options": [
+          "Are you like bananas?",
+          "Does you like bananas?",
+          "Do you likes bananas?",
+          "Do you like bananas?"
+        ],
+        "question": "哪一句是询问“你喜欢香蕉吗？”的正确一般疑问句？",
+        "type": "choice",
+        "id": 40003,
+        "score": 10
+      },
+      {
+        "answer": "grapes",
+        "difficulty": 1,
+        "explanation": "B明确说“I like grapes.”，意思是“我喜欢葡萄”。",
+        "knowledge_point": "水果喜好与一般疑问句",
+        "options": [
+          "oranges",
+          "apples",
+          "bananas",
+          "grapes"
+        ],
+        "question": "阅读对话：A: Do you like apples? B: No, I don't. I like grapes. B明确说自己喜欢哪一种水果？",
+        "type": "choice",
+        "id": 40004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "以Do开头的喜好问句可以用“Yes, I do.”作肯定回答。",
+        "knowledge_point": "水果喜好与一般疑问句",
+        "options": [],
+        "question": "“Do you like bananas?”可以用“Yes, I do.”作肯定回答。对还是错？",
+        "type": "true_false",
+        "id": 40005,
+        "score": 10
+      },
+      {
+        "answer": "Do you like oranges? No, I don't. I like apples.",
+        "difficulty": 2,
+        "explanation": "正确对话先用Do提问，再用“No, I don't.”表示不喜欢橙子，最后用“I like apples.”说明喜欢苹果。",
+        "knowledge_point": "水果喜好与一般疑问句",
+        "options": [
+          "Do you likes oranges? No, I don't. I like apples.",
+          "Are you like oranges? No, I am not. I like apples.",
+          "Do you like oranges? No, I don't. I like apples.",
+          "Do you like oranges? Yes, I do. I like apples."
+        ],
+        "question": "哪组对话语法正确，并表达“询问是否喜欢橙子；回答不喜欢橙子，但喜欢苹果”？每项依次为问句和回答。",
+        "type": "choice",
+        "id": 40006,
+        "score": 10
+      },
+      {
+        "answer": "water",
+        "difficulty": 1,
+        "explanation": "植物缺水时，应适量浇水，而不是浇牛奶、果汁或汽水。",
+        "knowledge_point": "植物的需要与照料",
+        "options": [
+          "water",
+          "milk",
+          "soda",
+          "juice"
+        ],
+        "question": "一株植物缺水了，应给它适量浇哪一种液体？",
+        "type": "choice",
+        "id": 40007,
+        "score": 10
+      },
+      {
+        "answer": "air",
+        "difficulty": 1,
+        "explanation": "植物生长需要空气；书、球和椅子不属于本单元介绍的植物基本需要。",
+        "knowledge_point": "植物的需要与照料",
+        "options": [
+          "a chair",
+          "a ball",
+          "air",
+          "a book"
+        ],
+        "question": "Which one do plants need to grow?",
+        "type": "choice",
+        "id": 40008,
+        "score": 10
+      },
+      {
+        "answer": "sun",
+        "difficulty": 1,
+        "explanation": "本单元用sun表示植物需要的阳光。",
+        "knowledge_point": "植物的需要与照料",
+        "options": [
+          "sun",
+          "toy",
+          "milk",
+          "pencil"
+        ],
+        "question": "选择表示“阳光”的词，补全句子：Plants need air, water and ____.",
+        "type": "choice",
+        "id": 40009,
+        "score": 10
+      },
+      {
+        "answer": "air, water and sun",
+        "difficulty": 1,
+        "explanation": "本单元介绍的三项基本需要是空气、水和阳光。",
+        "knowledge_point": "植物的需要与照料",
+        "options": [
+          "air, juice and toys",
+          "milk, water and sun",
+          "air, water and sun",
+          "air, books and toys"
+        ],
+        "question": "哪一组完整列出了本单元介绍的植物生长的三项基本需要？",
+        "type": "choice",
+        "id": 40010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "本单元介绍植物需要空气、水和阳光，因此不能说植物只需要水。",
+        "knowledge_point": "植物的需要与照料",
+        "options": [],
+        "question": "Plants need only water to grow. 对还是错？",
+        "type": "true_false",
+        "id": 40011,
+        "score": 10
+      },
+      {
+        "answer": "Plants need air, water and sun. We can water them.",
+        "difficulty": 2,
+        "explanation": "题干说明植物缺水，应通过浇水来补充；玩具、书和鞋不能解决缺水问题。",
+        "knowledge_point": "植物的需要与照料",
+        "options": [
+          "Plants need shoes. We can give them shoes.",
+          "Plants need air, water and sun. We can water them.",
+          "Plants need toys. We can give them toys.",
+          "Plants need only books. We can read to them."
+        ],
+        "question": "一株植物有空气和阳光，但因缺水而需要照料。哪句话提出了合适的做法？",
+        "type": "choice",
+        "id": 40012,
+        "score": 10
+      },
+      {
+        "answer": "m",
+        "difficulty": 1,
+        "explanation": "大写字母M对应的小写字母是m。",
+        "knowledge_point": "字母Mm—Pp的音形与发音",
+        "options": [
+          "p",
+          "m",
+          "n",
+          "o"
+        ],
+        "question": "大写字母M对应的小写字母是哪一个？",
+        "type": "choice",
+        "id": 40013,
+        "score": 10
+      },
+      {
+        "answer": "N",
+        "difficulty": 1,
+        "explanation": "小写字母n对应的大写字母是N。",
+        "knowledge_point": "字母Mm—Pp的音形与发音",
+        "options": [
+          "N",
+          "O",
+          "P",
+          "M"
+        ],
+        "question": "小写字母n对应的大写字母是哪一个？",
+        "type": "choice",
+        "id": 40014,
+        "score": 10
+      },
+      {
+        "answer": "P",
+        "difficulty": 1,
+        "explanation": "pen的首字母是p，其大写形式是P。",
+        "knowledge_point": "字母Mm—Pp的音形与发音",
+        "options": [
+          "M",
+          "N",
+          "O",
+          "P"
+        ],
+        "question": "单词pen的首字母对应哪个大写字母？",
+        "type": "choice",
+        "id": 40015,
+        "score": 10
+      },
+      {
+        "answer": "O",
+        "difficulty": 1,
+        "explanation": "orange的首字母是o，其大写形式是O。",
+        "knowledge_point": "字母Mm—Pp的音形与发音",
+        "options": [
+          "M",
+          "O",
+          "P",
+          "N"
+        ],
+        "question": "单词orange的首字母对应哪个大写字母？",
+        "type": "choice",
+        "id": 40016,
+        "score": 10
+      },
+      {
+        "answer": "mum",
+        "difficulty": 2,
+        "explanation": "map和mum的首音都是/m/；nap的首音是/n/，pen和pig的首音是/p/。",
+        "knowledge_point": "字母Mm—Pp的音形与发音",
+        "options": [
+          "pig",
+          "nap",
+          "pen",
+          "mum"
+        ],
+        "question": "读出单词，选择与map首音相同的一项。",
+        "type": "choice",
+        "id": 40017,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "nap的首音是/n/，pig的首音是/p/，两者不同。",
+        "knowledge_point": "字母Mm—Pp的音形与发音",
+        "options": [],
+        "question": "单词nap和pig的首音相同。对还是错？",
+        "type": "true_false",
+        "id": 40018,
+        "score": 10
+      },
+      {
+        "answer": "We can water the flowers.",
+        "difficulty": 1,
+        "explanation": "花缺水时，给花浇水是合适的帮助方式；折断花茎、拔起花或给花玩具都不能满足其缺水的需要。",
+        "knowledge_point": "植物与人的相互帮助",
+        "options": [
+          "We can pull up the flowers.",
+          "We can water the flowers.",
+          "We can break the flowers.",
+          "We can give the flowers toys."
+        ],
+        "question": "花园里的花缺水了。我们可以怎样帮助它们？",
+        "type": "choice",
+        "id": 40019,
+        "score": 10
+      },
+      {
+        "answer": "fresh air",
+        "difficulty": 1,
+        "explanation": "本单元介绍树木能带来新鲜空气；鞋、书和玩具不是树木直接长出来的东西。",
+        "knowledge_point": "植物与人的相互帮助",
+        "options": [
+          "toys",
+          "new shoes",
+          "fresh air",
+          "books"
+        ],
+        "question": "树木可以帮助改善周围的空气。补全句子：Trees can give us ____.",
+        "type": "choice",
+        "id": 40020,
+        "score": 10
+      },
+      {
+        "answer": "plant new trees",
+        "difficulty": 1,
+        "explanation": "种植新树能增加校园里的树木，其他做法都不能实现这个目标。",
+        "knowledge_point": "植物与人的相互帮助",
+        "options": [
+          "plant new trees",
+          "cut down all the trees",
+          "pull up the trees",
+          "break the trees"
+        ],
+        "question": "学校想让校园里有更多树木。补全句子：We can ____.",
+        "type": "choice",
+        "id": 40021,
+        "score": 10
+      },
+      {
+        "answer": "apples",
+        "difficulty": 1,
+        "explanation": "题目限定选择水果，苹果树结出的水果是苹果，不是香蕉、葡萄或橙子。",
+        "knowledge_point": "植物与人的相互帮助",
+        "options": [
+          "bananas",
+          "grapes",
+          "oranges",
+          "apples"
+        ],
+        "question": "Which fruit can an apple tree give us?",
+        "type": "choice",
+        "id": 40022,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "人们能通过浇水、种植等方式帮助植物，所以“人们不能帮助植物”是错误的。",
+        "knowledge_point": "植物与人的相互帮助",
+        "options": [],
+        "question": "People cannot help plants. 对还是错？",
+        "type": "true_false",
+        "id": 40023,
+        "score": 10
+      },
+      {
+        "answer": "We help plants, and plants give us many things.",
+        "difficulty": 2,
+        "explanation": "家人给苹果树浇水，苹果树给家人苹果，分别体现了人帮助植物和植物帮助人。",
+        "knowledge_point": "植物与人的相互帮助",
+        "options": [
+          "Plants and people never help each other.",
+          "Plants help people, but people cannot help plants.",
+          "We help plants, but plants give us nothing.",
+          "We help plants, and plants give us many things."
+        ],
+        "question": "阅读：A family waters an apple tree. Later, the tree gives them apples. 哪句话最能概括这段话？",
+        "type": "choice",
+        "id": 40024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Plants around us·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "Do",
+        "difficulty": 1,
+        "explanation": "询问对方是否喜欢葡萄，用“Do you like grapes?”，句首应填Do。",
+        "knowledge_point": "水果喜好与一般疑问句",
+        "options": [
+          "Is",
+          "Are",
+          "Do",
+          "Am"
+        ],
+        "question": "选择正确的词补全问句：____ you like grapes?",
+        "type": "choice",
+        "id": 49001,
+        "score": 10
+      },
+      {
+        "answer": "water",
+        "difficulty": 2,
+        "explanation": "题干列出植物需要空气、水和阳光，已有空气和阳光，缺少的是水。",
+        "knowledge_point": "植物的需要与照料",
+        "options": [
+          "a book",
+          "water",
+          "juice",
+          "a toy"
+        ],
+        "question": "Plants need air, water and sun. A plant has air and sun, but no water. What is missing?",
+        "type": "choice",
+        "id": 49002,
+        "score": 10
+      },
+      {
+        "answer": "M—m, N—n, O—o, P—p",
+        "difficulty": 2,
+        "explanation": "M、N、O、P对应的小写字母依次是m、n、o、p，其他选项都有配对错误。",
+        "knowledge_point": "字母Mm—Pp的音形与发音",
+        "options": [
+          "M—n, N—m, O—o, P—p",
+          "M—m, N—n, O—o, P—p",
+          "M—p, N—o, O—n, P—m",
+          "M—m, N—n, O—p, P—o"
+        ],
+        "question": "哪一组大小写字母全部配对正确？",
+        "type": "choice",
+        "id": 49003,
+        "score": 10
+      },
+      {
+        "answer": "People help plants.",
+        "difficulty": 2,
+        "explanation": "孩子们给花浇水，是人帮助植物；题干没有描述植物给人提供东西。",
+        "knowledge_point": "植物与人的相互帮助",
+        "options": [
+          "People help plants.",
+          "Plants give people fresh air.",
+          "Plants give people fruit.",
+          "Plants give people flowers."
+        ],
+        "question": "The children water the flowers in the school garden. 这句话直接描述了哪一种帮助？",
+        "type": "choice",
+        "id": 49004,
+        "score": 10
+      },
+      {
+        "answer": "No, I don't.",
+        "difficulty": 2,
+        "explanation": "题干明确说你不喜欢香蕉，所以要用“No, I don't.”作否定回答。",
+        "knowledge_point": "水果喜好与一般疑问句",
+        "options": [
+          "No, I am not.",
+          "No, I don't.",
+          "Yes, I do.",
+          "Yes, I am."
+        ],
+        "question": "你不喜欢香蕉，但喜欢苹果。补全对话：A: Do you like bananas? B: ____ I like apples.",
+        "type": "choice",
+        "id": 49005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "故事既写家人给树浇水，也写树给家人苹果，因此双方都提供了帮助，不是只有树在帮助人。",
+        "knowledge_point": "植物与人的相互帮助",
+        "options": [],
+        "question": "阅读：A family waters an apple tree. Later, the tree gives the family apples. 判断：“这段话只说明树帮助家人，没有说明家人帮助树。”对还是错？",
+        "type": "true_false",
+        "id": 49006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "用“Yes, I am.”回答以Do开头的喜好问句。",
+        "把否定回答写成“No, I do.”或“Yes, I don't.”。",
+        "仅凭某人喜欢一种水果，就推断此人不喜欢另一种水果。"
+      ],
+      "core_concept": "用“Do you like ...?”询问对方是否喜欢某种水果。肯定回答用“Yes, I do.”，否定回答用“No, I don't.”，还可以补充自己喜欢的水果。",
+      "key_formula": "Do you like apples? Yes, I do. / No, I don't. I like bananas.",
+      "point": "水果喜好与一般疑问句",
+      "tips": "问句用Do，简短回答用do或don't。谈论一般的水果喜好时，可使用apples、bananas、grapes、oranges等复数形式。"
+    },
+    {
+      "common_mistakes": [
+        "漏掉本单元介绍的空气、水或阳光。",
+        "混淆植物需要的生长条件与人们照料植物的行动。",
+        "以为只浇水就能满足植物的全部需要。"
+      ],
+      "core_concept": "本单元用air、water和sun介绍植物生长的基本需要；人们可以通过适当浇水等方式照料植物。",
+      "key_formula": "Plants need air, water and sun. We can water the flowers.",
+      "point": "植物的需要与照料",
+      "tips": "sun在本单元相关句子中指阳光；water既可以表示“水”，也可以作动词表示“浇水”。"
+    },
+    {
+      "common_mistakes": [
+        "把字母名称与字母在单词中的发音混为一谈。",
+        "混淆大写字母与对应小写字母。",
+        "把单词中间或末尾的音误认为首音。"
+      ],
+      "core_concept": "认读和书写Mm、Nn、Oo、Pp，掌握大小写配对，并在简单单词中辨认相关字母及其发音。",
+      "key_formula": "M—m；N—n；O—o；P—p。map的首音是/m/，nap的首音是/n/，pen的首音是/p/。",
+      "point": "字母Mm—Pp的音形与发音",
+      "tips": "先辨认大小写，再读单词。比较首音时要读出第一个音，不能只看单词中是否含有某个字母。"
+    },
+    {
+      "common_mistakes": [
+        "只注意植物帮助人，忽略人也能照料植物。",
+        "混淆“人对植物做什么”和“植物给人什么”。",
+        "误以为植物只能提供水果。"
+      ],
+      "core_concept": "人们可以给植物浇水、种植新树；植物能给人们提供水果、花、树叶和新鲜空气等。",
+      "key_formula": "人帮助植物：浇水、种树、照料；植物帮助人：提供水果、花、树叶和新鲜空气等。",
+      "point": "植物与人的相互帮助",
+      "tips": "先找行动者，再看它做了什么：人浇水是人帮助植物；树结出苹果是植物给人提供水果。"
+    }
+  ]
+}

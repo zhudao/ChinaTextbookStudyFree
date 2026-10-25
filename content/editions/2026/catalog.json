@@ -1,0 +1,1593 @@
+{
+  "schemaVersion": 1,
+  "sourceReview": "docs/issue-36-37-textbook-review-2026-10-23.json",
+  "books": [
+    {
+      "key": "math3",
+      "subject": "math",
+      "grade": 3,
+      "legacyId": "g3up",
+      "id": "g3up-2026",
+      "stem": "义务教育教科书 · 数学三年级上册（2026秋版）",
+      "edition": "2026",
+      "editionLabel": "2026秋版",
+      "sourceId": "33c8d495-9862-4e19-aab9-61d2af08608a",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书 · 数学三年级上册",
+      "imageBase": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/33c8d495-9862-4e19-aab9-61d2af08608a.t/zh-CN/1787023027022/transcode/image",
+      "pageCount": 114,
+      "pageOffset": 5,
+      "units": [
+        {
+          "unit_number": 1,
+          "title": "观察物体",
+          "start": 1,
+          "end": 5,
+          "points": [
+            "从不同方向观察物体",
+            "观察立体图形与推断位置",
+            "纸盒展开与空间想象"
+          ]
+        },
+        {
+          "unit_number": 2,
+          "title": "混合运算",
+          "start": 6,
+          "end": 19,
+          "points": [
+            "同级运算的顺序",
+            "含乘除和加减的混合运算",
+            "小括号改变运算顺序",
+            "两步问题与倍的关系"
+          ]
+        },
+        {
+          "unit_number": 3,
+          "title": "毫米、分米和千米",
+          "start": 20,
+          "end": 30,
+          "points": [
+            "毫米和分米的认识与换算",
+            "千米的认识与长度估测",
+            "选择长度单位与解决问题"
+          ]
+        },
+        {
+          "unit_number": 101,
+          "title": "曹冲称象的故事",
+          "start": 31,
+          "end": 38,
+          "points": [
+            "等量替换与分次称重",
+            "克、千克、吨的认识与换算",
+            "选择工具估重与实测"
+          ],
+          "label": "综合与实践"
+        },
+        {
+          "unit_number": 4,
+          "title": "多位数乘一位数",
+          "start": 39,
+          "end": 56,
+          "points": [
+            "口算乘法与算理",
+            "笔算乘法与连续进位",
+            "乘数中间或末尾有0的乘法",
+            "乘法估算与实际问题"
+          ]
+        },
+        {
+          "unit_number": 102,
+          "title": "数字编码",
+          "start": 57,
+          "end": 60,
+          "points": [
+            "认识数字编码的信息",
+            "设计学号与解释编码规则"
+          ],
+          "label": "综合与实践"
+        },
+        {
+          "unit_number": 5,
+          "title": "线和角",
+          "start": 61,
+          "end": 72,
+          "points": [
+            "线段、射线与直线",
+            "两点间距离与比较线段",
+            "角与直角、锐角、钝角"
+          ]
+        },
+        {
+          "unit_number": 6,
+          "title": "分数的初步认识",
+          "start": 73,
+          "end": 91,
+          "points": [
+            "分数的含义与读写",
+            "分数的大小比较",
+            "同分母分数的简单计算",
+            "把一组物品看作整体"
+          ]
+        },
+        {
+          "unit_number": 7,
+          "title": "复习与关联",
+          "start": 92,
+          "end": 99,
+          "points": [
+            "数与运算的联系",
+            "数量关系与分步解决问题",
+            "图形测量与实践综合"
+          ]
+        }
+      ],
+      "readings": []
+    },
+    {
+      "key": "chinese2",
+      "subject": "chinese",
+      "grade": 2,
+      "legacyId": "chinese-g2up",
+      "id": "chinese-g2up-2026",
+      "stem": "义务教育教科书·语文二年级上册（2026秋版）",
+      "edition": "2026",
+      "editionLabel": "2026秋版",
+      "sourceId": "2ce8f153-7bff-4c97-b6db-9aac414fea19",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书·语文二年级上册",
+      "imageBase": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/2ce8f153-7bff-4c97-b6db-9aac414fea19.t/zh-CN/1787022982823/transcode/image",
+      "pageCount": 126,
+      "pageOffset": 5,
+      "units": [
+        {
+          "unit_number": 1,
+          "title": "第一单元·阅读",
+          "start": 1,
+          "end": 15,
+          "points": [
+            "小蝌蚪找妈妈：成长与角色对话",
+            "我是什么：水的变化",
+            "植物妈妈有办法：种子传播",
+            "语文园地一：天气词语与动词表达"
+          ]
+        },
+        {
+          "unit_number": 2,
+          "title": "第二单元·识字",
+          "start": 16,
+          "end": 27,
+          "points": [
+            "场景歌：量词搭配",
+            "树之歌：树木特点",
+            "拍手歌：动物与汉字偏旁",
+            "田家四季歌：四季农事",
+            "语文园地二：部首查字法"
+          ]
+        },
+        {
+          "unit_number": 3,
+          "title": "第三单元·阅读",
+          "start": 28,
+          "end": 38,
+          "points": [
+            "彩虹：想象与关爱",
+            "去外婆家：叙述与观察",
+            "数星星的孩子：观察和思考",
+            "语文园地三：标点与词句表达"
+          ]
+        },
+        {
+          "unit_number": 4,
+          "title": "第四单元·阅读",
+          "start": 39,
+          "end": 53,
+          "points": [
+            "古诗二首：登鹳雀楼与望庐山瀑布",
+            "黄山奇石：景物与想象",
+            "日月潭：景物变化",
+            "葡萄沟：抓住特点",
+            "语文园地四：介绍喜爱的玩具"
+          ]
+        },
+        {
+          "unit_number": 5,
+          "title": "第五单元·阅读",
+          "start": 54,
+          "end": 66,
+          "points": [
+            "坐井观天：联系语境理解道理",
+            "寒号鸟：对话与行为",
+            "我要的是葫芦：事物之间的联系",
+            "语文园地五：词语理解与积累"
+          ]
+        },
+        {
+          "unit_number": 6,
+          "title": "第六单元·阅读",
+          "start": 67,
+          "end": 80,
+          "points": [
+            "八角楼上：观察人物细节",
+            "朱德的扁担：人物动作",
+            "难忘的泼水节：场景与情感",
+            "刘胡兰：人物品质",
+            "语文园地六：汉字结构与词义"
+          ]
+        },
+        {
+          "unit_number": 7,
+          "title": "第七单元·阅读",
+          "start": 81,
+          "end": 94,
+          "points": [
+            "古诗二首：江雪与敕勒歌",
+            "雾在哪里：想象与景物",
+            "雪孩子：变化与情感",
+            "语文园地七：看图写故事"
+          ]
+        },
+        {
+          "unit_number": 8,
+          "title": "第八单元·阅读",
+          "start": 95,
+          "end": 107,
+          "points": [
+            "称赞：体会人物的变化",
+            "纸船和风筝：友谊与表达",
+            "快乐的小河：理解故事道理",
+            "语文园地八：动物分类与拟声词",
+            "语文园地八：看图讲故事与成语"
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "unit": 1,
+          "title": "小蝌蚪找妈妈",
+          "start": 1,
+          "end": 3,
+          "kind": "story",
+          "role": "main",
+          "lesson": 1
+        },
+        {
+          "unit": 1,
+          "title": "我是什么",
+          "start": 5,
+          "end": 6,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 2
+        },
+        {
+          "unit": 1,
+          "title": "植物妈妈有办法",
+          "start": 8,
+          "end": 9,
+          "kind": "poem",
+          "role": "main",
+          "lesson": 3
+        },
+        {
+          "unit": 2,
+          "title": "场景歌",
+          "start": 16,
+          "end": 17,
+          "kind": "poem",
+          "role": "main",
+          "lesson": 1
+        },
+        {
+          "unit": 2,
+          "title": "树之歌",
+          "start": 18,
+          "end": 19,
+          "kind": "poem",
+          "role": "main",
+          "lesson": 2
+        },
+        {
+          "unit": 2,
+          "title": "拍手歌",
+          "start": 20,
+          "end": 21,
+          "kind": "poem",
+          "role": "main",
+          "lesson": 3
+        },
+        {
+          "unit": 2,
+          "title": "田家四季歌",
+          "start": 23,
+          "end": 24,
+          "kind": "poem",
+          "role": "main",
+          "lesson": 4
+        },
+        {
+          "unit": 3,
+          "title": "彩虹",
+          "start": 28,
+          "end": 29,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 4
+        },
+        {
+          "unit": 3,
+          "title": "去外婆家",
+          "start": 30,
+          "end": 31,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 5
+        },
+        {
+          "unit": 3,
+          "title": "数星星的孩子",
+          "start": 32,
+          "end": 33,
+          "kind": "story",
+          "role": "main",
+          "lesson": 6
+        },
+        {
+          "unit": 4,
+          "title": "登鹳雀楼",
+          "start": 39,
+          "end": 39,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 7
+        },
+        {
+          "unit": 4,
+          "title": "望庐山瀑布",
+          "start": 40,
+          "end": 40,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 7
+        },
+        {
+          "unit": 4,
+          "title": "黄山奇石",
+          "start": 42,
+          "end": 43,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 8
+        },
+        {
+          "unit": 4,
+          "title": "日月潭",
+          "start": 45,
+          "end": 46,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 9
+        },
+        {
+          "unit": 4,
+          "title": "葡萄沟",
+          "start": 47,
+          "end": 48,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 10
+        },
+        {
+          "unit": 5,
+          "title": "坐井观天",
+          "start": 54,
+          "end": 55,
+          "kind": "story",
+          "role": "main",
+          "lesson": 11
+        },
+        {
+          "unit": 5,
+          "title": "寒号鸟",
+          "start": 56,
+          "end": 58,
+          "kind": "story",
+          "role": "main",
+          "lesson": 12
+        },
+        {
+          "unit": 5,
+          "title": "我要的是葫芦",
+          "start": 60,
+          "end": 61,
+          "kind": "story",
+          "role": "main",
+          "lesson": 13
+        },
+        {
+          "unit": 6,
+          "title": "八角楼上",
+          "start": 67,
+          "end": 68,
+          "kind": "story",
+          "role": "main",
+          "lesson": 14
+        },
+        {
+          "unit": 6,
+          "title": "朱德的扁担",
+          "start": 69,
+          "end": 70,
+          "kind": "story",
+          "role": "main",
+          "lesson": 15
+        },
+        {
+          "unit": 6,
+          "title": "难忘的泼水节",
+          "start": 72,
+          "end": 74,
+          "kind": "story",
+          "role": "main",
+          "lesson": 16
+        },
+        {
+          "unit": 6,
+          "title": "刘胡兰",
+          "start": 75,
+          "end": 76,
+          "kind": "story",
+          "role": "main",
+          "lesson": 17
+        },
+        {
+          "unit": 7,
+          "title": "江雪",
+          "start": 81,
+          "end": 81,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 18
+        },
+        {
+          "unit": 7,
+          "title": "敕勒歌",
+          "start": 82,
+          "end": 82,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 18
+        },
+        {
+          "unit": 7,
+          "title": "雾在哪里",
+          "start": 84,
+          "end": 86,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 19
+        },
+        {
+          "unit": 7,
+          "title": "雪孩子",
+          "start": 87,
+          "end": 90,
+          "kind": "story",
+          "role": "main",
+          "lesson": 20
+        },
+        {
+          "unit": 8,
+          "title": "称赞",
+          "start": 95,
+          "end": 97,
+          "kind": "story",
+          "role": "main",
+          "lesson": 21
+        },
+        {
+          "unit": 8,
+          "title": "纸船和风筝",
+          "start": 98,
+          "end": 99,
+          "kind": "story",
+          "role": "main",
+          "lesson": 22
+        },
+        {
+          "unit": 8,
+          "title": "快乐的小河",
+          "start": 101,
+          "end": 102,
+          "kind": "story",
+          "role": "main",
+          "lesson": 23
+        },
+        {
+          "unit": 1,
+          "title": "梅花",
+          "start": 12,
+          "end": 12,
+          "kind": "ancient_poem",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 1,
+          "title": "企鹅寄冰",
+          "start": 14,
+          "end": 15,
+          "kind": "story",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 2,
+          "title": "十二月花名歌",
+          "start": 27,
+          "end": 27,
+          "kind": "poem",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 3,
+          "title": "小儿垂钓",
+          "start": 37,
+          "end": 37,
+          "kind": "ancient_poem",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 3,
+          "title": "闻鸡起舞",
+          "start": 38,
+          "end": 38,
+          "kind": "story",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 4,
+          "title": "画家乡",
+          "start": 52,
+          "end": 53,
+          "kind": "prose",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 5,
+          "title": "刻舟求剑",
+          "start": 66,
+          "end": 66,
+          "kind": "story",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 6,
+          "title": "王二小",
+          "start": 80,
+          "end": 80,
+          "kind": "story",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 7,
+          "title": "夜宿山寺",
+          "start": 93,
+          "end": 93,
+          "kind": "ancient_poem",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 7,
+          "title": "分不清是鸭还是霞",
+          "start": 94,
+          "end": 94,
+          "kind": "poem",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 8,
+          "title": "狐假虎威",
+          "start": 107,
+          "end": 107,
+          "kind": "story",
+          "role": "garden",
+          "lesson": 0
+        }
+      ]
+    },
+    {
+      "key": "chinese3",
+      "subject": "chinese",
+      "grade": 3,
+      "legacyId": "chinese-g3up",
+      "id": "chinese-g3up-2026",
+      "stem": "义务教育教科书·语文三年级上册（2026秋版）",
+      "edition": "2026",
+      "editionLabel": "2026秋版",
+      "sourceId": "837f368e-fd4e-404a-ae3f-342d75bc0227",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书·语文三年级上册",
+      "imageBase": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/837f368e-fd4e-404a-ae3f-342d75bc0227.t/zh-CN/1787022983413/transcode/image",
+      "pageCount": 123,
+      "pageOffset": 5,
+      "units": [
+        {
+          "unit_number": 1,
+          "title": "第一单元·校园生活",
+          "start": 1,
+          "end": 12,
+          "points": [
+            "大青树下的小学：有新鲜感的词句",
+            "花的学校：想象画面",
+            "不懂就要问：人物与提问",
+            "语文园地一：成语与朗读表达"
+          ]
+        },
+        {
+          "unit_number": 2,
+          "title": "第二单元·金秋时节",
+          "start": 13,
+          "end": 26,
+          "points": [
+            "古诗三首：望洞庭、山行、夜书所见",
+            "铺满金色巴掌的水泥道：理解词语",
+            "秋天的雨：围绕意思展开",
+            "听听，秋的声音：诗歌想象",
+            "语文园地二：写日记与词语理解"
+          ]
+        },
+        {
+          "unit_number": 3,
+          "title": "第三单元·预测与推想",
+          "start": 27,
+          "end": 44,
+          "points": [
+            "总也倒不了的老屋：根据线索预测",
+            "犟龟：预测与人物行为",
+            "小狗学叫：预测不同结局",
+            "语文园地三：修改符号与续写故事"
+          ]
+        },
+        {
+          "unit_number": 4,
+          "title": "第四单元·童话世界",
+          "start": 45,
+          "end": 58,
+          "points": [
+            "宝葫芦的秘密：感受想象",
+            "在牛肚子里旅行：梳理经历",
+            "一块奶酪：人物与故事",
+            "语文园地四：编写童话与多音字"
+          ]
+        },
+        {
+          "unit_number": 5,
+          "title": "第五单元·留心观察",
+          "start": 59,
+          "end": 68,
+          "points": [
+            "搭船的鸟：观察外形与动作",
+            "金色的草地：发现细微变化",
+            "习作例文：观察方法与选材",
+            "习作：我们眼中的缤纷世界"
+          ]
+        },
+        {
+          "unit_number": 6,
+          "title": "第六单元·祖国之美",
+          "start": 69,
+          "end": 82,
+          "points": [
+            "富饶的西沙群岛：关键语句",
+            "海滨小城：围绕特点描写",
+            "美丽的小兴安岭：季节变化",
+            "香港，璀璨的明珠：段落要点",
+            "语文园地六：围绕意思写一段话"
+          ]
+        },
+        {
+          "unit_number": 7,
+          "title": "第七单元·认识自然",
+          "start": 83,
+          "end": 94,
+          "points": [
+            "古诗三首：鹿柴、望天门山、饮湖上初晴后雨",
+            "大自然的声音：体会生动表达",
+            "读不完的大书：观察与感受",
+            "语文园地七：句式与表达想法"
+          ]
+        },
+        {
+          "unit_number": 8,
+          "title": "第八单元·美好的品质",
+          "start": 95,
+          "end": 108,
+          "points": [
+            "司马光：文言文初读",
+            "一定要争气：人物与努力",
+            "手术台就是阵地：人物品质",
+            "一个粗瓷大碗：故事与人物",
+            "语文园地八：请教与难忘经历"
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "unit": 1,
+          "title": "大青树下的小学",
+          "start": 2,
+          "end": 3,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 1
+        },
+        {
+          "unit": 1,
+          "title": "花的学校",
+          "start": 5,
+          "end": 6,
+          "kind": "poem",
+          "role": "main",
+          "lesson": 2
+        },
+        {
+          "unit": 1,
+          "title": "不懂就要问",
+          "start": 7,
+          "end": 8,
+          "kind": "story",
+          "role": "main",
+          "lesson": 3
+        },
+        {
+          "unit": 2,
+          "title": "望洞庭",
+          "start": 14,
+          "end": 14,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 4
+        },
+        {
+          "unit": 2,
+          "title": "山行",
+          "start": 14,
+          "end": 14,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 4
+        },
+        {
+          "unit": 2,
+          "title": "夜书所见",
+          "start": 15,
+          "end": 15,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 4
+        },
+        {
+          "unit": 2,
+          "title": "铺满金色巴掌的水泥道",
+          "start": 16,
+          "end": 17,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 5
+        },
+        {
+          "unit": 2,
+          "title": "秋天的雨",
+          "start": 19,
+          "end": 20,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 6
+        },
+        {
+          "unit": 2,
+          "title": "听听，秋的声音",
+          "start": 22,
+          "end": 23,
+          "kind": "poem",
+          "role": "main",
+          "lesson": 7
+        },
+        {
+          "unit": 3,
+          "title": "总也倒不了的老屋",
+          "start": 28,
+          "end": 30,
+          "kind": "story",
+          "role": "main",
+          "lesson": 8
+        },
+        {
+          "unit": 3,
+          "title": "犟龟",
+          "start": 32,
+          "end": 35,
+          "kind": "story",
+          "role": "main",
+          "lesson": 9
+        },
+        {
+          "unit": 3,
+          "title": "小狗学叫",
+          "start": 36,
+          "end": 40,
+          "kind": "story",
+          "role": "main",
+          "lesson": 10
+        },
+        {
+          "unit": 4,
+          "title": "宝葫芦的秘密（节选）",
+          "start": 46,
+          "end": 48,
+          "kind": "story",
+          "role": "main",
+          "lesson": 11
+        },
+        {
+          "unit": 4,
+          "title": "在牛肚子里旅行",
+          "start": 49,
+          "end": 51,
+          "kind": "story",
+          "role": "main",
+          "lesson": 12
+        },
+        {
+          "unit": 4,
+          "title": "一块奶酪",
+          "start": 52,
+          "end": 53,
+          "kind": "story",
+          "role": "main",
+          "lesson": 13
+        },
+        {
+          "unit": 5,
+          "title": "搭船的鸟",
+          "start": 60,
+          "end": 61,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 14
+        },
+        {
+          "unit": 5,
+          "title": "金色的草地",
+          "start": 62,
+          "end": 63,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 15
+        },
+        {
+          "unit": 6,
+          "title": "富饶的西沙群岛",
+          "start": 70,
+          "end": 71,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 16
+        },
+        {
+          "unit": 6,
+          "title": "海滨小城",
+          "start": 73,
+          "end": 74,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 17
+        },
+        {
+          "unit": 6,
+          "title": "美丽的小兴安岭",
+          "start": 75,
+          "end": 76,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 18
+        },
+        {
+          "unit": 6,
+          "title": "香港，璀璨的明珠",
+          "start": 78,
+          "end": 79,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 19
+        },
+        {
+          "unit": 7,
+          "title": "鹿柴",
+          "start": 84,
+          "end": 84,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 20
+        },
+        {
+          "unit": 7,
+          "title": "望天门山",
+          "start": 84,
+          "end": 84,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 20
+        },
+        {
+          "unit": 7,
+          "title": "饮湖上初晴后雨",
+          "start": 85,
+          "end": 85,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 20
+        },
+        {
+          "unit": 7,
+          "title": "大自然的声音",
+          "start": 86,
+          "end": 87,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 21
+        },
+        {
+          "unit": 7,
+          "title": "读不完的大书",
+          "start": 89,
+          "end": 90,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 22
+        },
+        {
+          "unit": 8,
+          "title": "司马光",
+          "start": 96,
+          "end": 96,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 23
+        },
+        {
+          "unit": 8,
+          "title": "一定要争气",
+          "start": 97,
+          "end": 98,
+          "kind": "story",
+          "role": "main",
+          "lesson": 24
+        },
+        {
+          "unit": 8,
+          "title": "手术台就是阵地",
+          "start": 100,
+          "end": 101,
+          "kind": "story",
+          "role": "main",
+          "lesson": 25
+        },
+        {
+          "unit": 8,
+          "title": "一个粗瓷大碗",
+          "start": 103,
+          "end": 104,
+          "kind": "story",
+          "role": "main",
+          "lesson": 26
+        },
+        {
+          "unit": 1,
+          "title": "所见",
+          "start": 12,
+          "end": 12,
+          "kind": "ancient_poem",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 5,
+          "title": "我家的小狗",
+          "start": 66,
+          "end": 67,
+          "kind": "prose",
+          "role": "writing_example",
+          "lesson": 0
+        },
+        {
+          "unit": 5,
+          "title": "我爱故乡的杨梅",
+          "start": 67,
+          "end": 68,
+          "kind": "prose",
+          "role": "writing_example",
+          "lesson": 0
+        },
+        {
+          "unit": 6,
+          "title": "早发白帝城",
+          "start": 82,
+          "end": 82,
+          "kind": "ancient_poem",
+          "role": "garden",
+          "lesson": 0
+        },
+        {
+          "unit": 7,
+          "title": "采莲曲",
+          "start": 94,
+          "end": 94,
+          "kind": "ancient_poem",
+          "role": "garden",
+          "lesson": 0
+        }
+      ]
+    },
+    {
+      "key": "english3",
+      "subject": "english",
+      "grade": 3,
+      "legacyId": "english-g3up",
+      "id": "english-g3up-2026",
+      "stem": "义务教育教科书·英语（PEP）（三年级起点）三年级上册（2026秋版）",
+      "edition": "2026",
+      "editionLabel": "2026秋版",
+      "sourceId": "dd6173ba-579a-356e-900c-cb53e152229c",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书•英语 三年级上册",
+      "imageBase": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/dd6173ba-579a-356e-900c-cb53e152229c.t/zh-CN/1787124944504/transcode/image",
+      "pageCount": 98,
+      "pageOffset": 5,
+      "units": [
+        {
+          "unit_number": 1,
+          "title": "Making friends",
+          "start": 2,
+          "end": 13,
+          "points": [
+            "问候、自我介绍与询问姓名",
+            "身体部位和交友行为",
+            "字母Aa—Dd的音形与发音",
+            "倾听、帮助、分享与友好交往"
+          ]
+        },
+        {
+          "unit_number": 2,
+          "title": "Different families",
+          "start": 14,
+          "end": 25,
+          "points": [
+            "介绍家庭成员",
+            "确认人物身份与家庭差异",
+            "字母Ee—Hh的音形与发音",
+            "家庭树与阅读理解"
+          ]
+        },
+        {
+          "unit_number": 3,
+          "title": "Our animal friends",
+          "start": 26,
+          "end": 37,
+          "points": [
+            "宠物和喜好表达",
+            "野生动物与this、that问答",
+            "字母Ii—Ll的音形与发音",
+            "动物分类与阅读理解"
+          ]
+        },
+        {
+          "unit_number": 4,
+          "title": "Plants around us",
+          "start": 38,
+          "end": 49,
+          "points": [
+            "水果喜好与一般疑问句",
+            "植物的需要与照料",
+            "字母Mm—Pp的音形与发音",
+            "植物与人的相互帮助"
+          ]
+        },
+        {
+          "unit_number": 5,
+          "title": "The colourful world",
+          "start": 50,
+          "end": 61,
+          "points": [
+            "描述颜色与调色",
+            "表达颜色喜好与用途",
+            "字母Qq—Uu的音形与发音",
+            "颜色变化与阅读理解"
+          ]
+        },
+        {
+          "unit_number": 6,
+          "title": "Useful numbers",
+          "start": 62,
+          "end": 73,
+          "points": [
+            "数字1—10和年龄问答",
+            "数量与价钱的生活应用",
+            "字母Vv—Zz的音形与发音",
+            "生日邀请与数字信息"
+          ]
+        },
+        {
+          "unit_number": 7,
+          "title": "Revision: Being a good guest",
+          "start": 74,
+          "end": 77,
+          "points": [
+            "礼貌做客与综合交际",
+            "综合词汇与情境阅读"
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "unit": 1,
+          "title": "Unit 1 A 对话",
+          "start": 4,
+          "end": 4,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 1
+        },
+        {
+          "unit": 1,
+          "title": "Unit 1 A 词汇与歌谣",
+          "start": 5,
+          "end": 5,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 2
+        },
+        {
+          "unit": 1,
+          "title": "Unit 1 Letters and sounds",
+          "start": 6,
+          "end": 6,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 3
+        },
+        {
+          "unit": 1,
+          "title": "Unit 1 B 对话",
+          "start": 7,
+          "end": 7,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 4
+        },
+        {
+          "unit": 1,
+          "title": "Unit 1 B 词汇与歌谣",
+          "start": 8,
+          "end": 8,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 5
+        },
+        {
+          "unit": 1,
+          "title": "Unit 1 Start to read",
+          "start": 9,
+          "end": 9,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 6
+        },
+        {
+          "unit": 1,
+          "title": "Unit 1 Reading time",
+          "start": 12,
+          "end": 13,
+          "kind": "story",
+          "role": "optional",
+          "lesson": 7
+        },
+        {
+          "unit": 2,
+          "title": "Unit 2 A 对话",
+          "start": 16,
+          "end": 16,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 8
+        },
+        {
+          "unit": 2,
+          "title": "Unit 2 A 词汇与歌谣",
+          "start": 17,
+          "end": 17,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 9
+        },
+        {
+          "unit": 2,
+          "title": "Unit 2 Letters and sounds",
+          "start": 18,
+          "end": 18,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 10
+        },
+        {
+          "unit": 2,
+          "title": "Unit 2 B 对话",
+          "start": 19,
+          "end": 19,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 11
+        },
+        {
+          "unit": 2,
+          "title": "Unit 2 B 词汇与歌谣",
+          "start": 20,
+          "end": 20,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 12
+        },
+        {
+          "unit": 2,
+          "title": "Unit 2 Start to read",
+          "start": 21,
+          "end": 21,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 13
+        },
+        {
+          "unit": 2,
+          "title": "Unit 2 Reading time",
+          "start": 24,
+          "end": 25,
+          "kind": "story",
+          "role": "optional",
+          "lesson": 14
+        },
+        {
+          "unit": 3,
+          "title": "Unit 3 A 对话",
+          "start": 28,
+          "end": 28,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 15
+        },
+        {
+          "unit": 3,
+          "title": "Unit 3 A 词汇与歌谣",
+          "start": 29,
+          "end": 29,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 16
+        },
+        {
+          "unit": 3,
+          "title": "Unit 3 Letters and sounds",
+          "start": 30,
+          "end": 30,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 17
+        },
+        {
+          "unit": 3,
+          "title": "Unit 3 B 对话",
+          "start": 31,
+          "end": 31,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 18
+        },
+        {
+          "unit": 3,
+          "title": "Unit 3 B 词汇与歌谣",
+          "start": 32,
+          "end": 32,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 19
+        },
+        {
+          "unit": 3,
+          "title": "Unit 3 Start to read",
+          "start": 33,
+          "end": 33,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 20
+        },
+        {
+          "unit": 3,
+          "title": "Unit 3 Reading time",
+          "start": 36,
+          "end": 37,
+          "kind": "story",
+          "role": "optional",
+          "lesson": 21
+        },
+        {
+          "unit": 4,
+          "title": "Unit 4 A 对话",
+          "start": 40,
+          "end": 40,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 22
+        },
+        {
+          "unit": 4,
+          "title": "Unit 4 A 词汇与歌谣",
+          "start": 41,
+          "end": 41,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 23
+        },
+        {
+          "unit": 4,
+          "title": "Unit 4 Letters and sounds",
+          "start": 42,
+          "end": 42,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 24
+        },
+        {
+          "unit": 4,
+          "title": "Unit 4 B 对话",
+          "start": 43,
+          "end": 43,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 25
+        },
+        {
+          "unit": 4,
+          "title": "Unit 4 B 词汇与歌谣",
+          "start": 44,
+          "end": 44,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 26
+        },
+        {
+          "unit": 4,
+          "title": "Unit 4 Start to read",
+          "start": 45,
+          "end": 45,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 27
+        },
+        {
+          "unit": 4,
+          "title": "Unit 4 Reading time",
+          "start": 48,
+          "end": 49,
+          "kind": "story",
+          "role": "optional",
+          "lesson": 28
+        },
+        {
+          "unit": 5,
+          "title": "Unit 5 A 对话",
+          "start": 52,
+          "end": 52,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 29
+        },
+        {
+          "unit": 5,
+          "title": "Unit 5 A 词汇与歌谣",
+          "start": 53,
+          "end": 53,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 30
+        },
+        {
+          "unit": 5,
+          "title": "Unit 5 Letters and sounds",
+          "start": 54,
+          "end": 54,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 31
+        },
+        {
+          "unit": 5,
+          "title": "Unit 5 B 对话",
+          "start": 55,
+          "end": 55,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 32
+        },
+        {
+          "unit": 5,
+          "title": "Unit 5 B 词汇与歌谣",
+          "start": 56,
+          "end": 56,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 33
+        },
+        {
+          "unit": 5,
+          "title": "Unit 5 Start to read",
+          "start": 57,
+          "end": 57,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 34
+        },
+        {
+          "unit": 5,
+          "title": "Unit 5 Reading time",
+          "start": 60,
+          "end": 61,
+          "kind": "story",
+          "role": "optional",
+          "lesson": 35
+        },
+        {
+          "unit": 6,
+          "title": "Unit 6 A 对话",
+          "start": 64,
+          "end": 64,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 36
+        },
+        {
+          "unit": 6,
+          "title": "Unit 6 A 词汇与歌谣",
+          "start": 65,
+          "end": 65,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 37
+        },
+        {
+          "unit": 6,
+          "title": "Unit 6 Letters and sounds",
+          "start": 66,
+          "end": 66,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 38
+        },
+        {
+          "unit": 6,
+          "title": "Unit 6 B 对话",
+          "start": 67,
+          "end": 67,
+          "kind": "dialogue",
+          "role": "main",
+          "lesson": 39
+        },
+        {
+          "unit": 6,
+          "title": "Unit 6 B 词汇与歌谣",
+          "start": 68,
+          "end": 68,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 40
+        },
+        {
+          "unit": 6,
+          "title": "Unit 6 Start to read",
+          "start": 69,
+          "end": 69,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 41
+        },
+        {
+          "unit": 6,
+          "title": "Unit 6 Reading time",
+          "start": 72,
+          "end": 73,
+          "kind": "story",
+          "role": "optional",
+          "lesson": 42
+        },
+        {
+          "unit": 7,
+          "title": "Being a good guest",
+          "start": 74,
+          "end": 77,
+          "kind": "dialogue",
+          "role": "revision",
+          "lesson": 43
+        }
+      ]
+    },
+    {
+      "key": "science3",
+      "subject": "science",
+      "grade": 3,
+      "legacyId": "science-g3up",
+      "id": "science-g3up-2026",
+      "stem": "义务教育教科书·科学三年级上册（2026秋版）",
+      "edition": "2026",
+      "editionLabel": "2026秋版",
+      "sourceId": "c8959f5d-8cb6-4624-aebc-df78b612b332",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书·科学三年级上册",
+      "imageBase": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/c8959f5d-8cb6-4624-aebc-df78b612b332.t/zh-CN/1787020644899/transcode/image",
+      "pageCount": 94,
+      "pageOffset": 7,
+      "units": [
+        {
+          "unit_number": 1,
+          "title": "天气",
+          "start": 1,
+          "end": 28,
+          "points": [
+            "我们关心天气",
+            "认识气温计",
+            "测量气温",
+            "测量降水量",
+            "观测风",
+            "观察云",
+            "天气预报",
+            "天气的影响"
+          ]
+        },
+        {
+          "unit_number": 2,
+          "title": "水",
+          "start": 29,
+          "end": 56,
+          "points": [
+            "水到哪里去了",
+            "水珠从哪里来",
+            "水沸腾了",
+            "水结冰了",
+            "冰熔化了",
+            "水能溶解多少物质",
+            "加快溶解",
+            "用水分离"
+          ]
+        },
+        {
+          "unit_number": 3,
+          "title": "物体的运动",
+          "start": 57,
+          "end": 84,
+          "points": [
+            "运动和位置",
+            "各种各样的运动",
+            "直线运动和曲线运动",
+            "相同距离比快慢",
+            "相同时间比快慢",
+            "运动和能量",
+            "设计和制作“过山车”",
+            "测试“过山车”"
+          ]
+        }
+      ],
+      "readings": []
+    }
+  ]
+}

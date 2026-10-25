@@ -1,0 +1,393 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学三年级上册（2026秋版）",
+  "unit": "毫米、分米和千米",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "毫米、分米和千米·配套练习",
+    "total_score": 180,
+    "time_minutes": 18,
+    "questions": [
+      {
+        "answer": "10",
+        "difficulty": 1,
+        "explanation": "1厘米里有10个1毫米，所以1厘米=10毫米。",
+        "knowledge_point": "毫米和分米的认识与换算",
+        "options": [
+          "10",
+          "1000",
+          "100",
+          "1"
+        ],
+        "question": "1厘米等于多少毫米？",
+        "type": "choice",
+        "id": 30001,
+        "score": 10
+      },
+      {
+        "answer": "100",
+        "difficulty": 1,
+        "explanation": "1分米=10厘米，1厘米=10毫米，所以1分米=100毫米。",
+        "knowledge_point": "毫米和分米的认识与换算",
+        "options": [],
+        "question": "1分米=（ ）毫米。",
+        "type": "calculation",
+        "id": 30002,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 1,
+        "explanation": "10厘米=1分米，70厘米里面有7个10厘米，所以是7分米。",
+        "knowledge_point": "毫米和分米的认识与换算",
+        "options": [],
+        "question": "70厘米=（ ）分米。",
+        "type": "calculation",
+        "id": 30003,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 1,
+        "explanation": "10毫米=1厘米，80毫米里面有8个10毫米，所以等于8厘米。",
+        "knowledge_point": "毫米和分米的认识与换算",
+        "options": [
+          "800",
+          "18",
+          "80",
+          "8"
+        ],
+        "question": "80毫米等于多少厘米？",
+        "type": "choice",
+        "id": 30004,
+        "score": 10
+      },
+      {
+        "answer": "28",
+        "difficulty": 2,
+        "explanation": "2厘米=20毫米，20+8=28，所以2厘米8毫米等于28毫米。",
+        "knowledge_point": "毫米和分米的认识与换算",
+        "options": [
+          "80",
+          "28",
+          "10",
+          "208"
+        ],
+        "question": "2厘米8毫米等于多少毫米？",
+        "type": "choice",
+        "id": 30005,
+        "score": 10
+      },
+      {
+        "answer": "5分米",
+        "difficulty": 2,
+        "explanation": "2米=20分米，平均分成4段，每段长20÷4=5分米。",
+        "knowledge_point": "毫米和分米的认识与换算",
+        "options": [
+          "5分米",
+          "2分米",
+          "5厘米",
+          "50分米"
+        ],
+        "question": "把一根2米长的木料锯成同样长的4段，不计锯切损耗，每段长多少？",
+        "type": "choice",
+        "id": 30006,
+        "score": 10
+      },
+      {
+        "answer": "1000",
+        "difficulty": 1,
+        "explanation": "千米与米之间的进率是1000，所以1千米=1000米。",
+        "knowledge_point": "千米的认识与长度估测",
+        "options": [
+          "1000",
+          "10",
+          "100",
+          "10000"
+        ],
+        "question": "1千米等于多少米？",
+        "type": "choice",
+        "id": 30007,
+        "score": 10
+      },
+      {
+        "answer": "5000",
+        "difficulty": 1,
+        "explanation": "1千米=1000米，5千米是5个1000米，即5000米。",
+        "knowledge_point": "千米的认识与长度估测",
+        "options": [],
+        "question": "5千米=（ ）米。",
+        "type": "calculation",
+        "id": 30008,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 1,
+        "explanation": "1000米是1千米，6000米里面有6个1000米，所以是6千米。",
+        "knowledge_point": "千米的认识与长度估测",
+        "options": [],
+        "question": "6000米=（ ）千米。",
+        "type": "calculation",
+        "id": 30009,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "两圈长400+400=800米，半圈长400÷2=200米，一共800+200=1000米，即1千米。",
+        "knowledge_point": "千米的认识与长度估测",
+        "options": [],
+        "question": "判断：一条跑道一圈长400米，沿这条跑道跑2圈半，路程正好是1千米。",
+        "type": "true_false",
+        "id": 30010,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 2,
+        "explanation": "5圈共长400×5=2000米，2000米=2千米。",
+        "knowledge_point": "千米的认识与长度估测",
+        "options": [
+          "5",
+          "1",
+          "2",
+          "20"
+        ],
+        "question": "跑道一圈长400米，小明跑了5圈，一共跑了几千米？",
+        "type": "choice",
+        "id": 30011,
+        "score": 10
+      },
+      {
+        "answer": "约700米",
+        "difficulty": 2,
+        "explanation": "以一分钟大约走70米为标准，10分钟大约走70×10=700米。",
+        "knowledge_point": "千米的认识与长度估测",
+        "options": [
+          "约70米",
+          "约10米",
+          "约700米",
+          "约7000米"
+        ],
+        "question": "小华平均每分钟大约走70米，从家到学校步行约10分钟。估计他家到学校的路程是多少？",
+        "type": "choice",
+        "id": 30012,
+        "score": 10
+      },
+      {
+        "answer": "毫米",
+        "difficulty": 1,
+        "explanation": "身份证很薄，厚度大约1毫米，用毫米作单位合适。",
+        "knowledge_point": "选择长度单位与解决问题",
+        "options": [
+          "厘米",
+          "毫米",
+          "千米",
+          "米"
+        ],
+        "question": "身份证大约厚1（ ），括号里填哪个长度单位合适？",
+        "type": "choice",
+        "id": 30013,
+        "score": 10
+      },
+      {
+        "answer": "千米",
+        "difficulty": 1,
+        "explanation": "马拉松全程的路程较长，约42千米，用千米作单位合适。",
+        "knowledge_point": "选择长度单位与解决问题",
+        "options": [
+          "毫米",
+          "米",
+          "千米",
+          "厘米"
+        ],
+        "question": "马拉松比赛全程约42（ ），括号里填哪个长度单位合适？",
+        "type": "choice",
+        "id": 30014,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "10毫米=1厘米，60毫米=6厘米，不是6分米。",
+        "knowledge_point": "选择长度单位与解决问题",
+        "options": [],
+        "question": "判断：一本书实测厚60毫米，也就是厚6分米。",
+        "type": "true_false",
+        "id": 30015,
+        "score": 10
+      },
+      {
+        "answer": "203",
+        "difficulty": 2,
+        "explanation": "2米=200厘米，200+3=203厘米。",
+        "knowledge_point": "选择长度单位与解决问题",
+        "options": [],
+        "question": "一根彩带长2米，另一根长3厘米。两根彩带一共长多少厘米？",
+        "type": "calculation",
+        "id": 30016,
+        "score": 10
+      },
+      {
+        "answer": "10",
+        "difficulty": 3,
+        "explanation": "往返一次游50+50=100米。1千米=1000米，1000÷100=10，所以要游10个来回。",
+        "knowledge_point": "选择长度单位与解决问题",
+        "options": [
+          "50",
+          "5",
+          "20",
+          "10"
+        ],
+        "question": "一个游泳池长50米。从泳池一端游到另一端再游回来算一个来回。沿泳池的长度方向游1千米，需要游多少个来回？",
+        "type": "choice",
+        "id": 30017,
+        "score": 10
+      },
+      {
+        "answer": "145",
+        "difficulty": 3,
+        "explanation": "8分米=80厘米，两块木板的长度之和为80+80=160厘米。重叠部分被算了两次，应减去一次，拼接后长160−15=145厘米。",
+        "knowledge_point": "选择长度单位与解决问题",
+        "options": [
+          "175",
+          "160",
+          "145",
+          "65"
+        ],
+        "question": "把两块各长8分米的木板沿长度方向重叠拼成一块长木板，重叠部分长15厘米。拼接后的木板长多少厘米？",
+        "type": "choice",
+        "id": 30018,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "毫米、分米和千米·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "600",
+        "difficulty": 2,
+        "explanation": "1分米=100毫米，6分米就是6个100毫米，等于600毫米。",
+        "knowledge_point": "毫米和分米的认识与换算",
+        "options": [
+          "600",
+          "60",
+          "6000",
+          "6"
+        ],
+        "question": "6分米等于多少毫米？",
+        "type": "choice",
+        "id": 39001,
+        "score": 10
+      },
+      {
+        "answer": "3000",
+        "difficulty": 1,
+        "explanation": "1千米=1000米，3千米就是3个1000米，即3000米。",
+        "knowledge_point": "千米的认识与长度估测",
+        "options": [],
+        "question": "3千米=（ ）米。",
+        "type": "calculation",
+        "id": 39002,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "50毫米=5厘米，1分米=10厘米，5厘米小于10厘米，所以说法正确。",
+        "knowledge_point": "选择长度单位与解决问题",
+        "options": [],
+        "question": "判断：50毫米比1分米短。",
+        "type": "true_false",
+        "id": 39003,
+        "score": 10
+      },
+      {
+        "answer": "100",
+        "difficulty": 2,
+        "explanation": "4分米=400毫米。对折两次后，绳子平均分成4段，每段长400÷4=100毫米。",
+        "knowledge_point": "毫米和分米的认识与换算",
+        "options": [
+          "400",
+          "100",
+          "40",
+          "10"
+        ],
+        "question": "一根长4分米的绳子，对折后再对折，每次都将两端对齐。展开后，相邻折痕之间的一段长多少毫米？",
+        "type": "choice",
+        "id": 39004,
+        "score": 10
+      },
+      {
+        "answer": "300",
+        "difficulty": 2,
+        "explanation": "1千米=1000米，1000−700=300，所以结果是300米。",
+        "knowledge_point": "千米的认识与长度估测",
+        "options": [
+          "1700",
+          "200",
+          "700",
+          "300"
+        ],
+        "question": "1千米−700米=（ ）米。",
+        "type": "choice",
+        "id": 39005,
+        "score": 10
+      },
+      {
+        "answer": "米",
+        "difficulty": 1,
+        "explanation": "过街天桥的长度用米作单位比较合适，长约30米符合实际。",
+        "knowledge_point": "选择长度单位与解决问题",
+        "options": [
+          "米",
+          "千米",
+          "毫米",
+          "厘米"
+        ],
+        "question": "一座过街天桥长约30（ ），括号里填哪个长度单位合适？",
+        "type": "choice",
+        "id": 39006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "混淆毫米、厘米和分米的大小关系。",
+        "把1厘米=10毫米误写成1厘米=100毫米。",
+        "换算时漏乘或漏除进率。"
+      ],
+      "core_concept": "毫米是比厘米小的长度单位，用mm表示，测量较短的长度或需要较精确地测量时可以使用。分米是比厘米大、比米小的长度单位，用dm表示。",
+      "key_formula": "1厘米=10毫米；1分米=10厘米=100毫米；1米=10分米=100厘米。",
+      "point": "毫米和分米的认识与换算",
+      "tips": "大单位换成小单位，按进率相乘；小单位换成大单位，按进率相除。在有毫米刻度的直尺上，1厘米被平均分成10小格，每小格长1毫米。"
+    },
+    {
+      "common_mistakes": [
+        "把1千米误认为100米或10000米。",
+        "估测时没有先选定合适的标准。",
+        "千米和米相加减时忘记统一单位。"
+      ],
+      "core_concept": "千米是计量较长路程的单位，也叫公里，用km表示。1千米等于1000米；估测距离时，可以用熟悉的步长、一定时间内步行的距离或已知路段作参照。",
+      "key_formula": "1千米=1000米；千米数×1000=米数；米数÷1000=千米数。",
+      "point": "千米的认识与长度估测",
+      "tips": "先选择合适的标准，再根据步数、时间或路段数量估算；估算的结果通常用“大约”表述。"
+    },
+    {
+      "common_mistakes": [
+        "没有结合测量对象的实际大小和给出的数值选择单位。",
+        "比较不同单位的长度时，没有先换成相同单位。",
+        "拼接木板时忘记减去重叠部分的长度。"
+      ],
+      "core_concept": "选择长度单位要结合测量对象的实际大小和给出的数值。毫米、厘米、分米、米、千米适用于不同的测量情境；比较或计算不同单位的长度时，应先统一单位。",
+      "key_formula": "长度比较或加减：先统一单位，再比较或计算；两块木板重叠拼接后的总长=两块木板长度之和−重叠部分长度。",
+      "point": "选择长度单位与解决问题",
+      "tips": "先估一估数值与单位搭配是否合理，再计算；往返一次要计算两个单程，重叠拼接要扣除重复计算的部分。"
+    }
+  ]
+}

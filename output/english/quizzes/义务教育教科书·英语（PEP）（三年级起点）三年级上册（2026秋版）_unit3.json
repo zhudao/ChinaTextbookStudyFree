@@ -1,0 +1,520 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书•英语 三年级上册（2026秋版）",
+  "unit": "Our animal friends",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "Our animal friends·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "I like cats.",
+        "difficulty": 1,
+        "explanation": "主语I后用like，cats表示猫这一类动物，因此应选“I like cats.”。",
+        "knowledge_point": "宠物和喜好表达",
+        "options": [
+          "I am like cats.",
+          "I like cats.",
+          "I like cat.",
+          "I likes cats."
+        ],
+        "question": "选出表达“我喜欢猫”的正确句子。",
+        "type": "choice",
+        "id": 30001,
+        "score": 10
+      },
+      {
+        "answer": "No, I don't.",
+        "difficulty": 1,
+        "explanation": "用Do提问，简短否定回答用“No, I don't.”。",
+        "knowledge_point": "宠物和喜好表达",
+        "options": [
+          "No, I doesn't.",
+          "No, I am not.",
+          "No, I haven't.",
+          "No, I don't."
+        ],
+        "question": "问“Do you have a pet?”，选择正确的简短否定回答。",
+        "type": "choice",
+        "id": 30002,
+        "score": 10
+      },
+      {
+        "answer": "Yes, I do. I have a dog.",
+        "difficulty": 2,
+        "explanation": "有宠物应先肯定回答“Yes, I do.”，再用“I have a dog.”说明养了一只狗。",
+        "knowledge_point": "宠物和喜好表达",
+        "options": [
+          "Yes, I do. I have a dog.",
+          "Yes, I am. I have a dog.",
+          "Yes, I don't. I have a dog.",
+          "Yes, I do. I has a dog."
+        ],
+        "question": "你养了一只宠物狗。选出回答“Do you have a pet?”的正确句子。",
+        "type": "choice",
+        "id": 30003,
+        "score": 10
+      },
+      {
+        "answer": "fish",
+        "difficulty": 1,
+        "explanation": "调查记录中Guo Wei对应fish，所以他养的宠物是鱼。",
+        "knowledge_point": "宠物和喜好表达",
+        "options": [
+          "dog",
+          "fish",
+          "cat",
+          "rabbit"
+        ],
+        "question": "宠物调查记录：Sarah—dog；Binbin—没有宠物；Guo Wei—fish。Guo Wei养什么宠物？",
+        "type": "choice",
+        "id": 30004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "like表示喜欢，birds表示鸟这一类动物；该句可以表达“我喜欢鸟”。",
+        "knowledge_point": "宠物和喜好表达",
+        "options": [],
+        "question": "判断：“I like birds.”可以表达“我喜欢鸟”。",
+        "type": "true_false",
+        "id": 30005,
+        "score": 10
+      },
+      {
+        "answer": "I like my dog.",
+        "difficulty": 2,
+        "explanation": "like表示喜欢，my dog表示我的狗；合起来是“I like my dog.”。have表示有，不表示喜欢。",
+        "knowledge_point": "宠物和喜好表达",
+        "options": [
+          "I like my dog.",
+          "I am my dog.",
+          "I likes my dog.",
+          "I have a dog."
+        ],
+        "question": "你想说“我喜欢我的狗”，应选择哪句话？",
+        "type": "choice",
+        "id": 30006,
+        "score": 10
+      },
+      {
+        "answer": "It's a panda.",
+        "difficulty": 1,
+        "explanation": "panda表示熊猫，以辅音音素开头，前面用a；完整回答为“It's a panda.”。",
+        "knowledge_point": "野生动物与this、that问答",
+        "options": [
+          "It's panda.",
+          "It's an panda.",
+          "This a panda.",
+          "It's a panda."
+        ],
+        "question": "看到近处一只熊猫，有人问“What's this?”。选择正确回答。",
+        "type": "choice",
+        "id": 30007,
+        "score": 10
+      },
+      {
+        "answer": "What's that?",
+        "difficulty": 1,
+        "explanation": "询问较远处的一只动物是什么，用“What's that?”。this用于近处。",
+        "knowledge_point": "野生动物与this、that问答",
+        "options": [
+          "Where is that?",
+          "Who is that?",
+          "What's this?",
+          "What's that?"
+        ],
+        "question": "你想询问较远处的一只动物是什么，应说哪句话？",
+        "type": "choice",
+        "id": 30008,
+        "score": 10
+      },
+      {
+        "answer": "It's an elephant.",
+        "difficulty": 2,
+        "explanation": "elephant表示大象，以元音音素开头，前面用an。",
+        "knowledge_point": "野生动物与this、that问答",
+        "options": [
+          "It's elephant.",
+          "It an elephant.",
+          "It's an elephant.",
+          "It's a elephant."
+        ],
+        "question": "看到近处一头大象，有人问“What's this?”。选择正确回答。",
+        "type": "choice",
+        "id": 30009,
+        "score": 10
+      },
+      {
+        "answer": "this",
+        "difficulty": 1,
+        "explanation": "题目说明老虎在近处，指一只动物时用this；that表示较远处，these和those指复数。",
+        "knowledge_point": "野生动物与this、that问答",
+        "options": [
+          "those",
+          "that",
+          "these",
+          "this"
+        ],
+        "question": "你指着近处的一只老虎，想问它是什么。补全句子：“What's ___?”",
+        "type": "choice",
+        "id": 30010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "this用于近处。询问较远处的狐狸，应说“What's that?”。",
+        "knowledge_point": "野生动物与this、that问答",
+        "options": [],
+        "question": "判断：你指着较远处的一只狐狸，询问它是什么时，应使用“What's this?”。",
+        "type": "true_false",
+        "id": 30011,
+        "score": 10
+      },
+      {
+        "answer": "It's a monkey.",
+        "difficulty": 1,
+        "explanation": "monkey表示猴子，以辅音音素开头，前面用a；完整回答为“It's a monkey.”。",
+        "knowledge_point": "野生动物与this、that问答",
+        "options": [
+          "This a monkey.",
+          "It's a monkey.",
+          "It's an monkey.",
+          "It monkey."
+        ],
+        "question": "看到近处一只猴子，别人问“What's this?”，选择正确回答。",
+        "type": "choice",
+        "id": 30012,
+        "score": 10
+      },
+      {
+        "answer": "i",
+        "difficulty": 1,
+        "explanation": "大写字母I对应的小写字母是i。",
+        "knowledge_point": "字母Ii—Ll的音形与发音",
+        "options": [
+          "i",
+          "k",
+          "j",
+          "l"
+        ],
+        "question": "大写字母I对应哪个小写字母？",
+        "type": "choice",
+        "id": 30013,
+        "score": 10
+      },
+      {
+        "answer": "j",
+        "difficulty": 1,
+        "explanation": "job最左边的字母是j，所以首字母是j。",
+        "knowledge_point": "字母Ii—Ll的音形与发音",
+        "options": [
+          "j",
+          "l",
+          "i",
+          "k"
+        ],
+        "question": "单词“job”的首字母是什么？",
+        "type": "choice",
+        "id": 30014,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "K对应的小写是k，kite的首字母也是k，所以判断正确。",
+        "knowledge_point": "字母Ii—Ll的音形与发音",
+        "options": [],
+        "question": "判断：字母K的小写是k，而且“kite”以k开头。",
+        "type": "true_false",
+        "id": 30015,
+        "score": 10
+      },
+      {
+        "answer": "lion",
+        "difficulty": 2,
+        "explanation": "leg和lion的首字母都是l，首音都是/l/。其他选项的首音分别是/dʒ/、/k/和/ɪ/。",
+        "knowledge_point": "字母Ii—Ll的音形与发音",
+        "options": [
+          "jet",
+          "ill",
+          "lion",
+          "kite"
+        ],
+        "question": "单词“leg”的首音是/l/。下面哪个单词的首音也为/l/？",
+        "type": "choice",
+        "id": 30016,
+        "score": 10
+      },
+      {
+        "answer": "Ii、Jj、Kk、Ll",
+        "difficulty": 1,
+        "explanation": "按字母表顺序，这四个字母是I、J、K、L，对应小写分别为i、j、k、l。",
+        "knowledge_point": "字母Ii—Ll的音形与发音",
+        "options": [
+          "Ii、Jj、Kk、Ll",
+          "Ii、Jj、Ll、Kk",
+          "Ii、Kk、Jj、Ll",
+          "Jj、Ii、Kk、Ll"
+        ],
+        "question": "哪一组将Ii、Jj、Kk、Ll按字母表顺序正确排列？",
+        "type": "choice",
+        "id": 30017,
+        "score": 10
+      },
+      {
+        "answer": "leg",
+        "difficulty": 1,
+        "explanation": "四个单词的首字母依次是i、j、k、l，所以以l开头的是leg。",
+        "knowledge_point": "字母Ii—Ll的音形与发音",
+        "options": [
+          "jet",
+          "kite",
+          "leg",
+          "ill"
+        ],
+        "question": "下面哪个单词以小写字母l开头？",
+        "type": "choice",
+        "id": 30018,
+        "score": 10
+      },
+      {
+        "answer": "big",
+        "difficulty": 1,
+        "explanation": "句子明确说“The elephant is big.”，所以描述大象的词是big，意思是大的。",
+        "knowledge_point": "动物分类与阅读理解",
+        "options": [
+          "tall",
+          "big",
+          "small",
+          "fast"
+        ],
+        "question": "读句子“The elephant is big.”。句中用哪个词描述大象？",
+        "type": "choice",
+        "id": 30019,
+        "score": 10
+      },
+      {
+        "answer": "giraffe",
+        "difficulty": 1,
+        "explanation": "句子说长颈鹿很高，所以答案是giraffe。",
+        "knowledge_point": "动物分类与阅读理解",
+        "options": [
+          "giraffe",
+          "lion",
+          "fish",
+          "cat"
+        ],
+        "question": "读句子“The giraffe is tall.”。句中哪种动物很高？",
+        "type": "choice",
+        "id": 30020,
+        "score": 10
+      },
+      {
+        "answer": "wild animals",
+        "difficulty": 1,
+        "explanation": "题目明确把panda列在wild animals组，因此应选wild animals。",
+        "knowledge_point": "动物分类与阅读理解",
+        "options": [
+          "fish",
+          "wild animals",
+          "birds",
+          "pets"
+        ],
+        "question": "分类记录如下：pets组有cat和dog；wild animals组有panda和tiger。根据这份记录，panda属于哪一组？",
+        "type": "choice",
+        "id": 30021,
+        "score": 10
+      },
+      {
+        "answer": "small",
+        "difficulty": 1,
+        "explanation": "句子中的small表示小的，说明材料描述的这条鱼很小。",
+        "knowledge_point": "动物分类与阅读理解",
+        "options": [
+          "fast",
+          "small",
+          "tall",
+          "big"
+        ],
+        "question": "读句子“The fish is small.”。句中用哪个词描述鱼？",
+        "type": "choice",
+        "id": 30022,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "big表示大，small表示小，因此材料对大象和鱼的大小描述不同。",
+        "knowledge_point": "动物分类与阅读理解",
+        "options": [],
+        "question": "阅读：“The elephant is big. The fish is small.”判断：材料描述的大象和鱼的大小特征不同。",
+        "type": "true_false",
+        "id": 30023,
+        "score": 10
+      },
+      {
+        "answer": "The lion is fast.",
+        "difficulty": 2,
+        "explanation": "材料说狮子很快，对应“The lion is fast.”。其他选项均与题干信息不符。",
+        "knowledge_point": "动物分类与阅读理解",
+        "options": [
+          "The fish is tall.",
+          "The giraffe is fast.",
+          "The lion is fast.",
+          "The lion is small."
+        ],
+        "question": "根据材料信息：狮子很快，长颈鹿很高，鱼很小。选出与材料一致的句子。",
+        "type": "choice",
+        "id": 30024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Our animal friends·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "I like rabbits.",
+        "difficulty": 1,
+        "explanation": "表达“我喜欢兔子”用“I like rabbits.”；主语I后用like，rabbits表示兔子这一类动物。",
+        "knowledge_point": "宠物和喜好表达",
+        "options": [
+          "I likes rabbits.",
+          "I have rabbits.",
+          "I am rabbits.",
+          "I like rabbits."
+        ],
+        "question": "选出表达“我喜欢兔子”的正确句子。",
+        "type": "choice",
+        "id": 39001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "“No, I don't.”表示没有宠物，而“I have a cat.”表示有一只猫。在题目限定的宠物语境中，两句话矛盾。",
+        "knowledge_point": "宠物和喜好表达",
+        "options": [],
+        "question": "判断：小明养了一只宠物猫。别人问“Do you have a pet?”时，他可以如实回答“No, I don't. I have a cat.”。",
+        "type": "true_false",
+        "id": 39002,
+        "score": 10
+      },
+      {
+        "answer": "It's a fox.",
+        "difficulty": 1,
+        "explanation": "fox表示狐狸，前面用a。完整回答是“It's a fox.”。",
+        "knowledge_point": "野生动物与this、that问答",
+        "options": [
+          "It's an fox.",
+          "It's fox.",
+          "This a fox.",
+          "It's a fox."
+        ],
+        "question": "看到近处一只狐狸，有人问“What's this?”。选出正确回答。",
+        "type": "choice",
+        "id": 39003,
+        "score": 10
+      },
+      {
+        "answer": "jet和job",
+        "difficulty": 2,
+        "explanation": "jet和job的首字母都是j，在这两个词中都发/dʒ/；其余各组的两个词首音不同。",
+        "knowledge_point": "字母Ii—Ll的音形与发音",
+        "options": [
+          "job和kite",
+          "jet和job",
+          "leg和jet",
+          "kid和lion"
+        ],
+        "question": "比较单词首音，哪一组中两个单词的第一个字母发音相同？",
+        "type": "choice",
+        "id": 39004,
+        "score": 10
+      },
+      {
+        "answer": "lion",
+        "difficulty": 2,
+        "explanation": "fast表示速度快。材料中“The lion is fast.”说明狮子速度快。",
+        "knowledge_point": "动物分类与阅读理解",
+        "options": [
+          "elephant",
+          "fish",
+          "lion",
+          "giraffe"
+        ],
+        "question": "阅读：“The giraffe is tall. The lion is fast. The fish is small. The elephant is big.”哪种动物被描述为速度快？",
+        "type": "choice",
+        "id": 39005,
+        "score": 10
+      },
+      {
+        "answer": "It's a red panda.",
+        "difficulty": 1,
+        "explanation": "red panda表示小熊猫，词序不能颠倒；red以辅音音素开头，前面用a。",
+        "knowledge_point": "野生动物与this、that问答",
+        "options": [
+          "It's a panda red.",
+          "It's a red panda.",
+          "That red panda.",
+          "It's an red panda."
+        ],
+        "question": "动物园里较远处有一只小熊猫。有人问“What's that?”，选出正确回答。",
+        "type": "choice",
+        "id": 39006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "表达喜欢某一类动物时，把可数名词单数直接放在like后面，如误写“I like cat.”。",
+        "把“Do you have...?”误写成“Are you have...?”。",
+        "回答“Do you...?”时误用“I am”，或把like与have的意思混淆。"
+      ],
+      "core_concept": "用“I like...”表达喜好；用“Do you have a pet?”询问是否有宠物，并用“Yes, I do.”或“No, I don't.”回答。have表示有，like表示喜欢。",
+      "key_formula": "喜好：I like cats. / I like fish. / I like my dog. 询问：Do you have a pet? 回答：Yes, I do. / No, I don't.",
+      "point": "宠物和喜好表达",
+      "tips": "泛指喜欢某一类可数动物时常用复数，如cats；fish表示多条鱼时通常仍写作fish。表达喜欢自己的某只宠物可说“I like my dog.”。"
+    },
+    {
+      "common_mistakes": [
+        "把表示近处的this和表示较远处的that混用。",
+        "回答时漏掉is或单数可数动物名称前的冠词。",
+        "仅看字母而不看发音选择a或an，例如把an elephant误写成a elephant。"
+      ],
+      "core_concept": "用“What's this?”询问近处的一只动物，用“What's that?”询问较远处的一只动物；可用“It's a/an + 动物名称.”回答。",
+      "key_formula": "近处：What's this? 较远处：What's that? 回答：It's a fox. / It's an elephant.",
+      "point": "野生动物与this、that问答",
+      "tips": "先判断远近，再选择this或that；elephant以元音音素开头，前面用an，fox、panda、monkey前用a。"
+    },
+    {
+      "common_mistakes": [
+        "混淆大写I和小写l的字形。",
+        "把字母名称音与字母在单词中的发音当成同一回事。",
+        "题目问单词却选择字母，或题目问首字母却选择整个单词。"
+      ],
+      "core_concept": "认识Ii、Jj、Kk、Ll的大小写形式和顺序，辨认示例单词的首字母及其发音。ill中的i发/ɪ/，jet中的j发/dʒ/，kite中的k发/k/，leg中的l发/l/。",
+      "key_formula": "大小写对应：I—i；J—j；K—k；L—l。示例首音：ill—/ɪ/；jet—/dʒ/；kite—/k/；leg—/l/。",
+      "point": "字母Ii—Ll的音形与发音",
+      "tips": "先分清题目问的是字母、单词还是发音；辨认首字母时看单词最左边的字母。"
+    },
+    {
+      "common_mistakes": [
+        "忽略题目给出的分类规则，只凭个人印象分组。",
+        "把tall（高）和big（大）混为一谈。",
+        "把材料对某只动物的描述理解为所有同类动物都必然如此。"
+      ],
+      "core_concept": "根据展示的文字理解动物的大小、身高和速度等特点，并按题目明确提供的规则分类。",
+      "key_formula": "特征描述：The + 动物名称 + is + 特征词。分类：逐个核对动物与题目给定的组别。",
+      "point": "动物分类与阅读理解",
+      "tips": "先找动物名称，再找特征词；big表示大，small表示小，tall表示高，fast表示快。"
+    }
+  ]
+}

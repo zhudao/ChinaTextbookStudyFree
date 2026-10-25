@@ -1,0 +1,520 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书•英语 三年级上册（2026秋版）",
+  "unit": "Useful numbers",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "Useful numbers·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "three",
+        "difficulty": 1,
+        "explanation": "数字3对应的英文单词是three。",
+        "knowledge_point": "数字1—10和年龄问答",
+        "options": [
+          "one",
+          "three",
+          "four",
+          "two"
+        ],
+        "question": "数字3对应哪个英文单词？",
+        "type": "choice",
+        "id": 60001,
+        "score": 10
+      },
+      {
+        "answer": "I'm eight years old.",
+        "difficulty": 1,
+        "explanation": "Lily八岁，应说“I'm eight years old.”。其他选项所说的年龄都不符合题意。",
+        "knowledge_point": "数字1—10和年龄问答",
+        "options": [
+          "I'm five years old.",
+          "I'm eight years old.",
+          "I'm ten years old.",
+          "I'm six years old."
+        ],
+        "question": "Lily is eight. 她应该怎样介绍自己的年龄？",
+        "type": "choice",
+        "id": 60002,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“How old are you?”的意思是“你几岁了？”，用于询问年龄。",
+        "knowledge_point": "数字1—10和年龄问答",
+        "options": [],
+        "question": "“How old are you?”是询问对方年龄的句子。",
+        "type": "true_false",
+        "id": 60003,
+        "score": 10
+      },
+      {
+        "answer": "seven",
+        "difficulty": 1,
+        "explanation": "按从小到大的顺序数数，six之后是seven。",
+        "knowledge_point": "数字1—10和年龄问答",
+        "options": [
+          "eight",
+          "six",
+          "seven",
+          "five"
+        ],
+        "question": "按从小到大的顺序数数，six后面的一个数是什么？",
+        "type": "choice",
+        "id": 60004,
+        "score": 10
+      },
+      {
+        "answer": "9",
+        "difficulty": 1,
+        "explanation": "nine对应数字9，所以Ming九岁。",
+        "knowledge_point": "数字1—10和年龄问答",
+        "options": [
+          "9",
+          "7",
+          "8",
+          "6"
+        ],
+        "question": "Ming says, “I'm nine years old.” 他的年龄对应哪个数字？",
+        "type": "choice",
+        "id": 60005,
+        "score": 10
+      },
+      {
+        "answer": "four",
+        "difficulty": 2,
+        "explanation": "从左往右依次是one、two、three、four，第四个词是four。",
+        "knowledge_point": "数字1—10和年龄问答",
+        "options": [
+          "four",
+          "three",
+          "two",
+          "five"
+        ],
+        "question": "从左往右读：one, two, three, four。第四个词是什么？",
+        "type": "choice",
+        "id": 60006,
+        "score": 10
+      },
+      {
+        "answer": "Two.",
+        "difficulty": 1,
+        "explanation": "题目给出2个苹果，因此用“Two.”回答。",
+        "knowledge_point": "数量与价钱的生活应用",
+        "options": [
+          "Two.",
+          "Three.",
+          "Four.",
+          "One."
+        ],
+        "question": "There are 2 apples. 应怎样回答“How many apples?”？",
+        "type": "choice",
+        "id": 60007,
+        "score": 10
+      },
+      {
+        "answer": "Five.",
+        "difficulty": 1,
+        "explanation": "2本书和3支铅笔共2＋3＝5件物品，数字5用英文five表达。",
+        "knowledge_point": "数量与价钱的生活应用",
+        "options": [
+          "Five.",
+          "Seven.",
+          "Four.",
+          "Six."
+        ],
+        "question": "There are 2 books and 3 pencils. How many things are there in all?",
+        "type": "choice",
+        "id": 60008,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "标价¥7表示价格为7元，可以用“Seven yuan.”表达。",
+        "knowledge_point": "数量与价钱的生活应用",
+        "options": [],
+        "question": "一袋香蕉的标价是¥7，可以用“Seven yuan.”表示这袋香蕉的价钱。",
+        "type": "true_false",
+        "id": 60009,
+        "score": 10
+      },
+      {
+        "answer": "Four yuan.",
+        "difficulty": 2,
+        "explanation": "10－6＝4，应找回4元，英文为four yuan。",
+        "knowledge_point": "数量与价钱的生活应用",
+        "options": [
+          "Four yuan.",
+          "Two yuan.",
+          "Ten yuan.",
+          "Six yuan."
+        ],
+        "question": "A toy is six yuan. You pay ten yuan. 应用哪个英文短语表示应找回的钱？",
+        "type": "choice",
+        "id": 60010,
+        "score": 10
+      },
+      {
+        "answer": "eight",
+        "difficulty": 2,
+        "explanation": "没有优惠，两本书共4＋4＝8元，数字8用英文eight表达。",
+        "knowledge_point": "数量与价钱的生活应用",
+        "options": [
+          "four",
+          "eight",
+          "six",
+          "two"
+        ],
+        "question": "One book is four yuan. Two books are ____ yuan. 没有优惠，应选哪个英文数字？",
+        "type": "choice",
+        "id": 60011,
+        "score": 10
+      },
+      {
+        "answer": "three",
+        "difficulty": 2,
+        "explanation": "1个橙子、1个苹果和1根香蕉合计1+1+1=3个水果，英文为three。",
+        "knowledge_point": "数量与价钱的生活应用",
+        "options": [
+          "two",
+          "three",
+          "four",
+          "one"
+        ],
+        "question": "There is one orange, one apple and one banana. How many pieces of fruit are there?",
+        "type": "choice",
+        "id": 60012,
+        "score": 10
+      },
+      {
+        "answer": "Ww",
+        "difficulty": 1,
+        "explanation": "大写W对应小写w，正确配对为Ww。",
+        "knowledge_point": "字母Vv—Zz的音形与发音",
+        "options": [
+          "Zz",
+          "Ww",
+          "Xx",
+          "Vv"
+        ],
+        "question": "字母W的正确大小写配对是哪一组？",
+        "type": "choice",
+        "id": 60013,
+        "score": 10
+      },
+      {
+        "answer": "x",
+        "difficulty": 1,
+        "explanation": "box由b、o、x组成，最后一个字母是x。",
+        "knowledge_point": "字母Vv—Zz的音形与发音",
+        "options": [
+          "w",
+          "z",
+          "x",
+          "v"
+        ],
+        "question": "单词box的最后一个字母是什么？",
+        "type": "choice",
+        "id": 60014,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "yes的第一个字母是y，它在这个单词中的发音是/j/。",
+        "knowledge_point": "字母Vv—Zz的音形与发音",
+        "options": [],
+        "question": "单词yes以字母y开头，y在这个单词中的发音是/j/。",
+        "type": "true_false",
+        "id": 60015,
+        "score": 10
+      },
+      {
+        "answer": "vet",
+        "difficulty": 2,
+        "explanation": "van和vet的首字母都是v，首音都是/v/；其他三个单词的首音分别为/w/、/j/、/z/。",
+        "knowledge_point": "字母Vv—Zz的音形与发音",
+        "options": [
+          "win",
+          "yes",
+          "zip",
+          "vet"
+        ],
+        "question": "下面哪个单词与van的首音相同？",
+        "type": "choice",
+        "id": 60016,
+        "score": 10
+      },
+      {
+        "answer": "z",
+        "difficulty": 1,
+        "explanation": "zip的第一个字母是z，对应大写字母Z。",
+        "knowledge_point": "字母Vv—Zz的音形与发音",
+        "options": [
+          "y",
+          "w",
+          "v",
+          "z"
+        ],
+        "question": "单词zip的第一个小写字母是什么？",
+        "type": "choice",
+        "id": 60017,
+        "score": 10
+      },
+      {
+        "answer": "six",
+        "difficulty": 2,
+        "explanation": "box和six末尾的x都发/ks/，所以末尾发音相同。",
+        "knowledge_point": "字母Vv—Zz的音形与发音",
+        "options": [
+          "van",
+          "win",
+          "six",
+          "yes"
+        ],
+        "question": "下面哪个单词与box的末尾发音相同？",
+        "type": "choice",
+        "id": 60018,
+        "score": 10
+      },
+      {
+        "answer": "six",
+        "difficulty": 1,
+        "explanation": "“You are 6 today.”表示“你今天六岁了”，6对应six。",
+        "knowledge_point": "生日邀请与数字信息",
+        "options": [
+          "seven",
+          "six",
+          "eight",
+          "five"
+        ],
+        "question": "生日卡写着“Happy birthday! You are 6 today.”。孩子今天几岁？",
+        "type": "choice",
+        "id": 60019,
+        "score": 10
+      },
+      {
+        "answer": "3 p.m.",
+        "difficulty": 1,
+        "explanation": "Time表示时间，邀请卡的时间栏明确写着3 p.m.。",
+        "knowledge_point": "生日邀请与数字信息",
+        "options": [
+          "2 p.m.",
+          "1 p.m.",
+          "4 p.m.",
+          "3 p.m."
+        ],
+        "question": "邀请卡写着“Time: 3 p.m.”。聚会时间是什么？",
+        "type": "choice",
+        "id": 60020,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "日期栏中的5/2包含数字5和2；本题不需要判断月日顺序。",
+        "knowledge_point": "生日邀请与数字信息",
+        "options": [],
+        "question": "邀请卡写着“Date: 5/2.”，日期栏中出现了数字5和2。",
+        "type": "true_false",
+        "id": 60021,
+        "score": 10
+      },
+      {
+        "answer": "four",
+        "difficulty": 1,
+        "explanation": "名单中有Amy、Ben、Cody和Dee，共四名儿童，对应four。",
+        "knowledge_point": "生日邀请与数字信息",
+        "options": [
+          "four",
+          "five",
+          "two",
+          "three"
+        ],
+        "question": "生日邀请名单上只有四名儿童：Amy、Ben、Cody、Dee。名单上的儿童人数用哪个英文单词表示？",
+        "type": "choice",
+        "id": 60022,
+        "score": 10
+      },
+      {
+        "answer": "Date",
+        "difficulty": 1,
+        "explanation": "Date表示日期；Age表示年龄，Time表示时间，Name表示姓名。",
+        "knowledge_point": "生日邀请与数字信息",
+        "options": [
+          "Time",
+          "Name",
+          "Age",
+          "Date"
+        ],
+        "question": "生日邀请卡上，哪个英文栏目名表示“日期”？",
+        "type": "choice",
+        "id": 60023,
+        "score": 10
+      },
+      {
+        "answer": "5 p.m.",
+        "difficulty": 2,
+        "explanation": "聚会时间应读取Time栏，所以选择5 p.m.；7是年龄，8/1是日期，Xinxin是姓名。",
+        "knowledge_point": "生日邀请与数字信息",
+        "options": [
+          "Xinxin",
+          "7",
+          "8/1",
+          "5 p.m."
+        ],
+        "question": "邀请卡写着“Name: Xinxin. Age: 7. Date: 8/1. Time: 5 p.m.”。哪一项是聚会时间？",
+        "type": "choice",
+        "id": 60024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Useful numbers·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "six",
+        "difficulty": 1,
+        "explanation": "“I'm six years old.”表示“我六岁了”，所以孩子的年龄是six。",
+        "knowledge_point": "数字1—10和年龄问答",
+        "options": [
+          "ten",
+          "five",
+          "six",
+          "seven"
+        ],
+        "question": "A child says, “I'm six years old.” How old is the child?",
+        "type": "choice",
+        "id": 69001,
+        "score": 10
+      },
+      {
+        "answer": "Seven.",
+        "difficulty": 2,
+        "explanation": "3个苹果和4根香蕉共3＋4＝7个水果，数字7用英文seven表达。",
+        "knowledge_point": "数量与价钱的生活应用",
+        "options": [
+          "Seven.",
+          "Five.",
+          "Eight.",
+          "Six."
+        ],
+        "question": "There are three apples and four bananas. How many pieces of fruit are there in all?",
+        "type": "choice",
+        "id": 69002,
+        "score": 10
+      },
+      {
+        "answer": "Yy",
+        "difficulty": 1,
+        "explanation": "小写字母y对应的大写字母是Y，大小写配对为Yy。",
+        "knowledge_point": "字母Vv—Zz的音形与发音",
+        "options": [
+          "Yy",
+          "Zz",
+          "Vv",
+          "Ww"
+        ],
+        "question": "下面哪组是小写字母y及其对应大写字母的正确配对？",
+        "type": "choice",
+        "id": 69003,
+        "score": 10
+      },
+      {
+        "answer": "8/1",
+        "difficulty": 1,
+        "explanation": "Date表示日期，卡片的日期栏写着8/1；5 p.m.是时间。",
+        "knowledge_point": "生日邀请与数字信息",
+        "options": [
+          "8/1",
+          "six",
+          "three",
+          "5 p.m."
+        ],
+        "question": "邀请卡写着“Date: 8/1. Time: 5 p.m.”，日期栏的内容是什么？",
+        "type": "choice",
+        "id": 69004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“How many balloons?”询问气球数量。共有4个气球，可以回答“Four.”。",
+        "knowledge_point": "数量与价钱的生活应用",
+        "options": [],
+        "question": "There are 4 balloons. 可以用“Four.”回答“How many balloons?”。",
+        "type": "true_false",
+        "id": 69005,
+        "score": 10
+      },
+      {
+        "answer": "seven",
+        "difficulty": 2,
+        "explanation": "年龄信息是“I'm seven years old.”，所以Sam七岁；five是聚会时间中的数字。",
+        "knowledge_point": "生日邀请与数字信息",
+        "options": [
+          "six",
+          "five",
+          "eight",
+          "seven"
+        ],
+        "question": "Sam的生日邀请卡写着“I'm seven years old today. Come to my birthday party at five!”。Sam今天几岁？",
+        "type": "choice",
+        "id": 69006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把“How old are you?”误解为询问物品数量。",
+        "将数字单词的拼写或对应数值记错。",
+        "完整回答年龄时误用句型；但不能把“Five.”等正确简短回答判为错误。"
+      ],
+      "core_concept": "认识one至ten，能用“How old are you?”询问年龄，并用“I'm ... years old.”或恰当的简短形式回答。",
+      "key_formula": "How old are you? — I'm five years old. / I'm five. / Five.",
+      "point": "数字1—10和年龄问答",
+      "tips": "按顺序记忆one、two、three、four、five、six、seven、eight、nine、ten；表达一岁时用one year old。"
+    },
+    {
+      "common_mistakes": [
+        "把询问数量的“How many...?”与价钱信息混淆。",
+        "算对数量或价钱后，选错对应的英文数字或价钱短语。",
+        "计算找零时把付款金额与商品价格的相减顺序弄反。"
+      ],
+      "core_concept": "用“How many...?”询问数量，理解用yuan表示的简单价钱，并在10以内解决数量合计、总价和找零问题。yuan在这些价钱表达中不加-s。",
+      "key_formula": "总数量＝各部分数量相加；总价＝各件商品价格相加；找零＝付款金额－商品总价。",
+      "point": "数量与价钱的生活应用",
+      "tips": "先确认题目问数量还是价钱，再计算；选出能表达结果的英文数字或价钱短语。"
+    },
+    {
+      "common_mistakes": [
+        "混淆Vv、Ww等字母的大小写形式。",
+        "把字母名称的读音与字母在单词中的常见发音混为一谈。",
+        "把box、six末尾的x所表示的/ks/误认为只有/s/。"
+      ],
+      "core_concept": "认识Vv、Ww、Xx、Yy、Zz的大小写形式，辨认它们在简单单词中的常见发音：v为/v/、w为/w/、x在box和six末尾为/ks/、y在yes等词首为/j/、z在zip等词首为/z/。",
+      "key_formula": "大小写配对：V—v，W—w，X—x，Y—y，Z—z。",
+      "point": "字母Vv—Zz的音形与发音",
+      "tips": "把字形和例词一起记忆：van、win、box、yes、zip；注意区分首字母与首音、末字母与末尾发音。"
+    },
+    {
+      "common_mistakes": [
+        "把日期、时间和年龄中的数字混为一谈。",
+        "看漏p.m.，误把下午的时间理解为上午。",
+        "把将来生日时的年龄直接当成当前年龄。"
+      ],
+      "core_concept": "从明确展示的简单生日卡和邀请信息中提取年龄、日期、时间及人数信息。",
+      "key_formula": "Age对应年龄；Date对应日期；Time对应时间；p.m.表示中午12点至午夜前的时段。",
+      "point": "生日邀请与数字信息",
+      "tips": "先找栏目名，再读对应内容；有today时注意题目问的是今天的年龄。日期只按题面读取，不擅自推断月日顺序。"
+    }
+  ]
+}

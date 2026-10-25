@@ -119,6 +119,7 @@ struct Lesson: Codable, Hashable, Identifiable {
     var kpTotal: Int
     var questions: [Question]
     var knowledge: KnowledgeSummary?
+    var unitLabel: String? = nil
 }
 
 // ============================================================
@@ -147,6 +148,9 @@ struct Unit: Codable, Hashable, Identifiable {
     var examLessonId: String?
     /// 单元挑战题目数（exam 全部，上限 15，超出均匀抽样后的实际数）。
     var examQuestionCount: Int?
+    var label: String? = nil
+
+    var displayLabel: String { label ?? "第 \(unitNumber) 单元" }
 
     var id: Int { unitNumber }
 
@@ -155,7 +159,7 @@ struct Unit: Codable, Hashable, Identifiable {
         case title
         case knowledgePoints = "knowledge_points"
         case examLessonId
-        case examQuestionCount
+        case examQuestionCount, label
     }
 }
 
@@ -182,6 +186,10 @@ struct Book: Codable, Hashable, Identifiable {
     var lessonsCount: Int
     var hasPassages: Bool?
     var hasStories: Bool?
+    var editionLabel: String? = nil
+    var supersedes: String? = nil
+    var supersededBy: String? = nil
+    var activitiesCount: Int? = nil
 }
 
 // ============================================================
@@ -212,6 +220,18 @@ struct Passage: Codable, Hashable, Identifiable {
     var pageHint: Int?
     var pdfPage: Int?
     var pageImages: [String]?
+    var curriculumRole: String? = nil
+
+    var curriculumRoleLabel: String? {
+        switch curriculumRole {
+        case "main": return "正课"
+        case "garden": return "语文园地"
+        case "writing_example": return "习作例文"
+        case "optional": return "选学"
+        case "revision": return "复习"
+        default: return nil
+        }
+    }
 }
 
 struct BookPassages: Codable, Hashable {
@@ -458,6 +478,7 @@ struct PathLessonMeta: Hashable, Identifiable {
     var kpIndex: Int
     var kpTotal: Int
     var questionCount: Int
+    var unitLabel: String? = nil
 }
 
 enum LessonStatus: String, Codable, Hashable {

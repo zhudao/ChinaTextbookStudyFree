@@ -15,6 +15,7 @@ struct UnitGuideView: View {
 
     @State private var cards: [GuideCard] = []
     @State private var unitTitle = ""
+    @State private var unitLabel: String?
     @State private var loaded = false
     @State private var pageIdx = 0
 
@@ -32,7 +33,7 @@ struct UnitGuideView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(DuoColors.bg.ignoresSafeArea())
-        .navigationTitle("第 \(unitNumber) 单元 · 知识手册")
+        .navigationTitle("\(unitLabel ?? "第 \(unitNumber) 单元") · 知识手册")
         .navigationBarTitleDisplayMode(.inline)
         .task { load() }
         .onDisappear { audioPlayer.stop() }
@@ -240,6 +241,7 @@ struct UnitGuideView: View {
               let unit = outline.units.first(where: { $0.unitNumber == unitNumber })
         else { return }
         unitTitle = unit.title
+        unitLabel = unit.label
         cards = outline
             .pathLessonMetas(bookId: bookId)
             .filter { $0.unitNumber == unitNumber }

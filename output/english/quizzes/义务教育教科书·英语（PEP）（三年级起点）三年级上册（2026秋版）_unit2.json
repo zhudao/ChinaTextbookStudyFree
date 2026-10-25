@@ -1,0 +1,523 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书•英语 三年级上册（2026秋版）",
+  "unit": "Different families",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Different families·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "This is my mum.",
+        "difficulty": 1,
+        "explanation": "mum表示妈妈；This is my mum.表示“这是我的妈妈”。",
+        "knowledge_point": "介绍家庭成员",
+        "options": [
+          "I am your mum.",
+          "This is my mum.",
+          "This is my cousin.",
+          "Is this my mum?"
+        ],
+        "question": "选择用于介绍自己妈妈的句子。",
+        "type": "choice",
+        "id": 20001,
+        "score": 10
+      },
+      {
+        "answer": "I have an aunt.",
+        "difficulty": 2,
+        "explanation": "aunt的读音以元音音素开头，前面用an；I have an aunt.符合题意。",
+        "knowledge_point": "介绍家庭成员",
+        "options": [
+          "I have an aunt.",
+          "I am an aunt.",
+          "I have an uncle.",
+          "This is my aunt."
+        ],
+        "question": "选择与“我有一个姨妈”意思相符的句子。",
+        "type": "choice",
+        "id": 20002,
+        "score": 10
+      },
+      {
+        "answer": "grandpa",
+        "difficulty": 2,
+        "explanation": "爸爸的爸爸是爷爷，英语可称为grandpa。",
+        "knowledge_point": "介绍家庭成员",
+        "options": [
+          "sister",
+          "cousin",
+          "grandpa",
+          "grandma"
+        ],
+        "question": "选择合适的词填空：My father’s father is my ___.",
+        "type": "choice",
+        "id": 20003,
+        "score": 10
+      },
+      {
+        "answer": "I have two cousins.",
+        "difficulty": 2,
+        "explanation": "two表示两个，后面用复数cousins；整句表示“我有两个堂亲或表亲”。",
+        "knowledge_point": "介绍家庭成员",
+        "options": [
+          "This is my cousin.",
+          "I have two cousins.",
+          "I have a cousin.",
+          "I have two brothers."
+        ],
+        "question": "你有两个表亲，选择能准确表达这一信息的句子。",
+        "type": "choice",
+        "id": 20004,
+        "score": 10
+      },
+      {
+        "answer": "aunt",
+        "difficulty": 2,
+        "explanation": "妈妈的姐妹是姨妈，英语称为aunt。",
+        "knowledge_point": "介绍家庭成员",
+        "options": [
+          "grandpa",
+          "aunt",
+          "brother",
+          "uncle"
+        ],
+        "question": "你的妈妈有一个妹妹。用英语称呼这位亲属，应选择哪个词？",
+        "type": "choice",
+        "id": 20005,
+        "score": 10
+      },
+      {
+        "answer": "This is my grandpa. I have a sister.",
+        "difficulty": 2,
+        "explanation": "grandpa对应爷爷；I have a sister.表示自己有一个姐姐或妹妹。两句话都符合题意。",
+        "knowledge_point": "介绍家庭成员",
+        "options": [
+          "This is my grandma. I have a brother.",
+          "This is my grandpa. I have a brother.",
+          "This is my uncle. I have a sister.",
+          "This is my grandpa. I have a sister."
+        ],
+        "question": "选择与“这是我的爷爷。我有一个姐姐。”两条信息都相符的一组句子。",
+        "type": "choice",
+        "id": 20006,
+        "score": 10
+      },
+      {
+        "answer": "Yes, it is.",
+        "difficulty": 1,
+        "explanation": "题面明确人物是你的哥哥，因此对Is this your brother?作肯定回答。",
+        "knowledge_point": "确认人物身份与家庭差异",
+        "options": [
+          "I have a sister.",
+          "No, it’s my cousin.",
+          "This is my grandma.",
+          "Yes, it is."
+        ],
+        "question": "朋友指着你的哥哥问：“Is this your brother?”你应选择哪句回答？",
+        "type": "choice",
+        "id": 20007,
+        "score": 10
+      },
+      {
+        "answer": "No, it’s my cousin.",
+        "difficulty": 2,
+        "explanation": "题面已说明女孩是你的表妹，不是亲妹妹。cousin可表示表妹，所以应否定并说明正确身份。",
+        "knowledge_point": "确认人物身份与家庭差异",
+        "options": [
+          "Yes, it is.",
+          "No, it’s my cousin.",
+          "I have a big family.",
+          "This is my sister."
+        ],
+        "question": "朋友指着你的表妹问：“Is this your sister?”她不是你的亲妹妹。你应怎样回答？",
+        "type": "choice",
+        "id": 20008,
+        "score": 10
+      },
+      {
+        "answer": "small",
+        "difficulty": 1,
+        "explanation": "题面明确给出My family is small.，因此应选small，不需要根据人数推断。",
+        "knowledge_point": "确认人物身份与家庭差异",
+        "options": [
+          "big",
+          "cousin",
+          "small",
+          "uncle"
+        ],
+        "question": "Lily说：“My family is small.”她用哪个词描述自己家庭的大小？",
+        "type": "choice",
+        "id": 20009,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "一个家庭有三人，另一个家庭有六人，人数不同，不能说两个家庭人数相同。",
+        "knowledge_point": "确认人物身份与家庭差异",
+        "options": [],
+        "question": "Lily家有三人，Tom家有六人。判断：这两个家庭的人数相同。",
+        "type": "true_false",
+        "id": 20010,
+        "score": 10
+      },
+      {
+        "answer": "brother",
+        "difficulty": 1,
+        "explanation": "brother可以表示哥哥或弟弟，所以用brother称呼自己的弟弟。",
+        "knowledge_point": "确认人物身份与家庭差异",
+        "options": [
+          "brother",
+          "grandma",
+          "cousin",
+          "aunt"
+        ],
+        "question": "你想告诉朋友，面前这个男孩是你的弟弟。应使用哪个英文亲属称呼？",
+        "type": "choice",
+        "id": 20011,
+        "score": 10
+      },
+      {
+        "answer": "No, it’s my cousin. My family is small.",
+        "difficulty": 2,
+        "explanation": "人物是堂弟，不是亲兄弟，因此用No, it’s my cousin.；题面还指定家庭是small，第二句也必须符合这一信息。",
+        "knowledge_point": "确认人物身份与家庭差异",
+        "options": [
+          "Yes, it is. My family is big.",
+          "No, it’s my cousin. My family is small.",
+          "No, it’s my cousin. My family is big.",
+          "No, it’s my aunt. My family is small."
+        ],
+        "question": "朋友指着你的堂弟问：“Is this your brother?”你要说明他是堂弟，不是亲兄弟，还要说“My family is small.”。选择同时符合这两条信息的回答。",
+        "type": "choice",
+        "id": 20012,
+        "score": 10
+      },
+      {
+        "answer": "Ff",
+        "difficulty": 1,
+        "explanation": "大写F对应的小写字母是f，因此正确的大小写组合是Ff。",
+        "knowledge_point": "字母Ee—Hh的音形与发音",
+        "options": [
+          "Ee",
+          "Hh",
+          "Ff",
+          "Gg"
+        ],
+        "question": "哪一项是字母F的正确大小写组合？",
+        "type": "choice",
+        "id": 20013,
+        "score": 10
+      },
+      {
+        "answer": "Hh",
+        "difficulty": 1,
+        "explanation": "hat的首字母是h，对应的大小写组合是Hh。",
+        "knowledge_point": "字母Ee—Hh的音形与发音",
+        "options": [
+          "Gg",
+          "Ee",
+          "Ff",
+          "Hh"
+        ],
+        "question": "单词hat的首字母对应下面哪组大小写字母？",
+        "type": "choice",
+        "id": 20014,
+        "score": 10
+      },
+      {
+        "answer": "girl",
+        "difficulty": 1,
+        "explanation": "girl以g开头；egg、fish、hat分别以e、f、h开头。",
+        "knowledge_point": "字母Ee—Hh的音形与发音",
+        "options": [
+          "fish",
+          "egg",
+          "girl",
+          "hat"
+        ],
+        "question": "下面哪个单词以字母g开头？",
+        "type": "choice",
+        "id": 20015,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "egg中字母e发/e/，与字母E的名称音/iː/不同。",
+        "knowledge_point": "字母Ee—Hh的音形与发音",
+        "options": [],
+        "question": "判断：字母E的名称音与egg中首字母e的读音相同。",
+        "type": "true_false",
+        "id": 20016,
+        "score": 10
+      },
+      {
+        "answer": "fish和beef",
+        "difficulty": 2,
+        "explanation": "fish开头的f和beef末尾的f都发/f/。",
+        "knowledge_point": "字母Ee—Hh的音形与发音",
+        "options": [
+          "girl和hot",
+          "fish和beef",
+          "egg和hat",
+          "pig和nest"
+        ],
+        "question": "哪组单词都含有字母f，而且这个字母都发/f/？",
+        "type": "choice",
+        "id": 20017,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "girl开头的g和pig末尾的g都发/ɡ/；虽然位置不同，但在这两个词中读音相同。",
+        "knowledge_point": "字母Ee—Hh的音形与发音",
+        "options": [],
+        "question": "判断：girl和pig中的字母g都发/ɡ/。",
+        "type": "true_false",
+        "id": 20018,
+        "score": 10
+      },
+      {
+        "answer": "mother",
+        "difficulty": 1,
+        "explanation": "题面说明Mary是你的妈妈，因此在家庭树中应标注为mother。",
+        "knowledge_point": "家庭树与阅读理解",
+        "options": [
+          "mother",
+          "cousin",
+          "sister",
+          "aunt"
+        ],
+        "question": "你正在制作家庭树。Mary是你的妈妈，她的名字旁应填写哪个英文称呼？",
+        "type": "choice",
+        "id": 20019,
+        "score": 10
+      },
+      {
+        "answer": "The writer’s cousins.",
+        "difficulty": 1,
+        "explanation": "I talk with my cousins.表示“我和我的堂亲或表亲交谈”，因此应选作者的堂亲或表亲。",
+        "knowledge_point": "家庭树与阅读理解",
+        "options": [
+          "The writer’s brothers.",
+          "The writer’s cousins.",
+          "The writer’s grandpas.",
+          "The writer’s uncles."
+        ],
+        "question": "阅读：“I play with my brothers. I talk with my cousins.”作者和谁交谈？",
+        "type": "choice",
+        "id": 20020,
+        "score": 10
+      },
+      {
+        "answer": "small",
+        "difficulty": 1,
+        "explanation": "短文直接用small描述这个家庭，选small。",
+        "knowledge_point": "家庭树与阅读理解",
+        "options": [
+          "new",
+          "old",
+          "small",
+          "big"
+        ],
+        "question": "阅读：“I have a small family. I love my small family.”短文用哪个词描述家庭的大小？",
+        "type": "choice",
+        "id": 20021,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "I play with my brother.说明作者有兄弟，所以“作者没有兄弟”与原文不符。",
+        "knowledge_point": "家庭树与阅读理解",
+        "options": [],
+        "question": "阅读：“This is my family. I play with my brother.”判断：作者没有兄弟。",
+        "type": "true_false",
+        "id": 20022,
+        "score": 10
+      },
+      {
+        "answer": "grandmother",
+        "difficulty": 2,
+        "explanation": "爸爸的妈妈是奶奶，英语可称为grandmother。",
+        "knowledge_point": "家庭树与阅读理解",
+        "options": [
+          "grandmother",
+          "aunt",
+          "cousin",
+          "grandfather"
+        ],
+        "question": "整理家庭树时，已知Ann是你的爸爸的妈妈。Ann应标注为你的什么人？",
+        "type": "choice",
+        "id": 20023,
+        "score": 10
+      },
+      {
+        "answer": "They love each other.",
+        "difficulty": 2,
+        "explanation": "第一家人彼此相爱，第二家人也彼此相爱；too表示“也”，因此这是两个家庭的共同点。",
+        "knowledge_point": "家庭树与阅读理解",
+        "options": [
+          "They have the same number of people.",
+          "They are both small.",
+          "They love each other.",
+          "They have no children."
+        ],
+        "question": "阅读：“This family is small. They love each other. This family is big. They love each other too.”根据短文，两个家庭有什么共同点？",
+        "type": "choice",
+        "id": 20024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Different families·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "grandma",
+        "difficulty": 2,
+        "explanation": "mother’s mother表示妈妈的妈妈，即外婆，英语可称为grandma。",
+        "knowledge_point": "介绍家庭成员",
+        "options": [
+          "aunt",
+          "brother",
+          "grandma",
+          "cousin"
+        ],
+        "question": "选择合适的词填空：This is my ___. She is my mother’s mother.",
+        "type": "choice",
+        "id": 29001,
+        "score": 10
+      },
+      {
+        "answer": "No, it’s my brother.",
+        "difficulty": 2,
+        "explanation": "题面明确人物是你的兄弟而不是堂亲或表亲，因此先用No否定，再说明是my brother。",
+        "knowledge_point": "确认人物身份与家庭差异",
+        "options": [
+          "No, it’s my grandpa.",
+          "No, it’s my brother.",
+          "This is my aunt.",
+          "Yes, it is."
+        ],
+        "question": "朋友指着你的弟弟问：“Is this your cousin?”你应该怎样回答？",
+        "type": "choice",
+        "id": 29002,
+        "score": 10
+      },
+      {
+        "answer": "hot",
+        "difficulty": 1,
+        "explanation": "hot以字母h开头，其他三个词分别以e、f、g开头。",
+        "knowledge_point": "字母Ee—Hh的音形与发音",
+        "options": [
+          "fish",
+          "hot",
+          "girl",
+          "egg"
+        ],
+        "question": "下面哪个单词以字母h开头？",
+        "type": "choice",
+        "id": 29003,
+        "score": 10
+      },
+      {
+        "answer": "grandfather",
+        "difficulty": 2,
+        "explanation": "妈妈的爸爸是外公，英语可称为grandfather。",
+        "knowledge_point": "家庭树与阅读理解",
+        "options": [
+          "cousin",
+          "grandfather",
+          "brother",
+          "uncle"
+        ],
+        "question": "整理家庭树时，已知Tom是你的妈妈的爸爸。Tom应标注为你的什么人？",
+        "type": "choice",
+        "id": 29004,
+        "score": 10
+      },
+      {
+        "answer": "I have a baby sister.",
+        "difficulty": 1,
+        "explanation": "I have表示“我有”，a baby sister表示“一个年幼的妹妹”。",
+        "knowledge_point": "介绍家庭成员",
+        "options": [
+          "Nice to meet you.",
+          "I have a baby sister.",
+          "Is this your sister?",
+          "This family is small."
+        ],
+        "question": "你想说“我有一个年幼的妹妹”，应该选择哪一句？",
+        "type": "choice",
+        "id": 29005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "原文明确说这个家庭很大，并且作者爱自己的大家庭，所以“作者不爱自己的家庭”与原文不符。",
+        "knowledge_point": "家庭树与阅读理解",
+        "options": [],
+        "question": "阅读：“I have a big family. I love my big family.”判断：作者不爱自己的家庭。",
+        "type": "true_false",
+        "id": 29006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "混淆grandma和grandpa：grandma指祖母或外祖母，grandpa指祖父或外祖父。",
+        "把“I have an aunt.”写成“I have a aunt.”；aunt前应使用an。",
+        "two后仍用单数cousin，应改为two cousins。",
+        "本单元介绍家人时重点使用“This is my mum.”；但“This is Mum.”在把Mum用作称呼的语境中也可以成立，不能一概判错。"
+      ],
+      "core_concept": "用“This is my …”介绍家庭成员，用“I have …”说明自己有哪些家庭成员。",
+      "key_formula": "This is my + 家庭成员称呼. / I have a/an + 单数家庭成员名词. / I have two + 复数家庭成员名词.",
+      "point": "介绍家庭成员",
+      "tips": "mother和mum都可表示妈妈，father和dad都可表示爸爸；brother本身不区分哥哥和弟弟，sister本身不区分姐姐和妹妹。"
+    },
+    {
+      "common_mistakes": [
+        "混淆cousin与brother、sister：cousin表示堂亲或表亲，不等同于兄弟姐妹。",
+        "没有核对身份线索就回答Yes；应先判断题目中的人物是否符合问句。",
+        "把家庭大小理解为固定的人数标准，或认为所有家庭都必须有相同的成员。",
+        "把大家庭或小家庭的区别误解为是否彼此关爱。"
+      ],
+      "core_concept": "根据已给出的身份信息回答一般疑问句，理解家庭成员构成可以不同，家庭可以有大有小。",
+      "key_formula": "Is this/that your + 家庭成员称呼? — Yes, it is. / No, it’s my + 正确称呼.",
+      "point": "确认人物身份与家庭差异",
+      "tips": "先核对人物身份，再选择肯定或否定回答；家庭人数和成员构成可以不同，大小家庭都可以彼此关爱。"
+    },
+    {
+      "common_mistakes": [
+        "把字母名称与字母在单词中的读音混为一谈，例如字母F的名称音与fish中的/f/不是同一个音。",
+        "把大小写配错，例如G的小写是g，不是d。",
+        "只关注首字母，忽略词中相同字母的读音，例如fish和beef中的f都发/f/。"
+      ],
+      "core_concept": "认识Ee、Ff、Gg、Hh的大小写形式，结合例词学习相关字母的常见读音。",
+      "key_formula": "E/e：egg中的/e/；F/f：fish、beef中的/f/；G/g：girl、pig中的/ɡ/；H/h：hot、hat中的/h/。",
+      "point": "字母Ee—Hh的音形与发音",
+      "tips": "先认字形，再读例词；这里只概括所列例词的读音，不表示这些字母在所有单词中都这样发音。"
+    },
+    {
+      "common_mistakes": [
+        "忽略短文中的复数形式，例如原文是cousins，回答时却误用单数cousin。",
+        "把父母的父母与父母的兄弟姐妹混淆，应沿题目提供的亲属关系逐层判断。",
+        "认为small或big必然对应某个固定人数；本单元未给出这样的统一人数标准。",
+        "把两个家庭都彼此相爱，误解为两个家庭成员完全相同。"
+      ],
+      "core_concept": "根据明确给出的关系整理家庭树，从短文中提取家庭成员、家庭大小和家人相处的信息。",
+      "key_formula": "家庭关系：先确定参照人物，再逐层判断。阅读理解：答案须与所给文字一致。",
+      "point": "家庭树与阅读理解",
+      "tips": "圈出亲属词及其单复数形式；判断家庭大小时依据短文明确表述，不自行设定人数界限。"
+    }
+  ]
+}

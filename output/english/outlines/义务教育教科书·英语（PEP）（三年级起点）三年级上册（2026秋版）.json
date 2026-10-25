@@ -1,0 +1,329 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书•英语 三年级上册（2026秋版）",
+  "edition": "2026",
+  "editionLabel": "2026秋版",
+  "supersedes": "english-g3up",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "Making friends",
+      "knowledge_points": [
+        {
+          "name": "问候、自我介绍与询问姓名",
+          "description": "结合新版教材学习问候、自我介绍与询问姓名",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "身体部位和交友行为",
+          "description": "结合新版教材学习身体部位和交友行为",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "字母Aa—Dd的音形与发音",
+          "description": "结合新版教材学习字母Aa—Dd的音形与发音",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "倾听、帮助、分享与友好交往",
+          "description": "结合新版教材学习倾听、帮助、分享与友好交往",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "Different families",
+      "knowledge_points": [
+        {
+          "name": "介绍家庭成员",
+          "description": "结合新版教材学习介绍家庭成员",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "确认人物身份与家庭差异",
+          "description": "结合新版教材学习确认人物身份与家庭差异",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "字母Ee—Hh的音形与发音",
+          "description": "结合新版教材学习字母Ee—Hh的音形与发音",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "家庭树与阅读理解",
+          "description": "结合新版教材学习家庭树与阅读理解",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "Our animal friends",
+      "knowledge_points": [
+        {
+          "name": "宠物和喜好表达",
+          "description": "结合新版教材学习宠物和喜好表达",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "野生动物与this、that问答",
+          "description": "结合新版教材学习野生动物与this、that问答",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "字母Ii—Ll的音形与发音",
+          "description": "结合新版教材学习字母Ii—Ll的音形与发音",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "动物分类与阅读理解",
+          "description": "结合新版教材学习动物分类与阅读理解",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "Plants around us",
+      "knowledge_points": [
+        {
+          "name": "水果喜好与一般疑问句",
+          "description": "结合新版教材学习水果喜好与一般疑问句",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "植物的需要与照料",
+          "description": "结合新版教材学习植物的需要与照料",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "字母Mm—Pp的音形与发音",
+          "description": "结合新版教材学习字母Mm—Pp的音形与发音",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "植物与人的相互帮助",
+          "description": "结合新版教材学习植物与人的相互帮助",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "The colourful world",
+      "knowledge_points": [
+        {
+          "name": "描述颜色与调色",
+          "description": "结合新版教材学习描述颜色与调色",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "表达颜色喜好与用途",
+          "description": "结合新版教材学习表达颜色喜好与用途",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "字母Qq—Uu的音形与发音",
+          "description": "结合新版教材学习字母Qq—Uu的音形与发音",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "颜色变化与阅读理解",
+          "description": "结合新版教材学习颜色变化与阅读理解",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "Useful numbers",
+      "knowledge_points": [
+        {
+          "name": "数字1—10和年龄问答",
+          "description": "结合新版教材学习数字1—10和年龄问答",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "数量与价钱的生活应用",
+          "description": "结合新版教材学习数量与价钱的生活应用",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "字母Vv—Zz的音形与发音",
+          "description": "结合新版教材学习字母Vv—Zz的音形与发音",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "生日邀请与数字信息",
+          "description": "结合新版教材学习生日邀请与数字信息",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "Revision: Being a good guest",
+      "knowledge_points": [
+        {
+          "name": "礼貌做客与综合交际",
+          "description": "结合新版教材学习礼貌做客与综合交际",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "综合词汇与情境阅读",
+          "description": "结合新版教材学习综合词汇与情境阅读",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ],
+  "requiredPassageTitles": [
+    "Unit 1 A 对话",
+    "Unit 1 A 词汇与歌谣",
+    "Unit 1 Letters and sounds",
+    "Unit 1 B 对话",
+    "Unit 1 B 词汇与歌谣",
+    "Unit 1 Start to read",
+    "Unit 1 Reading time",
+    "Unit 2 A 对话",
+    "Unit 2 A 词汇与歌谣",
+    "Unit 2 Letters and sounds",
+    "Unit 2 B 对话",
+    "Unit 2 B 词汇与歌谣",
+    "Unit 2 Start to read",
+    "Unit 2 Reading time",
+    "Unit 3 A 对话",
+    "Unit 3 A 词汇与歌谣",
+    "Unit 3 Letters and sounds",
+    "Unit 3 B 对话",
+    "Unit 3 B 词汇与歌谣",
+    "Unit 3 Start to read",
+    "Unit 3 Reading time",
+    "Unit 4 A 对话",
+    "Unit 4 A 词汇与歌谣",
+    "Unit 4 Letters and sounds",
+    "Unit 4 B 对话",
+    "Unit 4 B 词汇与歌谣",
+    "Unit 4 Start to read",
+    "Unit 4 Reading time",
+    "Unit 5 A 对话",
+    "Unit 5 A 词汇与歌谣",
+    "Unit 5 Letters and sounds",
+    "Unit 5 B 对话",
+    "Unit 5 B 词汇与歌谣",
+    "Unit 5 Start to read",
+    "Unit 5 Reading time",
+    "Unit 6 A 对话",
+    "Unit 6 A 词汇与歌谣",
+    "Unit 6 Letters and sounds",
+    "Unit 6 B 对话",
+    "Unit 6 B 词汇与歌谣",
+    "Unit 6 Start to read",
+    "Unit 6 Reading time",
+    "Being a good guest"
+  ]
+}

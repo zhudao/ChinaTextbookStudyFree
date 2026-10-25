@@ -57,4 +57,21 @@ with tempfile.TemporaryDirectory() as directory:
     (cache / "manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
     run(command)
     assert mp3.read_bytes() == b"existing local output", "Legacy releases must not remove optional existing media"
+    legacy = target / "apps/web/public/data/books/legacy/lesson.json"
+    legacy.parent.mkdir(parents=True)
+    legacy.write_text(json.dumps({"id": "legacy-u1-l1", "answer": "3", "audio": "/old.opus"}))
+    canonical = json.dumps({"id": "legacy-u1-l1", "answer": "3"}, ensure_ascii=False, sort_keys=True)
+    manifest["requires_content"] = {"json_without_audio_sha256": {
+        "data/books/legacy/lesson.json": hashlib.sha256(canonical.encode()).hexdigest()}}
+    (cache / "manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
+    empty = root / "empty-overlay-target"
+    run(command[:-1] + [str(empty)], 1)
+    assert not empty.exists(), "A missing overlay base must fail before any writes"
+    legacy.write_text(json.dumps({"id": "legacy-u1-l1", "answer": "4"}))
+    run(command, 1)
+    assert mp3.read_bytes() == b"existing local output", "A changed overlay base must fail before any writes"
+    legacy.write_text(json.dumps({"id": "legacy-u1-l1", "answer": "3", "audio": "/new.mp3", "generatedAt": "today"}))
+    run(command)
+    assert json.loads(legacy.read_text())["audio"] == "/new.mp3", "Audio versions must not change legacy content identity"
 print("PASS: complete/legacy resource install, byte-level audit and corrupt-package preflight")
+print("PASS: overlay rejects absent/changed base before writes and accepts audio-only changes")

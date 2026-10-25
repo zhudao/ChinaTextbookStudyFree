@@ -26,6 +26,8 @@ struct JumpTestView: View {
     /// 前置未完成课程 id（通过时批量标记）。
     @State private var priorUncompletedIds: [String] = []
     @State private var loadError: String?
+    @State private var targetUnitLabel: String?
+    private var unitDisplayLabel: String { targetUnitLabel ?? "第 \(unitNumber) 单元" }
     @State private var attempt = 1
 
     // Runner state（轻量：一题一次，不重练）
@@ -84,7 +86,7 @@ struct JumpTestView: View {
             Text("跳级测试")
                 .duoFont(.title)
                 .foregroundStyle(DuoColors.ink)
-            Text("证明你已经掌握了前面的内容，\n就能直接跳到第 \(unitNumber) 单元！")
+            Text("证明你已经掌握了前面的内容，\n就能直接跳到\(unitDisplayLabel)！")
                 .duoFont(.body)
                 .foregroundStyle(DuoColors.inkMuted)
                 .multilineTextAlignment(.center)
@@ -313,7 +315,7 @@ struct JumpTestView: View {
                     .foregroundStyle(DuoColors.inkMuted)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 32)
-                Text("现在可以从第 \(unitNumber) 单元继续冒险 🗺️")
+                Text("现在可以从\(unitDisplayLabel)继续冒险 🗺️")
                     .duoFont(.caption)
                     .foregroundStyle(DuoColors.inkSofter)
                 Spacer()
@@ -487,9 +489,8 @@ struct JumpTestView: View {
     private func prepare() {
         do {
             let outline = try DataLoader.shared.loadOutline(bookId: bookId)
-            let priorMetas = outline
-                .pathLessonMetas(bookId: bookId)
-                .filter { $0.unitNumber < unitNumber }
+            targetUnitLabel = outline.units.first(where: { $0.unitNumber == unitNumber })?.label
+            let priorMetas = outline.priorLessonMetas(bookId: bookId, beforeUnit: unitNumber)
             guard !priorMetas.isEmpty else {
                 loadError = "前面没有可以测试的课程"
                 return

@@ -333,7 +333,8 @@ final class PRFixTests: XCTestCase {
     // ============================================================
 
     func testImportRestoresTodayXpSoDailyGoalBonusIsNotFarmable() {
-        let today = day("2026-08-26")
+        // dailyGoalReached intentionally checks the real current day.
+        let today = Date()
         store.setDailyGoal(50)
         let first = store.completeLesson(lessonId: "g1up-u1-kp1", correctCount: 5, questionCount: 5, now: today)
         XCTAssertTrue(first.dailyGoalReachedNow, "60 XP（5 题全对 + 零失误 + 首次三星）跨过 50 的每日目标")

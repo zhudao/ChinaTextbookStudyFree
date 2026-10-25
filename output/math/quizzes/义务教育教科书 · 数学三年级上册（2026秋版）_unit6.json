@@ -1,0 +1,445 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学三年级上册（2026秋版）",
+  "unit": "分数的初步认识",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "分数的初步认识·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "分母",
+        "difficulty": 1,
+        "explanation": "分数线下方的数叫分母，表示平均分成的总份数。4/7中的7是分母。",
+        "knowledge_point": "分数的含义与读写",
+        "options": [
+          "整数部分",
+          "分母",
+          "分数线",
+          "分子"
+        ],
+        "question": "在分数4/7中，数字7叫什么？",
+        "type": "choice",
+        "id": 60001,
+        "score": 10
+      },
+      {
+        "answer": "六分之五",
+        "difficulty": 1,
+        "explanation": "先读分母“六”，再读“分之”，最后读分子“五”，所以5/6读作六分之五。",
+        "knowledge_point": "分数的含义与读写",
+        "options": [
+          "六分之五",
+          "五分之六",
+          "五分之一",
+          "六分之一"
+        ],
+        "question": "5/6的正确读法是哪一个？",
+        "type": "choice",
+        "id": 60002,
+        "score": 10
+      },
+      {
+        "answer": "3/8",
+        "difficulty": 1,
+        "explanation": "平均分成8份，取其中3份，分母写8、分子写3，所以是3/8。",
+        "knowledge_point": "分数的含义与读写",
+        "options": [],
+        "question": "一张纸平均分成8份，取其中3份。取出的部分占这张纸的几分之几？",
+        "type": "calculation",
+        "id": 60003,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "把整体平均分成两份，每份就是整体的1/2。",
+        "knowledge_point": "分数的含义与读写",
+        "options": [],
+        "question": "把一个月饼平均分成2份，每份是这个月饼的1/2。",
+        "type": "true_false",
+        "id": 60004,
+        "score": 10
+      },
+      {
+        "answer": "4/9",
+        "difficulty": 1,
+        "explanation": "“九分之四”中，分母是9，分子是4，所以写作4/9。",
+        "knowledge_point": "分数的含义与读写",
+        "options": [],
+        "question": "把“九分之四”写成分数。",
+        "type": "calculation",
+        "id": 60005,
+        "score": 10
+      },
+      {
+        "answer": "1/4",
+        "difficulty": 2,
+        "explanation": "每张纸片都平均分成4份，取其中1份，都是各自原纸片的1/4。纸片形状不同，不影响这个分数。",
+        "knowledge_point": "分数的含义与读写",
+        "options": [],
+        "question": "两张形状不同的纸片，各自都平均分成4份，并各取其中1份。每个取出的部分各占原纸片的几分之几？",
+        "type": "calculation",
+        "id": 60006,
+        "score": 10
+      },
+      {
+        "answer": "<",
+        "difficulty": 1,
+        "explanation": "分母相同，比较分子即可。3小于5，所以3/8小于5/8。",
+        "knowledge_point": "分数的大小比较",
+        "options": [
+          "=",
+          "<",
+          ">",
+          "无法判断"
+        ],
+        "question": "在括号里填入正确的比较符号：3/8（ ）5/8。",
+        "type": "choice",
+        "id": 60007,
+        "score": 10
+      },
+      {
+        "answer": "1/6",
+        "difficulty": 1,
+        "explanation": "分子都是1时，分母越大，分数越小。6大于4，所以1/6小于1/4。",
+        "knowledge_point": "分数的大小比较",
+        "options": [],
+        "question": "比较1/4和1/6，写出其中较小的分数。",
+        "type": "calculation",
+        "id": 60008,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "分母相同，说明分数单位相同；分子较大，表示这样的份数较多，所以分数较大。",
+        "knowledge_point": "分数的大小比较",
+        "options": [],
+        "question": "两个分母相同的正分数，分子较大的那个分数较大。",
+        "type": "true_false",
+        "id": 60009,
+        "score": 10
+      },
+      {
+        "answer": "2/5",
+        "difficulty": 2,
+        "explanation": "2/5和1/5分母相同，2/5较大；1/5和1/7的分子都是1，1/5较大。因此2/5最大。",
+        "knowledge_point": "分数的大小比较",
+        "options": [
+          "三者一样大",
+          "1/5",
+          "2/5",
+          "1/7"
+        ],
+        "question": "比较1/5、2/5、1/7，下面哪个选项正确？",
+        "type": "choice",
+        "id": 60010,
+        "score": 10
+      },
+      {
+        "answer": "4/9 > 2/9 > 1/9",
+        "difficulty": 2,
+        "explanation": "这三个分数分母相同，按分子从大到小排列，4大于2，2大于1，所以4/9 > 2/9 > 1/9。",
+        "knowledge_point": "分数的大小比较",
+        "options": [
+          "2/9 > 4/9 > 1/9",
+          "4/9 > 1/9 > 2/9",
+          "4/9 > 2/9 > 1/9",
+          "1/9 > 2/9 > 4/9"
+        ],
+        "question": "把1/9、4/9、2/9按从大到小排列，下面哪个选项正确？",
+        "type": "choice",
+        "id": 60011,
+        "score": 10
+      },
+      {
+        "answer": "小红",
+        "difficulty": 2,
+        "explanation": "两块蛋糕同样大。1/3大于1/5，所以吃了自己蛋糕1/3的小红吃得多。",
+        "knowledge_point": "分数的大小比较",
+        "options": [
+          "小明",
+          "小红",
+          "无法比较",
+          "两人一样多"
+        ],
+        "question": "小明和小红各有一块同样大的蛋糕。小明吃了自己蛋糕的1/5，小红吃了自己蛋糕的1/3。谁吃得多？",
+        "type": "choice",
+        "id": 60012,
+        "score": 10
+      },
+      {
+        "answer": "5/9",
+        "difficulty": 1,
+        "explanation": "同分母相加，分母9不变，分子相加：2+3=5，所以结果是5/9。",
+        "knowledge_point": "同分母分数的简单计算",
+        "options": [],
+        "question": "计算：2/9+3/9。结果用分母为9的分数表示。",
+        "type": "calculation",
+        "id": 60013,
+        "score": 10
+      },
+      {
+        "answer": "2/7",
+        "difficulty": 1,
+        "explanation": "同分母相减，分母7不变，分子相减：6-4=2，所以结果是2/7。",
+        "knowledge_point": "同分母分数的简单计算",
+        "options": [],
+        "question": "计算：6/7-4/7。结果用分母为7的分数表示。",
+        "type": "calculation",
+        "id": 60014,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "同分母分数的分数单位相同，计算时分母保持不变，分子相加或相减。",
+        "knowledge_point": "同分母分数的简单计算",
+        "options": [],
+        "question": "同分母分数相加或相减时，分母保持不变。",
+        "type": "true_false",
+        "id": 60015,
+        "score": 10
+      },
+      {
+        "answer": "7/8",
+        "difficulty": 1,
+        "explanation": "把1看作8/8，再计算：8/8-1/8=7/8。",
+        "knowledge_point": "同分母分数的简单计算",
+        "options": [],
+        "question": "计算：1-1/8。结果用分母为8的分数表示。",
+        "type": "calculation",
+        "id": 60016,
+        "score": 10
+      },
+      {
+        "answer": "2/6",
+        "difficulty": 1,
+        "explanation": "分母6不变，分子相减：5-3=2，结果为2/6。",
+        "knowledge_point": "同分母分数的简单计算",
+        "options": [
+          "2/6",
+          "8/6",
+          "2/12",
+          "1/6"
+        ],
+        "question": "计算5/6-3/6，结果用分母为6的分数表示。正确结果是哪一个？",
+        "type": "choice",
+        "id": 60017,
+        "score": 10
+      },
+      {
+        "answer": "5/10",
+        "difficulty": 2,
+        "explanation": "求一共用去的份额，用加法：2/10+3/10=5/10。分母10不变，分子2与3相加。",
+        "knowledge_point": "同分母分数的简单计算",
+        "options": [],
+        "question": "一条彩带，第一次用去了全长的2/10，第二次用去了全长的3/10。一共用去了这条彩带的几分之几？用分母为10的分数表示。",
+        "type": "calculation",
+        "id": 60018,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "9个圆片平均分成3份，每份有9÷3=3个。",
+        "knowledge_point": "把一组物品看作整体",
+        "options": [],
+        "question": "9个大小相同的圆片平均分成3份，每份有几个？",
+        "type": "calculation",
+        "id": 60019,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 1,
+        "explanation": "12个苹果平均分成3份，每份有12÷3=4个。",
+        "knowledge_point": "把一组物品看作整体",
+        "options": [],
+        "question": "12个苹果平均分成3份，每份有多少个？",
+        "type": "calculation",
+        "id": 60020,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "把这8个积木看作一个整体，平均分成4份，每份占整体的1/4，每份有2个积木。",
+        "knowledge_point": "把一组物品看作整体",
+        "options": [],
+        "question": "把8个相同的积木看作一个整体，平均分成4份，每份是整体的1/4。",
+        "type": "true_false",
+        "id": 60021,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 2,
+        "explanation": "15本练习本平均分成5份，每份15÷5=3本；取其中2份，共3×2=6本。",
+        "knowledge_point": "把一组物品看作整体",
+        "options": [],
+        "question": "15本练习本平均分成5份，取其中2份，有多少本？",
+        "type": "calculation",
+        "id": 60022,
+        "score": 10
+      },
+      {
+        "answer": "12",
+        "difficulty": 2,
+        "explanation": "16个球平均分成4份，每份16÷4=4个；取其中3份，共4×3=12个。",
+        "knowledge_point": "把一组物品看作整体",
+        "options": [],
+        "question": "16个球平均分成4份，取其中3份，有多少个球？",
+        "type": "calculation",
+        "id": 60023,
+        "score": 10
+      },
+      {
+        "answer": "4个",
+        "difficulty": 1,
+        "explanation": "20个橘子平均分成5份，每份20÷5=4个，这一份占整体的1/5。",
+        "knowledge_point": "把一组物品看作整体",
+        "options": [
+          "4个",
+          "5个",
+          "10个",
+          "2个"
+        ],
+        "question": "把20个橘子看作一个整体，取出它的1/5，取出了多少个橘子？",
+        "type": "choice",
+        "id": 60024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "分数的初步认识·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "五分之三",
+        "difficulty": 1,
+        "explanation": "读分数时先读分母，再读“分之”，最后读分子，所以3/5读作五分之三。",
+        "knowledge_point": "分数的含义与读写",
+        "options": [
+          "五分之三",
+          "五分之一",
+          "三分之一",
+          "三分之五"
+        ],
+        "question": "分数3/5读作什么？",
+        "type": "choice",
+        "id": 69001,
+        "score": 10
+      },
+      {
+        "answer": "<",
+        "difficulty": 1,
+        "explanation": "两个分数分母相同，比较分子即可。2小于4，所以2/7小于4/7。",
+        "knowledge_point": "分数的大小比较",
+        "options": [
+          "=",
+          "<",
+          "无法判断",
+          ">"
+        ],
+        "question": "在括号里填入正确的比较符号：2/7（ ）4/7。",
+        "type": "choice",
+        "id": 69002,
+        "score": 10
+      },
+      {
+        "answer": "5/8",
+        "difficulty": 1,
+        "explanation": "同分母分数相加，分母不变，分子相加：2/8+3/8=5/8。",
+        "knowledge_point": "同分母分数的简单计算",
+        "options": [],
+        "question": "计算：2/8+3/8。结果用分母为8的分数表示。",
+        "type": "calculation",
+        "id": 69003,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 2,
+        "explanation": "12个球平均分成3份，每份12÷3=4个；取其中2份，共4×2=8个。",
+        "knowledge_point": "把一组物品看作整体",
+        "options": [],
+        "question": "把12个球平均分成3份，取其中2份，取出多少个球？",
+        "type": "calculation",
+        "id": 69004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "只有把整体平均分成两份时，每一份才是整体的1/2。大小不同的两块不能各占这个苹果的1/2。",
+        "knowledge_point": "分数的含义与读写",
+        "options": [],
+        "question": "一个苹果分成大小不同的两块，每一块都是这个苹果的1/2。",
+        "type": "true_false",
+        "id": 69005,
+        "score": 10
+      },
+      {
+        "answer": "3/6",
+        "difficulty": 1,
+        "explanation": "把6个圆片看作一个整体，每个圆片算一份，共有6份；涂色的3个占其中3份，所以是3/6。",
+        "knowledge_point": "把一组物品看作整体",
+        "options": [],
+        "question": "有6个大小相同的圆片，把它们看作一个整体。每个圆片算一份，其中3个涂了颜色。涂色部分占整体的几分之几？用分母为6的分数表示。",
+        "type": "calculation",
+        "id": 69006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把没有平均分的部分说成整体的几分之一。",
+        "把分子、分母的位置或读法弄反。",
+        "把总份数和所取份数混淆。"
+      ],
+      "core_concept": "把一个整体平均分成若干份，表示其中一份或几份时，可以用分数表示。分数线下方的数是分母，表示平均分成的总份数；上方的数是分子，表示所取的份数。",
+      "key_formula": "平均分成n份，取其中m份，记作m/n；读作“n分之m”。这里n、m都是正整数，且本单元所取份数不超过总份数。",
+      "point": "分数的含义与读写",
+      "tips": "先确认平均分，再数总份数写分母、数所取份数写分子。读分数时先读分母，再读“分之”，最后读分子。"
+    },
+    {
+      "common_mistakes": [
+        "同分母分数比较时忽略分子大小。",
+        "比较分子都是1的分数时，误以为分母越大分数越大。",
+        "比较实际数量时，只比较分数而忽略所对应的整体是否同样大。"
+      ],
+      "core_concept": "分母相同的分数，分子大的分数较大；分子都是1的分数，分母小的分数较大。比较分数本身的大小不需要指定实际整体；根据分数比较实际数量时，要注意所对应的整体是否同样大。",
+      "key_formula": "同分母：分子大的分数较大；分子都是1：分母小的分数较大。",
+      "point": "分数的大小比较",
+      "tips": "先看分母是否相同；若分子都是1，想一想同样大的整体平均分的份数越多，每一份越小。"
+    },
+    {
+      "common_mistakes": [
+        "加减时把分母也相加或相减。",
+        "计算1减分数时，没有把1看作与所减分数同分母的分数。",
+        "没有根据题意分清应求合起来的份额还是相差的份额。"
+      ],
+      "core_concept": "同分母分数的分数单位相同，相加或相减时分母不变，只把分子相加或相减。计算1减一个分数时，可以先把1写成分子、分母都等于这个分数分母的分数。",
+      "key_formula": "a/n+b/n=(a+b)/n；a/n-b/n=(a-b)/n；1=n/n。这里n为正整数，本单元加法的和不超过1，减法的结果不小于0。",
+      "point": "同分母分数的简单计算",
+      "tips": "把分数想成相同大小的份：加减的是份数，每份的大小不变。"
+    },
+    {
+      "common_mistakes": [
+        "把整体的物品总数直接当作分母，忽略题目实际平均分成的份数。",
+        "平均分组时没有保证每组物品的数量相同。",
+        "把每一份的数量误认为取几份后的总数量。"
+      ],
+      "core_concept": "把一组物品看作一个整体，按数量平均分成几份，每份占整体的几分之一；取其中几份，占整体的几分之几。",
+      "key_formula": "总数平均分成n份，每份数量=总数÷n；取其中m份的数量=(总数÷n)×m。本单元中总数能被n整除，且所取份数不超过总份数。",
+      "point": "把一组物品看作整体",
+      "tips": "先看整体平均分成几份，再算每份有多少，最后按所取份数计算。"
+    }
+  ]
+}

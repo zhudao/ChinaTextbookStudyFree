@@ -1,0 +1,325 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学三年级上册（2026秋版）",
+  "edition": "2026",
+  "editionLabel": "2026秋版",
+  "supersedes": "g3up",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "观察物体",
+      "knowledge_points": [
+        {
+          "name": "从不同方向观察物体",
+          "description": "结合新版教材学习从不同方向观察物体",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "观察立体图形与推断位置",
+          "description": "结合新版教材学习观察立体图形与推断位置",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "纸盒展开与空间想象",
+          "description": "结合新版教材学习纸盒展开与空间想象",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "混合运算",
+      "knowledge_points": [
+        {
+          "name": "同级运算的顺序",
+          "description": "结合新版教材学习同级运算的顺序",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "含乘除和加减的混合运算",
+          "description": "结合新版教材学习含乘除和加减的混合运算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "小括号改变运算顺序",
+          "description": "结合新版教材学习小括号改变运算顺序",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "两步问题与倍的关系",
+          "description": "结合新版教材学习两步问题与倍的关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "毫米、分米和千米",
+      "knowledge_points": [
+        {
+          "name": "毫米和分米的认识与换算",
+          "description": "结合新版教材学习毫米和分米的认识与换算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "千米的认识与长度估测",
+          "description": "结合新版教材学习千米的认识与长度估测",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "选择长度单位与解决问题",
+          "description": "结合新版教材学习选择长度单位与解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 101,
+      "title": "曹冲称象的故事",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "等量替换与分次称重",
+          "description": "结合新版教材学习等量替换与分次称重",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "克、千克、吨的认识与换算",
+          "description": "结合新版教材学习克、千克、吨的认识与换算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "选择工具估重与实测",
+          "description": "结合新版教材学习选择工具估重与实测",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "多位数乘一位数",
+      "knowledge_points": [
+        {
+          "name": "口算乘法与算理",
+          "description": "结合新版教材学习口算乘法与算理",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "笔算乘法与连续进位",
+          "description": "结合新版教材学习笔算乘法与连续进位",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "乘数中间或末尾有0的乘法",
+          "description": "结合新版教材学习乘数中间或末尾有0的乘法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "乘法估算与实际问题",
+          "description": "结合新版教材学习乘法估算与实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 102,
+      "title": "数字编码",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "认识数字编码的信息",
+          "description": "结合新版教材学习认识数字编码的信息",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "设计学号与解释编码规则",
+          "description": "结合新版教材学习设计学号与解释编码规则",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "线和角",
+      "knowledge_points": [
+        {
+          "name": "线段、射线与直线",
+          "description": "结合新版教材学习线段、射线与直线",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "两点间距离与比较线段",
+          "description": "结合新版教材学习两点间距离与比较线段",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "角与直角、锐角、钝角",
+          "description": "结合新版教材学习角与直角、锐角、钝角",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "分数的初步认识",
+      "knowledge_points": [
+        {
+          "name": "分数的含义与读写",
+          "description": "结合新版教材学习分数的含义与读写",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "分数的大小比较",
+          "description": "结合新版教材学习分数的大小比较",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "同分母分数的简单计算",
+          "description": "结合新版教材学习同分母分数的简单计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "把一组物品看作整体",
+          "description": "结合新版教材学习把一组物品看作整体",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "复习与关联",
+      "knowledge_points": [
+        {
+          "name": "数与运算的联系",
+          "description": "结合新版教材学习数与运算的联系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "数量关系与分步解决问题",
+          "description": "结合新版教材学习数量关系与分步解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "图形测量与实践综合",
+          "description": "结合新版教材学习图形测量与实践综合",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ]
+}

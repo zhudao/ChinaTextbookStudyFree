@@ -1,0 +1,359 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学三年级上册（2026秋版）",
+  "unit": "复习与关联",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "复习与关联·配套练习",
+    "total_score": 180,
+    "time_minutes": 18,
+    "questions": [
+      {
+        "answer": "900",
+        "difficulty": 1,
+        "explanation": "300是3个百，3个百乘3等于9个百，也就是900。",
+        "knowledge_point": "数与运算的联系",
+        "options": [
+          "90",
+          "2700",
+          "900",
+          "300"
+        ],
+        "question": "计算300×3，结果是多少？",
+        "type": "choice",
+        "id": 70001,
+        "score": 10
+      },
+      {
+        "answer": "26",
+        "difficulty": 1,
+        "explanation": "只有加减法，从左往右计算：18-7=11，11+15=26。",
+        "knowledge_point": "数与运算的联系",
+        "options": [],
+        "question": "计算18-7+15。",
+        "type": "calculation",
+        "id": 70002,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "没有括号且同时有乘法和加法时，先算乘法，所以应先算4×5。",
+        "knowledge_point": "数与运算的联系",
+        "options": [],
+        "question": "算式7+4×5应先算4×5。",
+        "type": "true_false",
+        "id": 70003,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 2,
+        "explanation": "先算括号里的加法：20+4=24；再算除法：24÷4=6。",
+        "knowledge_point": "数与运算的联系",
+        "options": [
+          "36",
+          "4",
+          "24",
+          "6"
+        ],
+        "question": "计算（20+4）÷4，结果是多少？",
+        "type": "choice",
+        "id": 70004,
+        "score": 10
+      },
+      {
+        "answer": "1304",
+        "difficulty": 2,
+        "explanation": "把326分成300、20和6，分别乘4，得到1200、80和24；合起来：1200+80+24=1304。",
+        "knowledge_point": "数与运算的联系",
+        "options": [],
+        "question": "计算326×4。",
+        "type": "calculation",
+        "id": 70005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "12+8×5=12+40=52；（12+8）×5=20×5=100。52不等于100，所以两个算式的结果不同。",
+        "knowledge_point": "数与运算的联系",
+        "options": [],
+        "question": "算式12+8×5与（12+8）×5的结果相同。",
+        "type": "true_false",
+        "id": 70006,
+        "score": 10
+      },
+      {
+        "answer": "54",
+        "difficulty": 1,
+        "explanation": "每盒6支，9盒共有6×9=54（支）。",
+        "knowledge_point": "数量关系与分步解决问题",
+        "options": [
+          "63",
+          "54",
+          "45",
+          "15"
+        ],
+        "question": "每盒有6支铅笔，9盒共有多少支？",
+        "type": "choice",
+        "id": 70007,
+        "score": 10
+      },
+      {
+        "answer": "14",
+        "difficulty": 1,
+        "explanation": "小芳比小杰多5张，所以小芳有9+5=14（张）。",
+        "knowledge_point": "数量关系与分步解决问题",
+        "options": [],
+        "question": "小杰有9张贴纸，小芳比小杰多5张。小芳有多少张贴纸？",
+        "type": "calculation",
+        "id": 70008,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "求6个8是多少，应使用乘法，正确算式是8×6=48。",
+        "knowledge_point": "数量关系与分步解决问题",
+        "options": [],
+        "question": "每袋有8个苹果，6袋苹果的总数应列式为8+6。",
+        "type": "true_false",
+        "id": 70009,
+        "score": 10
+      },
+      {
+        "answer": "43",
+        "difficulty": 2,
+        "explanation": "先求女生人数：18+7=25（名）；再求全班人数：18+25=43（名）。",
+        "knowledge_point": "数量关系与分步解决问题",
+        "options": [
+          "43",
+          "50",
+          "25",
+          "36"
+        ],
+        "question": "班里有18名男生，女生比男生多7人。全班一共有多少名学生？",
+        "type": "choice",
+        "id": 70010,
+        "score": 10
+      },
+      {
+        "answer": "54",
+        "difficulty": 2,
+        "explanation": "先求每本练习册的价格：36÷4=9（元）；再求买6本的价钱：9×6=54（元）。",
+        "knowledge_point": "数量关系与分步解决问题",
+        "options": [],
+        "question": "4本相同的练习册共36元。照这样的价格，买6本需要多少元？",
+        "type": "calculation",
+        "id": 70011,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "每排座位数相同，总座位数就是求几个相同加数的和，可以用“每排座位数×排数”计算。",
+        "knowledge_point": "数量关系与分步解决问题",
+        "options": [],
+        "question": "各排座位数相同，知道每排的座位数和排数，可以用乘法求座位总数。",
+        "type": "true_false",
+        "id": 70012,
+        "score": 10
+      },
+      {
+        "answer": "厘米",
+        "difficulty": 1,
+        "explanation": "铅笔是较短的物体，测量它的长度用厘米比较合适；千米适合表示较长的距离，吨和千克是质量单位。",
+        "knowledge_point": "图形测量与实践综合",
+        "options": [
+          "千米",
+          "千克",
+          "厘米",
+          "吨"
+        ],
+        "question": "测量一支铅笔的长度，下面哪个单位最合适？",
+        "type": "choice",
+        "id": 70013,
+        "score": 10
+      },
+      {
+        "answer": "300",
+        "difficulty": 1,
+        "explanation": "1米=100厘米，3米是3个100厘米，即300厘米。",
+        "knowledge_point": "图形测量与实践综合",
+        "options": [],
+        "question": "3米等于多少厘米？",
+        "type": "calculation",
+        "id": 70014,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "从同一个点引出两条方向不同的射线，可以组成一个角，这个点是角的顶点。",
+        "knowledge_point": "图形测量与实践综合",
+        "options": [],
+        "question": "从同一个点引出两条方向不同的射线，可以组成一个角。",
+        "type": "true_false",
+        "id": 70015,
+        "score": 10
+      },
+      {
+        "answer": "锐角",
+        "difficulty": 1,
+        "explanation": "在锐角、直角和钝角中，锐角比直角小，钝角比直角大。",
+        "knowledge_point": "图形测量与实践综合",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "无法确定"
+        ],
+        "question": "一个角比直角小，它是哪种角？",
+        "type": "choice",
+        "id": 70016,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "1吨=1000千克，3000千克是3个1000千克，所以等于3吨。",
+        "knowledge_point": "图形测量与实践综合",
+        "options": [],
+        "question": "3000千克等于多少吨？",
+        "type": "calculation",
+        "id": 70017,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "射线有一个端点，向一个方向无限延伸；线段有两个端点，长度有限。",
+        "knowledge_point": "图形测量与实践综合",
+        "options": [],
+        "question": "射线有两个端点，线段只有一个端点。",
+        "type": "true_false",
+        "id": 70018,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "复习与关联·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "800",
+        "difficulty": 2,
+        "explanation": "先算乘法：125×6=750，再算加法：750+50=800。",
+        "knowledge_point": "数与运算的联系",
+        "options": [
+          "1250",
+          "300",
+          "800",
+          "750"
+        ],
+        "question": "计算125×6+50，结果是多少？",
+        "type": "choice",
+        "id": 79001,
+        "score": 10
+      },
+      {
+        "answer": "10",
+        "difficulty": 2,
+        "explanation": "先求小红做的朵数：8-3=5（朵）；再求小军做的朵数：5×2=10（朵）。",
+        "knowledge_point": "数量关系与分步解决问题",
+        "options": [
+          "13",
+          "5",
+          "8",
+          "10"
+        ],
+        "question": "小明做了8朵纸花，小红比小明少做3朵。小军做的朵数是小红的2倍。小军做了多少朵纸花？",
+        "type": "choice",
+        "id": 79002,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "1米等于100厘米，不是10厘米。",
+        "knowledge_point": "图形测量与实践综合",
+        "options": [],
+        "question": "1米等于10厘米。",
+        "type": "true_false",
+        "id": 79003,
+        "score": 10
+      },
+      {
+        "answer": "384",
+        "difficulty": 2,
+        "explanation": "先求每箱的瓶数：6×8=48（瓶）；再求8箱的瓶数：48×8=384（瓶）。",
+        "knowledge_point": "数量关系与分步解决问题",
+        "options": [],
+        "question": "一箱饮料有6排，每排8瓶。这样的8箱共有多少瓶？",
+        "type": "calculation",
+        "id": 79004,
+        "score": 10
+      },
+      {
+        "answer": "400",
+        "difficulty": 1,
+        "explanation": "1米=100厘米，4米是4个100厘米，即400厘米。",
+        "knowledge_point": "图形测量与实践综合",
+        "options": [],
+        "question": "一条绳子长4米，合多少厘米？",
+        "type": "calculation",
+        "id": 79005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "6×12=72；6×10+6×2=60+12=72。两个算式的结果相等。",
+        "knowledge_point": "数与运算的联系",
+        "options": [],
+        "question": "算式6×12和6×10+6×2的结果相等。",
+        "type": "true_false",
+        "id": 79006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "混合运算中不按顺序计算，误把加减法放在乘除法之前。",
+        "忘记先计算括号里的部分。",
+        "多位数乘一位数时，漏加进位数或把数位对错。"
+      ],
+      "core_concept": "理解数与运算之间的联系，掌握多位数乘一位数的计算方法及混合运算顺序；认识分数表示平均分后的部分与整体的关系。",
+      "key_formula": "只有加减法或只有乘除法时，从左往右计算；有括号先算括号里面；没有括号时先算乘除，后算加减。",
+      "point": "数与运算的联系",
+      "tips": "先辨认括号和运算符号，再按顺序计算。多位数乘一位数时，应对齐数位，注意进位；可用估算检查结果是否合理。"
+    },
+    {
+      "common_mistakes": [
+        "没有弄清楚已知条件和所求问题，就直接列算式。",
+        "把“多几”“少几”以及“几倍”的关系混淆。",
+        "分步计算时，没有明确每一步求出的数量。",
+        "判断是否足够时，没有将计算结果与实际需要比较。"
+      ],
+      "core_concept": "从题目中找出数量关系，判断先求什么、再求什么；可以分步列式，也可以列综合算式，并根据需要选择估算或精确计算。",
+      "key_formula": "总量=每份数量×份数；每份数量=总量÷份数；相差数=较大数-较小数；几倍数=一份数×倍数。",
+      "point": "数量关系与分步解决问题",
+      "tips": "可以用简图或线段图整理数量关系；列式后说明每一步求的是什么，并用题目条件验证答案。"
+    },
+    {
+      "common_mistakes": [
+        "混淆长度单位或质量单位之间的进率。",
+        "把直角、锐角和钝角的大小关系判断反了。",
+        "混淆线段、射线和直线的端点数量。"
+      ],
+      "core_concept": "认识线段、射线和直线，辨认锐角、直角、钝角；根据实际情境选择长度、质量单位，并运用单位换算和测量知识解决问题。",
+      "key_formula": "1厘米=10毫米；1分米=10厘米；1米=10分米=100厘米；1千米=1000米；1千克=1000克；1吨=1000千克",
+      "point": "图形测量与实践综合",
+      "tips": "先判断测量的是长度还是质量，再选择单位。比较锐角、直角和钝角时，可以用三角尺上的直角作参照。线段有两个端点，射线有一个端点，直线没有端点。"
+    }
+  ]
+}

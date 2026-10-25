@@ -43,6 +43,7 @@ with tempfile.TemporaryDirectory() as temporary:
     archive('data.zip', 'data', {'source': 'apps/web/public/data', 'static': 'data'}, {'index.json': b'{"new":true}'})
     archive('web-app.zip', 'web', {'static': '.'}, {'index.html': b'current page', 'sw.js': b'current cache version'})
     archive('web-source.zip', 'source', {'source': '.'}, {'README.md': b'current instructions'})
+    archive('data-source.zip', 'source-data', {'source': 'data'}, {'passages/fixture.json': b'{"passages":[]}'})
 
     def manifest():
         inventory = ''.join(json.dumps(r) + '\n' for r in records).encode()
@@ -61,6 +62,15 @@ with tempfile.TemporaryDirectory() as temporary:
         return result
 
     fresh = tmp / 'fresh';run(fresh);run(fresh, extra=['--verify-only'])
+    ci = tmp / 'ci-source-data'
+    run(ci, mode='source', extra=['--asset-kind', 'source-data'])
+    run(ci, mode='source', extra=['--asset-kind', 'source-data', '--verify-only'])
+    assert (ci / 'data/passages/fixture.json').read_bytes() == b'{"passages":[]}'
+    assert not (ci / 'apps').exists(), 'CI source-only install must not download/install audio'
+    assert json.loads((ci / 'ASSETS-VERSION.json').read_text())['installed_asset_kinds'] == ['source-data']
+    absent = tmp / 'missing-kind'
+    run(absent, mode='source', extra=['--asset-kind', 'absent'], success=False)
+    assert not absent.exists()
     upgrade = tmp / 'upgrade';(upgrade / 'audio/aa').mkdir(parents=True)
     (upgrade / 'index.html').write_bytes(b'old page');(upgrade / 'audio/aa/1.mp3').write_bytes(b'old GPT')
     (upgrade / 'notes.txt').write_bytes(b'keep custom file')

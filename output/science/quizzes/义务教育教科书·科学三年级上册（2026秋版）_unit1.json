@@ -1,0 +1,890 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书·科学三年级上册（2026秋版）",
+  "unit": "天气",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "天气·配套练习",
+    "total_score": 480,
+    "time_minutes": 48,
+    "questions": [
+      {
+        "answer": "冷热",
+        "difficulty": 1,
+        "explanation": "“炎热”表示热的程度，主要描述天气的冷热。",
+        "knowledge_point": "我们关心天气",
+        "options": [
+          "风向",
+          "降水",
+          "冷热",
+          "阴晴"
+        ],
+        "question": "“炎热”主要用来描述天气的哪个方面？",
+        "type": "choice",
+        "id": 10001,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "阴、晴、雨、雪都是天气现象。",
+        "knowledge_point": "我们关心天气",
+        "options": [],
+        "question": "阴、晴、雨、雪都是天气现象。",
+        "type": "true_false",
+        "id": 10002,
+        "score": 10
+      },
+      {
+        "answer": "晴转多云",
+        "difficulty": 1,
+        "explanation": "“晴转多云”描述天气从晴变为多云。",
+        "knowledge_point": "我们关心天气",
+        "options": [
+          "晴转多云",
+          "风向标有箭头",
+          "气温计放在桌上",
+          "雨量器是直筒的"
+        ],
+        "question": "哪一项是在描述天气变化？",
+        "type": "choice",
+        "id": 10003,
+        "score": 10
+      },
+      {
+        "answer": "冷热、阴晴、雨雪和风",
+        "difficulty": 1,
+        "explanation": "观察天气可以同时关注冷热、阴晴、雨雪和风等方面。",
+        "knowledge_point": "我们关心天气",
+        "options": [
+          "只记录树木的种类",
+          "只记录地面的颜色",
+          "只记录一天有几节课",
+          "冷热、阴晴、雨雪和风"
+        ],
+        "question": "记录天气时，可以从哪些方面观察？",
+        "type": "choice",
+        "id": 10004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "阴晴只反映天气的一个方面，还可以记录冷热、雨雪、风等信息。",
+        "knowledge_point": "我们关心天气",
+        "options": [],
+        "question": "只记录阴天或晴天，就能完整描述天气的所有方面。",
+        "type": "true_false",
+        "id": 10005,
+        "score": 10
+      },
+      {
+        "answer": "操场，5月8日，晴、温暖、有微风",
+        "difficulty": 2,
+        "explanation": "该选项同时写明地点、日期和具体天气，比笼统写“好天气”更便于理解和比较。",
+        "knowledge_point": "我们关心天气",
+        "options": [
+          "今天是好天气",
+          "操场很漂亮",
+          "操场，5月8日，晴、温暖、有微风",
+          "我今天很开心"
+        ],
+        "question": "哪条天气观察记录同时写明了地点、日期和具体天气情况？",
+        "type": "choice",
+        "id": 10006,
+        "score": 10
+      },
+      {
+        "answer": "摄氏度",
+        "difficulty": 1,
+        "explanation": "℃是摄氏度的符号。",
+        "knowledge_point": "认识气温计",
+        "options": [
+          "千克",
+          "摄氏度",
+          "小时",
+          "毫米"
+        ],
+        "question": "气温计上的℃表示什么单位？",
+        "type": "choice",
+        "id": 10007,
+        "score": 10
+      },
+      {
+        "answer": "液柱顶端对应的刻度",
+        "difficulty": 1,
+        "explanation": "液柱顶端对应的刻度表示气温计的读数。",
+        "knowledge_point": "认识气温计",
+        "options": [
+          "外壳的形状",
+          "气温计的长度",
+          "玻璃泡的颜色",
+          "液柱顶端对应的刻度"
+        ],
+        "question": "读气温计时，应该看什么来确定读数？",
+        "type": "choice",
+        "id": 10008,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "液柱顶端在0℃刻度以下，表示温度低于0℃。",
+        "knowledge_point": "认识气温计",
+        "options": [],
+        "question": "气温计液柱顶端在0℃刻度以下，表示气温高于0℃。",
+        "type": "true_false",
+        "id": 10009,
+        "score": 10
+      },
+      {
+        "answer": "0℃",
+        "difficulty": 1,
+        "explanation": "液柱顶端对着0℃刻度，读数就是0℃，读作零摄氏度。",
+        "knowledge_point": "认识气温计",
+        "options": [
+          "1℃",
+          "0℃",
+          "10℃",
+          "-1℃"
+        ],
+        "question": "气温计液柱顶端正好对着0℃刻度，读数是多少？",
+        "type": "choice",
+        "id": 10010,
+        "score": 10
+      },
+      {
+        "answer": "零下四摄氏度，-4℃",
+        "difficulty": 2,
+        "explanation": "低于0℃四度，应读作零下四摄氏度，写作-4℃。",
+        "knowledge_point": "认识气温计",
+        "options": [
+          "零下四摄氏度，-4℃",
+          "四摄氏度，-4℃",
+          "四摄氏度，4℃",
+          "零下四摄氏度，4℃"
+        ],
+        "question": "气温计液柱顶端在0℃刻度以下四度，哪项读法和写法都正确？",
+        "type": "choice",
+        "id": 10011,
+        "score": 10
+      },
+      {
+        "answer": "19℃",
+        "difficulty": 2,
+        "explanation": "每小格为1℃，18℃与20℃之间的中间刻度为19℃。",
+        "knowledge_point": "认识气温计",
+        "options": [
+          "19℃",
+          "18℃",
+          "20℃",
+          "21℃"
+        ],
+        "question": "一支气温计每小格表示1℃。液柱顶端正好在18℃和20℃之间的中间刻度，读数是多少？",
+        "type": "choice",
+        "id": 10012,
+        "score": 10
+      },
+      {
+        "answer": "与液柱顶端持平",
+        "difficulty": 1,
+        "explanation": "读数时视线与液柱顶端保持齐平，可以减少观察角度造成的误差。",
+        "knowledge_point": "测量气温",
+        "options": [
+          "俯视液柱顶端",
+          "仰视液柱顶端",
+          "闭上眼睛估读",
+          "与液柱顶端持平"
+        ],
+        "question": "读气温计时，视线应怎样对着液柱顶端？",
+        "type": "choice",
+        "id": 10013,
+        "score": 10
+      },
+      {
+        "answer": "通风且避免阳光直射的地方",
+        "difficulty": 1,
+        "explanation": "没有百叶箱时，应选择阳光照射不到且空气流通的地方。",
+        "knowledge_point": "测量气温",
+        "options": [
+          "阳光直射的窗台上",
+          "紧挨着暖气的地方",
+          "通风且避免阳光直射的地方",
+          "被手紧握的掌心里"
+        ],
+        "question": "没有百叶箱时，气温计适合放在哪里测量室外气温？",
+        "type": "choice",
+        "id": 10014,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "阳光直射会使气温计额外受热，不符合测量气温的方法。",
+        "knowledge_point": "测量气温",
+        "options": [],
+        "question": "测量室外气温时，把气温计放在阳光直射的地方是合适的。",
+        "type": "true_false",
+        "id": 10015,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 2,
+        "explanation": "升温值为18－16＝2，所以中午比早上升高了2℃。",
+        "knowledge_point": "测量气温",
+        "options": [],
+        "question": "同一地点气温早上是16℃，中午是18℃。中午比早上升高了多少摄氏度？只写数值。",
+        "type": "calculation",
+        "id": 10016,
+        "score": 10
+      },
+      {
+        "answer": "不触碰玻璃泡，等液柱稳定后再读数",
+        "difficulty": 2,
+        "explanation": "手接触玻璃泡可能影响读数；液柱稳定后读数符合测量要求。",
+        "knowledge_point": "测量气温",
+        "options": [
+          "不触碰玻璃泡，等液柱稳定后再读数",
+          "把玻璃泡捂热后读数",
+          "液柱还在变化时随便选一个数",
+          "握住玻璃泡，马上读数"
+        ],
+        "question": "气温计已放在合适的位置，接下来哪种做法有助于准确测量？",
+        "type": "choice",
+        "id": 10017,
+        "score": 10
+      },
+      {
+        "answer": "12点",
+        "difficulty": 2,
+        "explanation": "比较14、16、18、17，最大值为18，对应12点。这只是所列测量时刻中的最高值，不能据此断定全天最高气温。",
+        "knowledge_point": "测量气温",
+        "options": [
+          "10点",
+          "12点",
+          "14点",
+          "8点"
+        ],
+        "question": "某地气温记录为：8点14℃、10点16℃、12点18℃、14点17℃。这四次测量中，哪次气温最高？",
+        "type": "choice",
+        "id": 10018,
+        "score": 10
+      },
+      {
+        "answer": "水层深度",
+        "difficulty": 1,
+        "explanation": "降水量表示一定时间内降落在一定面积地面上的水层深度，不表示降雨时长。",
+        "knowledge_point": "测量降水量",
+        "options": [
+          "下雨持续的小时数",
+          "雨滴落下的速度",
+          "云在天空中的高度",
+          "水层深度"
+        ],
+        "question": "降水量通常表示什么？",
+        "type": "choice",
+        "id": 10019,
+        "score": 10
+      },
+      {
+        "answer": "直筒透明杯子",
+        "difficulty": 1,
+        "explanation": "直筒杯上下粗细均匀，透明杯便于观察水位，适合制作简易雨量器。",
+        "knowledge_point": "测量降水量",
+        "options": [
+          "直筒透明杯子",
+          "不规则形状的容器",
+          "上大下小的漏斗",
+          "不透明的布袋"
+        ],
+        "question": "制作简易雨量器，适合选用哪种容器？",
+        "type": "choice",
+        "id": 10020,
+        "score": 10
+      },
+      {
+        "answer": "毫米",
+        "difficulty": 1,
+        "explanation": "降水量通常以毫米为单位。",
+        "knowledge_point": "测量降水量",
+        "options": [
+          "小时",
+          "毫米",
+          "摄氏度",
+          "千克"
+        ],
+        "question": "降水量通常用什么单位表示？",
+        "type": "choice",
+        "id": 10021,
+        "score": 10
+      },
+      {
+        "answer": "开阔且没有遮挡的地方",
+        "difficulty": 1,
+        "explanation": "屋檐、树冠等会影响雨水收集，应选择开阔、无遮挡的位置。",
+        "knowledge_point": "测量降水量",
+        "options": [
+          "开阔且没有遮挡的地方",
+          "屋檐下面",
+          "浓密的树冠下面",
+          "室内的桌子上"
+        ],
+        "question": "户外测量降水量时，雨量器应放在哪里？",
+        "type": "choice",
+        "id": 10022,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "降雨时长和降水量不是同一个量，仅知道下雨6小时，不能确定降水量。",
+        "knowledge_point": "测量降水量",
+        "options": [],
+        "question": "下雨持续了6小时，所以降水量就是6毫米。",
+        "type": "true_false",
+        "id": 10023,
+        "score": 10
+      },
+      {
+        "answer": "大雨",
+        "difficulty": 2,
+        "explanation": "32在25.0～49.9之间，按题目所给标准属于大雨。",
+        "knowledge_point": "测量降水量",
+        "options": [
+          "小雨",
+          "大雨",
+          "中雨",
+          "不属于所列三个等级"
+        ],
+        "question": "按以下24小时降水量标准：0.1～9.9毫米为小雨，10.0～24.9毫米为中雨，25.0～49.9毫米为大雨。某地24小时降水量为32毫米，属于哪一级？",
+        "type": "choice",
+        "id": 10024,
+        "score": 10
+      },
+      {
+        "answer": "风吹来的方向",
+        "difficulty": 1,
+        "explanation": "风向按风吹来的方向命名。",
+        "knowledge_point": "观测风",
+        "options": [
+          "风吹去的方向",
+          "风吹来的方向",
+          "风速的大小",
+          "云的形状"
+        ],
+        "question": "风向表示什么？",
+        "type": "choice",
+        "id": 10025,
+        "score": 10
+      },
+      {
+        "answer": "风旗",
+        "difficulty": 1,
+        "explanation": "观察风旗是否飘动及飘动程度，可以帮助判断风的强弱。",
+        "knowledge_point": "观测风",
+        "options": [
+          "刻度尺",
+          "气温计",
+          "雨量器",
+          "风旗"
+        ],
+        "question": "下列哪种工具可以帮助我们观察风力？",
+        "type": "choice",
+        "id": 10026,
+        "score": 10
+      },
+      {
+        "answer": "西风",
+        "difficulty": 2,
+        "explanation": "旗子向东飘，说明风从相反的西方吹来，叫西风。",
+        "knowledge_point": "观测风",
+        "options": [
+          "南风",
+          "北风",
+          "西风",
+          "东风"
+        ],
+        "question": "在开阔处，忽略其他影响，风旗持续向东飘。此时刮的是什么风？",
+        "type": "choice",
+        "id": 10027,
+        "score": 10
+      },
+      {
+        "answer": "微风",
+        "difficulty": 1,
+        "explanation": "根据题干所给标准，风旗微动对应微风。",
+        "knowledge_point": "观测风",
+        "options": [
+          "大风",
+          "暴风雪",
+          "无风",
+          "微风"
+        ],
+        "question": "本次观测用风旗不动、微动、展开飘动分别表示无风、微风、大风。风旗微动应记录为什么？",
+        "type": "choice",
+        "id": 10028,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "风旗向南飘，风从北方吹来，应记录为北风。",
+        "knowledge_point": "观测风",
+        "options": [],
+        "question": "在开阔处，忽略其他影响，风旗持续向南飘，就表示刮南风。",
+        "type": "true_false",
+        "id": 10029,
+        "score": 10
+      },
+      {
+        "answer": "西北风，大风",
+        "difficulty": 3,
+        "explanation": "风旗向东南飘，风从相反的西北方吹来；展开飘动按题干标准记录为大风。",
+        "knowledge_point": "观测风",
+        "options": [
+          "西北风，大风",
+          "东南风，大风",
+          "西北风，微风",
+          "东南风，微风"
+        ],
+        "question": "本次观测规定风旗微动为微风、展开飘动为大风。在开阔处，忽略其他影响，风旗持续向东南方向展开飘动。风向和风力应分别记录为什么？",
+        "type": "choice",
+        "id": 10030,
+        "score": 10
+      },
+      {
+        "answer": "云覆盖天空的多少",
+        "difficulty": 1,
+        "explanation": "云量描述云覆盖天空的多少，与云的高度、移动速度等不同。",
+        "knowledge_point": "观察云",
+        "options": [
+          "云离地面的高度",
+          "云覆盖天空的多少",
+          "云移动的速度",
+          "云的温度"
+        ],
+        "question": "“云量”主要指什么？",
+        "type": "choice",
+        "id": 10031,
+        "score": 10
+      },
+      {
+        "answer": "晴",
+        "difficulty": 1,
+        "explanation": "阳光明媚、只有少量云，符合本课对晴天的描述。",
+        "knowledge_point": "观察云",
+        "options": [
+          "晴",
+          "阴",
+          "暴雪",
+          "多云"
+        ],
+        "question": "白天天空只有少量云，阳光明媚。按本课的天气描述，应记录为什么？",
+        "type": "choice",
+        "id": 10032,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "观察云时不能直视太阳，应保护眼睛。",
+        "knowledge_point": "观察云",
+        "options": [],
+        "question": "观察云时，为了看得更清楚，可以直视太阳。",
+        "type": "true_false",
+        "id": 10033,
+        "score": 10
+      },
+      {
+        "answer": "云量较多",
+        "difficulty": 1,
+        "explanation": "云覆盖大部分天空，说明云量较多。",
+        "knowledge_point": "观察云",
+        "options": [
+          "只能判断风向",
+          "完全没有云",
+          "云量很少",
+          "云量较多"
+        ],
+        "question": "观察时发现云覆盖了大部分天空，怎样描述云量较合适？",
+        "type": "choice",
+        "id": 10034,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "云量表示覆盖天空的多少；云形表示外形特征，两者是不同的信息。",
+        "knowledge_point": "观察云",
+        "options": [],
+        "question": "云量和云的形状表示的是同一件事。",
+        "type": "true_false",
+        "id": 10035,
+        "score": 10
+      },
+      {
+        "answer": "云量少，云形像羽毛",
+        "difficulty": 2,
+        "explanation": "几小片云、其余大多是蓝天，说明云量少；像羽毛描述的是云形。",
+        "knowledge_point": "观察云",
+        "options": [
+          "云量少，云形像羽毛",
+          "云量多，云形像羽毛",
+          "云量少，云形像鱼鳞",
+          "云量多，云形像鱼鳞"
+        ],
+        "question": "天空只有几小片像羽毛的云，其余大多是蓝天。哪项同时正确记录了云量和云形？",
+        "type": "choice",
+        "id": 10036,
+        "score": 10
+      },
+      {
+        "answer": "未来一段时间的天气情况",
+        "difficulty": 1,
+        "explanation": "天气预报预测未来天气，帮助人们提前准备。",
+        "knowledge_point": "天气预报",
+        "options": [
+          "昨天的天气记录",
+          "某处地面的形状",
+          "未来一段时间的天气情况",
+          "植物的生长速度"
+        ],
+        "question": "天气预报主要告诉我们什么？",
+        "type": "choice",
+        "id": 10037,
+        "score": 10
+      },
+      {
+        "answer": "最高气温和最低气温",
+        "difficulty": 1,
+        "explanation": "最高气温和最低气温都是天气预报中的气温信息。",
+        "knowledge_point": "天气预报",
+        "options": [
+          "月亮的形状和大小",
+          "河水的深度和宽度",
+          "最高气温和最低气温",
+          "树木的高度和年龄"
+        ],
+        "question": "天气预报中可能包含哪项气温信息？",
+        "type": "choice",
+        "id": 10038,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "广播、电视和手机都可以作为了解天气预报的途径。",
+        "knowledge_point": "天气预报",
+        "options": [],
+        "question": "我们可以通过广播、电视或手机了解天气预报。",
+        "type": "true_false",
+        "id": 10039,
+        "score": 10
+      },
+      {
+        "answer": "收集天气观测数据",
+        "difficulty": 2,
+        "explanation": "制作天气预报先要收集观测数据，再进行科学计算、分析等工作。",
+        "knowledge_point": "天气预报",
+        "options": [
+          "只凭一个人的感觉猜测",
+          "只看某地昨天的天气就发布",
+          "收集天气观测数据",
+          "先发布预报，再收集数据"
+        ],
+        "question": "按照本单元介绍的天气预报制作过程，首先需要做什么？",
+        "type": "choice",
+        "id": 10040,
+        "score": 10
+      },
+      {
+        "answer": "气象预报员讨论预报并作出必要修正",
+        "difficulty": 2,
+        "explanation": "天气会商是气象预报员在发布前讨论预报、作出必要修正的环节。",
+        "knowledge_point": "天气预报",
+        "options": [
+          "气象预报员讨论预报并作出必要修正",
+          "不分析数据就直接发布",
+          "只把昨天的天气复制为明天的预报",
+          "学生按喜好选择天气"
+        ],
+        "question": "制作天气预报时，“天气会商”指下列哪项工作？",
+        "type": "choice",
+        "id": 10041,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "观测记录描述已观测到的天气，预报描述未来可能出现的天气，两者不一定对应同一时间。",
+        "knowledge_point": "天气预报",
+        "options": [],
+        "question": "天气观测记录和天气预报一定完全相同，因为它们总是描述同一时间的天气。",
+        "type": "true_false",
+        "id": 10042,
+        "score": 10
+      },
+      {
+        "answer": "带好雨具",
+        "difficulty": 1,
+        "explanation": "预报上学时有雨，提前带好雨具是合适的准备。",
+        "knowledge_point": "天气的影响",
+        "options": [
+          "准备在积水中奔跑",
+          "带好雨具",
+          "只带太阳镜，不带雨具",
+          "把雨伞留在家里"
+        ],
+        "question": "天气预报说明天上学时有雨，哪种准备最合适？",
+        "type": "choice",
+        "id": 10043,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "不同人的活动和需要不同，对同一种天气的感受和安排不一定相同。",
+        "knowledge_point": "天气的影响",
+        "options": [],
+        "question": "同一种天气对所有人的活动和感受都完全一样。",
+        "type": "true_false",
+        "id": 10044,
+        "score": 10
+      },
+      {
+        "answer": "提前收谷子",
+        "difficulty": 2,
+        "explanation": "提前收起露天晾晒的谷子，可以减少被雨淋湿的风险。",
+        "knowledge_point": "天气的影响",
+        "options": [
+          "等下雨后再开始晾晒",
+          "提前收谷子",
+          "把谷子继续摊在露天",
+          "把谷子移到露天水洼旁"
+        ],
+        "question": "农民正在露天晒谷子，天气预报说傍晚有雨。哪种做法更合适？",
+        "type": "choice",
+        "id": 10045,
+        "score": 10
+      },
+      {
+        "answer": "调整时间，避开大风时段",
+        "difficulty": 2,
+        "explanation": "大风可能影响操场活动的安全，提前调整时间更合适。",
+        "knowledge_point": "天气的影响",
+        "options": [
+          "到树下躲风并继续活动",
+          "按原计划在大风中活动",
+          "不再关注天气变化",
+          "调整时间，避开大风时段"
+        ],
+        "question": "学校计划在操场举行活动，预报说活动时会刮大风。哪种安排更合适？",
+        "type": "choice",
+        "id": 10046,
+        "score": 10
+      },
+      {
+        "answer": "放慢脚步，小心行走",
+        "difficulty": 2,
+        "explanation": "已知路面湿滑，放慢脚步、小心行走比奔跑或滑行更安全。",
+        "knowledge_point": "天气的影响",
+        "options": [
+          "加速奔跑",
+          "放慢脚步，小心行走",
+          "故意在路面滑行",
+          "边追逐边走路"
+        ],
+        "question": "下雪后，一段道路的路面湿滑。行人怎样应对更合适？",
+        "type": "choice",
+        "id": 10047,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "晴天方便晾晒，但晴热天气也可能给户外劳动带来困难，不能说对所有人一定都有好处。",
+        "knowledge_point": "天气的影响",
+        "options": [],
+        "question": "只要是晴天，对所有人的生产和生活就一定都有好处。",
+        "type": "true_false",
+        "id": 10048,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "天气·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "先下雨，后来转晴",
+        "difficulty": 1,
+        "explanation": "“雨过天晴”表示先有降雨，随后天气转晴。",
+        "knowledge_point": "我们关心天气",
+        "options": [
+          "一直晴朗",
+          "一直下雨",
+          "先下雨，后来转晴",
+          "先晴天，后来下雪"
+        ],
+        "question": "“雨过天晴”描述了怎样的天气变化？",
+        "type": "choice",
+        "id": 19001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "不同的人对冷热的感受可能不同，测量气温应使用气温计，不能只凭个人感觉。",
+        "knowledge_point": "认识气温计",
+        "options": [],
+        "question": "两个人都觉得天气很冷，就能确定当时的气温一定是0℃。",
+        "type": "true_false",
+        "id": 19002,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 2,
+        "explanation": "降温值为21－16＝5，所以下降了5℃。",
+        "knowledge_point": "测量气温",
+        "options": [],
+        "question": "同一地点14点气温为21℃，18点为16℃。18点比14点下降了多少摄氏度？只写数值。",
+        "type": "calculation",
+        "id": 19003,
+        "score": 10
+      },
+      {
+        "answer": "无风",
+        "difficulty": 1,
+        "explanation": "根据题干给出的对应关系，风旗不动记录为无风。",
+        "knowledge_point": "观测风",
+        "options": [
+          "微风",
+          "大风",
+          "无法按所给标准记录",
+          "无风"
+        ],
+        "question": "一次课堂观测规定：风旗不动记为无风，微动记为微风，展开飘动记为大风。小明观察的2分钟内风旗始终不动，应记录为什么？",
+        "type": "choice",
+        "id": 19004,
+        "score": 10
+      },
+      {
+        "answer": "阴",
+        "difficulty": 1,
+        "explanation": "题干说明云多而密，并且是云遮住了太阳，符合本课对阴天的描述。",
+        "knowledge_point": "观察云",
+        "options": [
+          "晴",
+          "阴",
+          "多云",
+          "暴雪"
+        ],
+        "question": "白天观察天空，发现云多而密，太阳被云遮住。按本课的云量描述，应记录为哪种天气？",
+        "type": "choice",
+        "id": 19005,
+        "score": 10
+      },
+      {
+        "answer": "乙：最低气温9℃，最高气温18℃",
+        "difficulty": 2,
+        "explanation": "甲只提供一个时刻的气温，乙明确给出了预报中的最低、最高气温。",
+        "knowledge_point": "天气预报",
+        "options": [
+          "乙：最低气温9℃，最高气温18℃",
+          "丁：下午风旗微动",
+          "甲：10点实测气温15℃",
+          "丙：上午观察到乌云"
+        ],
+        "question": "哪条记录明确提供了某地一天预报的气温范围？",
+        "type": "choice",
+        "id": 19006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "只用“好”或“坏”描述天气，忽略具体现象。",
+        "忘记天气描述可以包含冷热、阴晴、雨雪和风等方面。"
+      ],
+      "core_concept": "天气现象包括阴、晴、雨、雪、风等。观察和描述天气时，可以从冷热、阴晴、雨雪、风等方面记录。",
+      "key_formula": "无",
+      "point": "我们关心天气",
+      "tips": "用具体词语描述天气，并记录地点和日期，便于比较天气变化。"
+    },
+    {
+      "common_mistakes": [
+        "混淆温度数值和摄氏度单位符号。",
+        "读零下温度时漏掉“零下”或负号。"
+      ],
+      "core_concept": "气温计可测量气温，具有玻璃泡、液柱和刻度等结构；常用单位是摄氏度，符号为℃。液柱顶端对应的刻度表示读数。",
+      "key_formula": "无",
+      "point": "认识气温计",
+      "tips": "先看单位和每小格表示的温度，再读液柱顶端对应的刻度；低于0℃时注意负号。"
+    },
+    {
+      "common_mistakes": [
+        "在阳光直射处测量，或用手触碰气温计的玻璃泡。",
+        "液柱还未稳定就读数，或读数时视线不与液柱顶端齐平。"
+      ],
+      "core_concept": "测量气温时，气温计应处于通风、阳光照射不到的地方，距离地面约1.5米并保持干燥；不触碰玻璃泡，待液柱稳定后平视读数。",
+      "key_formula": "升温值＝后来的气温－原来的气温；降温值＝原来的气温－后来的气温。",
+      "point": "测量气温",
+      "tips": "比较一天中气温变化时，在室外同一地点按相同方法测量，并记录测量时间。"
+    },
+    {
+      "common_mistakes": [
+        "把降水量理解为下雨持续的时间。",
+        "使用上下粗细不同的杯子，直接把其中水深当成降水量。"
+      ],
+      "core_concept": "降水量是一定时间内降落在一定面积地面上的水层深度，通常用毫米表示；可用雨量器收集和测量。",
+      "key_formula": "无",
+      "point": "测量降水量",
+      "tips": "制作简易雨量器可选直筒透明杯，零刻度对准杯内底部，刻度条做好防水；测量时平稳放在开阔、无遮挡处。"
+    },
+    {
+      "common_mistakes": [
+        "把旗子飘去的方向误当成风向。",
+        "混淆风力和风向，或把课堂简化等级当成蒲福风力等级。"
+      ],
+      "core_concept": "风向是风吹来的方向，通常用八个方位描述；风力表示风的强弱。本课用风旗不动、微动、展开飘动分别表示无风、微风、大风。",
+      "key_formula": "无",
+      "point": "观测风",
+      "tips": "在开阔处观察，分别记录风向和风力；风旗飘去的方向与风吹来的方向相反。"
+    },
+    {
+      "common_mistakes": [
+        "把云量和云的形状混为一谈。",
+        "观察云时直视太阳，或仅凭是否看见太阳就判断天气。"
+      ],
+      "core_concept": "观察云应关注云量和云的形状。云量表示云覆盖天空的多少；观察时不能直视太阳。",
+      "key_formula": "无",
+      "point": "观察云",
+      "tips": "整体观察天空，分别记录云量和云形；不要仅凭一时看见或看不见太阳判断阴晴。"
+    },
+    {
+      "common_mistakes": [
+        "把实地天气观测记录和未来天气预报当成完全相同的信息。",
+        "认为天气预报只靠计算机完成，不需要气象工作人员参与。"
+      ],
+      "core_concept": "天气预报提供未来一段时间的天气信息，常包含气温、天气现象、风等内容；人们可以据此安排活动。",
+      "key_formula": "无",
+      "point": "天气预报",
+      "tips": "读预报时留意时间、地点和天气信息；根据预报准备，也要留意实际天气变化。"
+    },
+    {
+      "common_mistakes": [
+        "认为同一种天气对所有人的影响都相同。",
+        "知道天气将变化，却不结合活动提前准备。"
+      ],
+      "core_concept": "天气会影响生活、学习、生产劳动和运动；不同的人会根据天气及自己的活动作出不同安排。",
+      "key_formula": "无",
+      "point": "天气的影响",
+      "tips": "结合具体活动判断天气带来的方便或困难，选择合理、安全的应对办法。"
+    }
+  ]
+}

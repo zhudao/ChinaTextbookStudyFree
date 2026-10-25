@@ -1,0 +1,435 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学三年级上册（2026秋版）",
+  "unit": "混合运算",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "混合运算·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "16",
+        "difficulty": 1,
+        "explanation": "只有加、减法，按从左往右计算：18＋7＝25，25－9＝16。",
+        "knowledge_point": "同级运算的顺序",
+        "options": [],
+        "question": "计算：18＋7－9。",
+        "type": "calculation",
+        "id": 20001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "只有乘、除法时按从左往右计算，应先算36÷6＝6，再算6×4＝24。",
+        "knowledge_point": "同级运算的顺序",
+        "options": [],
+        "question": "判断：计算36÷6×4时，应先算6×4。",
+        "type": "true_false",
+        "id": 20002,
+        "score": 10
+      },
+      {
+        "answer": "34",
+        "difficulty": 1,
+        "explanation": "加、减是同一级运算，从左往右计算：47－19＝28，28＋6＝34。",
+        "knowledge_point": "同级运算的顺序",
+        "options": [],
+        "question": "计算：47－19＋6。",
+        "type": "calculation",
+        "id": 20003,
+        "score": 10
+      },
+      {
+        "answer": "30",
+        "difficulty": 2,
+        "explanation": "乘、除是同一级运算，按从左往右计算：24÷4＝6，6×5＝30。",
+        "knowledge_point": "同级运算的顺序",
+        "options": [],
+        "question": "计算：24÷4×5。",
+        "type": "calculation",
+        "id": 20004,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 1,
+        "explanation": "按从左往右计算：先算3×7＝21，再算21÷3＝7。",
+        "knowledge_point": "同级运算的顺序",
+        "options": [],
+        "question": "计算：3×7÷3。",
+        "type": "calculation",
+        "id": 20005,
+        "score": 10
+      },
+      {
+        "answer": "24",
+        "difficulty": 1,
+        "explanation": "减法和加法按从左往右计算：52－28＝24，24＋0＝24。",
+        "knowledge_point": "同级运算的顺序",
+        "options": [],
+        "question": "计算：52－28＋0。",
+        "type": "calculation",
+        "id": 20006,
+        "score": 10
+      },
+      {
+        "answer": "先算乘法",
+        "difficulty": 1,
+        "explanation": "算式中既有加法又有乘法，应先算3×5＝15，再算8＋15＝23。",
+        "knowledge_point": "含乘除和加减的混合运算",
+        "options": [
+          "从左往右随意选",
+          "先算加法",
+          "先算乘法",
+          "先算减法"
+        ],
+        "question": "算式8＋3×5中，第一步应算什么？",
+        "type": "choice",
+        "id": 20007,
+        "score": 10
+      },
+      {
+        "answer": "30",
+        "difficulty": 1,
+        "explanation": "先算乘法：4×6＝24，再算加法：24＋6＝30。",
+        "knowledge_point": "含乘除和加减的混合运算",
+        "options": [],
+        "question": "计算：4×6＋6。",
+        "type": "calculation",
+        "id": 20008,
+        "score": 10
+      },
+      {
+        "answer": "16",
+        "difficulty": 1,
+        "explanation": "先算除法：40÷5＝8，再算加法：8＋8＝16。",
+        "knowledge_point": "含乘除和加减的混合运算",
+        "options": [],
+        "question": "计算：40÷5＋8。",
+        "type": "calculation",
+        "id": 20009,
+        "score": 10
+      },
+      {
+        "answer": "15",
+        "difficulty": 2,
+        "explanation": "先算乘法：3×7＝21，再算减法：36－21＝15。",
+        "knowledge_point": "含乘除和加减的混合运算",
+        "options": [],
+        "question": "计算：36－3×7。",
+        "type": "calculation",
+        "id": 20010,
+        "score": 10
+      },
+      {
+        "answer": "先算除法，再算减法",
+        "difficulty": 2,
+        "explanation": "先算24÷6＝4，再算70－4＝66。",
+        "knowledge_point": "含乘除和加减的混合运算",
+        "options": [
+          "从左往右依次计算",
+          "先算除法，再算减法",
+          "先算加法，再算除法",
+          "先算减法，再算除法"
+        ],
+        "question": "算式70－24÷6应按什么顺序计算？",
+        "type": "choice",
+        "id": 20011,
+        "score": 10
+      },
+      {
+        "answer": "14",
+        "difficulty": 3,
+        "explanation": "先算乘除法：3×4＝12，20÷5＝4；再按从左往右计算加减：12＋4－2＝16－2＝14。",
+        "knowledge_point": "含乘除和加减的混合运算",
+        "options": [],
+        "question": "计算：3×4＋20÷5－2。",
+        "type": "calculation",
+        "id": 20012,
+        "score": 10
+      },
+      {
+        "answer": "5＋3",
+        "difficulty": 1,
+        "explanation": "先算小括号里的5＋3＝8，再算20－8＝12。",
+        "knowledge_point": "小括号改变运算顺序",
+        "options": [
+          "20－5",
+          "20－3",
+          "3×5",
+          "5＋3"
+        ],
+        "question": "算式20－（5＋3）中，第一步应算哪一步？",
+        "type": "choice",
+        "id": 20013,
+        "score": 10
+      },
+      {
+        "answer": "36",
+        "difficulty": 1,
+        "explanation": "先算括号里的12－6＝6，再算6×6＝36。",
+        "knowledge_point": "小括号改变运算顺序",
+        "options": [],
+        "question": "计算：（12－6）×6。",
+        "type": "calculation",
+        "id": 20014,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 2,
+        "explanation": "先算括号里的3＋5＝8，再算56÷8＝7。小括号使加法先于除法计算。",
+        "knowledge_point": "小括号改变运算顺序",
+        "options": [],
+        "question": "计算：56÷（3＋5）。",
+        "type": "calculation",
+        "id": 20015,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "先算括号里的4＋6＝10，再算10×3＝30，所以判断正确。",
+        "knowledge_point": "小括号改变运算顺序",
+        "options": [],
+        "question": "判断：（4＋6）×3的结果是30。",
+        "type": "true_false",
+        "id": 20016,
+        "score": 10
+      },
+      {
+        "answer": "21",
+        "difficulty": 2,
+        "explanation": "先算括号里的6＋18＝24，再算45－24＝21。",
+        "knowledge_point": "小括号改变运算顺序",
+        "options": [],
+        "question": "计算：45－（6＋18）。",
+        "type": "calculation",
+        "id": 20017,
+        "score": 10
+      },
+      {
+        "answer": "（6＋4）×3",
+        "difficulty": 2,
+        "explanation": "每组包含1本本子和1块橡皮，先求每组价钱6＋4＝10元，再求3组价钱10×3＝30元。",
+        "knowledge_point": "小括号改变运算顺序",
+        "options": [
+          "（6＋4）×3",
+          "6×（4＋3）",
+          "6＋4×3",
+          "（6×4）＋3"
+        ],
+        "question": "本子每本6元，橡皮每块4元。每组买1本本子和1块橡皮，买3组。下面哪道算式能求总共要付多少钱？",
+        "type": "choice",
+        "id": 20018,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "小红做的是小明的2倍，应计算6×2＝12，而不是6＋2。",
+        "knowledge_point": "两步问题与倍的关系",
+        "options": [],
+        "question": "判断：小明做了6朵花，小红做的是小明的2倍，小红做了6＋2朵。",
+        "type": "true_false",
+        "id": 20019,
+        "score": 10
+      },
+      {
+        "answer": "（7－2）×3",
+        "difficulty": 2,
+        "explanation": "先用7－2求出小红做的朵数，再乘3求出小军做的朵数：（7－2）×3＝5×3＝15。",
+        "knowledge_point": "两步问题与倍的关系",
+        "options": [
+          "7＋2×3",
+          "7－2×3",
+          "（7－2）×3",
+          "（7＋2）×3"
+        ],
+        "question": "小明做了7朵花，小红比小明少做2朵，小军做的是小红的3倍。下面哪道综合算式能求小军做的朵数？",
+        "type": "choice",
+        "id": 20020,
+        "score": 10
+      },
+      {
+        "answer": "12",
+        "difficulty": 2,
+        "explanation": "先求小红做了9－3＝6朵，再求小军做了6×2＝12朵。",
+        "knowledge_point": "两步问题与倍的关系",
+        "options": [],
+        "question": "小明做了9朵花，小红比小明少做3朵，小军做的是小红的2倍。小军做了多少朵花？",
+        "type": "calculation",
+        "id": 20021,
+        "score": 10
+      },
+      {
+        "answer": "20",
+        "difficulty": 2,
+        "explanation": "先求小明有8＋2＝10张贴纸，再求小军有10×2＝20张。",
+        "knowledge_point": "两步问题与倍的关系",
+        "options": [],
+        "question": "小红有8张贴纸，小明比小红多2张，小军的贴纸数是小明的2倍。小军有多少张贴纸？",
+        "type": "calculation",
+        "id": 20022,
+        "score": 10
+      },
+      {
+        "answer": "先求红珠子比黄珠子多多少颗，再除以8",
+        "difficulty": 2,
+        "explanation": "两种手链每条都需要8颗同色珠子，可以先求珠子数量差48－32＝16，再求多穿的条数16÷8＝2。",
+        "knowledge_point": "两步问题与倍的关系",
+        "options": [
+          "先求红珠子比黄珠子多多少颗，再除以8",
+          "先用红珠子的数量减去8，再减去黄珠子的数量",
+          "先求红珠子能穿几条，再乘黄珠子的颗数",
+          "先把两种珠子的数量相加，再除以8"
+        ],
+        "question": "红珠子有48颗，黄珠子有32颗，每8颗同色珠子穿一条手链。要求红珠子比黄珠子多穿几条，下面哪种思路正确？",
+        "type": "choice",
+        "id": 20023,
+        "score": 10
+      },
+      {
+        "answer": "24",
+        "difficulty": 2,
+        "explanation": "先求小红做了11－3＝8朵，再求小军做了8×3＝24朵。",
+        "knowledge_point": "两步问题与倍的关系",
+        "options": [],
+        "question": "小明做了11朵花，小红比小明少做3朵，小军做的是小红的3倍。小军做了多少朵花？",
+        "type": "calculation",
+        "id": 20024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "混合运算·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "24",
+        "difficulty": 1,
+        "explanation": "加、减是同一级运算，按从左往右计算：36－18＝18，18＋6＝24。",
+        "knowledge_point": "同级运算的顺序",
+        "options": [],
+        "question": "计算：36－18＋6。",
+        "type": "calculation",
+        "id": 29001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "只有乘、除法的算式按从左往右计算，应先算48÷6＝8，再算8×2＝16。",
+        "knowledge_point": "同级运算的顺序",
+        "options": [],
+        "question": "判断：计算48÷6×2时，应先算6×2。",
+        "type": "true_false",
+        "id": 29002,
+        "score": 10
+      },
+      {
+        "answer": "先算乘法，再算加法",
+        "difficulty": 1,
+        "explanation": "算式中既有乘法又有加法，应先算4×6＝24，再算7＋24＝31。",
+        "knowledge_point": "含乘除和加减的混合运算",
+        "options": [
+          "先算加法，再算乘法",
+          "先算乘法，再算加法",
+          "先算减法，再算乘法",
+          "从左往右依次计算"
+        ],
+        "question": "算式7＋4×6应按什么顺序计算？",
+        "type": "choice",
+        "id": 29003,
+        "score": 10
+      },
+      {
+        "answer": "35",
+        "difficulty": 2,
+        "explanation": "先算乘法：5×6＝30，再算减法：65－30＝35。",
+        "knowledge_point": "含乘除和加减的混合运算",
+        "options": [],
+        "question": "计算：65－5×6。",
+        "type": "calculation",
+        "id": 29004,
+        "score": 10
+      },
+      {
+        "answer": "小括号里面",
+        "difficulty": 2,
+        "explanation": "先算括号里的8＋2＝10，再算10×3＝30，最后算50－30＝20。",
+        "knowledge_point": "小括号改变运算顺序",
+        "options": [
+          "小括号外面的乘法",
+          "小括号里面",
+          "小括号外面的减法",
+          "从左往右任选一步"
+        ],
+        "question": "算式50－（8＋2）×3中，应先算哪一部分？",
+        "type": "choice",
+        "id": 29005,
+        "score": 10
+      },
+      {
+        "answer": "21",
+        "difficulty": 2,
+        "explanation": "先求小红有多少张：10－3＝7；再求小军有多少张：7×3＝21。综合算式是（10－3）×3＝21。",
+        "knowledge_point": "两步问题与倍的关系",
+        "options": [],
+        "question": "小明有10张卡片，小红比小明少3张，小军的卡片数是小红的3倍。小军有多少张卡片？",
+        "type": "calculation",
+        "id": 29006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "连续加减或连续乘除时，跳过左边的运算，先算后面的部分。",
+        "误认为加法一定先于减法，或乘法一定先于除法。",
+        "算完第一步后漏掉后面的运算。"
+      ],
+      "core_concept": "没有括号时，只有加、减法，或只有乘、除法的算式，按从左往右的顺序计算。",
+      "key_formula": "同级运算从左往右：先算最左边的一步，再继续计算。",
+      "point": "同级运算的顺序",
+      "tips": "先检查有没有括号，再判断是否只有同级运算。按顺序计算，每一步保留尚未计算的部分。"
+    },
+    {
+      "common_mistakes": [
+        "没有判断运算种类，就一律从左往右计算。",
+        "先算加减法，再算乘除法。",
+        "计算乘除结果后忘记继续完成加减运算。"
+      ],
+      "core_concept": "没有括号时，既有乘、除法，又有加、减法的算式，要先算乘、除法，再算加、减法。",
+      "key_formula": "先乘除，后加减；同级运算从左往右。",
+      "point": "含乘除和加减的混合运算",
+      "tips": "先找出乘法或除法，算出结果后保留其余部分，再按顺序完成加减运算。"
+    },
+    {
+      "common_mistakes": [
+        "有小括号时没有先算括号里面。",
+        "去掉小括号后没有重新按运算规则判断顺序。",
+        "算完括号内的部分后，忽略括号外的乘除优先规则。"
+      ],
+      "core_concept": "算式里有小括号，要先算括号里面的；小括号可以改变运算顺序。括号内的部分算完后，括号外仍要遵守先乘除后加减、同级运算从左往右的规则。",
+      "key_formula": "先算括号里面，再按运算规则计算括号外面。",
+      "point": "小括号改变运算顺序",
+      "tips": "先标出括号内的部分，求出结果后写回原式，再判断下一步先算什么。"
+    },
+    {
+      "common_mistakes": [
+        "还没有求出中间量，就直接进行下一步计算。",
+        "把“少3朵”误列成加3。",
+        "把“是2倍”误解为加2，而不是乘2。"
+      ],
+      "core_concept": "两步问题通常需要先求出解决问题所需的中间量，再根据数量关系继续计算。求一个数的几倍，用乘法。",
+      "key_formula": "先求中间量，再求结果；一个数的几倍＝这个数×倍数。",
+      "point": "两步问题与倍的关系",
+      "tips": "先说清“先求什么、再求什么”，再列式。求一个数的几倍用乘法；先求和或差再乘除时，通常需要用小括号。"
+    }
+  ]
+}

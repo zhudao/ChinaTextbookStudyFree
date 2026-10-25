@@ -36,9 +36,10 @@ struct HomeView: View {
         // Default: first book of selected grade, or first book overall
         let grade = progressStore.selectedGrade
         if grade > 0 {
-            return siteIndex.books.first(where: { $0.grade == grade }) ?? siteIndex.books.first
+            return siteIndex.books.first(where: { $0.grade == grade && $0.supersededBy == nil })
+                ?? siteIndex.books.first(where: { $0.supersededBy == nil })
         }
-        return siteIndex.books.first
+        return siteIndex.books.first(where: { $0.supersededBy == nil })
     }
 
     var body: some View {
@@ -893,6 +894,7 @@ private struct BookPickerSheet: View {
     let onPick: (String) -> Void
 
     @State private var selectedGrade: Int
+    @State private var includeLegacy = false
 
     init(siteIndex: SiteIndex, progressStore: ProgressStore, downloader: AssetDownloader, isPresented: Binding<Bool>, onPick: @escaping (String) -> Void) {
         self.siteIndex = siteIndex
@@ -916,6 +918,9 @@ private struct BookPickerSheet: View {
                     gradeChips
 
                     sectionLabel("选择课本")
+                    Toggle("显示旧版教材", isOn: $includeLegacy)
+                        .tint(DuoColors.primary)
+                        .foregroundStyle(DuoColors.darkInk)
                     VStack(spacing: 12) {
                         ForEach(booksForGrade, id: \.id) { book in
                             Button {
@@ -944,7 +949,7 @@ private struct BookPickerSheet: View {
     }
 
     private var booksForGrade: [Book] {
-        siteIndex.books.filter { $0.grade == selectedGrade }
+        siteIndex.books.filter { $0.grade == selectedGrade && (includeLegacy || $0.supersededBy == nil) }
     }
 
     // MARK: Header

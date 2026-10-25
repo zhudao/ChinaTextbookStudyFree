@@ -2,6 +2,6 @@
 # Install or upgrade all verified resources, including every split audio archive.
 set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-TAG="${1:-v1.4.2-edge-audio}"
+TAG="${1:-v1.5.0-five-textbooks}"
 if [ "$#" -gt 0 ]; then shift; fi
 exec python3 "$ROOT_DIR/scripts/install-release.py" --tag "$TAG" --root "$ROOT_DIR" "$@"

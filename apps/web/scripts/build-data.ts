@@ -265,6 +265,7 @@ async function buildPassages(): Promise<Set<string>> {
           lessonNumber: number;
           title: string;
           kind: Passage["kind"];
+          curriculumRole?: Passage["curriculumRole"];
           author?: string | null;
           language: "Chinese" | "English";
           sentences: string[];
@@ -298,6 +299,7 @@ async function buildPassages(): Promise<Set<string>> {
           lessonNumber: p.lessonNumber,
           title: p.title,
           kind: p.kind,
+          curriculumRole: p.curriculumRole,
           author: p.author ?? null,
           language: p.language,
           pageHint: p.page_hint ?? null,
@@ -554,6 +556,22 @@ async function processTextbook(
   }
   const bookId = outline.edition ? `${parsed.bookId}-${outline.edition}` : parsed.bookId;
   const editionSuffix = outline.editionLabel ? `（${outline.editionLabel}）` : "";
+  if (outline.requiredPassageTitles?.length) {
+    const sourcePath = path.join(PASSAGES_SRC, subject.id, `${bookId}.json`);
+    if (!existsSync(sourcePath)) {
+      throw new Error(`Missing revised reading source: ${sourcePath}. Install the matching textbook resource pack.`);
+    }
+    const readings = JSON.parse(await fs.readFile(sourcePath, "utf8")) as BookPassages;
+    const titles = new Set(readings.passages.map(p => p.title));
+    if (readings.bookId !== bookId || readings.subject !== subject.id ||
+        readings.passages.length !== outline.requiredPassageTitles.length ||
+        outline.requiredPassageTitles.some(title => !titles.has(title)) ||
+        new Set(readings.passages.map(p => p.id)).size !== readings.passages.length ||
+        readings.passages.some(p => !p.id.startsWith(`${bookId}-p`) || !p.sentences.length)) {
+      throw new Error(`Revised reading source does not match ${bookId}`);
+    }
+  }
+
 
   const bookDir = path.join(DATA_DST, "books", bookId);
   await fs.mkdir(bookDir, { recursive: true });
@@ -665,10 +683,11 @@ async function processTextbook(
       const examLessonId = `${bookId}-u${unit.unit_number}-exam`;
       examLessons.push({
         id: examLessonId,
-        title: `第 ${unit.unit_number} 单元挑战`,
+        title: unit.label ? `${unit.title}挑战` : `第 ${unit.unit_number} 单元挑战`,
         bookId,
         unitNumber: unit.unit_number,
         unitTitle: unit.title,
+        unitLabel: unit.label,
         kpIndex: unitLessons.length,
         kpTotal: unitLessons.length,
         questions: picked,

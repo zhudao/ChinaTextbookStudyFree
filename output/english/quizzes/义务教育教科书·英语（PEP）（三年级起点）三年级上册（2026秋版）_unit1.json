@@ -1,0 +1,500 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书•英语 三年级上册（2026秋版）",
+  "unit": "Making friends",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "Making friends·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "Hello!",
+        "difficulty": 1,
+        "explanation": "“Hello!”表示“你好！”，是常见的问候语。",
+        "knowledge_point": "问候、自我介绍与询问姓名",
+        "options": [
+          "I'm Mike.",
+          "Goodbye!",
+          "Hello!",
+          "What's your name?"
+        ],
+        "question": "哪项表示“你好！”？",
+        "type": "choice",
+        "id": 10001,
+        "score": 10
+      },
+      {
+        "answer": "My name is Amy.",
+        "difficulty": 1,
+        "explanation": "“My name is Amy.”表示“我的名字是Amy”，用于介绍自己的姓名。",
+        "knowledge_point": "问候、自我介绍与询问姓名",
+        "options": [
+          "What's your name?",
+          "My name is Amy.",
+          "Goodbye, Amy.",
+          "Nice to meet you too."
+        ],
+        "question": "你要介绍自己叫Amy，哪句话正确？",
+        "type": "choice",
+        "id": 10002,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“What's your name?”表示“你叫什么名字？”，用于询问对方姓名。",
+        "knowledge_point": "问候、自我介绍与询问姓名",
+        "options": [],
+        "question": "判断：“What's your name?”可以用来询问别人的姓名。",
+        "type": "true_false",
+        "id": 10003,
+        "score": 10
+      },
+      {
+        "answer": "What's your name?",
+        "difficulty": 2,
+        "explanation": "询问新同学的名字，可以说“What's your name?”。",
+        "knowledge_point": "问候、自我介绍与询问姓名",
+        "options": [
+          "Nice to meet you too.",
+          "My name is Sam.",
+          "What's your name?",
+          "Hello, Sam."
+        ],
+        "question": "你已经向一位新同学问好，现在想问他的名字。你可以说什么？",
+        "type": "choice",
+        "id": 10004,
+        "score": 10
+      },
+      {
+        "answer": "Nice to meet you too.",
+        "difficulty": 1,
+        "explanation": "“Nice to meet you too.”表示“我也很高兴认识你”，是对前一句的恰当回应。",
+        "knowledge_point": "问候、自我介绍与询问姓名",
+        "options": [
+          "Goodbye.",
+          "My name is Lucy.",
+          "What's your name?",
+          "Nice to meet you too."
+        ],
+        "question": "选择表示“我也很高兴认识你”的回应。A: Nice to meet you. B: ____",
+        "type": "choice",
+        "id": 10005,
+        "score": 10
+      },
+      {
+        "answer": "Hi! I'm Ben.",
+        "difficulty": 2,
+        "explanation": "“Hi!”用于问好，“I'm Ben.”用于介绍自己叫Ben，符合两个表达目的。",
+        "knowledge_point": "问候、自我介绍与询问姓名",
+        "options": [
+          "What's your name? Goodbye!",
+          "Nice to meet you too, Ben.",
+          "Hi! I'm Ben.",
+          "Hello, Ben!"
+        ],
+        "question": "你在学校遇见新同学，想先问好，再介绍自己叫Ben。哪项同时完成这两件事？",
+        "type": "choice",
+        "id": 10006,
+        "score": 10
+      },
+      {
+        "answer": "ear",
+        "difficulty": 1,
+        "explanation": "ear表示耳朵。",
+        "knowledge_point": "身体部位和交友行为",
+        "options": [
+          "ear",
+          "eye",
+          "mouth",
+          "hand"
+        ],
+        "question": "哪个英语单词表示“耳朵”？",
+        "type": "choice",
+        "id": 10007,
+        "score": 10
+      },
+      {
+        "answer": "mouth",
+        "difficulty": 1,
+        "explanation": "mouth表示嘴巴。",
+        "knowledge_point": "身体部位和交友行为",
+        "options": [
+          "arm",
+          "mouth",
+          "ear",
+          "eye"
+        ],
+        "question": "哪个英语单词表示“嘴巴”？",
+        "type": "choice",
+        "id": 10008,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "hand表示手，arm表示手臂，二者不是同一个身体部位。",
+        "knowledge_point": "身体部位和交友行为",
+        "options": [],
+        "question": "判断：hand和arm表示同一个身体部位。",
+        "type": "true_false",
+        "id": 10009,
+        "score": 10
+      },
+      {
+        "answer": "Wave your hand.",
+        "difficulty": 2,
+        "explanation": "“Wave your hand.”表示“挥挥你的手”，与题目中的动作指令一致。",
+        "knowledge_point": "身体部位和交友行为",
+        "options": [
+          "Point to your mouth.",
+          "Wave your hand.",
+          "Point to your ear.",
+          "Look into my eyes."
+        ],
+        "question": "你想请朋友“挥挥你的手”。应使用哪条英语指令？",
+        "type": "choice",
+        "id": 10010,
+        "score": 10
+      },
+      {
+        "answer": "eyes",
+        "difficulty": 2,
+        "explanation": "eyes表示眼睛，是eye的复数形式。“Look into my eyes.”表示“看着我的眼睛”。",
+        "knowledge_point": "身体部位和交友行为",
+        "options": [
+          "eyes",
+          "hands",
+          "ears",
+          "arms"
+        ],
+        "question": "选择表示“眼睛”的词，补全句子：Look into my ____.",
+        "type": "choice",
+        "id": 10011,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "“Point to your ear.”表示“指向你的耳朵”，不是指向嘴巴。",
+        "knowledge_point": "身体部位和交友行为",
+        "options": [],
+        "question": "判断：听到“Point to your ear.”时，应该指向自己的嘴巴。",
+        "type": "true_false",
+        "id": 10012,
+        "score": 10
+      },
+      {
+        "answer": "Aa",
+        "difficulty": 1,
+        "explanation": "apple的首字母是a，对应的大小写配对是Aa。",
+        "knowledge_point": "字母Aa—Dd的音形与发音",
+        "options": [
+          "Dd",
+          "Aa",
+          "Bb",
+          "Cc"
+        ],
+        "question": "单词apple的首字母对应哪组大小写字母？",
+        "type": "choice",
+        "id": 10013,
+        "score": 10
+      },
+      {
+        "answer": "Bb",
+        "difficulty": 1,
+        "explanation": "bag的首字母是b，对应的大小写配对是Bb。",
+        "knowledge_point": "字母Aa—Dd的音形与发音",
+        "options": [
+          "Aa",
+          "Cc",
+          "Dd",
+          "Bb"
+        ],
+        "question": "单词bag的首字母对应哪组大小写字母？",
+        "type": "choice",
+        "id": 10014,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "C是大写字母，c是它对应的小写形式。",
+        "knowledge_point": "字母Aa—Dd的音形与发音",
+        "options": [],
+        "question": "判断：C和c是同一个字母的大写和小写形式。",
+        "type": "true_false",
+        "id": 10015,
+        "score": 10
+      },
+      {
+        "answer": "cat",
+        "difficulty": 2,
+        "explanation": "cat开头的c发/k/；bag、dog、apple的开头音分别是/b/、/d/、/æ/。",
+        "knowledge_point": "字母Aa—Dd的音形与发音",
+        "options": [
+          "cat",
+          "dog",
+          "apple",
+          "bag"
+        ],
+        "question": "哪个单词的开头音是/k/？",
+        "type": "choice",
+        "id": 10016,
+        "score": 10
+      },
+      {
+        "answer": "Dd",
+        "difficulty": 1,
+        "explanation": "dog的首字母是d，对应的大小写配对是Dd。",
+        "knowledge_point": "字母Aa—Dd的音形与发音",
+        "options": [
+          "Bb",
+          "Dd",
+          "Aa",
+          "Cc"
+        ],
+        "question": "单词dog的首字母对应哪组大小写字母？",
+        "type": "choice",
+        "id": 10017,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "bed的开头音是/b/，dad的开头音是/d/，两个开头音不同。",
+        "knowledge_point": "字母Aa—Dd的音形与发音",
+        "options": [],
+        "question": "判断：bed和dad的开头音相同。",
+        "type": "true_false",
+        "id": 10018,
+        "score": 10
+      },
+      {
+        "answer": "I listen.",
+        "difficulty": 1,
+        "explanation": "listen表示倾听，“I listen.”表示“我倾听”。",
+        "knowledge_point": "倾听、帮助、分享与友好交往",
+        "options": [
+          "I help.",
+          "I smile.",
+          "I share.",
+          "I listen."
+        ],
+        "question": "哪句话表示“我倾听”？",
+        "type": "choice",
+        "id": 10019,
+        "score": 10
+      },
+      {
+        "answer": "share",
+        "difficulty": 1,
+        "explanation": "share表示分享。",
+        "knowledge_point": "倾听、帮助、分享与友好交往",
+        "options": [
+          "listen",
+          "help",
+          "share",
+          "smile"
+        ],
+        "question": "哪个英语单词表示“分享”？",
+        "type": "choice",
+        "id": 10020,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "help表示帮助，“I help.”可以表示“我帮助别人”。",
+        "knowledge_point": "倾听、帮助、分享与友好交往",
+        "options": [],
+        "question": "判断：“I help.”可以表示“我帮助别人”。",
+        "type": "true_false",
+        "id": 10021,
+        "score": 10
+      },
+      {
+        "answer": "We can share.",
+        "difficulty": 2,
+        "explanation": "“We can share.”表示“我们可以分享”，适合表达共同使用彩笔的想法。",
+        "knowledge_point": "倾听、帮助、分享与友好交往",
+        "options": [
+          "We can share.",
+          "I say goodbye.",
+          "I point to my ear.",
+          "What's your name?"
+        ],
+        "question": "你和朋友都想用同一盒彩笔。你想提议一起使用，可以说什么？",
+        "type": "choice",
+        "id": 10022,
+        "score": 10
+      },
+      {
+        "answer": "I help.",
+        "difficulty": 2,
+        "explanation": "伸手帮朋友拿住快掉的书，是帮助朋友的行为，对应“I help.”。",
+        "knowledge_point": "倾听、帮助、分享与友好交往",
+        "options": [
+          "I help.",
+          "I share.",
+          "I smile.",
+          "I listen."
+        ],
+        "question": "朋友手里的书快要掉了，你伸手帮他拿住。哪句话最直接描述你的帮助行为？",
+        "type": "choice",
+        "id": 10023,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "认真听朋友说完再回应，体现倾听和尊重，是友好交往的表现。",
+        "knowledge_point": "倾听、帮助、分享与友好交往",
+        "options": [],
+        "question": "判断：朋友正在说话时，认真听完再回应，是友好交往的表现。",
+        "type": "true_false",
+        "id": 10024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Making friends·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "I'm Sarah.",
+        "difficulty": 2,
+        "explanation": "对方询问姓名，回答者是Sarah，因此应说“I'm Sarah.”，意思是“我是Sarah”。",
+        "knowledge_point": "问候、自我介绍与询问姓名",
+        "options": [
+          "Thank you.",
+          "I'm Sarah.",
+          "Nice to meet you too.",
+          "Hello, Mike."
+        ],
+        "question": "你是Sarah。Mike问你：“What's your name?”你应怎样回答？",
+        "type": "choice",
+        "id": 19001,
+        "score": 10
+      },
+      {
+        "answer": "hand",
+        "difficulty": 1,
+        "explanation": "“Wave your hand.”表示“挥挥你的手”，hand表示手。",
+        "knowledge_point": "身体部位和交友行为",
+        "options": [
+          "mouth",
+          "hand",
+          "ear",
+          "eye"
+        ],
+        "question": "选择表示“手”的词，补全挥手问好的指令：Wave your ____.",
+        "type": "choice",
+        "id": 19002,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "D是大写字母，d是它对应的小写形式。",
+        "knowledge_point": "字母Aa—Dd的音形与发音",
+        "options": [],
+        "question": "判断：D和d是同一个字母的大写和小写形式。",
+        "type": "true_false",
+        "id": 19003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "listen表示倾听，share表示分享。“I listen.”表示“我倾听”，不是“我分享”。",
+        "knowledge_point": "倾听、帮助、分享与友好交往",
+        "options": [],
+        "question": "判断：朋友认真听你讲故事，可以用“I share.”描述他此时的倾听行为。",
+        "type": "true_false",
+        "id": 19004,
+        "score": 10
+      },
+      {
+        "answer": "Nice to meet you.",
+        "difficulty": 2,
+        "explanation": "“Nice to meet you.”表示“很高兴认识你”，适合在初次认识时表达友好。",
+        "knowledge_point": "问候、自我介绍与询问姓名",
+        "options": [
+          "Thank you.",
+          "What's your name?",
+          "My name is Amy.",
+          "Nice to meet you."
+        ],
+        "question": "你刚认识一位新同学，想表达“很高兴认识你”。应选哪句话？",
+        "type": "choice",
+        "id": 19005,
+        "score": 10
+      },
+      {
+        "answer": "share",
+        "difficulty": 2,
+        "explanation": "商量着轮流使用玩具体现分享，share表示分享。",
+        "knowledge_point": "倾听、帮助、分享与友好交往",
+        "options": [
+          "smile",
+          "help",
+          "share",
+          "listen"
+        ],
+        "question": "两位朋友都想玩同一个玩具，他们商量着轮流玩。哪个词最直接表示这种分享行为？",
+        "type": "choice",
+        "id": 19006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把“What's your name?”当成自我介绍；它是在询问对方姓名。",
+        "混淆“I'm ...”和“My name is ...”的结构，误说“My name Amy.”。",
+        "回应“Nice to meet you.”时，遗漏表示“也”的too。"
+      ],
+      "core_concept": "用Hello或Hi问候，用I'm ...或My name is ...介绍自己，用What's your name?询问姓名，并回应初次见面的问候。",
+      "key_formula": "Hello! / Hi! / I'm ... / My name is ... / What's your name? / Nice to meet you. — Nice to meet you too.",
+      "point": "问候、自我介绍与询问姓名",
+      "tips": "回答姓名时可以使用完整句，也可以直接说姓名；练习时注意区分询问姓名与介绍自己的表达。"
+    },
+    {
+      "common_mistakes": [
+        "混淆ear和eye：ear是耳朵，eye是眼睛。",
+        "混淆hand和arm：hand是手，arm是手臂。",
+        "把“Look into my eyes.”中的复数eyes误写成单数eye。"
+      ],
+      "core_concept": "认识ear、eye、mouth、hand、arm，并理解问好、倾听、微笑等活动中的简单动作指令。",
+      "key_formula": "Point to your ear. / Point to your mouth. / Wave your hand. / Wave your arm. / Look into my eyes.",
+      "point": "身体部位和交友行为",
+      "tips": "point to表示指向，wave表示挥动；eye表示一只眼睛，eyes是复数形式。"
+    },
+    {
+      "common_mistakes": [
+        "混淆大小写配对，如把B和d配成一对。",
+        "把字母名称音和字母在单词中的发音当成一回事。",
+        "混淆小写字母b和d的字形。"
+      ],
+      "core_concept": "认识Aa、Bb、Cc、Dd的大小写形式，感知a在apple中的/æ/、b在bag中的/b/、c在cat中的/k/和d在dog中的/d/。",
+      "key_formula": "大小写配对：A—a，B—b，C—c，D—d；例词发音：apple /æ/，bag /b/，cat /k/，dog /d/。",
+      "point": "字母Aa—Dd的音形与发音",
+      "tips": "观察字形时注意方向；读例词时留意开头的音，不要直接用字母名称音代替。"
+    },
+    {
+      "common_mistakes": [
+        "把“I listen.”误解成“我说话”。",
+        "混淆help和share：help表示帮助，share表示分享。",
+        "把分享理解为必须把东西送给别人；一起使用或轮流使用也可以是分享。"
+      ],
+      "core_concept": "好朋友会倾听、帮助、分享、微笑，并公平地一起玩。",
+      "key_formula": "I listen. / I help. / I share. / I smile. / We can share.",
+      "point": "倾听、帮助、分享与友好交往",
+      "tips": "先判断情境中的主要行为，再选择对应的英语表达。"
+    }
+  ]
+}

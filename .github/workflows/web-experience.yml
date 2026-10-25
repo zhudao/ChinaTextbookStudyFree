@@ -30,6 +30,7 @@ jobs:
       - run: npm run check:visual-controls
       - name: Learning quality and canonical pilot content
         run: |
+          python3 scripts/install-release.py --asset-kind source-data
           npx tsx apps/web/scripts/build-data.ts
           python3 scripts/checks/content-retention.py
           npx tsx scripts/checks/content-grading.ts

@@ -113,6 +113,8 @@ export interface Outline {
   edition?: string;
   editionLabel?: string;
   supersedes?: string;
+  /** Required edition readings; fail the build when the matching source pack is missing. */
+  requiredPassageTitles?: string[];
   units: Unit[];
 }
 
@@ -169,6 +171,8 @@ export interface Passage {
   lessonNumber: number;
   title: string;
   kind: PassageKind;
+  /** The textbook role is separate from literary genre. */
+  curriculumRole?: "main" | "garden" | "writing_example" | "optional" | "revision";
   author?: string | null;
   language: "Chinese" | "English";
   sentences: PassageSentence[];

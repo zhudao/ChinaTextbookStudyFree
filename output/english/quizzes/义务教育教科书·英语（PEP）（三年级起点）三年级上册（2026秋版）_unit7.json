@@ -1,0 +1,303 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书•英语 三年级上册（2026秋版）",
+  "unit": "Revision: Being a good guest",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "Revision: Being a good guest·配套练习",
+    "total_score": 120,
+    "time_minutes": 12,
+    "questions": [
+      {
+        "answer": "先敲门，见面后说“Hello!”。",
+        "difficulty": 1,
+        "explanation": "到朋友家时先敲门，见面后主动问好，是礼貌的到访方式。",
+        "knowledge_point": "礼貌做客与综合交际",
+        "options": [
+          "先敲门，见面后说“Hello!”。",
+          "在门口不停地大喊。",
+          "进门后不理睬主人。",
+          "不敲门，直接推门进去。"
+        ],
+        "question": "你到朋友家门口，门关着。下面哪种做法最有礼貌？",
+        "type": "choice",
+        "id": 70001,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“Hello!”和“Hi!”都表示问候，可以在见面时使用。",
+        "knowledge_point": "礼貌做客与综合交际",
+        "options": [],
+        "question": "见到朋友时，可以用“Hello!”或“Hi!”向朋友打招呼。",
+        "type": "true_false",
+        "id": 70002,
+        "score": 10
+      },
+      {
+        "answer": "Thank you.",
+        "difficulty": 1,
+        "explanation": "收到朋友送的卡片，应说“Thank you.”表达感谢。",
+        "knowledge_point": "礼貌做客与综合交际",
+        "options": [
+          "What's this?",
+          "Goodbye.",
+          "Can I go?",
+          "Thank you."
+        ],
+        "question": "朋友送你一张卡片，你想表达感谢，应该说什么？",
+        "type": "choice",
+        "id": 70003,
+        "score": 10
+      },
+      {
+        "answer": "Let's play together!",
+        "difficulty": 1,
+        "explanation": "“Let's play together!”表示“我们一起玩吧！”，可用来邀请朋友一起玩。",
+        "knowledge_point": "礼貌做客与综合交际",
+        "options": [
+          "Goodbye!",
+          "Let's play together!",
+          "This is for you.",
+          "It's a bear."
+        ],
+        "question": "你想邀请朋友一起玩，下面哪句话能表达这个意思？",
+        "type": "choice",
+        "id": 70004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "朋友说话时应认真倾听，故意大声打断是不礼貌的。",
+        "knowledge_point": "礼貌做客与综合交际",
+        "options": [],
+        "question": "朋友正在说话时，故意大声打断他是礼貌的做法。",
+        "type": "true_false",
+        "id": 70005,
+        "score": 10
+      },
+      {
+        "answer": "出发前向爸爸妈妈询问“Can I go?”，离开朋友家时说“Goodbye!”。",
+        "difficulty": 2,
+        "explanation": "第77页先提示“Ask Mum and Dad.”，可用“Can I go?”向父母询问能否去；离开朋友家时用“Goodbye!”告别。",
+        "knowledge_point": "礼貌做客与综合交际",
+        "options": [
+          "出发前向爸爸妈妈询问“Can I go?”，离开朋友家时说“Goodbye!”。",
+          "出发前向爸爸妈妈说“Goodbye!”就走，不询问能否去。",
+          "出发前不告诉爸爸妈妈，离开朋友家时也不告别。",
+          "到朋友家后独占玩具，离开时不理睬朋友。"
+        ],
+        "question": "你想去朋友家做客，还没有得到爸爸妈妈的同意。下面哪一种安排最合适？",
+        "type": "choice",
+        "id": 70006,
+        "score": 10
+      },
+      {
+        "answer": "ear",
+        "difficulty": 1,
+        "explanation": "“ear”表示耳朵；其余三个词分别表示手臂、眼睛和手。",
+        "knowledge_point": "综合词汇与情境阅读",
+        "options": [
+          "arm",
+          "eye",
+          "hand",
+          "ear"
+        ],
+        "question": "哪一个英文单词表示“耳朵”？",
+        "type": "choice",
+        "id": 70007,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“mouth”的中文意思是“嘴”。",
+        "knowledge_point": "综合词汇与情境阅读",
+        "options": [],
+        "question": "单词“mouth”表示“嘴”。",
+        "type": "true_false",
+        "id": 70008,
+        "score": 10
+      },
+      {
+        "answer": "They are black, orange and white.",
+        "difficulty": 2,
+        "explanation": "题面说明小猫有黑色、橙色和白色，因此应选择包含这三种颜色的回答。",
+        "knowledge_point": "综合词汇与情境阅读",
+        "options": [
+          "They are orange and brown.",
+          "They are black and white.",
+          "They are yellow, brown and red.",
+          "They are black, orange and white."
+        ],
+        "question": "题面信息：这些小猫有黑色、橙色和白色三种颜色。回答“What colours are the baby cats?”，应选哪句？",
+        "type": "choice",
+        "id": 70009,
+        "score": 10
+      },
+      {
+        "answer": "There are four oranges.",
+        "difficulty": 2,
+        "explanation": "“four”表示四，“oranges”表示橙子，只有该项同时符合水果种类和数量。",
+        "knowledge_point": "综合词汇与情境阅读",
+        "options": [
+          "There are four bananas.",
+          "There are four oranges.",
+          "There are three apples.",
+          "There are five oranges."
+        ],
+        "question": "桌上有四个橙子。下面哪句话与这条信息相符？",
+        "type": "choice",
+        "id": 70010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "“It's a bear.”表示“它是一只熊”。“老虎”对应的英文是“tiger”。",
+        "knowledge_point": "综合词汇与情境阅读",
+        "options": [],
+        "question": "“It's a bear.”的意思是“它是一只老虎”。",
+        "type": "true_false",
+        "id": 70011,
+        "score": 10
+      },
+      {
+        "answer": "They can water the flowers.",
+        "difficulty": 2,
+        "explanation": "题面明确说明需要给花浇水。“water the flowers”表示给花浇水，其他选项的动作或对象不符合。",
+        "knowledge_point": "综合词汇与情境阅读",
+        "options": [
+          "They can plant the flowers.",
+          "They can water the flowers.",
+          "They can water the trees.",
+          "They can plant the trees."
+        ],
+        "question": "朋友说：“这些花缺水了，请帮忙给花浇水。”孩子们可以怎样帮忙？",
+        "type": "choice",
+        "id": 70012,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Revision: Being a good guest·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "This is Mike Black.",
+        "difficulty": 2,
+        "explanation": "向爸爸妈妈介绍Mike Black，应使用“This is Mike Black.”，意思是“这是迈克·布莱克”。",
+        "knowledge_point": "礼貌做客与综合交际",
+        "options": [
+          "Goodbye, Mike Black.",
+          "This is Mike Black.",
+          "Thank you, Mike Black.",
+          "Hi, Mike Black."
+        ],
+        "question": "Mike Black第一次到你家，你要向爸爸妈妈介绍他。应该说哪一句？",
+        "type": "choice",
+        "id": 79001,
+        "score": 10
+      },
+      {
+        "answer": "Nice to meet you too.",
+        "difficulty": 1,
+        "explanation": "对方说“很高兴认识你”，应回答“Nice to meet you too.”，表示“我也很高兴认识你”。",
+        "knowledge_point": "礼貌做客与综合交际",
+        "options": [
+          "Goodbye.",
+          "Nice to meet you too.",
+          "It's a bear.",
+          "Can I go?"
+        ],
+        "question": "第一次见面，朋友的爸爸对你说“Nice to meet you.”。你应该怎样回应？",
+        "type": "choice",
+        "id": 79002,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "做客时应友好分享，不能因为是客人就独占所有玩具。",
+        "knowledge_point": "礼貌做客与综合交际",
+        "options": [],
+        "question": "到朋友家做客时，因为自己是客人，所以可以独占所有玩具，不让朋友玩。",
+        "type": "true_false",
+        "id": 79003,
+        "score": 10
+      },
+      {
+        "answer": "Yes, I do. Thanks.",
+        "difficulty": 2,
+        "explanation": "题目说明你喜欢香蕉，因此应用“Yes, I do.”作肯定回答，再用“Thanks.”表示感谢。",
+        "knowledge_point": "综合词汇与情境阅读",
+        "options": [
+          "No, I don't. Thanks.",
+          "It's a lion.",
+          "Yes, I do. Thanks.",
+          "This is Mike."
+        ],
+        "question": "主人问你“Do you like bananas?”。你喜欢香蕉，应该怎样回答？",
+        "type": "choice",
+        "id": 79004,
+        "score": 10
+      },
+      {
+        "answer": "A lion.",
+        "difficulty": 2,
+        "explanation": "回答“No, it's a lion.”否定了老虎这一猜测，并明确说明那是一只狮子。",
+        "knowledge_point": "综合词汇与情境阅读",
+        "options": [
+          "A bear.",
+          "A lion.",
+          "A cat.",
+          "A tiger."
+        ],
+        "question": "读对话：Mike: “Is that a tiger?” Binbin: “No, it's a lion.” 根据Binbin的回答，那是什么动物？",
+        "type": "choice",
+        "id": 79005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "“hand”表示“手”，“eye”表示“眼睛”，两处词义都正确。",
+        "knowledge_point": "综合词汇与情境阅读",
+        "options": [],
+        "question": "词汇卡上写着“hand—手；eye—眼睛”。这两处词义都正确。",
+        "type": "true_false",
+        "id": 79006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "到朋友家时不敲门、不问候。",
+        "混淆感谢、初次见面和告别时的表达。",
+        "把“Can I go?”固定理解成离开朋友家时向主人提出的请求；本页结合“Ask Mum and Dad.”学习向父母询问能否去做客。",
+        "一起玩时独占玩具，或不认真听别人说话。"
+      ],
+      "core_concept": "做客前向父母询问；到访时敲门、问候；相处时感谢、分享、认真倾听；离开时告别。",
+      "key_formula": "询问：Can I go?；问候：Hello! / Hi!；感谢：Thank you!；邀请：Let's play together!；告别：Goodbye!",
+      "point": "礼貌做客与综合交际",
+      "tips": "先判断对谁说、在什么情境下说，再选择相应表达；礼貌也体现在分享和倾听等行动中。"
+    },
+    {
+      "common_mistakes": [
+        "混淆ear、eye、arm、hand和mouth的词义。",
+        "把“How many”问数量与“What colours”问颜色混淆。",
+        "只看动物猜测句，不看后面否定或纠正的信息。",
+        "在没有图片或明确文字信息时，直接猜测动物颜色或水果数量。"
+      ],
+      "core_concept": "识别身体部位、动物、颜色和水果等词汇，依据题面提供的数量、颜色及对话信息理解情境。",
+      "key_formula": "How many问数量；What colours问颜色；What's this?问这是什么；water the flowers表示给花浇水。",
+      "point": "综合词汇与情境阅读",
+      "tips": "先读清问题，再找题面中的对应信息；遇到“No”时，注意后面给出的纠正内容。"
+    }
+  ]
+}

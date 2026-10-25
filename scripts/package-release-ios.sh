@@ -24,8 +24,8 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 WEB_PUBLIC="$ROOT/apps/web/public"
 AUDIO_SRC="$WEB_PUBLIC/audio"
 DATA_SRC="$WEB_PUBLIC/data"
-OUT="/tmp/release-assets-ios"
-TRANSCODE_CACHE="/tmp/cstf-m4a-cache"   # transcoded m4a 缓存，重复打包时可跳过
+OUT="${IOS_ASSETS_OUT:-/tmp/release-assets-ios}"
+TRANSCODE_CACHE="${IOS_TRANSCODE_CACHE:-/tmp/cstf-m4a-cache}"   # transcoded m4a 缓存，重复打包时可跳过
 
 AAC_BITRATE="${AAC_BITRATE:-24k}"
 JOBS="${JOBS:-4}"
@@ -78,7 +78,7 @@ from pathlib import Path
 book_dir = Path(sys.argv[1])
 out = sys.argv[2]
 shas = set()
-pat = re.compile(r'/audio/([a-f0-9]{2})/([a-f0-9]+)\.opus')
+pat = re.compile(r'/audio/([a-f0-9]{2})/([a-f0-9]+(?:\.[A-Za-z0-9_-]+)?)\.(?:opus|mp3)')
 for f in book_dir.rglob("*.json"):
     text = f.read_text(encoding="utf-8")
     for m in pat.finditer(text):
@@ -96,7 +96,9 @@ PY
     echo "  转码 ($JOBS workers)..."
     < "$AUDIO_LIST_FILE" xargs -P "$JOBS" -I{} bash -c '
       rel="$1"
-      src="'"$AUDIO_SRC"'/${rel}.opus"
+      # Preserve versioned Web basenames and transcode the same audible source.
+      src="'"$AUDIO_SRC"'/${rel}.mp3"
+      if [ ! -f "$src" ]; then src="'"$AUDIO_SRC"'/${rel}.opus"; fi
       dst="'"$TRANSCODE_CACHE"'/${rel}.m4a"
       if [ -f "$dst" ] && [ "$dst" -nt "$src" ]; then exit 0; fi
       mkdir -p "$(dirname "$dst")"
@@ -144,6 +146,11 @@ PY
   if [ -d "$STORY_IMG_DIR" ]; then
     (cd "$WEB_PUBLIC" && zip -qr "$DATA_ZIP" "story-images/$BOOK" -x '*.DS_Store')
     echo "  故事插画: $(find "$STORY_IMG_DIR" -name '*.jpg' | wc -l | tr -d ' ') 张"
+  fi
+
+  # Textbook pages use the same isolated book namespace as the reading JSON.
+  if [ -d "$WEB_PUBLIC/textbook-pages/$BOOK" ]; then
+    (cd "$WEB_PUBLIC" && zip -qr "$DATA_ZIP" "textbook-pages/$BOOK" -x '*.DS_Store')
   fi
 
   DATA_BYTES=$(stat -f %z "$DATA_ZIP")

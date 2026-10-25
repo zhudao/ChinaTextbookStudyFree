@@ -1,0 +1,422 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书·语文二年级上册（2026秋版）",
+  "edition": "2026",
+  "editionLabel": "2026秋版",
+  "supersedes": "chinese-g2up",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "第一单元·阅读",
+      "knowledge_points": [
+        {
+          "name": "小蝌蚪找妈妈：成长与角色对话",
+          "description": "结合新版教材学习小蝌蚪找妈妈：成长与角色对话",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "我是什么：水的变化",
+          "description": "结合新版教材学习我是什么：水的变化",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "植物妈妈有办法：种子传播",
+          "description": "结合新版教材学习植物妈妈有办法：种子传播",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地一：天气词语与动词表达",
+          "description": "结合新版教材学习语文园地一：天气词语与动词表达",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "第二单元·识字",
+      "knowledge_points": [
+        {
+          "name": "场景歌：量词搭配",
+          "description": "结合新版教材学习场景歌：量词搭配",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "树之歌：树木特点",
+          "description": "结合新版教材学习树之歌：树木特点",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "拍手歌：动物与汉字偏旁",
+          "description": "结合新版教材学习拍手歌：动物与汉字偏旁",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "田家四季歌：四季农事",
+          "description": "结合新版教材学习田家四季歌：四季农事",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地二：部首查字法",
+          "description": "结合新版教材学习语文园地二：部首查字法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "第三单元·阅读",
+      "knowledge_points": [
+        {
+          "name": "彩虹：想象与关爱",
+          "description": "结合新版教材学习彩虹：想象与关爱",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "去外婆家：叙述与观察",
+          "description": "结合新版教材学习去外婆家：叙述与观察",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "数星星的孩子：观察和思考",
+          "description": "结合新版教材学习数星星的孩子：观察和思考",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地三：标点与词句表达",
+          "description": "结合新版教材学习语文园地三：标点与词句表达",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "第四单元·阅读",
+      "knowledge_points": [
+        {
+          "name": "古诗二首：登鹳雀楼与望庐山瀑布",
+          "description": "结合新版教材学习古诗二首：登鹳雀楼与望庐山瀑布",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "黄山奇石：景物与想象",
+          "description": "结合新版教材学习黄山奇石：景物与想象",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "日月潭：景物变化",
+          "description": "结合新版教材学习日月潭：景物变化",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "葡萄沟：抓住特点",
+          "description": "结合新版教材学习葡萄沟：抓住特点",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地四：介绍喜爱的玩具",
+          "description": "结合新版教材学习语文园地四：介绍喜爱的玩具",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "第五单元·阅读",
+      "knowledge_points": [
+        {
+          "name": "坐井观天：联系语境理解道理",
+          "description": "结合新版教材学习坐井观天：联系语境理解道理",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "寒号鸟：对话与行为",
+          "description": "结合新版教材学习寒号鸟：对话与行为",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "我要的是葫芦：事物之间的联系",
+          "description": "结合新版教材学习我要的是葫芦：事物之间的联系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地五：词语理解与积累",
+          "description": "结合新版教材学习语文园地五：词语理解与积累",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "第六单元·阅读",
+      "knowledge_points": [
+        {
+          "name": "八角楼上：观察人物细节",
+          "description": "结合新版教材学习八角楼上：观察人物细节",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "朱德的扁担：人物动作",
+          "description": "结合新版教材学习朱德的扁担：人物动作",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "难忘的泼水节：场景与情感",
+          "description": "结合新版教材学习难忘的泼水节：场景与情感",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "刘胡兰：人物品质",
+          "description": "结合新版教材学习刘胡兰：人物品质",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地六：汉字结构与词义",
+          "description": "结合新版教材学习语文园地六：汉字结构与词义",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "第七单元·阅读",
+      "knowledge_points": [
+        {
+          "name": "古诗二首：江雪与敕勒歌",
+          "description": "结合新版教材学习古诗二首：江雪与敕勒歌",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "雾在哪里：想象与景物",
+          "description": "结合新版教材学习雾在哪里：想象与景物",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "雪孩子：变化与情感",
+          "description": "结合新版教材学习雪孩子：变化与情感",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地七：看图写故事",
+          "description": "结合新版教材学习语文园地七：看图写故事",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "第八单元·阅读",
+      "knowledge_points": [
+        {
+          "name": "称赞：体会人物的变化",
+          "description": "结合新版教材学习称赞：体会人物的变化",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "纸船和风筝：友谊与表达",
+          "description": "结合新版教材学习纸船和风筝：友谊与表达",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "快乐的小河：理解故事道理",
+          "description": "结合新版教材学习快乐的小河：理解故事道理",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地八：动物分类与拟声词",
+          "description": "结合新版教材学习语文园地八：动物分类与拟声词",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地八：看图讲故事与成语",
+          "description": "结合新版教材学习语文园地八：看图讲故事与成语",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ],
+  "requiredPassageTitles": [
+    "小蝌蚪找妈妈",
+    "我是什么",
+    "植物妈妈有办法",
+    "场景歌",
+    "树之歌",
+    "拍手歌",
+    "田家四季歌",
+    "彩虹",
+    "去外婆家",
+    "数星星的孩子",
+    "登鹳雀楼",
+    "望庐山瀑布",
+    "黄山奇石",
+    "日月潭",
+    "葡萄沟",
+    "坐井观天",
+    "寒号鸟",
+    "我要的是葫芦",
+    "八角楼上",
+    "朱德的扁担",
+    "难忘的泼水节",
+    "刘胡兰",
+    "江雪",
+    "敕勒歌",
+    "雾在哪里",
+    "雪孩子",
+    "称赞",
+    "纸船和风筝",
+    "快乐的小河",
+    "梅花",
+    "企鹅寄冰",
+    "十二月花名歌",
+    "小儿垂钓",
+    "闻鸡起舞",
+    "画家乡",
+    "刻舟求剑",
+    "王二小",
+    "夜宿山寺",
+    "分不清是鸭还是霞",
+    "狐假虎威"
+  ]
+}

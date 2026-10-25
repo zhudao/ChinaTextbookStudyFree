@@ -19,11 +19,19 @@ extension Outline {
                     unitTitle: unit.title,
                     kpIndex: i,
                     kpTotal: unit.knowledgePoints.count,
-                    questionCount: questionCount(lessonId)
+                    questionCount: questionCount(lessonId),
+                    unitLabel: unit.label
                 ))
             }
         }
         return rows
+    }
+
+    /// Prerequisites follow textbook order, including interleaved activities.
+    func priorLessonMetas(bookId: String, beforeUnit target: Int) -> [PathLessonMeta] {
+        guard let index = units.firstIndex(where: { $0.unitNumber == target }) else { return [] }
+        let prior = Set(units[..<index].map(\.unitNumber))
+        return pathLessonMetas(bookId: bookId).filter { prior.contains($0.unitNumber) }
     }
 
     /// 每个单元的「单元挑战」槽位（Wave E1）。

@@ -24,7 +24,6 @@ export default async function HomePage() {
 
   return (
     <HomeClient
-      bookReplacements={Object.fromEntries(index.books.filter(b => b.supersededBy).map(b => [b.id, b.supersededBy!]))}
       grades={grades}
       byGrade={Object.fromEntries(grades.map(g => [g, byGrade[g].length]))}
       totalBooks={index.books.filter(b => !b.supersededBy).length}

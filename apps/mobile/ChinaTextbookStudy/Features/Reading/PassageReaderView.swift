@@ -39,7 +39,7 @@ struct PassageListView: View {
                         Button { path.append(.passageReader(bookId: bookId, passageId: p.id)) } label: {
                             ReadingCard(
                                 title: p.title,
-                                subtitle: "\(p.kind.displayName) · \(p.sentences.count) 句",
+                                subtitle: [p.curriculumRoleLabel, p.kind.displayName, "\(p.sentences.count) 句"].compactMap { $0 }.joined(separator: " · "),
                                 symbol: p.kind.symbol,
                                 tint: DuoColors.secondary,
                                 done: progressStore.isReadingCompleted(Reading.id(.listen, p.id)),

@@ -34,6 +34,11 @@ export async function generateStaticParams() {
   return index.books.filter(b => b.hasPassages).map(b => ({ book: b.id }));
 }
 
+const ROLE_LABEL: Record<string, string> = {
+  main: "正课", garden: "语文园地", writing_example: "习作例文",
+  optional: "选学", revision: "复习",
+};
+
 const KIND_LABEL: Record<string, string> = {
   ancient_poem: "古诗",
   poem: "现代诗",
@@ -111,6 +116,7 @@ export default async function ReadingListPage({
                   </div>
                   <div className="text-xs text-ink-light mt-1 leading-relaxed">
                     {p.author ? `${p.author} · ` : ""}
+                    {p.curriculumRole ? `${ROLE_LABEL[p.curriculumRole]} · ` : ""}
                     {kindLabel ? `${kindLabel} · ` : ""}
                     {p.sentences.length} 句
                     {!audioReady && " · 音频生成中"}

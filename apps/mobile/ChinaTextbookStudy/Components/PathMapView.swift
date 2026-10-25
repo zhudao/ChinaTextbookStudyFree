@@ -283,18 +283,20 @@ struct PathMapView: View {
         let unitNumber: Int
         let unitTitle: String
         let y: CGFloat
+        var unitLabel: String? = nil
+        var displayLabel: String { unitLabel ?? "第 \(unitNumber) 单元" }
     }
 
     private var unitBannerPositions: [BannerPosition] {
         var result: [BannerPosition] = []
         if let first = lessons.first {
-            result.append(BannerPosition(unitNumber: first.unitNumber, unitTitle: first.unitTitle, y: bannerHeight / 2 + 4))
+            result.append(BannerPosition(unitNumber: first.unitNumber, unitTitle: first.unitTitle, y: bannerHeight / 2 + 4, unitLabel: first.unitLabel))
         }
         for i in 1..<max(1, lessons.count) {
             if lessons[i].unitNumber != lessons[i - 1].unitNumber {
                 let prevPos = nodePosition(at: i - 1)
                 let nextPos = nodePosition(at: i)
-                result.append(BannerPosition(unitNumber: lessons[i].unitNumber, unitTitle: lessons[i].unitTitle, y: (prevPos.y + nextPos.y) / 2))
+                result.append(BannerPosition(unitNumber: lessons[i].unitNumber, unitTitle: lessons[i].unitTitle, y: (prevPos.y + nextPos.y) / 2, unitLabel: lessons[i].unitLabel))
             }
         }
         return result
@@ -323,7 +325,7 @@ struct PathMapView: View {
                 VStack(alignment: .leading, spacing: showJump ? 6 : 4) {
                     if showJump {
                         // 锁定单元：标题压成一行，给「跳到这里」腾出空间。
-                        Text("第 \(banner.unitNumber) 单元 · \(banner.unitTitle)")
+                        Text("\(banner.displayLabel) · \(banner.unitTitle)")
                             .duoFont(.caption)
                             .foregroundStyle(.white.opacity(0.9))
                             .lineLimit(1)
@@ -345,9 +347,9 @@ struct PathMapView: View {
                         }
                         .buttonStyle(.plain)
                         .accessibilityIdentifier("jump-here-u\(banner.unitNumber)")
-                        .accessibilityLabel("跳级测试，跳到第 \(banner.unitNumber) 单元")
+                        .accessibilityLabel("跳级测试，跳到\(banner.displayLabel)")
                     } else {
-                        Text("第 \(banner.unitNumber) 单元")
+                        Text("\(banner.displayLabel)")
                             .duoFont(.micro)
                             .tracking(1.2)
                             .foregroundStyle(.white.opacity(0.85))
@@ -378,7 +380,7 @@ struct PathMapView: View {
                 .buttonStyle(.plain)
                 .disabled(onGuideTap == nil)
                 .accessibilityIdentifier("unit-guide-u\(banner.unitNumber)")
-                .accessibilityLabel("第 \(banner.unitNumber) 单元知识手册")
+                .accessibilityLabel("\(banner.displayLabel)知识手册")
             }
             .frame(width: stageWidth - 16, height: bannerHeight)
             .background(colors.top, in: .rect(cornerRadius: Radius.card))
@@ -671,14 +673,14 @@ struct PathMapView: View {
     // MARK: - Sticky current unit header (Wave F ios-path-9)
 
     /// 视口顶端第一个（部分）可见的节点所属单元；未滚动或算不出时为 nil。
-    private var topVisibleUnit: (unitNumber: Int, unitTitle: String)? {
+    private var topVisibleUnit: PathMapNode? {
         // 视口顶端在内容坐标系中的位置。
         let topContentY = scrollOffset + 8
         guard topContentY > bannerHeight + 24 else { return nil }   // 第一条 banner 还在视口里，不用 sticky
         guard let idx = lessons.indices.first(where: { nodePosition(at: $0).y + nodeSize / 2 >= topContentY })
         else { return nil }
         let node = lessons[idx]
-        return (node.unitNumber, node.unitTitle)
+        return node
     }
 
     @ViewBuilder
@@ -687,7 +689,7 @@ struct PathMapView: View {
             let colors = unitColors(unit.unitNumber)
             HStack(spacing: 10) {
                 VStack(alignment: .leading, spacing: 1) {
-                    Text("第 \(unit.unitNumber) 单元")
+                    Text("\(unit.displayLabel)")
                         .duoFont(.micro)
                         .tracking(1.0)
                         .foregroundStyle(.white.opacity(0.85))
@@ -713,7 +715,7 @@ struct PathMapView: View {
                     }
                     .buttonStyle(.plain)
                     .accessibilityIdentifier("sticky-unit-guide")
-                    .accessibilityLabel("第 \(unit.unitNumber) 单元知识手册")
+                    .accessibilityLabel("\(unit.displayLabel)知识手册")
                 }
             }
             .padding(.horizontal, 14)
@@ -729,7 +731,7 @@ struct PathMapView: View {
             .transition(.move(edge: .top).combined(with: .opacity))
             .animation(Motion.reveal, value: unit.unitNumber)
             .accessibilityElement(children: .contain)
-            .accessibilityLabel("当前单元：第 \(unit.unitNumber) 单元 \(unit.unitTitle)")
+            .accessibilityLabel("当前单元：\(unit.displayLabel) \(unit.unitTitle)")
         }
     }
 
@@ -988,7 +990,8 @@ enum PathNodeBuilder {
                 unitTitle: row.unitTitle,
                 status: status,
                 stars: stars,
-                questionCount: row.questionCount
+                questionCount: row.questionCount,
+                unitLabel: row.unitLabel
             ))
             if let slot = chestByAfterLesson[row.id] {
                 nodes.append(PathMapNode(
@@ -999,7 +1002,8 @@ enum PathNodeBuilder {
                     status: isCompleted ? .completed : .locked,
                     stars: 0,
                     kind: .chest,
-                    chestClaimed: progressStore.isChestClaimed(slot.id)
+                    chestClaimed: progressStore.isChestClaimed(slot.id),
+                    unitLabel: row.unitLabel
                 ))
             }
             // 单元最后一节普通课之后挂「单元挑战」奖杯节点：
@@ -1022,7 +1026,8 @@ enum PathNodeBuilder {
                     stars: result?.stars ?? 0,
                     kind: .exam,
                     conquered: (result?.accuracy ?? 0) >= 0.8,
-                    questionCount: exam.questionCount
+                    questionCount: exam.questionCount,
+                    unitLabel: row.unitLabel
                 ))
             }
         }
@@ -1048,4 +1053,6 @@ struct PathMapNode: Identifiable, Hashable {
     var conquered: Bool = false
     /// Lesson nodes only: drives the "+N XP" line in the start popup (0 = unknown).
     var questionCount: Int = 0
+    var unitLabel: String? = nil
+    var displayLabel: String { unitLabel ?? "第 \(unitNumber) 单元" }
 }

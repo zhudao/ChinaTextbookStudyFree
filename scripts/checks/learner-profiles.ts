@@ -74,4 +74,22 @@ assert.equal(back.manager.list().find(p=>p.id==='default')?.name,'姐姐');
 const bootKey=new Function('localStorage','sessionStorage',`${second.profiles.LEARNER_BOOT_SCRIPT}; return learnerKey('csf-theme-mode');`)(storage,sessionA);
 assert.equal(bootKey,back.manager.key('csf-theme-mode'));
 assert.throws(()=>back.profiles.createLearnerProfiles({getItem:storage.getItem,setItem(){throw new Error('Quota');}}).create('新档案'));
+// Edition upgrades retain old grades through the actual persisted store.
+for (const bookId of ['g3up','chinese-g2up','chinese-g3up','english-g3up','science-g3up']) {
+  const oldId = `${bookId}-u1-kp1`, newId = `${bookId}-2026-u1-kp1`;
+  back.store.getState().recordLessonComplete(oldId, '旧版第一课', 1, 10);
+  const oldGrade = structuredClone(back.store.getState().completedLessons[oldId]);
+  assert.equal(back.store.getState().completedLessons[newId], undefined);
+  assert.equal(back.store.getState().perfectedLessons[newId], undefined);
+  back.store.getState().recordLessonComplete(newId, '新版第一课', 0.6, 6);
+  assert.deepEqual(back.store.getState().completedLessons[oldId], oldGrade);
+  back.store.getState().setActiveBookId(bookId);
+  const editionReload = tab(sessionA).store.getState();
+  assert.deepEqual(editionReload.completedLessons[oldId], oldGrade);
+  assert.ok(editionReload.completedLessons[newId]);
+  assert.equal(editionReload.activeBookId, bookId);
+  assert.equal(editionReload.perfectedLessons[oldId], true);
+  assert.equal(editionReload.perfectedLessons[newId], undefined);
+}
 console.log('PASS latest-main learner profiles: actual v13 store, migration, independent progress/rewards/achievements/settings, reading/review/number-sense sessions, reload, theme boot and tab isolation.');
+console.log('PASS: five revised editions retain legacy grades and active book through reload; new completion and perfect rewards stay independent.');
