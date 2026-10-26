@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "identicalBookJson": 3349,
+  "changedBookJson": [
+    "data/books/g4up/lessons/g4up-u1-kp1.json"
+  ],
+  "missingBookJson": [],
+  "previousMediaByteIdentical": 329214,
+  "completedGrades": "existing persistence/regrade policy unchanged; live profile verification separately"
+}

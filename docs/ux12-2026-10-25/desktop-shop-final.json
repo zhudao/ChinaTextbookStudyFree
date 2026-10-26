@@ -1,0 +1,242 @@
+[
+  {
+    "width": 1024,
+    "top": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 1009,
+        "minimumCardWidth": 221.6640625,
+        "route": "/shop/",
+        "scrollWidth": 1009,
+        "sideBySide": false,
+        "stickyPreview": false,
+        "viewport": 1024,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    },
+    "scrolled": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 1009,
+        "minimumCardWidth": 221.6640625,
+        "route": "/shop/",
+        "scrollWidth": 1009,
+        "sideBySide": false,
+        "stickyPreview": false,
+        "viewport": 1024,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    },
+    "scrollY": 677,
+    "contrast": {
+      "checked": 60,
+      "dark": true,
+      "failures": [],
+      "route": "/shop/",
+      "skipped": [
+        "25"
+      ],
+      "width": 1024
+    }
+  },
+  {
+    "width": 1152,
+    "top": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 1137,
+        "minimumCardWidth": 258.5,
+        "route": "/shop/",
+        "scrollWidth": 1137,
+        "sideBySide": true,
+        "stickyPreview": true,
+        "viewport": 1152,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    },
+    "scrolled": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 1137,
+        "minimumCardWidth": 258.5,
+        "route": "/shop/",
+        "scrollWidth": 1137,
+        "sideBySide": true,
+        "stickyPreview": true,
+        "viewport": 1152,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    },
+    "scrollY": 851.5,
+    "contrast": {
+      "checked": 60,
+      "dark": true,
+      "failures": [],
+      "route": "/shop/",
+      "skipped": [
+        "25"
+      ],
+      "width": 1152
+    }
+  },
+  {
+    "width": 1279,
+    "top": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 1264,
+        "minimumCardWidth": 209.328125,
+        "route": "/shop/",
+        "scrollWidth": 1264,
+        "sideBySide": true,
+        "stickyPreview": true,
+        "viewport": 1279,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    },
+    "scrolled": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 1264,
+        "minimumCardWidth": 209.328125,
+        "route": "/shop/",
+        "scrollWidth": 1264,
+        "sideBySide": true,
+        "stickyPreview": true,
+        "viewport": 1279,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    },
+    "scrollY": 427,
+    "contrast": {
+      "checked": 60,
+      "dark": true,
+      "failures": [],
+      "route": "/shop/",
+      "skipped": [
+        "25"
+      ],
+      "width": 1279
+    }
+  },
+  {
+    "width": 1280,
+    "top": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 1265,
+        "minimumCardWidth": 209.6640625,
+        "route": "/shop/",
+        "scrollWidth": 1265,
+        "sideBySide": true,
+        "stickyPreview": true,
+        "viewport": 1280,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    },
+    "scrolled": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 1265,
+        "minimumCardWidth": 209.6640625,
+        "route": "/shop/",
+        "scrollWidth": 1265,
+        "sideBySide": true,
+        "stickyPreview": true,
+        "viewport": 1280,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    },
+    "scrollY": 427,
+    "contrast": {
+      "checked": 60,
+      "dark": true,
+      "failures": [],
+      "route": "/shop/",
+      "skipped": [
+        "25"
+      ],
+      "width": 1280
+    }
+  },
+  {
+    "width": 1440,
+    "top": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 1425,
+        "minimumCardWidth": 185,
+        "route": "/shop/",
+        "scrollWidth": 1425,
+        "sideBySide": true,
+        "stickyPreview": true,
+        "viewport": 1440,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    },
+    "scrolled": {
+      "failures": [],
+      "metrics": {
+        "cards": 12,
+        "clippedNames": 0,
+        "contentWidth": 1425,
+        "minimumCardWidth": 185,
+        "route": "/shop/",
+        "scrollWidth": 1425,
+        "sideBySide": true,
+        "stickyPreview": true,
+        "viewport": 1440,
+        "红心": 0,
+        "连胜详情": 0
+      },
+      "passed": true
+    },
+    "scrollY": 207,
+    "contrast": {
+      "checked": 60,
+      "dark": true,
+      "failures": [],
+      "route": "/shop/",
+      "skipped": [
+        "25"
+      ],
+      "width": 1440
+    }
+  }
+]

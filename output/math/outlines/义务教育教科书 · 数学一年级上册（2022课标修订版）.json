@@ -1,0 +1,394 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学一年级上册（2022课标修订版）",
+  "edition": "2026",
+  "editionLabel": "2022课标修订版",
+  "supersedes": "g1up",
+  "units": [
+    {
+      "unit_number": 101,
+      "title": "数学游戏",
+      "label": "起始活动",
+      "knowledge_points": [
+        {
+          "name": "在校园和教室里发现数学",
+          "description": "结合新版教材学习在校园和教室里发现数学",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "观察和辨认物品的形状",
+          "description": "结合新版教材学习观察和辨认物品的形状",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "数一数并说出物品的数量",
+          "description": "结合新版教材学习数一数并说出物品的数量",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "数学学习准备与课堂常规",
+          "description": "结合新版教材学习数学学习准备与课堂常规",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 1,
+      "title": "5以内数的认识和加、减法",
+      "knowledge_points": [
+        {
+          "name": "认识1～5并用点子图、实物和数字表示数量",
+          "description": "结合新版教材学习认识1～5并用点子图、实物和数字表示数量",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "比较5以内数量的多少与大小",
+          "description": "结合新版教材学习比较5以内数量的多少与大小",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识第几，区分几个与第几个",
+          "description": "结合新版教材学习认识第几，区分几个与第几个",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "理解5以内数的组成与分解",
+          "description": "结合新版教材学习理解5以内数的组成与分解",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "理解加法和减法的含义并列式计算",
+          "description": "结合新版教材学习理解加法和减法的含义并列式计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识0并理解有关0的加减法",
+          "description": "结合新版教材学习认识0并理解有关0的加减法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "解决5以内的简单加减问题",
+          "description": "结合新版教材学习解决5以内的简单加减问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "6～10的认识和加、减法",
+      "knowledge_points": [
+        {
+          "name": "认识6～10并用多种方式表示数量",
+          "description": "结合新版教材学习认识6～10并用多种方式表示数量",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "理解6～10各数的组成与分解",
+          "description": "结合新版教材学习理解6～10各数的组成与分解",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "掌握有关数的顺序和大小比较",
+          "description": "结合新版教材学习掌握有关数的顺序和大小比较",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "理解加法、减法及相关数量关系",
+          "description": "结合新版教材学习理解加法、减法及相关数量关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "进行10以内加减法计算",
+          "description": "结合新版教材学习进行10以内加减法计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用10以内加减法解决简单实际问题",
+          "description": "结合新版教材学习用10以内加减法解决简单实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "认识立体图形",
+      "knowledge_points": [
+        {
+          "name": "辨认长方体、正方体、圆柱和球",
+          "description": "结合新版教材学习辨认长方体、正方体、圆柱和球",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "观察并描述立体图形的外形特征",
+          "description": "结合新版教材学习观察并描述立体图形的外形特征",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "按立体图形的特征分类和计数",
+          "description": "结合新版教材学习按立体图形的特征分类和计数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用立体图形拼搭并观察拼搭结果",
+          "description": "结合新版教材学习用立体图形拼搭并观察拼搭结果",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "11～20的认识",
+      "knowledge_points": [
+        {
+          "name": "认识11～20并正确读写这些数",
+          "description": "结合新版教材学习认识11～20并正确读写这些数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "理解十位和个位表示的数位意义",
+          "description": "结合新版教材学习理解十位和个位表示的数位意义",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "掌握11～20的组成及数的顺序",
+          "description": "结合新版教材学习掌握11～20的组成及数的顺序",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "比较20以内数的大小",
+          "description": "结合新版教材学习比较20以内数的大小",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识加法与减法算式中的数量关系",
+          "description": "结合新版教材学习认识加法与减法算式中的数量关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "20以内的进位加法",
+      "knowledge_points": [
+        {
+          "name": "理解凑十的思路并计算9加几",
+          "description": "结合新版教材学习理解凑十的思路并计算9加几",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "掌握8、7、6加几的计算思路",
+          "description": "结合新版教材学习掌握8、7、6加几的计算思路",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "运用交换加数的方法计算有关进位加法",
+          "description": "结合新版教材学习运用交换加数的方法计算有关进位加法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "掌握5、4、3、2加几的计算思路",
+          "description": "结合新版教材学习掌握5、4、3、2加几的计算思路",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "熟练计算20以内的进位加法",
+          "description": "结合新版教材学习熟练计算20以内的进位加法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用进位加法解决简单实际问题",
+          "description": "结合新版教材学习用进位加法解决简单实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "复习与关联",
+      "label": "复习与关联",
+      "knowledge_points": [
+        {
+          "name": "综合运用数的认识和数的组成解决问题",
+          "description": "结合新版教材学习综合运用数的认识和数的组成解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "整理20以内加减法的计算方法并解决实际问题",
+          "description": "结合新版教材学习整理20以内加减法的计算方法并解决实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "比较数量并用符号表示大小关系",
+          "description": "结合新版教材学习比较数量并用符号表示大小关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据数量关系补充算式中的未知数",
+          "description": "结合新版教材学习根据数量关系补充算式中的未知数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "辨认、分类和拼搭常见立体图形",
+          "description": "结合新版教材学习辨认、分类和拼搭常见立体图形",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "观察数表与算式表并发现排列规律",
+          "description": "结合新版教材学习观察数表与算式表并发现排列规律",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ]
+}

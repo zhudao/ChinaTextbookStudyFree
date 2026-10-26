@@ -1,0 +1,522 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学五年级上册（2022课标修订版）",
+  "edition": "2026",
+  "editionLabel": "2022课标修订版",
+  "supersedes": "g5up",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "观察简单组合体",
+      "knowledge_points": [
+        {
+          "name": "从一个方向观察组合体并描述所见图形",
+          "description": "结合新版教材学习从一个方向观察组合体并描述所见图形",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据不同方向看到的图形判断观察方向",
+          "description": "结合新版教材学习根据不同方向看到的图形判断观察方向",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据多个方向的平面图形还原组合体",
+          "description": "结合新版教材学习根据多个方向的平面图形还原组合体",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用小正方体搭出符合观察要求的组合体",
+          "description": "结合新版教材学习用小正方体搭出符合观察要求的组合体",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "小数乘法",
+      "knowledge_points": [
+        {
+          "name": "小数乘整数的意义与计算",
+          "description": "结合新版教材学习小数乘整数的意义与计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "小数乘小数的计算方法",
+          "description": "结合新版教材学习小数乘小数的计算方法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "积的小数位数与小数点位置",
+          "description": "结合新版教材学习积的小数位数与小数点位置",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "积的近似数",
+          "description": "结合新版教材学习积的近似数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "积与乘数的大小关系",
+          "description": "结合新版教材学习积与乘数的大小关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "整数乘法运算定律推广到小数乘法",
+          "description": "结合新版教材学习整数乘法运算定律推广到小数乘法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "小数乘法的实际应用",
+          "description": "结合新版教材学习小数乘法的实际应用",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "小数除法",
+      "knowledge_points": [
+        {
+          "name": "除数是整数的小数除法",
+          "description": "结合新版教材学习除数是整数的小数除法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "一个数除以小数的计算方法",
+          "description": "结合新版教材学习一个数除以小数的计算方法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "商的小数位数与小数点位置",
+          "description": "结合新版教材学习商的小数位数与小数点位置",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "商的近似数",
+          "description": "结合新版教材学习商的近似数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "循环小数的认识与表示",
+          "description": "结合新版教材学习循环小数的认识与表示",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "小数除法的估算与实际应用",
+          "description": "结合新版教材学习小数除法的估算与实际应用",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "图形的运动",
+      "knowledge_points": [
+        {
+          "name": "轴对称图形的特征与对称轴",
+          "description": "结合新版教材学习轴对称图形的特征与对称轴",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "在方格纸上补全轴对称图形",
+          "description": "结合新版教材学习在方格纸上补全轴对称图形",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "图形平移的方向与距离",
+          "description": "结合新版教材学习图形平移的方向与距离",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "在方格纸上画出平移后的图形",
+          "description": "结合新版教材学习在方格纸上画出平移后的图形",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "利用平移转化图形求面积",
+          "description": "结合新版教材学习利用平移转化图形求面积",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "旋转的要素与基本特征",
+          "description": "结合新版教材学习旋转的要素与基本特征",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "在方格纸上画出旋转后的图形",
+          "description": "结合新版教材学习在方格纸上画出旋转后的图形",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "平移与旋转的组合应用",
+          "description": "结合新版教材学习平移与旋转的组合应用",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "利用图形运动分析和设计图案",
+          "description": "结合新版教材学习利用图形运动分析和设计图案",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "用字母表示数和数量关系",
+      "knowledge_points": [
+        {
+          "name": "用字母表示数量与运算关系",
+          "description": "结合新版教材学习用字母表示数量与运算关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "含有字母的式子的求值",
+          "description": "结合新版教材学习含有字母的式子的求值",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用字母表示常见数量关系",
+          "description": "结合新版教材学习用字母表示常见数量关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用字母表示运算定律与计算公式",
+          "description": "结合新版教材学习用字母表示运算定律与计算公式",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "等式的基本性质及求未知数",
+          "description": "结合新版教材学习等式的基本性质及求未知数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据数量关系解决实际问题",
+          "description": "结合新版教材学习根据数量关系解决实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用字母表示规律",
+          "description": "结合新版教材学习用字母表示规律",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "多边形的面积",
+      "knowledge_points": [
+        {
+          "name": "平行四边形面积公式的推导与应用",
+          "description": "结合新版教材学习平行四边形面积公式的推导与应用",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "三角形面积公式的推导与应用",
+          "description": "结合新版教材学习三角形面积公式的推导与应用",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "梯形面积公式的推导与应用",
+          "description": "结合新版教材学习梯形面积公式的推导与应用",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "组合图形面积的计算",
+          "description": "结合新版教材学习组合图形面积的计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "不规则图形面积的估计与计算",
+          "description": "结合新版教材学习不规则图形面积的估计与计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "面积公式在实际问题中的应用",
+          "description": "结合新版教材学习面积公式在实际问题中的应用",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 101,
+      "title": "有趣的密铺",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "认识图形密铺及其基本条件",
+          "description": "结合新版教材学习认识图形密铺及其基本条件",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用平面图形设计连续密铺图案",
+          "description": "结合新版教材学习用平面图形设计连续密铺图案",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "可能性",
+      "knowledge_points": [
+        {
+          "name": "用具体情境认识随机现象",
+          "description": "结合新版教材学习用具体情境认识随机现象",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "描述事件发生的可能性",
+          "description": "结合新版教材学习描述事件发生的可能性",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "比较事件发生可能性的大小",
+          "description": "结合新版教材学习比较事件发生可能性的大小",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用数据和试验结果描述可能性",
+          "description": "结合新版教材学习用数据和试验结果描述可能性",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "复习与关联",
+      "knowledge_points": [
+        {
+          "name": "整理与应用小数四则运算知识解决问题",
+          "description": "结合新版教材学习整理与应用小数四则运算知识解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "整理与应用用字母表示数和数量关系",
+          "description": "结合新版教材学习整理与应用用字母表示数和数量关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "整理与应用组合体观察与图形运动知识",
+          "description": "结合新版教材学习整理与应用组合体观察与图形运动知识",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "综合运用多边形面积知识解决问题",
+          "description": "结合新版教材学习综合运用多边形面积知识解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "辨析有关可能性的情境与判断",
+          "description": "结合新版教材学习辨析有关可能性的情境与判断",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "理解植树问题中棵数与间隔数的关系",
+          "description": "结合新版教材学习理解植树问题中棵数与间隔数的关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书·数学一年级下册（2022课标修订版）",
+  "edition": "2026",
+  "editionLabel": "2022课标修订版",
+  "supersedes": "g1down",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "认识平面图形",
+      "knowledge_points": [
+        {
+          "name": "辨认长方形、正方形、平行四边形、三角形和圆",
+          "description": "结合新版教材学习辨认长方形、正方形、平行四边形、三角形和圆",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "在生活物体上寻找并描述平面图形",
+          "description": "结合新版教材学习在生活物体上寻找并描述平面图形",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用平面图形进行拼组和图案创作",
+          "description": "结合新版教材学习用平面图形进行拼组和图案创作",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "20以内的退位减法",
+      "knowledge_points": [
+        {
+          "name": "用数的组成和分解理解十几减几",
+          "description": "结合新版教材学习用数的组成和分解理解十几减几",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用破十法计算十几减几",
+          "description": "结合新版教材学习用破十法计算十几减几",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用平十法计算十几减几",
+          "description": "结合新版教材学习用平十法计算十几减几",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "想加算减及加减法之间的联系",
+          "description": "结合新版教材学习想加算减及加减法之间的联系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用加法检验退位减法并解决简单问题",
+          "description": "结合新版教材学习用加法检验退位减法并解决简单问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "整理20以内退位减法表并发现规律",
+          "description": "结合新版教材学习整理20以内退位减法表并发现规律",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "100以内数的认识",
+      "knowledge_points": [
+        {
+          "name": "认识计数单位“百”，理解十进制计数",
+          "description": "结合新版教材学习认识计数单位“百”，理解十进制计数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "读写100以内的数并认识数的组成",
+          "description": "结合新版教材学习读写100以内的数并认识数的组成",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用数的顺序和数的大小关系比较数",
+          "description": "结合新版教材学习用数的顺序和数的大小关系比较数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识个位、十位和百位并在数位表中表示数",
+          "description": "结合新版教材学习认识个位、十位和百位并在数位表中表示数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用估数、数数和数的规律解决问题",
+          "description": "结合新版教材学习用估数、数数和数的规律解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "简单的加、减法",
+          "description": "结合新版教材学习简单的加、减法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "100以内的口算加、减法",
+      "knowledge_points": [
+        {
+          "name": "两位数加、减整十数",
+          "description": "结合新版教材学习两位数加、减整十数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "两位数加、减一位数（不进位、不退位）",
+          "description": "结合新版教材学习两位数加、减一位数（不进位、不退位）",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "两位数加一位数（进位）和两位数减一位数（退位）",
+          "description": "结合新版教材学习两位数加一位数（进位）和两位数减一位数（退位）",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "两位数加、减两位数（不进位、不退位）",
+          "description": "结合新版教材学习两位数加、减两位数（不进位、不退位）",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "运用口算解决生活中的简单问题",
+          "description": "结合新版教材学习运用口算解决生活中的简单问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "100以内的笔算加、减法",
+      "knowledge_points": [
+        {
+          "name": "两位数加一位数（进位）的笔算",
+          "description": "结合新版教材学习两位数加一位数（进位）的笔算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "两位数减一位数（退位）的笔算",
+          "description": "结合新版教材学习两位数减一位数（退位）的笔算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "两位数加两位数（不进位、进位）的笔算",
+          "description": "结合新版教材学习两位数加两位数（不进位、进位）的笔算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "两位数减两位数（不退位、退位）的笔算",
+          "description": "结合新版教材学习两位数减两位数（不退位、退位）的笔算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用竖式解决加减计算问题并检查结果",
+          "description": "结合新版教材学习用竖式解决加减计算问题并检查结果",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "数量间的加减关系",
+      "knowledge_points": [
+        {
+          "name": "从总量和部分量的关系中求未知部分",
+          "description": "结合新版教材学习从总量和部分量的关系中求未知部分",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据两量相差关系求较多量或较少量",
+          "description": "结合新版教材学习根据两量相差关系求较多量或较少量",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用图示表达数量关系并选择加法或减法解决问题",
+          "description": "结合新版教材学习用图示表达数量关系并选择加法或减法解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 101,
+      "title": "欢乐购物街",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "认识人民币的单位元、角、分及其关系",
+          "description": "结合新版教材学习认识人民币的单位元、角、分及其关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "辨认常见人民币并比较面值",
+          "description": "结合新版教材学习辨认常见人民币并比较面值",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用人民币进行简单购物和找钱",
+          "description": "结合新版教材学习用人民币进行简单购物和找钱",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据价格计算购物花费与选择商品",
+          "description": "结合新版教材学习根据价格计算购物花费与选择商品",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "人民币小讲堂：自主探究与分享",
+          "description": "结合新版教材学习人民币小讲堂：自主探究与分享",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "复习与关联",
+      "label": "复习与关联",
+      "knowledge_points": [
+        {
+          "name": "整理平面图形的辨认与拼组方法",
+          "description": "结合新版教材学习整理平面图形的辨认与拼组方法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "综合运用100以内数的读写、组成、顺序和比较",
+          "description": "结合新版教材学习综合运用100以内数的读写、组成、顺序和比较",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "综合运用100以内口算与笔算加减法",
+          "description": "结合新版教材学习综合运用100以内口算与笔算加减法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据数量关系解决求相差数和求未知数问题",
+          "description": "结合新版教材学习根据数量关系解决求相差数和求未知数问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "结合购物情境解决简单的人民币计算问题",
+          "description": "结合新版教材学习结合购物情境解决简单的人民币计算问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ]
+}

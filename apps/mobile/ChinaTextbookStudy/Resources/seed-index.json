@@ -8,10 +8,27 @@
       "gradeName": "一年级",
       "semesterName": "上册",
       "subjectName": "数学",
-      "textbookName": "一年级上册",
-      "fullName": "人教版小学数学一年级上册",
+      "textbookName": "一年级上册（旧版）",
+      "fullName": "人教版小学数学一年级上册（旧版）",
       "unitsCount": 9,
-      "lessonsCount": 35
+      "lessonsCount": 35,
+      "supersededBy": "g1up-2026"
+    },
+    {
+      "id": "g1up-2026",
+      "grade": 1,
+      "semester": "up",
+      "subject": "math",
+      "gradeName": "一年级",
+      "semesterName": "上册",
+      "subjectName": "数学",
+      "textbookName": "一年级上册（2022课标修订版）",
+      "fullName": "人教版小学数学一年级上册（2022课标修订版）",
+      "editionLabel": "2022课标修订版",
+      "supersedes": "g1up",
+      "unitsCount": 5,
+      "activitiesCount": 2,
+      "lessonsCount": 38
     },
     {
       "id": "g2up",
@@ -81,10 +98,27 @@
       "gradeName": "四年级",
       "semesterName": "上册",
       "subjectName": "数学",
-      "textbookName": "四年级上册",
-      "fullName": "人教版小学数学四年级上册",
+      "textbookName": "四年级上册（旧版）",
+      "fullName": "人教版小学数学四年级上册（旧版）",
       "unitsCount": 9,
-      "lessonsCount": 30
+      "lessonsCount": 30,
+      "supersededBy": "g4up-2026"
+    },
+    {
+      "id": "g4up-2026",
+      "grade": 4,
+      "semester": "up",
+      "subject": "math",
+      "gradeName": "四年级",
+      "semesterName": "上册",
+      "subjectName": "数学",
+      "textbookName": "四年级上册（2022课标修订版）",
+      "fullName": "人教版小学数学四年级上册（2022课标修订版）",
+      "editionLabel": "2022课标修订版",
+      "supersedes": "g4up",
+      "unitsCount": 7,
+      "activitiesCount": 2,
+      "lessonsCount": 37
     },
     {
       "id": "g5up",
@@ -94,10 +128,27 @@
       "gradeName": "五年级",
       "semesterName": "上册",
       "subjectName": "数学",
-      "textbookName": "五年级上册",
-      "fullName": "人教版小学数学五年级上册",
+      "textbookName": "五年级上册（旧版）",
+      "fullName": "人教版小学数学五年级上册（旧版）",
       "unitsCount": 8,
-      "lessonsCount": 31
+      "lessonsCount": 31,
+      "supersededBy": "g5up-2026"
+    },
+    {
+      "id": "g5up-2026",
+      "grade": 5,
+      "semester": "up",
+      "subject": "math",
+      "gradeName": "五年级",
+      "semesterName": "上册",
+      "subjectName": "数学",
+      "textbookName": "五年级上册（2022课标修订版）",
+      "fullName": "人教版小学数学五年级上册（2022课标修订版）",
+      "editionLabel": "2022课标修订版",
+      "supersedes": "g5up",
+      "unitsCount": 8,
+      "activitiesCount": 1,
+      "lessonsCount": 51
     },
     {
       "id": "g6up",
@@ -107,10 +158,27 @@
       "gradeName": "六年级",
       "semesterName": "上册",
       "subjectName": "数学",
-      "textbookName": "六年级上册",
-      "fullName": "人教版小学数学六年级上册",
+      "textbookName": "六年级上册（旧版）",
+      "fullName": "人教版小学数学六年级上册（旧版）",
       "unitsCount": 9,
-      "lessonsCount": 29
+      "lessonsCount": 29,
+      "supersededBy": "g6up-2026"
+    },
+    {
+      "id": "g6up-2026",
+      "grade": 6,
+      "semester": "up",
+      "subject": "math",
+      "gradeName": "六年级",
+      "semesterName": "上册",
+      "subjectName": "数学",
+      "textbookName": "六年级上册（2022课标修订版）",
+      "fullName": "人教版小学数学六年级上册（2022课标修订版）",
+      "editionLabel": "2022课标修订版",
+      "supersedes": "g6up",
+      "unitsCount": 6,
+      "activitiesCount": 3,
+      "lessonsCount": 47
     },
     {
       "id": "g1down",
@@ -120,10 +188,27 @@
       "gradeName": "一年级",
       "semesterName": "下册",
       "subjectName": "数学",
-      "textbookName": "一年级下册",
-      "fullName": "人教版小学数学一年级下册",
+      "textbookName": "一年级下册（旧版）",
+      "fullName": "人教版小学数学一年级下册（旧版）",
       "unitsCount": 8,
-      "lessonsCount": 24
+      "lessonsCount": 24,
+      "supersededBy": "g1down-2026"
+    },
+    {
+      "id": "g1down-2026",
+      "grade": 1,
+      "semester": "down",
+      "subject": "math",
+      "gradeName": "一年级",
+      "semesterName": "下册",
+      "subjectName": "数学",
+      "textbookName": "一年级下册（2022课标修订版）",
+      "fullName": "人教版小学数学一年级下册（2022课标修订版）",
+      "editionLabel": "2022课标修订版",
+      "supersedes": "g1down",
+      "unitsCount": 6,
+      "activitiesCount": 2,
+      "lessonsCount": 38
     },
     {
       "id": "g2down",
@@ -133,10 +218,27 @@
       "gradeName": "二年级",
       "semesterName": "下册",
       "subjectName": "数学",
-      "textbookName": "二年级下册",
-      "fullName": "人教版小学数学二年级下册",
+      "textbookName": "二年级下册（旧版）",
+      "fullName": "人教版小学数学二年级下册（旧版）",
       "unitsCount": 10,
-      "lessonsCount": 37
+      "lessonsCount": 37,
+      "supersededBy": "g2down-2026"
+    },
+    {
+      "id": "g2down-2026",
+      "grade": 2,
+      "semester": "down",
+      "subject": "math",
+      "gradeName": "二年级",
+      "semesterName": "下册",
+      "subjectName": "数学",
+      "textbookName": "二年级下册（2022课标修订版）",
+      "fullName": "人教版小学数学二年级下册（2022课标修订版）",
+      "editionLabel": "2022课标修订版",
+      "supersedes": "g2down",
+      "unitsCount": 4,
+      "activitiesCount": 3,
+      "lessonsCount": 41
     },
     {
       "id": "g3down",
@@ -146,10 +248,27 @@
       "gradeName": "三年级",
       "semesterName": "下册",
       "subjectName": "数学",
-      "textbookName": "三年级下册",
-      "fullName": "人教版小学数学三年级下册",
+      "textbookName": "三年级下册（旧版）",
+      "fullName": "人教版小学数学三年级下册（旧版）",
       "unitsCount": 9,
-      "lessonsCount": 32
+      "lessonsCount": 32,
+      "supersededBy": "g3down-2026"
+    },
+    {
+      "id": "g3down-2026",
+      "grade": 3,
+      "semester": "down",
+      "subject": "math",
+      "gradeName": "三年级",
+      "semesterName": "下册",
+      "subjectName": "数学",
+      "textbookName": "三年级下册（2022课标修订版）",
+      "fullName": "人教版小学数学三年级下册（2022课标修订版）",
+      "editionLabel": "2022课标修订版",
+      "supersedes": "g3down",
+      "unitsCount": 7,
+      "activitiesCount": 1,
+      "lessonsCount": 38
     },
     {
       "id": "g4down",
@@ -292,12 +411,29 @@
       "gradeName": "五年级",
       "semesterName": "上册",
       "subjectName": "语文",
-      "textbookName": "五年级上册",
-      "fullName": "统编版小学语文五年级上册",
+      "textbookName": "五年级上册（旧版）",
+      "fullName": "统编版小学语文五年级上册（旧版）",
       "unitsCount": 8,
       "lessonsCount": 51,
       "hasPassages": true,
-      "hasStories": true
+      "hasStories": true,
+      "supersededBy": "chinese-g5up-2026"
+    },
+    {
+      "id": "chinese-g5up-2026",
+      "grade": 5,
+      "semester": "up",
+      "subject": "chinese",
+      "gradeName": "五年级",
+      "semesterName": "上册",
+      "subjectName": "语文",
+      "textbookName": "五年级上册（2026秋版）",
+      "fullName": "统编版小学语文五年级上册（2026秋版）",
+      "editionLabel": "2026秋版",
+      "supersedes": "chinese-g5up",
+      "unitsCount": 8,
+      "lessonsCount": 36,
+      "hasPassages": true
     },
     {
       "id": "chinese-g6up",
@@ -714,7 +850,7 @@
       "lessonsCount": 36
     }
   ],
-  "generatedAt": "2026-10-24T17:03:34.588Z",
-  "totalLessons": 2537,
-  "totalQuestions": 16203
+  "generatedAt": "2026-10-25T16:22:21.723Z",
+  "totalLessons": 2863,
+  "totalQuestions": 18159
 }

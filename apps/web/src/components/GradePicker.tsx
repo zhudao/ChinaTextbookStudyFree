@@ -84,7 +84,7 @@ export function GradePicker() {
                 className={cn(
                   "option-card flex items-center gap-3 px-4 py-3 rounded-2xl border-2 text-left transition-colors select-none",
                   selected
-                    ? "border-secondary bg-secondary/10"
+                    ? "option-card-selected"
                     : "border-bg-softer bg-white hover:border-secondary/40"
                 )}
                 style={{

@@ -129,5 +129,123 @@
       "id": 64
     },
     "reason": "Remove an empty placeholder option from a text-input question; all question text, answers, explanations and IDs are retained."
+  },
+  {
+    "lesson_id": "g6down-u5-kp3",
+    "source": "output/math/quizzes/义务教育教科书·数学六年级下册_unit5.json",
+    "field": "knowledge.key_formula",
+    "previous_content_sha256": "13cddfd7ff950859364d5fa2ccb5cb6ad0c3f6d3b959449657e21a6185d7593d",
+    "approved_content_sha256": "9864949c6cee36d1c7cc9bd118db64da99a1767db3d60e3758045281a8380097",
+    "before": "最䄀物䄓数 = 成倴数 \u0007 (脳刑数 - 1) + 1",
+    "after": "要保证某个抽屉至少有 n 个物体，物体总数至少为 $m \\times (n - 1) + 1$，其中 m 是抽屉数，m、n 都是正整数。",
+    "reason": "Replace corrupted characters with the generalized pigeonhole formula and define positive integer variables; m(n-1) objects can avoid n in one drawer, but one more object cannot."
+  },
+  {
+    "lesson_id": "g6down-u5-kp2",
+    "source": "output/math/quizzes/义务教育教科书·数学六年级下册_unit5.json",
+    "field": "knowledge.key_formula",
+    "previous_content_sha256": "077facbd33ba07bf0d9fd348586395aa87b3614168f709837029fc62cdbbf022",
+    "approved_content_sha256": "6ea9c43965bee0f63208a29cd5209eb8ba0c93584f56b80073cb7b1e65316773",
+    "before": "至少数 = 商 + 1 (有䅙数敂)",
+    "after": "有余数时，总有一个抽屉至少有（商 + 1）个物体；整除时，总有一个抽屉至少有商那么多个物体。",
+    "reason": "Replace corrupt Chinese characters in the division-based pigeonhole formula; distinguish nonzero-remainder and exact-division cases. Questions, answers and IDs unchanged."
+  },
+  {
+    "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit8.json",
+    "lesson_id": "g5up-u8-kp1",
+    "section": "unit_test",
+    "question_id": 22,
+    "before": {
+      "id": 22,
+      "type": "calculation",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "小数乘除法综合应用",
+      "question": "$0.5 \times 40 = ?$",
+      "options": [],
+      "answer": "20",
+      "explanation": "$0.5 \times 40 = \frac{1}{2} \times 40 = 20$。验算：$20 \times 0.5 = 40$ ✓。"
+    },
+    "after": {
+      "id": 22,
+      "type": "calculation",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "小数乘除法综合应用",
+      "question": "$0.5 \times 40 = ?$",
+      "options": [],
+      "answer": "20",
+      "explanation": "$0.5 \\times 40 = \\frac{1}{2} \\times 40 = 20$。验算：$20 \\div 0.5 = 40$。"
+    },
+    "reason": "Correct inverse verification: 20 divided by 0.5 equals 40; multiplying by 0.5 does not."
+  },
+  {
+    "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit4.json",
+    "lesson_id": "g2down-u4-exam",
+    "section": "exam",
+    "question_id": 2,
+    "before": {
+      "id": 2,
+      "type": "true_false",
+      "score": 2,
+      "difficulty": 1,
+      "knowledge_point": "用7、8、9的乘法口诀求商",
+      "question": "$1 \times 1$ 的商和 $1 \bdiv 1$ 的积相等。",
+      "options": [],
+      "answer": "对",
+      "explanation": "$1 \times 1 = 1$，$1 \bdiv 1 = 1$。结果相等。"
+    },
+    "after": {
+      "id": 2,
+      "type": "true_false",
+      "score": 2,
+      "difficulty": 1,
+      "knowledge_point": "用7、8、9的乘法口诀求商",
+      "question": "$1 \\times 1$ 的积和 $1 \\div 1$ 的商相等。",
+      "options": [],
+      "answer": "对",
+      "explanation": "$1 \\times 1 = 1$，$1 \\div 1 = 1$，所以积和商相等。"
+    },
+    "reason": "Use product for multiplication and quotient for division; both results remain 1 and the true/false answer stays true."
+  },
+  {
+    "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit1.json",
+    "lesson_id": "g4up-u1-kp1",
+    "section": "unit_test",
+    "question_id": 15,
+    "before": {
+      "answer": "十万位",
+      "difficulty": 2,
+      "explanation": "从个位起向左数，个位是第一位，十位是第二位，百位是第三位，千位是第四位，万位是第五位，十万位是第六位。数560000中，数字6在右起第六位，所以它在十万位上。",
+      "knowledge_point": "亿以内数的计数单位与数位顺序",
+      "options": [
+        "万位",
+        "十万位",
+        "百万位",
+        "千万位"
+      ],
+      "question": "在数560000中，数字6所在的数位是（ ）。",
+      "score": 5,
+      "type": "choice",
+      "id": 15
+    },
+    "after": {
+      "answer": "万位",
+      "difficulty": 2,
+      "explanation": "在560000中，从右向左依次数，数字6在第五位，即万位，表示6个万（60000）。十万位上的数字是5。",
+      "knowledge_point": "亿以内数的计数单位与数位顺序",
+      "options": [
+        "万位",
+        "十万位",
+        "百万位",
+        "千万位"
+      ],
+      "question": "在数560000中，数字6所在的数位是（ ）。",
+      "score": 5,
+      "type": "choice",
+      "id": 15
+    },
+    "reason": "Independent place-value check: in 560000 the digit 6 is fifth from the right (万位); 5 is sixth (十万位). Correct current grading and explanation without regrading historical completions.",
+    "teacher_review": "pending"
   }
 ]

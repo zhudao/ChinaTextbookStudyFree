@@ -1,0 +1,2616 @@
+{
+  "scope": "137 priority lessons; historical model approval is not teacher signoff; this queue is not the full 2863-lesson catalogue",
+  "lessons": [
+    {
+      "book_id": "chinese-g1up",
+      "lesson_id": "chinese-g1up-u4-kp3",
+      "title": "整体认读音节应用",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/chinese-g1up/chinese-g1up-u4-kp3/",
+      "question_ids": [
+        2,
+        5,
+        8,
+        14,
+        21,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "2014352b834f9e8e9382b30cfb3908689f5530b58516cb17c087439b1ed6c627",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "chinese-g1up",
+      "lesson_id": "chinese-g1up-u4-kp4",
+      "title": "汉语拼音综合应用",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/chinese-g1up/chinese-g1up-u4-kp4/",
+      "question_ids": [
+        22,
+        23,
+        25,
+        26,
+        27,
+        28
+      ],
+      "question_count": 6,
+      "content_sha256": "a398bb2f4c27065b2ff248aad326891a9bcd1dc331b9a01bd7ca807eb2274837",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp10",
+      "title": "询问姓名",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp10/",
+      "question_ids": [
+        10,
+        18,
+        22,
+        45,
+        46,
+        47
+      ],
+      "question_count": 6,
+      "content_sha256": "3e16d9e262a9d6451d82f2f5d5616a32e3a98a094b2caa49d4cb368bdabdf643",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp11",
+      "title": "人名书写",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp11/",
+      "question_ids": [
+        11,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "question_count": 6,
+      "content_sha256": "02794645a546bf0ad836ce3b78555b07d64e76857ec3883d65d7390ade066ebd",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp12",
+      "title": "情景交际",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp12/",
+      "question_ids": [
+        13,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "question_count": 6,
+      "content_sha256": "58aae9f1ef9cd894f6ee4bceaeecd5db50506d2d3814f37deb5bceab4682758d",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp13",
+      "title": "指令语",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp13/",
+      "question_ids": [
+        14,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "question_count": 6,
+      "content_sha256": "9732e9ecc76053192be946074cbb1994387d17f0b125a9afbf20ca8ab82800d4",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp14",
+      "title": "综合运用",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp14/",
+      "question_ids": [
+        15,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "question_count": 6,
+      "content_sha256": "df455476b77c5c117e89d2e8048c351c9bd23ad755497cef115e844139cefe6a",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp15",
+      "title": "持有表达",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp15/",
+      "question_ids": [
+        16,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "question_count": 6,
+      "content_sha256": "618eff58f485ebdfc4304dbd8529269145401bb7a5252d8bf4fe0cb6ffb8cd9a",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp4",
+      "title": "见面问候",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp4/",
+      "question_ids": [
+        1,
+        2,
+        21,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "81fa8bc8f254421f2aa395ef1223523bcb3bc575a20567d8437918a5c37c7795",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp5",
+      "title": "词汇识记",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp5/",
+      "question_ids": [
+        3,
+        8,
+        12,
+        20,
+        27,
+        28
+      ],
+      "question_count": 6,
+      "content_sha256": "371da4015606f5241a73e44ac542e0233e5cf90c705529ea169b00f2667f13b3",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp6",
+      "title": "物品持有表达",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp6/",
+      "question_ids": [
+        4,
+        7,
+        23,
+        29,
+        30,
+        31
+      ],
+      "question_count": 6,
+      "content_sha256": "11c42b9420024899160c6ae07ebcb0960a2266b2f53d8e526881651c015c682d",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp7",
+      "title": "离别语",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp7/",
+      "question_ids": [
+        5,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "question_count": 6,
+      "content_sha256": "d8d2f46e0c45a910f9761ebc9b1d73b504921cae0673ebd8f0db04e33875d0f6",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp8",
+      "title": "自我介绍",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp8/",
+      "question_ids": [
+        6,
+        19,
+        37,
+        38,
+        39,
+        40
+      ],
+      "question_count": 6,
+      "content_sha256": "7cba85b953791471517df91ecdf272628bd834e3f707218f82c5c281c1966ed6",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "english-g3up",
+      "lesson_id": "english-g3up-u1-kp9",
+      "title": "冠词用法",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp9/",
+      "question_ids": [
+        9,
+        17,
+        41,
+        42,
+        43,
+        44
+      ],
+      "question_count": 6,
+      "content_sha256": "4c0c2a1de1e89ce07ba90fb0abbe9d31b37254421295db609932eadb8d914929",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1down",
+      "lesson_id": "g1down-u2-kp2",
+      "title": "十几减5、4、3、2的推导计算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1down/g1down-u2-kp2/",
+      "question_ids": [
+        2,
+        8,
+        13,
+        17,
+        23,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "29f13f0582d1b78e9fa82fe06181737c2f70a525d0db004c0eb230054f9c839f",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1down",
+      "lesson_id": "g1down-u4-kp2",
+      "title": "数的读法、写法与位值意义",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1down/g1down-u4-kp2/",
+      "question_ids": [
+        2,
+        4,
+        8,
+        16,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "adb92dddaf25ae2c275330a3a5995a0e332a7b7c95b77e39488b174d823510ea",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1down",
+      "lesson_id": "g1down-u6-kp3",
+      "title": "含小括号的混合运算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1down/g1down-u6-kp3/",
+      "question_ids": [
+        4,
+        5,
+        10,
+        15,
+        18,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "eab637d450e2b23ad636e245d01579f3a4671768156e4c3bb8e3459bcdc78c85",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1down",
+      "lesson_id": "g1down-u7-kp3",
+      "title": "规律的分析与补全",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1down/g1down-u7-kp3/",
+      "question_ids": [
+        4,
+        11,
+        14,
+        17,
+        20,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "daaf1993eab1b0c234868a0d09aa542a2e15188615290629ebc8cd0bc57b0652",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1down",
+      "lesson_id": "g1down-u8-kp3",
+      "title": "复杂情境下的综合应用题解决",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1down/g1down-u8-kp3/",
+      "question_ids": [
+        12,
+        13,
+        17,
+        21,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "57ec3bcbd256f7551862a70910f7ed1cf49d813b16f6f0e86a15449790cc3bf8",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u1-kp1",
+      "title": "数一数，认一认",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u1-kp1/",
+      "question_ids": [
+        1001,
+        1002,
+        1003,
+        1004,
+        1005,
+        1006
+      ],
+      "question_count": 6,
+      "content_sha256": "191ba7454ae2a0232507375603b7a08bec11a3e097ee06c7b52af1eeec669013",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u1-kp2",
+      "title": "配一配，比多少",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u1-kp2/",
+      "question_ids": [
+        1101,
+        1102,
+        1103,
+        1104,
+        1105,
+        1106
+      ],
+      "question_count": 6,
+      "content_sha256": "230ee03624737d075e8e86029e7c50c641015e6fb56033936beafe2dd8fd07c3",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u3-kp1",
+      "title": "1~5的基数与序数含义",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp1/",
+      "question_ids": [
+        1,
+        6,
+        12,
+        20,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "f8d5e3a961e2abf112ffec71d2f051fa86cb5934d6d54a1c82349e8b1744c96a",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u3-kp2",
+      "title": "通过符号(=、>、<)比较大小",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp2/",
+      "question_ids": [
+        3,
+        7,
+        16,
+        26,
+        27,
+        28
+      ],
+      "question_count": 6,
+      "content_sha256": "a721459f3dec1a8abffcb0307e0a311fba1c271559d738942d08e5ac7f41c3df",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u3-kp3",
+      "title": "5以内数的分与合",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp3/",
+      "question_ids": [
+        4,
+        8,
+        17,
+        19,
+        29,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "ceec728f8bb2eae0b523fcd81b3eaad2054c407f0118d2834138a71bb2c34c10",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u3-kp4",
+      "title": "加法的初步认识",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp4/",
+      "question_ids": [
+        9,
+        13,
+        18,
+        21,
+        31,
+        32
+      ],
+      "question_count": 6,
+      "content_sha256": "02dca72ce0ab6a65f5e56a06124c6e60e759dc6506c908ddad5551438627b05d",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u3-kp5",
+      "title": "减法的初步认识",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp5/",
+      "question_ids": [
+        5,
+        10,
+        14,
+        22,
+        33,
+        34
+      ],
+      "question_count": 6,
+      "content_sha256": "6a435623096b6d6d2ade8ff8b5609752f0e186623c854974d2bba85ca0abe8f1",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u3-kp6",
+      "title": "0的认识与相关加减法",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp6/",
+      "question_ids": [
+        2,
+        11,
+        15,
+        23,
+        35,
+        36
+      ],
+      "question_count": 6,
+      "content_sha256": "2803568237d8091f441bbf095af94db7a050f9bcf1dc5012b10e9735b16751e6",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u5-kp3",
+      "title": "连加、连减运算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u5-kp3/",
+      "question_ids": [
+        4,
+        11,
+        23,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "a856d1ac2219c93ec98a7cfa4e302e0975323e172190f701754e94e01acde442",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u5-kp4",
+      "title": "加减混合运算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u5-kp4/",
+      "question_ids": [
+        12,
+        17,
+        27,
+        28,
+        29,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "53f32f1a8d4240dc939db266110a01b05a073b59e1d93aca4d3ff14495ae36c0",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u5-kp5",
+      "title": "解决问题（原来有多少）",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u5-kp5/",
+      "question_ids": [
+        13,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "question_count": 6,
+      "content_sha256": "026c3e509144da9f448a8506073edae5199712ea8ed84e83fb9c4cf54eb121db",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u6-kp1",
+      "title": "计数单位“十”与数位认识",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u6-kp1/",
+      "question_ids": [
+        2,
+        4,
+        7,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "564084d984d1d8ab3d757d455d92e40f3a4f78a891e903b6fe19c2ef4f3ae511",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u7-kp3",
+      "title": "作息时间的先后逻辑",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u7-kp3/",
+      "question_ids": [
+        4,
+        9,
+        10,
+        16,
+        21,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "75e25b2f433f9638e150e54b2a75e8fa2e43019fcbfcd86950e823a962950630",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u8-kp1",
+      "title": "凑十法的算法与应用",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u8-kp1/",
+      "question_ids": [
+        1,
+        11,
+        18,
+        20,
+        23,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "027c4d2312b172ee81f4a22b8ccca0eee89b9500344fcc1c7090fa57f55b1d56",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u8-kp3",
+      "title": "5、4、3、2加几（交换法）",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u8-kp3/",
+      "question_ids": [
+        3,
+        9,
+        14,
+        21,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "ab3067ee5a0f2027d76e5886c0990d8edeacd042323e1e1bb868ccdf907267e4",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u9-kp2",
+      "title": "图形与时间的综合回顾",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u9-kp2/",
+      "question_ids": [
+        2,
+        5,
+        9,
+        10,
+        14,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "60368ded06b1f916552d43f1632ca6577254fbc587195f693cce4fa741152ec5",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g1up",
+      "lesson_id": "g1up-u9-kp3",
+      "title": "多步实际问题的解决",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u9-kp3/",
+      "question_ids": [
+        4,
+        11,
+        17,
+        20,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "534b9e5725b93c6a0c53dc6cd565d42315a6d609377d72ba50ab214ec126e1af",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u1-kp1",
+      "title": "收集数据的方法",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u1-kp1/",
+      "question_ids": [
+        1,
+        4,
+        9,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "a54663a4fc69961033984579796c236f122316993756ae751870f2fc12656a8a",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u1-kp2",
+      "title": "记录数据的方法（“正”字记录法）",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u1-kp2/",
+      "question_ids": [
+        2,
+        5,
+        7,
+        11,
+        19,
+        27
+      ],
+      "question_count": 6,
+      "content_sha256": "59cc70d5b61179f9197737bb40ac2855189003c6b9053861a2d7e9fc0417aa16",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u1-kp4",
+      "title": "统计表的制作_与分析",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u1-kp4/",
+      "question_ids": [
+        22,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "question_count": 6,
+      "content_sha256": "7c13c88883e2231f1dd410bff1b1e9823988049650293793b15ae53f26717a1f",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u2-kp1",
+      "title": "平均分的含义与判断",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u2-kp1/",
+      "question_ids": [
+        1,
+        5,
+        6,
+        12,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "c99ff3d82958dd1f343746bb082c86bae59d1f6ae204405df72b562acb0911e4",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u2-kp2",
+      "title": "除法算式的意义与读写",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u2-kp2/",
+      "question_ids": [
+        2,
+        7,
+        10,
+        13,
+        19,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "511b84d977419974d55788445f26a87e26426e962b5e86c751a085a57e35b3c5",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u2-kp3",
+      "title": "除法各部分名称",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u2-kp3/",
+      "question_ids": [
+        3,
+        8,
+        15,
+        17,
+        27,
+        28
+      ],
+      "question_count": 6,
+      "content_sha256": "21cbd6099f959f4fcccbf8c5a3847cfb7611c1e1c9c572ec1036d6eb84de4ebf",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u3-kp3",
+      "title": "旋转现象的辨析",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u3-kp3/",
+      "question_ids": [
+        3,
+        8,
+        12,
+        15,
+        23,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "2501337c447992cee299fdd233df87575f1ed7ca32c6e743c114b79a8c6259f8",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u4-kp3",
+      "title": "除法算式的规律整理",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u4-kp3/",
+      "question_ids": [
+        2,
+        5,
+        13,
+        16,
+        21,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "cf84e408d2e415321fe39d78474cd30cc6a778c9b6b1fc263b635d70623390ec",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u5-kp3",
+      "title": "带有小括号的混合运算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u5-kp3/",
+      "question_ids": [
+        3,
+        8,
+        11,
+        15,
+        21,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "b5f7f9ae880b85ecc8ca14845cb6878e46609298d70c0edb2f9ff740764a33f0",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u5-kp4",
+      "title": "解决两步计算的实际问题",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u5-kp4/",
+      "question_ids": [
+        5,
+        12,
+        16,
+        17,
+        19,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "987e64989ab6b725134ac5ebbfec8dbeb3cf0ec39ed6a16ea9fb7940dc7762b2",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u7-kp1",
+      "title": "计数单位与十进制概念",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u7-kp1/",
+      "question_ids": [
+        1,
+        7,
+        15,
+        19,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "b89428bd7de188ddaa9db422609fcc275aa902bb716cbf27b058a3193d17d0da",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u7-kp2",
+      "title": "万以内数的读写规则",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u7-kp2/",
+      "question_ids": [
+        2,
+        8,
+        9,
+        13,
+        17,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "84d9583b3d7906c501e6eb2487c33884bbf1eca5026b1b309a144a767b4815b2",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u7-kp3",
+      "title": "数位顺序表与数位意义",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u7-kp3/",
+      "question_ids": [
+        3,
+        6,
+        12,
+        18,
+        20,
+        27
+      ],
+      "question_count": 6,
+      "content_sha256": "36d945242d587a5fda9a13f53c2a5dfc33089935cf09358a3189286fbea96bb6",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u7-kp4",
+      "title": "近似数与估算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u7-kp4/",
+      "question_ids": [
+        4,
+        10,
+        14,
+        28,
+        29,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "4797a8965bd116aabfcf0e62073bf6e51f7a1668937616359803b7c3852990b3",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u8-kp2",
+      "title": "质量单位“千克”的认识",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u8-kp2/",
+      "question_ids": [
+        2,
+        7,
+        11,
+        18,
+        21,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "275fdb8e345c27ee49240c703f2fde0569e171a1b93d211db4f910fe417fa3dd",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u9-kp2",
+      "title": "列表法与对应关系",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u9-kp2/",
+      "question_ids": [
+        9,
+        16,
+        24,
+        25,
+        26,
+        27
+      ],
+      "question_count": 6,
+      "content_sha256": "55b7689ff192dfcf1a529cefeb27f36661ee78d6a6498be9bd4fe46ed968e4a9",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2down",
+      "lesson_id": "g2down-u9-kp3",
+      "title": "行列约束推理（数独初步）",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u9-kp3/",
+      "question_ids": [
+        3,
+        12,
+        17,
+        21,
+        28,
+        29
+      ],
+      "question_count": 6,
+      "content_sha256": "856bf094daf131035a0f0707f2076993df222f1d3a073d36b390a96f5edcdad1",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2up",
+      "lesson_id": "g2up-u2-kp3",
+      "title": "连加、连减与加减混合运算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u2-kp3/",
+      "question_ids": [
+        10,
+        15,
+        18,
+        21,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "6a771aa3fbaad101a35c7994ead755dfdd2fdfa2f80a8801f41029fb0a9e30b0",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2up",
+      "lesson_id": "g2up-u2-kp4",
+      "title": "含小括号的加减混合运算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u2-kp4/",
+      "question_ids": [
+        3,
+        11,
+        26,
+        27,
+        28,
+        29
+      ],
+      "question_count": 6,
+      "content_sha256": "da65e545865931e8176c637a2abdcdff8d68b434290b977e042a0588b88dd5b0",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2up",
+      "lesson_id": "g2up-u2-kp5",
+      "title": "解决问题：求比一个数多（或少）几的数",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u2-kp5/",
+      "question_ids": [
+        5,
+        12,
+        13,
+        17,
+        30,
+        31
+      ],
+      "question_count": 6,
+      "content_sha256": "54c6960abb8adb1d8c66f74b9dda4c53eeb0bd6a944e7f5014ccaa2769bf39cb",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2up",
+      "lesson_id": "g2up-u4-kp1",
+      "title": "乘法的初步认识",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u4-kp1/",
+      "question_ids": [
+        1,
+        3,
+        6,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "eb8c8b48e440d9906f6698ca1b5c9dce6511724a5a8ea8a9efbb5f5f242c5860",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2up",
+      "lesson_id": "g2up-u5-kp1",
+      "title": "从不同位置观察物体",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u5-kp1/",
+      "question_ids": [
+        1,
+        5,
+        6,
+        12,
+        15,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "58cb740d5a1f3f55182b8c10d6b47367ae15316715a7f720a0c4fcdf5a7ba88c",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2up",
+      "lesson_id": "g2up-u5-kp3",
+      "title": "空间观念建立",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u5-kp3/",
+      "question_ids": [
+        9,
+        11,
+        14,
+        17,
+        21,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "1640c97de9d19da6cd81ffe0cf665be99555c7b3e4e4867614855bcd1799ee97",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g2up",
+      "lesson_id": "g2up-u6-kp3",
+      "title": "多步乘法应用题：解决问题",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u6-kp3/",
+      "question_ids": [
+        5,
+        12,
+        13,
+        14,
+        20,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "9b1b5793c294ac31e62ce447e48d6921d96d249849ef4b21468837e1cd381f6c",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u1-kp2",
+      "title": "地图上的方位识别",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u1-kp2/",
+      "question_ids": [
+        3,
+        7,
+        13,
+        17,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "e42e8e1f557538f7d95760317c26032537515d92bc2ceb21c2ea77ffb40a59f4",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u1-kp3",
+      "title": "认识东北、东南、西北、西南",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u1-kp3/",
+      "question_ids": [
+        4,
+        5,
+        10,
+        16,
+        18,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "9eafa3e450ea197a33c8084c7d2263f56991a1a8ae4c8beb8fe107c55d9751f4",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u1-kp4",
+      "title": "简单行走路线的描述",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u1-kp4/",
+      "question_ids": [
+        11,
+        15,
+        27,
+        28,
+        29,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "fd870fa5c996593502be9fa0e98d39c0df56d9c68fc62cbca51a63cd0faeea46",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u2-kp1",
+      "title": "口算除法",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u2-kp1/",
+      "question_ids": [
+        1,
+        6,
+        12,
+        17,
+        19,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "42f939cb09dfdab20094dac79da7c3babfe964dd2191e478cbbf40543879211a",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u2-kp2",
+      "title": "除法估算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u2-kp2/",
+      "question_ids": [
+        8,
+        14,
+        25,
+        26,
+        27,
+        28
+      ],
+      "question_count": 6,
+      "content_sha256": "dec394c44ae61744b8cb65c32738a608aba0851748d9d5e926ded2cefb971bc4",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u2-kp4",
+      "title": "除法的验算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u2-kp4/",
+      "question_ids": [
+        4,
+        10,
+        29,
+        30,
+        31,
+        32
+      ],
+      "question_count": 6,
+      "content_sha256": "01ea46c33722a59d7b37175f7f6df2cde807c3e72190ba0fe9ae9420e905360b",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u2-kp5",
+      "title": "商中间或末尾有0的除法",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u2-kp5/",
+      "question_ids": [
+        3,
+        9,
+        13,
+        18,
+        23,
+        33
+      ],
+      "question_count": 6,
+      "content_sha256": "f6d3455a0a9ab6f21dc63b0b468667d8c55d03c7c251faddbc08f44ee5c6da59",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u4-kp3",
+      "title": "解决两步计算的应用题",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u4-kp3/",
+      "question_ids": [
+        5,
+        10,
+        13,
+        17,
+        21,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "8a3a05308716d60397a2d609a87001fc7d2c98984c181fcb8255a17e5e4f4f36",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u5-kp1",
+      "title": "面积的含义与比较",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u5-kp1/",
+      "question_ids": [
+        1,
+        7,
+        15,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "776d3d3178628b8c3a4b4e77a9e18a86167eac150d2ee5dfb477d82a0b957524",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u5-kp2",
+      "title": "认识面积单位",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u5-kp2/",
+      "question_ids": [
+        2,
+        6,
+        10,
+        18,
+        27,
+        28
+      ],
+      "question_count": 6,
+      "content_sha256": "67ec8e7b71e561467b6dc4b5f752788c304be763d51cb8f4bcfc2d195489a745",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u5-kp4",
+      "title": "面积单位间的进率与换算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u5-kp4/",
+      "question_ids": [
+        4,
+        9,
+        13,
+        19,
+        29,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "c17f9b46bc6c4abaf6684f7e5275b8ef6dc934fa0e84b2edd33f7d36d008cf9f",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u5-kp5",
+      "title": "面积与周长的对比应用",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u5-kp5/",
+      "question_ids": [
+        5,
+        12,
+        16,
+        17,
+        21,
+        31
+      ],
+      "question_count": 6,
+      "content_sha256": "07e5458e2f1f529c39ed40577b8d78988e77902c32bf0136de9f2563262f9081",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u6-kp2",
+      "title": "24时计时法与普通计时法",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u6-kp2/",
+      "question_ids": [
+        3,
+        8,
+        9,
+        12,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "3a23633ace26f46f5a791a0f477df181bbbac32ef52a0206c3c2a0f8f0223dd0",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3down",
+      "lesson_id": "g3down-u7-kp2",
+      "title": "小数的大小比较",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u7-kp2/",
+      "question_ids": [
+        3,
+        9,
+        11,
+        15,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "12d3a116ff6671a7fd218662f77b9d0565b8f6d1fbf273e17a82da3891075084",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3up",
+      "lesson_id": "g3up-u10-kp2",
+      "title": "图形与几何综合应用",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u10-kp2/",
+      "question_ids": [
+        1,
+        4,
+        6,
+        10,
+        13,
+        16,
+        19
+      ],
+      "question_count": 7,
+      "content_sha256": "f215533d7d30fabce174954d63853e4f408b9bfeeabbf22e4a06ccf8273ec1fa",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3up",
+      "lesson_id": "g3up-u10-kp3",
+      "title": "逆向思维与逻辑推导",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u10-kp3/",
+      "question_ids": [
+        17,
+        18,
+        21,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "d964d8f890af49df87d1db3d04143d9932428702d6223af87807a975b6f4079d",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3up",
+      "lesson_id": "g3up-u2-kp3",
+      "title": "用估算解决实际问题",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u2-kp3/",
+      "question_ids": [
+        3,
+        10,
+        14,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "10e5b2f0550ee91fa6490eedce78ab152e77806f448b5b5f8779727881872c51",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3up",
+      "lesson_id": "g3up-u4-kp3",
+      "title": "解决问题策略的选择",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u4-kp3/",
+      "question_ids": [
+        5,
+        8,
+        17,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "705868a81da764874e989f55ae26f3ff6aa236a7ed23fb9336773aaa0df42b03",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3up",
+      "lesson_id": "g3up-u6-kp1",
+      "title": "口算乘法与算理转化",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u6-kp1/",
+      "question_ids": [
+        1,
+        6,
+        7,
+        15,
+        19,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "93969f07be9e9b234128dde3a207f9bdc84a0fd10b433975a188e2413f948c3d",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3up",
+      "lesson_id": "g3up-u6-kp3",
+      "title": "乘数中间或末尾有0的乘法",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u6-kp3/",
+      "question_ids": [
+        2,
+        3,
+        11,
+        12,
+        23,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "98174152d1d18370ab6c409928643357d3b665b85af981b5bb1fd794553793e5",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3up",
+      "lesson_id": "g3up-u6-kp4",
+      "title": "乘法估算与归一问题解决",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u6-kp4/",
+      "question_ids": [
+        13,
+        14,
+        16,
+        17,
+        21,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "0fb91ddbab9ac09b338872b1aa1bb86939a8a83bb0e75c318de5ed3bcb50f411",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3up",
+      "lesson_id": "g3up-u7-kp3",
+      "title": "拼图周长的变化规律",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u7-kp3/",
+      "question_ids": [
+        4,
+        15,
+        18,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "7970cea615b48ad611a5fd69f9509a1eed754cc120269c2196a58396d444b5c4",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g3up",
+      "lesson_id": "g3up-u8-kp2",
+      "title": "分数的大小比较",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u8-kp2/",
+      "question_ids": [
+        3,
+        7,
+        8,
+        12,
+        15,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "9c3209149e4ec7fa00b2f4984696b407457ba76f1e4880fcc6ffb341aec6f190",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g4up",
+      "lesson_id": "g4up-u1-kp1",
+      "title": "亿以内数的计数单位与数位顺序",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u1-kp1/",
+      "question_ids": [
+        1,
+        6,
+        11,
+        15,
+        19,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "8ffffc8660e875240e89305678540a88d1d17735de96b3d6a45dffefea41d73c",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g4up",
+      "lesson_id": "g4up-u1-kp2",
+      "title": "亿以内数的读法与写法",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u1-kp2/",
+      "question_ids": [
+        2,
+        7,
+        12,
+        16,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "c769f43b861bddb50513b9d571adf8b694aa7ebfa1c64aa6c5d7de1f914cdd42",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g4up",
+      "lesson_id": "g4up-u1-kp3",
+      "title": "大数的大小比较与改写",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u1-kp3/",
+      "question_ids": [
+        3,
+        8,
+        13,
+        17,
+        20,
+        27
+      ],
+      "question_count": 6,
+      "content_sha256": "e8dff05e1975bba2a32bd51a109f82ade5c4bf0d1f80ef8d55e043ab1b98fb52",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g4up",
+      "lesson_id": "g4up-u1-kp4",
+      "title": "近似数与“四舍五入”法",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u1-kp4/",
+      "question_ids": [
+        4,
+        9,
+        14,
+        18,
+        21,
+        28
+      ],
+      "question_count": 6,
+      "content_sha256": "3817a0ade121e75c32be99f35f921ba862386c1166625f8491f11a5b88c6389b",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g4up",
+      "lesson_id": "g4up-u1-kp5",
+      "title": "进位制与计算工具的认识",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u1-kp5/",
+      "question_ids": [
+        5,
+        10,
+        22,
+        23,
+        29,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "73414cbee498ffdb522fdcf80f15c21d5944d5d7ab2b7fddca23cfd380c0df49",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g4up",
+      "lesson_id": "g4up-u3-kp1",
+      "title": "线段、直线、射线",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u3-kp1/",
+      "question_ids": [
+        1,
+        2,
+        6,
+        7,
+        19,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "fc936d28725c255d0e6bc4f024e9cb3dc4b1cf62b57e7ddb473946398d2ffc01",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g4up",
+      "lesson_id": "g4up-u3-kp2",
+      "title": "角的认识与度量",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u3-kp2/",
+      "question_ids": [
+        3,
+        8,
+        9,
+        15,
+        16,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "c5f07e00304b0a5cbfc9b56f3fc50bcadbe84d488eb14746092650c76f69a0dc",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g4up",
+      "lesson_id": "g4up-u3-kp4",
+      "title": "角的角度计算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u3-kp4/",
+      "question_ids": [
+        18,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "ea5d4490ed432b33a66eb6787c42520ee33fe8993de09b52db9a68fbd92ae8cf",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g4up",
+      "lesson_id": "g4up-u4-kp2",
+      "title": "积的变化规律",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u4-kp2/",
+      "question_ids": [
+        2,
+        9,
+        13,
+        16,
+        21,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "2c5175e3298673b54c3cd9d3f0e5d2ec267dc25a527c70172181ec1ca0f38028",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g4up",
+      "lesson_id": "g4up-u9-kp1",
+      "title": "数与代数综合复习",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u9-kp1/",
+      "question_ids": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        14,
+        17,
+        19,
+        20,
+        22,
+        23
+      ],
+      "question_count": 12,
+      "content_sha256": "051d68c7b63206085dfd862e4d119b8923cf352c0e06ed7f8f20bf6357293556",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g4up",
+      "lesson_id": "g4up-u9-kp3",
+      "title": "综合应用与统计复习",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u9-kp3/",
+      "question_ids": [
+        12,
+        13,
+        18,
+        21,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "7f75f04142106be05d0c1be8264465cb696b6eeb779d3c66407c0d4c4afcea71",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5down",
+      "lesson_id": "g5down-u2-kp3",
+      "title": "质数与合数及1的特殊性",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u2-kp3/",
+      "question_ids": [
+        3,
+        9,
+        10,
+        14,
+        18,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "2eac9df1caf01d09a08780689f82302227c320524bce7a6229a40a0a75907dff",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5down",
+      "lesson_id": "g5down-u2-kp4",
+      "title": "数的奇偶性运算规律",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u2-kp4/",
+      "question_ids": [
+        4,
+        11,
+        17,
+        21,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "fd75740b153abe9ba607a9efc595f7685d6750fe4a513c6a58515ae056a4ea5e",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5down",
+      "lesson_id": "g5down-u4-kp1",
+      "title": "分数的产生、意义与单位“1”",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp1/",
+      "question_ids": [
+        1,
+        6,
+        14,
+        17,
+        23,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "f59b9698ef667d2dadf1c50ed096fc9d989ddc3055429bd85103b8ef572a42e0",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5down",
+      "lesson_id": "g5down-u4-kp2",
+      "title": "分数与除法的关系",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp2/",
+      "question_ids": [
+        7,
+        13,
+        19,
+        25,
+        26,
+        27
+      ],
+      "question_count": 6,
+      "content_sha256": "5ff99aafdf9fc8de24a8446eada5bdf47e76593ee1dc05cc99b71b5da811a3fa",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5down",
+      "lesson_id": "g5down-u4-kp3",
+      "title": "真分数、假分数与带分数",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp3/",
+      "question_ids": [
+        2,
+        8,
+        15,
+        28,
+        29,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "422beaff4c4ea38b0551239968a1514373d47c9bcf26a04403b2636d3bb5699e",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5down",
+      "lesson_id": "g5down-u4-kp4",
+      "title": "分数的基本性质",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp4/",
+      "question_ids": [
+        3,
+        9,
+        31,
+        32,
+        33,
+        34
+      ],
+      "question_count": 6,
+      "content_sha256": "ec3c19c49a164834b5ea2beb50bc8c7efe05af9434c29082576d565b0cd7d6c9",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5down",
+      "lesson_id": "g5down-u4-kp5",
+      "title": "约分与最大公因数",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp5/",
+      "question_ids": [
+        4,
+        10,
+        20,
+        22,
+        35,
+        36
+      ],
+      "question_count": 6,
+      "content_sha256": "35b9b8ce0dc624f917d7201ab9d633eb4eb8d14f2a109a4cc3de3318e74dcbcf",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5down",
+      "lesson_id": "g5down-u4-kp6",
+      "title": "通分与最小公倍数",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp6/",
+      "question_ids": [
+        5,
+        11,
+        16,
+        21,
+        37,
+        38
+      ],
+      "question_count": 6,
+      "content_sha256": "ea791dc255c508b9d9190be1b6276206d982ad65f84fd9e6a5454d6a86b7d0b8",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5down",
+      "lesson_id": "g5down-u4-kp7",
+      "title": "分数和小数的互化",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp7/",
+      "question_ids": [
+        12,
+        18,
+        39,
+        40,
+        41,
+        42
+      ],
+      "question_count": 6,
+      "content_sha256": "6b58d45730a7bbe4e500a471aa0dc82dd46d480a7049dd8ebd8a861d243beefe",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5down",
+      "lesson_id": "g5down-u7-kp3",
+      "title": "统计图的选择与决策分析",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u7-kp3/",
+      "question_ids": [
+        2,
+        6,
+        10,
+        14,
+        18,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "04daa32dd9cff0222d6e7233dc03d575938b2531dad5fa6408ca9d50ed6dc04d",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u1-kp3",
+      "title": "积的近似数与四舍五入",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u1-kp3/",
+      "question_ids": [
+        3,
+        8,
+        15,
+        21,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "107ae5950cc3456dcc8ef89811d9b14eec48d97f5e408d0d82181aee54cb0f88",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u1-kp4",
+      "title": "整数乘法运算律推广到小数",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u1-kp4/",
+      "question_ids": [
+        4,
+        9,
+        14,
+        22,
+        26,
+        27
+      ],
+      "question_count": 6,
+      "content_sha256": "e27168fb25e6dd2b2d19d1780e3009213788c823ce78218237a8f655108dfb73",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u1-kp5",
+      "title": "小数乘法解决问题（估算与分段计费）",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u1-kp5/",
+      "question_ids": [
+        5,
+        11,
+        17,
+        28,
+        29,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "346812387d1dfa60a3115025d6af09dcc982fa460101135c5ed486cd423090c6",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u2-kp3",
+      "title": "图形平移与数对变化规律",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u2-kp3/",
+      "question_ids": [
+        4,
+        12,
+        14,
+        17,
+        21,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "6c68cb179da90d7daf8dc029efd50ad24a526bae32e59e506d90bd2783f666ed",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u3-kp3",
+      "title": "商的近似数（进一法与去尾法）",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u3-kp3/",
+      "question_ids": [
+        5,
+        10,
+        14,
+        20,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "5e6a150a5b2808b6d8eb67637c891f32b4f5be2dda8b419b9d878ec63b939429",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u3-kp4",
+      "title": "循环小数的相关概念",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u3-kp4/",
+      "question_ids": [
+        3,
+        4,
+        9,
+        16,
+        26,
+        27
+      ],
+      "question_count": 6,
+      "content_sha256": "d3b6f571c8cdd35220d2af9cf478fb28f5c62023a022248f58560d7a2edbc420",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u3-kp5",
+      "title": "用计算器探索规律",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u3-kp5/",
+      "question_ids": [
+        12,
+        17,
+        21,
+        28,
+        29,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "6854204e96ac3363cdca780d062ddb9e89be5d26791c7e4cf6d288dee480acd2",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u4-kp3",
+      "title": "可能性的大小应用（设计方案）",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u4-kp3/",
+      "question_ids": [
+        4,
+        12,
+        20,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "b70f643d893606b707f67f5e72ac17e539680cefeeafdc60f56d2657d60f9bb1",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u5-kp2",
+      "title": "方程的意义与等式的性质",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u5-kp2/",
+      "question_ids": [
+        2,
+        3,
+        8,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "6a0cef4ab1572adc67085492acb174de2600fe9d344eefc06e7a69abe7cc5aa3",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u5-kp4",
+      "title": "列方程解决实际问题（ax±b=c类型）",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u5-kp4/",
+      "question_ids": [
+        11,
+        12,
+        18,
+        21,
+        27,
+        28
+      ],
+      "question_count": 6,
+      "content_sha256": "f92a35cefb860fa3fb1adabbcdc6f64045c98f77ebd3623b1e82e51a537923f1",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u5-kp5",
+      "title": "列方程解决稍复杂的实际问题（和倍、行程问题）",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u5-kp5/",
+      "question_ids": [
+        15,
+        16,
+        29,
+        30,
+        31,
+        32
+      ],
+      "question_count": 6,
+      "content_sha256": "18810bad8e756a8cb8d0b9b55e843f69243f5d40a2ffdda19017643771f7fe74",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u6-kp4",
+      "title": "组合图形的面积与不规则图形估算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u6-kp4/",
+      "question_ids": [
+        5,
+        11,
+        15,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "16dfa176bfe688e6dc9a2e40882cae8c0d4170998d4eab54cde2af6646bd0761",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g5up",
+      "lesson_id": "g5up-u7-kp2",
+      "title": "封闭路线的植树规律",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u7-kp2/",
+      "question_ids": [
+        3,
+        8,
+        12,
+        16,
+        20,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "3e3b75b85383a94272dda2a5d4462c4ee4291bf4ed3410376f79c79f6cc9fda9",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6down",
+      "lesson_id": "g6down-u3-kp1",
+      "title": "圆柱与圆锥的特征",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6down/g6down-u3-kp1/",
+      "question_ids": [
+        1,
+        3,
+        6,
+        12,
+        21,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "c2aa751eb61695b573e5582e89f2bde79c1cf88e45ce7e263cde142ca0a073c7",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6down",
+      "lesson_id": "g6down-u3-kp2",
+      "title": "圆柱的表面积",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6down/g6down-u3-kp2/",
+      "question_ids": [
+        4,
+        7,
+        11,
+        15,
+        16,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "ee39f7fa8fe18a6cfbc5085f81453600ac3c34a48ff6f80a3701183aeec040cc",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6down",
+      "lesson_id": "g6down-u6-kp2",
+      "title": "图形与几何的综合运用",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6down/g6down-u6-kp2/",
+      "question_ids": [
+        2,
+        7,
+        11,
+        14,
+        18,
+        20
+      ],
+      "question_count": 6,
+      "content_sha256": "23b8ae4a73440dac7a3d3cc1a584aa2f015a7b68d3d131386460e9ddf1cd6fd5",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6down",
+      "lesson_id": "g6down-u6-kp3",
+      "title": "统计图分析与概率决策",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6down/g6down-u6-kp3/",
+      "question_ids": [
+        3,
+        8,
+        16,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "7f6bed5cc538443089c196f1b236d92946d47c0467c3b6097b694aa0cee12c46",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6down",
+      "lesson_id": "g6down-u6-kp4",
+      "title": "解决问题策略与跨学科实践",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6down/g6down-u6-kp4/",
+      "question_ids": [
+        5,
+        10,
+        13,
+        15,
+        27,
+        28
+      ],
+      "question_count": 6,
+      "content_sha256": "453372afa1041a0b5e310a4eddbe9ba35637754ac85cb8bc4f337a0874885c7e",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6up",
+      "lesson_id": "g6up-u1-kp2",
+      "title": "分数乘分数的计算法则",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u1-kp2/",
+      "question_ids": [
+        2,
+        6,
+        9,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "9a97b76dc4881e26562360410b8f185c887f5ccf475f7a93e89a92c092bc643b",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6up",
+      "lesson_id": "g6up-u1-kp3",
+      "title": "求一个数的几分之几是多少",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u1-kp3/",
+      "question_ids": [
+        7,
+        12,
+        15,
+        20,
+        27,
+        28
+      ],
+      "question_count": 6,
+      "content_sha256": "600638dbed59c57831b32dfb9bfb18cbec29772b28788ba7e089f5eb84ae4231",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6up",
+      "lesson_id": "g6up-u1-kp4",
+      "title": "分数乘法混合运算与简便计算",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u1-kp4/",
+      "question_ids": [
+        3,
+        8,
+        17,
+        18,
+        23,
+        29
+      ],
+      "question_count": 6,
+      "content_sha256": "47c693c169c13ac36be63425c80ddea4cc05f0f9a284fcadd2aa5bf499920be7",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6up",
+      "lesson_id": "g6up-u1-kp5",
+      "title": "比一个数多/少几分之几的问题",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u1-kp5/",
+      "question_ids": [
+        4,
+        11,
+        13,
+        14,
+        21,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "cd4125a2e2d6524b02d54ee8cc744cf5d2bee8ba0706ad1aad61b762b51e793c",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6up",
+      "lesson_id": "g6up-u2-kp3",
+      "title": "观测点的相对性",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u2-kp3/",
+      "question_ids": [
+        3,
+        9,
+        17,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "ae9bac12cc8f2976010981e4357265fd07b5fe8ab3cd8d2826fdfa87ecee9652",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6up",
+      "lesson_id": "g6up-u3-kp4",
+      "title": "工程问题（单位1的假设法）",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u3-kp4/",
+      "question_ids": [
+        5,
+        12,
+        18,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "3f1840e6d17332859c87bcf9772ce97cf8e8528034c9bfa2088fb04d526b570c",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6up",
+      "lesson_id": "g6up-u5-kp4",
+      "title": "扇形的认识与圆心角",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u5-kp4/",
+      "question_ids": [
+        3,
+        8,
+        18,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "80227c826bfdcfc88b25d733b48e060083d9d81903fa3185e77ee1efd4a1cddd",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6up",
+      "lesson_id": "g6up-u6-kp3",
+      "title": "生活中的百分数（利率/折扣）",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u6-kp3/",
+      "question_ids": [
+        5,
+        9,
+        13,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "9c4864e86411f27f5d6b3353475aaf1cf444dc5345a3d7fa8ccd45a8b3b23dae",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6up",
+      "lesson_id": "g6up-u8-kp2",
+      "title": "等比数列求和的思想",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u8-kp2/",
+      "question_ids": [
+        3,
+        10,
+        14,
+        18,
+        24,
+        25
+      ],
+      "question_count": 6,
+      "content_sha256": "723503378fb66dbfc2dc1b416192785528632787d800f01bd0d2cf8e25785ba7",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "g6up",
+      "lesson_id": "g6up-u9-kp2",
+      "title": "几何图形组合复习",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u9-kp2/",
+      "question_ids": [
+        3,
+        8,
+        12,
+        15,
+        19,
+        24
+      ],
+      "question_count": 6,
+      "content_sha256": "b136077a70363c9bb951fddef0a86b57614d1a5f4ec2915fa6ff435010ff7c17",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "science-g1up",
+      "lesson_id": "science-g1up-u1-kp1",
+      "title": "植物的辨别与生命意识",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/science-g1up/science-g1up-u1-kp1/",
+      "question_ids": [
+        1,
+        2,
+        6,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "content_sha256": "de06e60a689fb2a8001a96f64548ab50cf204f00af4321fae967caf065af0a94",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "science-g1up",
+      "lesson_id": "science-g1up-u1-kp2",
+      "title": "观察一棵植物的结构",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/science-g1up/science-g1up-u1-kp2/",
+      "question_ids": [
+        3,
+        7,
+        8,
+        16,
+        19,
+        21,
+        22
+      ],
+      "question_count": 7,
+      "content_sha256": "d8a7b3e7e647bda6812315f8418fd67b32ea63ebef510119d05ba303051f6193",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "science-g1up",
+      "lesson_id": "science-g1up-u1-kp3",
+      "title": "叶的特征与多样性",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/science-g1up/science-g1up-u1-kp3/",
+      "question_ids": [
+        4,
+        9,
+        10,
+        13,
+        23,
+        27
+      ],
+      "question_count": 6,
+      "content_sha256": "62781567284b96a13fe72b13f6a890cd005373ac1b14ef9d2a29631fee3bdee5",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "science-g1up",
+      "lesson_id": "science-g1up-u1-kp4",
+      "title": "根据叶寻找和辨认植物",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/science-g1up/science-g1up-u1-kp4/",
+      "question_ids": [
+        12,
+        14,
+        17,
+        28,
+        29,
+        30
+      ],
+      "question_count": 6,
+      "content_sha256": "b660bb9add9a515756237e4d3145287b55645a1207f88191c2662d92cc6db928",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    },
+    {
+      "book_id": "science-g1up",
+      "lesson_id": "science-g1up-u1-kp5",
+      "title": "植物的生长与变化记录",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/science-g1up/science-g1up-u1-kp5/",
+      "question_ids": [
+        5,
+        11,
+        15,
+        18,
+        20,
+        31
+      ],
+      "question_count": 6,
+      "content_sha256": "c21d10895ab11617b920e1725fc4bb54044fc75789e7b4bbec2cdb4fa4213ff3",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": ""
+    }
+  ]
+}

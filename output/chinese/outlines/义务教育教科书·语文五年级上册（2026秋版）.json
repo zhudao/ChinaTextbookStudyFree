@@ -1,0 +1,421 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书·语文五年级上册（2026秋版）",
+  "edition": "2026",
+  "editionLabel": "2026秋版",
+  "supersedes": "chinese-g5up",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "第一单元·万物有情",
+      "knowledge_points": [
+        {
+          "name": "桂花雨：借事物体会思乡之情",
+          "description": "结合新版教材学习桂花雨：借事物体会思乡之情",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "落花生：借物喻人与做人道理",
+          "description": "结合新版教材学习落花生：借物喻人与做人道理",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "珍珠鸟：描写与信赖",
+          "description": "结合新版教材学习珍珠鸟：描写与信赖",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地一：对比描写与词语多义",
+          "description": "结合新版教材学习语文园地一：对比描写与词语多义",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "习作与交际：心爱之物和班级公约",
+          "description": "结合新版教材学习习作与交际：心爱之物和班级公约",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "第二单元·提高阅读速度",
+      "knowledge_points": [
+        {
+          "name": "冀中的地道战：带着问题阅读",
+          "description": "结合新版教材学习冀中的地道战：带着问题阅读",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "将相和：连词成句与概括情节",
+          "description": "结合新版教材学习将相和：连词成句与概括情节",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "什么比猎豹的速度更快：借助关键词句阅读",
+          "description": "结合新版教材学习什么比猎豹的速度更快：借助关键词句阅读",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "“诺曼底号”遇难记：默读与人物描写",
+          "description": "结合新版教材学习“诺曼底号”遇难记：默读与人物描写",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "习作与园地二：具体事例表现人物",
+          "description": "结合新版教材学习习作与园地二：具体事例表现人物",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "第三单元·民间故事",
+      "knowledge_points": [
+        {
+          "name": "猎人海力布：情节与创造性复述",
+          "description": "结合新版教材学习猎人海力布：情节与创造性复述",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "牛郎织女：人物与故事细节",
+          "description": "结合新版教材学习牛郎织女：人物与故事细节",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "民间故事：丰富情节与故事新编",
+          "description": "结合新版教材学习民间故事：丰富情节与故事新编",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地三：俗语成语与讲故事",
+          "description": "结合新版教材学习语文园地三：俗语成语与讲故事",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "第四单元·家国情怀",
+      "knowledge_points": [
+        {
+          "name": "古诗三首：示儿、题临安邸、己亥杂诗",
+          "description": "结合新版教材学习古诗三首：示儿、题临安邸、己亥杂诗",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "少年中国说：借助资料理解文章",
+          "description": "结合新版教材学习少年中国说：借助资料理解文章",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "圆明园的毁灭：场景与表达",
+          "description": "结合新版教材学习圆明园的毁灭：场景与表达",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "梅兰芳蓄须明志：事件与人物品质",
+          "description": "结合新版教材学习梅兰芳蓄须明志：事件与人物品质",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "习作与园地四：二十年后的家乡",
+          "description": "结合新版教材学习习作与园地四：二十年后的家乡",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "第五单元·介绍一种事物",
+      "knowledge_points": [
+        {
+          "name": "太阳：说明方法与事物特点",
+          "description": "结合新版教材学习太阳：说明方法与事物特点",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "金字塔：整合不同形式的信息",
+          "description": "结合新版教材学习金字塔：整合不同形式的信息",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "习作例文：鲸与风向袋的制作",
+          "description": "结合新版教材学习习作例文：鲸与风向袋的制作",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "习作：有条理地介绍一种事物",
+          "description": "结合新版教材学习习作：有条理地介绍一种事物",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "第六单元·父母之爱",
+      "knowledge_points": [
+        {
+          "name": "慈母情深：场景与细节",
+          "description": "结合新版教材学习慈母情深：场景与细节",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "父爱之舟：难忘的场景",
+          "description": "结合新版教材学习父爱之舟：难忘的场景",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "航天员写给孩子的信：关爱与梦想",
+          "description": "结合新版教材学习航天员写给孩子的信：关爱与梦想",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "习作与交际：我想对您说",
+          "description": "结合新版教材学习习作与交际：我想对您说",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "语文园地六：场景和细节表达感情",
+          "description": "结合新版教材学习语文园地六：场景和细节表达感情",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "第七单元·四时景物皆成趣",
+      "knowledge_points": [
+        {
+          "name": "古诗三首：山居秋暝、枫桥夜泊、早春呈水部张十八员外",
+          "description": "结合新版教材学习古诗三首：山居秋暝、枫桥夜泊、早春呈水部张十八员外",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "第一场雪：描写景物的变化",
+          "description": "结合新版教材学习第一场雪：描写景物的变化",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "白鹭：景物画面与独特感受",
+          "description": "结合新版教材学习白鹭：景物画面与独特感受",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "习作与园地七：我最喜爱的季节",
+          "description": "结合新版教材学习习作与园地七：我最喜爱的季节",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "第八单元·读书明智",
+      "knowledge_points": [
+        {
+          "name": "古人谈读书：读书方法与态度",
+          "description": "结合新版教材学习古人谈读书：读书方法与态度",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "忆读书：梳理读书经历",
+          "description": "结合新版教材学习忆读书：梳理读书经历",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "走遍天下书为侣：理解选择与读书方法",
+          "description": "结合新版教材学习走遍天下书为侣：理解选择与读书方法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "习作与园地八：推荐一本书",
+          "description": "结合新版教材学习习作与园地八：推荐一本书",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ],
+  "requiredPassageTitles": [
+    "桂花雨",
+    "落花生",
+    "珍珠鸟",
+    "冀中的地道战",
+    "将相和",
+    "什么比猎豹的速度更快",
+    "“诺曼底号”遇难记",
+    "猎人海力布",
+    "牛郎织女（一）",
+    "牛郎织女（二）",
+    "示儿",
+    "题临安邸",
+    "己亥杂诗",
+    "少年中国说（节选）",
+    "圆明园的毁灭",
+    "梅兰芳蓄须明志",
+    "太阳",
+    "金字塔",
+    "慈母情深",
+    "父爱之舟",
+    "航天员写给孩子的信",
+    "山居秋暝",
+    "枫桥夜泊",
+    "早春呈水部张十八员外",
+    "第一场雪",
+    "白鹭",
+    "古人谈读书",
+    "忆读书",
+    "走遍天下书为侣",
+    "鲸",
+    "风向袋的制作",
+    "语文园地一·日积月累",
+    "语文园地二·日积月累",
+    "乞巧",
+    "语文园地四·日积月累",
+    "游子吟",
+    "渔歌子",
+    "观书有感（其一）",
+    "快乐读书吧·田螺姑娘（节选）"
+  ]
+}

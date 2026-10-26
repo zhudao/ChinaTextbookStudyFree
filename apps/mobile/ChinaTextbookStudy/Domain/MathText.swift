@@ -16,17 +16,17 @@ import Foundation
 /// 一律不要经过这里。
 enum MathText {
 
-    /// 把含 `$...$`（或 `$$...$$`）的字符串渲染成可直接显示的纯文本。
+    /// 把含美元符号或反斜杠括号定界公式的字符串转换为可显示的纯文本。
     /// 非公式段（中文语句混排）原样保留；`$` 不成对时剩余部分原样输出。
     static func render(_ text: String) -> String {
-        // 快路径：绝大多数语文题干没有 $，直接返回避免逐字扫描。
-        guard text.contains("$") else { return text }
+        // 普通课文没有数学定界符，直接返回避免逐字扫描。
+        guard text.contains("$") || text.contains("\\(") || text.contains("\\[") else { return text }
 
         let chars = Array(text)
         var out = ""
         var i = 0
         while i < chars.count {
-            if chars[i] == "$" {
+            if chars[i] == "$", !isEscaped(chars, at: i) {
                 let isBlock = i + 1 < chars.count && chars[i + 1] == "$"
                 let open = isBlock ? 2 : 1
                 if let end = findClosingDollar(chars, from: i + open, isBlock: isBlock) {
@@ -34,6 +34,16 @@ enum MathText {
                     i = end + open
                 } else {
                     // $ 不成对 — 当普通字符，剩余部分原样保留。
+                    out += String(chars[i...])
+                    break
+                }
+            } else if chars[i] == "\\", !isEscaped(chars, at: i), i + 1 < chars.count,
+                      chars[i + 1] == "(" || chars[i + 1] == "[" {
+                let closer: Character = chars[i + 1] == "(" ? ")" : "]"
+                if let end = findClosingPair(chars, from: i + 2, closer: closer) {
+                    out += renderMath(String(chars[(i + 2)..<end]))
+                    i = end + 2
+                } else {
                     out += String(chars[i...])
                     break
                 }
@@ -52,9 +62,10 @@ enum MathText {
         "times": "×", "div": "÷", "cdot": "·", "pm": "±",
         "le": "≤", "leq": "≤", "ge": "≥", "geq": "≥",
         "ne": "≠", "neq": "≠", "approx": "≈",
-        "bigcirc": "◯", "square": "□", "triangle": "△",
-        "angle": "∠", "pi": "π",
+        "bigcirc": "◯", "square": "□", "blacksquare": "■", "Box": "□", "triangle": "△",
+        "angle": "∠", "pi": "π", "circ": "°", "rightarrow": "→", "leftrightarrow": "↔",
         "quad": " ", "qquad": " ",
+        "left": "", "right": "",
     ]
 
     private static let superscripts: [Character: String] = [
@@ -81,7 +92,7 @@ enum MathText {
             case "^", "_":
                 let isSup = chars[i] == "^"
                 let (arg, next) = parseScriptArgument(chars, at: i + 1)
-                out += mapScript(arg, isSuperscript: isSup)
+                out += isSup && arg == "°" ? "°" : mapScript(arg, isSuperscript: isSup)
                 i = next
             case "{", "}":
                 // 裸花括号只做分组，不显示。
@@ -113,10 +124,10 @@ enum MathText {
 
         // 字母命令：连续读字母作为命令名。
         var end = start
-        while end < chars.count, chars[end].isLetter { end += 1 }
+        while end < chars.count, chars[end].isASCII, chars[end].isLetter { end += 1 }
         let name = String(chars[start..<end])
 
-        if name == "frac" {
+        if ["frac", "dfrac", "tfrac"].contains(name) {
             if let (numRaw, afterNum) = parseBraceGroup(chars, at: end),
                let (denRaw, afterDen) = parseBraceGroup(chars, at: afterNum) {
                 out += renderFraction(numerator: renderMath(numRaw), denominator: renderMath(denRaw))
@@ -125,6 +136,13 @@ enum MathText {
             // \frac 后没跟两个 {..}{..} — 保底去反斜杠输出。
             out += name
             return end
+        }
+
+        if ["dot", "text", "mathrm"].contains(name),
+           let (raw, next) = parseBraceGroup(chars, at: end) {
+            let rendered = renderMath(raw)
+            out += name == "dot" ? rendered.map { String($0) + "\u{0307}" }.joined() : rendered
+            return next
         }
 
         if let symbol = symbolCommands[name] {
@@ -156,6 +174,11 @@ enum MathText {
                 return (renderMath(raw), next)
             }
             return ("", start + 1)
+        }
+        if chars[start] == "\\" {
+            var rendered = ""
+            let next = renderCommand(chars, at: start + 1, into: &rendered)
+            return (rendered, next)
         }
         return (String(chars[start]), start + 1)
     }
@@ -201,10 +224,29 @@ enum MathText {
     private static func findClosingDollar(_ chars: [Character], from: Int, isBlock: Bool) -> Int? {
         var i = from
         while i < chars.count {
-            if chars[i] == "$" {
+            if chars[i] == "$", !isEscaped(chars, at: i) {
                 if !isBlock { return i }
                 if i + 1 < chars.count, chars[i + 1] == "$" { return i }
             }
+            i += 1
+        }
+        return nil
+    }
+
+    private static func isEscaped(_ chars: [Character], at index: Int) -> Bool {
+        var previous = index - 1
+        var slashes = 0
+        while previous >= 0 && chars[previous] == "\\" {
+            slashes += 1
+            previous -= 1
+        }
+        return slashes % 2 == 1
+    }
+
+    private static func findClosingPair(_ chars: [Character], from: Int, closer: Character) -> Int? {
+        var i = from
+        while i + 1 < chars.count {
+            if chars[i] == "\\", chars[i + 1] == closer, !isEscaped(chars, at: i) { return i }
             i += 1
         }
         return nil

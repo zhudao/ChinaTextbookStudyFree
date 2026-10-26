@@ -1,0 +1,773 @@
+[
+  {
+    "mode": "浅色模式",
+    "route": "/profile/",
+    "contrast": {
+      "checked": 96,
+      "dark": false,
+      "failures": [],
+      "route": "/profile/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/profile/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "浅色模式",
+    "route": "/grade/1/",
+    "contrast": {
+      "checked": 34,
+      "dark": false,
+      "failures": [],
+      "route": "/grade/1/",
+      "skipped": [
+        "1",
+        "25",
+        "继续学习",
+        "上次的课程还没做完呢",
+        "已答 4 题 · 连击 ×4",
+        "▶"
+      ],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/grade/1/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "浅色模式",
+    "route": "/book/g1up-2026/",
+    "contrast": {
+      "checked": 16,
+      "dark": false,
+      "failures": [],
+      "route": "/book/g1up-2026/",
+      "skipped": [
+        "25",
+        "一年级上册（2022课标修订版）",
+        "·",
+        "起始活动",
+        "数学游戏",
+        "在校园和教室里发现数学",
+        "单元挑战",
+        "单元挑战",
+        "单元挑战",
+        "单元挑战",
+        "单元挑战",
+        "单元挑战",
+        "单元挑战"
+      ],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/book/g1up-2026/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "浅色模式",
+    "route": "/book/g1up-2026/guide/101/",
+    "contrast": {
+      "checked": 2,
+      "dark": false,
+      "failures": [],
+      "route": "/book/g1up-2026/guide/101/",
+      "skipped": [
+        "起始活动 · 数学游戏",
+        "在校园和教室里发现数学",
+        "知识讲解",
+        "核心概念",
+        "数量说明有几个，顺序说明在第几。描述前后、左右时，要明确以谁为准；找第几个时，要明确从哪里开始数。",
+        "小贴士",
+        "先看问几个还是第几。做方向游戏时听清规则，再按指定方向做。",
+        "容易搞错",
+        "把一共有几个和排在第几混淆。",
+        "找第几个时，把起点或数的方向弄错。",
+        "说左右时，没有确定以谁为准。"
+      ],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 390,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/book/g1up-2026/guide/101/",
+        "scrollWidth": 390,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "浅色模式",
+    "route": "/reading/chinese-g1up/",
+    "contrast": {
+      "checked": 106,
+      "dark": false,
+      "failures": [],
+      "route": "/reading/chinese-g1up/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/reading/chinese-g1up/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "浅色模式",
+    "route": "/reading/chinese-g1up/chinese-g1up-p1/",
+    "contrast": {
+      "checked": 12,
+      "dark": false,
+      "failures": [],
+      "route": "/reading/chinese-g1up/chinese-g1up-p1/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/reading/chinese-g1up/chinese-g1up-p1/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "浅色模式",
+    "route": "/stories/chinese-g1up/",
+    "contrast": {
+      "checked": 50,
+      "dark": false,
+      "failures": [],
+      "route": "/stories/chinese-g1up/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/stories/chinese-g1up/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "浅色模式",
+    "route": "/stories/chinese-g1up/chinese-g1up-s1-v2/",
+    "contrast": {
+      "checked": 12,
+      "dark": false,
+      "failures": [],
+      "route": "/stories/chinese-g1up/chinese-g1up-s1-v2/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/stories/chinese-g1up/chinese-g1up-s1-v2/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "浅色模式",
+    "route": "/review/",
+    "contrast": {
+      "checked": 18,
+      "dark": false,
+      "failures": [],
+      "route": "/review/",
+      "skipped": [
+        "1",
+        "25",
+        "课程",
+        "在校园和教室里发现数学",
+        "再练练",
+        "今天不用复习",
+        "教学楼有4层，一间教室在第2层。教室在哪一层？",
+        "查看答案",
+        "再练练",
+        "今天不用复习",
+        "6个班按从前到后的顺序排队。小乐所在的班前面有3个班。小乐所在的班排在第几个？",
+        "查看答案",
+        "再练练",
+        "今天不用复习",
+        "小美面向黑板站着，窗户在她左手所指的一边。以小美为准，窗户在她的哪边？",
+        "查看答案",
+        "再练练",
+        "今天不用复习",
+        "玩“左右反着做”：只把口令中的左、右反过来，动作不变。口令是“跺左脚”。小川应该怎样做？",
+        "查看答案",
+        "再练练",
+        "今天不用复习",
+        "4人面向同一方向站成一排。从他们的左边到右边，依次是小兰、小林、小月、小青。从紧挨小青左边的人开始数，小青左边第3个人是",
+        "查看答案"
+      ],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/review/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "浅色模式",
+    "route": "/shop/",
+    "contrast": {
+      "checked": 59,
+      "dark": false,
+      "failures": [],
+      "route": "/shop/",
+      "skipped": [
+        "25"
+      ],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/shop/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "浅色模式",
+    "route": "/league/",
+    "contrast": {
+      "checked": 10,
+      "dark": false,
+      "failures": [],
+      "route": "/league/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 390,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/league/",
+        "scrollWidth": 390,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "浅色模式",
+    "route": "/number-sense/",
+    "contrast": {
+      "checked": 26,
+      "dark": false,
+      "failures": [],
+      "route": "/number-sense/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/number-sense/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/profile/",
+    "contrast": {
+      "checked": 95,
+      "dark": true,
+      "failures": [],
+      "route": "/profile/",
+      "skipped": [
+        "25"
+      ],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/profile/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/grade/1/",
+    "contrast": {
+      "checked": 33,
+      "dark": true,
+      "failures": [],
+      "route": "/grade/1/",
+      "skipped": [
+        "2",
+        "1",
+        "25",
+        "继续学习",
+        "上次的课程还没做完呢",
+        "已答 4 题 · 连击 ×4",
+        "▶"
+      ],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/grade/1/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/book/g1up-2026/",
+    "contrast": {
+      "checked": 16,
+      "dark": true,
+      "failures": [],
+      "route": "/book/g1up-2026/",
+      "skipped": [
+        "25",
+        "一年级上册（2022课标修订版）",
+        "·",
+        "起始活动",
+        "数学游戏",
+        "在校园和教室里发现数学",
+        "单元挑战",
+        "单元挑战",
+        "单元挑战",
+        "单元挑战",
+        "单元挑战",
+        "单元挑战",
+        "单元挑战"
+      ],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/book/g1up-2026/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/book/g1up-2026/guide/101/",
+    "contrast": {
+      "checked": 2,
+      "dark": true,
+      "failures": [],
+      "route": "/book/g1up-2026/guide/101/",
+      "skipped": [
+        "起始活动 · 数学游戏",
+        "在校园和教室里发现数学",
+        "知识讲解",
+        "核心概念",
+        "数量说明有几个，顺序说明在第几。描述前后、左右时，要明确以谁为准；找第几个时，要明确从哪里开始数。",
+        "小贴士",
+        "先看问几个还是第几。做方向游戏时听清规则，再按指定方向做。",
+        "容易搞错",
+        "把一共有几个和排在第几混淆。",
+        "找第几个时，把起点或数的方向弄错。",
+        "说左右时，没有确定以谁为准。"
+      ],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 390,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/book/g1up-2026/guide/101/",
+        "scrollWidth": 390,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/reading/chinese-g1up/",
+    "contrast": {
+      "checked": 106,
+      "dark": true,
+      "failures": [],
+      "route": "/reading/chinese-g1up/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/reading/chinese-g1up/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/reading/chinese-g1up/chinese-g1up-p1/",
+    "contrast": {
+      "checked": 12,
+      "dark": true,
+      "failures": [],
+      "route": "/reading/chinese-g1up/chinese-g1up-p1/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/reading/chinese-g1up/chinese-g1up-p1/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/stories/chinese-g1up/",
+    "contrast": {
+      "checked": 50,
+      "dark": true,
+      "failures": [],
+      "route": "/stories/chinese-g1up/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/stories/chinese-g1up/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/stories/chinese-g1up/chinese-g1up-s1-v2/",
+    "contrast": {
+      "checked": 12,
+      "dark": true,
+      "failures": [],
+      "route": "/stories/chinese-g1up/chinese-g1up-s1-v2/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/stories/chinese-g1up/chinese-g1up-s1-v2/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/review/",
+    "contrast": {
+      "checked": 18,
+      "dark": true,
+      "failures": [],
+      "route": "/review/",
+      "skipped": [
+        "1",
+        "25",
+        "课程",
+        "在校园和教室里发现数学",
+        "再练练",
+        "今天不用复习",
+        "教学楼有4层，一间教室在第2层。教室在哪一层？",
+        "查看答案",
+        "再练练",
+        "今天不用复习",
+        "6个班按从前到后的顺序排队。小乐所在的班前面有3个班。小乐所在的班排在第几个？",
+        "查看答案",
+        "再练练",
+        "今天不用复习",
+        "小美面向黑板站着，窗户在她左手所指的一边。以小美为准，窗户在她的哪边？",
+        "查看答案",
+        "再练练",
+        "今天不用复习",
+        "玩“左右反着做”：只把口令中的左、右反过来，动作不变。口令是“跺左脚”。小川应该怎样做？",
+        "查看答案",
+        "再练练",
+        "今天不用复习",
+        "4人面向同一方向站成一排。从他们的左边到右边，依次是小兰、小林、小月、小青。从紧挨小青左边的人开始数，小青左边第3个人是",
+        "查看答案"
+      ],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/review/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/shop/",
+    "contrast": {
+      "checked": 59,
+      "dark": true,
+      "failures": [],
+      "route": "/shop/",
+      "skipped": [
+        "25"
+      ],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/shop/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/league/",
+    "contrast": {
+      "checked": 10,
+      "dark": true,
+      "failures": [],
+      "route": "/league/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 390,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/league/",
+        "scrollWidth": 390,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "mode": "深色模式",
+    "route": "/number-sense/",
+    "contrast": {
+      "checked": 26,
+      "dark": true,
+      "failures": [],
+      "route": "/number-sense/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 375,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/number-sense/",
+        "scrollWidth": 375,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  }
+]

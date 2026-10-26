@@ -1,12 +1,13 @@
 /** Source defects must stay fixed through export and the runtime grader. */
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import { createHash } from "node:crypto";
+import { narrationVerifier } from "./narration-reference";
 import { gradeAnswer } from "../../packages/core/src/grade";
 import type { Lesson, Question } from "../../packages/core/src/types";
 
 const allowMissingAudio = process.argv.includes("--allow-missing-audio");
 let missingAudio = 0;
+const verifyAudio = narrationVerifier();
 const corrections = JSON.parse(fs.readFileSync("docs/ux-content-corrections.json", "utf8")) as {
   lesson_id: string; question_id: number; after: Question;
 }[];
@@ -33,10 +34,8 @@ for (const correction of corrections) {
     ...question.options.map((text, i) => [text, question.audio?.options?.[i]] as [string, string | null | undefined]),
   ];
   for (const [text, url] of fields) {
-    const hash = createHash("sha1").update(text.trim().replace(/\s+/g, " ")).digest("hex");
     if (!url && allowMissingAudio) { missingAudio++; continue; }
-    assert.equal(url, `/audio/${hash.slice(0, 2)}/${hash}.mp3`, "repaired text must use matching audio");
-    assert(fs.statSync(`apps/web/public${url}`).size > 0);
+    verifyAudio(text, url, book);
   }
 }
 // Both of these source defects accepted the wrong concept, beyond duplicate text.

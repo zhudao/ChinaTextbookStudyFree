@@ -18,7 +18,7 @@ def main():
     parser.add_argument("--site", type=Path, default=ROOT/"apps/web/out")
     parser.add_argument("--out", type=Path, required=True)
     parser.add_argument("--baseline", type=Path, required=True)
-    parser.add_argument("--tag", default="v1.5.0-five-textbooks")
+    parser.add_argument("--tag", default="v1.6.0-chinese-g5up")
     args = parser.parse_args()
     if not re.fullmatch(r"[a-zA-Z0-9._-]+", args.tag):
         parser.error("Invalid tag")

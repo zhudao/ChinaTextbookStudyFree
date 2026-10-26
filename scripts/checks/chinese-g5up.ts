@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+const root = process.argv[2] ?? 'apps/web/public';
+const read = (file: string) => JSON.parse(readFileSync(`${root}/data/${file}`, 'utf8'));
+const index = read('index.json');
+const current = index.books.find((b: any) => b.id === 'chinese-g5up-2026');
+const legacy = index.books.find((b: any) => b.id === 'chinese-g5up');
+assert.equal(current.supersedes, legacy.id);
+assert.equal(legacy.supersededBy, current.id);
+assert.equal(current.lessonsCount, 36);
+const readings = read(`books/${current.id}/passages.json`).passages;
+const main = readings.filter((p: any) => p.curriculumRole === 'main');
+assert.equal(main.length, 29);
+assert.deepEqual([...new Set(main.map((p: any) => p.lessonNumber))], Array.from({length: 25}, (_, i) => i + 1));
+assert.deepEqual(main.slice(0, 4).map((p: any) => [p.title, p.lessonNumber, p.unitNumber]), [
+  ['桂花雨', 1, 1], ['落花生', 2, 1], ['珍珠鸟', 3, 1], ['冀中的地道战', 4, 2],
+]);
+assert.deepEqual(main.filter((p: any) => p.lessonNumber === 11).map((p: any) => p.title), ['示儿', '题临安邸', '己亥杂诗']);
+assert.deepEqual(main.filter((p: any) => p.lessonNumber === 20).map((p: any) => p.title), ['山居秋暝', '枫桥夜泊', '早春呈水部张十八员外']);
+assert.deepEqual(main.find((p: any) => p.title === '白鹭').unitNumber, 7);
+assert.equal(main.find((p: any) => p.title === '白鹭').lessonNumber, 22);
+assert.equal(readings.length, 39);
+assert.equal(readings.filter((p: any) => p.curriculumRole === 'writing_example').length, 2);
+const pyramid = main.find((p: any) => p.title === '金字塔');
+assert.equal(pyramid.pdfPage, 73);
+assert.equal(pyramid.pageImages.length, 2);
+const pyramidText = pyramid.sentences.map((s: any) => s.text).join('');
+assert.ok(pyramidText.includes('斜坡') && pyramidText.includes('137') && pyramidText.includes('146'));
+assert.ok(!pyramidText.includes('金字塔夕照') && !pyramidText.includes('不可思议的金字塔'));
+const oldReadings = read(`books/${legacy.id}/passages.json`).passages;
+assert.deepEqual(oldReadings.slice(0, 4).map((p: any) => p.title), ['白鹭', '落花生', '桂花雨', '珍珠鸟']);
+assert.ok(readings.every((p: any) => p.id.startsWith(`${current.id}-`) && p.bookId === current.id));
+console.log('PASS: official G5 Chinese order, 25 numbered/29 main readings, 39 total, 36 lessons, revised pyramid text and retained legacy order.');

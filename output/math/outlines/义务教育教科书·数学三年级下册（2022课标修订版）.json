@@ -1,0 +1,399 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书·数学三年级下册（2022课标修订版）",
+  "edition": "2026",
+  "editionLabel": "2022课标修订版",
+  "supersedes": "g3down",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "生活中的运动现象",
+      "knowledge_points": [
+        {
+          "name": "认识轴对称现象与对称图形",
+          "description": "结合新版教材学习认识轴对称现象与对称图形",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识平移现象",
+          "description": "结合新版教材学习认识平移现象",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识旋转现象",
+          "description": "结合新版教材学习认识旋转现象",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "辨别并描述生活中的运动现象",
+          "description": "结合新版教材学习辨别并描述生活中的运动现象",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "除数是一位数的除法",
+      "knowledge_points": [
+        {
+          "name": "口算除法与估算",
+          "description": "结合新版教材学习口算除法与估算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "两位数除以一位数的笔算",
+          "description": "结合新版教材学习两位数除以一位数的笔算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "三位数除以一位数的笔算",
+          "description": "结合新版教材学习三位数除以一位数的笔算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "商中间或末尾有0的除法",
+          "description": "结合新版教材学习商中间或末尾有0的除法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用乘法验算除法",
+          "description": "结合新版教材学习用乘法验算除法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用乘法和除法解决实际问题",
+          "description": "结合新版教材学习用乘法和除法解决实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "长方形和正方形",
+      "knowledge_points": [
+        {
+          "name": "认识多边形",
+          "description": "结合新版教材学习认识多边形",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "长方形和正方形的特征",
+          "description": "结合新版教材学习长方形和正方形的特征",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识、测量和计算周长",
+          "description": "结合新版教材学习认识、测量和计算周长",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "运用周长解决实际问题",
+          "description": "结合新版教材学习运用周长解决实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "图形拼组——四连方",
+          "description": "结合新版教材学习图形拼组——四连方",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "图形的面积",
+      "knowledge_points": [
+        {
+          "name": "面积的含义和比较",
+          "description": "结合新版教材学习面积的含义和比较",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识平方厘米、平方分米和平方米",
+          "description": "结合新版教材学习认识平方厘米、平方分米和平方米",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "长方形和正方形的面积",
+          "description": "结合新版教材学习长方形和正方形的面积",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "面积单位之间的换算",
+          "description": "结合新版教材学习面积单位之间的换算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "区分面积和周长",
+          "description": "结合新版教材学习区分面积和周长",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "数据的收集与整理",
+      "knowledge_points": [
+        {
+          "name": "选择数据收集方法",
+          "description": "结合新版教材学习选择数据收集方法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "分类整理数据并制作统计表",
+          "description": "结合新版教材学习分类整理数据并制作统计表",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据统计表分析和解决问题",
+          "description": "结合新版教材学习根据统计表分析和解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 101,
+      "title": "年、月、日的秘密",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "认识年、月、日和大小月",
+          "description": "结合新版教材学习认识年、月、日和大小月",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识平年和闰年",
+          "description": "结合新版教材学习认识平年和闰年",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "制作日历并解决日期问题",
+          "description": "结合新版教材学习制作日历并解决日期问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "24时计时法与一天的时间",
+          "description": "结合新版教材学习24时计时法与一天的时间",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "二十四节气与日影变化",
+          "description": "结合新版教材学习二十四节气与日影变化",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "小数的初步认识",
+      "knowledge_points": [
+        {
+          "name": "小数的意义和读写",
+          "description": "结合新版教材学习小数的意义和读写",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "小数的大小比较",
+          "description": "结合新版教材学习小数的大小比较",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "计算一位小数加减法",
+          "description": "结合新版教材学习计算一位小数加减法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用小数解决实际问题",
+          "description": "结合新版教材学习用小数解决实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "复习与关联",
+      "knowledge_points": [
+        {
+          "name": "综合运用除法和小数计算",
+          "description": "结合新版教材学习综合运用除法和小数计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "小数的认识与大小比较",
+          "description": "结合新版教材学习小数的认识与大小比较",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "长方形、正方形的特征及周长和面积",
+          "description": "结合新版教材学习长方形、正方形的特征及周长和面积",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "联系运动现象和日历解决问题",
+          "description": "结合新版教材学习联系运动现象和日历解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "整理数据并说明分析结果",
+          "description": "结合新版教材学习整理数据并说明分析结果",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用重叠关系解决简单计数问题",
+          "description": "结合新版教材学习用重叠关系解决简单计数问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ]
+}

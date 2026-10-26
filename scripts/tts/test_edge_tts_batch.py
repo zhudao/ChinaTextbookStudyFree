@@ -124,8 +124,30 @@ class BatchTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(self.calls, [])
         self.assertEqual(path.read_bytes(), b"existing")
 
+    async def test_isolated_notation_is_spoken_without_changing_cache_identity(self):
+        for index, (text, spoken) in enumerate([(">", "大于"), ("<", "小于"), ("=", "等于"), ("……", "省略号")], 1):
+            entry = item(index, text=text)
+            with patch.object(batch.edge_tts, "Communicate", self.stream_class()):
+                self.assertEqual(await self.synth(entry), (True, ""))
+            self.assertEqual(self.calls[-1]["text"], spoken)
+            self.assertEqual(entry["text"], text)
+            self.assertTrue((self.root / entry["audio_rel"]).is_file())
+
     async def test_empty_text_is_rejected(self):
         self.assertEqual(await self.synth(item(text="")), (False, "empty text"))
+
+    async def test_comparison_symbols_and_countable_dots_keep_identity(self):
+        for index, (text, spoken) in enumerate([
+            ("＜", "小于"), ("＞", "大于"), ("＝", "等于"),
+            ("●", "圆点"), ("●●● ●●", "圆点，圆点，圆点；圆点，圆点"),
+        ], 10):
+            entry = item(index, text=text)
+            with patch.object(batch.edge_tts, "Communicate", self.stream_class()):
+                self.assertEqual(await self.synth(entry), (True, ""))
+            self.assertEqual(self.calls[-1]["text"], spoken)
+            self.assertEqual(entry["text"], text)
+            self.assertTrue((self.root / entry["audio_rel"]).is_file())
+        self.assertEqual(batch.spoken_text("有●●个符号"), "有●●个符号")
 
     async def test_service_failure_retries_without_output(self):
         with (

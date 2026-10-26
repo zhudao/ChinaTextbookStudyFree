@@ -1588,6 +1588,1427 @@
         }
       ],
       "readings": []
+    },
+    {
+      "key": "chinese5",
+      "subject": "chinese",
+      "grade": 5,
+      "legacyId": "chinese-g5up",
+      "id": "chinese-g5up-2026",
+      "stem": "义务教育教科书·语文五年级上册（2026秋版）",
+      "edition": "2026",
+      "editionLabel": "2026秋版",
+      "sourceId": "aabf2e4a-3ceb-4e86-8804-22c10223cc57",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书·语文五年级上册",
+      "imageBase": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image",
+      "pageCount": 130,
+      "pageOffset": 5,
+      "sourceReview": "docs/issue-22-textbook-review-2026-10-24.json",
+      "units": [
+        {
+          "unit_number": 1,
+          "title": "第一单元·万物有情",
+          "start": 1,
+          "end": 12,
+          "points": [
+            "桂花雨：借事物体会思乡之情",
+            "落花生：借物喻人与做人道理",
+            "珍珠鸟：描写与信赖",
+            "语文园地一：对比描写与词语多义",
+            "习作与交际：心爱之物和班级公约"
+          ]
+        },
+        {
+          "unit_number": 2,
+          "title": "第二单元·提高阅读速度",
+          "start": 13,
+          "end": 32,
+          "points": [
+            "冀中的地道战：带着问题阅读",
+            "将相和：连词成句与概括情节",
+            "什么比猎豹的速度更快：借助关键词句阅读",
+            "“诺曼底号”遇难记：默读与人物描写",
+            "习作与园地二：具体事例表现人物"
+          ]
+        },
+        {
+          "unit_number": 3,
+          "title": "第三单元·民间故事",
+          "start": 33,
+          "end": 50,
+          "points": [
+            "猎人海力布：情节与创造性复述",
+            "牛郎织女：人物与故事细节",
+            "民间故事：丰富情节与故事新编",
+            "语文园地三：俗语成语与讲故事"
+          ]
+        },
+        {
+          "unit_number": 4,
+          "title": "第四单元·家国情怀",
+          "start": 51,
+          "end": 64,
+          "points": [
+            "古诗三首：示儿、题临安邸、己亥杂诗",
+            "少年中国说：借助资料理解文章",
+            "圆明园的毁灭：场景与表达",
+            "梅兰芳蓄须明志：事件与人物品质",
+            "习作与园地四：二十年后的家乡"
+          ]
+        },
+        {
+          "unit_number": 5,
+          "title": "第五单元·介绍一种事物",
+          "start": 65,
+          "end": 74,
+          "points": [
+            "太阳：说明方法与事物特点",
+            "金字塔：整合不同形式的信息",
+            "习作例文：鲸与风向袋的制作",
+            "习作：有条理地介绍一种事物"
+          ]
+        },
+        {
+          "unit_number": 6,
+          "title": "第六单元·父母之爱",
+          "start": 75,
+          "end": 90,
+          "points": [
+            "慈母情深：场景与细节",
+            "父爱之舟：难忘的场景",
+            "航天员写给孩子的信：关爱与梦想",
+            "习作与交际：我想对您说",
+            "语文园地六：场景和细节表达感情"
+          ]
+        },
+        {
+          "unit_number": 7,
+          "title": "第七单元·四时景物皆成趣",
+          "start": 91,
+          "end": 100,
+          "points": [
+            "古诗三首：山居秋暝、枫桥夜泊、早春呈水部张十八员外",
+            "第一场雪：描写景物的变化",
+            "白鹭：景物画面与独特感受",
+            "习作与园地七：我最喜爱的季节"
+          ]
+        },
+        {
+          "unit_number": 8,
+          "title": "第八单元·读书明智",
+          "start": 101,
+          "end": 114,
+          "points": [
+            "古人谈读书：读书方法与态度",
+            "忆读书：梳理读书经历",
+            "走遍天下书为侣：理解选择与读书方法",
+            "习作与园地八：推荐一本书"
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "unit": 1,
+          "title": "桂花雨",
+          "start": 2,
+          "end": 4,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 1
+        },
+        {
+          "unit": 1,
+          "title": "落花生",
+          "start": 5,
+          "end": 6,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 2
+        },
+        {
+          "unit": 1,
+          "title": "珍珠鸟",
+          "start": 7,
+          "end": 8,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 3
+        },
+        {
+          "unit": 2,
+          "title": "冀中的地道战",
+          "start": 14,
+          "end": 16,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 4
+        },
+        {
+          "unit": 2,
+          "title": "将相和",
+          "start": 17,
+          "end": 21,
+          "kind": "story",
+          "role": "main",
+          "lesson": 5
+        },
+        {
+          "unit": 2,
+          "title": "什么比猎豹的速度更快",
+          "start": 22,
+          "end": 24,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 6
+        },
+        {
+          "unit": 2,
+          "title": "“诺曼底号”遇难记",
+          "start": 25,
+          "end": 29,
+          "kind": "story",
+          "role": "main",
+          "lesson": 7
+        },
+        {
+          "unit": 3,
+          "title": "猎人海力布",
+          "start": 34,
+          "end": 36,
+          "kind": "story",
+          "role": "main",
+          "lesson": 8
+        },
+        {
+          "unit": 3,
+          "title": "牛郎织女（一）",
+          "start": 37,
+          "end": 41,
+          "kind": "story",
+          "role": "main",
+          "lesson": 9
+        },
+        {
+          "unit": 3,
+          "title": "牛郎织女（二）",
+          "start": 42,
+          "end": 44,
+          "kind": "story",
+          "role": "main",
+          "lesson": 10
+        },
+        {
+          "unit": 4,
+          "title": "示儿",
+          "start": 52,
+          "end": 52,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 11
+        },
+        {
+          "unit": 4,
+          "title": "题临安邸",
+          "start": 52,
+          "end": 52,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 11
+        },
+        {
+          "unit": 4,
+          "title": "己亥杂诗",
+          "start": 53,
+          "end": 53,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 11
+        },
+        {
+          "unit": 4,
+          "title": "少年中国说（节选）",
+          "start": 54,
+          "end": 55,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 12
+        },
+        {
+          "unit": 4,
+          "title": "圆明园的毁灭",
+          "start": 56,
+          "end": 58,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 13
+        },
+        {
+          "unit": 4,
+          "title": "梅兰芳蓄须明志",
+          "start": 59,
+          "end": 61,
+          "kind": "story",
+          "role": "main",
+          "lesson": 14
+        },
+        {
+          "unit": 5,
+          "title": "太阳",
+          "start": 66,
+          "end": 67,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 15
+        },
+        {
+          "unit": 5,
+          "title": "金字塔",
+          "start": 68,
+          "end": 69,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 16
+        },
+        {
+          "unit": 6,
+          "title": "慈母情深",
+          "start": 76,
+          "end": 79,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 17
+        },
+        {
+          "unit": 6,
+          "title": "父爱之舟",
+          "start": 80,
+          "end": 83,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 18
+        },
+        {
+          "unit": 6,
+          "title": "航天员写给孩子的信",
+          "start": 84,
+          "end": 86,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 19
+        },
+        {
+          "unit": 7,
+          "title": "山居秋暝",
+          "start": 92,
+          "end": 92,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 20
+        },
+        {
+          "unit": 7,
+          "title": "枫桥夜泊",
+          "start": 92,
+          "end": 92,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 20
+        },
+        {
+          "unit": 7,
+          "title": "早春呈水部张十八员外",
+          "start": 93,
+          "end": 93,
+          "kind": "ancient_poem",
+          "role": "main",
+          "lesson": 20
+        },
+        {
+          "unit": 7,
+          "title": "第一场雪",
+          "start": 94,
+          "end": 95,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 21
+        },
+        {
+          "unit": 7,
+          "title": "白鹭",
+          "start": 96,
+          "end": 97,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 22
+        },
+        {
+          "unit": 8,
+          "title": "古人谈读书",
+          "start": 102,
+          "end": 103,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 23
+        },
+        {
+          "unit": 8,
+          "title": "忆读书",
+          "start": 104,
+          "end": 108,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 24
+        },
+        {
+          "unit": 8,
+          "title": "走遍天下书为侣",
+          "start": 109,
+          "end": 110,
+          "kind": "prose",
+          "role": "main",
+          "lesson": 25
+        },
+        {
+          "unit": 5,
+          "title": "鲸",
+          "start": 72,
+          "end": 73,
+          "kind": "prose",
+          "role": "writing_example",
+          "lesson": null
+        },
+        {
+          "unit": 5,
+          "title": "风向袋的制作",
+          "start": 74,
+          "end": 74,
+          "kind": "prose",
+          "role": "writing_example",
+          "lesson": null
+        },
+        {
+          "unit": 1,
+          "title": "语文园地一·日积月累",
+          "start": 12,
+          "end": 12,
+          "kind": "prose",
+          "role": "garden",
+          "lesson": null
+        },
+        {
+          "unit": 2,
+          "title": "语文园地二·日积月累",
+          "start": 32,
+          "end": 32,
+          "kind": "prose",
+          "role": "garden",
+          "lesson": null
+        },
+        {
+          "unit": 3,
+          "title": "乞巧",
+          "start": 48,
+          "end": 48,
+          "kind": "ancient_poem",
+          "role": "garden",
+          "lesson": null
+        },
+        {
+          "unit": 4,
+          "title": "语文园地四·日积月累",
+          "start": 64,
+          "end": 64,
+          "kind": "prose",
+          "role": "garden",
+          "lesson": null
+        },
+        {
+          "unit": 6,
+          "title": "游子吟",
+          "start": 90,
+          "end": 90,
+          "kind": "ancient_poem",
+          "role": "garden",
+          "lesson": null
+        },
+        {
+          "unit": 7,
+          "title": "渔歌子",
+          "start": 100,
+          "end": 100,
+          "kind": "ancient_poem",
+          "role": "garden",
+          "lesson": null
+        },
+        {
+          "unit": 8,
+          "title": "观书有感（其一）",
+          "start": 114,
+          "end": 114,
+          "kind": "ancient_poem",
+          "role": "garden",
+          "lesson": null
+        },
+        {
+          "unit": 3,
+          "title": "快乐读书吧·田螺姑娘（节选）",
+          "start": 49,
+          "end": 50,
+          "kind": "story",
+          "role": "optional",
+          "lesson": null
+        }
+      ]
+    },
+    {
+      "key": "math1down",
+      "subject": "math",
+      "grade": 1,
+      "semester": "down",
+      "legacyId": "g1down",
+      "id": "g1down-2026",
+      "stem": "义务教育教科书·数学一年级下册（2022课标修订版）",
+      "edition": "2026",
+      "editionLabel": "2022课标修订版",
+      "sourceId": "6bf8ae7e-d987-40b4-8fb3-bbb98fcb50b5",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书·数学一年级下册",
+      "imageBase": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/6bf8ae7e-d987-40b4-8fb3-bbb98fcb50b5.t/zh-CN/1772437367206/transcode/image",
+      "pageCount": 98,
+      "pageOffset": 5,
+      "sourceReview": "docs/issue-14-textbook-review-2026-10-25.json",
+      "units": [
+        {
+          "end": 7,
+          "label": "",
+          "points": [
+            "辨认长方形、正方形、平行四边形、三角形和圆",
+            "在生活物体上寻找并描述平面图形",
+            "用平面图形进行拼组和图案创作"
+          ],
+          "start": 1,
+          "title": "认识平面图形",
+          "unit_number": 1
+        },
+        {
+          "end": 22,
+          "label": "",
+          "points": [
+            "用数的组成和分解理解十几减几",
+            "用破十法计算十几减几",
+            "用平十法计算十几减几",
+            "想加算减及加减法之间的联系",
+            "用加法检验退位减法并解决简单问题",
+            "整理20以内退位减法表并发现规律"
+          ],
+          "start": 8,
+          "title": "20以内的退位减法",
+          "unit_number": 2
+        },
+        {
+          "end": 42,
+          "label": "",
+          "points": [
+            "认识计数单位“百”，理解十进制计数",
+            "读写100以内的数并认识数的组成",
+            "用数的顺序和数的大小关系比较数",
+            "认识个位、十位和百位并在数位表中表示数",
+            "用估数、数数和数的规律解决问题",
+            "简单的加、减法"
+          ],
+          "start": 23,
+          "title": "100以内数的认识",
+          "unit_number": 3
+        },
+        {
+          "end": 55,
+          "label": "",
+          "points": [
+            "两位数加、减整十数",
+            "两位数加、减一位数（不进位、不退位）",
+            "两位数加一位数（进位）和两位数减一位数（退位）",
+            "两位数加、减两位数（不进位、不退位）",
+            "运用口算解决生活中的简单问题"
+          ],
+          "start": 43,
+          "title": "100以内的口算加、减法",
+          "unit_number": 4
+        },
+        {
+          "end": 68,
+          "label": "",
+          "points": [
+            "两位数加一位数（进位）的笔算",
+            "两位数减一位数（退位）的笔算",
+            "两位数加两位数（不进位、进位）的笔算",
+            "两位数减两位数（不退位、退位）的笔算",
+            "用竖式解决加减计算问题并检查结果"
+          ],
+          "start": 56,
+          "title": "100以内的笔算加、减法",
+          "unit_number": 5
+        },
+        {
+          "end": 76,
+          "label": "",
+          "points": [
+            "从总量和部分量的关系中求未知部分",
+            "根据两量相差关系求较多量或较少量",
+            "用图示表达数量关系并选择加法或减法解决问题"
+          ],
+          "start": 69,
+          "title": "数量间的加减关系",
+          "unit_number": 6
+        },
+        {
+          "end": 82,
+          "label": "综合与实践",
+          "points": [
+            "认识人民币的单位元、角、分及其关系",
+            "辨认常见人民币并比较面值",
+            "用人民币进行简单购物和找钱",
+            "根据价格计算购物花费与选择商品",
+            "人民币小讲堂：自主探究与分享"
+          ],
+          "start": 77,
+          "title": "欢乐购物街",
+          "unit_number": 101
+        },
+        {
+          "end": 89,
+          "label": "复习与关联",
+          "points": [
+            "整理平面图形的辨认与拼组方法",
+            "综合运用100以内数的读写、组成、顺序和比较",
+            "综合运用100以内口算与笔算加减法",
+            "根据数量关系解决求相差数和求未知数问题",
+            "结合购物情境解决简单的人民币计算问题"
+          ],
+          "start": 83,
+          "title": "复习与关联",
+          "unit_number": 7
+        }
+      ],
+      "readings": [],
+      "requiresIndependentFinalScreen": true
+    },
+    {
+      "key": "math1up",
+      "subject": "math",
+      "grade": 1,
+      "semester": "up",
+      "legacyId": "g1up",
+      "id": "g1up-2026",
+      "stem": "义务教育教科书 · 数学一年级上册（2022课标修订版）",
+      "edition": "2026",
+      "editionLabel": "2022课标修订版",
+      "sourceId": "c3e06fe4-c6b3-49cb-8727-4f8ff69bbfbc",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书 · 数学一年级上册",
+      "imageBase": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/c3e06fe4-c6b3-49cb-8727-4f8ff69bbfbc.t/zh-CN/1787023025887/transcode/image",
+      "pageCount": 118,
+      "pageOffset": 5,
+      "sourceReview": "docs/issue-14-textbook-review-2026-10-25.json",
+      "units": [
+        {
+          "end": 11,
+          "label": "起始活动",
+          "points": [
+            "在校园和教室里发现数学",
+            "观察和辨认物品的形状",
+            "数一数并说出物品的数量",
+            "数学学习准备与课堂常规"
+          ],
+          "start": 1,
+          "title": "数学游戏",
+          "unit_number": 101
+        },
+        {
+          "end": 33,
+          "label": "",
+          "points": [
+            "认识1～5并用点子图、实物和数字表示数量",
+            "比较5以内数量的多少与大小",
+            "认识第几，区分几个与第几个",
+            "理解5以内数的组成与分解",
+            "理解加法和减法的含义并列式计算",
+            "认识0并理解有关0的加减法",
+            "解决5以内的简单加减问题"
+          ],
+          "start": 12,
+          "title": "5以内数的认识和加、减法",
+          "unit_number": 1
+        },
+        {
+          "end": 66,
+          "label": "",
+          "points": [
+            "认识6～10并用多种方式表示数量",
+            "理解6～10各数的组成与分解",
+            "掌握有关数的顺序和大小比较",
+            "理解加法、减法及相关数量关系",
+            "进行10以内加减法计算",
+            "用10以内加减法解决简单实际问题"
+          ],
+          "start": 34,
+          "title": "6～10的认识和加、减法",
+          "unit_number": 2
+        },
+        {
+          "end": 72,
+          "label": "",
+          "points": [
+            "辨认长方体、正方体、圆柱和球",
+            "观察并描述立体图形的外形特征",
+            "按立体图形的特征分类和计数",
+            "用立体图形拼搭并观察拼搭结果"
+          ],
+          "start": 67,
+          "title": "认识立体图形",
+          "unit_number": 3
+        },
+        {
+          "end": 87,
+          "label": "",
+          "points": [
+            "认识11～20并正确读写这些数",
+            "理解十位和个位表示的数位意义",
+            "掌握11～20的组成及数的顺序",
+            "比较20以内数的大小",
+            "认识加法与减法算式中的数量关系"
+          ],
+          "start": 73,
+          "title": "11～20的认识",
+          "unit_number": 4
+        },
+        {
+          "end": 102,
+          "label": "",
+          "points": [
+            "理解凑十的思路并计算9加几",
+            "掌握8、7、6加几的计算思路",
+            "运用交换加数的方法计算有关进位加法",
+            "掌握5、4、3、2加几的计算思路",
+            "熟练计算20以内的进位加法",
+            "用进位加法解决简单实际问题"
+          ],
+          "start": 88,
+          "title": "20以内的进位加法",
+          "unit_number": 5
+        },
+        {
+          "end": 110,
+          "label": "复习与关联",
+          "points": [
+            "综合运用数的认识和数的组成解决问题",
+            "整理20以内加减法的计算方法并解决实际问题",
+            "比较数量并用符号表示大小关系",
+            "根据数量关系补充算式中的未知数",
+            "辨认、分类和拼搭常见立体图形",
+            "观察数表与算式表并发现排列规律"
+          ],
+          "start": 103,
+          "title": "复习与关联",
+          "unit_number": 6
+        }
+      ],
+      "readings": [],
+      "requiresIndependentFinalScreen": true
+    },
+    {
+      "key": "math2down",
+      "subject": "math",
+      "grade": 2,
+      "semester": "down",
+      "legacyId": "g2down",
+      "id": "g2down-2026",
+      "stem": "义务教育教科书·数学二年级下册（2022课标修订版）",
+      "edition": "2026",
+      "editionLabel": "2022课标修订版",
+      "sourceId": "c1897b18-b302-4e8d-9fd4-40915c4b05c2",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书·数学二年级下册",
+      "imageBase": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/c1897b18-b302-4e8d-9fd4-40915c4b05c2.t/zh-CN/1772437368178/transcode/image",
+      "pageCount": 106,
+      "pageOffset": 5,
+      "sourceReview": "docs/issue-14-textbook-review-2026-10-25.json",
+      "units": [
+        {
+          "end": 9,
+          "label": "起始活动",
+          "points": [
+            "认识钟面上的时针、分针、秒针和数字",
+            "读出整时与几时半",
+            "认识几时几分并读写钟面时间",
+            "用时间顺序描述一天的活动",
+            "计算经过的时间并解决简单作息问题",
+            "体验与估计时间"
+          ],
+          "start": 1,
+          "title": "时间在哪里",
+          "unit_number": 101
+        },
+        {
+          "end": 23,
+          "label": "",
+          "points": [
+            "理解平均分与除法算式的联系",
+            "认识有余数的除法及余数",
+            "用乘法口诀求商并写出商和余数",
+            "理解余数必须小于除数",
+            "用有余数除法解决分物与装载问题",
+            "用有余数的除法解决周期排列问题"
+          ],
+          "start": 10,
+          "title": "有余数的除法",
+          "unit_number": 1
+        },
+        {
+          "end": 39,
+          "label": "",
+          "points": [
+            "从具体情境中辨认几倍关系",
+            "用乘法表示求一个数的几倍",
+            "用除法表示求一个数是另一个数的几倍",
+            "理解乘除法之间的互逆关系",
+            "分析数量关系并选择乘法或除法解决问题",
+            "根据数量关系提出问题或补充合理条件"
+          ],
+          "start": 24,
+          "title": "数量间的乘除关系",
+          "unit_number": 2
+        },
+        {
+          "end": 62,
+          "label": "",
+          "points": [
+            "认识千以内数的组成与数位顺序",
+            "认识万以内数的计数单位和数位",
+            "读写万以内数并理解数位上的数字意义",
+            "认识算盘并用算盘表示万以内的数",
+            "比较万以内数的大小并按要求排列",
+            "认识近似数并进行合理估计",
+            "用数轴或计数活动表示万以内数",
+            "整十、整百、整千数的简单加减法"
+          ],
+          "start": 40,
+          "title": "万以内数的认识",
+          "unit_number": 3
+        },
+        {
+          "end": 82,
+          "label": "",
+          "points": [
+            "三位数加法的笔算与验算",
+            "三位数减法的笔算与验算",
+            "结合数位与运算意义检查计算结果",
+            "运用加减法解决生活中的简单问题"
+          ],
+          "start": 63,
+          "title": "万以内的加法和减法",
+          "unit_number": 4
+        },
+        {
+          "end": 86,
+          "label": "综合与实践",
+          "points": [
+            "阅读数学连环画并提取数量信息",
+            "把连环画情境转化为数学问题",
+            "选择合适的运算表示数量关系",
+            "选择生活主题并创作数学连环画",
+            "讲述、评价并改进数学连环画"
+          ],
+          "start": 83,
+          "title": "数学连环画",
+          "unit_number": 102
+        },
+        {
+          "end": 96,
+          "label": "复习与关联",
+          "points": [
+            "综合复习整时、几时几分与经过时间",
+            "联系平均分、乘除关系和有余数除法",
+            "复习万以内数的读写、组成与大小比较",
+            "综合运用万以内加减法解决问题",
+            "从图表和情境中筛选条件并提出问题",
+            "万以内数的近似数与加减法估算"
+          ],
+          "start": 87,
+          "title": "复习与关联",
+          "unit_number": 5
+        }
+      ],
+      "readings": [],
+      "requiresIndependentFinalScreen": true
+    },
+    {
+      "key": "math3down",
+      "subject": "math",
+      "grade": 3,
+      "semester": "down",
+      "legacyId": "g3down",
+      "id": "g3down-2026",
+      "stem": "义务教育教科书·数学三年级下册（2022课标修订版）",
+      "edition": "2026",
+      "editionLabel": "2022课标修订版",
+      "sourceId": "8666a8bd-a0e7-49aa-ba07-bf419ceead24",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书·数学三年级下册",
+      "imageBase": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/8666a8bd-a0e7-49aa-ba07-bf419ceead24.t/zh-CN/1772437368975/transcode/image",
+      "pageCount": 114,
+      "pageOffset": 5,
+      "sourceReview": "docs/issue-14-textbook-review-2026-10-25.json",
+      "units": [
+        {
+          "unit_number": 1,
+          "title": "生活中的运动现象",
+          "label": "",
+          "start": 1,
+          "end": 9,
+          "points": [
+            "认识轴对称现象与对称图形",
+            "认识平移现象",
+            "认识旋转现象",
+            "辨别并描述生活中的运动现象"
+          ]
+        },
+        {
+          "unit_number": 2,
+          "title": "除数是一位数的除法",
+          "label": "",
+          "start": 10,
+          "end": 38,
+          "points": [
+            "口算除法与估算",
+            "两位数除以一位数的笔算",
+            "三位数除以一位数的笔算",
+            "商中间或末尾有0的除法",
+            "用乘法验算除法",
+            "用乘法和除法解决实际问题"
+          ]
+        },
+        {
+          "unit_number": 3,
+          "title": "长方形和正方形",
+          "label": "",
+          "start": 39,
+          "end": 51,
+          "points": [
+            "认识多边形",
+            "长方形和正方形的特征",
+            "认识、测量和计算周长",
+            "运用周长解决实际问题",
+            "图形拼组——四连方"
+          ]
+        },
+        {
+          "unit_number": 4,
+          "title": "图形的面积",
+          "label": "",
+          "start": 52,
+          "end": 64,
+          "points": [
+            "面积的含义和比较",
+            "认识平方厘米、平方分米和平方米",
+            "长方形和正方形的面积",
+            "面积单位之间的换算",
+            "区分面积和周长"
+          ]
+        },
+        {
+          "unit_number": 5,
+          "title": "数据的收集与整理",
+          "label": "",
+          "start": 65,
+          "end": 76,
+          "points": [
+            "选择数据收集方法",
+            "分类整理数据并制作统计表",
+            "根据统计表分析和解决问题"
+          ]
+        },
+        {
+          "unit_number": 101,
+          "title": "年、月、日的秘密",
+          "label": "综合与实践",
+          "start": 77,
+          "end": 85,
+          "points": [
+            "认识年、月、日和大小月",
+            "认识平年和闰年",
+            "制作日历并解决日期问题",
+            "24时计时法与一天的时间",
+            "二十四节气与日影变化"
+          ]
+        },
+        {
+          "unit_number": 6,
+          "title": "小数的初步认识",
+          "label": "",
+          "start": 86,
+          "end": 94,
+          "points": [
+            "小数的意义和读写",
+            "小数的大小比较",
+            "计算一位小数加减法",
+            "用小数解决实际问题"
+          ]
+        },
+        {
+          "unit_number": 7,
+          "title": "复习与关联",
+          "label": "",
+          "start": 95,
+          "end": 104,
+          "points": [
+            "综合运用除法和小数计算",
+            "小数的认识与大小比较",
+            "长方形、正方形的特征及周长和面积",
+            "联系运动现象和日历解决问题",
+            "整理数据并说明分析结果",
+            "用重叠关系解决简单计数问题"
+          ]
+        }
+      ],
+      "readings": [],
+      "requiresIndependentFinalScreen": true
+    },
+    {
+      "key": "math4up",
+      "subject": "math",
+      "grade": 4,
+      "semester": "up",
+      "legacyId": "g4up",
+      "id": "g4up-2026",
+      "stem": "义务教育教科书 · 数学四年级上册（2022课标修订版）",
+      "edition": "2026",
+      "editionLabel": "2022课标修订版",
+      "sourceId": "654e3d1e-c995-4340-81c5-abd7881d835b",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书 · 数学四年级上册",
+      "imageBase": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/654e3d1e-c995-4340-81c5-abd7881d835b.t/zh-CN/1787023027567/transcode/image",
+      "pageCount": 127,
+      "pageOffset": 5,
+      "sourceReview": "docs/issue-14-textbook-review-2026-10-25.json",
+      "units": [
+        {
+          "end": 23,
+          "label": "",
+          "points": [
+            "认识万以上的计数单位，理解十进制计数法",
+            "掌握到千亿位的数位顺序，理解数位、计数单位与数级",
+            "认识自然数及其基本特征",
+            "学习万以上数的读法和写法，能按数级正确读写",
+            "比较万以上数的大小，并按要求改写或求近似数"
+          ],
+          "start": 1,
+          "title": "万以上数的认识",
+          "unit_number": 1
+        },
+        {
+          "end": 27,
+          "label": "综合与实践",
+          "points": [
+            "借助熟悉的数量感受一亿的大小",
+            "运用估算、推算等方法解决与大数有关的实际问题"
+          ],
+          "start": 24,
+          "title": "1亿有多大",
+          "unit_number": 101
+        },
+        {
+          "end": 38,
+          "label": "",
+          "points": [
+            "认识角的组成，理解角的大小与两边张开程度的关系",
+            "认识量角器，学习用量角器量角和画角",
+            "根据度数辨认锐角、直角、钝角、平角和周角，并理解它们之间的关系",
+            "用直行、转向和循环命令描述机器人的行走路线"
+          ],
+          "start": 28,
+          "title": "角的度量",
+          "unit_number": 2
+        },
+        {
+          "end": 57,
+          "label": "",
+          "points": [
+            "掌握口算乘法的方法，理解拆分及乘整十数的算理",
+            "掌握多位数乘两位数的笔算方法，理解计算过程",
+            "掌握因数末尾有0的乘法及积的变化规律",
+            "用计算器探索乘法数字规律，并推算和检验",
+            "运用估算检验乘法结果，解决多位数乘法实际问题"
+          ],
+          "start": 39,
+          "title": "多位数乘两位数",
+          "unit_number": 3
+        },
+        {
+          "end": 69,
+          "label": "",
+          "points": [
+            "从实际情境中识别加法模型，分析数量关系并解决问题",
+            "从实际情境中识别乘法模型，分析数量关系并解决问题",
+            "综合运用加法与乘法模型解决两步或多步实际问题"
+          ],
+          "start": 58,
+          "title": "加法模型和乘法模型",
+          "unit_number": 4
+        },
+        {
+          "end": 87,
+          "label": "",
+          "points": [
+            "认识平行和垂直",
+            "画垂线和平行线，认识点到直线的距离",
+            "认识平行四边形和梯形，能辨认并描述其特征",
+            "认识两组对边分别平行的四边形及只有一组对边平行的梯形",
+            "运用平行和垂直画长方形、正方形，识别、构造和分解相关图形"
+          ],
+          "start": 70,
+          "title": "平行四边形和梯形",
+          "unit_number": 5
+        },
+        {
+          "end": 101,
+          "label": "",
+          "points": [
+            "认识条形统计图，理解用直条表示数据的方法",
+            "根据数据制作并读懂条形统计图，比较数量多少",
+            "从统计图中提取信息并回答问题，初步用数据作出判断",
+            "认识、绘制和分析复式条形统计图"
+          ],
+          "start": 88,
+          "title": "条形统计图",
+          "unit_number": 6
+        },
+        {
+          "end": 107,
+          "label": "综合与实践",
+          "points": [
+            "辨认八个方向，结合参照点判断位置与路线",
+            "绘制藏宝图，设计并检验准确的寻宝指令"
+          ],
+          "start": 102,
+          "title": "寻找宝藏",
+          "unit_number": 102
+        },
+        {
+          "end": 119,
+          "label": "",
+          "points": [
+            "整理并运用万以上数的读写、比较及近似数知识",
+            "综合运用乘法计算、估算与验算解决实际问题",
+            "综合运用角的度量及平行四边形、梯形的特征解决问题",
+            "运用条形统计图整理、表示和分析数据",
+            "辨认八个方向，读懂平面图并描述简单路线",
+            "综合分析多条件实际问题，解释解题思路并检验结果",
+            "用列表和假设解决鸡兔同笼问题"
+          ],
+          "start": 108,
+          "title": "复习与关联",
+          "unit_number": 7
+        }
+      ],
+      "readings": [],
+      "requiresIndependentFinalScreen": true
+    },
+    {
+      "key": "math5up",
+      "subject": "math",
+      "grade": 5,
+      "semester": "up",
+      "legacyId": "g5up",
+      "id": "g5up-2026",
+      "stem": "义务教育教科书 · 数学五年级上册（2022课标修订版）",
+      "edition": "2026",
+      "editionLabel": "2022课标修订版",
+      "sourceId": "d0d6252f-2233-4f66-9ac9-440638d56fec",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书 · 数学五年级上册",
+      "imageBase": "https://r2-ndr.ykt.cbern.com.cn/edu_product/esp/assets/d0d6252f-2233-4f66-9ac9-440638d56fec.t/zh-CN/1787023028106/transcode/image",
+      "pageCount": 126,
+      "pageOffset": 5,
+      "sourceReview": "docs/issue-14-textbook-review-2026-10-25.json",
+      "units": [
+        {
+          "end": 6,
+          "label": "",
+          "points": [
+            "从一个方向观察组合体并描述所见图形",
+            "根据不同方向看到的图形判断观察方向",
+            "根据多个方向的平面图形还原组合体",
+            "用小正方体搭出符合观察要求的组合体"
+          ],
+          "start": 1,
+          "title": "观察简单组合体",
+          "unit_number": 1
+        },
+        {
+          "end": 23,
+          "label": "",
+          "points": [
+            "小数乘整数的意义与计算",
+            "小数乘小数的计算方法",
+            "积的小数位数与小数点位置",
+            "积的近似数",
+            "积与乘数的大小关系",
+            "整数乘法运算定律推广到小数乘法",
+            "小数乘法的实际应用"
+          ],
+          "start": 7,
+          "title": "小数乘法",
+          "unit_number": 2
+        },
+        {
+          "end": 38,
+          "label": "",
+          "points": [
+            "除数是整数的小数除法",
+            "一个数除以小数的计算方法",
+            "商的小数位数与小数点位置",
+            "商的近似数",
+            "循环小数的认识与表示",
+            "小数除法的估算与实际应用"
+          ],
+          "start": 24,
+          "title": "小数除法",
+          "unit_number": 3
+        },
+        {
+          "end": 54,
+          "label": "",
+          "points": [
+            "轴对称图形的特征与对称轴",
+            "在方格纸上补全轴对称图形",
+            "图形平移的方向与距离",
+            "在方格纸上画出平移后的图形",
+            "利用平移转化图形求面积",
+            "旋转的要素与基本特征",
+            "在方格纸上画出旋转后的图形",
+            "平移与旋转的组合应用",
+            "利用图形运动分析和设计图案"
+          ],
+          "start": 39,
+          "title": "图形的运动",
+          "unit_number": 4
+        },
+        {
+          "end": 71,
+          "label": "",
+          "points": [
+            "用字母表示数量与运算关系",
+            "含有字母的式子的求值",
+            "用字母表示常见数量关系",
+            "用字母表示运算定律与计算公式",
+            "等式的基本性质及求未知数",
+            "根据数量关系解决实际问题",
+            "用字母表示规律"
+          ],
+          "start": 55,
+          "title": "用字母表示数和数量关系",
+          "unit_number": 5
+        },
+        {
+          "end": 94,
+          "label": "",
+          "points": [
+            "平行四边形面积公式的推导与应用",
+            "三角形面积公式的推导与应用",
+            "梯形面积公式的推导与应用",
+            "组合图形面积的计算",
+            "不规则图形面积的估计与计算",
+            "面积公式在实际问题中的应用"
+          ],
+          "start": 72,
+          "title": "多边形的面积",
+          "unit_number": 6
+        },
+        {
+          "end": 97,
+          "label": "综合与实践",
+          "points": [
+            "认识图形密铺及其基本条件",
+            "用平面图形设计连续密铺图案"
+          ],
+          "start": 95,
+          "title": "有趣的密铺",
+          "unit_number": 101
+        },
+        {
+          "end": 106,
+          "label": "",
+          "points": [
+            "用具体情境认识随机现象",
+            "描述事件发生的可能性",
+            "比较事件发生可能性的大小",
+            "用数据和试验结果描述可能性"
+          ],
+          "start": 98,
+          "title": "可能性",
+          "unit_number": 7
+        },
+        {
+          "end": 117,
+          "label": "",
+          "points": [
+            "整理与应用小数四则运算知识解决问题",
+            "整理与应用用字母表示数和数量关系",
+            "整理与应用组合体观察与图形运动知识",
+            "综合运用多边形面积知识解决问题",
+            "辨析有关可能性的情境与判断",
+            "理解植树问题中棵数与间隔数的关系"
+          ],
+          "start": 107,
+          "title": "复习与关联",
+          "unit_number": 8
+        }
+      ],
+      "readings": [],
+      "requiresIndependentFinalScreen": true
+    },
+    {
+      "key": "math6up",
+      "subject": "math",
+      "grade": 6,
+      "semester": "up",
+      "legacyId": "g6up",
+      "id": "g6up-2026",
+      "stem": "义务教育教科书 · 数学六年级上册（2022课标修订版）",
+      "edition": "2026",
+      "editionLabel": "2022课标修订版",
+      "sourceId": "845136d4-e27b-4e7e-b9a9-00cadf4f9e20",
+      "sourceTitle": "（根据2022年版课程标准修订）义务教育教科书 · 数学六年级上册",
+      "imageBase": "https://r3-ndr.ykt.cbern.com.cn/edu_product/esp/assets/845136d4-e27b-4e7e-b9a9-00cadf4f9e20.t/zh-CN/1787023028637/transcode/image",
+      "pageCount": 126,
+      "pageOffset": 5,
+      "sourceReview": "docs/issue-14-textbook-review-2026-10-25.json",
+      "units": [
+        {
+          "end": 15,
+          "label": "",
+          "points": [
+            "用有序数对表示座位位置",
+            "根据有序数对在方格图中确定位置",
+            "用方向和距离描述位置",
+            "根据方向和距离在平面图上确定位置",
+            "用方向和距离描述与绘制路线"
+          ],
+          "start": 1,
+          "title": "确定位置",
+          "unit_number": 1
+        },
+        {
+          "end": 31,
+          "label": "",
+          "points": [
+            "分数乘整数的意义与计算",
+            "一个数乘分数的意义与计算",
+            "分数混合运算与简便计算",
+            "连续求一个数的几分之几",
+            "分数、小数混合乘法及求比一个数多（少）几分之几的数"
+          ],
+          "start": 16,
+          "title": "分数乘法",
+          "unit_number": 2
+        },
+        {
+          "end": 43,
+          "label": "",
+          "points": [
+            "倒数的认识与求法",
+            "分数除法的意义与计算",
+            "一个数除以分数的计算方法",
+            "分数混合运算的顺序与计算",
+            "已知一个数的几分之几求这个数",
+            "用分数除法解决实际问题"
+          ],
+          "start": 32,
+          "title": "分数除法",
+          "unit_number": 3
+        },
+        {
+          "end": 47,
+          "label": "综合与实践",
+          "points": [
+            "用正、负数表示生活中相反意义的量",
+            "在数轴上表示正数、负数和0",
+            "认识正数、负数和0",
+            "用负数表示较小数减较大数的结果"
+          ],
+          "start": 44,
+          "title": "生活中的负数",
+          "unit_number": 101
+        },
+        {
+          "end": 73,
+          "label": "",
+          "points": [
+            "圆的认识与画法",
+            "扇形的认识",
+            "圆的周长及其计算",
+            "圆的面积及其计算",
+            "圆环面积的计算",
+            "圆与组合图形的周长和面积"
+          ],
+          "start": 48,
+          "title": "圆",
+          "unit_number": 4
+        },
+        {
+          "end": 78,
+          "label": "综合与实践",
+          "points": [
+            "从体育情境中提取数学信息",
+            "运用本册所学知识分析体育问题",
+            "用数据和算式说明解决方案"
+          ],
+          "start": 74,
+          "title": "体育中的数学",
+          "unit_number": 102
+        },
+        {
+          "end": 100,
+          "label": "",
+          "points": [
+            "百分数的意义与读写",
+            "百分数、小数和分数的互化",
+            "求一个数是另一个数的百分之几",
+            "求一个数的百分之几是多少",
+            "已知一个数的百分之几求这个数",
+            "百分数在生活中的应用"
+          ],
+          "start": 79,
+          "title": "百分数",
+          "unit_number": 5
+        },
+        {
+          "end": 105,
+          "label": "综合与实践",
+          "points": [
+            "整理并解读水资源相关数据",
+            "设计并实施生活用水调查",
+            "根据数据提出节水建议",
+            "合作设计并开展节水宣传"
+          ],
+          "start": 101,
+          "title": "水是生命之源",
+          "unit_number": 103
+        },
+        {
+          "end": 117,
+          "label": "",
+          "points": [
+            "用有序数对描述和确定位置",
+            "分数乘除法的计算与联系",
+            "综合运用分数乘除法解决问题",
+            "用方向和距离确定位置、描述路线",
+            "圆和扇形的认识、圆的周长与面积",
+            "综合运用百分数解决实际问题",
+            "平均数与百分数的统计意义和作用",
+            "运用鸽巢原理解决简单分配与保证问题"
+          ],
+          "start": 106,
+          "title": "复习与关联",
+          "unit_number": 6
+        }
+      ],
+      "readings": [],
+      "requiresIndependentFinalScreen": true
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "testKind": "controlled local HTTP faults against production export, real browser UI, isolated test profile",
+  "cases": {
+    "http503": "error/retry; bank retained",
+    "18SecondStall": "bounded failure/retry; exact 15s timer additionally unit tested",
+    "2SecondDelay": "loading state then answerable five-question recovery",
+    "recovery": "5/5,+25XP,+1heart; one click returns to original checked wrong feedback",
+    "refreshAfterRecovery": "1heart remains, no repeated grading",
+    "audio503": "visible failure; completedReadings empty and XP25 unchanged",
+    "audioRecovery": "restarted and fully completed; exactly one listening receipt and +5XP (25→30)"
+  },
+  "realWeakNetworkAndPhysicalDevices": "pending"
+}

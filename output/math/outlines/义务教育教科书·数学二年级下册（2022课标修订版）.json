@@ -1,0 +1,422 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书·数学二年级下册（2022课标修订版）",
+  "edition": "2026",
+  "editionLabel": "2022课标修订版",
+  "supersedes": "g2down",
+  "units": [
+    {
+      "unit_number": 101,
+      "title": "时间在哪里",
+      "label": "起始活动",
+      "knowledge_points": [
+        {
+          "name": "认识钟面上的时针、分针、秒针和数字",
+          "description": "结合新版教材学习认识钟面上的时针、分针、秒针和数字",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "读出整时与几时半",
+          "description": "结合新版教材学习读出整时与几时半",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识几时几分并读写钟面时间",
+          "description": "结合新版教材学习认识几时几分并读写钟面时间",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用时间顺序描述一天的活动",
+          "description": "结合新版教材学习用时间顺序描述一天的活动",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "计算经过的时间并解决简单作息问题",
+          "description": "结合新版教材学习计算经过的时间并解决简单作息问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "体验与估计时间",
+          "description": "结合新版教材学习体验与估计时间",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 1,
+      "title": "有余数的除法",
+      "knowledge_points": [
+        {
+          "name": "理解平均分与除法算式的联系",
+          "description": "结合新版教材学习理解平均分与除法算式的联系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识有余数的除法及余数",
+          "description": "结合新版教材学习认识有余数的除法及余数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用乘法口诀求商并写出商和余数",
+          "description": "结合新版教材学习用乘法口诀求商并写出商和余数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "理解余数必须小于除数",
+          "description": "结合新版教材学习理解余数必须小于除数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用有余数除法解决分物与装载问题",
+          "description": "结合新版教材学习用有余数除法解决分物与装载问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用有余数的除法解决周期排列问题",
+          "description": "结合新版教材学习用有余数的除法解决周期排列问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "数量间的乘除关系",
+      "knowledge_points": [
+        {
+          "name": "从具体情境中辨认几倍关系",
+          "description": "结合新版教材学习从具体情境中辨认几倍关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用乘法表示求一个数的几倍",
+          "description": "结合新版教材学习用乘法表示求一个数的几倍",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用除法表示求一个数是另一个数的几倍",
+          "description": "结合新版教材学习用除法表示求一个数是另一个数的几倍",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "理解乘除法之间的互逆关系",
+          "description": "结合新版教材学习理解乘除法之间的互逆关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "分析数量关系并选择乘法或除法解决问题",
+          "description": "结合新版教材学习分析数量关系并选择乘法或除法解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据数量关系提出问题或补充合理条件",
+          "description": "结合新版教材学习根据数量关系提出问题或补充合理条件",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "万以内数的认识",
+      "knowledge_points": [
+        {
+          "name": "认识千以内数的组成与数位顺序",
+          "description": "结合新版教材学习认识千以内数的组成与数位顺序",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识万以内数的计数单位和数位",
+          "description": "结合新版教材学习认识万以内数的计数单位和数位",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "读写万以内数并理解数位上的数字意义",
+          "description": "结合新版教材学习读写万以内数并理解数位上的数字意义",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识算盘并用算盘表示万以内的数",
+          "description": "结合新版教材学习认识算盘并用算盘表示万以内的数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "比较万以内数的大小并按要求排列",
+          "description": "结合新版教材学习比较万以内数的大小并按要求排列",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识近似数并进行合理估计",
+          "description": "结合新版教材学习认识近似数并进行合理估计",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用数轴或计数活动表示万以内数",
+          "description": "结合新版教材学习用数轴或计数活动表示万以内数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "整十、整百、整千数的简单加减法",
+          "description": "结合新版教材学习整十、整百、整千数的简单加减法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "万以内的加法和减法",
+      "knowledge_points": [
+        {
+          "name": "三位数加法的笔算与验算",
+          "description": "结合新版教材学习三位数加法的笔算与验算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "三位数减法的笔算与验算",
+          "description": "结合新版教材学习三位数减法的笔算与验算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "结合数位与运算意义检查计算结果",
+          "description": "结合新版教材学习结合数位与运算意义检查计算结果",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "运用加减法解决生活中的简单问题",
+          "description": "结合新版教材学习运用加减法解决生活中的简单问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 102,
+      "title": "数学连环画",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "阅读数学连环画并提取数量信息",
+          "description": "结合新版教材学习阅读数学连环画并提取数量信息",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "把连环画情境转化为数学问题",
+          "description": "结合新版教材学习把连环画情境转化为数学问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "选择合适的运算表示数量关系",
+          "description": "结合新版教材学习选择合适的运算表示数量关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "选择生活主题并创作数学连环画",
+          "description": "结合新版教材学习选择生活主题并创作数学连环画",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "讲述、评价并改进数学连环画",
+          "description": "结合新版教材学习讲述、评价并改进数学连环画",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "复习与关联",
+      "label": "复习与关联",
+      "knowledge_points": [
+        {
+          "name": "综合复习整时、几时几分与经过时间",
+          "description": "结合新版教材学习综合复习整时、几时几分与经过时间",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "联系平均分、乘除关系和有余数除法",
+          "description": "结合新版教材学习联系平均分、乘除关系和有余数除法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "复习万以内数的读写、组成与大小比较",
+          "description": "结合新版教材学习复习万以内数的读写、组成与大小比较",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "综合运用万以内加减法解决问题",
+          "description": "结合新版教材学习综合运用万以内加减法解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "从图表和情境中筛选条件并提出问题",
+          "description": "结合新版教材学习从图表和情境中筛选条件并提出问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "万以内数的近似数与加减法估算",
+          "description": "结合新版教材学习万以内数的近似数与加减法估算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "status": "local_verified",
+  "release": "v1.6.0-chinese-g5up",
+  "newBookId": "chinese-g5up-2026",
+  "legacyBookId": "chinese-g5up",
+  "newContent": {
+    "units": 8,
+    "regularLessons": 36,
+    "regularQuestions": 216,
+    "challengeQuestions": 48,
+    "readings": 39
+  },
+  "edgeAudio": {
+    "provider": "Microsoft EdgeTTS",
+    "books": 6,
+    "textVoiceJobs": 10055,
+    "allMp3Decoded": true,
+    "matchingOpus": true,
+    "versionedCurrentReferences": true
+  },
+  "tests": {
+    "core": 231,
+    "iosSimulator": 207,
+    "actualGraderQuestions": 22178,
+    "legacyJsonPreserved": 2950,
+    "nginxHttpRequests": 87,
+    "staticPages": 4572,
+    "localBrowser": "new G5 6/6,3stars and grade preservation across voice replacement"
+  },
+  "siteCounts": {
+    "json_files": 2669,
+    "books": 51,
+    "lessons": 2573,
+    "lesson_questions": 16419,
+    "question_audio": 17645,
+    "explanation_audio": 17645,
+    "knowledge_text_fields": 7718,
+    "knowledge_audio_fields": 7718,
+    "units": 336,
+    "passages": 936,
+    "passages_sentences": 15647,
+    "passages_sentence_audio": 15647,
+    "passages_with_original_pages": 936,
+    "stories": 284,
+    "stories_sentences": 5037,
+    "stories_sentence_audio": 5037,
+    "story_questions": 1226,
+    "story_images": 284
+  },
+  "historicalWarnings": {
+    "narrationControlCharacters": 9,
+    "newBookControlCharacters": 0,
+    "unchangedLegacyContentWarnings": true
+  },
+  "publicationEvidence": "See final Release VALIDATION.json and docs/issue-22-textbook-review-2026-10-24.md; this file records pre-publication local verification."
+}

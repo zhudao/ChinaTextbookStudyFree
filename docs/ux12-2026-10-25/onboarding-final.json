@@ -1,0 +1,348 @@
+[
+  {
+    "width": 320,
+    "probe": {
+      "button": {
+        "height": 50,
+        "width": 280,
+        "x": 20,
+        "y": 778
+      },
+      "fullyVisible": true,
+      "height": 844,
+      "overflow": false,
+      "points": [
+        {
+          "hit": true,
+          "x": 30,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 30,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 30,
+          "y": 818
+        },
+        {
+          "hit": true,
+          "x": 160,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 160,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 160,
+          "y": 818
+        },
+        {
+          "hit": true,
+          "x": 290,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 290,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 290,
+          "y": 818
+        }
+      ],
+      "visibleNav": 0,
+      "width": 320
+    },
+    "contrast": {
+      "checked": 14,
+      "dark": true,
+      "failures": [],
+      "route": "/",
+      "skipped": [
+        "💎 每日登录奖励 +5"
+      ],
+      "width": 320
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 320,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/",
+        "scrollWidth": 320,
+        "undersizedButtons": [],
+        "width": 320
+      },
+      "passed": true
+    }
+  },
+  {
+    "width": 360,
+    "probe": {
+      "button": {
+        "height": 50,
+        "width": 320,
+        "x": 20,
+        "y": 778
+      },
+      "fullyVisible": true,
+      "height": 844,
+      "overflow": false,
+      "points": [
+        {
+          "hit": true,
+          "x": 30,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 30,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 30,
+          "y": 818
+        },
+        {
+          "hit": true,
+          "x": 180,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 180,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 180,
+          "y": 818
+        },
+        {
+          "hit": true,
+          "x": 330,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 330,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 330,
+          "y": 818
+        }
+      ],
+      "visibleNav": 0,
+      "width": 360
+    },
+    "contrast": {
+      "checked": 15,
+      "dark": true,
+      "failures": [],
+      "route": "/",
+      "skipped": [],
+      "width": 360
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 360,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/",
+        "scrollWidth": 360,
+        "undersizedButtons": [],
+        "width": 360
+      },
+      "passed": true
+    }
+  },
+  {
+    "width": 390,
+    "probe": {
+      "button": {
+        "height": 50,
+        "width": 350,
+        "x": 20,
+        "y": 778
+      },
+      "fullyVisible": true,
+      "height": 844,
+      "overflow": false,
+      "points": [
+        {
+          "hit": true,
+          "x": 30,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 30,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 30,
+          "y": 818
+        },
+        {
+          "hit": true,
+          "x": 195,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 195,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 195,
+          "y": 818
+        },
+        {
+          "hit": true,
+          "x": 360,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 360,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 360,
+          "y": 818
+        }
+      ],
+      "visibleNav": 0,
+      "width": 390
+    },
+    "contrast": {
+      "checked": 15,
+      "dark": true,
+      "failures": [],
+      "route": "/",
+      "skipped": [],
+      "width": 390
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 390,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/",
+        "scrollWidth": 390,
+        "undersizedButtons": [],
+        "width": 390
+      },
+      "passed": true
+    }
+  },
+  {
+    "width": 430,
+    "probe": {
+      "button": {
+        "height": 50,
+        "width": 390,
+        "x": 20,
+        "y": 778
+      },
+      "fullyVisible": true,
+      "height": 844,
+      "overflow": false,
+      "points": [
+        {
+          "hit": true,
+          "x": 30,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 30,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 30,
+          "y": 818
+        },
+        {
+          "hit": true,
+          "x": 215,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 215,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 215,
+          "y": 818
+        },
+        {
+          "hit": true,
+          "x": 400,
+          "y": 788
+        },
+        {
+          "hit": true,
+          "x": 400,
+          "y": 803
+        },
+        {
+          "hit": true,
+          "x": 400,
+          "y": 818
+        }
+      ],
+      "visibleNav": 0,
+      "width": 430
+    },
+    "contrast": {
+      "checked": 15,
+      "dark": true,
+      "failures": [],
+      "route": "/",
+      "skipped": [],
+      "width": 430
+    },
+    "layout": {
+      "failures": [],
+      "metrics": {
+        "clientWidth": 430,
+        "clippedHeadings": [],
+        "failedImages": [],
+        "height": 844,
+        "immersiveNav": false,
+        "route": "/",
+        "scrollWidth": 430,
+        "undersizedButtons": [],
+        "width": 430
+      },
+      "passed": true
+    }
+  }
+]

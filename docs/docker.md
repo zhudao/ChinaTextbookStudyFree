@@ -13,11 +13,11 @@
 ```sh
 git clone --branch main https://github.com/wuwangzhang1216/ChinaTextbookStudyFree.git
 cd ChinaTextbookStudyFree
-docker compose build --build-arg ASSETS_RELEASE=v1.5.0-five-textbooks
+docker compose build --build-arg ASSETS_RELEASE=v1.7.1
 docker compose up -d --no-build --wait --wait-timeout 120
 ```
 
-打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载并校验 `v1.5.0-five-textbooks` 的全部资源（音频按体积分包），复用已验证的 MP3 与转换缓存，再导出静态站点。下载、校验和构建需要时间；建议至少预留 40 GB 磁盘空间。后续修改页面复用依赖及资源层缓存。
+打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载并校验 `v1.7.1` 的全部资源（音频按体积分包），复用已验证的 MP3 与转换缓存，再导出静态站点。下载、校验和构建需要时间；建议至少预留 40 GB 磁盘空间。后续修改页面复用依赖及资源层缓存。
 
 镜像包含四科题库、课文、故事、配图、原音频及 Web MP3；运行阶段只有 Nginx，无需业务后端或数据库。代码、构建工具和环境密钥不进入运行镜像。
 
@@ -28,7 +28,7 @@ docker compose up -d --no-build --wait --wait-timeout 120
 ```sh
 git switch main
 git pull --ff-only origin main
-docker compose build --build-arg ASSETS_RELEASE=v1.5.0-five-textbooks
+docker compose build --build-arg ASSETS_RELEASE=v1.7.1
 docker compose up -d --no-build --force-recreate --wait --wait-timeout 120
 ```
 

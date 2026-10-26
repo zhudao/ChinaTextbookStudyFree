@@ -1,0 +1,785 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学五年级上册（2022课标修订版）",
+  "unit": "用字母表示数和数量关系",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "用字母表示数和数量关系·配套练习",
+    "total_score": 420,
+    "time_minutes": 42,
+    "questions": [
+      {
+        "answer": "a²",
+        "difficulty": 1,
+        "explanation": "a×a可以写作a²，读作“a的平方”。2a表示a+a，不是a×a。",
+        "knowledge_point": "用字母表示数量与运算关系",
+        "options": [
+          "a",
+          "2a",
+          "a²",
+          "a+2"
+        ],
+        "question": "两个a相乘，积可以简写成什么？",
+        "type": "choice",
+        "id": 50001,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "数字与字母相乘，可以省略乘号，把数字写在字母前面，所以7×a可以写成7a。",
+        "knowledge_point": "用字母表示数量与运算关系",
+        "options": [],
+        "question": "7×a可以写成7a。对还是错？",
+        "type": "true_false",
+        "id": 50002,
+        "score": 10
+      },
+      {
+        "answer": "n-3",
+        "difficulty": 1,
+        "explanation": "剩余数量等于原有数量减去取出数量，即n-3个。",
+        "knowledge_point": "用字母表示数量与运算关系",
+        "options": [
+          "3-n",
+          "3n",
+          "n-3",
+          "n+3"
+        ],
+        "question": "盒中原有n个球，n是大于或等于3的整数。取出3个后还剩多少个？",
+        "type": "choice",
+        "id": 50003,
+        "score": 10
+      },
+      {
+        "answer": "ab",
+        "difficulty": 1,
+        "explanation": "每层a本，b层共有a×b本。字母与字母相乘，乘号可以省略，写作ab。",
+        "knowledge_point": "用字母表示数量与运算关系",
+        "options": [
+          "ab",
+          "2ab",
+          "a-b",
+          "a+b"
+        ],
+        "question": "书架有b层，每层放a本书。a、b都是正整数。把总本数a×b省略乘号后，应写成什么？",
+        "type": "choice",
+        "id": 50004,
+        "score": 10
+      },
+      {
+        "answer": "a+b",
+        "difficulty": 1,
+        "explanation": "没有重叠或长度损耗，总长就是两段绳子的长度之和，即a+b米。",
+        "knowledge_point": "用字母表示数量与运算关系",
+        "options": [
+          "a+b",
+          "ab",
+          "a-b",
+          "2(a+b)"
+        ],
+        "question": "两段绳子分别长a米和b米。把它们首尾连接，接头处不重叠，也没有长度损耗。总长是多少米？",
+        "type": "choice",
+        "id": 50005,
+        "score": 10
+      },
+      {
+        "answer": "3x+2",
+        "difficulty": 2,
+        "explanation": "3个大盒装3x个球，再加2个散球，共3x+2个。",
+        "knowledge_point": "用字母表示数量与运算关系",
+        "options": [
+          "3x+2",
+          "2x+3",
+          "3(x+2)",
+          "x+5"
+        ],
+        "question": "每个大盒装x个球，3个大盒外还有2个散球。一共有多少个球？",
+        "type": "choice",
+        "id": 50006,
+        "score": 10
+      },
+      {
+        "answer": "18",
+        "difficulty": 1,
+        "explanation": "把a=5代入，得2a+8=2×5+8=18。",
+        "knowledge_point": "含有字母的式子的求值",
+        "options": [],
+        "question": "当a=5时，2a+8的值是多少？",
+        "type": "calculation",
+        "id": 50007,
+        "score": 10
+      },
+      {
+        "answer": "15",
+        "difficulty": 1,
+        "explanation": "把x=4代入，得5x-5=5×4-5=20-5=15。",
+        "knowledge_point": "含有字母的式子的求值",
+        "options": [
+          "15",
+          "5",
+          "25",
+          "20"
+        ],
+        "question": "当x=4时，5x-5的值是多少？",
+        "type": "choice",
+        "id": 50008,
+        "score": 10
+      },
+      {
+        "answer": "27",
+        "difficulty": 2,
+        "explanation": "把a=3、b=6代入，得2(a+b)+9=2×(3+6)+9=18+9=27。",
+        "knowledge_point": "含有字母的式子的求值",
+        "options": [],
+        "question": "当a=3、b=6时，2(a+b)+9的值是多少？",
+        "type": "calculation",
+        "id": 50009,
+        "score": 10
+      },
+      {
+        "answer": "相等",
+        "difficulty": 2,
+        "explanation": "当x=4时，x²=4×4=16，4x=4×4=16，所以两者相等。这里只比较x=4时的值，不能认为两个式子总是相等。",
+        "knowledge_point": "含有字母的式子的求值",
+        "options": [
+          "x²大",
+          "相等",
+          "无法比较",
+          "4x大"
+        ],
+        "question": "当x=4时，x²与4x的值是什么关系？",
+        "type": "choice",
+        "id": 50010,
+        "score": 10
+      },
+      {
+        "answer": "33",
+        "difficulty": 2,
+        "explanation": "把a=6、b=9代入，得4a+b=4×6+9=24+9=33，共需33元。",
+        "knowledge_point": "含有字母的式子的求值",
+        "options": [
+          "33",
+          "69",
+          "60",
+          "39"
+        ],
+        "question": "每盒彩笔a元，每本练习本b元。买4盒彩笔和1本练习本共需4a+b元。当a=6、b=9时，共需多少元？",
+        "type": "choice",
+        "id": 50011,
+        "score": 10
+      },
+      {
+        "answer": "24",
+        "difficulty": 2,
+        "explanation": "把m=8、n=4代入，得2m+2n=2×8+2×4=16+8=24，周长是24厘米。",
+        "knowledge_point": "含有字母的式子的求值",
+        "options": [],
+        "question": "长方形的长是m厘米，宽是n厘米，周长为2m+2n厘米。当m=8、n=4时，周长是多少厘米？",
+        "type": "calculation",
+        "id": 50012,
+        "score": 10
+      },
+      {
+        "answer": "a+8",
+        "difficulty": 1,
+        "explanation": "小华比小明多8张，所以有a+8张。",
+        "knowledge_point": "用字母表示常见数量关系",
+        "options": [
+          "8a",
+          "8-a",
+          "a-8",
+          "a+8"
+        ],
+        "question": "小明有a张卡片，小华比小明多8张。小华有多少张？",
+        "type": "choice",
+        "id": 50013,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "制作总数量等于每小时制作数量乘工作时间，因此共制作12t个零件。",
+        "knowledge_point": "用字母表示常见数量关系",
+        "options": [],
+        "question": "机器每小时制作12个零件，连续工作t小时，共制作12t个零件。这个关系正确吗？",
+        "type": "true_false",
+        "id": 50014,
+        "score": 10
+      },
+      {
+        "answer": "8p",
+        "difficulty": 1,
+        "explanation": "总价等于单价乘数量，即p×8=8p元。",
+        "knowledge_point": "用字母表示常见数量关系",
+        "options": [
+          "p+8",
+          "p-8",
+          "8-p",
+          "8p"
+        ],
+        "question": "每本练习册p元，买8本要付多少元？",
+        "type": "choice",
+        "id": 50015,
+        "score": 10
+      },
+      {
+        "answer": "x-6",
+        "difficulty": 1,
+        "explanation": "小盒比大盒少6支，所以有x-6支。",
+        "knowledge_point": "用字母表示常见数量关系",
+        "options": [
+          "6x",
+          "x+6",
+          "6-x",
+          "x-6"
+        ],
+        "question": "大盒有x支铅笔，小盒比大盒少6支，x是大于6的整数。小盒有多少支？",
+        "type": "choice",
+        "id": 50016,
+        "score": 10
+      },
+      {
+        "answer": "a和b都增加1，差仍为6",
+        "difficulty": 2,
+        "explanation": "一年后两人的年龄都增加1岁，年龄差不变，仍是b-a=6。",
+        "knowledge_point": "用字母表示常见数量关系",
+        "options": [
+          "a和b都增加1，差变为7",
+          "只有a增加1，差变为5",
+          "a和b都增加1，差仍为6",
+          "只有b增加1，差变为7"
+        ],
+        "question": "妹妹今年a岁，姐姐今年b岁，b=a+6。一年后，两人的年龄和年龄差怎样变化？",
+        "type": "choice",
+        "id": 50017,
+        "score": 10
+      },
+      {
+        "answer": "a÷5",
+        "difficulty": 2,
+        "explanation": "人数等于卡片总数除以每人分得的张数，所以能分给a÷5人。",
+        "knowledge_point": "用字母表示常见数量关系",
+        "options": [
+          "a+5",
+          "a÷5",
+          "5a",
+          "a-5"
+        ],
+        "question": "有a张卡片，每人分5张，恰好分完。a是5的正整数倍。这些卡片能分给多少人？",
+        "type": "choice",
+        "id": 50018,
+        "score": 10
+      },
+      {
+        "answer": "a+b=b+a",
+        "difficulty": 1,
+        "explanation": "交换两个加数的位置，和不变，用字母表示就是a+b=b+a。",
+        "knowledge_point": "用字母表示运算定律与计算公式",
+        "options": [
+          "a+b=b+a",
+          "a×b=a+b",
+          "a+b=ab",
+          "a-b=b-a"
+        ],
+        "question": "下面哪个式子表示加法交换律？",
+        "type": "choice",
+        "id": 50019,
+        "score": 10
+      },
+      {
+        "answer": "8a",
+        "difficulty": 1,
+        "explanation": "把a看作相同的一份，2份加6份是8份。根据分配律，2a+6a=(2+6)a=8a。",
+        "knowledge_point": "用字母表示运算定律与计算公式",
+        "options": [
+          "8a",
+          "8a²",
+          "8+a",
+          "12a"
+        ],
+        "question": "运用分配律，2a+6a可以合写成哪个式子？",
+        "type": "choice",
+        "id": 50020,
+        "score": 10
+      },
+      {
+        "answer": "vt",
+        "difficulty": 1,
+        "explanation": "路程等于速度乘时间，所以行驶的路程为vt千米。",
+        "knowledge_point": "用字母表示运算定律与计算公式",
+        "options": [
+          "vt",
+          "v-t",
+          "v÷t",
+          "v+t"
+        ],
+        "question": "汽车以v千米/时的速度行驶t小时，t大于0。行驶的路程是多少千米？",
+        "type": "choice",
+        "id": 50021,
+        "score": 10
+      },
+      {
+        "answer": "4x+12",
+        "difficulty": 2,
+        "explanation": "每袋有x+3张，4袋共有4(x+3)张。运用分配律，4(x+3)=4x+4×3=4x+12。",
+        "knowledge_point": "用字母表示运算定律与计算公式",
+        "options": [
+          "4x+3",
+          "x+12",
+          "12x",
+          "4x+12"
+        ],
+        "question": "每袋有x张红卡片和3张蓝卡片。买4袋，共有4(x+3)张卡片。不带括号的正确表示是哪一个？",
+        "type": "choice",
+        "id": 50022,
+        "score": 10
+      },
+      {
+        "answer": "20",
+        "difficulty": 1,
+        "explanation": "长方形周长为2×(6+4)=2×10=20厘米。",
+        "knowledge_point": "用字母表示运算定律与计算公式",
+        "options": [
+          "24",
+          "48",
+          "20",
+          "10"
+        ],
+        "question": "长方形长6厘米、宽4厘米，它的周长是多少厘米？",
+        "type": "choice",
+        "id": 50023,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 2,
+        "explanation": "根据长方形面积等于长乘宽，宽为36÷9=4厘米。",
+        "knowledge_point": "用字母表示运算定律与计算公式",
+        "options": [],
+        "question": "长方形面积为36平方厘米，长为9厘米。它的宽是多少厘米？",
+        "type": "calculation",
+        "id": 50024,
+        "score": 10
+      },
+      {
+        "answer": "10",
+        "difficulty": 1,
+        "explanation": "2x=20，两边同时除以2，得x=10。检验：2×10=20。",
+        "knowledge_point": "等式的基本性质及求未知数",
+        "options": [],
+        "question": "2盒铅笔共有20支，每盒支数相同。用x表示每盒支数，得到2x=20。利用等式的基本性质求x。",
+        "type": "calculation",
+        "id": 50025,
+        "score": 10
+      },
+      {
+        "answer": "x+7=19",
+        "difficulty": 1,
+        "explanation": "原有数量加上放入数量等于现在的数量，所以x+7=19。",
+        "knowledge_point": "等式的基本性质及求未知数",
+        "options": [
+          "x+7=19",
+          "7x=19",
+          "x+19=7",
+          "x-7=19"
+        ],
+        "question": "盒里原有x颗糖，又放入7颗后共有19颗。表示这一数量关系的等式是哪一个？",
+        "type": "choice",
+        "id": 50026,
+        "score": 10
+      },
+      {
+        "answer": "9",
+        "difficulty": 1,
+        "explanation": "等式两边同时减去8，得x=17-8=9。检验：9+8=17。",
+        "knowledge_point": "等式的基本性质及求未知数",
+        "options": [
+          "17",
+          "25",
+          "9",
+          "8"
+        ],
+        "question": "利用等式的基本性质求未知数：x+8=17，x等于多少？",
+        "type": "choice",
+        "id": 50027,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "等式两边同时加5，等式仍成立，所以a+5=b+5。",
+        "knowledge_point": "等式的基本性质及求未知数",
+        "options": [],
+        "question": "如果a=b，那么a+5=b+5。对还是错？",
+        "type": "true_false",
+        "id": 50028,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 1,
+        "explanation": "5x=20，两边同时除以5，得x=4。检验：5×4=20，所以每张4元。",
+        "knowledge_point": "等式的基本性质及求未知数",
+        "options": [],
+        "question": "5张同价邮票共20元。用x表示每张邮票的价格，得到5x=20。每张邮票多少元？",
+        "type": "calculation",
+        "id": 50029,
+        "score": 10
+      },
+      {
+        "answer": "除以同一个不为0的数",
+        "difficulty": 2,
+        "explanation": "等式两边同时除以同一个不为0的数，等式仍成立。除数不能为0。",
+        "knowledge_point": "等式的基本性质及求未知数",
+        "options": [
+          "左边加2，右边加3",
+          "只把左边乘2",
+          "除以0",
+          "除以同一个不为0的数"
+        ],
+        "question": "已知a=b。下面哪种操作一定能保持等式成立？",
+        "type": "choice",
+        "id": 50030,
+        "score": 10
+      },
+      {
+        "answer": "12",
+        "difficulty": 1,
+        "explanation": "由n=4t，把t=3代入，得n=4×3=12，共装12个礼盒。",
+        "knowledge_point": "根据数量关系解决实际问题",
+        "options": [],
+        "question": "包装工每分钟装4个礼盒，t分钟装n个，关系为n=4t。工作3分钟，一共装多少个礼盒？",
+        "type": "calculation",
+        "id": 50031,
+        "score": 10
+      },
+      {
+        "answer": "20-a",
+        "difficulty": 1,
+        "explanation": "剩余数量等于原有数量减去取走数量，所以还剩20-a个。",
+        "knowledge_point": "根据数量关系解决实际问题",
+        "options": [
+          "20+a",
+          "a-20",
+          "20a",
+          "20-a"
+        ],
+        "question": "篮子里原有20个苹果，取走a个，a是从0到20的整数。还剩多少个苹果？",
+        "type": "choice",
+        "id": 50032,
+        "score": 10
+      },
+      {
+        "answer": "14",
+        "difficulty": 2,
+        "explanation": "每盒有35÷5=7块，2盒共有7×2=14块。",
+        "knowledge_point": "根据数量关系解决实际问题",
+        "options": [],
+        "question": "5盒彩泥一共35块，每盒数量相同。买2盒有多少块？",
+        "type": "calculation",
+        "id": 50033,
+        "score": 10
+      },
+      {
+        "answer": "60(a+b)",
+        "difficulty": 2,
+        "explanation": "两段共用a+b小时，总路程为60(a+b)千米。分别算两段再相加，得到60a+60b，两个式子表示同一路程。",
+        "knowledge_point": "根据数量关系解决实际问题",
+        "options": [
+          "60ab",
+          "60a+b",
+          "a+b+60",
+          "60(a+b)"
+        ],
+        "question": "客车以60千米/时的速度行驶，先行驶a小时，再以同样速度行驶b小时。先分别算两段路程，得到60a+60b千米。若先求总时间，应怎样表示同一总路程？",
+        "type": "choice",
+        "id": 50034,
+        "score": 10
+      },
+      {
+        "answer": "90",
+        "difficulty": 2,
+        "explanation": "计划总路程为120×2=240千米，还剩240-150=90千米。",
+        "knowledge_point": "根据数量关系解决实际问题",
+        "options": [],
+        "question": "一辆车计划以120千米/时的速度行驶2小时。按此计划行驶150千米后，距离计划终点还剩多少千米？",
+        "type": "calculation",
+        "id": 50035,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 2,
+        "explanation": "用x表示每袋颗数，数量关系为4x+5=17。两边同时减5，得4x=12；再同时除以4，得x=3。检验：4×3+5=17。",
+        "knowledge_point": "根据数量关系解决实际问题",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "12"
+        ],
+        "question": "小组买了4袋糖果，每袋颗数相同，又单独买了5颗，一共17颗。每袋糖果有多少颗？",
+        "type": "choice",
+        "id": 50036,
+        "score": 10
+      },
+      {
+        "answer": "3m+2",
+        "difficulty": 2,
+        "explanation": "每块展板正面放3张照片，m块共放3m张，另外固定放2张，所以n=3m+2。代入m=1、2、3，分别得到5、8、11，与表中数据一致。",
+        "knowledge_point": "用字母表示规律",
+        "options": [
+          "5m",
+          "3m+2",
+          "m+4",
+          "3m-2"
+        ],
+        "question": "每块展板正面放3张照片，整排展板旁另外固定放2张。列表得到：展板1块、2块、3块时，照片分别有5张、8张、11张。用m表示展板块数，n表示照片总张数，n等于哪个式子？",
+        "type": "choice",
+        "id": 50037,
+        "score": 10
+      },
+      {
+        "answer": "14",
+        "difficulty": 2,
+        "explanation": "每增加1个三角形只需增加2根小棒。6个共需3+2×5=13根，最后再放1根，共14根。也可用2n+2，代入n=6，得14。",
+        "knowledge_point": "用字母表示规律",
+        "options": [],
+        "question": "用小棒连续摆三角形：第1个用3根，以后每增加1个，都与前一个共用1条边，只增加2根。摆完一排6个三角形后，另外放1根小棒作标记。一共用了多少根？",
+        "type": "calculation",
+        "id": 50038,
+        "score": 10
+      },
+      {
+        "answer": "36",
+        "difficulty": 2,
+        "explanation": "每人取2张，18人共取2×18=36张。",
+        "knowledge_point": "用字母表示规律",
+        "options": [],
+        "question": "活动中，每人领取2张入场卡。列表是：1人领2张，2人领4张，3人领6张，以后也按每人2张领取。18人共领多少张？",
+        "type": "calculation",
+        "id": 50039,
+        "score": 10
+      },
+      {
+        "answer": "12",
+        "difficulty": 2,
+        "explanation": "第1个花盆有1朵，以后每盆比前一盆多2朵，第n个有2n-1朵。由2n-1=23，得2n=24，n=12。",
+        "knowledge_point": "用字母表示规律",
+        "options": [],
+        "question": "一排花盆按下面的规则放纸花：第1个放1朵，第2个放3朵，第3个放5朵，以后每个都比前一个多2朵。放23朵纸花的是第几个花盆？",
+        "type": "calculation",
+        "id": 50040,
+        "score": 10
+      },
+      {
+        "answer": "不符合；n=3时应为10",
+        "difficulty": 2,
+        "explanation": "代入n=3，4n-2=4×3-2=10，与表中12不符，因此不能用4n-2表示表中规律。按题目规则应为4n。",
+        "knowledge_point": "用字母表示规律",
+        "options": [
+          "符合；每次都增加4就可以",
+          "符合；n=3时得到12",
+          "无法判断；不能代入3",
+          "不符合；n=3时应为10"
+        ],
+        "question": "机器每工作1分钟增加4个产品。工作1、2、3分钟时，总数分别是4、8、12个。小军用4n-2表示工作n分钟的总数。把n=3代入检查，下面哪个判断正确？",
+        "type": "choice",
+        "id": 50041,
+        "score": 10
+      },
+      {
+        "answer": "n²",
+        "difficulty": 2,
+        "explanation": "第n层有n行，每行n块，总数是n×n=n²。代入n=1、2、3，分别得到1、4、9，符合题意。",
+        "knowledge_point": "用字母表示规律",
+        "options": [
+          "2n",
+          "n²",
+          "n+2",
+          "n²+1"
+        ],
+        "question": "用方砖铺正方形：第1层铺1行，每行1块；第2层铺2行，每行2块；第3层铺3行，每行3块。以后第n层都铺n行，每行n块。第n层需要多少块方砖？",
+        "type": "choice",
+        "id": 50042,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "用字母表示数和数量关系·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "a²",
+        "difficulty": 1,
+        "explanation": "正方形面积等于边长乘边长，a×a=a²。2a表示两个a相加，不是面积公式。",
+        "knowledge_point": "用字母表示数量与运算关系",
+        "options": [
+          "2a",
+          "4a",
+          "a²",
+          "a+2"
+        ],
+        "question": "一块正方形手帕的边长是a分米。它的面积是多少平方分米？",
+        "type": "choice",
+        "id": 59001,
+        "score": 10
+      },
+      {
+        "answer": "22",
+        "difficulty": 1,
+        "explanation": "把a=7代入，得3a+1=3×7+1=22。",
+        "knowledge_point": "含有字母的式子的求值",
+        "options": [],
+        "question": "当a=7时，3a+1的值是多少？",
+        "type": "calculation",
+        "id": 59002,
+        "score": 10
+      },
+      {
+        "answer": "2n",
+        "difficulty": 2,
+        "explanation": "卖出2箱后剩下4-2=2箱，每箱n个，共剩2n个。",
+        "knowledge_point": "用字母表示常见数量关系",
+        "options": [
+          "4+n",
+          "2n",
+          "4n",
+          "n-2"
+        ],
+        "question": "每箱有n个苹果，原有4箱，整箱卖出2箱后还剩多少个苹果？",
+        "type": "choice",
+        "id": 59003,
+        "score": 10
+      },
+      {
+        "answer": "5(a+b)",
+        "difficulty": 2,
+        "explanation": "两种果汁各买5瓶，总价为5a+5b。根据分配律，5a+5b=5(a+b)。",
+        "knowledge_point": "用字母表示运算定律与计算公式",
+        "options": [
+          "10(a+b)",
+          "a+5b",
+          "5ab",
+          "5(a+b)"
+        ],
+        "question": "苹果汁每瓶a元，橙汁每瓶b元，各买5瓶。总价5a+5b元可以改写成下面哪个式子？",
+        "type": "choice",
+        "id": 59004,
+        "score": 10
+      },
+      {
+        "answer": "4.5",
+        "difficulty": 2,
+        "explanation": "由2m+3=12，两边同时减3，得2m=9；再同时除以2，得m=4.5。检验：2×4.5+3=12。",
+        "knowledge_point": "等式的基本性质及求未知数",
+        "options": [],
+        "question": "两个同样的空纸箱，每个质量为m千克，放入的物品共重3千克。总质量为12千克，关系是2m+3=12。每个空纸箱重多少千克？",
+        "type": "calculation",
+        "id": 59005,
+        "score": 10
+      },
+      {
+        "answer": "4n+1",
+        "difficulty": 2,
+        "explanation": "第1条用5颗，以后每增加1条多用4颗。第n条用5+4(n-1)=4n+1颗，也可从1+4n理解。",
+        "knowledge_point": "用字母表示规律",
+        "options": [
+          "n+4",
+          "4n+1",
+          "4n-1",
+          "5n"
+        ],
+        "question": "按同一规律制作彩珠链：第1条用5颗珠子，第2条用9颗，第3条用13颗，以后每条都比前一条多4颗。第n条用多少颗珠子？",
+        "type": "choice",
+        "id": 59006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "忽略字母取值要符合情境。",
+        "把数量关系的方向写反。",
+        "把a²与2a混淆。"
+      ],
+      "core_concept": "用字母表示数，用含有字母的式子表示数量及其关系。字母的取值要符合实际情境。字母与字母相乘时，乘号可以记作点或省略；两个相同字母相乘可以写成平方形式。",
+      "key_formula": "6×m=6m；1×a=a；a×b=ab；a×a=a²，读作“a的平方”；2a=a+a。",
+      "point": "用字母表示数量与运算关系",
+      "tips": "先说明字母表示什么。省略数字与字母之间的乘号时，一般把数字写在字母前面。a²表示两个a相乘，2a表示两个a相加。"
+    },
+    {
+      "common_mistakes": [
+        "代入时漏掉乘法。",
+        "没有按照运算顺序计算。",
+        "同一个字母代入了不同的数。"
+      ],
+      "core_concept": "把字母所表示的数代入式子，再按运算顺序计算，就能求出式子的值。同一个字母在同一个式子中要代入同一个数。",
+      "key_formula": "例如：当a=5时，2a+8=2×5+8=18。",
+      "point": "含有字母的式子的求值",
+      "tips": "先准确抄写式子，再替换字母；代入后补写乘号，有括号的先算括号里面。平方要算两个相同的数相乘。"
+    },
+    {
+      "common_mistakes": [
+        "混淆相差关系和倍数关系。",
+        "把增加写成减少。",
+        "混淆总价、单价和数量。"
+      ],
+      "core_concept": "用字母表示常见的和、差、倍数及单价、数量、总价之间的关系。一个数量变化时，另一个数量可能跟着变化，但它们之间的关系可以保持不变。",
+      "key_formula": "较大数=较小数+相差数；总量=每份数量×份数；c=an，a=c÷n，n=c÷a，其中c表示总价、a表示单价、n表示数量，作除数的量不为0。",
+      "point": "用字母表示常见数量关系",
+      "tips": "先说清每个字母表示什么，再选择运算。表示物品个数、人数时，要注意整数及实际数量范围。"
+    },
+    {
+      "common_mistakes": [
+        "混淆交换律和结合律。",
+        "分配律展开时漏乘一项。",
+        "把2a+6a写成8a²。",
+        "混淆周长和面积公式。"
+      ],
+      "core_concept": "用字母简洁表示运算律及周长、面积、行程公式。字母也能像数一样参与运算，可以用运算律对含字母的式子作简单的等价改写。",
+      "key_formula": "a+b=b+a；(a+b)+c=a+(b+c)；ab=ba；(ab)c=a(bc)；a(b+c)=ab+ac；2a+6a=8a；正方形C=4a、S=a²；长方形C=2(a+b)、S=ab；s=vt、v=s÷t、t=s÷v，除数不为0。",
+      "point": "用字母表示运算定律与计算公式",
+      "tips": "应用公式前，明确字母含义并统一单位。展开括号时，括号外的数要分别乘括号内的每一项；也可以反过来用分配律合写。"
+    },
+    {
+      "common_mistakes": [
+        "只对等式一边进行运算。",
+        "等式两边进行的运算不同。",
+        "等式两边同时除以0。",
+        "求出未知数后不检验。"
+      ],
+      "core_concept": "等式两边同时加或减同一个数，或者同时乘同一个数，等式仍成立；同时除以同一个不为0的数，等式也仍成立。可以利用这些性质求等式中的未知数。",
+      "key_formula": "若a=b，则a+c=b+c，a-c=b-c，ac=bc；当c≠0时，a÷c=b÷c。",
+      "point": "等式的基本性质及求未知数",
+      "tips": "一般把含有未知数的部分写在等式左边。每一步都要保持两边相等，最后把求得的数代回原等式检验。"
+    },
+    {
+      "common_mistakes": [
+        "把剩余数量与总数量混淆。",
+        "忽略每份数量相同的条件。",
+        "多段路程相加时漏掉一段。",
+        "列式后没有检查结果是否符合情境。"
+      ],
+      "core_concept": "从情境中找出已知量、未知量及数量关系，用含有字母的式子或等式表示，再代入求值或求未知数。一个问题有时可以用不同方法表示同一关系。",
+      "key_formula": "总价=单价×数量；路程=速度×时间；剩余量=总量-已用量；相同速度行驶两段路程时，总路程=v(a+b)=va+vb。",
+      "point": "根据数量关系解决实际问题",
+      "tips": "先明确所求量，再分析关系。多种表示方法应表示同一个数量；求出结果后，要放回实际情境检查。"
+    },
+    {
+      "common_mistakes": [
+        "只看前两项就猜规律，忽略题目给出的继续变化规则。",
+        "把第n个与前n个的总数混淆。",
+        "漏掉始终不变的部分。",
+        "得到字母式后不代入验证。"
+      ],
+      "core_concept": "可以通过列表和分析结构，观察数量怎样变化，找出不变部分和随数量增加的部分，再用字母概括规律，并用具体数值验证。",
+      "key_formula": "例如：固定有3个，每增加1组增加2个，n组时总数为3+2n。",
+      "point": "用字母表示规律",
+      "tips": "先说清第几项或几组，再看每次增加多少。字母式应符合题目给定的完整规则；用第一项和其他已知项检查，再求新的数量。"
+    }
+  ]
+}

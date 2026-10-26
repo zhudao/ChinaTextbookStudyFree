@@ -1,0 +1,31 @@
+{
+  "uploadedAssets": 125,
+  "githubGeneratedSourceArchives": 2,
+  "identicalAssetDigests": [],
+  "webAudio": {
+    "files": 288430,
+    "bytes": 10057320894,
+    "identicalContentGroups": 47736,
+    "duplicateContentBytes": 2475557664,
+    "notReferencedByCurrentJsonFiles": 67744,
+    "notReferencedByCurrentJsonBytes": 2190281722
+  },
+  "zipEntries": 441105,
+  "unwantedEntries": [],
+  "iosAudio": {
+    "uncompressedBytes": 2183165368,
+    "uniquePathContentBytes": 2156972290,
+    "crossBookRepeatedBytes": 26193078,
+    "conflictingSharedPaths": 0
+  },
+  "release": "v1.6.0-chinese-g5up",
+  "assetBreakdown": {
+    "iosBookData": 51,
+    "iosBookAudio": 51,
+    "webSourceAndMetadata": 23,
+    "githubGeneratedSources": 2
+  },
+  "audioDuplicationMeaning": "Identical bytes at different compatibility paths; not duplicate uploaded archives. Preserve deployed URLs until a deduplicating installer and client migration exist.",
+  "unreferencedAudioMeaning": "Not referenced by current book JSON after including MP3/Opus siblings; may include historical compatibility files and old generation candidates. Not a deletion allowlist. Counts overlap with duplicate bytes.",
+  "action": "Categorized download guide and Release notes; corrected stale installation instructions; existing resource URLs retained."
+}

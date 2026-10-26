@@ -2,7 +2,7 @@
 """Validate reviewed 2026 content before adding isolated textbook resources.
 
 The stage contains editorial candidates, not production data. This command
-requires the complete catalog, checks official page fingerprints and never writes
+validates the selected catalog entries, checks official page fingerprints and never writes
 legacy source paths. Reviewed passage sources and page images stay in the normal
 ignored resource directories and ship in the resource package.
 """
@@ -57,26 +57,51 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--stage", type=Path, default=ROOT/"deploy-output/five-textbooks")
     parser.add_argument("--page-cache", type=Path, required=True)
+    parser.add_argument("--book-id", action="append", help="Materialize only these reviewed editions; preserve other manifest entries")
     args = parser.parse_args()
     catalog = read(ROOT/"content/editions/2026/catalog.json")
-    evidence = read(ROOT/catalog["sourceReview"])
-    pages = {(p["book"], p["physical_page"]): p for p in evidence["page_evidence"]}
+    selected = [b for b in catalog["books"] if not args.book_id or b["id"] in args.book_id]
+    if args.book_id and set(args.book_id) != {b["id"] for b in selected}:
+        parser.error("Unknown edition ID")
+    manifest_path = ROOT/"content/editions/2026/resource-manifest.json"
+    prior = read(manifest_path) if args.book_id and manifest_path.exists() else {}
+    retained_ids = {b["id"] for b in catalog["books"]} - {b["id"] for b in selected}
+    if args.book_id and not retained_ids.issubset({s["bookId"] for s in prior.get("sources", [])}):
+        parser.error("Partial import requires the existing source manifest for all retained editions")
+    pages = {}
+    for source in {b.get("sourceReview", catalog["sourceReview"]) for b in selected}:
+        evidence = read(ROOT/source)
+        pages.update({(p["book"], p["physical_page"]): p for p in evidence["page_evidence"]})
     pending = []
     sources = []
     resources = []
     stats = Counter()
-    for book in catalog["books"]:
+    for book in selected:
         book_id = book["id"]
-        if book_id != book["legacyId"] + "-2026" or "2026秋版" not in book["stem"]:
+        edition = book["edition"]
+        label = book["editionLabel"]
+        if not re.fullmatch(r"[a-z0-9-]+", edition) or not label or book_id != book["legacyId"] + "-" + edition or not book["stem"].endswith("（" + label + "）"):
             raise ValueError("Refusing a legacy book or source path")
         subject = book["subject"]
-        outline = {"textbook": book["sourceTitle"] + "（2026秋版）", "edition": "2026",
+        outline = {"textbook": book["sourceTitle"] + "（" + label + "）", "edition": edition,
                    "editionLabel": book["editionLabel"], "supersedes": book["legacyId"], "units": []}
         for unit in book["units"]:
             stage = args.stage/"units"/f"{book_id}-u{unit['unit_number']}.json"
             candidate = read(stage)
             if candidate["bookId"] != book_id or candidate["unitNumber"] != unit["unit_number"] or not candidate["editorialReview"]["approved"]:
                 raise ValueError(f"Unreviewed or mismatched unit: {stage}")
+            if candidate["sourcePages"] != [unit["start"], unit["end"]]:
+                raise ValueError(f"Unit source range differs from the reviewed catalog: {stage}")
+            body_fingerprints = []
+            if book.get("requiresIndependentFinalScreen"):
+                if candidate["editorialReview"].get("independentFinalScreen", {}).get("status") != "verified":
+                    raise ValueError(f"Missing independent final semantic screen: {stage}")
+                for physical in range(unit["start"] + book["pageOffset"], unit["end"] + book["pageOffset"] + 1):
+                    evidence = pages.get((book["key"], physical))
+                    page = args.page_cache / f"{book['key']}-{physical}.jpg"
+                    if not evidence or not page.is_file() or digest(page) != evidence["sha256"]:
+                        raise ValueError(f"Missing or changed official unit page: {page}")
+                    body_fingerprints.append(evidence["sha256"])
             content = candidate["unit"]
             if [k["point"] for k in content["knowledge_summary"]] != unit["points"]:
                 raise ValueError(f"Knowledge list mismatch: {stage}")
@@ -99,7 +124,9 @@ def main():
                                     "knowledge_points": [{"name": p, "description": "结合新版教材学习"+p, "difficulty": 1,
                                                           "question_types": ["choice", "true_false"]} for p in unit["points"]]})
             sources.append({"bookId": book_id, "unit": n, "sourcePrintedPages": candidate["sourcePages"],
-                            "candidate_sha256": digest(stage), "editorialReview": candidate["editorialReview"]})
+                            "candidate_sha256": digest(stage), "editorialReview": candidate["editorialReview"],
+                            **({"body_page_fingerprints_sha256": hashlib.sha256(json.dumps(body_fingerprints).encode()).hexdigest()}
+                               if body_fingerprints else {})})
             stats["regular_questions"] += len(questions)
             stats["exam_questions"] += len(exam)
             stats["lessons"] += len(unit["points"])
@@ -142,8 +169,17 @@ def main():
         shutil.copy2(cached, target)
     for target, data in pending:
         write(target, data)
-    source_manifest = {"schemaVersion": 1, "sourceReview": catalog["sourceReview"], "stats": dict(stats), "editorialSignoff": "model_screen_only_not_teacher_signoff", "sources": sources,
-                       "resourceFiles": [{"path": str(p.relative_to(ROOT)), "sha256": digest(p)} for p, _ in pending if str(p.relative_to(ROOT)).startswith(("data/", "apps/web/public/"))]}
+    selected_ids = {b["id"] for b in selected}
+    retained_sources = [s for s in prior.get("sources", []) if s["bookId"] not in selected_ids]
+    retained_files = [f for f in prior.get("resourceFiles", []) if not any(book_id in f["path"] for book_id in selected_ids)]
+    totals = Counter()
+    for b in catalog["books"]:
+        totals["lessons"] += sum(len(u["points"]) for u in b["units"])
+        totals["regular_questions"] += sum(len(u["points"])*6 for u in b["units"])
+        totals["exam_questions"] += len(b["units"])*6
+        totals["readings"] += len(b["readings"])
+    source_manifest = {"schemaVersion": 1, "sourceReview": catalog["sourceReview"], "sourceReviews": sorted({b.get("sourceReview", catalog["sourceReview"]) for b in catalog["books"]}), "stats": dict(totals), "editorialSignoff": "model_screen_only_not_teacher_signoff", "sources": retained_sources + sources,
+                       "resourceFiles": retained_files + [{"path": str(p.relative_to(ROOT)), "sha256": digest(p)} for p, _ in pending if str(p.relative_to(ROOT)).startswith(("data/", "apps/web/public/"))]}
     write(ROOT/"content/editions/2026/resource-manifest.json", source_manifest)
     print(json.dumps(dict(stats), ensure_ascii=False))
 

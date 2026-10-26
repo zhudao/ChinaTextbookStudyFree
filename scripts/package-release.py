@@ -103,9 +103,14 @@ def main():
     parser.add_argument('--site-root', type=Path, required=True, help='Verified final static site, including data and media')
     parser.add_argument('--out', type=Path)
     parser.add_argument('--max-audio-bytes', type=int, default=1_400_000_000)
+    parser.add_argument('--resource-tag', help='Separate release holding the Web archives and file inventory')
+    parser.add_argument('--ios-resource-tag', help='Separate release holding the per-book iOS bundles')
     args = parser.parse_args()
     if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]*', args.tag) or args.max_audio_bytes < 4096:
         parser.error('Invalid tag or audio part limit')
+    for tag in (args.resource_tag, args.ios_resource_tag):
+        if tag is not None and not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]*', tag):
+            parser.error('Resource tags must be release names in this repository')
     site = args.site_root.resolve()
     out = args.out or ROOT / 'release-assets' / args.tag
     if not (site / 'index.html').is_file():
@@ -118,6 +123,10 @@ def main():
     manifest = {'schema_version': 2, 'tag': args.tag, 'created_at': datetime.now(timezone.utc).isoformat(),
                 'source_commit': commit, 'audio_part_limit_bytes': args.max_audio_bytes,
                 'content': content_statistics(site), 'assets': []}
+    if args.resource_tag:
+        manifest['resource_tag'] = args.resource_tag
+    if args.ios_resource_tag:
+        manifest['ios_resource_tag'] = args.ios_resource_tag
     with (out / 'files.jsonl').open('w', encoding='utf-8') as inventory:
         def pack(name, entries, kind, destinations, stored=False):
             if not entries:

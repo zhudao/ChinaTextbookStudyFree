@@ -4,6 +4,29 @@ import XCTest
 /// MathText.render — LaTeX → Unicode 显示转换（只影响显示，不影响判分）。
 final class MathTextTests: XCTestCase {
 
+    func testRevisedBookDelimitersAndFractions() {
+        XCTAssertEqual(MathText.render(#"半数 \(\frac{1}{2}\)，\[2 \times 3 = 6\]"#), "半数 ¹⁄₂，2 × 3 = 6")
+        XCTAssertEqual(MathText.render(#"\(\dfrac{3}{4}\) 与 $\tfrac{1}{2}$"#), "³⁄₄ 与 ¹⁄₂")
+    }
+
+    func testRevisedBookRecurringDecimalDotsRemainDistinct() {
+        XCTAssertEqual(MathText.render(#"\(3.\dot{1}4285\dot{7}\)"#), "3.1\u{0307}42857\u{0307}")
+        XCTAssertEqual(MathText.render(#"\(3.1\dot{4}285\dot{7}\)"#), "3.14\u{0307}2857\u{0307}")
+        XCTAssertEqual(MathText.render(#"\(3.14285\dot{7}\)"#), "3.142857\u{0307}")
+    }
+
+    func testRevisedBookUnitsDegreesAndChineseCommandBoundary() {
+        XCTAssertEqual(MathText.render(#"$90^{\circ}$ 和 \(180^\circ\)"#), "90° 和 180°")
+        XCTAssertEqual(MathText.render(#"$1\text{kg}=1000\mathrm{g}$"#), "1kg=1000g")
+        XCTAssertEqual(MathText.render(#"$\pi厘米$"#), "π厘米")
+    }
+
+    func testIncompleteAndEscapedDelimitersStayLiteral() {
+        XCTAssertEqual(MathText.render(#"未配对 \(1+2"#), #"未配对 \(1+2"#)
+        XCTAssertEqual(MathText.render(#"路径 \\(x\\)"#), #"路径 \\(x\\)"#)
+        XCTAssertEqual(MathText.render(#"价格 \$2 与 \$3"#), #"价格 \$2 与 \$3"#)
+    }
+
     // MARK: - 种子包真实样例
 
     func testSeedGrade1Comparison() {

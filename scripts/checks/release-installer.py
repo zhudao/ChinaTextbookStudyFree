@@ -1,5 +1,6 @@
 """Small offline fixtures for legacy/new releases and all-or-nothing preflight."""
 import hashlib
+import importlib.util
 import io
 import json
 import subprocess
@@ -10,6 +11,18 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+spec = importlib.util.spec_from_file_location('installer', ROOT / 'scripts/install-release.py')
+installer = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(installer)
+assert installer.resource_base({}, 'fixture') == installer.RELEASE_ROOT + '/fixture'
+assert installer.resource_base({'resource_tag': 'v1.7.0-web-resources'}, 'v1.7.0') == installer.RELEASE_ROOT + '/v1.7.0-web-resources'
+for unsafe in ['../other', 'https://example.com', 'tag/file', '', 'tag?token=x']:
+    try:
+        installer.resource_base({'resource_tag': unsafe}, 'fixture')
+    except ValueError:
+        pass
+    else:
+        raise AssertionError('Resource tag must remain a release name in the same repository')
 with tempfile.TemporaryDirectory() as directory:
     root = Path(directory)
     cache = root / "archives"
@@ -73,5 +86,12 @@ with tempfile.TemporaryDirectory() as directory:
     legacy.write_text(json.dumps({"id": "legacy-u1-l1", "answer": "3", "audio": "/new.mp3", "generatedAt": "today"}))
     run(command)
     assert json.loads(legacy.read_text())["audio"] == "/new.mp3", "Audio versions must not change legacy content identity"
+    manifest['resource_tag'] = 'v1.7.0-web-resources'
+    (cache / 'manifest.json').write_text(json.dumps(manifest), encoding='utf-8')
+    run(command)
+    assert json.loads((target / 'ASSETS-VERSION.json').read_text())['resource_tag'] == manifest['resource_tag']
+    manifest['resource_tag'] = '../outside'
+    (cache / 'manifest.json').write_text(json.dumps(manifest), encoding='utf-8')
+    run(command, 1)
 print("PASS: complete/legacy resource install, byte-level audit and corrupt-package preflight")
 print("PASS: overlay rejects absent/changed base before writes and accepts audio-only changes")

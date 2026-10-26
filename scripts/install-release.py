@@ -12,7 +12,8 @@ import urllib.request
 import zipfile
 from pathlib import Path, PurePosixPath
 
-DEFAULT_TAG = 'v1.5.0-five-textbooks'
+DEFAULT_TAG = 'v1.7.1'
+RELEASE_ROOT = 'https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/download'
 DESTINATIONS = {
     'audio.tar.gz': 'apps/web/public',
     'data.zip': 'apps/web/public/data',
@@ -34,6 +35,11 @@ def safe_name(name):
     if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]*', name):
         raise ValueError(f'Unsafe asset name: {name}')
     return name
+
+
+def resource_base(manifest, requested_tag):
+    """A primary release may keep large resources on another release in this repo."""
+    return f"{RELEASE_ROOT}/{safe_name(manifest.get('resource_tag', requested_tag))}"
 
 
 def target_path(destination, name):
@@ -178,7 +184,7 @@ def main():
     root = args.root.resolve()
     with tempfile.TemporaryDirectory(prefix='china-study-assets-') as temporary:
         cache = args.archives_dir.resolve() if args.archives_dir else Path(temporary)
-        base = f'https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/download/{args.tag}'
+        base = f'{RELEASE_ROOT}/{args.tag}'
 
         def download(name):
             safe_name(name)
@@ -190,6 +196,7 @@ def main():
         manifest = json.loads((cache / 'manifest.json').read_text(encoding='utf-8'))
         if manifest.get('tag') != args.tag:
             raise ValueError('Manifest tag mismatch')
+        base = resource_base(manifest, args.tag)
         verify_required_content(root, manifest, args.mode)
         selected = install_plan(manifest, args.mode, args.with_source)
         if args.asset_kind:

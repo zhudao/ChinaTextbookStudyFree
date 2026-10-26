@@ -5,7 +5,7 @@
   const metrics={route:location.pathname+location.search,width:innerWidth,height:innerHeight,clientWidth:document.documentElement.clientWidth,scrollWidth:document.documentElement.scrollWidth};
   if(metrics.scrollWidth>metrics.clientWidth) failures.push('Horizontal page overflow');
   if(!Array.from(document.querySelectorAll('main,[role="main"]')).some(visible)) failures.push('Main content missing');
-  const headings=Array.from(document.querySelectorAll('h1,h2,[data-shop-name]')).filter(visible);
+  const headings=Array.from(document.querySelectorAll('h1,h2,[data-shop-name]')).filter(e=>visible(e)&&!e.classList.contains('sr-only'));
   metrics.clippedHeadings=headings.filter(e=>e.scrollWidth>e.clientWidth+1).map(e=>e.textContent);
   if(metrics.clippedHeadings.length) failures.push('Clipped heading');
   metrics.failedImages=Array.from(document.images).filter(e=>visible(e)&&e.complete&&e.naturalWidth===0).map(e=>e.getAttribute('src'));

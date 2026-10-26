@@ -6,6 +6,7 @@ import { createHash } from "node:crypto";
 import { gradeAnswer } from "../packages/core/src/grade";
 import { numberSkillForLesson, curateNumberSenseLesson } from "../packages/core/src/numberSense";
 import type { Lesson } from "../packages/core/src/types";
+import { narrationVerifier } from "./checks/narration-reference";
 
 function canonical(value: unknown): unknown {
   if (Array.isArray(value)) return value.map(canonical);
@@ -20,17 +21,16 @@ function fingerprint(value: unknown): string {
 function clean(value: Record<string, unknown>): Record<string, unknown> {
   return Object.fromEntries(Object.entries(value).filter(([key]) => key !== "audio"));
 }
-function requireAudio(text: string, url: string | null | undefined): void {
-  assert(url, `Missing speech reference for ${text}`);
-  const hash = createHash("sha1").update(text.trim().replace(/\s+/g, " ")).digest("hex");
-  assert.equal(url, `/audio/${hash.slice(0, 2)}/${hash}.mp3`, `Text/speech mismatch: ${text}`);
-  const local = path.resolve("apps/web/public", url.slice(1));
-  assert(fs.statSync(local).size > 0, `Missing speech asset: ${url}`);
-}
+const contentOnly = process.argv.includes('--content-only');
+const verifyAudio = contentOnly ? () => {} : narrationVerifier();
 
 const folder = path.resolve("docs/lesson-reviews");
 assert(fs.existsSync(folder), "No applied lesson reviews");
-let lessons = 0, questions = 0, curatedLessons = 0;
+const rechecks = JSON.parse(fs.readFileSync('docs/ux12-2026-10-25/content-rechecks.json', 'utf8')) as {
+  lesson_id: string; historical_review_fingerprint: string; current_fingerprint: string;
+  review_kind: string; teacher_review: string;
+}[];
+let lessons = 0, questions = 0, curatedLessons = 0, recheckedLessons = 0;
 for (const file of fs.readdirSync(folder).filter(f => f.endsWith(".json"))) {
   const ledger = JSON.parse(fs.readFileSync(path.join(folder, file), "utf8"));
   if (!ledger.model_review) continue; // Standalone teacher submissions have no model draft.
@@ -48,12 +48,21 @@ for (const file of fs.readdirSync(folder).filter(f => f.endsWith(".json"))) {
   assert.equal(lesson.questions.length, ledger.after_question_count);
   const actual = { knowledge: clean(lesson.knowledge as unknown as Record<string, unknown>),
     questions: lesson.questions.map(q => clean(q as unknown as Record<string, unknown>)) };
-  assert.equal(fingerprint(actual), ledger.after_fingerprint, `${lesson.id}: built content differs from reviewed source`);
+  const currentFingerprint = fingerprint(actual);
+  if (currentFingerprint !== ledger.after_fingerprint) {
+    const recheck = rechecks.find(r => r.lesson_id === lesson.id);
+    assert(recheck, `${lesson.id}: built content differs without an explicit recheck`);
+    assert.equal(recheck.historical_review_fingerprint, ledger.after_fingerprint);
+    assert.equal(recheck.review_kind, 'deterministic_math_and_source_recheck_not_teacher_signoff');
+    assert.equal(recheck.teacher_review, 'pending');
+    assert.equal(currentFingerprint, recheck.current_fingerprint, `${lesson.id}: built content differs from its precise recheck`);
+    recheckedLessons++;
+  }
   assert.equal(ledger.model_review.approved, true);
   assert.deepEqual(ledger.model_review.issues, []);
   const ks = lesson.knowledge;
-  for (const field of ["point", "core_concept", "key_formula", "tips"] as const) requireAudio(ks[field], ks.audio?.[field]);
-  ks.common_mistakes.forEach((text, i) => requireAudio(text, ks.audio?.common_mistakes?.[i]));
+  for (const field of ["point", "core_concept", "key_formula", "tips"] as const) verifyAudio(ks[field], ks.audio?.[field], book);
+  ks.common_mistakes.forEach((text, i) => verifyAudio(text, ks.audio?.common_mistakes?.[i], book));
   for (const q of lesson.questions) {
     assert.equal(q.knowledge_point, lesson.title);
     assert(!gradeAnswer(q, ""), `${lesson.id} #${q.id}: empty answer`);
@@ -66,12 +75,12 @@ for (const file of fs.readdirSync(folder).filter(f => f.endsWith(".json"))) {
       const wrong = q.type === "true_false" ? (q.answer === "对" ? "错" : "对") : q.type === "fill_blank_text" ? "错误答案" : gradeAnswer(q, "99999") ? "99998" : "99999";
       assert(!gradeAnswer(q, wrong), `${lesson.id} #${q.id}: wrong answer accepted`);
     }
-    requireAudio(q.question, q.audio?.question);
-    requireAudio(q.explanation, q.audio?.explanation);
-    q.options.forEach((text, i) => requireAudio(text.replace(/^[A-Da-d][.、]\s*/, ""), q.audio?.options?.[i]));
+    verifyAudio(q.question, q.audio?.question, book);
+    verifyAudio(q.explanation, q.audio?.explanation, book);
+    q.options.forEach((text, i) => verifyAudio(text.replace(/^[A-Da-d][.、]\s*/, ""), q.audio?.options?.[i], book));
     questions++;
   }
   lessons++;
 }
 assert(lessons > 0, "No model-reviewed lesson revisions");
-console.log(`PASS: ${lessons} revised lessons, ${questions} questions; exact reviewed content, correct/wrong/empty grading and content-addressed MP3 references; ${curatedLessons} historical lessons replaced by the independently tested visual pilot.`);
+console.log(`PASS: ${lessons} revised lessons, ${questions} questions; precise content fingerprints and correct/wrong/empty grading; audio ${contentOnly ? 'NOT CHECKED (content-only mode)' : 'normalized/versioned MP3 integrity passed'}; ${recheckedLessons} explicit content recheck (not teacher signoff); ${curatedLessons} historical lessons replaced by the independently tested visual pilot.`);

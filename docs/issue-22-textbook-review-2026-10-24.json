@@ -1,0 +1,947 @@
+{
+  "issue": 22,
+  "checkedAt": "2026-10-24",
+  "baselineCommit": "cc8016832127630a22524a606fa3ee81a7ce1182",
+  "officialResource": {
+    "id": "aabf2e4a-3ceb-4e86-8804-22c10223cc57",
+    "title": "（根据2022年版课程标准修订）义务教育教科书·语文五年级上册",
+    "url": "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=aabf2e4a-3ceb-4e86-8804-22c10223cc57",
+    "metadataUrl": "https://s-file-1.ykt.cbern.com.cn/zxx/ndrv2/resources/tch_material/details/aabf2e4a-3ceb-4e86-8804-22c10223cc57.json",
+    "updated": "2026-08-18T11:38:47.524+0800",
+    "metadataSha256": "17d2adeae59ce17f70a45afe35307dd5e10a5d9cd68ecf690b66608c53c47017",
+    "pages": 130,
+    "pageOffset": 5
+  },
+  "page_evidence": [
+    {
+      "book": "chinese5",
+      "physical_page": 1,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/1.jpg",
+      "sha256": "e6b72bb8620233573267021468280270d33899b414d29e125bccd78afb15d840",
+      "bytes": 1227594
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 2,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/2.jpg",
+      "sha256": "acb842fc2d3c94ce2fb4b9558fd5b626d8be799f5dc0be94e408280335d0bbaf",
+      "bytes": 253047
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 3,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/3.jpg",
+      "sha256": "adf3a1e4cf31b36f861c22b050d7a3ee0eb49e8af42515d0b5cec708e831f8b3",
+      "bytes": 290010
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 4,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/4.jpg",
+      "sha256": "e39456c565de0131cf3a13c8ed4b73c8be658ae3764c36b3421004588fdf5a4b",
+      "bytes": 679039
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 5,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/5.jpg",
+      "sha256": "a761b2ba56d0197b984e12cd0fad64abacb277d5f8fc940f3682b5afa43098b8",
+      "bytes": 678768
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 6,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/6.jpg",
+      "sha256": "bf45efc028769724e0b17ea55ff46ea92e22dd45315e834e0c7b16b89c663cbb",
+      "bytes": 869201
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 7,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/7.jpg",
+      "sha256": "f268c7b3e4181dfca9c8db454b59742a5aa2b9a7b1b5e331990165bf86529070",
+      "bytes": 1577821
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 8,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/8.jpg",
+      "sha256": "5a74eda63a6fa06352d02fb5b6ab2136123137cc5869578d8536301418db06bd",
+      "bytes": 1488129
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 9,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/9.jpg",
+      "sha256": "b91de6083975d31d7fb000c434c97eac5b59fd19df13fbea559edeeefcc99ee7",
+      "bytes": 707062
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 10,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/10.jpg",
+      "sha256": "75b4001b4d91ebc6df58644b3d38b2c40eac4504784fab4985f9d3cb25a63251",
+      "bytes": 1106564
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 11,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/11.jpg",
+      "sha256": "12c6fc0bf0bae8cd3ea76fd21bb92049b5ed32234581378dd782969448e00097",
+      "bytes": 477590
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 12,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/12.jpg",
+      "sha256": "0e2f87cbf62ed3dd88f8e4b19fe9430dce952a0577471d7cbeee971d89a37190",
+      "bytes": 771889
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 13,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/13.jpg",
+      "sha256": "433029f0080f2d7eb561e951d77e506c9d7fe608fdf4b01d0b7904734d53bdf1",
+      "bytes": 821554
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 14,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/14.jpg",
+      "sha256": "f87c42868f81fc51ee3bfe07a36e1a95ee4cf32ab8235d9f090759de590d636f",
+      "bytes": 501944
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 15,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/15.jpg",
+      "sha256": "0e7805b3d0fb4cb67c4089d192710ba57e1f9e260f81b71a43ad631b3b293250",
+      "bytes": 514952
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 16,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/16.jpg",
+      "sha256": "05df0bfc1890289a5b274377bd68ec59ad850c6210d96007fb062aa3dde68857",
+      "bytes": 606225
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 17,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/17.jpg",
+      "sha256": "7a919a32c1b876504bc88362392aaa4923a55f4b6977d6ac62c87ae0687165a9",
+      "bytes": 460423
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 18,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/18.jpg",
+      "sha256": "9fc07d25063c1b9f4db6b88abb463e9228798164fb6f7a711522df18ae9ebf81",
+      "bytes": 782239
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 19,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/19.jpg",
+      "sha256": "9f19fcb0c7dff5b463a9f747d707c92660eebd747cfbb96191e630a9e86baf93",
+      "bytes": 759196
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 20,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/20.jpg",
+      "sha256": "9b48b9f801f0378329dfb434308fed9423c7a51e4721588341e8269cf40af24c",
+      "bytes": 897420
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 21,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/21.jpg",
+      "sha256": "844438d616e02ff930f32d41cb211ffc90a1f2e07e3a5ad446cca253759eefbc",
+      "bytes": 687725
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 22,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/22.jpg",
+      "sha256": "5da0da79fedb60273dabbedf2fe9eff0228af491c4574c9b5d6c7bc9defee14d",
+      "bytes": 637097
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 23,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/23.jpg",
+      "sha256": "0264c7c9a393b9fe0917e43a7d8fabaa3024cbc33b4c70df57591df4f3618471",
+      "bytes": 887990
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 24,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/24.jpg",
+      "sha256": "223eda013c93c07477d6407f384b9dbad0b58ebb6cd30a80d4014edd109ae524",
+      "bytes": 824503
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 25,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/25.jpg",
+      "sha256": "cad9074ff6388f6f6e0f6ce8f28aed4ece884570aec7def185cb8834769c502b",
+      "bytes": 656288
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 26,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/26.jpg",
+      "sha256": "ab095b8462bb501557cdc922e8eecc951f1061a94f7f2dd86d583d228c6a2cfa",
+      "bytes": 800175
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 27,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/27.jpg",
+      "sha256": "e999287d62293173469b915aab846bc4dd15d9be63765e977e4468062b9cc996",
+      "bytes": 822433
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 28,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/28.jpg",
+      "sha256": "b80317a77a7c171357d82fcc785de323ce7a142376fe67204920fb05d63f3136",
+      "bytes": 816810
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 29,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/29.jpg",
+      "sha256": "8593f73995b2ca972de4282454ce6662bc480ed069f2f460a12b2354d510931d",
+      "bytes": 504580
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 30,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/30.jpg",
+      "sha256": "c01f822a748edf9cf2e9b7c9481adb9e880ce9499ffab74b61a9eb483a6747f6",
+      "bytes": 693753
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 31,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/31.jpg",
+      "sha256": "6d2bb4df9264ce437507b95bcb1ef9687753ba4efd808dbbd0acdbad85d917aa",
+      "bytes": 787861
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 32,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/32.jpg",
+      "sha256": "47f739c7815d0332c9d73f4ed841781a5eb592cf6a81ccaf1792dee893dbdab8",
+      "bytes": 527841
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 33,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/33.jpg",
+      "sha256": "6600cb63edbabc17a30138ba8f4d0641c7a9952e9751f2bf682cd1501ab5ad13",
+      "bytes": 748380
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 34,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/34.jpg",
+      "sha256": "13b60a88875d344e166c47b1ba575942032147c1646359589068da5d050ea437",
+      "bytes": 466714
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 35,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/35.jpg",
+      "sha256": "e3c4edbe9aef71a5ec5b92faa46d8567c9332994673d360a86c00817f9fdb3ca",
+      "bytes": 616709
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 36,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/36.jpg",
+      "sha256": "b5b46499de4a9d531aba0d95cae35cc69287c5b9eb77043633bfa7c641bda772",
+      "bytes": 435287
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 37,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/37.jpg",
+      "sha256": "32a10d322faddd380142972f114855eb777d0ae13455adb209383e42070a0b2e",
+      "bytes": 479100
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 38,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/38.jpg",
+      "sha256": "221a2c95a7ce11da6202ff3001ed2d26c0ddc55003ca5f228485b9e74cead75f",
+      "bytes": 876154
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 39,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/39.jpg",
+      "sha256": "e00e06ad5f12563ea6e42ff89aeb163374ea0a8af8d9ab0a956a4d9b1c0f12d3",
+      "bytes": 796051
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 40,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/40.jpg",
+      "sha256": "42d5bbdafabec44d22071f7a9c52d5553a43eac1e27856a2a441b146ad77f993",
+      "bytes": 860290
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 41,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/41.jpg",
+      "sha256": "697c5137dc2e65b9c7e84fc64072ce51d72d26b1679a9bff2c52a8fcf7ef4500",
+      "bytes": 687968
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 42,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/42.jpg",
+      "sha256": "21f4ae409ffc6ab6879cb87b6548157c3a618a7f313a4f40059737f4c64ae8f1",
+      "bytes": 1107835
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 43,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/43.jpg",
+      "sha256": "b1c75c7e7db1aa567ad08961c6c57b0516a9fdd25cf12628a28dec83a13e5905",
+      "bytes": 836659
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 44,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/44.jpg",
+      "sha256": "7348db7b8572ed04c018787682a1c035a503a55c3e468d745cb5bbde63d3b890",
+      "bytes": 836650
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 45,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/45.jpg",
+      "sha256": "98239371366d8333904ec071c0367edadea6bfbcb095073fa60caf72c817c358",
+      "bytes": 886847
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 46,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/46.jpg",
+      "sha256": "d7c44871f1378dab7ad1272356e99ae154d94516eac21369e6ce8941ab5fdeab",
+      "bytes": 892522
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 47,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/47.jpg",
+      "sha256": "35f6ecdc3595078a0585bdefdbc80dd640a3dd548fba163b43da348e6f0448fa",
+      "bytes": 1349396
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 48,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/48.jpg",
+      "sha256": "194f317d01e34c0c2ef311e3a2dcbe8977ead1d3c584cd9abb83a8b3eeb0ec95",
+      "bytes": 1555074
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 49,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/49.jpg",
+      "sha256": "5c701a04bf9f2050401a060d9dfc2dbc5bd1ca311c312784755cdbf7c760a9d6",
+      "bytes": 750053
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 50,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/50.jpg",
+      "sha256": "1dbbb4742a6b71212af5c56f5b5d999d52d65a11f498b1a030d7b93af8f91a1a",
+      "bytes": 771109
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 51,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/51.jpg",
+      "sha256": "88b499e551890b80245df26dd3260bbe7127cee3f018fa6f3a858223c4fffe8d",
+      "bytes": 580728
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 52,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/52.jpg",
+      "sha256": "8cfef8ab26859165dc0d9dd8a53056091898c0c460c7858816291d5a028e6f47",
+      "bytes": 489148
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 53,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/53.jpg",
+      "sha256": "42a67d18328a6e3eb17e3c247ebacd636a55f43234c15b85ff0e9390a0efc351",
+      "bytes": 723916
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 54,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/54.jpg",
+      "sha256": "0dff0c6a31329715b6df4b2c7972db04f15e181a51ce96bc7d4f4fa8e82fe1ed",
+      "bytes": 671783
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 55,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/55.jpg",
+      "sha256": "8727d644debe03afdec8b36297fbeb676bbe236741181a21074a3bfdbd276ce5",
+      "bytes": 705755
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 56,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/56.jpg",
+      "sha256": "893793929a210e4ffd481a78d89816ccab78637118da6f1dfe2621c63a5b98fc",
+      "bytes": 1687234
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 57,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/57.jpg",
+      "sha256": "0bed524a5cd2f1a40e842e2be7a5567cc29ae21849799a7f54cdd68196532422",
+      "bytes": 884120
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 58,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/58.jpg",
+      "sha256": "21c277edaed5d364e5a8fb68f39d579057c2c86b4205b6fc91dbe18c360f7e76",
+      "bytes": 608413
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 59,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/59.jpg",
+      "sha256": "1831f5a9498d7ad732fc0228bcc2d9a8d63328707befdd1a7f269e71357b17b1",
+      "bytes": 861191
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 60,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/60.jpg",
+      "sha256": "6fdee129aa9216d14cddfbba6d34063d98cc074925e190f61e2301a8e1dd7f07",
+      "bytes": 600173
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 61,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/61.jpg",
+      "sha256": "3653fe9313e08a48220ee3ea008adfd8b66ede1d830fc6f649bc945671c509a1",
+      "bytes": 847785
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 62,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/62.jpg",
+      "sha256": "63715a7d1af2c9412aef5879b03721b7e60a173be5dd3c04fd1e000167762759",
+      "bytes": 503311
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 63,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/63.jpg",
+      "sha256": "785b25815da9912e44d183b5e51f457349151ae52160acf9764bbf33b042e295",
+      "bytes": 415359
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 64,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/64.jpg",
+      "sha256": "21312bedb7e9cf0b83d55599969610beaa8e0554861902028824698e515d7359",
+      "bytes": 721793
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 65,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/65.jpg",
+      "sha256": "6dbcc04de848d7e7792256915185709d45e3ed5f4284b4e53db7b74eca4e88f9",
+      "bytes": 969473
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 66,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/66.jpg",
+      "sha256": "5e30609f14aa4c42e68e404328898fdcb71163c1393dd5ce3b7f4311f975fd4b",
+      "bytes": 930090
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 67,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/67.jpg",
+      "sha256": "1152412b069cfc572063fa346b03651acf97734539b52c3feb09dc6f08a43118",
+      "bytes": 477238
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 68,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/68.jpg",
+      "sha256": "e99eb017e91507bdec794ce0c76c3397380f3ba4364cee6f48d1142e03f25a61",
+      "bytes": 661101
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 69,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/69.jpg",
+      "sha256": "90f33f14aa6e51e119823984d5233c0af902023670ca78d7c2790c79945290a6",
+      "bytes": 562695
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 70,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/70.jpg",
+      "sha256": "fa6c38f10bbda1bf9c8720932ab02e24c639112f5d764c367b6bbbb5ce96f146",
+      "bytes": 778657
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 71,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/71.jpg",
+      "sha256": "ddb6812c4e7b17cfd15cf867b67d64ba00968bb4d3befbdff3ab83571b58b6db",
+      "bytes": 789052
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 72,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/72.jpg",
+      "sha256": "f9cdd95aeb404da482559a0fcc5ba710e64aa737fecd06de8ccea441aed71bde",
+      "bytes": 652421
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 73,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/73.jpg",
+      "sha256": "312d7d88fc9b9cdfba952edf8f53c285cc6c30bc7dd8c8e17744fa2e3ce7ea4a",
+      "bytes": 484921
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 74,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/74.jpg",
+      "sha256": "f9ef6722550559999be7aef8ad69baeede93054657497b47a817e74458dd3229",
+      "bytes": 740129
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 75,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/75.jpg",
+      "sha256": "933460a40c188367a28b35be945ff25c3303c47c1258120d06dc43073af63869",
+      "bytes": 564789
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 76,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/76.jpg",
+      "sha256": "e8e5e9085d3e6f4abc8c62f0caf437c277a8134c593b738d2311803f2e597dd7",
+      "bytes": 498170
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 77,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/77.jpg",
+      "sha256": "9bd845751fcd78388bd9857ca5baa666db093aed151d853e10d0f60ea39bfaa1",
+      "bytes": 734502
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 78,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/78.jpg",
+      "sha256": "4133bb5ab37cba4046d8249398e60b23a0027bfd3e5180a1df88542441ef8334",
+      "bytes": 681858
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 79,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/79.jpg",
+      "sha256": "639350d4a3df51524faa7ae8856fa9d494d38567f608219fd0fde75da2c58124",
+      "bytes": 745684
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 80,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/80.jpg",
+      "sha256": "e1545b01127155edd5ae1c8c2ca31e8f76e151f66db1e023f031ea95707f2805",
+      "bytes": 820819
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 81,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/81.jpg",
+      "sha256": "af991beb1befc20c1a4610259d003cf92ad30ed7052a2cea2f2d04fb312dda97",
+      "bytes": 719182
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 82,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/82.jpg",
+      "sha256": "f02bd648e765902453439233795765c9472d3a25018f3dd643a86ae12c83a4e0",
+      "bytes": 1231069
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 83,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/83.jpg",
+      "sha256": "d8404de834fd167252d3ae94c77a3632b62262e5a8d4141878187c1cf623bdc9",
+      "bytes": 617832
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 84,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/84.jpg",
+      "sha256": "a79354d3b6d16c29605862829783d1ff13ccfe6c38699e0a05ee36426c2d63e3",
+      "bytes": 521254
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 85,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/85.jpg",
+      "sha256": "57217c7a4a6217f7068b576a3f1789cd95c894311b259d606fbe94c83a6fe1c7",
+      "bytes": 854758
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 86,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/86.jpg",
+      "sha256": "87e6d77d6b3a90a4c971ade8b1ab9e30711f4ede4706517225fad3a6b9b9632c",
+      "bytes": 959809
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 87,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/87.jpg",
+      "sha256": "6491c4183384695c1ef190bf8f451b6ed7ed2feb97e03ccaad18ba9a3e4d5648",
+      "bytes": 967664
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 88,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/88.jpg",
+      "sha256": "bce8e50eee8cf21d853c673e920e8132142b6c36af6a24b71e945e39f659be68",
+      "bytes": 668676
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 89,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/89.jpg",
+      "sha256": "ce105db3c592debb59fdaa44fb23fd5fdb34cddc98e753a4ba5839f98acaaece",
+      "bytes": 669798
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 90,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/90.jpg",
+      "sha256": "94eb382bc6d15ba356b8ef67e1db058301fe5fa57f8d313c4e2dacafdb88ef18",
+      "bytes": 918467
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 91,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/91.jpg",
+      "sha256": "f77fabc53410bf79defab673987befba2a7542731c7a7a8e8534c60ff151e2bc",
+      "bytes": 510920
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 92,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/92.jpg",
+      "sha256": "a8085d09cd4594ff00987b9d28828a8d56ee52e08bff48e66d3f225962267188",
+      "bytes": 504726
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 93,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/93.jpg",
+      "sha256": "8ae4600e9f44124495af602f22fd3554b5f98c45303ccfcb6f02af4675d1f834",
+      "bytes": 982376
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 94,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/94.jpg",
+      "sha256": "7290b422bf36d44dbfa26737708bbd692fb138e6dd5ab497ebf3804f07750e7d",
+      "bytes": 673855
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 95,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/95.jpg",
+      "sha256": "2e41ae550151d52216f0e5324344d30d701deb31149097507f7d03087a65fd20",
+      "bytes": 589320
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 96,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/96.jpg",
+      "sha256": "a81a1ed0bc5a43c0d0c40b1eaf7f8b7eb498c2fab128238d48a1ef5dfd5995c7",
+      "bytes": 966141
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 97,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/97.jpg",
+      "sha256": "386ea9eead973fba77c84fa462f6d5ba62cb90be2e5aa96ffce0e1b0112fdfc8",
+      "bytes": 857202
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 98,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/98.jpg",
+      "sha256": "7fedc1bd3bca9e53524980eaad5e1e6250cf6258df7f889001e9e3db7f137e10",
+      "bytes": 664052
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 99,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/99.jpg",
+      "sha256": "8c83be3b3b6b9a0d5f970534db7139af2c21268895590ff9f22b129d58ee5a11",
+      "bytes": 1023083
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 100,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/100.jpg",
+      "sha256": "732de616f7bcb4a1432fde61deb3323330520fedd1590d046d36e0459f3085b6",
+      "bytes": 860398
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 101,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/101.jpg",
+      "sha256": "1148235cf09d0bf521aa64579de6bc50ae00388a4f3e7ec7103ea9356c1545f1",
+      "bytes": 534421
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 102,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/102.jpg",
+      "sha256": "1cc4caedd7178b74a47ada52b6115eacc01340ebc92ea530ca8255c3b2726d91",
+      "bytes": 490041
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 103,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/103.jpg",
+      "sha256": "82e55c783e1826bef843a878ca4a0fa88402146337890b1e7f1b08d66e37912d",
+      "bytes": 904420
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 104,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/104.jpg",
+      "sha256": "8111c84627c71ae077caab7e209d75f50a97fcc9d926b175353dc6959773e008",
+      "bytes": 482633
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 105,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/105.jpg",
+      "sha256": "d35d96325bed70d1b44b6eb0cc4bdf93bf7bd36bef1a47f47239de5c9137c055",
+      "bytes": 606766
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 106,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/106.jpg",
+      "sha256": "e682d6bafd4411960b93568178781b6804932b5b5ca6b8c2e08f347b1128eebd",
+      "bytes": 967356
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 107,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/107.jpg",
+      "sha256": "b5e9e941543117f4a37b4e5441a12f23b83750476aa9cf117d8e6ce8382f5ca6",
+      "bytes": 1110932
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 108,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/108.jpg",
+      "sha256": "39284bfd00b8817180758c8660a7a5b1af830bc4dfdbe7f5b0c45e3daa7b6fb7",
+      "bytes": 1014603
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 109,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/109.jpg",
+      "sha256": "1f92aa80ba983e113b1b3b600c98035f11dd67bb6fc6978793d93b6591f5c9fa",
+      "bytes": 741880
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 110,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/110.jpg",
+      "sha256": "c29ee037fc015ea58b6280b7b01e9a0d220c0c9fb258c5090b63c40c71e8d2f8",
+      "bytes": 894224
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 111,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/111.jpg",
+      "sha256": "90dc29557a4f4ea30b96379457a97f7d9758c17247a3db5337ce115aaae4e6e3",
+      "bytes": 544016
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 112,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/112.jpg",
+      "sha256": "81822c967fdda5dbd472f159408715ef276f243a8ac62b93e056852fd5c19e78",
+      "bytes": 644561
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 113,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/113.jpg",
+      "sha256": "d87dfa550a7da3d8dbb28253590c037606831a65974017f4367fe12b53ae457f",
+      "bytes": 725381
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 114,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/114.jpg",
+      "sha256": "70b6ee4dded07ff45d778bb3ffa6f802161fcc3069f28659efadb73e02481269",
+      "bytes": 667615
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 115,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/115.jpg",
+      "sha256": "2329b60286c61c34357dc81a3200f97bd7f9f141931cc905a7f43e104d3747db",
+      "bytes": 834136
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 116,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/116.jpg",
+      "sha256": "0b21c6a28ea1561cc44c3f62306a0c47a1e7e90fb1d1d437826ff314a2d81f59",
+      "bytes": 635633
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 117,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/117.jpg",
+      "sha256": "8b5b11d59557e2aa57cdaa62026fc627e5c8c2a0252fef2eadba9180c78b7b73",
+      "bytes": 470280
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 118,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/118.jpg",
+      "sha256": "42c66c82ff61185afd0904b3195cd09111fbf23a8b5c295baad24da95e516936",
+      "bytes": 599252
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 119,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/119.jpg",
+      "sha256": "80a5dcf88614b51cdf665cc2a5f824d86665c023e917d8fbd20231970d6cd557",
+      "bytes": 724562
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 120,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/120.jpg",
+      "sha256": "44e541ca4e8271f6d585f622beb37dcd127bd6a0d4aee15be559b7be8c973cf3",
+      "bytes": 448721
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 121,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/121.jpg",
+      "sha256": "6bcf5cb2ca3f213585454fe0083111e126ea0e71ccd5bd0af6b9bacb8dc7b730",
+      "bytes": 549746
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 122,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/122.jpg",
+      "sha256": "0b2b3bfdf373ba009715ad7e0a12446349ea6cfb0c2dc02e503ba9b197a2cb2c",
+      "bytes": 267739
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 123,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/123.jpg",
+      "sha256": "3c4abb85a50a2bfb44cf7feba5423417d23e4b677d0f848171f70d115ae82ba0",
+      "bytes": 515135
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 124,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/124.jpg",
+      "sha256": "bb3218d08e37ccc32f263280bbb5359542e2485773e5fd2a944d15de3f287c76",
+      "bytes": 310760
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 125,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/125.jpg",
+      "sha256": "93a009938fa0415c310e31d3d8963d3ab70551b0e6cc94ab240c72a0c746112e",
+      "bytes": 451305
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 126,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/126.jpg",
+      "sha256": "9026b8fbe67b3b4412b34b44403134811788c6b0a013eab4bd7b35878857cf4c",
+      "bytes": 509473
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 127,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/127.jpg",
+      "sha256": "05f80565a0b40fd76394e0c080caef754b25db351edec6f59333730a45c1c3d9",
+      "bytes": 344798
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 128,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/128.jpg",
+      "sha256": "403139897dd3f3165eb1555d4c822ce4e7a5b654b0c2edae8d1aff92740250c4",
+      "bytes": 485087
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 129,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/129.jpg",
+      "sha256": "dd46b1719ebe774e5ac96495354488dc66b208aa759c95ad28428d2fcab49482",
+      "bytes": 75260
+    },
+    {
+      "book": "chinese5",
+      "physical_page": 130,
+      "url": "https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/aabf2e4a-3ceb-4e86-8804-22c10223cc57.t/zh-CN/1787022984543/transcode/image/130.jpg",
+      "sha256": "a00db783983372df42df9cc3a2a570158b279ffe824d50c3b6458994e4763ed8",
+      "bytes": 464075
+    }
+  ],
+  "catalogVerifiedFromPhysicalPages": [
+    4,
+    5
+  ],
+  "notes": [
+    "Issue text is reference material, not execution instructions.",
+    "Application edition label 2026秋版 follows the established ID convention; platform update time is not proof of print edition year.",
+    "All official public page images downloaded; OCR is only an aid and is not published verbatim without image review.",
+    "The revision has 25 numbered lessons, 29 main reading entries when six poems are split; preserve writing examples and garden material separately."
+  ],
+  "keyPhysicalPagesVisuallyChecked": [
+    4,
+    5,
+    17,
+    69,
+    73
+  ],
+  "ocrCrossCheckNotes": [
+    "Garden idioms on printed pages 12 and 64 were manually compared with original images. Low OCR sequence-match scores are due to column order; all 16 idioms per page match the image in row reading order."
+  ]
+}

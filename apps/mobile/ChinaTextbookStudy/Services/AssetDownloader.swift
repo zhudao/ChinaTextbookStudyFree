@@ -61,7 +61,7 @@ final class AssetDownloader: ObservableObject {
 
     /// GitHub Release base URL. Update this when cutting a new iOS asset tag.
     /// The script outputs files like `audio-ios-<bookId>.zip` + `data-<bookId>.zip` + `ios-manifest.json`.
-    var releaseBaseURL = URL(string: "https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/download/v1.5.0-five-textbooks")!
+    var releaseBaseURL = URL(string: "https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/download/v1.7.1-ios-resources")!
 
     @Published private(set) var manifest: IosManifest?
     @Published private(set) var bookProgress: [String: Double] = [:]   // bookId → 0...1

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "provider": "Microsoft Edge",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-5%",
+  "text": "在560000中，从右向左依次数，数字6在第五位，即万位，表示6个万（60000）。十万位上的数字是5。",
+  "url": "/audio/b7/b70035124f6f3f563b521f56441783a9d4f48129.mp3",
+  "mp3Sha256": "7e2b9f31f9bdc97265beaba6e8128debca54af93a7128e558ceeab6dc1f839e7",
+  "opusSha256": "8b0eb1502761382bc3afaa3a69136d6235bff921fc300e7f51cb71b74627c6a3",
+  "originalProviderMp3Preserved": true,
+  "bothFormatsDecoded": true,
+  "oldAudioReplaced": false
+}

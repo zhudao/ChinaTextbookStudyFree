@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-10-25T08:39:54.244745+00:00",
+  "tag": "v1.7.0",
+  "sourceCommit": "4a9ba1bab842775d3ac45d25cbaf40290b3ed16b",
+  "implementationPullRequest": 41,
+  "releaseMaintenancePullRequest": 42,
+  "website": "https://d3nmsqi4n72idj.cloudfront.net",
+  "catalog": {
+    "versions": 58,
+    "current": 44,
+    "legacy": 14,
+    "regularLessons": 2863,
+    "regularQuestions": 18159,
+    "challengeQuestions": 4875,
+    "readingPassages": 936,
+    "stories": 284
+  },
+  "newMath": {
+    "books": 7,
+    "officialSourcePages": 815,
+    "unitsAndPractices": 57,
+    "lessons": 290,
+    "questions": 2082,
+    "edgeJobs": 9945,
+    "independentIds": true,
+    "bodyCoverageFindingsResolved": 124
+  },
+  "automated": {
+    "coreTests": 231,
+    "nativeTests": 211,
+    "graderQuestions": 24260,
+    "speechCorpusParityStrings": 110222,
+    "nativeAACDecodes": 23920,
+    "staticFreshInstallAndFullInventory": "passed",
+    "sourceFreshInstallAndFullInventory": "passed",
+    "nativePackagesVerified": 116,
+    "nativeClientIndexContract": "passed"
+  },
+  "production": {
+    "localSiteFiles": 342651,
+    "remoteFiles": 342988,
+    "retainedHistoricalAssets": 337,
+    "missing": 0,
+    "sizeMismatches": 0,
+    "unexpectedObjects": 0,
+    "exceptionalMediaMimeHeadsVerified": 51352,
+    "allBookJsonByteHashes": 3350,
+    "edgeMP3ByteHashesAndMime": 19925,
+    "httpChecks": 164,
+    "cloudFrontInvalidation": "completed",
+    "httpsRedirectAndPrivateOrigin": "passed"
+  },
+  "learnerPreservation": {
+    "status": "passed",
+    "sameProductionOrigin": true,
+    "noBrowserStorageClearedOrInjected": true,
+    "completeExportedDataEqualAcrossDeployment": 4,
+    "threeExistingProfilesStillExactlyEqualAfterNewMathCompletion": true,
+    "oldMathGradeUnchanged": true,
+    "oldPilotEvidenceUnchanged": true,
+    "newMathId": "g1up-2026-u101-kp1",
+    "newMathStars": 3,
+    "newMathAccuracy": 1,
+    "newCompletionNotInheritedFromOld": true,
+    "rewardsAddedWithoutOverwritingPrevious": true,
+    "refreshedThenExportedViaUI": true,
+    "legacyAvailableViaEditionPicker": true,
+    "originalProfileRestored": true,
+    "consoleErrors": [],
+    "rawLearnerExportsPublished": false
+  },
+  "releaseOrganization": {
+    "status": "passed",
+    "primaryTag": "v1.7.0",
+    "webTag": "v1.7.0-web-resources",
+    "iosTag": "v1.7.0-ios-resources",
+    "books": 58,
+    "uploadedFilesPerRelease": {
+      "v1.7.0": 7,
+      "v1.7.0-web-resources": 18,
+      "v1.7.0-ios-resources": 118
+    },
+    "binaryBytesUnchanged": true,
+    "nativeIndexBesideBundles": true
+  },
+  "previousRelease": {
+    "status": "passed",
+    "tag": "v1.6.0-chinese-g5up",
+    "assets": 125,
+    "assetIdsAndUrlsUnchanged": true,
+    "allSizesAndDigestsUnchanged": true
+  },
+  "limits": [
+    "Content is machine-screened, not teacher-signed.",
+    "Physical iPad6 validation remains pending (#3).",
+    "Five-four curriculum grade/subject/publisher scope remains pending (#7).",
+    "Teacher/child/thumb/weak-network/brand/delayed mastery acceptance remains pending (#12).",
+    "Four corrected legacy unfinished courses may require restart;completed grades and rewards are retained."
+  ]
+}

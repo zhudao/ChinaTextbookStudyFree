@@ -1,0 +1,488 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学六年级上册（2022课标修订版）",
+  "edition": "2026",
+  "editionLabel": "2022课标修订版",
+  "supersedes": "g6up",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "确定位置",
+      "knowledge_points": [
+        {
+          "name": "用有序数对表示座位位置",
+          "description": "结合新版教材学习用有序数对表示座位位置",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据有序数对在方格图中确定位置",
+          "description": "结合新版教材学习根据有序数对在方格图中确定位置",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用方向和距离描述位置",
+          "description": "结合新版教材学习用方向和距离描述位置",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据方向和距离在平面图上确定位置",
+          "description": "结合新版教材学习根据方向和距离在平面图上确定位置",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用方向和距离描述与绘制路线",
+          "description": "结合新版教材学习用方向和距离描述与绘制路线",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "分数乘法",
+      "knowledge_points": [
+        {
+          "name": "分数乘整数的意义与计算",
+          "description": "结合新版教材学习分数乘整数的意义与计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "一个数乘分数的意义与计算",
+          "description": "结合新版教材学习一个数乘分数的意义与计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "分数混合运算与简便计算",
+          "description": "结合新版教材学习分数混合运算与简便计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "连续求一个数的几分之几",
+          "description": "结合新版教材学习连续求一个数的几分之几",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "分数、小数混合乘法及求比一个数多（少）几分之几的数",
+          "description": "结合新版教材学习分数、小数混合乘法及求比一个数多（少）几分之几的数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "分数除法",
+      "knowledge_points": [
+        {
+          "name": "倒数的认识与求法",
+          "description": "结合新版教材学习倒数的认识与求法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "分数除法的意义与计算",
+          "description": "结合新版教材学习分数除法的意义与计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "一个数除以分数的计算方法",
+          "description": "结合新版教材学习一个数除以分数的计算方法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "分数混合运算的顺序与计算",
+          "description": "结合新版教材学习分数混合运算的顺序与计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "已知一个数的几分之几求这个数",
+          "description": "结合新版教材学习已知一个数的几分之几求这个数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用分数除法解决实际问题",
+          "description": "结合新版教材学习用分数除法解决实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 101,
+      "title": "生活中的负数",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "用正、负数表示生活中相反意义的量",
+          "description": "结合新版教材学习用正、负数表示生活中相反意义的量",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "在数轴上表示正数、负数和0",
+          "description": "结合新版教材学习在数轴上表示正数、负数和0",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识正数、负数和0",
+          "description": "结合新版教材学习认识正数、负数和0",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用负数表示较小数减较大数的结果",
+          "description": "结合新版教材学习用负数表示较小数减较大数的结果",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "圆",
+      "knowledge_points": [
+        {
+          "name": "圆的认识与画法",
+          "description": "结合新版教材学习圆的认识与画法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "扇形的认识",
+          "description": "结合新版教材学习扇形的认识",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "圆的周长及其计算",
+          "description": "结合新版教材学习圆的周长及其计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "圆的面积及其计算",
+          "description": "结合新版教材学习圆的面积及其计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "圆环面积的计算",
+          "description": "结合新版教材学习圆环面积的计算",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "圆与组合图形的周长和面积",
+          "description": "结合新版教材学习圆与组合图形的周长和面积",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 102,
+      "title": "体育中的数学",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "从体育情境中提取数学信息",
+          "description": "结合新版教材学习从体育情境中提取数学信息",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "运用本册所学知识分析体育问题",
+          "description": "结合新版教材学习运用本册所学知识分析体育问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用数据和算式说明解决方案",
+          "description": "结合新版教材学习用数据和算式说明解决方案",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "百分数",
+      "knowledge_points": [
+        {
+          "name": "百分数的意义与读写",
+          "description": "结合新版教材学习百分数的意义与读写",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "百分数、小数和分数的互化",
+          "description": "结合新版教材学习百分数、小数和分数的互化",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "求一个数是另一个数的百分之几",
+          "description": "结合新版教材学习求一个数是另一个数的百分之几",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "求一个数的百分之几是多少",
+          "description": "结合新版教材学习求一个数的百分之几是多少",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "已知一个数的百分之几求这个数",
+          "description": "结合新版教材学习已知一个数的百分之几求这个数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "百分数在生活中的应用",
+          "description": "结合新版教材学习百分数在生活中的应用",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 103,
+      "title": "水是生命之源",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "整理并解读水资源相关数据",
+          "description": "结合新版教材学习整理并解读水资源相关数据",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "设计并实施生活用水调查",
+          "description": "结合新版教材学习设计并实施生活用水调查",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据数据提出节水建议",
+          "description": "结合新版教材学习根据数据提出节水建议",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "合作设计并开展节水宣传",
+          "description": "结合新版教材学习合作设计并开展节水宣传",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "复习与关联",
+      "knowledge_points": [
+        {
+          "name": "用有序数对描述和确定位置",
+          "description": "结合新版教材学习用有序数对描述和确定位置",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "分数乘除法的计算与联系",
+          "description": "结合新版教材学习分数乘除法的计算与联系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "综合运用分数乘除法解决问题",
+          "description": "结合新版教材学习综合运用分数乘除法解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用方向和距离确定位置、描述路线",
+          "description": "结合新版教材学习用方向和距离确定位置、描述路线",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "圆和扇形的认识、圆的周长与面积",
+          "description": "结合新版教材学习圆和扇形的认识、圆的周长与面积",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "综合运用百分数解决实际问题",
+          "description": "结合新版教材学习综合运用百分数解决实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "平均数与百分数的统计意义和作用",
+          "description": "结合新版教材学习平均数与百分数的统计意义和作用",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "运用鸽巢原理解决简单分配与保证问题",
+          "description": "结合新版教材学习运用鸽巢原理解决简单分配与保证问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "isolated local test profile, real UI",
+  "introPartialAfterReload": true,
+  "unsubmittedChoiceAfterReload": "4",
+  "checkedFeedbackAfterReload": true,
+  "firstCorrect": "0/6",
+  "corrected": "6/6",
+  "xp": 0,
+  "gems": 3,
+  "completionPages": 1,
+  "contrast": {
+    "checked": 23,
+    "dark": true,
+    "failures": [],
+    "route": "/lesson/g1up/g1up-u1-kp1/",
+    "skipped": [],
+    "width": 390
+  }
+}

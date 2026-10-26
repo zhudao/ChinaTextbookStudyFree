@@ -37,6 +37,7 @@ import asyncio
 import json
 import math
 import random
+import re
 import sys
 import time
 from pathlib import Path
@@ -69,6 +70,12 @@ DEFAULT_VOICE_EN = "en-US-AnaNeural"
 # The service returns an empty stream for these isolated notation glyphs.
 # Keep the original text hash/path and speak its sound or an explicit label.
 PHONETIC_SPEECH = {
+    ">": "大于", "<": "小于", "=": "等于", "……": "省略号",
+    "＞": "大于", "＜": "小于", "＝": "等于",
+    "+": "加号", "＋": "加号", "-": "减号", "－": "减号",
+    "×": "乘号", "÷": "除号", "≤": "小于或等于", "≥": "大于或等于",
+    "≠": "不等于", "±": "正负号", "π": "圆周率", "°": "度",
+    "∠": "角", "□": "方框", "△": "三角形", "○": "圆圈",
     "ü": "迂", "ū": "乌", "ú": "无", "ǔ": "五", "ù": "物",
     "ˇ": "第三声，上声。", "ˋ": "第四声，去声。",
     "ˉ": "第一声，阴平。", "ˊ": "第二声，阳平。",
@@ -79,6 +86,14 @@ PHONETIC_SPEECH = {
     "/ð/": "The voiced th sound, as in this.",
     "/θ/": "The unvoiced th sound, as in thin.",
 }
+
+
+def spoken_text(text: str) -> str:
+    """Describe isolated notation while retaining its original content hash."""
+    if re.fullmatch(r"●+(?:\s+●+)*", text):
+        # Say each dot so children can count; do not announce the answer count.
+        return "；".join("，".join("圆点" for _ in group) for group in text.split())
+    return PHONETIC_SPEECH.get(text, text)
 
 
 class RequestLimiter:
@@ -149,7 +164,7 @@ async def synth_one(
                 limiter.retries += 1
         try:
             communicate = edge_tts.Communicate(
-                text=PHONETIC_SPEECH.get(text, text), voice=voice, rate=rate, volume=volume, pitch=pitch
+                text=spoken_text(text), voice=voice, rate=rate, volume=volume, pitch=pitch
             )
             audio = bytearray()
             async for chunk in communicate.stream():

@@ -28,15 +28,26 @@ jobs:
       - run: npm run type-check
       - run: npm run check:web-experience
       - run: npm run check:visual-controls
+      - name: Release installer and platform grouping
+        run: |
+          python3 scripts/checks/release-installer.py
+          python3 scripts/checks/release-v2.py
+          python3 scripts/checks/release-organization.py
+          npx tsx scripts/checks/narration-reference.test.ts
       - name: Learning quality and canonical pilot content
         run: |
           python3 scripts/install-release.py --asset-kind source-data
           npx tsx apps/web/scripts/build-data.ts
           python3 scripts/checks/content-retention.py
           npx tsx scripts/checks/content-grading.ts
+          python3 scripts/checks/revised-math-arithmetic.py
+          python3 scripts/checks/ux-content-arithmetic.py
+          npx tsx scripts/check-lesson-revisions.ts --content-only
+          npx tsx scripts/checks/ux-content.ts --allow-missing-audio
           npm run check:learning-quality
       - name: Narration and offline transport
         run: |
           npx tsx scripts/checks/intro-narration.ts
           npx tsx scripts/checks/tts-legacy-audio.ts
           node scripts/checks/service-worker.mjs
+          npx tsx scripts/checks/math-speech.ts

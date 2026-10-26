@@ -251,7 +251,7 @@ export function JumpClient() {
           <Mascot mood="cheer" size={150} reactTo="levelup" reactKey={1} />
           <h1 className="text-4xl font-extrabold text-primary mt-4">跳级成功！</h1>
           <p className="text-ink-light mt-2">
-            你已经掌握了前面的知识，直接从{load.unitLabel}
+            你通过了前面知识的检测，可以从{load.unitLabel}
             {load.unitTitle ? `「${load.unitTitle}」` : ""}继续吧！
           </p>
           <motion.div

@@ -8,6 +8,9 @@ _NARRATION_OVERRIDES = {entry["input"]: entry["spoken"] for entry in _NARRATION_
 
 
 def repair_formula(value):
+    value = re.sub(r"\\+bdiv(?![A-Za-z])", lambda m: r"\div", value)
+    value = re.sub(r"(\d+\.\d*)((?:\x08dot\{\d\})+)",
+                   lambda m: m[1] + m[2].replace("\x08dot", r"\dot"), value)
     for pattern, replacement in [
         (r"\t(imes|riangle|ext)(?![A-Za-z])", lambda m: "\\t" + m[1]),
         (r"\frac(?![A-Za-z])", lambda m: r"\frac"),
@@ -23,6 +26,33 @@ def repair_formula(value):
     ]:
         value = re.sub(pattern, replacement, value)
     return re.sub(r"(\\*)%", lambda m: m[0] if len(m[1]) % 2 else m[1] + r"\%", value)
+
+
+def bare_math(text: str):
+    if any(token in text for token in ("$", r"\(", r"\[")):
+        return [("text", text, text)]
+    text = re.sub(r"\x08div(?![A-Za-z])", lambda m: r"\div", text).replace("\x07", r"\times")
+    simple_fractions = r"\\+(?:dfrac|tfrac|frac)\s*\{\d+(?:\.\d+)?\}\s*\{\d+(?:\.\d+)?\}"
+    if re.search(r"\\+(?:dfrac|tfrac|frac)(?![A-Za-z])", re.sub(simple_fractions, "", text)):
+        return [("text", text, text)]
+    protected = [(m.start(), m.end()) for m in re.finditer(r"https?://\S+|[A-Za-z]:\\\S+", text)]
+    pattern = (r"\\+(?:dfrac|tfrac|frac)\s*\{\d+(?:\.\d+)?\}\s*\{\d+(?:\.\d+)?\}"
+               r"|\d+(?:\.\d+)?\^\s*(?:\{\\+circ\}|\\+circ)(?![A-Za-z])"
+               r"|\\+(?:mathrm|text)\s*\{[^{}\\]*\}"
+               r"|\\+(?:bdiv|div|times|cdot|rightarrow|leftrightarrow|pm)(?![A-Za-z])")
+    parts, start = [], 0
+    for match in re.finditer(pattern, text):
+        if any(a <= match.start() < b for a, b in protected):
+            continue
+        if match.start() > start:
+            value = text[start:match.start()]
+            parts.append(("text", value, value))
+        value = repair_formula(re.sub(r"\\+", lambda m: "\\", match[0]))
+        parts.append(("inline", value, "$" + value + "$"))
+        start = match.end()
+    if start < len(text):
+        parts.append(("text", text[start:], text[start:]))
+    return parts
 
 
 def math_segments(text: str):
@@ -56,7 +86,8 @@ def math_segments(text: str):
         i = plain_start = end + len(closer)
     if plain_start < len(text):
         parts.append(("text", text[plain_start:], text[plain_start:]))
-    return parts
+    return [segment for kind, value, raw in parts
+            for segment in (bare_math(value) if kind == "text" else [(kind, value, raw)])]
 
 
 def math_speech(text: str) -> str:
@@ -83,7 +114,7 @@ def math_speech(text: str) -> str:
             (r"\\angle\b", "角"), (r"\\(?:Rightarrow|implies)\b", "所以"),
             (r"\\dots\b", "省略号"), (r"\\qquad\b", " "), (r"\\pm\b", "正负"),
             (r"\\sqrt\s*\{(\d+(?:\.\d+)?)\}", r"根号\1"), (r"\\_|_{3,}", "空格"),
-            (r"\\rightarrow\b", "变为"), (r"\\approx\b", "约等于"),
+            (r"\\rightarrow\b", "变为"), (r"\\leftrightarrow\b", "双向箭头"), (r"\\approx\b", "约等于"),
             (r"\\(?:leq|le)\b|≤", "小于或等于"),
             (r"\\(?:geq|ge)\b|≥", "大于或等于"),
             (r"\\neq\b|≠", "不等于"), (r"\\pi\b|π", "派"),

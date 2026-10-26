@@ -312,7 +312,7 @@
         "question": "$0.5 \times 40 = ?$",
         "options": [],
         "answer": "20",
-        "explanation": "$0.5 \times 40 = \frac{1}{2} \times 40 = 20$。验算：$20 \times 0.5 = 40$ ✓。"
+        "explanation": "$0.5 \\times 40 = \\frac{1}{2} \\times 40 = 20$。验算：$20 \\div 0.5 = 40$。"
       },
       {
         "id": 23,

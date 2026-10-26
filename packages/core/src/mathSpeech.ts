@@ -39,6 +39,7 @@ export function mathSpeech(text: string): string {
       .replace(/\\sqrt\s*\{(\d+(?:\.\d+)?)\}/g, "根号$1")
       .replace(/\\_|_{3,}/g, "空格")
       .replace(/\\rightarrow(?![A-Za-z])/g, "变为")
+      .replace(/\\leftrightarrow(?![A-Za-z])/g, "双向箭头")
       .replace(/\\approx(?![A-Za-z])/g, "约等于")
       .replace(/\\(?:leq|le)(?![A-Za-z])|≤/g, "小于或等于")
       .replace(/\\(?:geq|ge)(?![A-Za-z])|≥/g, "大于或等于")

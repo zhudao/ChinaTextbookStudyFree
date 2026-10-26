@@ -75,8 +75,10 @@ const bootKey=new Function('localStorage','sessionStorage',`${second.profiles.LE
 assert.equal(bootKey,back.manager.key('csf-theme-mode'));
 assert.throws(()=>back.profiles.createLearnerProfiles({getItem:storage.getItem,setItem(){throw new Error('Quota');}}).create('新档案'));
 // Edition upgrades retain old grades through the actual persisted store.
-for (const bookId of ['g3up','chinese-g2up','chinese-g3up','english-g3up','science-g3up']) {
-  const oldId = `${bookId}-u1-kp1`, newId = `${bookId}-2026-u1-kp1`;
+const revisions = JSON.parse(readFileSync('content/editions/2026/catalog.json', 'utf8')).books as {legacyId: string; id: string}[];
+for (const edition of revisions) {
+  const bookId = edition.legacyId;
+  const oldId = `${bookId}-u1-kp1`, newId = `${edition.id}-u1-kp1`;
   back.store.getState().recordLessonComplete(oldId, '旧版第一课', 1, 10);
   const oldGrade = structuredClone(back.store.getState().completedLessons[oldId]);
   assert.equal(back.store.getState().completedLessons[newId], undefined);
@@ -92,4 +94,4 @@ for (const bookId of ['g3up','chinese-g2up','chinese-g3up','english-g3up','scien
   assert.equal(editionReload.perfectedLessons[newId], undefined);
 }
 console.log('PASS latest-main learner profiles: actual v13 store, migration, independent progress/rewards/achievements/settings, reading/review/number-sense sessions, reload, theme boot and tab isolation.');
-console.log('PASS: five revised editions retain legacy grades and active book through reload; new completion and perfect rewards stay independent.');
+console.log(`PASS: ${revisions.length} revised editions retain legacy grades and active book through reload; new completion and perfect rewards stay independent.`);

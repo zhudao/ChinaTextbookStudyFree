@@ -1,0 +1,661 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学一年级上册（2022课标修订版）",
+  "unit": "20以内的进位加法",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "20以内的进位加法·配套练习",
+    "total_score": 360,
+    "time_minutes": 36,
+    "questions": [
+      {
+        "answer": "15",
+        "difficulty": 1,
+        "explanation": "把6分成1和5，先算9+1=10，再算10+5=15。",
+        "knowledge_point": "理解凑十的思路并计算9加几",
+        "options": [
+          "16",
+          "13",
+          "14",
+          "15"
+        ],
+        "question": "9+6=",
+        "type": "choice",
+        "id": 50001,
+        "score": 10
+      },
+      {
+        "answer": "12",
+        "difficulty": 1,
+        "explanation": "把3分成1和2，先算9+1=10，再算10+2=12。",
+        "knowledge_point": "理解凑十的思路并计算9加几",
+        "options": [],
+        "question": "9+3=",
+        "type": "calculation",
+        "id": 50002,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "8可以分成1和7。先用1和9凑成10，再加剩下的7，得17。",
+        "knowledge_point": "理解凑十的思路并计算9加几",
+        "options": [],
+        "question": "计算9+8时，可以把8分成1和7，先算9+1=10，再算10+7=17。",
+        "type": "true_false",
+        "id": 50003,
+        "score": 10
+      },
+      {
+        "answer": "16",
+        "difficulty": 2,
+        "explanation": "把两种气球合起来，9+7=16。一共有16个。",
+        "knowledge_point": "理解凑十的思路并计算9加几",
+        "options": [
+          "17",
+          "15",
+          "14",
+          "16"
+        ],
+        "question": "有9个红气球和7个蓝气球，一共有多少个气球？",
+        "type": "choice",
+        "id": 50004,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 2,
+        "explanation": "6分成1和5。拿出1给9凑十后，还剩5。",
+        "knowledge_point": "理解凑十的思路并计算9加几",
+        "options": [
+          "6",
+          "1",
+          "5",
+          "4"
+        ],
+        "question": "计算9+6时，先用6中的1和9凑成10。6还剩几？",
+        "type": "choice",
+        "id": 50005,
+        "score": 10
+      },
+      {
+        "answer": "18",
+        "difficulty": 1,
+        "explanation": "把第二个9分成1和8，先算9+1=10，再算10+8=18。",
+        "knowledge_point": "理解凑十的思路并计算9加几",
+        "options": [],
+        "question": "9+9=",
+        "type": "calculation",
+        "id": 50006,
+        "score": 10
+      },
+      {
+        "answer": "13",
+        "difficulty": 1,
+        "explanation": "把5分成2和3，先算8+2=10，再算10+3=13。",
+        "knowledge_point": "掌握8、7、6加几的计算思路",
+        "options": [
+          "12",
+          "14",
+          "11",
+          "13"
+        ],
+        "question": "8+5=",
+        "type": "choice",
+        "id": 50007,
+        "score": 10
+      },
+      {
+        "answer": "15",
+        "difficulty": 1,
+        "explanation": "把9分成4和5，先算6+4=10，再算10+5=15。",
+        "knowledge_point": "掌握8、7、6加几的计算思路",
+        "options": [],
+        "question": "6+9=",
+        "type": "calculation",
+        "id": 50008,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "7加3得10，6分成3和3后还剩3，再算10+3=13。",
+        "knowledge_point": "掌握8、7、6加几的计算思路",
+        "options": [],
+        "question": "计算7+6时，可以把6分成3和3，先算7+3=10，再算10+3=13。",
+        "type": "true_false",
+        "id": 50009,
+        "score": 10
+      },
+      {
+        "answer": "14",
+        "difficulty": 2,
+        "explanation": "把6分成2和4，先算8+2=10，再算10+4=14。",
+        "knowledge_point": "掌握8、7、6加几的计算思路",
+        "options": [
+          "12",
+          "14",
+          "15",
+          "13"
+        ],
+        "question": "盒子里有8支铅笔，又放进6支。现在有多少支铅笔？",
+        "type": "choice",
+        "id": 50010,
+        "score": 10
+      },
+      {
+        "answer": "7+3",
+        "difficulty": 2,
+        "explanation": "7还差3凑成10，所以把6分成3和3，先算7+3。",
+        "knowledge_point": "掌握8、7、6加几的计算思路",
+        "options": [
+          "7+3",
+          "7+2",
+          "7+6",
+          "7+4"
+        ],
+        "question": "计算7+6时，要让7先凑成10。第一步应算哪个算式？",
+        "type": "choice",
+        "id": 50011,
+        "score": 10
+      },
+      {
+        "answer": "17",
+        "difficulty": 1,
+        "explanation": "把9分成2和7，先算8+2=10，再算10+7=17。也可以把8分成1和7，让9先凑成10。",
+        "knowledge_point": "掌握8、7、6加几的计算思路",
+        "options": [],
+        "question": "8+9=",
+        "type": "calculation",
+        "id": 50012,
+        "score": 10
+      },
+      {
+        "answer": "13",
+        "difficulty": 1,
+        "explanation": "交换加数的位置，想8+5。把5分成2和3，先凑成10，再加3得13。",
+        "knowledge_point": "运用交换加数的方法计算有关进位加法",
+        "options": [
+          "14",
+          "12",
+          "13",
+          "11"
+        ],
+        "question": "5+8=",
+        "type": "choice",
+        "id": 50013,
+        "score": 10
+      },
+      {
+        "answer": "11",
+        "difficulty": 1,
+        "explanation": "交换加数的位置，想7+4。把4分成3和1，先凑成10，再加1得11。",
+        "knowledge_point": "运用交换加数的方法计算有关进位加法",
+        "options": [],
+        "question": "4+7=",
+        "type": "calculation",
+        "id": 50014,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "交换两个加数的位置，和不变。2+9和9+2都得11。",
+        "knowledge_point": "运用交换加数的方法计算有关进位加法",
+        "options": [],
+        "question": "2+9和9+2的得数相同。",
+        "type": "true_false",
+        "id": 50015,
+        "score": 10
+      },
+      {
+        "answer": "8+6",
+        "difficulty": 2,
+        "explanation": "交换6和8的位置，得到8+6。两个加数都没有改变。",
+        "knowledge_point": "运用交换加数的方法计算有关进位加法",
+        "options": [
+          "8+7",
+          "8+9",
+          "8+6",
+          "8+5"
+        ],
+        "question": "把6+8交换加数的位置，得到哪个算式？",
+        "type": "choice",
+        "id": 50016,
+        "score": 10
+      },
+      {
+        "answer": "13",
+        "difficulty": 2,
+        "explanation": "交换两个加数的位置，和不变。9+4=13，所以4+9=13。",
+        "knowledge_point": "运用交换加数的方法计算有关进位加法",
+        "options": [],
+        "question": "小明算出9+4=13。不重新逐个数，利用交换加数的方法，4+9的得数是多少？",
+        "type": "calculation",
+        "id": 50017,
+        "score": 10
+      },
+      {
+        "answer": "11",
+        "difficulty": 2,
+        "explanation": "求总数，算3+8。交换位置想8+3，先算8+2=10，再加1得11。",
+        "knowledge_point": "运用交换加数的方法计算有关进位加法",
+        "options": [
+          "12",
+          "11",
+          "10",
+          "13"
+        ],
+        "question": "桌上有3本故事书，又放上8本。可以交换加数的位置，想8+3。一共有多少本故事书？",
+        "type": "choice",
+        "id": 50018,
+        "score": 10
+      },
+      {
+        "answer": "12",
+        "difficulty": 1,
+        "explanation": "把7分成5和2，先算5+5=10，再算10+2=12。",
+        "knowledge_point": "掌握5、4、3、2加几的计算思路",
+        "options": [
+          "11",
+          "13",
+          "14",
+          "12"
+        ],
+        "question": "5+7=",
+        "type": "choice",
+        "id": 50019,
+        "score": 10
+      },
+      {
+        "answer": "11",
+        "difficulty": 1,
+        "explanation": "交换位置想8+3。把3分成2和1，先算8+2=10，再加1得11。",
+        "knowledge_point": "掌握5、4、3、2加几的计算思路",
+        "options": [],
+        "question": "3+8=",
+        "type": "calculation",
+        "id": 50020,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "9分成6和3，4加6得10，再加3得13。",
+        "knowledge_point": "掌握5、4、3、2加几的计算思路",
+        "options": [],
+        "question": "计算4+9时，可以把9分成6和3，先算4+6=10，再算10+3=13。",
+        "type": "true_false",
+        "id": 50021,
+        "score": 10
+      },
+      {
+        "answer": "11",
+        "difficulty": 1,
+        "explanation": "交换位置想9+2。把2分成1和1，先算9+1=10，再加1得11。",
+        "knowledge_point": "掌握5、4、3、2加几的计算思路",
+        "options": [
+          "10",
+          "13",
+          "12",
+          "11"
+        ],
+        "question": "2+9=",
+        "type": "choice",
+        "id": 50022,
+        "score": 10
+      },
+      {
+        "answer": "1",
+        "difficulty": 2,
+        "explanation": "7分成6和1。拿出6和4凑成10后，还剩1。",
+        "knowledge_point": "掌握5、4、3、2加几的计算思路",
+        "options": [],
+        "question": "计算4+7时，从7中拿出6和4凑成10。7还剩几？",
+        "type": "calculation",
+        "id": 50023,
+        "score": 10
+      },
+      {
+        "answer": "13",
+        "difficulty": 2,
+        "explanation": "把8分成5和3，先算5+5=10，再算10+3=13。",
+        "knowledge_point": "掌握5、4、3、2加几的计算思路",
+        "options": [
+          "13",
+          "12",
+          "11",
+          "14"
+        ],
+        "question": "桌上有5张卡片，又放上8张。现在有多少张卡片？",
+        "type": "choice",
+        "id": 50024,
+        "score": 10
+      },
+      {
+        "answer": "9+5",
+        "difficulty": 2,
+        "explanation": "第一个加数都是9，第二个加数按2、3、4、5、6的顺序排列。缺少9+5，它的和是14。",
+        "knowledge_point": "熟练计算20以内的进位加法",
+        "options": [
+          "9+5",
+          "6+5",
+          "8+5",
+          "7+5"
+        ],
+        "question": "把第一个加数是9的卡片按第二个加数从小到大排好：9+2、9+3、9+4、□、9+6。□里应放哪张卡片？",
+        "type": "choice",
+        "id": 50025,
+        "score": 10
+      },
+      {
+        "answer": "14",
+        "difficulty": 1,
+        "explanation": "把第二个7分成3和4，先算7+3=10，再算10+4=14。",
+        "knowledge_point": "熟练计算20以内的进位加法",
+        "options": [],
+        "question": "7+7=",
+        "type": "calculation",
+        "id": 50026,
+        "score": 10
+      },
+      {
+        "answer": "和都等于10",
+        "difficulty": 2,
+        "explanation": "9+1、8+2、7+3、6+4、5+5的和都是10。第一个加数每次减少1，第二个加数每次增加1，和不变。",
+        "knowledge_point": "熟练计算20以内的进位加法",
+        "options": [
+          "和每次减少1",
+          "和都等于11",
+          "和每次增加1",
+          "和都等于10"
+        ],
+        "question": "一行算式依次写着：9+1、8+2、7+3、6+4、5+5。这些算式的和有什么特点？",
+        "type": "choice",
+        "id": 50027,
+        "score": 10
+      },
+      {
+        "answer": "6+9",
+        "difficulty": 2,
+        "explanation": "8+5=13，7+7=14，6+9=15，9+7=16。只有6+9的得数是15。",
+        "knowledge_point": "熟练计算20以内的进位加法",
+        "options": [
+          "6+9",
+          "9+7",
+          "8+5",
+          "7+7"
+        ],
+        "question": "下面哪个算式的得数是15？",
+        "type": "choice",
+        "id": 50028,
+        "score": 10
+      },
+      {
+        "answer": "14",
+        "difficulty": 2,
+        "explanation": "借走的9个和剩下的5个合起来，是原来的数量。9+5=14。",
+        "knowledge_point": "熟练计算20以内的进位加法",
+        "options": [],
+        "question": "球筐里借走了9个球，还剩5个球。原来有多少个球？",
+        "type": "calculation",
+        "id": 50029,
+        "score": 10
+      },
+      {
+        "answer": "16",
+        "difficulty": 2,
+        "explanation": "把两种积木的数量相加，7+9=16。",
+        "knowledge_point": "熟练计算20以内的进位加法",
+        "options": [
+          "15",
+          "17",
+          "14",
+          "16"
+        ],
+        "question": "小组用7块黄色积木和9块红色积木搭图案，一共用了多少块积木？",
+        "type": "choice",
+        "id": 50030,
+        "score": 10
+      },
+      {
+        "answer": "13",
+        "difficulty": 1,
+        "explanation": "把原有的7块和又放入的6块合起来，7+6=13。",
+        "knowledge_point": "用进位加法解决简单实际问题",
+        "options": [
+          "11",
+          "13",
+          "12",
+          "14"
+        ],
+        "question": "盘子里有7块饼干，又放入6块。现在有多少块饼干？",
+        "type": "choice",
+        "id": 50031,
+        "score": 10
+      },
+      {
+        "answer": "6+7",
+        "difficulty": 2,
+        "explanation": "按种类可以算8+5，按位置可以算6+7。两种分法算的是同一批玩具，都不重复、不遗漏，总数都是13。",
+        "knowledge_point": "用进位加法解决简单实际问题",
+        "options": [
+          "6+7",
+          "6+5",
+          "8+6",
+          "5+7"
+        ],
+        "question": "同一批玩具按种类分，有8辆小汽车和5架小飞机；按位置分，上层有6个，下层有7个。小宁用8+5求总数。换成按位置分，应选哪个算式？",
+        "type": "choice",
+        "id": 50032,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "13盆花按颜色分是7盆和6盆，按位置分是9盆和4盆。两种分法都没有重复或遗漏，所以7+6和9+4都得13。",
+        "knowledge_point": "用进位加法解决简单实际问题",
+        "options": [],
+        "question": "同一批花有7盆红花和6盆黄花，其中窗边放9盆，门边放4盆。求这批花的总数，算7+6或9+4都可以。",
+        "type": "true_false",
+        "id": 50033,
+        "score": 10
+      },
+      {
+        "answer": "14",
+        "difficulty": 1,
+        "explanation": "两盒彩笔合起来，9+5=14。",
+        "knowledge_point": "用进位加法解决简单实际问题",
+        "options": [
+          "13",
+          "15",
+          "12",
+          "14"
+        ],
+        "question": "一盒有9支彩笔，另一盒有5支彩笔。两盒一共有多少支彩笔？",
+        "type": "choice",
+        "id": 50034,
+        "score": 10
+      },
+      {
+        "answer": "13",
+        "difficulty": 2,
+        "explanation": "送出的5张和剩下的8张，合起来就是原来的数量。5+8=13。",
+        "knowledge_point": "用进位加法解决简单实际问题",
+        "options": [],
+        "question": "小禾把自己的贴纸送给朋友5张，还剩8张。她原来有多少张贴纸？",
+        "type": "calculation",
+        "id": 50035,
+        "score": 10
+      },
+      {
+        "answer": "16",
+        "difficulty": 1,
+        "explanation": "两人使用的积木不重复，合起来算8+8=16。",
+        "knowledge_point": "用进位加法解决简单实际问题",
+        "options": [
+          "17",
+          "16",
+          "15",
+          "14"
+        ],
+        "question": "小乐用了8块积木，小安另外用了8块积木。他们一共用了多少块积木？",
+        "type": "choice",
+        "id": 50036,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "20以内的进位加法·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "10+3=13",
+        "difficulty": 1,
+        "explanation": "4分成1和3。1已和9凑成10，接着加剩下的3，得13。",
+        "knowledge_point": "理解凑十的思路并计算9加几",
+        "options": [
+          "10+3=13",
+          "9+1=10",
+          "10+4=14",
+          "10+2=12"
+        ],
+        "question": "计算9+4时，把4分成1和3，先算9+1=10。接下来应怎样算？",
+        "type": "choice",
+        "id": 59001,
+        "score": 10
+      },
+      {
+        "answer": "13",
+        "difficulty": 2,
+        "explanation": "把6分成3和3，先算7+3=10，再算10+3=13。",
+        "knowledge_point": "掌握8、7、6加几的计算思路",
+        "options": [
+          "14",
+          "11",
+          "12",
+          "13"
+        ],
+        "question": "小篮子里有7个苹果，又放进6个。现在有多少个苹果？",
+        "type": "choice",
+        "id": 59002,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "交换两个加数的位置，和不变。8+4和4+8都得12。",
+        "knowledge_point": "运用交换加数的方法计算有关进位加法",
+        "options": [],
+        "question": "小青已经算出8+4=12。她交换两个加数的位置，就能知道4+8也得12。",
+        "type": "true_false",
+        "id": 59003,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 2,
+        "explanation": "从9中分出7，与加数3凑成10，9还剩2。接着算10+2=12。",
+        "knowledge_point": "掌握5、4、3、2加几的计算思路",
+        "options": [],
+        "question": "计算3+9时，从9中分出7，与加数3凑成10。9还剩几？",
+        "type": "calculation",
+        "id": 59004,
+        "score": 10
+      },
+      {
+        "answer": "16",
+        "difficulty": 2,
+        "explanation": "第一个加数都是8，第二个加数依次增加1，和也依次增加1。8+8=16。",
+        "knowledge_point": "熟练计算20以内的进位加法",
+        "options": [],
+        "question": "按顺序算：8+5=13，8+6=14，8+7=15。接着算8+8，得多少？",
+        "type": "calculation",
+        "id": 59005,
+        "score": 10
+      },
+      {
+        "answer": "两种算法都对，算的是同一批杯子",
+        "difficulty": 2,
+        "explanation": "按颜色分，6+8=14；按摆放位置分，9+5=14。两种分法都把同一批杯子分成不重复、不遗漏的两部分。",
+        "knowledge_point": "用进位加法解决简单实际问题",
+        "options": [
+          "两种算法都对，算的是同一批杯子",
+          "只有按摆放位置算才对",
+          "两种算法都不对，应该用减法",
+          "只有按颜色算才对"
+        ],
+        "question": "一批杯子按颜色分，有6个白杯和8个蓝杯；按位置分，桌上有9个，架上有5个。求这批杯子的总数，下面哪种说法对？",
+        "type": "choice",
+        "id": 59006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把另一个加数拆开后，忘记加上剩下的部分。",
+        "拿出1给9凑十后，没有正确算出还剩几。"
+      ],
+      "core_concept": "9离10差1。计算9加几时，把另一个加数分成1和剩下的数，先算9加1得10，再加剩下的数。",
+      "key_formula": "9+4=9+1+3=10+3=13。",
+      "point": "理解凑十的思路并计算9加几",
+      "tips": "先分出1给9凑十，再看剩下几。"
+    },
+    {
+      "common_mistakes": [
+        "拆分出的两部分合起来不等于原来的加数。",
+        "凑成10后，把剩下的数加错。"
+      ],
+      "core_concept": "计算8、7、6加几，可以把另一个加数分成两部分，让8、7或6先凑成10，再加剩下的数。同一道题也可以选择让另一个加数先凑十。",
+      "key_formula": "8+2=10；7+3=10；6+4=10。",
+      "point": "掌握8、7、6加几的计算思路",
+      "tips": "凑十需要几，就从另一个加数中分出几。选自己熟悉的方法。"
+    },
+    {
+      "common_mistakes": [
+        "交换加数的位置时，误以为和也会改变。",
+        "交换位置时，漏写或改错一个加数。"
+      ],
+      "core_concept": "交换两个加数的位置，和不变。较小的数加较大的数时，可以交换位置，想熟悉的较大的数加较小的数。",
+      "key_formula": "5+8=8+5=13。",
+      "point": "运用交换加数的方法计算有关进位加法",
+      "tips": "只交换位置，不改变两个加数。"
+    },
+    {
+      "common_mistakes": [
+        "拆分加数后，两部分合起来不等于原来的数。",
+        "凑成10后，忘记加上剩下的数。"
+      ],
+      "core_concept": "计算5、4、3、2加几时，可以交换加数的位置，想熟悉的算式；也可以把一个加数分成两部分，先凑成10，再加剩下的数。",
+      "key_formula": "5+8=8+5=13；4+9=4+6+3=13。",
+      "point": "掌握5、4、3、2加几的计算思路",
+      "tips": "先看哪个数离10更近，选择自己熟悉的方法。"
+    },
+    {
+      "common_mistakes": [
+        "只看一个加数，就判断两个算式的和。",
+        "整理算式时漏写、重复，或把排列顺序弄乱。",
+        "把一个加数增加1，误认为和不变。"
+      ],
+      "core_concept": "计算20以内的进位加法，可以用凑十法，也可以交换加数的位置。整理算式时，可以把第一个加数相同的排成一列，第二个加数从小到大排。第一列从9+1排到9+9，和依次增加1；第一行从9+1、8+2一直排到1+9，和都是10。一个加数不变，另一个加数增加1，和也增加1。",
+      "key_formula": "9+2=11，9+3=12；9+1=8+2=7+3=10。",
+      "point": "熟练计算20以内的进位加法",
+      "tips": "先看加数，再选算法。整理算式时，先说清排列顺序，再找规律；复习也包含凑成10的算式。"
+    },
+    {
+      "common_mistakes": [
+        "求总数时，只写出其中一部分的数量。",
+        "看到“领走”就用减法，没有看清求的是原来的数量。",
+        "从不同角度分类时，把同一个物体算了两次，或漏算。",
+        "以为同一问题列出的算式不同，总数就不同。"
+      ],
+      "core_concept": "把两个部分合起来求总数，用加法。求原来有多少，可以把拿走的数量和剩下的数量相加。同一批人或物可以按不同角度分成两部分，列出不同的加法算式。只要每种分法都不重复、不遗漏，求出的总数就相同。",
+      "key_formula": "部分数量+另一部分数量=总数；领走的数量+剩下的数量=原来的数量。",
+      "point": "用进位加法解决简单实际问题",
+      "tips": "先说清已知的两部分和所求问题。换一种分法时，要算同一批人或物，不能重复，也不能遗漏。"
+    }
+  ]
+}

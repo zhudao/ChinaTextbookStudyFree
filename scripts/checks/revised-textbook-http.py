@@ -32,8 +32,8 @@ def main():
     def data(path):
         return json.loads(get(path))
 
-    assert len(data("/data/index.json")["books"]) == 50
     books = json.loads((ROOT / "content/editions/2026/catalog.json").read_text())["books"]
+    assert len(data("/data/index.json")["books"]) == 45 + len(books)
     for book in books:
         for book_id in (book["id"], book["legacyId"]):
             get(f"/book/{book_id}/")

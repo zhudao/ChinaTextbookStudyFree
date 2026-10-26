@@ -14,4 +14,12 @@ for (const id of [24, 26]) {
   assert.equal(valid.filter(Boolean).length, 1, `#${id}: the stated total and ratio must admit exactly one option`);
   q.options.forEach((_, i) => assert.equal(gradeAnswer(q, String.fromCharCode(65 + i)), valid[i], `#${id}: grading must agree with the mathematical conditions`));
 }
-console.log("PASS: probability totals, ratios and runtime grading agree, with one valid option each.");
+const placeQuiz = JSON.parse(fs.readFileSync('output/math/quizzes/义务教育教科书 · 数学四年级上册_unit1.json', 'utf8'));
+const place: Question = placeQuiz.unit_test.questions.find((q: Question) => q.id === 15);
+const [number, digit] = place.question.match(/\d+/g)!;
+assert.equal(number.split(digit).length - 1, 1, 'The place-value question must identify a unique digit');
+const units = ['个位', '十位', '百位', '千位', '万位', '十万位', '百万位', '千万位'];
+const expectedPlace = units[number.length - number.indexOf(digit) - 1];
+assert.equal(expectedPlace, '万位');
+place.options.forEach((option, i) => assert.equal(gradeAnswer(place, String.fromCharCode(65 + i)), option === expectedPlace));
+console.log("PASS: probability totals, ratios, digit positions and runtime grading agree, with one valid option each.");

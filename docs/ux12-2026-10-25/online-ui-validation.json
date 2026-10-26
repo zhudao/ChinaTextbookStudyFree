@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "completeDataEqualAcrossDeployment": 5,
+  "fourExistingCompleteDataStillEqualAfterCorrectedCourseRetest": true,
+  "affectedLegacyGradeRetained": {
+    "lesson": "g4up-u1-kp1",
+    "accuracy": 1,
+    "stars": 3
+  },
+  "correctedQuestionUI": "万位 accepted with matching new explanation",
+  "correctedCourseRetest": "6/6,3 stars;one completion page",
+  "newNarrationUI": "entered playing state and returned to stopped; no browser errors; transport hashes/ranges and decodes separately checked",
+  "lightDarkReadability": "passed",
+  "minimum24pxTargets": "passed",
+  "preferred44pxExceptions": "two daily reward buttons40x44;child thumb test pending",
+  "originalProfileRestored": true,
+  "rawLearnerExportsPublished": false,
+  "consoleErrors": []
+}

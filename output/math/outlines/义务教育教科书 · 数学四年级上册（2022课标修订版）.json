@@ -1,0 +1,397 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学四年级上册（2022课标修订版）",
+  "edition": "2026",
+  "editionLabel": "2022课标修订版",
+  "supersedes": "g4up",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "万以上数的认识",
+      "knowledge_points": [
+        {
+          "name": "认识万以上的计数单位，理解十进制计数法",
+          "description": "结合新版教材学习认识万以上的计数单位，理解十进制计数法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "掌握到千亿位的数位顺序，理解数位、计数单位与数级",
+          "description": "结合新版教材学习掌握到千亿位的数位顺序，理解数位、计数单位与数级",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识自然数及其基本特征",
+          "description": "结合新版教材学习认识自然数及其基本特征",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "学习万以上数的读法和写法，能按数级正确读写",
+          "description": "结合新版教材学习学习万以上数的读法和写法，能按数级正确读写",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "比较万以上数的大小，并按要求改写或求近似数",
+          "description": "结合新版教材学习比较万以上数的大小，并按要求改写或求近似数",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 101,
+      "title": "1亿有多大",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "借助熟悉的数量感受一亿的大小",
+          "description": "结合新版教材学习借助熟悉的数量感受一亿的大小",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "运用估算、推算等方法解决与大数有关的实际问题",
+          "description": "结合新版教材学习运用估算、推算等方法解决与大数有关的实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "角的度量",
+      "knowledge_points": [
+        {
+          "name": "认识角的组成，理解角的大小与两边张开程度的关系",
+          "description": "结合新版教材学习认识角的组成，理解角的大小与两边张开程度的关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识量角器，学习用量角器量角和画角",
+          "description": "结合新版教材学习认识量角器，学习用量角器量角和画角",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据度数辨认锐角、直角、钝角、平角和周角，并理解它们之间的关系",
+          "description": "结合新版教材学习根据度数辨认锐角、直角、钝角、平角和周角，并理解它们之间的关系",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用直行、转向和循环命令描述机器人的行走路线",
+          "description": "结合新版教材学习用直行、转向和循环命令描述机器人的行走路线",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "多位数乘两位数",
+      "knowledge_points": [
+        {
+          "name": "掌握口算乘法的方法，理解拆分及乘整十数的算理",
+          "description": "结合新版教材学习掌握口算乘法的方法，理解拆分及乘整十数的算理",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "掌握多位数乘两位数的笔算方法，理解计算过程",
+          "description": "结合新版教材学习掌握多位数乘两位数的笔算方法，理解计算过程",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "掌握因数末尾有0的乘法及积的变化规律",
+          "description": "结合新版教材学习掌握因数末尾有0的乘法及积的变化规律",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用计算器探索乘法数字规律，并推算和检验",
+          "description": "结合新版教材学习用计算器探索乘法数字规律，并推算和检验",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "运用估算检验乘法结果，解决多位数乘法实际问题",
+          "description": "结合新版教材学习运用估算检验乘法结果，解决多位数乘法实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "加法模型和乘法模型",
+      "knowledge_points": [
+        {
+          "name": "从实际情境中识别加法模型，分析数量关系并解决问题",
+          "description": "结合新版教材学习从实际情境中识别加法模型，分析数量关系并解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "从实际情境中识别乘法模型，分析数量关系并解决问题",
+          "description": "结合新版教材学习从实际情境中识别乘法模型，分析数量关系并解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "综合运用加法与乘法模型解决两步或多步实际问题",
+          "description": "结合新版教材学习综合运用加法与乘法模型解决两步或多步实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "平行四边形和梯形",
+      "knowledge_points": [
+        {
+          "name": "认识平行和垂直",
+          "description": "结合新版教材学习认识平行和垂直",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "画垂线和平行线，认识点到直线的距离",
+          "description": "结合新版教材学习画垂线和平行线，认识点到直线的距离",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识平行四边形和梯形，能辨认并描述其特征",
+          "description": "结合新版教材学习认识平行四边形和梯形，能辨认并描述其特征",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识两组对边分别平行的四边形及只有一组对边平行的梯形",
+          "description": "结合新版教材学习认识两组对边分别平行的四边形及只有一组对边平行的梯形",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "运用平行和垂直画长方形、正方形，识别、构造和分解相关图形",
+          "description": "结合新版教材学习运用平行和垂直画长方形、正方形，识别、构造和分解相关图形",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "条形统计图",
+      "knowledge_points": [
+        {
+          "name": "认识条形统计图，理解用直条表示数据的方法",
+          "description": "结合新版教材学习认识条形统计图，理解用直条表示数据的方法",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "根据数据制作并读懂条形统计图，比较数量多少",
+          "description": "结合新版教材学习根据数据制作并读懂条形统计图，比较数量多少",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "从统计图中提取信息并回答问题，初步用数据作出判断",
+          "description": "结合新版教材学习从统计图中提取信息并回答问题，初步用数据作出判断",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "认识、绘制和分析复式条形统计图",
+          "description": "结合新版教材学习认识、绘制和分析复式条形统计图",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 102,
+      "title": "寻找宝藏",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "辨认八个方向，结合参照点判断位置与路线",
+          "description": "结合新版教材学习辨认八个方向，结合参照点判断位置与路线",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "绘制藏宝图，设计并检验准确的寻宝指令",
+          "description": "结合新版教材学习绘制藏宝图，设计并检验准确的寻宝指令",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "复习与关联",
+      "knowledge_points": [
+        {
+          "name": "整理并运用万以上数的读写、比较及近似数知识",
+          "description": "结合新版教材学习整理并运用万以上数的读写、比较及近似数知识",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "综合运用乘法计算、估算与验算解决实际问题",
+          "description": "结合新版教材学习综合运用乘法计算、估算与验算解决实际问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "综合运用角的度量及平行四边形、梯形的特征解决问题",
+          "description": "结合新版教材学习综合运用角的度量及平行四边形、梯形的特征解决问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "运用条形统计图整理、表示和分析数据",
+          "description": "结合新版教材学习运用条形统计图整理、表示和分析数据",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "辨认八个方向，读懂平面图并描述简单路线",
+          "description": "结合新版教材学习辨认八个方向，读懂平面图并描述简单路线",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "综合分析多条件实际问题，解释解题思路并检验结果",
+          "description": "结合新版教材学习综合分析多条件实际问题，解释解题思路并检验结果",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        },
+        {
+          "name": "用列表和假设解决鸡兔同笼问题",
+          "description": "结合新版教材学习用列表和假设解决鸡兔同笼问题",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false"
+          ]
+        }
+      ]
+    }
+  ]
+}

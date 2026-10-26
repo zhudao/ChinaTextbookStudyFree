@@ -360,10 +360,10 @@
         "score": 2,
         "difficulty": 1,
         "knowledge_point": "用7、8、9的乘法口诀求商",
-        "question": "$1 \times 1$ 的商和 $1 \bdiv 1$ 的积相等。",
+        "question": "$1 \\times 1$ 的积和 $1 \\div 1$ 的商相等。",
         "options": [],
         "answer": "对",
-        "explanation": "$1 \times 1 = 1$，$1 \bdiv 1 = 1$。结果相等。"
+        "explanation": "$1 \\times 1 = 1$，$1 \\div 1 = 1$，所以积和商相等。"
       },
       {
         "id": 3,

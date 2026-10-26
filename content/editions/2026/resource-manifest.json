@@ -1,11 +1,16 @@
 {
   "schemaVersion": 1,
   "sourceReview": "docs/issue-36-37-textbook-review-2026-10-23.json",
+  "sourceReviews": [
+    "docs/issue-14-textbook-review-2026-10-25.json",
+    "docs/issue-22-textbook-review-2026-10-24.json",
+    "docs/issue-36-37-textbook-review-2026-10-23.json"
+  ],
   "stats": {
-    "regular_questions": 900,
-    "exam_questions": 210,
-    "lessons": 150,
-    "readings": 118
+    "lessons": 476,
+    "regular_questions": 2856,
+    "exam_questions": 600,
+    "readings": 157
   },
   "editorialSignoff": "model_screen_only_not_teacher_signoff",
   "sources": [
@@ -3682,6 +3687,3848 @@
           "来源依据为用户提供的完整正文；source_ref以对应印刷页标注。最终稿不存在待人工解决的问题。"
         ]
       }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "unit": 1,
+      "sourcePrintedPages": [
+        1,
+        12
+      ],
+      "candidate_sha256": "aa51645f3acc82dadf0ca602670834d0c68e60254f17649280c9d48783fbce8b",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已逐题审校并修正，最终稿共含5个知识点，每个知识点6题，另有6道不重复的综合题。",
+          "已纠正综合题中《桂花雨》题和“开辟”词义题的答案错误，以及习作判断题的答案错误。",
+          "已为涉及课文情节、人物言行的题目补足必要材料，避免依赖未展示的课文。",
+          "已调整重复考查内容、部分难度标记和解释，避免把香气描写直接等同于邻里温情，也避免把外表朴素等同于有实际贡献。",
+          "已避开OCR中的明显误字和乱码，不引用旧版已删除课文；source_ref保留原值，供程序另行验证。",
+          "已逐题复核并整理为五个知识点各六题、单元检测另六题，共三十六题；知识点键及顺序保持不变。",
+          "所有依赖课文事实的题目均在题干中保留必要原句或准确背景，并标明所属课文；解析中的“材料”均指本题已展示的文字，不要求学生另看资料。",
+          "将《落花生》讲解中的“不只讲体面”调整为“不做只讲体面而对别人没有好处的人”，避免与课文原意混淆；明确外表朴素不等于有用，外表整洁也不妨碍作贡献。",
+          "调整《桂花雨》第一题的节选标示，明确为两处原句；保留“浸”直接表现香气浓郁、弥漫范围广的解释，不据此直接推断邻里交往。",
+          "细化《珍珠鸟》有关动作、外形与信赖的讲解，明确小鸟先落上肩头、“我”停笔，过一会儿才发现它睡着的顺序。",
+          "为避免单元检测与练习重复，将检测第四题由重复考查“开辟”的既有例句，改为判断“新鲜”在新语境中的相同含义；将检测第六题改为比较两组对比描写的共同方法。",
+          "将班级公约选择题的提问限定为“内容具体、便于落实”的评价，避免把多种合理公约内容当作只有一种正确表达；习作题仅评价是否符合明确要求，不限定学生实际心爱之物的选择。",
+          "各选择题均为四个无字母前缀的选项，答案与正确选项逐字一致；判断题选项均为空数组，答案仅为“对”或“错”；未使用计算题。",
+          "source_ref已由笼统的original改为对应课文、栏目及页码，便于编辑追溯；题目本身不依赖这些来源信息作答。",
+          "本单元校正稿未混入《金字塔》及五下旧课文内容。依据所给图像与辅助正文完成核对，无尚待解决的真实疑点。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "unit": 2,
+      "sourcePrintedPages": [
+        13,
+        32
+      ],
+      "candidate_sha256": "5582233370f7dcfe204d50d9950a70a885d06e8a38429c90d624a70e8f8cb18a",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已逐题审校并修正：将缺少选项的开放题改为四选一，补齐必要材料，修正答案不属于选项及答案误填为题干的问题。",
+          "已核对最终稿各选择题均有4个互异且无字母前缀的选项，答案逐字对应唯一选项；判断题选项为空，答案仅为“对”或“错”。",
+          "已消除重复设问，调整综合考试的知识点覆盖与难度；各知识点恰好6题，考试另有6道不同题。",
+          "依据所给正文校正“子口”等OCR误读；速度数据均限定为题内材料信息，不将文学叙述或课文中的简化说法作为普遍科学结论。",
+          "已逐题复核并整理为五个知识点各六题、单元检测另六题的完整稿；知识点键及顺序保持不变。",
+          "保留原稿已有的必要引文和情节背景，统一将课文事实题的判断依据放入题干；解析中的“材料”均指本题已展示的文字，不依赖学生另开课本。",
+          "《冀中的地道战》第六题将笼统的“遇到危险还能转移”改为“必要时可转移到别村”，使表述与课文依据吻合；讲解区分首次快速默读与读后有目的核查。",
+          "《将相和》第一题将“将和氏璧完整送回赵国”明确为“设法让人将和氏璧完整送回赵国”，避免误解为蔺相如亲自携璧返回；第五题将“必然乘机”校为所供课文的“必然乘机来攻打我们”，统一引文。",
+          "速度阅读题保留“奔跑”“向下俯冲”“有的”“最大速度”等限定；统一提醒比较数据须注意单位，不把课文中的特定数据扩大为无条件的科学结论。",
+          "人物描写第三题由与地道战重复的生词处理判断题，改为语言描写辨析题，补足该知识点的考查内容。",
+          "习作第一、二题改用老师的具体事例，使练习更贴合“漫画”老师；讲解补充园地中的阅读方法梳理、概括语意和用具体情景表现特点。",
+          "单元检测六题重新设计，分别考查地道通信方式、连词成句、限定词理解、人物动作描写、事例取舍和惜时名句，避免与课内练习实质重复。",
+          "全部选择题均为无字母前缀的四选一，答案与选项逐字一致；全部判断题均使用空选项数组及“对”或“错”；未设置计算题或将开放表达题伪装成唯一答案。",
+          "本稿不涉及《金字塔》，未混入五下旧篇目、塔高数据或将斜坡建造说法写成定论。最终稿无待人工解决的疑点。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "unit": 3,
+      "sourcePrintedPages": [
+        33,
+        50
+      ],
+      "candidate_sha256": "455c374ff823f38a5c184c77e83a0797deaa362226cb7d39d35712d5eced26d0",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已逐题审查并修正，最终稿含4个知识点，每个知识点恰好6题，另有6道不同的综合题。",
+          "已将原综合题第6题由缺少选项的选择题改为规范四选一；所有选择题均有4个互异、无字母前缀的选项，答案逐字对应唯一选项。",
+          "已修正原海力布讲述顺序题：原正确项实际仍按事件先后讲述，不能体现变换顺序；现改为先呈现石头、再追述原因的安排。",
+          "已替换多道重复的桥板脱险题，并修正原题将绕路等同于安全过桥、部分干扰项也可能合理的问题。",
+          "已为涉及课文事实的题目补足必要信息，使题目不依赖未展示的课文；调整部分难度，修正解析中超出题干证据的推断。",
+          "已区分创造性复述与故事新编：前者保留故事主干，后者可以改变结局，但须相应调整情节并保持合理连贯。",
+          "依据所给正文纠正OCR影响，统一使用“龟兔赛跑”“尸骨”等规范表述；未引用旧版已删除课文，未联网核验source_ref路径。",
+          "已逐题复核24道知识点练习和6道单元检测题，按四个原知识点键整理；每个知识点恰好六题，检测另列六题。",
+          "全部依赖课文事实的题目均在题干中提供必要背景；将转述与原文引用明确区分，避免把改写内容作为课文原句。",
+          "《猎人海力布》第5题删除没有课文依据的“村外”地点限定；第6题明确限定为尚未说出秘密的劝说阶段，使第一人称、人物心情和情节进程一致。",
+          "《牛郎织女》第1题由题干直接给出姓名的辨认题改为人物关系辨析题；其余题目核准人物言行、事件顺序及神奇想象的依据。",
+          "故事新编题进一步明确比赛规则、人物行动和结局之间的关系；所有选择题均评价给定条件下的符合程度，不把自由创作限制为唯一写法。",
+          "修正“他听见这话，气急败坏”的不完整表达，改为两个结构完整的例句，并说明俗语与成语意思接近但不宜在所有语境中机械替换。",
+          "检测第3题改考新编故事中的天气变化及因果联系，避免与练习中的河流挡道、跑错岔路等情节重复；检测第6题改考鹊桥相会情节寄托的愿望，避免仅从题干照抄人物姓名。",
+          "补充讲解中民间故事的朴素愿望、创造性复述与故事新编的区别，以及俗语成语的适用语境；同步调整答案和解析。",
+          "全部选择题均为无字母前缀的四选一，答案与正确选项逐字一致；判断题答案仅为“对”或“错”，options为空数组；未设置计算题。",
+          "已依照所附原页核对本单元目标和习作、园地内容；未引入《金字塔》及旧版相关篇目，无需人工处理的遗留疑点。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "unit": 4,
+      "sourcePrintedPages": [
+        51,
+        64
+      ],
+      "candidate_sha256": "63683049367faf11100a213747bed0ab525bf649846f25954d5e3a020bf854f6",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已逐题审校并修正，最终稿含5个知识点、每个知识点6题及独立综合题6题。",
+          "已将《题临安邸》判断题的错误答案由“对”改为“错”；将梅兰芳“发高烧的假象”改为“实际发高烧”，避免误解事件。",
+          "已补充必要的诗句、注释或事件材料，使题目不依赖未展示的课文；替换重复或高度近似的考题，并补入园地词语辨析。",
+          "已调整部分虚高难度，修正《少年中国说》解析中“诗句”的不当称谓。诗歌用字保留所给正文中的“元”“人材”，不将其误改为OCR错误。",
+          "所有选择题均为四个互异选项且只有一个正确答案；判断题选项为空。最终稿不存在待人工解决的问题。",
+          "已逐题复核30道知识点练习和6道单元检测题，按五个原知识点键重组为完整校正稿；每个知识点恰好六题，exam另六题。",
+          "古诗第1题删除解析中题干未提供的“临终时间”说明；第2题补明“北定中原”和“家祭”的意思；第3、6题补足失地未复的背景，并将讽刺对象表述为苟且偷安的统治者；第4题补充“抖擞”“降人材”的释义；第5题明确比喻所指，避免停留于马匹安静的字面理解。",
+          "《少年中国说》第1题补入“本文借多种形象赞美少年中国”的背景，避免学生须凭未展示的全文判断；第2题由照抄注释改为理解形象的表达作用；第6题在题干中说明“少年中国”和“中国少年”的含义，确保独立呈现时可判断。",
+          "《圆明园的毁灭》第1题将“主次分明”收束为原句直接支持的“许多小园环绕圆明园”，避免过度推断；第2题明确考查景观类型；第5题保留辉煌与毁灭对照的分析，并补明表达的痛惜和愤慨。",
+          "《梅兰芳蓄须明志》第1题将“明志”释为“表明志向和决心”；第4题明确限定为课文叙述，保留实际发高烧而非伪装发烧的区别，不展开注射操作，并提示危险行为不可模仿；其余题核对拒演、经济困难、艺术追求与民族气节之间的证据关系。",
+          "习作第1、2题将问题限定为辨认切题内容和清楚的提纲安排，不将示例写法规定为唯一创作方式；第4题明确比较标准为具体呈现采摘动作；讲解补明环境、工作、生活并非必须全部写到。",
+          "调整部分选择题正确选项的位置；所有选择题均为四个无字母前缀的选项，answer与正确选项逐字一致；所有判断题options为空数组，answer仅为“对”或“错”。",
+          "单元检测保留六道独立题目，分别考查诗句定位、资料助读、文化损失、胜利后复出的意义、词语运用和习作要求，不与知识点练习重复设问。",
+          "将source_ref由笼统的original改为所提供教材的具体页码，便于编辑追溯；学生作答所需语句或背景仍完整写入题干，不依赖source_ref。",
+          "本单元校正稿未混入《金字塔夕照》《不可思议的金字塔》或其他《金字塔》内容；无须引入塔高或建造斜坡信息。最终稿不存在需人工裁定的真实疑点。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "unit": 5,
+      "sourcePrintedPages": [
+        65,
+        74
+      ],
+      "candidate_sha256": "172b82ed3f8ea31b0fd0fcb02a855f3d1ad2a6dc0ce9b18e8c4fbc29a9b98936",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已逐题核查并修正，最终稿包含4个知识点，每个知识点6题，另有6道不重复的单元检测题。",
+          "已将原稿中无选项却标为choice的开放题改为四选一题，补齐必要材料，并修正答案与选项不逐字一致的问题。",
+          "已消除依赖未展示课文或示意图的题面，调整说明方法判断的歧义，修正无人机题解析中误写为火箭模型的问题。",
+          "已替换重复检测题，适当调整难度；全部题目均为单一答案，不涉及数学计算题。",
+          "来源依据为用户提供的新版正文OCR；保留source_ref为original，不对路径作联网验证。未采用OCR中的出版社乱码等无关内容，也未引用旧版已删除课文。",
+          "已逐题复核24道分课练习和6道单元检测题，保留四个知识点键及其顺序；每个知识点恰好6题，检测另设6题。",
+          "将原knowledge_summary和questions按知识点整合为lessons中的knowledge和questions，完整保留校正后的讲解、题目、答案与解析。",
+          "所有依赖课文事实的题目均在题干内提供关键原句或必要背景；涉及示意图的题目用文字交代标注位置，不要求学生查看未展示的图片。",
+          "《太阳》第1题在正确项中同时明确列数字和作比较，使答案与解析一致；第5题将假设性步行、乘飞机的说明写清，避免理解为实际出行方案。",
+          "《金字塔》第3、6题明确区分原图标注和图注信息，不把原图未直接写出的“原高”“原边长”冒充图上的完整标签；第4题调整干扰项，避免把图注中的现高误作示意图尺寸标注。",
+          "《金字塔》讲解明确列出原高约146米、现高约137米，以及塔基原边长约230米、现边长约227米；未混入旧课文《金字塔夕照》《不可思议的金字塔》。",
+          "保留建造技术中的“有一种说法”限定，检测题明确斜坡说不能据此认定为唯一已证实的建造方法。",
+          "《鲸》相关题目补明说明对象和比较内容；制作例文题目保留材料工具、尺寸、操作和顺序词等必要信息，风向判断题明确风向是风吹来的方向。",
+          "习作题限定具体写作目标，以是否符合主要特点、分方面介绍、资料准确等要求作为判断依据，不将自由选材或开放表达设为唯一答案。",
+          "检测第6题将“根据观察结果”改为结合观察与可靠资料，并要求核对测试条件，避免暗示仅凭外观观察即可确定保温时间。",
+          "全部选择题均为无字母前缀的四选一，答案与对应选项逐字一致；判断题答案仅为“对”或“错”，options均为空数组；无计算题。",
+          "source_ref由笼统的original改为所依据的教材页码或明确的练习情境，便于追溯。最终稿无须人工处理的遗留疑点。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "unit": 6,
+      "sourcePrintedPages": [
+        75,
+        90
+      ],
+      "candidate_sha256": "8ec7439ed44d27b9f89f5e573264ea312592a6ae050812a52c393c038aec3bdc",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已逐题审校并实际修正，最终稿共含5组课内练习，每组6题，另含6道不重复的单元检测题。",
+          "修正了交际题中孩子回应爸爸时说话身份倒置的问题；删除了原稿无依据的“夜里缝补棉被”时间限定。",
+          "为课文理解题补足必要材料，避免依赖未展示的课文；将若干重复考查题改为不同任务，并重新评定难度。",
+          "调整正确选项的位置，逐题核对四个选项互异、答案与唯一正确选项逐字一致；判断题答案及选项格式符合要求。",
+          "依据所给正文校正涉及的OCR文字，如“立刻”“涟漪”“拥入”；未采用识别不清且无法据现有材料可靠确定的成语文字，未引用旧版删除课文。",
+          "按指定顺序输出知识点键；source_ref沿用original，路径有效性由程序另行验证。",
+          "已逐题复核30道知识点练习和6道单元检测，按指定顺序重组为五个知识点，每点恰好六题，检测题另列且不与练习重复。",
+          "补强独立呈现条件：涉及课文事实的题目均在题干中提供关键语句或必要背景；将解析中的空泛“材料”指代改为明确的词句或情节依据。",
+          "修正《慈母情深》反复称呼题：补入母亲在厂房劳动及眼神疲惫的背景，使“受到触动”的答案有完整依据；统一使用规范省略号。",
+          "修正《父爱之舟》“新滋味”题解析，明确心酸来自理解家人供学的艰难及父亲的付出，不把它解释为食物滋味。",
+          "调整《航天员写给孩子的信》儿童节题，明确询问信中交代的原因；梦想综合题改问与三项叮嘱均相符的理解，避免将开放感受作为唯一答案。",
+          "调整习作题的设问范围，明确考查具体材料、商量语气、内容组织及沟通方式，不将某一句示例规定为实际生活中唯一可用的表达。",
+          "修正语文园地动作题，将正确选项中的“调向我的本子”改为更明确的“把台灯的光照向我的本子”；结尾题区分含蓄表达与直接表达，不把所有结尾归为同一种方法。",
+          "完善讲解：将“key_formula”明确写为阅读或表达路径，而非固定公式；补充书信基本格式，强调细节应真实、贴切并服务于表达重点。",
+          "将笼统的source_ref“original”替换为所提供教材的具体页码；自拟表达例句和生活情境均标明为编辑自拟。",
+          "以可见图像校核课名及单元目标，《航天员写给孩子的信》为第19课，不采用OCR中的“10”；本稿未混入《金字塔》或其他单元内容。",
+          "全部选择题保持四个无字母前缀的选项，答案与对应选项逐字一致；判断题答案仅为“对”或“错”，options均为空数组。最终稿无须人工处理的真实疑点。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "unit": 7,
+      "sourcePrintedPages": [
+        91,
+        100
+      ],
+      "candidate_sha256": "534e0784ab4da4c8de6040294acfc8467e1a26cddd45a3e87aab672b2ab3cb72",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已逐题审校并修正。最终稿包含4个知识点，每个知识点6题，另有6道不同的综合题。",
+          "修正了原稿两道判断题答案与解析相反的问题：只检查错别字、只写静态雪景的说法均应判错。",
+          "为涉及课文内容的题目补充必要诗句、节选或内容摘要，使题面自足；替换综合题中与课内练习实质重复的题目。",
+          "修正白鹭树顶画面的时间错置：课文写晴天清晨站立树顶，黄昏画面为低飞；相应调整题目、答案和解析。",
+          "依据上下文纠正OCR误读，统一使用《山居秋暝》、寒山寺、亮晶晶、铁色的长喙等规范文字。",
+          "重新校准难度，避免把答案明显的直接辨认题标为高难度；所有选择题均有4个互异选项且仅1个正确答案。",
+          "source_ref沿用原稿标记original；审校仅依据用户提供的新版正文，不涉及旧版已删除课文。",
+          "已逐题复核并整理为四个知识点各六题、单元检测另六题的完整稿；检测题与分课练习不重复，仅使用choice和true_false。",
+          "所有依赖课文内容的题目均在本题内提供必要诗句、原句或内容摘要；摘要不冒充原文，source_ref改为具体课文、页码或自编情境。",
+          "古诗部分保留并规范《山居秋暝》的“暝”字，区分秋日山居、旅夜愁绪和早春生机；检测第二题补充“最”“绝胜”的含义，改考有明确文本依据的情感判断。",
+          "《第一场雪》第二题调整为更清楚的降雪过程排序；第五题把“银条”“雪球”明确为积雪的比喻，避免误作实物；第六题改考听觉细节衬托雪夜寂静，避免原题题干直接重复并否定答案的低效设问。",
+          "《白鹭》第二题改为按地点和主要活动匹配画面名称，明确这是理解题而非开放命名题；第五题明确扩写为自编表达，不把观察者放轻脚步等新增细节当作课文事实；保留对“望哨”未获证实的辨析。",
+          "习作与园地讲解补充识字加油站和《渔歌子》内容；第二题改为辨认园地原有词语，第五题结合《渔歌子》考查画面理解，在题量不变的前提下改善园地内容覆盖。",
+          "所有选择题均为四个无字母前缀的选项，正确答案与对应选项逐字一致；判断题选项均为空数组，答案仅为“对”或“错”；解析同步调整。",
+          "本稿未混入《金字塔夕照》《不可思议的金字塔》或其他单元内容；不将课文对丰收的期待扩大为任何降雪都必然带来丰收的结论。最终稿无待人工解决的真实疑点。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "unit": 8,
+      "sourcePrintedPages": [
+        101,
+        114
+      ],
+      "candidate_sha256": "e7a625d80a203500296446ee9e3f746d5e0a70ae3d6bc7fe7340de9bb79dce08",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已逐题审校并实际修正，最终稿含4个知识点，每个知识点6题，另有6道不同的单元检测题。",
+          "修正了原稿中“一本书”与选项“一本有趣的书”不逐字一致的问题；所有选择题现均有4个互异选项，且答案逐字对应唯一选项。",
+          "为涉及课文细节的题目补充必要材料，使题目不依赖未展示的课文；调整重复考查、提示过强及难度虚高的题目。",
+          "纠正“敏而好学”中“敏”的释义为“聪敏”，并与“敏以求之”中表示“勤勉”的“敏”区分；将“下问”的释义与“不耻下问”的整体释义区分。",
+          "依据所给正文识别“走遍天下书为信”“海人不倦”等OCR误读，采用“走遍天下书为侣”“诲人不倦”等正确表述。本次材料明确包含《走遍天下书为侣》，未因版本印象将其误删。",
+          "修正科普读物题中不贴合对象的举例方式，补充园地中的信息梳理、句序、顿号和诗意理解考查；推荐习作的组织方式作为可行建议，不作为唯一强制顺序。",
+          "审校仅依据用户完整提供的正文，保留source_ref供程序另行验证。最终稿无待人工解决的问题。",
+          "已逐题复核24道课时题和6道单元检测题，按四个指定知识点分别归入lessons，每个知识点恰好六题，exam另列六道不同题。",
+          "所有依赖课文内容的题目均在题干中保留或补足必要原句、背景、注释；题干中的材料均随题展示，不依赖学生另行查看课本。",
+          "将《忆读书》第1题的背景改为对四岁与七岁阅读经历的准确转述，避免把课文对自主阅读起点的说明简化为两个完全同类的读书阶段。",
+          "将《忆读书》第6题限定为兼顾持续阅读与纠正字音的做法辨析，不将对个人读书经历的开放评价设为唯一答案。",
+          "将《走遍天下书为侣》第1题答案统一为题干原句“一本书”，消除原答案增加“有趣”这一修饰语的不必要差异。",
+          "明确区分假设旅行与真实经历、阅读想象与已经证实的作者生平，保留反复阅读中思考、品味、发现和整理收获的完整方法。",
+          "将顿号题的要求明确为用顿号分隔三个并列人名，避免将其他标点在不同语境中的用法一概判错。",
+          "单元检测第4题补入明确的习作修改要求，使答案依据分段、举例等可核对标准确定，而不是判定唯一的个人表达方式。",
+          "完善四项知识讲解，补充“读书好，多读书，读好书”的含义，并说明方法梳理可以采用表格等多种形式；各题解析均与题干所给证据对应。",
+          "所有选择题均为四选一，选项无字母前缀，答案与正确选项逐字一致；判断题options均为空数组，答案仅为“对”或“错”。未混入《金字塔》及其他单元内容，无待人工处理的真实疑点。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p1",
+      "sourcePages": [
+        {
+          "physicalPage": 7,
+          "sha256": "f268c7b3e4181dfca9c8db454b59742a5aa2b9a7b1b5e331990165bf86529070"
+        },
+        {
+          "physicalPage": 8,
+          "sha256": "5a74eda63a6fa06352d02fb5b6ab2136123137cc5869578d8536301418db06bd"
+        },
+        {
+          "physicalPage": 9,
+          "sha256": "b91de6083975d31d7fb000c434c97eac5b59fd19df13fbea559edeeefcc99ee7"
+        }
+      ],
+      "candidate_sha256": "35cd376660c0afd0a3ed563081dbf870ffc37f6545864a4769e86f484cea5cf4",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "b8ff50e3a83d105654e6713f25f3c3956499e763ef825b2da651ea43159c56e7",
+        "corrections": [
+          "印刷页2：将“不开放时”校正为“不开花时”。",
+          "《桂花雨》正文位于印刷页2—3；印刷页4的练习及“阅读链接”不属于指定正文，未收入。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p2",
+      "sourcePages": [
+        {
+          "physicalPage": 10,
+          "sha256": "75b4001b4d91ebc6df58644b3d38b2c40eac4504784fab4985f9d3cb25a63251"
+        },
+        {
+          "physicalPage": 11,
+          "sha256": "12c6fc0bf0bae8cd3ea76fd21bb92049b5ed32234581378dd782969448e00097"
+        }
+      ],
+      "candidate_sha256": "baac195f68b7c8b9c0b8c7b8052d9ebd9d1c982eb7b425d8f2d645b1f8e0acc3",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "e12ad95d1dc8e5f04cf8c1915631698c07bbe3aaa1b969f054e511ee2792d8b3",
+        "corrections": [
+          "第5页首句“我们的家的后园有半亩空地。”校正为“我们家的后园有半亩空地。”",
+          "逐字核对第5—6页，其余正文与转录稿一致；已排除拼音、脚注、生字表及练习内容。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p3",
+      "sourcePages": [
+        {
+          "physicalPage": 12,
+          "sha256": "0e2f87cbf62ed3dd88f8e4b19fe9430dce952a0577471d7cbeee971d89a37190"
+        },
+        {
+          "physicalPage": 13,
+          "sha256": "433029f0080f2d7eb561e951d77e506c9d7fe608fdf4b01d0b7904734d53bdf1"
+        }
+      ],
+      "candidate_sha256": "a050faefa3674ddb618b0ad7c9f2b50da9d45f7f32415159867678a7d7c69d6f",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "823ab45ce6db7f8cf31c750f12d431dd15a3c9f319ea9a4533e802a95e72598f",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p4",
+      "sourcePages": [
+        {
+          "physicalPage": 19,
+          "sha256": "9f19fcb0c7dff5b463a9f747d707c92660eebd747cfbb96191e630a9e86baf93"
+        },
+        {
+          "physicalPage": 20,
+          "sha256": "9b48b9f801f0378329dfb434308fed9423c7a51e4721588341e8269cf40af24c"
+        },
+        {
+          "physicalPage": 21,
+          "sha256": "844438d616e02ff930f32d41cb211ffc90a1f2e07e3a5ad446cca253759eefbc"
+        }
+      ],
+      "candidate_sha256": "2856c9fab2d6152c47303337fa4aab2e217d91dae6fafee96f307fbb502402c0",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "3090838d44b3c8af76d3a28660a684e8482f29577a372178319ff60839d2b197",
+        "corrections": [
+          "印刷页15：将“还吱吱扭扭地纺线呢”校正为“还嗡嗡嗡地纺线呢”。",
+          "其余正文与附图一致；作者依据印刷页14的作者说明保留为周而复，未收入脚注、拼音、插图署名、生字表及练习指令。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p5",
+      "sourcePages": [
+        {
+          "physicalPage": 22,
+          "sha256": "5da0da79fedb60273dabbedf2fe9eff0228af491c4574c9b5d6c7bc9defee14d"
+        },
+        {
+          "physicalPage": 23,
+          "sha256": "0264c7c9a393b9fe0917e43a7d8fabaa3024cbc33b4c70df57591df4f3618471"
+        },
+        {
+          "physicalPage": 24,
+          "sha256": "223eda013c93c07477d6407f384b9dbad0b58ebb6cd30a80d4014edd109ae524"
+        },
+        {
+          "physicalPage": 25,
+          "sha256": "cad9074ff6388f6f6e0f6ce8f28aed4ece884570aec7def185cb8834769c502b"
+        },
+        {
+          "physicalPage": 26,
+          "sha256": "ab095b8462bb501557cdc922e8eecc951f1061a94f7f2dd86d583d228c6a2cfa"
+        }
+      ],
+      "candidate_sha256": "dc573407c18a70b6ebcb7f3cee2fc49d46a483c6d95e5c3e6f47f9992957deb4",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "5fd12caed5ce9d9a4bfec9fa9d8516de71dd6c0d2bc627f0b6a42d650c685582",
+        "corrections": [
+          "第18页：将“我们怎么敢为了璧而得罪强大的秦国呢？”校正为“我们怎么敢为了一块璧而得罪强大的秦国呢？”，补回“一块”。",
+          "第19页：将“希望您能击击缶。”校正为“希望您能击缶助兴。”。",
+          "正文止于第20页“从此以后，他们俩成了好朋友，同心协力保卫赵国。”；未纳入生字表、练习、资料袋、脚注、拼音及页眉页脚。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p6",
+      "sourcePages": [
+        {
+          "physicalPage": 27,
+          "sha256": "e999287d62293173469b915aab846bc4dd15d9be63765e977e4468062b9cc996"
+        },
+        {
+          "physicalPage": 28,
+          "sha256": "b80317a77a7c171357d82fcc785de323ce7a142376fe67204920fb05d63f3136"
+        },
+        {
+          "physicalPage": 29,
+          "sha256": "8593f73995b2ca972de4282454ce6662bc480ed069f2f460a12b2354d510931d"
+        }
+      ],
+      "candidate_sha256": "717145467eca47878b7a977a60b6e93077102360002127006149cfddd847b532",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "be9e41ebf10cbc6e617f2e741c85bdb3247105fcb794777c7f3597efbfb316dc",
+        "corrections": [
+          "第23页末句原稿中的“我们一分钟就可以沿着地球赤道转7圈多”已校正为“我们一秒钟就可以沿着地球赤道转7圈多”。",
+          "已核对第22—24页：正文止于第23页“真是令人难以置信！”，第24页为生字表和练习，未纳入reading。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p7",
+      "sourcePages": [
+        {
+          "physicalPage": 30,
+          "sha256": "c01f822a748edf9cf2e9b7c9481adb9e880ce9499ffab74b61a9eb483a6747f6"
+        },
+        {
+          "physicalPage": 31,
+          "sha256": "6d2bb4df9264ce437507b95bcb1ef9687753ba4efd808dbbd0acdbad85d917aa"
+        },
+        {
+          "physicalPage": 32,
+          "sha256": "47f739c7815d0332c9d73f4ed841781a5eb592cf6a81ccaf1792dee893dbdab8"
+        },
+        {
+          "physicalPage": 33,
+          "sha256": "6600cb63edbabc17a30138ba8f4d0641c7a9952e9751f2bf682cd1501ab5ad13"
+        },
+        {
+          "physicalPage": 34,
+          "sha256": "13b60a88875d344e166c47b1ba575942032147c1646359589068da5d050ea437"
+        }
+      ],
+      "candidate_sha256": "fc5ef398e1a21a40e3212c01c3a1def8f0fd9121edb9acc00d476b712dfb51ce",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "be2f0cf4220e7e734128c129f4b30340a02a691a9972bf874fc6567d0bb3e3a8",
+        "corrections": [
+          "第26页：将“实际上，一共有六十一人”校正为“实际上一共有六十一人”，删除原稿多出的逗号。",
+          "第28页：按原文将“‘快干！’船长又叫道。”合为完整句，保留原有文字及标点。",
+          "正文范围为第25—28页；第29页为生字、练习及资料袋，不纳入reading。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p8",
+      "sourcePages": [
+        {
+          "physicalPage": 39,
+          "sha256": "e00e06ad5f12563ea6e42ff89aeb163374ea0a8af8d9ab0a956a4d9b1c0f12d3"
+        },
+        {
+          "physicalPage": 40,
+          "sha256": "42d5bbdafabec44d22071f7a9c52d5553a43eac1e27856a2a441b146ad77f993"
+        },
+        {
+          "physicalPage": 41,
+          "sha256": "697c5137dc2e65b9c7e84fc64072ce51d72d26b1679a9bff2c52a8fcf7ef4500"
+        }
+      ],
+      "candidate_sha256": "5c41c7cdc53c2d26c1844c354c117404e65e5a62665a2c79a0511ada842af29b",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "8b543ccfe89e4db9ccb1267a45f53f680e7c369aa29ae0ed5435bbee2c17b66a",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p9",
+      "sourcePages": [
+        {
+          "physicalPage": 42,
+          "sha256": "21f4ae409ffc6ab6879cb87b6548157c3a618a7f313a4f40059737f4c64ae8f1"
+        },
+        {
+          "physicalPage": 43,
+          "sha256": "b1c75c7e7db1aa567ad08961c6c57b0516a9fdd25cf12628a28dec83a13e5905"
+        },
+        {
+          "physicalPage": 44,
+          "sha256": "7348db7b8572ed04c018787682a1c035a503a55c3e468d745cb5bbde63d3b890"
+        },
+        {
+          "physicalPage": 45,
+          "sha256": "98239371366d8333904ec071c0367edadea6bfbcb095073fa60caf72c817c358"
+        },
+        {
+          "physicalPage": 46,
+          "sha256": "d7c44871f1378dab7ad1272356e99ae154d94516eac21369e6ce8941ab5fdeab"
+        }
+      ],
+      "candidate_sha256": "f13b231ea704dbb3067ea191fbb9a67af60774ad53f435cd0341ecc0f547fb57",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "62f24530066de53c8d4921a9a829235edb7d62e3d5bf6639b841bf026c8a9696",
+        "corrections": [
+          "第39页：“也不多玩一会儿。哎呀！”校正为“也不多玩一会儿。——哎呀！”，补回原文破折号。",
+          "第37页脚注明确本文由叶圣陶整理，author据此标注为“叶圣陶（整理）”；脚注本身不纳入正文。",
+          "已核对第37—41页，正文结束于第40页“正是这个新娘子。”；第41页的生字表和练习指令不纳入reading。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p10",
+      "sourcePages": [
+        {
+          "physicalPage": 47,
+          "sha256": "35f6ecdc3595078a0585bdefdbc80dd640a3dd548fba163b43da348e6f0448fa"
+        },
+        {
+          "physicalPage": 48,
+          "sha256": "194f317d01e34c0c2ef311e3a2dcbe8977ead1d3c584cd9abb83a8b3eeb0ec95"
+        },
+        {
+          "physicalPage": 49,
+          "sha256": "5c701a04bf9f2050401a060d9dfc2dbc5bd1ca311c312784755cdbf7c760a9d6"
+        }
+      ],
+      "candidate_sha256": "b16b6fc60aee47f4393756a8dc1b4fc1bab4c1b5ac3c616856cc7d67ebeb4bf8",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "a0bd734579c3d2e46235ef6f69847be62cc1f0a945e21afd8c5ce48390540389",
+        "corrections": [
+          "第42页：“就很在她怀里”校正为“就偎在她怀里”。",
+          "第43页：“王母娘娘狠狠罚她们”校正为“王母娘娘罚她们”。",
+          "第43页：“筐子放在织了一半的布匹上”校正为“梭子放在织了半截的布匹上”。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p11",
+      "sourcePages": [
+        {
+          "physicalPage": 57,
+          "sha256": "0bed524a5cd2f1a40e842e2be7a5567cc29ae21849799a7f54cdd68196532422"
+        }
+      ],
+      "candidate_sha256": "e2ece27460ef21f38b9b19f5bd89d6d59caebf5b8e26ddd5c7bf0acef630ac26",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "693c84f1364671c0c6e080a1619365974305019181b56cc81772cb0c20c5a6af",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p12",
+      "sourcePages": [
+        {
+          "physicalPage": 57,
+          "sha256": "0bed524a5cd2f1a40e842e2be7a5567cc29ae21849799a7f54cdd68196532422"
+        }
+      ],
+      "candidate_sha256": "d08553ff8bcf6568d724ef9fec8112d3d7147ff335829918b7c99562c7765a18",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "e72e967d7e26c8f83a31ec979adbbefe4c8b903994ad30b98d6813baed32a5bb",
+        "corrections": [
+          "据印刷页52补全作者署名中的朝代信息为“[宋]林升”；标题及四句正文与附图一致，无须修改。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p13",
+      "sourcePages": [
+        {
+          "physicalPage": 58,
+          "sha256": "21c277edaed5d364e5a8fb68f39d579057c2c86b4205b6fc91dbe18c360f7e76"
+        }
+      ],
+      "candidate_sha256": "6c205286b20b9cea0342e971eb0c3d30c6391326afbcd2a77760e758613d6ccc",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "7bd07fc43af108ee0cba18c4de60d6b49404e4edc3af582b3ec592bbbde08385",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p14",
+      "sourcePages": [
+        {
+          "physicalPage": 59,
+          "sha256": "1831f5a9498d7ad732fc0228bcc2d9a8d63328707befdd1a7f269e71357b17b1"
+        },
+        {
+          "physicalPage": 60,
+          "sha256": "6fdee129aa9216d14cddfbba6d34063d98cc074925e190f61e2301a8e1dd7f07"
+        }
+      ],
+      "candidate_sha256": "90ca95467c9eb727d4744493085885752f6a77dcc9959622b2882a047bb52005",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "c007a6654c02c72bdb2949603a4382711557ce39659f2ab66cc2996ce816127e",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p15",
+      "sourcePages": [
+        {
+          "physicalPage": 61,
+          "sha256": "3653fe9313e08a48220ee3ea008adfd8b66ede1d830fc6f649bc945671c509a1"
+        },
+        {
+          "physicalPage": 62,
+          "sha256": "63715a7d1af2c9412aef5879b03721b7e60a173be5dd3c04fd1e000167762759"
+        },
+        {
+          "physicalPage": 63,
+          "sha256": "785b25815da9912e44d183b5e51f457349151ae52160acf9764bbf33b042e295"
+        }
+      ],
+      "candidate_sha256": "58bfa7082626dbee1b6e89937bd11755d408f4a22cb0582d5c032ee64c486f42",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "a8edd5d0106c33a3d953cc53073ef396c1d6f8d8cd58496d5a6de1451c6e854b",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p16",
+      "sourcePages": [
+        {
+          "physicalPage": 64,
+          "sha256": "21312bedb7e9cf0b83d55599969610beaa8e0554861902028824698e515d7359"
+        },
+        {
+          "physicalPage": 65,
+          "sha256": "6dbcc04de848d7e7792256915185709d45e3ed5f4284b4e53db7b74eca4e88f9"
+        },
+        {
+          "physicalPage": 66,
+          "sha256": "5e30609f14aa4c42e68e404328898fdcb71163c1393dd5ce3b7f4311f975fd4b"
+        }
+      ],
+      "candidate_sha256": "e394633c10a60718fe52044381c4f3402f7274be1116336e2c20c8176aae9789",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "0e53dc23fdfae3d861fb6654b305c39dc9e076ccb56e60b3cd93623442277b6c",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p17",
+      "sourcePages": [
+        {
+          "physicalPage": 71,
+          "sha256": "ddb6812c4e7b17cfd15cf867b67d64ba00968bb4d3befbdff3ab83571b58b6db"
+        },
+        {
+          "physicalPage": 72,
+          "sha256": "f9cdd95aeb404da482559a0fcc5ba710e64aa737fecd06de8ccea441aed71bde"
+        }
+      ],
+      "candidate_sha256": "5e8e2b087bfedf672c301b0918a07fb205759d0558b8f7f6f4c4188ef9b95c63",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": [
+          "印刷页66注明确注明：“本文作者张培（jié）民，选作课文时有改动。”作者据此填写为张培民。",
+          "已对照印刷页66—67校正转录，并按完整句子分句；不含页眉、页脚、注释及练习题。"
+        ]
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "6c1fd5df9db56435b920db08c19f25ae8ab919f03c3874e2e946a39af1a9d1f4",
+        "corrections": [
+          "第66页脚注明确作者为“张姞民”，原稿“张培民”已校正；脚注内容不收入正文。",
+          "第67页“那里空气就比较热”应为“那里的空气就比较热”，已补回“的”。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p18",
+      "sourcePages": [
+        {
+          "physicalPage": 73,
+          "sha256": "312d7d88fc9b9cdfba952edf8f53c285cc6c30bc7dd8c8e17744fa2e3ce7ea4a"
+        },
+        {
+          "physicalPage": 74,
+          "sha256": "f9ef6722550559999be7aef8ad69baeede93054657497b47a817e74458dd3229"
+        }
+      ],
+      "candidate_sha256": "9309b23179453089e26b572c202be962793858da581d2d3c39c1fda00abd8894",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "91a97cf315556b0c6cfac49425421db4f5820005b19cf62f52b985690adb2642",
+        "corrections": [
+          "补回第68页正文小标题“最大的金字塔”。",
+          "补回第69页正文小标题“建造技术”。",
+          "所附图片为印刷页68、69，《金字塔》正文已在第69页结束；未附第70页，不据此补写任何内容。",
+          "已排除拼音、页眉页脚、脚注、生字表及课后练习指令，保留图示数据和说明文字。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p19",
+      "sourcePages": [
+        {
+          "physicalPage": 81,
+          "sha256": "af991beb1befc20c1a4610259d003cf92ad30ed7052a2cea2f2d04fb312dda97"
+        },
+        {
+          "physicalPage": 82,
+          "sha256": "f02bd648e765902453439233795765c9472d3a25018f3dd643a86ae12c83a4e0"
+        },
+        {
+          "physicalPage": 83,
+          "sha256": "d8404de834fd167252d3ae94c77a3632b62262e5a8d4141878187c1cf623bdc9"
+        },
+        {
+          "physicalPage": 84,
+          "sha256": "a79354d3b6d16c29605862829783d1ff13ccfe6c38699e0a05ee36426c2d63e3"
+        }
+      ],
+      "candidate_sha256": "77703d623d47f41f6013499a87e18df1e37fadae5b2835606be809bafa9e7564",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "108fb522ae972335ce6173b2f356ef618739b4c6a2b44fd0df674a1eb2dec002",
+        "corrections": [
+          "第77页：“那儿！”原稿误作“那儿！以外的句末标点”；已按附图将该句校正为“那儿！”"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p20",
+      "sourcePages": [
+        {
+          "physicalPage": 85,
+          "sha256": "57217c7a4a6217f7068b576a3f1789cd95c894311b259d606fbe94c83a6fe1c7"
+        },
+        {
+          "physicalPage": 86,
+          "sha256": "87e6d77d6b3a90a4c971ade8b1ab9e30711f4ede4706517225fad3a6b9b9632c"
+        },
+        {
+          "physicalPage": 87,
+          "sha256": "6491c4183384695c1ef190bf8f451b6ed7ed2feb97e03ccaad18ba9a3e4d5648"
+        },
+        {
+          "physicalPage": 88,
+          "sha256": "bce8e50eee8cf21d853c673e920e8132142b6c36af6a24b71e945e39f659be68"
+        }
+      ],
+      "candidate_sha256": "c4dd319de949a39a2abfc1f3f51b0c15b369d50376ee94421ed87d2df8d017ae",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "56014236d252ee4dd943cb503b7af8f926b5f8ef158e64084dc1c6d00f8f8e2b",
+        "corrections": [
+          "第80页：“每年卖蚕子的时候”“卖了蚕子”分别校正为“每年卖茧子的时候”“卖了茧子”。",
+          "第81页：“能去看看这盛大的节目确是无比的快乐”校正为“能去看看这盛大的节目的确是无比的快乐”。",
+          "第81页：“找个偏僻的地方”校正为“找个偏僻的地方”（原稿此处与附图一致，予以保留）。",
+          "第82—83页：“我从船里往外看”校正为“我从舱里往外看”。",
+          "第83页：“把那只载着父爱的乌篷船画出来就好了”校正为“把那只载着父爱的小船画出来就好了”。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p21",
+      "sourcePages": [
+        {
+          "physicalPage": 89,
+          "sha256": "ce105db3c592debb59fdaa44fb23fd5fdb34cddc98e753a4ba5839f98acaaece"
+        },
+        {
+          "physicalPage": 90,
+          "sha256": "94eb382bc6d15ba356b8ef67e1db058301fe5fa57f8d313c4e2dacafdb88ef18"
+        },
+        {
+          "physicalPage": 91,
+          "sha256": "f77fabc53410bf79defab673987befba2a7542731c7a7a8e8534c60ff151e2bc"
+        }
+      ],
+      "candidate_sha256": "bd8789acc554a24c68a4bebfbcd6e968ea152e823f2d9468297f3a721c9381be",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "d6b30c21b37722435aa7512820987b9be23061844bc1eee878e8ba926571fde5",
+        "corrections": [
+          "第84页：删除正文前的背景导读及“读一读这封信，说说哪些地方打动了你。”操作指令，正文从“亲爱的孩子们：”开始。",
+          "第85页：将“亲爱的孩子，妈妈有妈妈的梦想和使命”校正为“孩子，妈妈有妈妈的梦想和使命”。",
+          "第86页：将“见证你背上小书包那一瞬间的成长”后的句号校正为原文逗号，与“你们要知道”衔接。",
+          "第86页：删除“我爱你们！”右引号后原稿多出的句号。",
+          "已核对并保留正文省略号、署名和日期；不收录拼音、脚注、生字表及页眉页脚。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p22",
+      "sourcePages": [
+        {
+          "physicalPage": 97,
+          "sha256": "386ea9eead973fba77c84fa462f6d5ba62cb90be2e5aa96ffce0e1b0112fdfc8"
+        }
+      ],
+      "candidate_sha256": "53023f38beb20bf80b0bf4417556e522334b7bdd9cb87a34a0bcadb39bb40402",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "4069b4ebd1fe6f8c30a379414d6d998fbdf52458788bab49bc123efc845983d4",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p23",
+      "sourcePages": [
+        {
+          "physicalPage": 97,
+          "sha256": "386ea9eead973fba77c84fa462f6d5ba62cb90be2e5aa96ffce0e1b0112fdfc8"
+        }
+      ],
+      "candidate_sha256": "414095ee1dbd2b4f9fdc6a3b9994c5ec2b8e8ab783968c0e9fb26a48c3af1afd",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "c987a445b625970d7f769246070502069c8048a1a46beb7e6ebb01b562bd13c6",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p24",
+      "sourcePages": [
+        {
+          "physicalPage": 98,
+          "sha256": "7fedc1bd3bca9e53524980eaad5e1e6250cf6258df7f889001e9e3db7f137e10"
+        }
+      ],
+      "candidate_sha256": "887fe51859cb6967501cbc80b3aeb738f4f1d6c3b55095f45be6b3e742e73f20",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "088bd0ec165b3f98c5f5d30fbe2f28566bb1a8758fa372e85e860b976d27d0fc",
+        "corrections": [
+          "第93页作者署名含朝代“［唐］”，已补入；标题及正文与附图一致。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p25",
+      "sourcePages": [
+        {
+          "physicalPage": 99,
+          "sha256": "8c83be3b3b6b9a0d5f970534db7139af2c21268895590ff9f22b129d58ee5a11"
+        },
+        {
+          "physicalPage": 100,
+          "sha256": "732de616f7bcb4a1432fde61deb3323330520fedd1590d046d36e0459f3085b6"
+        }
+      ],
+      "candidate_sha256": "5e78520df46377dcf047b75d3171b53ed5f3255c4921dbd4feb7f1db9fd57c24",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "99e9414bf80178b3a36bc7baf1a33a8207cf1dd630ad1287f64407212902bee2",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p26",
+      "sourcePages": [
+        {
+          "physicalPage": 101,
+          "sha256": "1148235cf09d0bf521aa64579de6bc50ae00388a4f3e7ec7103ea9356c1545f1"
+        },
+        {
+          "physicalPage": 102,
+          "sha256": "1cc4caedd7178b74a47ada52b6115eacc01340ebc92ea530ca8255c3b2726d91"
+        }
+      ],
+      "candidate_sha256": "32f2bb6696056f5a3d38af1a85cd6d4a74c24489469708e2227bbde4d164c915",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "225aaa463c8ab7b188258750aab244bbf2e4c061ca0fd757451c7b2f5b39d3e0",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p27",
+      "sourcePages": [
+        {
+          "physicalPage": 107,
+          "sha256": "b5e9e941543117f4a37b4e5441a12f23b83750476aa9cf117d8e6ce8382f5ca6"
+        },
+        {
+          "physicalPage": 108,
+          "sha256": "39284bfd00b8817180758c8660a7a5b1af830bc4dfdbe7f5b0c45e3daa7b6fb7"
+        }
+      ],
+      "candidate_sha256": "eb669d4bf12bde1326b1476983d67b13f0564fdd224708096e87979a5ae0f313",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "ef572b788ea19f9355f994f2376cc48b4987a207cd1da6a53fc8799de30c1479",
+        "corrections": [
+          "第103页“记亦不能久也”原稿漏“能”字，已补正。",
+          "原稿将全文作者标为“朱熹”不准确：第102页第一部分署“——《论语》”，第103页第二部分署“——［宋］朱熹”。全文author设为null，并保留各部分原有署名。",
+          "补入原页正文的分节标记“一”“二”。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p28",
+      "sourcePages": [
+        {
+          "physicalPage": 109,
+          "sha256": "1f92aa80ba983e113b1b3b600c98035f11dd67bb6fc6978793d93b6591f5c9fa"
+        },
+        {
+          "physicalPage": 110,
+          "sha256": "c29ee037fc015ea58b6280b7b01e9a0d220c0c9fb258c5090b63c40c71e8d2f8"
+        },
+        {
+          "physicalPage": 111,
+          "sha256": "90dc29557a4f4ea30b96379457a97f7d9758c17247a3db5337ce115aaae4e6e3"
+        },
+        {
+          "physicalPage": 112,
+          "sha256": "81822c967fdda5dbd472f159408715ef276f243a8ac62b93e056852fd5c19e78"
+        },
+        {
+          "physicalPage": 113,
+          "sha256": "d87dfa550a7da3d8dbb28253590c037606831a65974017f4367fe12b53ae457f"
+        }
+      ],
+      "candidate_sha256": "e052e0f838f4d9263f674fcf3b308ed2e725c96bb9addc9cafcbf78664dd01ea",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "9ade0895e05c90f2c9c465044f315fe71eb108bcad4ffa5acb734e7db20d20a3",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p29",
+      "sourcePages": [
+        {
+          "physicalPage": 114,
+          "sha256": "70b6ee4dded07ff45d778bb3ffa6f802161fcc3069f28659efadb73e02481269"
+        },
+        {
+          "physicalPage": 115,
+          "sha256": "2329b60286c61c34357dc81a3200f97bd7f9f141931cc905a7f43e104d3747db"
+        }
+      ],
+      "candidate_sha256": "d61c923bdbb014357d1708b0232aa26522be3647da6b14b968acbd993a0be139",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "35b329a4d5a044b76f3d0809f310e61ed7afc3e3bb1592175b2760566371e184",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p30",
+      "sourcePages": [
+        {
+          "physicalPage": 77,
+          "sha256": "9bd845751fcd78388bd9857ca5baa666db093aed151d853e10d0f60ea39bfaa1"
+        },
+        {
+          "physicalPage": 78,
+          "sha256": "4133bb5ab37cba4046d8249398e60b23a0027bfd3e5180a1df88542441ef8334"
+        }
+      ],
+      "candidate_sha256": "f8dcbb1a3bc14999ab89d58b15f240b485cbe41cf770f6349e93a14ee3fb48fa",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "5f212137dd8dda0238ad7f70c298eb7351abae9d8fac2206f9c5acadd43711d5",
+        "corrections": [
+          "第72页脚注明确标示“本文作者于功”，据此将author由null校正为“于功”；脚注文字不收入正文。",
+          "已逐字核对第72—73页，所给转录稿正文与附图一致，无须改动正文文字；已排除旁批、拼音、页眉页脚、脚注及练习指令。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p31",
+      "sourcePages": [
+        {
+          "physicalPage": 79,
+          "sha256": "639350d4a3df51524faa7ae8856fa9d494d38567f608219fd0fde75da2c58124"
+        }
+      ],
+      "candidate_sha256": "a3b1b26ce209196915b084459393f59b2285537b511e49a7d7480243e9010f50",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "72417dd4e51e3cf0c6ea16ad104c3bf5964ec6b5e8f79d38f12200e39f0dc6a5",
+        "corrections": [
+          "已删除第74页正文后的练习指令“说说例文是如何把制作风向袋的过程介绍清楚的。”，正文保留至“风向袋飘动的反方向就是风向。”。",
+          "经逐字核对，第74页其余正文转录与附图一致；未纳入旁批、页眉页脚及其他非正文内容。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p32",
+      "sourcePages": [
+        {
+          "physicalPage": 17,
+          "sha256": "7a919a32c1b876504bc88362392aaa4923a55f4b6977d6ac62c87ae0687165a9"
+        }
+      ],
+      "candidate_sha256": "0736085b298ad0f9757c3614c38c596418ec26a65c5462bae2542fd54494e799",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "c2d9496971910f19f94da71f703aa7b5bcb05b9fdeb12045f6f8b9eb06f39f27",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p33",
+      "sourcePages": [
+        {
+          "physicalPage": 37,
+          "sha256": "32a10d322faddd380142972f114855eb777d0ae13455adb209383e42070a0b2e"
+        }
+      ],
+      "candidate_sha256": "621c92bfc57a0a1fdd2f3f7eb5ddd8c465901c8040fcde476f2130e5d13c3cfa",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "83a0914298b2545cf9375d94ee7048d3baa8262e874ac1c9f7f5bc51dc16d214",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p34",
+      "sourcePages": [
+        {
+          "physicalPage": 53,
+          "sha256": "42a67d18328a6e3eb17e3c247ebacd636a55f43234c15b85ff0e9390a0efc351"
+        }
+      ],
+      "candidate_sha256": "5be0804cb8e18cb5d689f01d972c784eb57cb37213dc9c938f076191c4c249b7",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "90f62d10556488dd76732345e8feaf32d96a7355497b2b3484eb406845608af4",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p35",
+      "sourcePages": [
+        {
+          "physicalPage": 69,
+          "sha256": "90f33f14aa6e51e119823984d5233c0af902023670ca78d7c2790c79945290a6"
+        }
+      ],
+      "candidate_sha256": "d2e91cacf3ea5a6f14c8c7c475b5ea4e0891ad420f3d81816b2ff2ee137a22b5",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "359035e08acb3c4c1dbd95c90b35b513175f465ebcc9d57ae614399190ef176b",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p36",
+      "sourcePages": [
+        {
+          "physicalPage": 95,
+          "sha256": "2e41ae550151d52216f0e5324344d30d701deb31149097507f7d03087a65fd20"
+        }
+      ],
+      "candidate_sha256": "9b6eec3bebc556fef4f31a1fced5e73a0f3f8b77906eca69fc04aba70f71d5e6",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "9edbacf12c66110a962b2abcd5c80399aeb8c58e0b80b328a9006c176c8c04c2",
+        "corrections": [
+          "第90页作者署名为“[唐] 孟郊”，补全原稿遗漏的朝代信息；正文逐字核对无误。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p37",
+      "sourcePages": [
+        {
+          "physicalPage": 105,
+          "sha256": "d35d96325bed70d1b44b6eb0cc4bdf93bf7bd36bef1a47f47239de5c9137c055"
+        }
+      ],
+      "candidate_sha256": "8caa130040bce022a6ad9d2924847394f1824885666984bab5b1815a82cacace",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "db00c11a1fc4bec3017a299368d1a7377b888511223ab30b675550c7acdb266a",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p38",
+      "sourcePages": [
+        {
+          "physicalPage": 119,
+          "sha256": "80a5dcf88614b51cdf665cc2a5f824d86665c023e917d8fbd20231970d6cd557"
+        }
+      ],
+      "candidate_sha256": "f44ee0bba537330025d8d6f36d5bfe486e7b28d7bcd17813546a3289c3cd1441",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "824d0c7974368f31d7ceb902e474af063c456eae014298f17de440718663c640",
+        "corrections": [
+          "第114页作者署名为“[宋]朱熹”，补全原转录稿遗漏的朝代信息；正文逐字核对无误。"
+        ]
+      }
+    },
+    {
+      "bookId": "chinese-g5up-2026",
+      "readingId": "chinese-g5up-2026-p39",
+      "sourcePages": [
+        {
+          "physicalPage": 54,
+          "sha256": "0dff0c6a31329715b6df4b2c7972db04f15e181a51ce96bc7d4f4fa8e82fe1ed"
+        },
+        {
+          "physicalPage": 55,
+          "sha256": "8727d644debe03afdec8b36297fbeb676bbe236741181a21074a3bfdbd276ce5"
+        }
+      ],
+      "candidate_sha256": "dfe98e7737714a6d99c45d836a16dd78cfa97e6f0535804c77e73136cf3c88ee",
+      "editorialReview": {
+        "kind": "model_image_transcription_review_not_teacher_signoff",
+        "notes": []
+      },
+      "imageAudit": {
+        "model": "gpt-6.1-sol",
+        "status": "verified",
+        "priorTranscriptionSha256": "92894040cd4e7c528a1a2a61f3109d0f7a04ffba9a6b7970b9617f98eb5804ef",
+        "corrections": []
+      }
+    },
+    {
+      "bookId": "g1down-2026",
+      "unit": 1,
+      "sourcePrintedPages": [
+        1,
+        7
+      ],
+      "candidate_sha256": "37094ec0b1ace08a5306437c6b84b4c1f872013d11ef2f4e33e41b3d256c2459",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页1—7正文及覆盖报告核对。最终稿保留3个原知识点，不另设七巧板小课。",
+          "采纳七巧板主要子主题的补充建议：在原第三知识点及其6题内补入标准七巧板的组成、选板拼三角形和正方形；知识梳理同时说明可尝试拼长方形并比较拼法。",
+          "保留原稿中正确且符合范围的辨认、描画、拼组和剪分题。第三知识点替换3题，为七巧板内容留出位置；不把规律续摆、缺块计数、不同等分剪法分别新增为知识点。",
+          "将依赖单个图形符号的平行四边形题改为自足的文字描述，并调整生活物体知识点中的选材题，明确应用情境。",
+          "课内每个知识点恰好6题，均至少有2题应用或推理，且至多1题判断题；单元检测恰好6题，与课内题干不同。已逐题核对选项、答案、解析与数量计算。",
+          "status评价修订后的配套内容，不代表已有教师签署审定。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "0484f970249908742718ae596586265b31a5505ce6297a94d38cb2885616b7ff",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第3项“用平面图形进行拼组和图案创作”的core_concept已明确标准七巧板由“5块三角形、1块正方形和1块平行四边形”组成，并细分为2块大三角形、1块中三角形和2块小三角形；同时明确选用板块尝试拼三角形、长方形、正方形及创作图案。该项tips要求“比较不同拼法时，说说用了哪些板、怎样摆”。练习第15题核验七巧板组成；第17题给出两块小三角形沿方角旁的边贴合、方角在接缝同一端的拼法，重算结果为三角形；第18题改为两块小三角形的最长边贴合，重算结果为正方形，两题可直接比较同样板块的不同摆法。exam第6题进一步核验去掉全部三角形后剩余的板块数量。固定反馈所指的七巧板组成、指定图形拼组及比较拼法，已在原有知识点内得到明确覆盖；长方形迁移和图案创作也已在讲解中明确安排，无须为每个目标图形另设小课或独立题目。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "07ed31c2a8a93cb7554642c813ed14b2e2d8cfa38e4b6a9a8734ad69c1bf3043"
+    },
+    {
+      "bookId": "g1down-2026",
+      "unit": 2,
+      "sourcePrintedPages": [
+        8,
+        22
+      ],
+      "candidate_sha256": "874afa9d0d0f813156cd5fc7153dd3db3ba7870078f98c89b903b3af6555ac4d",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页8—22正文及覆盖报告修订；未另行核验外部版本。",
+          "采纳“想加算减及加减法之间的联系”的建议，新增独立知识点；它是直接求差的方法，不等同于算后检验。",
+          "采纳“选择相关信息”的建议，扩充原有解决问题知识点及其6题，明确总数、已知部分、所求部分和无关信息，不另设小课。",
+          "采纳“退位减法表的整理与规律”的建议，新增独立知识点，覆盖有序整理、补全算式和同差规律；复习范围包括正文表中的10减几。",
+          "覆盖报告未发现超范围知识点，复核后保留原有4个知识点名称及多数正确题目。十几减5、4、3、2融入已有知识点，不按减数另设知识点。",
+          "替换了直接复制教材的题目，以及部分仅换数字、情境重复或选项数学等价的题目。混合运算、排队拓展和数学游戏不独立设点。",
+          "最终6个知识点各6题，每点至多1道判断题，均含至少两道不同情境的应用或推理题；另设6道不同题干的检测题。已逐题复算并核对选项、答案和解析。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "8447db678fe6c1dbeb99b8ef7a36e5a3c10c70a60a25b63e38720ae11f5a2dd4",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第4项“想加算减及加减法之间的联系”明确说明“想减数加几等于被减数，缺少的加数就是差”，并列出8＋6＝14、14－8＝6、14－6＝8；tips明确区分直接求差与算后检验。questions第19—24题分别练习借助加法求差、选择对应加法算式及由加法联系减法，exam第4题要求想“2加几等于11”求白棋数量。已覆盖直接利用加法求差，而不只是加法检验。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第5项明确要求先读懂所求问题、找总数和已知部分、选择相关信息、不使用无关信息，并按“读懂问题—选择信息—列式解答—回顾检验”处理。questions第26题解释“2名同学”与计算无关，第28题解释“3天”不参与求吃掉总数的计算，第30题直接要求选出不用参与计算的“4个小朋友”；exam第5题直接要求选择总数14张与蓝纸8张这组相关信息。讲解及练习均已落实信息筛选和数量关系辨认。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第6项“整理20以内退位减法表并发现规律”明确提出按相同减数分列、相同被减数分行有序整理，并说明固定减数、固定被减数以及两数同时增加1时的差的变化。questions第31题补全减8的有序算式，第32题辨认减数相同且被减数逐次增加1的一组，第33—34题应用列、行规律，第35—36题辨认及补全差相同的算式；exam第6题进一步应用差不变规律填数。已覆盖整理方法、补全算式及规律发现，无须为每一种整理练习另设知识点。",
+            "id": "missing:2",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "55993680dcb5776c225e1af017d6bd5d618a33a49d3d782413ab6599a9cc40c2"
+    },
+    {
+      "bookId": "g1down-2026",
+      "unit": 3,
+      "sourcePrintedPages": [
+        23,
+        42
+      ],
+      "candidate_sha256": "7eb15d1deea1fef5f58a7f9c21c119972ab18bc73ac033f7cfcb2d9cf8a3ba7b",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页23—42正文及覆盖报告完成修订；核验范围为本次提供的正文转录，不涉及未展示的源图。",
+          "逐项采纳覆盖报告的三项主要建议：新增“简单的加、减法”；在原比较知识点内补充百数表横向、纵向及局部排列规律；在同一知识点内补充数量相差程度的表达。不为单道练习或拓展示例另设知识点。",
+          "保留原有五个知识点名称及符合范围的题目。比较知识点保留直接比较、条件筛选及接近整十数的题目，替换其余三题以补齐正文主题；其余原知识点题目保留。",
+          "摆珠探究由原数位知识点承接；估数、分组数数及接近整十数不另设独立知识点。复习题依据当前正文调整，补入百数表和简单加减法。",
+          "每个知识点恰好6题，判断题至多1题，且至少有两道不同情境的应用或推理题；综合检测恰好6题，与课内题干均不重复。",
+          "已逐题核对题干、选项、答案及解析并重新计算。选择题均有4个互异且非数学等价的选项，答案逐字对应唯一正确选项；计算题答案仅为整数；所有题目均可仅凭文字作答。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "1d8dc0c6a3499841efaf3f4f5f67ac98692c83247a21fa7117d994e979ab359a",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary中已新增独立知识点“简单的加、减法”：core_concept分别说明整十数加减法、整十数加一位数及相应减法的算理；key_formula列出20＋40＝60、60－20＝40、50＋7＝57、57－7＝50、57－50＝7。questions中“计算40＋30，怎样想是正确的？”“计算：90－50＝多少？”分别落实整十数加减法；蜡笔题落实60＋8＝68；借书题落实79－9＝70；装灯题落实34－30＝4及“还缺多少”的实际问题；exam彩纸题落实46－40＝6。讲解与练习均已覆盖，不能再视为仅用数的组成替代加减法教学。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary“用数的顺序和数的大小关系比较数”的core_concept明确列出“大一些、小一些、大得多、小得多”及物品数量的“多一些、少一些、多得多、少得多”，tips说明这些表达没有固定的差值界线。questions珠子题以40、42、90比较，正确答案为“小青多一些，小兰多得多”；积木题以60、58、12比较，正确答案为“小熊少一些，小鹿少得多”，解析同时对应“小一些、小得多”。所选数量差异明确，能够支持唯一的最合适选项。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary“用数的顺序和数的大小关系比较数”说明百数表从1到100、每行10个数，同一行向右一格增加1，同一列向下一格增加10，并提醒左右规律不能跨行套用。questions中37的局部补格题在题面明确第一行1到10、第二行11到20，正确补出左边36、正下方47；解析进一步指出36、37、38十位均为3，37、47个位均为7，落实横纵排列与数位的联系。exam中43正下方一格的题同样明确排列前提，正确答案为53。百数表排列、数位关系及局部补格均已落实。",
+            "id": "missing:2",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "42fc7622c9491a5626499e939cd1f216f7bf12a53818e7a58a79b137db3c6963"
+    },
+    {
+      "bookId": "g1down-2026",
+      "unit": 4,
+      "sourcePrintedPages": [
+        43,
+        55
+      ],
+      "candidate_sha256": "2aaf528ddd8f7504444b2fee7b80b6d9d68245168dada6f3ddfba82782d0a3a6",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据用户提供的官方印刷页43—55正文及覆盖报告完成修订；核验范围包含口算加法、口算减法、连减解决问题和整理复习。",
+          "采纳第一项缺失建议：将“整十数加、减整十数”扩充为“两位数加、减整十数”，保留整十数运算作为特殊情况，并补充个位不变的算理。",
+          "采纳第二项缺失建议：补入“两位数加、减两位数（不进位、不退位）”。用它替换原“连加、连减和加减混合口算”，不增加知识点总数。",
+          "确认超范围意见：删除一般加减混合运算独立教学主题，以及包含两位数加两位数进位加法的相关题目。连加检查、连减分装和搬运问题归入已有生活应用知识点。",
+          "整十数减一位数纳入退位减法；比较、填数和选择合适组合融入现有题目，不另设小课。",
+          "保留原稿中正确且符合范围的题目；与教材原题相同或高度重合的情境题已替换。最终每个知识点6题，至多1道判断题，至少2道不同情境的应用或推理题；另设6道不同的检测题。",
+          "已逐题重算并核对答案、选项和解析。所有选择题均有4个互异选项且唯一正确；计算题答案均为不带单位的整数。verified表示依据所提供正文完成内容与数学核验，不表示已获教师签署。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "56c6e1936a3bf3668da82d5d6eec09dcfa41cef928001778e5146ae345ce3ba4",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第1项已明确讲解“两位数加、减整十数”：几个十与几个十相加、减，个位不变，并说明整十数运算是个位为0的特殊情况；例式包括34＋20＝54、57−30＝27。练习questions第2题67−20＝47、第3题44＋30＝74、第6题37＋20＝57，均涉及原数不是整十数的情况，已实际覆盖反馈指出的缺口。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第4项已设置“两位数加、减两位数（不进位、不退位）”，明确先分别计算几个一和几个十，再合起来，并限定加法个位不满十、减法个位够减。questions第19题32＋24＝56、第20题68−25＝43、第21题选择43＋12的正确分步方法，以及exam第4题67−35＝32，均落实了这一口算方法。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary未再将一般连加、连减和加减混合口算列为独立主要主题；第5项将连续减去相同数量及连加检查放在分装、搬运的生活问题中，符合正文印刷页50、52、55的应用定位。questions第27题用27连续减6解决分装问题并用连加检查，第28题用21连续减7解决搬运问题，第29题用7＋7＋3计算彩笔总数，exam第6题用23连续减5解决装盒问题。原反馈指出的18＋12−5、25＋15−5及两位数加两位数进位的超范围题目均未出现。",
+            "id": "scope:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "24fa869ab99333f3036a81a63f25083f4ea02aacf078a7856b20bd63a947ac41"
+    },
+    {
+      "bookId": "g1down-2026",
+      "unit": 5,
+      "sourcePrintedPages": [
+        56,
+        68
+      ],
+      "candidate_sha256": "78b4a86606a877736d6a52bacbd68b4a249ba8e9bc4d379a97d1741b180b9044",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已逐题重算，修正答案与解析不一致、答案不在选项中、题面信息矛盾及选项类型不匹配的问题。",
+          "将退位减法中的不退位题替换为退位题；将交换加数的重复练习改为不同情境的推理题，并补足每个知识点至少两道不同情境的应用或推理题。",
+          "修正读书题的页数矛盾，删除应用题中提前泄露答案的检查提示，明确活动人数互不重复。",
+          "最终稿每个知识点6题，综合检测6题；每题答案唯一，选择题选项互异，判断题格式符合要求。所有题目均可独立作答。",
+          "来源OCR中存在数字、符号及竖式错行；未将这些识别异常作为数学结论沿用。"
+        ],
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        }
+      },
+      "body_page_fingerprints_sha256": "161b9b8e8de478cf2b154170e73e1c4f33383e1eaf31f468bc67d0dee2d61188"
+    },
+    {
+      "bookId": "g1down-2026",
+      "unit": 6,
+      "sourcePrintedPages": [
+        69,
+        76
+      ],
+      "candidate_sha256": "7eff06dd9ef2319a8a6a2cf4fa3c0e21ffca22cd1bfbe989d09aad9a55ecdc50",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页69—76完整正文和覆盖报告核对，未调用外部资料；verified表示本次内容与计算核验通过，不表示已获教师签审。",
+          "采纳覆盖报告的补充建议：在第三个已有知识点中明确概括两步问题的先后依赖关系，并保留原有两步得分题，加以说明；不新增独立知识点。",
+          "核实报告所列其余主题均已有覆盖，无需删除超范围知识点。补充总数与相差量的概念，以及用相差关系检查答案的方法。",
+          "保留原有18道课内题，调整部分解析。考试保留4题，替换2道重复考查的题，补充求相差量和有先后依赖关系的两步问题。",
+          "每个知识点恰好6道课内题，且各有1道判断题；考试恰好6题。已逐题复算，核对选项唯一性、答案格式与文字示意的自足性。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "ac530f8655f42b79cdc00ce69bfaa100fbb5f4a3963c7ec31b1ff9a6ae99c0cc",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "已在knowledge_summary第3项“用图示表达数量关系并选择加法或减法解决问题”的core_concept中明确概括：“有些问题要分两步：先求出需要的中间数量，再用这个数量解决最后的问题。”同项tips进一步要求先问“要求最后的答案，还需要先知道什么”，再按顺序计算，并说明每一步求的是什么。练习questions第17题以两队得分落实先后依赖关系：先算9＋4＝13分，再算9＋13＝22分，解析明确指出“第二步要用到第一步求出的13分”。exam第6题进一步落实先求较少量再求总数：24−4＝20个，24＋20＝44个。讲解与练习均已覆盖印刷页73、76强调的两步解题思路，无须另设课时。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "373365c35bc742415e3faa812d354ad128ef8ee998bec35bbae12da115c24b93"
+    },
+    {
+      "bookId": "g1down-2026",
+      "unit": 101,
+      "sourcePrintedPages": [
+        77,
+        82
+      ],
+      "candidate_sha256": "a0822a16d2fce067674368d428356312f60e42e33ae5830a59bb2d9416f3cd95",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页77—82正文审校；未另行核验外部版本。status评价本次修订后的配套。",
+          "保留原有正确且符合范围的辨认、单位关系、兑换、购物计算题；替换促销减价题，以及直接复现教材原题的题目。",
+          "采纳覆盖报告关于购物实践的建议，在“用人民币进行简单购物和找钱”内补充准备、分工、交易记录、分享与评价，不另设知识点。",
+          "采纳覆盖报告关于人民币小讲堂的建议，新增一个探究与分享知识点；背面图案、人民币的变化、防伪特征仅作为可选研究方向，不分别设课，不要求必须参观博物馆。",
+          "将“根据价格与活动规则计算购物花费”改为“根据价格计算购物花费与选择商品”，删除促销减价规则，保留统一标价、多件总价和按预算选购。",
+          "不同面额的组合兑换并入已有单位关系知识点。每个知识点6题，至多1道判断题，至少2道应用或推理题；单元检测6题，均与课内题不同。所有计算均已逐题复核。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "d312dc66f2ffbb6270ef0118982a024130a66b8b3b28e9395b1e0f6239f6f923",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第3项“用人民币进行简单购物和找钱”的core_concept明确包括布置摊位、准备商品和标价、人民币与记录单、设置零钱兑换处，每人至少买2件和卖2件，记录物品、价格、付款、找零，以及活动后分享和评价。questions第14题检查活动准备，第15题检查卖出记录单填写，第18题检查买卖件数、合作及介绍分享的评价；exam第5题检查购物经历与收获的交流。已覆盖准备、交易记录、交流和评价的完整过程，无须另设计算课时。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第5项“人民币小讲堂：自主探究与分享”明确要求选择一个感兴趣的问题，收集、核对资料并整理介绍，同时明确不要求研究所有示例。questions第25—30题依次涉及选题、聚焦一个问题、收集资料并记录出处、整理发言、参观博物馆并非必要条件、猜想需查证；exam第6题检查资料说法不一致时先查证再修改介绍。已覆盖自主探究与分享过程，未将各示例分别列为必学知识。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第4项“根据价格计算购物花费与选择商品”以各件商品价格相加求总价为核心，未列促销减价公式，并提醒不能把统一标价当成减价规则。questions第19题为每支4元、买2支共8元，第23题为每件2元、买3件共6元，第24题为20元预算内选择商品；exam第4题为按标价选择合计11元的商品。当前讲解及练习均已移除促销减价的核心教学与题目，保留了正文支持的总价和预算购物内容。",
+            "id": "scope:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "6b19f3bea250e5dee7fa9651a0436c51c68f5cc2199b8cf494e21a7bd20987ff"
+    },
+    {
+      "bookId": "g1down-2026",
+      "unit": 7,
+      "sourcePrintedPages": [
+        83,
+        89
+      ],
+      "candidate_sha256": "be3b34edc3ebfaea73da4178dfac6f7f3068384a461e64306d6a44fa73680ed5",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据用户提供的官方印刷页83—89正文和覆盖报告完成修订；核验范围为所提供的文字，未对未展示的源图作推断。",
+          "采纳排列规律的补充建议，扩充已有数的认识知识点，加入百数表和简单数列的规律，不另设知识点。",
+          "保留原有5个知识点及大部分正确题目。正文包含购物优惠，保留购物主题和同类找零应用；未发现需要删除的超范围知识点。",
+          "图形主题补充平行四边形辨认；装盒、图形计数和组合等具体练习不单独设课。未额外加入方向与距离、算式表等正文未明确展开的主题。",
+          "替换与教材原题重复的计算题和小船题，调整部分题目以覆盖数表、数列和运算算理。全部题目均有自足文字条件。",
+          "每个知识点6题，至少2题为不同情境的应用或推理，至多1道判断题；单元检测另有6题。已逐题复核选项、答案及解析，无需近似或舍入。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "1eeb94b65cc4a8b979f95b941507be4a8a9cb1aae1f4bc43c05f4820dca57257",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第2项“综合运用100以内数的读写、组成、顺序和比较”的core_concept已明确补充“观察百数表和简单数列时，先看数怎样排列，再按相同规律填数”；tips进一步要求看清每行个数、起点、增加方向，并寻找每次增加或减少多少的规律。练习questions第11题明确给出40、50、60及“每箱比前一箱多装10个”，据此求第4箱为70；第12题完整说明百数表每行10个数、第一行0到9、第二行10到19及后续排列方法，求36正下方的数，重算为46。讲解与练习均已落实数列和数表的排列规律，且不依赖未展示的图像。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "d0a3ba76fe7fc95b7c1b8338282de9d79ac26b149ac6cad23ed77fdb84adee12"
+    },
+    {
+      "bookId": "g1up-2026",
+      "unit": 101,
+      "sourcePrintedPages": [
+        1,
+        11
+      ],
+      "candidate_sha256": "cf0bdc17aaf6341aa960b2de7805e9c99dfd17762030465062f8fa80f3f9255b",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页1—11正文及覆盖报告逐项复核；最终稿的verified表示已完成所给材料范围内的覆盖、范围与题目审校，不表示另有教师签审。",
+          "采纳“学习准备”缺失建议：将原“用图画或动作提出简单数学问题”替换为“数学学习准备与课堂常规”，合并覆盖按时上课、认真听讲、举手发言和按要求摆放学具。8:30仅用作题目明确给出的作息信息，不扩展为系统钟表认读。",
+          "采纳形状主题调整建议：将“观察物品并按形状分类”改为“观察和辨认物品的形状”，删除以分类规则为核心的题目，覆盖长方形、圆、三角形和圆柱的观察与使用。",
+          "保留“在校园和教室里发现数学”，在其6题内覆盖数量与顺序的区别、左右动作、指定方向的第几个和前后位置，不另设位置课。左上角结合学具摆放在学习准备主题内覆盖。",
+          "保留计数、合并点数、人数比较和人与椅子的对应，不将其拆成多个知识点。删除正式加减关系式、专门提出数学问题的教学定位及需两步运算的人数题；楼层间距离题替换为正文支持的位置游戏题。",
+          "保留原配套中符合范围的楼层辨认、排队顺序、左右辨认、圆与三角形计数、逐本数书、椅子不足等题目；其余按覆盖与范围需要修订。教材原有情境中的具体问答改为原创情境，不复制教材原题。",
+          "最终共4个知识点，每点6题，单点至多1道判断题且至少2道应用或推理题；另有6道不与课内重复的检测题。已逐题核对题干、选项、答案及解析；未使用近似计算、未展示图片或不确定的教室与家庭事实。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "7f2100aa4e8eff311dc9dd4483a5d12fca23496d6836d92e000a58eef6890e67",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第4项“数学学习准备与课堂常规”明确讲解“按规定时间做好上课准备，认真听讲，按要求举手发言，并把书本和学具放在指定位置”。questions第19题以“每天8:30开始上课”为作息情境检查上课准备，第20题检查认真听规则，第21题检查举右手，第22—23题检查书本和笔袋的指定位置，第24题检查不打断同学发言；exam第4、6题分别检查学具摆放和举手后等待发言。已合并覆盖印刷页10—11的学习准备主题，没有扩展为系统钟表认读教学。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary仅设置“在校园和教室里发现数学”“观察和辨认物品的形状”“数一数并说出物品的数量”“数学学习准备与课堂常规”四个主题，没有再将“用图画或动作提出简单数学问题”列为独立主题，且全部key_formula为空。“数一数并说出物品的数量”采用接着数和一一对应的讲解；questions第15题合数三角形纸片、exam第3题合数鱼、exam第5题给班级配旗，均以具体情境及计数或配对解释，没有引入正式加减运算关系式作为核心知识。",
+            "id": "scope:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第2项标题已调整为“观察和辨认物品的形状”，核心内容为观察、辨认物品或指定面的形状，并在游戏、拼搭中使用这些形状。questions第7—12题分别涉及展示板正面、圆柱底面、三角形纸片、屋顶选材、圆柱车轮以及面与整体的区别，exam第2题检查不同颜色卡片的共同形状；没有将按形状整理物品或建立分类规则列为主要教学主题，与印刷页3、4、9呈现的辨认和使用形状相符。",
+            "id": "scope:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "4c4b3957cde40e507425db23cdab3deb595174eed11ae0d5fb9f4a516287c686"
+    },
+    {
+      "bookId": "g1up-2026",
+      "unit": 1,
+      "sourcePrintedPages": [
+        12,
+        33
+      ],
+      "candidate_sha256": "feb2180b37aaade06695f5d8f25f81c151361f5cbcf2e522c6d5baf05c3d102c",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已按提供的印刷页12—33正文及覆盖报告逐项核对；本次核验以所提供的正文转写为依据，不推断缺失图像的内容。",
+          "采纳“第几与几个的区别”建议：新增独立主要知识点，覆盖指定方向、排队位置、前后人数及数量与顺序的区别，不引入距离计算。",
+          "采纳基本计算方法建议：在原有加减法知识点中补充逐个数、接着数、倒着数和分与合的方法，替换其中2道纯计算题，保留其余正确情境题。",
+          "未发现需要删除的超范围知识点。保留原有6个知识点及大部分正确题目，按正文顺序调整排列；0的知识点名称扩充为包含相关加减法。",
+          "算式卡片整理不另设知识点，已融入加减法知识总结及单元检测；未把练习或拓展示例逐一扩成小课。",
+          "修改了比较题中数学等价的干扰选项，并调整一处数量分配题的选项表述，使其简短且准确。",
+          "最终共7个知识点，知识总结按同序对应；每点6题，共42道课内题，每点至多1道判断题且至少2道应用或推理题；检测6题与课内题干不同。",
+          "已逐题核对条件、答案和解析并重算。所有题目均可独立阅读作答，无须依赖教材图片；不涉及近似计算。source_ref用于标明正文依据及保留、修订或新增情况，不表示复制教材原题。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "08262ebb6c32a590fe5007816f037ee08c095d5a41f6dd31e8d0b892a7d8eccf",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第3项“认识第几，区分几个与第几个”明确讲解“几个表示一共有多少；第几个表示从指定方向数的位置”，并提醒先确定数的方向。questions第13题要求从左边找第2人，第14题要求从右边找第3件物品，第15题根据排第4求前面人数，第16题判断遮住的是第3、第4个且共2个，第17题直接辨析“3个”与“第3个”，第18题辨析圈出2颗与标出第2颗。exam第3题再次检测从左边确定白珠的位置。题面均已给出排列或方向，不依赖未展示图像，覆盖了印刷页19、22的固定反馈。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第5项“理解加法和减法的含义并列式计算”明确补充逐个数、接着数、倒着数及想分与合的方法；tips以2+2从2后面数3、4，以及4−2从4退到3、再退到2作示范，并提醒不把起始数算作一步。questions第25题直接检测2+2的接着数过程，正确选项为“3、4，得4”；第26题直接检测4−2倒退两步的过程，正确选项为“3、2，得2”。第27、28题解析又分别呈现3+2接着数和5−3倒着数的过程，已在原运算知识点内落实印刷页25、27的计算方法反馈。",
+            "id": "missing:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "6dd2b6fcf4094dc0bfcb6593f8c151575f85e858aa8beba75a931c52e8a799d1"
+    },
+    {
+      "bookId": "g1up-2026",
+      "unit": 2,
+      "sourcePrintedPages": [
+        34,
+        66
+      ],
+      "candidate_sha256": "f9f09c6bddb6c98fbefb363309e4f576b0127f327ce1b635afe19a9f9dbc6e1d",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页34～66正文转录及覆盖报告完成修订；未另行核验原版页面图像。正文转录中个别图示和符号不完整，不据此臆造源图或新增教学内容。",
+          "采纳覆盖报告的两项补充建议：在原解决问题知识点内补充筛选相关信息、提出可解答的问题与检查答案；在原计算知识点内补充加减法算式的有序整理和排列规律。不新增知识点。",
+          "保留原有正确且符合范围的题目，定向替换部分题目以补齐覆盖。原卡片题含连续三次变化，改为信息筛选题，使主要连续运算练习保持正文的两步范围。",
+          "修正原大小比较选择题中两个错误选项数学等价的问题；补充区分“第几个”和“几个”的练习。",
+          "最终稿含6个知识点，每点6题，单元检测6题。各知识点至少有两道不同情境的应用或推理题，判断题均不超过1道；已逐题复算并核对选项、答案和解析。",
+          "status评价本次修订后的文本稿。source_ref标明原创题对应的正文范围，不表示复制教材原题。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "79d8ee4746fddab6c196d6549a28b12d1d6512abf2f735f96bb7a39c71a4651d",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第6项“用10以内加减法解决简单实际问题”明确讲授“先读懂问题，再找与问题有关的数量，不相关的信息不用”，并说明根据情境提出数学问题时应检查已知信息是否足够。questions第36题“乐乐有10张卡片和3支铅笔……送出4张卡片”要求选择求剩余卡片所需的信息，正确选项为“10张卡片和送出的4张卡片”，解析以10－4＝6说明铅笔数量无关；第35题“伞架上只有4把红伞和5把蓝伞”要求判断所提问题是否可解答且算式正确，正确项为“一共有几把伞？4＋5＝9”。讲解和练习均已覆盖按问题筛选相关信息，以及依据情境提出可解答的问题。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第5项“进行10以内加减法计算”补充了整理方法：“可以固定一个数，让另一个数按顺序变化，再观察得数怎样变化”；tips进一步要求说明哪个数不变、哪个数怎样变化以及得数的变化。questions第25题给出有序排列的6＋0、6＋1、6＋2、6＋3、6＋4，要求识别排列与得数规律，正确项为第一个数不变、第二个数和得数每次多1；第26题给出5－5、6－6、7－7，要求按排列顺序续写8－8，解析同时指出两个数都每次增加1、得数均为0。已在原计算知识点内覆盖加减法算式的有序整理和规律认识，不仅是增加口算题量。",
+            "id": "missing:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "2985328141334bb2fcd11915dc4b5f246686043b855553cee72a420827acceb6"
+    },
+    {
+      "bookId": "g1up-2026",
+      "unit": 3,
+      "sourcePrintedPages": [
+        67,
+        72
+      ],
+      "candidate_sha256": "67483fe37a9fa38cbc0999853825127473e8b7aa3ad9b12711bfc37dfe08d1ad",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据用户提供的官方印刷页67—72正文及覆盖报告逐项审校；未据不完整OCR推测教材图片。",
+          "确认覆盖报告所列主要缺项：原课内题目未实质覆盖利用形状特点调整摆法，使所有积木搭得又稳又高。已在原拼搭知识点的概念、提示及6题中补齐，不新增知识点。",
+          "确认印刷页71的正方体拼成长方体属于已有拼搭主题；保留相关题目，并在知识提示和单元检测中补充不同拼法，不另设小课。",
+          "确认印刷页72的连线、计数及排列练习不应各自升级为独立主要主题。保留分类计数主题，不根据缺失图片臆造排列规律。",
+          "未发现需要删除或改名的超范围知识点。前三个知识点的18道题保留；拼搭知识点保留3道题，替换3道题以补齐稳定性、高度和全部用上的要求。检测保留3道题，另3道改为不同任务，减少与课内题的重复。",
+          "最终共4个知识点，各6道课内题，检测6道；各知识点至多1道判断题。已逐题核对选项唯一性、答案、解析和计算结果，所有题目均可仅凭文字作答。source_ref中的original表示沿用原配套题目，不表示教材原题。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "41e2c9957f8490f1ae6a02c334bd18eb36131ff52e2016b93180e81593ebd3e8",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "已在当前讲解和练习中实质解决。讲解定位：knowledge_summary第4项“用立体图形拼搭并观察拼搭结果”的core_concept明确要求“在用上所有积木的条件下，尝试并调整摆法，使整体又稳又高”；tips进一步说明“长方体平放通常比较稳，竖起来可以搭得更高，要实际检查能否放稳”，并提出用其他积木支住容易滚动的球。练习定位：questions第20题要求针对底部不稳选择“大面朝下，再试搭”；第22题同时比较是否用全积木、能否放稳及高度，乙是唯一满足全部条件且在可行方案中更高的摆法；第23题要求在每块积木都用上的前提下调整长方体位置以支稳球。exam第4题明确给出平放、竖放都能放稳且竖放更高，再要求选择竖放。上述内容覆盖了利用形状特点选择、检查和调整摆法，而非仅辨认拼搭结果或计数，无须另设小课。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "7c9dcb26dd8f2020d9657ac9ac5c44749f6cb772a02521cd13e094a003c4bcf2"
+    },
+    {
+      "bookId": "g1up-2026",
+      "unit": 4,
+      "sourcePrintedPages": [
+        73,
+        87
+      ],
+      "candidate_sha256": "f1e2bfbf7a244dd1edade5e8d68f1360fcfd466bbdd92a0d2338cd3ec33cb60b",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页73—87完整正文及覆盖报告修订；核验范围为本次提供的正文材料。",
+          "采纳覆盖报告的主要建议：在原有“认识加法与减法算式中的数量关系”中补充利用数的组成、十位和个位计算简单加减法的方法，不另增知识点。",
+          "保留原有5个知识点及正确、符合范围的题目。扩充“10的再认识”、0的占位作用、接近程度及简单加减法算理的总结与解析。",
+          "核实报告中其余建议：连加连减、推迟日期、含两端计数属于练习变化，单双数属于拓展，不单设知识点；两人之间人数的问题保留在原有应用题中。",
+          "原大小比较选择题有两个数学等价的错误选项，已替换其中一个。另调整一道选择题，使课内题明确检查十几减几的计算方法。",
+          "最终每个知识点6道课内题，至多1道判断题，均有至少两道不同情境的应用或推理题；单元检测共6题。已逐题核对答案、解析、选项唯一性及题干自足性。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "f4504b4e8505ef3601d2fb1bb0f1ed6c2ca889bb9201bb457ba6b1741e70c96b",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第5项“认识加法与减法算式中的数量关系”的core_concept已明确补充计算方法：利用数的组成计算10加几、十几减去相应的几个一及十几减10；计算十几加几时限定“个位相加不满10”，计算十几减几时限定“个位够减”，均先算几个一，再与1个十合起来。所举12＋5＝17、17－4＝13的分步计算正确。questions第25题通过10＋4求总数，第26题通过13－10求剩余部分，第27题解析演示11＋2的组成计算，第29题要求选择17－5的正确计算方法，正确选项为“先算7－5＝2，再算10＋2＝12”。因此，原反馈指出的计算方法讲授缺漏已在讲解和练习中得到解决，无须另设小课。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "17b981c94ab84af08938d8fec98654f84da392fb0ba65f39f9b4bb896dc30e31"
+    },
+    {
+      "bookId": "g1up-2026",
+      "unit": 5,
+      "sourcePrintedPages": [
+        88,
+        102
+      ],
+      "candidate_sha256": "61ea11fc1d8006492d3fb2cb45a039627b9776a3f43640069746f6495f2663ed",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页88—102完整正文与覆盖报告逐项核对。两项缺失建议均成立，分别补入“用进位加法解决简单实际问题”和“熟练计算20以内的进位加法”，不新增知识点。",
+          "保留原有6个知识点及大部分正确题目。将交换加数的方法安排在8、7、6加几之后，使学习顺序更贴近正文。",
+          "补充同一情境按不同角度分成两部分、列出不同算式并说明总数相同；补充算式表的有序排列、补全和变化规律。",
+          "覆盖报告未发现超范围知识点，经核对无需删除知识点。比较大小、填未知加数、数学游戏及思考题不单列为主要主题。",
+          "对与教材情境过于接近的个别题作替换；保留基本算式不视为复制教材原题。全部情境均以文字提供完整条件，不依赖源图。",
+          "修订后每个知识点恰好6题，至多1道判断题，至少2道应用或推理题；另设6道不与课内题干重复的检测题。已逐题核算答案、选项与解析。",
+          "status评价本次修订稿的内容与格式核验结果，不代表另行取得教师签审。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "def2e3de37c12a1ebc422826b4580cbb90ddc2696302fcda6206ada82ef6738d",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "已在knowledge_summary第6项“用进位加法解决简单实际问题”的core_concept中明确补充：同一批人或物可以按不同角度分成两部分，列出不同加法算式；每种分法不重复、不遗漏，总数就相同。questions第32题以同一批玩具按种类列8+5、按位置列6+7，两式均得13；第33题以同一批花按颜色列7+6、按位置列9+4，两式均得13。exam第6题进一步要求判断按杯子颜色列6+8与按位置列9+5是否都正确，两式均得14，并解释算的是同一批杯子。讲解、练习和考查均已覆盖不同分类角度及总数相同的原因。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "已在knowledge_summary第5项“熟练计算20以内的进位加法”的core_concept中补充按第一个加数相同、第二个加数从小到大的顺序整理算式，并说明第一列9+1至9+9的和依次增加1，第一行9+1、8+2至1+9的和都是10。questions第25题要求补全9+2、9+3、9+4、□、9+6，唯一正确选项为9+5；第27题要求发现9+1、8+2、7+3、6+4、5+5的和都等于10。exam第5题通过8+5、8+6、8+7推算8+8=16，巩固一个加数不变、另一个加数增加1时和也增加1的规律。已覆盖有序整理、补全算式及规律观察。",
+            "id": "missing:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "a0f9b0dd1b13bc65f64db106aa06a16e0bb04d918ad82678f4cee3349e963daf"
+    },
+    {
+      "bookId": "g1up-2026",
+      "unit": 6,
+      "sourcePrintedPages": [
+        103,
+        110
+      ],
+      "candidate_sha256": "d7870c671f4703b148033891c11d8eaf49d85e3d87db3aa2dfa1867ec0aa5cd9",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页103—110正文及覆盖报告逐项修订；未另行核验原书图像，题目均不依赖未展示的教材图片。",
+          "采纳计算方法覆盖建议：扩充已有加减法知识点的名称、摘要及6题，纳入分与合、凑十、基本口算和数量关系，不新增独立知识点。",
+          "采纳退位减法越界建议：替换有关题目，并修改未知数题和考试题的解析，避免用退位减法作为求解步骤。保留正确且符合范围的原题。",
+          "在数的认识中补充数的顺序及“第几”和“几个”的区别；在规律主题中明确数表和加法表的观察方法。未将开放提问、购买的不同可能或思考题另设小课，也未引入正文没有明确复习的方向与距离主题。",
+          "最终保留6个知识点，各配6题，每点至多1道判断题、至少2道不同情境的应用或推理题；另设6道不与课内题干重复的检测题。已逐题核算答案、检查选项及解析。status仅评价依据所提供正文修订后的最终稿。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "112b1f561c6bb6b5728e72e7ddaea218b41ce59e5b90e907eae82e0ce6f6d2ac",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第2项“整理20以内加减法的计算方法并解决实际问题”明确复习“不进位加法、进位加法和不退位减法”，并给出8＋5＝8＋2＋3＝13及用9的分与合计算9－6＝3的方法。questions第7题通过6＋5复习凑十，第8题直接计算9－6，第9题辨认8＋5的正确凑十过程；questions第11题及exam第2题计算14－4，questions第17题核验16－4＝12。基本计算及分与合、凑十方法均已落实在讲解和练习中，无须另设小课。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第2项明确写明“本单元不引入退位减法”，第4项说明可想已知加法事实填写未知数。原反馈涉及的退位减法已替换：exam第2题为14－4；questions第11题为14张贴纸送出4张；questions第15题比较14－4与7；questions第23题为13－□＝10，答案3。questions第20题□＋5＝12和exam第4题□＋8＝15的解析均使用凑十及加法检查，没有要求以退位减法求解。逐题核验，当前所列减法计算均不需退位。",
+            "id": "scope:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "a09e403a0ee9e3d0f0ae335dddc7a5905b9e3f17e24106599e5c590a4217fe3d"
+    },
+    {
+      "bookId": "g2down-2026",
+      "unit": 101,
+      "sourcePrintedPages": [
+        1,
+        9
+      ],
+      "candidate_sha256": "0ba137872321870ac2998ab93071f4d372e0753039243a846a166e7055e1be3c",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页1—9正文转录及覆盖报告完成修订；本次未另行核验原版页面图像。",
+          "采纳“认识秒及分、秒关系”的建议：扩充第1个知识点的名称与内容，补入秒针、秒和三种时间单位；在第5个知识点中补入1分＝60秒、半分钟＝30秒。",
+          "采纳“体验时间长短并估计短时长”的建议，新增第6个知识点，覆盖实践调查、按秒针节奏数秒、估计短时长和交流调整方法。",
+          "时间小书的制作、分享和提问融入活动排序与经过时间知识点，不另设知识点。古代计时工具、时间成语和活动自评不分别设课。",
+          "未发现原知识点有明确超范围内容。保留多数正确原题，仅为补齐主要主题、加强实际应用及避免与教材示例过近而作必要调整。",
+          "已逐题复核：每个知识点6题，至多1道判断题，至少2道不同情境的应用或推理题；综合检测6题，题干与课内题不同。所有计算题答案均为不带单位的整数，无近似计算。status评价修订后的最终稿。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "95aeb56f055ed36fd6da83315c178429750d732e5779ca27468419d256d79bb7",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 3
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前讲解第1项“认识钟面上的时针、分针、秒针和数字”明确说明“秒针转1小格是1秒”及“时、分、秒都是时间单位”；第5项“计算经过的时间并解决简单作息问题”明确列出“1分＝60秒”“半分钟＝30秒”，并说明秒针转1圈经过60秒。练习questions第1题辨认秒针，第3题根据秒针连续转过8个小格求得8秒，第28题将1分钟换算成60秒，第29题计算1分钟比半分钟多30秒。秒的含义、分秒关系和半分钟均已有讲解及练习。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前讲解第6项“体验与估计时间”明确提出通过实践、观察和调查体会1分钟、1秒的长短，记录活动对象、内容、用时和完成数量；同时讲授观察秒针节奏、闭眼稳定数秒、对照计时结果并交流调整方法。questions第31题调查1分钟写字数量，第32题判断不同同学1分钟拍球记录可以不同，第33题通过秒针转1小格体会1秒，第34题检查闭眼数秒的节奏条件，第35题比较28秒和35秒与目标30秒的差距，第36题选择调整估计方法；exam第6题进一步根据数到60时仅过45秒判断数得过快并调整。上述内容已覆盖时间量感、实际调查及短时长估计与改进。",
+            "id": "missing:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "6fce6900079d397521117b068a136629ae75c7575ec6dfa88036d9355f71e766"
+    },
+    {
+      "bookId": "g2down-2026",
+      "unit": 1,
+      "sourcePrintedPages": [
+        10,
+        23
+      ],
+      "candidate_sha256": "39a099baf892ab0b818cf1afa2a8783b44fb0f302e6ef67b4dee5d077a752a0d",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页10—23完整正文及覆盖报告修订；本次未进行外部版本核验。",
+          "采纳竖式覆盖建议：扩充原“用乘法口诀求商并写出商和余数”，保留名称，补入竖式各部分的位置、含义和计算步骤，并兼顾没有剩余的情况。",
+          "采纳周期排列覆盖建议：新增“用有余数的除法解决周期排列问题”，讲清余数对应组内位置，余数为0时对应每组最后一个。",
+          "复核覆盖报告中“无超范围知识点”的结论，予以保留。水果拼盘、鸡笼搭配、购物促销、日期推断和古代数学拓展不另设知识点。",
+          "保留原配套中正确且符合范围的主要内容和题目；为补足竖式教学、避免与教材原题重复及减少多层装载计算，定向替换部分题目。试卷末题改为周期排列题。",
+          "每个知识点配置6题，判断题至多1题，且均有至少两道不同情境的应用或推理题；试卷另设6题。题干、选项、答案与解析已逐题复算，不涉及近似计算。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "e0ec2c06b1fc22e524523cc4718f13fc82a8368b5853e9b1f58236601c512f6e",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第3项“用乘法口诀求商并写出商和余数”的core_concept已说明除数、被除数、商、乘积和相减结果在竖式中的位置，以及商、乘积和余数的含义；明确“正好分完时，相减得0”，tips补充“试商、相乘、相减、检查”的计算顺序。questions第14题核验14÷4的竖式位置，重算得商3、乘积12、余数2；第16题核验38÷7竖式中35的含义，35确为已装入5袋的贴纸总数；第17题核验48÷8正好分完时底部写0。exam第3题核验51÷7中除数与商的积，7×7＝49。已覆盖竖式的记录方法、各部分含义和计算过程，并兼顾没有剩余的情况。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第6项新增“用有余数的除法解决周期排列问题”，明确从第1个开始确定重复的一组，用位置数除以每组数量；有余数时对应组内第几个，余数为0时对应一组的最后一个。questions第31—36题提供完整文字规律，不依赖图片：第32题17÷3＝5……2，对应黄色；第33题20÷4＝5，对应最后一张三角形；第34题30÷5＝6，对应最后一盆白花；第35题26÷6＝4……2，对应组内第2个动作；第36题25÷4余1、27÷4余3，两面旗均为蓝色。exam第6题28÷4＝7，对应每组最后一个圆形。已覆盖确定重复组、利用余数定位以及余数为0的处理。",
+            "id": "missing:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "7cdf803753b2674b362a067f45513a1c453e12ce3a93f3ae45135c6e92a02746"
+    },
+    {
+      "bookId": "g2down-2026",
+      "unit": 2,
+      "sourcePrintedPages": [
+        24,
+        39
+      ],
+      "candidate_sha256": "ec926ffa82df7e8308e21fbf8b03a89080d7a8070dfc525418f685f3ab5b1774",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "以提供的官方印刷页24—39正文为审校依据；本次未独立核验外部版本。已按正文修订并逐题重算，status评价修正后的最终稿。",
+          "采纳覆盖报告第一项建议：在原数量关系分析知识点中补入“已知几倍是多少，求1份”，明确用比较量除以倍数，并用乘法检验。",
+          "采纳覆盖报告第二项建议：在原数量关系分析知识点及其6题中补入线段图方法。所有线段图题均用自足文字说明每段表示的数量、段数及已知量，不依赖未展示的图。",
+          "采纳覆盖报告第三项建议：新增合并知识点“根据数量关系提出问题或补充合理条件”，覆盖和、差、倍数关系及加、减、乘、除法的选择。",
+          "保留原有五个知识点和大部分正确、适龄题目；第五个知识点仍为6题，通过替换重复覆盖题补齐缺项。乘除互逆与正文中的检验方法相符，予以保留。",
+          "年龄变化、细菌增长和调整珠子数量属于练习或拓展，不另设知识点。未发现需要删除的超范围知识点。",
+          "替换原检测中与教材原题重合的鹅鸡比较题、书架题；检测共6题，与课内练习题干不同。全部选择题均有4个互异选项和唯一正确答案，计算题答案均为不带单位的整数。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "3b376da213420e9ad484a902b6f65fd23e03bbe3d8819bd795c3b50a24bba462",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第5项“分析数量关系并选择乘法或除法解决问题”明确讲解“已知一个数的几倍是多少，求这个数，也用除法”，列出“比较量÷倍数＝1份的数量”，并提示用乘法检验。questions第27题以长丝带30厘米、是短丝带的5倍求短丝带长度，30÷5＝6，解析用6×5＝30检验；第35题补充“红球个数是蓝球的6倍”后，以24÷6＝4求蓝球个数。exam第5题以35÷7＝5求小旗面数。已明确区分求倍数和求作为1份的数量。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第5项明确说明线段图用一段表示1份、同样长的几段表示几份，并标清已知量和未知量；其common_mistakes指出两行表示1份的线段不能长短不同。questions第28题要求依据“水彩笔18支，是铅笔支数的3倍”，选择画3段等长线段、合起来标18支，并在表示铅笔的一段旁标“？支”，覆盖1份、几份及已知量和未知量的表示。第30题解析进一步用1段表示小车6人、3段表示大车人数，辅助求两车总人数。题面均以文字完整交代绘图要求，不依赖未展示图像。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第6项“根据数量关系提出问题或补充合理条件”明确讲解根据两个数量提出求和、求差或求倍数的问题，以及条件不足时补充合理条件，并提示检查条件能否解答、总数是否合理。questions第31题选择用12＋4解答的问题，第32题选择用15÷5解答的问题；第33题补充“又放入4只”后用8＋4＝12解答；第34题选择与7×2对应的倍数条件；第35题补充倍数条件后用24÷6＝4解答；第36题判断已有9张红卡纸且蓝卡纸也有一些时，总数7张不合理。exam第6题继续考查根据16＋8选择求和问题。讲解与练习已覆盖提出问题、补充条件、合理性检查及加减乘除关系的选择。",
+            "id": "missing:2",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "767079707425d7152411bf553e1da3cd3a543bda1fc641a7b9526d2e32773643"
+    },
+    {
+      "bookId": "g2down-2026",
+      "unit": 3,
+      "sourcePrintedPages": [
+        40,
+        62
+      ],
+      "candidate_sha256": "7722c597b2aceaa1af33f8dd2339df1c6ca97e9f222f58463d1c5a30eef5e1e4",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已依据提供的印刷页40—62全文及覆盖报告逐项核对。status表示修订稿相对所提供正文的内容与数学审校结果，不表示已独立核验原书扫描件或取得教师签署。",
+          "采纳两项主要主题补充：新增“认识算盘并用算盘表示万以内的数”和“整十、整百、整千数的简单加减法”。算盘包括结构、靠梁记数、确定个位和按数位读拨数；简单加减法包括相同计数单位相加减、进位加法、退位减法和实际应用。",
+          "保留原有六个知识点及其中正确、适切且不与教材原题重复的题目。替换了与教材原题相同的读数、组成、近似数和排列题，以及跨知识点重复的题干。",
+          "将先圈出一百或一千进行估计并入已有估计知识点；保留整百、整千近似数，补充正文复习中的人数差的估计。不将数字填空、指定珠数记数和最大最小数另立知识点。",
+          "覆盖报告未指出超范围知识点，核对后无需删除原有知识点。简化了原有公式，避免以乘法分配形式或机械数轴公式代替低年级的数位理解和逐次计数。",
+          "印刷页57的OCR“180＋50＝130”与算理不符，按紧接的“8个十加5个十是13个十”理解为80＋50＝130，不据此另设主题。",
+          "最终8个知识点，每点6题；每点至多1道判断题，至少2道应用或推理题；另设6道不与课内题重复的综合检测题。已逐题核对答案、解析、选项唯一性及计数、口算和估计结果。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "b0e14268558e2e2a2b0059434627ad157ab4a28a8abcc46e860fd9855a836768",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary中“认识算盘并用算盘表示万以内的数”明确介绍框、梁、档、上珠、下珠，说明只有靠梁的珠子参与记数，同一档一颗下珠表示1、一颗上珠表示5，并要求先选个位档，再向左确定十位、百位、千位、万位；tips还比较了算盘与计数器的异同。当前questions中“中间分隔上珠和下珠的横条叫什么？”检验结构认知；“个位上有1颗上珠和3颗下珠靠梁”检验珠值，结果为8；“向左数第三档是什么位？”检验定档，答案为千位；记460的拨珠题检验实际拨数；货物件数题按明确给出的靠梁珠子读得3046。exam中的算盘题读得5072。以上题目均用文字完整说明必要条件，不依赖未展示图像，已覆盖印刷页48的主要教学内容。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary中“整十、整百、整千数的简单加减法”明确以相同计数单位解释口算，列出70＋60＝130、130－60＝70、800＋500＝1300、1300－500＝800，包含进位与退位。当前questions中4000＋3000＝7000覆盖整千数加法；90＋50＝140覆盖整十数进位加法；900＋800题以“9个百加8个百是17个百”解释算理；150－70＝80覆盖整十数退位减法；印通知题800＋900＝1700、两水箱比较题1600－900＝700覆盖简单实际应用。exam中1400－600＝800进一步检验整百数退位减法。因此，印刷页57明确讲授的简单加、减法主题已得到独立讲解及配套练习，而非仅以计数或近似计算替代。",
+            "id": "missing:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "4bc20424e87a124d790a08f6498c275a796280b31eb562d68f6e2d09ed503aea"
+    },
+    {
+      "bookId": "g2down-2026",
+      "unit": 4,
+      "sourcePrintedPages": [
+        63,
+        82
+      ],
+      "candidate_sha256": "7adbf41e9f21a7cda97c90d3a7540a4e6f17f93a918629629678fc346a1013bf",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页63—82完整正文及覆盖报告核对修订；未另行联网核验版本。",
+          "采纳两项超范围建议：删除“整百、整千数加减法的口算与估算”“两位数加减两位数的口算与估算”两个独立知识点，不以其他非主要主题补足数量。",
+          "保留其余四个已有知识点及其中正确、符合范围的题目，仅为满足主题覆盖和情境题要求作必要替换。",
+          "在已有知识点中补全加、减法的含义、互逆关系及各部分间关系；把四位数计算并入已有笔算知识点，不另设小课。",
+          "在生活问题中补充用整百数上下界判断够不够、能否容纳；不再把按最接近整十、整百、整千数取近似数作为本单元主要教学内容。",
+          "数独、九宫格、数字填空及错看数字等拓展或练习形式不单独设置知识点。整理和复习依据本单元实际正文范围。",
+          "每个知识点配置6题，其中至少2题为不同情境的应用或推理；全套课内题只有1道判断题。另设6道不与课内题重复的检测题，已逐题重算。",
+          "source_ref中的“原配套保留”表示保留原有题目；“原创修订”表示依据所给正文编写或调整，不是教材原题。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "1821aed91a79aabf6bde4c39198fc54abe10a535fd2274fe1eae6c5ac6e1fea1",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第3项“结合数位与运算意义检查计算结果”的core_concept明确给出减法的含义及“减法是加法的逆运算”；key_formula完整列出加法、减法各部分间的五条关系。第2项“三位数减法的笔算与验算”也明确列出“减数＝被减数－差”“被减数＝减数＋差”，并说明两种减法验算方法。练习“展览馆全天售出612张门票……”通过612－285＝327及285＋327＝612体现互逆关系；“被减数是583，差是278”求减数305；“流动书箱借出286本书后，还剩457本”求被减数743；exam中“减数是357，差是467”求被减数824。讲解和练习均已覆盖。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第4项“运用加减法解决生活中的简单问题”明确区分估算判断与精确计算，说明利用整百数上下界判断钱够不够、容量是否足够，并提醒不能把界限当成准确数量，也不是一律取最接近的整百数。练习“帐篷346元、野餐垫267元”用300＋200＝500作严格下界、400＋300＝700作严格上界，分别判断500元不够、700元够；exam中“甲队326人、乙队271人、礼堂700个座位”用400＋300＝700作上界判断能坐下。需要准确差额的购物题则采用精算，已落实根据实际需要选择方法。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary仅设置“三位数加法的笔算与验算”“三位数减法的笔算与验算”“结合数位与运算意义检查计算结果”“运用加减法解决生活中的简单问题”四个主题，未再设置“整百、整千数加减法的口算与估算”独立主题。整百数计算仅作为生活问题中上下界判断的辅助方法出现，没有按最接近整千数估算的讲解或成组练习，与正文第75页的估算决策内容相符。",
+            "id": "scope:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前讲解未设置“两位数加减两位数的口算与估算”独立主题，exam和questions中也没有两位数口算或按最接近整十数估算的成组题目。练习主要围绕三位数笔算、四位数计算的同法迁移、加减法各部分间关系及实际问题展开，没有以前置复习替代正文主要内容。",
+            "id": "scope:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "486ffa5c2e8ddd8107e9f059fe5d76a45a216a785bbfdea07daaf0313b760442"
+    },
+    {
+      "bookId": "g2down-2026",
+      "unit": 102,
+      "sourcePrintedPages": [
+        83,
+        86
+      ],
+      "candidate_sha256": "d4ca8789dd04cce92585902e0eaad84bd259962f5c000a75fc990785f9657462",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所给官方印刷页83—86正文及覆盖报告逐项核对。覆盖报告的两项主要主题补充建议成立：新增选题、提纲与创作主题；将原交流知识点扩充为作品讲述、评价、修改与反思。",
+          "保留原有阅读、提问和选择运算三个知识点及其中正确、符合范围的题目。原罐头题沿用了教材故事与数据，已替换为不同情境的原创题；原交流知识点保留两道正确题，其余题位用于补齐作品交流实践。",
+          "未发现必须删除的超范围知识点。不将数的认识、时间、长度、乘除法关系等整理内容或创作示例逐一拆成独立知识点，也不依据OCR残缺算式新增主题。",
+          "最终共5个知识点，各6道课内题；另有6道不与课内重复的检测题。已逐题核对条件、选项、答案、解析及运算结果，无需近似或舍入。",
+          "status评价本次修订后的最终稿；本次核对依据用户提供的官方正文转录，未另行核验原版页面图像。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "d2b97f524af9befa9dc708a42a569747da2aa586cef25104c6aeac33f17b6861",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第4项“选择生活主题并创作数学连环画”明确要求“回顾学过的数学知识，结合生活选主题，整理数学信息，安排每幅画的图和文字，再按提纲创作完整故事”，并规定作品“至少表达清楚一个数学问题或数量关系”，完整覆盖官方印刷页84—85的选题、规划与图文创作要求。配套练习第19题检查生活主题与数学问题的结合，第20题检查分幅提纲和故事顺序，第21题检查创作所需数学条件，第22题检查图文数量一致，第23题澄清不必固定画6幅，第24题检查数量关系表达；exam第4、5题进一步检查创作规划和提纲。该反馈已在讲解与练习中解决。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第5项“讲述、评价并改进数学连环画”明确要求按顺序讲述作品、解释数量关系、听取同伴建议，从故事完整、图文配合和数学表达等方面评价并修改作品，同时记录收获、反思参与表现，覆盖官方印刷页85—86的讲述、互评、修改、展示交流和活动反思要求。配套练习第27题检查完整、有序地讲述作品，第28题检查提出具体且可操作的评价，第29题检查依据合理建议修改数学表达，第30题检查记录收获及表达、倾听方面的改进方向；exam第6题检查指出作品缺失的数学条件并提出修改建议。该反馈已在讲解与练习中解决。",
+            "id": "missing:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "38cf0465f1ee661b6c3b32cf39da21a3b721c00e54b6c0f94856c12d5d82775b"
+    },
+    {
+      "bookId": "g2down-2026",
+      "unit": 5,
+      "sourcePrintedPages": [
+        87,
+        96
+      ],
+      "candidate_sha256": "b52018da0bc86b801002231d6215dc0520ce6bf5ffd5b22a8b6cfb0f9f9a2732",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页87—96完整正文及覆盖报告逐项核对；未另行核验外部版本。",
+          "采纳近似数与估算建议，新增“万以内数的近似数与加减法估算”，覆盖取整百、整千近似数及情境中的和、差估算，所有近似处理均明确舍入规则。",
+          "采纳倍的数量关系建议，在已有乘除主题内补充作为1份的量和三类倍数关系，替换两道原题，不另增知识点。",
+          "覆盖报告未指出超范围知识点，结合所给正文复核后保留原有五个知识点；装苹果、碗筷搭配、飞镖等练习不单独设课。",
+          "保留正确且符合范围的原题。原茶杯倍数题与教材示例条件相同，改为不同情境；同时补充加减法各部分关系和数位对齐的算理。",
+          "最终每个知识点6题，其中判断题至多1道，且均有至少两道不同情境的应用或推理题；检测6题。已逐题复算，检查选项、答案、解析及题干不重复。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "4f6c30767c03eb9e631d3d78d7b98bcd4a7d754453af85f3d2660bdab6e8d4e5",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第6项“万以内数的近似数与加减法估算”明确讲解取整百数看十位、取整千数看百位，并说明按题目要求先取近似数再估计和、差。questions第31—36题分别覆盖整千近似数（4726→5000）、整百近似数（2348→2300）、和的估算（1980与3025分别取整千后相加得5000）、差的估算（683与412分别取整百后相减得300）、错误舍入辨析及容量情境估算；exam第6题再次练习整千数加法估算（1810与2240分别取整千后相加得4000）。题面均明确采用四舍五入法及取整要求，答案和解析重算正确。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第2项“联系平均分、乘除关系和有余数除法”明确要求先确定作为1份的量，完整列出“比较量＝一份量×倍数”“一份量＝比较量÷倍数”“倍数＝比较量÷一份量”，并说明借助文字或线段图区分倍数关系与相差关系。questions第8题以8朵黄花为1份求红花朵数，8×3＝24；第10题以7本科技书为1份求倍数，28÷7＝4；第11题已知长绳36米是短绳的4倍，求一份量，36÷4＝9。三类关系均有对应练习，第8题解析还明确指出“是3倍”不是“多3朵”。",
+            "id": "missing:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "470ec2079e9b5aa6e7c9cac51e1f83039e2b157a49f74ea7a8907a4d5552908c"
+    },
+    {
+      "bookId": "g3down-2026",
+      "unit": 1,
+      "sourcePrintedPages": [
+        1,
+        9
+      ],
+      "candidate_sha256": "80898209786b82f072017449f69fa144437b2713bd85b7ed94ba211c224f94a4",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页1—9正文及覆盖报告审校。覆盖报告关于剪纸方法覆盖不足的建议成立，已在原“认识轴对称现象与对称图形”中补充，不新增知识点。",
+          "保留原有4个知识点及其中正确、符合范围的题目。轴对称部分替换3道题，补入画半个图案、折痕位置和保留连接处的方法；知识摘要补充长方形的对称轴。",
+          "印刷页8—9的找规律、剪法辨认等练习不另列知识点。旋转中非中心点的运动路线保留为已有主题内的应用题，不独立成课。",
+          "每个知识点恰好6题，判断题至多1道，均含至少2道不同情境的应用或推理题。单元检测恰好6题，替换原来仅改变数字的平移计算题。",
+          "已逐题核对题干、选项、答案与解析。所有题目均可依靠文字独立作答，不依赖教材图片；无近似计算。status评价修订后的最终稿。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "1346344d136f64fba88b4826fd94456bb6bb683d162fd8d7793e997af1e67a63",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前 knowledge_summary[0]“认识轴对称现象与对称图形”的 core_concept 已补充“先对折，再从折痕处画半个图案，按轮廓剪开后展开”，明确“头和身体应从折痕处画起”，并讲解“按合适的方法再次对折”及“保留手部的连接处”；tips 进一步提醒不能认为任意折法都能得到同样的图案。配套 questions 第4题以连成一体的对称爱心考查对折、画半个图案和剪裁的顺序，解析明确两层一起剪、不能剪断连接两半图案的折痕；第5题考查半个纸人的头和身体与折痕的位置关系；第6题考查剪断手部连接处导致两个纸人分开的原因。讲解与练习共同覆盖了固定反馈要求的制作方法、完整性和相连条件，无须另设课时或逐种折法新增知识点。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "1dd9daf8a57133fa1dd5ac262dc69cdbf90367e8e6f9fbfe464d4582df9f9454"
+    },
+    {
+      "bookId": "g3down-2026",
+      "unit": 2,
+      "sourcePrintedPages": [
+        10,
+        38
+      ],
+      "candidate_sha256": "b9d7f868af462a98ff325f87e9448a0f2b8fd328d8dd12041506450f7f0c23f8",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据用户提供的官方印刷页10—38正文及覆盖报告完成审校；未另行联网核验版本。",
+          "采纳口算补充建议：在原知识点中加入两位数拆分口算、把一百几十看作十几个十的口算，不新增知识点。",
+          "采纳两步乘法补充建议：将“用除法解决实际问题”扩为“用乘法和除法解决实际问题”，融入两步连乘、两种分析思路及分步和综合列式；连续平均分、先求单一量、先求总量继续保留。",
+          "覆盖报告未发现超范围知识点，与所提供正文相符。画图、列表、回顾检验融入应用问题，不把个别拓展练习单独设点。",
+          "保留原稿中正确且符合范围的主要题目；为补齐覆盖、满足每点两道不同情境应用或推理及避免复制教材原题，局部调整配题。与所提供教材原题相同的题目已替换。",
+          "已逐题重算并检查选项、答案、解析及题干唯一性。每个知识点6题、至多1道判断题；单元检测6题且与课内题不同。估算题明确替代数，不采用未说明的舍入规则。source_ref中的“原配套保留”表示保留原稿题目，其余标明正文依据及原创修订。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "31040c298808137d0a03d8cc225e3a82b60a1b8451c8f68171db9a7c859e3bcc",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第1项“口算除法与估算”的core_concept明确说明：两位数的十位和个位都能分别除尽时，可拆成整十数和一位数，分别除后相加；一百几十可看作十几个十来除。key_formula给出84÷2=80÷2+4÷2=42。练习questions第1题要求把48拆成40和8口算，解析完整呈现40÷2=20、8÷2=4、20+4=24；第5题要求把150看作15个十计算150÷3，解析明确得到5个十，即50；第2题的解析还用12个十÷4=3个十解释120÷4。两位数拆分口算和计数单位转化均已在原有主题内补充，并有对应练习，无须另设知识点。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第6项已扩为“用乘法和除法解决实际问题”。core_concept明确讲授两步乘法的两种思路：先求总个数再求总价，或先求每箱价钱再求总价；key_formula给出“每个价钱×（每箱个数×箱数）=每个价钱×每箱个数×箱数”。练习questions第31题“3箱收纳盒，每箱5个，每个16元”的解析完整列出两种分步方法：5×3=15、16×15=240，以及16×5=80、80×3=240，并给出综合算式16×（5×3）；第32题要求先求一盒水彩笔的支数，再求3盒总支数，解析给出12×4×3及先求总袋数的另一思路。exam第6题进一步检测4×6×10=240人次，并说明另一种分步思路。两步连乘的讲解、两种数量分析思路、分步与综合列式及练习检测均已覆盖。",
+            "id": "missing:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "ecd9dc1d090772088c58134d40ba5ed1d5232540167a8617d6e9192f1f95985a"
+    },
+    {
+      "bookId": "g3down-2026",
+      "unit": 3,
+      "sourcePrintedPages": [
+        39,
+        51
+      ],
+      "candidate_sha256": "a3939051f6e8988372ffe37be626e350fcd9ae19e443b36b40bf35a3012063e0",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页39—51正文及覆盖报告逐项修订；未另行核验外部版本。",
+          "采纳多边形和四连方两项独立主要主题建议；将原周长知识点拓宽为“认识、测量和计算周长”，不把各类测量方法另立知识点。",
+          "保留原稿中正确、符合范围且不重复教材原题的题目。调整与教材原题重合的篮球场、菜地等题目；将周长逆向求边等内容合并到实际应用中。",
+          "正多边形作为认识多边形中的补充，不另设知识点。最短周长、靠墙围边、拼接边界等仍归入周长应用。",
+          "所有示意均改用自足文字，不推测未展示的教材图片。完成题干、选项、答案及解析复算；本稿不涉及近似计算。",
+          "修订后共5个知识点，每点6题，另有6道不重复的单元检测题。status表示对本次所提供正文范围内最终稿的审校结果，不代表教师签审。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "9a48c2758e738a8e3d3ece9dfd5f589b51c9c752e734d6ab683a21fc6c682bc4",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第1项“认识多边形”明确说明多边形由线段首尾相接围成、封闭且边不交叉，介绍按边数分为三角形、四边形、五边形、六边形等，并指出“多边形的边数＝角数”。questions第1题辨认多边形，第2题求六边形的角数，第3题判断分类依据，第4题按木条数辨认五边形，第5题检查旋转后边数不变；exam第1题根据7个角辨认七边形。一般多边形的认识与按边数分类已在讲解和练习中落实。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第3项“认识、测量和计算周长”同时覆盖曲线边界绕线测量、多边形各边长度求和，以及用圆规和直尺将各边转化成首尾相接的一条线段，并提醒绕线不能拉伸、转移不能漏边。questions第13题选择叶片周长的绕线测量方法，第14题计算一般四边形周长，第15题判断三条边转移后的正确连接方式；exam第3题根据转移所得的4厘米、6厘米、9厘米三段计算周长19厘米。测量与转化方法已得到明确讲解及对应练习。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第5项独立设置“图形拼组——四连方”，规定4个同样的小正方形不重叠、通过整条边完全重合连成一块，并介绍探索不同形状及再拼成长方形、正方形。questions第25—26题检查拼组规则，第27—28题比较直条形的转动及其与2×2方块形的区别，第29题将两块直条形四连方拼成长方形，第30题将四块方块形四连方拼成大正方形；exam第6题核验四块直条形四连方拼成4×4正方形。已覆盖规则、不同形状辨别和再拼组，不再仅服务于周长计算。",
+            "id": "missing:2",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "9ce5a52f7ec5eaef2d0e5a09db9df3fb04231b6b477c612f885bf8d1f7ae20b0"
+    },
+    {
+      "bookId": "g3down-2026",
+      "unit": 4,
+      "sourcePrintedPages": [
+        52,
+        64
+      ],
+      "candidate_sha256": "c8c28f4c3849149161dbcfc0305973c7d4569b66431128dca912d2777ca9e58e",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "以用户提供的官方印刷页52—64正文为依据完成修订；未另行核验原书图像。",
+          "采纳覆盖报告中的“面积的估测”建议，将其并入已有“长方形和正方形的面积”，不新增知识点。补充熟悉物体作参照、估计包含几个参照面以及测量计算检验的方法，并配置两道不同情境的估测题。",
+          "核实覆盖报告未发现超范围知识点的结论：保留原有5个知识点。组合图形、同周长比较和花坛周围小路不另设独立知识点。",
+          "保留原配套中正确且符合范围的多数题目。替换与教材原题相同的直接计算题，并用估测题替换部分原题；综合测评调整为不同于课内题的任务。",
+          "修订后每个知识点恰好6题，判断题至多1题，均有至少两道不同情境的应用或推理题；测评恰好6题。已逐题复算并核对选项、答案和解析。",
+          "估测题按题干给出的近似数据计算，不要求额外舍入。所有题目均可凭文字独立作答，不依赖未展示的教材图片。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "c2f35533e4640072a7d783c4da847e55c712a269b8761619ea1e0a94c0c86877",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第3项“长方形和正方形的面积”的core_concept明确讲解：先求熟悉物体一个面的面积，再估计待测面大约有几个这样的面那么大，最后通过测量、计算检验；key_formula给出“估计面积≈参照面的面积×大约包含的参照面个数”，tips要求估测结果说“大约”，并量长、宽计算以检验。练习questions第16题以练习册封面为参照，先算约4×3＝12平方分米，再估计桌面约12×4＝48平方分米；第18题以1平方米地垫为参照估计18平方米，再用实测长、宽算出5×3＝15平方米，判断原估计偏大3平方米。exam第3题再次要求以长方形垫子为参照，估计活动区面积约2×1×20＝40平方米。上述讲解和练习已覆盖参照面估测、近似表达及测量计算检验，且纳入原有面积公式知识点，无须新增课时。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "2534ed6c71d1af4e84863b33ac09246615a722ee01068a6626a41a5fecbd283c"
+    },
+    {
+      "bookId": "g3down-2026",
+      "unit": 5,
+      "sourcePrintedPages": [
+        65,
+        76
+      ],
+      "candidate_sha256": "f0eecee70a6decab844d0a060944f9d2f599a09f5f17b77773e93e497013fe0b",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "已逐题重算并检查最终稿，共18道分课练习和6道单元检测题；各题均有唯一答案。",
+          "已修正答案与选项不匹配、计算答案错误、解析引用无关数据及漏列等级等问题；计算题选项统一为空数组。",
+          "已调整重复题、偏离知识点的题目和虚高难度，补充分类规则、调查范围及每人限选一项等必要条件。",
+          "已避开OCR中残缺的正字笔画和错位表格；所用数据、记录规则均在题面完整展示，不要求辨认原图，也未将教材中的历史标准表述为现行标准。",
+          "source_ref保留为original，路径由程序另行验证。最终稿无待人工解决的问题。"
+        ],
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        }
+      },
+      "body_page_fingerprints_sha256": "179fe44143bb1fa171f61f4f29b6b60ba24ba2bbca3239ab83774820cf838e82"
+    },
+    {
+      "bookId": "g3down-2026",
+      "unit": 101,
+      "sourcePrintedPages": [
+        77,
+        85
+      ],
+      "candidate_sha256": "30667b8b9277e40f99315ea9d681cc873ee8a66e39de22fefaf742c78f3baf15",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据用户提供的官方印刷页77—85正文逐项核对覆盖报告；本次未另行联网核验教材版本。status评价的是依照所提供正文修订后的最终稿。",
+          "保留原有3个知识点及其18道正确、范围内的练习，不作无故重写。新增“24时计时法与一天的时间”，在同一知识点的6题中覆盖一天的时长、计时法转换、作息安排、经过时间和分段时长合计。",
+          "采纳正文第84—85页对应的缺漏建议，新增“二十四节气与日影变化”。节气、圭表和测影记录合为一个知识点，不拆分节气歌或各个节气。",
+          "“年历设计师”并入原有“制作日历并解决日期问题”。公历与农历、其他时间单位和古代天文学家贡献仅作为正文中的自主研究选题，不另设知识点。未发现原有知识点明显超范围。",
+          "试卷保留原有3道题，替换另3道以覆盖新增主题。每个知识点恰好6道练习，至多1道判断题，并包含至少两道不同情境的应用或推理题；试卷恰好6道，题干均与课内练习不同。",
+          "已逐题核对答案、选项和解析并重算。所有计算题答案均为不带单位的整数；无需近似计算。测影问题限定观察地点和测量条件，不把局部观察结论任意推广。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "4b71c2c4fd7b26d75946d0054bcb8d3082eb9d4f8f124727b63f9e16c8386475",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第4项“24时计时法与一天的时间”明确讲解“1日有24小时”“时针一天转两圈”“当天24时就是次日0时”，并说明普通计时法与24时计时法的转换。questions第19题核验24小时与2圈，第20题核验5月12日24时＝5月13日0时，第21题将晚上6时40分转换为18:40；exam第4题将16:20转换为下午4时20分。固定反馈要求的完整板块已覆盖。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第4项区分起止时刻与时长，说明经过时间可以分段计算、实际活动的总时长相加且不计中间休息。questions第22题为8:35至当天9:20，重算为25＋20＝45分钟；第23题为9:00—11:30和14:00—17:30两段开放时间，重算为2小时30分＋3小时30分＝6小时；第24题结合休息和活动安排，正确起止时刻为17:00和17:40。exam第5题9:40至当天11:00重算为80分钟。经过时间及分段时长合计均已覆盖。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第5项“二十四节气与日影变化”讲解节气与四季、农业生产的联系，圭表中表竖直、圭水平，冬至正午日影与昼长的关系，以及同地点、同一根竖直杆、每天同一时刻测影并记录的观察方法。questions第25—30题分别检验节气作用、冬至日影、夏至昼长、控制测量条件、影长数据比较及连续观察的必要性；其中第29题重算为104－96＝8厘米。exam第6题检验圭表结构。固定反馈要求的简要主题及观察活动均已覆盖。",
+            "id": "missing:2",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "ff8235cc7a39ca01253d564e2129d95317ffb470507f7d7b8c287b49c811e877"
+    },
+    {
+      "bookId": "g3down-2026",
+      "unit": 6,
+      "sourcePrintedPages": [
+        86,
+        94
+      ],
+      "candidate_sha256": "5ec457219c48bc29e9f684a743c0dea7410ec6933296cb167edfa419c05a88c8",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页86—94正文及覆盖报告完成修订；核验范围为所提供的正文材料，未另行获取官方文件。",
+          "采纳两位小数比较与排序的补充建议：将“比较一位小数的大小”扩为“小数的大小比较”，在原有6题内补充两位小数、一位与两位小数混合比较、统一单位比较和排序，不新增知识点。",
+          "小数的意义和读写原已涉及十分之一、百分之一；本次在原有6题内补强0.01、厘米与米、分与元的关系，并保留读写和十分之几的内容。",
+          "两位小数加减、找规律、小数历史及卡片组数不独立设知识点；整理和复习按本单元实际内容融入现有知识点。未发现需删除的超范围知识点。",
+          "保留原配套中正确且符合范围的题目；对与教材原题实质重合的身高、计算、购物、竹竿连接、货车载重等题作必要替换。原有来源路径仅作题目沿用记录，不作为新版正文页码依据。",
+          "最终共4个知识点，每点6道配套题，每点至多1道判断题；每点至少2道不同情境的应用或推理题。单元检测另设6题，与配套题题干不同。",
+          "已逐题核对题意、选项、答案和解析并重算。所有计算题答案均为不带单位的整数或有限小数，无近似计算；所有题目均可仅凭文字作答。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "d59cbbad3ed91c03128fe072fabaee49b9cd3b6a5f5eb39adabd99efcb28cebc",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第2项已将主题命名为“小数的大小比较”，core_concept明确包含“一位小数”“两位小数”及“一位、两位小数混合”的比较，并提出把米化成厘米、把元化成分的方法；tips以0.9米＝90厘米、0.86米＝86厘米说明混合比较。练习questions第8题比较0.85、0.9、0.09，最大为0.9；第9题要求将2.8、2.48、2.6从小到大排列，正确顺序为2.48＜2.6＜2.8；第11题将1.05米、95厘米、1.1米、1米统一为厘米后排序，正确顺序为乙、丁、甲、丙；第12题要求选出大于0.8升且小于0.9升的水量，唯一符合的是乙杯0.85升。exam第3题比较9.6元、9.85元和10.05元，并结合小于10元的条件选择9.85元。讲解和练习均已覆盖两位小数比较、混合比较及排序，不再局限于一位小数。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "cc0cecc314ffaf5fc4ff70be2e9ca99d4db76c960351512f490c8e62cfe756f2"
+    },
+    {
+      "bookId": "g3down-2026",
+      "unit": 7,
+      "sourcePrintedPages": [
+        95,
+        104
+      ],
+      "candidate_sha256": "0005d2560fe3522498734aa82b8e5f2fc615be6b7a48bbcbb3972b27000142e4",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所给官方印刷页95—104正文及覆盖报告修订；未将OCR缺失的符号或未展示的图像作为出题依据。",
+          "采纳小数认识类建议，新增“小数的认识与大小比较”；其余三项建议分别并入原有图形、运动和数据知识点，不另拆小课。",
+          "原有知识点未发现超范围主题。保留正确且符合范围的题目；对直接复用教材原题、仅改变教材个别数字或需要补足主题覆盖的题目作替换。",
+          "在原计算知识点中补充除法算理、估算和乘除数量关系；在运动与日历知识点中补充轴对称、年月换算及24时计时法。",
+          "最终6个知识点，每点6题；每点判断题不超过1道，均含至少两道不同情境的应用或推理题。另配6道不同于课内题的检测题。",
+          "已逐题复算并核对答案、解析、选项唯一性及文字条件。估算题明确采用的估算方法；不依赖教材图片，不使用未说明的现实事实。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "a969bc2e42a2df64c5b2423a7358b05e3cf3fe793fcfccc46dd81254add4b683",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第2项“小数的认识与大小比较”说明平均分成10份、0.1的意义、一位小数的组成、读法及先比较整数部分再比较十分位的方法。questions第7—12题分别练习0.7的意义、2.5的读法、数线上确定1.4、小数排序、按长度选木条及纠正错误比较；exam第2题再次考查小数大小比较。已覆盖反馈要求，且数线题用文字完整交代方向、分段及起点，不依赖图像。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第4项“联系运动现象和日历解决问题”明确说明“轴对称图形沿对称轴对折后，两边完全重合”。questions第19题要求选择检查纸片是否为轴对称图形的正确条件，唯一正确选项为“沿某条直线对折后，两边完全重合”，解析也区分了部分重合、平移与轴对称。已在原运动知识点内补充认识与判断。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第3项已调整为“长方形、正方形的特征及周长和面积”，明确列出长方形对边相等、四个角都是直角，以及正方形四条边相等、四个角都是直角。questions第13题直接考查每个长方形都具有的边角特征；第18题解析运用正方形四边相等求围框长度；exam第3题运用正方形周长求边长，再求长方形面积。已覆盖图形特征及其与测量计算的联系。",
+            "id": "missing:2",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第5项“整理数据并说明分析结果”明确说明统计表呈现数据、有联系的表合并为复式统计表，以及依据对象、项目和单位填表的方法。questions第25题给出两张捐书表的数据及合并后的行列顺序，要求填写乙班一行；第26题以文字完整呈现复式统计表各行数据并要求补空；第27题检查合并数据时的单位一致性。exam第5题进一步考查合并后的同行数据比较。已覆盖复式统计表的认识、合并整理和填表，而非仅增加一般数据计算。",
+            "id": "missing:3",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "51b9f98dbae5b484d471ae39860be0eb215cbd3cda83eb2b6ce9af4928ab8c1a"
+    },
+    {
+      "bookId": "g4up-2026",
+      "unit": 1,
+      "sourcePrintedPages": [
+        1,
+        23
+      ],
+      "candidate_sha256": "7dec6b40eb64b4a87fb9124750477091e4230e658512edfe68fccd59280c367b",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "按所提供的官方印刷页1—23正文逐项核对覆盖建议。自然数是正文独立讲授的主要主题，新增1个知识点；其余建议通过扩充原有4个知识点落实。",
+          "计数单位和数位扩充至千亿，读写扩充至含亿级的数，比较、改写和近似数补入以亿为单位的处理。未发现原知识点超范围，无须删除。",
+          "保留正确且适用的原题；仅为补齐主要主题、满足每点6题及应用推理要求而替换部分题目。未把算盘、数字卡片、统计情境及记数历史另设为知识点。",
+          "最终共5个知识点、30道课内题和6道检测题。各知识点均有至少2道不同情境的应用或推理题，判断题均不超过1道；检测题与课内题题干不重复。",
+          "依据用户提供的正文完成内容核验及逐题重算，未另行核验教材版本来源。source_ref标明保留原题或修订、新编题所依据的印刷页。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "0aa9ba8353207059e7214a90b528d5b9fd8c4a882a01c3a94779fbac62b70662",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第3项“认识自然数及其基本特征”明确说明：0也是自然数，所有自然数都是整数，最小的自然数是0，没有最大的自然数，自然数的个数无限。questions第13—18题分别练习空集数量用0表示、最小自然数、自然数与整数的关系、没有最大的自然数、自然数的无限性以及可能个数包含0；exam第3题再次核验0和不存在最大自然数。固定反馈已在讲解和练习中落实。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第1项列出到千亿的计数单位，并明确定义十进制计数法；第2项列出从个位到千亿位的完整数位顺序，明确亿级包括亿位、十亿位、百亿位、千亿位。questions第5题练习10个一百亿，第6题核验十进制计数法的含义，第9题核验亿级四个数位，第12题核验百亿位数字的意义；exam第2题核验千亿位是从右边起第12位。固定反馈已解决。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第4项已扩展为“学习万以上数的读法和写法，能按数级正确读写”，说明从最高级起读写、亿级和万级加级名、零的读法，以及非最高级必须写满四位、中间空级用0000占位。questions第23题以405｜0060｜0070练习三级数读法，第24题将“二千零八亿零九”写为200800000009；exam第5题将“七十二亿零六十”写为7200000060。含亿级读写及跨级补零均已落实。",
+            "id": "missing:2",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第5项的比较规则不再限定于亿以内，明确整万、整亿数的准确改写，保留到亿位看千万位，以及准确改写用＝、近似结果用≈。questions第28题比较99980000000和100003000000，第29题将640200000000准确改写为6402亿，第30题将3450000000按四舍五入法近似为35亿；exam第6题进一步练习9952000000≈100亿的连续进位。固定反馈要求的大数比较范围、以亿为单位改写和求近似数均已解决。",
+            "id": "missing:3",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "c5da632fb4b02861f98ddab2cbcac1a7747e9f69933e067f3d290fda2a45a786"
+    },
+    {
+      "bookId": "g4up-2026",
+      "unit": 101,
+      "sourcePrintedPages": [
+        24,
+        27
+      ],
+      "candidate_sha256": "8e99d326edab6f0dfe154ebf0c01dc7d9c7a338e3a1d2d8038cc94efd38db1f7",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页24—27正文及覆盖报告审校。报告提出的“自主提出问题、合作探究、记录与交流”属于正文明确要求，已补入第二个知识点，不另设小课。",
+          "保留原有两个知识点名称及大部分正确、符合范围的题目。替换第二个知识点中运量和节水两题，补入探究方案及记录交流题；保留纸张测量方法题。",
+          "纳米、绕赤道是资料交流示例，不单列知识点；成长自评融入探究过程，不单列数学知识点。未发现需要整体删除的超范围知识点。",
+          "试卷保留四道原题，替换两道与课内题仅主要数据不同的题，补充比较推理和探究记录评价。全部18题已逐题核算并核对选项。",
+          "估测题的结果均说明为近似值；本稿计算结果不需要舍入。source_ref注明正文对应页码及原创或修订性质，不表示题目摘自教材。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "907a8b0f9ac0836d7afca73ec64734b8ac24fcf40bbe15f1e6b19937ba278702",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "已在原有“运用估算、推算等方法解决与大数有关的实际问题”知识点下补全，无须另设小课。定位：knowledge_summary[1].core_concept明确要求“自主提出与1亿有关、能够研究的问题”，并包含小组商量方案、分工测量、按组数推算、记录研究问题与过程、结论与感想、交流依据和听取同伴意见；其tips给出“提出问题—商量方案并分工—测量和推算—检查单位—记录结论与感想—交流”的完整流程。练习questions[10]（黄豆研究方案选择题）覆盖提出研究问题、合作分工、测量记录和推算；questions[11]（回形针研究记录与交流题）覆盖记录问题、测量计算过程、结论与感想以及交流依据、听取意见；exam[1]（种子研究记录检查题）检查只有结论而缺少研究过程的不足。上述讲解与练习共同覆盖固定反馈要求的完整探究过程。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "3951aa5e15190c3555f1e8629ca5c734ed86d92288402a293e9d888626e31d69"
+    },
+    {
+      "bookId": "g4up-2026",
+      "unit": 2,
+      "sourcePrintedPages": [
+        28,
+        38
+      ],
+      "candidate_sha256": "a4c824e49c11601582a4e8b65e90ae5591989c4af3db060b9e521fc90803ebca",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页28—38正文及覆盖报告审校，status评价修正后的最终稿。",
+          "采纳覆盖报告关于印刷页35的建议：新增一个机器人路线控制应用知识点，合并覆盖直行距离、左右转向、命令顺序和循环，不把三个任务分别设点。",
+          "保留原有三个知识点及其18道正确且符合范围的课内题；在已有知识概要中补明射线旋转形成角、度量单位及统一度量思想，不无故重写原题。",
+          "未发现需要删除的超范围知识点。拼角、折角、损坏角的测量等属于练习或拓展，不另设独立知识点；不把探究比周角更大的角列为基础要求。",
+          "试卷保留4道原题，替换2道与课内题考查方式过近的题，补入度量单位思想和机器人循环路线。全部路线均由文字独立给定，不推断教材中未展示的示意图。",
+          "最终共4个知识点，每点6道课内题，试卷6道。已逐题核对题干、选项、答案和解析并重算；所有计算结果均为整数，不涉及近似或舍入。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "2304cf8b9485847b4f3e083da1d15c9942248fa247116577983ec26e593ff48f",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第4项“用直行、转向和循环命令描述机器人的行走路线”已合并覆盖官方印刷页35的应用主题：core_concept明确直行表示沿当前朝向前进多少格，转向只改变朝向、不改变位置，多条命令按顺序执行，循环次数作用于整组命令，并要求交代初始位置和朝向。练习亦有对应落实：questions第19题考查朝北直行4格；第20题要求按顺序先到A桌再到B桌，唯一正确命令为“直行2格，右转90°，直行3格”；第21题考查正方形路线的循环，重算为4次；第22题考查整组命令循环2次后的位置与朝向，判断为对；第23题补全返回路线，唯一正确选项为“右转90°，直行2格”；第24题计算循环行程，重算为10格。exam第6题进一步综合循环、位置与朝向，重算结果为“取餐口东边2格，朝东”。因此已覆盖距离、转角、顺序及循环命令，不再只是考查累计转角的分类。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "6ba43a135e0f974e3c96e3bb4902a6c6d22311e7cc10fed0546a083c01443fe5"
+    },
+    {
+      "bookId": "g4up-2026",
+      "unit": 3,
+      "sourcePrintedPages": [
+        39,
+        57
+      ],
+      "candidate_sha256": "da3c7c080f917e64bbaae463ed32b7d11487122b99f489f126f04d9365e021aa",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页39—57全文与覆盖报告逐项审校，未另行核验外部版本。",
+          "采纳口算乘法缺失建议，新增一个口算知识点，合并覆盖拆分口算、相应整十整百数乘一位数、乘10和乘整十数，不拆成多个小课。",
+          "采纳笔算范围修订建议，将原“三位数乘两位数”扩为“多位数乘两位数”，在原有6题内补入两位数、四位数及中间有0的计算，保留正确且适用的原题。",
+          "采纳计算器探索数字规律的建议，新增一个主要知识点，合并覆盖观察、推算、解释和检验，不把每组特殊算式分别设为知识点。",
+          "保留末尾有0、积的变化规律和估算主题。原题中两个乘数同时变化的题并非必须判为超范围，但为突出正文主要规律，将课内该题替换为一个乘数不变、另一个乘数除以几的应用题。",
+          "替换与所给教材练习重合或实质相同的零件、绿地、货车和排球题，避免复制教材原题；其余正确且符合范围的题尽量保留。",
+          "最终共5个知识点，每点6题；每点至多1道判断题，至少2道应用或推理题。另有6道不与课内题重复的检测题。已逐题重算，并核对选项、答案、解析和估算规则。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "bcec5098ba65a50fc424a9141e2c314e1963867dbe5b0dce2fd6cf6e62bdb708",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第1项“掌握口算乘法的方法，理解拆分及乘整十数的算理”明确讲解把两位数拆成整十数和一位数、分别相乘再相加，并说明乘10、乘整十数的方法；公式给出28×3＝20×3＋8×3＝84、280×3＝840、28×20＝560。questions第1—6题分别练习拆分口算、相应整十数乘一位数、乘10、乘整十数及其应用；exam第1题以27×20再次检验。原反馈要求的独立口算主题已在讲解与练习中落实。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第4项“用计算器探索乘法数字规律，并推算和检验”明确给出“计算—观察—猜想—推算—检验”的探索过程，说明可用竖式部分积解释数字规律，并将连续若干个1组成的数自乘的所述规律限定在1至9位范围内。questions第19—24题覆盖规律推算、111＋1110＋11100的算理解释、数字位置与位数、另一组数字规律及不能任意推广的判断；其中第23题解析还提供9999×9999的独立计算检验。exam第4题再次检验六个1组成的数自乘的规律推算。该主题未被混同于因数与积的倍数变化规律。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第2项已改为“掌握多位数乘两位数的笔算方法，理解计算过程”，概念明确说明适用于两位数、三位数、四位数等乘两位数，并说明中间有0时仍须按数位计算、处理前一位进位。questions第7—12题练习部分积、数位对齐及实际意义，其中第10题107×14的解析具体说明107×4时十位上的0乘4后还须加个位进来的2；第11题2059×12覆盖四位数及中间有0的情形。exam第2题326×28继续检验笔算方法。两位数乘两位数的适用范围也在该项讲解中明确列出，无须为每种位数组合另设小课。",
+            "id": "missing:2",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "87d0270e5fd415f6248a4f5a263075bc355569dc9d2bc1a4f01859acbe3fce2a"
+    },
+    {
+      "bookId": "g4up-2026",
+      "unit": 4,
+      "sourcePrintedPages": [
+        58,
+        69
+      ],
+      "candidate_sha256": "782bf9ef0fff68cd28af5d76a3a5766a9f06faafa4472f3fc2eebbe609820a65",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页58—69正文逐项核对覆盖报告；两项补充建议均成立，已扩充原知识点，不新增知识点。",
+          "加法模型补充有序列出购买方案、按预算筛选，以及用总价减去未选商品价格的方法。",
+          "乘法模型补充速度的意义、米/分和千米/时的读写，并说明同时间比路程、同路程比时间。",
+          "综合运用部分补足促销问题的两种算法，以及根据时刻和里程表读数求平均速度。",
+          "保留正确且符合范围、未直接复制教材原题的题目；替换与所给教材原题重复的题目及部分重复考查题。无须删除或改名的超范围知识点。",
+          "最终稿每个知识点6题，考试6题。已逐题核对计算、选项、答案和解析；均不需要近似或舍入。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "63b140cda44b8f12d5d92b20169398d7456450d3f1fab10648f9a8fff931be5e",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第1项“从实际情境中识别加法模型，分析数量关系并解决问题”的core_concept明确说明：从4件不同商品中选3件，可按不选哪一件有序列出4种方案；可分别计算费用，也可先求4件总价再减去未选商品价格；费用不超过预算才可行。tips进一步明确总价等于预算也表示钱够用。questions第5题逐一列出74、98、91、85元四种费用，筛出不超过90元的2种方案；第6题用110－16＝94元落实“总量减去未选分量”的方法。exam第2题四种选择的费用依次为77、88、69、81元，只有“不买水壶”符合70元预算，答案唯一。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第2项“从实际情境中识别乘法模型，分析数量关系并解决问题”的core_concept明确界定速度是单位时间内行的路程，并给出“80米/分读作80米每分，表示每分钟行80米”和“800千米/时读作800千米每时，表示每小时行800千米”。tips说明同时间比较路程、同路程比较时间，以及先求速度再比较的方法。questions第7题检验65米/分的含义，第10题通过相同的5分钟比较360米与400米，第12题通过相同的200米比较4分钟与5分钟；exam第4题检验45千米/时的含义。概念、单位读写及比较快慢均已落实。",
+            "id": "missing:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "dc096f43a08f2b69b48258a2f7a0279efd800ed34b81fc607ae6d30b1b769976"
+    },
+    {
+      "bookId": "g4up-2026",
+      "unit": 5,
+      "sourcePrintedPages": [
+        70,
+        87
+      ],
+      "candidate_sha256": "6c05cb0c8525822e3d080554efbf34f9c7d7459a983f97285aa546c1598f1796",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页70—87完整正文及覆盖报告逐项审校，不依赖未展示的教材图片。",
+          "采纳基本概念缺失建议，新增“认识平行和垂直”，覆盖同一平面内的位置关系、定义、垂线、垂足及记法和读法。",
+          "采纳画线方法覆盖建议，将原“理解平行四边形与梯形的高，学习画高”更名为“画垂线和平行线，认识点到直线的距离”，同步修正题目关联名称，补充过直线上一点画垂线和过直线外一点画平行线。不增加图形的高及画高。",
+          "扩充原图形构造知识点，补充用三角尺、圆规按给定尺寸画长方形和正方形；保留方格补画、剪分及拼接内容。",
+          "在原图形特征知识点中补充等腰梯形同一底上的两个角相等，不另设知识点。默比乌斯带及四边形内角和探究不单列小课。",
+          "保留正确且符合范围的原题，仅为补齐主要主题、满足应用推理要求或避免复制教材原题作必要替换。原考试花坛题与教材印刷页82原题重合，已更换为不同任务。",
+          "最终共5个知识点，每点6题；每点至多1道判断题，至少2道不同情境的应用或推理题；另设6道不与课内题重复的考试题。已逐题核对条件、选项、答案和解析，所有计算均为精确计算。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "70491fc749eb92e7c8a5bac5df69a8edab815bffa3d127accb98b6a48c8c7f68",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 3
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第1项“认识平行和垂直”明确讲解直线无限延伸、同一平面内两条不同直线的相交与平行关系、平行线定义、垂直是相交的特殊情况、垂线与垂足，并在key_formula中列出a∥b、a⊥b的记法及读法。questions第1—6题分别检验定义、相交但不垂直、垂足、记法读法、延伸后判断平行以及相交与垂直的区别；exam第5题检验垂直相交形成四个直角。反馈已解决。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第2项已更名为“画垂线和平行线，认识点到直线的距离”，讲解过直线上或直线外一点画垂线时三角尺两条直角边的位置要求，以及借助固定直尺平移三角尺画平行线的方法。questions第7题明确检验过直线上点P画垂线，第8题检验从直线外点A画垂直线段，第9题完整给出过直线外点Q画平行线的工具摆放、平移及经过指定点的步骤。反馈已解决。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第5项“运用平行和垂直画长方形、正方形，识别、构造和分解相关图形”讲解用三角尺画直角、用圆规截取给定长宽、过端点作垂线补全长方形，并说明正方形还须保证四边相等。questions第25题检验长7厘米、宽4厘米的长方形的完整作图步骤；第26题检验边长3厘米的正方形的截取与补全方法，题干明确截取起点，解析补充端点处作垂线的方法。反馈已解决。",
+            "id": "missing:2",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第2项及全部相关题目的knowledge_point均已使用“画垂线和平行线，认识点到直线的距离”，未再保留“理解平行四边形与梯形的高，学习画高”的名称。相关讲解和questions第7—12题、exam第4题只涉及垂线、平行线、垂直线段、点到直线的距离及最短路线，没有引入平行四边形或梯形的高作为必学内容。范围标示错误已修正。",
+            "id": "scope:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "a706a720e854b694bb484b1d6ea099fcd4ec342fa01f9aaa32107c81dfce95a8"
+    },
+    {
+      "bookId": "g4up-2026",
+      "unit": 6,
+      "sourcePrintedPages": [
+        88,
+        101
+      ],
+      "candidate_sha256": "4f947703b9e0fe53670190f438e8d18a571bacadfbd2f677c42be4343b3b7fc5",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页88—101正文逐项核对覆盖报告；未对教材原件作外部核验。status评价本次修订后的内容与所提供正文的一致性及题目内部正确性。",
+          "采纳复式条形统计图的补充建议：新增独立主要知识点，涵盖单式与复式的区别、图例、统一刻度、分组绘制、两组和三组数据、横向表示及比较合计。不把横向图、三组数据图或具体练习情境另拆为知识点。",
+          "采纳统计表与条形统计图特点比较的建议，扩充第一知识点及其题目；在第二知识点补实刻度选择、半格表示。保留原有正确且符合范围的题目，替换与教材原题数据和设问相同的图书比较题。",
+          "覆盖报告未列出超范围知识点，复核后保留原有三个知识点名称；预测与建议继续放在数据分析中，不新增平均数、百分数等内容。",
+          "最终共4个知识点，每点6题，共24道课内题；另设6道检测题。所有题目均可仅凭文字作答，答案与解析已逐题复算；没有使用近似公式或需要舍入的结果。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "422e46d7a78cded124d45fcbc5c2182da28ebcf14e7337e213ffcc247714b075",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第4项“认识、绘制和分析复式条形统计图”已实质补入该主要主题：core_concept明确单式图通常表示一组数据，复式图将同类项目的两组或多组数据放在同一幅图中，用图例区分；明确按项目分组、各组顺序一致、使用统一刻度，并包含横向形式及三组数据形式。tips补充标题、单位、项目、刻度、图例等制作要素，以及同一项目不同组、同一组不同项目的比较；key_formula补充同一项目合计与两组求差。练习对应证据：questions第19题考查两幅单式图合成复式图的比较作用；第20题按图例与统一刻度确定深浅直条依次高3格、4格；第21题使用横向复式图的完整文字数据，计算两站合计（6＋8）×2＝28辆；第22题比较三个月的组间差，依次为4、8、2件，二月最大；第23题辨析图例颜色不代表数量大小；第24题使用三组数据并跨日期合计，乙、丙两组共15＋18＋9＋9＝51件。exam第5题进一步核查按水果分组、图例区分及统一刻度的制作方法；第6题比较各项目合计，茶花21盆、月季23盆、菊花35盆，最大为35盆。上述内容已覆盖反馈要求的认识、制作方法、图例作用、组内组间比较、合计分析，以及横向和三组数据的形式，无需另拆知识点。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "c37d76c842f21379b91d3dafcd468e50d95a9c130bfbf664a9b5d9a999012744"
+    },
+    {
+      "bookId": "g4up-2026",
+      "unit": 102,
+      "sourcePrintedPages": [
+        102,
+        107
+      ],
+      "candidate_sha256": "922d5887724c0189fbde40f5024e212329fefb3f6a2c1ab8386371c3ced9a44a",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页102—107全文及覆盖报告完成修订；status评价修订后的最终稿，不代表已有教师签字。",
+          "采纳主要主题缺失建议：扩充并重命名第二个知识点，合并覆盖绘制藏宝图、编写与检验指令、按实际情况修改指令，不把各项活动拆成独立小课。",
+          "采纳超范围建议：替换第一个知识点名称，删除积分、代币、位值、直角度数及单纯求总路程的内容；保留确实服务于方向与位置学习的路线题和教室定位题。",
+          "保留原稿中正确且符合正文的方向辨认、相反方向、边界路线、参照点辨认、教室定位和线索核对等题目；部分题目调整归属。",
+          "点钟方向仅保留一道提供完整规则的拓展考查题，不新增独立知识点；合作、采访和活动感想不单设知识点。",
+          "全部题目按自足文字条件核对答案与解析。每个知识点6题，判断题至多1题，均有至少两道不同情境的应用或推理题；检测题共6题，与课内题干不重复。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "842d0e309fea99fbdc5c589a0b6fad4ea9c7609b4e13b3e86f02381ee909ada7",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前第二个知识点明确命名为“绘制藏宝图，设计并检验准确的寻宝指令”。其core_concept要求表示建筑位置，标明方向、宝藏序号和位置，用参照点、方向、距离或明确标志物描述准确位置，并核对图与指令、随实际地点变化修改；tips进一步要求检查图面要素、按指令试找，以及交换前隐去宝藏图标。练习中，questions第8题要求根据“水池正东”选择正确补画位置并标上2号，第9题核对绘图必备要素，第10题把实际藏法转写成完整指令，第11题根据实际位置修改指令，第12题通过试找发现目标不唯一并补充区分信息；exam第5题检查藏宝图缺失要素，第6题比较指令的完整性。讲解与练习共同覆盖绘图、设计、检查和修改这一主要实践主题。虽然客观题没有要求学生独立完成整幅校园图，但不据此另行要求每项活动或题型单设课程。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary仅列“辨认八个方向，结合参照点判断位置与路线”和“绘制藏宝图，设计并检验准确的寻宝指令”两个主要知识点，没有把大数、四则运算、直角度数或长方形性质列为单元主题。全部18道题中，exam第3题的教室移动结果为从西面数第5间，questions第6题的反向计数结果为第4间，均直接服务于位置描述；questions第3题使用长方形场地边界辨认路线终点，并未考查长方形性质或角度计算。其余涉及米数的题目均用距离区别位置或完善指令。没有积分、代币总数、数字位值筛选或直角度数题，原反馈所指出的范围偏移已消除。",
+            "id": "scope:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "e98a29b3d5c55720e86d5665eea34ab2ae7f142001f0f08ede41af9584e0b7d6"
+    },
+    {
+      "bookId": "g4up-2026",
+      "unit": 7,
+      "sourcePrintedPages": [
+        108,
+        119
+      ],
+      "candidate_sha256": "ee92642c391e00b14681fcb9217121e225cdd8662ea18364d264e8254e48587f",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据用户提供的官方印刷页108—119正文及覆盖报告逐项核对；本次未另行联网核验版本。",
+          "采纳五项覆盖建议：补充数位、计数单位及位值，补充积的变化规律，补充平行与垂直及画角方法，新增方向知识点。前三类子主题均扩充到原有知识点，不另拆小课。",
+          "保留正确且符合范围的原题；为补足覆盖而定向替换部分题目。原配套未发现需要整项删除的超范围知识点。",
+          "折角、促销、火车过隧道和百僧百馍不单列知识点。鸡兔同笼保留列表、替换和假设方法。",
+          "最终共7个知识点，每点6道课内题，每点至多1道判断题且至少2道情境应用或推理题；另有6道不与课内重复的检测题。已逐题重算并核对选项、答案与解析。",
+          "source_ref标明正文依据及保留或修订情况；所有题目均为配套原创题，不复制教材原题。status表示修订稿内容审校结果，不表示已有教师签署。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "03e5718d5a72c42ce549ddbd5dd3550d1d89ebb9b5f5cdafec20d24efe37fe5c",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第5项“辨认八个方向，读懂平面图并描述简单路线”明确列出八个方向，说明先根据方向标确定方向、以指定地点为观察点，并按先后顺序描述路线。questions第25—30题分别练习八方向辨认、相对方向、原路返回、平面图方向、沿指定路线计算路程和面向北时的左右方向；exam第3题用明确的东、南方向及各200米条件判断相对方向。已覆盖印刷页111、113的主要主题。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第2项的core_concept与key_formula均明确说明：一个乘数不变，另一个乘数乘或除以几，积也相应乘或除以几，并注明除数不能为0。questions第10题“已知28×15＝420……求28×60”落实该规律，重算为420×4＝1680。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第1项说明相邻计数单位之间的进率是10、每四个数位分一级，以及数字所在数位决定其表示几个相应计数单位；tips明确区分数位与计数单位。questions第2题要求解释6060000左边的6，答案为“百万位，6个百万”，解析还对照说明右边的6在万位、表示6个万，已落实不同数位上的位值含义。",
+            "id": "missing:2",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第3项明确给出同一平面内两条直线互相平行和互相垂直的判定，并在common_mistakes中区分“暂时没有相交”与平行、“相交”与垂直。questions第15题提供同一平面、始终不相交以及相交成90°的完整条件，唯一正确选项为“直线a和b平行，直线a和c垂直”。",
+            "id": "missing:3",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第3项补入按指定度数画角的步骤：先画射线，对齐量角器，找到指定刻度并标点，从端点经过标点画另一条射线。questions第13题以画65°角为情境，明确中心、射线与内圈0°的对齐条件，并说明同一位置内外圈读数之和为180°；四个操作分别得到65°、115°、75°、90°，没有数学等价的重复选项。",
+            "id": "missing:4",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "52bb403d5b7639ce480bfd02aa1a53c20e32e1dc19bc6fdb330bda6f37caa5c9"
+    },
+    {
+      "bookId": "g5up-2026",
+      "unit": 1,
+      "sourcePrintedPages": [
+        1,
+        6
+      ],
+      "candidate_sha256": "c0fa472a5d14fe5fcf1d93d7859b7a7f3668eeb2aa574c8bdf062e9d933d0542",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页1—6正文及覆盖报告完成修订；未根据OCR缺失的插图推断具体图形，也未复制教材原题。",
+          "采纳视图比较建议：在原有观察知识点的核心概念及第5、6题中补充不同组合体的视图比较，不另设独立知识点。",
+          "采纳范围调整建议：删除最少、最多用量的一般策略及相关题目，改为按指定视图搭建、调整摆法及在固定数量下探索摆法。保留正确且符合范围的原题。",
+          "观察方向的核心练习限定为前面、上面、左面；原有后面观察题替换为三个主要方向的应用题。带数字俯视图及其他视图名称不单列知识点。",
+          "以下题目均使用同样大小的小正方体，按面贴合摆放；各位置均从桌面向上连续堆放，没有悬空或空层。左右、前后始终以题目规定的正面为准。题干说左视图中某排高几格，是指该前后排在左视图中对应部分的高度，不另行规定画面左右。",
+          "已逐题核对数量、遮挡、位置、答案和选项唯一性。每个知识点6题，至多1道判断题，均含至少两道不同情境的应用或推理题；检测6题与课内题干不同，且不是仅更换数字。",
+          "status表示本次基于所提供正文的内容覆盖与数学核验结果，不表示已经取得教师签字或外部人工审定。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "2538a7b86281fdc56f0a1951861469f790132c0d66a59b158f991b6f62453c9c",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "已在讲解和练习中解决。knowledge_summary第1项“从一个方向观察组合体并描述所见图形”的core_concept明确写出：“比较不同组合体时，应分别比较同一方向看到的图形。不同组合体从同一方向看到的图形可能相同，也可能不同。”配套questions第5题比较甲、乙模型，重算得上面和左面视图相同、前面视图不同；第6题比较两个四位置模型，重算得只有上面视图相同；exam第1题比较一排三个方块与增加后排中间方块的模型，重算得只有前面视图相同。这些题目明确比较不同组合体在三个指定方向的视图，已覆盖原反馈要求的比较与归纳，而非仅用增加方块后前视图不变的题目替代。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "已消除将最少、最多用量及通用策略作为核心教学内容的问题。knowledge_summary第4项“用小正方体搭出符合观察要求的组合体”现讲授按指定视图搭建、增加或移动后核对视图、同时满足数量与多个视图条件，并未讲授最少或最多用量的一般求解方法。其公式“小正方体总数＝各占据位置的层数之和”仅用于计数。当前questions及exam也没有求最少、最多用量的题目；questions第18、23题及exam第6题是在明确占据位置、视图或总数条件下探索不同摆法，属于官方印刷页3、5的按要求搭建与探索不同摆法主题，不是最值策略教学。",
+            "id": "scope:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "7634e5ce413635940dd002c1ff40f4f1ce6c667bfb52fa8341f15dc0f8d797f1"
+    },
+    {
+      "bookId": "g5up-2026",
+      "unit": 2,
+      "sourcePrintedPages": [
+        7,
+        23
+      ],
+      "candidate_sha256": "28bc966c1a3da47929587c1da285128ba5dd4ed4e4d0339c4c19b7f929e09e9b",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页7—23完整正文逐项核对覆盖报告，三项补充建议均成立；未发现需要删除的超范围知识点。",
+          "保留原有六个知识点及符合要求的题目，新增独立主要主题“积与乘数的大小关系”；在原运算律知识点内补充混合运算顺序，在实际应用知识点内补充估大、估小和范围判断。",
+          "替换直接复制教材原题、仅更换情境但沿用教材全部计算数据的题目，以及不直接考查本单元主要内容的近似数判断题；保留其余正确且符合范围的内容，不把练习情境单独设为知识点。",
+          "最终共7个知识点，每点6题，每点至多1道判断题，且至少2道为不同情境的应用或推理；另设6道不与课内题重复的检测题。",
+          "题干、选项、答案和解析已逐题重算。verified表示依据本次提供的正文完成最终稿核验，不表示已经获得教师签署或另行核验教材版本。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "0300168d452a9249c609175aeb37668577919ade7dc78febd389d7e90c708788",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary中“积与乘数的大小关系”的core_concept明确限定本单元非负数范围，分别讲明非零数乘大于1、小于1、等于1的数时积与原数的大小关系，并单独说明原数为0的情况；key_formula进一步明确a＞0以及0≤b＜1等适用条件。questions第26—31题分别练习乘小于1、大于1、等于1和0时的比较，并用判断题纠正“乘小数一定变小”的错误认识；exam第4题要求不计算准确水量，比较18.6×0.95与18.6×1.05。讲解和练习已覆盖印刷页14—15的主要主题。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary中“小数乘法的实际应用”的core_concept明确讲授：估大的总价仍不超过预算，可以确定够用；估小的总价已经超过预算，可以确定不够；范围不能确定结论时，应调整估法或准确计算。tips说明非负数乘法中向上、向下调整乘数的估算方向。questions第39题把23.7、12.6分别估大为24、13，以总价小于74元证明80元足够；第40题把18.6、17.4分别估小为18、17，以总价大于53元证明50元不够。两题均明确要求结论和理由同时正确，已落实印刷页18、21的估算解决问题主题，而非以先精算再取近似数替代。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary中“整数乘法运算定律推广到小数乘法”的core_concept明确写出“先算括号内，先乘除后加减，同级运算从左往右”，并区分按顺序计算与依据运算律简算。questions第34题通过6.4×1.5－0.5的辨错练习落实先乘后减；第36题通过2.8×（3.6＋1.4）＋2落实先括号、再乘法、最后加法；exam第5题计算2.5×1.6＋2.5×0.4－0.4，解析既给出按顺序计算的方法，也指出可用分配律。已覆盖印刷页15—16的相关要求，且未新增小数除法算法等超范围必学内容。",
+            "id": "missing:2",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "46ede86f283934aed1e79672de7824260177aeebbb5287e46dba4f8c24dae99c"
+    },
+    {
+      "bookId": "g5up-2026",
+      "unit": 3,
+      "sourcePrintedPages": [
+        24,
+        38
+      ],
+      "candidate_sha256": "e48f0bc5c3b536a2fdc6ec727b5a7a43ab5d0ca918035a8ae8d6ebb18b28c27e",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页24—38正文逐项核实覆盖报告。采纳有限小数、无限小数及循环小数包含关系的补充建议，扩充已有“循环小数的认识与表示”，不新增知识点。",
+          "覆盖报告未列出超范围知识点，经对照本次正文无需删除或更名。购物比较、快递收费、汇率和规律探索不拆成独立知识点。",
+          "保留原配套中正确且符合范围的主要题目。替换与教材原题重合的3÷4、青蛙跳跃题及试卷中的22.4÷4情境题；调整循环小数题组，使其兼顾定义、表示和不同情境的应用推理。",
+          "删除循环小数简便记法中的裸TeX，改用文字说明圆点位置；补充正数除以小于1、等于1、大于1的数时商的大小关系。",
+          "已逐题重算并核对答案、选项和解析。每个知识点6题，至多1道判断题，至少2道不同情境的应用或推理题；独立检测6题，题干均不重复。",
+          "本次核验依据用户提供的官方正文转录材料，未独立核验原书图像；最终稿不依赖未展示图片，不表示已获教师签审。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "86eb1775f2192a13cdeaf9bac3bebaffd8e5c723258be145d2567e9b049ffa53",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第5项“循环小数的认识与表示”的core_concept明确写出：“小数部分的位数有限的小数是有限小数；小数部分的位数无限的小数是无限小数”，并明确“循环小数属于无限小数，但不能把无限小数都认作循环小数”。对应练习questions第27题直接考查这两种定义及包含关系，正确选项为“小数部分位数有限的是有限小数；位数无限的是无限小数；循环小数属于无限小数”；第26题通过“0.5555是循环小数”的判断辨别有限位重复与无限循环；第29题通过2.5÷4＝0.625判断有限小数；第30题解析明确0.333……既是循环小数，也是无限小数。定义、包含关系及配套辨析均已补充，解决了印刷页27、36对应的固定反馈，且未要求另设独立课时。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "a58e6faad7cb42e77760a491436ab755bb5a1b9128acd6258946268b444558b8"
+    },
+    {
+      "bookId": "g5up-2026",
+      "unit": 4,
+      "sourcePrintedPages": [
+        39,
+        54
+      ],
+      "candidate_sha256": "4532007fdb196e123a7297c5b2518c22a2d71d46e602d4eaaf1684598175307e",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页39—54正文逐项核对。覆盖报告提出的5项缺失均有正文依据，已补齐；未把周长、涂色分数、旋转重合现象等练习或拓展内容另设知识点。",
+          "保留原有4个知识点及其24道正确、符合范围的课内题，主要调整部分表述和解析。新增的面积转化、旋转特征、旋转作图、组合运动、图案设计均为原知识点名称不能容纳的独立主要主题。",
+          "最终9个知识点，每点6题，共54道课内题；每点至多1道判断题，且至少有两道不同情境的应用或推理题。单元检测6题，保留原检测中2道符合要求的题，其余调整以覆盖新增正文。",
+          "所有新增图形位置均由文字完整给定，不推断教材中未展示清楚的源图。题干、选项、答案和解析已逐题核算；本稿无须近似计算。",
+          "status评价本次修订后的最终稿；核对依据为用户提供的正文转录，未另行核验出版物图像。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "00c6decda9d1a5017327b6fec9763fff7a1198f6642a6abd761ef7d1fbd8f308",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 3
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第5项“利用平移转化图形求面积”明确讲解分割、平移、拼成熟悉图形，并限定所有部分保留、无重叠和空隙时面积不变。questions第25—30题分别检验面积不变、割补成长方形或正方形、重叠导致漏算、所需尺寸信息及框内留空的面积计算；其中第26、27、30题重算分别为8×5＝40、5×5＝25、9×4－4＝32。exam第3题为7×6＝42。已覆盖印刷页43的面积转化主题。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第6项“旋转的要素与基本特征”明确说明中心、方向、角度，以及中心不动、形状和大小不变、点到中心距离不变。questions第31—36题覆盖旋转中心、钟面顺逆时针角度、边长与半径不变及各点旋转角度一致；第32题从2顺时针到6为120°，第33题从9逆时针到6为90°，均与答案一致。已覆盖印刷页46、52的主要内容。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第7项“在方格纸上画出旋转后的图形”给出固定中心、按指定方向确定对应点、保持到中心距离、按原关系连线的方法。questions第37—42题覆盖顺逆时针90°的点位确定、三角形对应点选取与连线、错误作图修正、中心保持原位及长方形顶点旋转；第39题明确要求选点后连接O、A′、B′、O。exam第4题补充正左方向顺时针旋转90°后到正上方的定位。已覆盖印刷页47的作图方法。",
+            "id": "missing:2",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第8项“平移与旋转的组合应用”要求识别对应部分、比较位置和朝向并按顺序描述运动，同时提醒不能随意交换步骤。questions第43—48题覆盖平移不能改变朝向、先旋转后平移、先平移后绕新中心旋转及对应卡片识别。第47题先绕O顺时针旋转90°再右移3格，结果为O右侧3格、下方2格；第48题先右移3格再绕原固定点O旋转，结果为O正下方5格，体现操作顺序和中心的影响。已覆盖印刷页48的组合应用。",
+            "id": "missing:3",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第9项“利用图形运动分析和设计图案”明确以基本图形通过连续平移、轴对称、旋转及组合运动设计图案，并从位置、朝向和对应关系分析图案。questions第49—54题提供水平花边、蝴蝶窗花、四叶风车、蘑菇装饰带、竖直书签及轴对称后平移花朵等设计情境；第51题每次旋转360÷4＝90°，第52题已有1个、共需5个，需再复制4次。exam第6题检验先轴对称补成叶片组、再整体向上平移的设计方案。已覆盖印刷页51独立标题“设计图案”。",
+            "id": "missing:4",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "15db94fa505d8cbfd75d87bd50e4fea9cbea09c1b8d45d0cb46d6165e361f3eb"
+    },
+    {
+      "bookId": "g5up-2026",
+      "unit": 5,
+      "sourcePrintedPages": [
+        55,
+        71
+      ],
+      "candidate_sha256": "ecebab639291a44722b5aa4115738809de78e8ff1440bcc1af88aa4f0ad77eaa",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页55—71完整正文及覆盖报告完成修订；status评价修订后的最终稿。",
+          "覆盖报告三项缺失建议均成立：新增“用字母表示规律”；在原运算定律与公式知识点内补充简单的含字母式子运算；在原字母表示知识点内补充字母相乘及平方记法。",
+          "将“用方程表示简单的等量关系”调整为“等式的基本性质及求未知数”，保留范围内的求未知数内容，不正式引入方程定义及独立的列方程教学。",
+          "保留原配套中正确且符合范围的多数题目，仅为补足主要主题、消除教材原题重合及调整教学范围替换必要题目。百数表、单循环赛、对角线等不单设知识点。",
+          "最终共7个知识点，每点6题，共42道课内题；每点至多1道判断题，均含至少两道不同情境的应用或推理题。另设6道不与课内题重复的检测题。",
+          "已逐题核对题意、选项、答案与解析并重新计算。所有计算题答案均为整数或有限小数；本稿不涉及近似计算或舍入。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "e1e0a9f7ae1e606b2ebb23b7e3eaee6afb4494b1d0d8ce65773f3325bcb7ed35",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前新增知识点“用字母表示规律”，明确讲授观察数量变化、找出不变部分与变化部分、用字母概括并代入验证。questions第37题列出展板块数1、2、3与照片数5、8、11，并结合每块3张、另外固定2张的结构概括n=3m+2，解析用m=1、2、3逐一验证；第41题通过代入n=3发现4n-2与已知数据不符；第40题根据规律反求花盆序号。已覆盖观察、概括、验证及应用的过程。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "知识点“用字母表示运算定律与计算公式”明确说明可以用运算律对含字母的式子作简单等价改写，列出a(b+c)=ab+ac及2a+6a=8a，并说明展开与反向合写。questions第20题运用分配律将2a+6a合写为8a，第22题将4(x+3)改写为4x+12，第34题将60a+60b改写为60(a+b)；exam第4题将5a+5b改写为5(a+b)。这些内容不再仅限于识别或套用公式。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "知识点“用字母表示数量与运算关系”补全了字母相乘时乘号可以记作点或省略的规则，明确列出a×b=ab、a×a=a²及读法“a的平方”，并以2a=a+a区分平方与两倍。questions第1题直接考查平方简写，第4题考查a×b省略乘号，第10题比较x=4时x²与4x的值且提醒不能据此认为两式总相等；exam第1题通过正方形面积再次应用平方记法。",
+            "id": "missing:2",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前知识点已调整为“等式的基本性质及求未知数”，未正式定义“方程”，也未将“列方程、解方程”设为独立教学主题。讲解准确说明等式两边同时作相同运算的条件，特别限定除数不为0。questions第25、27、29题利用等式的基本性质求未知数，第26题表示数量间的等量关系，第30题检查保持等式成立的操作；exam第5题以两边同时减3、再除以2求得m=4.5。内容与印刷页59利用等式基本性质求未知数的范围一致。",
+            "id": "scope:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "8ce368a68f1113338d424f720c2c5fa230a851ebe5ee0a3dcea812799165ba25"
+    },
+    {
+      "bookId": "g5up-2026",
+      "unit": 6,
+      "sourcePrintedPages": [
+        72,
+        94
+      ],
+      "candidate_sha256": "ae1bbb17affda942041c2237f32f835cff33eb5edbb966418cfb1049bfedb1f3",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页72—94正文及覆盖报告修订；status评价修订后的最终稿。",
+          "采纳格点多边形覆盖建议：在“组合图形面积的计算”中补充格点、内部格点、边界格点及皮克定理，并明确为带星号选学内容，不新增知识点。该知识点保留5道原有题，以1道选学题替换原判断题。",
+          "公顷、平方千米及其换算保留在实际应用知识点内，补充单位的意义及平方千米换算题，不另设知识点。",
+          "覆盖报告未指出超范围知识点；逐项核对后保留原有6个知识点。不将圆木堆放、七巧板等个别练习或拓展示例独立设课，也不把正文对圆面积的提问扩展为教学内容。",
+          "保留正确且符合范围的原题。替换与所提供教材练习直接重复的停车位、麦田、游泳池、水渠和播种机题；其余仅作必要的文字、选项或解析修订。",
+          "已逐题重算。每个知识点6题，至多1道判断题，至少2道不同情境的应用或推理题；单元检测6题，题干均与课内题不同。估计题明确估计规则，未将估计值当作精确值。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "18527bc795a6633d490c1494f3d10e06432283d31fdb51d1ac52303d54bc8bb8",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第4项“组合图形面积的计算”的core_concept已介绍格点多边形，以及内部格点、边界格点的区别，并明确边界上的顶点和其他格点每点只数一次；key_formula明确限定“每个小方格面积为1个面积单位”，给出S＝a＋b÷2－1及a、b的含义；tips注明这是印刷页91带星号的选学内容，名称为皮克定理，并提出用分割或添补所得面积验证。questions第22题为【选学】练习：给出沿方格线的4厘米×2厘米长方形，内部3个格点、边界12个格点，代入得3＋12÷2－1＝8平方厘米，与4×2＝8平方厘米一致。当前讲解和练习均已覆盖固定反馈所指的格点计数求面积主题。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "3b4a5467afaaf58010b0c6ad0d832c02aa2927cebf9e7328f33e910bbd8995d8"
+    },
+    {
+      "bookId": "g5up-2026",
+      "unit": 101,
+      "sourcePrintedPages": [
+        95,
+        97
+      ],
+      "candidate_sha256": "ae41f556bbbd74b0a29d5d225b4baee516ec156f84fd931255b81d2ab73f7082",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页95—97正文及覆盖报告审校；本次未另行核验外部版本。",
+          "采纳四边形密铺原理的补充建议：在第一个已有知识点中说明，相同四边形适当排列后，一个拼接点周围可分别出现原四边形的四个内角，合为360°；这种排列还能连续延展。替换原来只检查四个给定角之和的题目，不新增知识点。",
+          "核实正文涉及三角形、正五边形及图形运动设计，均纳入已有两个知识点，不将单个示例、小讲堂或成长评价另设知识点。",
+          "未发现需要删除的超范围知识点。保留原配套中正确且符合范围的题目，仅对个别措辞、旋转题的文字条件及综合题的主题关联作必要修订。",
+          "最终稿含2个知识点，各6道配套题，各有1道判断题；综合检测6道，与配套题题干不同。已逐题复核答案、选项和计算，无须近似计算或舍入。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "9b164ea4d02e86938f4f850332f2eff1ff6d0f6e8921b7a18ab8c034b8b01156",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "已解决。knowledge_summary[0].core_concept明确说明：在适当排列中，一个拼接点周围分别出现原四边形的四个内角，合为360°，再按相同拼接规律使边界吻合，向四周连续延展；同时明确不能仅凭一个点拼满一周断定可以密铺。questions[5]（题干以“小组用许多相同的四边形纸片拼图”开头）进一步让四张相同纸片分别提供角1、角2、角3、角4，正确选项及解析同时要求四个内角合为360°、相邻边界吻合和排列连续延展，已覆盖四边形可以密铺的道理，而非仅计算四个给定角的和。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "96b7ee8fbb4d29dd37103c6c8557f1a9c958c36b6f1561155665efa2579d7516"
+    },
+    {
+      "bookId": "g5up-2026",
+      "unit": 7,
+      "sourcePrintedPages": [
+        98,
+        106
+      ],
+      "candidate_sha256": "b913e7e3f666f2e806e73d1116ad434056aff5fe4371dafff06df943a1008e21",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页98—106完整正文及覆盖报告修订；核验范围为本次提供的正文，未另行核验外部版本。",
+          "采纳覆盖报告的主要缺口建议：在“比较事件发生可能性的大小”中补充双骰子点数和的组成、游戏公平性的判断与设计，不新增知识点。保留原有且符合范围的题目，主要替换该知识点中重复的基础题，以腾出覆盖空间。",
+          "覆盖报告未列出超范围知识点。逐项核对后，保留原有4个知识点；涂色、抽签和记录次数等作为已有主题的应用，不另设小课。",
+          "替换了与所给教材原题相同或过于接近的节目抽签题、试验数据判断题和考试中的数字卡片设计题。补强通过数据推测物品数量多少的表述，并强调推测不等于确定结论。",
+          "最终稿含24道配套题，每个知识点恰好6道，且各有至少两道应用或推理题；每个知识点至多1道判断题。另设6道不与配套题重复的考试题。已逐题核对选项、答案和解析，重算涉及的次数及双骰子组合数；未使用近似公式。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "f50f83e82272d567e69528c9e4e111333d048cebb6165958734a44f3f1f51b07",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第3项“比较事件发生可能性的大小”的core_concept明确说明：游戏公平要看双方获胜的可能性是否相同；双骰子的不同点数之和对应的组合数可能不同，不能只数双方选了几个和。tips进一步说明用不同颜色区分骰子、按顺序列出组合，并使双方对应的等机会结果数量相同。questions第16题比较和为4的3种组合与和为6的5种组合，落实“各点数之和并非等可能”；第17题判断和为2或12时甲赢的游戏不公平，正确比较甲的2种与乙的34种组合；第18题要求选择红蓝各4格的转盘公平方案。exam第4题要求选择双骰子公平规则，解析正确计算偶数和与奇数和各18种组合，并核验其余规则对应6与30、1与35、15与21种组合。因此已同时覆盖组合分析、公平性判断和公平游戏方案选择，回应印刷页104专题活动及第106页圆盘设计要求，无须再另设小课。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "a8813a7fffca8a902b82daee2fe5f3b403df17e8fac98477e08b91d4c845e787"
+    },
+    {
+      "bookId": "g5up-2026",
+      "unit": 8,
+      "sourcePrintedPages": [
+        107,
+        117
+      ],
+      "candidate_sha256": "a75ac69974379ddc9fbed455a67118cc97beaa20bc32e39736900197d1ab083a",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页107—117正文及覆盖报告完成修订；未依据残缺OCR公式推定新主题。",
+          "采纳四则运算及运算律的覆盖建议，将首个知识点扩充为小数四则运算，并在原有6题内补入加减法算理、混合运算、运算律和循环小数；保留装箱及购物应用题。",
+          "循环小数作为小数运算的子主题补充，不另设知识点。其余五个知识点名称和正确、符合范围的题目尽量保留。",
+          "覆盖报告未列出超范围知识点，核对正文后不删除现有主要主题；不将练习、拓展中的每种题型单独设为知识点。",
+          "替换原配套中与教材加工零件、路灯及水果购物原题重合的题目；试卷共6题，与配套练习题干不同。",
+          "全部42题已逐题核算。每个知识点6题，判断题至多1题，且均有至少两道不同情境的应用或推理题。status表示对所提供正文范围内修订稿的核验结果，不代表教师签审。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "bf49c4cf3f1bee6ba7727b6124b201084f2b3a927dce830186fd9a911f4cfff6",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第1项“整理与应用小数四则运算知识解决问题”的core_concept明确说明：小数加减法是相同计数单位的个数相加减，小数乘除法可转化为整数计算，整数四则运算的顺序和运算律也适用于小数；key_formula列出乘法分配律。questions第1题用3.46＋2.8考查对齐小数点的算理，第2题用（6.4－2.8）÷0.6－0.8考查混合运算顺序，重算得5.2；第3题用3.75×6.4＋3.75×1.6考查乘法分配律，重算得30。exam第1题进一步综合运用小数乘、加、减法，重算找回18.5元。讲解和练习已共同覆盖原反馈要求，无须另设课时。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第1项的core_concept明确给出循环小数的定义：“循环小数的小数部分从某一位起，一个或几个数字依次不断重复出现”；common_mistakes提醒不能把有限小数或没有固定重复规律的无限小数当作循环小数。questions第4题“下面哪个数是循环小数？”用文字明确省略号之后的规律，唯一正确项为“2.1666……，从小数点后第二位起数字6不断重复”；其余三项分别是有限小数0.375、有限小数4.0808，以及相邻两个1之间的0逐次增加、不具有固定循环节的无限小数。该题答案及解释正确，已落实循环小数的认识。",
+            "id": "missing:1",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "4670ae352ad1cf6106b23f384b2a20f5c46316b6e84448b87a63ab223064a10b"
+    },
+    {
+      "bookId": "g6up-2026",
+      "unit": 1,
+      "sourcePrintedPages": [
+        1,
+        15
+      ],
+      "candidate_sha256": "097db5c864cc90b7c91d74a9705993bfba597fdd7ae34eeacaae842fd11701af",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所给官方印刷页1—15完整正文及覆盖报告修订；未依赖未展示的源图。",
+          "逐项采纳覆盖报告的四项主要主题建议：新增方向和距离描述位置、按方向和距离标点、方向和距离路线三个知识点；将连续有序数对路线并入原方格图知识点。",
+          "原有两个知识点均在正文范围内，保留名称。课内原12题保留11题，将方格图知识点的一道判断题替换为完整路线题，以保持每点恰好6题；同行同列特征补入知识总结。",
+          "综合检测保留原座位相邻判断题和纵轴定位题，其余题位调整为路线及方向和距离内容，以覆盖修订后的范围。",
+          "经纬度、机器人避碰、平均速度、45°方格特例和动物园设计不另设主要知识点。平移作为方格图定位的应用保留。",
+          "已逐题复核答案、选项和解析；所有计算均为精确计算，不涉及近似或舍入。status表示依据所给正文完成的内容核验，不表示已有教师签审。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "ef2f6f1869d6887f80348b6fdfd11dc43b6a66303454ed3f36cf6063cf7357b9",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第3项“用方向和距离描述位置”明确讲解先确定参照点，再说明方向和距离；区分“东偏北”和“北偏东”的起始方向，说明互余角表述、图上长度与实际距离的换算，以及交换参照点后方向相反、距离不变。questions第14题以“东偏南30°＝南偏东60°”练习方向表述，第15题练习水井与果园的相互位置，第16题计算250×4＝1000米，第18题综合判断方向和实际距离；exam第4题再次检验交换参照点后的描述。已覆盖官方主要主题。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第4项“根据方向和距离在平面图上确定位置”完整给出确定参照点、画指定方向射线、换算图上长度、量取并标点的步骤，并说明量角器的放置方法。questions第19题要求选择西偏北30°、量取3厘米的标点方法，第21题要求先转换相对方向再确定桥的位置，第22题检验量角器放置，第23题纠正图上距离，第24题指出只画射线尚未完成定位；exam第5题计算1200÷300＝4厘米。讲解与练习共同覆盖按方向和距离标出位置的方法，不依赖未展示图像。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第5项“用方向和距离描述与绘制路线”明确每段以本段起点为参照点，前段终点作为后段起点，原路返回时倒转路段顺序、逐段取反方向且距离不变。questions第25题检验第二段参照点，第26题检验返程方向及路段顺序，第27题要求从桥的位置按南偏东40°画第二段并量取2厘米，第29题说明全图基本方向保持一致，第30题检验路线描述是否缺少方向；exam第6题再次检验原路返回。已覆盖分段描述、返程及根据描述绘制路线的方法。",
+            "id": "missing:2",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第2项“根据有序数对在方格图中确定位置”已补充“连续数对按先后顺序记录路线，包括中间地点和终点”，并提示逐点对应场所。questions第12题要求把“校门→花园→球场→校门”完整记录为连续有序数对；exam第3题要求把连续有序数对读取为“入口→展厅→休息室→入口”。已在原知识点下同时覆盖路线的记录与读取，无须另设小课。",
+            "id": "missing:3",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "a0bd35496a9b75c058d5354ed3c28bcbb201a876bae8988a6bf2eeb227e36ed9"
+    },
+    {
+      "bookId": "g6up-2026",
+      "unit": 2,
+      "sourcePrintedPages": [
+        16,
+        31
+      ],
+      "candidate_sha256": "6b6384eb9829db43cd70e366770250ebb7c58a19e0dcd9af83da3b5a059aa50f",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据用户提供的官方印刷页16—31完整正文及覆盖报告审校；本次未独立核验外部官方版本。",
+          "覆盖报告“主要主题无缺失”的结论成立：原配套实质上已包含六类主要教学内容，不需要新增知识点，也不把个别综合运用或拓展题另列为小课。",
+          "采纳超范围名称修订建议：将“倒数的认识与求法”统一更名为“分数、小数混合乘法及求比一个数多（少）几分之几的数”，同步修改知识概述、练习和考试标签，删除沿用旧分类键的说明。",
+          "将第二个知识点更名为“一个数乘分数的意义与计算”，以容纳正文明确讲授的整数乘分数；将第三个知识点更名为“分数混合运算与简便计算”，使名称与已有内容一致。",
+          "保留正确且符合范围的原题。局部替换一道纯计算题以明确考查整数乘分数，替换一道重复计算题以明确考查混合运算顺序，将一道小数混合乘法计算题改为实际应用，且避开正文例题的相同算式。",
+          "已逐题复算并核对选项。每个知识点6题、至多1道判断题，均有至少两道不同情境的应用或推理题；考试6题，题干均与课内练习不同。所有计算题答案均为整数或有限小数，本稿不涉及近似计算。status表示依据所给正文完成的最终稿审校状态，不代表教师签审。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "dfd98c866cb8a5bbe76f02a34fd871f9737b658dee7b533ccfa08793028a0f1c",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第5项的point已更名为“分数、小数混合乘法及求比一个数多（少）几分之几的数”；其core_concept讲解分数与小数相乘的方法，以及先求增减量或用原量×（1±分率）求变化后数量的方法，分别对应正文印刷页21、27—29。questions第25—30题及exam第5—6题的knowledge_point也已同步使用该名称。例如questions第25题为“五分之三×1.5”，第28题求40本书增加四分之一后的本数，第29题求80千克大米用去四分之一后的剩余质量。当前讲解、标签和题目均未保留“倒数的认识与求法”，未新增倒数教学，固定反馈已解决。",
+            "id": "scope:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "e1f959cf578cf8053a7d570ed7f02a44a55e010745ba1a99f72c982800ef5531"
+    },
+    {
+      "bookId": "g6up-2026",
+      "unit": 3,
+      "sourcePrintedPages": [
+        32,
+        43
+      ],
+      "candidate_sha256": "24d7400403e78434acea5c672430edaae05b2603ad319732f90eda7d0dd8f9ab",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页32—43正文与覆盖报告逐项审校；本次未独立查验外部官方页面。",
+          "采纳补充“倒数的认识与求法”的建议：第32页将其作为独立正文主题，新增知识点及6题，涵盖倒数的含义、求法，以及0、1和简单小数的情况。",
+          "认可报告关于合作工程问题、已知部分求整体及混合运算已有覆盖的判断，保留原有5个知识点，不将拓展情境另拆成小课。",
+          "商与被除数的大小比较、用乘法逆运算说明除法算理、假设不同总量验证合作时间不变，均补入已有知识点或其6题中。",
+          "原有正确且符合范围的题目尽量保留；清除解析中的历史反馈说明，调整存在数学等价选项的题目，并用合作完成部分工作、不同总量验证等题目替换部分重复题型。",
+          "试卷保留4道原题，替换2道，补入倒数和合作工程内容。最终6个知识点各6题，试卷6题；所有题目均不依赖未展示的图片，未复制教材原题。",
+          "已逐题重算并核对选项、答案与解析。所有结果均为精确值，无需近似或舍入。status评价修正后的内容与格式，不表示已有教师签署或外部来源独立认证。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "a11b73eee2c087cc0000152ab414c0afb76cb9d337bfa7c4a538d18641cb4a78",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第1项“倒数的认识与求法”明确给出“乘积是1的两个数互为倒数”，说明非零分数交换分子、分母求倒数，整数先写成分母是1的分数，简单小数先化成分数，并明确“1的倒数是1，0没有倒数”。当前questions第1题检查倒数定义，第2题求四分之七的倒数，第3题求整数6的倒数，第4题辨析1和0的情况，第5题通过0.2×宽＝1求得宽为5，第6题用乘积为1检验配对；exam第1题另检查带分数先化成假分数再求倒数。讲解与练习已共同覆盖印刷页32的固定反馈。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "822c61df50498f2b771df075661c1163e009f28eaba79481c38f0f3e76d0d93c"
+    },
+    {
+      "bookId": "g6up-2026",
+      "unit": 101,
+      "sourcePrintedPages": [
+        44,
+        47
+      ],
+      "candidate_sha256": "5daa67bcb2f0239177ec7175eae47c78e183b3692f31e9be8638783852e79053",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页44—47完整正文及原配套审校；未另行核验原书图像。第45页疑似负号缺失的OCR文字不作为新增要求。",
+          "采纳覆盖报告的主要主题补充建议，新增“用负数表示较小数减较大数的结果”，限于简单非负整数相减，不扩展一般有理数运算法则。",
+          "采纳范围修订建议，将“比较正数、负数与0的大小”改为“认识正数、负数和0”，删除原说明中保留旧名称的表述，不增加大小比较或负数排序。",
+          "收支、海拔、楼层和体育成绩归入已有知识点，不分别增设小课。算筹历史作为认识正负数的简短背景，不单列知识点；成长评价不另列知识点。",
+          "保留原配套中正确且符合范围的题目；替换数轴组中仅改变数字的重复练习，并调整考试题以覆盖新增主题。各知识点均有6题、至多1道判断题，且至少含两道不同情境的应用或推理题；考试共6题。",
+          "已逐题复核题干、选项、答案和解析；计算题答案均为整数，无近似计算。全部题目可仅凭文字作答，未复制正文所列减法原例。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "30f261ea6d0910c783a96d05e0e646ffd044c641c8de09bb0d837bef44c6c7e3",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第4项已设置“用负数表示较小数减较大数的结果”，说明“本组只讨论简单非负整数相减”，并以5-9=-4解释结果。questions第19—24题分别覆盖直接计算、纠正“不能表示结果”的误解、余缺情境、共同特点和被减数为0的情形；exam第5—6题进一步核验填空与纠错。逐项重算结果正确，教学未扩展到一般有理数运算法则，已落实印刷页47明确介绍的数学应用。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第3项名称已改为“认识正数、负数和0”，内容限定为正负数的辨认、符号与读法、0的分类及生活含义。对应questions第13—18题和exam第4题没有要求系统比较正负数大小或排列负数；数轴部分也只要求辨认方向、刻度及位置，不再以“大小比较”命名或宣称相关教学目标。",
+            "id": "scope:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "4c555b8851247bdf63678315ae07b7f53e3f396622592de8e605ac92e296da86"
+    },
+    {
+      "bookId": "g6up-2026",
+      "unit": 4,
+      "sourcePrintedPages": [
+        48,
+        73
+      ],
+      "candidate_sha256": "5de21589df22a1fb4583965a3b71657544c6147cd439d0f283d14f76aa6181cf",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页48—73完整正文核对覆盖建议；修订后保留原有5个知识点，新增正文独立讲授的“扇形的认识”，共6个知识点。",
+          "在“圆的认识与画法”中补充轴对称性质，以1道对折推理题替换原有直接辨认半径的题，保留其余5题。",
+          "在“圆与组合图形的周长和面积”中补充外圆内方的分割算理、面积关系及与外方内圆的对照，以2道相关题替换原有较简单的半圆拼圆题，保留其余4题。",
+          "在“圆的面积及其计算”中，用周长求面积的应用题替换原有直接代公式题，补充正文明确涉及的解题路径；数方格估算与剪拼推导合并纳入原知识点，不另设小课。",
+          "覆盖报告未指出超范围知识点，核对所给正文后保留圆环及组合图形主题。不将扇环、拴狗等拓展题独立设课；圆规设计图案的实践要求纳入画圆知识点。",
+          "保留原有正确且符合范围的题目，新增或替换题均为自编。source_ref中的“保留”表示沿用原配套题目，“改编”或“新增”表示本次修订，并标注对应正文页码，不表示复制教材原题。",
+          "每个知识点恰好6题，至多1道判断题，至少2道应用或推理题；单元检测恰好6题，与课内题干不同。所有计算逐题复核，选择题均有4个互异且非数学等价的选项。",
+          "涉及圆周率的数值题均明确取3.14，按该近似值计算后不再舍入；圆周率的理论关系使用π表示。修正了所给OCR中明显缺失或错识的数学符号。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "35907b5aaecd0184c35e6c7ddee84c56db6d02f1ff4e0b5954943df537d2dd36",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第2项“扇形的认识”明确讲解弧、扇形、圆心角的含义，限定在同一个圆中比较圆心角与扇形大小，并说明半圆对应180°、四分之一圆对应90°；tips给出以圆心为顶点量角、画另一条半径并标明所取弧的画法。questions第7—12题分别检查弧、扇形边界、圆心角、同圆扇形大小、100°扇形画法及半周对应角度；exam第2题检查圆周四等分对应90°。该反馈已在讲解与练习中落实。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第1项“圆的认识与画法”的core_concept明确写出“圆是轴对称图形，每条直径所在的直线都是它的对称轴，圆有无数条对称轴”，并在common_mistakes中区分直径线段与其所在直线。questions第5题通过圆形纸片对折检查这一性质，唯一正确选项为“每条直径所在的直线都可以，共有无数条”。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第6项“圆与组合图形的周长和面积”说明外圆内方的两条对角线都是圆的直径，可沿一条对角线分成两个三角形，求得正方形面积为2r²；key_formula同时列出外方内圆的面积关系π/4和外圆内方的面积关系π/2。questions第33题以底10厘米、高5厘米的两个三角形求内接正方形面积，重算为50平方厘米；第34题检查外方内圆剪去最大圆后的面积，重算为7.74平方厘米；第35题对照两种设计，唯一正确选项为“甲中是π/4，乙中是π/2”。",
+            "id": "missing:2",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "7378515eeac62f3b9e9d10245fa64f5fa5b2569f22b2b45da68ee5ad0bafbfbe"
+    },
+    {
+      "bookId": "g6up-2026",
+      "unit": 102,
+      "sourcePrintedPages": [
+        74,
+        78
+      ],
+      "candidate_sha256": "449075fcf94bea28d3911fe33b6e08b893700dc794cda14717db6039c7174f34",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页74—78完整正文与覆盖报告修订，未另行核验网页或正式竞赛规则。",
+          "采纳实践探究过程覆盖建议：在“从体育情境中提取数学信息”中补充自主选题、设计方案和收集数据；在“用数据和算式说明解决方案”中补充对照实际检验、记录交流与合作反思。保留原有三个知识点，不另设小课。",
+          "覆盖报告未认定超范围知识点，复核同意。命中率、比赛场次等作为自主研究情境保留；不把铅球场地、足球赛制等成果示例另列为独立知识点。",
+          "保留原配套中正确且符合范围的多数题目，替换部分重复考查跑道信息或计算表达的题目以补齐实践过程。source_ref标注保留、修订或新增及对应正文页码，不表示题目摘自教材。",
+          "跑道计算均按题干明确给出的简化模型进行，不把模型计算结果直接当作正式比赛的设置标准。使用近似值的题目明确圆周率取值及舍入规则。",
+          "已逐题复算并检查：每个知识点6题，共18题；另有6道不同题干的单元检测题；选择题均有4个互异且不等价的选项，计算题答案均为不带单位的整数或有限小数。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "9bf5f7d5b6cfb4d381d1e5862dec366dc05b5c810746f509e56b9b01b70ea244",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "已在原有知识点中贯通覆盖完整实践过程。①自主选题与制定方案：knowledge_summary第1项core_concept明确“从感兴趣的体育活动中提出具体、可研究的数学问题，小组商定方案”，tips补充确定数据、获取方法和分工；questions第1题要求选择具体可研究的问题，第2题要求选择包含明确路线、分工和数据来源的研究方案，exam第1题检验先确定统计研究问题再收集数据。②收集信息：knowledge_summary第1项明确实地测量、查阅设计资料、检查数据含义与单位，questions第2题落实测量或查阅尺寸并记录来源。③分析解决：knowledge_summary第2项讲解圆周长、跑道长度差、百分数和比赛计数；questions第8、10、12题等落实计算与规律分析。④对照实际检验：knowledge_summary第3项明确将模型结果与实际设置方法比较并核对差异，questions第13题专门检验正式设置资料与模型结果不一致时如何核对测量路线、条件、数据、计算及舍入方法。⑤记录、交流与反思：knowledge_summary第3项明确活动记录单、研究问题、过程、结论及合作反思；exam第6题要求完整汇报研究问题、数据来源、计算过程、结论和合作改进，questions第18题要求回顾分工、核对方法、发现的问题及改进办法。上述内容对应印刷页74—78的主要实践主题，无须另设课时。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "b9a76c44f0b40d7d4fafc3ed4597eb3f6a1b7bd55cac96b57d165d3eee1fa3a2"
+    },
+    {
+      "bookId": "g6up-2026",
+      "unit": 5,
+      "sourcePrintedPages": [
+        79,
+        100
+      ],
+      "candidate_sha256": "e15bfdb474adcd63c65ed33860a967f1468a666c6c438c92b5cadd24763713f9",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页79—100完整正文及覆盖报告逐项核对；本次未进行外部版本核验。status评价本次修订稿的内容覆盖、题目结构及数学核算。",
+          "采纳覆盖报告的主要缺失建议：在已有“百分数在生活中的应用”中补充收集数据、排序、按目标比例确定达标线及同分核查，不新增知识点。",
+          "确认“已知一个数的百分之几求这个数”可以覆盖增长后反求原量，保留该知识点并将相关题目明确为同比增长情境。",
+          "确认没有需要整项删除的超范围知识点。税率、成数、分期利息、负增长等阅读或拓展内容不另设独立知识点。",
+          "保留原配套中正确且符合范围的多数题目。替换生活应用中重复覆盖的折后价计算、总人数反求题，腾出两题覆盖确定达标线；对与教材原题重合或过近的个别题目作定向修改。",
+          "最终6个知识点，每点6题，共36道课内题；每点至多1道判断题，至少2道不同情境的应用或推理题；单元检测另设6道不同题干的题目。",
+          "已逐题复核题干、选项、答案及解析。近似百分率明确采用四舍五入规则；利息题使用题设假设，不代表现行银行利率或理财建议。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "48c8a1fd8ff48de73bdba643b0faa45cf02296f24eaff1d02ac98be3996395ba",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 3
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第6项“百分数在生活中的应用”的core_concept明确讲解“随机收集数据，按成绩从高到低排序，根据目标比例确定相应名次，再结合相同成绩核查实际达标率”；tips补充“不低于达标线即达标”及边界同分可能使实际达标率高于目标比例。questions第32题以20名学生、目标75%为情境，要求选择随机抽样、排序、参考第15名成绩并核查同分的完整方法。questions第36题提供全部10人成绩，目标60%对应第6名120次，第7名同为120次，实际达标人数为7人，重算实际达标率为70%，与答案及解析一致。上述讲解和练习已覆盖收集、整理、按目标比例制定界线及核查同分影响的过程。",
+            "id": "missing:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "8768e5ee6470b860546f6e597c09ea79b486efa0cb32447c2ef7f6ed8884d6ba"
+    },
+    {
+      "bookId": "g6up-2026",
+      "unit": 103,
+      "sourcePrintedPages": [
+        101,
+        105
+      ],
+      "candidate_sha256": "be4ae6a6f407b547e290c58b4c6a789540ae13fd62c65170e7573d4b09ab3ef7",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据所提供的官方印刷页101—105完整正文及覆盖报告修订；本次未进行外部网页核验。status表示对本次所给正文范围、覆盖关系和题目计算的审校结果，不表示外部来源认证。",
+          "采纳资料收集与研究问题的补充建议，将其扩充到“整理并解读水资源相关数据”，不把南水北调的日期、线路和累计调水数据另设为知识点。",
+          "将超出正文主要教学范围的“用百分数描述水资源使用情况”替换为“设计并实施生活用水调查”，删除独立百分率训练及连续两次百分率变化题。",
+          "保留“根据数据提出节水建议”的名称及正确适切题目，补充制订计划、执行一周、比较预计与实际节水量、回顾成果的完整过程。",
+          "新增正文明确安排且原有名称不能完整容纳的主要主题“合作设计并开展节水宣传”，覆盖分工、海报信息及形式、活动安排与交流。",
+          "不将条形统计图绘制、单项实验示例或成长小档案逐项自评另设知识点；未依据缺失源图推断水龙头出水量。",
+          "保留适切原题，并调整部分题目的归属；新增题及替换题均不复制教材原题。所有题目已核对答案、解析及选项，计算结果均为精确值，无须近似舍入。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "989f67f5ff744c525b2cecd5a2fa5110de5134cb5ff75aad1e55f957cb09ee7c",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 1
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "当前knowledge_summary第1点“整理并解读水资源相关数据”的core_concept明确要求查阅世界和我国淡水资源资料，关注来源、年份、指标和单位，了解淡水有限、水资源分布不均及南水北调等调配举措，并联系生活提出可调查的问题。questions第4题考查资料来源及年份、单位的记录，第5题考查南水北调与节水的关系，第6题要求选择可通过调查和实验研究的洗碗节水问题；exam第6题补充用水用途和水量的调查。已覆盖资料收集、了解状况和调配措施、联系生活提出研究问题的活动环节。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第2点“设计并实施生活用水调查”的core_concept明确包含确定对象、时间、所需信息、方法和分工，选择水表记录、问卷或测量实验，按方案完整记录并用统计表或条形统计图分析。questions第7题考查家庭用水调查的时间、读数和人数信息，第8题考查用水习惯问卷，第9题考查实验设计，第11题计算水表差值，第12题选择数据呈现方式；exam第2题要求两种方法均逐日完整记录5天。已覆盖调查方案设计、实施记录与结果分析，并非只覆盖出水量计算。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary第4点“合作设计并开展节水宣传”明确包含共同规划、分工、选择信息及呈现形式、合作制作海报、安排校园宣传和根据反馈改进。questions第19题考查合作分工和检查安排，第20题考查图表及措施说明，第21题考查宣传结论的数据依据，第22题考查宣传时间、地点和秩序安排，第23、24题考查核对资料和根据反馈改进；exam第5题考查完整、有依据的展示内容。已覆盖合作制作海报与组织宣传的主要环节，不再仅有海报表述判断。",
+            "id": "missing:2",
+            "status": "resolved"
+          },
+          {
+            "evidence": "当前knowledge_summary仅设资料整理、生活用水调查、根据数据提出节水建议、合作宣传四个主要知识点，未将百分数列为独立主要知识点；全部questions和exam均无节水百分率、用水占比或连续两次百分率变化计算。节水效果通过用水量差、平均每天节水量和明确条件下的人均量比较表达。已移除固定反馈指出的主题偏移和复合百分率训练。",
+            "id": "scope:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "3313ab2c5e131dc4f0b6588245a4fa562242b4f76f4d24af69282b71c0f0670c"
+    },
+    {
+      "bookId": "g6up-2026",
+      "unit": 6,
+      "sourcePrintedPages": [
+        106,
+        117
+      ],
+      "candidate_sha256": "76e337f0d1becb46776a21b4f58737d7d28a7cf7a309068692cfa737da92ca8c",
+      "editorialReview": {
+        "kind": "model_screen_not_teacher_signoff",
+        "approved": true,
+        "model": "gpt-6.1-sol",
+        "notes": [
+          "依据本次提供的官方印刷页106—117完整正文及原配套逐项审校；未将OCR残缺算式或未展示的图形细节作为出题依据。",
+          "采纳覆盖报告关于独立补充“分数乘除法的计算与联系”和“平均数与百分数的统计意义和作用”的建议。这两项均为正文明确整理的主要主题。",
+          "将原圆主题扩充为“圆和扇形的认识、圆的周长与面积”，在同一知识点的6题内统整画圆、扇形、周长与面积探索及应用，不另拆小课。",
+          "将错误名称“在数轴上理解和表示负数”统一改为“用方向和距离确定位置、描述路线”。原有方向与距离题目符合范围，保留其正确内容。",
+          "保留原配套中正确且符合范围的大部分题目；替换与教材原题结构和数据过近的套餐调查题、奇偶分类题等，避免复制教材原题。",
+          "刘徽算法、特殊图形求点、剪圆片和垃圾处理资料不另立知识点。鸽巢问题保留为独立主题。",
+          "最终共8个知识点，知识概要按points顺序对应；每点6题，每点判断题不超过1题，均含至少两道不同情境的应用或推理题；单元检测6题。",
+          "所有题目均已逐题核对答案、选项和解析。圆的计算统一明确π取3.14，所得结果不再舍入；无依赖未展示图片的题目。status表示对本次提供正文范围内修订稿的审校结论。"
+        ],
+        "scopeRepair": true,
+        "previousCandidateSha256": "59c806dfba4e728912a6ae9d9c4266c0125cf2bfacec1324cbd519d9de95780d",
+        "independentFinalScreen": {
+          "model": "gpt-6.1-sol",
+          "status": "verified",
+          "teacherSignoff": false,
+          "rounds": 2
+        },
+        "coverageResolutions": [
+          {
+            "evidence": "knowledge_summary第2项“分数乘除法的计算与联系”明确讲解整数写成分母为1的分数、分数乘法法则、除以非零数转化为乘其倒数，以及分数乘除法是整数乘除法的推广。questions第7—12题分别落实分数相乘、分数除以整数、整数与分数混合运算、除法转化、分配律简算和带括号的混合计算；exam第2题进一步考查乘除加混合计算。从零重算，各题答案正确，选择题均无等价重复选项。",
+            "id": "missing:0",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第5项“圆和扇形的认识、圆的周长与面积”已补充圆心和半径的作用、圆规画圆、扇形的组成、化曲为直测量周长、圆周长与直径的比值，以及把圆转化为近似长方形探索面积公式。其tips明确近似长方形的长约为圆周长的一半、宽约为半径。questions第25—28题依次考查画圆操作、扇形组成、面积公式探索和化曲为直测周长，第29—30题及exam第4题落实面积应用；计算均正确，题干不依赖未展示图像。",
+            "id": "missing:1",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第7项“平均数与百分数的统计意义和作用”明确平均数代表整体水平、百分数表达部分与整体的相对关系，两者能为制定标准提供参考，并说明不能用平均数代替个体数据或用一次命中率保证未来结果。questions第37—42题覆盖平均数意义、命中率比较、平均数与个体差异、按预先公布标准统计达标率，以及命中率的解释；其中第41题将平均数与达标百分比结合使用。exam第5题同时考查命中率和平均每场投中个数，答案80%高于64%、平均14个均正确。",
+            "id": "missing:2",
+            "status": "resolved"
+          },
+          {
+            "evidence": "knowledge_summary第4项已统一命名为“用方向和距离确定位置、描述路线”，明确观测点、方向、距离及反向描述路线的方法。questions第19—24题和exam第3题的knowledge_point均使用该名称；第21题明确从正北向东转30°并给出500米，第22、24题及exam第3题落实路线描述和原路返回。当前知识点名称及配题中不再出现“在数轴上理解和表示负数”的错配主题。",
+            "id": "scope:0",
+            "status": "resolved"
+          }
+        ]
+      },
+      "body_page_fingerprints_sha256": "a1e4a07ea80fb9c1dbc7fb75de463f4f07693fd624b11e1941beffd67c113282"
     }
   ],
   "resourceFiles": [
@@ -3709,5 +7556,8 @@
       "path": "apps/web/public/textbook-pages/english-g3up-2026/pages.json",
       "sha256": "88ddc1d24f4e0089fbb62f7ff100c070c0d1decfd3b08868420f1e21bcf31e87"
     }
-  ]
+  ],
+  "audioVersionMap": "release/audio-version-map.json",
+  "audioProvider": "Microsoft Edge",
+  "audioEditionBooks": 13
 }

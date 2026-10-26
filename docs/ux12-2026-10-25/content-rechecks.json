@@ -1,0 +1,56 @@
+[
+  {
+    "lesson_id": "g4up-u1-kp1",
+    "historical_review_fingerprint": "3350004e2c1fae1b624fb13776faf9714a46fc0206e048d6cce22e99c765e73a",
+    "pre_correction_fingerprint": "fd0684a6e28258fac1b847ce7165974b0ec1dfc031dc9014fc5dc2f00a2333ec",
+    "current_fingerprint": "8ffffc8660e875240e89305678540a88d1d17735de96b3d6a45dffefea41d73c",
+    "reason": "The v1.4 content restoration changed this lesson after its historical model ledger. Rechecked all six current questions; fixed a definite place-value mistake. Historical model approval is retained as history, not reassigned to changed content.",
+    "review_kind": "deterministic_math_and_source_recheck_not_teacher_signoff",
+    "verified_answers": {
+      "1": "错: only adjacent units have ratio10",
+      "6": "百万位: seventh position from units",
+      "11": "10:10000000/1000000",
+      "15": "万位: the unique digit6 is fifth from the right;units,tens,hundreds,thousands,ten-thousands",
+      "19": "千万位: highest position of an eight-digit number",
+      "24": "53080:5*10000+3*1000+8*10"
+    },
+    "teacher_review": "pending",
+    "question_changes": [
+      {
+        "id": 15,
+        "before": {
+          "answer": "十万位",
+          "difficulty": 2,
+          "explanation": "从个位起向左数，个位是第一位，十位是第二位，百位是第三位，千位是第四位，万位是第五位，十万位是第六位。数560000中，数字6在右起第六位，所以它在十万位上。",
+          "knowledge_point": "亿以内数的计数单位与数位顺序",
+          "options": [
+            "万位",
+            "十万位",
+            "百万位",
+            "千万位"
+          ],
+          "question": "在数560000中，数字6所在的数位是（ ）。",
+          "score": 5,
+          "type": "choice",
+          "id": 15
+        },
+        "after": {
+          "answer": "万位",
+          "difficulty": 2,
+          "explanation": "在560000中，从右向左依次数，数字6在第五位，即万位，表示6个万（60000）。十万位上的数字是5。",
+          "knowledge_point": "亿以内数的计数单位与数位顺序",
+          "options": [
+            "万位",
+            "十万位",
+            "百万位",
+            "千万位"
+          ],
+          "question": "在数560000中，数字6所在的数位是（ ）。",
+          "score": 5,
+          "type": "choice",
+          "id": 15
+        }
+      }
+    ]
+  }
+]

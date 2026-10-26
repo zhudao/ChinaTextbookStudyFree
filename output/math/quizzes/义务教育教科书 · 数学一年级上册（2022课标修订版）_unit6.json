@@ -1,0 +1,623 @@
+{
+  "textbook": "（根据2022年版课程标准修订）义务教育教科书 · 数学一年级上册（2022课标修订版）",
+  "unit": "复习与关联",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "复习与关联·配套练习",
+    "total_score": 360,
+    "time_minutes": 36,
+    "questions": [
+      {
+        "answer": "13",
+        "difficulty": 1,
+        "explanation": "1个十是10，加上3个一，10＋3＝13。",
+        "knowledge_point": "综合运用数的认识和数的组成解决问题",
+        "options": [],
+        "question": "1个十和3个一合起来是多少？",
+        "type": "calculation",
+        "id": 60001,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 1,
+        "explanation": "18由1个十和8个一组成，所以填8。",
+        "knowledge_point": "综合运用数的认识和数的组成解决问题",
+        "options": [],
+        "question": "18由1个十和几个一组成？",
+        "type": "calculation",
+        "id": 60002,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 1,
+        "explanation": "10个一是1个十，20是2个十。",
+        "knowledge_point": "综合运用数的认识和数的组成解决问题",
+        "options": [],
+        "question": "20里面有几个十？",
+        "type": "calculation",
+        "id": 60003,
+        "score": 10
+      },
+      {
+        "answer": "17",
+        "difficulty": 2,
+        "explanation": "一盒是10颗，再加7颗，10＋7＝17。",
+        "knowledge_point": "综合运用数的认识和数的组成解决问题",
+        "options": [],
+        "question": "每盒装10颗珠子。小丽有1盒和7颗散珠子，一共有多少颗珠子？",
+        "type": "calculation",
+        "id": 60004,
+        "score": 10
+      },
+      {
+        "answer": "从左边数第4辆；一共有6辆",
+        "difficulty": 2,
+        "explanation": "左边的3辆加上红车，红车排第4。全部有3＋1＋2＝6辆。“第4辆”说位置，“6辆”说总数。",
+        "knowledge_point": "综合运用数的认识和数的组成解决问题",
+        "options": [
+          "从左边数第4辆；一共有6辆",
+          "从左边数第4辆；一共有5辆",
+          "从左边数第3辆；一共有6辆",
+          "从左边数第6辆；一共有4辆"
+        ],
+        "question": "一排玩具车中，红车左边有3辆，右边有2辆。红车从左边数排第几？这一排一共有几辆？",
+        "type": "choice",
+        "id": 60005,
+        "score": 10
+      },
+      {
+        "answer": "13和15",
+        "difficulty": 1,
+        "explanation": "按从小到大的顺序数，13、14、15依次相邻。",
+        "knowledge_point": "综合运用数的认识和数的组成解决问题",
+        "options": [
+          "15和13",
+          "13和16",
+          "12和15",
+          "13和15"
+        ],
+        "question": "按从小到大的顺序数，14前面和后面紧挨着的数分别是什么？",
+        "type": "choice",
+        "id": 60006,
+        "score": 10
+      },
+      {
+        "answer": "11",
+        "difficulty": 1,
+        "explanation": "把两部分合起来：6＋5＝11。把5分成4和1，6＋4＝10，10＋1＝11。",
+        "knowledge_point": "整理20以内加减法的计算方法并解决实际问题",
+        "options": [],
+        "question": "篮子里有6个红苹果和5个绿苹果，一共有多少个苹果？",
+        "type": "calculation",
+        "id": 60007,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "9可以分成6和3，所以9－6＝3。",
+        "knowledge_point": "整理20以内加减法的计算方法并解决实际问题",
+        "options": [],
+        "question": "想一想9的分与合：9－6等于多少？",
+        "type": "calculation",
+        "id": 60008,
+        "score": 10
+      },
+      {
+        "answer": "把5分成2和3，先算8＋2＝10，再算10＋3＝13",
+        "difficulty": 2,
+        "explanation": "8还差2凑成10。把5分成2和3，先凑十，再加剩下的3。",
+        "knowledge_point": "整理20以内加减法的计算方法并解决实际问题",
+        "options": [
+          "把5分成2和3，先算8＋3＝11，再算11＋3＝14",
+          "把5分成2和3，只算8＋2＝10",
+          "先算8＋2＝10，再算10＋5＝15",
+          "把5分成2和3，先算8＋2＝10，再算10＋3＝13"
+        ],
+        "question": "计算8＋5，下面哪种凑十方法正确？",
+        "type": "choice",
+        "id": 60009,
+        "score": 10
+      },
+      {
+        "answer": "12",
+        "difficulty": 2,
+        "explanation": "已经跳的4步加上还要跳的8步：4＋8＝12。",
+        "knowledge_point": "整理20以内加减法的计算方法并解决实际问题",
+        "options": [],
+        "question": "小兔已经跳了4步，还要跳8步才能到终点。到终点一共要跳多少步？",
+        "type": "calculation",
+        "id": 60010,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "14－4＝10，去掉4个一，剩下1个十。",
+        "knowledge_point": "整理20以内加减法的计算方法并解决实际问题",
+        "options": [],
+        "question": "判断：有14张贴纸，送出4张后还剩10张。",
+        "type": "true_false",
+        "id": 60011,
+        "score": 10
+      },
+      {
+        "answer": "10",
+        "difficulty": 2,
+        "explanation": "先求收集的总数：8＋5＝13。再求剩下的：13－3＝10。",
+        "knowledge_point": "整理20以内加减法的计算方法并解决实际问题",
+        "options": [],
+        "question": "小安原来没有瓶盖。上午收集8个，下午收集5个，后来送出3个。现在还剩多少个瓶盖？",
+        "type": "calculation",
+        "id": 60012,
+        "score": 10
+      },
+      {
+        "answer": "<",
+        "difficulty": 1,
+        "explanation": "8比11小，所以填“<”。",
+        "knowledge_point": "比较数量并用符号表示大小关系",
+        "options": [
+          "<",
+          "＋",
+          ">",
+          "="
+        ],
+        "question": "在8〇11中，〇里填什么符号，能正确表示大小关系？",
+        "type": "choice",
+        "id": 60013,
+        "score": 10
+      },
+      {
+        "answer": "=",
+        "difficulty": 1,
+        "explanation": "7＋5＝12，两边相等。",
+        "knowledge_point": "比较数量并用符号表示大小关系",
+        "options": [
+          "<",
+          ">",
+          "=",
+          "－"
+        ],
+        "question": "在7＋5〇12中，〇里填什么符号，能正确表示大小关系？",
+        "type": "choice",
+        "id": 60014,
+        "score": 10
+      },
+      {
+        "answer": ">",
+        "difficulty": 2,
+        "explanation": "14－4＝10，10大于7。",
+        "knowledge_point": "比较数量并用符号表示大小关系",
+        "options": [
+          "<",
+          ">",
+          "=",
+          "＋"
+        ],
+        "question": "在14－4〇7中，〇里填什么符号，能正确表示大小关系？",
+        "type": "choice",
+        "id": 60015,
+        "score": 10
+      },
+      {
+        "answer": "<",
+        "difficulty": 1,
+        "explanation": "小猫有9个，小狗有12个，9小于12。",
+        "knowledge_point": "比较数量并用符号表示大小关系",
+        "options": [
+          "<",
+          "=",
+          ">",
+          "＋"
+        ],
+        "question": "小猫有9个玩具球，小狗有12个玩具球。用9〇12比较它们的数量，〇里填什么符号？",
+        "type": "choice",
+        "id": 60016,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "16由1个十和6个一组成，去掉4个一，剩下1个十和2个一，所以16－4＝12。",
+        "knowledge_point": "比较数量并用符号表示大小关系",
+        "options": [],
+        "question": "判断：16－4＝12。",
+        "type": "true_false",
+        "id": 60017,
+        "score": 10
+      },
+      {
+        "answer": "<",
+        "difficulty": 2,
+        "explanation": "红花有9＋3＝12朵，黄花有8＋5＝13朵，12小于13。",
+        "knowledge_point": "比较数量并用符号表示大小关系",
+        "options": [
+          ">",
+          "<",
+          "－",
+          "="
+        ],
+        "question": "红花原有9朵，又添3朵；黄花原有8朵，又添5朵。比较现在的数量：9＋3〇8＋5。〇里填什么符号？",
+        "type": "choice",
+        "id": 60018,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 1,
+        "explanation": "10可以分成4和6，检查：4＋6＝10。",
+        "knowledge_point": "根据数量关系补充算式中的未知数",
+        "options": [],
+        "question": "4＋□＝10，□里填几？",
+        "type": "calculation",
+        "id": 60019,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 2,
+        "explanation": "5加5是10，再加2是12，一共加了7。检查：7＋5＝12。",
+        "knowledge_point": "根据数量关系补充算式中的未知数",
+        "options": [],
+        "question": "□＋5＝12，□里填几？",
+        "type": "calculation",
+        "id": 60020,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 1,
+        "explanation": "10可以分成5和5，所以10－5＝5。",
+        "knowledge_point": "根据数量关系补充算式中的未知数",
+        "options": [],
+        "question": "10－□＝5，□里填几？",
+        "type": "calculation",
+        "id": 60021,
+        "score": 10
+      },
+      {
+        "answer": "9",
+        "difficulty": 2,
+        "explanation": "把拿走的4个和剩下的5个合起来，4＋5＝9。检查：9－4＝5。",
+        "knowledge_point": "根据数量关系补充算式中的未知数",
+        "options": [],
+        "question": "盒里原有一些积木，拿走4个后还剩5个。□－4＝5，□里填几？",
+        "type": "calculation",
+        "id": 60022,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 2,
+        "explanation": "13张中留下10张，送出13－10＝3张。检查：13－3＝10。",
+        "knowledge_point": "根据数量关系补充算式中的未知数",
+        "options": [],
+        "question": "小林有13张贴纸，送出一些后还剩10张。13－□＝10，□表示送出的张数。□里填几？",
+        "type": "calculation",
+        "id": 60023,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 2,
+        "explanation": "10加5是15，所以第一个方框填5。再检查：15－5＝10，也成立。",
+        "knowledge_point": "根据数量关系补充算式中的未知数",
+        "options": [],
+        "question": "两个□里填同一个数，使10＋□＝15和15－□＝10都成立。这个数是几？",
+        "type": "calculation",
+        "id": 60024,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 1,
+        "explanation": "正方体有6个面，都是同样大的正方形。",
+        "knowledge_point": "辨认、分类和拼搭常见立体图形",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "4"
+        ],
+        "question": "一个正方体一共有几个面？",
+        "type": "choice",
+        "id": 60025,
+        "score": 10
+      },
+      {
+        "answer": "圆柱",
+        "difficulty": 1,
+        "explanation": "圆柱有两个平平的圆形面。",
+        "knowledge_point": "辨认、分类和拼搭常见立体图形",
+        "options": [
+          "圆柱",
+          "长方体",
+          "球",
+          "正方体"
+        ],
+        "question": "哪种立体图形有两个平平的圆形面？",
+        "type": "choice",
+        "id": 60026,
+        "score": 10
+      },
+      {
+        "answer": "球",
+        "difficulty": 1,
+        "explanation": "球没有平平的面，放在平面上容易滚动。",
+        "knowledge_point": "辨认、分类和拼搭常见立体图形",
+        "options": [
+          "圆柱",
+          "正方体",
+          "长方体",
+          "球"
+        ],
+        "question": "哪种立体图形没有平平的面，放在平面上容易滚动？",
+        "type": "choice",
+        "id": 60027,
+        "score": 10
+      },
+      {
+        "answer": "长方体",
+        "difficulty": 2,
+        "explanation": "这个盒子有6个长方形的面，且有的面不是正方形，符合长方体的特点，不是正方体。",
+        "knowledge_point": "辨认、分类和拼搭常见立体图形",
+        "options": [
+          "正方体",
+          "圆柱",
+          "长方体",
+          "球"
+        ],
+        "question": "一个盒子有6个平平的面，每个面都是长方形，其中有的面不是正方形。这个盒子的形状是哪一种？",
+        "type": "choice",
+        "id": 60028,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "圆柱有弯曲的面，侧放时可以滚动。",
+        "knowledge_point": "辨认、分类和拼搭常见立体图形",
+        "options": [],
+        "question": "判断：圆柱有弯曲的面，侧放在平面上可以滚动。",
+        "type": "true_false",
+        "id": 60029,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 2,
+        "explanation": "每层2排，每排2个，一层有4个。摆2层，共4＋4＝8个。",
+        "knowledge_point": "辨认、分类和拼搭常见立体图形",
+        "options": [
+          "8",
+          "10",
+          "4",
+          "6"
+        ],
+        "question": "用同样大的小正方体拼一个实心大正方体。每层摆2排，每排2个，紧密摆满2层。一共用了几个小正方体？",
+        "type": "choice",
+        "id": 60030,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 1,
+        "explanation": "每次增加1，7后面应填8。",
+        "knowledge_point": "观察数表与算式表并发现排列规律",
+        "options": [],
+        "question": "一行数每次增加1：4、5、6、7、□。□里填几？",
+        "type": "calculation",
+        "id": 60031,
+        "score": 10
+      },
+      {
+        "answer": "12",
+        "difficulty": 2,
+        "explanation": "每一站比前一站多2人，10＋2＝12。",
+        "knowledge_point": "观察数表与算式表并发现排列规律",
+        "options": [],
+        "question": "小火车从第1站到第5站的乘客人数，每一站都比前一站多2人。人数记录是4、6、8、10、□。第5站有多少人？",
+        "type": "calculation",
+        "id": 60032,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 2,
+        "explanation": "第一个加数依次是2、3、4、5、6，第二个加数不变，所以填6。",
+        "knowledge_point": "观察数表与算式表并发现排列规律",
+        "options": [],
+        "question": "一行算式的第一个加数每次增加1，第二个加数都是4：2＋4、3＋4、4＋4、5＋4、□＋4。□里填几？",
+        "type": "calculation",
+        "id": 60033,
+        "score": 10
+      },
+      {
+        "answer": "14",
+        "difficulty": 2,
+        "explanation": "每摆下一排多用1块，13＋1＝14。",
+        "knowledge_point": "观察数表与算式表并发现排列规律",
+        "options": [],
+        "question": "小乐摆积木，每摆下一排都比前一排多用1块。前四排分别用11、12、13、□块。第四排用多少块？",
+        "type": "calculation",
+        "id": 60034,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "向右看，第二个加数由2变3，和增加1。向下看，第一个加数由1变2，和也增加1。",
+        "knowledge_point": "观察数表与算式表并发现排列规律",
+        "options": [],
+        "question": "一个两行两列的加法表：第一行是1＋2、1＋3；第二行是2＋2、2＋3。判断：每行从左往右，和增加1；每列从上往下，和也增加1。",
+        "type": "true_false",
+        "id": 60035,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 2,
+        "explanation": "前三个算式的和都是10，所以□＋3＝10，填7。7＋3也等于10。",
+        "knowledge_point": "观察数表与算式表并发现排列规律",
+        "options": [],
+        "question": "观察算式：3＋7、4＋6、5＋5、□＋3。每个算式的和都相同，□里填几？",
+        "type": "calculation",
+        "id": 60036,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "复习与关联·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "12",
+        "difficulty": 1,
+        "explanation": "1捆是10根，再加2根，10＋2＝12。",
+        "knowledge_point": "综合运用数的认识和数的组成解决问题",
+        "options": [],
+        "question": "有1捆10根吸管和2根散吸管，一共有多少根吸管？",
+        "type": "calculation",
+        "id": 69001,
+        "score": 10
+      },
+      {
+        "answer": "10",
+        "difficulty": 2,
+        "explanation": "从14支中拿走4支，14－4＝10。",
+        "knowledge_point": "整理20以内加减法的计算方法并解决实际问题",
+        "options": [],
+        "question": "盒里原来有14支彩笔，拿走4支，还剩多少支？",
+        "type": "calculation",
+        "id": 69002,
+        "score": 10
+      },
+      {
+        "answer": "<",
+        "difficulty": 1,
+        "explanation": "12比15小，所以填“<”。",
+        "knowledge_point": "比较数量并用符号表示大小关系",
+        "options": [
+          "=",
+          "＋",
+          ">",
+          "<"
+        ],
+        "question": "在12〇15中，〇里应填什么符号，使左右两边的大小关系表示正确？",
+        "type": "choice",
+        "id": 69003,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 2,
+        "explanation": "8加2是10，再加5是15。一共加了2＋5＝7，所以填7。检查：7＋8＝15。",
+        "knowledge_point": "根据数量关系补充算式中的未知数",
+        "options": [],
+        "question": "□＋8＝15，□里填几？",
+        "type": "calculation",
+        "id": 69004,
+        "score": 10
+      },
+      {
+        "answer": "圆柱",
+        "difficulty": 2,
+        "explanation": "圆柱可以用平平的圆形面朝下放稳，侧放时又可以滚动。球没有平平的面，长方体和正方体没有这样的弯曲面。",
+        "knowledge_point": "辨认、分类和拼搭常见立体图形",
+        "options": [
+          "球",
+          "长方体",
+          "正方体",
+          "圆柱"
+        ],
+        "question": "小青选一个积木做滚动实验。它能用平平的圆形面朝下放稳，侧放时又能滚动。应选哪种积木？",
+        "type": "choice",
+        "id": 69005,
+        "score": 10
+      },
+      {
+        "answer": "9",
+        "difficulty": 1,
+        "explanation": "从左到右每次增加1，8后面应填9。",
+        "knowledge_point": "观察数表与算式表并发现排列规律",
+        "options": [],
+        "question": "数表的一行从左到右每次增加1：6、7、8、□、10。□里填几？",
+        "type": "calculation",
+        "id": 69006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "混淆十位和个位，把1个十当成1个一。",
+        "把表示位置的“第几个”当成表示总数的“几个”。",
+        "找相邻的数时弄反前后顺序。"
+      ],
+      "core_concept": "整理0—20各数的顺序、数位和组成。数可以表示有几个，也可以表示排第几；表示第几时要说清从哪边数。",
+      "key_formula": "10个一是1个十；十几由1个十和几个一组成；20是2个十。",
+      "point": "综合运用数的认识和数的组成解决问题",
+      "tips": "先看有几个十、几个一。说位置时看清从哪边数，说总数时数全所有物体。"
+    },
+    {
+      "common_mistakes": [
+        "凑十时只加了拆出的一部分，漏加剩下的数。",
+        "没有分清求合起来的数量、剩下的数量还是原来的数量。",
+        "没有按顺序计算连续的加减法。"
+      ],
+      "core_concept": "用分与合、凑十等方法整理20以内已学加减法。复习不进位加法、进位加法和不退位减法，并根据整体与部分的关系解决问题。本单元不引入退位减法。",
+      "key_formula": "8＋5＝8＋2＋3＝13；9可以分成6和3，所以9－6＝3。",
+      "point": "整理20以内加减法的计算方法并解决实际问题",
+      "tips": "计算时说清怎样想；解决问题时先找已知数量和问题，再列算式并检查。"
+    },
+    {
+      "common_mistakes": [
+        "把大于号和小于号的方向弄反。",
+        "比较算式时，没有先算出得数。"
+      ],
+      "core_concept": "比较数、算式的得数或情境中的数量，用“>”“<”或“=”表示大小关系。",
+      "key_formula": "左边大用“>”；左边小用“<”；两边相等用“=”。",
+      "point": "比较数量并用符号表示大小关系",
+      "tips": "有算式先计算；符号开口朝大数，尖端朝小数。"
+    },
+    {
+      "common_mistakes": [
+        "不看整体与部分的关系，直接把已知数相加。",
+        "把方框表示的数量认错。",
+        "填完后没有代回原算式检查。"
+      ],
+      "core_concept": "借助分与合及加减法的联系，填写算式中缺少的数。可以想已知的加法事实，不必用退位减法求解。",
+      "key_formula": "4＋6＝10；10－4＝6；10－6＝4。",
+      "point": "根据数量关系补充算式中的未知数",
+      "tips": "先说清方框表示什么，再想两个部分怎样合成整体，最后代回检查。"
+    },
+    {
+      "common_mistakes": [
+        "认为有平平的面就一定是长方体。",
+        "以为4个同样大的小正方体就能拼成大正方体。",
+        "数拼搭用的小正方体时漏掉被挡住的部分。"
+      ],
+      "core_concept": "根据面的特点辨认长方体、正方体、圆柱和球，观察能否滚动，并用同样大的小正方体拼搭。",
+      "key_formula": "正方体有6个同样大的正方形面；圆柱有两个平平的圆形面；球没有平平的面。",
+      "point": "辨认、分类和拼搭常见立体图形",
+      "tips": "结合面的形状和滚动特点判断；拼搭时先数每层，再数共有几层。"
+    },
+    {
+      "common_mistakes": [
+        "只看两个数，没有检查整个排列。",
+        "忽略另一个加数的变化，误判和的变化。",
+        "观察表格时弄混行和列。"
+      ],
+      "core_concept": "按明确给出的行、列和排列规则读数表、补数。在加法表中观察加数与和的变化，整理和相同或加数相同的算式。",
+      "key_formula": "一个加数不变，另一个加数增加1，和也增加1；一个加数增加1，另一个减少1，和不变。",
+      "point": "观察数表与算式表并发现排列规律",
+      "tips": "先看横着怎样变，再看竖着怎样变；观察算式时分别看两个加数和得数。"
+    }
+  ]
+}

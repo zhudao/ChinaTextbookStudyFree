@@ -1,0 +1,147 @@
+# 教师逐课核验队列
+
+137 个重点课时，全部待教师签审。每课链接直接进入实际课程；不代表全站 2,863 课均已人工审定。按所教科目分批，每次建议 10–20 课。
+
+优先：四上 `g4up-u1-kp1` 题15（560000中6在万位）、五上 `g5up-u4-kp3` 题26（12格、9绿3黄）、一上两个动手示范课，以及 [12处历史修正](../ux-content-corrections.json)。每题核对前提完整、唯一答案、独立推导和适龄表述，再听题面/选项/解析是否与文字一致。
+
+反馈格式：`课时ID / 题号 / 语义：通过或需改 / 朗读：通过或需改 / 建议`。不需要学生姓名、声音或其他个人资料。
+
+|教材ID|课程（点击开始）|题号|状态|
+|---|---|---|---|
+|chinese-g1up|[chinese-g1up-u4-kp3 · 整体认读音节应用](https://d3nmsqi4n72idj.cloudfront.net/lesson/chinese-g1up/chinese-g1up-u4-kp3/)|2, 5, 8, 14, 21, 24|待语义、听审|
+|chinese-g1up|[chinese-g1up-u4-kp4 · 汉语拼音综合应用](https://d3nmsqi4n72idj.cloudfront.net/lesson/chinese-g1up/chinese-g1up-u4-kp4/)|22, 23, 25, 26, 27, 28|待语义、听审|
+|english-g3up|[english-g3up-u1-kp10 · 询问姓名](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp10/)|10, 18, 22, 45, 46, 47|待语义、听审|
+|english-g3up|[english-g3up-u1-kp11 · 人名书写](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp11/)|11, 48, 49, 50, 51, 52|待语义、听审|
+|english-g3up|[english-g3up-u1-kp12 · 情景交际](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp12/)|13, 53, 54, 55, 56, 57|待语义、听审|
+|english-g3up|[english-g3up-u1-kp13 · 指令语](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp13/)|14, 58, 59, 60, 61, 62|待语义、听审|
+|english-g3up|[english-g3up-u1-kp14 · 综合运用](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp14/)|15, 63, 64, 65, 66, 67|待语义、听审|
+|english-g3up|[english-g3up-u1-kp15 · 持有表达](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp15/)|16, 68, 69, 70, 71, 72|待语义、听审|
+|english-g3up|[english-g3up-u1-kp4 · 见面问候](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp4/)|1, 2, 21, 24, 25, 26|待语义、听审|
+|english-g3up|[english-g3up-u1-kp5 · 词汇识记](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp5/)|3, 8, 12, 20, 27, 28|待语义、听审|
+|english-g3up|[english-g3up-u1-kp6 · 物品持有表达](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp6/)|4, 7, 23, 29, 30, 31|待语义、听审|
+|english-g3up|[english-g3up-u1-kp7 · 离别语](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp7/)|5, 32, 33, 34, 35, 36|待语义、听审|
+|english-g3up|[english-g3up-u1-kp8 · 自我介绍](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp8/)|6, 19, 37, 38, 39, 40|待语义、听审|
+|english-g3up|[english-g3up-u1-kp9 · 冠词用法](https://d3nmsqi4n72idj.cloudfront.net/lesson/english-g3up/english-g3up-u1-kp9/)|9, 17, 41, 42, 43, 44|待语义、听审|
+|g1down|[g1down-u2-kp2 · 十几减5、4、3、2的推导计算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1down/g1down-u2-kp2/)|2, 8, 13, 17, 23, 24|待语义、听审|
+|g1down|[g1down-u4-kp2 · 数的读法、写法与位值意义](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1down/g1down-u4-kp2/)|2, 4, 8, 16, 24, 25|待语义、听审|
+|g1down|[g1down-u6-kp3 · 含小括号的混合运算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1down/g1down-u6-kp3/)|4, 5, 10, 15, 18, 24|待语义、听审|
+|g1down|[g1down-u7-kp3 · 规律的分析与补全](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1down/g1down-u7-kp3/)|4, 11, 14, 17, 20, 24|待语义、听审|
+|g1down|[g1down-u8-kp3 · 复杂情境下的综合应用题解决](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1down/g1down-u8-kp3/)|12, 13, 17, 21, 24, 25|待语义、听审|
+|g1up|[g1up-u1-kp1 · 数一数，认一认](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u1-kp1/)|1001, 1002, 1003, 1004, 1005, 1006|待语义、听审|
+|g1up|[g1up-u1-kp2 · 配一配，比多少](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u1-kp2/)|1101, 1102, 1103, 1104, 1105, 1106|待语义、听审|
+|g1up|[g1up-u3-kp1 · 1~5的基数与序数含义](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp1/)|1, 6, 12, 20, 24, 25|待语义、听审|
+|g1up|[g1up-u3-kp2 · 通过符号(=、>、<)比较大小](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp2/)|3, 7, 16, 26, 27, 28|待语义、听审|
+|g1up|[g1up-u3-kp3 · 5以内数的分与合](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp3/)|4, 8, 17, 19, 29, 30|待语义、听审|
+|g1up|[g1up-u3-kp4 · 加法的初步认识](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp4/)|9, 13, 18, 21, 31, 32|待语义、听审|
+|g1up|[g1up-u3-kp5 · 减法的初步认识](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp5/)|5, 10, 14, 22, 33, 34|待语义、听审|
+|g1up|[g1up-u3-kp6 · 0的认识与相关加减法](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u3-kp6/)|2, 11, 15, 23, 35, 36|待语义、听审|
+|g1up|[g1up-u5-kp3 · 连加、连减运算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u5-kp3/)|4, 11, 23, 24, 25, 26|待语义、听审|
+|g1up|[g1up-u5-kp4 · 加减混合运算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u5-kp4/)|12, 17, 27, 28, 29, 30|待语义、听审|
+|g1up|[g1up-u5-kp5 · 解决问题（原来有多少）](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u5-kp5/)|13, 31, 32, 33, 34, 35|待语义、听审|
+|g1up|[g1up-u6-kp1 · 计数单位“十”与数位认识](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u6-kp1/)|2, 4, 7, 24, 25, 26|待语义、听审|
+|g1up|[g1up-u7-kp3 · 作息时间的先后逻辑](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u7-kp3/)|4, 9, 10, 16, 21, 24|待语义、听审|
+|g1up|[g1up-u8-kp1 · 凑十法的算法与应用](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u8-kp1/)|1, 11, 18, 20, 23, 24|待语义、听审|
+|g1up|[g1up-u8-kp3 · 5、4、3、2加几（交换法）](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u8-kp3/)|3, 9, 14, 21, 25, 26|待语义、听审|
+|g1up|[g1up-u9-kp2 · 图形与时间的综合回顾](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u9-kp2/)|2, 5, 9, 10, 14, 24|待语义、听审|
+|g1up|[g1up-u9-kp3 · 多步实际问题的解决](https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up/g1up-u9-kp3/)|4, 11, 17, 20, 25, 26|待语义、听审|
+|g2down|[g2down-u1-kp1 · 收集数据的方法](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u1-kp1/)|1, 4, 9, 24, 25, 26|待语义、听审|
+|g2down|[g2down-u1-kp2 · 记录数据的方法（“正”字记录法）](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u1-kp2/)|2, 5, 7, 11, 19, 27|待语义、听审|
+|g2down|[g2down-u1-kp4 · 统计表的制作_与分析](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u1-kp4/)|22, 28, 29, 30, 31, 32|待语义、听审|
+|g2down|[g2down-u2-kp1 · 平均分的含义与判断](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u2-kp1/)|1, 5, 6, 12, 24, 25|待语义、听审|
+|g2down|[g2down-u2-kp2 · 除法算式的意义与读写](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u2-kp2/)|2, 7, 10, 13, 19, 26|待语义、听审|
+|g2down|[g2down-u2-kp3 · 除法各部分名称](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u2-kp3/)|3, 8, 15, 17, 27, 28|待语义、听审|
+|g2down|[g2down-u3-kp3 · 旋转现象的辨析](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u3-kp3/)|3, 8, 12, 15, 23, 24|待语义、听审|
+|g2down|[g2down-u4-kp3 · 除法算式的规律整理](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u4-kp3/)|2, 5, 13, 16, 21, 24|待语义、听审|
+|g2down|[g2down-u5-kp3 · 带有小括号的混合运算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u5-kp3/)|3, 8, 11, 15, 21, 24|待语义、听审|
+|g2down|[g2down-u5-kp4 · 解决两步计算的实际问题](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u5-kp4/)|5, 12, 16, 17, 19, 25|待语义、听审|
+|g2down|[g2down-u7-kp1 · 计数单位与十进制概念](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u7-kp1/)|1, 7, 15, 19, 24, 25|待语义、听审|
+|g2down|[g2down-u7-kp2 · 万以内数的读写规则](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u7-kp2/)|2, 8, 9, 13, 17, 26|待语义、听审|
+|g2down|[g2down-u7-kp3 · 数位顺序表与数位意义](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u7-kp3/)|3, 6, 12, 18, 20, 27|待语义、听审|
+|g2down|[g2down-u7-kp4 · 近似数与估算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u7-kp4/)|4, 10, 14, 28, 29, 30|待语义、听审|
+|g2down|[g2down-u8-kp2 · 质量单位“千克”的认识](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u8-kp2/)|2, 7, 11, 18, 21, 24|待语义、听审|
+|g2down|[g2down-u9-kp2 · 列表法与对应关系](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u9-kp2/)|9, 16, 24, 25, 26, 27|待语义、听审|
+|g2down|[g2down-u9-kp3 · 行列约束推理（数独初步）](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2down/g2down-u9-kp3/)|3, 12, 17, 21, 28, 29|待语义、听审|
+|g2up|[g2up-u2-kp3 · 连加、连减与加减混合运算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u2-kp3/)|10, 15, 18, 21, 24, 25|待语义、听审|
+|g2up|[g2up-u2-kp4 · 含小括号的加减混合运算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u2-kp4/)|3, 11, 26, 27, 28, 29|待语义、听审|
+|g2up|[g2up-u2-kp5 · 解决问题：求比一个数多（或少）几的数](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u2-kp5/)|5, 12, 13, 17, 30, 31|待语义、听审|
+|g2up|[g2up-u4-kp1 · 乘法的初步认识](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u4-kp1/)|1, 3, 6, 24, 25, 26|待语义、听审|
+|g2up|[g2up-u5-kp1 · 从不同位置观察物体](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u5-kp1/)|1, 5, 6, 12, 15, 24|待语义、听审|
+|g2up|[g2up-u5-kp3 · 空间观念建立](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u5-kp3/)|9, 11, 14, 17, 21, 25|待语义、听审|
+|g2up|[g2up-u6-kp3 · 多步乘法应用题：解决问题](https://d3nmsqi4n72idj.cloudfront.net/lesson/g2up/g2up-u6-kp3/)|5, 12, 13, 14, 20, 24|待语义、听审|
+|g3down|[g3down-u1-kp2 · 地图上的方位识别](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u1-kp2/)|3, 7, 13, 17, 24, 25|待语义、听审|
+|g3down|[g3down-u1-kp3 · 认识东北、东南、西北、西南](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u1-kp3/)|4, 5, 10, 16, 18, 26|待语义、听审|
+|g3down|[g3down-u1-kp4 · 简单行走路线的描述](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u1-kp4/)|11, 15, 27, 28, 29, 30|待语义、听审|
+|g3down|[g3down-u2-kp1 · 口算除法](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u2-kp1/)|1, 6, 12, 17, 19, 24|待语义、听审|
+|g3down|[g3down-u2-kp2 · 除法估算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u2-kp2/)|8, 14, 25, 26, 27, 28|待语义、听审|
+|g3down|[g3down-u2-kp4 · 除法的验算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u2-kp4/)|4, 10, 29, 30, 31, 32|待语义、听审|
+|g3down|[g3down-u2-kp5 · 商中间或末尾有0的除法](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u2-kp5/)|3, 9, 13, 18, 23, 33|待语义、听审|
+|g3down|[g3down-u4-kp3 · 解决两步计算的应用题](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u4-kp3/)|5, 10, 13, 17, 21, 24|待语义、听审|
+|g3down|[g3down-u5-kp1 · 面积的含义与比较](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u5-kp1/)|1, 7, 15, 24, 25, 26|待语义、听审|
+|g3down|[g3down-u5-kp2 · 认识面积单位](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u5-kp2/)|2, 6, 10, 18, 27, 28|待语义、听审|
+|g3down|[g3down-u5-kp4 · 面积单位间的进率与换算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u5-kp4/)|4, 9, 13, 19, 29, 30|待语义、听审|
+|g3down|[g3down-u5-kp5 · 面积与周长的对比应用](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u5-kp5/)|5, 12, 16, 17, 21, 31|待语义、听审|
+|g3down|[g3down-u6-kp2 · 24时计时法与普通计时法](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u6-kp2/)|3, 8, 9, 12, 24, 25|待语义、听审|
+|g3down|[g3down-u7-kp2 · 小数的大小比较](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3down/g3down-u7-kp2/)|3, 9, 11, 15, 24, 25|待语义、听审|
+|g3up|[g3up-u10-kp2 · 图形与几何综合应用](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u10-kp2/)|1, 4, 6, 10, 13, 16, 19|待语义、听审|
+|g3up|[g3up-u10-kp3 · 逆向思维与逻辑推导](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u10-kp3/)|17, 18, 21, 24, 25, 26|待语义、听审|
+|g3up|[g3up-u2-kp3 · 用估算解决实际问题](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u2-kp3/)|3, 10, 14, 24, 25, 26|待语义、听审|
+|g3up|[g3up-u4-kp3 · 解决问题策略的选择](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u4-kp3/)|5, 8, 17, 24, 25, 26|待语义、听审|
+|g3up|[g3up-u6-kp1 · 口算乘法与算理转化](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u6-kp1/)|1, 6, 7, 15, 19, 24|待语义、听审|
+|g3up|[g3up-u6-kp3 · 乘数中间或末尾有0的乘法](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u6-kp3/)|2, 3, 11, 12, 23, 25|待语义、听审|
+|g3up|[g3up-u6-kp4 · 乘法估算与归一问题解决](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u6-kp4/)|13, 14, 16, 17, 21, 26|待语义、听审|
+|g3up|[g3up-u7-kp3 · 拼图周长的变化规律](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u7-kp3/)|4, 15, 18, 24, 25, 26|待语义、听审|
+|g3up|[g3up-u8-kp2 · 分数的大小比较](https://d3nmsqi4n72idj.cloudfront.net/lesson/g3up/g3up-u8-kp2/)|3, 7, 8, 12, 15, 24|待语义、听审|
+|g4up|[g4up-u1-kp1 · 亿以内数的计数单位与数位顺序](https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u1-kp1/)|1, 6, 11, 15, 19, 24|待语义、听审|
+|g4up|[g4up-u1-kp2 · 亿以内数的读法与写法](https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u1-kp2/)|2, 7, 12, 16, 25, 26|待语义、听审|
+|g4up|[g4up-u1-kp3 · 大数的大小比较与改写](https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u1-kp3/)|3, 8, 13, 17, 20, 27|待语义、听审|
+|g4up|[g4up-u1-kp4 · 近似数与“四舍五入”法](https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u1-kp4/)|4, 9, 14, 18, 21, 28|待语义、听审|
+|g4up|[g4up-u1-kp5 · 进位制与计算工具的认识](https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u1-kp5/)|5, 10, 22, 23, 29, 30|待语义、听审|
+|g4up|[g4up-u3-kp1 · 线段、直线、射线](https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u3-kp1/)|1, 2, 6, 7, 19, 24|待语义、听审|
+|g4up|[g4up-u3-kp2 · 角的认识与度量](https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u3-kp2/)|3, 8, 9, 15, 16, 25|待语义、听审|
+|g4up|[g4up-u3-kp4 · 角的角度计算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u3-kp4/)|18, 26, 27, 28, 29, 30|待语义、听审|
+|g4up|[g4up-u4-kp2 · 积的变化规律](https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u4-kp2/)|2, 9, 13, 16, 21, 24|待语义、听审|
+|g4up|[g4up-u9-kp1 · 数与代数综合复习](https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u9-kp1/)|2, 3, 6, 7, 8, 9, 14, 17, 19, 20, 22, 23|待语义、听审|
+|g4up|[g4up-u9-kp3 · 综合应用与统计复习](https://d3nmsqi4n72idj.cloudfront.net/lesson/g4up/g4up-u9-kp3/)|12, 13, 18, 21, 24, 25|待语义、听审|
+|g5down|[g5down-u2-kp3 · 质数与合数及1的特殊性](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u2-kp3/)|3, 9, 10, 14, 18, 24|待语义、听审|
+|g5down|[g5down-u2-kp4 · 数的奇偶性运算规律](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u2-kp4/)|4, 11, 17, 21, 25, 26|待语义、听审|
+|g5down|[g5down-u4-kp1 · 分数的产生、意义与单位“1”](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp1/)|1, 6, 14, 17, 23, 24|待语义、听审|
+|g5down|[g5down-u4-kp2 · 分数与除法的关系](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp2/)|7, 13, 19, 25, 26, 27|待语义、听审|
+|g5down|[g5down-u4-kp3 · 真分数、假分数与带分数](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp3/)|2, 8, 15, 28, 29, 30|待语义、听审|
+|g5down|[g5down-u4-kp4 · 分数的基本性质](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp4/)|3, 9, 31, 32, 33, 34|待语义、听审|
+|g5down|[g5down-u4-kp5 · 约分与最大公因数](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp5/)|4, 10, 20, 22, 35, 36|待语义、听审|
+|g5down|[g5down-u4-kp6 · 通分与最小公倍数](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp6/)|5, 11, 16, 21, 37, 38|待语义、听审|
+|g5down|[g5down-u4-kp7 · 分数和小数的互化](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u4-kp7/)|12, 18, 39, 40, 41, 42|待语义、听审|
+|g5down|[g5down-u7-kp3 · 统计图的选择与决策分析](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5down/g5down-u7-kp3/)|2, 6, 10, 14, 18, 24|待语义、听审|
+|g5up|[g5up-u1-kp3 · 积的近似数与四舍五入](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u1-kp3/)|3, 8, 15, 21, 24, 25|待语义、听审|
+|g5up|[g5up-u1-kp4 · 整数乘法运算律推广到小数](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u1-kp4/)|4, 9, 14, 22, 26, 27|待语义、听审|
+|g5up|[g5up-u1-kp5 · 小数乘法解决问题（估算与分段计费）](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u1-kp5/)|5, 11, 17, 28, 29, 30|待语义、听审|
+|g5up|[g5up-u2-kp3 · 图形平移与数对变化规律](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u2-kp3/)|4, 12, 14, 17, 21, 24|待语义、听审|
+|g5up|[g5up-u3-kp3 · 商的近似数（进一法与去尾法）](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u3-kp3/)|5, 10, 14, 20, 24, 25|待语义、听审|
+|g5up|[g5up-u3-kp4 · 循环小数的相关概念](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u3-kp4/)|3, 4, 9, 16, 26, 27|待语义、听审|
+|g5up|[g5up-u3-kp5 · 用计算器探索规律](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u3-kp5/)|12, 17, 21, 28, 29, 30|待语义、听审|
+|g5up|[g5up-u4-kp3 · 可能性的大小应用（设计方案）](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u4-kp3/)|4, 12, 20, 24, 25, 26|待语义、听审|
+|g5up|[g5up-u5-kp2 · 方程的意义与等式的性质](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u5-kp2/)|2, 3, 8, 24, 25, 26|待语义、听审|
+|g5up|[g5up-u5-kp4 · 列方程解决实际问题（ax±b=c类型）](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u5-kp4/)|11, 12, 18, 21, 27, 28|待语义、听审|
+|g5up|[g5up-u5-kp5 · 列方程解决稍复杂的实际问题（和倍、行程问题）](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u5-kp5/)|15, 16, 29, 30, 31, 32|待语义、听审|
+|g5up|[g5up-u6-kp4 · 组合图形的面积与不规则图形估算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u6-kp4/)|5, 11, 15, 24, 25, 26|待语义、听审|
+|g5up|[g5up-u7-kp2 · 封闭路线的植树规律](https://d3nmsqi4n72idj.cloudfront.net/lesson/g5up/g5up-u7-kp2/)|3, 8, 12, 16, 20, 24|待语义、听审|
+|g6down|[g6down-u3-kp1 · 圆柱与圆锥的特征](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6down/g6down-u3-kp1/)|1, 3, 6, 12, 21, 24|待语义、听审|
+|g6down|[g6down-u3-kp2 · 圆柱的表面积](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6down/g6down-u3-kp2/)|4, 7, 11, 15, 16, 25|待语义、听审|
+|g6down|[g6down-u6-kp2 · 图形与几何的综合运用](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6down/g6down-u6-kp2/)|2, 7, 11, 14, 18, 20|待语义、听审|
+|g6down|[g6down-u6-kp3 · 统计图分析与概率决策](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6down/g6down-u6-kp3/)|3, 8, 16, 24, 25, 26|待语义、听审|
+|g6down|[g6down-u6-kp4 · 解决问题策略与跨学科实践](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6down/g6down-u6-kp4/)|5, 10, 13, 15, 27, 28|待语义、听审|
+|g6up|[g6up-u1-kp2 · 分数乘分数的计算法则](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u1-kp2/)|2, 6, 9, 24, 25, 26|待语义、听审|
+|g6up|[g6up-u1-kp3 · 求一个数的几分之几是多少](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u1-kp3/)|7, 12, 15, 20, 27, 28|待语义、听审|
+|g6up|[g6up-u1-kp4 · 分数乘法混合运算与简便计算](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u1-kp4/)|3, 8, 17, 18, 23, 29|待语义、听审|
+|g6up|[g6up-u1-kp5 · 比一个数多/少几分之几的问题](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u1-kp5/)|4, 11, 13, 14, 21, 30|待语义、听审|
+|g6up|[g6up-u2-kp3 · 观测点的相对性](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u2-kp3/)|3, 9, 17, 24, 25, 26|待语义、听审|
+|g6up|[g6up-u3-kp4 · 工程问题（单位1的假设法）](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u3-kp4/)|5, 12, 18, 24, 25, 26|待语义、听审|
+|g6up|[g6up-u5-kp4 · 扇形的认识与圆心角](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u5-kp4/)|3, 8, 18, 24, 25, 26|待语义、听审|
+|g6up|[g6up-u6-kp3 · 生活中的百分数（利率/折扣）](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u6-kp3/)|5, 9, 13, 24, 25, 26|待语义、听审|
+|g6up|[g6up-u8-kp2 · 等比数列求和的思想](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u8-kp2/)|3, 10, 14, 18, 24, 25|待语义、听审|
+|g6up|[g6up-u9-kp2 · 几何图形组合复习](https://d3nmsqi4n72idj.cloudfront.net/lesson/g6up/g6up-u9-kp2/)|3, 8, 12, 15, 19, 24|待语义、听审|
+|science-g1up|[science-g1up-u1-kp1 · 植物的辨别与生命意识](https://d3nmsqi4n72idj.cloudfront.net/lesson/science-g1up/science-g1up-u1-kp1/)|1, 2, 6, 24, 25, 26|待语义、听审|
+|science-g1up|[science-g1up-u1-kp2 · 观察一棵植物的结构](https://d3nmsqi4n72idj.cloudfront.net/lesson/science-g1up/science-g1up-u1-kp2/)|3, 7, 8, 16, 19, 21, 22|待语义、听审|
+|science-g1up|[science-g1up-u1-kp3 · 叶的特征与多样性](https://d3nmsqi4n72idj.cloudfront.net/lesson/science-g1up/science-g1up-u1-kp3/)|4, 9, 10, 13, 23, 27|待语义、听审|
+|science-g1up|[science-g1up-u1-kp4 · 根据叶寻找和辨认植物](https://d3nmsqi4n72idj.cloudfront.net/lesson/science-g1up/science-g1up-u1-kp4/)|12, 14, 17, 28, 29, 30|待语义、听审|
+|science-g1up|[science-g1up-u1-kp5 · 植物的生长与变化记录](https://d3nmsqi4n72idj.cloudfront.net/lesson/science-g1up/science-g1up-u1-kp5/)|5, 11, 15, 18, 20, 31|待语义、听审|

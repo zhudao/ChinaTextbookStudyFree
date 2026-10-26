@@ -25,13 +25,11 @@ export function themeAccentColors(primary: string, primaryDark: string, accent: 
     if (Math.max(darkRatio, lightRatio) < 4.5) return '#000000';
     return darkRatio >= lightRatio ? '#071317' : '#FFFFFF';
   };
-  // Product fills are palette values, never contrast-adjusted text colors.
-  // Measured Duolingo Web: owl #58CC02 / tree-frog #58A700, white label.
-  // Keep readable small labels separate rather than darkening every control.
+  // Preserve the product palette and choose a readable label in either mode.
   const action = (hex: string, edge: string) => {
     return {
       bg: hex,
-      ink: dark ? fill(hex) : '#FFFFFF',
+      ink: fill(hex),
       edge,
     };
   };

@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "ext": "mp3",
+      "range": false,
+      "bytes": 71280,
+      "status": 200,
+      "mime": "audio/mpeg",
+      "sha256": "7e2b9f31f9bdc97265beaba6e8128debca54af93a7128e558ceeab6dc1f839e7"
+    },
+    {
+      "ext": "mp3",
+      "range": true,
+      "bytes": 32,
+      "status": 206,
+      "mime": "audio/mpeg",
+      "sha256": "ed13fcba59410393fb7b5cab3b561a43f759e554a5e0cec9a89dc6243558c344"
+    },
+    {
+      "ext": "opus",
+      "range": false,
+      "bytes": 45792,
+      "status": 200,
+      "mime": "audio/ogg",
+      "sha256": "8b0eb1502761382bc3afaa3a69136d6235bff921fc300e7f51cb71b74627c6a3"
+    },
+    {
+      "ext": "opus",
+      "range": true,
+      "bytes": 32,
+      "status": 206,
+      "mime": "audio/ogg",
+      "sha256": "83d3172f73d0037e4b4dc376ac5a4906871c7c62a9d9044776d94cf903ef919f"
+    }
+  ]
+}

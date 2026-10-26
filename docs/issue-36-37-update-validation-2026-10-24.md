@@ -28,7 +28,7 @@
 
 原始课文来源和教材页图沿用项目约定，放在忽略的 `data/passages` 和 `apps/web/public/textbook-pages` 中，随资源包分发。运行 `scripts/editions/materialize_2026.py` 时，必须提供完整且通过复核的候选目录及已校验的官方页图缓存。脚本先验证整批数据，再写入新版路径；缺失新版朗读来源时，Web 构建会明确失败。
 
-本次新增音频使用 macOS 的 Tingting（中文）和 Samantha（英文）离线合成，生成 Opus 和 Web MP3。保留已有内容寻址音频，iOS 包另转为 AAC/M4A。生产发布前可以试听并按项目标准替换同一文本的音色。
+首次 v1.5.0 发布的新增音频使用 macOS Tingting（中文）和 Samantha（英文）离线合成。后续用户试听要求改回 Edge；v1.6.0 将这五册与五上语文一起重做，采用按教材版本隔离的音频地址，保留旧版、原有成绩和历史兼容资源。详见[五上语文与 Edge 音频重做记录](issue-22-textbook-review-2026-10-24.md)。
 
 ## 本地构建及安装
 

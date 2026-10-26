@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "sameProductionOrigin": true,
+  "exportedViaUI": true,
+  "completeDataEqualAcrossDeployment": 5,
+  "profileNamesPublished": false,
+  "affectedLegacyLesson": "g4up-u1-kp1",
+  "previousAccuracy": 1,
+  "previousStars": 3,
+  "notRetroactivelyRegraded": true,
+  "rawLearnerExportsPublished": false
+}

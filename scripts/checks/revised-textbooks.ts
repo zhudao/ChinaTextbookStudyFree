@@ -14,7 +14,7 @@ const catalog = read('content/editions/2026/catalog.json');
 const index: {books: Book[]} = read(`${root}/data/index.json`);
 const current = index.books.filter(b => !b.supersededBy);
 assert.equal(current.length, 44);
-assert.equal(index.books.length, 50, '44 current + six retained legacy editions');
+assert.equal(index.books.length, 45 + catalog.books.length, '44 current + retained legacy editions');
 let lessons = 0, questions = 0, readings = 0;
 const asset = (url: string) => assert.ok(existsSync(path.join(root, url.split('?')[0])), `Missing asset ${url}`);
 function checkLesson(lesson: Lesson, knowledgeRequired = true) {
@@ -48,8 +48,8 @@ for (const plan of catalog.books) {
   const old = index.books.find(b => b.id === plan.legacyId)!;
   assert.ok(book && old, plan.id);
   assert.equal(book.supersedes, old.id); assert.equal(old.supersededBy, book.id);
-  assert.equal(book.editionLabel, '2026秋版');
-  assert.equal(current.filter(b => b.grade === plan.grade && b.semester === 'up' && b.subject === plan.subject).length, 1);
+  assert.equal(book.editionLabel, plan.editionLabel);
+  assert.equal(current.filter(b => b.grade === plan.grade && b.semester === (plan.semester ?? 'up') && b.subject === plan.subject).length, 1);
   const outline: Outline & {lessons: PathLessonMeta[]} = read(`${root}/data/books/${book.id}/outline.json`);
   const legacy: Outline & {lessons: PathLessonMeta[]} = read(`${root}/data/books/${old.id}/outline.json`);
   assert.deepEqual(outline.units.map(u => [u.unit_number, u.title]), plan.units.map((u: any) => [u.unit_number, u.title]));
@@ -100,7 +100,10 @@ for (const plan of catalog.books) {
   const completed = normalizeReadingMap({[oldKey]: '2026-10-23'});
   assert.equal(completed[oldKey], '2026-10-23'); assert.equal(completed[newKey], undefined);
 }
-assert.equal(lessons, 150); assert.equal(questions, 1110); assert.equal(readings, 118);
+const expectedLessons = catalog.books.reduce((sum: number, b: any) => sum + b.units.reduce((n: number, u: any) => n + u.points.length, 0), 0);
+const expectedExams = catalog.books.reduce((sum: number, b: any) => sum + b.units.length, 0);
+assert.equal(lessons, expectedLessons); assert.equal(questions, (expectedLessons + expectedExams) * 6);
+assert.equal(readings, catalog.books.reduce((sum: number, b: any) => sum + b.readings.length, 0));
 const fetcher = (async (url: string) => new Response(readFileSync(`${root}${url}`, 'utf8'))) as typeof fetch;
 const fourth = await loadJumpData('g3up-2026', 4, fetcher);
 assert.ok(fourth.priorLessonIds.some(id => id.includes('-u101-')));
@@ -108,7 +111,7 @@ assert.ok(!fourth.priorLessonIds.some(id => id.includes('-u102-')));
 const practice = await loadJumpData('g3up-2026', 102, fetcher);
 assert.ok(practice.priorLessonIds.some(id => id.includes('-u4-')));
 assert.ok(!practice.priorLessonIds.some(id => id.includes('-u5-')));
-console.log(JSON.stringify({status: 'passed', books: 5, lessons, questions, readings, legacyRoutes: 'retained', completionIds: 'isolated', media: 'present'}));
+console.log(JSON.stringify({status: 'passed', books: catalog.books.length, lessons, questions, readings, legacyRoutes: 'retained', completionIds: 'isolated', media: 'present'}));
 
 }
 void main().catch(error => { console.error(error); process.exitCode = 1; });

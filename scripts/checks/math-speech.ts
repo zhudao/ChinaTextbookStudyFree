@@ -21,6 +21,8 @@ const cases = [
   ["$\bigcirc + \triangle$", "圆圈 加 三角形"],
   ["$6\blacksquare4$", "6方框4"],
   ["$2\bdot3$", "2乘以3"],
+  ["$0.5\bdot{6}$", "零点五六，只有数字六上方有一个点。"],
+  ["$0.\bdot{5}\bdot{6}$", "零点五六，数字五和六上方各有一个点。"],
   ["$\text{元}$", "元"],
   ["$203\rightarrow200$", "203变为200"],
   ["$1\neq2$", "1不等于2"],
@@ -41,7 +43,26 @@ const cases = [
   ["$$25%≤50%$$", "百分之25小于或等于百分之50"],
   ["2026/10/19 https://example.com/a/b", "2026/10/19 https://example.com/a/b"],
   ["普通课文 Hello world", "普通课文 Hello world"],
+  [String.raw`https://example.com/\times C:\times\notes`, String.raw`https://example.com/\times C:\times\notes`],
+  [String.raw`\frac{\frac{1}{2}}{3}`, String.raw`\frac{\frac{1}{2}}{3}`],
+  [String.raw`\frac{1+2}{3}`, String.raw`\frac{1+2}{3}`],
+  [String.raw`未配对 $\frac{1}{2}`, String.raw`未配对 $\frac{1}{2}`],
 ];
+const bareCases = [
+  ["32 \bdiv 4", "32 除以 4"],
+  ["因数 \x07 因数", "因数 乘以 因数"],
+  [String.raw`\frac{1}{2}`, "2分之1"],
+  [String.raw`\\frac{1}{2} + \\frac{1}{3}`, "2分之1 + 3分之1"],
+  [String.raw`被除数 \\bdiv 除数 = 商`, "被除数 除以 除数 = 商"],
+  [String.raw`总价 = 单价 \times 数量`, "总价 = 单价 乘以 数量"],
+  [String.raw`三角形内角和 = 180^\circ`, "三角形内角和 = 180度"],
+  [String.raw`1\text{kg} = 1000\text{g}`, "1kg = 1000g"],
+  [String.raw`东 \leftrightarrow 西`, "东 双向箭头 西"],
+];
+for (const [input, expected] of bareCases) {
+  cases.push([input, expected]);
+  assert.ok(splitMath(input).some(part => part.type !== "text"), input);
+}
 for (const [input, expected] of cases) assert.equal(mathSpeech(input), expected);
 for (const [input] of cases) {
   for (const part of splitMath(input)) {
@@ -55,7 +76,7 @@ for (const entry of narrationEntries) {
 }
 assert.notEqual(mathSpeech(String.raw`$0.\dot{4}\dot{8}\dot{1}$`), mathSpeech(String.raw`$0.4\dot{8}\dot{1}$`),
   "Distinct dotted-decimal answer choices must remain distinct when narrated");
-const python = spawnSync("python", ["-X", "utf8", "-c", "import sys,json; sys.path.insert(0,'scripts/tts'); from math_speech import math_speech; print(json.dumps([math_speech(x) for x in json.load(sys.stdin)]))"],
+const python = spawnSync(process.env.PYTHON || "python3", ["-X", "utf8", "-c", "import sys,json; sys.path.insert(0,'scripts/tts'); from math_speech import math_speech; print(json.dumps([math_speech(x) for x in json.load(sys.stdin)]))"],
   { input: JSON.stringify(cases.map(([input]) => input)), encoding: "utf8" });
 assert.equal(python.status, 0, python.stderr);
 assert.deepEqual(JSON.parse(python.stdout), cases.map(([, expected]) => expected));
@@ -68,6 +89,8 @@ assert.deepEqual(splitMath(String.raw`算 \(\frac{1}{2}\)，\[x^2\]，$3$，$$4$
 assert.deepEqual(splitMath("未配对 $3"), [{ type: "text", value: "未配对 $3" }]);
 assert.deepEqual(splitMath("算 $2\times3$"), [{ type: "text", value: "算 " }, { type: "inline", value: String.raw`2\times3` }]);
 assert.deepEqual(splitMath("$25%≤50%$"), [{ type: "inline", value: String.raw`25\%≤50\%` }]);
+assert.deepEqual(splitMath("$0.5\bdot{6}$"), [{type: "inline", value: String.raw`0.5\dot{6}`}]);
+assert.deepEqual(splitMath("$0.\bdot{5}\bdot{6}$"), [{type: "inline", value: String.raw`0.\dot{5}\dot{6}`}]);
 assert.deepEqual(splitMath("普通\text文字"), [{ type: "text", value: "普通\text文字" }]);
 assert.deepEqual(splitMath("未配对 $$1+2$"), [{ type: "text", value: "未配对 $$1+2$" }]);
 assert.deepEqual(splitMath(String.raw`价格 \$2 与 \$3`), [{ type: "text", value: String.raw`价格 \$2 与 \$3` }]);
@@ -88,7 +111,7 @@ for (const subject of ["math", "chinese", "english", "science"]) {
   }
 }
 const corpus = [...texts];
-const result = spawnSync("python", ["-X", "utf8", "-c", "import sys,json; sys.path.insert(0,'scripts/tts'); from collect_texts import normalize; print(json.dumps([normalize(x) for x in json.load(sys.stdin)]))"],
+const result = spawnSync(process.env.PYTHON || "python3", ["-X", "utf8", "-c", "import sys,json; sys.path.insert(0,'scripts/tts'); from collect_texts import normalize; print(json.dumps([normalize(x) for x in json.load(sys.stdin)]))"],
   { input: JSON.stringify(corpus), encoding: "utf8", maxBuffer: 64 * 1024 * 1024 });
 assert.equal(result.status, 0, result.stderr);
 const spoken: string[] = JSON.parse(result.stdout);

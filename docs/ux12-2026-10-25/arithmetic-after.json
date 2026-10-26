@@ -1,0 +1,777 @@
+{
+  "status": "passed",
+  "independentCalculations": 95,
+  "independentDigitPositions": 1,
+  "contextDependentCalculationsNotClaimedVerified": 942,
+  "failures": [],
+  "checked": [
+    {
+      "lesson": "g1up-u3-kp4",
+      "id": 32,
+      "kind": "exact_arithmetic",
+      "computed": "2",
+      "answer": "2",
+      "question": "计算：1+1=___"
+    },
+    {
+      "lesson": "g1up-u3-kp5",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "2",
+      "answer": "2",
+      "question": "4－2＝____"
+    },
+    {
+      "lesson": "g1up-u3-kp6",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "5",
+      "answer": "5",
+      "question": "0 + 5 = ?"
+    },
+    {
+      "lesson": "g1up-u5-kp3",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "3",
+      "answer": "3",
+      "question": "10－4－3＝____"
+    },
+    {
+      "lesson": "g1up-u7-exam",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "7",
+      "answer": "7",
+      "question": "12 - 5 = ?"
+    },
+    {
+      "lesson": "g1up-u7-kp2",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "12",
+      "answer": "12",
+      "question": "3 + 9 = ?"
+    },
+    {
+      "lesson": "g1up-u7-kp2",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "8",
+      "answer": "8",
+      "question": "10 - 2 = ?"
+    },
+    {
+      "lesson": "g1up-u8-kp3",
+      "id": 26,
+      "kind": "exact_arithmetic",
+      "computed": "11",
+      "answer": "11",
+      "question": "算一算：2+9=___"
+    },
+    {
+      "lesson": "g1up-2026-u1-kp6",
+      "id": 10032,
+      "kind": "exact_arithmetic",
+      "computed": "0",
+      "answer": "0",
+      "question": "计算：3−3。"
+    },
+    {
+      "lesson": "g1up-2026-u2-exam",
+      "id": 29004,
+      "kind": "exact_arithmetic",
+      "computed": "2",
+      "answer": "2",
+      "question": "9－7＝？"
+    },
+    {
+      "lesson": "g1up-2026-u5-kp1",
+      "id": 50002,
+      "kind": "exact_arithmetic",
+      "computed": "12",
+      "answer": "12",
+      "question": "9+3="
+    },
+    {
+      "lesson": "g1up-2026-u5-kp1",
+      "id": 50006,
+      "kind": "exact_arithmetic",
+      "computed": "18",
+      "answer": "18",
+      "question": "9+9="
+    },
+    {
+      "lesson": "g1up-2026-u5-kp2",
+      "id": 50008,
+      "kind": "exact_arithmetic",
+      "computed": "15",
+      "answer": "15",
+      "question": "6+9="
+    },
+    {
+      "lesson": "g1up-2026-u5-kp2",
+      "id": 50012,
+      "kind": "exact_arithmetic",
+      "computed": "17",
+      "answer": "17",
+      "question": "8+9="
+    },
+    {
+      "lesson": "g1up-2026-u5-kp3",
+      "id": 50014,
+      "kind": "exact_arithmetic",
+      "computed": "11",
+      "answer": "11",
+      "question": "4+7="
+    },
+    {
+      "lesson": "g1up-2026-u5-kp4",
+      "id": 50020,
+      "kind": "exact_arithmetic",
+      "computed": "11",
+      "answer": "11",
+      "question": "3+8="
+    },
+    {
+      "lesson": "g1up-2026-u5-kp5",
+      "id": 50026,
+      "kind": "exact_arithmetic",
+      "computed": "14",
+      "answer": "14",
+      "question": "7+7="
+    },
+    {
+      "lesson": "g2up-u2-kp3",
+      "id": 24,
+      "kind": "exact_arithmetic",
+      "computed": "61",
+      "answer": "61",
+      "question": "计算：73 - 28 + 16 = ___"
+    },
+    {
+      "lesson": "g2up-u2-kp4",
+      "id": 26,
+      "kind": "exact_arithmetic",
+      "computed": "30",
+      "answer": "30",
+      "question": "计算：74 - (18 + 26) = ____"
+    },
+    {
+      "lesson": "g2up-u7-exam",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "60",
+      "answer": "60",
+      "question": "30 + 30 = ?"
+    },
+    {
+      "lesson": "g2up-u7-kp2",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "120",
+      "answer": "120",
+      "question": "60 + 60 = ?"
+    },
+    {
+      "lesson": "g3up-u1-exam",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "3",
+      "answer": "3",
+      "question": "180 \\div 60 = ?"
+    },
+    {
+      "lesson": "g3up-u1-kp2",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "180",
+      "answer": "180",
+      "question": "60 + 60 + 60 = ?"
+    },
+    {
+      "lesson": "g3up-u1-kp3",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "75",
+      "answer": "75",
+      "question": "120 - 45 = ?"
+    },
+    {
+      "lesson": "g3up-u6-kp3",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "530",
+      "answer": "530",
+      "question": "106×5="
+    },
+    {
+      "lesson": "g3up-2026-u2-exam",
+      "id": 29001,
+      "kind": "exact_arithmetic",
+      "computed": "24",
+      "answer": "24",
+      "question": "计算：36－18＋6。"
+    },
+    {
+      "lesson": "g3up-2026-u2-exam",
+      "id": 29004,
+      "kind": "exact_arithmetic",
+      "computed": "35",
+      "answer": "35",
+      "question": "计算：65－5×6。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp1",
+      "id": 20001,
+      "kind": "exact_arithmetic",
+      "computed": "16",
+      "answer": "16",
+      "question": "计算：18＋7－9。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp1",
+      "id": 20003,
+      "kind": "exact_arithmetic",
+      "computed": "34",
+      "answer": "34",
+      "question": "计算：47－19＋6。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp1",
+      "id": 20004,
+      "kind": "exact_arithmetic",
+      "computed": "30",
+      "answer": "30",
+      "question": "计算：24÷4×5。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp1",
+      "id": 20005,
+      "kind": "exact_arithmetic",
+      "computed": "7",
+      "answer": "7",
+      "question": "计算：3×7÷3。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp1",
+      "id": 20006,
+      "kind": "exact_arithmetic",
+      "computed": "24",
+      "answer": "24",
+      "question": "计算：52－28＋0。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp2",
+      "id": 20008,
+      "kind": "exact_arithmetic",
+      "computed": "30",
+      "answer": "30",
+      "question": "计算：4×6＋6。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp2",
+      "id": 20009,
+      "kind": "exact_arithmetic",
+      "computed": "16",
+      "answer": "16",
+      "question": "计算：40÷5＋8。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp2",
+      "id": 20010,
+      "kind": "exact_arithmetic",
+      "computed": "15",
+      "answer": "15",
+      "question": "计算：36－3×7。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp2",
+      "id": 20012,
+      "kind": "exact_arithmetic",
+      "computed": "14",
+      "answer": "14",
+      "question": "计算：3×4＋20÷5－2。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp3",
+      "id": 20014,
+      "kind": "exact_arithmetic",
+      "computed": "36",
+      "answer": "36",
+      "question": "计算：（12－6）×6。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp3",
+      "id": 20015,
+      "kind": "exact_arithmetic",
+      "computed": "7",
+      "answer": "7",
+      "question": "计算：56÷（3＋5）。"
+    },
+    {
+      "lesson": "g3up-2026-u2-kp3",
+      "id": 20017,
+      "kind": "exact_arithmetic",
+      "computed": "21",
+      "answer": "21",
+      "question": "计算：45－（6＋18）。"
+    },
+    {
+      "lesson": "g3up-2026-u4-exam",
+      "id": 49003,
+      "kind": "exact_arithmetic",
+      "computed": "218",
+      "answer": "218",
+      "question": "计算：109×2＝？"
+    },
+    {
+      "lesson": "g3up-2026-u4-exam",
+      "id": 49006,
+      "kind": "exact_arithmetic",
+      "computed": "636",
+      "answer": "636",
+      "question": "计算：212×3＝？"
+    },
+    {
+      "lesson": "g3up-2026-u4-kp2",
+      "id": 40008,
+      "kind": "exact_arithmetic",
+      "computed": "84",
+      "answer": "84",
+      "question": "计算：12×7＝？"
+    },
+    {
+      "lesson": "g3up-2026-u4-kp2",
+      "id": 40010,
+      "kind": "exact_arithmetic",
+      "computed": "2608",
+      "answer": "2608",
+      "question": "计算：326×8＝？"
+    },
+    {
+      "lesson": "g3up-2026-u4-kp2",
+      "id": 40012,
+      "kind": "exact_arithmetic",
+      "computed": "1272",
+      "answer": "1272",
+      "question": "计算：318×4＝？"
+    },
+    {
+      "lesson": "g3up-2026-u4-kp3",
+      "id": 40014,
+      "kind": "exact_arithmetic",
+      "computed": "1008",
+      "answer": "1008",
+      "question": "计算：504×2＝？"
+    },
+    {
+      "lesson": "g3up-2026-u4-kp3",
+      "id": 40015,
+      "kind": "exact_arithmetic",
+      "computed": "530",
+      "answer": "530",
+      "question": "计算：106×5＝？"
+    },
+    {
+      "lesson": "g3up-2026-u4-kp3",
+      "id": 40017,
+      "kind": "exact_arithmetic",
+      "computed": "840",
+      "answer": "840",
+      "question": "计算：280×3＝？"
+    },
+    {
+      "lesson": "g3up-2026-u7-kp1",
+      "id": 70002,
+      "kind": "exact_arithmetic",
+      "computed": "26",
+      "answer": "26",
+      "question": "计算18-7+15。"
+    },
+    {
+      "lesson": "g3up-2026-u7-kp1",
+      "id": 70005,
+      "kind": "exact_arithmetic",
+      "computed": "1304",
+      "answer": "1304",
+      "question": "计算326×4。"
+    },
+    {
+      "lesson": "g4up-u1-kp1",
+      "id": 15,
+      "kind": "digit_place",
+      "computed": "万位",
+      "answer": "万位",
+      "question": "在数560000中，数字6所在的数位是（ ）。"
+    },
+    {
+      "lesson": "g4up-u9-kp1",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "4800",
+      "answer": "4800",
+      "question": "计算：120 × 40 = ?"
+    },
+    {
+      "lesson": "g4up-u9-kp1",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "32",
+      "answer": "32",
+      "question": "计算：672 ÷ 21 = ?"
+    },
+    {
+      "lesson": "g4up-2026-u3-exam",
+      "id": 39002,
+      "kind": "exact_arithmetic",
+      "computed": "9128",
+      "answer": "9128",
+      "question": "计算326×28。"
+    },
+    {
+      "lesson": "g4up-2026-u3-exam",
+      "id": 39003,
+      "kind": "exact_arithmetic",
+      "computed": "24000",
+      "answer": "24000",
+      "question": "计算600×40。"
+    },
+    {
+      "lesson": "g4up-2026-u3-kp2",
+      "id": 30007,
+      "kind": "exact_arithmetic",
+      "computed": "6156",
+      "answer": "6156",
+      "question": "计算342×18。"
+    },
+    {
+      "lesson": "g4up-2026-u3-kp2",
+      "id": 30011,
+      "kind": "exact_arithmetic",
+      "computed": "24708",
+      "answer": "24708",
+      "question": "计算2059×12。"
+    },
+    {
+      "lesson": "g4up-2026-u3-kp3",
+      "id": 30013,
+      "kind": "exact_arithmetic",
+      "computed": "7200",
+      "answer": "7200",
+      "question": "计算180×40。"
+    },
+    {
+      "lesson": "g5up-u1-kp4",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "17",
+      "answer": "17",
+      "question": "计算：4×0.25×17=？"
+    },
+    {
+      "lesson": "g5up-2026-u2-exam",
+      "id": 29005,
+      "kind": "exact_arithmetic",
+      "computed": "23/5",
+      "answer": "4.6",
+      "question": "计算：2.5×1.6＋2.5×0.4－0.4。"
+    },
+    {
+      "lesson": "g5up-2026-u2-kp1",
+      "id": 20005,
+      "kind": "exact_arithmetic",
+      "computed": "192/5",
+      "answer": "38.4",
+      "question": "计算：0.64×60。"
+    },
+    {
+      "lesson": "g5up-2026-u2-kp2",
+      "id": 20007,
+      "kind": "exact_arithmetic",
+      "computed": "129/50",
+      "answer": "2.58",
+      "question": "计算：4.3×0.6。"
+    },
+    {
+      "lesson": "g5up-2026-u2-kp2",
+      "id": 20009,
+      "kind": "exact_arithmetic",
+      "computed": "87/2500",
+      "answer": "0.0348",
+      "question": "计算：0.58×0.06。"
+    },
+    {
+      "lesson": "g5up-2026-u2-kp3",
+      "id": 20014,
+      "kind": "exact_arithmetic",
+      "computed": "3/500",
+      "answer": "0.006",
+      "question": "计算：0.06×0.1。"
+    },
+    {
+      "lesson": "g5up-2026-u2-kp3",
+      "id": 20017,
+      "kind": "exact_arithmetic",
+      "computed": "1377/5000",
+      "answer": "0.2754",
+      "question": "计算：0.34×0.81。"
+    },
+    {
+      "lesson": "g5up-2026-u3-kp1",
+      "id": 30002,
+      "kind": "exact_arithmetic",
+      "computed": "7/2",
+      "answer": "3.5",
+      "question": "计算14÷4。"
+    },
+    {
+      "lesson": "g5up-2026-u3-kp2",
+      "id": 30010,
+      "kind": "exact_arithmetic",
+      "computed": "8",
+      "answer": "8",
+      "question": "计算1.44÷0.18。"
+    },
+    {
+      "lesson": "g5up-2026-u3-kp3",
+      "id": 30013,
+      "kind": "exact_arithmetic",
+      "computed": "3/100",
+      "answer": "0.03",
+      "question": "计算0.12÷4。"
+    },
+    {
+      "lesson": "g5up-2026-u3-kp3",
+      "id": 30015,
+      "kind": "exact_arithmetic",
+      "computed": "2/5",
+      "answer": "0.4",
+      "question": "计算4.8÷12。"
+    },
+    {
+      "lesson": "g5up-2026-u8-kp1",
+      "id": 80002,
+      "kind": "exact_arithmetic",
+      "computed": "26/5",
+      "answer": "5.2",
+      "question": "计算：（6.4－2.8）÷0.6－0.8。"
+    },
+    {
+      "lesson": "g6up-2026-u101-kp4",
+      "id": 1010019,
+      "kind": "exact_arithmetic",
+      "computed": "-5",
+      "answer": "-5",
+      "question": "计算：7-12。"
+    },
+    {
+      "lesson": "g1down-u1-exam",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "50",
+      "answer": "50",
+      "question": "20 + 30 = ?"
+    },
+    {
+      "lesson": "g1down-u1-kp1",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "13",
+      "answer": "13",
+      "question": "5 + 8 = ?"
+    },
+    {
+      "lesson": "g1down-u1-kp1",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "8",
+      "answer": "8",
+      "question": "15 - 7 = ?"
+    },
+    {
+      "lesson": "g1down-u2-kp2",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "8",
+      "answer": "8",
+      "question": "计算：13－5＝？"
+    },
+    {
+      "lesson": "g1down-u5-exam",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "50",
+      "answer": "50",
+      "question": "70 - 20 = ___"
+    },
+    {
+      "lesson": "g1down-u5-kp3",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "90",
+      "answer": "90",
+      "question": "40 + 50 = ___"
+    },
+    {
+      "lesson": "g1down-u5-kp3",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "70",
+      "answer": "70",
+      "question": "100 - 30 = ___"
+    },
+    {
+      "lesson": "g1down-2026-u2-exam",
+      "id": 29001,
+      "kind": "exact_arithmetic",
+      "computed": "9",
+      "answer": "9",
+      "question": "计算：18－9＝？"
+    },
+    {
+      "lesson": "g1down-2026-u2-kp1",
+      "id": 20001,
+      "kind": "exact_arithmetic",
+      "computed": "8",
+      "answer": "8",
+      "question": "计算：14－6＝？"
+    },
+    {
+      "lesson": "g1down-2026-u2-kp5",
+      "id": 20025,
+      "kind": "exact_arithmetic",
+      "computed": "7",
+      "answer": "7",
+      "question": "计算：11－4＝？"
+    },
+    {
+      "lesson": "g1down-2026-u4-exam",
+      "id": 49004,
+      "kind": "exact_arithmetic",
+      "computed": "32",
+      "answer": "32",
+      "question": "计算67−35。"
+    },
+    {
+      "lesson": "g1down-2026-u4-kp1",
+      "id": 40001,
+      "kind": "exact_arithmetic",
+      "computed": "50",
+      "answer": "50",
+      "question": "30＋20＝？"
+    },
+    {
+      "lesson": "g1down-2026-u4-kp2",
+      "id": 40007,
+      "kind": "exact_arithmetic",
+      "computed": "29",
+      "answer": "29",
+      "question": "26＋3＝？"
+    },
+    {
+      "lesson": "g1down-2026-u4-kp3",
+      "id": 40014,
+      "kind": "exact_arithmetic",
+      "computed": "46",
+      "answer": "46",
+      "question": "50−4＝？"
+    },
+    {
+      "lesson": "g1down-2026-u4-kp4",
+      "id": 40019,
+      "kind": "exact_arithmetic",
+      "computed": "56",
+      "answer": "56",
+      "question": "32＋24＝？"
+    },
+    {
+      "lesson": "g1down-2026-u7-kp3",
+      "id": 70013,
+      "kind": "exact_arithmetic",
+      "computed": "55",
+      "answer": "55",
+      "question": "计算：62－7＝？"
+    },
+    {
+      "lesson": "g1down-2026-u7-kp3",
+      "id": 70015,
+      "kind": "exact_arithmetic",
+      "computed": "27",
+      "answer": "27",
+      "question": "计算：56－29＝？"
+    },
+    {
+      "lesson": "g3down-u2-kp5",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "207",
+      "answer": "207",
+      "question": "计算：621÷3="
+    },
+    {
+      "lesson": "g3down-u6-exam",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "20",
+      "answer": "20",
+      "question": "12 + 8 = ?"
+    },
+    {
+      "lesson": "g3down-u6-kp1",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "365",
+      "answer": "365",
+      "question": "31 * 7 + 30 * 4 + 28 = ?"
+    },
+    {
+      "lesson": "g3down-u6-kp3",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "17",
+      "answer": "17",
+      "question": "24 - 7 = ?"
+    },
+    {
+      "lesson": "g3down-2026-u2-kp4",
+      "id": 20020,
+      "kind": "exact_arithmetic",
+      "computed": "0",
+      "answer": "0",
+      "question": "计算0÷7。"
+    },
+    {
+      "lesson": "g3down-2026-u2-kp4",
+      "id": 20024,
+      "kind": "exact_arithmetic",
+      "computed": "180",
+      "answer": "180",
+      "question": "计算720÷4。"
+    },
+    {
+      "lesson": "g3down-2026-u6-exam",
+      "id": 69004,
+      "kind": "exact_arithmetic",
+      "computed": "31/5",
+      "answer": "6.2",
+      "question": "计算：2.7＋3.5。"
+    },
+    {
+      "lesson": "g4down-u3-kp3",
+      "id": 22,
+      "kind": "exact_arithmetic",
+      "computed": "3900",
+      "answer": "3900",
+      "question": "计算：25×39×4=？"
+    },
+    {
+      "lesson": "g4down-u6-kp3",
+      "id": 23,
+      "kind": "exact_arithmetic",
+      "computed": "64",
+      "answer": "64",
+      "question": "计算：44+12.5+7.5=？"
+    }
+  ]
+}

@@ -40,8 +40,8 @@ export function LearnerProfiles() {
       </button>)}
     </div>
     {activeId && <div className="flex flex-wrap gap-4 mt-4 text-sm font-bold text-primary">
-      <button type="button" disabled={switching} onClick={() => { setMode("create"); setName(""); setError(""); }}>添加孩子</button>
-      <button type="button" disabled={switching} onClick={() => { setMode("rename"); setName(profiles.find(p => p.id === activeId)?.name ?? ""); setError(""); }}>修改当前名字</button>
+      <button type="button" className="min-h-11 min-w-11 px-2" disabled={switching} onClick={() => { setMode("create"); setName(""); setError(""); }}>添加孩子</button>
+      <button type="button" className="min-h-11 min-w-11 px-2" disabled={switching} onClick={() => { setMode("rename"); setName(profiles.find(p => p.id === activeId)?.name ?? ""); setError(""); }}>修改当前名字</button>
     </div>}
     {mode && <form onSubmit={save} className="mt-4 flex flex-wrap items-end gap-2">
       <label className="flex flex-col gap-1 text-sm text-ink flex-1 min-w-0">{mode === "create" ? "新档案名字" : "当前档案名字"}
