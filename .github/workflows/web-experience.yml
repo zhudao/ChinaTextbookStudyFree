@@ -44,6 +44,7 @@ jobs:
           python3 scripts/checks/ux-content-arithmetic.py
           npx tsx scripts/check-lesson-revisions.ts --content-only
           npx tsx scripts/checks/ux-content.ts --allow-missing-audio
+          npx tsx scripts/checks/pinyin-speech.ts
           npm run check:learning-quality
       - name: Narration and offline transport
         run: |

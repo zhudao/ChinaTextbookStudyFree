@@ -755,7 +755,7 @@ struct LessonRunnerView: View {
     /// queue as of "after this question" — a wrong answer already re-appended
     /// the question to the tail, so resuming never re-asks the front card.
     private func persistSession() {
-        guard index + 1 <= queue.count else { return }
+        guard let lesson, index + 1 <= queue.count else { return }
         let remaining = queue[(index + 1)...].map(\.id)
         // 全部答完（结算在即）就没有可恢复的会话了。
         guard solvedIDs.count < originalTotal, !remaining.isEmpty else { return }
@@ -768,7 +768,8 @@ struct LessonRunnerView: View {
             combo: combo,
             maxCombo: maxCombo,
             sessionXp: sessionXp,
-            startedAt: sessionStartedAt
+            startedAt: sessionStartedAt,
+            contentKey: LessonSessionCompatibility.contentKey(lesson)
         ))
     }
 
@@ -778,7 +779,7 @@ struct LessonRunnerView: View {
         let byId = Dictionary(uniqueKeysWithValues: lesson.questions.map { ($0.id, $0) })
         let restoredQueue = session.queueIds.compactMap { byId[$0] }
         // 课程内容更新导致队列失效 → 放弃恢复，从头来。
-        guard !restoredQueue.isEmpty else {
+        guard !restoredQueue.isEmpty, LessonSessionCompatibility.canResume(session, lesson: lesson) else {
             progressStore.clearLessonSession()
             return
         }
@@ -855,7 +856,11 @@ struct LessonRunnerView: View {
             // 检测挂起会话（ios-lesson-3）：有实际进度才值得弹恢复层。
             if let session = progressStore.activeSession(for: lessonId),
                !session.solvedIds.isEmpty || !session.missedIds.isEmpty {
-                self.pendingResume = session
+                if LessonSessionCompatibility.canResume(session, lesson: l) {
+                    self.pendingResume = session
+                } else {
+                    progressStore.clearLessonSession()
+                }
             }
             // 课前知识讲解（content-2）：该课未完成、没看过讲解、也没有挂起
             // 会话（恢复优先）时，先进分步讲解再做题。

@@ -29,6 +29,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from math_speech import math_speech
+from pinyin_speech import pinyin_speech, identity as pinyin_identity, audio_rel as pinyin_audio_rel, CONTEXT as PINYIN_CONTEXT
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "output"
@@ -45,7 +46,7 @@ GRADE_MAP = {"一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6}
 
 def parse_grade(filename: str) -> int | None:
     m = GRADE_RE.search(filename)
-    return GRADE_MAP[m.group(1)] if m else None
+    return GRADE_MAP[m.group(1)] if m else (int(n.group(1)) if (n := re.search(r"(?:^|-)g([1-6])(?:up|down)(?:-|$)", filename)) else None)
 
 
 # ---------------------------------------------------------------------------
@@ -55,7 +56,9 @@ HAN_RE = re.compile(r"[\u4e00-\u9fff]")
 LATIN_RE = re.compile(r"[A-Za-z]")
 
 
-def detect_language(text: str, subject: str) -> str:
+def detect_language(text: str, subject: str, grade: int | None = None) -> str:
+    if subject == "chinese" and grade in (None, 1) and pinyin_speech(text) is not None:
+        return "Chinese"
     if HAN_RE.search(text):
         return "Chinese"
     if LATIN_RE.search(text):
@@ -175,6 +178,13 @@ def text_hash(text: str) -> str:
     return hashlib.sha1(text.encode("utf-8")).hexdigest()
 
 
+def speech_metadata(text: str, subject: str, grade: int) -> dict:
+    spoken = pinyin_speech(text) if subject == "chinese" and grade == 1 else None
+    h = text_hash(pinyin_identity(text, spoken)) if spoken is not None else text_hash(text)
+    return {"hash": h, "audio_rel": pinyin_audio_rel(text, spoken) if spoken is not None else f"{h[:2]}/{h}.opus",
+            **({"spoken_text": spoken, "pronunciation_context": PINYIN_CONTEXT, "language": "Chinese"} if spoken is not None else {})}
+
+
 def is_speakable(text: str) -> bool:
     text = text.strip()
     if not text:
@@ -182,7 +192,7 @@ def is_speakable(text: str) -> bool:
     # 过滤过长或纯标点
     if len(text) > 400:
         return False
-    if not (HAN_RE.search(text) or LATIN_RE.search(text) or any(c.isdigit() for c in text)):
+    if not (HAN_RE.search(text) or LATIN_RE.search(text) or re.search(r"[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜüɑɡ]", text) or any(c.isdigit() for c in text)):
         return False
     return True
 
@@ -217,15 +227,18 @@ def collect():
                 text = normalize(text or "")
                 if not is_speakable(text):
                     return
-                h = text_hash(text)
+                metadata = speech_metadata(text, subject, grade)
+                spoken = metadata.get("spoken_text")
+                h = metadata["hash"]
                 if h in seen:
                     return
-                lang = detect_language(text, subject)
+                lang = detect_language(text, subject, grade)
                 speaker, instruction = pick_profile(subject, grade, lang)
                 seen[h] = {
                     "hash": h,
                     "text": text,
-                    "audio_rel": f"{h[:2]}/{h}.opus",
+                    "audio_rel": pinyin_audio_rel(text, spoken) if spoken is not None else f"{h[:2]}/{h}.opus",
+                    **({"spoken_text": spoken, "pronunciation_context": PINYIN_CONTEXT} if spoken is not None else {}),
                     "language": lang,
                     "speaker": speaker,
                     "instruction": instruction,
@@ -285,7 +298,8 @@ def collect():
                     text = normalize(sentence or "")
                     if not is_speakable(text):
                         continue
-                    h = text_hash(text)
+                    metadata = speech_metadata(text, subject, grade)
+                    h = metadata["hash"]
                     if forced_speaker:
                         speaker = forced_speaker
                         _, instruction = pick_profile(subject, grade, plang)
@@ -306,7 +320,7 @@ def collect():
                             existing["field"] = "passage_sentence"
                             existing["speaker"] = speaker
                             existing["instruction"] = instruction
-                            existing["language"] = plang
+                            existing["language"] = metadata.get("language", plang)
                             existing["passage_id"] = pid
                             existing["sentence_index"] = si
                             stats["per_field"]["passage_sentence"] = (
@@ -317,8 +331,8 @@ def collect():
                     seen[h] = {
                         "hash": h,
                         "text": text,
-                        "audio_rel": f"{h[:2]}/{h}.opus",
-                        "language": plang,
+                        **metadata,
+                        "language": metadata.get("language", plang),
                         "speaker": speaker,
                         "instruction": instruction,
                         "field": "passage_sentence",
@@ -358,15 +372,16 @@ def collect():
                     text = normalize(sentence or "")
                     if not is_speakable(text):
                         continue
-                    h = text_hash(text)
+                    metadata = speech_metadata(text, subject, grade)
+                    h = metadata["hash"]
                     if h in seen:
                         continue
                     speaker, instruction = pick_profile(subject, grade, slang)
                     seen[h] = {
                         "hash": h,
                         "text": text,
-                        "audio_rel": f"{h[:2]}/{h}.opus",
-                        "language": slang,
+                        **metadata,
+                        "language": metadata.get("language", slang),
                         "speaker": speaker,
                         "instruction": instruction,
                         "field": "story_sentence",

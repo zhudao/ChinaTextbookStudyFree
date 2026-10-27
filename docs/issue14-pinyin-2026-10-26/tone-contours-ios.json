@@ -1,0 +1,146 @@
+{
+  "status": "passed",
+  "source": "actual iOS ZIP members",
+  "encodedOptions": 4,
+  "completeVowels": 16,
+  "allToneOrdersCorrect": true,
+  "teacherAcceptanceClaimed": false,
+  "items": [
+    {
+      "text": "ā á ǎ à",
+      "zipMember": "audio/77/77e32a6fb6ecaa04db3aaa4e34b4bc2ad38d59fd.pinyin-3aa43e7de6137e5a.m4a",
+      "measuredContours": [
+        {
+          "vowel": "ā",
+          "tone": 1,
+          "startHz": 259.9,
+          "endHz": 259.9,
+          "minHz": 259.0
+        },
+        {
+          "vowel": "á",
+          "tone": 2,
+          "startHz": 187.1,
+          "endHz": 299.2,
+          "minHz": 184.9
+        },
+        {
+          "vowel": "ǎ",
+          "tone": 3,
+          "startHz": 222.8,
+          "endHz": 184.2,
+          "minHz": 135.7
+        },
+        {
+          "vowel": "à",
+          "tone": 4,
+          "startHz": 327.1,
+          "endHz": 176.6,
+          "minHz": 171.1
+        }
+      ]
+    },
+    {
+      "text": "á ā à ǎ",
+      "zipMember": "audio/c7/c781e1c7b5df20f6e8d6ba798e06049cd5b30c58.pinyin-eb79fbff418b6bc2.m4a",
+      "measuredContours": [
+        {
+          "vowel": "á",
+          "tone": 2,
+          "startHz": 186.9,
+          "endHz": 299.4,
+          "minHz": 185.7
+        },
+        {
+          "vowel": "ā",
+          "tone": 1,
+          "startHz": 259.9,
+          "endHz": 260.4,
+          "minHz": 258.0
+        },
+        {
+          "vowel": "à",
+          "tone": 4,
+          "startHz": 326.5,
+          "endHz": 174.8,
+          "minHz": 166.4
+        },
+        {
+          "vowel": "ǎ",
+          "tone": 3,
+          "startHz": 227.4,
+          "endHz": 184.1,
+          "minHz": 135.6
+        }
+      ]
+    },
+    {
+      "text": "à ǎ á ā",
+      "zipMember": "audio/f4/f481703b003a40135bfe4b6624c3304cf67f3853.pinyin-dc2ca67569b385a2.m4a",
+      "measuredContours": [
+        {
+          "vowel": "à",
+          "tone": 4,
+          "startHz": 325.4,
+          "endHz": 174.4,
+          "minHz": 166.9
+        },
+        {
+          "vowel": "ǎ",
+          "tone": 3,
+          "startHz": 222.0,
+          "endHz": 183.9,
+          "minHz": 135.6
+        },
+        {
+          "vowel": "á",
+          "tone": 2,
+          "startHz": 186.8,
+          "endHz": 299.4,
+          "minHz": 185.2
+        },
+        {
+          "vowel": "ā",
+          "tone": 1,
+          "startHz": 260.2,
+          "endHz": 260.3,
+          "minHz": 258.5
+        }
+      ]
+    },
+    {
+      "text": "ǎ à ā á",
+      "zipMember": "audio/35/35fb9102982041fd522265691ec9f7dd60e8e481.pinyin-f64a544d4497e822.m4a",
+      "measuredContours": [
+        {
+          "vowel": "ǎ",
+          "tone": 3,
+          "startHz": 222.2,
+          "endHz": 176.8,
+          "minHz": 135.6
+        },
+        {
+          "vowel": "à",
+          "tone": 4,
+          "startHz": 326.4,
+          "endHz": 176.2,
+          "minHz": 169.7
+        },
+        {
+          "vowel": "ā",
+          "tone": 1,
+          "startHz": 260.6,
+          "endHz": 260.2,
+          "minHz": 258.9
+        },
+        {
+          "vowel": "á",
+          "tone": 2,
+          "startHz": 186.5,
+          "endHz": 296.1,
+          "minHz": 185.4
+        }
+      ]
+    }
+  ]
+}

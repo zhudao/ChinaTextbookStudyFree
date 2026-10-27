@@ -6,7 +6,7 @@ struct ReviewView: View {
     @Binding var path: [AppRoute]
 
     var body: some View {
-        let due = progressStore.dueMistakes
+        let due = ReviewContentResolver.currentEntries(progressStore.dueMistakes, preserveUnavailable: true)
         let all = progressStore.progress.mistakesBank
 
         ScrollView {

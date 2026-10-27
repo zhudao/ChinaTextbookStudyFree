@@ -6,6 +6,11 @@ struct MistakeReviewRunnerView: View {
     @ObservedObject var progressStore: ProgressStore
     @Binding var path: [AppRoute]
 
+    @ObservedObject private var downloader = AssetDownloader.shared
+    @State private var preparing = true
+    @State private var downloadEntry: ManifestEntry?
+    @State private var preparationError: String?
+
     @State private var queue: [MistakeEntry] = []
     @State private var index: Int = 0
     @State private var phase: LessonRunnerView.QuestionPhase = .answering
@@ -24,7 +29,19 @@ struct MistakeReviewRunnerView: View {
 
     var body: some View {
         Group {
-            if queue.isEmpty {
+            if let entry = downloadEntry {
+                VStack(spacing: 16) {
+                    Text("先更新语文教材，再复习拼音").duoFont(.heading)
+                    BookDownloadCard(entry: entry, downloader: downloader) { Task { await prepareReview() } }
+                }.padding(20)
+            } else if let error = preparationError {
+                VStack(spacing: 16) {
+                    Text(error).duoFont(.body)
+                    Button("重试") { Task { await prepareReview() } }.buttonStyle(ChunkyButtonStyle(.secondary))
+                }.padding(20)
+            } else if preparing {
+                ProgressView("正在准备错题…")
+            } else if queue.isEmpty {
                 emptyState
             } else if index >= queue.count {
                 summary
@@ -36,8 +53,47 @@ struct MistakeReviewRunnerView: View {
         .navigationTitle("错题复习")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar { ToolbarItem(placement: .topBarTrailing) { MuteToggle() } }
-        .onAppear { if queue.isEmpty { queue = progressStore.dueMistakes } }
+        .task { if queue.isEmpty { await prepareReview() } }
         .onDisappear { AudioPlayer.shared.stop() }
+    }
+
+    @MainActor
+    private func prepareReview() async {
+        preparing = true
+        preparationError = nil
+        downloadEntry = nil
+        defer { preparing = false }
+        let due = progressStore.dueMistakes
+        let books = Set(due.compactMap { Backup.bookId(fromLessonId: $0.lessonId) }.filter(ReviewContentResolver.isPinyinBook))
+        func ready(_ book: String) -> Bool {
+            let directory = DataLoader.shared.sandboxDataRoot.appendingPathComponent("books/\(book)")
+            return downloader.isBookDownloaded(book) && ReviewContentResolver.hasPinyinReferences(in: directory)
+        }
+        if !books.isEmpty && !books.allSatisfy(ready) {
+            // Old cached manifests cannot authorize old letter audio. Updated
+            // local books remain reviewable offline without a network wait.
+            let fetched: Bool
+            do {
+                try await withThrowingTaskGroup(of: Void.self) { group in
+                    defer { group.cancelAll() }
+                    group.addTask { @MainActor in _ = try await downloader.loadManifest() }
+                    group.addTask { try await Task.sleep(nanoseconds: 10_000_000_000); throw URLError(.timedOut) }
+                    _ = try await group.next()
+                }
+                fetched = true
+            } catch { fetched = false }
+            for book in books.sorted() {
+                if !ready(book) {
+                    guard fetched, let entry = downloader.manifest?.books.first(where: { $0.bookId == book }) else {
+                        preparationError = "请联网更新语文教材资源后，再复习拼音。原错题和成绩已保留。"
+                        return
+                    }
+                    downloadEntry = entry
+                    return
+                }
+            }
+        }
+        queue = ReviewContentResolver.currentEntries(due)
     }
 
     private var emptyState: some View {

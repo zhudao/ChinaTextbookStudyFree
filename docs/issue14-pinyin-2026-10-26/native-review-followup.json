@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "scope": "iOS client source follow-up;release Web/resources unchanged",
+  "nativeUnitTests": 223,
+  "addedReviewTests": 5,
+  "oldSnapshotRefresh": true,
+  "currentQuestionAudioAndAnswer": true,
+  "srsFieldsPreserved": true,
+  "oldResourceDownloadGate": true,
+  "updatedResourceOfflineReview": true,
+  "buildFrom": "latest main",
+  "resourceTag": "v1.7.2-ios-resources",
+  "publishedArchivesModified": false,
+  "deviceAcceptanceClaimed": false
+}

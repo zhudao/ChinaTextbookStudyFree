@@ -40,6 +40,7 @@ import random
 import re
 import sys
 import time
+from pinyin_speech import pinyin_speech, needs_render, audio_rel as pinyin_audio_rel, CONTEXT as PINYIN_CONTEXT, VOICE as PINYIN_VOICE, RATE as PINYIN_RATE
 from pathlib import Path
 
 try:
@@ -124,12 +125,27 @@ class RequestLimiter:
 
 
 def pick_voice(item: dict, voice_zh: str, voice_en: str) -> str:
+    if item.get("pronunciation_context") == PINYIN_CONTEXT:
+        if item.get("language") != "Chinese":
+            raise ValueError("Pinyin speech requires Chinese language metadata")
+        return PINYIN_VOICE
     speaker = item.get("speaker")
     if speaker in SPEAKER_MAP:
         return SPEAKER_MAP[speaker]
     if item.get("language") == "English":
         return voice_en
     return voice_zh
+
+
+def validate_pinyin_job(item: dict) -> None:
+    if item.get("pronunciation_context") != PINYIN_CONTEXT:
+        return
+    source = item.get("text", "")
+    planned = pinyin_speech(source)
+    if (planned is None or item.get("spoken_text") != planned
+            or item.get("audio_rel") != pinyin_audio_rel(source, planned)
+            or item.get("language") != "Chinese"):
+        raise ValueError("pinyin speech plan/path/language mismatch")
 
 
 async def synth_one(
@@ -148,6 +164,12 @@ async def synth_one(
 ) -> tuple[bool, str]:
     """合成一条；返回 (成功与否, 错误信息)。已存在则跳过。"""
     out_path = audio_root / item["audio_rel"]
+    if item.get("pronunciation_context") == PINYIN_CONTEXT:
+        try:
+            validate_pinyin_job(item)
+        except ValueError as error:
+            return False, str(error)
+        rate, volume, pitch = PINYIN_RATE, "+0%", "+0Hz"
     if out_path.exists():
         return True, "skip"
 
@@ -155,6 +177,11 @@ async def synth_one(
     text = item.get("text", "")
     if not text:
         return False, "empty text"
+    if item.get("pronunciation_context") == PINYIN_CONTEXT:
+        planned = pinyin_speech(text)
+        if planned is None or item.get("spoken_text") != planned:
+            return False, "pinyin speech plan mismatch"
+        text = planned
 
     last_err = ""
     for attempt in range(max_retries):
@@ -163,13 +190,24 @@ async def synth_one(
             if attempt:
                 limiter.retries += 1
         try:
-            communicate = edge_tts.Communicate(
-                text=spoken_text(text), voice=voice, rate=rate, volume=volume, pitch=pitch
-            )
-            audio = bytearray()
-            async for chunk in communicate.stream():
-                if chunk.get("type") == "audio":
-                    audio.extend(chunk["data"])
+            async def stream(fragment):
+                communicate = edge_tts.Communicate(
+                    text=spoken_text(fragment), voice=voice, rate=rate, volume=volume, pitch=pitch
+                )
+                content = bytearray()
+                async for chunk in communicate.stream():
+                    if chunk.get('type') == 'audio':
+                        content.extend(chunk['data'])
+                return bytes(content)
+            if item.get('pronunciation_context') == PINYIN_CONTEXT and needs_render(text):
+                from pinyin_render import render
+                async def fragment_stream(fragment):
+                    if limiter is not None:
+                        await limiter.wait()
+                    return await stream(fragment)
+                audio = await render(text, fragment_stream)
+            else:
+                audio = await stream(text)
             if not audio:
                 last_err = "empty audio stream"
             else:
@@ -211,6 +249,8 @@ async def run(args: argparse.Namespace) -> int:
     items = [it for i, it in enumerate(items) if i % m == n]
 
     audio_root = Path(args.audio_root)
+    for item in items:
+        validate_pinyin_job(item)
     pending = [it for it in items if not (audio_root / it["audio_rel"]).exists()]
     skipped = len(items) - len(pending)
     if args.limit:

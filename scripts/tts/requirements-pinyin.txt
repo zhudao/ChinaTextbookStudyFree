@@ -1,0 +1,4 @@
+# Generation / acoustic verification only. Published apps need none of these.
+edge-tts==7.3.1
+numpy==2.5.4
+praat-parselmouth==0.4.7

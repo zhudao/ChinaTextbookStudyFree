@@ -133,6 +133,8 @@ def main():
     items = [it for i, it in enumerate(items) if i % shard_m == shard_n]
 
     audio_root = Path(args.audio_root)
+    if any(it.get('pronunciation_context') for it in items):
+        sys.exit('Pinyin-context jobs require edge_tts_batch.py with the pinned voice policy.')
 
     # 跳过已存在
     pending = [it for it in items if not (audio_root / it["audio_rel"]).exists()]

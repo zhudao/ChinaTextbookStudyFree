@@ -109,6 +109,18 @@
       "previous_questions_sha256": "7ad5bdd232b17d6a2b02cbdd06dda7068869031603e24979e147bff30e4f4e33",
       "approved_content_sha256": "8336956310c041601147414de8d0d9aa1b20bb15c3fa5e8ccfc6d148a8040094",
       "reason": "Independent place-value check: in 560000 the digit 6 is fifth from the right (万位); 5 is sixth (十万位). Correct current grading and explanation without regrading historical completions."
+    },
+    {
+      "lesson_id": "chinese-g1up-u3-kp2",
+      "question_id": 18,
+      "approved_content_sha256": "08ce8627c5e48e548c0bd7fa8827fe413bba37779857ee23de41168fd7193a47",
+      "reason": "See docs/issue14-pinyin-2026-10-26/content-fixes.json; old completed grades are not regraded."
+    },
+    {
+      "lesson_id": "chinese-g1up-u3-kp2",
+      "question_id": 19,
+      "approved_content_sha256": "a1ba35a06df88cd8933d1b131c691eae943ab12eb4a0b5483384de51d2ab095b",
+      "reason": "See docs/issue14-pinyin-2026-10-26/content-fixes.json; old completed grades are not regraded."
     }
   ],
   "lessons": [
@@ -1172,7 +1184,7 @@
         21,
         22
       ],
-      "questions_sha256": "287b25204b23441b3c1e2be624e930fc0956a50732794a6a037ef9b0455dd8a0",
+      "questions_sha256": "21be6d0ad68b7cd616fb0aaee7b57675ee7c82fcdf51a4175387e5e5f5750ccb",
       "knowledge_sha256": "3ed877f5984641ea5bf297acb8f44bfb675e0948de69590871e280de1fbe7983"
     },
     {

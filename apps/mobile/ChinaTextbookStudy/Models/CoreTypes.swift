@@ -331,6 +331,8 @@ struct ActiveLessonSession: Codable, Hashable {
     /// 本会话内已累计展示的 XP（结算时以 store 计算为准）。
     var sessionXp: Int
     var startedAt: String               // ISO8601
+    /// Audio is excluded; existing backups without this field remain readable.
+    var contentKey: String? = nil
 }
 
 /// 上一周联赛的结算结果（Wave E1）—— 存档持久化，直到 UI 弹过结算幕后清除。

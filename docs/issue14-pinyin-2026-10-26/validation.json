@@ -1,0 +1,43 @@
+{
+  "status": "automated-local-verification-passed",
+  "version": "v1.7.2",
+  "publication": "pending;follow final-acceptance record",
+  "coreTests": 231,
+  "nativeUnitTests": 218,
+  "pythonPinyinTests": 5,
+  "existingEdgeTests": 23,
+  "phoneticFields": 473,
+  "livePronunciations": 386,
+  "generatedPronunciations": 437,
+  "directEdgeClips": 382,
+  "locallyRenderedToneClips": 55,
+  "newPlainChineseClips": 3,
+  "mp3AndIOSFourToneOptions": 4,
+  "completeVowelsPerFormat": 16,
+  "allToneOrdersCorrect": true,
+  "englishJSONUnchanged": 737,
+  "historicalMediaUnchanged": 329216,
+  "books": 58,
+  "currentBooks": 44,
+  "retainedOldBooks": 14,
+  "regularLessons": 2863,
+  "regularQuestions": 18159,
+  "newSnapshot": {
+    "status": "passed",
+    "files": 343533,
+    "bytes": 12933829304,
+    "media_references": {
+      "textbook-pages": 2625,
+      "audio": 143169,
+      "story-images": 284
+    },
+    "missing_media": 0,
+    "reusedVerifiedPriorMedia": 329216,
+    "newAudioPairs": 440,
+    "index_sha256": "2086eeaf09ee1efe5c3137ccf13cf0ad334d36fa404f0873018a3e51155aa43e",
+    "priorMediaTypes": 51352
+  },
+  "rawProfilesPublished": false,
+  "paidTtsUsed": false,
+  "teacherAcceptanceClaimed": false
+}

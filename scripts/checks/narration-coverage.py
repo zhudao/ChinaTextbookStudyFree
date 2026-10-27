@@ -4,9 +4,12 @@ import collections
 import hashlib
 import json
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0,str(ROOT / 'scripts/tts'))
+from pinyin_speech import pinyin_speech, identity, audio_rel, CONTEXT
 
 
 def main():
@@ -23,7 +26,15 @@ def main():
         errors.append("Duplicate manifest hashes")
     for item in items:
         digest = hashlib.sha1(item["text"].encode("utf-8")).hexdigest()
-        if digest != item["hash"] or item["audio_rel"] != f"{digest[:2]}/{digest}.opus":
+        expected_rel = f"{digest[:2]}/{digest}.opus"
+        if item.get('pronunciation_context') == CONTEXT:
+            spoken = pinyin_speech(item['text'])
+            if spoken is None or item.get('spoken_text') != spoken or item.get('language') != 'Chinese':
+                errors.append(f"Pinyin speech plan mismatch: {item['hash']}")
+                continue
+            digest = hashlib.sha1(identity(item['text'],spoken).encode()).hexdigest()
+            expected_rel = audio_rel(item['text'],spoken)
+        if digest != item["hash"] or item["audio_rel"] != expected_rel:
             errors.append(f"Hash/path mismatch: {item['hash']}")
             continue
         if re.search(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", item["text"]):

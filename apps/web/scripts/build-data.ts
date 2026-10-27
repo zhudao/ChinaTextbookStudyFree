@@ -12,6 +12,7 @@
  */
 
 import { createHash } from "crypto";
+import { pinyinSpeech, pinyinIdentity } from "../../../packages/core/src/pinyinSpeech";
 import { mathSpeech } from "../../../packages/core/src/mathSpeech";
 import { curateNumberSenseLesson } from "../../../packages/core/src/numberSense";
 import { existsSync, promises as fs } from "fs";
@@ -91,11 +92,14 @@ async function buildAudioIndex(): Promise<Set<string>> {
   return set;
 }
 
-function audioFor(text: string | undefined | null): string | undefined {
+function audioFor(text: string | undefined | null, pinyin = false): string | undefined {
   if (!text) return undefined;
   const norm = normalizeText(text);
   if (!norm) return undefined;
-  const rel = audioRel(norm);
+  const spoken = pinyin ? pinyinSpeech(norm) : null;
+  const sourceHash = textHash(norm);
+  const version = spoken == null ? null : createHash("sha256").update(pinyinIdentity(norm, spoken)).digest("hex").slice(0,16);
+  const rel = version ? `${sourceHash.slice(0,2)}/${sourceHash}.pinyin-${version}.opus` : audioRel(norm);
   if (audioIndex && audioIndex.has(rel)) return `/audio/${rel}`;
   return undefined;
 }
@@ -153,33 +157,35 @@ function sampleUniform<T>(items: T[], cap: number): T[] {
   return out;
 }
 
-function decorateQuestion(q: Question): Question {
+function decorateQuestion(q: Question, pinyin = false): Question {
   const audio: NonNullable<Question["audio"]> = {};
-  const qa = audioFor(q.question);
+  const qa = audioFor(q.question, pinyin);
   if (qa) audio.question = qa;
   if (q.options && q.options.length) {
-    const opts = q.options.map(o => audioFor(stripOptionPrefix(o)) ?? null);
+    const opts = q.options.map(o => audioFor(stripOptionPrefix(o), pinyin) ?? null);
     if (opts.some(Boolean)) audio.options = opts;
   }
-  const ea = audioFor(q.explanation);
+  const ea = audioFor(q.explanation, pinyin);
   if (ea) audio.explanation = ea;
   if (Object.keys(audio).length) q.audio = audio;
+  else if (pinyin) delete q.audio;
   return q;
 }
 
 function decorateKnowledge<T extends { point: string; core_concept: string; key_formula: string; tips: string; common_mistakes: string[]; audio?: unknown }>(
-  ks: T,
+  ks: T, pinyin = false,
 ): T {
   const audio: Record<string, unknown> = {};
-  const p = audioFor(ks.point); if (p) audio.point = p;
-  const c = audioFor(ks.core_concept); if (c) audio.core_concept = c;
-  const f = audioFor(ks.key_formula); if (f) audio.key_formula = f;
-  const t = audioFor(ks.tips); if (t) audio.tips = t;
+  const p = audioFor(ks.point, pinyin); if (p) audio.point = p;
+  const c = audioFor(ks.core_concept, pinyin); if (c) audio.core_concept = c;
+  const f = audioFor(ks.key_formula, pinyin); if (f) audio.key_formula = f;
+  const t = audioFor(ks.tips, pinyin); if (t) audio.tips = t;
   if (Array.isArray(ks.common_mistakes) && ks.common_mistakes.length) {
-    const cm = ks.common_mistakes.map(m => audioFor(m) ?? null);
+    const cm = ks.common_mistakes.map(m => audioFor(m, pinyin) ?? null);
     if (cm.some(Boolean)) audio.common_mistakes = cm;
   }
   if (Object.keys(audio).length) (ks as { audio?: unknown }).audio = audio;
+  else if (pinyin) delete ks.audio;
   return ks;
 }
 
@@ -306,7 +312,7 @@ async function buildPassages(): Promise<Set<string>> {
           pdfPage: info.pdfPage,
           pageImages,
           sentences: p.sentences.map(s => {
-            const audio = audioFor(s);
+            const audio = audioFor(s, /^chinese-g1(?:up|down)(?:-|$)/.test(bookId));
             if (audio) audioHit++;
             totalSentences++;
             return { text: s, audio };
@@ -350,17 +356,18 @@ async function buildPassages(): Promise<Set<string>> {
 // 输出到 public/data/books/{bookId}/stories.json
 // ============================================================
 
-function decorateStoryQuestion(q: StoryQuestion): StoryQuestion {
+function decorateStoryQuestion(q: StoryQuestion, pinyin = false): StoryQuestion {
   const audio: NonNullable<StoryQuestion["audio"]> = {};
-  const qa = audioFor(q.question);
+  const qa = audioFor(q.question, pinyin);
   if (qa) audio.question = qa;
   if (q.options && q.options.length) {
-    const opts = q.options.map(o => audioFor(o) ?? null);
+    const opts = q.options.map(o => audioFor(o, pinyin) ?? null);
     if (opts.some(Boolean)) audio.options = opts;
   }
-  const ea = audioFor(q.explanation);
+  const ea = audioFor(q.explanation, pinyin);
   if (ea) audio.explanation = ea;
   if (Object.keys(audio).length) q.audio = audio;
+  else if (pinyin) delete q.audio;
   return q;
 }
 
@@ -424,7 +431,7 @@ async function buildStories(): Promise<Set<string>> {
 
       const enriched: Story[] = doc.stories.map(s => {
         // decorate questions
-        s.questions.forEach(decorateStoryQuestion);
+        s.questions.forEach(q => decorateStoryQuestion(q, /^chinese-g1(?:up|down)(?:-|$)/.test(bookId)));
 
         // check for story image
         const imgPath = path.join(STORY_IMAGES_ROOT, bookId, `${s.id}.jpg`);
@@ -439,7 +446,7 @@ async function buildStories(): Promise<Set<string>> {
           title: s.title,
           language: s.language,
           sentences: s.sentences.map(text => {
-            const audio = audioFor(text);
+            const audio = audioFor(text, /^chinese-g1(?:up|down)(?:-|$)/.test(bookId));
             if (audio) audioHit++;
             totalSentences++;
             return { text, audio };
@@ -592,9 +599,10 @@ async function processTextbook(
       continue;
     }
 
-    quiz.knowledge_summary.forEach(decorateKnowledge);
-    quiz.unit_test.questions.forEach(q => decorateQuestion(normalizeQuestionType(q)));
-    quiz.exam?.questions?.forEach(q => decorateQuestion(normalizeQuestionType(q)));
+    const pinyin = subject.id === "chinese" && grade === 1;
+    quiz.knowledge_summary.forEach(ks => decorateKnowledge(ks, pinyin));
+    quiz.unit_test.questions.forEach(q => decorateQuestion(normalizeQuestionType(q), pinyin));
+    quiz.exam?.questions?.forEach(q => decorateQuestion(normalizeQuestionType(q), pinyin));
 
     const ksByPoint = new Map(quiz.knowledge_summary.map(ks => [ks.point, ks]));
     const allUnitQuestions = quiz.unit_test.questions;
@@ -663,8 +671,8 @@ async function processTextbook(
         };
         practiceLessons.push(practice);
         curated.legacyPracticeLessonId = practice.id;
-        curated.questions.forEach(decorateQuestion);
-        if (curated.knowledge) decorateKnowledge(curated.knowledge);
+        curated.questions.forEach(q => decorateQuestion(q, pinyin));
+        if (curated.knowledge) decorateKnowledge(curated.knowledge, pinyin);
         unitLessons[i] = curated;
       }
     }

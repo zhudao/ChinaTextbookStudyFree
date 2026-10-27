@@ -208,6 +208,8 @@ def main():
     items = [it for i, it in enumerate(items) if i % m == n]
 
     audio_root = Path(args.audio_root)
+    if any(it.get('pronunciation_context') for it in items):
+        sys.exit('Pinyin-context jobs require edge_tts_batch.py with the pinned voice policy.')
     pending = [it for it in items if not (audio_root / it["audio_rel"]).exists()]
     skipped = len(items) - len(pending)
     if args.limit:

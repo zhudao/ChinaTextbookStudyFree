@@ -61,7 +61,7 @@ final class AssetDownloader: ObservableObject {
 
     /// GitHub Release base URL. Update this when cutting a new iOS asset tag.
     /// The script outputs files like `audio-ios-<bookId>.zip` + `data-<bookId>.zip` + `ios-manifest.json`.
-    var releaseBaseURL = URL(string: "https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/download/v1.7.1-ios-resources")!
+    var releaseBaseURL = URL(string: "https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/download/v1.7.3-ios-resources")!
 
     @Published private(set) var manifest: IosManifest?
     @Published private(set) var bookProgress: [String: Double] = [:]   // bookId → 0...1
@@ -100,6 +100,7 @@ final class AssetDownloader: ObservableObject {
         try? FileManager.default.createDirectory(at: cacheRoot, withIntermediateDirectories: true)
         try? data.write(to: cacheRoot.appendingPathComponent("ios-manifest.json"))
         self.manifest = manifest
+        audioReadyCache.removeAll()
         return manifest
     }
 
@@ -110,7 +111,17 @@ final class AssetDownloader: ObservableObject {
               let m = try? JSONDecoder().decode(IosManifest.self, from: data) else {
             return nil
         }
+        // Bind legacy audio-only receipts to the manifest under which they were
+        // installed, before a newer network manifest replaces that evidence.
+        for entry in m.books where hasBookData(entry.bookId) {
+            let marker = audioMarkerURL(entry.bookId)
+            if let old = try? String(contentsOf: marker, encoding: .utf8),
+               old.trimmingCharacters(in: .whitespacesAndNewlines) == entry.audio.sha256 {
+                try? Self.bundleFingerprint(entry).write(to: marker, atomically: true, encoding: .utf8)
+            }
+        }
         self.manifest = m
+        audioReadyCache.removeAll()
         return m
     }
 
@@ -141,8 +152,13 @@ final class AssetDownloader: ObservableObject {
     /// 装好的书)时回落到抽样探测,免得把本来能用的书误判成「需下载」。
     func hasBookAudio(_ bookId: String) -> Bool {
         if let cached = audioReadyCache[bookId] { return cached }
-        let ok = FileManager.default.fileExists(atPath: audioMarkerURL(bookId).path)
-            || probeBookAudio(bookId)
+        let ok: Bool
+        if let entry = manifest?.books.first(where: { $0.bookId == bookId }) {
+            let marker = try? String(contentsOf: audioMarkerURL(bookId), encoding: .utf8)
+            ok = marker?.trimmingCharacters(in: .whitespacesAndNewlines) == Self.bundleFingerprint(entry)
+        } else {
+            ok = FileManager.default.fileExists(atPath: audioMarkerURL(bookId).path) || probeBookAudio(bookId)
+        }
         audioReadyCache[bookId] = ok
         return ok
     }
@@ -155,9 +171,13 @@ final class AssetDownloader: ObservableObject {
         audioMarkerDir.appendingPathComponent(bookId)
     }
 
-    private func writeAudioMarker(_ bookId: String, sha: String) {
+    nonisolated static func bundleFingerprint(_ entry: ManifestEntry) -> String {
+        "\(entry.data.sha256)\n\(entry.audio.sha256)"
+    }
+
+    private func writeAudioMarker(_ entry: ManifestEntry) {
         try? FileManager.default.createDirectory(at: audioMarkerDir, withIntermediateDirectories: true)
-        try? sha.write(to: audioMarkerURL(bookId), atomically: true, encoding: .utf8)
+        try? Self.bundleFingerprint(entry).write(to: audioMarkerURL(entry.bookId), atomically: true, encoding: .utf8)
     }
 
     /// 抽样探测:从这本书的数据里取前几条音频引用,看文件在不在。
@@ -244,7 +264,7 @@ final class AssetDownloader: ObservableObject {
                 weight: 0.8,
                 bookId: entry.bookId
             )
-            writeAudioMarker(entry.bookId, sha: entry.audio.sha256)
+            writeAudioMarker(entry)
             audioReadyCache.removeAll()
             bookProgress[entry.bookId] = 1
             try? markExcludedFromBackup(dataRoot)
@@ -285,11 +305,39 @@ final class AssetDownloader: ObservableObject {
 
         try FileManager.default.createDirectory(at: destination, withIntermediateDirectories: true)
         do {
-            try FileManager.default.unzipItem(at: tempURL, to: destination)
+            try Self.installArchive(tempURL, destination: destination)
         } catch {
             throw AssetDownloadError.unzipFailed(String(describing: error))
         }
         try? FileManager.default.removeItem(at: tempURL)
+    }
+
+    /// Unzip to an empty staging directory, then atomically replace each resource
+    /// file. Direct in-place unzip fails on existing files during a book update.
+    /// Learner progress lives separately and is never part of these archives.
+    nonisolated static func installArchive(_ archive: URL, destination: URL) throws {
+        let fm = FileManager.default
+        let staging = fm.temporaryDirectory.appendingPathComponent("cstf-install-\(UUID().uuidString)")
+        try fm.createDirectory(at: staging, withIntermediateDirectories: true)
+        defer { try? fm.removeItem(at: staging) }
+        try fm.unzipItem(at: archive, to: staging)
+        guard let entries = fm.enumerator(at: staging, includingPropertiesForKeys: [.isRegularFileKey, .isSymbolicLinkKey]) else {
+            throw AssetDownloadError.unzipFailed("无法读取解压资源")
+        }
+        var files: [(URL, URL)] = []
+        for case let source as URL in entries {
+            let attributes = try source.resourceValues(forKeys: [.isRegularFileKey, .isSymbolicLinkKey])
+            guard attributes.isSymbolicLink != true else { throw AssetDownloadError.unzipFailed("资源包含符号链接") }
+            guard attributes.isRegularFile == true else { continue }
+            let relative = String(source.path.dropFirst(staging.path.count + 1))
+            files.append((source, destination.appendingPathComponent(relative)))
+        }
+        // Complete archive validation precedes any writes to installed resources.
+        for (source, target) in files {
+            try fm.createDirectory(at: target.deletingLastPathComponent(), withIntermediateDirectories: true)
+            let data = try Data(contentsOf: source)
+            if (try? Data(contentsOf: target)) != data { try data.write(to: target, options: .atomic) }
+        }
     }
 
     // MARK: - Story illustrations (content-8)

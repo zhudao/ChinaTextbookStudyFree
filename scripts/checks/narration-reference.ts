@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { mathSpeech } from '../../packages/core/src/mathSpeech';
+import { pinyinSpeech, pinyinIdentity } from '../../packages/core/src/pinyinSpeech';
 
 type Alias = { url: string; sha256: string; source_sha256?: string };
 type Versions = { mapping: Record<string, Alias>; book_mapping?: Record<string, Record<string, Alias>> };
@@ -13,6 +14,7 @@ export function narrationVerifier(
   versions: Versions = JSON.parse(fs.readFileSync('release/audio-version-map.json', 'utf8')),
 ) {
   const hashes = new Map<string, string>();
+  let pronunciationRows: Map<string, any> | undefined;
   function asset(url: string): string {
     const file = path.resolve(publicRoot, url.slice(1));
     assert(url.startsWith('/audio/') && file.startsWith(path.resolve(publicRoot, 'audio') + path.sep), `Unsafe narration URL: ${url}`);
@@ -26,8 +28,22 @@ export function narrationVerifier(
   }
   return (text: string, actual: string | null | undefined, bookId: string) => {
     assert(actual, `Missing speech reference for ${text}`);
-    const digest = createHash('sha1').update(mathSpeech(text), 'utf8').digest('hex');
-    const canonical = `/audio/${digest.slice(0, 2)}/${digest}.mp3`;
+    const normalized = mathSpeech(text);
+    const spoken = /^chinese-g1(?:up|down)(?:-|$)/.test(bookId) ? pinyinSpeech(normalized) : null;
+    const digest = createHash('sha1').update(normalized, 'utf8').digest('hex');
+    const version = spoken == null ? '' : `.pinyin-${createHash('sha256').update(pinyinIdentity(normalized, spoken)).digest('hex').slice(0,16)}`;
+    const canonical = `/audio/${digest.slice(0, 2)}/${digest}${version}.mp3`;
+    if (spoken != null) {
+      if (!pronunciationRows) {
+        const manifest = JSON.parse(fs.readFileSync('release/pinyin-audio-manifest.json','utf8'));
+        assert.equal(manifest.voice,'zh-CN-XiaoxiaoNeural'); assert.equal(manifest.rate,'-10%');
+        pronunciationRows = new Map(manifest.items.map((r:any) => [r.url,r]));
+      }
+      const row = pronunciationRows.get(canonical);
+      assert(row && row.source_text === normalized && row.spoken_text === spoken, `Missing pronunciation receipt: ${text}`);
+      assert.equal(row.voice,'zh-CN-XiaoxiaoNeural'); assert.equal(row.rate,'-10%');
+      verifyBytes(canonical,row.mp3_sha256); verifyBytes(row.source_url,row.opus_sha256);
+    }
     let expected = canonical;
     const global = versions.mapping[expected];
     if (global) {

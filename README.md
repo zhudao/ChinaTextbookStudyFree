@@ -5,7 +5,7 @@
 <details>
 <summary>版本与资源说明</summary>
 
-> **当前版本 v1.7.1**：修复亮暗模式文字对比度、档案辅助按钮点击尺寸，以及四上数学一道数位题的答案、解析和 Edge 朗读。已完成成绩保留；该旧课未提交的会话因内容更新需重新开始。v1.7.0 已新增一上、一下、二下、三下、四上、五上、六上七册人教版数学修订版，配套 290 个课时和 2,082 道题，音频采用 Edge；新版使用独立 ID，旧版教材及原成绩保留。连同已更新的二上、三上，覆盖当前官方目录全部九册修订版数学。当前共 58 册版本（44 册当前教材、14 册保留旧版），2,863 个常规课时、18,159 道常规题。
+> **当前版本 v1.7.3**：当前默认修订版一年级数学首课新增点楼层互动，直接开始学习动作；保留已听讲解、未提交答案、旧教材和已完成成绩。儿童30秒目标及教师、真机和隔日掌握仍待人工验收（#12）。包含 v1.7.2 的拼音修复：修复一年级语文拼音被读成英语字母的问题，使用独立的 Edge 拼音音频地址，并校正拼音单元四道错题。英语音频、旧版教材及已完成成绩保留；该内容改变的课时未提交会话需重新开始。包含 v1.7.1 的对比度、按钮尺寸及数位题修复。v1.7.0 已新增一上、一下、二下、三下、四上、五上、六上七册人教版数学修订版，配套 290 个课时和 2,082 道题，音频采用 Edge；新版使用独立 ID，旧版教材及原成绩保留。连同已更新的二上、三上，覆盖当前官方目录全部九册修订版数学。当前共 58 册版本（44 册当前教材、14 册保留旧版），2,863 个常规课时、18,159 道常规题。
 
 </details>
 
@@ -143,9 +143,9 @@
 | 英语 | 人教版 PEP | 三至六年级 | 96 篇 |
 | 科学 | 教科版 | 一至六年级 | — |
 
-**当前资源规模**：45 册教材（44 册当前版本、1 册旧版兼容）、2,387 个常规课节、285 个单元挑战，常规题 15,303 道、挑战题 4,275 道，另有 779 篇课文和 284 篇故事。这是资源覆盖统计，不代表所有题目已通过教师逐题审核。
+**当前资源规模（v1.7.3）**：58 册教材版本（44 册当前版本、14 册旧版兼容）、2,863 个常规课节、385 个单元挑战，常规题 18,159 道、挑战题 4,875 道，另有 936 篇课文和 284 篇故事。这是资源覆盖统计，不代表所有题目已通过教师逐题审核。
 
-**当前审计状态（v1.4.3）**：原补齐版的 2,356 课、15,117 道常规题及讲解已恢复；保留 2026 秋版二上数学的 28 课、168 题，以及三节视觉数感示范的 18 题。原数感课的 24 道题另保留为三节巩固练习，旧错题仍可按原记录复习。全库共 2,387 节常规课、15,303 题，缺讲解 0、单题课 0、少于六题课 0。题目及故事题共 20,804 道通过实际判分检查，音频与 Docker 验证通过；教师签审仍为独立待办。详见 [本版审计及验证记录](docs/content-audit-v1.4.3.md)。
+**历史审计状态（v1.4.3，非当前规模）**：原补齐版的 2,356 课、15,117 道常规题及讲解已恢复；保留 2026 秋版二上数学的 28 课、168 题，以及三节视觉数感示范的 18 题。原数感课的 24 道题另保留为三节巩固练习，旧错题仍可按原记录复习。全库共 2,387 节常规课、15,303 题，缺讲解 0、单题课 0、少于六题课 0。题目及故事题共 20,804 道通过实际判分检查，音频与 Docker 验证通过；教师签审仍为独立待办。详见 [本版审计及验证记录](docs/content-audit-v1.4.3.md)。
 
 ---
 
@@ -160,18 +160,18 @@
 ```sh
 git clone --branch main https://github.com/wuwangzhang1216/ChinaTextbookStudyFree.git
 cd ChinaTextbookStudyFree
-docker compose build --build-arg ASSETS_RELEASE=v1.7.1
+docker compose build --build-arg ASSETS_RELEASE=v1.7.3
 docker compose up -d --no-build --wait --wait-timeout 120
 ```
 
-打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载、校验 `v1.7.1` 全部资源，复用已验证的 MP3 与转换缓存，再构建网站。
+打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载、校验 `v1.7.3` 全部资源，复用已验证的 MP3 与转换缓存，再构建网站。
 
 **从旧版升级**：升级前备份自定义代码，在原项目根目录执行以下命令，并保留原来的 `.env`、Compose 项目名和访问协议、域名/IP、端口；如原先使用 `-p`、`-f` 等参数，以下每条 `docker compose` 命令都沿用这些参数。构建完成后再替换容器，浏览器学习记录继续保存在同一地址下。
 
 ```sh
 git switch main
 git pull --ff-only origin main
-docker compose build --build-arg ASSETS_RELEASE=v1.7.1
+docker compose build --build-arg ASSETS_RELEASE=v1.7.3
 docker compose up -d --no-build --force-recreate --wait --wait-timeout 120
 ```
 
@@ -201,14 +201,14 @@ cd ChinaTextbookStudyFree
 
 ### 2. 下载或升级完整资源
 
-音频、图片和配套数据通过 [v1.7.1 Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.7.1) 分发。音频按体积分为多个独立 ZIP，每个不超过 1.4 GB；新版安装器会下载全部所需分包，先校验，再解压和逐文件核验，已有目录也会正常更新。
+音频、图片和配套数据通过 [v1.7.3 Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.7.3) 分发。音频按体积分为多个独立 ZIP，每个不超过 1.4 GB；新版安装器会下载全部所需分包，先校验，再解压和逐文件核验，已有目录也会正常更新。
 
 ```bash
 # macOS / Linux：在仓库根目录执行
-python3 scripts/install-release.py --tag v1.7.1
+python3 scripts/install-release.py --tag v1.7.3
 
 # Windows PowerShell
-py -3 scripts/install-release.py --tag v1.7.1
+py -3 scripts/install-release.py --tag v1.7.3
 ```
 
 完整包包含 MP3、原路径音频、数据、配图和课本原页，以及可选的匹配源码与现成网站。`manifest.json`、`files.jsonl` 和 `SHA256SUMS` 提供附件及逐文件校验。建议预留至少 40 GB 用于下载、暂存、安装和备份；有本地修改时先备份。离线安装、旧版升级及验证命令见 [安装与升级说明](docs/release-install.md)。
@@ -225,7 +225,7 @@ npm run dev
 **直接使用现成网站**：无需 Git、Node.js 或 FFmpeg。从 Release 下载新版 `install-release.py`，执行：
 
 ```bash
-python3 install-release.py --tag v1.7.1 --mode static --root ChinaStudyFree-site
+python3 install-release.py --tag v1.7.3 --mode static --root ChinaStudyFree-site
 python3 -m http.server 8080 --directory ChinaStudyFree-site
 ```
 

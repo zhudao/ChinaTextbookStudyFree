@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "unchangedBookJSON": 3325,
+  "englishJSONByteIdentical": 737,
+  "oldMediaByteIdentical": 329216,
+  "onlySemanticChanges": [
+    {
+      "lesson": "chinese-g1up-u3-kp2",
+      "questions": [
+        18,
+        19
+      ]
+    }
+  ],
+  "bookAndQuestionIDsPreserved": true
+}

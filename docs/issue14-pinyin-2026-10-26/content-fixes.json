@@ -1,0 +1,152 @@
+[
+  {
+    "source": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit3.json",
+    "section": "unit_test",
+    "question_id": 18,
+    "before": {
+      "id": 18,
+      "type": "fill_blank_text",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "两拼音节的拼读方法",
+      "question": "声母 'p' 和韵母 'à' 拼在一起，对应的汉字是' ( ____ ) 步'。",
+      "options": [],
+      "answer": "跑",
+      "explanation": "此处考察pà，对应汉字'怕'，但在语境中题目指拼音，若结合常见词，p-à拼出pà。"
+    },
+    "after": {
+      "id": 18,
+      "type": "fill_blank_text",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "两拼音节的拼读方法",
+      "question": "声母p和韵母à拼在一起，组成音节pà。这个音节对应的汉字是（____）。",
+      "options": [],
+      "answer": "怕",
+      "explanation": "p和à拼成pà，对应汉字“怕”。“跑”读pǎo，韵母和声调都不同。"
+    },
+    "reason": "Independently checked pinyin/word correspondence; preserve IDs and completed grades."
+  },
+  {
+    "source": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit3.json",
+    "section": "unit_test",
+    "question_id": 19,
+    "before": {
+      "id": 19,
+      "type": "matching",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "两拼音节的拼读方法",
+      "question": "请将图片中的事物与对应的拼音连线。",
+      "options": [
+        "喇叭",
+        "词典",
+        "地毯",
+        "瀑布",
+        "mù mǎ",
+        "pù bù",
+        "lǎ ba",
+        "dì tǎn"
+      ],
+      "answer": "A-3,B-4,C-2,D-1",
+      "explanation": "喇叭-lǎ ba, 词典-此处指dì tǎn(地毯)与lǎ ba(喇叭)之类音节匹配。重新核对：A-喇叭对应7（lǎ ba），B-词典对应8(此题模板限定4x4)，修正：A喇叭-lǎ ba, B瀑布-pù bù, C木马-mù mǎ, D地毯-dì tǎn"
+    },
+    "after": {
+      "id": 19,
+      "type": "matching",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "两拼音节的拼读方法",
+      "question": "请将词语与对应的拼音连线。",
+      "options": [
+        "喇叭",
+        "木马",
+        "地毯",
+        "瀑布",
+        "mù mǎ",
+        "pù bù",
+        "lǎ ba",
+        "dì tǎn"
+      ],
+      "answer": "A-3,B-1,C-4,D-2",
+      "explanation": "喇叭读lǎ ba，木马读mù mǎ，地毯读dì tǎn，瀑布读pù bù。按左侧顺序，对应右侧第3、1、4、2项。"
+    },
+    "reason": "Independently checked pinyin/word correspondence; preserve IDs and completed grades."
+  },
+  {
+    "source": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit3.json",
+    "section": "exam",
+    "question_id": 6,
+    "before": {
+      "id": 6,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "j、q、x与ü相拼规则",
+      "question": "哪一个音节拼写是错误的？",
+      "options": [
+        "jū",
+        "qǔ",
+        "xù",
+        "nū"
+      ],
+      "answer": "nū",
+      "explanation": "n和ü相拼必须保留两点写成nǚ，nū是n与u拼，属于合法音节但在ü的规则下此处nū无两点不能表示'女'。"
+    },
+    "after": {
+      "id": 6,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "j、q、x与ü相拼规则",
+      "question": "下面哪个音节的韵母是u，而不是ü？",
+      "options": [
+        "jū",
+        "qǔ",
+        "xù",
+        "nǔ"
+      ],
+      "answer": "nǔ",
+      "explanation": "j、q、x后面的u实际表示ü，所以jū、qǔ、xù的韵母是ü。nǔ由n和u拼成，韵母是u。它是合法音节，不能仅因为没有两点就说拼写错误。"
+    },
+    "reason": "Independently checked pinyin/word correspondence; preserve IDs and completed grades."
+  },
+  {
+    "source": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit3.json",
+    "section": "exam",
+    "question_id": 12,
+    "before": {
+      "id": 12,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 3,
+      "knowledge_point": "两拼音节的拼读方法",
+      "question": "下列哪个音节的声调标错了？",
+      "options": [
+        "bā",
+        "tǎ",
+        "mǒ",
+        "pú"
+      ],
+      "answer": "mǒ",
+      "explanation": "m-ǒ虽然拼法正确，但作为题干检查，此处应观察是否有不合日常常用词规律。考点在于拼读准确性。"
+    },
+    "after": {
+      "id": 12,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 3,
+      "knowledge_point": "两拼音节的拼读方法",
+      "question": "下面哪组汉字与拼音不对应？",
+      "options": [
+        "bā（八）",
+        "tǎ（塔）",
+        "mǒ（木）",
+        "pú（葡）"
+      ],
+      "answer": "mǒ（木）",
+      "explanation": "“八”读bā，“塔”读tǎ，“木”读mù，“葡”读pú。“木”不能注成mǒ。mǒ本身可以用于“抹”等字，不是非法音节。"
+    },
+    "reason": "Independently checked pinyin/word correspondence; preserve IDs and completed grades."
+  }
+]
