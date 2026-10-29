@@ -13,7 +13,7 @@ spec.loader.exec_module(installer)
 
 def render(manifest, ios, index):
     tag = installer.safe_name(manifest['tag'])
-    base = f'https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/download/{tag}'
+    base = f'{installer.RELEASE_ROOT}/{tag}'
     resources = installer.resource_base(manifest, tag)
     ios_base = f"{installer.RELEASE_ROOT}/{installer.safe_name(manifest.get('ios_resource_tag', tag))}"
     assets = {a['name']: a for a in manifest['assets']}
@@ -26,6 +26,8 @@ def render(manifest, ios, index):
         kind = assets.get(name, {}).get('kind', '')
         location = ios_base if kind.startswith('ios-') else (
             base if kind in {'installer', 'instructions'} or name in {'manifest.json', 'SHA256SUMS', 'VALIDATION.json', 'ios-manifest.json'} else resources)
+        if assets.get(name, {}).get('release_tag') is not None:
+            location = installer.asset_base(manifest, tag, assets[name])
         return f'[{label or name}]({location}/{name})'
 
     lines = [f'# {tag} 下载导航', '', '**不需要下载 Assets 中的全部文件。** 按使用方式选择一个入口即可。', '',
@@ -54,7 +56,7 @@ def render(manifest, ios, index):
     for subject, label in [('math', '数学'), ('chinese', '语文'), ('english', '英语'), ('science', '科学')]:
         lines += [f'<details><summary>{label}</summary>', '', '| 教材 | 数据 | AAC 音频 |', '| --- | --- | --- |']
         for book in sorted((b for b in books.values() if b['subject'] == subject),
-                           key=lambda b: (b['grade'], b['semester'] != 'up', bool(b.get('supersededBy')))):
+                           key=lambda b: (b.get('schoolSystem', '6-3') == '5-4', b['grade'], b['semester'] != 'up', bool(b.get('supersededBy')))):
             entry = entries[book['id']]
             for field in ('data', 'audio'):
                 bundle = entry[field]
@@ -68,6 +70,7 @@ def render(manifest, ios, index):
     lines += ['## 为什么还有这么多附件？', '',
               f'- iOS：{len(entries)} 册 × 每册数据/音频两包，共 {len(entries)*2} 个附件，支持按需下载。',
               '- Web：音频受单文件体积限制分包；MP3、原路径兼容音频和 iOS AAC 面向不同用途。',
+              '- 未变更的资源可复用前版发布页：清单保留大小与 SHA-256，安装器自动获取；无需重复上传或手动拼接。',
               '- 源码、构建输入和校验清单供开发、离线安装及完整性验证使用。GitHub 另自动提供两种源码压缩包，开发者选一种源码获取方式即可。',
               ('- 本版采用独立的 Web 与 iOS 资源发布页，主发布页保留下载导航、安装器和校验入口。安装器自动获取对应资源，无需逐个选择。'
                if manifest.get('resource_tag') and manifest.get('ios_resource_tag') else
